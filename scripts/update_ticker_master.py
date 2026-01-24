@@ -10,6 +10,8 @@ from typing import Optional
 import urllib.request
 import tempfile
 import os
+import re
+from bs4 import BeautifulSoup
 
 logging.basicConfig(
     level=logging.INFO,
@@ -17,8 +19,11 @@ logging.basicConfig(
 )
 logger = logging.getLogger(__name__)
 
-# 東証公式の銘柄一覧ExcelのURL
-JPX_STOCK_LIST_URL = "https://www.jpx.co.jp/listing/stocks/list/res/jstock_j.xls"
+# 東証公式の銘柄一覧ページのURL
+JPX_STOCK_LIST_PAGE_URL = "https://www.jpx.co.jp/listing/stocks/list/index.html"
+
+# User-Agent（ブラウザとして認識されるように）
+USER_AGENT = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
 
 # 除外する市場区分（REIT、ETF、インフラファンドなど）
 EXCLUDED_MARKETS = [
@@ -40,6 +45,80 @@ INCLUDED_MARKETS = [
 ]
 
 
+def find_excel_url(page_url: str) -> str:
+    """
+    東証の銘柄一覧ページからExcelファイルのURLを動的に取得
+    
+    Args:
+        page_url: 銘柄一覧ページのURL
+        
+    Returns:
+        ExcelファイルのURL
+    """
+    logger.info(f"銘柄一覧ページにアクセス中: {page_url}")
+    
+    try:
+        # リクエストヘッダーを設定
+        req = urllib.request.Request(page_url)
+        req.add_header('User-Agent', USER_AGENT)
+        
+        # ページを取得
+        with urllib.request.urlopen(req) as response:
+            html = response.read().decode('utf-8')
+        
+        # BeautifulSoupでHTMLを解析
+        soup = BeautifulSoup(html, 'html.parser')
+        
+        # aタグからExcelファイルのリンクを探す
+        excel_urls = []
+        for link in soup.find_all('a', href=True):
+            href = link['href']
+            # xlsxまたはxls拡張子を持つリンクを探す
+            if re.search(r'\.(xlsx|xls)$', href, re.IGNORECASE):
+                # 相対パスの場合は絶対URLに変換
+                if href.startswith('/'):
+                    full_url = f"https://www.jpx.co.jp{href}"
+                elif href.startswith('http'):
+                    full_url = href
+                else:
+                    full_url = f"https://www.jpx.co.jp/listing/stocks/list/{href}"
+                
+                # data_j.xlsxなどの文字列を含むものを優先
+                if 'data_j' in href.lower() or 'jstock' in href.lower():
+                    excel_urls.insert(0, full_url)  # 優先度の高いものを先頭に
+                else:
+                    excel_urls.append(full_url)
+        
+        if not excel_urls:
+            logger.warning("Excelファイルのリンクが見つかりません。デフォルトURLを試します")
+            # フォールバック: 一般的なパスを試す
+            fallback_urls = [
+                "https://www.jpx.co.jp/listing/stocks/list/res/data_j.xlsx",
+                "https://www.jpx.co.jp/listing/stocks/list/res/jstock_j.xls",
+            ]
+            for url in fallback_urls:
+                try:
+                    req = urllib.request.Request(url)
+                    req.add_header('User-Agent', USER_AGENT)
+                    with urllib.request.urlopen(req) as test_response:
+                        if test_response.status == 200:
+                            logger.info(f"フォールバックURLを使用: {url}")
+                            return url
+                except:
+                    continue
+            raise ValueError("ExcelファイルのURLが見つかりません")
+        
+        # 最初に見つかったURLを使用（優先度の高いもの）
+        excel_url = excel_urls[0]
+        logger.info(f"ExcelファイルのURLを発見: {excel_url}")
+        
+        return excel_url
+        
+    except Exception as e:
+        logger.error(f"ExcelファイルのURL取得エラー: {str(e)}")
+        raise
+
+
 def download_jpx_excel(url: str, temp_dir: Optional[Path] = None) -> Path:
     """
     東証公式の銘柄一覧Excelをダウンロード
@@ -54,11 +133,20 @@ def download_jpx_excel(url: str, temp_dir: Optional[Path] = None) -> Path:
     if temp_dir is None:
         temp_dir = Path(tempfile.gettempdir())
     
-    temp_file = temp_dir / "jpx_stock_list.xls"
+    # ファイル拡張子を取得して適切なファイル名を設定
+    file_ext = '.xlsx' if url.endswith('.xlsx') else '.xls'
+    temp_file = temp_dir / f"jpx_stock_list{file_ext}"
     
     logger.info(f"Excelファイルをダウンロード中: {url}")
     try:
-        urllib.request.urlretrieve(url, temp_file)
+        # User-Agentを設定してリクエスト
+        req = urllib.request.Request(url)
+        req.add_header('User-Agent', USER_AGENT)
+        
+        with urllib.request.urlopen(req) as response:
+            with open(temp_file, 'wb') as out_file:
+                out_file.write(response.read())
+        
         logger.info(f"ダウンロード完了: {temp_file}")
         return temp_file
     except Exception as e:
@@ -80,15 +168,28 @@ def load_and_filter_stocks(excel_path: Path) -> pd.DataFrame:
     
     try:
         # Excelファイルを読み込み（最初のシートを読み込む）
-        # .xlsファイルの場合はxlrd、.xlsxファイルの場合はopenpyxlを使用
-        if excel_path.suffix.lower() == '.xls':
+        # .xlsxファイルの場合はopenpyxl、.xlsファイルの場合はxlrdを使用
+        file_ext = excel_path.suffix.lower()
+        
+        if file_ext == '.xlsx':
+            # .xlsxファイルはopenpyxlを使用
+            df = pd.read_excel(excel_path, sheet_name=0, engine='openpyxl')
+        elif file_ext == '.xls':
+            # .xlsファイルはxlrdを使用
             try:
                 df = pd.read_excel(excel_path, sheet_name=0, engine='xlrd')
-            except Exception:
-                # xlrdで読み込めない場合、openpyxlを試す
-                logger.warning("xlrdで読み込めませんでした。openpyxlを試します...")
-                df = pd.read_excel(excel_path, sheet_name=0, engine='openpyxl')
+            except Exception as e:
+                logger.warning(f"xlrdで読み込めませんでした: {str(e)}")
+                # xlrdで読み込めない場合、openpyxlを試す（一部の.xlsファイルはopenpyxlで読める場合がある）
+                try:
+                    logger.info("openpyxlを試します...")
+                    df = pd.read_excel(excel_path, sheet_name=0, engine='openpyxl')
+                except Exception as e2:
+                    logger.error(f"openpyxlでも読み込めませんでした: {str(e2)}")
+                    raise
         else:
+            # 拡張子が不明な場合はopenpyxlを試す
+            logger.warning(f"不明な拡張子: {file_ext}。openpyxlを試します...")
             df = pd.read_excel(excel_path, sheet_name=0, engine='openpyxl')
         logger.info(f"読み込み完了: {len(df)}行")
         
@@ -253,7 +354,9 @@ def update_ticker_master(output_path: Optional[Path] = None) -> Path:
     # 一時ファイルをダウンロード
     temp_file = None
     try:
-        temp_file = download_jpx_excel(JPX_STOCK_LIST_URL)
+        # まずExcelファイルのURLを動的に取得
+        excel_url = find_excel_url(JPX_STOCK_LIST_PAGE_URL)
+        temp_file = download_jpx_excel(excel_url)
         
         # Excelを読み込み、フィルタリング
         df, code_col, name_col, market_col, sector_33_col, sector_17_col = load_and_filter_stocks(temp_file)
