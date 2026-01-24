@@ -1,6 +1,6 @@
 """
 日本株財務データ取得モジュール（インクリメンタル取得版）
-jpx_tse_info.csvから全銘柄を読み込み、古い順に優先的に500件取得する
+jpx_tse_info.csvから全銘柄を読み込み、JSON形式で個別保存する
 """
 
 import os
@@ -8,8 +8,9 @@ import time
 import random
 import logging
 import yaml
-from datetime import datetime, timedelta
-from typing import Dict, List, Optional, Tuple
+import json
+from datetime import datetime
+from typing import Dict, List, Optional
 import pandas as pd
 import yfinance as yf
 from pathlib import Path
@@ -18,7 +19,6 @@ import sys
 sys.path.insert(0, str(Path(__file__).parent.parent))
 
 import constants
-from fetcher import StockDataFetcher as BaseStockDataFetcher
 
 logging.basicConfig(
     level=logging.INFO,
@@ -27,8 +27,8 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 
-class IncrementalStockDataFetcher(BaseStockDataFetcher):
-    """インクリメンタル取得対応のStockDataFetcher"""
+class IncrementalStockDataFetcher:
+    """インクリメンタル取得対応のStockDataFetcher（JSON個別保存版）"""
     
     def __init__(self, config_path: str = "config.yaml", max_tickers_per_run: int = 500):
         """
@@ -38,10 +38,21 @@ class IncrementalStockDataFetcher(BaseStockDataFetcher):
             config_path: 設定ファイルのパス
             max_tickers_per_run: 1回の実行で取得する最大銘柄数（デフォルト: 500）
         """
-        super().__init__(config_path)
-        self.max_tickers_per_run = max_tickers_per_run
-        self.today = datetime.now().date()
+        with open(config_path, 'r', encoding='utf-8') as f:
+            self.config = yaml.safe_load(f)
         
+        self.data_dir = Path("data/raw")
+        self.data_dir.mkdir(parents=True, exist_ok=True)
+        
+        self.max_tickers_per_run = max_tickers_per_run
+        self.years = self.config.get("data_acquisition", {}).get("years", 5)
+        
+        # 404エラー連続カウンター
+        self.consecutive_404_count = 0
+        self.max_consecutive_404 = 5  # 5回連続で404が発生したら中断
+        
+        logger.info(f"IncrementalStockDataFetcher初期化完了: 最大取得数={max_tickers_per_run}銘柄")
+    
     def load_all_tickers_from_jpx(self, jpx_info_path: Optional[Path] = None) -> List[str]:
         """
         jpx_tse_info.csvから全銘柄を読み込む（内国株式のみ）
@@ -56,37 +67,34 @@ class IncrementalStockDataFetcher(BaseStockDataFetcher):
             jpx_info_path = Path("data/raw/jpx_tse_info.csv")
         
         if not jpx_info_path.exists():
-            logger.warning(f"jpx_tse_info.csvが見つかりません: {jpx_info_path}")
-            logger.info("既存のticker_list.pyから銘柄を読み込みます")
-            from ticker_list import get_all_tickers
-            return get_all_tickers()
+            logger.error(f"jpx_tse_info.csvが見つかりません: {jpx_info_path}")
+            return []
         
         try:
             df = pd.read_csv(jpx_info_path, encoding='utf-8-sig')
             
-            # コード列を探す
+            # コード列と市場・商品区分列を探す
             code_col = None
             market_col = None
             for col in df.columns:
-                if 'コード' in col or ('code' in col.lower() and 'ticker' not in col.lower()):
+                if 'コード' in col:
                     code_col = col
-                elif '市場・商品区分' in col or '市場' in col:
+                elif '市場・商品区分' in col:
                     market_col = col
             
             if not code_col:
                 logger.error("コード列が見つかりません")
-                from ticker_list import get_all_tickers
-                return get_all_tickers()
+                return []
             
             # 内国株式のみをフィルタリング
             if market_col:
                 df = df[df[market_col].astype(str).str.contains('内国株式', na=False)]
                 logger.info(f"内国株式フィルタリング後: {len(df)}銘柄")
             
-            # コード整形：小数点を除去し、4桁の文字列（0埋め）に変換（例: 1301.0 -> "1301"）
-            df['ticker'] = df[code_col].astype(str).str.replace(r'\.0$', '', regex=True).str.strip().str.zfill(4)
+            # コード整形：astype(str)し、.str.replace('.0', '')とzfill(4)で正しい4桁コードに変換
+            df['ticker'] = df[code_col].astype(str).str.replace('.0', '', regex=False).str.strip().str.zfill(4)
             
-            # 有効な4桁コードのみを抽出（数字のみ、アルファベットを含むものは除外）
+            # 有効な4桁コードのみを抽出（数字のみ）
             df = df[df['ticker'].str.len() == 4]
             df = df[df['ticker'].str.isdigit()]
             
@@ -99,13 +107,35 @@ class IncrementalStockDataFetcher(BaseStockDataFetcher):
             logger.error(f"jpx_tse_info.csvの読み込みエラー: {str(e)}")
             import traceback
             traceback.print_exc()
-            logger.info("既存のticker_list.pyから銘柄を読み込みます")
-            from ticker_list import get_all_tickers
-            return get_all_tickers()
+            return []
     
-    def get_file_last_modified_date(self, ticker: str) -> Optional[datetime]:
+    def get_json_file_path(self, ticker: str) -> Path:
         """
-        銘柄のデータファイルの最終更新日時を取得
+        銘柄のJSONファイルパスを取得
+        
+        Args:
+            ticker: 銘柄コード
+            
+        Returns:
+            JSONファイルのパス
+        """
+        return self.data_dir / f"{ticker}.json"
+    
+    def json_file_exists(self, ticker: str) -> bool:
+        """
+        JSONファイルが存在するかチェック
+        
+        Args:
+            ticker: 銘柄コード
+            
+        Returns:
+            ファイルが存在する場合True
+        """
+        return self.get_json_file_path(ticker).exists()
+    
+    def get_json_file_mtime(self, ticker: str) -> Optional[datetime]:
+        """
+        JSONファイルの最終更新日時を取得
         
         Args:
             ticker: 銘柄コード
@@ -113,42 +143,16 @@ class IncrementalStockDataFetcher(BaseStockDataFetcher):
         Returns:
             最終更新日時（ファイルが存在しない場合はNone）
         """
-        # debugフォルダ内のファイルをチェック
-        debug_dir = self.data_dir / "debug"
-        debug_files = [
-            debug_dir / f"debug_{ticker}_PL.csv",
-            debug_dir / f"debug_{ticker}_CF.csv",
-            debug_dir / f"debug_{ticker}_BS.csv",
-        ]
-        
-        latest_mtime = None
-        for file_path in debug_files:
-            if file_path.exists():
-                mtime = datetime.fromtimestamp(file_path.stat().st_mtime)
-                if latest_mtime is None or mtime > latest_mtime:
-                    latest_mtime = mtime
-        
-        return latest_mtime
-    
-    def is_fetched_today(self, ticker: str) -> bool:
-        """
-        今日取得済みかどうかをチェック
-        
-        Args:
-            ticker: 銘柄コード
-            
-        Returns:
-            今日取得済みの場合True
-        """
-        last_modified = self.get_file_last_modified_date(ticker)
-        if last_modified is None:
-            return False
-        
-        return last_modified.date() == self.today
+        json_path = self.get_json_file_path(ticker)
+        if json_path.exists():
+            return datetime.fromtimestamp(json_path.stat().st_mtime)
+        return None
     
     def select_tickers_by_priority(self, all_tickers: List[str]) -> List[str]:
         """
-        優先順位に基づいて銘柄を選択（古い順、またはファイルが存在しない銘柄を優先）
+        優先順位に基づいて銘柄を選択
+        1. まだJSONファイルが存在しない銘柄を最優先
+        2. 次に、ファイルの更新日時が最も古い銘柄を優先
         
         Args:
             all_tickers: 全銘柄コードのリスト
@@ -158,34 +162,163 @@ class IncrementalStockDataFetcher(BaseStockDataFetcher):
         """
         logger.info(f"優先順位に基づいて銘柄を選択中（全{len(all_tickers)}銘柄）...")
         
-        # 今日取得済みの銘柄を除外
-        tickers_to_check = [t for t in all_tickers if not self.is_fetched_today(t)]
-        logger.info(f"今日取得済みを除外: {len(tickers_to_check)}銘柄（除外: {len(all_tickers) - len(tickers_to_check)}銘柄）")
+        # 各銘柄の状態を取得
+        ticker_status = []
+        for ticker in all_tickers:
+            json_exists = self.json_file_exists(ticker)
+            mtime = self.get_json_file_mtime(ticker)
+            
+            # 優先度: ファイルが存在しない > 古いファイル
+            if not json_exists:
+                priority = (0, datetime(2000, 1, 1))  # 最優先
+            else:
+                priority = (1, mtime)  # 存在する場合は更新日時でソート
+            
+            ticker_status.append((ticker, priority, json_exists, mtime))
         
-        # 各銘柄の最終更新日時を取得
-        ticker_dates = []
-        for ticker in tickers_to_check:
-            last_modified = self.get_file_last_modified_date(ticker)
-            # ファイルが存在しない場合は、非常に古い日付として扱う
-            if last_modified is None:
-                last_modified = datetime(2000, 1, 1)
-            ticker_dates.append((ticker, last_modified))
-        
-        # 古い順にソート（ファイルが存在しない銘柄が最優先）
-        ticker_dates.sort(key=lambda x: x[1])
+        # 優先度でソート（ファイルが存在しないもの → 古い順）
+        ticker_status.sort(key=lambda x: (x[1][0], x[1][1]))
         
         # 最大max_tickers_per_run件を選択
-        selected_tickers = [ticker for ticker, _ in ticker_dates[:self.max_tickers_per_run]]
+        selected_tickers = [ticker for ticker, _, _, _ in ticker_status[:self.max_tickers_per_run]]
         
-        logger.info(f"選択された銘柄数: {len(selected_tickers)}銘柄")
+        # 統計情報をログ出力
+        no_file_count = sum(1 for _, _, exists, _ in ticker_status[:self.max_tickers_per_run] if not exists)
+        logger.info(f"選択された銘柄数: {len(selected_tickers)}銘柄（未取得: {no_file_count}銘柄, 更新対象: {len(selected_tickers) - no_file_count}銘柄）")
+        
         if selected_tickers:
-            oldest_date = ticker_dates[0][1]
-            newest_date = ticker_dates[min(len(selected_tickers) - 1, len(ticker_dates) - 1)][1]
-            logger.info(f"最古の更新日時: {oldest_date.strftime('%Y-%m-%d')}, 最新の更新日時: {newest_date.strftime('%Y-%m-%d')}")
+            oldest = ticker_status[0][3]
+            if oldest:
+                logger.info(f"最古の更新日時: {oldest.strftime('%Y-%m-%d %H:%M:%S')}")
         
         return selected_tickers
     
-    def fetch_incremental(self, jpx_info_path: Optional[Path] = None) -> str:
+    def _convert_to_japanese_ticker(self, ticker: str) -> str:
+        """
+        日本株ティッカーに変換（4桁コードに.Tを付与）
+        
+        Args:
+            ticker: 銘柄コード（4桁）
+            
+        Returns:
+            日本株ティッカー（例: 7203.T）
+        """
+        ticker = str(ticker).strip().zfill(4)
+        if not ticker.endswith('.T'):
+            ticker = ticker + '.T'
+        return ticker
+    
+    def fetch_stock_data(self, ticker: str) -> Optional[Dict]:
+        """
+        1銘柄の財務データを取得
+        
+        Args:
+            ticker: 銘柄コード
+            
+        Returns:
+            財務データの辞書（失敗時はNone）
+        """
+        jp_ticker = self._convert_to_japanese_ticker(ticker)
+        
+        try:
+            logger.info(f"{ticker} ({jp_ticker}) データ取得中...")
+            stock = yf.Ticker(jp_ticker)
+            
+            # 財務データを取得
+            financials = stock.financials
+            balance_sheet = stock.balance_sheet
+            cashflow = stock.cashflow
+            info = stock.info
+            
+            # データが空の場合は404とみなす
+            if (financials is None or financials.empty) and \
+               (balance_sheet is None or balance_sheet.empty) and \
+               (cashflow is None or cashflow.empty):
+                logger.warning(f"{ticker} データが空です（404の可能性）")
+                self.consecutive_404_count += 1
+                if self.consecutive_404_count >= self.max_consecutive_404:
+                    logger.error(f"404エラーが{self.max_consecutive_404}回連続しました。安全のため中断します。")
+                    return None
+                return None
+            
+            # 404エラーカウンターをリセット
+            self.consecutive_404_count = 0
+            
+            # データを辞書形式に変換
+            data = {
+                'ticker': ticker,
+                'japanese_ticker': jp_ticker,
+                'fetch_date': datetime.now().isoformat(),
+                'financials': financials.to_dict() if financials is not None and not financials.empty else {},
+                'balance_sheet': balance_sheet.to_dict() if balance_sheet is not None and not balance_sheet.empty else {},
+                'cashflow': cashflow.to_dict() if cashflow is not None and not cashflow.empty else {},
+                'info': info if info else {},
+            }
+            
+            logger.info(f"{ticker} データ取得完了")
+            return data
+            
+        except Exception as e:
+            error_msg = str(e)
+            logger.warning(f"{ticker} 取得失敗: {error_msg}")
+            
+            # 404エラーの可能性をチェック
+            if "404" in error_msg or "Not Found" in error_msg:
+                self.consecutive_404_count += 1
+                if self.consecutive_404_count >= self.max_consecutive_404:
+                    logger.error(f"404エラーが{self.max_consecutive_404}回連続しました。安全のため中断します。")
+                    return None
+            
+            return None
+    
+    def save_stock_data(self, ticker: str, data: Dict) -> bool:
+        """
+        銘柄データをJSONファイルとして保存
+        
+        Args:
+            ticker: 銘柄コード
+            data: 財務データの辞書
+            
+        Returns:
+            保存成功時True
+        """
+        json_path = self.get_json_file_path(ticker)
+        
+        try:
+            with open(json_path, 'w', encoding='utf-8') as f:
+                json.dump(data, f, ensure_ascii=False, indent=2, default=str)
+            
+            logger.info(f"{ticker} データ保存完了: {json_path}")
+            return True
+            
+        except Exception as e:
+            logger.error(f"{ticker} データ保存失敗: {str(e)}")
+            return False
+    
+    def load_stock_data(self, ticker: str) -> Optional[Dict]:
+        """
+        既存のJSONファイルから銘柄データを読み込む
+        
+        Args:
+            ticker: 銘柄コード
+            
+        Returns:
+            財務データの辞書（ファイルが存在しない場合はNone）
+        """
+        json_path = self.get_json_file_path(ticker)
+        
+        if not json_path.exists():
+            return None
+        
+        try:
+            with open(json_path, 'r', encoding='utf-8') as f:
+                data = json.load(f)
+            return data
+        except Exception as e:
+            logger.warning(f"{ticker} データ読み込み失敗: {str(e)}")
+            return None
+    
+    def fetch_incremental(self, jpx_info_path: Optional[Path] = None) -> int:
         """
         インクリメンタル取得を実行
         
@@ -193,7 +326,7 @@ class IncrementalStockDataFetcher(BaseStockDataFetcher):
             jpx_info_path: jpx_tse_info.csvのパス
             
         Returns:
-            保存されたファイルパス
+            取得した銘柄数
         """
         logger.info("=" * 60)
         logger.info("インクリメンタル取得開始")
@@ -201,6 +334,10 @@ class IncrementalStockDataFetcher(BaseStockDataFetcher):
         
         # 全銘柄を読み込み
         all_tickers = self.load_all_tickers_from_jpx(jpx_info_path)
+        if not all_tickers:
+            logger.error("銘柄リストが空です")
+            return 0
+        
         logger.info(f"全銘柄数: {len(all_tickers)}銘柄")
         
         # 優先順位に基づいて銘柄を選択
@@ -208,21 +345,43 @@ class IncrementalStockDataFetcher(BaseStockDataFetcher):
         
         if not selected_tickers:
             logger.info("取得対象の銘柄がありません")
-            return ""
-        
-        # 日付ベースのセクター名を使用
-        sector_name = f"daily_{datetime.now().strftime('%Y%m%d')}"
+            return 0
         
         # データ取得と保存
         logger.info(f"データ取得開始: {len(selected_tickers)}銘柄")
-        filepath = self.fetch_and_save(selected_tickers, sector=sector_name, skip_processed=False)
+        fetched_count = 0
+        failed_count = 0
         
-        if filepath:
-            logger.info(f"データ取得完了: {filepath}")
-        else:
-            logger.info("データ取得完了（保存ファイルなし）")
+        for i, ticker in enumerate(selected_tickers, 1):
+            # 404エラーが連続した場合は中断
+            if self.consecutive_404_count >= self.max_consecutive_404:
+                logger.warning(f"404エラーが連続したため、{i-1}/{len(selected_tickers)}銘柄で中断します")
+                break
+            
+            logger.info(f"[{i}/{len(selected_tickers)}] {ticker} 処理中...")
+            
+            # データ取得
+            data = self.fetch_stock_data(ticker)
+            
+            if data:
+                # データ保存
+                if self.save_stock_data(ticker, data):
+                    fetched_count += 1
+                else:
+                    failed_count += 1
+            else:
+                failed_count += 1
+            
+            # 1銘柄ごとにランダムな待機時間（1秒程度）
+            if i < len(selected_tickers):  # 最後の銘柄では待機しない
+                sleep_time = random.uniform(0.8, 1.5)
+                time.sleep(sleep_time)
         
-        return filepath
+        logger.info("=" * 60)
+        logger.info(f"データ取得完了: 成功={fetched_count}銘柄, 失敗={failed_count}銘柄")
+        logger.info("=" * 60)
+        
+        return fetched_count
 
 
 def main():
@@ -234,13 +393,16 @@ def main():
     
     try:
         fetcher = IncrementalStockDataFetcher(max_tickers_per_run=max_tickers)
-        filepath = fetcher.fetch_incremental()
+        fetched_count = fetcher.fetch_incremental()
         
-        if filepath:
-            print(f"\n✅ データ取得完了: {filepath}")
+        if fetched_count > 0:
+            print(f"\n✅ データ取得完了: {fetched_count}銘柄")
         else:
             print("\n✅ 取得対象の銘柄がありませんでした")
             
+    except KeyboardInterrupt:
+        logger.warning("ユーザーによって中断されました")
+        print("\n⚠️ 処理が中断されました")
     except Exception as e:
         logger.error(f"エラーが発生しました: {str(e)}")
         import traceback
