@@ -140,9 +140,9 @@ class ReportGenerator:
                     for _, row in jpx_df.iterrows():
                         ticker = str(row[ticker_col]).strip()
                         sector = str(row[sector_col]).strip()
-                        # tickerから.Tを除去して数値のみにする
-                        ticker_clean = ticker.replace('.T', '').replace('T', '')
-                        if ticker_clean and sector:
+                        # コード整形：小数点を除去し、4桁の文字列（0埋め）に変換（例: 1301.0 -> "1301"）
+                        ticker_clean = ticker.replace('.T', '').replace('T', '').replace('.0', '').strip().zfill(4)
+                        if ticker_clean and sector and ticker_clean.isdigit() and len(ticker_clean) == 4:
                             sector_info[ticker_clean] = sector
                     logger.info(f"セクター情報を読み込みました: {len(sector_info)}件")
             except Exception as e:
