@@ -1,0 +1,142 @@
+name: Daily Stock Data Scan
+
+on:
+  schedule:
+    # 日本時間 08:00 に実行（UTC 23:00、前日）
+    - cron: '0 23 * * *'
+  workflow_dispatch:  # 手動実行も可能にする
+
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write  # コミット・プッシュに必要
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fetch-depth: 0  # 全履歴を取得（キャッシュキーのため）
+      
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+          cache: 'pip'
+      
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+      
+      - name: Restore data cache
+        uses: actions/cache@v4
+        id: cache-data
+        with:
+          path: data/raw
+          key: stock-data-${{ runner.os }}-${{ github.ref }}-${{ hashFiles('ticker_list.py') }}
+          restore-keys: |
+            stock-data-${{ runner.os }}-${{ github.ref }}-
+            stock-data-${{ runner.os }}-
+      
+      - name: Create data directories
+        run: |
+          mkdir -p data/raw
+          mkdir -p data/processed
+          mkdir -p data/logs
+      
+      - name: Prepare ticker list
+        run: |
+          # 未処理の銘柄リストを準備
+          python3 << 'EOF'
+          from ticker_list import get_remaining_tickers, save_ticker_list
+          import yaml
+          
+          # 設定ファイルからバッチサイズを取得
+          try:
+              with open('config.yaml', 'r') as f:
+                  config = yaml.safe_load(f)
+                  batch_size = config.get('data_acquisition', {}).get('batch_size', 50)
+          except:
+              batch_size = 50
+          
+          # 未処理銘柄を取得
+          today_tickers = get_remaining_tickers(batch_size=batch_size)
+          
+          if today_tickers:
+              # 今日処理する銘柄リストを保存
+              save_ticker_list(today_tickers, 'today_tickers.txt')
+              print(f"Today's batch: {len(today_tickers)} tickers")
+          else:
+              print("No remaining tickers to process")
+              # 空ファイルを作成（後続ステップでスキップするため）
+              with open('today_tickers.txt', 'w') as f:
+                  pass
+          EOF
+      
+      - name: Fetch stock data
+        run: |
+          python3 << 'EOF'
+          import sys
+          from fetcher import StockDataFetcher
+          from ticker_list import load_ticker_list
+          from datetime import datetime
+          
+          # 今日処理する銘柄リストを読み込み
+          tickers = load_ticker_list('today_tickers.txt')
+          
+          if not tickers:
+              print("No tickers to process today")
+              sys.exit(0)
+          
+          print(f"Processing {len(tickers)} tickers...")
+          
+          # フェッチャーを初期化
+          fetcher = StockDataFetcher()
+          
+          # 日付ベースのセクター名を使用
+          sector_name = f"daily_{datetime.now().strftime('%Y%m%d')}"
+          
+          # データ取得と保存
+          try:
+              filepath = fetcher.fetch_and_save(tickers, sector=sector_name)
+              print(f"Data saved to: {filepath}")
+          except Exception as e:
+              print(f"Error occurred: {str(e)}")
+              import traceback
+              traceback.print_exc()
+              sys.exit(1)
+          EOF
+        continue-on-error: true  # エラーが発生しても続行
+      
+      - name: Check for changes
+        id: changes
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add data/raw/*.csv data/logs/*.log 2>/dev/null || true
+          if git diff --staged --quiet; then
+            echo "has_changes=false" >> $GITHUB_OUTPUT
+          else
+            echo "has_changes=true" >> $GITHUB_OUTPUT
+          fi
+      
+      - name: Commit and push changes
+        if: steps.changes.outputs.has_changes == 'true'
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add data/raw/*.csv data/logs/*.log
+          git commit -m "Auto-update: Daily stock data scan $(date +'%Y-%m-%d %H:%M:%S')"
+          git push
+      
+      - name: Save data cache
+        uses: actions/cache@v4
+        if: always()  # エラーが発生してもキャッシュを保存
+        with:
+          path: data/raw
+          key: stock-data-${{ runner.os }}-${{ github.ref }}-${{ hashFiles('ticker_list.py') }}
+          restore-keys: |
+            stock-data-${{ runner.os }}-${{ github.ref }}-
+            stock-data-${{ runner.os }}-
