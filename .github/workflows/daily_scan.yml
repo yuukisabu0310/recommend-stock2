@@ -246,8 +246,8 @@ jobs:
         if: always()  # エラーが発生してもキャッシュを保存（重要：取得したデータを失わないため）
         with:
           path: data/raw
-          key: stock-data-${{ runner.os }}-${{ github.ref }}-${{ hashFiles('scripts/fetcher.py') }}
+          key: stock-data-${{ runner.os }}-${{ github.ref }}-${{ hashFiles('data/raw/jpx_tse_info.csv') }}
           restore-keys: |
             stock-data-${{ runner.os }}-${{ github.ref }}-
-            stock-data-${{ runner.os }}-${{ hashFiles('scripts/fetcher.py') }}-
+            stock-data-${{ runner.os }}-${{ hashFiles('data/raw/jpx_tse_info.csv') }}-
             stock-data-${{ runner.os }}-
