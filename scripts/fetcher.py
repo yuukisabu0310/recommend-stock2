@@ -244,14 +244,34 @@ class IncrementalStockDataFetcher:
             # 404エラーカウンターをリセット
             self.consecutive_404_count = 0
             
-            # データを辞書形式に変換
+            # データを辞書形式に変換（DataFrameはJSONシリアライズ可能な形式に変換）
+            def df_to_dict(df):
+                """DataFrameをJSONシリアライズ可能な辞書に変換"""
+                if df is None or df.empty:
+                    return {}
+                # インデックス名を文字列に変換し、列名（日付）も文字列に変換
+                result = {}
+                for idx in df.index:
+                    idx_str = str(idx)
+                    result[idx_str] = {}
+                    for col in df.columns:
+                        col_str = str(col)
+                        value = df.loc[idx, col]
+                        # NaNやNoneをnullに変換
+                        if pd.isna(value):
+                            result[idx_str][col_str] = None
+                        else:
+                            # numpy型をPython型に変換
+                            result[idx_str][col_str] = float(value) if pd.api.types.is_numeric_dtype(type(value)) else str(value)
+                return result
+            
             data = {
                 'ticker': ticker,
                 'japanese_ticker': jp_ticker,
                 'fetch_date': datetime.now().isoformat(),
-                'financials': financials.to_dict() if financials is not None and not financials.empty else {},
-                'balance_sheet': balance_sheet.to_dict() if balance_sheet is not None and not balance_sheet.empty else {},
-                'cashflow': cashflow.to_dict() if cashflow is not None and not cashflow.empty else {},
+                'financials': df_to_dict(financials),
+                'balance_sheet': df_to_dict(balance_sheet),
+                'cashflow': df_to_dict(cashflow),
                 'info': info if info else {},
             }
             
