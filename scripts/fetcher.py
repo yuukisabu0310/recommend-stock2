@@ -73,30 +73,33 @@ class IncrementalStockDataFetcher:
         try:
             df = pd.read_csv(jpx_info_path, encoding='utf-8-sig')
             
-            # コード列と市場・商品区分列を探す
-            code_col = None
-            market_col = None
-            for col in df.columns:
-                if 'コード' in col:
-                    code_col = col
-                elif '市場・商品区分' in col:
-                    market_col = col
-            
-            if not code_col:
-                logger.error("コード列が見つかりません")
+            # 「コード」という名前のカラムを直接使用
+            if 'コード' not in df.columns:
+                logger.error("「コード」列が見つかりません")
                 return []
             
-            # 内国株式のみをフィルタリング
-            if market_col:
-                df = df[df[market_col].astype(str).str.contains('内国株式', na=False)]
-                logger.info(f"内国株式フィルタリング後: {len(df)}銘柄")
+            # 「市場・商品区分」カラムの確認
+            if '市場・商品区分' not in df.columns:
+                logger.error("「市場・商品区分」列が見つかりません")
+                return []
             
-            # コード整形：astype(str)し、.str.replace('.0', '')とzfill(4)で正しい4桁コードに変換
-            df['ticker'] = df[code_col].astype(str).str.replace('.0', '', regex=False).str.strip().str.zfill(4)
+            # 内国株式のみをフィルタリング（「市場・商品区分」に「内国株式」を含む行のみ）
+            df = df[df['市場・商品区分'].astype(str).str.contains('内国株式', na=False)]
+            logger.info(f"内国株式フィルタリング後: {len(df)}銘柄")
             
-            # 有効な4桁コードのみを抽出（数字のみ）
+            # コード整形：「コード」列を数値から文字列に変換し、不要な小数点を除去
+            # .0$ を正規表現で除去してからzfill(4)で4桁に整形
+            df['ticker'] = df['コード'].astype(str).str.replace(r'\.0$', '', regex=True).str.strip().str.zfill(4)
+            
+            # 不適切なコードの除外：4桁の数字であることを確認
+            # 4桁でないもの、数字以外を含むもの、業種コードと思われる短いものを除外
             df = df[df['ticker'].str.len() == 4]
             df = df[df['ticker'].str.isdigit()]
+            
+            # サンプルをログに出力（デバッグ用）
+            if len(df) > 0:
+                sample_tickers = df['ticker'].head(10).tolist()
+                logger.info(f"読み込まれた銘柄コードのサンプル（最初の10件）: {sample_tickers}")
             
             tickers = df['ticker'].tolist()
             
