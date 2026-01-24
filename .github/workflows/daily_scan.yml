@@ -161,6 +161,13 @@ jobs:
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
           
+          # 最新の変更を取得（リベースで履歴を整理）
+          echo "=== Pulling latest changes with rebase ==="
+          git pull --rebase origin main || {
+            echo "Rebase failed, trying regular pull..."
+            git pull origin main || echo "Pull failed, continuing anyway"
+          }
+          
           # ステージング: data/raw フォルダ内のすべてのファイルを強制的に追加
           echo "=== Staging files ==="
           git add -A data/raw/
@@ -182,8 +189,35 @@ jobs:
             echo ""
             echo "=== Committing ==="
             git commit -m "Auto-update financial data: $(date +'%Y-%m-%d %H:%M:%S')"
+            
+            # プッシュ前に再度最新の変更を取得
+            echo "=== Pulling latest changes before push ==="
+            git pull --rebase origin main || {
+              echo "Rebase failed before push, trying regular pull..."
+              git pull origin main || echo "Pull failed, continuing anyway"
+            }
+            
+            # プッシュを実行（失敗時は再試行）
             echo "=== Pushing to repository ==="
-            git push origin main
+            MAX_RETRIES=3
+            RETRY_COUNT=0
+            while [ $RETRY_COUNT -lt $MAX_RETRIES ]; do
+              if git push origin main; then
+                echo "Push successful!"
+                break
+              else
+                RETRY_COUNT=$((RETRY_COUNT + 1))
+                echo "Push failed, attempt $RETRY_COUNT/$MAX_RETRIES"
+                if [ $RETRY_COUNT -lt $MAX_RETRIES ]; then
+                  echo "Pulling latest changes and retrying..."
+                  git pull --rebase origin main || git pull origin main || true
+                  sleep 2
+                else
+                  echo "Push failed after $MAX_RETRIES attempts"
+                  exit 1
+                fi
+              fi
+            done
           else
             echo "=== No changes to commit ==="
             git status
