@@ -86,9 +86,9 @@ class ReportGenerator:
                     for _, row in jpx_df.iterrows():
                         ticker = str(row[ticker_col]).strip()
                         name = str(row[name_col]).strip()
-                        # tickerから.Tを除去して数値のみにする
-                        ticker_clean = ticker.replace('.T', '').replace('T', '')
-                        if ticker_clean and name:
+                        # コード整形：小数点を除去し、4桁の文字列（0埋め）に変換（例: 1301.0 -> "1301"）
+                        ticker_clean = ticker.replace('.T', '').replace('T', '').replace('.0', '').strip().zfill(4)
+                        if ticker_clean and name and ticker_clean.isdigit() and len(ticker_clean) == 4:
                             company_names[ticker_clean] = name
                     logger.info(f"銘柄名情報を読み込みました: {len(company_names)}件")
             except Exception as e:

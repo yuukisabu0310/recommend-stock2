@@ -44,7 +44,7 @@ class IncrementalStockDataFetcher(BaseStockDataFetcher):
         
     def load_all_tickers_from_jpx(self, jpx_info_path: Optional[Path] = None) -> List[str]:
         """
-        jpx_tse_info.csvから全銘柄を読み込む
+        jpx_tse_info.csvから全銘柄を読み込む（内国株式のみ）
         
         Args:
             jpx_info_path: jpx_tse_info.csvのパス（デフォルト: data/raw/jpx_tse_info.csv）
@@ -64,28 +64,41 @@ class IncrementalStockDataFetcher(BaseStockDataFetcher):
         try:
             df = pd.read_csv(jpx_info_path, encoding='utf-8-sig')
             
-            # ticker列を探す
-            ticker_col = None
+            # コード列を探す
+            code_col = None
+            market_col = None
             for col in df.columns:
-                if 'ticker' in col.lower() or 'コード' in col or 'code' in col.lower():
-                    ticker_col = col
-                    break
+                if 'コード' in col or ('code' in col.lower() and 'ticker' not in col.lower()):
+                    code_col = col
+                elif '市場・商品区分' in col or '市場' in col:
+                    market_col = col
             
-            if not ticker_col:
-                logger.error("ticker列が見つかりません")
+            if not code_col:
+                logger.error("コード列が見つかりません")
                 from ticker_list import get_all_tickers
                 return get_all_tickers()
             
-            # 4桁の文字列に変換
-            tickers = df[ticker_col].astype(str).str.strip().str.zfill(4).tolist()
-            # 有効な4桁コードのみを抽出
-            tickers = [t for t in tickers if len(t) == 4 and t.isdigit()]
+            # 内国株式のみをフィルタリング
+            if market_col:
+                df = df[df[market_col].astype(str).str.contains('内国株式', na=False)]
+                logger.info(f"内国株式フィルタリング後: {len(df)}銘柄")
             
-            logger.info(f"jpx_tse_info.csvから{len(tickers)}銘柄を読み込みました")
+            # コード整形：小数点を除去し、4桁の文字列（0埋め）に変換（例: 1301.0 -> "1301"）
+            df['ticker'] = df[code_col].astype(str).str.replace(r'\.0$', '', regex=True).str.strip().str.zfill(4)
+            
+            # 有効な4桁コードのみを抽出（数字のみ、アルファベットを含むものは除外）
+            df = df[df['ticker'].str.len() == 4]
+            df = df[df['ticker'].str.isdigit()]
+            
+            tickers = df['ticker'].tolist()
+            
+            logger.info(f"jpx_tse_info.csvから{len(tickers)}銘柄（内国株式のみ）を読み込みました")
             return tickers
             
         except Exception as e:
             logger.error(f"jpx_tse_info.csvの読み込みエラー: {str(e)}")
+            import traceback
+            traceback.print_exc()
             logger.info("既存のticker_list.pyから銘柄を読み込みます")
             from ticker_list import get_all_tickers
             return get_all_tickers()
