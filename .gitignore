@@ -18,7 +18,11 @@ data/raw/*.csv
 !data/raw/*_BS.csv
 !data/raw/debug/*.csv
 data/processed/*.csv
+!data/processed/final_recommendations.csv
+!data/processed/screened_results.csv
 data/logs/*.log
+# GitHub Pages用ファイルはコミット
+!docs/index.md
 
 # IDE
 .vscode/

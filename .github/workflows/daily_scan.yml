@@ -155,6 +155,56 @@ jobs:
             head -n 10 data/raw/daily_*_PL.csv | head -n 10
           fi
       
+      - name: Analyze financial data
+        run: |
+          python3 << 'EOF'
+          import sys
+          from analyzer import FinancialDataAnalyzer
+          
+          print("=== 財務データ分析開始 ===")
+          
+          analyzer = FinancialDataAnalyzer()
+          
+          # 全銘柄を分析
+          results_df = analyzer.analyze_all()
+          
+          if not results_df.empty:
+              # 結果を保存
+              analyzer.save_results(results_df)
+              
+              # 最終推奨リストを生成
+              final_df = analyzer.generate_final_recommendations(results_df)
+              analyzer.save_final_recommendations(final_df)
+              
+              print(f"分析完了: {len(results_df)}銘柄")
+              print(f"Sランク銘柄: {len(final_df[final_df['total_score'] >= 110])}銘柄")
+          else:
+              print("分析対象のデータがありません")
+              sys.exit(0)
+          EOF
+        continue-on-error: true  # エラーが発生しても続行
+      
+      - name: Generate GitHub Pages report
+        run: |
+          python3 << 'EOF'
+          import sys
+          from reporter import ReportGenerator
+          
+          print("=== GitHub Pagesレポート生成開始 ===")
+          
+          generator = ReportGenerator()
+          
+          # レポートを生成
+          filepath = generator.generate_report()
+          
+          if filepath:
+              print(f"レポート生成完了: {filepath}")
+          else:
+              print("レポートの生成に失敗しました")
+              sys.exit(1)
+          EOF
+        continue-on-error: true  # エラーが発生しても続行
+      
       - name: Commit and push changes
         run: |
           # Git設定
@@ -171,12 +221,16 @@ jobs:
           # ステージング: data/raw フォルダ内のすべてのファイルを強制的に追加
           echo "=== Staging files ==="
           git add -A data/raw/
+          git add -A data/processed/ || true
           git add -A data/logs/ || true
+          git add -A docs/ || true
           
           # 強制追加フラグ付きでCSVファイルを明示的に追加
           echo "=== Force adding CSV files ==="
           git add -f data/raw/*.csv || echo "No CSV files to force add"
           git add -f data/raw/debug/*.csv || echo "No debug CSV files to force add"
+          git add -f data/processed/*.csv || echo "No processed CSV files to force add"
+          git add -f docs/index.md || echo "No index.md to force add"
           
           # ステージングされたファイルを確認
           echo "=== Staged files ==="
