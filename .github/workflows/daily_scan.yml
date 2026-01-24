@@ -124,6 +124,37 @@ jobs:
           echo "=== Checking for CSV files ==="
           find data/raw -name "*.csv" -type f || echo "No CSV files found"
       
+      - name: Debug - Inspect sample CSV content
+        run: |
+          echo "=== Inspecting sample CSV content (7203.T) ==="
+          # デバッグ用Raw Dataファイルを確認
+          if [ -f "data/raw/debug/debug_7203_PL.csv" ]; then
+            echo "--- PL通期データ (先頭10行) ---"
+            head -n 10 data/raw/debug/debug_7203_PL.csv
+          else
+            echo "debug_7203_PL.csv not found"
+          fi
+          echo ""
+          if [ -f "data/raw/debug/debug_7203_CF.csv" ]; then
+            echo "--- CF通期データ (先頭10行) ---"
+            head -n 10 data/raw/debug/debug_7203_CF.csv
+          else
+            echo "debug_7203_CF.csv not found"
+          fi
+          echo ""
+          if [ -f "data/raw/debug/debug_7203_BS.csv" ]; then
+            echo "--- BS通期データ (先頭10行) ---"
+            head -n 10 data/raw/debug/debug_7203_BS.csv
+          else
+            echo "debug_7203_BS.csv not found"
+          fi
+          echo ""
+          # 通常のCSVファイルも確認
+          if [ -f "data/raw/daily_*_PL.csv" ]; then
+            echo "--- 通常PLデータ (先頭10行) ---"
+            head -n 10 data/raw/daily_*_PL.csv | head -n 10
+          fi
+      
       - name: Commit and push changes
         run: |
           # Git設定
@@ -135,18 +166,27 @@ jobs:
           git add -A data/raw/
           git add -A data/logs/ || true
           
+          # 強制追加フラグ付きでCSVファイルを明示的に追加
+          echo "=== Force adding CSV files ==="
+          git add -f data/raw/*.csv || echo "No CSV files to force add"
+          git add -f data/raw/debug/*.csv || echo "No debug CSV files to force add"
+          
           # ステージングされたファイルを確認
           echo "=== Staged files ==="
           git diff --cached --name-only || echo "No staged files"
           
           # 変更がある場合のみコミット
           if ! git diff --cached --exit-code --quiet; then
-            echo "=== Changes detected, committing ==="
+            echo "=== Changes detected, checking git status before commit ==="
+            git status
+            echo ""
+            echo "=== Committing ==="
             git commit -m "Auto-update financial data: $(date +'%Y-%m-%d %H:%M:%S')"
             echo "=== Pushing to repository ==="
             git push origin main
           else
             echo "=== No changes to commit ==="
+            git status
           fi
       
       - name: Save data cache
