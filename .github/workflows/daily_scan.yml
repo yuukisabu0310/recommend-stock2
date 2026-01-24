@@ -35,11 +35,10 @@ jobs:
         id: cache-data
         with:
           path: data/raw
-          key: stock-data-${{ runner.os }}-${{ github.ref }}-${{ hashFiles('data/raw/jpx_tse_info.csv') }}
+          key: stock-data-v2-${{ runner.os }}-${{ hashFiles('data/raw/jpx_tse_info.csv') }}
           restore-keys: |
-            stock-data-${{ runner.os }}-${{ github.ref }}-
-            stock-data-${{ runner.os }}-${{ hashFiles('data/raw/jpx_tse_info.csv') }}-
-            stock-data-${{ runner.os }}-
+            stock-data-v2-${{ runner.os }}-${{ hashFiles('data/raw/jpx_tse_info.csv') }}-
+            stock-data-v2-${{ runner.os }}-
       
       - name: Create data directories
         run: |
@@ -246,8 +245,7 @@ jobs:
         if: always()  # エラーが発生してもキャッシュを保存（重要：取得したデータを失わないため）
         with:
           path: data/raw
-          key: stock-data-${{ runner.os }}-${{ github.ref }}-${{ hashFiles('data/raw/jpx_tse_info.csv') }}
+          key: stock-data-v2-${{ runner.os }}-${{ hashFiles('data/raw/jpx_tse_info.csv') }}
           restore-keys: |
-            stock-data-${{ runner.os }}-${{ github.ref }}-
-            stock-data-${{ runner.os }}-${{ hashFiles('data/raw/jpx_tse_info.csv') }}-
-            stock-data-${{ runner.os }}-
+            stock-data-v2-${{ runner.os }}-${{ hashFiles('data/raw/jpx_tse_info.csv') }}-
+            stock-data-v2-${{ runner.os }}-
