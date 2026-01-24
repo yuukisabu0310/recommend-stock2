@@ -113,26 +113,41 @@ jobs:
           EOF
         continue-on-error: true  # エラーが発生しても続行
       
-      - name: Check for changes
-        id: changes
+      - name: Debug - List generated files
         run: |
-          git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action"
-          git add data/raw/*.csv data/logs/*.log 2>/dev/null || true
-          if git diff --staged --quiet; then
-            echo "has_changes=false" >> $GITHUB_OUTPUT
-          else
-            echo "has_changes=true" >> $GITHUB_OUTPUT
-          fi
+          echo "=== Checking data/raw directory ==="
+          ls -la data/raw/ || echo "data/raw directory does not exist"
+          echo ""
+          echo "=== Recursive listing of data/raw ==="
+          ls -R data/raw/ || echo "No files found"
+          echo ""
+          echo "=== Checking for CSV files ==="
+          find data/raw -name "*.csv" -type f || echo "No CSV files found"
       
       - name: Commit and push changes
-        if: steps.changes.outputs.has_changes == 'true'
         run: |
-          git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action"
-          git add data/raw/*.csv data/logs/*.log
-          git commit -m "Auto-update: Daily stock data scan $(date +'%Y-%m-%d %H:%M:%S')"
-          git push
+          # Git設定
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          
+          # ステージング: data/raw フォルダ内のすべてのファイルを強制的に追加
+          echo "=== Staging files ==="
+          git add -A data/raw/
+          git add -A data/logs/ || true
+          
+          # ステージングされたファイルを確認
+          echo "=== Staged files ==="
+          git diff --cached --name-only || echo "No staged files"
+          
+          # 変更がある場合のみコミット
+          if ! git diff --cached --exit-code --quiet; then
+            echo "=== Changes detected, committing ==="
+            git commit -m "Auto-update financial data: $(date +'%Y-%m-%d %H:%M:%S')"
+            echo "=== Pushing to repository ==="
+            git push origin main
+          else
+            echo "=== No changes to commit ==="
+          fi
       
       - name: Save data cache
         uses: actions/cache@v4

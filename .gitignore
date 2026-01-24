@@ -10,7 +10,12 @@ ENV/
 .venv
 
 # データファイル（大きなファイルは除外）
-data/raw/*.csv
+# ただし、デバッグ用Raw Dataは精査のためにコミットする
+# data/raw/debug/*.csv
+data/raw/*_meta.csv
+data/raw/*_PL.csv
+data/raw/*_CF.csv
+data/raw/*_BS.csv
 data/processed/*.csv
 data/logs/*.log
 

@@ -5,6 +5,7 @@ TradingView/yfinanceから財務データを取得し、data/rawに保存する
 
 import os
 import time
+import random
 import logging
 import yaml
 from datetime import datetime, timedelta
@@ -15,6 +16,22 @@ from pathlib import Path
 
 import constants
 from ticker_list import get_processed_tickers as get_processed_tickers_from_files
+
+# ============================================
+# テスト用固定銘柄リスト（10銘柄）
+# ============================================
+TEST_TICKERS = [
+    "7203",  # トヨタ自動車
+    "6758",  # ソニーグループ
+    "9984",  # ソフトバンクグループ
+    "6861",  # キーエンス
+    "4503",  # アステラス製薬
+    "4063",  # 信越化学工業
+    "8031",  # 三井物産
+    "8306",  # 三菱UFJフィナンシャル・グループ
+    "9432",  # 日本電信電話
+    "7974",  # 任天堂
+]
 
 
 # ============================================
@@ -132,6 +149,7 @@ class StockDataFetcher:
     def _extract_financials(self, stock: yf.Ticker, ticker: str) -> Dict:
         """
         財務データを抽出（PL, CF, BS）
+        デバッグログ強化版：生データのインデックス名をすべて出力
         
         Args:
             stock: yf.Tickerオブジェクト
@@ -145,62 +163,157 @@ class StockDataFetcher:
             'pl': None,
             'cf': None,
             'bs': None,
+            'pl_quarterly': None,
+            'cf_quarterly': None,
+            'bs_quarterly': None,
+            'fast_info': None,
             'missing_flags': [],
             'data_quality': {}
         }
         
         try:
-            # 損益計算書（PL: Profit & Loss）
+            # ============================================
+            # 基本情報（fast_info）の取得と確認
+            # ============================================
+            try:
+                if hasattr(stock, 'fast_info'):
+                    fast_info = stock.fast_info
+                    data['fast_info'] = dict(fast_info) if fast_info else None
+                    self.logger.info(f"{ticker} fast_info取得: {list(data['fast_info'].keys()) if data['fast_info'] else 'None'}")
+                else:
+                    self.logger.warning(f"{ticker} fast_info属性が存在しません")
+            except Exception as e:
+                self.logger.warning(f"{ticker} fast_info取得エラー: {str(e)}")
+            
+            # ============================================
+            # 損益計算書（PL: Profit & Loss）- 通期データ
+            # ============================================
             try:
                 pl = stock.financials
                 if pl is not None and not pl.empty:
+                    # デバッグ: 生のインデックス名をすべて出力
+                    self.logger.info(f"{ticker} PL通期データ - インデックス名一覧:")
+                    for idx_name in pl.index:
+                        self.logger.info(f"  - {idx_name}")
+                    self.logger.info(f"{ticker} PL通期データ - カラム（年度）: {list(pl.columns)}")
+                    self.logger.info(f"{ticker} PL通期データ - 形状: {pl.shape}, 欠損値数: {pl.isna().sum().sum()}")
+                    
                     # 最新5年分に制限
                     if len(pl.columns) > self.years:
                         pl = pl.iloc[:, :self.years]
                     data['pl'] = pl
-                    self.logger.debug(f"{ticker} PLデータ取得成功: {len(pl.columns)}年分")
+                    self.logger.info(f"{ticker} PL通期データ取得成功: {len(pl.columns)}年分")
                 else:
                     data['missing_flags'].append('pl_empty')
-                    self.logger.warning(f"{ticker} PLデータが空です")
+                    self.logger.warning(f"{ticker} PL通期データが空です")
             except Exception as e:
                 data['missing_flags'].append('pl_error')
-                self.logger.warning(f"{ticker} PLデータ取得エラー: {str(e)}")
+                self.logger.warning(f"{ticker} PL通期データ取得エラー: {str(e)}")
             
-            # キャッシュフロー（CF: Cash Flow）
+            # ============================================
+            # 損益計算書（PL）- 四半期データ
+            # ============================================
+            try:
+                pl_q = stock.quarterly_financials
+                if pl_q is not None and not pl_q.empty:
+                    self.logger.info(f"{ticker} PL四半期データ - インデックス名一覧:")
+                    for idx_name in pl_q.index:
+                        self.logger.info(f"  - {idx_name}")
+                    self.logger.info(f"{ticker} PL四半期データ - カラム（四半期）: {list(pl_q.columns)}")
+                    self.logger.info(f"{ticker} PL四半期データ - 形状: {pl_q.shape}")
+                    data['pl_quarterly'] = pl_q
+                else:
+                    self.logger.warning(f"{ticker} PL四半期データが空です")
+            except Exception as e:
+                self.logger.warning(f"{ticker} PL四半期データ取得エラー: {str(e)}")
+            
+            # ============================================
+            # キャッシュフロー（CF: Cash Flow）- 通期データ
+            # ============================================
             try:
                 cf = stock.cashflow
                 if cf is not None and not cf.empty:
+                    # デバッグ: 生のインデックス名をすべて出力
+                    self.logger.info(f"{ticker} CF通期データ - インデックス名一覧:")
+                    for idx_name in cf.index:
+                        self.logger.info(f"  - {idx_name}")
+                    self.logger.info(f"{ticker} CF通期データ - カラム（年度）: {list(cf.columns)}")
+                    self.logger.info(f"{ticker} CF通期データ - 形状: {cf.shape}, 欠損値数: {cf.isna().sum().sum()}")
+                    
                     if len(cf.columns) > self.years:
                         cf = cf.iloc[:, :self.years]
                     data['cf'] = cf
-                    self.logger.debug(f"{ticker} CFデータ取得成功: {len(cf.columns)}年分")
+                    self.logger.info(f"{ticker} CF通期データ取得成功: {len(cf.columns)}年分")
                 else:
                     data['missing_flags'].append('cf_empty')
-                    self.logger.warning(f"{ticker} CFデータが空です")
+                    self.logger.warning(f"{ticker} CF通期データが空です")
             except Exception as e:
                 data['missing_flags'].append('cf_error')
-                self.logger.warning(f"{ticker} CFデータ取得エラー: {str(e)}")
+                self.logger.warning(f"{ticker} CF通期データ取得エラー: {str(e)}")
             
-            # 貸借対照表（BS: Balance Sheet）
+            # ============================================
+            # キャッシュフロー（CF）- 四半期データ
+            # ============================================
+            try:
+                cf_q = stock.quarterly_cashflow
+                if cf_q is not None and not cf_q.empty:
+                    self.logger.info(f"{ticker} CF四半期データ - インデックス名一覧:")
+                    for idx_name in cf_q.index:
+                        self.logger.info(f"  - {idx_name}")
+                    self.logger.info(f"{ticker} CF四半期データ - 形状: {cf_q.shape}")
+                    data['cf_quarterly'] = cf_q
+                else:
+                    self.logger.warning(f"{ticker} CF四半期データが空です")
+            except Exception as e:
+                self.logger.warning(f"{ticker} CF四半期データ取得エラー: {str(e)}")
+            
+            # ============================================
+            # 貸借対照表（BS: Balance Sheet）- 通期データ
+            # ============================================
             try:
                 bs = stock.balance_sheet
                 if bs is not None and not bs.empty:
+                    # デバッグ: 生のインデックス名をすべて出力
+                    self.logger.info(f"{ticker} BS通期データ - インデックス名一覧:")
+                    for idx_name in bs.index:
+                        self.logger.info(f"  - {idx_name}")
+                    self.logger.info(f"{ticker} BS通期データ - カラム（年度）: {list(bs.columns)}")
+                    self.logger.info(f"{ticker} BS通期データ - 形状: {bs.shape}, 欠損値数: {bs.isna().sum().sum()}")
+                    
                     if len(bs.columns) > self.years:
                         bs = bs.iloc[:, :self.years]
                     data['bs'] = bs
-                    self.logger.debug(f"{ticker} BSデータ取得成功: {len(bs.columns)}年分")
+                    self.logger.info(f"{ticker} BS通期データ取得成功: {len(bs.columns)}年分")
                 else:
                     data['missing_flags'].append('bs_empty')
-                    self.logger.warning(f"{ticker} BSデータが空です")
+                    self.logger.warning(f"{ticker} BS通期データが空です")
             except Exception as e:
                 data['missing_flags'].append('bs_error')
-                self.logger.warning(f"{ticker} BSデータ取得エラー: {str(e)}")
+                self.logger.warning(f"{ticker} BS通期データ取得エラー: {str(e)}")
+            
+            # ============================================
+            # 貸借対照表（BS）- 四半期データ
+            # ============================================
+            try:
+                bs_q = stock.quarterly_balance_sheet
+                if bs_q is not None and not bs_q.empty:
+                    self.logger.info(f"{ticker} BS四半期データ - インデックス名一覧:")
+                    for idx_name in bs_q.index:
+                        self.logger.info(f"  - {idx_name}")
+                    self.logger.info(f"{ticker} BS四半期データ - 形状: {bs_q.shape}")
+                    data['bs_quarterly'] = bs_q
+                else:
+                    self.logger.warning(f"{ticker} BS四半期データが空です")
+            except Exception as e:
+                self.logger.warning(f"{ticker} BS四半期データ取得エラー: {str(e)}")
             
             # データ品質チェック
             data['data_quality'] = self._check_data_quality(data)
             
         except Exception as e:
             self.logger.error(f"{ticker} 財務データ抽出エラー: {str(e)}")
+            import traceback
+            self.logger.error(traceback.format_exc())
             data['missing_flags'].append('extraction_error')
         
         return data
@@ -383,13 +496,70 @@ class StockDataFetcher:
             if data:
                 results.append(data)
             
-            # レート制限対策：最後の銘柄以外は追加待機
+            # レート制限対策：最後の銘柄以外は追加待機（ランダム3-5秒）
             if i < len(tickers):
-                time.sleep(self.rate_limit_delay)
+                sleep_time = random.uniform(3.0, 5.0)
+                self.logger.debug(f"レート制限対策: {sleep_time:.2f}秒待機")
+                time.sleep(sleep_time)
         
         self.logger.info(f"データ取得完了: {len(results)}/{len(tickers)}銘柄取得成功")
         
         return results
+    
+    def save_raw_data_debug(self, data: Dict) -> None:
+        """
+        デバッグ用：Raw Dataを完全保存（全行・全列）
+        
+        Args:
+            data: 財務データの辞書
+        """
+        ticker = data['ticker']
+        debug_dir = self.data_dir / "debug"
+        debug_dir.mkdir(parents=True, exist_ok=True)
+        
+        # PL通期データ
+        if data['pl'] is not None and not data['pl'].empty:
+            filepath = debug_dir / f"debug_{ticker}_PL.csv"
+            data['pl'].to_csv(filepath, encoding='utf-8-sig')
+            self.logger.info(f"{ticker} PL Raw Data保存: {filepath}")
+        
+        # CF通期データ
+        if data['cf'] is not None and not data['cf'].empty:
+            filepath = debug_dir / f"debug_{ticker}_CF.csv"
+            data['cf'].to_csv(filepath, encoding='utf-8-sig')
+            self.logger.info(f"{ticker} CF Raw Data保存: {filepath}")
+        
+        # BS通期データ
+        if data['bs'] is not None and not data['bs'].empty:
+            filepath = debug_dir / f"debug_{ticker}_BS.csv"
+            data['bs'].to_csv(filepath, encoding='utf-8-sig')
+            self.logger.info(f"{ticker} BS Raw Data保存: {filepath}")
+        
+        # PL四半期データ
+        if data.get('pl_quarterly') is not None and not data['pl_quarterly'].empty:
+            filepath = debug_dir / f"debug_{ticker}_PL_quarterly.csv"
+            data['pl_quarterly'].to_csv(filepath, encoding='utf-8-sig')
+            self.logger.info(f"{ticker} PL四半期 Raw Data保存: {filepath}")
+        
+        # CF四半期データ
+        if data.get('cf_quarterly') is not None and not data['cf_quarterly'].empty:
+            filepath = debug_dir / f"debug_{ticker}_CF_quarterly.csv"
+            data['cf_quarterly'].to_csv(filepath, encoding='utf-8-sig')
+            self.logger.info(f"{ticker} CF四半期 Raw Data保存: {filepath}")
+        
+        # BS四半期データ
+        if data.get('bs_quarterly') is not None and not data['bs_quarterly'].empty:
+            filepath = debug_dir / f"debug_{ticker}_BS_quarterly.csv"
+            data['bs_quarterly'].to_csv(filepath, encoding='utf-8-sig')
+            self.logger.info(f"{ticker} BS四半期 Raw Data保存: {filepath}")
+        
+        # fast_info
+        if data.get('fast_info') is not None:
+            filepath = debug_dir / f"debug_{ticker}_fast_info.txt"
+            with open(filepath, 'w', encoding='utf-8') as f:
+                for key, value in data['fast_info'].items():
+                    f.write(f"{key}: {value}\n")
+            self.logger.info(f"{ticker} fast_info保存: {filepath}")
     
     def save_to_csv(self, data_list: List[Dict], sector: Optional[str] = None) -> str:
         """
@@ -406,6 +576,10 @@ class StockDataFetcher:
         if not data_list:
             self.logger.warning("保存するデータがありません")
             return ""
+        
+        # デバッグ用：各銘柄のRaw Dataを完全保存
+        for data in data_list:
+            self.save_raw_data_debug(data)
         
         # ファイル名を決定
         if sector:
@@ -526,79 +700,61 @@ class StockDataFetcher:
 
 
 # ============================================
-# メイン関数（テスト用）
+# メイン関数（テスト用 - 10銘柄固定）
 # ============================================
 def main():
-    """テスト実行用のメイン関数"""
+    """テスト実行用のメイン関数（10銘柄固定）"""
     import sys
     
-    # コマンドライン引数で動作モードを選択
-    mode = sys.argv[1] if len(sys.argv) > 1 else "incremental"
-    
-    # テスト用の銘柄リスト（有名な日本株）
-    test_tickers = [
-        "7203",  # トヨタ自動車
-        "6758",  # ソニーグループ
-        "9984",  # ソフトバンクグループ
-        "9434",  # ソフトバンク
-        "6861",  # キーエンス
-    ]
+    # テスト用固定銘柄リスト（10銘柄）
+    test_tickers = TEST_TICKERS.copy()
     
     # フェッチャーを初期化
     fetcher = StockDataFetcher()
     
     print("=" * 60)
-    print("日本株財務データ取得テスト")
+    print("日本株財務データ取得テスト（10銘柄固定）")
     print("=" * 60)
+    print(f"テスト銘柄数: {len(test_tickers)}")
+    print(f"銘柄リスト: {', '.join(test_tickers)}")
+    print()
     
-    if mode == "incremental":
-        # 分割取得モード（推奨）
-        print("モード: 分割取得（未処理銘柄を優先）")
-        print(f"全銘柄数: {len(test_tickers)}")
-        
-        # 処理済み銘柄を確認
-        processed = fetcher.get_processed_tickers()
-        print(f"処理済み銘柄数: {len(processed)}")
-        print(f"未処理銘柄数: {len(test_tickers) - len(processed)}")
-        print()
-        
-        try:
-            filepath = fetcher.fetch_incremental(test_tickers, sector="test")
-            print()
-            print("=" * 60)
-            if filepath:
-                print(f"データ取得完了！")
-                print(f"保存先: {filepath}")
-            else:
-                print("すべての銘柄が既に処理済みです")
-            print("=" * 60)
-        except Exception as e:
-            print(f"エラーが発生しました: {str(e)}")
-            import traceback
-            traceback.print_exc()
+    # 処理済み銘柄を確認
+    processed = fetcher.get_processed_tickers()
+    print(f"処理済み銘柄数: {len(processed)}")
+    print(f"未処理銘柄数: {len(test_tickers) - len(processed)}")
+    print()
     
-    elif mode == "direct":
-        # 直接指定モード（処理済みも含めて取得）
-        print("モード: 直接指定（処理済みも含む）")
-        print(f"テスト銘柄数: {len(test_tickers)}")
-        print(f"銘柄リスト: {', '.join(test_tickers)}")
-        print()
+    # コマンドライン引数で動作モードを選択
+    mode = sys.argv[1] if len(sys.argv) > 1 else "test"
+    
+    try:
+        if mode == "test":
+            # テストモード：10銘柄を固定で処理（処理済みはスキップ）
+            print("モード: テスト（10銘柄固定、処理済みはスキップ）")
+            filepath = fetcher.fetch_and_save(test_tickers, sector="test_10stocks", skip_processed=True)
+        elif mode == "force":
+            # 強制モード：10銘柄を固定で処理（処理済みも含む）
+            print("モード: 強制（10銘柄固定、処理済みも含む）")
+            filepath = fetcher.fetch_and_save(test_tickers, sector="test_10stocks", skip_processed=False)
+        else:
+            print(f"不明なモード: {mode}")
+            print("使用可能なモード: test（デフォルト）, force")
+            return
         
-        try:
-            filepath = fetcher.fetch_and_save(test_tickers, sector="test", skip_processed=False)
-            print()
-            print("=" * 60)
+        print()
+        print("=" * 60)
+        if filepath:
             print(f"データ取得完了！")
             print(f"保存先: {filepath}")
-            print("=" * 60)
-        except Exception as e:
-            print(f"エラーが発生しました: {str(e)}")
-            import traceback
-            traceback.print_exc()
-    
-    else:
-        print(f"不明なモード: {mode}")
-        print("使用可能なモード: incremental, direct")
+            print(f"デバッグ用Raw Data: data/raw/debug/ フォルダを確認してください")
+        else:
+            print("すべての銘柄が既に処理済みです（testモードの場合）")
+        print("=" * 60)
+    except Exception as e:
+        print(f"エラーが発生しました: {str(e)}")
+        import traceback
+        traceback.print_exc()
 
 
 if __name__ == "__main__":
