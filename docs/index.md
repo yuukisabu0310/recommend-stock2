@@ -2,8 +2,9 @@
 
 <div align="center">
 
-![更新日時](https://img.shields.io/badge/更新日時-2026年01月24日 17:01-blue)
+![更新日時](https://img.shields.io/badge/更新日時-2026年01月24日 17:09-blue)
 ![注目銘柄数](https://img.shields.io/badge/今日の注目銘柄数-4銘柄-brightgreen)
+![次回更新](https://img.shields.io/badge/次回更新-2026年01月31日（土）-orange)
 
 </div>
 
@@ -13,9 +14,13 @@
 
 ### 6861 💎無借金 💰キャッシュリッチ
 
-<div style="background-color: #f0f8ff; padding: 15px; border-radius: 8px; margin-bottom: 20px;">
+<div style="background-color: #f0f8ff; padding: 20px; border-radius: 8px; margin-bottom: 20px; border-left: 4px solid #4CAF50;">
 
-**総合スコア**: 115点 | **詳細**: [6861](https://finance.yahoo.co.jp/quote/6861.T)
+<div style="margin-bottom: 10px;">
+![ROIC 10%+](https://img.shields.io/badge/効率-高効率-red) ![Debt Free](https://img.shields.io/badge/財務-無借金-blue) ![Cash Rich](https://img.shields.io/badge/財務-キャッシュリッチ-brightgreen)
+</div>
+
+**総合スコア**: 115点 | <a href="https://finance.yahoo.co.jp/quote/6861.T" style="background-color: #4CAF50; color: white; padding: 8px 16px; text-decoration: none; border-radius: 4px; display: inline-block; font-weight: bold;">📈 チャートを確認</a>
 
 **主要指標**:
 - ROIC: 12.4% 🔥
@@ -30,9 +35,13 @@
 
 ### 9684 💎無借金 💰キャッシュリッチ
 
-<div style="background-color: #f0f8ff; padding: 15px; border-radius: 8px; margin-bottom: 20px;">
+<div style="background-color: #f0f8ff; padding: 20px; border-radius: 8px; margin-bottom: 20px; border-left: 4px solid #4CAF50;">
 
-**総合スコア**: 115点 | **詳細**: [9684](https://finance.yahoo.co.jp/quote/9684.T)
+<div style="margin-bottom: 10px;">
+![Debt Free](https://img.shields.io/badge/財務-無借金-blue) ![Cash Rich](https://img.shields.io/badge/財務-キャッシュリッチ-brightgreen)
+</div>
+
+**総合スコア**: 115点 | <a href="https://finance.yahoo.co.jp/quote/9684.T" style="background-color: #4CAF50; color: white; padding: 8px 16px; text-decoration: none; border-radius: 4px; display: inline-block; font-weight: bold;">📈 チャートを確認</a>
 
 **主要指標**:
 - ROIC: 8.5%
@@ -47,9 +56,13 @@
 
 ### 7974 💎無借金 💰キャッシュリッチ
 
-<div style="background-color: #f0f8ff; padding: 15px; border-radius: 8px; margin-bottom: 20px;">
+<div style="background-color: #f0f8ff; padding: 20px; border-radius: 8px; margin-bottom: 20px; border-left: 4px solid #4CAF50;">
 
-**総合スコア**: 115点 | **詳細**: [7974](https://finance.yahoo.co.jp/quote/7974.T)
+<div style="margin-bottom: 10px;">
+![Debt Free](https://img.shields.io/badge/財務-無借金-blue) ![Cash Rich](https://img.shields.io/badge/財務-キャッシュリッチ-brightgreen)
+</div>
+
+**総合スコア**: 115点 | <a href="https://finance.yahoo.co.jp/quote/7974.T" style="background-color: #4CAF50; color: white; padding: 8px 16px; text-decoration: none; border-radius: 4px; display: inline-block; font-weight: bold;">📈 チャートを確認</a>
 
 **主要指標**:
 - ROIC: 7.3%
@@ -64,9 +77,13 @@
 
 ### 6954 💎無借金 💰キャッシュリッチ
 
-<div style="background-color: #f0f8ff; padding: 15px; border-radius: 8px; margin-bottom: 20px;">
+<div style="background-color: #f0f8ff; padding: 20px; border-radius: 8px; margin-bottom: 20px; border-left: 4px solid #4CAF50;">
 
-**総合スコア**: 115点 | **詳細**: [6954](https://finance.yahoo.co.jp/quote/6954.T)
+<div style="margin-bottom: 10px;">
+![Debt Free](https://img.shields.io/badge/財務-無借金-blue) ![Cash Rich](https://img.shields.io/badge/財務-キャッシュリッチ-brightgreen)
+</div>
+
+**総合スコア**: 115点 | <a href="https://finance.yahoo.co.jp/quote/6954.T" style="background-color: #4CAF50; color: white; padding: 8px 16px; text-decoration: none; border-radius: 4px; display: inline-block; font-weight: bold;">📈 チャートを確認</a>
 
 **主要指標**:
 - ROIC: 6.4%
@@ -138,5 +155,6 @@
 
 ---
 
-*最終更新: 2026年01月24日 17:01*
+*最終更新: 2026年01月24日 17:09*  
+*次回更新予定: 2026年01月31日（土）*
 

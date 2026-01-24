@@ -1,9 +1,10 @@
-name: Daily Stock Data Scan
+name: Weekly Stock Data Scan
 
 on:
   schedule:
-    # 日本時間 08:00 に実行（UTC 23:00、前日）
-    - cron: '0 23 * * *'
+    # 毎週土曜日の日本時間 09:00 に実行（UTC 00:00、土曜日）
+    # 理由：決算発表が出揃う週末にスキャンを行うのが最も効率的なため
+    - cron: '0 0 * * 6'
   workflow_dispatch:  # 手動実行も可能にする
 
 jobs:

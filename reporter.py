@@ -38,6 +38,9 @@ class ReportGenerator:
         # 銘柄名マッピングを読み込み
         self.company_names = self._load_company_names()
         
+        # セクター情報を読み込み
+        self.sector_info = self._load_sector_info()
+        
         logger.info(f"ReportGenerator初期化完了")
     
     def _convert_to_hundred_million(self, value: Optional[float]) -> Optional[float]:
@@ -107,6 +110,113 @@ class ReportGenerator:
         """
         ticker_clean = str(ticker).replace('.T', '').replace('T', '').strip()
         return self.company_names.get(ticker_clean, ticker)
+    
+    def _load_sector_info(self) -> Dict[str, str]:
+        """
+        セクター（業種）情報を読み込む
+        
+        Returns:
+            ticker -> sector_name の辞書
+        """
+        sector_info = {}
+        
+        # jpx_tse_info.csvを読み込み
+        jpx_info_path = self.raw_data_dir / "jpx_tse_info.csv"
+        if jpx_info_path.exists():
+            try:
+                jpx_df = pd.read_csv(jpx_info_path, encoding='utf-8-sig')
+                # ticker列とセクター列を探す
+                ticker_col = None
+                sector_col = None
+                
+                for col in jpx_df.columns:
+                    col_lower = col.lower()
+                    if 'ticker' in col_lower or 'コード' in col or 'code' in col_lower:
+                        ticker_col = col
+                    elif '業種' in col or 'sector' in col_lower or 'セクター' in col or '33業種' in col:
+                        sector_col = col
+                
+                if ticker_col and sector_col:
+                    for _, row in jpx_df.iterrows():
+                        ticker = str(row[ticker_col]).strip()
+                        sector = str(row[sector_col]).strip()
+                        # tickerから.Tを除去して数値のみにする
+                        ticker_clean = ticker.replace('.T', '').replace('T', '')
+                        if ticker_clean and sector:
+                            sector_info[ticker_clean] = sector
+                    logger.info(f"セクター情報を読み込みました: {len(sector_info)}件")
+            except Exception as e:
+                logger.warning(f"セクター情報の読み込みに失敗: {str(e)}")
+        else:
+            logger.warning(f"セクター情報ファイルが見つかりません: {jpx_info_path}")
+        
+        return sector_info
+    
+    def _get_sector(self, ticker: str) -> Optional[str]:
+        """
+        銘柄コードからセクター（業種）を取得
+        
+        Args:
+            ticker: 銘柄コード
+            
+        Returns:
+            セクター名（取得できない場合はNone）
+        """
+        ticker_clean = str(ticker).replace('.T', '').replace('T', '').strip()
+        return self.sector_info.get(ticker_clean)
+    
+    def _get_investment_badges(self, row: pd.Series) -> List[str]:
+        """
+        投資ポイントのバッジを生成
+        
+        Args:
+            row: DataFrameの行
+            
+        Returns:
+            バッジのMarkdown文字列リスト
+        """
+        badges = []
+        
+        # ROIC > 10%
+        roic = row.get('roic')
+        if roic is not None and not pd.isna(roic) and roic >= 10:
+            badges.append("![ROIC 10%+](https://img.shields.io/badge/効率-高効率-red)")
+        
+        # 無借金
+        if row.get('debt_free_flag') == True or row.get('is_debt_free') == True:
+            badges.append("![Debt Free](https://img.shields.io/badge/財務-無借金-blue)")
+        
+        # 高成長（売上成長率 > 10%）
+        revenue_growth = row.get('revenue_growth_rate')
+        if revenue_growth is not None and not pd.isna(revenue_growth) and revenue_growth >= 10:
+            badges.append("![High Growth](https://img.shields.io/badge/成長-高成長-green)")
+        
+        # キャッシュリッチ
+        if row.get('net_cash_status') == '実質無借金':
+            badges.append("![Cash Rich](https://img.shields.io/badge/財務-キャッシュリッチ-brightgreen)")
+        
+        return badges
+    
+    def _get_next_update_date(self) -> str:
+        """
+        次回のデータ更新予定日を計算（毎週土曜日）
+        
+        Returns:
+            次回更新予定日の文字列
+        """
+        from datetime import datetime, timedelta
+        
+        today = datetime.now()
+        # 今日が土曜日かどうか確認（weekday()で5が土曜日）
+        days_until_saturday = (5 - today.weekday()) % 7
+        if days_until_saturday == 0:
+            # 今日が土曜日なら、来週の土曜日
+            next_saturday = today + timedelta(days=7)
+        else:
+            # 今週の土曜日
+            next_saturday = today + timedelta(days=days_until_saturday)
+        
+        return next_saturday.strftime("%Y年%m月%d日（%a）").replace('Sat', '土').replace('Sun', '日').replace('Mon', '月').replace('Tue', '火').replace('Wed', '水').replace('Thu', '木').replace('Fri', '金')
     
     def _format_percentage(self, value: Optional[float]) -> Optional[str]:
         """
@@ -240,12 +350,24 @@ class ReportGenerator:
         if df.empty:
             return "# 推奨銘柄レポート\n\nデータがありません。\n"
         
+        # missing_criticalで分離
+        # missing_criticalがTrueの銘柄を参考データとして分離
+        if 'missing_critical' in df.columns:
+            # ブール値または文字列の'True'/'False'に対応
+            df['missing_critical'] = df['missing_critical'].astype(str).str.lower().isin(['true', '1', 'yes'])
+            main_df = df[~df['missing_critical']].copy()
+            reference_df = df[df['missing_critical']].copy()
+        else:
+            main_df = df.copy()
+            reference_df = pd.DataFrame()
+        
         # 現在の日時
         now = datetime.now()
         update_time = now.strftime("%Y年%m月%d日 %H:%M")
+        next_update = self._get_next_update_date()
         
-        # Sランク銘柄数
-        s_rank_count = len(df[df.get('total_score', 0) >= 110])
+        # Sランク銘柄数（参考データを除く）
+        s_rank_count = len(main_df[main_df.get('total_score', 0) >= 110])
         
         # Header
         markdown = f"""# 📊 日本株 成長×割安スクリーニング結果
@@ -254,6 +376,7 @@ class ReportGenerator:
 
 ![更新日時](https://img.shields.io/badge/更新日時-{update_time}-blue)
 ![注目銘柄数](https://img.shields.io/badge/今日の注目銘柄数-{s_rank_count}銘柄-brightgreen)
+![次回更新](https://img.shields.io/badge/次回更新-{next_update}-orange)
 
 </div>
 
@@ -263,13 +386,14 @@ class ReportGenerator:
 
 """
         
-        # Sランク銘柄（Score 110+）を抽出
-        s_rank_df = df[df.get('total_score', 0) >= 110].copy()
+        # Sランク銘柄（Score 110+）を抽出（参考データを除く）
+        s_rank_df = main_df[main_df.get('total_score', 0) >= 110].copy()
         
         if not s_rank_df.empty:
             for idx, row in s_rank_df.iterrows():
                 ticker = row.get('ticker', 'N/A')
                 company_name = self._get_company_name(ticker)
+                sector = self._get_sector(ticker)
                 score = row.get('total_score', 0)
                 roic = self._format_roic(row.get('roic'))
                 growth_rate = self._format_growth_rate(row.get('revenue_growth_rate'))
@@ -279,20 +403,33 @@ class ReportGenerator:
                 tags = self._get_status_tags(row)
                 tag_str = " ".join(tags) if tags else ""
                 
+                # 投資ポイントバッジを取得
+                investment_badges = self._get_investment_badges(row)
+                badges_html = " ".join(investment_badges) if investment_badges else ""
+                
                 # 銘柄名とコードを表示（銘柄名が取得できた場合のみ）
                 if company_name != ticker:
                     title = f"{company_name} ({ticker})"
                 else:
                     title = ticker
                 
-                # Yahoo Financeリンクを生成
-                ticker_link = self._get_yahoo_finance_link(ticker)
+                # セクター情報を追加
+                sector_display = f" [{sector}]" if sector else ""
                 
-                markdown += f"""### {title} {tag_str}
+                # Yahoo Financeリンクをボタン風に
+                ticker_clean = str(ticker).replace('.T', '').replace('T', '').strip()
+                yahoo_url = f"https://finance.yahoo.co.jp/quote/{ticker_clean}.T"
+                chart_link = f'<a href="{yahoo_url}" style="background-color: #4CAF50; color: white; padding: 8px 16px; text-decoration: none; border-radius: 4px; display: inline-block; font-weight: bold;">📈 チャートを確認</a>'
+                
+                markdown += f"""### {title}{sector_display} {tag_str}
 
-<div style="background-color: #f0f8ff; padding: 15px; border-radius: 8px; margin-bottom: 20px;">
+<div style="background-color: #f0f8ff; padding: 20px; border-radius: 8px; margin-bottom: 20px; border-left: 4px solid #4CAF50;">
 
-**総合スコア**: {score:.0f}点 | **詳細**: {ticker_link}
+<div style="margin-bottom: 10px;">
+{badges_html}
+</div>
+
+**総合スコア**: {score:.0f}点 | {chart_link}
 
 **主要指標**:
 - ROIC: {roic if roic else 'N/A'}
@@ -326,11 +463,12 @@ class ReportGenerator:
 |:----:|:------:|:------:|:-----:|:----:|:------:|:--------------:|:----------------:|:-----------------:|
 """
         
-        # テーブル行を生成
-        for idx, row in df.iterrows():
+        # テーブル行を生成（参考データを除く）
+        for idx, row in main_df.iterrows():
             rank = row.get('rank', idx + 1)
             ticker = row.get('ticker', 'N/A')
             company_name = self._get_company_name(ticker)
+            sector = self._get_sector(ticker)
             score = row.get('total_score', 0)
             roic = self._format_roic(row.get('roic'))
             growth_rate = self._format_growth_rate(row.get('revenue_growth_rate'))
@@ -339,6 +477,9 @@ class ReportGenerator:
             
             tags = self._get_status_tags(row)
             status_str = " ".join(tags) if tags else "-"
+            
+            # セクター情報を追加
+            company_display = f"{company_name} [{sector}]" if sector else company_name
             
             # 値のフォーマット
             roic_str = roic if roic else "N/A"
@@ -349,12 +490,74 @@ class ReportGenerator:
             # Yahoo Financeリンクを生成
             ticker_link = self._get_yahoo_finance_link(ticker)
             
-            markdown += f"| {rank} | {company_name} | {ticker_link} | {score:.0f} | {roic_str} | {growth_str} | {status_str} | {revenue_str} | {op_income_str} |\n"
+            markdown += f"| {rank} | {company_display} | {ticker_link} | {score:.0f} | {roic_str} | {growth_str} | {status_str} | {revenue_str} | {op_income_str} |\n"
         
         markdown += """
 </div>
 
----
+"""
+        
+        # 参考データセクション（missing_criticalがTrueの銘柄）
+        if not reference_df.empty:
+            markdown += """---
+
+## ⚠️ 参考データ（重要データ欠損あり）
+
+以下の銘柄は重要な財務データが欠損しているため、参考情報として表示しています。
+
+<div style="overflow-x: auto;">
+
+| Rank | 銘柄名 | Ticker | Score | ROIC | 成長率 | 財務ステータス | 売上高<br>(億円) | 営業利益<br>(億円) | 欠損項目 |
+|:----:|:------:|:------:|:-----:|:----:|:------:|:--------------:|:----------------:|:-----------------:|:--------:|
+"""
+            
+            # 参考データのテーブル行を生成
+            for idx, row in reference_df.iterrows():
+                rank = row.get('rank', idx + 1)
+                ticker = row.get('ticker', 'N/A')
+                company_name = self._get_company_name(ticker)
+                score = row.get('total_score', 0)
+                roic = self._format_roic(row.get('roic'))
+                growth_rate = self._format_growth_rate(row.get('revenue_growth_rate'))
+                revenue = self._convert_to_hundred_million(row.get('revenue'))
+                operating_income = self._convert_to_hundred_million(row.get('operating_income'))
+                
+                tags = self._get_status_tags(row)
+                status_str = " ".join(tags) if tags else "-"
+                
+                # 欠損項目を取得
+                missing_items = row.get('missing_items', '')
+                if isinstance(missing_items, str):
+                    if missing_items.startswith('[') and missing_items.endswith(']'):
+                        # リスト形式の文字列をパース
+                        import ast
+                        try:
+                            missing_list = ast.literal_eval(missing_items)
+                            missing_str = ', '.join(missing_list) if missing_list else '-'
+                        except:
+                            missing_str = missing_items if missing_items else '-'
+                    else:
+                        missing_str = missing_items if missing_items else '-'
+                else:
+                    missing_str = '-'
+                
+                # 値のフォーマット
+                roic_str = roic if roic else "N/A"
+                growth_str = growth_rate if growth_rate else "N/A"
+                revenue_str = f"{revenue:.1f}" if revenue is not None else "N/A"
+                op_income_str = f"{operating_income:.1f}" if operating_income is not None else "N/A"
+                
+                # Yahoo Financeリンクを生成
+                ticker_link = self._get_yahoo_finance_link(ticker)
+                
+                markdown += f"| {rank} | {company_name} | {ticker_link} | {score:.0f} | {roic_str} | {growth_str} | {status_str} | {revenue_str} | {op_income_str} | {missing_str} |\n"
+            
+            markdown += """
+</div>
+
+"""
+        
+        markdown += """---
 
 ## 📝 凡例
 
@@ -371,9 +574,10 @@ class ReportGenerator:
 
 ---
 
-*最終更新: {update_time}*
+*最終更新: {update_time}*  
+*次回更新予定: {next_update}*
 
-""".format(update_time=update_time)
+""".format(update_time=update_time, next_update=next_update)
         
         return markdown
     
