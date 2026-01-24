@@ -12,6 +12,7 @@ ENV/
 # データファイル（大きなファイルは除外）
 # ただし、財務データCSVはコミットする（ホワイトリスト）
 data/raw/*.csv
+!data/raw/jpx_tse_info.csv  # 銘柄名簿（マスターファイル）
 !data/raw/*_meta.csv
 !data/raw/*_PL.csv
 !data/raw/*_CF.csv
