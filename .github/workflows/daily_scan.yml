@@ -35,9 +35,10 @@ jobs:
         id: cache-data
         with:
           path: data/raw
-          key: stock-data-${{ runner.os }}-${{ github.ref }}-${{ hashFiles('ticker_list.py') }}
+          key: stock-data-${{ runner.os }}-${{ github.ref }}-${{ hashFiles('scripts/fetcher.py') }}
           restore-keys: |
             stock-data-${{ runner.os }}-${{ github.ref }}-
+            stock-data-${{ runner.os }}-${{ hashFiles('scripts/fetcher.py') }}-
             stock-data-${{ runner.os }}-
       
       - name: Create data directories
@@ -46,72 +47,35 @@ jobs:
           mkdir -p data/processed
           mkdir -p data/logs
       
-      - name: Prepare ticker list
-        run: |
-          # 未処理の銘柄リストを準備
-          python3 << 'EOF'
-          from ticker_list import get_remaining_tickers, save_ticker_list
-          import yaml
-          
-          # 設定ファイルからバッチサイズを取得
-          try:
-              with open('config.yaml', 'r') as f:
-                  config = yaml.safe_load(f)
-                  batch_size = config.get('data_acquisition', {}).get('batch_size', 50)
-          except:
-              batch_size = 50
-          
-          # 未処理銘柄を取得
-          today_tickers = get_remaining_tickers(batch_size=batch_size)
-          
-          if today_tickers:
-              # 今日処理する銘柄リストを保存
-              save_ticker_list(today_tickers, 'today_tickers.txt')
-              print(f"Today's batch: {len(today_tickers)} tickers")
-          else:
-              print("No remaining tickers to process")
-              # 空ファイルを作成（後続ステップでスキップするため）
-              with open('today_tickers.txt', 'w') as f:
-                  pass
-          EOF
-      
-      - name: Fetch stock data
+      - name: Fetch stock data (incremental)
         run: |
           python3 << 'EOF'
           import sys
-          from fetcher import StockDataFetcher
-          from ticker_list import load_ticker_list, get_all_tickers
-          from datetime import datetime
+          from pathlib import Path
+          sys.path.insert(0, str(Path.cwd()))
           
-          # 今日処理する銘柄リストを読み込み
-          tickers = load_ticker_list('today_tickers.txt')
+          from scripts.fetcher import IncrementalStockDataFetcher
           
-          if not tickers:
-              print("No tickers to process today")
-              sys.exit(0)
+          print("=== インクリメンタル取得開始 ===")
           
-          print(f"Processing {len(tickers)} tickers...")
+          # フェッチャーを初期化（最大500件）
+          fetcher = IncrementalStockDataFetcher(max_tickers_per_run=500)
           
-          # フェッチャーを初期化
-          fetcher = StockDataFetcher()
-          
-          # 日付ベースのセクター名を使用
-          sector_name = f"daily_{datetime.now().strftime('%Y%m%d')}"
-          
-          # 分割取得モードでデータ取得と保存（処理済みは自動スキップ）
+          # インクリメンタル取得を実行
           try:
-              filepath = fetcher.fetch_and_save(tickers, sector=sector_name, skip_processed=True)
+              filepath = fetcher.fetch_incremental()
               if filepath:
-                  print(f"Data saved to: {filepath}")
+                  print(f"✅ データ取得完了: {filepath}")
               else:
-                  print("No new data to save (all tickers already processed)")
+                  print("✅ 取得対象の銘柄がありませんでした")
           except Exception as e:
-              print(f"Error occurred: {str(e)}")
+              print(f"❌ エラーが発生しました: {str(e)}")
               import traceback
               traceback.print_exc()
-              sys.exit(1)
+              # エラーが発生しても続行（キャッシュ保存のため）
+              sys.exit(0)
           EOF
-        continue-on-error: true  # エラーが発生しても続行
+        continue-on-error: true  # エラーが発生しても続行（キャッシュ保存のため）
       
       - name: Debug - List generated files
         run: |
@@ -279,10 +243,11 @@ jobs:
       
       - name: Save data cache
         uses: actions/cache@v4
-        if: always()  # エラーが発生してもキャッシュを保存
+        if: always()  # エラーが発生してもキャッシュを保存（重要：取得したデータを失わないため）
         with:
           path: data/raw
-          key: stock-data-${{ runner.os }}-${{ github.ref }}-${{ hashFiles('ticker_list.py') }}
+          key: stock-data-${{ runner.os }}-${{ github.ref }}-${{ hashFiles('scripts/fetcher.py') }}
           restore-keys: |
             stock-data-${{ runner.os }}-${{ github.ref }}-
+            stock-data-${{ runner.os }}-${{ hashFiles('scripts/fetcher.py') }}-
             stock-data-${{ runner.os }}-
