@@ -2,7 +2,7 @@
 
 <div align="center">
 
-![更新日時](https://img.shields.io/badge/更新日時-2026年01月24日 08:57-blue)
+![更新日時](https://img.shields.io/badge/更新日時-2026年01月24日 08:59-blue)
 ![注目銘柄数](https://img.shields.io/badge/今日の注目銘柄数-8銘柄-brightgreen)
 ![次回更新](https://img.shields.io/badge/次回更新-2026年01月31日（土）-orange)
 
@@ -270,6 +270,6 @@
 
 ---
 
-*最終更新: 2026年01月24日 08:57*  
+*最終更新: 2026年01月24日 08:59*  
 *次回更新予定: 2026年01月31日（土）*
 
