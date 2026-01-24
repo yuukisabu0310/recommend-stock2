@@ -14,6 +14,7 @@ import yfinance as yf
 from pathlib import Path
 
 import constants
+from ticker_list import get_processed_tickers as get_processed_tickers_from_files
 
 
 # ============================================
@@ -66,11 +67,12 @@ class StockDataFetcher:
         self.retry_count = self.config.get("data_acquisition", {}).get("retry_count", 3)
         self.retry_interval = self.config.get("data_acquisition", {}).get("retry_interval", 5)
         self.rate_limit_delay = self.config.get("data_acquisition", {}).get("rate_limit_delay", 1.0)
+        self.batch_size = self.config.get("data_acquisition", {}).get("batch_size", 50)
         
         # レート制限対策：初回アクセス前の待機時間
         self.initial_delay = 5.0
         
-        self.logger.info(f"StockDataFetcher初期化完了: 取得年数={self.years}年")
+        self.logger.info(f"StockDataFetcher初期化完了: 取得年数={self.years}年, バッチサイズ={self.batch_size}銘柄")
     
     def _convert_to_japanese_ticker(self, ticker: str) -> str:
         """
@@ -279,6 +281,34 @@ class StockDataFetcher:
         
         return quality
     
+    def get_processed_tickers(self) -> set:
+        """
+        既に処理済みの銘柄リストを取得
+        
+        Returns:
+            処理済み銘柄コードのセット
+        """
+        return get_processed_tickers_from_files(str(self.data_dir))
+    
+    def filter_unprocessed_tickers(self, tickers: List[str]) -> List[str]:
+        """
+        未処理の銘柄のみをフィルタリング
+        
+        Args:
+            tickers: 銘柄コードのリスト
+            
+        Returns:
+            未処理銘柄コードのリスト
+        """
+        processed = self.get_processed_tickers()
+        unprocessed = [ticker for ticker in tickers if ticker not in processed]
+        
+        if len(unprocessed) < len(tickers):
+            skipped_count = len(tickers) - len(unprocessed)
+            self.logger.info(f"処理済み銘柄をスキップ: {skipped_count}銘柄")
+        
+        return unprocessed
+    
     def fetch_stock(self, ticker: str) -> Optional[Dict]:
         """
         単一銘柄の財務データを取得
@@ -312,18 +342,34 @@ class StockDataFetcher:
         
         return data
     
-    def fetch_stocks(self, tickers: List[str], sector: Optional[str] = None) -> List[Dict]:
+    def fetch_stocks(self, tickers: List[str], sector: Optional[str] = None, skip_processed: bool = True) -> List[Dict]:
         """
         複数銘柄の財務データを取得
         
         Args:
             tickers: 銘柄コードのリスト
             sector: 業種名（ファイル名に使用）
+            skip_processed: 処理済み銘柄をスキップするか（デフォルト: True）
             
         Returns:
             財務データのリスト
         """
+        # 処理済み銘柄をスキップ
+        if skip_processed:
+            tickers = self.filter_unprocessed_tickers(tickers)
+            if not tickers:
+                self.logger.info("すべての銘柄が既に処理済みです")
+                return []
+        
         self.logger.info(f"複数銘柄データ取得開始: {len(tickers)}銘柄")
+        
+        # バッチサイズを超える場合は警告
+        if len(tickers) > self.batch_size:
+            self.logger.warning(
+                f"銘柄数({len(tickers)})がバッチサイズ({self.batch_size})を超えています。"
+                f"最初の{self.batch_size}銘柄のみ処理します。"
+            )
+            tickers = tickers[:self.batch_size]
         
         # 初回アクセス前の待機（レート制限対策）
         if len(tickers) > 0:
@@ -431,19 +477,52 @@ class StockDataFetcher:
         
         return str(meta_filepath)
     
-    def fetch_and_save(self, tickers: List[str], sector: Optional[str] = None) -> str:
+    def fetch_and_save(self, tickers: List[str], sector: Optional[str] = None, skip_processed: bool = True) -> str:
         """
         データ取得と保存を一括実行
         
         Args:
             tickers: 銘柄コードのリスト
             sector: 業種名（ファイル名に使用）
+            skip_processed: 処理済み銘柄をスキップするか（デフォルト: True）
             
         Returns:
             保存されたファイルパス
         """
-        data_list = self.fetch_stocks(tickers, sector)
+        data_list = self.fetch_stocks(tickers, sector, skip_processed=skip_processed)
+        if not data_list:
+            self.logger.info("保存するデータがありません")
+            return ""
         return self.save_to_csv(data_list, sector)
+    
+    def fetch_incremental(self, all_tickers: List[str], sector: Optional[str] = None) -> str:
+        """
+        分割取得：未処理銘柄を優先して取得（バッチサイズ制限付き）
+        
+        Args:
+            all_tickers: 全銘柄コードのリスト
+            sector: 業種名（ファイル名に使用）
+            
+        Returns:
+            保存されたファイルパス
+        """
+        # 処理済み銘柄を除外
+        unprocessed = self.filter_unprocessed_tickers(all_tickers)
+        
+        if not unprocessed:
+            self.logger.info("すべての銘柄が既に処理済みです")
+            return ""
+        
+        # バッチサイズに制限
+        batch = unprocessed[:self.batch_size]
+        
+        self.logger.info(
+            f"分割取得開始: 全{len(all_tickers)}銘柄中、"
+            f"未処理{len(unprocessed)}銘柄、"
+            f"今回処理{len(batch)}銘柄"
+        )
+        
+        return self.fetch_and_save(batch, sector, skip_processed=False)
 
 
 # ============================================
@@ -451,6 +530,11 @@ class StockDataFetcher:
 # ============================================
 def main():
     """テスト実行用のメイン関数"""
+    import sys
+    
+    # コマンドライン引数で動作モードを選択
+    mode = sys.argv[1] if len(sys.argv) > 1 else "incremental"
+    
     # テスト用の銘柄リスト（有名な日本株）
     test_tickers = [
         "7203",  # トヨタ自動車
@@ -460,28 +544,61 @@ def main():
         "6861",  # キーエンス
     ]
     
-    print("=" * 60)
-    print("日本株財務データ取得テスト")
-    print("=" * 60)
-    print(f"テスト銘柄数: {len(test_tickers)}")
-    print(f"銘柄リスト: {', '.join(test_tickers)}")
-    print()
-    
     # フェッチャーを初期化
     fetcher = StockDataFetcher()
     
-    # データ取得と保存
-    try:
-        filepath = fetcher.fetch_and_save(test_tickers, sector="test")
+    print("=" * 60)
+    print("日本株財務データ取得テスト")
+    print("=" * 60)
+    
+    if mode == "incremental":
+        # 分割取得モード（推奨）
+        print("モード: 分割取得（未処理銘柄を優先）")
+        print(f"全銘柄数: {len(test_tickers)}")
+        
+        # 処理済み銘柄を確認
+        processed = fetcher.get_processed_tickers()
+        print(f"処理済み銘柄数: {len(processed)}")
+        print(f"未処理銘柄数: {len(test_tickers) - len(processed)}")
         print()
-        print("=" * 60)
-        print(f"データ取得完了！")
-        print(f"保存先: {filepath}")
-        print("=" * 60)
-    except Exception as e:
-        print(f"エラーが発生しました: {str(e)}")
-        import traceback
-        traceback.print_exc()
+        
+        try:
+            filepath = fetcher.fetch_incremental(test_tickers, sector="test")
+            print()
+            print("=" * 60)
+            if filepath:
+                print(f"データ取得完了！")
+                print(f"保存先: {filepath}")
+            else:
+                print("すべての銘柄が既に処理済みです")
+            print("=" * 60)
+        except Exception as e:
+            print(f"エラーが発生しました: {str(e)}")
+            import traceback
+            traceback.print_exc()
+    
+    elif mode == "direct":
+        # 直接指定モード（処理済みも含めて取得）
+        print("モード: 直接指定（処理済みも含む）")
+        print(f"テスト銘柄数: {len(test_tickers)}")
+        print(f"銘柄リスト: {', '.join(test_tickers)}")
+        print()
+        
+        try:
+            filepath = fetcher.fetch_and_save(test_tickers, sector="test", skip_processed=False)
+            print()
+            print("=" * 60)
+            print(f"データ取得完了！")
+            print(f"保存先: {filepath}")
+            print("=" * 60)
+        except Exception as e:
+            print(f"エラーが発生しました: {str(e)}")
+            import traceback
+            traceback.print_exc()
+    
+    else:
+        print(f"不明なモード: {mode}")
+        print("使用可能なモード: incremental, direct")
 
 
 if __name__ == "__main__":

@@ -30,6 +30,25 @@ pip install -r requirements.txt
 ## 使用方法
 
 ### Step 1: 財務データの取得
+
+#### 分割取得モード（推奨）
+処理済み銘柄を自動的にスキップし、未処理銘柄のみを取得します。
+
+```python
+from fetcher import StockDataFetcher
+from ticker_list import get_all_tickers
+
+# フェッチャーを初期化
+fetcher = StockDataFetcher()
+
+# 全銘柄リストから未処理銘柄を優先して取得（バッチサイズ制限付き）
+all_tickers = get_all_tickers()
+filepath = fetcher.fetch_incremental(all_tickers, sector="daily")
+```
+
+#### 直接指定モード
+指定した銘柄リストをそのまま取得します（処理済みも含む）。
+
 ```python
 from fetcher import StockDataFetcher
 
@@ -39,15 +58,29 @@ fetcher = StockDataFetcher()
 # 単一銘柄の取得
 data = fetcher.fetch_stock("7203")  # トヨタ自動車
 
-# 複数銘柄の取得と保存
+# 複数銘柄の取得と保存（処理済みをスキップ）
 tickers = ["7203", "6758", "9984"]
-filepath = fetcher.fetch_and_save(tickers, sector="test")
+filepath = fetcher.fetch_and_save(tickers, sector="test", skip_processed=True)
+
+# 処理済みも含めて取得
+filepath = fetcher.fetch_and_save(tickers, sector="test", skip_processed=False)
 ```
 
 ### テスト実行
+
 ```bash
-python fetcher.py
+# 分割取得モード（デフォルト、推奨）
+python fetcher.py incremental
+
+# 直接指定モード
+python fetcher.py direct
 ```
+
+**分割取得の特徴**:
+- 実行ごとに最大50〜100銘柄程度に制限（`config.yaml`で設定可能）
+- すでにデータを取得済みの銘柄は自動的にスキップ
+- まだ取得していない銘柄を優先して処理
+- 数日かけて全銘柄を網羅する設計
 
 ## データ形式
 取得したデータは以下の形式で`data/raw/`に保存されます：

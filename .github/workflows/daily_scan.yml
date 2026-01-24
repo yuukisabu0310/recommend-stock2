@@ -80,7 +80,7 @@ jobs:
           python3 << 'EOF'
           import sys
           from fetcher import StockDataFetcher
-          from ticker_list import load_ticker_list
+          from ticker_list import load_ticker_list, get_all_tickers
           from datetime import datetime
           
           # 今日処理する銘柄リストを読み込み
@@ -98,10 +98,13 @@ jobs:
           # 日付ベースのセクター名を使用
           sector_name = f"daily_{datetime.now().strftime('%Y%m%d')}"
           
-          # データ取得と保存
+          # 分割取得モードでデータ取得と保存（処理済みは自動スキップ）
           try:
-              filepath = fetcher.fetch_and_save(tickers, sector=sector_name)
-              print(f"Data saved to: {filepath}")
+              filepath = fetcher.fetch_and_save(tickers, sector=sector_name, skip_processed=True)
+              if filepath:
+                  print(f"Data saved to: {filepath}")
+              else:
+                  print("No new data to save (all tickers already processed)")
           except Exception as e:
               print(f"Error occurred: {str(e)}")
               import traceback
