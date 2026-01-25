@@ -382,31 +382,30 @@ class ReportGenerator:
         # Sランク銘柄数（参考データを除く）
         s_rank_count = len(main_df[main_df.get('total_score', 0) >= 110])
         
+        # Front Matter（ファイルの先頭に追加）
+        markdown = "---\n"
+        markdown += "layout: default\n"
+        markdown += f"title: 🇯🇵 日本株 厳選成長銘柄スコアボード\n"
+        markdown += "---\n\n\n"
+        
         # Header
-        markdown = f"""# 📊 日本株 成長×割安スクリーニング結果
-
-<div align="center">
-
-![更新日時](https://img.shields.io/badge/更新日時-{update_time}-blue)
-![注目銘柄数](https://img.shields.io/badge/今日の注目銘柄数-{s_rank_count}銘柄-brightgreen)
-![次回更新](https://img.shields.io/badge/次回更新-{next_update}-orange)
-
-</div>
-
----
-
-## 🏆 Top Picks (Sランク銘柄)
-
-"""
+        markdown += f"# 📊 日本株 成長×割安スクリーニング結果\n\n\n"
+        markdown += "<div align=\"center\">\n\n"
+        markdown += f"![更新日時](https://img.shields.io/badge/更新日時-{update_time}-blue)\n"
+        markdown += f"![注目銘柄数](https://img.shields.io/badge/今日の注目銘柄数-{s_rank_count}銘柄-brightgreen)\n"
+        markdown += f"![次回更新](https://img.shields.io/badge/次回更新-{next_update}-orange)\n\n"
+        markdown += "</div>\n\n\n"
+        markdown += "---\n\n\n"
+        markdown += "## 🏆 Top Picks (Sランク銘柄)\n\n\n"
         
         # Sランク銘柄（Score 110+）を抽出（参考データを除く）
         s_rank_df = main_df[main_df.get('total_score', 0) >= 110].copy()
         
         if not s_rank_df.empty:
-            # テーブル形式でTop Picksを表示
-            markdown += "\n\n<div style=\"overflow-x: auto;\">\n\n"
-            markdown += "| 順位 | 銘柄名 | 業種 | スコア | ROIC | 成長率 | バッジ | リンク |\n"
-            markdown += "|:----:|:------:|:----:|:-----:|:----:|:------:|:------:|:------:|\n"
+            # テーブル形式でTop Picksを表示（モバイル対応：情報を整理）
+            markdown += "<div style=\"overflow-x: auto;\">\n\n\n"
+            markdown += "| 順位 | 銘柄名 | 業種 | スコア | バッジ | リンク |\n"
+            markdown += "|:----:|:------:|:----:|:-----:|:------:|:------:|\n"
             
             for idx, row in s_rank_df.iterrows():
                 rank = row.get('rank', idx + 1)
@@ -427,11 +426,10 @@ class ReportGenerator:
                 # Yahoo Financeリンク（Markdown形式）
                 chart_link = self._get_yahoo_finance_link(ticker)
                 
-                # 値のフォーマット
-                roic_str = roic if roic else "N/A"
-                growth_str = growth_rate if growth_rate else "N/A"
+                # 銘柄名にリンクを統合（モバイル対応）
+                company_with_link = f"{company_name}<br>{chart_link}"
                 
-                markdown += f"| {rank} | {company_name} | {sector_display} | {score:.0f} | {roic_str} | {growth_str} | {badges_str} | {chart_link} |\n"
+                markdown += f"| {rank} | {company_with_link} | {sector_display} | {score:.0f} | {badges_str} | {chart_link} |\n"
             
             markdown += "\n</div>\n\n"
         else:
@@ -461,20 +459,21 @@ class ReportGenerator:
             status_str = " ".join(tags) if tags else "-"
             
             # セクター情報を追加
-            company_display = f"{company_name} [{sector}]" if sector else company_name
+            sector_display = sector if sector else "-"
             
             # 値のフォーマット
             roic_str = roic if roic else "N/A"
             growth_str = growth_rate if growth_rate else "N/A"
-            revenue_str = f"{revenue:.1f}" if revenue is not None else "N/A"
-            op_income_str = f"{operating_income:.1f}" if operating_income is not None else "N/A"
             
             # Yahoo Financeリンクを生成
             ticker_link = self._get_yahoo_finance_link(ticker)
             
-            markdown += f"| {rank} | {company_display} | {ticker_link} | {score:.0f} | {roic_str} | {growth_str} | {status_str} | {revenue_str} | {op_income_str} |\n"
+            # 銘柄名にリンクを統合（モバイル対応）
+            company_with_link = f"{company_name}<br>{ticker_link}"
+            
+            markdown += f"| {rank} | {company_with_link} | {sector_display} | {score:.0f} | {roic_str} | {growth_str} | {status_str} |\n"
         
-        markdown += "\n</div>\n\n"
+        markdown += "\n\n</div>\n\n\n"
         
         # 参考データセクション（missing_criticalがTrueの銘柄）
         if not reference_df.empty:
