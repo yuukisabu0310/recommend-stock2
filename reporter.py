@@ -440,7 +440,8 @@ class ReportGenerator:
 
 ## 📈 Full Ranking (全銘柄比較)\n\n"
         markdown += "<div style=\"overflow-x: auto;\">\n\n"
-        markdown += "| Rank | 銘柄名 | Ticker | Score | ROIC | 成長率 | 財務ステータス | 売上高<br>(億円) | 営業利益<br>(億円) |\n"
+        # モバイル対応：重要な情報を優先的に表示
+        markdown += "| Rank | 銘柄名 | 業種 | スコア | ROIC | 成長率 | 財務ステータス |\n"
         markdown += "|:----:|:------:|:------:|:-----:|:----:|:------:|:--------------:|:----------------:|:-----------------:|\n"
         
         # テーブル行を生成（参考データを除く）
