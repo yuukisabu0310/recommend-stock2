@@ -285,13 +285,13 @@ class ReportGenerator:
     
     def _get_yahoo_finance_link(self, ticker: str) -> str:
         """
-        Yahoo Financeへのリンクを生成（Markdown形式）
+        Yahoo FinanceへのリンクURLを生成
         
         Args:
             ticker: 銘柄コード
             
         Returns:
-            Markdownリンク形式の文字列
+            URL文字列
         """
         # コード整形：.Tを除去し、.0$を正規表現で除去してから4桁に整形
         ticker_clean = str(ticker).replace('.T', '').replace('T', '').strip()
@@ -299,7 +299,20 @@ class ReportGenerator:
         ticker_clean = re.sub(r'\.0$', '', ticker_clean).strip()
         ticker_clean = ticker_clean.zfill(4)
         url = f"https://finance.yahoo.co.jp/quote/{ticker_clean}.T"
-        return f"[📈 チャートを表示]({url})"
+        return url
+    
+    def _get_yahoo_finance_button(self, ticker: str) -> str:
+        """
+        Yahoo FinanceへのリンクをBootstrapボタン形式で生成
+        
+        Args:
+            ticker: 銘柄コード
+            
+        Returns:
+            HTMLボタン形式の文字列
+        """
+        url = self._get_yahoo_finance_link(ticker)
+        return f'<a href="{url}" target="_blank" class="btn btn-outline-primary btn-sm">📈 チャート</a>'
     
     def _get_status_tags(self, row: pd.Series) -> List[str]:
         """
@@ -350,18 +363,32 @@ class ReportGenerator:
         else:
             return "C"
     
-    def generate_markdown(self, df: pd.DataFrame) -> str:
+    def generate_html(self, df: pd.DataFrame) -> str:
         """
-        Markdownレポートを生成
+        HTMLレポートを生成（Bootstrap 5使用）
         
         Args:
             df: final_recommendations.csvのDataFrame
             
         Returns:
-            Markdown形式の文字列
+            HTML形式の文字列
         """
         if df.empty:
-            return "# 推奨銘柄レポート\n\nデータがありません。\n"
+            return """<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>日本株 厳選成長銘柄スコアボード</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container mt-4">
+        <h1>推奨銘柄レポート</h1>
+        <p>データがありません。</p>
+    </div>
+</body>
+</html>"""
         
         # missing_criticalで分離
         # missing_criticalがTrueの銘柄を参考データとして分離
@@ -376,64 +403,103 @@ class ReportGenerator:
         
         # 現在の日時
         now = datetime.now()
-        update_time = now.strftime("%Y年%m月%d日 %H:%M")
+        from datetime import timezone, timedelta
+        jst = timezone(timedelta(hours=9))
+        update_time_jst = now.astimezone(jst).strftime("%Y年%m月%d日 %H:%M JST")
         next_update = self._get_next_update_date()
         
         # Sランク銘柄数（参考データを除く）
         s_rank_count = len(main_df[main_df.get('total_score', 0) >= 110])
         
-        # Front Matter（ファイルの先頭に追加）
-        markdown = "---\n"
-        markdown += "layout: default\n"
-        markdown += f"title: 🇯🇵 日本株 厳選成長銘柄スコアボード\n"
-        markdown += "---\n\n\n"
-        
-        # Header
-        markdown += f"# 📊 日本株 成長×割安スクリーニング結果\n\n\n"
-        markdown += "<div align=\"center\">\n\n"
-        markdown += f"![更新日時](https://img.shields.io/badge/更新日時-{update_time}-blue)\n"
-        markdown += f"![注目銘柄数](https://img.shields.io/badge/今日の注目銘柄数-{s_rank_count}銘柄-brightgreen)\n"
-        markdown += f"![次回更新](https://img.shields.io/badge/次回更新-{next_update}-orange)\n\n"
-        markdown += "</div>\n\n\n"
-        markdown += "---\n\n\n"
-        markdown += "## 🏆 Top Picks (Sランク銘柄)\n\n\n"
+        # HTMLヘッダー開始
+        html = """<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🇯🇵 日本株 厳選成長銘柄スコアボード</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .score-high { background-color: #d4edda !important; }
+        .score-medium { background-color: #fff3cd !important; }
+        .score-low { background-color: #f8d7da !important; }
+        .table-hover tbody tr:hover { background-color: rgba(0,0,0,.075); }
+    </style>
+</head>
+<body>
+    <div class="container-fluid mt-4">
+        <div class="row">
+            <div class="col-12">
+                <h1 class="text-center mb-4">📊 日本株 成長×割安スクリーニング結果</h1>
+                <div class="text-center mb-4">
+                    <span class="badge bg-primary me-2">更新日時: {update_time}</span>
+                    <span class="badge bg-success me-2">注目銘柄数: {s_rank_count}銘柄</span>
+                    <span class="badge bg-warning">次回更新: {next_update}</span>
+                </div>
+                <hr>
+                <h2 class="mt-4">🏆 Top Picks (Sランク銘柄)</h2>
+""".format(update_time=update_time_jst, s_rank_count=s_rank_count, next_update=next_update)
         
         # Sランク銘柄（Score 110+）を抽出（参考データを除く）
         s_rank_df = main_df[main_df.get('total_score', 0) >= 110].copy()
         
         if not s_rank_df.empty:
-            # テーブル形式でTop Picksを表示（モバイル対応：情報を整理）
-            markdown += "<div style=\"overflow-x: auto;\">\n\n\n"
-            markdown += "| 順位 | 銘柄名 | 業種 | スコア | バッジ | リンク |\n"
-            markdown += "|:----:|:------:|:----:|:-----:|:------:|:------:|\n"
-            
+            html += """                <div class="table-responsive">
+                    <table class="table table-striped table-hover">
+                        <thead class="table-dark">
+                            <tr>
+                                <th>順位</th>
+                                <th>銘柄コード</th>
+                                <th>銘柄名</th>
+                                <th>業種</th>
+                                <th>ROIC</th>
+                                <th>売上成長率</th>
+                                <th>総合スコア</th>
+                                <th>チャート</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+"""
             for idx, row in s_rank_df.iterrows():
                 rank = row.get('rank', idx + 1)
                 ticker = row.get('ticker', 'N/A')
+                ticker_clean = re.sub(r'\.0$', '', str(ticker).replace('.T', '').replace('T', '').strip()).zfill(4)
                 company_name = self._get_company_name(ticker)
                 sector = self._get_sector(ticker)
                 score = row.get('total_score', 0)
                 roic = self._format_roic(row.get('roic'))
                 growth_rate = self._format_growth_rate(row.get('revenue_growth_rate'))
                 
+                # スコアに応じた背景色クラス
+                score_class = "score-high" if score >= 110 else "score-medium" if score >= 100 else "score-low"
+                
+                # スコアバッジ
+                score_badge = f'<span class="badge bg-success">{score:.0f}</span>' if score >= 110 else f'<span class="badge bg-warning">{score:.0f}</span>' if score >= 100 else f'<span class="badge bg-secondary">{score:.0f}</span>'
+                
                 # 業種表示
                 sector_display = sector if sector else "-"
                 
-                # バッジを取得（Shields.io形式）
-                investment_badges = self._get_investment_badges(row)
-                badges_str = " ".join(investment_badges) if investment_badges else "-"
+                # Yahoo Financeボタン
+                chart_button = self._get_yahoo_finance_button(ticker)
                 
-                # Yahoo Financeリンク（Markdown形式）
-                chart_link = self._get_yahoo_finance_link(ticker)
-                
-                # 銘柄名にリンクを統合（モバイル対応）
-                company_with_link = f"{company_name}<br>{chart_link}"
-                
-                markdown += f"| {rank} | {company_with_link} | {sector_display} | {score:.0f} | {badges_str} | {chart_link} |\n"
-            
-            markdown += "\n</div>\n\n"
+                html += f"""                            <tr class="{score_class}">
+                                <td>{rank}</td>
+                                <td><strong>{ticker_clean}</strong></td>
+                                <td>{company_name}</td>
+                                <td>{sector_display}</td>
+                                <td>{roic if roic else "N/A"}</td>
+                                <td>{growth_rate if growth_rate else "N/A"}</td>
+                                <td>{score_badge}</td>
+                                <td>{chart_button}</td>
+                            </tr>
+"""
+            html += """                        </tbody>
+                    </table>
+                </div>
+"""
         else:
-            markdown += "Sランク銘柄はありません。\n\n"
+            html += """                <div class="alert alert-info">Sランク銘柄はありません。</div>
+"""
         
         # Full Ranking Table
         markdown += """---
@@ -475,24 +541,37 @@ class ReportGenerator:
         
         # 参考データセクション（missing_criticalがTrueの銘柄）
         if not reference_df.empty:
-            markdown += "---\n\n\n"
-            markdown += "## ⚠️ 参考データ（重要データ欠損あり）\n\n\n"
-            markdown += "以下の銘柄は重要な財務データが欠損しているため、参考情報として表示しています。\n\n\n"
-            markdown += "<div style=\"overflow-x: auto;\">\n\n\n"
-            # モバイル対応：重要な情報を優先的に表示
-            markdown += "| Rank | 銘柄名 | 業種 | スコア | ROIC | 成長率 | 財務ステータス | 欠損項目 |\n"
-            markdown += "|:----:|:------:|:----:|:-----:|:----:|:------:|:--------------:|:--------:|\n"
+            html += """                <hr>
+                <h2 class="mt-4">⚠️ 参考データ（重要データ欠損あり）</h2>
+                <div class="alert alert-warning">以下の銘柄は重要な財務データが欠損しているため、参考情報として表示しています。</div>
+                <div class="table-responsive">
+                    <table class="table table-striped table-hover">
+                        <thead class="table-dark">
+                            <tr>
+                                <th>順位</th>
+                                <th>銘柄コード</th>
+                                <th>銘柄名</th>
+                                <th>業種</th>
+                                <th>ROIC</th>
+                                <th>売上成長率</th>
+                                <th>総合スコア</th>
+                                <th>チャート</th>
+                                <th>欠損項目</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+"""
             
             # 参考データのテーブル行を生成
             for idx, row in reference_df.iterrows():
                 rank = row.get('rank', idx + 1)
                 ticker = row.get('ticker', 'N/A')
+                ticker_clean = re.sub(r'\.0$', '', str(ticker).replace('.T', '').replace('T', '').strip()).zfill(4)
                 company_name = self._get_company_name(ticker)
+                sector = self._get_sector(ticker)
                 score = row.get('total_score', 0)
                 roic = self._format_roic(row.get('roic'))
                 growth_rate = self._format_growth_rate(row.get('revenue_growth_rate'))
-                revenue = self._convert_to_hundred_million(row.get('revenue'))
-                operating_income = self._convert_to_hundred_million(row.get('operating_income'))
                 
                 tags = self._get_status_tags(row)
                 status_str = " ".join(tags) if tags else "-"
@@ -516,15 +595,30 @@ class ReportGenerator:
                 # 値のフォーマット
                 roic_str = roic if roic else "N/A"
                 growth_str = growth_rate if growth_rate else "N/A"
-                revenue_str = f"{revenue:.1f}" if revenue is not None else "N/A"
-                op_income_str = f"{operating_income:.1f}" if operating_income is not None else "N/A"
                 
-                # Yahoo Financeリンクを生成
-                ticker_link = self._get_yahoo_finance_link(ticker)
+                # Yahoo Financeボタン
+                chart_button = self._get_yahoo_finance_button(ticker)
                 
-                markdown += f"| {rank} | {company_name} | {ticker_link} | {score:.0f} | {roic_str} | {growth_str} | {status_str} | {revenue_str} | {op_income_str} | {missing_str} |\n"
+                # セクター情報
+                sector_display = sector if sector else "-"
+                
+                html += f"""                            <tr>
+                                <td>{rank}</td>
+                                <td><strong>{ticker_clean}</strong></td>
+                                <td>{company_name}</td>
+                                <td>{sector_display}</td>
+                                <td>{roic_str}</td>
+                                <td>{growth_str}</td>
+                                <td><span class="badge bg-secondary">{score:.0f}</span></td>
+                                <td>{chart_button}</td>
+                                <td><small>{missing_str}</small></td>
+                            </tr>
+"""
             
-            markdown += "\n</div>\n\n"
+            html += """                        </tbody>
+                    </table>
+                </div>
+"""
         
         markdown += """---
 
@@ -573,13 +667,13 @@ class ReportGenerator:
             logger.error(f"CSV読み込みエラー: {str(e)}")
             return ""
         
-        # Markdownを生成
-        markdown = self.generate_markdown(df)
+        # HTMLを生成
+        html = self.generate_html(df)
         
         # ファイルに保存
-        output_path = self.output_dir / "index.md"
+        output_path = self.output_dir / "index.html"
         with open(output_path, 'w', encoding='utf-8') as f:
-            f.write(markdown)
+            f.write(html)
         
         logger.info(f"レポート保存完了: {output_path}")
         return str(output_path)
