@@ -477,10 +477,7 @@ class ReportGenerator:
             
             markdown += f"| {rank} | {company_display} | {ticker_link} | {score:.0f} | {roic_str} | {growth_str} | {status_str} | {revenue_str} | {op_income_str} |\n"
         
-        markdown += """
-</div>
-
-"""
+        markdown += "\n</div>\n\n"
         
         # 参考データセクション（missing_criticalがTrueの銘柄）
         if not reference_df.empty:
@@ -537,10 +534,7 @@ class ReportGenerator:
                 
                 markdown += f"| {rank} | {company_name} | {ticker_link} | {score:.0f} | {roic_str} | {growth_str} | {status_str} | {revenue_str} | {op_income_str} | {missing_str} |\n"
             
-            markdown += """
-</div>
-
-"""
+            markdown += "\n</div>\n\n"
         
         markdown += """---
 
