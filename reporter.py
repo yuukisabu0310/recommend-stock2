@@ -9,6 +9,7 @@ from pathlib import Path
 from datetime import datetime
 from typing import Dict, List, Optional
 import logging
+import re
 
 logging.basicConfig(
     level=logging.INFO,
@@ -71,26 +72,26 @@ class ReportGenerator:
         if jpx_info_path.exists():
             try:
                 jpx_df = pd.read_csv(jpx_info_path, encoding='utf-8-sig')
-                # ticker列と銘柄名列を探す（列名は柔軟に対応）
-                ticker_col = None
-                name_col = None
                 
-                for col in jpx_df.columns:
-                    col_lower = col.lower()
-                    if 'ticker' in col_lower or 'コード' in col or 'code' in col_lower:
-                        ticker_col = col
-                    elif '名称' in col or 'name' in col_lower or 'company' in col_lower:
-                        name_col = col
+                # 「コード」と「銘柄名」カラムを直接使用
+                if 'コード' not in jpx_df.columns or '銘柄名' not in jpx_df.columns:
+                    logger.error("「コード」または「銘柄名」列が見つかりません")
+                    return {}
                 
-                if ticker_col and name_col:
-                    for _, row in jpx_df.iterrows():
-                        ticker = str(row[ticker_col]).strip()
-                        name = str(row[name_col]).strip()
-                        # コード整形：小数点を除去し、4桁の文字列（0埋め）に変換（例: 1301.0 -> "1301"）
-                        ticker_clean = ticker.replace('.T', '').replace('T', '').replace('.0', '').strip().zfill(4)
-                        if ticker_clean and name and ticker_clean.isdigit() and len(ticker_clean) == 4:
-                            company_names[ticker_clean] = name
-                    logger.info(f"銘柄名情報を読み込みました: {len(company_names)}件")
+                # 内国株式のみをフィルタリング
+                if '市場・商品区分' in jpx_df.columns:
+                    jpx_df = jpx_df[jpx_df['市場・商品区分'].astype(str).str.contains('内国株式', na=False)]
+                
+                for _, row in jpx_df.iterrows():
+                    ticker = str(row['コード']).strip()
+                    name = str(row['銘柄名']).strip()
+                    # コード整形：.0$を正規表現で除去し、4桁の文字列（0埋め）に変換
+                    ticker_clean = re.sub(r'\.0$', '', str(ticker)).strip()
+                    # 4桁に整形
+                    ticker_clean = ticker_clean.zfill(4)
+                    if ticker_clean and name and ticker_clean.isdigit() and len(ticker_clean) == 4:
+                        company_names[ticker_clean] = name
+                logger.info(f"銘柄名情報を読み込みました: {len(company_names)}件")
             except Exception as e:
                 logger.warning(f"銘柄名情報の読み込みに失敗: {str(e)}")
         else:
@@ -108,12 +109,16 @@ class ReportGenerator:
         Returns:
             銘柄名（取得できない場合はコードを返す）
         """
+        # コード整形：.Tを除去し、.0を除去してから4桁に整形
         ticker_clean = str(ticker).replace('.T', '').replace('T', '').strip()
+        if '.0' in ticker_clean:
+            ticker_clean = ticker_clean.replace('.0', '').strip()
+        ticker_clean = ticker_clean.zfill(4)
         return self.company_names.get(ticker_clean, ticker)
     
     def _load_sector_info(self) -> Dict[str, str]:
         """
-        セクター（業種）情報を読み込む
+        セクター（33業種区分）情報を読み込む
         
         Returns:
             ticker -> sector_name の辞書
@@ -125,26 +130,26 @@ class ReportGenerator:
         if jpx_info_path.exists():
             try:
                 jpx_df = pd.read_csv(jpx_info_path, encoding='utf-8-sig')
-                # ticker列とセクター列を探す
-                ticker_col = None
-                sector_col = None
                 
-                for col in jpx_df.columns:
-                    col_lower = col.lower()
-                    if 'ticker' in col_lower or 'コード' in col or 'code' in col_lower:
-                        ticker_col = col
-                    elif '業種' in col or 'sector' in col_lower or 'セクター' in col or '33業種' in col:
-                        sector_col = col
+                # 「コード」と「33業種区分」カラムを直接使用
+                if 'コード' not in jpx_df.columns or '33業種区分' not in jpx_df.columns:
+                    logger.error("「コード」または「33業種区分」列が見つかりません")
+                    return {}
                 
-                if ticker_col and sector_col:
-                    for _, row in jpx_df.iterrows():
-                        ticker = str(row[ticker_col]).strip()
-                        sector = str(row[sector_col]).strip()
-                        # コード整形：小数点を除去し、4桁の文字列（0埋め）に変換（例: 1301.0 -> "1301"）
-                        ticker_clean = ticker.replace('.T', '').replace('T', '').replace('.0', '').strip().zfill(4)
-                        if ticker_clean and sector and ticker_clean.isdigit() and len(ticker_clean) == 4:
-                            sector_info[ticker_clean] = sector
-                    logger.info(f"セクター情報を読み込みました: {len(sector_info)}件")
+                # 内国株式のみをフィルタリング
+                if '市場・商品区分' in jpx_df.columns:
+                    jpx_df = jpx_df[jpx_df['市場・商品区分'].astype(str).str.contains('内国株式', na=False)]
+                
+                for _, row in jpx_df.iterrows():
+                    ticker = str(row['コード']).strip()
+                    sector = str(row['33業種区分']).strip()
+                    # コード整形：.0$を正規表現で除去し、4桁の文字列（0埋め）に変換
+                    ticker_clean = re.sub(r'\.0$', '', str(ticker)).strip()
+                    # 4桁に整形
+                    ticker_clean = ticker_clean.zfill(4)
+                    if ticker_clean and sector and sector != '-' and ticker_clean.isdigit() and len(ticker_clean) == 4:
+                        sector_info[ticker_clean] = sector
+                logger.info(f"セクター情報を読み込みました: {len(sector_info)}件")
             except Exception as e:
                 logger.warning(f"セクター情報の読み込みに失敗: {str(e)}")
         else:
@@ -154,7 +159,7 @@ class ReportGenerator:
     
     def _get_sector(self, ticker: str) -> Optional[str]:
         """
-        銘柄コードからセクター（業種）を取得
+        銘柄コードからセクター（33業種区分）を取得
         
         Args:
             ticker: 銘柄コード
@@ -162,12 +167,16 @@ class ReportGenerator:
         Returns:
             セクター名（取得できない場合はNone）
         """
+        # コード整形：.Tを除去し、.0を除去してから4桁に整形
         ticker_clean = str(ticker).replace('.T', '').replace('T', '').strip()
+        if '.0' in ticker_clean:
+            ticker_clean = ticker_clean.replace('.0', '').strip()
+        ticker_clean = ticker_clean.zfill(4)
         return self.sector_info.get(ticker_clean)
     
     def _get_investment_badges(self, row: pd.Series) -> List[str]:
         """
-        投資ポイントのバッジを生成
+        投資ポイントのバッジを生成（Shields.io形式）
         
         Args:
             row: DataFrameの行
@@ -177,19 +186,19 @@ class ReportGenerator:
         """
         badges = []
         
-        # ROIC > 10%
+        # ROICが高い場合（10%以上）
         roic = row.get('roic')
         if roic is not None and not pd.isna(roic) and roic >= 10:
-            badges.append("![ROIC 10%+](https://img.shields.io/badge/効率-高効率-red)")
+            badges.append("![ROIC](https://img.shields.io/badge/効率-高ROIC-red)")
+        
+        # 売上成長が高い場合（10%以上）
+        revenue_growth = row.get('revenue_growth_rate')
+        if revenue_growth is not None and not pd.isna(revenue_growth) and revenue_growth >= 10:
+            badges.append("![Growth](https://img.shields.io/badge/成長-加速-orange)")
         
         # 無借金
         if row.get('debt_free_flag') == True or row.get('is_debt_free') == True:
             badges.append("![Debt Free](https://img.shields.io/badge/財務-無借金-blue)")
-        
-        # 高成長（売上成長率 > 10%）
-        revenue_growth = row.get('revenue_growth_rate')
-        if revenue_growth is not None and not pd.isna(revenue_growth) and revenue_growth >= 10:
-            badges.append("![High Growth](https://img.shields.io/badge/成長-高成長-green)")
         
         # キャッシュリッチ
         if row.get('net_cash_status') == '実質無借金':
@@ -276,7 +285,7 @@ class ReportGenerator:
     
     def _get_yahoo_finance_link(self, ticker: str) -> str:
         """
-        Yahoo Financeへのリンクを生成
+        Yahoo Financeへのリンクを生成（Markdown形式）
         
         Args:
             ticker: 銘柄コード
@@ -285,8 +294,11 @@ class ReportGenerator:
             Markdownリンク形式の文字列
         """
         ticker_clean = str(ticker).replace('.T', '').replace('T', '').strip()
+        if '.0' in ticker_clean:
+            ticker_clean = ticker_clean.replace('.0', '').strip()
+        ticker_clean = ticker_clean.zfill(4)
         url = f"https://finance.yahoo.co.jp/quote/{ticker_clean}.T"
-        return f"[{ticker}]({url})"
+        return f"[📈 チャートを表示]({url})"
     
     def _get_status_tags(self, row: pd.Series) -> List[str]:
         """
@@ -390,65 +402,42 @@ class ReportGenerator:
         s_rank_df = main_df[main_df.get('total_score', 0) >= 110].copy()
         
         if not s_rank_df.empty:
+            # テーブル形式でTop Picksを表示
+            markdown += """<div style="overflow-x: auto;">
+
+| 順位 | 銘柄名 | 業種 | スコア | ROIC | 成長率 | バッジ | リンク |
+|:----:|:------:|:----:|:-----:|:----:|:------:|:------:|:------:|
+"""
+            
             for idx, row in s_rank_df.iterrows():
+                rank = row.get('rank', idx + 1)
                 ticker = row.get('ticker', 'N/A')
                 company_name = self._get_company_name(ticker)
                 sector = self._get_sector(ticker)
                 score = row.get('total_score', 0)
                 roic = self._format_roic(row.get('roic'))
                 growth_rate = self._format_growth_rate(row.get('revenue_growth_rate'))
-                revenue = self._convert_to_hundred_million(row.get('revenue'))
-                operating_income = self._convert_to_hundred_million(row.get('operating_income'))
                 
-                tags = self._get_status_tags(row)
-                tag_str = " ".join(tags) if tags else ""
+                # 業種表示
+                sector_display = sector if sector else "-"
                 
-                # 投資ポイントバッジを取得
+                # バッジを取得（Shields.io形式）
                 investment_badges = self._get_investment_badges(row)
-                badges_html = " ".join(investment_badges) if investment_badges else ""
+                badges_str = " ".join(investment_badges) if investment_badges else "-"
                 
-                # 銘柄名とコードを表示（銘柄名が取得できた場合のみ）
-                if company_name != ticker:
-                    title = f"{company_name} ({ticker})"
-                else:
-                    title = ticker
+                # Yahoo Financeリンク（Markdown形式）
+                chart_link = self._get_yahoo_finance_link(ticker)
                 
-                # セクター情報を追加
-                sector_display = f" [{sector}]" if sector else ""
+                # 値のフォーマット
+                roic_str = roic if roic else "N/A"
+                growth_str = growth_rate if growth_rate else "N/A"
                 
-                # Yahoo Financeリンクをボタン風に
-                ticker_clean = str(ticker).replace('.T', '').replace('T', '').strip()
-                yahoo_url = f"https://finance.yahoo.co.jp/quote/{ticker_clean}.T"
-                chart_link = f'<a href="{yahoo_url}" style="background-color: #4CAF50; color: white; padding: 8px 16px; text-decoration: none; border-radius: 4px; display: inline-block; font-weight: bold;">📈 チャートを確認</a>'
-                
-                markdown += f"""### {title}{sector_display} {tag_str}
-
-<div style="background-color: #f0f8ff; padding: 20px; border-radius: 8px; margin-bottom: 20px; border-left: 4px solid #4CAF50;">
-
-<div style="margin-bottom: 10px;">
-{badges_html}
+                markdown += f"| {rank} | {company_name} | {sector_display} | {score:.0f} | {roic_str} | {growth_str} | {badges_str} | {chart_link} |\n"
+            
+            markdown += """
 </div>
 
-**総合スコア**: {score:.0f}点 | {chart_link}
-
-**主要指標**:
-- ROIC: {roic if roic else 'N/A'}
-- 売上成長率: {growth_rate if growth_rate else 'N/A'}
-- 売上高: {revenue:.1f}億円（直近年度）
-- 営業利益: {operating_income:.1f}億円（直近年度）
-
 """
-                
-                # 追加情報
-                if row.get('debt_to_equity_ratio') is not None:
-                    debt_ratio = row.get('debt_to_equity_ratio')
-                    markdown += f"- 負債資本倍率: {debt_ratio:.2f}\n"
-                
-                if row.get('cash') is not None:
-                    cash = self._convert_to_hundred_million(row.get('cash'))
-                    markdown += f"- 現預金: {cash:.1f}億円\n"
-                
-                markdown += "\n</div>\n\n"
         else:
             markdown += "Sランク銘柄はありません。\n\n"
         
