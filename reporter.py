@@ -404,11 +404,9 @@ class ReportGenerator:
         
         if not s_rank_df.empty:
             # テーブル形式でTop Picksを表示
-            markdown += """<div style="overflow-x: auto;">
-
-| 順位 | 銘柄名 | 業種 | スコア | ROIC | 成長率 | バッジ | リンク |
-|:----:|:------:|:----:|:-----:|:----:|:------:|:------:|:------:|
-"""
+            markdown += "\n\n<div style=\"overflow-x: auto;\">\n\n"
+            markdown += "| 順位 | 銘柄名 | 業種 | スコア | ROIC | 成長率 | バッジ | リンク |\n"
+            markdown += "|:----:|:------:|:----:|:-----:|:----:|:------:|:------:|:------:|\n"
             
             for idx, row in s_rank_df.iterrows():
                 rank = row.get('rank', idx + 1)
@@ -435,10 +433,7 @@ class ReportGenerator:
                 
                 markdown += f"| {rank} | {company_name} | {sector_display} | {score:.0f} | {roic_str} | {growth_str} | {badges_str} | {chart_link} |\n"
             
-            markdown += """
-</div>
-
-"""
+            markdown += "\n</div>\n\n"
         else:
             markdown += "Sランク銘柄はありません。\n\n"
         
