@@ -440,13 +440,10 @@ class ReportGenerator:
         # Full Ranking Table
         markdown += """---
 
-## 📈 Full Ranking (全銘柄比較)
-
-<div style="overflow-x: auto;">
-
-| Rank | 銘柄名 | Ticker | Score | ROIC | 成長率 | 財務ステータス | 売上高<br>(億円) | 営業利益<br>(億円) |
-|:----:|:------:|:------:|:-----:|:----:|:------:|:--------------:|:----------------:|:-----------------:|
-"""
+## 📈 Full Ranking (全銘柄比較)\n\n"
+        markdown += "<div style=\"overflow-x: auto;\">\n\n"
+        markdown += "| Rank | 銘柄名 | Ticker | Score | ROIC | 成長率 | 財務ステータス | 売上高<br>(億円) | 営業利益<br>(億円) |\n"
+        markdown += "|:----:|:------:|:------:|:-----:|:----:|:------:|:--------------:|:----------------:|:-----------------:|\n"
         
         # テーブル行を生成（参考データを除く）
         for idx, row in main_df.iterrows():
@@ -481,17 +478,13 @@ class ReportGenerator:
         
         # 参考データセクション（missing_criticalがTrueの銘柄）
         if not reference_df.empty:
-            markdown += """---
+            markdown += "---\n\n"
 
-## ⚠️ 参考データ（重要データ欠損あり）
-
-以下の銘柄は重要な財務データが欠損しているため、参考情報として表示しています。
-
-<div style="overflow-x: auto;">
-
-| Rank | 銘柄名 | Ticker | Score | ROIC | 成長率 | 財務ステータス | 売上高<br>(億円) | 営業利益<br>(億円) | 欠損項目 |
-|:----:|:------:|:------:|:-----:|:----:|:------:|:--------------:|:----------------:|:-----------------:|:--------:|
-"""
+## ⚠️ 参考データ（重要データ欠損あり）\n\n"
+            markdown += "以下の銘柄は重要な財務データが欠損しているため、参考情報として表示しています。\n\n"
+            markdown += "<div style=\"overflow-x: auto;\">\n\n"
+            markdown += "| Rank | 銘柄名 | Ticker | Score | ROIC | 成長率 | 財務ステータス | 売上高<br>(億円) | 営業利益<br>(億円) | 欠損項目 |\n"
+            markdown += "|:----:|:------:|:------:|:-----:|:----:|:------:|:--------------:|:----------------:|:-----------------:|:--------:|\n"
             
             # 参考データのテーブル行を生成
             for idx, row in reference_df.iterrows():
