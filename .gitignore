@@ -1,4 +1,44 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv
+
+# データファイル（大きなファイルは除外）
+# ただし、財務データCSVはコミットする（ホワイトリスト）
+data/raw/*.csv
+!data/raw/jpx_tse_info.csv  # 銘柄名簿（マスターファイル）
+!data/raw/*_meta.csv
+!data/raw/*_PL.csv
+!data/raw/*_CF.csv
+!data/raw/*_BS.csv
+!data/raw/debug/*.csv
+data/processed/*.csv
+!data/processed/final_recommendations.csv
+!data/processed/screened_results.csv
+data/logs/*.log
+
 # GitHub Pages用フォルダ (docsフォルダとその中のHTMLを許可)
 !docs/
 !docs/*.html
 !docs/**/*.html
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# 一時ファイル
+*.tmp
+*.bak
