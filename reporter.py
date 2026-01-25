@@ -640,9 +640,9 @@ class ReportGenerator:
 *最終更新: {update_time}*  
 *次回更新予定: {next_update}*
 
-""".format(update_time=update_time, next_update=next_update)
+""".format(update_time=update_time_jst, next_update=next_update)
         
-        return markdown
+        return html
     
     def generate_report(self, filename: str = "final_recommendations.csv") -> str:
         """
