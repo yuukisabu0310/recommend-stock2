@@ -452,9 +452,6 @@ class ReportGenerator:
             score = row.get('total_score', 0)
             roic = self._format_roic(row.get('roic'))
             growth_rate = self._format_growth_rate(row.get('revenue_growth_rate'))
-            revenue = self._convert_to_hundred_million(row.get('revenue'))
-            operating_income = self._convert_to_hundred_million(row.get('operating_income'))
-            
             tags = self._get_status_tags(row)
             status_str = " ".join(tags) if tags else "-"
             
