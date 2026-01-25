@@ -1,6 +1,6 @@
 """
 財務データの正規化と分析ロジック
-data/raw/*.csvからデータを読み込み、名寄せを行って分析用データを作成
+data/raw/*.jsonからデータを読み込み、名寄せを行って分析用データを作成
 """
 
 import pandas as pd
@@ -10,6 +10,8 @@ from typing import Dict, List, Optional, Tuple
 import logging
 from datetime import datetime
 import glob
+import json
+import re
 
 import constants
 
@@ -528,72 +530,104 @@ class FinancialDataAnalyzer:
         
         return result
     
+    def _json_to_dataframe(self, json_data: Dict) -> Optional[pd.DataFrame]:
+        """
+        JSON形式の財務データをDataFrameに変換
+        
+        Args:
+            json_data: JSON形式の財務データ（financials, balance_sheet, cashflowなど）
+            
+        Returns:
+            DataFrame（インデックスに項目名、列に日付）
+        """
+        if not json_data or not isinstance(json_data, dict):
+            return None
+        
+        # JSONデータをDataFrameに変換
+        # 構造: {"項目名": {"日付": 値, ...}, ...}
+        rows = []
+        for item_name, date_values in json_data.items():
+            if isinstance(date_values, dict):
+                row = {'item': item_name}
+                row.update(date_values)
+                rows.append(row)
+        
+        if not rows:
+            return None
+        
+        df = pd.DataFrame(rows)
+        if 'item' in df.columns:
+            df = df.set_index('item')
+        
+        return df
+    
     def load_raw_data(self) -> Dict[str, Dict]:
         """
-        data/rawから生データを読み込み
+        data/rawから生データを読み込み（JSONファイルから）
         
         Returns:
             銘柄ごとのデータ辞書 {ticker: {'pl': DataFrame, 'bs': DataFrame, ...}}
         """
         data_dict = {}
         
-        # PLファイルを検索（通常のCSVとデバッグ用CSVの両方）
-        pl_files = list(self.raw_data_dir.glob("*_PL.csv")) + list(self.raw_data_dir.glob("debug/*_PL.csv"))
-        for pl_file in pl_files:
+        # JSONファイルを検索（data/raw/*.json）
+        json_files = list(self.raw_data_dir.glob("*.json"))
+        
+        # jpx_tse_info.csvは除外
+        json_files = [f for f in json_files if f.name != 'jpx_tse_info.csv']
+        
+        logger.info(f"JSONファイル検索: {len(json_files)}件")
+        
+        for json_file in json_files:
             try:
-                pl_df = pd.read_csv(pl_file, encoding='utf-8-sig')
+                # ファイル名からtickerを抽出（例: 3038.json → 3038）
+                ticker_match = re.search(r'(\d{4})', json_file.stem)
+                if not ticker_match:
+                    logger.warning(f"{json_file.name}: tickerを抽出できません")
+                    continue
                 
-                # ticker列がある場合
-                if 'ticker' in pl_df.columns:
-                    for ticker in pl_df['ticker'].unique():
-                        ticker_pl = pl_df[pl_df['ticker'] == ticker].copy()
-                        if ticker not in data_dict:
-                            data_dict[ticker] = {}
-                        # 既存のデータがある場合は統合（デバッグデータを優先）
-                        if 'pl' not in data_dict[ticker] or 'debug' in str(pl_file):
-                            data_dict[ticker]['pl'] = ticker_pl
-                else:
-                    # ticker列がない場合、ファイル名からtickerを抽出
-                    # 例: debug_7203_PL.csv → 7203
-                    import re
-                    match = re.search(r'(\d{4})', pl_file.stem)
-                    if match:
-                        ticker = match.group(1)
+                ticker = ticker_match.group(1)
+                
+                # JSONファイルを読み込み
+                with open(json_file, 'r', encoding='utf-8') as f:
+                    json_data = json.load(f)
+                
+                # tickerがJSON内にもある場合は確認
+                if 'ticker' in json_data:
+                    json_ticker = str(json_data['ticker']).strip()
+                    # コード整形（.0を除去して4桁に）
+                    json_ticker_clean = re.sub(r'\.0$', '', json_ticker).zfill(4)
+                    if json_ticker_clean != ticker:
+                        logger.warning(f"{json_file.name}: ファイル名のticker({ticker})とJSON内のticker({json_ticker_clean})が不一致")
+                
+                # financials (PLデータ) をDataFrameに変換
+                if 'financials' in json_data:
+                    pl_df = self._json_to_dataframe(json_data['financials'])
+                    if pl_df is not None and not pl_df.empty:
                         if ticker not in data_dict:
                             data_dict[ticker] = {}
                         data_dict[ticker]['pl'] = pl_df
-                    else:
-                        logger.warning(f"{pl_file.name}: ticker列もファイル名からtickerを抽出できません")
-            except Exception as e:
-                logger.error(f"{pl_file.name}の読み込みエラー: {str(e)}")
-        
-        # BSファイルを検索
-        bs_files = list(self.raw_data_dir.glob("*_BS.csv")) + list(self.raw_data_dir.glob("debug/*_BS.csv"))
-        for bs_file in bs_files:
-            try:
-                bs_df = pd.read_csv(bs_file, encoding='utf-8-sig')
                 
-                # ticker列がある場合
-                if 'ticker' in bs_df.columns:
-                    for ticker in bs_df['ticker'].unique():
-                        ticker_bs = bs_df[bs_df['ticker'] == ticker].copy()
-                        if ticker not in data_dict:
-                            data_dict[ticker] = {}
-                        if 'bs' not in data_dict[ticker] or 'debug' in str(bs_file):
-                            data_dict[ticker]['bs'] = ticker_bs
-                else:
-                    # ticker列がない場合、ファイル名からtickerを抽出
-                    import re
-                    match = re.search(r'(\d{4})', bs_file.stem)
-                    if match:
-                        ticker = match.group(1)
+                # balance_sheet (BSデータ) をDataFrameに変換
+                if 'balance_sheet' in json_data:
+                    bs_df = self._json_to_dataframe(json_data['balance_sheet'])
+                    if bs_df is not None and not bs_df.empty:
                         if ticker not in data_dict:
                             data_dict[ticker] = {}
                         data_dict[ticker]['bs'] = bs_df
-                    else:
-                        logger.warning(f"{bs_file.name}: ticker列もファイル名からtickerを抽出できません")
+                
+                # cashflow (CFデータ) は必要に応じて使用（現在は未使用）
+                # if 'cashflow' in json_data:
+                #     cf_df = self._json_to_dataframe(json_data['cashflow'])
+                #     if cf_df is not None and not cf_df.empty:
+                #         if ticker not in data_dict:
+                #             data_dict[ticker] = {}
+                #         data_dict[ticker]['cf'] = cf_df
+                
+            except json.JSONDecodeError as e:
+                logger.error(f"{json_file.name}のJSON解析エラー: {str(e)}")
             except Exception as e:
-                logger.error(f"{bs_file.name}の読み込みエラー: {str(e)}")
+                logger.error(f"{json_file.name}の読み込みエラー: {str(e)}")
         
         logger.info(f"生データ読み込み完了: {len(data_dict)}銘柄")
         return data_dict

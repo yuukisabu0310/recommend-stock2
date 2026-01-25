@@ -9,6 +9,7 @@ import random
 import logging
 import yaml
 import json
+import re
 from datetime import datetime
 from typing import Dict, List, Optional
 import pandas as pd
@@ -87,9 +88,17 @@ class IncrementalStockDataFetcher:
             df = df[df['市場・商品区分'].astype(str).str.contains('内国株式', na=False)]
             logger.info(f"内国株式フィルタリング後: {len(df)}銘柄")
             
-            # コード整形：「コード」列を数値から文字列に変換し、不要な小数点を除去
-            # .0$ を正規表現で除去してからzfill(4)で4桁に整形
-            df['ticker'] = df['コード'].astype(str).str.replace(r'\.0$', '', regex=True).str.strip().str.zfill(4)
+            # コード整形：各銘柄コードに対してre.sub()とzfill(4)を使用
+            # 1301.0 → 1301, 72.0 → 0072 のように正しく処理
+            def normalize_ticker_code(code):
+                """銘柄コードを正規化（.0を除去して4桁に整形）"""
+                code_str = str(code).strip()
+                # .0$を正規表現で除去
+                code_clean = re.sub(r'\.0$', '', code_str)
+                # 4桁に整形（0埋め）
+                return code_clean.zfill(4)
+            
+            df['ticker'] = df['コード'].apply(normalize_ticker_code)
             
             # 不適切なコードの除外：4桁の数字であることを確認
             # 4桁でないもの、数字以外を含むもの、業種コードと思われる短いものを除外

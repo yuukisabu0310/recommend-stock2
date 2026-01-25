@@ -109,10 +109,10 @@ class ReportGenerator:
         Returns:
             銘柄名（取得できない場合はコードを返す）
         """
-        # コード整形：.Tを除去し、.0を除去してから4桁に整形
+        # コード整形：.Tを除去し、.0$を正規表現で除去してから4桁に整形
         ticker_clean = str(ticker).replace('.T', '').replace('T', '').strip()
-        if '.0' in ticker_clean:
-            ticker_clean = ticker_clean.replace('.0', '').strip()
+        # re.sub()で.0$を除去してからzfill(4)で4桁に整形
+        ticker_clean = re.sub(r'\.0$', '', ticker_clean).strip()
         ticker_clean = ticker_clean.zfill(4)
         return self.company_names.get(ticker_clean, ticker)
     
@@ -167,10 +167,10 @@ class ReportGenerator:
         Returns:
             セクター名（取得できない場合はNone）
         """
-        # コード整形：.Tを除去し、.0を除去してから4桁に整形
+        # コード整形：.Tを除去し、.0$を正規表現で除去してから4桁に整形
         ticker_clean = str(ticker).replace('.T', '').replace('T', '').strip()
-        if '.0' in ticker_clean:
-            ticker_clean = ticker_clean.replace('.0', '').strip()
+        # re.sub()で.0$を除去してからzfill(4)で4桁に整形
+        ticker_clean = re.sub(r'\.0$', '', ticker_clean).strip()
         ticker_clean = ticker_clean.zfill(4)
         return self.sector_info.get(ticker_clean)
     
@@ -293,9 +293,10 @@ class ReportGenerator:
         Returns:
             Markdownリンク形式の文字列
         """
+        # コード整形：.Tを除去し、.0$を正規表現で除去してから4桁に整形
         ticker_clean = str(ticker).replace('.T', '').replace('T', '').strip()
-        if '.0' in ticker_clean:
-            ticker_clean = ticker_clean.replace('.0', '').strip()
+        # re.sub()で.0$を除去してからzfill(4)で4桁に整形
+        ticker_clean = re.sub(r'\.0$', '', ticker_clean).strip()
         ticker_clean = ticker_clean.zfill(4)
         url = f"https://finance.yahoo.co.jp/quote/{ticker_clean}.T"
         return f"[📈 チャートを表示]({url})"
