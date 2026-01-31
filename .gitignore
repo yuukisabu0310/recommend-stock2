@@ -21,6 +21,8 @@ data/raw/*.csv
 data/processed/*.csv
 !data/processed/final_recommendations.csv
 !data/processed/screened_results.csv
+!data/processed/value_recommendations.csv
+!data/processed/growth_recommendations.csv
 data/logs/*.log
 
 # GitHub Pages用フォルダ (docsフォルダとその中のHTMLを許可)

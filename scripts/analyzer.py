@@ -978,9 +978,143 @@ class FinancialDataAnalyzer:
         
         return str(filepath)
     
+    def generate_value_recommendations(self, df: pd.DataFrame) -> pd.DataFrame:
+        """
+        バリュー株推奨リストを生成
+        
+        Args:
+            df: 分析結果のDataFrame
+            
+        Returns:
+            ランキング付きのバリュー株推奨リストDataFrame
+        """
+        if df.empty:
+            logger.warning("ランキング対象のデータがありません")
+            return pd.DataFrame()
+        
+        df_work = df.copy()
+        
+        # スコア列が存在しない場合は0で初期化
+        if 'score_value' not in df_work.columns:
+            df_work['score_value'] = 0.0
+        if 'score_safety' not in df_work.columns:
+            df_work['score_safety'] = 0.0
+        if 'score_profit' not in df_work.columns:
+            df_work['score_profit'] = 0.0
+        if 'penalty' not in df_work.columns:
+            df_work['penalty'] = 0.0
+        
+        # Value_Rank_Scoreを計算: score_value + score_safety + score_profit
+        df_work['value_rank_score'] = (
+            df_work['score_value'].fillna(0) + 
+            df_work['score_safety'].fillna(0) + 
+            df_work['score_profit'].fillna(0)
+        )
+        
+        # フィルタ：penalty == 0（赤字や減収を排除）
+        df_filtered = df_work[df_work['penalty'] == 0.0].copy()
+        
+        if df_filtered.empty:
+            logger.warning("バリュー株のフィルタ条件に該当する銘柄がありません")
+            return pd.DataFrame()
+        
+        # ソート：Value_Rank_Score の降順
+        df_filtered = df_filtered.sort_values('value_rank_score', ascending=False, na_position='last')
+        df_filtered['rank'] = range(1, len(df_filtered) + 1)
+        
+        # 列の順序を整理（重要項目を前に）
+        priority_columns = [
+            'rank', 'ticker', 'value_rank_score', 'score_value', 'score_safety', 'score_profit',
+            'penalty', 'total_score', 'data_quality_score', 'total_bonus_score',
+            'debt_free_flag', 'net_cash_status', 'debt_to_equity_ratio',
+            'revenue', 'revenue_growth_rate', 'operating_income', 'net_income',
+            'roe', 'pbr', 'per', 'equity_ratio',
+            'roic', 'roic_using_total_assets', 'invested_capital',
+            'total_assets', 'equity', 'total_debt', 'cash',
+            'missing_critical', 'missing_items'
+        ]
+        
+        # 存在する列のみを選択
+        existing_priority = [col for col in priority_columns if col in df_filtered.columns]
+        other_columns = [col for col in df_filtered.columns if col not in existing_priority]
+        final_columns = existing_priority + other_columns
+        
+        df_ranked = df_filtered[final_columns].copy()
+        
+        logger.info(f"バリュー株推奨リスト生成完了: {len(df_ranked)}銘柄")
+        return df_ranked
+    
+    def generate_growth_recommendations(self, df: pd.DataFrame) -> pd.DataFrame:
+        """
+        グロース株推奨リストを生成
+        
+        Args:
+            df: 分析結果のDataFrame
+            
+        Returns:
+            ランキング付きのグロース株推奨リストDataFrame
+        """
+        if df.empty:
+            logger.warning("ランキング対象のデータがありません")
+            return pd.DataFrame()
+        
+        df_work = df.copy()
+        
+        # スコア列が存在しない場合は0で初期化
+        if 'score_growth' not in df_work.columns:
+            df_work['score_growth'] = 0.0
+        if 'score_profit' not in df_work.columns:
+            df_work['score_profit'] = 0.0
+        
+        # Growth_Rank_Scoreを計算: score_growth + score_profit
+        df_work['growth_rank_score'] = (
+            df_work['score_growth'].fillna(0) + 
+            df_work['score_profit'].fillna(0)
+        )
+        
+        # フィルタ：revenue_growth_rate > 0.1 (10%以上の成長)
+        if 'revenue_growth_rate' not in df_work.columns:
+            logger.warning("revenue_growth_rate列が存在しません")
+            return pd.DataFrame()
+        
+        df_filtered = df_work[
+            (df_work['revenue_growth_rate'].notna()) & 
+            (df_work['revenue_growth_rate'] > 0.1)
+        ].copy()
+        
+        if df_filtered.empty:
+            logger.warning("グロース株のフィルタ条件に該当する銘柄がありません")
+            return pd.DataFrame()
+        
+        # ソート：Growth_Rank_Score の降順
+        df_filtered = df_filtered.sort_values('growth_rank_score', ascending=False, na_position='last')
+        df_filtered['rank'] = range(1, len(df_filtered) + 1)
+        
+        # 列の順序を整理（重要項目を前に）
+        priority_columns = [
+            'rank', 'ticker', 'growth_rank_score', 'score_growth', 'score_profit',
+            'penalty', 'total_score', 'data_quality_score', 'total_bonus_score',
+            'debt_free_flag', 'net_cash_status', 'debt_to_equity_ratio',
+            'revenue', 'revenue_growth_rate', 'operating_income', 'net_income',
+            'roe', 'pbr', 'per', 'equity_ratio',
+            'roic', 'roic_using_total_assets', 'invested_capital',
+            'total_assets', 'equity', 'total_debt', 'cash',
+            'missing_critical', 'missing_items'
+        ]
+        
+        # 存在する列のみを選択
+        existing_priority = [col for col in priority_columns if col in df_filtered.columns]
+        other_columns = [col for col in df_filtered.columns if col not in existing_priority]
+        final_columns = existing_priority + other_columns
+        
+        df_ranked = df_filtered[final_columns].copy()
+        
+        logger.info(f"グロース株推奨リスト生成完了: {len(df_ranked)}銘柄")
+        return df_ranked
+    
     def generate_final_recommendations(self, df: pd.DataFrame) -> pd.DataFrame:
         """
-        最終推奨リストを生成（新しいスコアリング方式）
+        最終推奨リストを生成（後方互換性のため残す）
         
         Args:
             df: 分析結果のDataFrame
@@ -1043,6 +1177,48 @@ class FinancialDataAnalyzer:
         logger.info(f"最終推奨リスト保存完了: {filepath}")
         
         return str(filepath)
+    
+    def save_value_recommendations(self, df: pd.DataFrame, filename: str = "value_recommendations.csv") -> str:
+        """
+        バリュー株推奨リストを保存
+        
+        Args:
+            df: ランキング付きのバリュー株推奨リストDataFrame
+            filename: 保存ファイル名
+            
+        Returns:
+            保存されたファイルパス
+        """
+        if df.empty:
+            logger.warning("保存するデータがありません")
+            return ""
+        
+        filepath = self.processed_data_dir / filename
+        df.to_csv(filepath, index=False, encoding='utf-8-sig')
+        logger.info(f"バリュー株推奨リスト保存完了: {filepath}")
+        
+        return str(filepath)
+    
+    def save_growth_recommendations(self, df: pd.DataFrame, filename: str = "growth_recommendations.csv") -> str:
+        """
+        グロース株推奨リストを保存
+        
+        Args:
+            df: ランキング付きのグロース株推奨リストDataFrame
+            filename: 保存ファイル名
+            
+        Returns:
+            保存されたファイルパス
+        """
+        if df.empty:
+            logger.warning("保存するデータがありません")
+            return ""
+        
+        filepath = self.processed_data_dir / filename
+        df.to_csv(filepath, index=False, encoding='utf-8-sig')
+        logger.info(f"グロース株推奨リスト保存完了: {filepath}")
+        
+        return str(filepath)
 
 
 # ============================================
@@ -1074,16 +1250,31 @@ def main():
         print(f"\n先頭5銘柄:")
         print(results_df.head().to_string())
         
-        # 最終推奨リストを生成
+        # バリュー株推奨リストを生成
         print("\n" + "=" * 60)
-        print("最終推奨リストを生成中...")
-        final_df = analyzer.generate_final_recommendations(results_df)
+        print("バリュー株推奨リストを生成中...")
+        value_df = analyzer.generate_value_recommendations(results_df)
         
-        if not final_df.empty:
-            final_filepath = analyzer.save_final_recommendations(final_df)
-            print(f"\n最終推奨リストを保存しました: {final_filepath}")
-            print(f"\nランキングTOP5:")
-            print(final_df.head().to_string())
+        if not value_df.empty:
+            value_filepath = analyzer.save_value_recommendations(value_df)
+            print(f"\nバリュー株推奨リストを保存しました: {value_filepath}")
+            print(f"\nバリュー株ランキングTOP5:")
+            print(value_df.head().to_string())
+        else:
+            print("\nバリュー株のフィルタ条件に該当する銘柄がありませんでした")
+        
+        # グロース株推奨リストを生成
+        print("\n" + "=" * 60)
+        print("グロース株推奨リストを生成中...")
+        growth_df = analyzer.generate_growth_recommendations(results_df)
+        
+        if not growth_df.empty:
+            growth_filepath = analyzer.save_growth_recommendations(growth_df)
+            print(f"\nグロース株推奨リストを保存しました: {growth_filepath}")
+            print(f"\nグロース株ランキングTOP5:")
+            print(growth_df.head().to_string())
+        else:
+            print("\nグロース株のフィルタ条件に該当する銘柄がありませんでした")
     else:
         print("分析対象のデータがありません")
 

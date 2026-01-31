@@ -138,12 +138,19 @@ jobs:
               # 結果を保存
               analyzer.save_results(results_df)
               
-              # 最終推奨リストを生成
-              final_df = analyzer.generate_final_recommendations(results_df)
-              analyzer.save_final_recommendations(final_df)
+              # バリュー株推奨リストを生成
+              value_df = analyzer.generate_value_recommendations(results_df)
+              if not value_df.empty:
+                  analyzer.save_value_recommendations(value_df)
+                  print(f"バリュー株推奨リスト生成完了: {len(value_df)}銘柄")
+              
+              # グロース株推奨リストを生成
+              growth_df = analyzer.generate_growth_recommendations(results_df)
+              if not growth_df.empty:
+                  analyzer.save_growth_recommendations(growth_df)
+                  print(f"グロース株推奨リスト生成完了: {len(growth_df)}銘柄")
               
               print(f"分析完了: {len(results_df)}銘柄")
-              print(f"Sランク銘柄: {len(final_df[final_df['total_score'] >= 110])}銘柄")
           else:
               print("分析対象のデータがありません")
               sys.exit(0)

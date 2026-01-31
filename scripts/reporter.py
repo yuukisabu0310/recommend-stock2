@@ -869,9 +869,129 @@ class ReportGenerator:
             </tr>
 """
     
-    def generate_html(self, df: pd.DataFrame) -> str:
-        """HTMLレポートを生成（タブ切り替え対応版）"""
-        if df.empty:
+    def _generate_value_table_row_html(self, row: pd.Series, rank: int) -> str:
+        """
+        バリュー株用テーブル行を生成
+        
+        Args:
+            row: DataFrameの行
+            rank: 順位
+            
+        Returns:
+            HTMLテーブル行の文字列
+        """
+        ticker = row.get('ticker', 'N/A')
+        ticker_clean = re.sub(r'\.0$', '', str(ticker).replace('.T', '').replace('T', '').strip()).zfill(4)
+        company_name_with_icons = self._get_company_name_with_icons(row)
+        sector = self._get_sector(ticker)
+        sector_display = sector if sector else "-"
+        
+        # バリュー株スコア
+        value_rank_score = row.get('value_rank_score', 0) or 0
+        score_value = row.get('score_value', 0) or 0
+        score_safety = row.get('score_safety', 0) or 0
+        score_profit = row.get('score_profit', 0) or 0
+        
+        # バリュー株で重要な指標
+        pbr = row.get('pbr')
+        per = row.get('per')
+        equity_ratio = row.get('equity_ratio')
+        net_cash_status = row.get('net_cash_status', '')
+        
+        # PBR/PERの表示
+        pbr_display = f"{pbr:.2f}" if pbr is not None and not pd.isna(pbr) else "N/A"
+        per_display = f"{per:.1f}倍" if per is not None and not pd.isna(per) else "N/A"
+        
+        # 自己資本比率の表示
+        equity_ratio_display = f"{equity_ratio:.1f}%" if equity_ratio is not None and not pd.isna(equity_ratio) else "N/A"
+        
+        # ネットキャッシュ状態
+        net_cash_display = net_cash_status if net_cash_status else "-"
+        
+        # スコアに応じた背景色クラス
+        score_class = "score-high" if value_rank_score >= 50 else "score-medium" if value_rank_score >= 30 else "score-low"
+        
+        # Yahoo Financeボタン
+        chart_button = self._get_yahoo_finance_button(ticker)
+        
+        return f"""
+            <tr class="{score_class}">
+                <td>{rank}</td>
+                <td><strong>{ticker_clean}</strong><br><small>{company_name_with_icons}</small><br><small class="text-muted">{sector_display}</small></td>
+                <td><span class="badge bg-primary">{value_rank_score:.1f}</span></td>
+                <td class="table-warning"><strong>{pbr_display}</strong><br><small class="text-muted">{per_display}</small></td>
+                <td class="table-info"><strong>{equity_ratio_display}</strong></td>
+                <td><strong>{net_cash_display}</strong></td>
+                <td>{score_value:.1f}</td>
+                <td>{score_safety:.1f}</td>
+                <td>{score_profit:.1f}</td>
+                <td>{chart_button}</td>
+            </tr>
+"""
+    
+    def _generate_growth_table_row_html(self, row: pd.Series, rank: int) -> str:
+        """
+        グロース株用テーブル行を生成
+        
+        Args:
+            row: DataFrameの行
+            rank: 順位
+            
+        Returns:
+            HTMLテーブル行の文字列
+        """
+        ticker = row.get('ticker', 'N/A')
+        ticker_clean = re.sub(r'\.0$', '', str(ticker).replace('.T', '').replace('T', '').strip()).zfill(4)
+        company_name_with_icons = self._get_company_name_with_icons(row)
+        sector = self._get_sector(ticker)
+        sector_display = sector if sector else "-"
+        
+        # グロース株スコア
+        growth_rank_score = row.get('growth_rank_score', 0) or 0
+        score_growth = row.get('score_growth', 0) or 0
+        score_profit = row.get('score_profit', 0) or 0
+        
+        # グロース株で重要な指標
+        revenue_growth_rate = row.get('revenue_growth_rate')
+        roe = row.get('roe')
+        operating_income = row.get('operating_income')
+        revenue = row.get('revenue')
+        
+        # 売上成長率の表示
+        growth_rate_display = f"{revenue_growth_rate:+.1f}%" if revenue_growth_rate is not None and not pd.isna(revenue_growth_rate) else "N/A"
+        
+        # ROEの表示
+        roe_display = f"{roe:.1f}%" if roe is not None and not pd.isna(roe) else "N/A"
+        
+        # 営業利益率の計算と表示
+        op_margin_display = "N/A"
+        if operating_income is not None and not pd.isna(operating_income) and revenue is not None and not pd.isna(revenue) and revenue != 0:
+            op_margin = (operating_income / revenue) * 100
+            op_margin_display = f"{op_margin:.1f}%"
+        
+        # スコアに応じた背景色クラス
+        score_class = "score-high" if growth_rank_score >= 60 else "score-medium" if growth_rank_score >= 40 else "score-low"
+        
+        # Yahoo Financeボタン
+        chart_button = self._get_yahoo_finance_button(ticker)
+        
+        return f"""
+            <tr class="{score_class}">
+                <td>{rank}</td>
+                <td><strong>{ticker_clean}</strong><br><small>{company_name_with_icons}</small><br><small class="text-muted">{sector_display}</small></td>
+                <td><span class="badge bg-success">{growth_rank_score:.1f}</span></td>
+                <td class="table-primary"><strong>{growth_rate_display}</strong></td>
+                <td class="table-info"><strong>{roe_display}</strong></td>
+                <td class="table-warning"><strong>{op_margin_display}</strong></td>
+                <td>{score_growth:.1f}</td>
+                <td>{score_profit:.1f}</td>
+                <td>{chart_button}</td>
+            </tr>
+"""
+    
+    def generate_html(self, value_df: pd.DataFrame, growth_df: pd.DataFrame) -> str:
+        """HTMLレポートを生成（バリュー株・グロース株2タブ構成）"""
+        if value_df.empty and growth_df.empty:
             return """<!DOCTYPE html>
 <html lang="ja">
 <head>
@@ -888,67 +1008,23 @@ class ReportGenerator:
 </body>
 </html>"""
         
-        # missing_criticalで分離
-        if 'missing_critical' in df.columns:
-            df['missing_critical'] = df['missing_critical'].astype(str).str.lower().isin(['true', '1', 'yes'])
-            main_df = df[~df['missing_critical']].copy()
-        else:
-            main_df = df.copy()
-        
         now = datetime.now()
         from datetime import timezone, timedelta
         jst = timezone(timedelta(hours=9))
         update_time_jst = now.astimezone(jst).strftime("%Y年%m月%d日 %H:%M JST")
         
-        # 1. データの準備（3つの視点でソート）
-        df_total = main_df.sort_values('total_score', ascending=False).head(100).copy()
+        # バリュー株テーブルの行を生成
+        value_rows = ""
+        if not value_df.empty:
+            for i, (_, row) in enumerate(value_df.iterrows(), 1):
+                value_rows += self._generate_value_table_row_html(row, i)
         
-        if 'score_growth' not in main_df.columns:
-            main_df['score_growth'] = 0
-        if 'score_profit' not in main_df.columns:
-            main_df['score_profit'] = 0
-        main_df['growth_score'] = main_df['score_growth'].fillna(0) + main_df['score_profit'].fillna(0)
-        df_growth = main_df.sort_values('growth_score', ascending=False).head(100).copy()
+        # グロース株テーブルの行を生成
+        growth_rows = ""
+        if not growth_df.empty:
+            for i, (_, row) in enumerate(growth_df.iterrows(), 1):
+                growth_rows += self._generate_growth_table_row_html(row, i)
         
-        if 'score_value' not in main_df.columns:
-            main_df['score_value'] = 0
-        if 'score_safety' not in main_df.columns:
-            main_df['score_safety'] = 0
-        main_df['value_score'] = main_df['score_value'].fillna(0) + main_df['score_safety'].fillna(0)
-        df_value = main_df.sort_values('value_score', ascending=False).head(100).copy()
-
-        def create_full_table(target_df, table_id, highlight_type=None):
-            rows = ""
-            for i, (_, row) in enumerate(target_df.iterrows(), 1):
-                rows += self._generate_table_row_html(row, i)
-            
-            # 強調する列をCSSで制御
-            extra_style = ""
-            if highlight_type == "growth":
-                extra_style = f"<style>#{table_id} td:nth-child(4), #{table_id} td:nth-child(5) {{ background-color: rgba(13, 110, 253, 0.05); }}</style>"
-            elif highlight_type == "value":
-                extra_style = f"<style>#{table_id} td:nth-child(6), #{table_id} td:nth-child(7) {{ background-color: rgba(25, 135, 84, 0.05); }}</style>"
-
-            return extra_style + f"""
-            <div class="table-responsive">
-                <table class="table table-hover border" id="{table_id}">
-                    <thead class="table-dark">
-                        <tr>
-                            <th>順位</th>
-                            <th>コード/名称</th>
-                            <th>総合</th>
-                            <th>成長性(40)</th>
-                            <th>収益性(30)</th>
-                            <th>割安度(20)</th>
-                            <th>安全性(10)</th>
-                            <th>特徴/フラグ</th>
-                        </tr>
-                    </thead>
-                    <tbody>{rows}</tbody>
-                </table>
-            </div>
-            """
-
         html = f"""
 <!DOCTYPE html>
 <html lang="ja">
@@ -971,43 +1047,88 @@ class ReportGenerator:
         
         <div class="text-center mb-4">
             <span class="badge bg-primary me-2">更新日時: {update_time_jst}</span>
-            <span class="badge bg-success">対象: {len(main_df)}銘柄</span>
+            <span class="badge bg-success">バリュー株: {len(value_df)}銘柄</span>
+            <span class="badge bg-info">グロース株: {len(growth_df)}銘柄</span>
         </div>
 
         <ul class="nav nav-tabs mb-3" id="rankingTabs" role="tablist">
-            <li class="nav-item">
-                <button class="nav-link active" data-bs-toggle="tab" data-bs-target="#total" type="button">📊 総合</button>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link active" id="value-tab" data-bs-toggle="tab" data-bs-target="#value-pane" type="button" role="tab" aria-controls="value-pane" aria-selected="true">
+                    💎 バリュー株（割安・安全性重視）
+                </button>
             </li>
-            <li class="nav-item">
-                <button class="nav-link" data-bs-toggle="tab" data-bs-target="#growth" type="button">🚀 グロース特化</button>
-            </li>
-            <li class="nav-item">
-                <button class="nav-link" data-bs-toggle="tab" data-bs-target="#value" type="button">💎 割安お宝株</button>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="growth-tab" data-bs-toggle="tab" data-bs-target="#growth-pane" type="button" role="tab" aria-controls="growth-pane" aria-selected="false">
+                    🚀 グロース株（成長・収益性重視）
+                </button>
             </li>
         </ul>
 
-        <div class="tab-content bg-white p-3 border border-top-0 rounded-bottom shadow-sm">
-            <div class="tab-pane fade show active" id="total">
-                <h4 class="mb-3">総合ランキング <small class="text-muted">(全指標のバランス重視)</small></h4>
-                {create_full_table(df_total, "table-total")}
+        <div class="tab-content bg-white p-3 border border-top-0 rounded-bottom shadow-sm" id="rankingTabsContent">
+            <div class="tab-pane fade show active" id="value-pane" role="tabpanel" aria-labelledby="value-tab">
+                <h4 class="mb-3 text-success">💎 バリュー株ランキング <small class="text-muted">(割安度 + 安全性 + 収益性重視)</small></h4>
+                <div class="alert alert-info">
+                    <strong>フィルタ条件:</strong> 営業利益マイナス・売上成長率マイナスを除外<br>
+                    <strong>スコア:</strong> Value_Rank_Score = 割安度(20) + 安全性(10) + 収益性(30)
+                </div>
+                <div class="table-responsive">
+                    <table class="table table-hover border">
+                        <thead class="table-dark">
+                            <tr>
+                                <th>順位</th>
+                                <th>コード/名称</th>
+                                <th>バリュー<br>スコア</th>
+                                <th>PBR/PER<br><small class="text-warning">(重要)</small></th>
+                                <th>自己資本比率<br><small class="text-info">(重要)</small></th>
+                                <th>ネットキャッシュ<br><small>(重要)</small></th>
+                                <th>割安度</th>
+                                <th>安全性</th>
+                                <th>収益性</th>
+                                <th>チャート</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+{value_rows}
+                        </tbody>
+                    </table>
+                </div>
             </div>
-            <div class="tab-pane fade" id="growth">
-                <h4 class="mb-3 text-primary">🚀 グロースランキング <small class="text-muted">(成長性×収益性重視)</small></h4>
-                {create_full_table(df_growth, "table-growth", "growth")}
-            </div>
-            <div class="tab-pane fade" id="value">
-                <h4 class="mb-3 text-success">💎 割安お宝ランキング <small class="text-muted">(割安度×安全性重視)</small></h4>
-                {create_full_table(df_value, "table-value", "value")}
+            
+            <div class="tab-pane fade" id="growth-pane" role="tabpanel" aria-labelledby="growth-tab">
+                <h4 class="mb-3 text-primary">🚀 グロース株ランキング <small class="text-muted">(成長性 + 収益性重視)</small></h4>
+                <div class="alert alert-info">
+                    <strong>フィルタ条件:</strong> 売上成長率10%以上<br>
+                    <strong>スコア:</strong> Growth_Rank_Score = 成長性(40) + 収益性(30)
+                </div>
+                <div class="table-responsive">
+                    <table class="table table-hover border">
+                        <thead class="table-dark">
+                            <tr>
+                                <th>順位</th>
+                                <th>コード/名称</th>
+                                <th>グロース<br>スコア</th>
+                                <th>売上成長率<br><small class="text-primary">(重要)</small></th>
+                                <th>ROE<br><small class="text-info">(重要)</small></th>
+                                <th>営業利益率<br><small class="text-warning">(重要)</small></th>
+                                <th>成長性</th>
+                                <th>収益性</th>
+                                <th>チャート</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+{growth_rows}
+                        </tbody>
+                    </table>
+                </div>
             </div>
         </div>
 
         <div class="row mt-5 p-4 bg-white border rounded shadow-sm">
-            <div class="col-md-6">
+            <div class="col-md-12">
                 <h4>📝 凡例</h4>
                 <ul>
-                    <li><strong>総合</strong>: 全指標（100点満点）の合計</li>
-                    <li><strong>🚀 グロース</strong>: 成長性(40) + 収益性(30) の合計順</li>
-                    <li><strong>💎 バリュー</strong>: 割安度(20) + 安全性(10) の合計順</li>
+                    <li><strong>💎 バリュー株</strong>: 割安度(20) + 安全性(10) + 収益性(30) = 60点満点。赤字・減収を除外。</li>
+                    <li><strong>🚀 グロース株</strong>: 成長性(40) + 収益性(30) = 70点満点。売上成長率10%以上のみ。</li>
                 </ul>
             </div>
         </div>
@@ -1017,349 +1138,45 @@ class ReportGenerator:
 </html>
         """
         return html
-        
-        # Sランク銘柄（Score 80+）を抽出（参考データを除く）- 新しいスコアリング方式
-        s_rank_df = main_df[main_df.get('total_score', 0) >= 80].copy()
-        
-        if not s_rank_df.empty:
-            html += """                <div class="table-responsive">
-                    <table class="table table-striped table-hover">
-                        <thead class="table-dark">
-                            <tr>
-                                <th>順位</th>
-                                <th>銘柄コード</th>
-                                <th>銘柄名</th>
-                                <th>業種</th>
-                                <th>総合スコア</th>
-                                <th>スコア内訳</th>
-                                <th>生データ</th>
-                                <th>チャート</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-"""
-            for idx, row in s_rank_df.iterrows():
-                rank = row.get('rank', idx + 1)
-                ticker = row.get('ticker', 'N/A')
-                ticker_clean = re.sub(r'\.0$', '', str(ticker).replace('.T', '').replace('T', '').strip()).zfill(4)
-                company_name_with_icons = self._get_company_name_with_icons(row)
-                sector = self._get_sector(ticker)
-                score = row.get('total_score', 0)
-                
-                # スコアに応じた背景色クラス
-                score_class = "score-high" if score >= 80 else "score-medium" if score >= 60 else "score-low"
-                
-                # スコアバッジ
-                score_badge = f'<span class="badge bg-success">{score:.1f}</span>' if score >= 80 else f'<span class="badge bg-warning">{score:.1f}</span>' if score >= 60 else f'<span class="badge bg-secondary">{score:.1f}</span>'
-                
-                # スコア内訳（progress-bar）
-                score_growth = row.get('score_growth', 0) or 0
-                score_profit = row.get('score_profit', 0) or 0
-                score_value = row.get('score_value', 0) or 0
-                score_safety = row.get('score_safety', 0) or 0
-                
-                score_breakdown = ""
-                score_breakdown += self._get_score_progress_bar(score_growth, 40.0, "成長性")
-                score_breakdown += self._get_score_progress_bar(score_profit, 30.0, "ROE")
-                score_breakdown += self._get_score_progress_bar(score_value, 20.0, "割安度")
-                score_breakdown += self._get_score_progress_bar(score_safety, 10.0, "安全性")
-                
-                # 生データの表示
-                revenue_growth_rate = row.get('revenue_growth_rate')
-                roe = row.get('roe')
-                pbr = row.get('pbr')
-                per = row.get('per')
-                equity_ratio = row.get('equity_ratio')
-                
-                raw_data_html = "<small>"
-                if revenue_growth_rate is not None and not pd.isna(revenue_growth_rate):
-                    raw_data_html += f"成長率: {revenue_growth_rate:+.1f}%<br>"
-                if roe is not None and not pd.isna(roe):
-                    raw_data_html += f"ROE: {roe:.1f}%<br>"
-                if pbr is not None and not pd.isna(pbr):
-                    raw_data_html += f"PBR: {pbr:.2f}<br>"
-                if per is not None and not pd.isna(per):
-                    raw_data_html += f"PER: {per:.1f}倍<br>"
-                if equity_ratio is not None and not pd.isna(equity_ratio):
-                    raw_data_html += f"自己資本比率: {equity_ratio:.1f}%"
-                raw_data_html += "</small>"
-                
-                # 業種表示
-                sector_display = sector if sector else "-"
-                
-                # Yahoo Financeボタン
-                chart_button = self._get_yahoo_finance_button(ticker)
-                
-                html += f"""                            <tr class="{score_class}">
-                                <td>{rank}</td>
-                                <td><strong>{ticker_clean}</strong></td>
-                                <td>{company_name_with_icons}</td>
-                                <td>{sector_display}</td>
-                                <td>{score_badge}</td>
-                                <td>{score_breakdown}</td>
-                                <td>{raw_data_html}</td>
-                                <td>{chart_button}</td>
-                            </tr>
-"""
-            html += """                        </tbody>
-                    </table>
-                </div>
-"""
-        else:
-            html += """                <div class="alert alert-info">Sランク銘柄はありません。</div>
-"""
-        
-        # ランキングの分類ロジック
-        # 1. 総合ランキング（total_score順）
-        df_total = main_df.copy()
-        df_total = df_total.sort_values('total_score', ascending=False, na_position='last')
-        df_total['display_rank'] = range(1, len(df_total) + 1)
-        
-        # 2. グロース特化（score_growth + score_profit の合計が高い順）
-        df_growth = main_df.copy()
-        # DataFrameの列に対してはfillna(0)を使用
-        if 'score_growth' not in df_growth.columns:
-            df_growth['score_growth'] = 0
-        if 'score_profit' not in df_growth.columns:
-            df_growth['score_profit'] = 0
-        df_growth['growth_score'] = df_growth['score_growth'].fillna(0) + df_growth['score_profit'].fillna(0)
-        df_growth = df_growth.sort_values('growth_score', ascending=False, na_position='last')
-        df_growth['display_rank'] = range(1, len(df_growth) + 1)
-        
-        # 3. 割安お宝株（score_value + score_safety の合計が高い順）
-        df_value = main_df.copy()
-        # DataFrameの列に対してはfillna(0)を使用
-        if 'score_value' not in df_value.columns:
-            df_value['score_value'] = 0
-        if 'score_safety' not in df_value.columns:
-            df_value['score_safety'] = 0
-        df_value['value_score'] = df_value['score_value'].fillna(0) + df_value['score_safety'].fillna(0)
-        df_value = df_value.sort_values('value_score', ascending=False, na_position='last')
-        df_value['display_rank'] = range(1, len(df_value) + 1)
-        
-        # Full Ranking Table with Tabs
-        html += """                <hr>
-                <h2 class="mt-4">📈 Full Ranking (全銘柄比較)</h2>
-                
-                <!-- Bootstrap Tabs -->
-                <ul class="nav nav-tabs mb-3" id="rankingTabs" role="tablist">
-                    <li class="nav-item" role="presentation">
-                        <button class="nav-link active" id="total-tab" data-bs-toggle="tab" data-bs-target="#total-pane" type="button" role="tab" aria-controls="total-pane" aria-selected="true">
-                            📊 総合
-                        </button>
-                    </li>
-                    <li class="nav-item" role="presentation">
-                        <button class="nav-link" id="growth-tab" data-bs-toggle="tab" data-bs-target="#growth-pane" type="button" role="tab" aria-controls="growth-pane" aria-selected="false">
-                            🚀 グロース特化
-                        </button>
-                    </li>
-                    <li class="nav-item" role="presentation">
-                        <button class="nav-link" id="value-tab" data-bs-toggle="tab" data-bs-target="#value-pane" type="button" role="tab" aria-controls="value-pane" aria-selected="false">
-                            💎 割安お宝株
-                        </button>
-                    </li>
-                </ul>
-                
-                <div class="tab-content" id="rankingTabsContent">
-"""
-        
-        # 総合ランキングタブ
-        html += self._generate_table_html(df_total, "total-pane", "total-tab", "all", True)
-        
-        # グロース特化タブ
-        html += self._generate_table_html(df_growth, "growth-pane", "growth-tab", "growth", False)
-        
-        # 割安お宝株タブ
-        html += self._generate_table_html(df_value, "value-pane", "value-tab", "value", False)
-        
-        html += """                </div>
-"""
-        
-        # 参考データセクション（missing_criticalがTrueの銘柄）
-        if not reference_df.empty:
-            html += """                <hr>
-                <h2 class="mt-4">⚠️ 参考データ（重要データ欠損あり）</h2>
-                <div class="alert alert-warning">以下の銘柄は重要な財務データが欠損しているため、参考情報として表示しています。</div>
-                <div class="table-responsive">
-                    <table class="table table-striped table-hover">
-                        <thead class="table-dark">
-                            <tr>
-                                <th>順位</th>
-                                <th>銘柄コード</th>
-                                <th>銘柄名</th>
-                                <th>業種</th>
-                                <th>ROIC</th>
-                                <th>売上成長率</th>
-                                <th>総合スコア</th>
-                                <th>チャート</th>
-                                <th>欠損項目</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-"""
-            
-            # 参考データのテーブル行を生成
-            for idx, row in reference_df.iterrows():
-                rank = row.get('rank', idx + 1)
-                ticker = row.get('ticker', 'N/A')
-                ticker_clean = re.sub(r'\.0$', '', str(ticker).replace('.T', '').replace('T', '').strip()).zfill(4)
-                company_name = self._get_company_name(ticker)
-                sector = self._get_sector(ticker)
-                score = row.get('total_score', 0)
-                roic = self._format_roic(row.get('roic'))
-                growth_rate = self._format_growth_rate(row.get('revenue_growth_rate'))
-                
-                tags = self._get_status_tags(row)
-                status_str = " ".join(tags) if tags else "-"
-                
-                # 欠損項目を取得
-                missing_items = row.get('missing_items', '')
-                if isinstance(missing_items, str):
-                    if missing_items.startswith('[') and missing_items.endswith(']'):
-                        # リスト形式の文字列をパース
-                        import ast
-                        try:
-                            missing_list = ast.literal_eval(missing_items)
-                            missing_str = ', '.join(missing_list) if missing_list else '-'
-                        except:
-                            missing_str = missing_items if missing_items else '-'
-                    else:
-                        missing_str = missing_items if missing_items else '-'
-                else:
-                    missing_str = '-'
-                
-                # 値のフォーマット
-                roic_str = roic if roic else "N/A"
-                growth_str = growth_rate if growth_rate else "N/A"
-                
-                # Yahoo Financeボタン
-                chart_button = self._get_yahoo_finance_button(ticker)
-                
-                # セクター情報
-                sector_display = sector if sector else "-"
-                
-                html += f"""                            <tr>
-                                <td>{rank}</td>
-                                <td><strong>{ticker_clean}</strong></td>
-                                <td>{company_name}</td>
-                                <td>{sector_display}</td>
-                                <td>{roic_str}</td>
-                                <td>{growth_str}</td>
-                                <td><span class="badge bg-secondary">{score:.0f}</span></td>
-                                <td>{chart_button}</td>
-                                <td><small>{missing_str}</small></td>
-                            </tr>
-"""
-            
-            html += """                        </tbody>
-                    </table>
-                </div>
-"""
-        
-        html += """                <hr>
-                <h2 class="mt-4">📈 Full Ranking (全銘柄比較)</h2>
-                <div class="table-responsive">
-                    <table class="table table-striped table-hover">
-                        <thead class="table-dark">
-                            <tr>
-                                <th>順位</th>
-                                <th>銘柄コード</th>
-                                <th>銘柄名</th>
-                                <th>業種</th>
-                                <th>ROIC</th>
-                                <th>売上成長率</th>
-                                <th>総合スコア</th>
-                                <th>チャート</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-"""
-        
-        html += f"""                <hr>
-                <div class="row mt-4">
-                    <div class="col-md-6">
-                        <h3>📝 凡例</h3>
-                        <ul>
-                            <li>💎無借金: 有利子負債がゼロの銘柄</li>
-                            <li>💰キャッシュリッチ: 現預金が有利子負債を上回る銘柄（実質無借金）</li>
-                            <li>🚀高成長: 売上成長率が10%を超える銘柄</li>
-                        </ul>
-                    </div>
-                    <div class="col-md-6">
-                        <h3>📊 スコアリング</h3>
-                        <ul>
-                            <li><strong>Sランク</strong>: 80点以上（優秀）</li>
-                            <li><strong>Aランク</strong>: 60-79点（良好）</li>
-                            <li><strong>Bランク</strong>: 40-59点（普通）</li>
-                            <li><strong>Cランク</strong>: 40点未満（要改善）</li>
-                        </ul>
-                        <h4>スコアリング方式</h4>
-                        <ul>
-                            <li><strong>成長性</strong>: 売上成長率（40点満点）</li>
-                            <li><strong>ROE</strong>: 自己資本利益率（30点満点）</li>
-                            <li><strong>割安度</strong>: PBR/PER（20点満点）</li>
-                            <li><strong>安全性</strong>: 自己資本比率（10点満点）</li>
-                            <li><strong>減点</strong>: 営業利益マイナスまたは売上成長率マイナスで-40点</li>
-                        </ul>
-                        <h4>ランキングタブの説明</h4>
-                        <ul>
-                            <li><strong>📊 総合ランキング</strong>: 全指標を総合的に評価したランキング（total_score順）</li>
-                            <li><strong>🚀 グロース特化</strong>: 成長性（売上成長率）と収益性（ROE）を重視したランキング。割安度は度外視しています。</li>
-                            <li><strong>💎 割安お宝株</strong>: 割安度（PBR/PER）と安全性（自己資本比率）を重視したランキング。成長性は度外視しています。</li>
-                        </ul>
-                    </div>
-                </div>
-                <hr>
-                <div class="text-center mt-4 mb-4">
-                    <p class="text-muted"><strong>最終更新:</strong> {update_time_jst}</p>
-                    <p class="text-muted"><strong>次回更新予定:</strong> {next_update}</p>
-                    <p class="text-muted small mt-3">⚠️ <strong>免責事項:</strong> 本データは投資の助言ではありません。投資判断は自己責任でお願いいたします。</p>
-                </div>
-            </div>
-        </div>
-    </div>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-    <script>
-        // Bootstrapタブの初期化（必要に応じて）
-        var triggerTabList = [].slice.call(document.querySelectorAll('#rankingTabs button'));
-        triggerTabList.forEach(function (triggerEl) {{
-            var tabTrigger = new bootstrap.Tab(triggerEl);
-            triggerEl.addEventListener('click', function (event) {{
-                event.preventDefault();
-                tabTrigger.show();
-            }});
-        }});
-    </script>
-</body>
-</html>"""
-        
-        return html
-    
-    def generate_report(self, filename: str = "final_recommendations.csv") -> str:
+
+
+    def generate_report(self) -> str:
         """
         レポートを生成して保存
         
-        Args:
-            filename: 入力CSVファイル名
-            
         Returns:
             保存されたファイルパス
         """
-        # CSVファイルを読み込み
-        csv_path = self.processed_data_dir / filename
-        if not csv_path.exists():
-            logger.error(f"ファイルが見つかりません: {csv_path}")
-            return ""
+        # バリュー株推奨リストを読み込み
+        value_csv_path = self.processed_data_dir / "value_recommendations.csv"
+        value_df = pd.DataFrame()
+        if value_csv_path.exists():
+            try:
+                value_df = pd.read_csv(value_csv_path, encoding='utf-8-sig')
+                logger.info(f"バリュー株データ読み込み完了: {len(value_df)}銘柄")
+            except Exception as e:
+                logger.error(f"バリュー株CSV読み込みエラー: {str(e)}")
+        else:
+            logger.warning(f"バリュー株ファイルが見つかりません: {value_csv_path}")
         
-        try:
-            df = pd.read_csv(csv_path, encoding='utf-8-sig')
-            logger.info(f"データ読み込み完了: {len(df)}銘柄")
-        except Exception as e:
-            logger.error(f"CSV読み込みエラー: {str(e)}")
+        # グロース株推奨リストを読み込み
+        growth_csv_path = self.processed_data_dir / "growth_recommendations.csv"
+        growth_df = pd.DataFrame()
+        if growth_csv_path.exists():
+            try:
+                growth_df = pd.read_csv(growth_csv_path, encoding='utf-8-sig')
+                logger.info(f"グロース株データ読み込み完了: {len(growth_df)}銘柄")
+            except Exception as e:
+                logger.error(f"グロース株CSV読み込みエラー: {str(e)}")
+        else:
+            logger.warning(f"グロース株ファイルが見つかりません: {growth_csv_path}")
+        
+        if value_df.empty and growth_df.empty:
+            logger.error("読み込めるデータがありません")
             return ""
         
         # HTMLを生成
-        html = self.generate_html(df)
+        html = self.generate_html(value_df, growth_df)
         
         # ファイルに保存
         output_path = self.output_dir / "index.html"
