@@ -48,10 +48,51 @@ MAPPING_DICT = {
         '当期純利益',
         'Net Income/Loss',
     ],
+    'GrossProfit': [
+        'Gross Profit',
+        '売上総利益',
+        'Gross Income',
+    ],
+    'CostOfRevenue': [
+        'Cost of Revenue',
+        '売上原価',
+        'Cost of Goods Sold',
+        'COGS',
+    ],
+    'SG&A': [
+        'Selling General and Administrative',
+        '販売費及び一般管理費',
+        'SG&A',
+        'Selling, General & Admin. Expense',
+        'Operating Expenses',
+    ],
+    'OrdinaryIncome': [
+        'Ordinary Income',
+        '経常利益',
+        'Income Before Tax',
+        'Pretax Income',  # 経常利益が取れない場合の予備
+    ],
+    'PretaxIncome': [
+        'Pretax Income',
+        '税引前当期純利益',
+        'Income Before Tax',
+    ],
+    'TaxProvision': [
+        'Tax Provision',
+        '法人税等',
+        'Income Tax Expense',
+        'Tax Expense',
+    ],
     'TotalAssets': [
         'Total Assets',
         '総資産',
         'Assets',
+    ],
+    'TotalLiabilities': [
+        'Total Liabilities',
+        '負債合計',
+        'Total Debt',  # 負債として扱う場合
+        'Liabilities',
     ],
     'TotalDebt': [
         'Total Debt',  # 優先度1（Invested Capital計算用）
@@ -83,6 +124,35 @@ MAPPING_DICT = {
         '現金及び預金',
         '現預金',
         'Cash',
+    ],
+    'BeginningCashBalance': [
+        'Beginning Cash Balance',
+        '現金等期首残高',
+        'Cash at Beginning of Period',
+    ],
+    'OperatingCashFlow': [
+        'Operating Cash Flow',
+        '営業活動によるキャッシュフロー',
+        'Cash from Operating Activities',
+        'Operating Activities Cash Flow',
+    ],
+    'InvestingCashFlow': [
+        'Investing Cash Flow',
+        '投資活動によるキャッシュフロー',
+        'Cash from Investing Activities',
+        'Investing Activities Cash Flow',
+    ],
+    'FinancingCashFlow': [
+        'Financing Cash Flow',
+        '財務活動によるキャッシュフロー',
+        'Cash from Financing Activities',
+        'Financing Activities Cash Flow',
+    ],
+    'EndCashValue': [
+        'End Cash Value',
+        '現金等期末残高',
+        'Cash at End of Period',
+        'Cash And Cash Equivalents',  # 期末現金として扱う場合
     ],
 }
 
@@ -579,7 +649,8 @@ class FinancialDataAnalyzer:
         return result
     
     def normalize_stock_data(self, ticker: str, pl_df: Optional[pd.DataFrame], 
-                            bs_df: Optional[pd.DataFrame], info: Optional[Dict] = None) -> Dict:
+                            bs_df: Optional[pd.DataFrame], cf_df: Optional[pd.DataFrame] = None,
+                            info: Optional[Dict] = None) -> Dict:
         """
         単一銘柄のデータを正規化
         
@@ -587,6 +658,8 @@ class FinancialDataAnalyzer:
             ticker: 銘柄コード
             pl_df: PLデータのDataFrame
             bs_df: BSデータのDataFrame
+            cf_df: CFデータのDataFrame（オプション）
+            info: 基本情報の辞書（オプション）
             
         Returns:
             正規化されたデータの辞書
@@ -598,7 +671,14 @@ class FinancialDataAnalyzer:
             'revenue_growth_rate': None,
             'operating_income': None,
             'net_income': None,
+            'gross_profit': None,
+            'cost_of_revenue': None,
+            'sga': None,
+            'ordinary_income': None,
+            'pretax_income': None,
+            'tax_provision': None,
             'total_assets': None,
+            'total_liabilities': None,
             'total_debt': None,
             'long_term_debt': None,
             'short_term_debt': None,
@@ -608,6 +688,11 @@ class FinancialDataAnalyzer:
             'roic_using_total_assets': False,  # Total Assetsで代用した場合True
             'debt_to_equity_ratio': None,  # 負債資本倍率
             'cash': None,  # 現預金
+            'beginning_cash_balance': None,
+            'operating_cash_flow': None,
+            'investing_cash_flow': None,
+            'financing_cash_flow': None,
+            'end_cash_value': None,
             'is_debt_free': False,  # 無借金と判断した場合True
             'debt_free_flag': False,  # total_debtが0またはNone（実質ゼロ）の場合True
             'net_cash_status': None,  # 実質無借金のラベル
@@ -645,6 +730,33 @@ class FinancialDataAnalyzer:
             net_income_series = self._find_mapping_value(pl_work, MAPPING_DICT['NetIncome'], priority_order=True)
             result['net_income'] = self._extract_value(net_income_series, year_offset=0)
             
+            # Gross Profit（売上総利益）
+            gross_profit_series = self._find_mapping_value(pl_work, MAPPING_DICT['GrossProfit'], priority_order=True)
+            result['gross_profit'] = self._extract_value(gross_profit_series, year_offset=0)
+            
+            # Cost of Revenue（売上原価）
+            cost_of_revenue_series = self._find_mapping_value(pl_work, MAPPING_DICT['CostOfRevenue'], priority_order=True)
+            result['cost_of_revenue'] = self._extract_value(cost_of_revenue_series, year_offset=0)
+            
+            # SG&A（販売費及び一般管理費）
+            sga_series = self._find_mapping_value(pl_work, MAPPING_DICT['SG&A'], priority_order=True)
+            result['sga'] = self._extract_value(sga_series, year_offset=0)
+            
+            # Ordinary Income（経常利益）
+            ordinary_income_series = self._find_mapping_value(pl_work, MAPPING_DICT['OrdinaryIncome'], priority_order=True)
+            result['ordinary_income'] = self._extract_value(ordinary_income_series, year_offset=0)
+            # 取得不能時はOperating Incomeで代用
+            if result['ordinary_income'] is None and result['operating_income'] is not None:
+                result['ordinary_income'] = result['operating_income']
+            
+            # Pretax Income（税引前当期純利益）
+            pretax_income_series = self._find_mapping_value(pl_work, MAPPING_DICT['PretaxIncome'], priority_order=True)
+            result['pretax_income'] = self._extract_value(pretax_income_series, year_offset=0)
+            
+            # Tax Provision（法人税等）
+            tax_provision_series = self._find_mapping_value(pl_work, MAPPING_DICT['TaxProvision'], priority_order=True)
+            result['tax_provision'] = self._extract_value(tax_provision_series, year_offset=0)
+            
             # 重要な項目が欠損しているかチェック
             if result['revenue'] is None:
                 result['missing_items'].append('Revenue')
@@ -668,6 +780,10 @@ class FinancialDataAnalyzer:
             # Total Assets
             total_assets_series = self._find_mapping_value(bs_work, MAPPING_DICT['TotalAssets'])
             result['total_assets'] = self._extract_value(total_assets_series, year_offset=0)
+            
+            # Total Liabilities（負債合計）
+            total_liabilities_series = self._find_mapping_value(bs_work, MAPPING_DICT['TotalLiabilities'], priority_order=True)
+            result['total_liabilities'] = self._extract_value(total_liabilities_series, year_offset=0)
             
             # Equity（Stockholders Equity）
             equity_series = self._find_mapping_value(bs_work, MAPPING_DICT['Equity'])
@@ -703,6 +819,37 @@ class FinancialDataAnalyzer:
             
             if result['total_assets'] is None:
                 result['missing_items'].append('TotalAssets')
+        
+        # CFデータから値を抽出
+        if cf_df is not None and not cf_df.empty:
+            # ticker列を除外して処理
+            cf_work = cf_df.copy()
+            if 'ticker' in cf_work.columns:
+                cf_work = cf_work.drop(columns=['ticker'])
+            
+            # インデックスを設定
+            if 'Unnamed: 0' in cf_work.columns:
+                cf_work = cf_work.set_index('Unnamed: 0')
+            
+            # Beginning Cash Balance（期首現金）
+            beginning_cash_series = self._find_mapping_value(cf_work, MAPPING_DICT['BeginningCashBalance'], priority_order=True)
+            result['beginning_cash_balance'] = self._extract_value(beginning_cash_series, year_offset=0)
+            
+            # Operating Cash Flow（営業CF）
+            operating_cf_series = self._find_mapping_value(cf_work, MAPPING_DICT['OperatingCashFlow'], priority_order=True)
+            result['operating_cash_flow'] = self._extract_value(operating_cf_series, year_offset=0)
+            
+            # Investing Cash Flow（投資CF）
+            investing_cf_series = self._find_mapping_value(cf_work, MAPPING_DICT['InvestingCashFlow'], priority_order=True)
+            result['investing_cash_flow'] = self._extract_value(investing_cf_series, year_offset=0)
+            
+            # Financing Cash Flow（財務CF）
+            financing_cf_series = self._find_mapping_value(cf_work, MAPPING_DICT['FinancingCashFlow'], priority_order=True)
+            result['financing_cash_flow'] = self._extract_value(financing_cf_series, year_offset=0)
+            
+            # End Cash Value（期末現金）
+            end_cash_series = self._find_mapping_value(cf_work, MAPPING_DICT['EndCashValue'], priority_order=True)
+            result['end_cash_value'] = self._extract_value(end_cash_series, year_offset=0)
         
         # Invested Capitalを計算
         invested_capital, _ = self._calculate_invested_capital(
@@ -908,13 +1055,13 @@ class FinancialDataAnalyzer:
                         data_dict[ticker] = {}
                     data_dict[ticker]['info'] = json_data['info']
                 
-                # cashflow (CFデータ) は必要に応じて使用（現在は未使用）
-                # if 'cashflow' in json_data:
-                #     cf_df = self._json_to_dataframe(json_data['cashflow'])
-                #     if cf_df is not None and not cf_df.empty:
-                #         if ticker not in data_dict:
-                #             data_dict[ticker] = {}
-                #         data_dict[ticker]['cf'] = cf_df
+                # cashflow (CFデータ) をDataFrameに変換
+                if 'cashflow' in json_data:
+                    cf_df = self._json_to_dataframe(json_data['cashflow'])
+                    if cf_df is not None and not cf_df.empty:
+                        if ticker not in data_dict:
+                            data_dict[ticker] = {}
+                        data_dict[ticker]['cf'] = cf_df
                 
             except json.JSONDecodeError as e:
                 logger.error(f"{json_file.name}のJSON解析エラー: {str(e)}")
@@ -943,9 +1090,10 @@ class FinancialDataAnalyzer:
         for ticker, data in raw_data.items():
             pl_df = data.get('pl')
             bs_df = data.get('bs')
+            cf_df = data.get('cf')
             info = data.get('info')
             
-            normalized = self.normalize_stock_data(ticker, pl_df, bs_df, info)
+            normalized = self.normalize_stock_data(ticker, pl_df, bs_df, cf_df, info)
             results.append(normalized)
             
             if normalized['missing_critical']:
@@ -1028,9 +1176,12 @@ class FinancialDataAnalyzer:
             'penalty', 'total_score', 'data_quality_score', 'total_bonus_score',
             'debt_free_flag', 'net_cash_status', 'debt_to_equity_ratio',
             'revenue', 'revenue_growth_rate', 'operating_income', 'net_income',
+            'gross_profit', 'cost_of_revenue', 'sga', 'ordinary_income', 'pretax_income', 'tax_provision',
             'roe', 'pbr', 'per', 'equity_ratio',
             'roic', 'roic_using_total_assets', 'invested_capital',
-            'total_assets', 'equity', 'total_debt', 'cash',
+            'total_assets', 'total_liabilities', 'equity', 'total_debt', 'cash',
+            'beginning_cash_balance', 'operating_cash_flow', 'investing_cash_flow', 
+            'financing_cash_flow', 'end_cash_value',
             'missing_critical', 'missing_items'
         ]
         
@@ -1096,9 +1247,12 @@ class FinancialDataAnalyzer:
             'penalty', 'total_score', 'data_quality_score', 'total_bonus_score',
             'debt_free_flag', 'net_cash_status', 'debt_to_equity_ratio',
             'revenue', 'revenue_growth_rate', 'operating_income', 'net_income',
+            'gross_profit', 'cost_of_revenue', 'sga', 'ordinary_income', 'pretax_income', 'tax_provision',
             'roe', 'pbr', 'per', 'equity_ratio',
             'roic', 'roic_using_total_assets', 'invested_capital',
-            'total_assets', 'equity', 'total_debt', 'cash',
+            'total_assets', 'total_liabilities', 'equity', 'total_debt', 'cash',
+            'beginning_cash_balance', 'operating_cash_flow', 'investing_cash_flow', 
+            'financing_cash_flow', 'end_cash_value',
             'missing_critical', 'missing_items'
         ]
         

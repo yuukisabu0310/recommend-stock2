@@ -58,6 +58,199 @@ class ReportGenerator:
             return None
         return round(value / 100000000, 1)
     
+    def _format_millions(self, value: Optional[float]) -> str:
+        """
+        値を百万円単位で3桁カンマ区切りに整形
+        
+        Args:
+            value: 元の値
+            
+        Returns:
+            百万円単位の文字列（例: "1,234.5百万円"）
+        """
+        if value is None or pd.isna(value):
+            return "-"
+        # 百万円単位に変換
+        millions = value / 1000000
+        # 3桁カンマ区切りで整形
+        return f"{millions:,.1f}百万円"
+    
+    def _format_millions_with_color(self, value: Optional[float], is_positive_good: bool = True) -> str:
+        """
+        値を百万円単位で3桁カンマ区切りに整形し、色分け
+        
+        Args:
+            value: 元の値
+            is_positive_good: Trueの場合、プラスが良い（利益など）、Falseの場合、マイナスが良い（負債など）
+            
+        Returns:
+            色分けされたHTML文字列
+        """
+        if value is None or pd.isna(value):
+            return '<span class="text-muted">-</span>'
+        
+        millions = value / 1000000
+        formatted = f"{millions:,.1f}百万円"
+        
+        if is_positive_good:
+            if millions >= 0:
+                return f'<span class="text-dark">{formatted}</span>'
+            else:
+                return f'<span class="text-danger">{formatted}</span>'
+        else:
+            if millions <= 0:
+                return f'<span class="text-dark">{formatted}</span>'
+            else:
+                return f'<span class="text-danger">{formatted}</span>'
+    
+    def _generate_financial_details_html(self, row: pd.Series, colspan: int = 10) -> str:
+        """
+        財務詳細（BS/PL/CF）のHTMLを生成
+        
+        Args:
+            row: DataFrameの行
+            colspan: テーブルの列数
+            
+        Returns:
+            財務詳細のHTML文字列
+        """
+        # tickerを取得して整形
+        ticker = row.get('ticker', 'N/A')
+        ticker_clean = re.sub(r'\.0$', '', str(ticker).replace('.T', '').replace('T', '').strip()).zfill(4)
+        
+        # BS項目
+        total_assets = row.get('total_assets')
+        total_liabilities = row.get('total_liabilities')
+        equity = row.get('equity')
+        
+        # PL項目
+        revenue = row.get('revenue')
+        cost_of_revenue = row.get('cost_of_revenue')
+        gross_profit = row.get('gross_profit')
+        sga = row.get('sga')
+        operating_income = row.get('operating_income')
+        ordinary_income = row.get('ordinary_income')
+        pretax_income = row.get('pretax_income')
+        tax_provision = row.get('tax_provision')
+        net_income = row.get('net_income')
+        
+        # CF項目
+        beginning_cash_balance = row.get('beginning_cash_balance')
+        operating_cash_flow = row.get('operating_cash_flow')
+        investing_cash_flow = row.get('investing_cash_flow')
+        financing_cash_flow = row.get('financing_cash_flow')
+        end_cash_value = row.get('end_cash_value')
+        
+        # BSセクション
+        bs_html = f"""
+            <div class="col-md-4">
+                <h6 class="fw-bold text-primary mb-2">📊 貸借対照表 (BS)</h6>
+                <table class="table table-sm table-bordered">
+                    <tr>
+                        <td class="fw-bold">資産合計</td>
+                        <td class="text-end">{self._format_millions_with_color(total_assets, True)}</td>
+                    </tr>
+                    <tr>
+                        <td class="fw-bold">負債合計</td>
+                        <td class="text-end">{self._format_millions_with_color(total_liabilities, False)}</td>
+                    </tr>
+                    <tr>
+                        <td class="fw-bold">純資産合計</td>
+                        <td class="text-end">{self._format_millions_with_color(equity, True)}</td>
+                    </tr>
+                </table>
+            </div>
+        """
+        
+        # PLセクション
+        pl_html = f"""
+            <div class="col-md-4">
+                <h6 class="fw-bold text-success mb-2">💰 損益計算書 (PL)</h6>
+                <table class="table table-sm table-bordered">
+                    <tr>
+                        <td class="fw-bold">売上高</td>
+                        <td class="text-end">{self._format_millions_with_color(revenue, True)}</td>
+                    </tr>
+                    <tr>
+                        <td class="fw-bold">売上原価</td>
+                        <td class="text-end">{self._format_millions_with_color(cost_of_revenue, False)}</td>
+                    </tr>
+                    <tr>
+                        <td class="fw-bold">売上総利益</td>
+                        <td class="text-end">{self._format_millions_with_color(gross_profit, True)}</td>
+                    </tr>
+                    <tr>
+                        <td class="fw-bold">販管費</td>
+                        <td class="text-end">{self._format_millions_with_color(sga, False)}</td>
+                    </tr>
+                    <tr>
+                        <td class="fw-bold">営業利益</td>
+                        <td class="text-end">{self._format_millions_with_color(operating_income, True)}</td>
+                    </tr>
+                    <tr>
+                        <td class="fw-bold">経常利益</td>
+                        <td class="text-end">{self._format_millions_with_color(ordinary_income, True)}</td>
+                    </tr>
+                    <tr>
+                        <td class="fw-bold">税引前利益</td>
+                        <td class="text-end">{self._format_millions_with_color(pretax_income, True)}</td>
+                    </tr>
+                    <tr>
+                        <td class="fw-bold">法人税等</td>
+                        <td class="text-end">{self._format_millions_with_color(tax_provision, False)}</td>
+                    </tr>
+                    <tr>
+                        <td class="fw-bold">当期純利益</td>
+                        <td class="text-end">{self._format_millions_with_color(net_income, True)}</td>
+                    </tr>
+                </table>
+            </div>
+        """
+        
+        # CFセクション
+        cf_html = f"""
+            <div class="col-md-4">
+                <h6 class="fw-bold text-info mb-2">💵 キャッシュフロー (CF)</h6>
+                <table class="table table-sm table-bordered">
+                    <tr>
+                        <td class="fw-bold">期首残高</td>
+                        <td class="text-end">{self._format_millions_with_color(beginning_cash_balance, True)}</td>
+                    </tr>
+                    <tr>
+                        <td class="fw-bold">営業CF</td>
+                        <td class="text-end">{self._format_millions_with_color(operating_cash_flow, True)}</td>
+                    </tr>
+                    <tr>
+                        <td class="fw-bold">投資CF</td>
+                        <td class="text-end">{self._format_millions_with_color(investing_cash_flow, True)}</td>
+                    </tr>
+                    <tr>
+                        <td class="fw-bold">財務CF</td>
+                        <td class="text-end">{self._format_millions_with_color(financing_cash_flow, True)}</td>
+                    </tr>
+                    <tr>
+                        <td class="fw-bold">期末残高</td>
+                        <td class="text-end">{self._format_millions_with_color(end_cash_value, True)}</td>
+                    </tr>
+                </table>
+            </div>
+        """
+        
+        # テーブルの列数に応じてcolspanを設定（デフォルトは10列）
+        colspan = 10
+        
+        return f"""
+            <tr class="financial-details-row" id="details-{ticker_clean}" style="display: none;">
+                <td colspan="{colspan}">
+                    <div class="row p-3 bg-light border-top">
+                        {bs_html}
+                        {pl_html}
+                        {cf_html}
+                    </div>
+                </td>
+            </tr>
+        """
+    
     def _load_company_names(self) -> Dict[str, str]:
         """
         銘柄名情報を読み込む
@@ -914,6 +1107,11 @@ class ReportGenerator:
         # Yahoo Financeボタン
         chart_button = self._get_yahoo_finance_button(ticker)
         
+        # 詳細表示ボタン
+        details_button_id = f"details-btn-{ticker_clean}"
+        details_row_id = f"details-{ticker_clean}"
+        details_button = f'<button class="btn btn-sm btn-outline-secondary" onclick="toggleDetails(\'{details_row_id}\', \'{details_button_id}\')" id="{details_button_id}">📊 詳細</button>'
+        
         return f"""
             <tr class="{score_class}">
                 <td>{rank}</td>
@@ -925,8 +1123,9 @@ class ReportGenerator:
                 <td>{score_value:.1f}</td>
                 <td>{score_safety:.1f}</td>
                 <td>{score_profit:.1f}</td>
-                <td>{chart_button}</td>
+                <td>{chart_button}<br>{details_button}</td>
             </tr>
+            {self._generate_financial_details_html(row, colspan=10)}
 """
     
     def _generate_growth_table_row_html(self, row: pd.Series, rank: int) -> str:
@@ -975,6 +1174,11 @@ class ReportGenerator:
         # Yahoo Financeボタン
         chart_button = self._get_yahoo_finance_button(ticker)
         
+        # 詳細表示ボタン
+        details_button_id = f"details-btn-{ticker_clean}"
+        details_row_id = f"details-{ticker_clean}"
+        details_button = f'<button class="btn btn-sm btn-outline-secondary" onclick="toggleDetails(\'{details_row_id}\', \'{details_button_id}\')" id="{details_button_id}">📊 詳細</button>'
+        
         return f"""
             <tr class="{score_class}">
                 <td>{rank}</td>
@@ -985,8 +1189,9 @@ class ReportGenerator:
                 <td class="table-warning"><strong>{op_margin_display}</strong></td>
                 <td>{score_growth:.1f}</td>
                 <td>{score_profit:.1f}</td>
-                <td>{chart_button}</td>
+                <td>{chart_button}<br>{details_button}</td>
             </tr>
+            {self._generate_financial_details_html(row, colspan=9)}
 """
     
     def generate_html(self, value_df: pd.DataFrame, growth_df: pd.DataFrame) -> str:
@@ -1039,6 +1244,18 @@ class ReportGenerator:
         .score-low {{ background-color: #f8d7da !important; }}
         .nav-tabs .nav-link {{ font-weight: bold; color: #666; }}
         .nav-tabs .nav-link.active {{ color: #0d6efd; border-bottom: 3px solid #0d6efd; }}
+        .financial-details-row {{
+            background-color: #f8f9fa;
+        }}
+        .financial-details-row td {{
+            padding: 0 !important;
+        }}
+        .financial-details-row .table-sm {{
+            margin-bottom: 0;
+        }}
+        .financial-details-row .table-sm td {{
+            padding: 0.5rem;
+        }}
     </style>
 </head>
 <body class="bg-light">
@@ -1134,6 +1351,24 @@ class ReportGenerator:
         </div>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        function toggleDetails(rowId, buttonId) {{
+            const row = document.getElementById(rowId);
+            const button = document.getElementById(buttonId);
+            
+            if (row.style.display === 'none') {{
+                row.style.display = '';
+                button.textContent = '📊 閉じる';
+                button.classList.remove('btn-outline-secondary');
+                button.classList.add('btn-outline-danger');
+            }} else {{
+                row.style.display = 'none';
+                button.textContent = '📊 詳細';
+                button.classList.remove('btn-outline-danger');
+                button.classList.add('btn-outline-secondary');
+            }}
+        }}
+    </script>
 </body>
 </html>
         """
