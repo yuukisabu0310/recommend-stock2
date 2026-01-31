@@ -350,8 +350,236 @@ class FinancialDataAnalyzer:
         # それ以外は50点
         return 50
     
+    def _calculate_roe(self, net_income: Optional[float], equity: Optional[float]) -> Optional[float]:
+        """
+        ROE（自己資本利益率）を計算
+        
+        Args:
+            net_income: 純利益
+            equity: 自己資本
+            
+        Returns:
+            ROE（%）、計算できない場合はNone
+        """
+        if net_income is None or equity is None:
+            return None
+        if equity == 0:
+            return None
+        return (net_income / equity) * 100
+    
+    def _calculate_pbr(self, market_cap: Optional[float], equity: Optional[float]) -> Optional[float]:
+        """
+        PBR（株価純資産倍率）を計算
+        
+        Args:
+            market_cap: 時価総額
+            equity: 自己資本
+            
+        Returns:
+            PBR、計算できない場合はNone
+        """
+        if market_cap is None or equity is None:
+            return None
+        if equity == 0:
+            return None
+        return market_cap / equity
+    
+    def _calculate_per(self, market_cap: Optional[float], net_income: Optional[float]) -> Optional[float]:
+        """
+        PER（株価収益率）を計算
+        
+        Args:
+            market_cap: 時価総額
+            net_income: 純利益
+            
+        Returns:
+            PER、計算できない場合はNone
+        """
+        if market_cap is None or net_income is None:
+            return None
+        if net_income == 0:
+            return None
+        return market_cap / net_income
+    
+    def _calculate_equity_ratio(self, equity: Optional[float], total_assets: Optional[float]) -> Optional[float]:
+        """
+        自己資本比率を計算
+        
+        Args:
+            equity: 自己資本
+            total_assets: 総資産
+            
+        Returns:
+            自己資本比率（%）、計算できない場合はNone
+        """
+        if equity is None or total_assets is None:
+            return None
+        if total_assets == 0:
+            return None
+        return (equity / total_assets) * 100
+    
+    def _calculate_growth_score(self, revenue_growth_rate: Optional[float]) -> float:
+        """
+        売上成長率スコアを計算（40点満点）
+        
+        Args:
+            revenue_growth_rate: 売上成長率（%）
+            
+        Returns:
+            スコア（0-40点）
+        """
+        if revenue_growth_rate is None:
+            return 0.0
+        
+        # マイナス成長は大幅減点の対象（スコアは0点）
+        if revenue_growth_rate < 0:
+            return 0.0
+        
+        # 成長率に応じてスコアを計算（40点満点）
+        # 20%以上で満点、0%で0点、線形補間
+        score = min(40.0, max(0.0, revenue_growth_rate * 2.0))
+        return score
+    
+    def _calculate_profit_score(self, roe: Optional[float]) -> float:
+        """
+        ROEスコアを計算（30点満点）
+        
+        Args:
+            roe: ROE（%）
+            
+        Returns:
+            スコア（0-30点）
+        """
+        if roe is None:
+            return 0.0
+        
+        # ROEに応じてスコアを計算（30点満点）
+        # 15%以上で満点、0%で0点、線形補間
+        score = min(30.0, max(0.0, roe * 2.0))
+        return score
+    
+    def _calculate_value_score(self, pbr: Optional[float], per: Optional[float]) -> float:
+        """
+        PBR/PERスコアを計算（20点満点）
+        
+        Args:
+            pbr: PBR
+            per: PER
+            
+        Returns:
+            スコア（0-20点）
+        """
+        pbr_score = 0.0
+        per_score = 0.0
+        
+        # PBRを数値型に変換
+        if pbr is not None:
+            try:
+                pbr_float = float(pbr)
+            except (ValueError, TypeError):
+                pbr_float = None
+        else:
+            pbr_float = None
+        
+        # PERを数値型に変換
+        if per is not None:
+            try:
+                per_float = float(per)
+            except (ValueError, TypeError):
+                per_float = None
+        else:
+            per_float = None
+        
+        # PBRスコア（10点満点）
+        # PBRが1.0以下で満点、2.0以上で0点、線形補間
+        if pbr_float is not None:
+            if pbr_float <= 1.0:
+                pbr_score = 10.0
+            elif pbr_float >= 2.0:
+                pbr_score = 0.0
+            else:
+                pbr_score = 10.0 * (2.0 - pbr_float) / 1.0
+        
+        # PERスコア（10点満点）
+        # PERが10倍以下で満点、30倍以上で0点、線形補間
+        if per_float is not None:
+            if per_float <= 10.0:
+                per_score = 10.0
+            elif per_float >= 30.0:
+                per_score = 0.0
+            else:
+                per_score = 10.0 * (30.0 - per_float) / 20.0
+        
+        # PBRとPERの平均を取る（両方ある場合）または片方のみ
+        if pbr_float is not None and per_float is not None:
+            return (pbr_score + per_score) / 2.0
+        elif pbr_float is not None:
+            return pbr_score
+        elif per_float is not None:
+            return per_score
+        else:
+            return 0.0
+    
+    def _calculate_safety_score(self, equity_ratio: Optional[float]) -> float:
+        """
+        自己資本比率スコアを計算（10点満点）
+        
+        Args:
+            equity_ratio: 自己資本比率（%）
+            
+        Returns:
+            スコア（0-10点）
+        """
+        if equity_ratio is None:
+            return 0.0
+        
+        # 自己資本比率に応じてスコアを計算（10点満点）
+        # 50%以上で満点、20%以下で0点、線形補間
+        if equity_ratio >= 50.0:
+            return 10.0
+        elif equity_ratio <= 20.0:
+            return 0.0
+        else:
+            return 10.0 * (equity_ratio - 20.0) / 30.0
+    
+    def _calculate_new_scoring(self, result: Dict) -> Dict:
+        """
+        新しいスコアリング方式でスコアを計算
+        
+        Args:
+            result: 正規化されたデータの辞書
+            
+        Returns:
+            スコア情報を追加した辞書
+        """
+        # 大幅減点フラグ
+        penalty = 0.0
+        if result.get('operating_income') is not None and result['operating_income'] < 0:
+            penalty -= 40.0
+        if result.get('revenue_growth_rate') is not None and result['revenue_growth_rate'] < 0:
+            penalty -= 40.0
+        
+        # 各カテゴリのスコアを計算
+        score_growth = self._calculate_growth_score(result.get('revenue_growth_rate'))
+        score_profit = self._calculate_profit_score(result.get('roe'))
+        score_value = self._calculate_value_score(result.get('pbr'), result.get('per'))
+        score_safety = self._calculate_safety_score(result.get('equity_ratio'))
+        
+        # 合計スコア（100点満点 + 減点）
+        total_score = score_growth + score_profit + score_value + score_safety + penalty
+        
+        # スコア情報を追加
+        result['score_growth'] = score_growth
+        result['score_profit'] = score_profit
+        result['score_value'] = score_value
+        result['score_safety'] = score_safety
+        result['penalty'] = penalty
+        result['total_score'] = max(0.0, total_score)  # マイナスにならないように
+        
+        return result
+    
     def normalize_stock_data(self, ticker: str, pl_df: Optional[pd.DataFrame], 
-                            bs_df: Optional[pd.DataFrame]) -> Dict:
+                            bs_df: Optional[pd.DataFrame], info: Optional[Dict] = None) -> Dict:
         """
         単一銘柄のデータを正規化
         
@@ -529,8 +757,62 @@ class FinancialDataAnalyzer:
         else:
             result['net_cash_status'] = None
         
-        # データ品質スコアを計算
-        result['data_quality_score'] = self._calculate_data_quality_score(result)
+        # infoから時価総額などを取得してROE、PBR、PER、自己資本比率を計算
+        if info is not None:
+            market_cap = info.get('marketCap')
+            if market_cap is None:
+                # currentPriceとsharesOutstandingから計算
+                current_price = info.get('currentPrice')
+                shares_outstanding = info.get('sharesOutstanding')
+                if current_price is not None and shares_outstanding is not None:
+                    market_cap = current_price * shares_outstanding
+            
+            # ROEを計算（infoに既にある場合はそれを使用、なければ計算）
+            if 'returnOnEquity' in info and info['returnOnEquity'] is not None:
+                result['roe'] = info['returnOnEquity'] * 100  # 小数から%に変換
+            else:
+                result['roe'] = self._calculate_roe(result['net_income'], result['equity'])
+            
+            # PBRを計算（infoに既にある場合はそれを使用、なければ計算）
+            if 'priceToBook' in info and info['priceToBook'] is not None:
+                try:
+                    result['pbr'] = float(info['priceToBook'])
+                except (ValueError, TypeError):
+                    result['pbr'] = self._calculate_pbr(market_cap, result['equity'])
+            else:
+                result['pbr'] = self._calculate_pbr(market_cap, result['equity'])
+            
+            # PERを計算（infoに既にある場合はそれを使用、なければ計算）
+            if 'trailingPE' in info and info['trailingPE'] is not None:
+                try:
+                    result['per'] = float(info['trailingPE'])
+                except (ValueError, TypeError):
+                    # forwardPEを試す
+                    if 'forwardPE' in info and info['forwardPE'] is not None:
+                        try:
+                            result['per'] = float(info['forwardPE'])
+                        except (ValueError, TypeError):
+                            result['per'] = self._calculate_per(market_cap, result['net_income'])
+                    else:
+                        result['per'] = self._calculate_per(market_cap, result['net_income'])
+            elif 'forwardPE' in info and info['forwardPE'] is not None:
+                try:
+                    result['per'] = float(info['forwardPE'])
+                except (ValueError, TypeError):
+                    result['per'] = self._calculate_per(market_cap, result['net_income'])
+            else:
+                result['per'] = self._calculate_per(market_cap, result['net_income'])
+        else:
+            # infoがない場合は計算のみ
+            result['roe'] = self._calculate_roe(result['net_income'], result['equity'])
+            result['pbr'] = None
+            result['per'] = None
+        
+        # 自己資本比率を計算
+        result['equity_ratio'] = self._calculate_equity_ratio(result['equity'], result['total_assets'])
+        
+        # 新しいスコアリング方式でスコアを計算
+        result = self._calculate_new_scoring(result)
         
         return result
     
@@ -620,6 +902,12 @@ class FinancialDataAnalyzer:
                             data_dict[ticker] = {}
                         data_dict[ticker]['bs'] = bs_df
                 
+                # info (基本情報) を保存
+                if 'info' in json_data:
+                    if ticker not in data_dict:
+                        data_dict[ticker] = {}
+                    data_dict[ticker]['info'] = json_data['info']
+                
                 # cashflow (CFデータ) は必要に応じて使用（現在は未使用）
                 # if 'cashflow' in json_data:
                 #     cf_df = self._json_to_dataframe(json_data['cashflow'])
@@ -655,8 +943,9 @@ class FinancialDataAnalyzer:
         for ticker, data in raw_data.items():
             pl_df = data.get('pl')
             bs_df = data.get('bs')
+            info = data.get('info')
             
-            normalized = self.normalize_stock_data(ticker, pl_df, bs_df)
+            normalized = self.normalize_stock_data(ticker, pl_df, bs_df, info)
             results.append(normalized)
             
             if normalized['missing_critical']:
@@ -691,7 +980,7 @@ class FinancialDataAnalyzer:
     
     def generate_final_recommendations(self, df: pd.DataFrame) -> pd.DataFrame:
         """
-        最終推奨リストを生成（ボーナススコア付きランキング）
+        最終推奨リストを生成（新しいスコアリング方式）
         
         Args:
             df: 分析結果のDataFrame
@@ -705,31 +994,10 @@ class FinancialDataAnalyzer:
         
         df_work = df.copy()
         
-        # ボーナススコアを計算
-        # debt_free_flagがTrueの場合にボーナスを加算
-        bonus_score = 0
-        if 'debt_free_flag' in df_work.columns:
-            # 無借金フラグがTrueの場合、ボーナススコアを加算（例: 10点）
-            df_work['debt_free_bonus'] = df_work['debt_free_flag'].apply(lambda x: 10 if x else 0)
-            bonus_score = df_work['debt_free_bonus']
-        else:
-            df_work['debt_free_bonus'] = 0
-        
-        # net_cash_statusが「実質無借金」の場合もボーナス
-        if 'net_cash_status' in df_work.columns:
-            net_cash_bonus = df_work['net_cash_status'].apply(lambda x: 5 if x == '実質無借金' else 0)
-            df_work['net_cash_bonus'] = net_cash_bonus
-        else:
-            df_work['net_cash_bonus'] = 0
-        
-        # 総合ボーナススコア
-        df_work['total_bonus_score'] = df_work['debt_free_bonus'] + df_work['net_cash_bonus']
-        
-        # 総合スコア = データ品質スコア + ボーナススコア
-        if 'data_quality_score' in df_work.columns:
-            df_work['total_score'] = df_work['data_quality_score'] + df_work['total_bonus_score']
-        else:
-            df_work['total_score'] = df_work['total_bonus_score']
+        # total_scoreが既に計算されている場合はそのまま使用
+        # ない場合は0点とする
+        if 'total_score' not in df_work.columns:
+            df_work['total_score'] = 0.0
         
         # ランキングを追加（total_scoreの降順）
         df_work = df_work.sort_values('total_score', ascending=False, na_position='last')

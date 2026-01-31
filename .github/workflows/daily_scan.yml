@@ -122,7 +122,10 @@ jobs:
         run: |
           python3 << 'EOF'
           import sys
-          from analyzer import FinancialDataAnalyzer
+          from pathlib import Path
+          sys.path.insert(0, str(Path.cwd()))
+          
+          from scripts.analyzer import FinancialDataAnalyzer
           
           print("=== 財務データ分析開始 ===")
           
@@ -151,7 +154,10 @@ jobs:
         run: |
           python3 << 'EOF'
           import sys
-          from reporter import ReportGenerator
+          from pathlib import Path
+          sys.path.insert(0, str(Path.cwd()))
+          
+          from scripts.reporter import ReportGenerator
           
           print("=== GitHub Pagesレポート生成開始 ===")
           
