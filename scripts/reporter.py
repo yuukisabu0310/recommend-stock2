@@ -103,12 +103,208 @@ class ReportGenerator:
             else:
                 return f'<span class="text-danger">{formatted}</span>'
     
-    def _generate_financial_details_html(self, row: pd.Series, colspan: int = 10) -> str:
+    def _generate_stock_modal_html(self, row: pd.Series, prefix: str) -> str:
+        """
+        銘柄詳細モーダルのHTMLを生成
+        
+        Args:
+            row: DataFrameの行
+            prefix: タブのプレフィックス（'value'または'growth'）
+            
+        Returns:
+            モーダルのHTML文字列
+        """
+        ticker = row.get('ticker', 'N/A')
+        ticker_clean = re.sub(r'\.0$', '', str(ticker).replace('.T', '').replace('T', '').strip()).zfill(4)
+        company_name = self._get_company_name(ticker)
+        modal_id = f"modal-{prefix}-{ticker_clean}"
+        
+        # 全指標を取得
+        per = row.get('per')
+        pbr = row.get('pbr')
+        roe = row.get('roe')
+        equity_ratio = row.get('equity_ratio')
+        eps = row.get('eps')
+        bps = row.get('bps')
+        dividend_yield = row.get('dividend_yield')
+        revenue_growth_rate = row.get('revenue_growth_rate')
+        operating_margin = row.get('operating_margin')
+        market_cap = row.get('market_cap')
+        sector = row.get('sector')
+        
+        # BS項目
+        total_assets = row.get('total_assets')
+        total_liabilities = row.get('total_liabilities')
+        equity = row.get('equity')
+        
+        # PL項目
+        revenue = row.get('revenue')
+        cost_of_revenue = row.get('cost_of_revenue')
+        gross_profit = row.get('gross_profit')
+        sga = row.get('sga')
+        operating_income = row.get('operating_income')
+        ordinary_income = row.get('ordinary_income')
+        pretax_income = row.get('pretax_income')
+        tax_provision = row.get('tax_provision')
+        net_income = row.get('net_income')
+        
+        # CF項目
+        beginning_cash_balance = row.get('beginning_cash_balance')
+        operating_cash_flow = row.get('operating_cash_flow')
+        investing_cash_flow = row.get('investing_cash_flow')
+        financing_cash_flow = row.get('financing_cash_flow')
+        end_cash_value = row.get('end_cash_value')
+        
+        # 指標リストの生成（2列グリッド形式）
+        per_str = f"{per:.1f}倍" if per is not None and not pd.isna(per) else "N/A"
+        pbr_str = f"{pbr:.2f}倍" if pbr is not None and not pd.isna(pbr) else "N/A"
+        roe_str = f"{roe:.1f}%" if roe is not None and not pd.isna(roe) else "N/A"
+        equity_ratio_str = f"{equity_ratio:.1f}%" if equity_ratio is not None and not pd.isna(equity_ratio) else "N/A"
+        eps_str = f"{eps:.0f}円" if eps is not None and not pd.isna(eps) else "N/A"
+        bps_str = f"{bps:.0f}円" if bps is not None and not pd.isna(bps) else "N/A"
+        dividend_yield_str = f"{dividend_yield:.2f}%" if dividend_yield is not None and not pd.isna(dividend_yield) else "N/A"
+        revenue_growth_str = f"{revenue_growth_rate:.1f}%" if revenue_growth_rate is not None and not pd.isna(revenue_growth_rate) else "N/A"
+        operating_margin_str = f"{operating_margin:.1f}%" if operating_margin is not None and not pd.isna(operating_margin) else "N/A"
+        market_cap_str = f"{market_cap:.1f}億円" if market_cap is not None and not pd.isna(market_cap) else "N/A"
+        sector_str = str(sector) if sector is not None and not pd.isna(sector) else "N/A"
+        
+        # サマリーカード
+        summary_card = f"""
+            <div class="modal-summary-card">
+                <div class="summary-item">
+                    <span class="summary-label">銘柄コード</span>
+                    <span class="summary-value">{ticker_clean}</span>
+                </div>
+                <div class="summary-item">
+                    <span class="summary-label">銘柄名</span>
+                    <span class="summary-value">{company_name}</span>
+                </div>
+                <div class="summary-item">
+                    <span class="summary-label">業種</span>
+                    <span class="summary-value">{sector_str}</span>
+                </div>
+                <div class="summary-item">
+                    <span class="summary-label">時価総額</span>
+                    <span class="summary-value">{market_cap_str}</span>
+                </div>
+            </div>
+        """
+        
+        # 財務スコア（2列グリッド）
+        financial_scores = f"""
+            <div class="modal-financial-scores">
+                <h6 class="modal-section-title">財務スコア</h6>
+                <div class="scores-grid">
+                    <div class="score-item">
+                        <span class="score-label">PER</span>
+                        <span class="score-value">{per_str}</span>
+                    </div>
+                    <div class="score-item">
+                        <span class="score-label">PBR</span>
+                        <span class="score-value">{pbr_str}</span>
+                    </div>
+                    <div class="score-item">
+                        <span class="score-label">ROE</span>
+                        <span class="score-value">{roe_str}</span>
+                    </div>
+                    <div class="score-item">
+                        <span class="score-label">自己資本比率</span>
+                        <span class="score-value">{equity_ratio_str}</span>
+                    </div>
+                    <div class="score-item">
+                        <span class="score-label">EPS</span>
+                        <span class="score-value">{eps_str}</span>
+                    </div>
+                    <div class="score-item">
+                        <span class="score-label">BPS</span>
+                        <span class="score-value">{bps_str}</span>
+                    </div>
+                    <div class="score-item">
+                        <span class="score-label">配当利回り</span>
+                        <span class="score-value">{dividend_yield_str}</span>
+                    </div>
+                    <div class="score-item">
+                        <span class="score-label">売上成長率</span>
+                        <span class="score-value">{revenue_growth_str}</span>
+                    </div>
+                    <div class="score-item">
+                        <span class="score-label">営業利益率</span>
+                        <span class="score-value">{operating_margin_str}</span>
+                    </div>
+                </div>
+            </div>
+        """
+        
+        # 業績推移テーブル（BS/PL/CF）
+        financial_table = f"""
+            <div class="modal-financial-table">
+                <h6 class="modal-section-title">業績推移</h6>
+                <div class="table-responsive">
+                    <table class="table table-sm table-bordered">
+                        <thead>
+                            <tr>
+                                <th>項目</th>
+                                <th class="text-end">金額（百万円）</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr><td><strong>📊 貸借対照表 (BS)</strong></td><td></td></tr>
+                            <tr><td>資産合計</td><td class="text-end">{self._format_millions_with_color(total_assets, True)}</td></tr>
+                            <tr><td>負債合計</td><td class="text-end">{self._format_millions_with_color(total_liabilities, False)}</td></tr>
+                            <tr><td>純資産合計</td><td class="text-end">{self._format_millions_with_color(equity, True)}</td></tr>
+                            <tr><td><strong>💰 損益計算書 (PL)</strong></td><td></td></tr>
+                            <tr><td>売上高</td><td class="text-end">{self._format_millions_with_color(revenue, True)}</td></tr>
+                            <tr><td>売上原価</td><td class="text-end">{self._format_millions_with_color(cost_of_revenue, False)}</td></tr>
+                            <tr><td>売上総利益</td><td class="text-end">{self._format_millions_with_color(gross_profit, True)}</td></tr>
+                            <tr><td>販管費</td><td class="text-end">{self._format_millions_with_color(sga, False)}</td></tr>
+                            <tr><td>営業利益</td><td class="text-end">{self._format_millions_with_color(operating_income, True)}</td></tr>
+                            <tr><td>経常利益</td><td class="text-end">{self._format_millions_with_color(ordinary_income, True)}</td></tr>
+                            <tr><td>税引前利益</td><td class="text-end">{self._format_millions_with_color(pretax_income, True)}</td></tr>
+                            <tr><td>法人税等</td><td class="text-end">{self._format_millions_with_color(tax_provision, False)}</td></tr>
+                            <tr><td>当期純利益</td><td class="text-end">{self._format_millions_with_color(net_income, True)}</td></tr>
+                            <tr><td><strong>💵 キャッシュフロー (CF)</strong></td><td></td></tr>
+                            <tr><td>期首残高</td><td class="text-end">{self._format_millions_with_color(beginning_cash_balance, True)}</td></tr>
+                            <tr><td>営業CF</td><td class="text-end">{self._format_millions_with_color(operating_cash_flow, True)}</td></tr>
+                            <tr><td>投資CF</td><td class="text-end">{self._format_millions_with_color(investing_cash_flow, True)}</td></tr>
+                            <tr><td>財務CF</td><td class="text-end">{self._format_millions_with_color(financing_cash_flow, True)}</td></tr>
+                            <tr><td>期末残高</td><td class="text-end">{self._format_millions_with_color(end_cash_value, True)}</td></tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        """
+        
+        return f"""
+        <!-- Modal -->
+        <div class="modal fade" id="{modal_id}" tabindex="-1" aria-labelledby="{modal_id}Label" aria-hidden="true">
+            <div class="modal-dialog modal-lg modal-dialog-scrollable">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="{modal_id}Label">
+                            <span class="ticker-code-large">{ticker_clean}</span> {company_name}
+                        </h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        {summary_card}
+                        {financial_scores}
+                        {financial_table}
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">閉じる</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        """
+    
+    def _generate_financial_details_html(self, row: pd.Series, prefix: str, colspan: int = 10) -> str:
         """
         財務詳細（BS/PL/CF）のHTMLを生成
         
         Args:
             row: DataFrameの行
+            prefix: タブのプレフィックス（'value'または'growth'）
             colspan: テーブルの列数
             
         Returns:
@@ -239,8 +435,9 @@ class ReportGenerator:
         # テーブルの列数に応じてcolspanを設定（デフォルトは10列）
         colspan = 10
         
+        detail_id = f"{prefix}-details-{ticker_clean}"
         return f"""
-            <tr class="financial-details-row" id="details-{ticker_clean}" style="display: none;">
+            <tr class="financial-details-row" id="{detail_id}" style="display: none;">
                 <td colspan="{colspan}">
                     <div class="row p-3 bg-light border-top">
                         {bs_html}
@@ -311,7 +508,7 @@ class ReportGenerator:
     
     def _load_sector_info(self) -> Dict[str, str]:
         """
-        セクター（33業種区分）情報を読み込む
+        セクター（17業種区分を優先、なければ33業種区分）情報を読み込む
         
         Returns:
             ticker -> sector_name の辞書
@@ -324,9 +521,20 @@ class ReportGenerator:
             try:
                 jpx_df = pd.read_csv(jpx_info_path, encoding='utf-8-sig')
                 
-                # 「コード」と「33業種区分」カラムを直接使用
-                if 'コード' not in jpx_df.columns or '33業種区分' not in jpx_df.columns:
-                    logger.error("「コード」または「33業種区分」列が見つかりません")
+                # 「コード」カラムの確認
+                if 'コード' not in jpx_df.columns:
+                    logger.error("「コード」列が見つかりません")
+                    return {}
+                
+                # 17業種区分を優先、なければ33業種区分を使用
+                sector_col = None
+                if '17業種区分' in jpx_df.columns:
+                    sector_col = '17業種区分'
+                elif '33業種区分' in jpx_df.columns:
+                    sector_col = '33業種区分'
+                
+                if not sector_col:
+                    logger.error("「17業種区分」または「33業種区分」列が見つかりません")
                     return {}
                 
                 # 内国株式のみをフィルタリング
@@ -335,14 +543,14 @@ class ReportGenerator:
                 
                 for _, row in jpx_df.iterrows():
                     ticker = str(row['コード']).strip()
-                    sector = str(row['33業種区分']).strip()
+                    sector = str(row[sector_col]).strip()
                     # コード整形：.0$を正規表現で除去し、4桁の文字列（0埋め）に変換
                     ticker_clean = re.sub(r'\.0$', '', str(ticker)).strip()
                     # 4桁に整形
                     ticker_clean = ticker_clean.zfill(4)
                     if ticker_clean and sector and sector != '-' and ticker_clean.isdigit() and len(ticker_clean) == 4:
                         sector_info[ticker_clean] = sector
-                logger.info(f"セクター情報を読み込みました: {len(sector_info)}件")
+                logger.info(f"セクター情報を読み込みました（{sector_col}）: {len(sector_info)}件")
             except Exception as e:
                 logger.warning(f"セクター情報の読み込みに失敗: {str(e)}")
         else:
@@ -366,6 +574,87 @@ class ReportGenerator:
         ticker_clean = re.sub(r'\.0$', '', ticker_clean).strip()
         ticker_clean = ticker_clean.zfill(4)
         return self.sector_info.get(ticker_clean)
+    
+    def _generate_sector_select(self, select_id: str, sectors: List[str]) -> str:
+        """
+        業種セレクトボックスを生成
+        
+        Args:
+            select_id: セレクトボックスのID
+            sectors: 業種リスト
+            
+        Returns:
+            HTMLセレクトボックスの文字列
+        """
+        options = ['<option value="all">すべての業種</option>']
+        for sector in sectors:
+            options.append(f'<option value="{sector}">{sector}</option>')
+        
+        return f'<select id="{select_id}" class="sector-filter-select" name="{select_id}">{"".join(options)}</select>'
+    
+    def _get_stock_marks(self, row: pd.Series) -> str:
+        """
+        銘柄のマーク（記号）を取得
+        
+        Args:
+            row: DataFrameの行
+            
+        Returns:
+            マークの文字列（複数の場合はスペース区切り）
+        """
+        marks = []
+        
+        # 🔥 : 売上成長率 20%以上
+        revenue_growth_rate = row.get('revenue_growth_rate')
+        if revenue_growth_rate is not None and not pd.isna(revenue_growth_rate) and revenue_growth_rate >= 20.0:
+            marks.append('🔥')
+        
+        # 💎 : 完全無借金 (debt_free_flag または is_debt_free のいずれかがTrue)
+        # debt_free_flag と is_debt_free の判定を統合
+        debt_free_flag = row.get('debt_free_flag')
+        is_debt_free = row.get('is_debt_free')
+        is_completely_debt_free = (debt_free_flag == True) or (is_debt_free == True)
+        
+        # 💰 : 実質無借金 (net_cash_status または net_cash_flag)
+        net_cash_status = row.get('net_cash_status')
+        net_cash_flag = row.get('net_cash_flag')
+        is_net_cash = (net_cash_status == '実質無借金') or (net_cash_flag == True)
+        
+        # 無借金（💎）と実質無借金（💰）が両方該当する場合は、より上位の概念である💎のみを表示
+        if is_completely_debt_free:
+            marks.append('💎')
+        elif is_net_cash:
+            marks.append('💰')
+        
+        # ⚠️ : 重要データ欠損 (missing_critical)
+        if row.get('missing_critical') == True:
+            marks.append('⚠️')
+        
+        return ' '.join(marks) if marks else ''
+    
+    def _get_cap_size_badge(self, cap_size: Optional[str]) -> str:
+        """
+        時価総額によるサイズ分類のバッジを取得
+        
+        Args:
+            cap_size: サイズ分類（"大型", "中型", "小型"）
+            
+        Returns:
+            バッジのHTML文字列
+        """
+        if cap_size is None or pd.isna(cap_size):
+            return ""
+        
+        cap_size_str = str(cap_size).strip()
+        
+        if cap_size_str == '大型':
+            return '<span class="badge bg-primary">大型</span>'
+        elif cap_size_str == '中型':
+            return '<span class="badge bg-info text-dark">中型</span>'
+        elif cap_size_str == '小型':
+            return '<span class="badge bg-secondary">小型</span>'
+        else:
+            return ""
     
     def _get_investment_badges(self, row: pd.Series) -> List[str]:
         """
@@ -496,7 +785,7 @@ class ReportGenerator:
     
     def _get_yahoo_finance_button(self, ticker: str) -> str:
         """
-        Yahoo FinanceへのリンクをBootstrapボタン形式で生成
+        Yahoo FinanceへのリンクをYahoo Finance風ボタン形式で生成
         
         Args:
             ticker: 銘柄コード
@@ -505,7 +794,7 @@ class ReportGenerator:
             HTMLボタン形式の文字列
         """
         url = self._get_yahoo_finance_link(ticker)
-        return f'<a href="{url}" target="_blank" class="btn btn-outline-primary btn-sm">📈 チャート</a>'
+        return f'<a href="{url}" target="_blank" class="btn-yahoo">📈 チャート</a>'
     
     def _get_score_stars(self, score: float, max_score: float) -> str:
         """
@@ -1064,7 +1353,7 @@ class ReportGenerator:
     
     def _generate_value_table_row_html(self, row: pd.Series, rank: int) -> str:
         """
-        バリュー株用テーブル行を生成
+        バリュー株用テーブル行を生成（3列構成：銘柄、主要指標、時価総額）
         
         Args:
             row: DataFrameの行
@@ -1075,62 +1364,69 @@ class ReportGenerator:
         """
         ticker = row.get('ticker', 'N/A')
         ticker_clean = re.sub(r'\.0$', '', str(ticker).replace('.T', '').replace('T', '').strip()).zfill(4)
+        company_name = self._get_company_name(ticker)
         company_name_with_icons = self._get_company_name_with_icons(row)
-        sector = self._get_sector(ticker)
-        sector_display = sector if sector else "-"
         
-        # バリュー株スコア
-        value_rank_score = row.get('value_rank_score', 0) or 0
-        score_value = row.get('score_value', 0) or 0
-        score_safety = row.get('score_safety', 0) or 0
-        score_profit = row.get('score_profit', 0) or 0
+        # CSVから直接業種を取得（なければ_get_sectorで取得）
+        sector = row.get('sector')
+        if sector is None or pd.isna(sector) or str(sector).strip() == '':
+            sector = self._get_sector(ticker)
+        sector_display = str(sector).strip() if sector and not pd.isna(sector) else "-"
         
         # バリュー株で重要な指標
+        dividend_yield = row.get('dividend_yield')
         pbr = row.get('pbr')
-        per = row.get('per')
-        equity_ratio = row.get('equity_ratio')
-        net_cash_status = row.get('net_cash_status', '')
+        market_cap = row.get('market_cap')
         
-        # PBR/PERの表示
-        pbr_display = f"{pbr:.2f}" if pbr is not None and not pd.isna(pbr) else "N/A"
-        per_display = f"{per:.1f}倍" if per is not None and not pd.isna(per) else "N/A"
+        # マークを取得
+        marks = self._get_stock_marks(row)
         
-        # 自己資本比率の表示
-        equity_ratio_display = f"{equity_ratio:.1f}%" if equity_ratio is not None and not pd.isna(equity_ratio) else "N/A"
+        # 時価総額によるサイズ分類バッジを取得
+        cap_size = row.get('cap_size')
+        size_badge = self._get_cap_size_badge(cap_size)
         
-        # ネットキャッシュ状態
-        net_cash_display = net_cash_status if net_cash_status else "-"
+        # Yahoo Financeリンク
+        yahoo_url = self._get_yahoo_finance_link(ticker)
         
-        # スコアに応じた背景色クラス
-        score_class = "score-high" if value_rank_score >= 50 else "score-medium" if value_rank_score >= 30 else "score-low"
+        # 銘柄セル：サイズバッジ + コード（リンク）+ 名称（リンクなし）+ 記号
+        marks_display = f" {marks}" if marks else ""
         
-        # Yahoo Financeボタン
-        chart_button = self._get_yahoo_finance_button(ticker)
+        # 主要指標：利回り / PBR（下に指標名を表示）
+        dividend_yield_display = f"{dividend_yield:.2f}%" if dividend_yield is not None and not pd.isna(dividend_yield) else "N/A"
+        pbr_display = f"{pbr:.2f}x" if pbr is not None and not pd.isna(pbr) else "N/A"
+        main_metrics = f"""
+            <div class="metrics-value">{dividend_yield_display} / {pbr_display}</div>
+            <div class="metrics-label">利回り / PBR</div>
+        """
         
-        # 詳細表示ボタン
-        details_button_id = f"details-btn-{ticker_clean}"
-        details_row_id = f"details-{ticker_clean}"
-        details_button = f'<button class="btn btn-sm btn-outline-secondary" onclick="toggleDetails(\'{details_row_id}\', \'{details_button_id}\')" id="{details_button_id}">📊 詳細</button>'
+        # 時価総額の表示（億円単位）
+        market_cap_display = f"{market_cap:.1f}" if market_cap is not None and not pd.isna(market_cap) else "-"
+        
+        # モーダルID
+        modal_id = f"modal-value-{ticker_clean}"
+        details_button_id = f"details-btn-value-{ticker_clean}"
         
         return f"""
-            <tr class="{score_class}">
-                <td>{rank}</td>
-                <td><strong>{ticker_clean}</strong><br><small>{company_name_with_icons}</small><br><small class="text-muted">{sector_display}</small></td>
-                <td><span class="badge bg-primary">{value_rank_score:.1f}</span></td>
-                <td class="table-warning"><strong>{pbr_display}</strong><br><small class="text-muted">{per_display}</small></td>
-                <td class="table-info"><strong>{equity_ratio_display}</strong></td>
-                <td><strong>{net_cash_display}</strong></td>
-                <td>{score_value:.1f}</td>
-                <td>{score_safety:.1f}</td>
-                <td>{score_profit:.1f}</td>
-                <td>{chart_button}<br>{details_button}</td>
+            <tr class="stock-row" data-sector="{sector_display}" data-ticker="{ticker_clean}">
+                <td class="stock-cell">
+                    <div class="stock-info">
+                        {size_badge if size_badge else ""}
+                        <a href="{yahoo_url}" target="_blank" class="ticker-code-link">{ticker_clean}</a>
+                        <span class="company-name">{company_name}{marks_display}</span>
+                    </div>
+                    <button class="btn-analyze" onclick="showModal('{modal_id}')" id="{details_button_id}" title="詳細を表示">ANALYZE</button>
+                </td>
+                <td class="metrics-cell">{main_metrics}</td>
+                <td class="market-cap-cell">
+                    <div class="market-cap-value">{market_cap_display}</div>
+                    <div class="market-cap-label">億円</div>
+                </td>
             </tr>
-            {self._generate_financial_details_html(row, colspan=10)}
 """
     
     def _generate_growth_table_row_html(self, row: pd.Series, rank: int) -> str:
         """
-        グロース株用テーブル行を生成
+        グロース株用テーブル行を生成（3列構成：銘柄、主要指標、時価総額）
         
         Args:
             row: DataFrameの行
@@ -1141,57 +1437,71 @@ class ReportGenerator:
         """
         ticker = row.get('ticker', 'N/A')
         ticker_clean = re.sub(r'\.0$', '', str(ticker).replace('.T', '').replace('T', '').strip()).zfill(4)
+        company_name = self._get_company_name(ticker)
         company_name_with_icons = self._get_company_name_with_icons(row)
-        sector = self._get_sector(ticker)
-        sector_display = sector if sector else "-"
         
-        # グロース株スコア
-        growth_rank_score = row.get('growth_rank_score', 0) or 0
-        score_growth = row.get('score_growth', 0) or 0
-        score_profit = row.get('score_profit', 0) or 0
+        # CSVから直接業種を取得（なければ_get_sectorで取得）
+        sector = row.get('sector')
+        if sector is None or pd.isna(sector) or str(sector).strip() == '':
+            sector = self._get_sector(ticker)
+        sector_display = str(sector).strip() if sector and not pd.isna(sector) else "-"
         
         # グロース株で重要な指標
         revenue_growth_rate = row.get('revenue_growth_rate')
-        roe = row.get('roe')
-        operating_income = row.get('operating_income')
-        revenue = row.get('revenue')
+        operating_margin = row.get('operating_margin')
+        market_cap = row.get('market_cap')
         
-        # 売上成長率の表示
-        growth_rate_display = f"{revenue_growth_rate:+.1f}%" if revenue_growth_rate is not None and not pd.isna(revenue_growth_rate) else "N/A"
+        # マークを取得
+        marks = self._get_stock_marks(row)
         
-        # ROEの表示
-        roe_display = f"{roe:.1f}%" if roe is not None and not pd.isna(roe) else "N/A"
+        # 時価総額によるサイズ分類バッジを取得
+        cap_size = row.get('cap_size')
+        size_badge = self._get_cap_size_badge(cap_size)
         
-        # 営業利益率の計算と表示
-        op_margin_display = "N/A"
-        if operating_income is not None and not pd.isna(operating_income) and revenue is not None and not pd.isna(revenue) and revenue != 0:
-            op_margin = (operating_income / revenue) * 100
-            op_margin_display = f"{op_margin:.1f}%"
+        # Yahoo Financeリンク
+        yahoo_url = self._get_yahoo_finance_link(ticker)
         
-        # スコアに応じた背景色クラス
-        score_class = "score-high" if growth_rank_score >= 60 else "score-medium" if growth_rank_score >= 40 else "score-low"
+        # 銘柄セル：サイズバッジ + コード（リンク）+ 名称（リンクなし）+ 記号
+        marks_display = f" {marks}" if marks else ""
         
-        # Yahoo Financeボタン
-        chart_button = self._get_yahoo_finance_button(ticker)
+        # 主要指標：成長率 / 営業利益率（下に指標名を表示）
+        if revenue_growth_rate is not None and not pd.isna(revenue_growth_rate):
+            revenue_growth_value = float(revenue_growth_rate)
+            if revenue_growth_value >= 0:
+                revenue_growth_display = f'<span class="growth-positive">{revenue_growth_rate:.1f}%</span>'
+            else:
+                revenue_growth_display = f'<span class="growth-negative">{revenue_growth_rate:.1f}%</span>'
+        else:
+            revenue_growth_display = "N/A"
+        operating_margin_display = f"{operating_margin:.1f}%" if operating_margin is not None and not pd.isna(operating_margin) else "N/A"
+        main_metrics = f"""
+            <div class="metrics-value">{revenue_growth_display} / {operating_margin_display}</div>
+            <div class="metrics-label">売上成長 / 営業利益率</div>
+        """
         
-        # 詳細表示ボタン
-        details_button_id = f"details-btn-{ticker_clean}"
-        details_row_id = f"details-{ticker_clean}"
-        details_button = f'<button class="btn btn-sm btn-outline-secondary" onclick="toggleDetails(\'{details_row_id}\', \'{details_button_id}\')" id="{details_button_id}">📊 詳細</button>'
+        # 時価総額の表示（億円単位）
+        market_cap_display = f"{market_cap:.1f}" if market_cap is not None and not pd.isna(market_cap) else "-"
+        
+        # モーダルID
+        modal_id = f"modal-growth-{ticker_clean}"
+        details_button_id = f"details-btn-growth-{ticker_clean}"
         
         return f"""
-            <tr class="{score_class}">
-                <td>{rank}</td>
-                <td><strong>{ticker_clean}</strong><br><small>{company_name_with_icons}</small><br><small class="text-muted">{sector_display}</small></td>
-                <td><span class="badge bg-success">{growth_rank_score:.1f}</span></td>
-                <td class="table-primary"><strong>{growth_rate_display}</strong></td>
-                <td class="table-info"><strong>{roe_display}</strong></td>
-                <td class="table-warning"><strong>{op_margin_display}</strong></td>
-                <td>{score_growth:.1f}</td>
-                <td>{score_profit:.1f}</td>
-                <td>{chart_button}<br>{details_button}</td>
+            <tr class="stock-row" data-sector="{sector_display}" data-ticker="{ticker_clean}">
+                <td class="stock-cell">
+                    <div class="stock-info">
+                        {size_badge if size_badge else ""}
+                        <a href="{yahoo_url}" target="_blank" class="ticker-code-link">{ticker_clean}</a>
+                        <span class="company-name">{company_name}{marks_display}</span>
+                    </div>
+                    <button class="btn-analyze" onclick="showModal('{modal_id}')" id="{details_button_id}" title="詳細を表示">ANALYZE</button>
+                </td>
+                <td class="metrics-cell">{main_metrics}</td>
+                <td class="market-cap-cell">
+                    <div class="market-cap-value">{market_cap_display}</div>
+                    <div class="market-cap-label">億円</div>
+                </td>
             </tr>
-            {self._generate_financial_details_html(row, colspan=9)}
 """
     
     def generate_html(self, value_df: pd.DataFrame, growth_df: pd.DataFrame) -> str:
@@ -1218,17 +1528,34 @@ class ReportGenerator:
         jst = timezone(timedelta(hours=9))
         update_time_jst = now.astimezone(jst).strftime("%Y年%m月%d日 %H:%M JST")
         
-        # バリュー株テーブルの行を生成
+        # 業種リストを取得（五十音順でソート）
+        value_sectors = []
+        if not value_df.empty and 'sector' in value_df.columns:
+            value_sectors = sorted([s for s in value_df['sector'].dropna().unique() if s and str(s).strip() != '-'])
+        
+        growth_sectors = []
+        if not growth_df.empty and 'sector' in growth_df.columns:
+            growth_sectors = sorted([s for s in growth_df['sector'].dropna().unique() if s and str(s).strip() != '-'])
+        
+        # バリュー株テーブルの行とモーダルを生成
         value_rows = ""
+        value_modals = ""
         if not value_df.empty:
             for i, (_, row) in enumerate(value_df.iterrows(), 1):
                 value_rows += self._generate_value_table_row_html(row, i)
+                value_modals += self._generate_stock_modal_html(row, "value")
         
-        # グロース株テーブルの行を生成
+        # グロース株テーブルの行とモーダルを生成
         growth_rows = ""
+        growth_modals = ""
         if not growth_df.empty:
             for i, (_, row) in enumerate(growth_df.iterrows(), 1):
                 growth_rows += self._generate_growth_table_row_html(row, i)
+                growth_modals += self._generate_stock_modal_html(row, "growth")
+        
+        # 業種セレクトボックスを生成
+        value_sector_select = self._generate_sector_select('value-sector-filter', value_sectors)
+        growth_sector_select = self._generate_sector_select('growth-sector-filter', growth_sectors)
         
         html = f"""
 <!DOCTYPE html>
@@ -1236,16 +1563,261 @@ class ReportGenerator:
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>🇯🇵 日本株 戦略別スコアボード</title>
+    <title>J-Equity Insight Engine</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <style>
-        .score-high {{ background-color: #d4edda !important; }}
-        .score-medium {{ background-color: #fff3cd !important; }}
-        .score-low {{ background-color: #f8d7da !important; }}
-        .nav-tabs .nav-link {{ font-weight: bold; color: #666; }}
-        .nav-tabs .nav-link.active {{ color: #0d6efd; border-bottom: 3px solid #0d6efd; }}
+        /* Yahoo Finance US風カラーパレット */
+        :root {{
+            --yahoo-navy: #001c44;
+            --yahoo-blue: #0081f1;
+            --yahoo-green: #00b061;
+            --yahoo-bg: #f6f9fc;
+            --yahoo-border: #e0e4e9;
+            --yahoo-text-gray: #666;
+        }}
+        
+        body {{
+            background-color: var(--yahoo-bg);
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+        }}
+        
+        /* メインコンテンツ */
+        .main-content {{
+            padding: 1.5rem 2rem;
+            max-width: 100%;
+        }}
+        
+        /* ヘッダー（ダッシュボード風） */
+        .main-header {{
+            background-color: var(--yahoo-navy);
+            color: white;
+            padding: 0;
+            margin: 0;
+            border-bottom: 2px solid var(--yahoo-border);
+        }}
+        .header-content {{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 1rem 2rem;
+            max-width: 100%;
+        }}
+        .header-title {{
+            font-size: 1.5rem;
+            font-weight: 700;
+            margin: 0;
+            color: white;
+            letter-spacing: 0.05em;
+        }}
+        .header-strategy {{
+            font-size: 0.9rem;
+            font-weight: 600;
+            color: rgba(255, 255, 255, 0.9);
+            letter-spacing: 0.1em;
+            text-transform: uppercase;
+        }}
+        .header-strategy.value {{
+            color: #ffd700;
+        }}
+        .header-strategy.growth {{
+            color: #00ff88;
+        }}
+        
+        /* 凡例行（タブナビゲーションの下） */
+        .legend-row {{
+            padding: 0.75rem 0;
+            margin-bottom: 1rem;
+            font-size: 0.85rem;
+            color: var(--yahoo-text-gray);
+        }}
+        .legend-row strong {{
+            color: var(--yahoo-text-gray);
+        }}
+        .legend-row span {{
+            margin-right: 1rem;
+        }}
+        
+        /* フィルター行 */
+        .filter-row {{
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            margin-bottom: 1rem;
+            padding: 0.75rem 0;
+        }}
+        .filter-row .form-label {{
+            margin: 0;
+            font-size: 0.85rem;
+            font-weight: 600;
+            color: var(--yahoo-text-gray);
+            white-space: nowrap;
+        }}
+        
+        /* テーブルスタイル */
+        .table-responsive {{
+            background-color: white;
+            border-radius: 0.5rem;
+            overflow: hidden;
+            width: 100%;
+        }}
+        .table {{
+            margin-bottom: 0;
+            border-collapse: separate;
+            border-spacing: 0;
+            width: 100%;
+        }}
+        .table tbody tr {{
+            white-space: nowrap;
+        }}
+        .table tbody .stock-cell {{
+            white-space: normal;
+        }}
+        .table thead th {{
+            background-color: white;
+            color: var(--yahoo-text-gray);
+            font-size: 0.75rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            padding: 0.75rem 1rem;
+            border-bottom: 1px solid var(--yahoo-border);
+            border-top: none;
+            border-left: none;
+            border-right: none;
+            vertical-align: middle;
+        }}
+        .table tbody td {{
+            font-size: 0.9rem;
+            padding: 0.75rem 1rem;
+            vertical-align: middle;
+            border-bottom: 1px solid var(--yahoo-border);
+            border-left: none;
+            border-right: none;
+            border-top: none;
+        }}
+        .table tbody tr:hover {{
+            background-color: rgba(0, 129, 241, 0.05);
+        }}
+        
+        /* ティッカーコードと会社名 */
+        .stock-info {{
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            flex-wrap: wrap;
+            flex: 1;
+        }}
+        .ticker-code-link {{
+            font-weight: 700;
+            color: var(--yahoo-blue);
+            text-decoration: none;
+            font-size: 1rem;
+            transition: color 0.2s;
+        }}
+        .ticker-code-link:hover {{
+            color: #0066cc;
+            text-decoration: underline;
+        }}
+        .company-name {{
+            color: var(--yahoo-text-gray);
+            font-size: 0.9rem;
+        }}
+        
+        /* サイズバッジ（アウトラインスタイル） */
+        .cap-badge {{
+            display: inline-block;
+            padding: 0.15rem 0.5rem;
+            font-size: 0.7rem;
+            font-weight: 600;
+            border: 1px solid var(--yahoo-border);
+            border-radius: 0.25rem;
+            background-color: transparent;
+            margin-right: 0.25rem;
+        }}
+        .cap-badge-large {{
+            color: var(--yahoo-blue);
+            border-color: var(--yahoo-blue);
+        }}
+        .cap-badge-medium {{
+            color: var(--yahoo-text-gray);
+            border-color: var(--yahoo-text-gray);
+        }}
+        .cap-badge-small {{
+            color: var(--yahoo-text-gray);
+            border-color: var(--yahoo-border);
+        }}
+        
+        /* 数値セル */
+        .numeric-cell {{
+            font-weight: 600;
+            text-align: right;
+        }}
+        
+        /* 成長率/利益率セル */
+        .growth-margin-cell {{
+            font-weight: 600;
+        }}
+        .growth-positive {{
+            color: var(--yahoo-green);
+        }}
+        .growth-negative {{
+            color: #d32f2f;
+        }}
+        
+        /* スコアバッジ */
+        .score-badge {{
+            display: inline-block;
+            padding: 0.25rem 0.75rem;
+            background-color: var(--yahoo-blue);
+            color: white;
+            border-radius: 0.25rem;
+            font-weight: 600;
+            font-size: 0.85rem;
+        }}
+        
+        /* 詳細ボタン */
+        .btn-details {{
+            background-color: transparent;
+            border: 1px solid var(--yahoo-border);
+            color: var(--yahoo-text-gray);
+            padding: 0.25rem 0.5rem;
+            border-radius: 0.25rem;
+            transition: all 0.2s;
+        }}
+        .btn-details:hover {{
+            background-color: var(--yahoo-blue);
+            border-color: var(--yahoo-blue);
+            color: white;
+        }}
+        .btn-details svg {{
+            transition: transform 0.2s;
+        }}
+        .btn-details.active svg {{
+            transform: rotate(180deg);
+        }}
+        
+        /* Yahoo Financeボタン */
+        .btn-yahoo {{
+            background-color: var(--yahoo-blue);
+            color: white;
+            border: none;
+            padding: 0.25rem 0.75rem;
+            border-radius: 0.25rem;
+            font-size: 0.8rem;
+            font-weight: 600;
+            text-decoration: none;
+            transition: background-color 0.2s;
+        }}
+        .btn-yahoo:hover {{
+            background-color: #0066cc;
+            color: white;
+        }}
+        
+        /* スコア背景色は削除（不要な情報として削除） */
+        
+        /* 財務詳細行 */
         .financial-details-row {{
-            background-color: #f8f9fa;
+            background-color: #fafbfc;
         }}
         .financial-details-row td {{
             padding: 0 !important;
@@ -1256,52 +1828,349 @@ class ReportGenerator:
         .financial-details-row .table-sm td {{
             padding: 0.5rem;
         }}
+        
+        /* セクターフィルター */
+        .sector-filter-select {{
+            min-width: 200px;
+            max-width: 300px;
+            padding: 0.4rem 0.75rem;
+            font-size: 0.85rem;
+            border: 1px solid var(--yahoo-border);
+            border-radius: 0.25rem;
+            background-color: white;
+            transition: border-color 0.15s ease-in-out;
+        }}
+        .sector-filter-select:focus {{
+            border-color: var(--yahoo-blue);
+            outline: 0;
+            box-shadow: 0 0 0 0.2rem rgba(0, 129, 241, 0.15);
+        }}
+        
+        /* タブナビゲーション */
+        .nav-tabs {{
+            border-bottom: 2px solid var(--yahoo-border);
+        }}
+        .nav-tabs .nav-link {{
+            border: none;
+            border-bottom: 3px solid transparent;
+            color: var(--yahoo-text-gray);
+            font-weight: 600;
+            padding: 0.75rem 1.5rem;
+            transition: all 0.2s;
+        }}
+        .nav-tabs .nav-link:hover {{
+            border-bottom-color: rgba(0, 129, 241, 0.5);
+            color: var(--yahoo-blue);
+        }}
+        .nav-tabs .nav-link.active {{
+            color: var(--yahoo-blue);
+            border-bottom-color: var(--yahoo-blue);
+            background-color: transparent;
+        }}
+        
+        /* タブコンテンツ */
+        .tab-content {{
+            background-color: white;
+            border: 1px solid var(--yahoo-border);
+            border-top: none;
+            border-radius: 0 0 0.5rem 0.5rem;
+            padding: 1.5rem;
+        }}
+        
+        /* 銘柄セル */
+        .stock-cell {{
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            flex-wrap: wrap;
+        }}
+        /* 詳細ボタン（ANALYZE） */
+        .btn-analyze {{
+            background-color: transparent;
+            border: 1px solid var(--yahoo-blue);
+            color: var(--yahoo-blue);
+            padding: 0.2rem 0.6rem;
+            border-radius: 0.25rem;
+            font-size: 0.6rem;
+            font-weight: 600;
+            letter-spacing: 0.05em;
+            cursor: pointer;
+            transition: all 0.2s;
+            flex-shrink: 0;
+            text-transform: uppercase;
+        }}
+        .btn-analyze:hover {{
+            background-color: var(--yahoo-blue);
+            color: white;
+        }}
+        
+        /* 指標セル */
+        .metrics-value {{
+            font-weight: 600;
+            font-size: 0.95rem;
+            margin-bottom: 0.2rem;
+        }}
+        .metrics-label {{
+            font-size: 0.7rem;
+            color: var(--yahoo-text-gray);
+        }}
+        
+        /* 時価総額セル */
+        .market-cap-value {{
+            font-weight: 600;
+            font-size: 0.95rem;
+            margin-bottom: 0.2rem;
+        }}
+        .market-cap-label {{
+            font-size: 0.7rem;
+            color: var(--yahoo-text-gray);
+        }}
+        
+        /* モーダルスタイル */
+        .modal-summary-card {{
+            background-color: #f8f9fa;
+            border-radius: 0.5rem;
+            padding: 1rem;
+            margin-bottom: 1.5rem;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 1rem;
+        }}
+        .summary-item {{
+            display: flex;
+            flex-direction: column;
+            gap: 0.25rem;
+        }}
+        .summary-label {{
+            font-size: 0.75rem;
+            color: var(--yahoo-text-gray);
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+        }}
+        .summary-value {{
+            font-size: 1rem;
+            font-weight: 600;
+            color: var(--yahoo-navy);
+        }}
+        .modal-section-title {{
+            font-weight: 600;
+            color: var(--yahoo-navy);
+            margin-bottom: 0.75rem;
+            font-size: 1rem;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+        }}
+        .modal-financial-scores {{
+            margin-bottom: 1.5rem;
+        }}
+        .scores-grid {{
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 0.75rem;
+        }}
+        .score-item {{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0.5rem;
+            background-color: #f8f9fa;
+            border-radius: 0.25rem;
+        }}
+        .score-label {{
+            font-size: 0.85rem;
+            color: var(--yahoo-text-gray);
+        }}
+        .score-value {{
+            font-size: 0.95rem;
+            font-weight: 600;
+            color: var(--yahoo-navy);
+        }}
+        .modal-financial-table {{
+            margin-top: 1.5rem;
+        }}
+        .modal-financial-table .table-responsive {{
+            max-height: 400px;
+            overflow-y: auto;
+        }}
+        .ticker-code-large {{
+            font-weight: 700;
+            color: var(--yahoo-blue);
+            font-size: 1.1rem;
+            margin-right: 0.5rem;
+        }}
+        
+        /* フッター */
+        .main-footer {{
+            background-color: var(--yahoo-navy);
+            color: rgba(255, 255, 255, 0.7);
+            padding: 1.5rem 2rem;
+            margin-top: 3rem;
+            border-top: 1px solid var(--yahoo-border);
+        }}
+        .footer-content {{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 1rem;
+        }}
+        .footer-legend {{
+            display: flex;
+            gap: 1rem;
+            flex-wrap: wrap;
+        }}
+        .footer-legend-item {{
+            font-size: 0.85rem;
+        }}
+        .footer-legend-label {{
+            font-weight: 600;
+            margin-right: 0.5rem;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+        }}
+        .footer-update-time {{
+            font-size: 0.85rem;
+        }}
+        
+        /* スマホ最適化 */
+        @media (max-width: 768px) {{
+            .main-content {{
+                padding: 1rem;
+            }}
+            .header-content {{
+                padding: 0.75rem 1rem;
+                flex-direction: column;
+                align-items: flex-start;
+                gap: 0.5rem;
+            }}
+            .header-nav {{
+                flex-direction: column;
+                width: 100%;
+            }}
+            .header-nav .nav-link {{
+                width: 100%;
+                text-align: left;
+                padding: 0.5rem 1rem;
+            }}
+            .filter-row {{
+                flex-direction: column;
+                align-items: flex-start;
+                gap: 0.5rem;
+            }}
+            .sector-filter-select {{
+                width: 100%;
+                max-width: 100%;
+            }}
+            .table-responsive {{
+                overflow-x: auto;
+                -webkit-overflow-scrolling: touch;
+            }}
+            .table thead th {{
+                font-size: 0.7rem;
+                padding: 0.5rem 0.75rem;
+            }}
+            .table tbody td {{
+                font-size: 0.85rem;
+                padding: 0.5rem 0.75rem;
+            }}
+            .stock-cell {{
+                flex-direction: column;
+                align-items: flex-start;
+                gap: 0.5rem;
+            }}
+            .stock-info {{
+                width: 100%;
+            }}
+            .ticker-code-link {{
+                font-size: 0.9rem;
+            }}
+            .btn-analyze {{
+                align-self: flex-end;
+                margin-top: 0.25rem;
+            }}
+            .tab-content {{
+                padding: 1rem;
+            }}
+            .modal-dialog {{
+                margin: 0.5rem;
+            }}
+            .modal-content {{
+                border-radius: 0.5rem;
+            }}
+            .modal-body {{
+                padding: 1rem;
+            }}
+            .modal-financial-section .row {{
+                flex-direction: column;
+            }}
+            .modal-financial-section .col-md-4 {{
+                width: 100%;
+                margin-bottom: 1rem;
+            }}
+        }}
+        
+        @media (max-width: 480px) {{
+            .header-title {{
+                font-size: 1rem;
+            }}
+            .table thead th {{
+                font-size: 0.65rem;
+                padding: 0.4rem 0.5rem;
+            }}
+            .table tbody td {{
+                font-size: 0.8rem;
+                padding: 0.4rem 0.5rem;
+            }}
+            .ticker-code-link {{
+                font-size: 0.85rem;
+            }}
+            .legend-row {{
+                font-size: 0.75rem;
+            }}
+            .legend-row span {{
+                display: block;
+                margin-bottom: 0.25rem;
+            }}
+        }}
     </style>
 </head>
 <body class="bg-light">
-    <div class="container-fluid mt-4">
-        <h1 class="text-center mb-4">📊 日本株 戦略別ランキング</h1>
-        
-        <div class="text-center mb-4">
-            <span class="badge bg-primary me-2">更新日時: {update_time_jst}</span>
-            <span class="badge bg-success">バリュー株: {len(value_df)}銘柄</span>
-            <span class="badge bg-info">グロース株: {len(growth_df)}銘柄</span>
+    <!-- ヘッダー -->
+    <header class="main-header">
+        <div class="header-content">
+            <div class="header-title">J-Equity</div>
+            <div class="header-strategy" id="header-strategy">Value</div>
         </div>
-
+    </header>
+    
+    <div class="container-fluid mt-4">
         <ul class="nav nav-tabs mb-3" id="rankingTabs" role="tablist">
             <li class="nav-item" role="presentation">
-                <button class="nav-link active" id="value-tab" data-bs-toggle="tab" data-bs-target="#value-pane" type="button" role="tab" aria-controls="value-pane" aria-selected="true">
-                    💎 バリュー株（割安・安全性重視）
+                <button class="nav-link active" id="value-tab" data-bs-toggle="tab" data-bs-target="#value-pane" type="button" role="tab" aria-controls="value-pane" aria-selected="true" onclick="updateHeaderStrategy('Value')">
+                    💎 Value Strategy
                 </button>
             </li>
             <li class="nav-item" role="presentation">
-                <button class="nav-link" id="growth-tab" data-bs-toggle="tab" data-bs-target="#growth-pane" type="button" role="tab" aria-controls="growth-pane" aria-selected="false">
-                    🚀 グロース株（成長・収益性重視）
+                <button class="nav-link" id="growth-tab" data-bs-toggle="tab" data-bs-target="#growth-pane" type="button" role="tab" aria-controls="growth-pane" aria-selected="false" onclick="updateHeaderStrategy('Growth')">
+                    🚀 Growth Strategy
                 </button>
             </li>
         </ul>
 
-        <div class="tab-content bg-white p-3 border border-top-0 rounded-bottom shadow-sm" id="rankingTabsContent">
+        <div class="tab-content" id="rankingTabsContent">
             <div class="tab-pane fade show active" id="value-pane" role="tabpanel" aria-labelledby="value-tab">
-                <h4 class="mb-3 text-success">💎 バリュー株ランキング <small class="text-muted">(割安度 + 安全性 + 収益性重視)</small></h4>
-                <div class="alert alert-info">
-                    <strong>フィルタ条件:</strong> 営業利益マイナス・売上成長率マイナスを除外<br>
-                    <strong>スコア:</strong> Value_Rank_Score = 割安度(20) + 安全性(10) + 収益性(30)
+                <!-- フィルター -->
+                <div class="filter-row">
+                    <label for="value-sector-filter" class="form-label">業種で絞り込む: </label>
+                    {value_sector_select}
                 </div>
                 <div class="table-responsive">
-                    <table class="table table-hover border">
-                        <thead class="table-dark">
+                    <table class="table table-hover" id="value-table">
+                        <thead>
                             <tr>
-                                <th>順位</th>
-                                <th>コード/名称</th>
-                                <th>バリュー<br>スコア</th>
-                                <th>PBR/PER<br><small class="text-warning">(重要)</small></th>
-                                <th>自己資本比率<br><small class="text-info">(重要)</small></th>
-                                <th>ネットキャッシュ<br><small>(重要)</small></th>
-                                <th>割安度</th>
-                                <th>安全性</th>
-                                <th>収益性</th>
-                                <th>チャート</th>
+                                <th class="stock-header">銘柄</th>
+                                <th class="metrics-header">主要指標</th>
+                                <th class="market-cap-header">時価総額<br><small>(億円)</small></th>
                             </tr>
                         </thead>
                         <tbody>
@@ -1309,27 +2178,22 @@ class ReportGenerator:
                         </tbody>
                     </table>
                 </div>
+                {value_modals}
             </div>
             
             <div class="tab-pane fade" id="growth-pane" role="tabpanel" aria-labelledby="growth-tab">
-                <h4 class="mb-3 text-primary">🚀 グロース株ランキング <small class="text-muted">(成長性 + 収益性重視)</small></h4>
-                <div class="alert alert-info">
-                    <strong>フィルタ条件:</strong> 売上成長率10%以上<br>
-                    <strong>スコア:</strong> Growth_Rank_Score = 成長性(40) + 収益性(30)
+                <!-- フィルター -->
+                <div class="filter-row">
+                    <label for="growth-sector-filter" class="form-label">業種で絞り込む: </label>
+                    {growth_sector_select}
                 </div>
                 <div class="table-responsive">
-                    <table class="table table-hover border">
-                        <thead class="table-dark">
+                    <table class="table table-hover" id="growth-table">
+                        <thead>
                             <tr>
-                                <th>順位</th>
-                                <th>コード/名称</th>
-                                <th>グロース<br>スコア</th>
-                                <th>売上成長率<br><small class="text-primary">(重要)</small></th>
-                                <th>ROE<br><small class="text-info">(重要)</small></th>
-                                <th>営業利益率<br><small class="text-warning">(重要)</small></th>
-                                <th>成長性</th>
-                                <th>収益性</th>
-                                <th>チャート</th>
+                                <th class="stock-header">銘柄</th>
+                                <th class="metrics-header">主要指標</th>
+                                <th class="market-cap-header">時価総額<br><small>(億円)</small></th>
                             </tr>
                         </thead>
                         <tbody>
@@ -1337,37 +2201,85 @@ class ReportGenerator:
                         </tbody>
                     </table>
                 </div>
+                {growth_modals}
             </div>
         </div>
 
-        <div class="row mt-5 p-4 bg-white border rounded shadow-sm">
-            <div class="col-md-12">
-                <h4>📝 凡例</h4>
-                <ul>
-                    <li><strong>💎 バリュー株</strong>: 割安度(20) + 安全性(10) + 収益性(30) = 60点満点。赤字・減収を除外。</li>
-                    <li><strong>🚀 グロース株</strong>: 成長性(40) + 収益性(30) = 70点満点。売上成長率10%以上のみ。</li>
-                </ul>
+    </div>
+    
+    <!-- フッター -->
+    <footer class="main-footer">
+        <div class="footer-content">
+            <div class="footer-legend">
+                <span class="footer-legend-label">MARK LEGEND</span>
+                <span class="footer-legend-item">🔥 Growth</span>
+                <span class="footer-legend-item">💎 Debt-Free</span>
+                <span class="footer-legend-item">💰 Net Cash</span>
+                <span class="footer-legend-item">⚠️ Data Missing</span>
+            </div>
+            <div class="footer-update-time">
+                更新日時: {update_time_jst}
             </div>
         </div>
-    </div>
+    </footer>
+    
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
     <script>
-        function toggleDetails(rowId, buttonId) {{
-            const row = document.getElementById(rowId);
-            const button = document.getElementById(buttonId);
-            
-            if (row.style.display === 'none') {{
-                row.style.display = '';
-                button.textContent = '📊 閉じる';
-                button.classList.remove('btn-outline-secondary');
-                button.classList.add('btn-outline-danger');
+        function showModal(modalId) {{
+            const modalElement = document.getElementById(modalId);
+            if (modalElement) {{
+                const modal = new bootstrap.Modal(modalElement);
+                modal.show();
             }} else {{
-                row.style.display = 'none';
-                button.textContent = '📊 詳細';
-                button.classList.remove('btn-outline-danger');
-                button.classList.add('btn-outline-secondary');
+                console.warn('モーダルが見つかりません: ' + modalId);
             }}
         }}
+        
+        function updateHeaderStrategy(strategy) {{
+            const headerStrategy = document.getElementById('header-strategy');
+            if (headerStrategy) {{
+                headerStrategy.textContent = strategy;
+                headerStrategy.className = 'header-strategy ' + strategy.toLowerCase();
+            }}
+        }}
+        
+        function filterBySector(tableId, selectId, prefix) {{
+            const select = document.getElementById(selectId);
+            const table = document.getElementById(tableId);
+            const selectedSector = select.value;
+            // stock-rowクラスの行のみを取得
+            const rows = table.querySelectorAll('tbody tr.stock-row');
+            
+            rows.forEach(row => {{
+                // data-sector属性から業種を取得
+                const sector = row.getAttribute('data-sector');
+                
+                if (selectedSector === 'all' || sector === selectedSector) {{
+                    // 銘柄行を表示
+                    row.style.display = '';
+                }} else {{
+                    // 銘柄行を非表示
+                    row.style.display = 'none';
+                }}
+            }});
+        }}
+        
+        // ページ読み込み時にイベントリスナーを設定
+        document.addEventListener('DOMContentLoaded', function() {{
+            const valueFilter = document.getElementById('value-sector-filter');
+            if (valueFilter) {{
+                valueFilter.addEventListener('change', function() {{
+                    filterBySector('value-table', 'value-sector-filter', 'value');
+                }});
+            }}
+            
+            const growthFilter = document.getElementById('growth-sector-filter');
+            if (growthFilter) {{
+                growthFilter.addEventListener('change', function() {{
+                    filterBySector('growth-table', 'growth-sector-filter', 'growth');
+                }});
+            }}
+        }});
     </script>
 </body>
 </html>

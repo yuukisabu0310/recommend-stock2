@@ -390,7 +390,7 @@ class FinancialDataAnalyzer:
             return 0
         
         # 無借金による項目不在の場合は100点
-        if result.get('is_debt_free', False):
+        if result.get('debt_free_flag', False):
             # 必須項目が揃っているかチェック
             required_items = ['revenue', 'operating_income', 'net_income', 'total_assets', 'equity', 'roic']
             all_present = all(result.get(item) is not None for item in required_items)
@@ -399,7 +399,7 @@ class FinancialDataAnalyzer:
         
         # roic_using_total_assets（代替使用）なら70点
         # ただし、無借金の場合は除外（既に上で処理済み）
-        if result.get('roic_using_total_assets', False) and not result.get('is_debt_free', False):
+        if result.get('roic_using_total_assets', False) and not result.get('debt_free_flag', False):
             return 70
         
         # すべて揃っていれば100点
@@ -670,6 +670,7 @@ class FinancialDataAnalyzer:
             'revenue_previous': None,
             'revenue_growth_rate': None,
             'operating_income': None,
+            'operating_margin': None,  # 営業利益率（%）
             'net_income': None,
             'gross_profit': None,
             'cost_of_revenue': None,
@@ -693,9 +694,15 @@ class FinancialDataAnalyzer:
             'investing_cash_flow': None,
             'financing_cash_flow': None,
             'end_cash_value': None,
-            'is_debt_free': False,  # 無借金と判断した場合True
-            'debt_free_flag': False,  # total_debtが0またはNone（実質ゼロ）の場合True
+            'debt_free_flag': False,  # total_debtが0またはNone（実質ゼロ）の場合True（無借金）
             'net_cash_status': None,  # 実質無借金のラベル
+            'net_cash_flag': False,  # net_cash_statusが「実質無借金」の場合True
+            'is_high_growth': False,  # 売上成長率が20%以上の場合True
+            'market_cap': None,  # 時価総額（億円単位）
+            'cap_size': None,  # 時価総額による分類（"大型", "中型", "小型"）
+            'dividend_yield': None,  # 配当利回り（%単位）
+            'eps': None,  # EPS（1株当たり利益）
+            'bps': None,  # BPS（1株当たり純資産）
             'missing_critical': False,
             'missing_items': [],
         }
@@ -725,6 +732,12 @@ class FinancialDataAnalyzer:
             # Operating Income（優先順位: Operating Income > Operating Profit）
             operating_income_series = self._find_mapping_value(pl_work, MAPPING_DICT['OperatingIncome'], priority_order=True)
             result['operating_income'] = self._extract_value(operating_income_series, year_offset=0)
+            
+            # 営業利益率を計算（Operating Income / Revenue * 100）
+            if result['revenue'] is not None and result['revenue'] != 0 and result['operating_income'] is not None:
+                result['operating_margin'] = round((result['operating_income'] / result['revenue']) * 100, 2)
+            else:
+                result['operating_margin'] = None
             
             # Net Income（優先順位: Net Income Common Stockholders > Net Income）
             net_income_series = self._find_mapping_value(pl_work, MAPPING_DICT['NetIncome'], priority_order=True)
@@ -814,7 +827,6 @@ class FinancialDataAnalyzer:
                         if self._check_other_liabilities_exist(bs_work):
                             # 有利子負債は実質ゼロと判断
                             result['total_debt'] = 0.0
-                            result['is_debt_free'] = True
                             logger.info(f"{ticker}: 無借金と判断（有利子負債=0）")
             
             if result['total_assets'] is None:
@@ -894,15 +906,26 @@ class FinancialDataAnalyzer:
             result['debt_free_flag'] = False
         
         # net_cash_statusを計算（有利子負債よりも現預金が多い場合）
-        if result['total_debt'] is not None and result['cash'] is not None:
+        # 注意: debt_free_flagがTrueの場合は、既に無借金なので実質無借金もTrueとする
+        if result['debt_free_flag']:
+            result['net_cash_status'] = '実質無借金'
+            result['net_cash_flag'] = True
+        elif result['total_debt'] is not None and result['cash'] is not None:
             if result['cash'] > result['total_debt']:
                 result['net_cash_status'] = '実質無借金'
+                result['net_cash_flag'] = True
             else:
                 result['net_cash_status'] = None
-        elif result['debt_free_flag']:
-            result['net_cash_status'] = '実質無借金'
+                result['net_cash_flag'] = False
         else:
             result['net_cash_status'] = None
+            result['net_cash_flag'] = False
+        
+        # is_high_growthフラグを設定（売上成長率が20%以上）
+        if result['revenue_growth_rate'] is not None and result['revenue_growth_rate'] >= 20.0:
+            result['is_high_growth'] = True
+        else:
+            result['is_high_growth'] = False
         
         # infoから時価総額などを取得してROE、PBR、PER、自己資本比率を計算
         if info is not None:
@@ -913,6 +936,58 @@ class FinancialDataAnalyzer:
                 shares_outstanding = info.get('sharesOutstanding')
                 if current_price is not None and shares_outstanding is not None:
                     market_cap = current_price * shares_outstanding
+            
+            # 時価総額を億円単位に変換して保存
+            if market_cap is not None:
+                result['market_cap'] = market_cap / 100000000  # 億円単位
+                # 時価総額による分類
+                if result['market_cap'] >= 3000:
+                    result['cap_size'] = '大型'
+                elif result['market_cap'] >= 500:
+                    result['cap_size'] = '中型'
+                else:
+                    result['cap_size'] = '小型'
+            else:
+                result['market_cap'] = None
+                result['cap_size'] = None
+            
+            # 配当利回りを取得（%単位）
+            dividend_yield = info.get('dividendYield')
+            if dividend_yield is not None:
+                # yfinanceのdividendYieldは小数形式（0.02 = 2%）なので、100倍して%単位に変換
+                result['dividend_yield'] = dividend_yield * 100
+            else:
+                result['dividend_yield'] = None
+            
+            # EPS（1株当たり利益）を取得または計算
+            eps = info.get('trailingEps')
+            if eps is None:
+                eps = info.get('forwardEps')
+            if eps is None:
+                # Net IncomeとShares Outstandingから計算
+                if result['net_income'] is not None:
+                    shares_outstanding = info.get('sharesOutstanding')
+                    if shares_outstanding is not None and shares_outstanding > 0:
+                        eps = result['net_income'] / shares_outstanding
+                    else:
+                        eps = None
+                else:
+                    eps = None
+            result['eps'] = eps
+            
+            # BPS（1株当たり純資産）を取得または計算
+            bps = info.get('bookValue')
+            if bps is None:
+                # EquityとShares Outstandingから計算
+                if result['equity'] is not None:
+                    shares_outstanding = info.get('sharesOutstanding')
+                    if shares_outstanding is not None and shares_outstanding > 0:
+                        bps = result['equity'] / shares_outstanding
+                    else:
+                        bps = None
+                else:
+                    bps = None
+            result['bps'] = bps
             
             # ROEを計算（infoに既にある場合はそれを使用、なければ計算）
             if 'returnOnEquity' in info and info['returnOnEquity'] is not None:
@@ -954,6 +1029,11 @@ class FinancialDataAnalyzer:
             result['roe'] = self._calculate_roe(result['net_income'], result['equity'])
             result['pbr'] = None
             result['per'] = None
+            result['market_cap'] = None
+            result['cap_size'] = None
+            result['dividend_yield'] = None
+            result['eps'] = None
+            result['bps'] = None
         
         # 自己資本比率を計算
         result['equity_ratio'] = self._calculate_equity_ratio(result['equity'], result['total_assets'])
@@ -1085,6 +1165,39 @@ class FinancialDataAnalyzer:
             logger.warning("分析対象のデータがありません")
             return pd.DataFrame()
         
+        # jpx_tse_info.csvから業種情報を読み込み
+        sector_dict = {}
+        jpx_info_path = self.raw_data_dir / "jpx_tse_info.csv"
+        if jpx_info_path.exists():
+            try:
+                jpx_df = pd.read_csv(jpx_info_path, encoding='utf-8-sig')
+                # コード列と業種区分列を確認
+                if 'コード' in jpx_df.columns:
+                    # 17業種区分を優先、なければ33業種区分を使用
+                    sector_col = None
+                    if '17業種区分' in jpx_df.columns:
+                        sector_col = '17業種区分'
+                    elif '33業種区分' in jpx_df.columns:
+                        sector_col = '33業種区分'
+                    
+                    if sector_col:
+                        for _, row in jpx_df.iterrows():
+                            code = str(row['コード']).strip()
+                            # コードを4桁に整形（例: 1301.0 → 1301, 72.0 → 0072）
+                            code_clean = re.sub(r'\.0$', '', code).zfill(4)
+                            sector = row[sector_col]
+                            if pd.notna(sector):
+                                sector_dict[code_clean] = str(sector).strip()
+                        logger.info(f"業種情報を読み込みました: {len(sector_dict)}銘柄")
+                    else:
+                        logger.warning("17業種区分または33業種区分の列が見つかりません")
+                else:
+                    logger.warning("jpx_tse_info.csvに「コード」列が見つかりません")
+            except Exception as e:
+                logger.error(f"jpx_tse_info.csvの読み込みエラー: {str(e)}")
+        else:
+            logger.warning(f"jpx_tse_info.csvが見つかりません: {jpx_info_path}")
+        
         # 各銘柄を正規化
         results = []
         for ticker, data in raw_data.items():
@@ -1094,6 +1207,10 @@ class FinancialDataAnalyzer:
             info = data.get('info')
             
             normalized = self.normalize_stock_data(ticker, pl_df, bs_df, cf_df, info)
+            
+            # 業種情報を追加
+            normalized['sector'] = sector_dict.get(ticker, None)
+            
             results.append(normalized)
             
             if normalized['missing_critical']:
@@ -1172,10 +1289,11 @@ class FinancialDataAnalyzer:
         
         # 列の順序を整理（重要項目を前に）
         priority_columns = [
-            'rank', 'ticker', 'value_rank_score', 'score_value', 'score_safety', 'score_profit',
+            'rank', 'ticker', 'sector', 'value_rank_score', 'score_value', 'score_safety', 'score_profit',
             'penalty', 'total_score', 'data_quality_score', 'total_bonus_score',
-            'debt_free_flag', 'net_cash_status', 'debt_to_equity_ratio',
-            'revenue', 'revenue_growth_rate', 'operating_income', 'net_income',
+            'debt_free_flag', 'net_cash_flag', 'net_cash_status', 'is_high_growth', 'debt_to_equity_ratio',
+            'market_cap', 'cap_size', 'dividend_yield', 'eps', 'bps',
+            'revenue', 'revenue_growth_rate', 'operating_income', 'operating_margin', 'net_income',
             'gross_profit', 'cost_of_revenue', 'sga', 'ordinary_income', 'pretax_income', 'tax_provision',
             'roe', 'pbr', 'per', 'equity_ratio',
             'roic', 'roic_using_total_assets', 'invested_capital',
@@ -1243,10 +1361,11 @@ class FinancialDataAnalyzer:
         
         # 列の順序を整理（重要項目を前に）
         priority_columns = [
-            'rank', 'ticker', 'growth_rank_score', 'score_growth', 'score_profit',
+            'rank', 'ticker', 'sector', 'growth_rank_score', 'score_growth', 'score_profit',
             'penalty', 'total_score', 'data_quality_score', 'total_bonus_score',
-            'debt_free_flag', 'net_cash_status', 'debt_to_equity_ratio',
-            'revenue', 'revenue_growth_rate', 'operating_income', 'net_income',
+            'debt_free_flag', 'net_cash_flag', 'net_cash_status', 'is_high_growth', 'debt_to_equity_ratio',
+            'market_cap', 'cap_size', 'dividend_yield', 'eps', 'bps',
+            'revenue', 'revenue_growth_rate', 'operating_income', 'operating_margin', 'net_income',
             'gross_profit', 'cost_of_revenue', 'sga', 'ordinary_income', 'pretax_income', 'tax_provision',
             'roe', 'pbr', 'per', 'equity_ratio',
             'roic', 'roic_using_total_assets', 'invested_capital',
