@@ -1,7 +1,7 @@
 {
   "ticker": "1992",
   "japanese_ticker": "1992.T",
-  "fetch_date": "2026-02-01T23:27:10.627442",
+  "fetch_date": "2026-02-02T23:26:24.164097",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": -29507912.266053,
@@ -1088,8 +1088,8 @@
     "dividendYield": 2.72,
     "exDividendDate": 1774828800,
     "payoutRatio": 0.4248,
-    "fiveYearAvgDividendYield": 3.2,
-    "beta": 0.622,
+    "fiveYearAvgDividendYield": 3.21,
+    "beta": 0.609,
     "trailingPE": 16.978043,
     "volume": 5700,
     "regularMarketVolume": 5700,
@@ -1097,7 +1097,7 @@
     "averageVolume10days": 770,
     "averageDailyVolume10Day": 770,
     "bid": 0.0,
-    "ask": 2900.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 6410390016,
@@ -1165,7 +1165,11 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "shortName": "KANDA TSUSHINKI CO",
+    "longName": "Kanda Tsushinki Co., Ltd.",
     "marketState": "PREPRE",
+    "corporateActions": [],
+    "regularMarketTime": 1769581800,
     "exchange": "JPX",
     "messageBoardId": "finmb_9264357",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1173,10 +1177,8 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "shortName": "KANDA TSUSHINKI CO",
-    "longName": "Kanda Tsushinki Co., Ltd.",
-    "corporateActions": [],
-    "regularMarketTime": 1769581800,
+    "regularMarketChangePercent": 0.0,
+    "regularMarketPrice": 2799.0,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 946944000000,
     "regularMarketChange": 0.0,
@@ -1200,8 +1202,6 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
-    "regularMarketChangePercent": 0.0,
-    "regularMarketPrice": 2799.0,
     "trailingPegRatio": null
   }
 }
