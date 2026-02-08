@@ -1,7 +1,7 @@
 {
   "ticker": "3030",
   "japanese_ticker": "3030.T",
-  "fetch_date": "2026-02-07T23:37:33.735812",
+  "fetch_date": "2026-02-08T23:38:40.827949",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-02-28 00:00:00": -5415444.0,
@@ -1242,8 +1242,8 @@
     "averageVolume": 47073,
     "averageVolume10days": 49970,
     "averageDailyVolume10Day": 49970,
-    "bid": 1040.0,
-    "ask": 1045.0,
+    "bid": 1051.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 13081034752,
@@ -1311,19 +1311,9 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "epsTrailingTwelveMonths": 38.69,
-    "epsForward": 39.0,
-    "fiftyDayAverageChange": 108.140015,
-    "fiftyDayAverageChangePercent": 0.116047494,
-    "twoHundredDayAverageChange": 231.88501,
-    "twoHundredDayAverageChangePercent": 0.28694555,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "averageAnalystRating": "0.0 - Strong Buy",
-    "cryptoTradeable": false,
-    "marketState": "CLOSED",
-    "shortName": "HUB CO. LTD",
-    "longName": "Hub Co., Ltd.",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1144022400000,
+    "marketState": "PREPRE",
     "regularMarketChange": 0.0,
     "regularMarketDayRange": "1039.0 - 1063.0",
     "fullExchangeName": "Tokyo",
@@ -1337,17 +1327,20 @@
     "earningsTimestampStart": 1752042600,
     "earningsTimestampEnd": 1752474600,
     "isEarningsDateEstimate": true,
-    "corporateActions": [
-      {
-        "header": "Dividend",
-        "message": "3030.T announced a cash dividend of 10.00 JPY with an ex-date of Feb. 26, 2026",
-        "meta": {
-          "eventType": "DIVIDEND",
-          "dateEpochMs": 1772031600000,
-          "amount": "10.00"
-        }
-      }
-    ],
+    "epsTrailingTwelveMonths": 38.69,
+    "epsForward": 39.0,
+    "fiftyDayAverageChange": 108.140015,
+    "fiftyDayAverageChangePercent": 0.116047494,
+    "twoHundredDayAverageChange": 231.88501,
+    "twoHundredDayAverageChangePercent": 0.28694555,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "averageAnalystRating": "0.0 - Strong Buy",
+    "shortName": "HUB CO. LTD",
+    "longName": "Hub Co., Ltd.",
+    "regularMarketChangePercent": 0.0,
+    "regularMarketPrice": 1040.0,
+    "corporateActions": [],
     "regularMarketTime": 1770359400,
     "exchange": "JPX",
     "messageBoardId": "finmb_26201835",
@@ -1356,10 +1349,7 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "regularMarketPrice": 1040.0,
-    "regularMarketChangePercent": 0.0,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1144022400000,
+    "cryptoTradeable": false,
     "trailingPegRatio": null
   }
 }

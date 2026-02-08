@@ -1,7 +1,7 @@
 {
   "ticker": "2818",
   "japanese_ticker": "2818.T",
-  "fetch_date": "2026-02-07T23:35:17.586342",
+  "fetch_date": "2026-02-08T23:36:22.980636",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": -6256576.0,
@@ -1186,8 +1186,8 @@
     "averageVolume": 2751,
     "averageVolume10days": 2580,
     "averageDailyVolume10Day": 2580,
-    "bid": 1769.0,
-    "ask": 1774.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "marketCap": 12290180096,
     "fiftyTwoWeekLow": 1700.0,
     "fiftyTwoWeekHigh": 1800.0,
@@ -1249,11 +1249,8 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "marketState": "CLOSED",
     "corporateActions": [],
     "regularMarketTime": 1770356987,
-    "regularMarketChangePercent": 0.33936653,
-    "regularMarketPrice": 1774.0,
     "exchange": "JPX",
     "messageBoardId": "finmb_5826630",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1261,11 +1258,8 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "prevName": "Pietro Co. Ltd.",
-    "nameChangeDate": "2026-02-06",
-    "cryptoTradeable": false,
-    "shortName": "PIETRO CO LTD",
-    "longName": "PIETRO Co., Ltd.",
+    "regularMarketChangePercent": 0.33936653,
+    "regularMarketPrice": 1774.0,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1018915200000,
     "regularMarketChange": 6.0,
@@ -1290,6 +1284,12 @@
     "twoHundredDayAverageChangePercent": 0.016586838,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
+    "prevName": "Pietro Co. Ltd.",
+    "nameChangeDate": "2026-02-07",
+    "cryptoTradeable": false,
+    "marketState": "PREPRE",
+    "shortName": "PIETRO CO LTD",
+    "longName": "PIETRO Co., Ltd.",
     "trailingPegRatio": null
   }
 }

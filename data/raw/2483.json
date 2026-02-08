@@ -1,7 +1,7 @@
 {
   "ticker": "2483",
   "japanese_ticker": "2483.T",
-  "fetch_date": "2026-02-07T23:31:43.864365",
+  "fetch_date": "2026-02-08T23:32:44.888108",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": 60491811.9,
@@ -1018,8 +1018,8 @@
     "averageVolume": 2956,
     "averageVolume10days": 2950,
     "averageDailyVolume10Day": 2950,
-    "bid": 1887.0,
-    "ask": 1899.0,
+    "bid": 1918.0,
+    "ask": 1904.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 6358638080,
@@ -1087,6 +1087,8 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "shortName": "HONYAKU CENTER INC",
+    "longName": "Honyaku Center Inc.",
     "corporateActions": [],
     "regularMarketTime": 1770359400,
     "exchange": "JPX",
@@ -1096,14 +1098,15 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "regularMarketChangePercent": 0.42328042,
-    "regularMarketPrice": 1898.0,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1146182400000,
     "regularMarketChange": 8.0,
     "regularMarketDayRange": "1886.0 - 1898.0",
     "fullExchangeName": "Tokyo",
     "averageDailyVolume3Month": 2956,
+    "regularMarketChangePercent": 0.42328042,
+    "regularMarketPrice": 1898.0,
+    "marketState": "PREPRE",
     "fiftyTwoWeekLowChange": 203.0,
     "fiftyTwoWeekLowChangePercent": 0.119764015,
     "fiftyTwoWeekRange": "1695.0 - 2133.0",
@@ -1122,9 +1125,6 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
-    "shortName": "HONYAKU CENTER INC",
-    "longName": "Honyaku Center Inc.",
-    "marketState": "CLOSED",
     "trailingPegRatio": null
   }
 }

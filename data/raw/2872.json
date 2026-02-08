@@ -1,7 +1,7 @@
 {
   "ticker": "2872",
   "japanese_ticker": "2872.T",
-  "fetch_date": "2026-02-07T23:35:27.561854",
+  "fetch_date": "2026-02-08T23:36:32.247099",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-02-28 00:00:00": -11092.5,
@@ -1263,8 +1263,8 @@
     "averageVolume": 1978,
     "averageVolume10days": 1120,
     "averageDailyVolume10Day": 1120,
-    "bid": 2054.0,
-    "ask": 2067.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 2886989312,
@@ -1328,8 +1328,17 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 980380800000,
+    "epsTrailingTwelveMonths": 68.09,
+    "fiftyDayAverageChange": 50.30005,
+    "fiftyDayAverageChangePercent": 0.025066053,
+    "twoHundredDayAverageChange": -97.66504,
+    "twoHundredDayAverageChangePercent": -0.04532725,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
+    "marketState": "PREPRE",
+    "shortName": "SEIHYO CO LTD",
+    "longName": "Seihyo Co., Ltd.",
     "regularMarketChange": -3.0,
     "regularMarketDayRange": "2054.0 - 2067.0",
     "fullExchangeName": "Tokyo",
@@ -1338,33 +1347,12 @@
     "fiftyTwoWeekLowChangePercent": 0.069682784,
     "fiftyTwoWeekRange": "1923.0 - 2700.0",
     "fiftyTwoWeekHighChange": -643.0,
-    "shortName": "SEIHYO CO LTD",
-    "longName": "Seihyo Co., Ltd.",
-    "marketState": "CLOSED",
-    "corporateActions": [
-      {
-        "header": "Dividend",
-        "message": "2872.T announced a cash dividend of 18.00 JPY with an ex-date of Feb. 26, 2026",
-        "meta": {
-          "eventType": "DIVIDEND",
-          "dateEpochMs": 1772031600000,
-          "amount": "18.00"
-        }
-      }
-    ],
-    "fiftyDayAverageChange": 50.30005,
-    "fiftyDayAverageChangePercent": 0.025066053,
-    "twoHundredDayAverageChange": -97.66504,
-    "twoHundredDayAverageChangePercent": -0.04532725,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
     "fiftyTwoWeekHighChangePercent": -0.23814815,
     "fiftyTwoWeekChangePercent": 2.849996,
     "earningsTimestampStart": 1744354800,
     "earningsTimestampEnd": 1744354800,
     "isEarningsDateEstimate": false,
-    "epsTrailingTwelveMonths": 68.09,
+    "corporateActions": [],
     "regularMarketTime": 1770359400,
     "exchange": "JPX",
     "messageBoardId": "finmb_884076",
@@ -1373,8 +1361,10 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "regularMarketChangePercent": -0.14563106,
     "regularMarketPrice": 2057.0,
+    "regularMarketChangePercent": -0.14563106,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 980380800000,
     "trailingPegRatio": null
   }
 }

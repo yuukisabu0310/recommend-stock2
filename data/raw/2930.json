@@ -1,7 +1,7 @@
 {
   "ticker": "2930",
   "japanese_ticker": "2930.T",
-  "fetch_date": "2026-02-07T23:36:23.541461",
+  "fetch_date": "2026-02-08T23:37:28.988738",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-02-28 00:00:00": -2494604.0,
@@ -1064,8 +1064,8 @@
     "averageVolume": 503846,
     "averageVolume10days": 377550,
     "averageDailyVolume10Day": 377550,
-    "bid": 143.0,
-    "ask": 144.0,
+    "bid": 0.0,
+    "ask": 145.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 19940372480,
@@ -1134,8 +1134,6 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "corporateActions": [],
-    "regularMarketTime": 1770359400,
     "exchange": "JPX",
     "messageBoardId": "finmb_118895302",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1143,12 +1141,7 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "regularMarketChangePercent": -1.3793104,
-    "regularMarketPrice": 143.0,
-    "averageAnalystRating": "0.0 - Strong Buy",
-    "cryptoTradeable": false,
-    "shortName": "KITANOTATSUJIN CORP",
-    "longName": "Kitanotatsujin Corporation",
+    "marketState": "PREPRE",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1416528000000,
     "regularMarketChange": -2.0,
@@ -1160,12 +1153,13 @@
     "fiftyTwoWeekRange": "129.0 - 174.0",
     "fiftyTwoWeekHighChange": -31.0,
     "fiftyTwoWeekHighChangePercent": -0.17816092,
-    "marketState": "CLOSED",
     "fiftyTwoWeekChangePercent": -15.384615,
     "earningsTimestamp": 1768372200,
     "earningsTimestampStart": 1776148200,
     "earningsTimestampEnd": 1776148200,
     "isEarningsDateEstimate": true,
+    "regularMarketChangePercent": -1.3793104,
+    "regularMarketPrice": 143.0,
     "epsTrailingTwelveMonths": 6.84,
     "epsForward": 8.7,
     "fiftyDayAverageChange": 3.600006,
@@ -1174,6 +1168,22 @@
     "twoHundredDayAverageChangePercent": 0.0055198376,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
+    "averageAnalystRating": "0.0 - Strong Buy",
+    "cryptoTradeable": false,
+    "shortName": "KITANOTATSUJIN CORP",
+    "longName": "Kitanotatsujin Corporation",
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "2930.T announced a cash dividend of 1.80 JPY with an ex-date of Feb. 26, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1772031600000,
+          "amount": "1.80"
+        }
+      }
+    ],
+    "regularMarketTime": 1770359400,
     "trailingPegRatio": null
   }
 }

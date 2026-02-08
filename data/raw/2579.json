@@ -1,7 +1,7 @@
 {
   "ticker": "2579",
   "japanese_ticker": "2579.T",
-  "fetch_date": "2026-02-07T23:32:18.098232",
+  "fetch_date": "2026-02-08T23:33:20.950071",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2024-12-31 00:00:00": 0.0,
@@ -1014,8 +1014,8 @@
     "averageVolume": 819468,
     "averageVolume10days": 780720,
     "averageDailyVolume10Day": 780720,
-    "bid": 3523.0,
-    "ask": 3538.0,
+    "bid": 0.0,
+    "ask": 3559.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 581253595136,
@@ -1088,6 +1088,7 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "marketState": "PREPRE",
     "corporateActions": [],
     "regularMarketTime": 1770359400,
     "exchange": "JPX",
@@ -1101,11 +1102,6 @@
     "regularMarketPrice": 3523.0,
     "shortName": "COCA-COLA BOTTLERS JAPAN HLDGS ",
     "longName": "Coca-Cola Bottlers Japan Holdings Inc.",
-    "marketState": "CLOSED",
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 978307200000,
-    "regularMarketChange": -15.0,
-    "regularMarketDayRange": "3523.0 - 3556.0",
     "fullExchangeName": "Tokyo",
     "averageDailyVolume3Month": 819468,
     "fiftyTwoWeekLowChange": 1317.0,
@@ -1130,6 +1126,10 @@
     "exchangeDataDelayedBy": 20,
     "averageAnalystRating": "2.2 - Buy",
     "cryptoTradeable": false,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 978307200000,
+    "regularMarketChange": -15.0,
+    "regularMarketDayRange": "3523.0 - 3556.0",
     "trailingPegRatio": null
   }
 }

@@ -1,7 +1,7 @@
 {
   "ticker": "3031",
   "japanese_ticker": "3031.T",
-  "fetch_date": "2026-02-07T23:37:35.681888",
+  "fetch_date": "2026-02-08T23:38:42.907394",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-04-30 00:00:00": 1734353.096756,
@@ -1155,8 +1155,8 @@
     "averageVolume": 153151,
     "averageVolume10days": 128050,
     "averageDailyVolume10Day": 128050,
-    "bid": 631.0,
-    "ask": 634.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 12829323264,
@@ -1241,8 +1241,7 @@
     "esgPopulated": false,
     "regularMarketChangePercent": -1.40625,
     "regularMarketPrice": 631.0,
-    "marketState": "CLOSED",
-    "cryptoTradeable": false,
+    "marketState": "PREPRE",
     "shortName": "RACCOON HOLDINGS INC",
     "longName": "RACCOON HOLDINGS, Inc.",
     "regularMarketChange": -9.0,
@@ -1264,10 +1263,11 @@
     "fiftyDayAverageChangePercent": -0.00683103,
     "twoHundredDayAverageChange": -69.265015,
     "twoHundredDayAverageChangePercent": -0.098912574,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1144281600000,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
     "trailingPegRatio": null
   }
 }

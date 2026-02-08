@@ -1,7 +1,7 @@
 {
   "ticker": "2806",
   "japanese_ticker": "2806.T",
-  "fetch_date": "2026-02-07T23:35:00.713617",
+  "fetch_date": "2026-02-08T23:36:06.342657",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": -4144853.875476,
@@ -978,8 +978,8 @@
     "averageVolume": 1858,
     "averageVolume10days": 2770,
     "averageDailyVolume10Day": 2770,
-    "bid": 2091.0,
-    "ask": 2108.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 14596741120,
@@ -1042,11 +1042,6 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "marketState": "CLOSED",
-    "corporateActions": [],
-    "regularMarketTime": 1770359400,
-    "regularMarketChangePercent": 0.0,
-    "regularMarketPrice": 2101.0,
     "exchange": "JPX",
     "messageBoardId": "finmb_9262020",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1054,9 +1049,7 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "cryptoTradeable": false,
-    "shortName": "YUTAKA FOODS CORP",
-    "longName": "Yutaka Foods Corporation",
+    "marketState": "PREPRE",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 978998400000,
     "regularMarketChange": 0.0,
@@ -1072,6 +1065,8 @@
     "earningsTimestampStart": 1747022400,
     "earningsTimestampEnd": 1747022400,
     "isEarningsDateEstimate": false,
+    "regularMarketChangePercent": 0.0,
+    "regularMarketPrice": 2101.0,
     "epsTrailingTwelveMonths": 89.71,
     "fiftyDayAverageChange": -50.58008,
     "fiftyDayAverageChangePercent": -0.02350834,
@@ -1079,6 +1074,11 @@
     "twoHundredDayAverageChangePercent": 0.00683363,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
+    "shortName": "YUTAKA FOODS CORP",
+    "longName": "Yutaka Foods Corporation",
+    "corporateActions": [],
+    "regularMarketTime": 1770359400,
     "trailingPegRatio": null
   }
 }

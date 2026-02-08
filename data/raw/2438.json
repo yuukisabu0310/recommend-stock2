@@ -1,7 +1,7 @@
 {
   "ticker": "2438",
   "japanese_ticker": "2438.T",
-  "fetch_date": "2026-02-07T23:31:13.426061",
+  "fetch_date": "2026-02-08T23:32:13.611097",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-04-30 00:00:00": -101508816.0,
@@ -1009,8 +1009,8 @@
     "averageVolume": 99548,
     "averageVolume10days": 46120,
     "averageDailyVolume10Day": 46120,
-    "bid": 378.0,
-    "ask": 379.0,
+    "bid": 0.0,
+    "ask": 381.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 5724868096,
@@ -1096,6 +1096,16 @@
     "averageDailyVolume3Month": 99548,
     "fiftyTwoWeekLowChange": 48.0,
     "fiftyTwoWeekLowChangePercent": 0.14545454,
+    "marketState": "PREPRE",
+    "fiftyDayAverageChange": 10.399994,
+    "fiftyDayAverageChangePercent": 0.028291604,
+    "twoHundredDayAverageChange": -18.350006,
+    "twoHundredDayAverageChangePercent": -0.04629748,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
+    "longName": "Asukanet Co., Ltd.",
+    "shortName": "ASUKANET CO LIMITED",
     "fiftyTwoWeekRange": "330.0 - 494.0",
     "fiftyTwoWeekHighChange": -116.0,
     "fiftyTwoWeekHighChangePercent": -0.23481782,
@@ -1104,16 +1114,6 @@
     "earningsTimestampEnd": 1749553140,
     "isEarningsDateEstimate": false,
     "epsTrailingTwelveMonths": -14.93,
-    "fiftyDayAverageChange": 10.399994,
-    "fiftyDayAverageChangePercent": 0.028291604,
-    "twoHundredDayAverageChange": -18.350006,
-    "twoHundredDayAverageChangePercent": -0.04629748,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
-    "shortName": "ASUKANET CO LIMITED",
-    "longName": "Asukanet Co., Ltd.",
-    "marketState": "CLOSED",
     "trailingPegRatio": null
   }
 }

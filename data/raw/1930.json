@@ -1,7 +1,7 @@
 {
   "ticker": "1930",
   "japanese_ticker": "1930.T",
-  "fetch_date": "2026-02-07T23:25:28.083619",
+  "fetch_date": "2026-02-08T23:26:22.667948",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": 16528253.424658,
@@ -1044,8 +1044,8 @@
     "averageVolume": 70195,
     "averageVolume10days": 163370,
     "averageDailyVolume10Day": 163370,
-    "bid": 1617.0,
-    "ask": 1629.0,
+    "bid": 0.0,
+    "ask": 1635.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 44554121216,
@@ -1106,6 +1106,9 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 978307200000,
+    "corporateActions": [],
     "regularMarketTime": 1770359400,
     "exchange": "JPX",
     "messageBoardId": "finmb_880605",
@@ -1116,6 +1119,7 @@
     "esgPopulated": false,
     "regularMarketChangePercent": 0.0,
     "regularMarketPrice": 1620.0,
+    "epsTrailingTwelveMonths": 112.75,
     "fiftyDayAverageChange": 133.07996,
     "fiftyDayAverageChangePercent": 0.08950041,
     "twoHundredDayAverageChange": 254.30505,
@@ -1123,12 +1127,8 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
-    "corporateActions": [],
     "shortName": "HOKURIKU ELECTRICAL CONSTRUCTIO",
     "longName": "Hokuriku Electrical Construction Co.,Ltd.",
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 978307200000,
-    "marketState": "CLOSED",
     "regularMarketChange": 0.0,
     "regularMarketDayRange": "1595.0 - 1634.0",
     "fullExchangeName": "Tokyo",
@@ -1142,7 +1142,7 @@
     "earningsTimestampStart": 1753682400,
     "earningsTimestampEnd": 1754028000,
     "isEarningsDateEstimate": true,
-    "epsTrailingTwelveMonths": 112.75,
+    "marketState": "PREPRE",
     "trailingPegRatio": null
   }
 }

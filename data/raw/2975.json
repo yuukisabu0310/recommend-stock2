@@ -1,7 +1,7 @@
 {
   "ticker": "2975",
   "japanese_ticker": "2975.T",
-  "fetch_date": "2026-02-07T23:36:47.742399",
+  "fetch_date": "2026-02-08T23:37:52.736312",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2024-11-30 00:00:00": 36645660.0,
@@ -931,8 +931,8 @@
     "averageVolume": 208335,
     "averageVolume10days": 207270,
     "averageDailyVolume10Day": 207270,
-    "bid": 1542.0,
-    "ask": 1550.0,
+    "bid": 1550.0,
+    "ask": 0.0,
     "marketCap": 52462522368,
     "fiftyTwoWeekLow": 786.0,
     "fiftyTwoWeekHigh": 1610.0,
@@ -998,7 +998,9 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "marketState": "CLOSED",
+    "shortName": "STAR MICA HLDGS CO",
+    "longName": "Star Mica Holdings Co., Ltd.",
+    "marketState": "PREPRE",
     "corporateActions": [],
     "regularMarketTime": 1770359400,
     "exchange": "JPX",
@@ -1010,8 +1012,10 @@
     "esgPopulated": false,
     "regularMarketChangePercent": 1.0457517,
     "regularMarketPrice": 1546.0,
-    "shortName": "STAR MICA HLDGS CO",
-    "longName": "Star Mica Holdings Co., Ltd.",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1559520000000,
+    "regularMarketChange": 16.0,
+    "regularMarketDayRange": "1516.0 - 1560.0",
     "fullExchangeName": "Tokyo",
     "averageDailyVolume3Month": 208335,
     "fiftyTwoWeekLowChange": 760.0,
@@ -1031,10 +1035,6 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1559520000000,
-    "regularMarketChange": 16.0,
-    "regularMarketDayRange": "1516.0 - 1560.0",
     "trailingPegRatio": null
   }
 }

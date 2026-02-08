@@ -1,7 +1,7 @@
 {
   "ticker": "2315",
   "japanese_ticker": "2315.T",
-  "fetch_date": "2026-02-07T23:29:27.486460",
+  "fetch_date": "2026-02-08T23:30:24.270417",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-10-31 00:00:00": 7727853.0,
@@ -1206,7 +1206,7 @@
     "averageVolume": 5897295,
     "averageVolume10days": 1967470,
     "averageDailyVolume10Day": 1967470,
-    "bid": 100.0,
+    "bid": 0.0,
     "ask": 101.0,
     "bidSize": 0,
     "askSize": 0,
@@ -1275,14 +1275,18 @@
     "corporateActions": [],
     "regularMarketTime": 1770359400,
     "exchange": "JPX",
-    "shortName": "CAICA DIGITAL INC",
-    "longName": "CAICA DIGITAL Inc.",
     "messageBoardId": "finmb_9247968",
     "exchangeTimezoneName": "Asia/Tokyo",
     "exchangeTimezoneShortName": "JST",
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
+    "regularMarketChangePercent": 2.020202,
+    "regularMarketPrice": 101.0,
+    "shortName": "CAICA DIGITAL INC",
+    "longName": "CAICA DIGITAL Inc.",
+    "marketState": "PREPRE",
+    "cryptoTradeable": false,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1023753600000,
     "regularMarketChange": 2.0,
@@ -1306,11 +1310,7 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "prevName": "CAICA Inc.",
-    "nameChangeDate": "2026-02-06",
-    "cryptoTradeable": false,
-    "marketState": "CLOSED",
-    "regularMarketChangePercent": 2.020202,
-    "regularMarketPrice": 101.0,
+    "nameChangeDate": "2026-02-07",
     "trailingPegRatio": null
   }
 }

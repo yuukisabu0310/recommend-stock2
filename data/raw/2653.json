@@ -1,7 +1,7 @@
 {
   "ticker": "2653",
   "japanese_ticker": "2653.T",
-  "fetch_date": "2026-02-07T23:32:45.282059",
+  "fetch_date": "2026-02-08T23:33:49.126622",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-02-28 00:00:00": -805749000.0,
@@ -1239,8 +1239,8 @@
     "averageVolume": 45980,
     "averageVolume10days": 40510,
     "averageDailyVolume10Day": 40510,
-    "bid": 2923.0,
-    "ask": 2925.0,
+    "bid": 0.0,
+    "ask": 2935.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 99796426752,
@@ -1304,27 +1304,8 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "marketState": "CLOSED",
-    "shortName": "AEON KYUSHU CO LTD",
+    "marketState": "PREPRE",
     "longName": "Aeon Kyushu Co., Ltd.",
-    "corporateActions": [
-      {
-        "header": "Dividend",
-        "message": "2653.T announced a cash dividend of 30.00 JPY with an ex-date of Feb. 26, 2026",
-        "meta": {
-          "eventType": "DIVIDEND",
-          "dateEpochMs": 1772031600000,
-          "amount": "30.00"
-        }
-      }
-    ],
-    "regularMarketTime": 1770359400,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 965606400000,
-    "regularMarketChange": -21.0,
-    "regularMarketDayRange": "2920.0 - 2945.0",
-    "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 45980,
     "fiftyTwoWeekLowChange": 694.0,
     "fiftyTwoWeekLowChangePercent": 0.31121075,
     "fiftyTwoWeekRange": "2230.0 - 3135.0",
@@ -1344,6 +1325,9 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
+    "regularMarketChangePercent": -0.713073,
+    "regularMarketPrice": 2924.0,
+    "shortName": "AEON KYUSHU CO LTD",
     "exchange": "JPX",
     "messageBoardId": "finmb_9220820",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1351,8 +1335,24 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "regularMarketChangePercent": -0.713073,
-    "regularMarketPrice": 2924.0,
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "2653.T announced a cash dividend of 30.00 JPY with an ex-date of Feb. 26, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1772031600000,
+          "amount": "30.00"
+        }
+      }
+    ],
+    "regularMarketTime": 1770359400,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 965606400000,
+    "regularMarketChange": -21.0,
+    "regularMarketDayRange": "2920.0 - 2945.0",
+    "fullExchangeName": "Tokyo",
+    "averageDailyVolume3Month": 45980,
     "trailingPegRatio": null
   }
 }

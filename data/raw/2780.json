@@ -1,7 +1,7 @@
 {
   "ticker": "2780",
   "japanese_ticker": "2780.T",
-  "fetch_date": "2026-02-07T23:34:31.359734",
+  "fetch_date": "2026-02-08T23:35:37.177623",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": 121777259.7,
@@ -1094,8 +1094,8 @@
     "averageVolume": 82671,
     "averageVolume10days": 54710,
     "averageDailyVolume10Day": 54710,
-    "bid": 3315.0,
-    "ask": 3345.0,
+    "bid": 0.0,
+    "ask": 3290.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 36652548096,
@@ -1167,6 +1167,8 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "regularMarketChange": -40.0,
+    "regularMarketDayRange": "3285.0 - 3370.0",
     "fullExchangeName": "Tokyo",
     "averageDailyVolume3Month": 82671,
     "fiftyTwoWeekLowChange": 935.0,
@@ -1184,13 +1186,6 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1103587200000,
-    "regularMarketChange": -40.0,
-    "regularMarketDayRange": "3285.0 - 3370.0",
-    "marketState": "CLOSED",
-    "shortName": "KOMEHYO HOLDINGS CO LTD",
-    "longName": "Komehyo Holdings Co.,Ltd.",
     "regularMarketChangePercent": -1.1851852,
     "regularMarketPrice": 3335.0,
     "earningsTimestampStart": 1747204800,
@@ -1205,8 +1200,13 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "prevName": "Komehyo Co.,Ltd.",
-    "nameChangeDate": "2026-02-06",
+    "nameChangeDate": "2026-02-07",
     "cryptoTradeable": false,
+    "shortName": "KOMEHYO HOLDINGS CO LTD",
+    "longName": "Komehyo Holdings Co.,Ltd.",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1103587200000,
+    "marketState": "PREPRE",
     "trailingPegRatio": null
   }
 }

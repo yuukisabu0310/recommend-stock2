@@ -1,7 +1,7 @@
 {
   "ticker": "2668",
   "japanese_ticker": "2668.T",
-  "fetch_date": "2026-02-07T23:32:59.165629",
+  "fetch_date": "2026-02-08T23:34:03.056310",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-02-28 00:00:00": -18365984.0,
@@ -1161,8 +1161,8 @@
     "averageVolume": 2526,
     "averageVolume10days": 2090,
     "averageDailyVolume10Day": 2090,
-    "bid": 1305.0,
-    "ask": 1310.0,
+    "bid": 0.0,
+    "ask": 1304.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 8881617920,
@@ -1226,34 +1226,17 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "corporateActions": [
-      {
-        "header": "Dividend",
-        "message": "2668.T announced a cash dividend of 30.00 JPY with an ex-date of Feb. 26, 2026",
-        "meta": {
-          "eventType": "DIVIDEND",
-          "dateEpochMs": 1772031600000,
-          "amount": "30.00"
-        }
-      }
-    ],
-    "regularMarketTime": 1770358691,
-    "twoHundredDayAverageChangePercent": 0.06664928,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
     "epsTrailingTwelveMonths": 89.47,
     "fiftyDayAverageChange": 13.900024,
     "fiftyDayAverageChangePercent": 0.0107245,
     "twoHundredDayAverageChange": 81.85498,
-    "earningsTimestampStart": 1744093800,
-    "earningsTimestampEnd": 1744093800,
-    "isEarningsDateEstimate": false,
+    "twoHundredDayAverageChangePercent": 0.06664928,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
+    "marketState": "PREPRE",
     "shortName": "TABIO CORPORATION",
     "longName": "Tabio Corporation",
-    "marketState": "CLOSED",
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 970790400000,
     "regularMarketChange": 1.0,
     "regularMarketDayRange": "1301.0 - 1310.0",
     "fullExchangeName": "Tokyo",
@@ -1264,6 +1247,11 @@
     "fiftyTwoWeekHighChange": -15.0,
     "fiftyTwoWeekHighChangePercent": -0.011320755,
     "fiftyTwoWeekChangePercent": 4.3824673,
+    "earningsTimestampStart": 1744093800,
+    "earningsTimestampEnd": 1744093800,
+    "isEarningsDateEstimate": false,
+    "corporateActions": [],
+    "regularMarketTime": 1770358691,
     "exchange": "JPX",
     "messageBoardId": "finmb_5863519",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1271,8 +1259,10 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "regularMarketChangePercent": 0.07639419,
     "regularMarketPrice": 1310.0,
+    "regularMarketChangePercent": 0.07639419,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 970790400000,
     "trailingPegRatio": null
   }
 }

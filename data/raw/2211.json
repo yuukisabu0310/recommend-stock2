@@ -1,7 +1,7 @@
 {
   "ticker": "2211",
   "japanese_ticker": "2211.T",
-  "fetch_date": "2026-02-07T23:28:24.194434",
+  "fetch_date": "2026-02-08T23:29:18.559744",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2024-12-31 00:00:00": 10540000.0,
@@ -1035,8 +1035,8 @@
     "averageVolume": 57161,
     "averageVolume10days": 51830,
     "averageDailyVolume10Day": 51830,
-    "bid": 2572.0,
-    "ask": 2590.0,
+    "bid": 2599.0,
+    "ask": 2600.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 66578530304,
@@ -1101,11 +1101,11 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "marketState": "CLOSED",
+    "shortName": "FUJIYA CO LTD",
+    "longName": "Fujiya Co., Ltd.",
+    "marketState": "PREPRE",
     "corporateActions": [],
     "regularMarketTime": 1770359400,
-    "regularMarketChangePercent": 0.15509887,
-    "regularMarketPrice": 2583.0,
     "exchange": "JPX",
     "messageBoardId": "finmb_876061",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1113,9 +1113,8 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "cryptoTradeable": false,
-    "shortName": "FUJIYA CO LTD",
-    "longName": "Fujiya Co., Ltd.",
+    "regularMarketChangePercent": 0.15509887,
+    "regularMarketPrice": 2583.0,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 978307200000,
     "regularMarketChange": 4.0,
@@ -1139,6 +1138,7 @@
     "twoHundredDayAverageChangePercent": 0.025616547,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
     "trailingPegRatio": null
   }
 }

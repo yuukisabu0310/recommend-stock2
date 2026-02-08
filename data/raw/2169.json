@@ -1,7 +1,7 @@
 {
   "ticker": "2169",
   "japanese_ticker": "2169.T",
-  "fetch_date": "2026-02-07T23:27:44.464710",
+  "fetch_date": "2026-02-08T23:28:36.927802",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2024-12-31 00:00:00": -4133706.6,
@@ -975,8 +975,8 @@
     "averageVolume": 3383,
     "averageVolume10days": 2410,
     "averageDailyVolume10Day": 2410,
-    "bid": 1826.0,
-    "ask": 1832.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 12466299904,
@@ -1051,11 +1051,10 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "shortName": "CDS CO LTD",
-    "longName": "CDS Co.,Ltd.",
     "regularMarketChangePercent": -0.1638449,
     "regularMarketPrice": 1828.0,
-    "marketState": "CLOSED",
+    "shortName": "CDS CO LTD",
+    "longName": "CDS Co.,Ltd.",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1220572800000,
     "regularMarketChange": -3.0,
@@ -1079,7 +1078,8 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "prevName": "CDS Co., Ltd.",
-    "nameChangeDate": "2026-02-06",
+    "nameChangeDate": "2026-02-07",
+    "marketState": "PREPRE",
     "cryptoTradeable": false,
     "trailingPegRatio": null
   }

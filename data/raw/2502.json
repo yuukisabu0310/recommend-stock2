@@ -1,7 +1,7 @@
 {
   "ticker": "2502",
   "japanese_ticker": "2502.T",
-  "fetch_date": "2026-02-07T23:32:06.209703",
+  "fetch_date": "2026-02-08T23:33:09.404851",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2024-12-31 00:00:00": 0.0,
@@ -1034,8 +1034,8 @@
     "averageVolume": 7845406,
     "averageVolume10days": 8250070,
     "averageDailyVolume10Day": 8250070,
-    "bid": 1722.0,
-    "ask": 1727.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 2526371119104,
@@ -1121,10 +1121,11 @@
     "esgPopulated": false,
     "regularMarketChangePercent": 1.4092778,
     "regularMarketPrice": 1727.0,
+    "marketState": "PREPRE",
+    "averageAnalystRating": "1.9 - Buy",
+    "cryptoTradeable": false,
     "shortName": "ASAHI GROUP HLDGS",
     "longName": "Asahi Group Holdings, Ltd.",
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 946944000000,
     "regularMarketChange": 24.0,
     "regularMarketDayRange": "1705.0 - 1727.0",
     "fullExchangeName": "Tokyo",
@@ -1149,9 +1150,8 @@
     "twoHundredDayAverageChangePercent": -0.049814604,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
-    "averageAnalystRating": "1.9 - Buy",
-    "marketState": "CLOSED",
-    "cryptoTradeable": false,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 946944000000,
     "trailingPegRatio": 3.7833
   }
 }

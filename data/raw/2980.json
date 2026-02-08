@@ -1,7 +1,7 @@
 {
   "ticker": "2980",
   "japanese_ticker": "2980.T",
-  "fetch_date": "2026-02-07T23:36:51.609833",
+  "fetch_date": "2026-02-08T23:37:57.067726",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": 31973956.0,
@@ -1095,8 +1095,8 @@
     "averageVolume": 229440,
     "averageVolume10days": 400380,
     "averageDailyVolume10Day": 400380,
-    "bid": 2449.0,
-    "ask": 2451.0,
+    "bid": 2579.0,
+    "ask": 2580.0,
     "marketCap": 39481532416,
     "fiftyTwoWeekLow": 2418.0,
     "fiftyTwoWeekHigh": 3975.0,
@@ -1166,16 +1166,8 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "marketState": "CLOSED",
-    "regularMarketChangePercent": -6.130268,
-    "regularMarketPrice": 2450.0,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1576713600000,
-    "regularMarketChange": -160.0,
-    "regularMarketDayRange": "2418.0 - 2573.0",
     "shortName": "SRE HLDGS CORP",
     "longName": "SRE Holdings Corporation",
-    "cryptoTradeable": false,
     "corporateActions": [],
     "regularMarketTime": 1770359400,
     "exchange": "JPX",
@@ -1185,6 +1177,11 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
+    "regularMarketChangePercent": -6.130268,
+    "regularMarketPrice": 2450.0,
+    "marketState": "PREPRE",
+    "regularMarketChange": -160.0,
+    "regularMarketDayRange": "2418.0 - 2573.0",
     "fullExchangeName": "Tokyo",
     "averageDailyVolume3Month": 229440,
     "fiftyTwoWeekLowChange": 32.0,
@@ -1206,6 +1203,9 @@
     "twoHundredDayAverageChangePercent": -0.24517255,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1576713600000,
     "trailingPegRatio": null
   }
 }

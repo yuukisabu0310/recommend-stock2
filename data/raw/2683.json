@@ -1,7 +1,7 @@
 {
   "ticker": "2683",
   "japanese_ticker": "2683.T",
-  "fetch_date": "2026-02-07T23:33:14.481379",
+  "fetch_date": "2026-02-08T23:34:19.801720",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-02-28 00:00:00": -9879024.0,
@@ -1104,8 +1104,8 @@
     "averageVolume": 2453,
     "averageVolume10days": 1300,
     "averageDailyVolume10Day": 1300,
-    "bid": 1001.0,
-    "ask": 1003.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 2521182720,
@@ -1169,7 +1169,6 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "corporateActions": [],
     "regularMarketTime": 1770359085,
     "exchange": "JPX",
     "messageBoardId": "finmb_5545816",
@@ -1180,9 +1179,29 @@
     "esgPopulated": false,
     "regularMarketChangePercent": 0.1,
     "regularMarketPrice": 1001.0,
-    "marketState": "CLOSED",
+    "fiftyDayAverageChange": 5.2199707,
+    "fiftyDayAverageChangePercent": 0.005242092,
+    "twoHundredDayAverageChange": -20.575012,
+    "twoHundredDayAverageChangePercent": -0.02014048,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "2683.T announced a cash dividend of 10.00 JPY with an ex-date of Feb. 26, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1772031600000,
+          "amount": "10.00"
+        }
+      }
+    ],
     "shortName": "UOKI CO LTD",
     "longName": "Uoki Co.,Ltd.",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1018828800000,
+    "marketState": "PREPRE",
     "regularMarketChange": 1.0,
     "regularMarketDayRange": "1001.0 - 1003.0",
     "fullExchangeName": "Tokyo",
@@ -1197,15 +1216,6 @@
     "earningsTimestampEnd": 1744353000,
     "isEarningsDateEstimate": false,
     "epsTrailingTwelveMonths": 8.81,
-    "fiftyDayAverageChange": 5.2199707,
-    "fiftyDayAverageChangePercent": 0.005242092,
-    "twoHundredDayAverageChange": -20.575012,
-    "twoHundredDayAverageChangePercent": -0.02014048,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1018828800000,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
     "trailingPegRatio": null
   }
 }

@@ -1,7 +1,7 @@
 {
   "ticker": "2216",
   "japanese_ticker": "2216.T",
-  "fetch_date": "2026-02-07T23:28:29.675427",
+  "fetch_date": "2026-02-08T23:29:24.580342",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2024-12-31 00:00:00": 9626854.0,
@@ -1007,8 +1007,8 @@
     "averageVolume": 157966,
     "averageVolume10days": 95420,
     "averageDailyVolume10Day": 95420,
-    "bid": 1604.0,
-    "ask": 1607.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 67632300032,
@@ -1075,9 +1075,6 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "shortName": "KANRO CO LTD",
-    "longName": "Kanro Inc.",
-    "marketState": "CLOSED",
     "exchange": "JPX",
     "messageBoardId": "finmb_883566",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1087,8 +1084,7 @@
     "esgPopulated": false,
     "regularMarketChangePercent": -2.1937842,
     "regularMarketPrice": 1605.0,
-    "corporateActions": [],
-    "regularMarketTime": 1770359400,
+    "longName": "Kanro Inc.",
     "fiftyDayAverageChange": 2.7600098,
     "fiftyDayAverageChangePercent": 0.0017225945,
     "twoHundredDayAverageChange": -71.48828,
@@ -1098,6 +1094,7 @@
     "cryptoTradeable": false,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 978998400000,
+    "marketState": "PREPRE",
     "regularMarketChange": -36.0,
     "regularMarketDayRange": "1588.0 - 1632.0",
     "fullExchangeName": "Tokyo",
@@ -1113,6 +1110,9 @@
     "isEarningsDateEstimate": true,
     "epsTrailingTwelveMonths": 79.93,
     "epsForward": 214.8,
+    "shortName": "KANRO CO LTD",
+    "corporateActions": [],
+    "regularMarketTime": 1770359400,
     "trailingPegRatio": null
   }
 }

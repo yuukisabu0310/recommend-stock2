@@ -1,7 +1,7 @@
 {
   "ticker": "1967",
   "japanese_ticker": "1967.T",
-  "fetch_date": "2026-02-07T23:26:08.829074",
+  "fetch_date": "2026-02-08T23:27:03.270049",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": 155384836.173323,
@@ -1127,8 +1127,8 @@
     "averageVolume": 43006,
     "averageVolume10days": 104240,
     "averageDailyVolume10Day": 104240,
-    "bid": 2233.0,
-    "ask": 2241.0,
+    "bid": 0.0,
+    "ask": 2331.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 50101981184,
@@ -1192,17 +1192,17 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "corporateActions": [],
-    "regularMarketTime": 1770359400,
-    "exchange": "JPX",
+    "regularMarketPrice": 2238.0,
     "shortName": "YAMATO CORPORATION",
     "longName": "Yamato Corporation",
+    "exchange": "JPX",
     "messageBoardId": "finmb_883570",
     "exchangeTimezoneName": "Asia/Tokyo",
     "exchangeTimezoneShortName": "JST",
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
+    "regularMarketChangePercent": 0.9927798,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 978307200000,
     "regularMarketChange": 22.0,
@@ -1226,9 +1226,9 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
-    "marketState": "CLOSED",
-    "regularMarketChangePercent": 0.9927798,
-    "regularMarketPrice": 2238.0,
+    "marketState": "PREPRE",
+    "corporateActions": [],
+    "regularMarketTime": 1770359400,
     "trailingPegRatio": null
   }
 }

@@ -1,7 +1,7 @@
 {
   "ticker": "3021",
   "japanese_ticker": "3021.T",
-  "fetch_date": "2026-02-07T23:37:26.255180",
+  "fetch_date": "2026-02-08T23:38:32.920741",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-05-31 00:00:00": 46782.8,
@@ -1131,8 +1131,8 @@
     "averageVolume": 42588,
     "averageVolume10days": 42100,
     "averageDailyVolume10Day": 42100,
-    "bid": 1940.0,
-    "ask": 1945.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 10221338624,
@@ -1210,6 +1210,8 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
+    "regularMarketChangePercent": -0.40962622,
+    "regularMarketPrice": 1945.0,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1140393600000,
     "regularMarketChange": -8.0,
@@ -1233,12 +1235,10 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "averageAnalystRating": "0.0 - Strong Buy",
-    "marketState": "CLOSED",
-    "shortName": "PACIFIC NET CO. LTD",
     "cryptoTradeable": false,
+    "marketState": "PREPRE",
+    "shortName": "PACIFIC NET CO. LTD",
     "longName": "Pacific Net Co.,Ltd.",
-    "regularMarketChangePercent": -0.40962622,
-    "regularMarketPrice": 1945.0,
     "trailingPegRatio": null
   }
 }

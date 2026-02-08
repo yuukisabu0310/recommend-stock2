@@ -1,7 +1,7 @@
 {
   "ticker": "1909",
   "japanese_ticker": "1909.T",
-  "fetch_date": "2026-02-07T23:25:12.543349",
+  "fetch_date": "2026-02-08T23:26:07.669924",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": -18314048.0,
@@ -1211,8 +1211,8 @@
     "averageVolume": 39596,
     "averageVolume10days": 38960,
     "averageDailyVolume10Day": 38960,
-    "bid": 10510.0,
-    "ask": 10720.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 71394533376,
@@ -1296,9 +1296,8 @@
     "esgPopulated": false,
     "regularMarketChangePercent": -1.0223049,
     "regularMarketPrice": 10650.0,
-    "marketState": "CLOSED",
-    "shortName": "NIPPON DRY-CHEMICAL CO LTD",
-    "longName": "Nippon Dry-Chemical Co., Ltd.",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1309305600000,
     "regularMarketChange": -110.0,
     "regularMarketDayRange": "10230.0 - 11260.0",
     "fullExchangeName": "Tokyo",
@@ -1318,12 +1317,13 @@
     "fiftyDayAverageChangePercent": 0.09450789,
     "twoHundredDayAverageChange": 3620.875,
     "twoHundredDayAverageChangePercent": 0.51512456,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1309305600000,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "averageAnalystRating": "1.0 - Strong Buy",
     "cryptoTradeable": false,
+    "marketState": "PREPRE",
+    "shortName": "NIPPON DRY-CHEMICAL CO LTD",
+    "longName": "Nippon Dry-Chemical Co., Ltd.",
     "trailingPegRatio": null
   }
 }

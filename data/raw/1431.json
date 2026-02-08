@@ -1,7 +1,7 @@
 {
   "ticker": "1431",
   "japanese_ticker": "1431.T",
-  "fetch_date": "2026-02-07T23:22:16.942035",
+  "fetch_date": "2026-02-08T23:23:10.868602",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-06-30 00:00:00": -2629952.0,
@@ -1211,8 +1211,8 @@
     "averageVolume": 47106,
     "averageVolume10days": 20880,
     "averageDailyVolume10Day": 20880,
-    "bid": 652.0,
-    "ask": 653.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "marketCap": 15158598656,
     "fiftyTwoWeekLow": 562.0,
     "fiftyTwoWeekHigh": 838.0,
@@ -1274,6 +1274,9 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "shortName": "LIB WORK CO LTD",
+    "longName": "Lib Work Co.,Ltd.",
+    "marketState": "PREPRE",
     "corporateActions": [],
     "regularMarketTime": 1770359400,
     "exchange": "JPX",
@@ -1285,8 +1288,6 @@
     "esgPopulated": false,
     "regularMarketChangePercent": 0.0,
     "regularMarketPrice": 652.0,
-    "shortName": "LIB WORK CO LTD",
-    "longName": "Lib Work Co.,Ltd.",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1560816000000,
     "regularMarketChange": 0.0,
@@ -1309,7 +1310,6 @@
     "twoHundredDayAverageChangePercent": -0.0781521,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
-    "marketState": "CLOSED",
     "cryptoTradeable": false,
     "trailingPegRatio": null
   }

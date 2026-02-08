@@ -1,7 +1,7 @@
 {
   "ticker": "2689",
   "japanese_ticker": "2689.T",
-  "fetch_date": "2026-02-07T23:33:22.016528",
+  "fetch_date": "2026-02-08T23:34:27.792687",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2024-06-30 00:00:00": 1286266.0,
@@ -1054,8 +1054,8 @@
     "averageVolume": 2171,
     "averageVolume10days": 2080,
     "averageDailyVolume10Day": 2080,
-    "bid": 2110.0,
-    "ask": 2120.0,
+    "bid": 2100.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 12500965376,
@@ -1121,6 +1121,7 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "marketState": "PREPRE",
     "corporateActions": [],
     "regularMarketTime": 1770359400,
     "exchange": "JPX",
@@ -1132,11 +1133,8 @@
     "esgPopulated": false,
     "regularMarketChangePercent": -0.65913373,
     "regularMarketPrice": 2110.0,
-    "marketState": "CLOSED",
     "shortName": "OLBA HEALTHCARE HLDGS INC",
     "longName": "OLBA HEALTHCARE HOLDINGS, Inc.",
-    "regularMarketChange": -14.0,
-    "regularMarketDayRange": "2110.0 - 2125.0",
     "fullExchangeName": "Tokyo",
     "averageDailyVolume3Month": 2171,
     "fiftyTwoWeekLowChange": 310.0,
@@ -1155,13 +1153,15 @@
     "fiftyDayAverageChangePercent": 0.022306653,
     "twoHundredDayAverageChange": 50.02002,
     "twoHundredDayAverageChangePercent": 0.024281798,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 978566400000,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "prevName": "Kawanishi Holdings, Inc.",
-    "nameChangeDate": "2026-02-06",
+    "nameChangeDate": "2026-02-07",
     "cryptoTradeable": false,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 978566400000,
+    "regularMarketChange": -14.0,
+    "regularMarketDayRange": "2110.0 - 2125.0",
     "trailingPegRatio": null
   }
 }

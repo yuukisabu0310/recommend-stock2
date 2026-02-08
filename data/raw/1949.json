@@ -1,7 +1,7 @@
 {
   "ticker": "1949",
   "japanese_ticker": "1949.T",
-  "fetch_date": "2026-02-07T23:25:48.277445",
+  "fetch_date": "2026-02-08T23:26:41.883713",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": 12269705.603039,
@@ -1250,8 +1250,8 @@
     "averageVolume": 102728,
     "averageVolume10days": 15950,
     "averageDailyVolume10Day": 15950,
-    "bid": 9700.0,
-    "ask": 9720.0,
+    "bid": 0.0,
+    "ask": 9730.0,
     "marketCap": 341911339008,
     "fiftyTwoWeekLow": 4065.0,
     "fiftyTwoWeekHigh": 9940.0,
@@ -1315,18 +1315,9 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "corporateActions": [
-      {
-        "header": "Reverse stock split",
-        "message": "1949.T announces 1 for 1048714 split effective Mar. 3, 2026",
-        "meta": {
-          "eventType": "SPLIT",
-          "dateEpochMs": 1772463600000,
-          "splitRatio": "1:1048714"
-        }
-      }
-    ],
-    "regularMarketTime": 1770359400,
+    "regularMarketPrice": 9720.0,
+    "shortName": "SUMITOMO DENSETSU CO",
+    "longName": "Sumitomo Densetsu Co.,Ltd.",
     "exchange": "JPX",
     "messageBoardId": "finmb_880743",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1335,11 +1326,8 @@
     "market": "jp_market",
     "esgPopulated": false,
     "regularMarketChangePercent": 0.10298662,
-    "regularMarketPrice": 9720.0,
-    "marketState": "CLOSED",
-    "cryptoTradeable": false,
-    "shortName": "SUMITOMO DENSETSU CO",
-    "longName": "Sumitomo Densetsu Co.,Ltd.",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 978307200000,
     "regularMarketChange": 10.0,
     "regularMarketDayRange": "9700.0 - 9730.0",
     "fullExchangeName": "Tokyo",
@@ -1361,8 +1349,20 @@
     "twoHundredDayAverageChangePercent": 0.28962493,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 978307200000,
+    "cryptoTradeable": false,
+    "marketState": "PREPRE",
+    "corporateActions": [
+      {
+        "header": "Reverse stock split",
+        "message": "1949.T announces 1 for 1048714 split effective Mar. 3, 2026",
+        "meta": {
+          "eventType": "SPLIT",
+          "dateEpochMs": 1772463600000,
+          "splitRatio": "1:1048714"
+        }
+      }
+    ],
+    "regularMarketTime": 1770359400,
     "trailingPegRatio": null
   }
 }

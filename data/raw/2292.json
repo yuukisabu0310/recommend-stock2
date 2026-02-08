@@ -1,7 +1,7 @@
 {
   "ticker": "2292",
   "japanese_ticker": "2292.T",
-  "fetch_date": "2026-02-07T23:29:05.870582",
+  "fetch_date": "2026-02-08T23:30:02.390788",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-02-28 00:00:00": 27144000.0,
@@ -1127,8 +1127,8 @@
     "averageVolume": 62195,
     "averageVolume10days": 68590,
     "averageDailyVolume10Day": 68590,
-    "bid": 3100.0,
-    "ask": 3115.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 98663309312,
@@ -1194,10 +1194,17 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "shortName": "S FOODS INC",
-    "longName": "S Foods Inc.",
-    "marketState": "CLOSED",
-    "corporateActions": [],
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "2292.T announced a cash dividend of 52.00 JPY with an ex-date of Feb. 26, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1772031600000,
+          "amount": "52.00"
+        }
+      }
+    ],
     "regularMarketTime": 1770359400,
     "exchange": "JPX",
     "messageBoardId": "finmb_5503996",
@@ -1208,6 +1215,10 @@
     "esgPopulated": false,
     "regularMarketChangePercent": -0.16025642,
     "regularMarketPrice": 3115.0,
+    "shortName": "S FOODS INC",
+    "longName": "S Foods Inc.",
+    "marketState": "PREPRE",
+    "cryptoTradeable": false,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 978566400000,
     "regularMarketChange": -5.0,
@@ -1232,7 +1243,6 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "averageAnalystRating": "0.0 - Strong Buy",
-    "cryptoTradeable": false,
     "trailingPegRatio": null
   }
 }

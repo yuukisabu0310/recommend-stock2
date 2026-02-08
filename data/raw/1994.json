@@ -1,7 +1,7 @@
 {
   "ticker": "1994",
   "japanese_ticker": "1994.T",
-  "fetch_date": "2026-02-07T23:26:31.155127",
+  "fetch_date": "2026-02-08T23:27:23.747611",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2024-12-31 00:00:00": -2087072.0,
@@ -962,8 +962,8 @@
     "averageVolume": 6823,
     "averageVolume10days": 11250,
     "averageDailyVolume10Day": 11250,
-    "bid": 548.0,
-    "ask": 557.0,
+    "bid": 0.0,
+    "ask": 568.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 4428510208,
@@ -1027,11 +1027,6 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "regularMarketChangePercent": -0.35778174,
-    "regularMarketPrice": 557.0,
-    "marketState": "CLOSED",
-    "corporateActions": [],
-    "regularMarketTime": 1770359400,
     "exchange": "JPX",
     "messageBoardId": "finmb_5863898",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1039,8 +1034,7 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "shortName": "TAKAHASHI CURTAIN WALL CORP",
-    "longName": "Takahashi Curtain Wall Corporation",
+    "marketState": "PREPRE",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 946944000000,
     "regularMarketChange": -2.0,
@@ -1056,6 +1050,8 @@
     "earningsTimestampStart": 1754533800,
     "earningsTimestampEnd": 1754965800,
     "isEarningsDateEstimate": true,
+    "regularMarketChangePercent": -0.35778174,
+    "regularMarketPrice": 557.0,
     "epsTrailingTwelveMonths": 8.13,
     "fiftyDayAverageChange": 29.619995,
     "fiftyDayAverageChangePercent": 0.056164425,
@@ -1064,6 +1060,10 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
+    "shortName": "TAKAHASHI CURTAIN WALL CORP",
+    "longName": "Takahashi Curtain Wall Corporation",
+    "corporateActions": [],
+    "regularMarketTime": 1770359400,
     "trailingPegRatio": null
   }
 }

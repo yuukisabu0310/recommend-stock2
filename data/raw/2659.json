@@ -1,7 +1,7 @@
 {
   "ticker": "2659",
   "japanese_ticker": "2659.T",
-  "fetch_date": "2026-02-07T23:32:50.849331",
+  "fetch_date": "2026-02-08T23:33:55.142884",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-02-28 00:00:00": -122648127.461932,
@@ -1131,8 +1131,8 @@
     "averageVolume": 156293,
     "averageVolume10days": 166750,
     "averageDailyVolume10Day": 166750,
-    "bid": 3005.0,
-    "ask": 3010.0,
+    "bid": 0.0,
+    "ask": 3005.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 185852198912,
@@ -1198,35 +1198,15 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "marketState": "CLOSED",
+    "shortName": "SAN-A CO LTD",
+    "longName": "SAN-A CO.,LTD.",
+    "marketState": "PREPRE",
     "regularMarketChangePercent": 0.0,
     "regularMarketPrice": 3005.0,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1107475200000,
     "regularMarketChange": 0.0,
     "regularMarketDayRange": "2987.0 - 3020.0",
-    "shortName": "SAN-A CO LTD",
-    "longName": "SAN-A CO.,LTD.",
-    "cryptoTradeable": false,
-    "corporateActions": [
-      {
-        "header": "Dividend",
-        "message": "2659.T announced a cash dividend of 100.00 JPY with an ex-date of Feb. 26, 2026",
-        "meta": {
-          "eventType": "DIVIDEND",
-          "dateEpochMs": 1772031600000,
-          "amount": "100.00"
-        }
-      }
-    ],
-    "regularMarketTime": 1770359400,
-    "exchange": "JPX",
-    "messageBoardId": "finmb_5490309",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
     "fullExchangeName": "Tokyo",
     "averageDailyVolume3Month": 156293,
     "fiftyTwoWeekLowChange": 393.0,
@@ -1235,6 +1215,15 @@
     "fiftyTwoWeekHighChange": -215.0,
     "fiftyTwoWeekHighChangePercent": -0.06677019,
     "fiftyTwoWeekChangePercent": 0.3003955,
+    "corporateActions": [],
+    "regularMarketTime": 1770359400,
+    "exchange": "JPX",
+    "messageBoardId": "finmb_5490309",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
     "earningsTimestamp": 1767767400,
     "earningsTimestampStart": 1775543400,
     "earningsTimestampEnd": 1775543400,
@@ -1250,6 +1239,7 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "averageAnalystRating": "2.0 - Buy",
+    "cryptoTradeable": false,
     "trailingPegRatio": null
   }
 }

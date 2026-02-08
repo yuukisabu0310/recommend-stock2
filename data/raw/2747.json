@@ -1,7 +1,7 @@
 {
   "ticker": "2747",
   "japanese_ticker": "2747.T",
-  "fetch_date": "2026-02-07T23:34:02.947733",
+  "fetch_date": "2026-02-08T23:35:07.557075",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-02-28 00:00:00": 8469604.0,
@@ -1256,8 +1256,8 @@
     "averageVolume": 1001,
     "averageVolume10days": 1770,
     "averageDailyVolume10Day": 1770,
-    "bid": 3240.0,
-    "ask": 3260.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 4114043392,
@@ -1327,11 +1327,7 @@
     "customPriceAlertConfidence": "LOW",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1033689600000,
-    "twoHundredDayAverageChange": 113.69507,
-    "twoHundredDayAverageChangePercent": 0.03619358,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
+    "marketState": "PREPRE",
     "regularMarketChange": 10.0,
     "regularMarketDayRange": "3225.0 - 3260.0",
     "fullExchangeName": "Tokyo",
@@ -1348,8 +1344,14 @@
     "epsTrailingTwelveMonths": 115.23,
     "fiftyDayAverageChange": 19.800049,
     "fiftyDayAverageChangePercent": 0.0061201933,
+    "twoHundredDayAverageChange": 113.69507,
+    "twoHundredDayAverageChangePercent": 0.03619358,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
     "shortName": "HOKUYU LUCKY CO.LTD.",
     "longName": "Hokuyu Lucky Co.,Ltd.",
+    "regularMarketChangePercent": 0.3081664,
+    "regularMarketPrice": 3255.0,
     "corporateActions": [
       {
         "header": "Dividend",
@@ -1369,9 +1371,7 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "regularMarketChangePercent": 0.3081664,
-    "regularMarketPrice": 3255.0,
-    "marketState": "CLOSED",
+    "cryptoTradeable": false,
     "trailingPegRatio": null
   }
 }

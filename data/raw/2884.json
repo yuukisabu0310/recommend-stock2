@@ -1,7 +1,7 @@
 {
   "ticker": "2884",
   "japanese_ticker": "2884.T",
-  "fetch_date": "2026-02-07T23:35:40.969489",
+  "fetch_date": "2026-02-08T23:36:45.887065",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-02-28 00:00:00": 117848808.0,
@@ -1074,8 +1074,8 @@
     "averageVolume": 178181,
     "averageVolume10days": 127760,
     "averageDailyVolume10Day": 127760,
-    "bid": 905.0,
-    "ask": 906.0,
+    "bid": 939.0,
+    "ask": 940.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 21630283776,
@@ -1140,6 +1140,7 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "marketState": "PREPRE",
     "corporateActions": [],
     "regularMarketTime": 1770359400,
     "exchange": "JPX",
@@ -1151,8 +1152,8 @@
     "esgPopulated": false,
     "regularMarketChangePercent": 0.77864295,
     "regularMarketPrice": 906.0,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1457049600000,
+    "shortName": "YOSHIMURA FOOD HOLDINGS KK",
+    "longName": "Yoshimura Food Holdings K.K.",
     "regularMarketChange": 7.0,
     "regularMarketDayRange": "897.0 - 945.0",
     "fullExchangeName": "Tokyo",
@@ -1168,6 +1169,8 @@
     "isEarningsDateEstimate": true,
     "epsTrailingTwelveMonths": 66.41,
     "epsForward": 83.9,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1457049600000,
     "fiftyDayAverageChange": 150.59998,
     "fiftyDayAverageChangePercent": 0.19936454,
     "twoHundredDayAverageChange": 51.875,
@@ -1175,9 +1178,6 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
-    "shortName": "YOSHIMURA FOOD HOLDINGS KK",
-    "longName": "Yoshimura Food Holdings K.K.",
-    "marketState": "CLOSED",
     "trailingPegRatio": null
   }
 }

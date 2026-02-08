@@ -1,7 +1,7 @@
 {
   "ticker": "2751",
   "japanese_ticker": "2751.T",
-  "fetch_date": "2026-02-07T23:34:08.149796",
+  "fetch_date": "2026-02-08T23:35:13.344485",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-04-30 00:00:00": -19239500.0,
@@ -1155,8 +1155,8 @@
     "averageVolume": 6673,
     "averageVolume10days": 5990,
     "averageDailyVolume10Day": 5990,
-    "bid": 3810.0,
-    "ask": 3815.0,
+    "bid": 0.0,
+    "ask": 3850.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 45874503680,
@@ -1224,9 +1224,10 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "marketState": "CLOSED",
-    "regularMarketChangePercent": 0.39525694,
-    "regularMarketPrice": 3810.0,
+    "earningsTimestampStart": 1749625200,
+    "earningsTimestampEnd": 1749625200,
+    "isEarningsDateEstimate": false,
+    "epsTrailingTwelveMonths": 150.5,
     "fiftyDayAverageChange": 177.6001,
     "fiftyDayAverageChangePercent": 0.04889332,
     "twoHundredDayAverageChange": 329.9751,
@@ -1236,6 +1237,8 @@
     "cryptoTradeable": false,
     "shortName": "TENPOS HOLDINGS CO LTD",
     "longName": "TENPOS HOLDINGS Co.,Ltd.",
+    "corporateActions": [],
+    "marketState": "PREPRE",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1039478400000,
     "regularMarketChange": 15.0,
@@ -1248,11 +1251,6 @@
     "fiftyTwoWeekHighChange": -40.0,
     "fiftyTwoWeekHighChangePercent": -0.01038961,
     "fiftyTwoWeekChangePercent": 6.424582,
-    "earningsTimestampStart": 1749625200,
-    "earningsTimestampEnd": 1749625200,
-    "isEarningsDateEstimate": false,
-    "epsTrailingTwelveMonths": 150.5,
-    "corporateActions": [],
     "regularMarketTime": 1770359400,
     "exchange": "JPX",
     "messageBoardId": "finmb_9329898",
@@ -1261,6 +1259,8 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
+    "regularMarketChangePercent": 0.39525694,
+    "regularMarketPrice": 3810.0,
     "trailingPegRatio": null
   }
 }

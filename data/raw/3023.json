@@ -1,7 +1,7 @@
 {
   "ticker": "3023",
   "japanese_ticker": "3023.T",
-  "fetch_date": "2026-02-07T23:37:28.078354",
+  "fetch_date": "2026-02-08T23:38:34.665881",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": 13207000.0,
@@ -1146,8 +1146,8 @@
     "averageVolume": 107888,
     "averageVolume10days": 113950,
     "averageDailyVolume10Day": 113950,
-    "bid": 2206.0,
-    "ask": 2220.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 23452932096,
@@ -1213,16 +1213,8 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "marketState": "CLOSED",
-    "regularMarketChangePercent": 0.6827492,
-    "regularMarketPrice": 2212.0,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1141084800000,
-    "regularMarketChange": 15.0,
-    "regularMarketDayRange": "2124.0 - 2212.0",
     "shortName": "RASA CORPORATION",
     "longName": "Rasa Corporation",
-    "cryptoTradeable": false,
     "corporateActions": [],
     "regularMarketTime": 1770359400,
     "exchange": "JPX",
@@ -1232,6 +1224,11 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
+    "regularMarketChangePercent": 0.6827492,
+    "regularMarketPrice": 2212.0,
+    "marketState": "PREPRE",
+    "regularMarketChange": 15.0,
+    "regularMarketDayRange": "2124.0 - 2212.0",
     "fullExchangeName": "Tokyo",
     "averageDailyVolume3Month": 107888,
     "fiftyTwoWeekLowChange": 1003.0,
@@ -1250,6 +1247,9 @@
     "twoHundredDayAverageChangePercent": 0.33791405,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1141084800000,
     "trailingPegRatio": null
   }
 }

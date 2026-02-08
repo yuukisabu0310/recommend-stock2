@@ -1,7 +1,7 @@
 {
   "ticker": "2749",
   "japanese_ticker": "2749.T",
-  "fetch_date": "2026-02-07T23:34:04.628378",
+  "fetch_date": "2026-02-08T23:35:09.334792",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": 74817546.0,
@@ -1124,7 +1124,7 @@
     "averageVolume": 215436,
     "averageVolume10days": 177170,
     "averageDailyVolume10Day": 177170,
-    "bid": 710.0,
+    "bid": 0.0,
     "ask": 711.0,
     "bidSize": 0,
     "askSize": 0,
@@ -1194,12 +1194,6 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "twoHundredDayAverageChangePercent": 0.15337439,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1266796800000,
     "corporateActions": [],
     "regularMarketTime": 1770359400,
     "exchange": "JPX",
@@ -1211,6 +1205,12 @@
     "esgPopulated": false,
     "regularMarketChangePercent": 0.14104372,
     "regularMarketPrice": 710.0,
+    "shortName": "JP-HOLDINGS INC",
+    "longName": "Jp-Holdings,Inc.",
+    "marketState": "PREPRE",
+    "cryptoTradeable": false,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1266796800000,
     "regularMarketChange": 1.0,
     "regularMarketDayRange": "707.0 - 713.0",
     "fullExchangeName": "Tokyo",
@@ -1229,9 +1229,9 @@
     "fiftyDayAverageChange": 14.340027,
     "fiftyDayAverageChangePercent": 0.020613557,
     "twoHundredDayAverageChange": 94.41498,
-    "shortName": "JP-HOLDINGS INC",
-    "longName": "Jp-Holdings,Inc.",
-    "marketState": "CLOSED",
+    "twoHundredDayAverageChangePercent": 0.15337439,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
     "trailingPegRatio": null
   }
 }
