@@ -1,7 +1,7 @@
 {
   "ticker": "1802",
   "japanese_ticker": "1802.T",
-  "fetch_date": "2026-02-14T23:18:24.588642",
+  "fetch_date": "2026-02-15T23:20:15.967521",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": 16548133000.0,
@@ -1168,8 +1168,8 @@
     "averageVolume": 3030710,
     "averageVolume10days": 4443140,
     "averageDailyVolume10Day": 4443140,
-    "bid": 4195.0,
-    "ask": 4199.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 2884423647232,
@@ -1235,7 +1235,6 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "marketState": "CLOSED",
     "corporateActions": [],
     "regularMarketTime": 1770964200,
     "exchange": "JPX",
@@ -1245,14 +1244,11 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "regularMarketChangePercent": -3.0275016,
-    "regularMarketPrice": 4196.0,
     "shortName": "OBAYASHI CORP",
     "longName": "Obayashi Corporation",
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 946944000000,
-    "regularMarketChange": -131.0,
-    "regularMarketDayRange": "4122.0 - 4309.0",
+    "regularMarketChangePercent": -3.0275016,
+    "regularMarketPrice": 4196.0,
+    "marketState": "PREPRE",
     "fullExchangeName": "Tokyo",
     "averageDailyVolume3Month": 3030710,
     "fiftyTwoWeekLowChange": 2453.5,
@@ -1277,6 +1273,10 @@
     "exchangeDataDelayedBy": 20,
     "averageAnalystRating": "1.6 - Buy",
     "cryptoTradeable": false,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 946944000000,
+    "regularMarketChange": -131.0,
+    "regularMarketDayRange": "4122.0 - 4309.0",
     "trailingPegRatio": null
   }
 }

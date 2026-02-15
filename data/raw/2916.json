@@ -1,7 +1,7 @@
 {
   "ticker": "2916",
   "japanese_ticker": "2916.T",
-  "fetch_date": "2026-02-14T23:30:12.473438",
+  "fetch_date": "2026-02-15T23:32:25.865717",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": -49392336.0,
@@ -1238,8 +1238,8 @@
     "averageVolume": 2535,
     "averageVolume10days": 1540,
     "averageDailyVolume10Day": 1540,
-    "bid": 730.0,
-    "ask": 736.0,
+    "bid": 0.0,
+    "ask": 740.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 8298638336,
@@ -1305,7 +1305,10 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "marketState": "CLOSED",
+    "shortName": "SEMBA TOHKA INDUSTRIES CO",
+    "longName": "Semba Tohka Industries Co., Ltd",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 947030400000,
     "regularMarketChange": -2.0,
     "regularMarketDayRange": "725.0 - 736.0",
     "fullExchangeName": "Tokyo",
@@ -1327,8 +1330,6 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 947030400000,
     "corporateActions": [],
     "regularMarketTime": 1770962702,
     "exchange": "JPX",
@@ -1340,8 +1341,7 @@
     "esgPopulated": false,
     "regularMarketChangePercent": -0.27359784,
     "regularMarketPrice": 729.0,
-    "shortName": "SEMBA TOHKA INDUSTRIES CO",
-    "longName": "Semba Tohka Industries Co., Ltd",
+    "marketState": "PREPRE",
     "trailingPegRatio": null
   }
 }

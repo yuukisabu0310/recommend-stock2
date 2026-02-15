@@ -1,7 +1,7 @@
 {
   "ticker": "2349",
   "japanese_ticker": "2349.T",
-  "fetch_date": "2026-02-14T23:24:24.861855",
+  "fetch_date": "2026-02-15T23:26:30.180686",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": -18626021.1,
@@ -1092,7 +1092,7 @@
     "averageVolume": 1474,
     "averageVolume10days": 1100,
     "averageDailyVolume10Day": 1100,
-    "bid": 2356.0,
+    "bid": 0.0,
     "ask": 2380.0,
     "bidSize": 0,
     "askSize": 0,
@@ -1159,8 +1159,8 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "shortName": "NIPPON INFORMATION DEVELOPMENT ",
-    "longName": "Nippon Information Development Co., Ltd.",
+    "regularMarketChangePercent": -0.41841003,
+    "regularMarketPrice": 2380.0,
     "corporateActions": [],
     "regularMarketTime": 1770946926,
     "exchange": "JPX",
@@ -1170,8 +1170,9 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "regularMarketChangePercent": -0.41841003,
-    "regularMarketPrice": 2380.0,
+    "marketState": "PREPRE",
+    "longName": "Nippon Information Development Co., Ltd.",
+    "regularMarketChange": -10.0,
     "regularMarketDayRange": "2353.0 - 2380.0",
     "fullExchangeName": "Tokyo",
     "averageDailyVolume3Month": 1474,
@@ -1191,11 +1192,10 @@
     "twoHundredDayAverageChangePercent": 0.021056097,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1043798400000,
-    "regularMarketChange": -10.0,
-    "marketState": "CLOSED",
+    "shortName": "NIPPON INFORMATION DEVELOPMENT ",
+    "cryptoTradeable": false,
     "trailingPegRatio": null
   }
 }

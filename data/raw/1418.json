@@ -1,7 +1,7 @@
 {
   "ticker": "1418",
   "japanese_ticker": "1418.T",
-  "fetch_date": "2026-02-14T23:16:49.815717",
+  "fetch_date": "2026-02-15T23:18:40.080724",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-02-28 00:00:00": -3980543.6,
@@ -1128,8 +1128,8 @@
     "averageVolume": 110754,
     "averageVolume10days": 111450,
     "averageDailyVolume10Day": 111450,
-    "bid": 583.0,
-    "ask": 584.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 8926924800,
@@ -1193,8 +1193,21 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "regularMarketChangePercent": -2.0168068,
-    "regularMarketPrice": 583.0,
+    "marketState": "PREPRE",
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "1418.T announced a cash dividend of 15.00 JPY with an ex-date of Feb. 26, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1772031600000,
+          "amount": "15.00"
+        }
+      }
+    ],
+    "regularMarketTime": 1770964200,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 946944000000,
     "regularMarketChange": -12.0,
     "regularMarketDayRange": "582.0 - 596.0",
     "fullExchangeName": "Tokyo",
@@ -1209,6 +1222,8 @@
     "earningsTimestampEnd": 1744614000,
     "isEarningsDateEstimate": false,
     "epsTrailingTwelveMonths": 62.67,
+    "shortName": "INTERLIFE HLDG CO LTD",
+    "longName": "Interlife Holdings Co., Ltd.",
     "fiftyDayAverageChange": -57.5,
     "fiftyDayAverageChangePercent": -0.08977362,
     "twoHundredDayAverageChange": 96.60501,
@@ -1216,9 +1231,6 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
-    "marketState": "CLOSED",
-    "corporateActions": [],
-    "regularMarketTime": 1770964200,
     "exchange": "JPX",
     "messageBoardId": "finmb_9617817",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1226,10 +1238,8 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "shortName": "INTERLIFE HLDG CO LTD",
-    "longName": "Interlife Holdings Co., Ltd.",
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 946944000000,
+    "regularMarketChangePercent": -2.0168068,
+    "regularMarketPrice": 583.0,
     "trailingPegRatio": null
   }
 }

@@ -1,7 +1,7 @@
 {
   "ticker": "2292",
   "japanese_ticker": "2292.T",
-  "fetch_date": "2026-02-14T23:23:26.378222",
+  "fetch_date": "2026-02-15T23:25:31.197010",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-02-28 00:00:00": 27144000.0,
@@ -1127,8 +1127,8 @@
     "averageVolume": 65064,
     "averageVolume10days": 67110,
     "averageDailyVolume10Day": 67110,
-    "bid": 3185.0,
-    "ask": 3200.0,
+    "bid": 0.0,
+    "ask": 3185.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 101038825472,
@@ -1194,6 +1194,29 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "regularMarketTime": 1770964200,
+    "exchange": "JPX",
+    "messageBoardId": "finmb_5503996",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
+    "regularMarketChangePercent": -0.62305295,
+    "regularMarketPrice": 3190.0,
+    "shortName": "S FOODS INC",
+    "longName": "S Foods Inc.",
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "2292.T announced a cash dividend of 52.00 JPY with an ex-date of Feb. 26, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1772031600000,
+          "amount": "52.00"
+        }
+      }
+    ],
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 978566400000,
     "regularMarketChange": -20.0,
@@ -1211,11 +1234,7 @@
     "isEarningsDateEstimate": true,
     "epsTrailingTwelveMonths": 177.05,
     "epsForward": 227.0,
-    "marketState": "CLOSED",
-    "shortName": "S FOODS INC",
-    "longName": "S Foods Inc.",
-    "regularMarketChangePercent": -0.62305295,
-    "regularMarketPrice": 3190.0,
+    "marketState": "PREPRE",
     "fiftyDayAverageChange": 335.3401,
     "fiftyDayAverageChangePercent": 0.117471114,
     "twoHundredDayAverageChange": 497.46997,
@@ -1224,15 +1243,6 @@
     "exchangeDataDelayedBy": 20,
     "averageAnalystRating": "0.0 - Strong Buy",
     "cryptoTradeable": false,
-    "exchange": "JPX",
-    "messageBoardId": "finmb_5503996",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
-    "corporateActions": [],
-    "regularMarketTime": 1770964200,
     "trailingPegRatio": null
   }
 }

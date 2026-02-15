@@ -1,7 +1,7 @@
 {
   "ticker": "1723",
   "japanese_ticker": "1723.T",
-  "fetch_date": "2026-02-14T23:17:45.417254",
+  "fetch_date": "2026-02-15T23:19:36.871460",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": -48900317.32137,
@@ -1072,8 +1072,8 @@
     "averageVolume": 67693,
     "averageVolume10days": 110600,
     "averageDailyVolume10Day": 110600,
-    "bid": 11420.0,
-    "ask": 11450.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 182117089280,
@@ -1149,8 +1149,7 @@
     "earningsTimestampEnd": 1746601200,
     "isEarningsDateEstimate": false,
     "epsTrailingTwelveMonths": 485.78,
-    "shortName": "NIHON DENGI CO",
-    "longName": "Nihon Dengi Co., Ltd.",
+    "marketState": "PREPRE",
     "fiftyDayAverageChange": 2534.2002,
     "fiftyDayAverageChangePercent": 0.28487605,
     "twoHundredDayAverageChange": 5485.225,
@@ -1159,8 +1158,10 @@
     "exchangeDataDelayedBy": 20,
     "averageAnalystRating": "0.0 - Strong Buy",
     "cryptoTradeable": false,
-    "marketState": "CLOSED",
+    "corporateActions": [],
     "regularMarketTime": 1770964200,
+    "shortName": "NIHON DENGI CO",
+    "longName": "Nihon Dengi Co., Ltd.",
     "exchange": "JPX",
     "messageBoardId": "finmb_5567433",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1170,7 +1171,6 @@
     "esgPopulated": false,
     "regularMarketChangePercent": -5.6151943,
     "regularMarketPrice": 11430.0,
-    "corporateActions": [],
     "trailingPegRatio": null
   }
 }

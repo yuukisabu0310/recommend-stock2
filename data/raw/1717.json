@@ -1,7 +1,7 @@
 {
   "ticker": "1717",
   "japanese_ticker": "1717.T",
-  "fetch_date": "2026-02-14T23:17:35.619857",
+  "fetch_date": "2026-02-15T23:19:27.569113",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": -146527.2,
@@ -1059,8 +1059,8 @@
     "averageVolume": 23137,
     "averageVolume10days": 31060,
     "averageDailyVolume10Day": 31060,
-    "bid": 1080.0,
-    "ask": 1083.0,
+    "bid": 0.0,
+    "ask": 1084.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 12699348992,
@@ -1127,9 +1127,6 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "shortName": "MEIHO FACILITY WORKS",
-    "longName": "Meiho Facility Works Ltd.",
-    "marketState": "CLOSED",
     "corporateActions": [],
     "regularMarketTime": 1770964200,
     "exchange": "JPX",
@@ -1139,12 +1136,11 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
+    "shortName": "MEIHO FACILITY WORKS",
+    "longName": "Meiho Facility Works Ltd.",
     "regularMarketChangePercent": -1.0989012,
     "regularMarketPrice": 1080.0,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1077148800000,
-    "regularMarketChange": -12.0,
-    "regularMarketDayRange": "1073.0 - 1091.0",
+    "marketState": "PREPRE",
     "fullExchangeName": "Tokyo",
     "averageDailyVolume3Month": 23137,
     "fiftyTwoWeekLowChange": 269.0,
@@ -1166,6 +1162,10 @@
     "exchangeDataDelayedBy": 20,
     "averageAnalystRating": "0.0 - Strong Buy",
     "cryptoTradeable": false,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1077148800000,
+    "regularMarketChange": -12.0,
+    "regularMarketDayRange": "1073.0 - 1091.0",
     "trailingPegRatio": null
   }
 }

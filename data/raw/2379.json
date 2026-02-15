@@ -1,7 +1,7 @@
 {
   "ticker": "2379",
   "japanese_ticker": "2379.T",
-  "fetch_date": "2026-02-14T23:24:47.840542",
+  "fetch_date": "2026-02-15T23:26:53.067955",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-02-28 00:00:00": -65520883.556667,
@@ -1049,8 +1049,8 @@
     "averageVolume": 331096,
     "averageVolume10days": 552310,
     "averageDailyVolume10Day": 552310,
-    "bid": 2015.0,
-    "ask": 2018.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 105418571776,
@@ -1124,6 +1124,8 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "corporateActions": [],
+    "regularMarketTime": 1770964200,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1085616000000,
     "regularMarketChange": -39.0,
@@ -1152,21 +1154,6 @@
     "exchangeDataDelayedBy": 20,
     "averageAnalystRating": "3.3 - Hold",
     "cryptoTradeable": false,
-    "marketState": "CLOSED",
-    "corporateActions": [
-      {
-        "header": "Dividend",
-        "message": "2379.T announced a cash dividend of 48.00 JPY with an ex-date of Feb. 26, 2026",
-        "meta": {
-          "eventType": "DIVIDEND",
-          "dateEpochMs": 1772031600000,
-          "amount": "48.00"
-        }
-      }
-    ],
-    "shortName": "DIP CORPORATION",
-    "longName": "DIP Corporation",
-    "regularMarketTime": 1770964200,
     "exchange": "JPX",
     "messageBoardId": "finmb_1570575",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1176,6 +1163,9 @@
     "esgPopulated": false,
     "regularMarketChangePercent": -1.8987341,
     "regularMarketPrice": 2015.0,
+    "shortName": "DIP CORPORATION",
+    "longName": "DIP Corporation",
+    "marketState": "PREPRE",
     "trailingPegRatio": null
   }
 }

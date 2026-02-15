@@ -1,7 +1,7 @@
 {
   "ticker": "2747",
   "japanese_ticker": "2747.T",
-  "fetch_date": "2026-02-14T23:28:17.852275",
+  "fetch_date": "2026-02-15T23:30:24.750654",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-02-28 00:00:00": 8469604.0,
@@ -1256,8 +1256,8 @@
     "averageVolume": 1100,
     "averageVolume10days": 1670,
     "averageDailyVolume10Day": 1670,
-    "bid": 3235.0,
-    "ask": 3255.0,
+    "bid": 0.0,
+    "ask": 3245.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 4101404160,
@@ -1325,6 +1325,19 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "market": "jp_market",
+    "esgPopulated": false,
+    "regularMarketChangePercent": 0.0,
+    "regularMarketPrice": 3245.0,
+    "corporateActions": [],
+    "regularMarketTime": 1770959066,
+    "exchange": "JPX",
+    "messageBoardId": "finmb_5522415",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "marketState": "PREPRE",
+    "cryptoTradeable": false,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1033689600000,
     "regularMarketChange": 0.0,
@@ -1340,7 +1353,6 @@
     "earningsTimestampStart": 1751954400,
     "earningsTimestampEnd": 1752472800,
     "isEarningsDateEstimate": true,
-    "marketState": "CLOSED",
     "epsTrailingTwelveMonths": 115.2,
     "fiftyDayAverageChange": 7.199951,
     "fiftyDayAverageChangePercent": 0.002223717,
@@ -1348,30 +1360,8 @@
     "twoHundredDayAverageChangePercent": 0.03136032,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
     "shortName": "HOKUYU LUCKY CO.LTD.",
     "longName": "Hokuyu Lucky Co.,Ltd.",
-    "exchange": "JPX",
-    "messageBoardId": "finmb_5522415",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
-    "corporateActions": [
-      {
-        "header": "Dividend",
-        "message": "2747.T announced a cash dividend of 50.00 JPY with an ex-date of Feb. 26, 2026",
-        "meta": {
-          "eventType": "DIVIDEND",
-          "dateEpochMs": 1772031600000,
-          "amount": "50.00"
-        }
-      }
-    ],
-    "regularMarketTime": 1770959066,
-    "regularMarketChangePercent": 0.0,
-    "regularMarketPrice": 3245.0,
     "trailingPegRatio": null
   }
 }

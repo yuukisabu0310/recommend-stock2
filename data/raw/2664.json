@@ -1,7 +1,7 @@
 {
   "ticker": "2664",
   "japanese_ticker": "2664.T",
-  "fetch_date": "2026-02-14T23:27:10.633677",
+  "fetch_date": "2026-02-15T23:29:19.096870",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": -458565000.0,
@@ -1068,8 +1068,8 @@
     "averageVolume": 59449,
     "averageVolume10days": 115960,
     "averageDailyVolume10Day": 115960,
-    "bid": 3125.0,
-    "ask": 3140.0,
+    "bid": 0.0,
+    "ask": 3105.0,
     "marketCap": 69906194432,
     "fiftyTwoWeekLow": 2573.0,
     "fiftyTwoWeekHigh": 3165.0,
@@ -1129,7 +1129,6 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "marketState": "CLOSED",
     "corporateActions": [
       {
         "header": "Dividend",
@@ -1151,6 +1150,20 @@
     "esgPopulated": false,
     "regularMarketChangePercent": 0.6430868,
     "regularMarketPrice": 3130.0,
+    "earningsTimestampStart": 1753336800,
+    "earningsTimestampEnd": 1753682400,
+    "isEarningsDateEstimate": true,
+    "epsTrailingTwelveMonths": 206.89,
+    "fiftyDayAverageChange": 109.15991,
+    "fiftyDayAverageChangePercent": 0.036135614,
+    "twoHundredDayAverageChange": 232.06494,
+    "twoHundredDayAverageChangePercent": 0.080079414,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
+    "marketState": "PREPRE",
+    "shortName": "CAWACHI LIMITED",
+    "longName": "Cawachi Limited",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1038960000000,
     "regularMarketChange": 20.0,
@@ -1163,19 +1176,6 @@
     "fiftyTwoWeekHighChange": -35.0,
     "fiftyTwoWeekHighChangePercent": -0.011058452,
     "fiftyTwoWeekChangePercent": 17.404354,
-    "earningsTimestampStart": 1753336800,
-    "earningsTimestampEnd": 1753682400,
-    "isEarningsDateEstimate": true,
-    "epsTrailingTwelveMonths": 206.89,
-    "shortName": "CAWACHI LIMITED",
-    "longName": "Cawachi Limited",
-    "fiftyDayAverageChange": 109.15991,
-    "fiftyDayAverageChangePercent": 0.036135614,
-    "twoHundredDayAverageChange": 232.06494,
-    "twoHundredDayAverageChangePercent": 0.080079414,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
     "trailingPegRatio": null
   }
 }

@@ -1,7 +1,7 @@
 {
   "ticker": "2300",
   "japanese_ticker": "2300.T",
-  "fetch_date": "2026-02-14T23:23:33.890709",
+  "fetch_date": "2026-02-15T23:25:39.272926",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-02-28 00:00:00": -20583200.0,
@@ -1328,8 +1328,8 @@
     "averageVolume": 3513,
     "averageVolume10days": 4690,
     "averageDailyVolume10Day": 4690,
-    "bid": 524.0,
-    "ask": 525.0,
+    "bid": 0.0,
+    "ask": 526.0,
     "marketCap": 2762085888,
     "fiftyTwoWeekLow": 411.0,
     "fiftyTwoWeekHigh": 560.0,
@@ -1393,14 +1393,24 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "regularMarketChangePercent": 0.1908397,
-    "regularMarketPrice": 525.0,
     "regularMarketChange": 1.0,
     "regularMarketDayRange": "523.0 - 525.0",
     "fullExchangeName": "Tokyo",
     "averageDailyVolume3Month": 3513,
     "fiftyTwoWeekLowChange": 114.0,
     "fiftyTwoWeekLowChangePercent": 0.27737227,
+    "marketState": "PREPRE",
+    "corporateActions": [],
+    "regularMarketTime": 1770964200,
+    "exchange": "JPX",
+    "messageBoardId": "finmb_10580355",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
+    "regularMarketChangePercent": 0.1908397,
+    "regularMarketPrice": 525.0,
     "fiftyTwoWeekRange": "411.0 - 560.0",
     "fiftyTwoWeekHighChange": -35.0,
     "fiftyTwoWeekHighChangePercent": -0.0625,
@@ -1416,30 +1426,10 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
-    "marketState": "CLOSED",
-    "corporateActions": [
-      {
-        "header": "Dividend",
-        "message": "2300.T announced a cash dividend of 5.50 JPY with an ex-date of Feb. 26, 2026",
-        "meta": {
-          "eventType": "DIVIDEND",
-          "dateEpochMs": 1772031600000,
-          "amount": "5.50"
-        }
-      }
-    ],
-    "regularMarketTime": 1770964200,
-    "exchange": "JPX",
-    "messageBoardId": "finmb_10580355",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
-    "shortName": "KYOKUTO CO LTD",
-    "longName": "Kyokuto Co., Ltd.",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1019692800000,
+    "shortName": "KYOKUTO CO LTD",
+    "longName": "Kyokuto Co., Ltd.",
     "trailingPegRatio": null
   }
 }

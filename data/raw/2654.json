@@ -1,7 +1,7 @@
 {
   "ticker": "2654",
   "japanese_ticker": "2654.T",
-  "fetch_date": "2026-02-14T23:27:05.694378",
+  "fetch_date": "2026-02-15T23:29:13.893367",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": -7170888.0,
@@ -1080,8 +1080,8 @@
     "averageVolume": 7271,
     "averageVolume10days": 6700,
     "averageDailyVolume10Day": 6700,
-    "bid": 402.0,
-    "ask": 407.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 5480043520,
@@ -1147,9 +1147,6 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "marketState": "CLOSED",
-    "corporateActions": [],
-    "regularMarketTime": 1770964200,
     "exchange": "JPX",
     "messageBoardId": "finmb_6562692",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1159,8 +1156,12 @@
     "esgPopulated": false,
     "regularMarketChangePercent": 1.4962593,
     "regularMarketPrice": 407.0,
+    "corporateActions": [],
+    "regularMarketTime": 1770964200,
     "shortName": "ASMO CORP",
     "longName": "Asmo Corporation",
+    "marketState": "PREPRE",
+    "cryptoTradeable": false,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 965692800000,
     "regularMarketChange": 6.0,
@@ -1183,7 +1184,6 @@
     "twoHundredDayAverageChangePercent": 0.076861985,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
     "trailingPegRatio": null
   }
 }

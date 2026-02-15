@@ -1,7 +1,7 @@
 {
   "ticker": "1853",
   "japanese_ticker": "1853.T",
-  "fetch_date": "2026-02-14T23:19:06.571325",
+  "fetch_date": "2026-02-15T23:21:01.004027",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": 0.0,
@@ -1201,8 +1201,8 @@
     "averageVolume": 45498,
     "averageVolume10days": 44170,
     "averageDailyVolume10Day": 44170,
-    "bid": 343.0,
-    "ask": 345.0,
+    "bid": 0.0,
+    "ask": 346.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 11265896448,
@@ -1284,11 +1284,7 @@
     "earningsTimestampEnd": 1747202400,
     "isEarningsDateEstimate": false,
     "epsTrailingTwelveMonths": 27.0,
-    "marketState": "CLOSED",
-    "shortName": "MORI-GUMI CO LTD",
-    "longName": "Mori-Gumi Co., Ltd.",
-    "regularMarketChangePercent": -0.57803464,
-    "regularMarketPrice": 344.0,
+    "marketState": "PREPRE",
     "fiftyDayAverageChange": 10.959991,
     "fiftyDayAverageChangePercent": 0.032908935,
     "twoHundredDayAverageChange": 24.98999,
@@ -1296,6 +1292,10 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
+    "corporateActions": [],
+    "regularMarketTime": 1770964200,
+    "shortName": "MORI-GUMI CO LTD",
+    "longName": "Mori-Gumi Co., Ltd.",
     "exchange": "JPX",
     "messageBoardId": "finmb_5510566",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1303,8 +1303,8 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "corporateActions": [],
-    "regularMarketTime": 1770964200,
+    "regularMarketChangePercent": -0.57803464,
+    "regularMarketPrice": 344.0,
     "trailingPegRatio": null
   }
 }

@@ -1,7 +1,7 @@
 {
   "ticker": "2670",
   "japanese_ticker": "2670.T",
-  "fetch_date": "2026-02-14T23:27:20.587603",
+  "fetch_date": "2026-02-15T23:29:29.118263",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-02-28 00:00:00": -14496623.819111,
@@ -1128,8 +1128,8 @@
     "averageVolume": 656738,
     "averageVolume10days": 777570,
     "averageDailyVolume10Day": 777570,
-    "bid": 2618.0,
-    "ask": 2630.5,
+    "bid": 0.0,
+    "ask": 2604.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 651231756288,
@@ -1202,12 +1202,7 @@
     "customPriceAlertConfidence": "LOW",
     "shortName": "ABC-MART INC",
     "longName": "ABC-Mart,Inc.",
-    "regularMarketChangePercent": -0.39765197,
-    "regularMarketPrice": 2630.0,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1037923200000,
-    "regularMarketChange": -10.5,
-    "regularMarketDayRange": "2605.5 - 2670.0",
+    "marketState": "PREPRE",
     "fullExchangeName": "Tokyo",
     "averageDailyVolume3Month": 656738,
     "fiftyTwoWeekLowChange": 254.5,
@@ -1215,25 +1210,6 @@
     "fiftyTwoWeekRange": "2375.5 - 3270.0",
     "fiftyTwoWeekHighChange": -640.0,
     "fiftyTwoWeekHighChangePercent": -0.19571866,
-    "corporateActions": [
-      {
-        "header": "Dividend",
-        "message": "2670.T announced a cash dividend of 35.00 JPY with an ex-date of Feb. 26, 2026",
-        "meta": {
-          "eventType": "DIVIDEND",
-          "dateEpochMs": 1772031600000,
-          "amount": "35.00"
-        }
-      }
-    ],
-    "regularMarketTime": 1770964200,
-    "exchange": "JPX",
-    "messageBoardId": "finmb_5685872",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
     "fiftyTwoWeekChangePercent": -13.543719,
     "earningsTimestamp": 1767767400,
     "earningsTimestampStart": 1767767400,
@@ -1250,10 +1226,24 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "prevName": "ABC-Mart, Inc.",
-    "nameChangeDate": "2026-02-14",
+    "nameChangeDate": "2026-02-15",
     "averageAnalystRating": "2.4 - Buy",
     "cryptoTradeable": false,
-    "marketState": "CLOSED",
+    "exchange": "JPX",
+    "messageBoardId": "finmb_5685872",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
+    "regularMarketChangePercent": -0.39765197,
+    "regularMarketPrice": 2630.0,
+    "corporateActions": [],
+    "regularMarketTime": 1770964200,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1037923200000,
+    "regularMarketChange": -10.5,
+    "regularMarketDayRange": "2605.5 - 2670.0",
     "trailingPegRatio": null
   }
 }

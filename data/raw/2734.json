@@ -1,7 +1,7 @@
 {
   "ticker": "2734",
   "japanese_ticker": "2734.T",
-  "fetch_date": "2026-02-14T23:28:06.382904",
+  "fetch_date": "2026-02-15T23:30:13.749053",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2024-11-30 00:00:00": 182684230.96841,
@@ -1046,8 +1046,8 @@
     "averageVolume": 157755,
     "averageVolume10days": 78710,
     "averageDailyVolume10Day": 78710,
-    "bid": 1166.0,
-    "ask": 1180.0,
+    "bid": 0.0,
+    "ask": 1121.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 75262509056,
@@ -1113,7 +1113,6 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "marketState": "CLOSED",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1020124800000,
     "regularMarketChange": -4.0,
@@ -1137,6 +1136,12 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
+    "shortName": "SALA CORPORATION",
+    "longName": "SALA Corporation",
+    "regularMarketChangePercent": -0.34013605,
+    "regularMarketPrice": 1172.0,
+    "esgPopulated": false,
+    "marketState": "PREPRE",
     "corporateActions": [],
     "regularMarketTime": 1770964200,
     "exchange": "JPX",
@@ -1145,11 +1150,6 @@
     "exchangeTimezoneShortName": "JST",
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
-    "esgPopulated": false,
-    "regularMarketChangePercent": -0.34013605,
-    "regularMarketPrice": 1172.0,
-    "shortName": "SALA CORPORATION",
-    "longName": "SALA Corporation",
     "trailingPegRatio": null
   }
 }

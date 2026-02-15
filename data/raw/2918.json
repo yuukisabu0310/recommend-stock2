@@ -1,7 +1,7 @@
 {
   "ticker": "2918",
   "japanese_ticker": "2918.T",
-  "fetch_date": "2026-02-14T23:30:16.306381",
+  "fetch_date": "2026-02-15T23:32:29.499820",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-02-28 00:00:00": -284250000.0,
@@ -1223,8 +1223,8 @@
     "averageVolume": 104833,
     "averageVolume10days": 107440,
     "averageDailyVolume10Day": 107440,
-    "bid": 3745.0,
-    "ask": 3775.0,
+    "bid": 0.0,
+    "ask": 3780.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 65367453696,
@@ -1294,7 +1294,7 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "marketState": "CLOSED",
+    "marketState": "PREPRE",
     "regularMarketChange": 75.0,
     "regularMarketDayRange": "3695.0 - 3820.0",
     "fullExchangeName": "Tokyo",
@@ -1317,9 +1317,17 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 978566400000,
-    "corporateActions": [],
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "2918.T announced a cash dividend of 60.00 JPY with an ex-date of Feb. 26, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1772031600000,
+          "amount": "60.00"
+        }
+      }
+    ],
     "regularMarketTime": 1770964200,
     "exchange": "JPX",
     "messageBoardId": "finmb_883960",
@@ -1332,6 +1340,8 @@
     "regularMarketPrice": 3775.0,
     "shortName": "WARABEYA NICHIYO HOLDINGS CO LT",
     "longName": "Warabeya Nichiyo Holdings Co., Ltd.",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 978566400000,
     "trailingPegRatio": null
   }
 }

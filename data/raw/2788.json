@@ -1,7 +1,7 @@
 {
   "ticker": "2788",
   "japanese_ticker": "2788.T",
-  "fetch_date": "2026-02-14T23:28:51.818062",
+  "fetch_date": "2026-02-15T23:31:01.547717",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2024-12-31 00:00:00": -1807172.4,
@@ -960,8 +960,8 @@
     "averageVolume": 37410,
     "averageVolume10days": 21910,
     "averageDailyVolume10Day": 21910,
-    "bid": 349.0,
-    "ask": 350.0,
+    "bid": 0.0,
+    "ask": 354.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 4494393344,
@@ -972,8 +972,8 @@
     "priceToSalesTrailing12Months": 0.11293581,
     "fiftyDayAverage": 344.06,
     "twoHundredDayAverage": 350.985,
-    "trailingAnnualDividendRate": 10.0,
-    "trailingAnnualDividendYield": 0.02849003,
+    "trailingAnnualDividendRate": 0.0,
+    "trailingAnnualDividendYield": 0.0,
     "currency": "JPY",
     "tradeable": false,
     "enterpriseValue": 7151393280,
@@ -1027,7 +1027,6 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "marketState": "CLOSED",
     "corporateActions": [],
     "regularMarketTime": 1770964200,
     "exchange": "JPX",
@@ -1039,6 +1038,8 @@
     "esgPopulated": false,
     "regularMarketChangePercent": -0.28490028,
     "regularMarketPrice": 350.0,
+    "shortName": "APPLE INTERNATIONAL CO LTD",
+    "longName": "Apple International Co., Ltd.",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1070236800000,
     "regularMarketChange": -1.0,
@@ -1055,8 +1056,6 @@
     "earningsTimestampEnd": 1754978400,
     "isEarningsDateEstimate": true,
     "epsTrailingTwelveMonths": 48.62,
-    "shortName": "APPLE INTERNATIONAL CO LTD",
-    "longName": "Apple International Co., Ltd.",
     "fiftyDayAverageChange": 5.9400024,
     "fiftyDayAverageChangePercent": 0.017264437,
     "twoHundredDayAverageChange": -0.98498535,
@@ -1064,6 +1063,7 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
+    "marketState": "PREPRE",
     "trailingPegRatio": null
   }
 }

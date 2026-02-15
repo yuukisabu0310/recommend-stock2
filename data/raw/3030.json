@@ -1,7 +1,7 @@
 {
   "ticker": "3030",
   "japanese_ticker": "3030.T",
-  "fetch_date": "2026-02-14T23:31:34.501610",
+  "fetch_date": "2026-02-15T23:33:50.892612",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-02-28 00:00:00": -5415444.0,
@@ -1242,8 +1242,8 @@
     "averageVolume": 51269,
     "averageVolume10days": 58550,
     "averageDailyVolume10Day": 58550,
-    "bid": 1011.0,
-    "ask": 1013.0,
+    "bid": 0.0,
+    "ask": 1010.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 12728853504,
@@ -1311,6 +1311,9 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "shortName": "HUB CO. LTD",
+    "longName": "Hub Co., Ltd.",
+    "marketState": "PREPRE",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1144022400000,
     "regularMarketChange": -13.0,
@@ -1328,17 +1331,7 @@
     "isEarningsDateEstimate": true,
     "epsTrailingTwelveMonths": 38.76,
     "epsForward": 39.0,
-    "shortName": "HUB CO. LTD",
-    "longName": "Hub Co., Ltd.",
-    "fiftyDayAverageChange": 60.900024,
-    "fiftyDayAverageChangePercent": 0.06403115,
-    "twoHundredDayAverageChange": 198.08002,
-    "twoHundredDayAverageChangePercent": 0.24336547,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "averageAnalystRating": "0.0 - Strong Buy",
-    "cryptoTradeable": false,
-    "marketState": "CLOSED",
+    "corporateActions": [],
     "regularMarketTime": 1770964200,
     "exchange": "JPX",
     "messageBoardId": "finmb_26201835",
@@ -1349,17 +1342,14 @@
     "esgPopulated": false,
     "regularMarketChangePercent": -1.2682927,
     "regularMarketPrice": 1012.0,
-    "corporateActions": [
-      {
-        "header": "Dividend",
-        "message": "3030.T announced a cash dividend of 10.00 JPY with an ex-date of Feb. 26, 2026",
-        "meta": {
-          "eventType": "DIVIDEND",
-          "dateEpochMs": 1772031600000,
-          "amount": "10.00"
-        }
-      }
-    ],
+    "fiftyDayAverageChange": 60.900024,
+    "fiftyDayAverageChangePercent": 0.06403115,
+    "twoHundredDayAverageChange": 198.08002,
+    "twoHundredDayAverageChangePercent": 0.24336547,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "averageAnalystRating": "0.0 - Strong Buy",
+    "cryptoTradeable": false,
     "trailingPegRatio": null
   }
 }

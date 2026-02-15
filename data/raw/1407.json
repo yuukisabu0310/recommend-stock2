@@ -1,7 +1,7 @@
 {
   "ticker": "1407",
   "japanese_ticker": "1407.T",
-  "fetch_date": "2026-02-14T23:16:44.269330",
+  "fetch_date": "2026-02-15T23:18:34.351664",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-08-31 00:00:00": 57776000.0,
@@ -1173,8 +1173,8 @@
     "averageVolume": 502059,
     "averageVolume10days": 304050,
     "averageDailyVolume10Day": 304050,
-    "bid": 1677.0,
-    "ask": 1683.0,
+    "bid": 0.0,
+    "ask": 1659.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 66508599296,
@@ -1244,11 +1244,8 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "shortName": "WEST HOLDINGS CORP",
-    "longName": "West Holdings Corporation",
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
+    "corporateActions": [],
+    "regularMarketTime": 1770964200,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1088035200000,
     "regularMarketChange": -44.0,
@@ -1270,18 +1267,9 @@
     "fiftyDayAverageChangePercent": 0.095462695,
     "twoHundredDayAverageChange": 75.05005,
     "twoHundredDayAverageChangePercent": 0.046849184,
-    "corporateActions": [
-      {
-        "header": "Dividend",
-        "message": "1407.T announced a cash dividend of 35.00 JPY with an ex-date of Feb. 26, 2026",
-        "meta": {
-          "eventType": "DIVIDEND",
-          "dateEpochMs": 1772031600000,
-          "amount": "35.00"
-        }
-      }
-    ],
-    "regularMarketTime": 1770964200,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
     "exchange": "JPX",
     "messageBoardId": "finmb_25873509",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1291,7 +1279,9 @@
     "esgPopulated": false,
     "regularMarketChangePercent": -2.556653,
     "regularMarketPrice": 1677.0,
-    "marketState": "CLOSED",
+    "shortName": "WEST HOLDINGS CORP",
+    "longName": "West Holdings Corporation",
+    "marketState": "PREPRE",
     "trailingPegRatio": null
   }
 }

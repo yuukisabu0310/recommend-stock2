@@ -1,7 +1,7 @@
 {
   "ticker": "2337",
   "japanese_ticker": "2337.T",
-  "fetch_date": "2026-02-14T23:24:11.493920",
+  "fetch_date": "2026-02-15T23:26:17.097977",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-02-28 00:00:00": 2731169665.809769,
@@ -1239,8 +1239,8 @@
     "averageVolume": 1054874,
     "averageVolume10days": 880350,
     "averageDailyVolume10Day": 880350,
-    "bid": 438.0,
-    "ask": 439.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 178572509184,
@@ -1315,8 +1315,23 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "shortName": "ICHIGO INC",
-    "corporateActions": [],
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1036972800000,
+    "regularMarketChange": -11.0,
+    "regularMarketDayRange": "438.0 - 456.0",
+    "fullExchangeName": "Tokyo",
+    "averageDailyVolume3Month": 1054874,
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "2337.T announced a cash dividend of 11.50 JPY with an ex-date of Feb. 26, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1772031600000,
+          "amount": "11.50"
+        }
+      }
+    ],
     "regularMarketTime": 1770964200,
     "exchange": "JPX",
     "messageBoardId": "finmb_9884895",
@@ -1327,13 +1342,6 @@
     "esgPopulated": false,
     "regularMarketChangePercent": -2.4498885,
     "regularMarketPrice": 438.0,
-    "marketState": "CLOSED",
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1036972800000,
-    "regularMarketChange": -11.0,
-    "regularMarketDayRange": "438.0 - 456.0",
-    "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 1054874,
     "fiftyTwoWeekLowChange": 107.0,
     "fiftyTwoWeekLowChangePercent": 0.32326284,
     "fiftyTwoWeekRange": "331.0 - 462.0",
@@ -1341,6 +1349,7 @@
     "fiftyTwoWeekHighChangePercent": -0.051948052,
     "fiftyTwoWeekChangePercent": 20.661152,
     "earningsTimestamp": 1768372200,
+    "marketState": "PREPRE",
     "earningsTimestampStart": 1776061800,
     "earningsTimestampEnd": 1776061800,
     "earningsCallTimestampStart": 1744628340,
@@ -1348,7 +1357,6 @@
     "isEarningsDateEstimate": true,
     "epsTrailingTwelveMonths": 43.1,
     "epsForward": 35.19,
-    "longName": "Ichigo Inc.",
     "fiftyDayAverageChange": 11.579987,
     "fiftyDayAverageChangePercent": 0.027156292,
     "twoHundredDayAverageChange": 31.295013,
@@ -1357,6 +1365,8 @@
     "exchangeDataDelayedBy": 20,
     "averageAnalystRating": "3.0 - Hold",
     "cryptoTradeable": false,
+    "shortName": "ICHIGO INC",
+    "longName": "Ichigo Inc.",
     "trailingPegRatio": null
   }
 }

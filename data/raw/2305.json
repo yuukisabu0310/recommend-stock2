@@ -1,7 +1,7 @@
 {
   "ticker": "2305",
   "japanese_ticker": "2305.T",
-  "fetch_date": "2026-02-14T23:23:41.349678",
+  "fetch_date": "2026-02-15T23:25:47.290837",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-02-28 00:00:00": -304268622.0,
@@ -1068,8 +1068,8 @@
     "averageVolume": 23444,
     "averageVolume10days": 23530,
     "averageDailyVolume10Day": 23530,
-    "bid": 1996.0,
-    "ask": 1997.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 33899704320,
@@ -1135,8 +1135,6 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "shortName": "STUDIO ALICE",
-    "longName": "STUDIO ALICE Co.,Ltd.",
     "corporateActions": [
       {
         "header": "Dividend",
@@ -1158,6 +1156,18 @@
     "esgPopulated": false,
     "regularMarketChangePercent": -0.2,
     "regularMarketPrice": 1996.0,
+    "marketState": "PREPRE",
+    "epsTrailingTwelveMonths": 93.21,
+    "fiftyDayAverageChange": -19.26001,
+    "fiftyDayAverageChangePercent": -0.009557084,
+    "twoHundredDayAverageChange": -73.96509,
+    "twoHundredDayAverageChangePercent": -0.03573253,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1059523200000,
+    "regularMarketChange": -4.0,
     "regularMarketDayRange": "1996.0 - 2003.0",
     "fullExchangeName": "Tokyo",
     "averageDailyVolume3Month": 23444,
@@ -1170,18 +1180,8 @@
     "earningsTimestampStart": 1752042600,
     "earningsTimestampEnd": 1752474600,
     "isEarningsDateEstimate": true,
-    "epsTrailingTwelveMonths": 93.21,
-    "fiftyDayAverageChange": -19.26001,
-    "fiftyDayAverageChangePercent": -0.009557084,
-    "twoHundredDayAverageChange": -73.96509,
-    "twoHundredDayAverageChangePercent": -0.03573253,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1059523200000,
-    "regularMarketChange": -4.0,
-    "marketState": "CLOSED",
+    "shortName": "STUDIO ALICE",
+    "longName": "STUDIO ALICE Co.,Ltd.",
     "trailingPegRatio": null
   }
 }

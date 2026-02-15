@@ -1,7 +1,7 @@
 {
   "ticker": "2683",
   "japanese_ticker": "2683.T",
-  "fetch_date": "2026-02-14T23:27:30.834973",
+  "fetch_date": "2026-02-15T23:29:40.150964",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-02-28 00:00:00": -9879024.0,
@@ -1104,8 +1104,8 @@
     "averageVolume": 2398,
     "averageVolume10days": 1790,
     "averageDailyVolume10Day": 1790,
-    "bid": 1003.0,
-    "ask": 1005.0,
+    "bid": 0.0,
+    "ask": 1004.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 2523701248,
@@ -1169,14 +1169,23 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "shortName": "UOKI CO LTD",
-    "hasPrePostMarketData": false,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
-    "marketState": "CLOSED",
-    "corporateActions": [],
+    "marketState": "PREPRE",
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "2683.T announced a cash dividend of 10.00 JPY with an ex-date of Feb. 26, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1772031600000,
+          "amount": "10.00"
+        }
+      }
+    ],
     "regularMarketTime": 1770960017,
+    "regularMarketChangePercent": 0.0,
+    "regularMarketPrice": 1002.0,
+    "shortName": "UOKI CO LTD",
+    "longName": "Uoki Co.,Ltd.",
     "exchange": "JPX",
     "messageBoardId": "finmb_5545816",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1184,7 +1193,7 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "longName": "Uoki Co.,Ltd.",
+    "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1018828800000,
     "regularMarketChange": 0.0,
     "regularMarketDayRange": "1002.0 - 1005.0",
@@ -1204,8 +1213,9 @@
     "fiftyDayAverageChangePercent": 0.0057211807,
     "twoHundredDayAverageChange": -18.86499,
     "twoHundredDayAverageChangePercent": -0.018479418,
-    "regularMarketChangePercent": 0.0,
-    "regularMarketPrice": 1002.0,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
     "trailingPegRatio": null
   }
 }

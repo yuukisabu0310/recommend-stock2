@@ -1,7 +1,7 @@
 {
   "ticker": "2485",
   "japanese_ticker": "2485.T",
-  "fetch_date": "2026-02-14T23:26:07.622372",
+  "fetch_date": "2026-02-15T23:28:13.690079",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-09-30 00:00:00": -41745000.0,
@@ -1185,7 +1185,7 @@
     "averageVolume": 55584,
     "averageVolume10days": 77610,
     "averageDailyVolume10Day": 77610,
-    "bid": 520.0,
+    "bid": 0.0,
     "ask": 521.0,
     "bidSize": 0,
     "askSize": 0,
@@ -1252,8 +1252,9 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "epsTrailingTwelveMonths": 39.62,
-    "twoHundredDayAverageChangePercent": 0.0062698163,
+    "shortName": "TEAR CORPORATION",
+    "longName": "Tear Corporation",
+    "marketState": "PREPRE",
     "corporateActions": [],
     "regularMarketTime": 1770964200,
     "exchange": "JPX",
@@ -1265,11 +1266,10 @@
     "esgPopulated": false,
     "regularMarketChangePercent": -1.7013233,
     "regularMarketPrice": 520.0,
-    "shortName": "TEAR CORPORATION",
-    "longName": "Tear Corporation",
     "fiftyDayAverageChange": 10.459991,
     "fiftyDayAverageChangePercent": 0.020528303,
     "twoHundredDayAverageChange": 3.2399902,
+    "twoHundredDayAverageChangePercent": 0.0062698163,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
@@ -1288,7 +1288,7 @@
     "earningsTimestampStart": 1754980200,
     "earningsTimestampEnd": 1755498600,
     "isEarningsDateEstimate": true,
-    "marketState": "CLOSED",
+    "epsTrailingTwelveMonths": 39.62,
     "trailingPegRatio": null
   }
 }

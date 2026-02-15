@@ -1,7 +1,7 @@
 {
   "ticker": "2693",
   "japanese_ticker": "2693.T",
-  "fetch_date": "2026-02-14T23:27:41.825501",
+  "fetch_date": "2026-02-15T23:29:50.699936",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2024-12-31 00:00:00": 0.0,
@@ -944,8 +944,8 @@
     "averageVolume": 15122,
     "averageVolume10days": 14470,
     "averageDailyVolume10Day": 14470,
-    "bid": 235.0,
-    "ask": 239.0,
+    "bid": 0.0,
+    "ask": 240.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 2739653632,
@@ -956,8 +956,8 @@
     "priceToSalesTrailing12Months": 0.23041663,
     "fiftyDayAverage": 234.96,
     "twoHundredDayAverage": 242.095,
-    "trailingAnnualDividendRate": 5.0,
-    "trailingAnnualDividendYield": 0.021008404,
+    "trailingAnnualDividendRate": 0.0,
+    "trailingAnnualDividendYield": 0.0,
     "currency": "JPY",
     "tradeable": false,
     "enterpriseValue": 1165653632,
@@ -1009,8 +1009,7 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 984441600000,
+    "marketState": "PREPRE",
     "regularMarketChange": -2.0,
     "regularMarketDayRange": "235.0 - 241.0",
     "fullExchangeName": "Tokyo",
@@ -1032,10 +1031,7 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
-    "marketState": "CLOSED",
     "corporateActions": [],
-    "shortName": "YKT CORPORATION",
-    "longName": "YKT Corporation",
     "regularMarketTime": 1770964200,
     "exchange": "JPX",
     "messageBoardId": "finmb_8952993",
@@ -1046,6 +1042,10 @@
     "esgPopulated": false,
     "regularMarketChangePercent": -0.8403362,
     "regularMarketPrice": 236.0,
+    "shortName": "YKT CORPORATION",
+    "longName": "YKT Corporation",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 984441600000,
     "trailingPegRatio": null
   }
 }

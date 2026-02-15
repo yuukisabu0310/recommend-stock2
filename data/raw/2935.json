@@ -1,7 +1,7 @@
 {
   "ticker": "2935",
   "japanese_ticker": "2935.T",
-  "fetch_date": "2026-02-14T23:30:39.202199",
+  "fetch_date": "2026-02-15T23:32:52.284923",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-02-28 00:00:00": -10720000.0,
@@ -816,8 +816,8 @@
     "averageVolume": 59193,
     "averageVolume10days": 55590,
     "averageDailyVolume10Day": 55590,
-    "bid": 1286.0,
-    "ask": 1287.0,
+    "bid": 1287.0,
+    "ask": 1288.0,
     "marketCap": 16111303680,
     "fiftyTwoWeekLow": 842.0,
     "fiftyTwoWeekHigh": 1394.0,
@@ -886,6 +886,9 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "shortName": "PICKLES HOLDINGS CO LTD",
+    "longName": "Pickles Holdings Co.,Ltd.",
+    "marketState": "PREPRE",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1661990400000,
     "regularMarketChange": -4.0,
@@ -903,30 +906,7 @@
     "isEarningsDateEstimate": false,
     "epsTrailingTwelveMonths": 97.86,
     "epsForward": 85.6,
-    "fiftyDayAverageChange": 1.5200195,
-    "fiftyDayAverageChangePercent": 0.0011833735,
-    "twoHundredDayAverageChange": 193.13,
-    "twoHundredDayAverageChangePercent": 0.17671819,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "prevName": "Pickles Corporation",
-    "nameChangeDate": "2026-02-14",
-    "averageAnalystRating": "1.0 - Strong Buy",
-    "cryptoTradeable": false,
-    "marketState": "CLOSED",
-    "corporateActions": [
-      {
-        "header": "Dividend",
-        "message": "2935.T announced a cash dividend of 14.00 JPY with an ex-date of Feb. 26, 2026",
-        "meta": {
-          "eventType": "DIVIDEND",
-          "dateEpochMs": 1772031600000,
-          "amount": "14.00"
-        }
-      }
-    ],
-    "shortName": "PICKLES HOLDINGS CO LTD",
-    "longName": "Pickles Holdings Co.,Ltd.",
+    "corporateActions": [],
     "regularMarketTime": 1770964200,
     "exchange": "JPX",
     "messageBoardId": "finmb_5646333",
@@ -937,6 +917,16 @@
     "esgPopulated": false,
     "regularMarketChangePercent": -0.31007752,
     "regularMarketPrice": 1286.0,
+    "fiftyDayAverageChange": 1.5200195,
+    "fiftyDayAverageChangePercent": 0.0011833735,
+    "twoHundredDayAverageChange": 193.13,
+    "twoHundredDayAverageChangePercent": 0.17671819,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "prevName": "Pickles Corporation",
+    "nameChangeDate": "2026-02-15",
+    "averageAnalystRating": "1.0 - Strong Buy",
+    "cryptoTradeable": false,
     "trailingPegRatio": null
   }
 }

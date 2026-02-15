@@ -1,7 +1,7 @@
 {
   "ticker": "2687",
   "japanese_ticker": "2687.T",
-  "fetch_date": "2026-02-14T23:27:35.791366",
+  "fetch_date": "2026-02-15T23:29:45.587379",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-02-28 00:00:00": 63944699.2,
@@ -1217,8 +1217,8 @@
     "averageVolume": 9832,
     "averageVolume10days": 8560,
     "averageDailyVolume10Day": 8560,
-    "bid": 525.0,
-    "ask": 527.0,
+    "bid": 0.0,
+    "ask": 531.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 2596519680,
@@ -1284,28 +1284,9 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "corporateActions": [
-      {
-        "header": "Dividend",
-        "message": "2687.T announced a cash dividend of 10.00 JPY with an ex-date of Feb. 26, 2026",
-        "meta": {
-          "eventType": "DIVIDEND",
-          "dateEpochMs": 1772031600000,
-          "amount": "10.00"
-        }
-      }
-    ],
-    "regularMarketTime": 1770964200,
-    "exchange": "JPX",
-    "messageBoardId": "finmb_1347494",
     "shortName": "CVS BAY AREA INC",
     "longName": "CVS Bay Area Inc.",
-    "regularMarketChangePercent": 1.1538461,
-    "regularMarketPrice": 526.0,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1033516800000,
-    "regularMarketChange": 6.0,
-    "regularMarketDayRange": "520.0 - 529.0",
+    "marketState": "PREPRE",
     "fullExchangeName": "Tokyo",
     "averageDailyVolume3Month": 9832,
     "fiftyTwoWeekLowChange": 53.0,
@@ -1325,12 +1306,21 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
+    "exchange": "JPX",
+    "messageBoardId": "finmb_1347494",
     "exchangeTimezoneName": "Asia/Tokyo",
     "exchangeTimezoneShortName": "JST",
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "marketState": "CLOSED",
+    "regularMarketChangePercent": 1.1538461,
+    "regularMarketPrice": 526.0,
+    "corporateActions": [],
+    "regularMarketTime": 1770964200,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1033516800000,
+    "regularMarketChange": 6.0,
+    "regularMarketDayRange": "520.0 - 529.0",
     "trailingPegRatio": null
   }
 }
