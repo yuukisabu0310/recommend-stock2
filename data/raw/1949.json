@@ -1,7 +1,7 @@
 {
   "ticker": "1949",
   "japanese_ticker": "1949.T",
-  "fetch_date": "2026-02-15T23:22:15.648733",
+  "fetch_date": "2026-02-16T23:26:02.026467",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": 12269705.603039,
@@ -1245,8 +1245,8 @@
     "fiveYearAvgDividendYield": 3.04,
     "beta": 0.091,
     "trailingPE": 26.666666,
-    "volume": 617700,
-    "regularMarketVolume": 617700,
+    "volume": 42300,
+    "regularMarketVolume": 42300,
     "averageVolume": 98684,
     "averageVolume10days": 89150,
     "averageDailyVolume10Day": 89150,
@@ -1315,40 +1315,15 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "corporateActions": [
-      {
-        "header": "Reverse stock split",
-        "message": "1949.T announces 1 for 1048714 split effective Mar. 3, 2026",
-        "meta": {
-          "eventType": "SPLIT",
-          "dateEpochMs": 1772463600000,
-          "splitRatio": "1:1048714"
-        }
-      }
-    ],
-    "regularMarketTime": 1770964200,
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "esgPopulated": false,
-    "regularMarketChangePercent": 0.0,
-    "regularMarketPrice": 9700.0,
-    "marketState": "PREPRE",
-    "shortName": "SUMITOMO DENSETSU CO",
-    "longName": "Sumitomo Densetsu Co.,Ltd.",
-    "epsTrailingTwelveMonths": 363.75,
-    "fiftyDayAverageChange": -9.599609,
-    "fiftyDayAverageChangePercent": -0.000988672,
-    "twoHundredDayAverageChange": 2067.2998,
-    "twoHundredDayAverageChangePercent": 0.27084777,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 978307200000,
     "regularMarketChange": 0.0,
     "regularMarketDayRange": "9700.0 - 9710.0",
     "fullExchangeName": "Tokyo",
+    "regularMarketChangePercent": 0.0,
+    "regularMarketPrice": 9700.0,
+    "cryptoTradeable": false,
+    "marketState": "PREPRE",
     "averageDailyVolume3Month": 98684,
     "fiftyTwoWeekLowChange": 5635.0,
     "fiftyTwoWeekLowChangePercent": 1.3862239,
@@ -1360,9 +1335,34 @@
     "earningsTimestampStart": 1777530600,
     "earningsTimestampEnd": 1777530600,
     "isEarningsDateEstimate": true,
+    "epsTrailingTwelveMonths": 363.75,
+    "fiftyDayAverageChange": -9.599609,
+    "fiftyDayAverageChangePercent": -0.000988672,
+    "twoHundredDayAverageChange": 2067.2998,
+    "twoHundredDayAverageChangePercent": 0.27084777,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "corporateActions": [
+      {
+        "header": "Reverse stock split",
+        "message": "1949.T announces 1 for 1048714 split effective Mar. 3, 2026",
+        "meta": {
+          "eventType": "SPLIT",
+          "dateEpochMs": 1772463600000,
+          "splitRatio": "1:1048714"
+        }
+      }
+    ],
+    "regularMarketTime": 1771223400,
     "exchange": "JPX",
     "messageBoardId": "finmb_880743",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
+    "esgPopulated": false,
+    "shortName": "SUMITOMO DENSETSU CO",
+    "longName": "Sumitomo Densetsu Co.,Ltd.",
     "trailingPegRatio": null
   }
 }
