@@ -1,7 +1,7 @@
 {
   "ticker": "2220",
   "japanese_ticker": "2220.T",
-  "fetch_date": "2026-02-21T23:23:27.060593",
+  "fetch_date": "2026-02-22T23:24:40.934767",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": -28424000.0,
@@ -1261,8 +1261,15 @@
     "customPriceAlertConfidence": "LOW",
     "regularMarketChangePercent": -0.808314,
     "regularMarketPrice": 4295.0,
-    "longName": "Kameda Seika Co.,Ltd.",
-    "shortName": "KAMEDA SEIKA CO",
+    "epsTrailingTwelveMonths": 1276.04,
+    "fiftyDayAverageChange": 358.1001,
+    "fiftyDayAverageChangePercent": 0.09095992,
+    "twoHundredDayAverageChange": 308.7251,
+    "twoHundredDayAverageChangePercent": 0.07744702,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "averageAnalystRating": "0.0 - Strong Buy",
+    "cryptoTradeable": false,
     "corporateActions": [],
     "regularMarketTime": 1771569000,
     "exchange": "JPX",
@@ -1272,7 +1279,6 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "marketState": "CLOSED",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 978307200000,
     "regularMarketChange": -35.0,
@@ -1288,15 +1294,9 @@
     "earningsTimestampStart": 1753941600,
     "earningsTimestampEnd": 1754287200,
     "isEarningsDateEstimate": true,
-    "epsTrailingTwelveMonths": 1276.04,
-    "fiftyDayAverageChange": 358.1001,
-    "fiftyDayAverageChangePercent": 0.09095992,
-    "twoHundredDayAverageChange": 308.7251,
-    "twoHundredDayAverageChangePercent": 0.07744702,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "averageAnalystRating": "0.0 - Strong Buy",
-    "cryptoTradeable": false,
+    "marketState": "CLOSED",
+    "shortName": "KAMEDA SEIKA CO",
+    "longName": "Kameda Seika Co.,Ltd.",
     "trailingPegRatio": null
   }
 }

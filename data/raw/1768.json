@@ -1,7 +1,7 @@
 {
   "ticker": "1768",
   "japanese_ticker": "1768.T",
-  "fetch_date": "2026-02-21T23:18:24.335372",
+  "fetch_date": "2026-02-22T23:19:28.936184",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": 8564710.0,
@@ -1013,6 +1013,9 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "shortName": "SONEC CORP",
+    "longName": "Sonec Corporation",
+    "marketState": "CLOSED",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 955065600000,
     "regularMarketChange": -26.0,
@@ -1045,9 +1048,6 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "shortName": "SONEC CORP",
-    "longName": "Sonec Corporation",
-    "marketState": "CLOSED",
     "regularMarketChangePercent": -1.5421115,
     "regularMarketPrice": 1660.0,
     "trailingPegRatio": null

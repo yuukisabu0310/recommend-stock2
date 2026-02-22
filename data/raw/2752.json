@@ -1,7 +1,7 @@
 {
   "ticker": "2752",
   "japanese_ticker": "2752.T",
-  "fetch_date": "2026-02-21T23:28:56.431547",
+  "fetch_date": "2026-02-22T23:30:23.640628",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-12-31 00:00:00": null,
@@ -1314,8 +1314,6 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "shortName": "FUJIO FOOD GROUP INC",
-    "longName": "Fujio Food Group Inc.",
     "regularMarketChangePercent": -0.28275213,
     "regularMarketPrice": 1058.0,
     "corporateActions": [],
@@ -1327,7 +1325,6 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "cryptoTradeable": false,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1040169600000,
     "regularMarketChange": -3.0,
@@ -1340,6 +1337,7 @@
     "fiftyTwoWeekHighChange": -194.0,
     "fiftyTwoWeekHighChangePercent": -0.15495208,
     "fiftyTwoWeekChangePercent": -9.184551,
+    "marketState": "CLOSED",
     "earningsTimestampStart": 1754978400,
     "earningsTimestampEnd": 1755496800,
     "isEarningsDateEstimate": true,
@@ -1351,7 +1349,9 @@
     "twoHundredDayAverageChangePercent": -0.07740471,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
-    "marketState": "CLOSED",
+    "cryptoTradeable": false,
+    "shortName": "FUJIO FOOD GROUP INC",
+    "longName": "Fujio Food Group Inc.",
     "trailingPegRatio": null
   }
 }

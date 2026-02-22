@@ -1,7 +1,7 @@
 {
   "ticker": "2687",
   "japanese_ticker": "2687.T",
-  "fetch_date": "2026-02-21T23:28:08.202860",
+  "fetch_date": "2026-02-22T23:29:32.871876",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-02-28 00:00:00": 63944699.2,
@@ -1291,7 +1291,30 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
+    "exchange": "JPX",
+    "messageBoardId": "finmb_1347494",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
+    "marketState": "CLOSED",
+    "shortName": "CVS BAY AREA INC",
     "longName": "CVS Bay Area Inc.",
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "2687.T announced a cash dividend of 10.00 JPY with an ex-date of Feb. 26, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1772031600000,
+          "amount": "10.00"
+        }
+      }
+    ],
+    "regularMarketTime": 1771569000,
+    "regularMarketChangePercent": -0.57034224,
+    "regularMarketPrice": 523.0,
     "regularMarketChange": -3.0,
     "regularMarketDayRange": "520.0 - 529.0",
     "fullExchangeName": "Tokyo",
@@ -1306,21 +1329,8 @@
     "earningsTimestampEnd": 1752215400,
     "isEarningsDateEstimate": false,
     "epsTrailingTwelveMonths": 48.8,
-    "shortName": "CVS BAY AREA INC",
-    "corporateActions": [],
-    "regularMarketTime": 1771569000,
-    "exchange": "JPX",
-    "messageBoardId": "finmb_1347494",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1033516800000,
-    "regularMarketChangePercent": -0.57034224,
-    "regularMarketPrice": 523.0,
-    "marketState": "CLOSED",
     "trailingPegRatio": null
   }
 }

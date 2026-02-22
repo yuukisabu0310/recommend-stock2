@@ -1,7 +1,7 @@
 {
   "ticker": "1418",
   "japanese_ticker": "1418.T",
-  "fetch_date": "2026-02-21T23:17:09.652097",
+  "fetch_date": "2026-02-22T23:18:14.023185",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-02-28 00:00:00": -3980543.6,
@@ -1193,10 +1193,10 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 946944000000,
-    "regularMarketChange": -9.0,
-    "regularMarketDayRange": "574.0 - 586.0",
+    "regularMarketChangePercent": -1.5384616,
+    "regularMarketPrice": 576.0,
+    "cryptoTradeable": false,
+    "corporateActions": [],
     "regularMarketTime": 1771569000,
     "exchange": "JPX",
     "messageBoardId": "finmb_9617817",
@@ -1205,33 +1205,20 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "regularMarketChangePercent": -1.5384616,
-    "regularMarketPrice": 576.0,
-    "corporateActions": [
-      {
-        "header": "Dividend",
-        "message": "1418.T announced a cash dividend of 15.00 JPY with an ex-date of Feb. 26, 2026",
-        "meta": {
-          "eventType": "DIVIDEND",
-          "dateEpochMs": 1772031600000,
-          "amount": "15.00"
-        }
-      }
-    ],
-    "marketState": "CLOSED",
-    "isEarningsDateEstimate": false,
-    "epsTrailingTwelveMonths": 62.67,
+    "shortName": "INTERLIFE HLDG CO LTD",
+    "longName": "Interlife Holdings Co., Ltd.",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 946944000000,
+    "regularMarketChange": -9.0,
+    "regularMarketDayRange": "574.0 - 586.0",
+    "fullExchangeName": "Tokyo",
+    "averageDailyVolume3Month": 108291,
     "fiftyDayAverageChange": -60.659973,
     "fiftyDayAverageChangePercent": -0.09527845,
     "twoHundredDayAverageChange": 84.34,
     "twoHundredDayAverageChangePercent": 0.1715413,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
-    "shortName": "INTERLIFE HLDG CO LTD",
-    "longName": "Interlife Holdings Co., Ltd.",
-    "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 108291,
     "fiftyTwoWeekLowChange": 256.0,
     "fiftyTwoWeekLowChangePercent": 0.8,
     "fiftyTwoWeekRange": "320.0 - 729.0",
@@ -1240,6 +1227,9 @@
     "fiftyTwoWeekChangePercent": 60.893856,
     "earningsTimestampStart": 1744614000,
     "earningsTimestampEnd": 1744614000,
+    "isEarningsDateEstimate": false,
+    "epsTrailingTwelveMonths": 62.67,
+    "marketState": "CLOSED",
     "trailingPegRatio": null
   }
 }

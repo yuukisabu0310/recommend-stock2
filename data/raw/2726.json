@@ -1,7 +1,7 @@
 {
   "ticker": "2726",
   "japanese_ticker": "2726.T",
-  "fetch_date": "2026-02-21T23:28:31.872494",
+  "fetch_date": "2026-02-22T23:29:57.540090",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-02-28 00:00:00": -872552000.0,
@@ -1188,18 +1188,42 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1076630400000,
     "marketState": "CLOSED",
-    "regularMarketChangePercent": 0.0,
-    "regularMarketPrice": 1671.0,
-    "cryptoTradeable": false,
+    "fiftyDayAverageChange": -177.69995,
+    "fiftyDayAverageChangePercent": -0.09612157,
+    "twoHundredDayAverageChange": -433.03247,
     "shortName": "PAL GROUP HOLDINGS CO LTD",
     "longName": "PAL GROUP Holdings CO., LTD.",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1076630400000,
     "regularMarketChange": 0.0,
     "regularMarketDayRange": "1646.0 - 1675.0",
     "fullExchangeName": "Tokyo",
     "averageDailyVolume3Month": 1019405,
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "2726.T announced a cash dividend of 40.00 JPY with an ex-date of Feb. 26, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1772031600000,
+          "amount": "40.00"
+        }
+      }
+    ],
+    "regularMarketTime": 1771569000,
+    "exchange": "JPX",
+    "messageBoardId": "finmb_6476346",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
+    "regularMarketChangePercent": 0.0,
+    "regularMarketPrice": 1671.0,
     "fiftyTwoWeekLowChange": 171.5,
     "fiftyTwoWeekLowChangePercent": 0.114371456,
     "fiftyTwoWeekRange": "1499.5 - 2948.0",
@@ -1213,21 +1237,7 @@
     "isEarningsDateEstimate": true,
     "epsTrailingTwelveMonths": 72.69,
     "epsForward": 194.25,
-    "fiftyDayAverageChange": -177.69995,
-    "fiftyDayAverageChangePercent": -0.09612157,
-    "twoHundredDayAverageChange": -433.03247,
     "twoHundredDayAverageChangePercent": -0.20581074,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "corporateActions": [],
-    "regularMarketTime": 1771569000,
-    "exchange": "JPX",
-    "messageBoardId": "finmb_6476346",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
     "trailingPegRatio": null
   }
 }

@@ -1,7 +1,7 @@
 {
   "ticker": "1904",
   "japanese_ticker": "1904.T",
-  "fetch_date": "2026-02-21T23:20:08.793723",
+  "fetch_date": "2026-02-22T23:21:14.933142",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": -3824016.0,
@@ -1259,17 +1259,11 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 946944000000,
     "regularMarketChange": 30.0,
     "regularMarketDayRange": "5080.0 - 5170.0",
     "fullExchangeName": "Tokyo",
-    "cryptoTradeable": false,
-    "regularMarketChangePercent": 0.5928854,
-    "regularMarketPrice": 5090.0,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 946944000000,
-    "marketState": "CLOSED",
-    "corporateActions": [],
-    "regularMarketTime": 1771569000,
     "averageDailyVolume3Month": 12011,
     "fiftyTwoWeekLowChange": 1970.0,
     "fiftyTwoWeekLowChangePercent": 0.63141024,
@@ -1280,6 +1274,7 @@
     "earningsTimestampStart": 1747117800,
     "earningsTimestampEnd": 1747117800,
     "isEarningsDateEstimate": false,
+    "longName": "Taisei Oncho Co., Ltd.",
     "epsTrailingTwelveMonths": 365.97,
     "fiftyDayAverageChange": 394.8999,
     "fiftyDayAverageChangePercent": 0.08410894,
@@ -1288,7 +1283,10 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "shortName": "TAISEI ONCHO CO",
-    "longName": "Taisei Oncho Co., Ltd.",
+    "cryptoTradeable": false,
+    "marketState": "CLOSED",
+    "corporateActions": [],
+    "regularMarketTime": 1771569000,
     "exchange": "JPX",
     "messageBoardId": "finmb_5509165",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1296,6 +1294,8 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
+    "regularMarketChangePercent": 0.5928854,
+    "regularMarketPrice": 5090.0,
     "trailingPegRatio": null
   }
 }

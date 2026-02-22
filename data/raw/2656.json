@@ -1,7 +1,7 @@
 {
   "ticker": "2656",
   "japanese_ticker": "2656.T",
-  "fetch_date": "2026-02-21T23:27:37.572627",
+  "fetch_date": "2026-02-22T23:29:01.053852",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": -49250816.0,
@@ -1167,8 +1167,7 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "regularMarketChangePercent": 1.369863,
-    "regularMarketPrice": 148.0,
+    "epsTrailingTwelveMonths": -37.53,
     "fiftyDayAverageChange": 15.919998,
     "fiftyDayAverageChangePercent": 0.120533,
     "twoHundredDayAverageChange": 17.020004,
@@ -1176,8 +1175,9 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "prevName": "Vector Inc.",
-    "nameChangeDate": "2026-02-21",
+    "nameChangeDate": "2026-02-22",
     "cryptoTradeable": false,
+    "marketState": "CLOSED",
     "corporateActions": [],
     "regularMarketTime": 1771569000,
     "exchange": "JPX",
@@ -1187,13 +1187,14 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "marketState": "CLOSED",
+    "regularMarketChangePercent": 1.369863,
+    "regularMarketPrice": 148.0,
+    "shortName": "VECTOR HOLDINGS INC",
+    "longName": "Vector HOLDINGS Inc.",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1016496000000,
     "regularMarketChange": 2.0,
     "regularMarketDayRange": "143.0 - 151.0",
-    "shortName": "VECTOR HOLDINGS INC",
-    "longName": "Vector HOLDINGS Inc.",
     "fullExchangeName": "Tokyo",
     "averageDailyVolume3Month": 553347,
     "fiftyTwoWeekLowChange": 83.0,
@@ -1205,7 +1206,6 @@
     "earningsTimestampStart": 1747290600,
     "earningsTimestampEnd": 1747290600,
     "isEarningsDateEstimate": false,
-    "epsTrailingTwelveMonths": -37.53,
     "trailingPegRatio": null
   }
 }

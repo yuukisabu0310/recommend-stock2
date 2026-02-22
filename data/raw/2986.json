@@ -1,7 +1,7 @@
 {
   "ticker": "2986",
   "japanese_ticker": "2986.T",
-  "fetch_date": "2026-02-21T23:31:42.039619",
+  "fetch_date": "2026-02-22T23:33:18.404821",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2024-12-31 00:00:00": -2441073.371075,
@@ -1093,8 +1093,11 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "cryptoTradeable": false,
+    "shortName": "LA HOLDINGS CO LTD",
+    "longName": "LA Holdings Co., Ltd.",
     "marketState": "CLOSED",
+    "regularMarketChangePercent": -1.7085427,
+    "regularMarketPrice": 9780.0,
     "corporateActions": [],
     "regularMarketTime": 1771569000,
     "exchange": "JPX",
@@ -1104,8 +1107,6 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "regularMarketChangePercent": -1.7085427,
-    "regularMarketPrice": 9780.0,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1593561600000,
     "regularMarketChange": -170.0,
@@ -1128,8 +1129,7 @@
     "twoHundredDayAverageChangePercent": 0.26348427,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
-    "shortName": "LA HOLDINGS CO LTD",
-    "longName": "LA Holdings Co., Ltd.",
+    "cryptoTradeable": false,
     "trailingPegRatio": null
   }
 }

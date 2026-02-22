@@ -1,7 +1,7 @@
 {
   "ticker": "2750",
   "japanese_ticker": "2750.T",
-  "fetch_date": "2026-02-21T23:28:52.788883",
+  "fetch_date": "2026-02-22T23:30:19.395666",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": -13772902.0,
@@ -1185,6 +1185,7 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "epsTrailingTwelveMonths": 146.32,
     "fiftyDayAverageChange": 180.07996,
     "fiftyDayAverageChangePercent": 0.137474,
     "twoHundredDayAverageChange": 263.28003,
@@ -1193,10 +1194,6 @@
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
     "marketState": "CLOSED",
-    "regularMarketChangePercent": -0.26773763,
-    "regularMarketPrice": 1490.0,
-    "shortName": "S. ISHIMITSU & CO LTD",
-    "longName": "S.Ishimitsu & Co.,Ltd.",
     "corporateActions": [],
     "regularMarketTime": 1771569000,
     "exchange": "JPX",
@@ -1206,6 +1203,10 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
+    "regularMarketChangePercent": -0.26773763,
+    "regularMarketPrice": 1490.0,
+    "shortName": "S. ISHIMITSU & CO LTD",
+    "longName": "S.Ishimitsu & Co.,Ltd.",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1037059200000,
     "regularMarketChange": -4.0,
@@ -1221,7 +1222,6 @@
     "earningsTimestampStart": 1747278000,
     "earningsTimestampEnd": 1747278000,
     "isEarningsDateEstimate": false,
-    "epsTrailingTwelveMonths": 146.32,
     "trailingPegRatio": null
   }
 }

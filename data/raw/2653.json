@@ -1,7 +1,7 @@
 {
   "ticker": "2653",
   "japanese_ticker": "2653.T",
-  "fetch_date": "2026-02-21T23:27:33.774555",
+  "fetch_date": "2026-02-22T23:28:57.259144",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-02-28 00:00:00": -805749000.0,
@@ -1304,8 +1304,29 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "regularMarketChangePercent": -0.5815942,
+    "regularMarketPrice": 2906.0,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 965606400000,
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "2653.T announced a cash dividend of 30.00 JPY with an ex-date of Feb. 26, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1772031600000,
+          "amount": "30.00"
+        }
+      }
+    ],
+    "regularMarketTime": 1771569000,
+    "exchange": "JPX",
+    "messageBoardId": "finmb_9220820",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
     "regularMarketChange": -17.0,
     "regularMarketDayRange": "2901.0 - 2933.0",
     "fullExchangeName": "Tokyo",
@@ -1316,6 +1337,9 @@
     "fiftyTwoWeekHighChange": -229.0,
     "fiftyTwoWeekHighChangePercent": -0.07304625,
     "fiftyTwoWeekChangePercent": 11.812234,
+    "marketState": "CLOSED",
+    "shortName": "AEON KYUSHU CO LTD",
+    "longName": "Aeon Kyushu Co., Ltd.",
     "earningsTimestampStart": 1751954400,
     "earningsTimestampEnd": 1752472800,
     "earningsCallTimestampStart": 1744369140,
@@ -1328,31 +1352,7 @@
     "twoHundredDayAverageChangePercent": 0.015279895,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
-    "corporateActions": [
-      {
-        "header": "Dividend",
-        "message": "2653.T announced a cash dividend of 30.00 JPY with an ex-date of Feb. 26, 2026",
-        "meta": {
-          "eventType": "DIVIDEND",
-          "dateEpochMs": 1772031600000,
-          "amount": "30.00"
-        }
-      }
-    ],
-    "shortName": "AEON KYUSHU CO LTD",
-    "longName": "Aeon Kyushu Co., Ltd.",
-    "regularMarketTime": 1771569000,
-    "exchange": "JPX",
-    "messageBoardId": "finmb_9220820",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
-    "marketState": "CLOSED",
     "cryptoTradeable": false,
-    "regularMarketChangePercent": -0.5815942,
-    "regularMarketPrice": 2906.0,
     "trailingPegRatio": null
   }
 }

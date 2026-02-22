@@ -1,7 +1,7 @@
 {
   "ticker": "2229",
   "japanese_ticker": "2229.T",
-  "fetch_date": "2026-02-21T23:23:36.215137",
+  "fetch_date": "2026-02-22T23:24:50.326409",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": -807000.0,
@@ -1279,9 +1279,8 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "marketState": "CLOSED",
-    "regularMarketChangePercent": -0.4929346,
-    "regularMarketPrice": 3028.0,
+    "longName": "Calbee, Inc.",
+    "shortName": "CALBEE INC",
     "corporateActions": [],
     "regularMarketTime": 1771569000,
     "exchange": "JPX",
@@ -1291,15 +1290,9 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "fiftyDayAverageChange": 17.060059,
-    "fiftyDayAverageChangePercent": 0.005666024,
-    "twoHundredDayAverageChange": 157.35498,
-    "twoHundredDayAverageChangePercent": 0.0548152,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
-    "shortName": "CALBEE INC",
-    "longName": "Calbee, Inc.",
+    "regularMarketChangePercent": -0.4929346,
+    "regularMarketPrice": 3028.0,
+    "marketState": "CLOSED",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1299801600000,
     "regularMarketChange": -15.0,
@@ -1320,6 +1313,13 @@
     "isEarningsDateEstimate": false,
     "epsTrailingTwelveMonths": 136.26,
     "epsForward": 165.22,
+    "fiftyDayAverageChange": 17.060059,
+    "fiftyDayAverageChangePercent": 0.005666024,
+    "twoHundredDayAverageChange": 157.35498,
+    "twoHundredDayAverageChangePercent": 0.0548152,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
     "trailingPegRatio": null
   }
 }

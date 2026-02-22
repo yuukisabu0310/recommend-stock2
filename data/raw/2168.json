@@ -1,7 +1,7 @@
 {
   "ticker": "2168",
   "japanese_ticker": "2168.T",
-  "fetch_date": "2026-02-21T23:22:37.564078",
+  "fetch_date": "2026-02-22T23:23:51.834897",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-05-31 00:00:00": -127832000.0,
@@ -1285,12 +1285,9 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "marketState": "CLOSED",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1067299200000,
-    "shortName": "PASONA GROUP INC",
-    "longName": "Pasona Group Inc.",
-    "regularMarketChangePercent": -1.1887072,
-    "regularMarketPrice": 1995.0,
     "regularMarketChange": -24.0,
     "regularMarketDayRange": "1971.0 - 2019.0",
     "fullExchangeName": "Tokyo",
@@ -1309,10 +1306,6 @@
     "fiftyDayAverageChange": -13.859985,
     "fiftyDayAverageChangePercent": -0.006899428,
     "twoHundredDayAverageChange": -93.55493,
-    "twoHundredDayAverageChangePercent": -0.044794098,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
     "corporateActions": [],
     "regularMarketTime": 1771569000,
     "exchange": "JPX",
@@ -1322,7 +1315,14 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "marketState": "CLOSED",
+    "regularMarketChangePercent": -1.1887072,
+    "regularMarketPrice": 1995.0,
+    "shortName": "PASONA GROUP INC",
+    "longName": "Pasona Group Inc.",
+    "twoHundredDayAverageChangePercent": -0.044794098,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
     "trailingPegRatio": null
   }
 }

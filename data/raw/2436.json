@@ -1,7 +1,7 @@
 {
   "ticker": "2436",
   "japanese_ticker": "2436.T",
-  "fetch_date": "2026-02-21T23:26:01.539790",
+  "fetch_date": "2026-02-22T23:27:20.594312",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2024-12-31 00:00:00": -19280877.0,
@@ -1115,18 +1115,6 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "longName": "Kyodo Public Relations Co., Ltd.",
-    "regularMarketChangePercent": -2.4738345,
-    "regularMarketPrice": 1025.0,
-    "shortName": "KYODO PUBLIC RELATIONS CO LTD",
-    "fiftyDayAverageChange": 20.179993,
-    "fiftyDayAverageChangePercent": 0.02008319,
-    "twoHundredDayAverageChange": 111.44501,
-    "twoHundredDayAverageChangePercent": 0.12199047,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
-    "marketState": "CLOSED",
     "corporateActions": [],
     "regularMarketTime": 1771569000,
     "exchange": "JPX",
@@ -1136,6 +1124,10 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
+    "marketState": "CLOSED",
+    "regularMarketChangePercent": -2.4738345,
+    "regularMarketPrice": 1025.0,
+    "shortName": "KYODO PUBLIC RELATIONS CO LTD",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1111708800000,
     "regularMarketChange": -26.0,
@@ -1152,6 +1144,14 @@
     "earningsTimestampEnd": 1755496800,
     "isEarningsDateEstimate": true,
     "epsTrailingTwelveMonths": 69.8,
+    "fiftyDayAverageChange": 20.179993,
+    "fiftyDayAverageChangePercent": 0.02008319,
+    "twoHundredDayAverageChange": 111.44501,
+    "twoHundredDayAverageChangePercent": 0.12199047,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
+    "longName": "Kyodo Public Relations Co., Ltd.",
     "trailingPegRatio": null
   }
 }

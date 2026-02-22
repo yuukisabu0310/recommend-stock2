@@ -1,7 +1,7 @@
 {
   "ticker": "2981",
   "japanese_ticker": "2981.T",
-  "fetch_date": "2026-02-21T23:31:34.375718",
+  "fetch_date": "2026-02-22T23:33:09.878844",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": -1892772.0,
@@ -1071,14 +1071,7 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "regularMarketChangePercent": -2.6877134,
-    "regularMarketPrice": 2281.0,
     "marketState": "CLOSED",
-    "corporateActions": [],
-    "regularMarketTime": 1771569000,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
     "exchange": "JPX",
     "messageBoardId": "finmb_404309826",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1086,6 +1079,10 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
+    "regularMarketChangePercent": -2.6877134,
+    "regularMarketPrice": 2281.0,
+    "corporateActions": [],
+    "regularMarketTime": 1771569000,
     "shortName": "LANDIX INC",
     "longName": "Landix Inc.",
     "hasPrePostMarketData": false,
@@ -1108,6 +1105,9 @@
     "fiftyDayAverageChangePercent": -0.0728924,
     "twoHundredDayAverageChange": 85.375,
     "twoHundredDayAverageChangePercent": 0.038884144,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
     "trailingPegRatio": null
   }
 }

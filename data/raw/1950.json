@@ -1,7 +1,7 @@
 {
   "ticker": "1950",
   "japanese_ticker": "1950.T",
-  "fetch_date": "2026-02-21T23:20:49.239357",
+  "fetch_date": "2026-02-22T23:21:56.253780",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": 254051444.400475,
@@ -1082,11 +1082,9 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "earningsTimestampStart": 1753768800,
-    "earningsTimestampEnd": 1754287200,
-    "earningsCallTimestampStart": 1746010740,
-    "earningsCallTimestampEnd": 1746010740,
-    "isEarningsDateEstimate": true,
+    "marketState": "CLOSED",
+    "shortName": "NIPPON DENSETSU KOGYO CO",
+    "longName": "Nippon Densetsu Kogyo Co., Ltd.",
     "epsTrailingTwelveMonths": 267.34,
     "epsForward": 178.1,
     "fiftyDayAverageChange": 1274.3,
@@ -1096,9 +1094,6 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
-    "shortName": "NIPPON DENSETSU KOGYO CO",
-    "longName": "Nippon Densetsu Kogyo Co., Ltd.",
-    "marketState": "CLOSED",
     "corporateActions": [],
     "regularMarketTime": 1771569000,
     "exchange": "JPX",
@@ -1108,10 +1103,10 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 978307200000,
     "regularMarketChangePercent": -1.3916501,
     "regularMarketPrice": 4960.0,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 978307200000,
     "regularMarketChange": -70.0,
     "regularMarketDayRange": "4960.0 - 5140.0",
     "fullExchangeName": "Tokyo",
@@ -1122,6 +1117,11 @@
     "fiftyTwoWeekHighChange": -180.0,
     "fiftyTwoWeekHighChangePercent": -0.035019454,
     "fiftyTwoWeekChangePercent": 131.02002,
+    "earningsTimestampStart": 1753768800,
+    "earningsTimestampEnd": 1754287200,
+    "earningsCallTimestampStart": 1746010740,
+    "earningsCallTimestampEnd": 1746010740,
+    "isEarningsDateEstimate": true,
     "trailingPegRatio": null
   }
 }

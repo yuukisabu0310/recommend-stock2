@@ -1,7 +1,7 @@
 {
   "ticker": "2493",
   "japanese_ticker": "2493.T",
-  "fetch_date": "2026-02-21T23:26:48.539492",
+  "fetch_date": "2026-02-22T23:28:09.017027",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2024-11-30 00:00:00": -2468136.0,
@@ -1068,10 +1068,6 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "shortName": "E SUPPORTLINK LTD",
-    "longName": "E-SUPPORTLINK, Ltd.",
-    "corporateActions": [],
-    "regularMarketTime": 1771568667,
     "exchange": "JPX",
     "messageBoardId": "finmb_27941528",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1079,9 +1075,12 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "marketState": "CLOSED",
     "regularMarketChangePercent": -0.09920636,
     "regularMarketPrice": 1007.0,
+    "earningsCallTimestampStart": 1738148340,
+    "earningsCallTimestampEnd": 1738148340,
+    "isEarningsDateEstimate": true,
+    "epsTrailingTwelveMonths": 25.98,
     "fiftyDayAverageChange": 25.0,
     "fiftyDayAverageChangePercent": 0.025458248,
     "twoHundredDayAverageChange": 57.559998,
@@ -1091,6 +1090,11 @@
     "cryptoTradeable": false,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1155168000000,
+    "shortName": "E SUPPORTLINK LTD",
+    "longName": "E-SUPPORTLINK, Ltd.",
+    "marketState": "CLOSED",
+    "corporateActions": [],
+    "regularMarketTime": 1771568667,
     "regularMarketChange": -1.0,
     "regularMarketDayRange": "1003.0 - 1008.0",
     "fullExchangeName": "Tokyo",
@@ -1103,10 +1107,6 @@
     "fiftyTwoWeekChangePercent": 2.5458217,
     "earningsTimestampStart": 1751610600,
     "earningsTimestampEnd": 1752215400,
-    "earningsCallTimestampStart": 1738148340,
-    "earningsCallTimestampEnd": 1738148340,
-    "isEarningsDateEstimate": true,
-    "epsTrailingTwelveMonths": 25.98,
     "trailingPegRatio": null
   }
 }

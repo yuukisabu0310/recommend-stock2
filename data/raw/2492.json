@@ -1,7 +1,7 @@
 {
   "ticker": "2492",
   "japanese_ticker": "2492.T",
-  "fetch_date": "2026-02-21T23:26:46.452510",
+  "fetch_date": "2026-02-22T23:28:07.053826",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2024-12-31 00:00:00": -85462467.7,
@@ -1062,6 +1062,9 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
+    "regularMarketChangePercent": -1.8617021,
+    "regularMarketPrice": 369.0,
+    "isEarningsDateEstimate": true,
     "epsTrailingTwelveMonths": 8.49,
     "epsForward": 7.77,
     "fiftyDayAverageChange": -49.859985,
@@ -1072,15 +1075,13 @@
     "exchangeDataDelayedBy": 20,
     "averageAnalystRating": "1.7 - Buy",
     "cryptoTradeable": false,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1154995200000,
+    "shortName": "INFOMART CORPORATION",
+    "longName": "Infomart Corporation",
     "marketState": "CLOSED",
     "corporateActions": [],
     "regularMarketTime": 1771569000,
-    "regularMarketChangePercent": -1.8617021,
-    "regularMarketPrice": 369.0,
-    "shortName": "INFOMART CORPORATION",
-    "longName": "Infomart Corporation",
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1154995200000,
     "regularMarketChange": -7.0,
     "regularMarketDayRange": "364.0 - 385.0",
     "fullExchangeName": "Tokyo",
@@ -1094,7 +1095,6 @@
     "earningsTimestamp": 1770964200,
     "earningsTimestampStart": 1777530600,
     "earningsTimestampEnd": 1777530600,
-    "isEarningsDateEstimate": true,
     "trailingPegRatio": null
   }
 }

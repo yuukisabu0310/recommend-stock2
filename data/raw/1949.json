@@ -1,7 +1,7 @@
 {
   "ticker": "1949",
   "japanese_ticker": "1949.T",
-  "fetch_date": "2026-02-21T23:20:47.384840",
+  "fetch_date": "2026-02-22T23:21:54.337906",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": 12269705.603039,
@@ -1250,7 +1250,7 @@
     "averageVolume": 83872,
     "averageVolume10days": 96750,
     "averageDailyVolume10Day": 96750,
-    "bid": 0.0,
+    "bid": 9710.0,
     "ask": 9720.0,
     "marketCap": 341559574528,
     "fiftyTwoWeekLow": 4065.0,
@@ -1315,10 +1315,9 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "earningsTimestamp": 1769754600,
-    "earningsTimestampStart": 1777530600,
-    "earningsTimestampEnd": 1777530600,
-    "isEarningsDateEstimate": true,
+    "marketState": "CLOSED",
+    "shortName": "SUMITOMO DENSETSU CO",
+    "longName": "Sumitomo Densetsu Co.,Ltd.",
     "epsTrailingTwelveMonths": 363.15,
     "fiftyDayAverageChange": 3.0,
     "fiftyDayAverageChangePercent": 0.00030905532,
@@ -1327,9 +1326,6 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
-    "shortName": "SUMITOMO DENSETSU CO",
-    "longName": "Sumitomo Densetsu Co.,Ltd.",
-    "marketState": "CLOSED",
     "corporateActions": [
       {
         "header": "Reverse stock split",
@@ -1349,10 +1345,10 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 978307200000,
     "regularMarketChangePercent": 0.0,
     "regularMarketPrice": 9710.0,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 978307200000,
     "regularMarketChange": 0.0,
     "regularMarketDayRange": "9710.0 - 9720.0",
     "fullExchangeName": "Tokyo",
@@ -1363,6 +1359,10 @@
     "fiftyTwoWeekHighChange": -230.0,
     "fiftyTwoWeekHighChangePercent": -0.023138832,
     "fiftyTwoWeekChangePercent": 109.04198,
+    "earningsTimestamp": 1769754600,
+    "earningsTimestampStart": 1777530600,
+    "earningsTimestampEnd": 1777530600,
+    "isEarningsDateEstimate": true,
     "trailingPegRatio": null
   }
 }

@@ -1,7 +1,7 @@
 {
   "ticker": "2871",
   "japanese_ticker": "2871.T",
-  "fetch_date": "2026-02-21T23:30:10.643230",
+  "fetch_date": "2026-02-22T23:31:39.368195",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": -582255000.0,
@@ -1230,6 +1230,17 @@
     "customPriceAlertConfidence": "LOW",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 946944000000,
+    "corporateActions": [],
+    "regularMarketTime": 1771569000,
+    "exchange": "JPX",
+    "messageBoardId": "finmb_876656",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
+    "regularMarketChangePercent": 0.84889644,
+    "regularMarketPrice": 2079.0,
     "regularMarketChange": 17.5,
     "regularMarketDayRange": "2053.5 - 2079.0",
     "fullExchangeName": "Tokyo",
@@ -1255,20 +1266,9 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
-    "corporateActions": [],
-    "regularMarketTime": 1771569000,
-    "exchange": "JPX",
-    "messageBoardId": "finmb_876656",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
+    "marketState": "CLOSED",
     "shortName": "NICHIREI CORP",
     "longName": "Nichirei Corporation",
-    "marketState": "CLOSED",
-    "regularMarketChangePercent": 0.84889644,
-    "regularMarketPrice": 2079.0,
     "trailingPegRatio": null
   }
 }

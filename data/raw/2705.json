@@ -1,7 +1,7 @@
 {
   "ticker": "2705",
   "japanese_ticker": "2705.T",
-  "fetch_date": "2026-02-21T23:28:24.897385",
+  "fetch_date": "2026-02-22T23:29:50.162991",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": -29600000.0,
@@ -1309,6 +1309,9 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "shortName": "OOTOYA HOLDINGS CO LTD",
+    "longName": "OOTOYA Holdings Co., Ltd.",
+    "marketState": "CLOSED",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 999216000000,
     "regularMarketChange": 30.0,
@@ -1331,9 +1334,8 @@
     "twoHundredDayAverageChangePercent": 0.2636841,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
     "corporateActions": [],
-    "shortName": "OOTOYA HOLDINGS CO LTD",
-    "longName": "OOTOYA Holdings Co., Ltd.",
     "regularMarketTime": 1771569000,
     "exchange": "JPX",
     "messageBoardId": "finmb_5854221",
@@ -1342,8 +1344,6 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "marketState": "CLOSED",
-    "cryptoTradeable": false,
     "regularMarketChangePercent": 0.41958043,
     "regularMarketPrice": 7180.0,
     "trailingPegRatio": null

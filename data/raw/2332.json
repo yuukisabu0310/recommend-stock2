@@ -1,7 +1,7 @@
 {
   "ticker": "2332",
   "japanese_ticker": "2332.T",
-  "fetch_date": "2026-02-21T23:24:39.155745",
+  "fetch_date": "2026-02-22T23:25:55.841939",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": 2788811.95403,
@@ -1285,7 +1285,12 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "cryptoTradeable": false,
+    "regularMarketChangePercent": -0.50962627,
+    "regularMarketPrice": 1757.0,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1034294400000,
+    "corporateActions": [],
+    "regularMarketTime": 1771569000,
     "exchange": "JPX",
     "messageBoardId": "finmb_12787025",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1293,11 +1298,6 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "marketState": "CLOSED",
-    "regularMarketChangePercent": -0.50962627,
-    "regularMarketPrice": 1757.0,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1034294400000,
     "regularMarketChange": -9.0,
     "regularMarketDayRange": "1757.0 - 1797.0",
     "fullExchangeName": "Tokyo",
@@ -1308,6 +1308,9 @@
     "fiftyTwoWeekHighChange": -348.0,
     "fiftyTwoWeekHighChangePercent": -0.16532066,
     "fiftyTwoWeekChangePercent": 31.807947,
+    "marketState": "CLOSED",
+    "shortName": "QUEST CO LTD",
+    "longName": "Quest Co., Ltd.",
     "earningsTimestampStart": 1747209600,
     "earningsTimestampEnd": 1747209600,
     "isEarningsDateEstimate": false,
@@ -1318,10 +1321,7 @@
     "twoHundredDayAverageChangePercent": 0.14263414,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
-    "corporateActions": [],
-    "regularMarketTime": 1771569000,
-    "shortName": "QUEST CO LTD",
-    "longName": "Quest Co., Ltd.",
+    "cryptoTradeable": false,
     "trailingPegRatio": null
   }
 }

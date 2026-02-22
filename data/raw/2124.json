@@ -1,7 +1,7 @@
 {
   "ticker": "2124",
   "japanese_ticker": "2124.T",
-  "fetch_date": "2026-02-21T23:22:01.255878",
+  "fetch_date": "2026-02-22T23:23:13.415898",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2024-12-31 00:00:00": -246328000.0,
@@ -1134,7 +1134,6 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "cryptoTradeable": false,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1158883200000,
     "regularMarketChange": -28.0,
@@ -1162,6 +1161,9 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "averageAnalystRating": "1.5 - Strong Buy",
+    "shortName": "JAC RECRUITMENT CO LTD",
+    "longName": "JAC Recruitment Co., Ltd.",
+    "marketState": "CLOSED",
     "corporateActions": [],
     "regularMarketTime": 1771569000,
     "exchange": "JPX",
@@ -1173,9 +1175,7 @@
     "esgPopulated": false,
     "regularMarketChangePercent": -3.097345,
     "regularMarketPrice": 876.0,
-    "shortName": "JAC RECRUITMENT CO LTD",
-    "longName": "JAC Recruitment Co., Ltd.",
-    "marketState": "CLOSED",
+    "cryptoTradeable": false,
     "trailingPegRatio": null
   }
 }

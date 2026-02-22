@@ -1,7 +1,7 @@
 {
   "ticker": "1965",
   "japanese_ticker": "1965.T",
-  "fetch_date": "2026-02-21T23:21:04.554458",
+  "fetch_date": "2026-02-22T23:22:13.236932",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": 62543000.0,
@@ -1273,8 +1273,6 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "shortName": "TECHNO RYOWA LTD",
-    "longName": "Techno Ryowa Ltd.",
     "corporateActions": [],
     "regularMarketTime": 1771569000,
     "exchange": "JPX",
@@ -1284,16 +1282,8 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "marketState": "CLOSED",
-    "regularMarketChangePercent": -1.772152,
-    "regularMarketPrice": 7760.0,
-    "fiftyDayAverageChange": 301.0,
-    "fiftyDayAverageChangePercent": 0.040353935,
-    "twoHundredDayAverageChange": 2521.77,
-    "twoHundredDayAverageChangePercent": 0.48141643,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
+    "shortName": "TECHNO RYOWA LTD",
+    "longName": "Techno Ryowa Ltd.",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 978307200000,
     "regularMarketChange": -140.0,
@@ -1310,6 +1300,16 @@
     "earningsTimestampEnd": 1747112400,
     "isEarningsDateEstimate": false,
     "epsTrailingTwelveMonths": 483.45,
+    "fiftyDayAverageChange": 301.0,
+    "fiftyDayAverageChangePercent": 0.040353935,
+    "twoHundredDayAverageChange": 2521.77,
+    "twoHundredDayAverageChangePercent": 0.48141643,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
+    "regularMarketChangePercent": -1.772152,
+    "regularMarketPrice": 7760.0,
+    "marketState": "CLOSED",
     "trailingPegRatio": null
   }
 }

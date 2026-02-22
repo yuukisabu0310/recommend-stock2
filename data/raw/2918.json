@@ -1,7 +1,7 @@
 {
   "ticker": "2918",
   "japanese_ticker": "2918.T",
-  "fetch_date": "2026-02-21T23:30:53.045551",
+  "fetch_date": "2026-02-22T23:32:25.381996",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-02-28 00:00:00": -284250000.0,
@@ -1294,23 +1294,25 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "corporateActions": [],
+    "regularMarketTime": 1771569000,
+    "exchange": "JPX",
+    "messageBoardId": "finmb_883960",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
     "regularMarketChangePercent": -3.3613448,
     "regularMarketPrice": 3450.0,
-    "marketState": "CLOSED",
-    "corporateActions": [
-      {
-        "header": "Dividend",
-        "message": "2918.T announced a cash dividend of 60.00 JPY with an ex-date of Feb. 26, 2026",
-        "meta": {
-          "eventType": "DIVIDEND",
-          "dateEpochMs": 1772031600000,
-          "amount": "60.00"
-        }
-      }
-    ],
-    "regularMarketTime": 1771569000,
-    "shortName": "WARABEYA NICHIYO HOLDINGS CO LT",
-    "longName": "Warabeya Nichiyo Holdings Co., Ltd.",
+    "fiftyDayAverageChange": 60.899902,
+    "fiftyDayAverageChangePercent": 0.017969344,
+    "twoHundredDayAverageChange": 533.16504,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 978566400000,
     "regularMarketChange": -120.0,
     "regularMarketDayRange": "3440.0 - 3570.0",
     "fullExchangeName": "Tokyo",
@@ -1326,22 +1328,10 @@
     "isEarningsDateEstimate": true,
     "epsTrailingTwelveMonths": 222.18,
     "epsForward": 200.4,
-    "fiftyDayAverageChange": 60.899902,
-    "fiftyDayAverageChangePercent": 0.017969344,
-    "twoHundredDayAverageChange": 533.16504,
     "twoHundredDayAverageChangePercent": 0.1827889,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "exchange": "JPX",
-    "messageBoardId": "finmb_883960",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
-    "cryptoTradeable": false,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 978566400000,
+    "marketState": "CLOSED",
+    "shortName": "WARABEYA NICHIYO HOLDINGS CO LT",
+    "longName": "Warabeya Nichiyo Holdings Co., Ltd.",
     "trailingPegRatio": null
   }
 }

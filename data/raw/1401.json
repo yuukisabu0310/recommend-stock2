@@ -1,7 +1,7 @@
 {
   "ticker": "1401",
   "japanese_ticker": "1401.T",
-  "fetch_date": "2026-02-21T23:17:01.890381",
+  "fetch_date": "2026-02-22T23:18:05.751863",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-05-31 00:00:00": -4013121.0,
@@ -1318,6 +1318,13 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "shortName": "MBS INC",
+    "longName": "Mbs Inc",
+    "marketState": "CLOSED",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1439424000000,
+    "regularMarketChange": -29.0,
+    "regularMarketDayRange": "1517.0 - 1541.0",
     "fullExchangeName": "Tokyo",
     "averageDailyVolume3Month": 23659,
     "fiftyTwoWeekLowChange": 951.0,
@@ -1336,8 +1343,7 @@
     "twoHundredDayAverageChangePercent": 0.18527132,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
-    "shortName": "MBS INC",
-    "longName": "Mbs Inc",
+    "cryptoTradeable": false,
     "corporateActions": [],
     "regularMarketTime": 1771569000,
     "exchange": "JPX",
@@ -1349,12 +1355,6 @@
     "esgPopulated": false,
     "regularMarketChangePercent": -1.8613607,
     "regularMarketPrice": 1529.0,
-    "cryptoTradeable": false,
-    "marketState": "CLOSED",
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1439424000000,
-    "regularMarketChange": -29.0,
-    "regularMarketDayRange": "1517.0 - 1541.0",
     "trailingPegRatio": null
   }
 }

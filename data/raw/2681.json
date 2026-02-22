@@ -1,7 +1,7 @@
 {
   "ticker": "2681",
   "japanese_ticker": "2681.T",
-  "fetch_date": "2026-02-21T23:28:00.399911",
+  "fetch_date": "2026-02-22T23:29:24.474558",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": -768152000.0,
@@ -1228,8 +1228,8 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "cryptoTradeable": false,
-    "marketState": "CLOSED",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1073952000000,
     "corporateActions": [],
     "regularMarketTime": 1771569000,
     "exchange": "JPX",
@@ -1241,8 +1241,6 @@
     "esgPopulated": false,
     "regularMarketChangePercent": -0.6321839,
     "regularMarketPrice": 1729.0,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1073952000000,
     "regularMarketChange": -11.0,
     "regularMarketDayRange": "1723.0 - 1739.0",
     "fullExchangeName": "Tokyo",
@@ -1264,6 +1262,8 @@
     "twoHundredDayAverageChangePercent": 0.020612985,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
+    "marketState": "CLOSED",
     "shortName": "GEO HOLDINGS CORP",
     "longName": "Geo Holdings Corporation",
     "trailingPegRatio": null

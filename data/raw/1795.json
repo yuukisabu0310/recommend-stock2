@@ -1,7 +1,7 @@
 {
   "ticker": "1795",
   "japanese_ticker": "1795.T",
-  "fetch_date": "2026-02-21T23:18:40.826281",
+  "fetch_date": "2026-02-22T23:19:46.163413",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-09-30 00:00:00": 2066205.0,
@@ -1100,7 +1100,7 @@
     "tradeable": false,
     "enterpriseValue": 1968643328,
     "profitMargins": 0.041220002,
-    "floatShares": 483966,
+    "floatShares": 468622,
     "sharesOutstanding": 889593,
     "heldPercentInsiders": 0.41169998,
     "heldPercentInstitutions": 0.02774,
@@ -1147,6 +1147,7 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "epsTrailingTwelveMonths": 455.72,
     "fiftyDayAverageChange": -11.0,
     "fiftyDayAverageChangePercent": -0.002422374,
     "twoHundredDayAverageChange": 195.8501,
@@ -1155,10 +1156,6 @@
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
     "marketState": "CLOSED",
-    "regularMarketChangePercent": -2.3706896,
-    "regularMarketPrice": 4530.0,
-    "shortName": "MASARU CORPORATION",
-    "longName": "Masaru Corporation",
     "corporateActions": [],
     "regularMarketTime": 1771563051,
     "exchange": "JPX",
@@ -1168,6 +1165,10 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
+    "regularMarketChangePercent": -2.3706896,
+    "regularMarketPrice": 4530.0,
+    "shortName": "MASARU CORPORATION",
+    "longName": "Masaru Corporation",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 947030400000,
     "regularMarketChange": -110.0,
@@ -1183,7 +1184,6 @@
     "earningsTimestampStart": 1754440500,
     "earningsTimestampEnd": 1754958900,
     "isEarningsDateEstimate": true,
-    "epsTrailingTwelveMonths": 455.72,
     "trailingPegRatio": null
   }
 }

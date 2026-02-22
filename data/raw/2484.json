@@ -1,7 +1,7 @@
 {
   "ticker": "2484",
   "japanese_ticker": "2484.T",
-  "fetch_date": "2026-02-21T23:26:37.292427",
+  "fetch_date": "2026-02-22T23:27:58.339848",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-08-31 00:00:00": 0.0,
@@ -1079,6 +1079,8 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1149465600000,
     "corporateActions": [],
     "regularMarketTime": 1771569000,
     "exchange": "JPX",
@@ -1088,6 +1090,8 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
+    "regularMarketChangePercent": 0.0,
+    "regularMarketPrice": 128.0,
     "regularMarketChange": 0.0,
     "regularMarketDayRange": "128.0 - 130.0",
     "fullExchangeName": "Tokyo",
@@ -1111,10 +1115,6 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1149465600000,
-    "regularMarketChangePercent": 0.0,
-    "regularMarketPrice": 128.0,
     "marketState": "CLOSED",
     "shortName": "DEMAE-CAN CO LTD",
     "longName": "Demae-Can Co.,Ltd",

@@ -1,7 +1,7 @@
 {
   "ticker": "2315",
   "japanese_ticker": "2315.T",
-  "fetch_date": "2026-02-21T23:24:20.228616",
+  "fetch_date": "2026-02-22T23:25:36.027566",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-10-31 00:00:00": 7727853.0,
@@ -1272,6 +1272,8 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1023753600000,
     "regularMarketChange": -1.0,
     "regularMarketDayRange": "85.0 - 90.0",
     "fullExchangeName": "Tokyo",
@@ -1293,8 +1295,10 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "prevName": "CAICA Inc.",
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1023753600000,
+    "nameChangeDate": "2026-02-22",
+    "shortName": "CAICA DIGITAL INC",
+    "longName": "CAICA DIGITAL Inc.",
+    "marketState": "CLOSED",
     "corporateActions": [],
     "regularMarketTime": 1771569000,
     "exchange": "JPX",
@@ -1304,12 +1308,8 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "shortName": "CAICA DIGITAL INC",
-    "longName": "CAICA DIGITAL Inc.",
     "regularMarketChangePercent": -1.1494253,
     "regularMarketPrice": 86.0,
-    "marketState": "CLOSED",
-    "nameChangeDate": "2026-02-21",
     "cryptoTradeable": false,
     "trailingPegRatio": null
   }

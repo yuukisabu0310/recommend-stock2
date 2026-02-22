@@ -1,7 +1,7 @@
 {
   "ticker": "2389",
   "japanese_ticker": "2389.T",
-  "fetch_date": "2026-02-21T23:25:28.937241",
+  "fetch_date": "2026-02-22T23:26:46.548373",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2024-12-31 00:00:00": 12992000.0,
@@ -1055,7 +1055,7 @@
     "tradeable": false,
     "enterpriseValue": 15934638080,
     "profitMargins": 0.13868,
-    "floatShares": 7912999,
+    "floatShares": 7684237,
     "sharesOutstanding": 18675907,
     "heldPercentInsiders": 0.83109003,
     "heldPercentInstitutions": 0.0651,
@@ -1105,12 +1105,22 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1076630400000,
-    "shortName": "DIGITAL HOLDINGS INC",
-    "longName": "Digital Holdings, Inc.",
+    "marketState": "CLOSED",
+    "epsTrailingTwelveMonths": 101.5,
+    "epsForward": -34.3,
+    "fiftyDayAverageChange": -6.76001,
+    "fiftyDayAverageChangePercent": -0.0033585771,
+    "twoHundredDayAverageChange": 242.41003,
+    "twoHundredDayAverageChangePercent": 0.1374526,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
     "regularMarketChangePercent": 0.04987531,
     "regularMarketPrice": 2006.0,
+    "shortName": "DIGITAL HOLDINGS INC",
+    "longName": "Digital Holdings, Inc.",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1076630400000,
     "regularMarketChange": 1.0,
     "regularMarketDayRange": "2005.0 - 2007.0",
     "fullExchangeName": "Tokyo",
@@ -1124,15 +1134,6 @@
     "earningsTimestampStart": 1754546400,
     "earningsTimestampEnd": 1754978400,
     "isEarningsDateEstimate": true,
-    "epsTrailingTwelveMonths": 101.5,
-    "epsForward": -34.3,
-    "fiftyDayAverageChange": -6.76001,
-    "fiftyDayAverageChangePercent": -0.0033585771,
-    "twoHundredDayAverageChange": 242.41003,
-    "twoHundredDayAverageChangePercent": 0.1374526,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
     "corporateActions": [
       {
         "header": "Reverse stock split",
@@ -1152,7 +1153,6 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "marketState": "CLOSED",
     "trailingPegRatio": null
   }
 }

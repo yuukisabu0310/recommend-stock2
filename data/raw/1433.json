@@ -1,7 +1,7 @@
 {
   "ticker": "1433",
   "japanese_ticker": "1433.T",
-  "fetch_date": "2026-02-21T23:17:22.438389",
+  "fetch_date": "2026-02-22T23:18:25.476801",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-01-31 00:00:00": 58232700.6,
@@ -1093,6 +1093,11 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "marketState": "CLOSED",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1441152000000,
+    "regularMarketChange": 1.0,
+    "regularMarketDayRange": "1252.0 - 1273.0",
     "fullExchangeName": "Tokyo",
     "averageDailyVolume3Month": 115932,
     "fiftyTwoWeekLowChange": 389.0,
@@ -1109,17 +1114,6 @@
     "fiftyDayAverageChange": 8.660034,
     "fiftyDayAverageChangePercent": 0.0068603028,
     "twoHundredDayAverageChange": 119.579956,
-    "twoHundredDayAverageChangePercent": 0.10385433,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
-    "marketState": "CLOSED",
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1441152000000,
-    "regularMarketChange": 1.0,
-    "regularMarketDayRange": "1252.0 - 1273.0",
-    "regularMarketChangePercent": 0.07874016,
-    "regularMarketPrice": 1271.0,
     "corporateActions": [],
     "regularMarketTime": 1771569000,
     "exchange": "JPX",
@@ -1129,8 +1123,14 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
+    "regularMarketChangePercent": 0.07874016,
+    "regularMarketPrice": 1271.0,
     "shortName": "BESTERRA CO LTD",
     "longName": "Besterra Co., Ltd.",
+    "twoHundredDayAverageChangePercent": 0.10385433,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
     "trailingPegRatio": null
   }
 }

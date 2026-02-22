@@ -1,7 +1,7 @@
 {
   "ticker": "2914",
   "japanese_ticker": "2914.T",
-  "fetch_date": "2026-02-21T23:30:45.782740",
+  "fetch_date": "2026-02-22T23:32:17.999453",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2024-12-31 00:00:00": 0.0,
@@ -1108,6 +1108,12 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
+    "marketState": "CLOSED",
+    "regularMarketChangePercent": -1.3228399,
+    "regularMarketPrice": 5893.0,
+    "shortName": "JAPAN TOBACCO INC",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 946944000000,
     "regularMarketChange": -79.0,
     "regularMarketDayRange": "5893.0 - 5988.0",
     "fullExchangeName": "Tokyo",
@@ -1134,12 +1140,6 @@
     "exchangeDataDelayedBy": 20,
     "averageAnalystRating": "2.2 - Buy",
     "cryptoTradeable": false,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 946944000000,
-    "regularMarketChangePercent": -1.3228399,
-    "regularMarketPrice": 5893.0,
-    "marketState": "CLOSED",
-    "shortName": "JAPAN TOBACCO INC",
     "longName": "Japan Tobacco Inc.",
     "trailingPegRatio": 0.4477
   }

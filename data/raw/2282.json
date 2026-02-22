@@ -1,7 +1,7 @@
 {
   "ticker": "2282",
   "japanese_ticker": "2282.T",
-  "fetch_date": "2026-02-21T23:23:51.042293",
+  "fetch_date": "2026-02-22T23:25:06.207059",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": 0.0,
@@ -1099,9 +1099,6 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "marketState": "CLOSED",
-    "regularMarketChangePercent": -1.0176294,
-    "regularMarketPrice": 6906.0,
     "corporateActions": [],
     "regularMarketTime": 1771569000,
     "exchange": "JPX",
@@ -1111,16 +1108,15 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
+    "regularMarketChangePercent": -1.0176294,
+    "regularMarketPrice": 6906.0,
     "fiftyDayAverageChange": 89.5,
     "fiftyDayAverageChangePercent": 0.013129906,
     "twoHundredDayAverageChange": 994.56006,
-    "twoHundredDayAverageChangePercent": 0.16824329,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "averageAnalystRating": "2.6 - Hold",
     "cryptoTradeable": false,
-    "shortName": "NH FOODS LTD",
-    "longName": "NH Foods Ltd.",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 946944000000,
     "regularMarketChange": -71.0,
@@ -1141,6 +1137,10 @@
     "isEarningsDateEstimate": true,
     "epsTrailingTwelveMonths": 323.89,
     "epsForward": 343.99,
+    "twoHundredDayAverageChangePercent": 0.16824329,
+    "marketState": "CLOSED",
+    "shortName": "NH FOODS LTD",
+    "longName": "NH Foods Ltd.",
     "trailingPegRatio": null
   }
 }

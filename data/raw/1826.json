@@ -1,7 +1,7 @@
 {
   "ticker": "1826",
   "japanese_ticker": "1826.T",
-  "fetch_date": "2026-02-21T23:19:11.254248",
+  "fetch_date": "2026-02-22T23:20:16.858256",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": -4984000.0,
@@ -1159,6 +1159,11 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "marketState": "CLOSED",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 978307200000,
+    "regularMarketChange": 1.0,
+    "regularMarketDayRange": "1261.0 - 1271.0",
     "fullExchangeName": "Tokyo",
     "averageDailyVolume3Month": 25823,
     "fiftyTwoWeekLowChange": 347.0,
@@ -1176,17 +1181,6 @@
     "fiftyDayAverageChange": 78.31995,
     "fiftyDayAverageChangePercent": 0.06588817,
     "twoHundredDayAverageChange": 106.63501,
-    "twoHundredDayAverageChangePercent": 0.091897815,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
-    "marketState": "CLOSED",
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 978307200000,
-    "regularMarketChange": 1.0,
-    "regularMarketDayRange": "1261.0 - 1271.0",
-    "regularMarketChangePercent": 0.07898894,
-    "regularMarketPrice": 1267.0,
     "corporateActions": [],
     "regularMarketTime": 1771569000,
     "exchange": "JPX",
@@ -1196,8 +1190,14 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
+    "regularMarketChangePercent": 0.07898894,
+    "regularMarketPrice": 1267.0,
     "shortName": "SATA CONSTRUCTION CO",
     "longName": "Sata Construction Co., Ltd.",
+    "twoHundredDayAverageChangePercent": 0.091897815,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
     "trailingPegRatio": null
   }
 }

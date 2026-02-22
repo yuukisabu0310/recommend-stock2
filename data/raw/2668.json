@@ -1,7 +1,7 @@
 {
   "ticker": "2668",
   "japanese_ticker": "2668.T",
-  "fetch_date": "2026-02-21T23:27:47.367050",
+  "fetch_date": "2026-02-22T23:29:10.614243",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-02-28 00:00:00": -18365984.0,
@@ -1230,29 +1230,6 @@
     "firstTradeDateMilliseconds": 970790400000,
     "regularMarketChange": 1.0,
     "regularMarketDayRange": "1306.0 - 1312.0",
-    "regularMarketTime": 1771569000,
-    "exchange": "JPX",
-    "messageBoardId": "finmb_5863519",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
-    "regularMarketChangePercent": 0.076569684,
-    "regularMarketPrice": 1307.0,
-    "corporateActions": [],
-    "marketState": "CLOSED",
-    "isEarningsDateEstimate": false,
-    "epsTrailingTwelveMonths": 89.4,
-    "fiftyDayAverageChange": 4.079956,
-    "fiftyDayAverageChangePercent": 0.003131394,
-    "twoHundredDayAverageChange": 71.79004,
-    "twoHundredDayAverageChangePercent": 0.058119707,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
-    "shortName": "TABIO CORPORATION",
-    "longName": "Tabio Corporation",
     "fullExchangeName": "Tokyo",
     "averageDailyVolume3Month": 2555,
     "fiftyTwoWeekLowChange": 207.0,
@@ -1263,6 +1240,39 @@
     "fiftyTwoWeekChangePercent": 4.7275662,
     "earningsTimestampStart": 1744093800,
     "earningsTimestampEnd": 1744093800,
+    "isEarningsDateEstimate": false,
+    "epsTrailingTwelveMonths": 89.4,
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "2668.T announced a cash dividend of 30.00 JPY with an ex-date of Feb. 26, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1772031600000,
+          "amount": "30.00"
+        }
+      }
+    ],
+    "regularMarketTime": 1771569000,
+    "exchange": "JPX",
+    "messageBoardId": "finmb_5863519",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
+    "shortName": "TABIO CORPORATION",
+    "marketState": "CLOSED",
+    "fiftyDayAverageChange": 4.079956,
+    "fiftyDayAverageChangePercent": 0.003131394,
+    "twoHundredDayAverageChange": 71.79004,
+    "twoHundredDayAverageChangePercent": 0.058119707,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
+    "longName": "Tabio Corporation",
+    "regularMarketChangePercent": 0.076569684,
+    "regularMarketPrice": 1307.0,
     "trailingPegRatio": null
   }
 }

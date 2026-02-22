@@ -1,7 +1,7 @@
 {
   "ticker": "2379",
   "japanese_ticker": "2379.T",
-  "fetch_date": "2026-02-21T23:25:20.751114",
+  "fetch_date": "2026-02-22T23:26:39.022729",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-02-28 00:00:00": -65520883.556667,
@@ -1124,26 +1124,30 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "corporateActions": [],
+    "epsTrailingTwelveMonths": 145.89,
+    "epsForward": 199.67,
+    "fiftyDayAverageChange": -112.45996,
+    "fiftyDayAverageChangePercent": -0.05286114,
+    "twoHundredDayAverageChange": -213.0249,
+    "twoHundredDayAverageChangePercent": -0.09561154,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "averageAnalystRating": "3.3 - Hold",
     "cryptoTradeable": false,
-    "corporateActions": [
-      {
-        "header": "Dividend",
-        "message": "2379.T announced a cash dividend of 48.00 JPY with an ex-date of Feb. 26, 2026",
-        "meta": {
-          "eventType": "DIVIDEND",
-          "dateEpochMs": 1772031600000,
-          "amount": "48.00"
-        }
-      }
-    ],
+    "marketState": "CLOSED",
     "regularMarketTime": 1771569000,
     "exchange": "JPX",
+    "shortName": "DIP CORPORATION",
+    "longName": "DIP Corporation",
     "messageBoardId": "finmb_1570575",
     "exchangeTimezoneName": "Asia/Tokyo",
     "exchangeTimezoneShortName": "JST",
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
+    "regularMarketChangePercent": -0.59200794,
+    "regularMarketPrice": 2015.0,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1085616000000,
     "regularMarketChange": -12.0,
@@ -1162,20 +1166,6 @@
     "earningsCallTimestampStart": 1744628340,
     "earningsCallTimestampEnd": 1744628340,
     "isEarningsDateEstimate": false,
-    "epsTrailingTwelveMonths": 145.89,
-    "epsForward": 199.67,
-    "fiftyDayAverageChange": -112.45996,
-    "fiftyDayAverageChangePercent": -0.05286114,
-    "twoHundredDayAverageChange": -213.0249,
-    "twoHundredDayAverageChangePercent": -0.09561154,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "averageAnalystRating": "3.3 - Hold",
-    "marketState": "CLOSED",
-    "regularMarketChangePercent": -0.59200794,
-    "regularMarketPrice": 2015.0,
-    "shortName": "DIP CORPORATION",
-    "longName": "DIP Corporation",
     "trailingPegRatio": null
   }
 }

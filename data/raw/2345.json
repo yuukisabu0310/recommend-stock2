@@ -1,7 +1,7 @@
 {
   "ticker": "2345",
   "japanese_ticker": "2345.T",
-  "fetch_date": "2026-02-21T23:24:56.852104",
+  "fetch_date": "2026-02-22T23:26:13.559910",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-10-31 00:00:00": -211777720.0,
@@ -1260,8 +1260,10 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "regularMarketChangePercent": 1.4423077,
-    "regularMarketPrice": 211.0,
+    "marketState": "CLOSED",
+    "shortName": "HODL1 INC",
+    "longName": "HODL 1,inc.",
+    "epsTrailingTwelveMonths": -77.12,
     "fiftyDayAverageChange": -11.100006,
     "fiftyDayAverageChangePercent": -0.049977515,
     "twoHundredDayAverageChange": -22.779999,
@@ -1269,7 +1271,7 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "prevName": "Kushim, Inc.",
-    "nameChangeDate": "2026-02-21",
+    "nameChangeDate": "2026-02-22",
     "cryptoTradeable": false,
     "corporateActions": [],
     "regularMarketTime": 1771569000,
@@ -1280,13 +1282,12 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "marketState": "CLOSED",
+    "regularMarketChangePercent": 1.4423077,
+    "regularMarketPrice": 211.0,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1039737600000,
     "regularMarketChange": 3.0,
     "regularMarketDayRange": "202.0 - 212.0",
-    "shortName": "HODL1 INC",
-    "longName": "HODL 1,inc.",
     "fullExchangeName": "Tokyo",
     "averageDailyVolume3Month": 608066,
     "fiftyTwoWeekLowChange": 52.0,
@@ -1298,7 +1299,6 @@
     "earningsTimestampStart": 1745826300,
     "earningsTimestampEnd": 1745826300,
     "isEarningsDateEstimate": false,
-    "epsTrailingTwelveMonths": -77.12,
     "trailingPegRatio": null
   }
 }

@@ -1,7 +1,7 @@
 {
   "ticker": "2816",
   "japanese_ticker": "2816.T",
-  "fetch_date": "2026-02-21T23:30:00.730458",
+  "fetch_date": "2026-02-22T23:31:29.010599",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": -7770000.0,
@@ -1206,12 +1206,11 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "shortName": "DAISHO CO LTD",
-    "longName": "Daisho Co.,Ltd.",
-    "regularMarketChangePercent": 0.0,
-    "regularMarketPrice": 1420.0,
     "corporateActions": [],
     "regularMarketTime": 1771568170,
+    "marketState": "CLOSED",
+    "shortName": "DAISHO CO LTD",
+    "longName": "Daisho Co.,Ltd.",
     "exchange": "JPX",
     "messageBoardId": "finmb_5751391",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1219,7 +1218,6 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "cryptoTradeable": false,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 978652800000,
     "regularMarketChange": 0.0,
@@ -1242,7 +1240,9 @@
     "twoHundredDayAverageChangePercent": 0.010176499,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
-    "marketState": "CLOSED",
+    "cryptoTradeable": false,
+    "regularMarketChangePercent": 0.0,
+    "regularMarketPrice": 1420.0,
     "trailingPegRatio": null
   }
 }

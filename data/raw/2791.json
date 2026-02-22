@@ -1,7 +1,7 @@
 {
   "ticker": "2791",
   "japanese_ticker": "2791.T",
-  "fetch_date": "2026-02-21T23:29:29.647441",
+  "fetch_date": "2026-02-22T23:30:56.302932",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-05-31 00:00:00": -6560000.0,
@@ -1268,10 +1268,6 @@
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
     "marketState": "CLOSED",
-    "regularMarketChangePercent": -1.0695187,
-    "regularMarketPrice": 5550.0,
-    "corporateActions": [],
-    "regularMarketTime": 1771569000,
     "exchange": "JPX",
     "messageBoardId": "finmb_5719971",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1279,8 +1275,14 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
+    "regularMarketChangePercent": -1.0695187,
+    "regularMarketPrice": 5550.0,
+    "corporateActions": [],
+    "regularMarketTime": 1771569000,
     "shortName": "DAIKOKUTENBUSSAN CO",
     "longName": "Daikokutenbussan Co.,Ltd.",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1148428800000,
     "regularMarketChange": -60.0,
     "regularMarketDayRange": "5550.0 - 5610.0",
     "fullExchangeName": "Tokyo",
@@ -1302,8 +1304,6 @@
     "twoHundredDayAverageChangePercent": -0.17533432,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1148428800000,
     "cryptoTradeable": false,
     "trailingPegRatio": null
   }

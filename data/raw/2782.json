@@ -1,7 +1,7 @@
 {
   "ticker": "2782",
   "japanese_ticker": "2782.T",
-  "fetch_date": "2026-02-21T23:29:20.211578",
+  "fetch_date": "2026-02-22T23:30:46.320142",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": -226097000.0,
@@ -1137,6 +1137,11 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "shortName": "SERIA CO LTD",
+    "longName": "Seria Co., Ltd.",
+    "marketState": "CLOSED",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1063843200000,
     "regularMarketChange": -50.0,
     "regularMarketDayRange": "4295.0 - 4400.0",
     "fullExchangeName": "Tokyo",
@@ -1160,8 +1165,8 @@
     "twoHundredDayAverageChangePercent": 0.36454698,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1063843200000,
+    "averageAnalystRating": "2.6 - Hold",
+    "cryptoTradeable": false,
     "corporateActions": [],
     "regularMarketTime": 1771569000,
     "exchange": "JPX",
@@ -1171,13 +1176,8 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "shortName": "SERIA CO LTD",
-    "longName": "Seria Co., Ltd.",
     "regularMarketChangePercent": -1.1428571,
     "regularMarketPrice": 4325.0,
-    "marketState": "CLOSED",
-    "averageAnalystRating": "2.6 - Hold",
-    "cryptoTradeable": false,
     "trailingPegRatio": null
   }
 }

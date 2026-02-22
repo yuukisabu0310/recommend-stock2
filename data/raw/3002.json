@@ -1,7 +1,7 @@
 {
   "ticker": "3002",
   "japanese_ticker": "3002.T",
-  "fetch_date": "2026-02-21T23:31:54.304870",
+  "fetch_date": "2026-02-22T23:33:32.216007",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": 276944000.0,
@@ -1271,11 +1271,8 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "marketState": "CLOSED",
-    "regularMarketChangePercent": -0.855615,
-    "regularMarketPrice": 4635.0,
-    "corporateActions": [],
-    "regularMarketTime": 1771569000,
+    "shortName": "GUNZE LTD",
+    "longName": "Gunze Limited",
     "exchange": "JPX",
     "messageBoardId": "finmb_874632",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1283,9 +1280,6 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "shortName": "GUNZE LTD",
-    "longName": "Gunze Limited",
-    "regularMarketChange": -40.0,
     "regularMarketDayRange": "4615.0 - 4665.0",
     "fullExchangeName": "Tokyo",
     "averageDailyVolume3Month": 172600,
@@ -1306,9 +1300,15 @@
     "twoHundredDayAverageChangePercent": 0.19735423,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
+    "marketState": "CLOSED",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 978307200000,
-    "cryptoTradeable": false,
+    "regularMarketChange": -40.0,
+    "regularMarketChangePercent": -0.855615,
+    "regularMarketPrice": 4635.0,
+    "corporateActions": [],
+    "regularMarketTime": 1771569000,
     "trailingPegRatio": null
   }
 }

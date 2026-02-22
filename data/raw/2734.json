@@ -1,7 +1,7 @@
 {
   "ticker": "2734",
   "japanese_ticker": "2734.T",
-  "fetch_date": "2026-02-21T23:28:37.944465",
+  "fetch_date": "2026-02-22T23:30:03.557855",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2024-11-30 00:00:00": 182684230.96841,
@@ -1002,24 +1002,6 @@
         "yearBorn": 1972,
         "exercisedValue": 0,
         "unexercisedValue": 0
-      },
-      {
-        "maxAge": 1,
-        "name": "Mr. Takayuki  Watarai",
-        "age": 53,
-        "title": "MD & Director",
-        "yearBorn": 1972,
-        "exercisedValue": 0,
-        "unexercisedValue": 0
-      },
-      {
-        "maxAge": 1,
-        "name": "Mr. Keitaro  Suzuki",
-        "age": 61,
-        "title": "Executive Officer & Energy & Solutions Segment Leader and Representative Director",
-        "yearBorn": 1964,
-        "exercisedValue": 0,
-        "unexercisedValue": 0
       }
     ],
     "irWebsite": "http://www.sala.jp/english/kessan/index.html",
@@ -1114,10 +1096,6 @@
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
     "marketState": "CLOSED",
-    "regularMarketChangePercent": -0.75949365,
-    "regularMarketPrice": 1176.0,
-    "corporateActions": [],
-    "regularMarketTime": 1771569000,
     "exchange": "JPX",
     "messageBoardId": "finmb_7870355",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1125,8 +1103,14 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
+    "regularMarketChangePercent": -0.75949365,
+    "regularMarketPrice": 1176.0,
+    "corporateActions": [],
+    "regularMarketTime": 1771569000,
     "shortName": "SALA CORPORATION",
     "longName": "SALA Corporation",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1020124800000,
     "regularMarketChange": -9.0,
     "regularMarketDayRange": "1158.0 - 1183.0",
     "fullExchangeName": "Tokyo",
@@ -1147,8 +1131,6 @@
     "twoHundredDayAverageChangePercent": 0.13638562,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1020124800000,
     "cryptoTradeable": false,
     "trailingPegRatio": null
   }

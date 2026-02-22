@@ -1,7 +1,7 @@
 {
   "ticker": "2753",
   "japanese_ticker": "2753.T",
-  "fetch_date": "2026-02-21T23:28:58.361049",
+  "fetch_date": "2026-02-22T23:30:25.555870",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": -36059000.0,
@@ -1222,7 +1222,6 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "cryptoTradeable": false,
     "marketState": "CLOSED",
     "corporateActions": [],
     "regularMarketTime": 1771569000,
@@ -1235,6 +1234,8 @@
     "esgPopulated": false,
     "regularMarketChangePercent": -0.9715475,
     "regularMarketPrice": 1427.0,
+    "shortName": "AMIYAKI TEI CO LTD",
+    "longName": "Amiyaki Tei Co., Ltd.",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1040169600000,
     "regularMarketChange": -14.0,
@@ -1258,8 +1259,7 @@
     "twoHundredDayAverageChangePercent": -0.008607823,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
-    "shortName": "AMIYAKI TEI CO LTD",
-    "longName": "Amiyaki Tei Co., Ltd.",
+    "cryptoTradeable": false,
     "trailingPegRatio": null
   }
 }

@@ -1,7 +1,7 @@
 {
   "ticker": "1888",
   "japanese_ticker": "1888.T",
-  "fetch_date": "2026-02-21T23:19:59.220500",
+  "fetch_date": "2026-02-22T23:21:04.799017",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": 834000.0,
@@ -1248,7 +1248,7 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "fullExchangeName": "Tokyo",
+    "longName": "Wakachiku Construction Co., Ltd.",
     "averageDailyVolume3Month": 25574,
     "fiftyTwoWeekLowChange": 1430.0,
     "fiftyTwoWeekLowChangePercent": 0.42058823,
@@ -1267,7 +1267,8 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "shortName": "WAKACHIKU CONSTRUCTION CO",
-    "longName": "Wakachiku Construction Co., Ltd.",
+    "cryptoTradeable": false,
+    "marketState": "CLOSED",
     "corporateActions": [],
     "regularMarketTime": 1771569000,
     "exchange": "JPX",
@@ -1279,12 +1280,11 @@
     "esgPopulated": false,
     "regularMarketChangePercent": -1.2269938,
     "regularMarketPrice": 4830.0,
-    "cryptoTradeable": false,
-    "marketState": "CLOSED",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 978307200000,
     "regularMarketChange": -60.0,
     "regularMarketDayRange": "4810.0 - 4900.0",
+    "fullExchangeName": "Tokyo",
     "trailingPegRatio": null
   }
 }

@@ -1,7 +1,7 @@
 {
   "ticker": "2186",
   "japanese_ticker": "2186.T",
-  "fetch_date": "2026-02-21T23:22:56.910541",
+  "fetch_date": "2026-02-22T23:24:10.473890",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-02-28 00:00:00": 22975660.4,
@@ -1128,18 +1128,9 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "marketState": "CLOSED",
-    "regularMarketChangePercent": 0.10893246,
-    "regularMarketPrice": 919.0,
-    "corporateActions": [],
-    "regularMarketTime": 1771569000,
-    "exchange": "JPX",
-    "messageBoardId": "finmb_48670392",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
+    "shortName": "SOBAL CORPORATION",
+    "longName": "Sobal Corporation",
+    "epsTrailingTwelveMonths": 52.38,
     "fiftyDayAverageChange": 7.880005,
     "fiftyDayAverageChangePercent": 0.008648702,
     "twoHundredDayAverageChange": -0.6799927,
@@ -1147,8 +1138,6 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
-    "shortName": "SOBAL CORPORATION",
-    "longName": "Sobal Corporation",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1229040000000,
     "regularMarketChange": 1.0,
@@ -1164,7 +1153,28 @@
     "earningsTimestampStart": 1744353000,
     "earningsTimestampEnd": 1744353000,
     "isEarningsDateEstimate": false,
-    "epsTrailingTwelveMonths": 52.38,
+    "regularMarketChangePercent": 0.10893246,
+    "regularMarketPrice": 919.0,
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "2186.T announced a cash dividend of 16.50 JPY with an ex-date of Feb. 26, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1772031600000,
+          "amount": "16.50"
+        }
+      }
+    ],
+    "regularMarketTime": 1771569000,
+    "exchange": "JPX",
+    "messageBoardId": "finmb_48670392",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
+    "marketState": "CLOSED",
     "trailingPegRatio": null
   }
 }

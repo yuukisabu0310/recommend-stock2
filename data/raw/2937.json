@@ -1,7 +1,7 @@
 {
   "ticker": "2937",
   "japanese_ticker": "2937.T",
-  "fetch_date": "2026-02-21T23:31:18.505855",
+  "fetch_date": "2026-02-22T23:32:53.593099",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": -44452360.0,
@@ -1221,8 +1221,8 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "shortName": "ST COUSAIR CO LTD",
     "longName": "St.Cousair Co., Ltd.",
+    "shortName": "ST COUSAIR CO LTD",
     "corporateActions": [],
     "regularMarketTime": 1771567984,
     "exchange": "JPX",
@@ -1232,16 +1232,9 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "marketState": "CLOSED",
     "regularMarketChangePercent": -0.16910936,
     "regularMarketPrice": 1771.0,
-    "fiftyDayAverageChange": 62.579956,
-    "fiftyDayAverageChangePercent": 0.03663031,
-    "twoHundredDayAverageChange": 111.68506,
-    "twoHundredDayAverageChangePercent": 0.067307934,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
+    "marketState": "CLOSED",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1671580800000,
     "regularMarketChange": -3.0,
@@ -1258,6 +1251,13 @@
     "earningsTimestampEnd": 1747121400,
     "isEarningsDateEstimate": false,
     "epsTrailingTwelveMonths": 54.72,
+    "fiftyDayAverageChange": 62.579956,
+    "fiftyDayAverageChangePercent": 0.03663031,
+    "twoHundredDayAverageChange": 111.68506,
+    "twoHundredDayAverageChangePercent": 0.067307934,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
     "trailingPegRatio": null
   }
 }

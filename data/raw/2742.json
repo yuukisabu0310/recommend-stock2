@@ -1,7 +1,7 @@
 {
   "ticker": "2742",
   "japanese_ticker": "2742.T",
-  "fetch_date": "2026-02-21T23:28:45.001688",
+  "fetch_date": "2026-02-22T23:30:11.362125",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-02-28 00:00:00": -30705000.0,
@@ -1360,6 +1360,7 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "marketState": "CLOSED",
     "earningsTimestampStart": 1750831200,
     "earningsTimestampEnd": 1751263200,
     "isEarningsDateEstimate": true,
@@ -1372,22 +1373,8 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
-    "shortName": "HALOWS CO LTD",
-    "longName": "Halows Co.,Ltd.",
-    "marketState": "CLOSED",
-    "corporateActions": [],
-    "regularMarketTime": 1771569000,
-    "exchange": "JPX",
-    "messageBoardId": "finmb_5548153",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1031011200000,
-    "regularMarketChangePercent": -3.9513679,
-    "regularMarketPrice": 4740.0,
     "regularMarketChange": -195.0,
     "regularMarketDayRange": "4740.0 - 4910.0",
     "fullExchangeName": "Tokyo",
@@ -1398,6 +1385,29 @@
     "fiftyTwoWeekHighChange": -550.0,
     "fiftyTwoWeekHighChangePercent": -0.10396975,
     "fiftyTwoWeekChangePercent": 20.304573,
+    "shortName": "HALOWS CO LTD",
+    "longName": "Halows Co.,Ltd.",
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "2742.T announced a cash dividend of 34.00 JPY with an ex-date of Feb. 26, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1772031600000,
+          "amount": "34.00"
+        }
+      }
+    ],
+    "regularMarketTime": 1771569000,
+    "exchange": "JPX",
+    "messageBoardId": "finmb_5548153",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
+    "regularMarketChangePercent": -3.9513679,
+    "regularMarketPrice": 4740.0,
     "trailingPegRatio": null
   }
 }

@@ -1,7 +1,7 @@
 {
   "ticker": "2933",
   "japanese_ticker": "2933.T",
-  "fetch_date": "2026-02-21T23:31:10.327452",
+  "fetch_date": "2026-02-22T23:32:45.234016",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": -44820796.0,
@@ -1166,18 +1166,7 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "fiftyDayAverageChange": -1.0,
-    "fiftyDayAverageChangePercent": -0.00092081033,
-    "twoHundredDayAverageChange": -14.819946,
-    "twoHundredDayAverageChangePercent": -0.013474884,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
     "marketState": "CLOSED",
-    "regularMarketChangePercent": -0.5499542,
-    "regularMarketPrice": 1085.0,
-    "shortName": "KIBUN FOODS INC",
-    "longName": "Kibun Foods Inc.",
     "corporateActions": [],
     "regularMarketTime": 1771569000,
     "exchange": "JPX",
@@ -1187,6 +1176,10 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
+    "regularMarketChangePercent": -0.5499542,
+    "regularMarketPrice": 1085.0,
+    "shortName": "KIBUN FOODS INC",
+    "longName": "Kibun Foods Inc.",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1618272000000,
     "regularMarketChange": -6.0,
@@ -1206,6 +1199,13 @@
     "isEarningsDateEstimate": false,
     "epsTrailingTwelveMonths": 69.66,
     "epsForward": 92.0,
+    "fiftyDayAverageChange": -1.0,
+    "fiftyDayAverageChangePercent": -0.00092081033,
+    "twoHundredDayAverageChange": -14.819946,
+    "twoHundredDayAverageChangePercent": -0.013474884,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
     "trailingPegRatio": null
   }
 }

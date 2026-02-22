@@ -1,7 +1,7 @@
 {
   "ticker": "1813",
   "japanese_ticker": "1813.T",
-  "fetch_date": "2026-02-21T23:19:01.048977",
+  "fetch_date": "2026-02-22T23:20:07.373531",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": -28580060.422961,
@@ -1281,7 +1281,6 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "firstTradeDateMilliseconds": 978566400000,
     "regularMarketChange": -65.0,
     "regularMarketDayRange": "3775.0 - 3845.0",
     "fullExchangeName": "Tokyo",
@@ -1306,8 +1305,12 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "averageAnalystRating": "1.0 - Strong Buy",
-    "cryptoTradeable": false,
+    "shortName": "FUDO TETRA CORP",
+    "longName": "Fudo Tetra Corporation",
+    "regularMarketChangePercent": -1.686122,
+    "regularMarketPrice": 3790.0,
     "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 978566400000,
     "marketState": "CLOSED",
     "corporateActions": [],
     "regularMarketTime": 1771569000,
@@ -1318,10 +1321,7 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "shortName": "FUDO TETRA CORP",
-    "longName": "Fudo Tetra Corporation",
-    "regularMarketChangePercent": -1.686122,
-    "regularMarketPrice": 3790.0,
+    "cryptoTradeable": false,
     "trailingPegRatio": null
   }
 }

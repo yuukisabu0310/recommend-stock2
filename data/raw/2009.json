@@ -1,7 +1,7 @@
 {
   "ticker": "2009",
   "japanese_ticker": "2009.T",
-  "fetch_date": "2026-02-21T23:21:39.975282",
+  "fetch_date": "2026-02-22T23:22:50.466249",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2024-12-31 00:00:00": 45297768.0,
@@ -1057,14 +1057,13 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "marketState": "CLOSED",
+    "fiftyDayAverageChange": 7.119995,
+    "fiftyDayAverageChangePercent": 0.0066055544,
+    "twoHundredDayAverageChange": 73.57501,
     "twoHundredDayAverageChangePercent": 0.072743915,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
-    "shortName": "TORIGOE CO LTD (THE)",
-    "regularMarketChangePercent": 0.55607045,
-    "regularMarketPrice": 1085.0,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 978566400000,
     "regularMarketChange": 6.0,
@@ -1081,10 +1080,9 @@
     "earningsTimestampEnd": 1754978400,
     "isEarningsDateEstimate": true,
     "epsTrailingTwelveMonths": 48.17,
-    "fiftyDayAverageChange": 7.119995,
-    "fiftyDayAverageChangePercent": 0.0066055544,
-    "twoHundredDayAverageChange": 73.57501,
+    "shortName": "TORIGOE CO LTD (THE)",
     "longName": "The Torigoe Co., Ltd.",
+    "marketState": "CLOSED",
     "corporateActions": [],
     "regularMarketTime": 1771569000,
     "exchange": "JPX",
@@ -1094,6 +1092,8 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
+    "regularMarketChangePercent": 0.55607045,
+    "regularMarketPrice": 1085.0,
     "trailingPegRatio": null
   }
 }

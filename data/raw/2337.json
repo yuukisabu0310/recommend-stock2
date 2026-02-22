@@ -1,7 +1,7 @@
 {
   "ticker": "2337",
   "japanese_ticker": "2337.T",
-  "fetch_date": "2026-02-21T23:24:45.044869",
+  "fetch_date": "2026-02-22T23:26:01.636341",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-02-28 00:00:00": 2731169665.809769,
@@ -1314,7 +1314,6 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "firstTradeDateMilliseconds": 1036972800000,
     "regularMarketChange": -11.0,
     "regularMarketDayRange": "425.0 - 436.0",
     "fullExchangeName": "Tokyo",
@@ -1339,20 +1338,14 @@
     "twoHundredDayAverageChangePercent": 0.046478845,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
+    "shortName": "ICHIGO INC",
+    "longName": "Ichigo Inc.",
+    "regularMarketChangePercent": -2.5114155,
+    "regularMarketPrice": 427.0,
     "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1036972800000,
     "marketState": "CLOSED",
-    "corporateActions": [
-      {
-        "header": "Dividend",
-        "message": "2337.T announced a cash dividend of 11.50 JPY with an ex-date of Feb. 26, 2026",
-        "meta": {
-          "eventType": "DIVIDEND",
-          "dateEpochMs": 1772031600000,
-          "amount": "11.50"
-        }
-      }
-    ],
+    "corporateActions": [],
     "regularMarketTime": 1771569000,
     "exchange": "JPX",
     "messageBoardId": "finmb_9884895",
@@ -1361,10 +1354,7 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "shortName": "ICHIGO INC",
-    "longName": "Ichigo Inc.",
-    "regularMarketChangePercent": -2.5114155,
-    "regularMarketPrice": 427.0,
+    "cryptoTradeable": false,
     "trailingPegRatio": null
   }
 }

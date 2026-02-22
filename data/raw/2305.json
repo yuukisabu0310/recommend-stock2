@@ -1,7 +1,7 @@
 {
   "ticker": "2305",
   "japanese_ticker": "2305.T",
-  "fetch_date": "2026-02-21T23:24:14.110825",
+  "fetch_date": "2026-02-22T23:25:30.202851",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-02-28 00:00:00": -304268622.0,
@@ -1135,10 +1135,20 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1059523200000,
-    "regularMarketChange": 9.0,
-    "regularMarketDayRange": "1988.0 - 2000.0",
+    "regularMarketChangePercent": 0.45203418,
+    "regularMarketPrice": 2000.0,
+    "cryptoTradeable": false,
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "2305.T announced a cash dividend of 50.00 JPY with an ex-date of Feb. 26, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1772031600000,
+          "amount": "50.00"
+        }
+      }
+    ],
     "regularMarketTime": 1771569000,
     "exchange": "JPX",
     "messageBoardId": "finmb_5705898",
@@ -1147,23 +1157,20 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "regularMarketChangePercent": 0.45203418,
-    "regularMarketPrice": 2000.0,
-    "corporateActions": [],
-    "marketState": "CLOSED",
-    "isEarningsDateEstimate": true,
-    "epsTrailingTwelveMonths": 93.2,
+    "shortName": "STUDIO ALICE",
+    "longName": "STUDIO ALICE Co.,Ltd.",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1059523200000,
+    "regularMarketChange": 9.0,
+    "regularMarketDayRange": "1988.0 - 2000.0",
+    "fullExchangeName": "Tokyo",
+    "averageDailyVolume3Month": 23771,
     "fiftyDayAverageChange": -11.959961,
     "fiftyDayAverageChangePercent": -0.0059444327,
     "twoHundredDayAverageChange": -67.36499,
     "twoHundredDayAverageChangePercent": -0.032584954,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
-    "shortName": "STUDIO ALICE",
-    "longName": "STUDIO ALICE Co.,Ltd.",
-    "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 23771,
     "fiftyTwoWeekLowChange": 52.0,
     "fiftyTwoWeekLowChangePercent": 0.026694044,
     "fiftyTwoWeekRange": "1948.0 - 2178.0",
@@ -1172,6 +1179,9 @@
     "fiftyTwoWeekChangePercent": -4.122722,
     "earningsTimestampStart": 1752042600,
     "earningsTimestampEnd": 1752474600,
+    "isEarningsDateEstimate": true,
+    "epsTrailingTwelveMonths": 93.2,
+    "marketState": "CLOSED",
     "trailingPegRatio": null
   }
 }

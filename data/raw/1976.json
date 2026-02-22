@@ -1,7 +1,7 @@
 {
   "ticker": "1976",
   "japanese_ticker": "1976.T",
-  "fetch_date": "2026-02-21T23:21:18.013514",
+  "fetch_date": "2026-02-22T23:22:27.064702",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": 207360000.0,
@@ -1241,6 +1241,8 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "shortName": "MEISEI INDUSTRIAL CO",
+    "longName": "MEISEI INDUSTRIAL Co.,Ltd.",
     "marketState": "CLOSED",
     "regularMarketChangePercent": 0.10319918,
     "regularMarketPrice": 1940.0,
@@ -1253,15 +1255,6 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "fiftyDayAverageChange": 185.93994,
-    "fiftyDayAverageChangePercent": 0.10600546,
-    "twoHundredDayAverageChange": 326.51,
-    "twoHundredDayAverageChangePercent": 0.20236258,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
-    "shortName": "MEISEI INDUSTRIAL CO",
-    "longName": "MEISEI INDUSTRIAL Co.,Ltd.",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 954806400000,
     "regularMarketChange": 2.0,
@@ -1278,6 +1271,13 @@
     "earningsTimestampEnd": 1754289000,
     "isEarningsDateEstimate": true,
     "epsTrailingTwelveMonths": 154.42,
+    "fiftyDayAverageChange": 185.93994,
+    "fiftyDayAverageChangePercent": 0.10600546,
+    "twoHundredDayAverageChange": 326.51,
+    "twoHundredDayAverageChangePercent": 0.20236258,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
     "trailingPegRatio": null
   }
 }

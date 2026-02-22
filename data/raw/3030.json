@@ -1,7 +1,7 @@
 {
   "ticker": "3030",
   "japanese_ticker": "3030.T",
-  "fetch_date": "2026-02-21T23:32:13.685135",
+  "fetch_date": "2026-02-22T23:33:52.429016",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-02-28 00:00:00": -5415444.0,
@@ -1310,27 +1310,11 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "regularMarketChangePercent": -2.3414633,
-    "regularMarketPrice": 1001.0,
-    "fiftyDayAverageChange": 29.299988,
-    "fiftyDayAverageChangePercent": 0.030153327,
-    "twoHundredDayAverageChange": 179.96503,
-    "twoHundredDayAverageChangePercent": 0.21919289,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
-    "corporateActions": [
-      {
-        "header": "Dividend",
-        "message": "3030.T announced a cash dividend of 10.00 JPY with an ex-date of Feb. 26, 2026",
-        "meta": {
-          "eventType": "DIVIDEND",
-          "dateEpochMs": 1772031600000,
-          "amount": "10.00"
-        }
-      }
-    ],
+    "corporateActions": [],
     "regularMarketTime": 1771569000,
+    "marketState": "CLOSED",
+    "shortName": "HUB CO. LTD",
+    "longName": "Hub Co., Ltd.",
     "exchange": "JPX",
     "messageBoardId": "finmb_26201835",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1338,13 +1322,10 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "marketState": "CLOSED",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1144022400000,
     "regularMarketChange": -24.0,
     "regularMarketDayRange": "1000.0 - 1022.0",
-    "shortName": "HUB CO. LTD",
-    "longName": "Hub Co., Ltd.",
     "fullExchangeName": "Tokyo",
     "averageDailyVolume3Month": 54464,
     "fiftyTwoWeekLowChange": 312.0,
@@ -1358,6 +1339,15 @@
     "isEarningsDateEstimate": true,
     "epsTrailingTwelveMonths": 38.74,
     "epsForward": 39.0,
+    "fiftyDayAverageChange": 29.299988,
+    "fiftyDayAverageChangePercent": 0.030153327,
+    "twoHundredDayAverageChange": 179.96503,
+    "twoHundredDayAverageChangePercent": 0.21919289,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
+    "regularMarketChangePercent": -2.3414633,
+    "regularMarketPrice": 1001.0,
     "trailingPegRatio": null
   }
 }

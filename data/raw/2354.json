@@ -1,7 +1,7 @@
 {
   "ticker": "2354",
   "japanese_ticker": "2354.T",
-  "fetch_date": "2026-02-21T23:25:03.863761",
+  "fetch_date": "2026-02-22T23:26:21.614179",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-02-28 00:00:00": 5557365.0,
@@ -1191,15 +1191,17 @@
     "earningsTimestampEnd": 1743404400,
     "isEarningsDateEstimate": false,
     "epsTrailingTwelveMonths": 48.08,
-    "fiftyDayAverageChange": -5.9000244,
-    "fiftyDayAverageChangePercent": -0.007357556,
-    "twoHundredDayAverageChange": 98.16998,
-    "twoHundredDayAverageChangePercent": 0.14067893,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "corporateActions": [],
-    "shortName": "YE DIGITAL CORPORATION",
-    "longName": "YE DIGITAL Corporation",
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "2354.T announced a cash dividend of 10.00 JPY with an ex-date of Feb. 26, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1772031600000,
+          "amount": "10.00"
+        }
+      }
+    ],
     "regularMarketTime": 1771569000,
     "exchange": "JPX",
     "messageBoardId": "finmb_8378370",
@@ -1208,8 +1210,16 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
+    "shortName": "YE DIGITAL CORPORATION",
     "marketState": "CLOSED",
+    "fiftyDayAverageChange": -5.9000244,
+    "fiftyDayAverageChangePercent": -0.007357556,
+    "twoHundredDayAverageChange": 98.16998,
+    "twoHundredDayAverageChangePercent": 0.14067893,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
+    "longName": "YE DIGITAL Corporation",
     "regularMarketChangePercent": -1.606922,
     "regularMarketPrice": 796.0,
     "trailingPegRatio": null

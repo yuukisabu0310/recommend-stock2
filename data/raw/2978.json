@@ -1,7 +1,7 @@
 {
   "ticker": "2978",
   "japanese_ticker": "2978.T",
-  "fetch_date": "2026-02-21T23:31:30.452082",
+  "fetch_date": "2026-02-22T23:33:05.550973",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-07-31 00:00:00": -13062582.44316,
@@ -1217,14 +1217,11 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "regularMarketChangePercent": 0.44444445,
-    "regularMarketPrice": 452.0,
-    "marketState": "CLOSED",
     "corporateActions": [],
     "regularMarketTime": 1771569000,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
+    "marketState": "CLOSED",
+    "shortName": "TSUKURUBA INC",
+    "longName": "TSUKURUBA Inc.",
     "exchange": "JPX",
     "messageBoardId": "finmb_286087094",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1232,8 +1229,6 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "shortName": "TSUKURUBA INC",
-    "longName": "TSUKURUBA Inc.",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1564531200000,
     "regularMarketChange": 2.0,
@@ -1254,6 +1249,11 @@
     "fiftyDayAverageChangePercent": -0.005544286,
     "twoHundredDayAverageChange": -111.96503,
     "twoHundredDayAverageChangePercent": -0.19853187,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
+    "regularMarketChangePercent": 0.44444445,
+    "regularMarketPrice": 452.0,
     "trailingPegRatio": null
   }
 }

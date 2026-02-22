@@ -1,7 +1,7 @@
 {
   "ticker": "2003",
   "japanese_ticker": "2003.T",
-  "fetch_date": "2026-02-21T23:21:36.576854",
+  "fetch_date": "2026-02-22T23:22:47.003000",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": -98868000.0,
@@ -1260,12 +1260,11 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 978307200000,
     "shortName": "NITTO FUJI FLOUR MILLING CO",
     "longName": "Nitto Fuji Flour Milling Co.,Ltd.",
-    "regularMarketChangePercent": -1.1049724,
-    "regularMarketPrice": 7160.0,
+    "marketState": "CLOSED",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 978307200000,
     "regularMarketChange": -80.0,
     "regularMarketDayRange": "7110.0 - 7180.0",
     "fullExchangeName": "Tokyo",
@@ -1296,7 +1295,8 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "marketState": "CLOSED",
+    "regularMarketChangePercent": -1.1049724,
+    "regularMarketPrice": 7160.0,
     "trailingPegRatio": null
   }
 }

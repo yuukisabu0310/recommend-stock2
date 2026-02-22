@@ -1,7 +1,7 @@
 {
   "ticker": "2702",
   "japanese_ticker": "2702.T",
-  "fetch_date": "2026-02-21T23:28:22.695776",
+  "fetch_date": "2026-02-22T23:29:48.314297",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-12-31 00:00:00": null,
@@ -1111,9 +1111,8 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "marketState": "CLOSED",
-    "regularMarketChangePercent": -1.5235456,
-    "regularMarketPrice": 7110.0,
+    "longName": "McDonald's Holdings Company (Japan), Ltd.",
+    "shortName": "MCDONALD'S HOLDINGS COMPANY(JAP",
     "corporateActions": [],
     "regularMarketTime": 1771569000,
     "exchange": "JPX",
@@ -1123,8 +1122,11 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "shortName": "MCDONALD'S HOLDINGS COMPANY(JAP",
-    "longName": "McDonald's Holdings Company (Japan), Ltd.",
+    "regularMarketChangePercent": -1.5235456,
+    "regularMarketPrice": 7110.0,
+    "marketState": "CLOSED",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 996105600000,
     "regularMarketChange": -110.0,
     "regularMarketDayRange": "7100.0 - 7190.0",
     "fullExchangeName": "Tokyo",
@@ -1150,8 +1152,6 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "averageAnalystRating": "2.0 - Buy",
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 996105600000,
     "cryptoTradeable": false,
     "trailingPegRatio": null
   }

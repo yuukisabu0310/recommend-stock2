@@ -1,7 +1,7 @@
 {
   "ticker": "2798",
   "japanese_ticker": "2798.T",
-  "fetch_date": "2026-02-21T23:29:37.497824",
+  "fetch_date": "2026-02-22T23:31:04.029381",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-02-28 00:00:00": -1109100.0,
@@ -1196,6 +1196,13 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "shortName": "Y'S TABLE CORP",
+    "longName": "Y's Table Corporation",
+    "marketState": "CLOSED",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1078099200000,
+    "regularMarketChange": -10.0,
+    "regularMarketDayRange": "3015.0 - 3025.0",
     "fullExchangeName": "Tokyo",
     "averageDailyVolume3Month": 2176,
     "fiftyTwoWeekLowChange": 305.0,
@@ -1214,8 +1221,7 @@
     "twoHundredDayAverageChangePercent": 0.02316111,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
-    "shortName": "Y'S TABLE CORP",
-    "longName": "Y's Table Corporation",
+    "cryptoTradeable": false,
     "corporateActions": [],
     "regularMarketTime": 1771569000,
     "exchange": "JPX",
@@ -1227,12 +1233,6 @@
     "esgPopulated": false,
     "regularMarketChangePercent": -0.3305785,
     "regularMarketPrice": 3015.0,
-    "cryptoTradeable": false,
-    "marketState": "CLOSED",
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1078099200000,
-    "regularMarketChange": -10.0,
-    "regularMarketDayRange": "3015.0 - 3025.0",
     "trailingPegRatio": null
   }
 }

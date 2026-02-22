@@ -1,7 +1,7 @@
 {
   "ticker": "2334",
   "japanese_ticker": "2334.T",
-  "fetch_date": "2026-02-21T23:24:41.100234",
+  "fetch_date": "2026-02-22T23:25:57.898018",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": -108265352.0,
@@ -1163,7 +1163,7 @@
     "tradeable": false,
     "enterpriseValue": 13755988992,
     "profitMargins": 0.00366,
-    "floatShares": 19969599,
+    "floatShares": 15467462,
     "sharesOutstanding": 34296700,
     "heldPercentInsiders": 0.24584,
     "heldPercentInstitutions": 0.18484,
@@ -1208,7 +1208,8 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "cryptoTradeable": false,
+    "shortName": "EOLE INC",
+    "longName": "eole Inc.",
     "exchange": "JPX",
     "messageBoardId": "finmb_254443899",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1216,12 +1217,6 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "marketState": "CLOSED",
-    "regularMarketChangePercent": -1.594533,
-    "regularMarketPrice": 432.0,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1513555200000,
-    "regularMarketChange": -7.0,
     "regularMarketDayRange": "426.0 - 448.0",
     "fullExchangeName": "Tokyo",
     "averageDailyVolume3Month": 2534501,
@@ -1241,10 +1236,15 @@
     "twoHundredDayAverageChangePercent": 0.1019944,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
+    "marketState": "CLOSED",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1513555200000,
+    "regularMarketChange": -7.0,
+    "regularMarketChangePercent": -1.594533,
+    "regularMarketPrice": 432.0,
     "corporateActions": [],
     "regularMarketTime": 1771569000,
-    "shortName": "EOLE INC",
-    "longName": "eole Inc.",
     "trailingPegRatio": null
   }
 }

@@ -1,7 +1,7 @@
 {
   "ticker": "2411",
   "japanese_ticker": "2411.T",
-  "fetch_date": "2026-02-21T23:25:41.178329",
+  "fetch_date": "2026-02-22T23:26:58.547823",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": -276000.0,
@@ -1165,7 +1165,6 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "cryptoTradeable": false,
     "marketState": "CLOSED",
     "corporateActions": [],
     "regularMarketTime": 1771569000,
@@ -1178,6 +1177,8 @@
     "esgPopulated": false,
     "regularMarketChangePercent": -0.8213553,
     "regularMarketPrice": 483.0,
+    "shortName": "GENDAI AGENCY INC",
+    "longName": "Gendai Agency Inc.",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1095292800000,
     "regularMarketChange": -4.0,
@@ -1200,8 +1201,7 @@
     "twoHundredDayAverageChangePercent": 0.10140698,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
-    "shortName": "GENDAI AGENCY INC",
-    "longName": "Gendai Agency Inc.",
+    "cryptoTradeable": false,
     "trailingPegRatio": null
   }
 }

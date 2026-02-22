@@ -1,7 +1,7 @@
 {
   "ticker": "1798",
   "japanese_ticker": "1798.T",
-  "fetch_date": "2026-02-21T23:18:42.864689",
+  "fetch_date": "2026-02-22T23:19:48.429632",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": 4869816.0,
@@ -1120,11 +1120,9 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "marketState": "CLOSED",
-    "regularMarketChangePercent": -0.4316547,
-    "regularMarketPrice": 6920.0,
     "shortName": "MORIYA CORPORATION",
     "longName": "Moriya Corporation",
+    "marketState": "CLOSED",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 947030400000,
     "regularMarketChange": -30.0,
@@ -1157,6 +1155,8 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
+    "regularMarketChangePercent": -0.4316547,
+    "regularMarketPrice": 6920.0,
     "trailingPegRatio": null
   }
 }
