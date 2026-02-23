@@ -1,7 +1,7 @@
 {
   "ticker": "2499",
   "japanese_ticker": "2499.T",
-  "fetch_date": "2026-02-22T23:28:15.548865",
+  "fetch_date": "2026-02-23T23:38:51.278440",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2024-12-31 00:00:00": -1112700.160789,
@@ -893,11 +893,12 @@
     "averageVolume": 13733,
     "averageVolume10days": 9270,
     "averageDailyVolume10Day": 9270,
-    "bid": 361.0,
-    "ask": 364.0,
+    "bid": 0.0,
+    "ask": 362.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 3272681472,
+    "nonDilutedMarketCap": 3354272000,
     "fiftyTwoWeekLow": 290.0,
     "fiftyTwoWeekHigh": 421.0,
     "allTimeHigh": 678.0,
@@ -971,8 +972,6 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "regularMarketChangePercent": -0.5509642,
-    "regularMarketPrice": 361.0,
     "epsTrailingTwelveMonths": 33.21,
     "fiftyDayAverageChange": -2.8399963,
     "fiftyDayAverageChangePercent": -0.007805619,
@@ -981,7 +980,6 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
-    "marketState": "CLOSED",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1266883200000,
     "regularMarketChange": -2.0,
@@ -997,8 +995,11 @@
     "earningsTimestampStart": 1754978400,
     "earningsTimestampEnd": 1755496800,
     "isEarningsDateEstimate": true,
+    "regularMarketChangePercent": -0.5509642,
+    "regularMarketPrice": 361.0,
     "shortName": "NIHONWASOU HOLDINGS INC",
     "longName": "Nihonwasou Holdings, Inc.",
+    "marketState": "PREPRE",
     "trailingPegRatio": null
   }
 }

@@ -1,7 +1,7 @@
 {
   "ticker": "2698",
   "japanese_ticker": "2698.T",
-  "fetch_date": "2026-02-22T23:29:44.030611",
+  "fetch_date": "2026-02-23T23:40:23.706938",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-02-28 00:00:00": -128296000.0,
@@ -961,11 +961,12 @@
     "averageVolume": 12037,
     "averageVolume10days": 11060,
     "averageDailyVolume10Day": 11060,
-    "bid": 3515.0,
-    "ask": 3530.0,
+    "bid": 3520.0,
+    "ask": 3600.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 56306884608,
+    "nonDilutedMarketCap": 55667033520,
     "fiftyTwoWeekLow": 3130.0,
     "fiftyTwoWeekHigh": 3935.0,
     "allTimeHigh": 4335.0,
@@ -1047,6 +1048,11 @@
     "esgPopulated": false,
     "shortName": "CAN DO CO LTD",
     "longName": "Can Do Co., Ltd.",
+    "regularMarketChangePercent": -0.42432818,
+    "regularMarketPrice": 3520.0,
+    "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
+    "marketState": "PREPRE",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1070409600000,
     "regularMarketChange": -15.0,
@@ -1068,11 +1074,6 @@
     "twoHundredDayAverageChange": -23.324951,
     "twoHundredDayAverageChangePercent": -0.0065827863,
     "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
-    "regularMarketChangePercent": -0.42432818,
-    "regularMarketPrice": 3520.0,
-    "marketState": "CLOSED",
     "trailingPegRatio": null
   }
 }

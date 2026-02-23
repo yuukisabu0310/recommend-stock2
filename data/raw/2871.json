@@ -1,7 +1,7 @@
 {
   "ticker": "2871",
   "japanese_ticker": "2871.T",
-  "fetch_date": "2026-02-22T23:31:39.368195",
+  "fetch_date": "2026-02-23T23:42:21.027670",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": -582255000.0,
@@ -1159,11 +1159,12 @@
     "averageVolume": 1758061,
     "averageVolume10days": 1477440,
     "averageDailyVolume10Day": 1477440,
-    "bid": 2070.5,
-    "ask": 2079.0,
+    "bid": 2079.5,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 521035972608,
+    "nonDilutedMarketCap": 434072629332,
     "fiftyTwoWeekLow": 1628.0,
     "fiftyTwoWeekHigh": 2079.0,
     "allTimeHigh": 2277.0,
@@ -1228,8 +1229,7 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 946944000000,
+    "cryptoTradeable": false,
     "corporateActions": [],
     "regularMarketTime": 1771569000,
     "exchange": "JPX",
@@ -1241,6 +1241,8 @@
     "esgPopulated": false,
     "regularMarketChangePercent": 0.84889644,
     "regularMarketPrice": 2079.0,
+    "shortName": "NICHIREI CORP",
+    "longName": "Nichirei Corporation",
     "regularMarketChange": 17.5,
     "regularMarketDayRange": "2053.5 - 2079.0",
     "fullExchangeName": "Tokyo",
@@ -1265,10 +1267,9 @@
     "twoHundredDayAverageChangePercent": 0.13129157,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
-    "marketState": "CLOSED",
-    "shortName": "NICHIREI CORP",
-    "longName": "Nichirei Corporation",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 946944000000,
+    "marketState": "PREPRE",
     "trailingPegRatio": null
   }
 }

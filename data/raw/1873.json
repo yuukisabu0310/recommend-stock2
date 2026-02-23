@@ -1,7 +1,7 @@
 {
   "ticker": "1873",
   "japanese_ticker": "1873.T",
-  "fetch_date": "2026-02-22T23:20:53.850562",
+  "fetch_date": "2026-02-23T23:31:27.330889",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-04-30 00:00:00": -106080000.0,
@@ -1025,11 +1025,12 @@
     "averageVolume": 92332,
     "averageVolume10days": 52850,
     "averageDailyVolume10Day": 52850,
-    "bid": 323.0,
+    "bid": 0.0,
     "ask": 324.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 12919415808,
+    "nonDilutedMarketCap": 12439437090,
     "fiftyTwoWeekLow": 284.0,
     "fiftyTwoWeekHigh": 360.0,
     "allTimeHigh": 878.0,
@@ -1089,7 +1090,11 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "marketState": "CLOSED",
+    "marketState": "PREPRE",
+    "shortName": "NIHON HOUSE HOLDINGS CO LTD",
+    "longName": "Nihon House Holdings Co., Ltd.",
+    "regularMarketChangePercent": -1.5243902,
+    "regularMarketPrice": 323.0,
     "corporateActions": [],
     "regularMarketTime": 1771569000,
     "exchange": "JPX",
@@ -1099,12 +1104,6 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "regularMarketChangePercent": -1.5243902,
-    "regularMarketPrice": 323.0,
-    "shortName": "NIHON HOUSE HOLDINGS CO LTD",
-    "longName": "Nihon House Holdings Co., Ltd.",
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 946944000000,
     "regularMarketChange": -5.0,
     "regularMarketDayRange": "323.0 - 326.0",
     "fullExchangeName": "Tokyo",
@@ -1126,6 +1125,8 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 946944000000,
     "trailingPegRatio": null
   }
 }

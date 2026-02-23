@@ -1,7 +1,7 @@
 {
   "ticker": "1812",
   "japanese_ticker": "1812.T",
-  "fetch_date": "2026-02-22T23:20:05.562995",
+  "fetch_date": "2026-02-23T23:30:38.546799",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": 4135530000.0,
@@ -1185,11 +1185,12 @@
     "averageVolume": 1975511,
     "averageVolume10days": 3299000,
     "averageDailyVolume10Day": 3299000,
-    "bid": 7084.0,
-    "ask": 7094.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 3301218189312,
+    "nonDilutedMarketCap": 1961186722372,
     "fiftyTwoWeekLow": 2693.5,
     "fiftyTwoWeekHigh": 8040.0,
     "allTimeHigh": 8040.0,
@@ -1253,7 +1254,7 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "marketState": "CLOSED",
+    "marketState": "PREPRE",
     "corporateActions": [],
     "regularMarketTime": 1771569000,
     "exchange": "JPX",

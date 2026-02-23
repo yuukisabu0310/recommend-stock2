@@ -1,7 +1,7 @@
 {
   "ticker": "2371",
   "japanese_ticker": "2371.T",
-  "fetch_date": "2026-02-22T23:26:26.951988",
+  "fetch_date": "2026-02-23T23:37:03.649964",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": -178396517.499565,
@@ -1100,40 +1100,6 @@
         "fiscalYear": 2025,
         "exercisedValue": 0,
         "unexercisedValue": 0
-      },
-      {
-        "maxAge": 1,
-        "name": "Hitoshi  Ishii",
-        "title": "Executive Officer, GM of Sales Division & Manager of Sales Dept. 2 of Sales Div.",
-        "fiscalYear": 2025,
-        "exercisedValue": 0,
-        "unexercisedValue": 0
-      },
-      {
-        "maxAge": 1,
-        "name": "Mr. Shingo  Yuki",
-        "age": 50,
-        "title": "Senior Executive Officer, Web Marketing Manager & Head of Kakaku.com Company",
-        "yearBorn": 1975,
-        "fiscalYear": 2025,
-        "exercisedValue": 0,
-        "unexercisedValue": 0
-      },
-      {
-        "maxAge": 1,
-        "name": "Takeshi  Kamada",
-        "title": "Executive Officer & Assistant GM of Shopping Media Division",
-        "fiscalYear": 2025,
-        "exercisedValue": 0,
-        "unexercisedValue": 0
-      },
-      {
-        "maxAge": 1,
-        "name": "Mr. Norihiko  Fukuda",
-        "title": "Operating Officer, Executive Officer, CISO & Head of System Platform Division",
-        "fiscalYear": 2025,
-        "exercisedValue": 0,
-        "unexercisedValue": 0
       }
     ],
     "auditRisk": 1,
@@ -1168,11 +1134,12 @@
     "averageVolume": 1232384,
     "averageVolume10days": 1875530,
     "averageDailyVolume10Day": 1875530,
-    "bid": 1671.0,
-    "ask": 1674.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 331078991872,
+    "nonDilutedMarketCap": 486144685304,
     "fiftyTwoWeekLow": 1616.0,
     "fiftyTwoWeekHigh": 2977.5,
     "allTimeHigh": 3915.0,
@@ -1244,16 +1211,9 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 1232384,
-    "fiftyTwoWeekLowChange": 57.5,
-    "fiftyTwoWeekLowChangePercent": 0.035581682,
-    "fiftyTwoWeekRange": "1616.0 - 2977.5",
-    "fiftyTwoWeekHighChange": -1304.0,
-    "fiftyTwoWeekHighChangePercent": -0.4379513,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1127952000000,
     "fiftyTwoWeekChangePercent": -27.459908,
-    "shortName": "KAKAKU.COM. INC",
-    "longName": "Kakaku.com, Inc.",
     "earningsTimestamp": 1770186600,
     "earningsTimestampStart": 1778135400,
     "earningsTimestampEnd": 1778135400,
@@ -1270,7 +1230,7 @@
     "exchangeDataDelayedBy": 20,
     "averageAnalystRating": "2.1 - Buy",
     "cryptoTradeable": false,
-    "marketState": "CLOSED",
+    "marketState": "PREPRE",
     "corporateActions": [],
     "regularMarketTime": 1771569000,
     "exchange": "JPX",
@@ -1282,10 +1242,17 @@
     "esgPopulated": false,
     "regularMarketChangePercent": -1.5588235,
     "regularMarketPrice": 1673.5,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1127952000000,
+    "shortName": "KAKAKU.COM. INC",
+    "longName": "Kakaku.com, Inc.",
     "regularMarketChange": -26.5,
     "regularMarketDayRange": "1646.0 - 1700.5",
+    "fullExchangeName": "Tokyo",
+    "averageDailyVolume3Month": 1232384,
+    "fiftyTwoWeekLowChange": 57.5,
+    "fiftyTwoWeekLowChangePercent": 0.035581682,
+    "fiftyTwoWeekRange": "1616.0 - 2977.5",
+    "fiftyTwoWeekHighChange": -1304.0,
+    "fiftyTwoWeekHighChangePercent": -0.4379513,
     "trailingPegRatio": null
   }
 }

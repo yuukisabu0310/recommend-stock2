@@ -1,7 +1,7 @@
 {
   "ticker": "1964",
   "japanese_ticker": "1964.T",
-  "fetch_date": "2026-02-22T23:22:11.242249",
+  "fetch_date": "2026-02-23T23:32:42.441606",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": 331568000.0,
@@ -1129,9 +1129,10 @@
     "averageVolume": 26806,
     "averageVolume10days": 31310,
     "averageDailyVolume10Day": 31310,
-    "bid": 4965.0,
-    "ask": 4975.0,
+    "bid": 0.0,
+    "ask": 4960.0,
     "marketCap": 35970043904,
+    "nonDilutedMarketCap": 30144504040,
     "fiftyTwoWeekLow": 2723.0,
     "fiftyTwoWeekHigh": 5220.0,
     "allTimeHigh": 7140.0,
@@ -1195,10 +1196,6 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "regularMarketChangePercent": -0.99601597,
-    "regularMarketPrice": 4970.0,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 978566400000,
     "corporateActions": [],
     "regularMarketTime": 1771569000,
     "exchange": "JPX",
@@ -1208,6 +1205,12 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
+    "marketState": "PREPRE",
+    "regularMarketChangePercent": -0.99601597,
+    "regularMarketPrice": 4970.0,
+    "shortName": "CHUGAI RO CO LTD",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 978566400000,
     "regularMarketChange": -50.0,
     "regularMarketDayRange": "4960.0 - 5070.0",
     "fullExchangeName": "Tokyo",
@@ -1218,9 +1221,6 @@
     "fiftyTwoWeekHighChange": -250.0,
     "fiftyTwoWeekHighChangePercent": -0.04789272,
     "fiftyTwoWeekChangePercent": 37.673126,
-    "marketState": "CLOSED",
-    "shortName": "CHUGAI RO CO LTD",
-    "longName": "Chugai Ro Co., Ltd.",
     "earningsTimestampStart": 1753329600,
     "earningsTimestampEnd": 1753675200,
     "isEarningsDateEstimate": true,
@@ -1233,6 +1233,7 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
+    "longName": "Chugai Ro Co., Ltd.",
     "trailingPegRatio": null
   }
 }

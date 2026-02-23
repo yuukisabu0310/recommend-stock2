@@ -1,7 +1,7 @@
 {
   "ticker": "2742",
   "japanese_ticker": "2742.T",
-  "fetch_date": "2026-02-22T23:30:11.362125",
+  "fetch_date": "2026-02-23T23:40:51.896419",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-02-28 00:00:00": -30705000.0,
@@ -1292,11 +1292,12 @@
     "averageVolume": 32372,
     "averageVolume10days": 77970,
     "averageDailyVolume10Day": 77970,
-    "bid": 4735.0,
-    "ask": 4745.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 101157675008,
+    "nonDilutedMarketCap": 102899793150,
     "fiftyTwoWeekLow": 3850.0,
     "fiftyTwoWeekHigh": 5290.0,
     "allTimeHigh": 6290.0,
@@ -1360,12 +1361,9 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "marketState": "CLOSED",
-    "earningsTimestampStart": 1750831200,
-    "earningsTimestampEnd": 1751263200,
-    "isEarningsDateEstimate": true,
-    "epsTrailingTwelveMonths": 419.49,
-    "epsForward": 360.6,
+    "marketState": "PREPRE",
+    "shortName": "HALOWS CO LTD",
+    "longName": "Halows Co.,Ltd.",
     "fiftyDayAverageChange": 81.1001,
     "fiftyDayAverageChangePercent": 0.017407564,
     "twoHundredDayAverageChange": -27.399902,
@@ -1373,8 +1371,6 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1031011200000,
     "regularMarketChange": -195.0,
     "regularMarketDayRange": "4740.0 - 4910.0",
     "fullExchangeName": "Tokyo",
@@ -1385,8 +1381,11 @@
     "fiftyTwoWeekHighChange": -550.0,
     "fiftyTwoWeekHighChangePercent": -0.10396975,
     "fiftyTwoWeekChangePercent": 20.304573,
-    "shortName": "HALOWS CO LTD",
-    "longName": "Halows Co.,Ltd.",
+    "earningsTimestampStart": 1750831200,
+    "earningsTimestampEnd": 1751263200,
+    "isEarningsDateEstimate": true,
+    "epsTrailingTwelveMonths": 419.49,
+    "epsForward": 360.6,
     "corporateActions": [
       {
         "header": "Dividend",
@@ -1408,6 +1407,8 @@
     "esgPopulated": false,
     "regularMarketChangePercent": -3.9513679,
     "regularMarketPrice": 4740.0,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1031011200000,
     "trailingPegRatio": null
   }
 }

@@ -1,7 +1,7 @@
 {
   "ticker": "3034",
   "japanese_ticker": "3034.T",
-  "fetch_date": "2026-02-22T23:33:55.973946",
+  "fetch_date": "2026-02-23T23:44:37.496803",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": -222720000.0,
@@ -1193,11 +1193,12 @@
     "averageVolume": 158133,
     "averageVolume10days": 278430,
     "averageDailyVolume10Day": 278430,
-    "bid": 1896.0,
-    "ask": 1903.0,
+    "bid": 0.0,
+    "ask": 1901.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 71134248960,
+    "nonDilutedMarketCap": 73378495564,
     "fiftyTwoWeekLow": 1538.0,
     "fiftyTwoWeekHigh": 2404.0,
     "allTimeHigh": 2610.0,
@@ -1279,6 +1280,9 @@
     "exchangeDataDelayedBy": 20,
     "averageAnalystRating": "1.0 - Strong Buy",
     "cryptoTradeable": false,
+    "longName": "Qol Holdings Co., Ltd.",
+    "marketState": "PREPRE",
+    "shortName": "QOL HOLDINGS CO LTD",
     "corporateActions": [],
     "regularMarketTime": 1771569000,
     "exchange": "JPX",
@@ -1303,9 +1307,6 @@
     "earningsTimestampStart": 1753943400,
     "earningsTimestampEnd": 1754289000,
     "isEarningsDateEstimate": true,
-    "marketState": "CLOSED",
-    "shortName": "QOL HOLDINGS CO LTD",
-    "longName": "Qol Holdings Co., Ltd.",
     "trailingPegRatio": null
   }
 }

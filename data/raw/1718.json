@@ -1,7 +1,7 @@
 {
   "ticker": "1718",
   "japanese_ticker": "1718.T",
-  "fetch_date": "2026-02-22T23:19:05.309340",
+  "fetch_date": "2026-02-23T23:29:37.596275",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2024-12-31 00:00:00": -52448.0,
@@ -1007,11 +1007,12 @@
     "averageVolume": 5977,
     "averageVolume10days": 15210,
     "averageDailyVolume10Day": 15210,
-    "bid": 8170.0,
-    "ask": 8210.0,
+    "bid": 8130.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 8962280448,
+    "nonDilutedMarketCap": 8186277890,
     "fiftyTwoWeekLow": 4540.0,
     "fiftyTwoWeekHigh": 9970.0,
     "allTimeHigh": 9970.0,
@@ -1076,8 +1077,11 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "longName": "Mikikogyo Co., Ltd.",
+    "marketState": "PREPRE",
     "shortName": "MIKIKOGYO CO LTD",
+    "longName": "Mikikogyo Co., Ltd.",
+    "regularMarketChangePercent": -1.2048192,
+    "regularMarketPrice": 8200.0,
     "corporateActions": [],
     "regularMarketTime": 1771569000,
     "exchange": "JPX",
@@ -1087,11 +1091,6 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "regularMarketChangePercent": -1.2048192,
-    "regularMarketPrice": 8200.0,
-    "marketState": "CLOSED",
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1067385600000,
     "regularMarketChange": -100.0,
     "regularMarketDayRange": "8140.0 - 8300.0",
     "fullExchangeName": "Tokyo",
@@ -1113,6 +1112,8 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1067385600000,
     "trailingPegRatio": null
   }
 }

@@ -1,7 +1,7 @@
 {
   "ticker": "2997",
   "japanese_ticker": "2997.T",
-  "fetch_date": "2026-02-22T23:33:24.084049",
+  "fetch_date": "2026-02-23T23:44:05.809196",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-01-31 00:00:00": -15081436.0,
@@ -966,9 +966,10 @@
     "averageVolume": 9542,
     "averageVolume10days": 4810,
     "averageDailyVolume10Day": 4810,
-    "bid": 931.0,
-    "ask": 932.0,
+    "bid": 0.0,
+    "ask": 931.0,
     "marketCap": 1720022528,
+    "nonDilutedMarketCap": 1917705000,
     "fiftyTwoWeekLow": 751.0,
     "fiftyTwoWeekHigh": 1275.0,
     "allTimeHigh": 1275.0,
@@ -1027,6 +1028,9 @@
     "customPriceAlertConfidence": "LOW",
     "corporateActions": [],
     "regularMarketTime": 1771569000,
+    "cryptoTradeable": false,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1651017600000,
     "exchange": "JPX",
     "messageBoardId": "finmb_1775517680",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1034,12 +1038,8 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "marketState": "CLOSED",
-    "regularMarketChangePercent": -0.21436226,
-    "regularMarketPrice": 931.0,
     "shortName": "STORAGE-OH CO LTD",
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1651017600000,
+    "longName": "STORAGE-OH Co.,Ltd.",
     "regularMarketChange": -2.0,
     "regularMarketDayRange": "931.0 - 933.0",
     "fullExchangeName": "Tokyo",
@@ -1062,8 +1062,9 @@
     "twoHundredDayAverageChangePercent": -0.04918985,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
-    "longName": "STORAGE-OH Co.,Ltd.",
+    "regularMarketChangePercent": -0.21436226,
+    "regularMarketPrice": 931.0,
+    "marketState": "PREPRE",
     "trailingPegRatio": null
   }
 }

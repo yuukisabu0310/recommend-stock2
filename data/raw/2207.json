@@ -1,7 +1,7 @@
 {
   "ticker": "2207",
   "japanese_ticker": "2207.T",
-  "fetch_date": "2026-02-22T23:24:25.455300",
+  "fetch_date": "2026-02-23T23:35:01.247928",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": 943019000.0,
@@ -1152,11 +1152,12 @@
     "averageVolume": 85001,
     "averageVolume10days": 96550,
     "averageDailyVolume10Day": 96550,
-    "bid": 2580.0,
-    "ask": 2584.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 42407886848,
+    "nonDilutedMarketCap": 36242383403,
     "fiftyTwoWeekLow": 1816.0,
     "fiftyTwoWeekHigh": 2661.0,
     "allTimeHigh": 2661.0,
@@ -1217,9 +1218,9 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "marketState": "PREPRE",
     "shortName": "MEITO CO LTD",
     "longName": "Meito Co., Ltd.",
-    "marketState": "CLOSED",
     "regularMarketChangePercent": -0.07739938,
     "regularMarketPrice": 2582.0,
     "corporateActions": [],
@@ -1231,8 +1232,6 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 978307200000,
     "regularMarketChange": -2.0,
     "regularMarketDayRange": "2558.0 - 2599.0",
     "fullExchangeName": "Tokyo",
@@ -1254,8 +1253,10 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "prevName": "Meito Sangyo Co., Ltd.",
-    "nameChangeDate": "2026-02-22",
+    "nameChangeDate": "2026-02-23",
     "cryptoTradeable": false,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 978307200000,
     "trailingPegRatio": null
   }
 }

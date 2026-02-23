@@ -1,7 +1,7 @@
 {
   "ticker": "2735",
   "japanese_ticker": "2735.T",
-  "fetch_date": "2026-02-22T23:30:05.327657",
+  "fetch_date": "2026-02-23T23:40:45.983938",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-08-31 00:00:00": -21690786.3,
@@ -1025,11 +1025,12 @@
     "averageVolume": 29762,
     "averageVolume10days": 30370,
     "averageDailyVolume10Day": 30370,
-    "bid": 665.0,
-    "ask": 670.0,
+    "bid": 673.0,
+    "ask": 674.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 8813076480,
+    "nonDilutedMarketCap": 8511643815,
     "fiftyTwoWeekLow": 581.0,
     "fiftyTwoWeekHigh": 768.0,
     "allTimeHigh": 1535.0,
@@ -1093,11 +1094,23 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "marketState": "CLOSED",
+    "marketState": "PREPRE",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1022198400000,
     "regularMarketChange": -6.0,
     "regularMarketDayRange": "665.0 - 673.0",
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "2735.T announced a cash dividend of 7.50 JPY with an ex-date of Feb. 26, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1772031600000,
+          "amount": "7.50"
+        }
+      }
+    ],
+    "regularMarketTime": 1771569000,
     "fullExchangeName": "Tokyo",
     "averageDailyVolume3Month": 29762,
     "fiftyTwoWeekLowChange": 85.0,
@@ -1114,18 +1127,12 @@
     "fiftyDayAverageChange": 10.219971,
     "fiftyDayAverageChangePercent": 0.015584449,
     "twoHundredDayAverageChange": -4.3150024,
-    "corporateActions": [
-      {
-        "header": "Dividend",
-        "message": "2735.T announced a cash dividend of 7.50 JPY with an ex-date of Feb. 26, 2026",
-        "meta": {
-          "eventType": "DIVIDEND",
-          "dateEpochMs": 1772031600000,
-          "amount": "7.50"
-        }
-      }
-    ],
-    "regularMarketTime": 1771569000,
+    "twoHundredDayAverageChangePercent": -0.0064372756,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
+    "shortName": "WATTS CO LTD",
+    "longName": "Watts Co., Ltd.",
     "exchange": "JPX",
     "messageBoardId": "finmb_5774282",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1135,12 +1142,6 @@
     "esgPopulated": false,
     "regularMarketChangePercent": -0.8928572,
     "regularMarketPrice": 666.0,
-    "shortName": "WATTS CO LTD",
-    "longName": "Watts Co., Ltd.",
-    "twoHundredDayAverageChangePercent": -0.0064372756,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
     "trailingPegRatio": null
   }
 }

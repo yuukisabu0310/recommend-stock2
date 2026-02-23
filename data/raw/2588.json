@@ -1,7 +1,7 @@
 {
   "ticker": "2588",
   "japanese_ticker": "2588.T",
-  "fetch_date": "2026-02-22T23:28:38.448313",
+  "fetch_date": "2026-02-23T23:39:14.981356",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": 0.0,
@@ -1029,11 +1029,12 @@
     "averageVolume": 8322,
     "averageVolume10days": 13230,
     "averageDailyVolume10Day": 13230,
-    "bid": 3870.0,
-    "ask": 3875.0,
+    "bid": 0.0,
+    "ask": 3870.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 117852397568,
+    "nonDilutedMarketCap": 98062744235,
     "fiftyTwoWeekLow": 2402.0,
     "fiftyTwoWeekHigh": 3950.0,
     "allTimeHigh": 4645.0,
@@ -1098,6 +1099,9 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "marketState": "PREPRE",
+    "shortName": "PREMIUM WATER HLDGS INC",
+    "longName": "Premium Water Holdings,Inc.",
     "fiftyDayAverageChange": 495.8999,
     "fiftyDayAverageChangePercent": 0.14697249,
     "twoHundredDayAverageChange": 601.7749,
@@ -1105,8 +1109,6 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1363564800000,
     "regularMarketChange": -80.0,
     "regularMarketDayRange": "3860.0 - 3945.0",
     "fullExchangeName": "Tokyo",
@@ -1121,9 +1123,6 @@
     "earningsTimestampEnd": 1747117800,
     "isEarningsDateEstimate": false,
     "epsTrailingTwelveMonths": 211.69,
-    "shortName": "PREMIUM WATER HLDGS INC",
-    "longName": "Premium Water Holdings,Inc.",
-    "marketState": "CLOSED",
     "corporateActions": [],
     "regularMarketTime": 1771569000,
     "exchange": "JPX",
@@ -1135,6 +1134,8 @@
     "esgPopulated": false,
     "regularMarketChangePercent": -2.0253165,
     "regularMarketPrice": 3870.0,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1363564800000,
     "trailingPegRatio": null
   }
 }

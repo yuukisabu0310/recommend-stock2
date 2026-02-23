@@ -1,7 +1,7 @@
 {
   "ticker": "2291",
   "japanese_ticker": "2291.T",
-  "fetch_date": "2026-02-22T23:25:11.383803",
+  "fetch_date": "2026-02-23T23:35:48.933931",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": 0.0,
@@ -1127,9 +1127,10 @@
     "averageVolume": 10745,
     "averageVolume10days": 5370,
     "averageDailyVolume10Day": 5370,
-    "bid": 632.0,
-    "ask": 636.0,
+    "bid": 0.0,
+    "ask": 633.0,
     "marketCap": 2112025344,
+    "nonDilutedMarketCap": 3002933700,
     "fiftyTwoWeekLow": 581.0,
     "fiftyTwoWeekHigh": 1320.0,
     "allTimeHigh": 2620.0,
@@ -1192,6 +1193,8 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "shortName": "FUKUTOME MEAT PACKERS",
+    "longName": "Fukutome Meat Packers, Ltd.",
     "corporateActions": [],
     "regularMarketTime": 1771569000,
     "exchange": "JPX",
@@ -1201,7 +1204,9 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "epsTrailingTwelveMonths": -155.02,
+    "regularMarketChangePercent": -0.15772872,
+    "regularMarketPrice": 633.0,
+    "marketState": "PREPRE",
     "fiftyDayAverageChange": 3.5200195,
     "fiftyDayAverageChangePercent": 0.0055919485,
     "twoHundredDayAverageChange": -241.745,
@@ -1224,11 +1229,7 @@
     "earningsTimestampStart": 1747119600,
     "earningsTimestampEnd": 1747119600,
     "isEarningsDateEstimate": false,
-    "regularMarketChangePercent": -0.15772872,
-    "regularMarketPrice": 633.0,
-    "shortName": "FUKUTOME MEAT PACKERS",
-    "longName": "Fukutome Meat Packers, Ltd.",
-    "marketState": "CLOSED",
+    "epsTrailingTwelveMonths": -155.02,
     "trailingPegRatio": null
   }
 }

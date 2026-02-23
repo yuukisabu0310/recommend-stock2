@@ -1,7 +1,7 @@
 {
   "ticker": "2157",
   "japanese_ticker": "2157.T",
-  "fetch_date": "2026-02-22T23:23:40.076590",
+  "fetch_date": "2026-02-23T23:34:12.836851",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-08-31 00:00:00": -1160930925.0,
@@ -1046,11 +1046,12 @@
     "averageVolume": 303977,
     "averageVolume10days": 252370,
     "averageDailyVolume10Day": 252370,
-    "bid": 1160.0,
-    "ask": 1165.0,
+    "bid": 0.0,
+    "ask": 1161.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 95611355136,
+    "nonDilutedMarketCap": 109046397663,
     "fiftyTwoWeekLow": 921.0,
     "fiftyTwoWeekHigh": 1484.0,
     "allTimeHigh": 1484.0,
@@ -1114,34 +1115,8 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "corporateActions": [
-      {
-        "header": "Dividend",
-        "message": "2157.T announced a cash dividend of 13.00 JPY with an ex-date of Feb. 26, 2026",
-        "meta": {
-          "eventType": "DIVIDEND",
-          "dateEpochMs": 1772031600000,
-          "amount": "13.00"
-        }
-      }
-    ],
-    "regularMarketTime": 1771569000,
-    "marketState": "CLOSED",
     "shortName": "KOSHIDAKA HOLDINGS CO LTD",
     "longName": "Koshidaka Holdings Co., Ltd.",
-    "exchange": "JPX",
-    "messageBoardId": "finmb_30663334",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1182902400000,
-    "regularMarketChange": -19.0,
-    "regularMarketDayRange": "1160.0 - 1183.0",
-    "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 303977,
     "fiftyTwoWeekLowChange": 239.0,
     "fiftyTwoWeekLowChangePercent": 0.25950053,
     "fiftyTwoWeekRange": "921.0 - 1484.0",
@@ -1162,6 +1137,32 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "2157.T announced a cash dividend of 13.00 JPY with an ex-date of Feb. 26, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1772031600000,
+          "amount": "13.00"
+        }
+      }
+    ],
+    "regularMarketTime": 1771569000,
+    "exchange": "JPX",
+    "market": "jp_market",
+    "marketState": "PREPRE",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1182902400000,
+    "regularMarketChange": -19.0,
+    "regularMarketDayRange": "1160.0 - 1183.0",
+    "fullExchangeName": "Tokyo",
+    "averageDailyVolume3Month": 303977,
+    "messageBoardId": "finmb_30663334",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "esgPopulated": false,
     "regularMarketChangePercent": -1.6115353,
     "regularMarketPrice": 1160.0,
     "trailingPegRatio": null

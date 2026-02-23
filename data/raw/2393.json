@@ -1,7 +1,7 @@
 {
   "ticker": "2393",
   "japanese_ticker": "2393.T",
-  "fetch_date": "2026-02-22T23:26:50.223000",
+  "fetch_date": "2026-02-23T23:37:26.696724",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": 4070288.0,
@@ -1098,11 +1098,12 @@
     "averageVolume": 4130,
     "averageVolume10days": 3920,
     "averageDailyVolume10Day": 3920,
-    "bid": 2420.0,
-    "ask": 2430.0,
+    "bid": 0.0,
+    "ask": 2491.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 37744283648,
+    "nonDilutedMarketCap": 33250838500,
     "fiftyTwoWeekLow": 1811.0,
     "fiftyTwoWeekHigh": 2665.0,
     "allTimeHigh": 5825.0,
@@ -1165,8 +1166,9 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "longName": "Nippon Care Supply Co., Ltd.",
+    "marketState": "PREPRE",
     "shortName": "NIPPON CARE SUPPLY CO",
+    "longName": "Nippon Care Supply Co., Ltd.",
     "corporateActions": [],
     "regularMarketTime": 1771569000,
     "exchange": "JPX",
@@ -1176,9 +1178,6 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "regularMarketChangePercent": 0.37190083,
-    "regularMarketPrice": 2429.0,
-    "marketState": "CLOSED",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1077840000000,
     "regularMarketChange": 9.0,
@@ -1202,6 +1201,8 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
+    "regularMarketChangePercent": 0.37190083,
+    "regularMarketPrice": 2429.0,
     "trailingPegRatio": null
   }
 }

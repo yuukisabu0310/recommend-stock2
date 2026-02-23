@@ -1,7 +1,7 @@
 {
   "ticker": "2927",
   "japanese_ticker": "2927.T",
-  "fetch_date": "2026-02-22T23:32:35.687074",
+  "fetch_date": "2026-02-23T23:43:18.894662",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-08-31 00:00:00": -53731948.153543,
@@ -1172,11 +1172,12 @@
     "averageVolume": 35223,
     "averageVolume10days": 50000,
     "averageDailyVolume10Day": 50000,
-    "bid": 900.0,
-    "ask": 902.0,
+    "bid": 0.0,
+    "ask": 906.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 13132764160,
+    "nonDilutedMarketCap": 12521260300,
     "fiftyTwoWeekLow": 765.0,
     "fiftyTwoWeekHigh": 918.0,
     "allTimeHigh": 3285.0,
@@ -1239,11 +1240,23 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "marketState": "CLOSED",
+    "marketState": "PREPRE",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1109808000000,
     "regularMarketChange": 0.0,
     "regularMarketDayRange": "899.0 - 906.0",
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "2927.T announced a cash dividend of 18.00 JPY with an ex-date of Feb. 26, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1772031600000,
+          "amount": "18.00"
+        }
+      }
+    ],
+    "regularMarketTime": 1771569000,
     "fullExchangeName": "Tokyo",
     "averageDailyVolume3Month": 35223,
     "fiftyTwoWeekLowChange": 137.0,
@@ -1259,18 +1272,12 @@
     "fiftyDayAverageChange": 13.280029,
     "fiftyDayAverageChangePercent": 0.014942872,
     "twoHundredDayAverageChange": 30.150024,
-    "corporateActions": [
-      {
-        "header": "Dividend",
-        "message": "2927.T announced a cash dividend of 18.00 JPY with an ex-date of Feb. 26, 2026",
-        "meta": {
-          "eventType": "DIVIDEND",
-          "dateEpochMs": 1772031600000,
-          "amount": "18.00"
-        }
-      }
-    ],
-    "regularMarketTime": 1771569000,
+    "twoHundredDayAverageChangePercent": 0.034581665,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
+    "shortName": "AFC-HD AMS LIFE SCIENCE CO LTD",
+    "longName": "AFC-HD AMS Life Science Co., Ltd.",
     "exchange": "JPX",
     "messageBoardId": "finmb_20702650",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1280,12 +1287,6 @@
     "esgPopulated": false,
     "regularMarketChangePercent": 0.0,
     "regularMarketPrice": 902.0,
-    "shortName": "AFC-HD AMS LIFE SCIENCE CO LTD",
-    "longName": "AFC-HD AMS Life Science Co., Ltd.",
-    "twoHundredDayAverageChangePercent": 0.034581665,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
     "trailingPegRatio": null
   }
 }
