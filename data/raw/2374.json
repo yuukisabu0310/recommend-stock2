@@ -1,7 +1,7 @@
 {
   "ticker": "2374",
   "japanese_ticker": "2374.T",
-  "fetch_date": "2026-02-23T23:37:07.599442",
+  "fetch_date": "2026-02-24T23:32:34.414379",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": -7593816.0,
@@ -1119,11 +1119,11 @@
     "priceHint": 2,
     "previousClose": 1210.0,
     "open": 1211.0,
-    "dayLow": 1210.0,
+    "dayLow": 1209.0,
     "dayHigh": 1212.0,
     "regularMarketPreviousClose": 1210.0,
     "regularMarketOpen": 1211.0,
-    "regularMarketDayLow": 1210.0,
+    "regularMarketDayLow": 1209.0,
     "regularMarketDayHigh": 1212.0,
     "dividendRate": 30.0,
     "dividendYield": 2.48,
@@ -1133,8 +1133,8 @@
     "beta": 0.195,
     "trailingPE": 17.300543,
     "forwardPE": 12.410256,
-    "volume": 39900,
-    "regularMarketVolume": 39900,
+    "volume": 197100,
+    "regularMarketVolume": 197100,
     "averageVolume": 75616,
     "averageVolume10days": 27700,
     "averageDailyVolume10Day": 27700,
@@ -1207,32 +1207,8 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "corporateActions": [
-      {
-        "header": "Reverse stock split",
-        "message": "2374.T announces 1 for 5905149 split effective Mar. 13, 2026",
-        "meta": {
-          "eventType": "SPLIT",
-          "dateEpochMs": 1773327600000,
-          "splitRatio": "1:5905149"
-        }
-      }
-    ],
-    "regularMarketTime": 1771569000,
-    "exchange": "JPX",
-    "messageBoardId": "finmb_5437094",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
     "shortName": "SAINT-CARE HOLDING CORPORATION",
     "longName": "Saint-Care Holding Corporation",
-    "marketState": "PREPRE",
-    "regularMarketChangePercent": 0.0,
-    "regularMarketPrice": 1210.0,
-    "epsTrailingTwelveMonths": 69.94,
-    "epsForward": 97.5,
     "fiftyDayAverageChange": -0.8000488,
     "fiftyDayAverageChangePercent": -0.0006607605,
     "twoHundredDayAverageChange": 266.61,
@@ -1243,7 +1219,7 @@
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1066953600000,
     "regularMarketChange": 0.0,
-    "regularMarketDayRange": "1210.0 - 1212.0",
+    "regularMarketDayRange": "1209.0 - 1212.0",
     "fullExchangeName": "Tokyo",
     "averageDailyVolume3Month": 75616,
     "fiftyTwoWeekLowChange": 523.0,
@@ -1257,6 +1233,30 @@
     "earningsCallTimestampStart": 1738925940,
     "earningsCallTimestampEnd": 1738925940,
     "isEarningsDateEstimate": true,
+    "epsTrailingTwelveMonths": 69.94,
+    "epsForward": 97.5,
+    "marketState": "PREPRE",
+    "corporateActions": [
+      {
+        "header": "Reverse stock split",
+        "message": "2374.T announces 1 for 5905149 split effective Mar. 13, 2026",
+        "meta": {
+          "eventType": "SPLIT",
+          "dateEpochMs": 1773327600000,
+          "splitRatio": "1:5905149"
+        }
+      }
+    ],
+    "regularMarketTime": 1771914600,
+    "exchange": "JPX",
+    "messageBoardId": "finmb_5437094",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
+    "regularMarketChangePercent": 0.0,
+    "regularMarketPrice": 1210.0,
     "trailingPegRatio": null
   }
 }

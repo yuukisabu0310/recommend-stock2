@@ -1,7 +1,7 @@
 {
   "ticker": "2389",
   "japanese_ticker": "2389.T",
-  "fetch_date": "2026-02-23T23:37:23.253091",
+  "fetch_date": "2026-02-24T23:32:49.278989",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2024-12-31 00:00:00": 12992000.0,
@@ -1016,14 +1016,14 @@
     "executiveTeam": [],
     "maxAge": 86400,
     "priceHint": 2,
-    "previousClose": 2005.0,
-    "open": 2006.0,
-    "dayLow": 2005.0,
-    "dayHigh": 2007.0,
-    "regularMarketPreviousClose": 2005.0,
-    "regularMarketOpen": 2006.0,
-    "regularMarketDayLow": 2005.0,
-    "regularMarketDayHigh": 2007.0,
+    "previousClose": 2006.0,
+    "open": 2011.0,
+    "dayLow": 2006.0,
+    "dayHigh": 2012.0,
+    "regularMarketPreviousClose": 2006.0,
+    "regularMarketOpen": 2011.0,
+    "regularMarketDayLow": 2006.0,
+    "regularMarketDayHigh": 2012.0,
     "dividendRate": 46.0,
     "dividendYield": 2.29,
     "exDividendDate": 1766966400,
@@ -1032,13 +1032,13 @@
     "beta": 0.677,
     "trailingPE": 19.763546,
     "forwardPE": -58.483967,
-    "volume": 11800,
-    "regularMarketVolume": 11800,
+    "volume": 12400,
+    "regularMarketVolume": 12400,
     "averageVolume": 74264,
     "averageVolume10days": 36300,
     "averageDailyVolume10Day": 36300,
     "bid": 0.0,
-    "ask": 2130.0,
+    "ask": 2010.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 37463871488,
@@ -1106,32 +1106,9 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "shortName": "DIGITAL HOLDINGS INC",
-    "longName": "Digital Holdings, Inc.",
-    "marketState": "PREPRE",
-    "corporateActions": [
-      {
-        "header": "Reverse stock split",
-        "message": "2389.T announces 1 for 8000000 split effective Mar. 19, 2026",
-        "meta": {
-          "eventType": "SPLIT",
-          "dateEpochMs": 1773846000000,
-          "splitRatio": "1:8000000"
-        }
-      }
-    ],
-    "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1076630400000,
-    "regularMarketTime": 1771569000,
-    "exchange": "JPX",
-    "messageBoardId": "finmb_9816654",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
-    "regularMarketChange": 1.0,
-    "regularMarketDayRange": "2005.0 - 2007.0",
+    "regularMarketChange": 0.0,
+    "regularMarketDayRange": "2006.0 - 2012.0",
     "fullExchangeName": "Tokyo",
     "averageDailyVolume3Month": 74264,
     "fiftyTwoWeekLowChange": 862.0,
@@ -1152,8 +1129,31 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
-    "regularMarketChangePercent": 0.04987531,
+    "shortName": "DIGITAL HOLDINGS INC",
+    "longName": "Digital Holdings, Inc.",
+    "exchange": "JPX",
+    "messageBoardId": "finmb_9816654",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
+    "regularMarketChangePercent": 0.0,
     "regularMarketPrice": 2006.0,
+    "hasPrePostMarketData": false,
+    "corporateActions": [
+      {
+        "header": "Reverse stock split",
+        "message": "2389.T announces 1 for 8000000 split effective Mar. 19, 2026",
+        "meta": {
+          "eventType": "SPLIT",
+          "dateEpochMs": 1773846000000,
+          "splitRatio": "1:8000000"
+        }
+      }
+    ],
+    "regularMarketTime": 1771914600,
+    "marketState": "PREPRE",
     "trailingPegRatio": null
   }
 }
