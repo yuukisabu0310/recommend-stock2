@@ -1,7 +1,7 @@
 {
   "ticker": "2389",
   "japanese_ticker": "2389.T",
-  "fetch_date": "2026-02-24T23:32:49.278989",
+  "fetch_date": "2026-02-25T23:31:14.460118",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2024-12-31 00:00:00": 12992000.0,
@@ -1017,13 +1017,13 @@
     "maxAge": 86400,
     "priceHint": 2,
     "previousClose": 2006.0,
-    "open": 2011.0,
+    "open": 2010.0,
     "dayLow": 2006.0,
-    "dayHigh": 2012.0,
+    "dayHigh": 2010.0,
     "regularMarketPreviousClose": 2006.0,
-    "regularMarketOpen": 2011.0,
+    "regularMarketOpen": 2010.0,
     "regularMarketDayLow": 2006.0,
-    "regularMarketDayHigh": 2012.0,
+    "regularMarketDayHigh": 2010.0,
     "dividendRate": 46.0,
     "dividendYield": 2.29,
     "exDividendDate": 1766966400,
@@ -1032,13 +1032,13 @@
     "beta": 0.677,
     "trailingPE": 19.763546,
     "forwardPE": -58.483967,
-    "volume": 12400,
-    "regularMarketVolume": 12400,
+    "volume": 30000,
+    "regularMarketVolume": 30000,
     "averageVolume": 74264,
     "averageVolume10days": 36300,
     "averageDailyVolume10Day": 36300,
     "bid": 0.0,
-    "ask": 2010.0,
+    "ask": 2007.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 37463871488,
@@ -1106,20 +1106,18 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "firstTradeDateMilliseconds": 1076630400000,
-    "regularMarketChange": 0.0,
-    "regularMarketDayRange": "2006.0 - 2012.0",
-    "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 74264,
-    "fiftyTwoWeekLowChange": 862.0,
-    "fiftyTwoWeekLowChangePercent": 0.7534965,
-    "fiftyTwoWeekRange": "1144.0 - 2379.0",
-    "fiftyTwoWeekHighChange": -373.0,
-    "fiftyTwoWeekHighChangePercent": -0.15678857,
-    "fiftyTwoWeekChangePercent": 34.54058,
-    "earningsTimestampStart": 1754546400,
-    "earningsTimestampEnd": 1754978400,
-    "isEarningsDateEstimate": true,
+    "corporateActions": [
+      {
+        "header": "Reverse stock split",
+        "message": "2389.T announces 1 for 8000000 split effective Mar. 19, 2026",
+        "meta": {
+          "eventType": "SPLIT",
+          "dateEpochMs": 1773846000000,
+          "splitRatio": "1:8000000"
+        }
+      }
+    ],
+    "regularMarketTime": 1772001000,
     "epsTrailingTwelveMonths": 101.5,
     "epsForward": -34.3,
     "fiftyDayAverageChange": -6.76001,
@@ -1129,6 +1127,7 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
+    "marketState": "PREPRE",
     "shortName": "DIGITAL HOLDINGS INC",
     "longName": "Digital Holdings, Inc.",
     "exchange": "JPX",
@@ -1141,19 +1140,20 @@
     "regularMarketChangePercent": 0.0,
     "regularMarketPrice": 2006.0,
     "hasPrePostMarketData": false,
-    "corporateActions": [
-      {
-        "header": "Reverse stock split",
-        "message": "2389.T announces 1 for 8000000 split effective Mar. 19, 2026",
-        "meta": {
-          "eventType": "SPLIT",
-          "dateEpochMs": 1773846000000,
-          "splitRatio": "1:8000000"
-        }
-      }
-    ],
-    "regularMarketTime": 1771914600,
-    "marketState": "PREPRE",
+    "firstTradeDateMilliseconds": 1076630400000,
+    "regularMarketChange": 0.0,
+    "regularMarketDayRange": "2006.0 - 2010.0",
+    "fullExchangeName": "Tokyo",
+    "averageDailyVolume3Month": 74264,
+    "fiftyTwoWeekLowChange": 862.0,
+    "fiftyTwoWeekLowChangePercent": 0.7534965,
+    "fiftyTwoWeekRange": "1144.0 - 2379.0",
+    "fiftyTwoWeekHighChange": -373.0,
+    "fiftyTwoWeekHighChangePercent": -0.15678857,
+    "fiftyTwoWeekChangePercent": 34.54058,
+    "earningsTimestampStart": 1754546400,
+    "earningsTimestampEnd": 1754978400,
+    "isEarningsDateEstimate": true,
     "trailingPegRatio": null
   }
 }
