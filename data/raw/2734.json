@@ -1,7 +1,7 @@
 {
   "ticker": "2734",
   "japanese_ticker": "2734.T",
-  "fetch_date": "2026-02-27T23:29:37.347546",
+  "fetch_date": "2026-02-28T23:26:53.907581",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-11-30 00:00:00": 379192000.0,
@@ -95,11 +95,11 @@
       "2021-11-30 00:00:00": null
     },
     "Normalized Income": {
-      "2025-11-30 00:00:00": 5137192000.0,
+      "2025-11-30 00:00:00": null,
       "2024-11-30 00:00:00": 4822684230.96841,
       "2023-11-30 00:00:00": 4433334000.0,
       "2022-11-30 00:00:00": 5198412000.0,
-      "2021-11-30 00:00:00": null
+      "2021-11-30 00:00:00": 5005968000.0
     },
     "Net Income From Continuing And Discontinued Operation": {
       "2025-11-30 00:00:00": 5870000000.0,
@@ -552,11 +552,11 @@
       "2021-11-30 00:00:00": null
     },
     "Payables": {
-      "2025-11-30 00:00:00": 25123000000.0,
+      "2025-11-30 00:00:00": null,
       "2024-11-30 00:00:00": 28767000000.0,
       "2023-11-30 00:00:00": 26566000000.0,
       "2022-11-30 00:00:00": 29522000000.0,
-      "2021-11-30 00:00:00": null
+      "2021-11-30 00:00:00": 25957000000.0
     },
     "Total Tax Payable": {
       "2025-11-30 00:00:00": 2324000000.0,
@@ -841,11 +841,11 @@
       "2021-11-30 00:00:00": null
     },
     "Changes In Cash": {
-      "2025-11-30 00:00:00": 5486000000.0,
+      "2025-11-30 00:00:00": null,
       "2024-11-30 00:00:00": 3478000000.0,
       "2023-11-30 00:00:00": -1225000000.0,
       "2022-11-30 00:00:00": -455000000.0,
-      "2021-11-30 00:00:00": null
+      "2021-11-30 00:00:00": 2630000000.0
     },
     "Financing Cash Flow": {
       "2025-11-30 00:00:00": 1752000000.0,
@@ -1168,6 +1168,24 @@
         "yearBorn": 1972,
         "exercisedValue": 0,
         "unexercisedValue": 0
+      },
+      {
+        "maxAge": 1,
+        "name": "Mr. Takayuki  Watarai",
+        "age": 53,
+        "title": "MD & Director",
+        "yearBorn": 1972,
+        "exercisedValue": 0,
+        "unexercisedValue": 0
+      },
+      {
+        "maxAge": 1,
+        "name": "Mr. Keitaro  Suzuki",
+        "age": 61,
+        "title": "Executive Officer & Energy & Solutions Segment Leader and Representative Director",
+        "yearBorn": 1964,
+        "exercisedValue": 0,
+        "unexercisedValue": 0
       }
     ],
     "irWebsite": "http://www.sala.jp/english/kessan/index.html",
@@ -1191,9 +1209,9 @@
     "trailingPE": 13.36834,
     "volume": 96200,
     "regularMarketVolume": 96200,
-    "averageVolume": 102925,
-    "averageVolume10days": 103850,
-    "averageDailyVolume10Day": 103850,
+    "averageVolume": 102610,
+    "averageVolume10days": 102500,
+    "averageDailyVolume10Day": 102500,
     "bid": 1213.0,
     "ask": 1225.0,
     "bidSize": 0,
@@ -1202,11 +1220,11 @@
     "nonDilutedMarketCap": 78473088460,
     "fiftyTwoWeekLow": 737.0,
     "fiftyTwoWeekHigh": 1224.0,
-    "allTimeHigh": 1220.0,
+    "allTimeHigh": 1224.0,
     "allTimeLow": 303.0,
     "priceToSalesTrailing12Months": 0.3119793,
-    "fiftyDayAverage": 1122.4,
-    "twoHundredDayAverage": 1039.19,
+    "fiftyDayAverage": 1125.02,
+    "twoHundredDayAverage": 1040.735,
     "trailingAnnualDividendRate": 32.0,
     "trailingAnnualDividendYield": 0.026823135,
     "currency": "JPY",
@@ -1215,8 +1233,8 @@
     "profitMargins": 0.023340002,
     "floatShares": 46475077,
     "sharesOutstanding": 64216930,
-    "heldPercentInsiders": 0.15161,
-    "heldPercentInstitutions": 0.29997,
+    "heldPercentInsiders": 0.14725,
+    "heldPercentInstitutions": 0.29915002,
     "impliedSharesOutstanding": 64216930,
     "bookValue": 1428.206,
     "priceToBook": 0.85561883,
@@ -1228,8 +1246,8 @@
     "trailingEps": 91.41,
     "enterpriseToRevenue": 0.436,
     "enterpriseToEbitda": 7.743,
-    "52WeekChange": 0.49686325,
-    "SandP52WeekChange": 0.16027546,
+    "52WeekChange": 0.4830097,
+    "SandP52WeekChange": 0.17593324,
     "lastDividendValue": 17.0,
     "lastDividendDate": 1795737600,
     "quoteType": "EQUITY",
@@ -1262,6 +1280,7 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "cryptoTradeable": false,
     "exchange": "JPX",
     "messageBoardId": "finmb_7870355",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1269,36 +1288,35 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
+    "marketState": "CLOSED",
     "regularMarketChangePercent": 2.4308465,
     "regularMarketPrice": 1222.0,
-    "shortName": "SALA CORPORATION",
-    "longName": "SALA Corporation",
-    "corporateActions": [],
-    "regularMarketTime": 1772173800,
-    "epsTrailingTwelveMonths": 91.41,
-    "fiftyDayAverageChange": 99.599976,
-    "fiftyDayAverageChangePercent": 0.0887384,
-    "twoHundredDayAverageChange": 182.81006,
-    "twoHundredDayAverageChangePercent": 0.17591593,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1020124800000,
     "regularMarketChange": 29.0,
     "regularMarketDayRange": "1198.0 - 1224.0",
     "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 102925,
+    "averageDailyVolume3Month": 102610,
     "fiftyTwoWeekLowChange": 485.0,
     "fiftyTwoWeekLowChangePercent": 0.65807325,
     "fiftyTwoWeekRange": "737.0 - 1224.0",
     "fiftyTwoWeekHighChange": -2.0,
     "fiftyTwoWeekHighChangePercent": -0.001633987,
-    "fiftyTwoWeekChangePercent": 49.686325,
+    "fiftyTwoWeekChangePercent": 48.30097,
     "earningsTimestampStart": 1751524200,
     "earningsTimestampEnd": 1751869800,
     "isEarningsDateEstimate": true,
-    "marketState": "CLOSED",
+    "epsTrailingTwelveMonths": 91.41,
+    "fiftyDayAverageChange": 96.97998,
+    "fiftyDayAverageChangePercent": 0.08620289,
+    "twoHundredDayAverageChange": 181.26501,
+    "twoHundredDayAverageChangePercent": 0.1741702,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "corporateActions": [],
+    "regularMarketTime": 1772173800,
+    "shortName": "SALA CORPORATION",
+    "longName": "SALA Corporation",
     "trailingPegRatio": null
   }
 }
