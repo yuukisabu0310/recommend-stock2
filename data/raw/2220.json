@@ -1,7 +1,7 @@
 {
   "ticker": "2220",
   "japanese_ticker": "2220.T",
-  "fetch_date": "2026-02-28T23:21:30.956288",
+  "fetch_date": "2026-03-01T23:22:49.050722",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": -28424000.0,
@@ -1198,11 +1198,11 @@
     "trailingPE": 3.4048254,
     "volume": 57500,
     "regularMarketVolume": 57500,
-    "averageVolume": 57757,
+    "averageVolume": 57882,
     "averageVolume10days": 77750,
     "averageDailyVolume10Day": 77750,
-    "bid": 4340.0,
-    "ask": 4365.0,
+    "bid": 0.0,
+    "ask": 4345.0,
     "marketCap": 91606114304,
     "nonDilutedMarketCap": 91606112950,
     "fiftyTwoWeekLow": 3600.0,
@@ -1267,18 +1267,14 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 978307200000,
-    "marketState": "CLOSED",
-    "regularMarketChangePercent": 0.46242774,
-    "regularMarketPrice": 4345.0,
-    "cryptoTradeable": false,
     "shortName": "KAMEDA SEIKA CO",
     "longName": "Kameda Seika Co.,Ltd.",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 978307200000,
     "regularMarketChange": 20.0,
     "regularMarketDayRange": "4300.0 - 4365.0",
     "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 57757,
+    "averageDailyVolume3Month": 57882,
     "fiftyTwoWeekLowChange": 745.0,
     "fiftyTwoWeekLowChangePercent": 0.20694445,
     "fiftyTwoWeekRange": "3600.0 - 4605.0",
@@ -1296,7 +1292,28 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "averageAnalystRating": "0.0 - Strong Buy",
-    "corporateActions": [],
+    "cryptoTradeable": false,
+    "marketState": "PREPRE",
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "2220.T announced a cash dividend of 51.00 JPY with an ex-date of Mar. 30, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1774796400000,
+          "amount": "51.00"
+        }
+      },
+      {
+        "header": "Stock split",
+        "message": "2220.T announces 3 for 1 split effective Mar. 30, 2026",
+        "meta": {
+          "eventType": "SPLIT",
+          "dateEpochMs": 1774796400000,
+          "splitRatio": "3:1"
+        }
+      }
+    ],
     "regularMarketTime": 1772173800,
     "exchange": "JPX",
     "messageBoardId": "finmb_5496016",
@@ -1305,6 +1322,8 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
+    "regularMarketChangePercent": 0.46242774,
+    "regularMarketPrice": 4345.0,
     "trailingPegRatio": null
   }
 }

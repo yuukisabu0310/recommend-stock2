@@ -1,7 +1,7 @@
 {
   "ticker": "2602",
   "japanese_ticker": "2602.T",
-  "fetch_date": "2026-02-28T23:25:40.516012",
+  "fetch_date": "2026-03-01T23:26:59.361571",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": 457632000.0,
@@ -1205,10 +1205,10 @@
     "forwardPE": 11.596738,
     "volume": 89200,
     "regularMarketVolume": 89200,
-    "averageVolume": 67681,
+    "averageVolume": 67481,
     "averageVolume10days": 66244,
     "averageDailyVolume10Day": 66244,
-    "bid": 6090.0,
+    "bid": 6100.0,
     "ask": 6110.0,
     "marketCap": 187711127552,
     "nonDilutedMarketCap": 187711133700,
@@ -1282,6 +1282,27 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "2602.T announced a cash dividend of 90.00 JPY with an ex-date of Mar. 30, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1774796400000,
+          "amount": "90.00"
+        }
+      },
+      {
+        "header": "Stock split",
+        "message": "2602.T announces 3 for 1 split effective Mar. 30, 2026",
+        "meta": {
+          "eventType": "SPLIT",
+          "dateEpochMs": 1774796400000,
+          "splitRatio": "3:1"
+        }
+      }
+    ],
+    "regularMarketTime": 1772173800,
     "exchange": "JPX",
     "messageBoardId": "finmb_877077",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1289,15 +1310,16 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "shortName": "NISSHIN OILLIO GROUP LTD",
-    "longName": "The Nisshin OilliO Group,Ltd.",
-    "marketState": "CLOSED",
-    "corporateActions": [],
-    "regularMarketTime": 1772173800,
+    "regularMarketChangePercent": 2.3489933,
+    "regularMarketPrice": 6100.0,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 978307200000,
+    "cryptoTradeable": false,
+    "marketState": "PREPRE",
     "regularMarketChange": 140.0,
     "regularMarketDayRange": "5970.0 - 6120.0",
     "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 67681,
+    "averageDailyVolume3Month": 67481,
     "fiftyTwoWeekLowChange": 1795.0,
     "fiftyTwoWeekLowChangePercent": 0.41695702,
     "fiftyTwoWeekRange": "4305.0 - 6120.0",
@@ -1316,11 +1338,8 @@
     "twoHundredDayAverageChangePercent": 0.17568827,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
-    "regularMarketChangePercent": 2.3489933,
-    "regularMarketPrice": 6100.0,
-    "cryptoTradeable": false,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 978307200000,
+    "shortName": "NISSHIN OILLIO GROUP LTD",
+    "longName": "The Nisshin OilliO Group,Ltd.",
     "trailingPegRatio": null
   }
 }

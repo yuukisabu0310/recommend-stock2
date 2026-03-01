@@ -1,7 +1,7 @@
 {
   "ticker": "1815",
   "japanese_ticker": "1815.T",
-  "fetch_date": "2026-02-28T23:17:08.231607",
+  "fetch_date": "2026-03-01T23:18:13.641483",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": 595429348.921588,
@@ -1083,11 +1083,11 @@
     "forwardPE": 21.92076,
     "volume": 155800,
     "regularMarketVolume": 155800,
-    "averageVolume": 98510,
+    "averageVolume": 99158,
     "averageVolume10days": 174500,
     "averageDailyVolume10Day": 174500,
-    "bid": 5090.0,
-    "ask": 5100.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 70905085952,
@@ -1153,9 +1153,19 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "cryptoTradeable": false,
-    "marketState": "CLOSED",
-    "corporateActions": [],
+    "regularMarketChangePercent": 4.6248717,
+    "regularMarketPrice": 5090.0,
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "1815.T announced a cash dividend of 160.00 JPY with an ex-date of Mar. 30, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1774796400000,
+          "amount": "160.00"
+        }
+      }
+    ],
     "regularMarketTime": 1772173800,
     "exchange": "JPX",
     "messageBoardId": "finmb_879874",
@@ -1164,14 +1174,13 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "regularMarketChangePercent": 4.6248717,
-    "regularMarketPrice": 5090.0,
+    "marketState": "PREPRE",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 978307200000,
     "regularMarketChange": 225.0,
     "regularMarketDayRange": "4870.0 - 5100.0",
     "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 98510,
+    "averageDailyVolume3Month": 99158,
     "fiftyTwoWeekLowChange": 3002.0,
     "fiftyTwoWeekLowChangePercent": 1.4377395,
     "fiftyTwoWeekRange": "2088.0 - 5840.0",
@@ -1181,6 +1190,8 @@
     "earningsTimestampStart": 1754550000,
     "earningsTimestampEnd": 1754982000,
     "isEarningsDateEstimate": true,
+    "shortName": "TEKKEN CORP",
+    "longName": "Tekken Corporation",
     "epsTrailingTwelveMonths": 242.79,
     "epsForward": 232.2,
     "fiftyDayAverageChange": 239.7002,
@@ -1189,8 +1200,7 @@
     "twoHundredDayAverageChangePercent": 0.37136328,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
-    "shortName": "TEKKEN CORP",
-    "longName": "Tekken Corporation",
+    "cryptoTradeable": false,
     "trailingPegRatio": null
   }
 }

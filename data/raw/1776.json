@@ -1,7 +1,7 @@
 {
   "ticker": "1776",
   "japanese_ticker": "1776.T",
-  "fetch_date": "2026-02-28T23:16:30.910293",
+  "fetch_date": "2026-03-01T23:17:33.765570",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": -10080000.0,
@@ -948,11 +948,11 @@
     "trailingPE": 57.474403,
     "volume": 11100,
     "regularMarketVolume": 11100,
-    "averageVolume": 11415,
+    "averageVolume": 11198,
     "averageVolume10days": 13160,
     "averageDailyVolume10Day": 13160,
-    "bid": 1669.0,
-    "ask": 1690.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 15500962816,
@@ -1018,10 +1018,14 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "shortName": "SUMIKEN MITSUI ROAD CO LTD",
+    "longName": "Sumiken Mitsui Road Co.,Ltd.",
+    "regularMarketPrice": 1684.0,
+    "marketState": "PREPRE",
     "regularMarketChange": 39.0,
     "regularMarketDayRange": "1663.0 - 1692.0",
     "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 11415,
+    "averageDailyVolume3Month": 11198,
     "fiftyTwoWeekLowChange": 495.0,
     "fiftyTwoWeekLowChangePercent": 0.41631624,
     "fiftyTwoWeekRange": "1189.0 - 1707.0",
@@ -1038,9 +1042,19 @@
     "twoHundredDayAverageChangePercent": 0.10831396,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 978566400000,
-    "corporateActions": [],
+    "cryptoTradeable": false,
+    "regularMarketChangePercent": 2.3708208,
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "1776.T announced a cash dividend of 50.00 JPY with an ex-date of Mar. 30, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1774796400000,
+          "amount": "50.00"
+        }
+      }
+    ],
     "regularMarketTime": 1772173800,
     "exchange": "JPX",
     "messageBoardId": "finmb_883319",
@@ -1049,12 +1063,8 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "shortName": "SUMIKEN MITSUI ROAD CO LTD",
-    "longName": "Sumiken Mitsui Road Co.,Ltd.",
-    "regularMarketChangePercent": 2.3708208,
-    "regularMarketPrice": 1684.0,
-    "marketState": "CLOSED",
-    "cryptoTradeable": false,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 978566400000,
     "trailingPegRatio": null
   }
 }

@@ -1,7 +1,7 @@
 {
   "ticker": "1826",
   "japanese_ticker": "1826.T",
-  "fetch_date": "2026-02-28T23:17:14.267016",
+  "fetch_date": "2026-03-01T23:18:19.831403",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": -4984000.0,
@@ -1089,10 +1089,10 @@
     "trailingPE": 26.10998,
     "volume": 24300,
     "regularMarketVolume": 24300,
-    "averageVolume": 26250,
+    "averageVolume": 26574,
     "averageVolume10days": 20590,
     "averageDailyVolume10Day": 20590,
-    "bid": 1278.0,
+    "bid": 0.0,
     "ask": 1285.0,
     "bidSize": 0,
     "askSize": 0,
@@ -1160,8 +1160,6 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "regularMarketChangePercent": 0.6279435,
-    "regularMarketPrice": 1282.0,
     "exchange": "JPX",
     "messageBoardId": "finmb_880923",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1169,9 +1167,23 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "corporateActions": [],
+    "regularMarketChangePercent": 0.6279435,
+    "regularMarketPrice": 1282.0,
+    "shortName": "SATA CONSTRUCTION CO",
+    "longName": "Sata Construction Co., Ltd.",
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "1826.T announced a cash dividend of 60.00 JPY with an ex-date of Mar. 30, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1774796400000,
+          "amount": "60.00"
+        }
+      }
+    ],
     "regularMarketTime": 1772173800,
-    "marketState": "CLOSED",
+    "epsTrailingTwelveMonths": 49.1,
     "fiftyDayAverageChange": 81.119995,
     "fiftyDayAverageChangePercent": 0.06755046,
     "twoHundredDayAverageChange": 117.71997,
@@ -1184,7 +1196,7 @@
     "regularMarketChange": 8.0,
     "regularMarketDayRange": "1275.0 - 1285.0",
     "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 26250,
+    "averageDailyVolume3Month": 26574,
     "fiftyTwoWeekLowChange": 362.0,
     "fiftyTwoWeekLowChangePercent": 0.39347827,
     "fiftyTwoWeekRange": "920.0 - 1296.0",
@@ -1196,9 +1208,7 @@
     "earningsCallTimestampStart": 1747652340,
     "earningsCallTimestampEnd": 1747652340,
     "isEarningsDateEstimate": false,
-    "epsTrailingTwelveMonths": 49.1,
-    "shortName": "SATA CONSTRUCTION CO",
-    "longName": "Sata Construction Co., Ltd.",
+    "marketState": "PREPRE",
     "trailingPegRatio": null
   }
 }

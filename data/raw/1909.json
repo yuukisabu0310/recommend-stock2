@@ -1,7 +1,7 @@
 {
   "ticker": "1909",
   "japanese_ticker": "1909.T",
-  "fetch_date": "2026-02-28T23:18:17.006208",
+  "fetch_date": "2026-03-01T23:19:21.750088",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": -18314048.0,
@@ -1209,11 +1209,11 @@
     "forwardPE": 25.482233,
     "volume": 32600,
     "regularMarketVolume": 32600,
-    "averageVolume": 37194,
+    "averageVolume": 36915,
     "averageVolume10days": 34140,
     "averageDailyVolume10Day": 34140,
-    "bid": 12490.0,
-    "ask": 12570.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 84131586048,
@@ -1286,12 +1286,39 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "cryptoTradeable": false,
-    "firstTradeDateMilliseconds": 1309305600000,
-    "regularMarketChange": 160.0,
-    "regularMarketDayRange": "12390.0 - 12630.0",
-    "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 37194,
+    "marketState": "PREPRE",
+    "shortName": "NIPPON DRY-CHEMICAL CO LTD",
+    "longName": "Nippon Dry-Chemical Co., Ltd.",
+    "exchange": "JPX",
+    "messageBoardId": "finmb_880640",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
+    "regularMarketChangePercent": 1.291364,
+    "regularMarketPrice": 12550.0,
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "1909.T announced a cash dividend of 55.00 JPY with an ex-date of Mar. 30, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1774796400000,
+          "amount": "55.00"
+        }
+      },
+      {
+        "header": "Stock split",
+        "message": "1909.T announces 4 for 1 split effective Mar. 30, 2026",
+        "meta": {
+          "eventType": "SPLIT",
+          "dateEpochMs": 1774796400000,
+          "splitRatio": "4:1"
+        }
+      }
+    ],
+    "regularMarketTime": 1772173800,
     "fiftyTwoWeekLowChange": 9480.0,
     "fiftyTwoWeekLowChangePercent": 3.0879478,
     "fiftyTwoWeekRange": "3070.0 - 12910.0",
@@ -1309,21 +1336,13 @@
     "twoHundredDayAverageChangePercent": 0.66345793,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
-    "shortName": "NIPPON DRY-CHEMICAL CO LTD",
-    "longName": "Nippon Dry-Chemical Co., Ltd.",
-    "regularMarketChangePercent": 1.291364,
-    "regularMarketPrice": 12550.0,
-    "regularMarketTime": 1772173800,
-    "corporateActions": [],
-    "exchange": "JPX",
-    "messageBoardId": "finmb_880640",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
+    "cryptoTradeable": false,
     "hasPrePostMarketData": false,
-    "marketState": "CLOSED",
+    "firstTradeDateMilliseconds": 1309305600000,
+    "regularMarketChange": 160.0,
+    "regularMarketDayRange": "12390.0 - 12630.0",
+    "fullExchangeName": "Tokyo",
+    "averageDailyVolume3Month": 36915,
     "trailingPegRatio": null
   }
 }

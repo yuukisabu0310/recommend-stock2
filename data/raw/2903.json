@@ -1,7 +1,7 @@
 {
   "ticker": "2903",
   "japanese_ticker": "2903.T",
-  "fetch_date": "2026-02-28T23:28:51.760040",
+  "fetch_date": "2026-03-01T23:30:09.837221",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": -268035000.0,
@@ -1063,11 +1063,11 @@
     "trailingPE": 20.325289,
     "volume": 2500,
     "regularMarketVolume": 2500,
-    "averageVolume": 9684,
+    "averageVolume": 9801,
     "averageVolume10days": 9300,
     "averageDailyVolume10Day": 9300,
-    "bid": 1937.0,
-    "ask": 1948.0,
+    "bid": 0.0,
+    "ask": 1931.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 21589307392,
@@ -1132,18 +1132,34 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 954806400000,
-    "marketState": "CLOSED",
+    "exchange": "JPX",
+    "messageBoardId": "finmb_5555119",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
     "regularMarketChangePercent": -0.56468177,
     "regularMarketPrice": 1937.0,
-    "cryptoTradeable": false,
     "shortName": "SHINOBU FOOD PRODUCTS CO",
     "longName": "Shinobu Foods Products Co., Ltd.",
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "2903.T announced a cash dividend of 15.00 JPY with an ex-date of Mar. 30, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1774796400000,
+          "amount": "15.00"
+        }
+      }
+    ],
+    "regularMarketTime": 1772173800,
+    "firstTradeDateMilliseconds": 954806400000,
     "regularMarketChange": -11.0,
     "regularMarketDayRange": "1925.0 - 1937.0",
     "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 9684,
+    "averageDailyVolume3Month": 9801,
     "fiftyTwoWeekLowChange": 1152.0,
     "fiftyTwoWeekLowChangePercent": 1.467516,
     "fiftyTwoWeekRange": "785.0 - 2119.0",
@@ -1160,15 +1176,9 @@
     "twoHundredDayAverageChangePercent": 0.22868282,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
-    "corporateActions": [],
-    "regularMarketTime": 1772173800,
-    "exchange": "JPX",
-    "messageBoardId": "finmb_5555119",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
+    "hasPrePostMarketData": false,
+    "cryptoTradeable": false,
+    "marketState": "PREPRE",
     "trailingPegRatio": null
   }
 }

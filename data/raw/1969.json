@@ -1,7 +1,7 @@
 {
   "ticker": "1969",
   "japanese_ticker": "1969.T",
-  "fetch_date": "2026-02-28T23:19:17.073262",
+  "fetch_date": "2026-03-01T23:20:22.644669",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": 615802000.0,
@@ -1196,7 +1196,7 @@
     "compensationRisk": 9,
     "shareHolderRightsRisk": 2,
     "overallRisk": 2,
-    "governanceEpochDate": 1769904000,
+    "governanceEpochDate": 1772323200,
     "compensationAsOfEpochDate": 1767139200,
     "irWebsite": "http://www.tte-net.co.jp/ir/index.html",
     "executiveTeam": [],
@@ -1220,11 +1220,11 @@
     "forwardPE": 15.631059,
     "volume": 1537700,
     "regularMarketVolume": 1537700,
-    "averageVolume": 580123,
+    "averageVolume": 580200,
     "averageVolume10days": 1060830,
     "averageDailyVolume10Day": 1060830,
-    "bid": 5225.0,
-    "ask": 5240.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 685732790272,
@@ -1298,17 +1298,15 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "regularMarketChangePercent": 4.8629174,
-    "regularMarketPrice": 5240.0,
-    "marketState": "CLOSED",
-    "corporateActions": [],
-    "regularMarketTime": 1772173800,
     "shortName": "TAKASAGO THERMAL ENGINEERING CO",
     "longName": "Takasago Thermal Engineering Co., Ltd.",
+    "marketState": "PREPRE",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 978307200000,
     "regularMarketChange": 243.0,
     "regularMarketDayRange": "5005.0 - 5250.0",
     "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 580123,
+    "averageDailyVolume3Month": 580200,
     "fiftyTwoWeekLowChange": 2782.0,
     "fiftyTwoWeekLowChangePercent": 1.1318145,
     "fiftyTwoWeekRange": "2458.0 - 5749.0",
@@ -1330,6 +1328,19 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "averageAnalystRating": "2.0 - Buy",
+    "cryptoTradeable": false,
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "1969.T announced a cash dividend of 69.00 JPY with an ex-date of Mar. 30, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1774796400000,
+          "amount": "69.00"
+        }
+      }
+    ],
+    "regularMarketTime": 1772173800,
     "exchange": "JPX",
     "messageBoardId": "finmb_876039",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1337,9 +1348,8 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "cryptoTradeable": false,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 978307200000,
+    "regularMarketChangePercent": 4.8629174,
+    "regularMarketPrice": 5240.0,
     "trailingPegRatio": null
   }
 }

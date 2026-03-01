@@ -1,7 +1,7 @@
 {
   "ticker": "1822",
   "japanese_ticker": "1822.T",
-  "fetch_date": "2026-02-28T23:17:12.150987",
+  "fetch_date": "2026-03-01T23:18:17.757161",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": 23247000.0,
@@ -1080,11 +1080,11 @@
     "forwardPE": 4.4997487,
     "volume": 425900,
     "regularMarketVolume": 425900,
-    "averageVolume": 193535,
+    "averageVolume": 193413,
     "averageVolume10days": 411420,
     "averageDailyVolume10Day": 411420,
-    "bid": 894.0,
-    "ask": 895.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 78989279232,
@@ -1152,10 +1152,24 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "cryptoTradeable": false,
-    "marketState": "CLOSED",
-    "corporateActions": [],
+    "marketState": "PREPRE",
+    "regularMarketChangePercent": 3.110599,
+    "regularMarketPrice": 895.0,
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "1822.T announced a cash dividend of 34.00 JPY with an ex-date of Mar. 30, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1774796400000,
+          "amount": "34.00"
+        }
+      }
+    ],
     "regularMarketTime": 1772173800,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
     "exchange": "JPX",
     "messageBoardId": "finmb_874910",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1163,14 +1177,14 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "regularMarketChangePercent": 3.110599,
-    "regularMarketPrice": 895.0,
+    "shortName": "DAIHO CORPORATION",
+    "longName": "Daiho Corporation",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 978307200000,
     "regularMarketChange": 27.0,
     "regularMarketDayRange": "867.0 - 895.0",
     "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 193535,
+    "averageDailyVolume3Month": 193413,
     "fiftyTwoWeekLowChange": 253.0,
     "fiftyTwoWeekLowChangePercent": 0.394081,
     "fiftyTwoWeekRange": "642.0 - 895.0",
@@ -1186,10 +1200,6 @@
     "fiftyDayAverageChangePercent": 0.11017392,
     "twoHundredDayAverageChange": 85.065,
     "twoHundredDayAverageChangePercent": 0.10502695,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "shortName": "DAIHO CORPORATION",
-    "longName": "Daiho Corporation",
     "trailingPegRatio": null
   }
 }

@@ -1,7 +1,7 @@
 {
   "ticker": "1798",
   "japanese_ticker": "1798.T",
-  "fetch_date": "2026-02-28T23:16:45.955089",
+  "fetch_date": "2026-03-01T23:17:50.123467",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": 4869816.0,
@@ -1050,11 +1050,11 @@
     "trailingPE": 5.6721454,
     "volume": 2200,
     "regularMarketVolume": 2200,
-    "averageVolume": 5422,
+    "averageVolume": 5458,
     "averageVolume10days": 3710,
     "averageDailyVolume10Day": 3710,
-    "bid": 7020.0,
-    "ask": 7140.0,
+    "bid": 0.0,
+    "ask": 7160.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 15550102528,
@@ -1121,8 +1121,22 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "shortName": "MORIYA CORPORATION",
+    "longName": "Moriya Corporation",
     "regularMarketChangePercent": 0.70621467,
     "regularMarketPrice": 7130.0,
+    "corporateActions": [
+      {
+        "header": "Stock split",
+        "message": "1798.T announces 5 for 1 split effective Mar. 30, 2026",
+        "meta": {
+          "eventType": "SPLIT",
+          "dateEpochMs": 1774796400000,
+          "splitRatio": "5:1"
+        }
+      }
+    ],
+    "regularMarketTime": 1772173800,
     "exchange": "JPX",
     "messageBoardId": "finmb_883959",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1130,10 +1144,12 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "longName": "Moriya Corporation",
-    "shortName": "MORIYA CORPORATION",
-    "corporateActions": [],
-    "regularMarketTime": 1772173800,
+    "marketState": "PREPRE",
+    "fiftyTwoWeekLowChange": 3890.0,
+    "fiftyTwoWeekLowChangePercent": 1.2006173,
+    "fiftyTwoWeekRange": "3240.0 - 7550.0",
+    "fiftyTwoWeekHighChange": -420.0,
+    "fiftyTwoWeekHighChangePercent": -0.055629138,
     "fiftyTwoWeekChangePercent": 100.28091,
     "earningsTimestampStart": 1747029600,
     "earningsTimestampEnd": 1747029600,
@@ -1146,18 +1162,12 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
+    "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 947030400000,
     "regularMarketChange": 50.0,
     "regularMarketDayRange": "7040.0 - 7140.0",
     "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 5422,
-    "fiftyTwoWeekLowChange": 3890.0,
-    "fiftyTwoWeekLowChangePercent": 1.2006173,
-    "fiftyTwoWeekRange": "3240.0 - 7550.0",
-    "fiftyTwoWeekHighChange": -420.0,
-    "fiftyTwoWeekHighChangePercent": -0.055629138,
-    "hasPrePostMarketData": false,
-    "marketState": "CLOSED",
+    "averageDailyVolume3Month": 5458,
     "trailingPegRatio": null
   }
 }

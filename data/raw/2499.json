@@ -1,7 +1,7 @@
 {
   "ticker": "2499",
   "japanese_ticker": "2499.T",
-  "fetch_date": "2026-02-28T23:25:06.982766",
+  "fetch_date": "2026-03-01T23:26:24.796410",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2024-12-31 00:00:00": -1112700.160789,
@@ -107,7 +107,7 @@
     },
     "Diluted Average Shares": {
       "2024-12-31 00:00:00": 9065600.0,
-      "2023-12-31 00:00:00": 9063431.0,
+      "2023-12-31 00:00:00": 9065600.0,
       "2022-12-31 00:00:00": 9065600.0,
       "2021-12-31 00:00:00": 9065600.0
     },
@@ -890,11 +890,11 @@
     "trailingPE": 10.903614,
     "volume": 6300,
     "regularMarketVolume": 6300,
-    "averageVolume": 13696,
+    "averageVolume": 13718,
     "averageVolume10days": 8470,
     "averageDailyVolume10Day": 8470,
-    "bid": 361.0,
-    "ask": 362.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 3281747200,
@@ -965,6 +965,17 @@
     "customPriceAlertConfidence": "LOW",
     "regularMarketChangePercent": -0.2754821,
     "regularMarketPrice": 362.0,
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "2499.T announced a cash dividend of 3.00 JPY with an ex-date of Mar. 30, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1774796400000,
+          "amount": "3.00"
+        }
+      }
+    ],
     "exchange": "JPX",
     "messageBoardId": "finmb_28606947",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -972,22 +983,7 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "corporateActions": [],
-    "regularMarketTime": 1772173800,
-    "marketState": "CLOSED",
-    "fiftyDayAverageChange": -1.7399902,
-    "fiftyDayAverageChangePercent": -0.00478361,
-    "twoHundredDayAverageChange": 9.540009,
-    "twoHundredDayAverageChangePercent": 0.027066926,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1266883200000,
-    "regularMarketChange": -1.0,
-    "regularMarketDayRange": "360.0 - 363.0",
-    "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 13696,
+    "marketState": "PREPRE",
     "fiftyTwoWeekLowChange": 72.0,
     "fiftyTwoWeekLowChangePercent": 0.24827586,
     "fiftyTwoWeekRange": "290.0 - 421.0",
@@ -998,8 +994,22 @@
     "earningsTimestampEnd": 1755496800,
     "isEarningsDateEstimate": true,
     "epsTrailingTwelveMonths": 33.2,
+    "fiftyDayAverageChange": -1.7399902,
+    "fiftyDayAverageChangePercent": -0.00478361,
+    "twoHundredDayAverageChange": 9.540009,
+    "twoHundredDayAverageChangePercent": 0.027066926,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
     "shortName": "NIHONWASOU HOLDINGS INC",
     "longName": "Nihonwasou Holdings, Inc.",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1266883200000,
+    "regularMarketChange": -1.0,
+    "regularMarketDayRange": "360.0 - 363.0",
+    "fullExchangeName": "Tokyo",
+    "averageDailyVolume3Month": 13718,
+    "regularMarketTime": 1772173800,
     "trailingPegRatio": null
   }
 }

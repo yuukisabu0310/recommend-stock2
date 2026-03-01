@@ -1,7 +1,7 @@
 {
   "ticker": "2425",
   "japanese_ticker": "2425.T",
-  "fetch_date": "2026-02-28T23:24:01.334170",
+  "fetch_date": "2026-03-01T23:25:18.603201",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": -8151228.0,
@@ -1031,11 +1031,11 @@
     "trailingPE": 11.560694,
     "volume": 2900,
     "regularMarketVolume": 2900,
-    "averageVolume": 3318,
+    "averageVolume": 3346,
     "averageVolume10days": 3700,
     "averageDailyVolume10Day": 3700,
-    "bid": 798.0,
-    "ask": 800.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 3034554368,
@@ -1108,11 +1108,36 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
+    "market": "jp_market",
+    "esgPopulated": false,
+    "marketState": "PREPRE",
+    "messageBoardId": "finmb_13009566",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "regularMarketChangePercent": 0.0,
+    "regularMarketPrice": 800.0,
+    "shortName": "CARE SERVICE CO LTD",
     "longName": "Care Service Co.,Ltd.",
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "2425.T announced a cash dividend of 22.00 JPY with an ex-date of Mar. 30, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1774796400000,
+          "amount": "22.00"
+        }
+      }
+    ],
+    "regularMarketTime": 1772173800,
+    "exchange": "JPX",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1101427200000,
     "regularMarketChange": 0.0,
     "regularMarketDayRange": "796.0 - 800.0",
     "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 3318,
+    "averageDailyVolume3Month": 3346,
     "fiftyTwoWeekLowChange": 80.0,
     "fiftyTwoWeekLowChangePercent": 0.11111111,
     "fiftyTwoWeekRange": "720.0 - 894.0",
@@ -1123,21 +1148,6 @@
     "earningsTimestampEnd": 1747206000,
     "isEarningsDateEstimate": false,
     "epsTrailingTwelveMonths": 69.2,
-    "shortName": "CARE SERVICE CO LTD",
-    "corporateActions": [],
-    "regularMarketTime": 1772173800,
-    "exchange": "JPX",
-    "messageBoardId": "finmb_13009566",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1101427200000,
-    "regularMarketChangePercent": 0.0,
-    "regularMarketPrice": 800.0,
-    "marketState": "CLOSED",
     "trailingPegRatio": null
   }
 }

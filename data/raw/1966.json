@@ -1,7 +1,7 @@
 {
   "ticker": "1966",
   "japanese_ticker": "1966.T",
-  "fetch_date": "2026-02-28T23:19:10.690293",
+  "fetch_date": "2026-03-01T23:20:16.768044",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": -19290618.0,
@@ -1190,11 +1190,11 @@
     "forwardPE": 7.353279,
     "volume": 12900,
     "regularMarketVolume": 12900,
-    "averageVolume": 13005,
+    "averageVolume": 13168,
     "averageVolume10days": 33660,
     "averageDailyVolume10Day": 33660,
-    "bid": 1916.0,
-    "ask": 1924.0,
+    "bid": 0.0,
+    "ask": 1906.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 14010550272,
@@ -1260,11 +1260,24 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "marketState": "CLOSED",
+    "marketState": "PREPRE",
     "regularMarketChangePercent": 1.8597238,
     "regularMarketPrice": 1917.0,
-    "corporateActions": [],
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "1966.T announced a cash dividend of 70.00 JPY with an ex-date of Mar. 30, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1774796400000,
+          "amount": "70.00"
+        }
+      }
+    ],
     "regularMarketTime": 1772173800,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
     "exchange": "JPX",
     "messageBoardId": "finmb_5885317",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1272,13 +1285,6 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "fiftyDayAverageChange": 77.839966,
-    "fiftyDayAverageChangePercent": 0.04232365,
-    "twoHundredDayAverageChange": 261.05005,
-    "twoHundredDayAverageChangePercent": 0.15764368,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
     "shortName": "TAKADA CORPORATION",
     "longName": "Takada Corporation",
     "hasPrePostMarketData": false,
@@ -1286,7 +1292,7 @@
     "regularMarketChange": 35.0,
     "regularMarketDayRange": "1874.0 - 1922.0",
     "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 13005,
+    "averageDailyVolume3Month": 13168,
     "fiftyTwoWeekLowChange": 757.0,
     "fiftyTwoWeekLowChangePercent": 0.6525862,
     "fiftyTwoWeekRange": "1160.0 - 2049.0",
@@ -1298,6 +1304,10 @@
     "isEarningsDateEstimate": false,
     "epsTrailingTwelveMonths": 208.19,
     "epsForward": 260.7,
+    "fiftyDayAverageChange": 77.839966,
+    "fiftyDayAverageChangePercent": 0.04232365,
+    "twoHundredDayAverageChange": 261.05005,
+    "twoHundredDayAverageChangePercent": 0.15764368,
     "trailingPegRatio": null
   }
 }

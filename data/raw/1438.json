@@ -1,7 +1,7 @@
 {
   "ticker": "1438",
   "japanese_ticker": "1438.T",
-  "fetch_date": "2026-02-28T23:15:35.070078",
+  "fetch_date": "2026-03-01T23:16:35.296178",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-09-30 00:00:00": -230584.171648,
@@ -1023,11 +1023,11 @@
     "trailingPE": 15.973872,
     "volume": 700,
     "regularMarketVolume": 700,
-    "averageVolume": 3128,
+    "averageVolume": 3158,
     "averageVolume10days": 7090,
     "averageDailyVolume10Day": 7090,
-    "bid": 1883.0,
-    "ask": 1904.0,
+    "bid": 0.0,
+    "ask": 1964.0,
     "marketCap": 6108853248,
     "nonDilutedMarketCap": 6108853079,
     "fiftyTwoWeekLow": 1705.0,
@@ -1090,7 +1090,25 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "corporateActions": [],
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
+    "marketState": "PREPRE",
+    "shortName": "GIFU LANDSCAPE ARCHITECT CO LTD",
+    "longName": "Gifu landscape architect Co., Ltd.",
+    "regularMarketChangePercent": -0.15906681,
+    "regularMarketPrice": 1883.0,
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "1438.T announced a cash dividend of 20.00 JPY with an ex-date of Mar. 30, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1774796400000,
+          "amount": "20.00"
+        }
+      }
+    ],
     "regularMarketTime": 1772163827,
     "exchange": "JPX",
     "messageBoardId": "finmb_403015405",
@@ -1099,10 +1117,12 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1664323200000,
     "regularMarketChange": -3.0,
     "regularMarketDayRange": "1883.0 - 1884.0",
     "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 3128,
+    "averageDailyVolume3Month": 3158,
     "fiftyTwoWeekLowChange": 178.0,
     "fiftyTwoWeekLowChangePercent": 0.104398824,
     "fiftyTwoWeekRange": "1705.0 - 2030.0",
@@ -1117,16 +1137,6 @@
     "fiftyDayAverageChangePercent": 0.039802946,
     "twoHundredDayAverageChange": -3.4350586,
     "twoHundredDayAverageChangePercent": -0.001820926,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1664323200000,
-    "regularMarketChangePercent": -0.15906681,
-    "regularMarketPrice": 1883.0,
-    "marketState": "CLOSED",
-    "shortName": "GIFU LANDSCAPE ARCHITECT CO LTD",
-    "longName": "Gifu landscape architect Co., Ltd.",
     "trailingPegRatio": null
   }
 }

@@ -1,7 +1,7 @@
 {
   "ticker": "1443",
   "japanese_ticker": "1443.T",
-  "fetch_date": "2026-02-28T23:15:36.926611",
+  "fetch_date": "2026-03-01T23:16:37.352559",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": -6131120.0,
@@ -1050,11 +1050,11 @@
     "trailingPE": 9.319286,
     "volume": 195800,
     "regularMarketVolume": 195800,
-    "averageVolume": 229401,
+    "averageVolume": 232272,
     "averageVolume10days": 357600,
     "averageDailyVolume10Day": 357600,
-    "bid": 344.0,
-    "ask": 345.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 5600840704,
@@ -1119,9 +1119,18 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "cryptoTradeable": false,
-    "marketState": "CLOSED",
-    "corporateActions": [],
+    "marketState": "PREPRE",
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "1443.T announced a cash dividend of 1.10 JPY with an ex-date of Mar. 30, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1774796400000,
+          "amount": "1.10"
+        }
+      }
+    ],
     "regularMarketTime": 1772173800,
     "exchange": "JPX",
     "messageBoardId": "finmb_883763",
@@ -1132,12 +1141,16 @@
     "esgPopulated": false,
     "regularMarketChangePercent": 2.9850745,
     "regularMarketPrice": 345.0,
+    "twoHundredDayAverageChangePercent": 0.44599524,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1515456000000,
     "regularMarketChange": 10.0,
     "regularMarketDayRange": "334.0 - 347.0",
     "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 229401,
+    "averageDailyVolume3Month": 232272,
     "fiftyTwoWeekLowChange": 186.0,
     "fiftyTwoWeekLowChangePercent": 1.1698114,
     "fiftyTwoWeekRange": "159.0 - 375.0",
@@ -1151,9 +1164,6 @@
     "fiftyDayAverageChange": 50.660004,
     "fiftyDayAverageChangePercent": 0.1721139,
     "twoHundredDayAverageChange": 106.41,
-    "twoHundredDayAverageChangePercent": 0.44599524,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
     "shortName": "GIKEN HOLDINGS CO LTD",
     "longName": "Giken Holdings Co., Ltd.",
     "trailingPegRatio": null

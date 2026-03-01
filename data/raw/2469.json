@@ -1,7 +1,7 @@
 {
   "ticker": "2469",
   "japanese_ticker": "2469.T",
-  "fetch_date": "2026-02-28T23:24:33.859949",
+  "fetch_date": "2026-03-01T23:25:51.914066",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": -126440000.0,
@@ -1241,11 +1241,11 @@
     "forwardPE": 12.866603,
     "volume": 58900,
     "regularMarketVolume": 58900,
-    "averageVolume": 25844,
+    "averageVolume": 25739,
     "averageVolume10days": 32640,
     "averageDailyVolume10Day": 32640,
-    "bid": 4075.0,
-    "ask": 4080.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 40453844992,
@@ -1313,13 +1313,29 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "cryptoTradeable": false,
+    "shortName": "HIBINO CORPORATION COM STK",
+    "longName": "Hibino Corporation",
+    "marketState": "PREPRE",
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "2469.T announced a cash dividend of 40.00 JPY with an ex-date of Mar. 30, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1774796400000,
+          "amount": "40.00"
+        }
+      }
+    ],
+    "regularMarketTime": 1772173800,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1138838400000,
     "regularMarketChange": 170.0,
     "regularMarketDayRange": "3935.0 - 4110.0",
     "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 25844,
+    "averageDailyVolume3Month": 25739,
+    "regularMarketChangePercent": 4.347826,
+    "regularMarketPrice": 4080.0,
     "fiftyTwoWeekLowChange": 2277.0,
     "fiftyTwoWeekLowChangePercent": 1.2628952,
     "fiftyTwoWeekRange": "1803.0 - 4110.0",
@@ -1337,8 +1353,7 @@
     "twoHundredDayAverageChangePercent": 0.5127275,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
-    "corporateActions": [],
-    "regularMarketTime": 1772173800,
+    "cryptoTradeable": false,
     "exchange": "JPX",
     "messageBoardId": "finmb_5777393",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1346,11 +1361,6 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "regularMarketChangePercent": 4.347826,
-    "regularMarketPrice": 4080.0,
-    "shortName": "HIBINO CORPORATION COM STK",
-    "longName": "Hibino Corporation",
-    "marketState": "CLOSED",
     "trailingPegRatio": null
   }
 }

@@ -1,7 +1,7 @@
 {
   "ticker": "2108",
   "japanese_ticker": "2108.T",
-  "fetch_date": "2026-02-28T23:19:52.839828",
+  "fetch_date": "2026-03-01T23:21:01.599223",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": 847263157.894737,
@@ -1117,11 +1117,11 @@
     "beta": 0.181,
     "volume": 26500,
     "regularMarketVolume": 26500,
-    "averageVolume": 31935,
+    "averageVolume": 31206,
     "averageVolume10days": 27220,
     "averageDailyVolume10Day": 27220,
-    "bid": 4520.0,
-    "ask": 4525.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 54640402432,
@@ -1186,10 +1186,17 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "marketState": "CLOSED",
-    "regularMarketChangePercent": 1.687289,
-    "regularMarketPrice": 4520.0,
-    "corporateActions": [],
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "2108.T announced a cash dividend of 160.00 JPY with an ex-date of Mar. 30, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1774796400000,
+          "amount": "160.00"
+        }
+      }
+    ],
     "regularMarketTime": 1772173800,
     "exchange": "JPX",
     "messageBoardId": "finmb_879758",
@@ -1198,12 +1205,13 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
+    "marketState": "PREPRE",
     "shortName": "NIPPON BEET SUGAR MANUFACTURING",
     "longName": "Nippon Beet Sugar Manufacturing Co.,Ltd.",
     "regularMarketChange": 75.0,
     "regularMarketDayRange": "4440.0 - 4520.0",
     "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 31935,
+    "averageDailyVolume3Month": 31206,
     "fiftyTwoWeekLowChange": 2499.0,
     "fiftyTwoWeekLowChangePercent": 1.2365166,
     "fiftyTwoWeekRange": "2021.0 - 4550.0",
@@ -1221,10 +1229,12 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "prevName": "Nippon Beet Sugar Manufacturing Co., Ltd.",
-    "nameChangeDate": "2026-02-28",
+    "nameChangeDate": "2026-03-01",
+    "cryptoTradeable": false,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 978307200000,
-    "cryptoTradeable": false,
+    "regularMarketChangePercent": 1.687289,
+    "regularMarketPrice": 4520.0,
     "trailingPegRatio": null
   }
 }

@@ -1,7 +1,7 @@
 {
   "ticker": "2307",
   "japanese_ticker": "2307.T",
-  "fetch_date": "2026-02-28T23:22:21.822551",
+  "fetch_date": "2026-03-01T23:23:40.313975",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": -7649095.686192,
@@ -1169,11 +1169,11 @@
     "trailingPE": 10.214135,
     "volume": 27600,
     "regularMarketVolume": 27600,
-    "averageVolume": 28886,
+    "averageVolume": 28998,
     "averageVolume10days": 41490,
     "averageDailyVolume10Day": 41490,
-    "bid": 1012.0,
-    "ask": 1020.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 14220037120,
@@ -1240,22 +1240,14 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "exchange": "JPX",
-    "messageBoardId": "finmb_20338565",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1024358400000,
     "shortName": "CROSS CAT CO LTD",
     "longName": "Cross Cat Co., Ltd.",
-    "marketState": "CLOSED",
-    "corporateActions": [],
-    "regularMarketTime": 1772173800,
     "regularMarketChange": 14.0,
     "regularMarketDayRange": "1002.0 - 1019.0",
     "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 28886,
+    "averageDailyVolume3Month": 28998,
     "fiftyTwoWeekLowChange": 186.0,
     "fiftyTwoWeekLowChangePercent": 0.22409639,
     "fiftyTwoWeekRange": "830.0 - 1287.0",
@@ -1272,11 +1264,29 @@
     "twoHundredDayAverageChangePercent": -0.051805403,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
     "regularMarketChangePercent": 1.3972056,
     "regularMarketPrice": 1016.0,
-    "cryptoTradeable": false,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1024358400000,
+    "marketState": "PREPRE",
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "2307.T announced a cash dividend of 34.00 JPY with an ex-date of Mar. 30, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1774796400000,
+          "amount": "34.00"
+        }
+      }
+    ],
+    "regularMarketTime": 1772173800,
+    "exchange": "JPX",
+    "messageBoardId": "finmb_20338565",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
     "trailingPegRatio": null
   }
 }

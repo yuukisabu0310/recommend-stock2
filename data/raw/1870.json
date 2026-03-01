@@ -1,7 +1,7 @@
 {
   "ticker": "1870",
   "japanese_ticker": "1870.T",
-  "fetch_date": "2026-02-28T23:17:47.209251",
+  "fetch_date": "2026-03-01T23:18:52.955918",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": -140286000.0,
@@ -1164,11 +1164,11 @@
     "trailingPE": 10.449364,
     "volume": 162500,
     "regularMarketVolume": 162500,
-    "averageVolume": 138428,
+    "averageVolume": 137960,
     "averageVolume10days": 139670,
     "averageDailyVolume10Day": 139670,
-    "bid": 2520.0,
-    "ask": 2531.0,
+    "bid": 0.0,
+    "ask": 2536.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 108884672512,
@@ -1234,11 +1234,26 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "averageAnalystRating": "0.0 - Strong Buy",
+    "cryptoTradeable": false,
+    "marketState": "PREPRE",
     "shortName": "YAHAGI CONSTRUCTION CO",
     "longName": "Yahagi Construction Co.,Ltd.",
     "regularMarketChangePercent": 2.2222223,
     "regularMarketPrice": 2530.0,
-    "corporateActions": [],
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "1870.T announced a cash dividend of 45.00 JPY with an ex-date of Mar. 30, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1774796400000,
+          "amount": "45.00"
+        }
+      }
+    ],
     "regularMarketTime": 1772173800,
     "exchange": "JPX",
     "messageBoardId": "finmb_881125",
@@ -1247,14 +1262,12 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "averageAnalystRating": "0.0 - Strong Buy",
-    "cryptoTradeable": false,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 978566400000,
     "regularMarketChange": 55.0,
     "regularMarketDayRange": "2477.0 - 2531.0",
     "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 138428,
+    "averageDailyVolume3Month": 137960,
     "fiftyTwoWeekLowChange": 1360.0,
     "fiftyTwoWeekLowChangePercent": 1.1623932,
     "fiftyTwoWeekRange": "1170.0 - 2534.0",
@@ -1269,9 +1282,6 @@
     "fiftyDayAverageChangePercent": 0.05636743,
     "twoHundredDayAverageChange": 412.6001,
     "twoHundredDayAverageChangePercent": 0.19486168,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "marketState": "CLOSED",
     "trailingPegRatio": null
   }
 }

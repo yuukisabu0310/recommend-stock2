@@ -1,7 +1,7 @@
 {
   "ticker": "2331",
   "japanese_ticker": "2331.T",
-  "fetch_date": "2026-02-28T23:22:43.514903",
+  "fetch_date": "2026-03-01T23:24:02.947238",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": 112895000.0,
@@ -1223,7 +1223,7 @@
     "compensationRisk": 5,
     "shareHolderRightsRisk": 3,
     "overallRisk": 9,
-    "governanceEpochDate": 1769904000,
+    "governanceEpochDate": 1772323200,
     "executiveTeam": [],
     "maxAge": 86400,
     "priceHint": 2,
@@ -1244,11 +1244,11 @@
     "forwardPE": 22.90363,
     "volume": 1979500,
     "regularMarketVolume": 1979500,
-    "averageVolume": 937445,
+    "averageVolume": 933660,
     "averageVolume10days": 1150930,
     "averageDailyVolume10Day": 1150930,
-    "bid": 1275.0,
-    "ask": 1283.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 622546780160,
@@ -1318,21 +1318,15 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "marketState": "CLOSED",
-    "twoHundredDayAverageChangePercent": 0.1372196,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "averageAnalystRating": "2.0 - Buy",
-    "cryptoTradeable": false,
     "shortName": "ALSOK CO LTD",
-    "regularMarketChangePercent": 3.5151515,
-    "regularMarketPrice": 1281.0,
+    "longName": "Sohgo Security Services Co.,Ltd.",
+    "marketState": "PREPRE",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1035504000000,
     "regularMarketChange": 43.5,
     "regularMarketDayRange": "1256.0 - 1281.0",
     "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 937445,
+    "averageDailyVolume3Month": 933660,
     "fiftyTwoWeekLowChange": 293.8,
     "fiftyTwoWeekLowChangePercent": 0.2976094,
     "fiftyTwoWeekRange": "987.2 - 1281.0",
@@ -1350,8 +1344,22 @@
     "fiftyDayAverageChange": 61.400024,
     "fiftyDayAverageChangePercent": 0.050344396,
     "twoHundredDayAverageChange": 154.56848,
-    "longName": "Alsok Co.,Ltd.",
-    "corporateActions": [],
+    "twoHundredDayAverageChangePercent": 0.1372196,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "averageAnalystRating": "2.0 - Buy",
+    "cryptoTradeable": false,
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "2331.T announced a cash dividend of 14.60 JPY with an ex-date of Mar. 30, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1774796400000,
+          "amount": "14.60"
+        }
+      }
+    ],
     "regularMarketTime": 1772173800,
     "exchange": "JPX",
     "messageBoardId": "finmb_6439839",
@@ -1360,6 +1368,8 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
+    "regularMarketChangePercent": 3.5151515,
+    "regularMarketPrice": 1281.0,
     "trailingPegRatio": null
   }
 }

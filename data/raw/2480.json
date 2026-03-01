@@ -1,7 +1,7 @@
 {
   "ticker": "2480",
   "japanese_ticker": "2480.T",
-  "fetch_date": "2026-02-28T23:24:43.148653",
+  "fetch_date": "2026-03-01T23:26:02.178545",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": -23587131.085246,
@@ -977,11 +977,11 @@
     "trailingPE": 16.75063,
     "volume": 900,
     "regularMarketVolume": 900,
-    "averageVolume": 1264,
+    "averageVolume": 1272,
     "averageVolume10days": 1090,
     "averageDailyVolume10Day": 1090,
-    "bid": 1729.0,
-    "ask": 1747.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 6100060672,
@@ -1047,12 +1047,36 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "shortName": "SYSTEM LOCATION",
+    "longName": "System Location Co.,Ltd.",
+    "exchange": "JPX",
+    "messageBoardId": "finmb_26416401",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
+    "regularMarketChangePercent": 0.17381229,
+    "regularMarketPrice": 1729.0,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1145577600000,
     "regularMarketChange": 3.0,
     "regularMarketDayRange": "1728.0 - 1731.0",
     "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 1264,
+    "averageDailyVolume3Month": 1272,
+    "marketState": "PREPRE",
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "2480.T announced a cash dividend of 38.00 JPY with an ex-date of Mar. 30, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1774796400000,
+          "amount": "38.00"
+        }
+      }
+    ],
+    "regularMarketTime": 1772167343,
     "fiftyTwoWeekLowChange": 506.0,
     "fiftyTwoWeekLowChangePercent": 0.4137367,
     "fiftyTwoWeekRange": "1223.0 - 1974.0",
@@ -1070,20 +1094,6 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
-    "regularMarketChangePercent": 0.17381229,
-    "regularMarketPrice": 1729.0,
-    "shortName": "SYSTEM LOCATION",
-    "longName": "System Location Co.,Ltd.",
-    "marketState": "CLOSED",
-    "corporateActions": [],
-    "regularMarketTime": 1772167343,
-    "exchange": "JPX",
-    "messageBoardId": "finmb_26416401",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
     "trailingPegRatio": null
   }
 }

@@ -1,7 +1,7 @@
 {
   "ticker": "1808",
   "japanese_ticker": "1808.T",
-  "fetch_date": "2026-02-28T23:16:57.084865",
+  "fetch_date": "2026-03-01T23:18:01.270728",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": -5270576000.0,
@@ -1195,7 +1195,7 @@
     "compensationRisk": 1,
     "shareHolderRightsRisk": 7,
     "overallRisk": 5,
-    "governanceEpochDate": 1769904000,
+    "governanceEpochDate": 1772323200,
     "compensationAsOfEpochDate": 1767139200,
     "executiveTeam": [],
     "maxAge": 86400,
@@ -1218,11 +1218,11 @@
     "forwardPE": 16.059082,
     "volume": 708300,
     "regularMarketVolume": 708300,
-    "averageVolume": 788354,
+    "averageVolume": 781950,
     "averageVolume10days": 830560,
     "averageDailyVolume10Day": 830560,
-    "bid": 3411.0,
-    "ask": 3416.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 903528841216,
@@ -1294,18 +1294,7 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 978307200000,
-    "marketState": "CLOSED",
-    "regularMarketChangePercent": 2.9864254,
-    "regularMarketPrice": 3414.0,
-    "cryptoTradeable": false,
-    "shortName": "HASEKO CORPORATION",
-    "longName": "HASEKO Corporation",
-    "regularMarketChange": 99.0,
-    "regularMarketDayRange": "3331.0 - 3419.0",
-    "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 788354,
+    "averageDailyVolume3Month": 781950,
     "fiftyTwoWeekLowChange": 1626.0,
     "fiftyTwoWeekLowChangePercent": 0.909396,
     "fiftyTwoWeekRange": "1788.0 - 3531.0",
@@ -1318,6 +1307,9 @@
     "earningsCallTimestampStart": 1747220340,
     "earningsCallTimestampEnd": 1747220340,
     "isEarningsDateEstimate": true,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 978307200000,
+    "cryptoTradeable": false,
     "epsTrailingTwelveMonths": 144.41,
     "epsForward": 212.59,
     "fiftyDayAverageChange": 201.15991,
@@ -1327,7 +1319,17 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "averageAnalystRating": "2.4 - Buy",
-    "corporateActions": [],
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "1808.T announced a cash dividend of 45.00 JPY with an ex-date of Mar. 30, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1774796400000,
+          "amount": "45.00"
+        }
+      }
+    ],
     "regularMarketTime": 1772173800,
     "exchange": "JPX",
     "messageBoardId": "finmb_874112",
@@ -1336,6 +1338,14 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
+    "regularMarketChangePercent": 2.9864254,
+    "regularMarketPrice": 3414.0,
+    "shortName": "HASEKO CORPORATION",
+    "longName": "HASEKO Corporation",
+    "marketState": "PREPRE",
+    "regularMarketChange": 99.0,
+    "regularMarketDayRange": "3331.0 - 3419.0",
+    "fullExchangeName": "Tokyo",
     "trailingPegRatio": null
   }
 }

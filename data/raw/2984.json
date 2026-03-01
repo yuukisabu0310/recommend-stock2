@@ -1,7 +1,7 @@
 {
   "ticker": "2984",
   "japanese_ticker": "2984.T",
-  "fetch_date": "2026-02-28T23:29:57.302793",
+  "fetch_date": "2026-03-01T23:31:18.624733",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": 4578288.0,
@@ -1099,11 +1099,11 @@
     "forwardPE": 3.3605812,
     "volume": 10900,
     "regularMarketVolume": 10900,
-    "averageVolume": 8623,
+    "averageVolume": 8662,
     "averageVolume10days": 7700,
     "averageDailyVolume10Day": 7700,
-    "bid": 779.0,
-    "ask": 789.0,
+    "bid": 0.0,
+    "ask": 793.0,
     "marketCap": 6738153472,
     "nonDilutedMarketCap": 6738153324,
     "fiftyTwoWeekLow": 631.0,
@@ -1165,11 +1165,17 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "shortName": "YAMAICHI REAL ESTATE CO LTD",
-    "longName": "Yamaichi Real Estate Co., Ltd",
-    "regularMarketChangePercent": 0.6476684,
-    "regularMarketPrice": 777.0,
-    "corporateActions": [],
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "2984.T announced a cash dividend of 30.00 JPY with an ex-date of Mar. 30, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1774796400000,
+          "amount": "30.00"
+        }
+      }
+    ],
     "regularMarketTime": 1772173075,
     "exchange": "JPX",
     "messageBoardId": "finmb_51229818",
@@ -1178,15 +1184,13 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "prevName": "Yamaichi Uniheim Real Estate Co.,Ltd",
-    "nameChangeDate": "2026-02-28",
-    "cryptoTradeable": false,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1655683200000,
-    "regularMarketChange": 5.0,
-    "regularMarketDayRange": "767.0 - 784.0",
+    "regularMarketChangePercent": 0.6476684,
+    "regularMarketPrice": 777.0,
+    "marketState": "PREPRE",
+    "longName": "Yamaichi Real Estate Co., Ltd",
+    "shortName": "YAMAICHI REAL ESTATE CO LTD",
     "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 8623,
+    "averageDailyVolume3Month": 8662,
     "fiftyTwoWeekLowChange": 146.0,
     "fiftyTwoWeekLowChangePercent": 0.23137876,
     "fiftyTwoWeekRange": "631.0 - 788.0",
@@ -1204,7 +1208,13 @@
     "twoHundredDayAverageChangePercent": 0.084158316,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
-    "marketState": "CLOSED",
+    "prevName": "Yamaichi Uniheim Real Estate Co.,Ltd",
+    "nameChangeDate": "2026-03-01",
+    "cryptoTradeable": false,
+    "regularMarketChange": 5.0,
+    "regularMarketDayRange": "767.0 - 784.0",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1655683200000,
     "trailingPegRatio": null
   }
 }
