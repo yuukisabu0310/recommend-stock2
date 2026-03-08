@@ -1,7 +1,7 @@
 {
   "ticker": "1720",
   "japanese_ticker": "1720.T",
-  "fetch_date": "2026-03-07T23:16:22.823078",
+  "fetch_date": "2026-03-08T23:17:51.755832",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": 42725609.756098,
@@ -1254,11 +1254,11 @@
     "forwardPE": 26.097153,
     "volume": 530400,
     "regularMarketVolume": 530400,
-    "averageVolume": 400108,
+    "averageVolume": 402331,
     "averageVolume10days": 473120,
     "averageDailyVolume10Day": 473120,
-    "bid": 1558.0,
-    "ask": 1566.0,
+    "bid": 0.0,
+    "ask": 1550.0,
     "marketCap": 165068636160,
     "nonDilutedMarketCap": 165068630806,
     "fiftyTwoWeekLow": 698.0,
@@ -1330,17 +1330,8 @@
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
     "longName": "Tokyu Construction Co., Ltd.",
-    "corporateActions": [
-      {
-        "header": "Dividend",
-        "message": "1720.T announced a cash dividend of 20.00 JPY with an ex-date of Mar. 30, 2026",
-        "meta": {
-          "eventType": "DIVIDEND",
-          "dateEpochMs": 1774796400000,
-          "amount": "20.00"
-        }
-      }
-    ],
+    "shortName": "TOKYU CONSTRUCTION CO(NEW)",
+    "corporateActions": [],
     "regularMarketTime": 1772778600,
     "exchange": "JPX",
     "messageBoardId": "finmb_876114",
@@ -1349,25 +1340,26 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
+    "marketState": "PREPRE",
+    "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1064966400000,
     "regularMarketChange": -22.0,
     "regularMarketDayRange": "1514.0 - 1567.0",
     "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 400108,
+    "averageDailyVolume3Month": 402331,
     "fiftyTwoWeekLowChange": 860.0,
     "fiftyTwoWeekLowChangePercent": 1.2320917,
     "fiftyTwoWeekRange": "698.0 - 1693.0",
     "fiftyTwoWeekHighChange": -135.0,
     "fiftyTwoWeekHighChangePercent": -0.07974011,
     "fiftyTwoWeekChangePercent": 98.978294,
+    "regularMarketChangePercent": -1.3924052,
+    "regularMarketPrice": 1558.0,
     "earningsTimestampStart": 1754377200,
     "earningsTimestampEnd": 1754982000,
     "isEarningsDateEstimate": true,
     "epsTrailingTwelveMonths": 62.79,
     "epsForward": 59.7,
-    "regularMarketChangePercent": -1.3924052,
-    "regularMarketPrice": 1558.0,
-    "hasPrePostMarketData": false,
     "fiftyDayAverageChange": 139.45996,
     "fiftyDayAverageChangePercent": 0.09831232,
     "twoHundredDayAverageChange": 384.64,
@@ -1375,8 +1367,6 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
-    "shortName": "TOKYU CONSTRUCTION CO(NEW)",
-    "marketState": "CLOSED",
     "trailingPegRatio": null
   }
 }

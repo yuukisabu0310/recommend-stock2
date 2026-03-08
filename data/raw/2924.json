@@ -1,7 +1,7 @@
 {
   "ticker": "2924",
   "japanese_ticker": "2924.T",
-  "fetch_date": "2026-03-07T23:29:45.729115",
+  "fetch_date": "2026-03-08T23:33:43.021844",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": -1832892.998679,
@@ -1158,11 +1158,11 @@
     "trailingPE": 7.8309975,
     "volume": 5600,
     "regularMarketVolume": 5600,
-    "averageVolume": 13230,
+    "averageVolume": 13374,
     "averageVolume10days": 12910,
     "averageDailyVolume10Day": 12910,
-    "bid": 2000.0,
-    "ask": 2025.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 16389091328,
@@ -1229,13 +1229,14 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "longName": "Ifuji Sangyo Co., Ltd.",
-    "shortName": "IFUJI SANGYO CO LTD",
-    "regularMarketChangePercent": -0.93596053,
-    "regularMarketPrice": 2011.0,
-    "marketState": "CLOSED",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1266796800000,
+    "regularMarketChange": -19.0,
+    "regularMarketDayRange": "1986.0 - 2025.0",
+    "fullExchangeName": "Tokyo",
+    "averageDailyVolume3Month": 13374,
+    "shortName": "IFUJI SANGYO CO LTD",
+    "corporateActions": [],
     "regularMarketTime": 1772778600,
     "exchange": "JPX",
     "messageBoardId": "finmb_1340601",
@@ -1244,27 +1245,13 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "regularMarketChange": -19.0,
-    "regularMarketDayRange": "1986.0 - 2025.0",
-    "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 13230,
+    "marketState": "PREPRE",
     "fiftyTwoWeekLowChange": 331.0,
     "fiftyTwoWeekLowChangePercent": 0.19702381,
     "fiftyTwoWeekRange": "1680.0 - 2520.0",
     "fiftyTwoWeekHighChange": -509.0,
     "fiftyTwoWeekHighChangePercent": -0.20198412,
     "fiftyTwoWeekChangePercent": 16.9186,
-    "corporateActions": [
-      {
-        "header": "Dividend",
-        "message": "2924.T announced a cash dividend of 35.00 JPY with an ex-date of Mar. 30, 2026",
-        "meta": {
-          "eventType": "DIVIDEND",
-          "dateEpochMs": 1774796400000,
-          "amount": "35.00"
-        }
-      }
-    ],
     "earningsTimestampStart": 1754460000,
     "earningsTimestampEnd": 1754978400,
     "isEarningsDateEstimate": true,
@@ -1276,6 +1263,9 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
+    "regularMarketChangePercent": -0.93596053,
+    "regularMarketPrice": 2011.0,
+    "longName": "Ifuji Sangyo Co., Ltd.",
     "trailingPegRatio": null
   }
 }

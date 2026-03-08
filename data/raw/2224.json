@@ -1,7 +1,7 @@
 {
   "ticker": "2224",
   "japanese_ticker": "2224.T",
-  "fetch_date": "2026-03-07T23:22:02.525040",
+  "fetch_date": "2026-03-08T23:24:29.837706",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": -1953920.0,
@@ -1036,11 +1036,11 @@
     "beta": 0.082,
     "volume": 2900,
     "regularMarketVolume": 2900,
-    "averageVolume": 4108,
+    "averageVolume": 4167,
     "averageVolume10days": 6350,
     "averageDailyVolume10Day": 6350,
-    "bid": 3880.0,
-    "ask": 3905.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 13481129984,
@@ -1105,8 +1105,29 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "regularMarketChangePercent": -0.7672635,
+    "regularMarketPrice": 3880.0,
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "2224.T announced a cash dividend of 7.00 JPY with an ex-date of Mar. 30, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1774796400000,
+          "amount": "7.00"
+        }
+      }
+    ],
+    "regularMarketTime": 1772778600,
+    "cryptoTradeable": false,
+    "shortName": "COMO CO LTD",
+    "longName": "Como Co.,Ltd.",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 946944000000,
+    "regularMarketChange": -30.0,
+    "regularMarketDayRange": "3875.0 - 3910.0",
     "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 4108,
+    "averageDailyVolume3Month": 4167,
     "fiftyTwoWeekLowChange": 880.0,
     "fiftyTwoWeekLowChangePercent": 0.29333332,
     "fiftyTwoWeekRange": "3000.0 - 4035.0",
@@ -1123,20 +1144,6 @@
     "twoHundredDayAverageChangePercent": 0.16151142,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
-    "regularMarketChangePercent": -0.7672635,
-    "regularMarketPrice": 3880.0,
-    "corporateActions": [
-      {
-        "header": "Dividend",
-        "message": "2224.T announced a cash dividend of 7.00 JPY with an ex-date of Mar. 30, 2026",
-        "meta": {
-          "eventType": "DIVIDEND",
-          "dateEpochMs": 1774796400000,
-          "amount": "7.00"
-        }
-      }
-    ],
-    "regularMarketTime": 1772778600,
     "exchange": "JPX",
     "messageBoardId": "finmb_9193272",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1144,14 +1151,7 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "longName": "Como Co.,Ltd.",
-    "shortName": "COMO CO LTD",
-    "regularMarketChange": -30.0,
-    "regularMarketDayRange": "3875.0 - 3910.0",
-    "cryptoTradeable": false,
-    "marketState": "CLOSED",
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 946944000000,
+    "marketState": "PREPRE",
     "trailingPegRatio": null
   }
 }

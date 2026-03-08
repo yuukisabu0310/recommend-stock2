@@ -1,7 +1,7 @@
 {
   "ticker": "1807",
   "japanese_ticker": "1807.T",
-  "fetch_date": "2026-03-07T23:17:11.208713",
+  "fetch_date": "2026-03-08T23:18:48.662359",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": -2699970.0,
@@ -1137,11 +1137,11 @@
     "trailingPE": 10.775655,
     "volume": 1100,
     "regularMarketVolume": 1100,
-    "averageVolume": 3059,
+    "averageVolume": 3096,
     "averageVolume10days": 3450,
     "averageDailyVolume10Day": 3450,
-    "bid": 2010.0,
-    "ask": 2020.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 12570293248,
@@ -1208,11 +1208,19 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "regularMarketChangePercent": -1.3235295,
-    "regularMarketPrice": 2013.0,
-    "cryptoTradeable": false,
-    "marketState": "CLOSED",
     "longName": "Watanabe Sato Co., Ltd.",
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "1807.T announced a cash dividend of 40.00 JPY with an ex-date of Mar. 30, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1774796400000,
+          "amount": "40.00"
+        }
+      }
+    ],
+    "regularMarketTime": 1772777910,
     "exchange": "JPX",
     "messageBoardId": "finmb_884096",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1220,10 +1228,15 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
+    "regularMarketChangePercent": -1.3235295,
+    "regularMarketPrice": 2013.0,
+    "marketState": "PREPRE",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 946944000000,
     "regularMarketChange": -27.0,
     "regularMarketDayRange": "1990.0 - 2013.0",
     "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 3059,
+    "averageDailyVolume3Month": 3096,
     "fiftyTwoWeekLowChange": 613.0,
     "fiftyTwoWeekLowChangePercent": 0.43785715,
     "fiftyTwoWeekRange": "1400.0 - 2139.0",
@@ -1240,21 +1253,8 @@
     "twoHundredDayAverageChangePercent": 0.13388333,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
     "shortName": "WATANABE SATO CO LTD",
-    "corporateActions": [
-      {
-        "header": "Dividend",
-        "message": "1807.T announced a cash dividend of 40.00 JPY with an ex-date of Mar. 30, 2026",
-        "meta": {
-          "eventType": "DIVIDEND",
-          "dateEpochMs": 1774796400000,
-          "amount": "40.00"
-        }
-      }
-    ],
-    "regularMarketTime": 1772777910,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 946944000000,
     "trailingPegRatio": null
   }
 }

@@ -1,7 +1,7 @@
 {
   "ticker": "1942",
   "japanese_ticker": "1942.T",
-  "fetch_date": "2026-03-07T23:18:59.596428",
+  "fetch_date": "2026-03-08T23:20:57.917331",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": 623226858.310892,
@@ -1120,11 +1120,11 @@
     "forwardPE": 37.691673,
     "volume": 1228500,
     "regularMarketVolume": 1228500,
-    "averageVolume": 1463555,
+    "averageVolume": 1478187,
     "averageVolume10days": 2185780,
     "averageDailyVolume10Day": 2185780,
-    "bid": 6390.0,
-    "ask": 6393.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 1306362773504,
@@ -1192,13 +1192,13 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "marketState": "PREPRE",
     "longName": "Kandenko Co.,Ltd.",
-    "shortName": "KANDENKO CO LTD",
     "regularMarketChangePercent": -2.47215,
     "regularMarketPrice": 6391.0,
-    "marketState": "CLOSED",
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 978307200000,
+    "shortName": "KANDENKO CO LTD",
+    "cryptoTradeable": false,
+    "corporateActions": [],
     "regularMarketTime": 1772778600,
     "exchange": "JPX",
     "messageBoardId": "finmb_880786",
@@ -1207,27 +1207,18 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 978307200000,
     "regularMarketChange": -162.0,
     "regularMarketDayRange": "6231.0 - 6500.0",
     "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 1463555,
+    "averageDailyVolume3Month": 1478187,
     "fiftyTwoWeekLowChange": 3999.0,
     "fiftyTwoWeekLowChangePercent": 1.6718228,
     "fiftyTwoWeekRange": "2392.0 - 6986.0",
     "fiftyTwoWeekHighChange": -595.0,
     "fiftyTwoWeekHighChangePercent": -0.08517034,
     "fiftyTwoWeekChangePercent": 142.58873,
-    "corporateActions": [
-      {
-        "header": "Dividend",
-        "message": "1942.T announced a cash dividend of 75.00 JPY with an ex-date of Mar. 30, 2026",
-        "meta": {
-          "eventType": "DIVIDEND",
-          "dateEpochMs": 1774796400000,
-          "amount": "75.00"
-        }
-      }
-    ],
     "earningsTimestampStart": 1777357800,
     "earningsTimestampEnd": 1777357800,
     "isEarningsDateEstimate": true,
@@ -1240,7 +1231,6 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "averageAnalystRating": "2.0 - Buy",
-    "cryptoTradeable": false,
     "trailingPegRatio": null
   }
 }

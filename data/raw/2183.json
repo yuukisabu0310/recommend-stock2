@@ -1,7 +1,7 @@
 {
   "ticker": "2183",
   "japanese_ticker": "2183.T",
-  "fetch_date": "2026-03-07T23:21:20.733223",
+  "fetch_date": "2026-03-08T23:23:42.326536",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": -2912064.0,
@@ -1101,10 +1101,10 @@
     "forwardPE": 13.489362,
     "volume": 11600,
     "regularMarketVolume": 11600,
-    "averageVolume": 40730,
+    "averageVolume": 40762,
     "averageVolume10days": 38030,
     "averageDailyVolume10Day": 38030,
-    "bid": 316.0,
+    "bid": 0.0,
     "ask": 317.0,
     "bidSize": 0,
     "askSize": 0,
@@ -1175,7 +1175,7 @@
     "shortName": "LINICAL CO LTD",
     "regularMarketChangePercent": 0.3164557,
     "regularMarketPrice": 317.0,
-    "marketState": "CLOSED",
+    "marketState": "PREPRE",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1225065600000,
     "regularMarketTime": 1772778600,
@@ -1189,14 +1189,24 @@
     "regularMarketChange": 1.0,
     "regularMarketDayRange": "314.0 - 320.0",
     "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 40730,
+    "averageDailyVolume3Month": 40762,
     "fiftyTwoWeekLowChange": 59.0,
     "fiftyTwoWeekLowChangePercent": 0.22868218,
     "fiftyTwoWeekRange": "258.0 - 363.0",
     "fiftyTwoWeekHighChange": -46.0,
     "fiftyTwoWeekHighChangePercent": -0.12672177,
     "fiftyTwoWeekChangePercent": -3.9393961,
-    "corporateActions": [],
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "2183.T announced a cash dividend of 16.00 JPY with an ex-date of Mar. 30, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1774796400000,
+          "amount": "16.00"
+        }
+      }
+    ],
     "earningsTimestampStart": 1754982000,
     "earningsTimestampEnd": 1755500400,
     "isEarningsDateEstimate": true,

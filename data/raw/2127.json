@@ -1,7 +1,7 @@
 {
   "ticker": "2127",
   "japanese_ticker": "2127.T",
-  "fetch_date": "2026-03-07T23:20:29.371792",
+  "fetch_date": "2026-03-08T23:22:42.311338",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": -25498044.0,
@@ -1201,11 +1201,11 @@
     "forwardPE": 16.973211,
     "volume": 3489000,
     "regularMarketVolume": 3489000,
-    "averageVolume": 2156518,
+    "averageVolume": 2169384,
     "averageVolume10days": 3487500,
     "averageDailyVolume10Day": 3487500,
-    "bid": 658.1,
-    "ask": 659.0,
+    "bid": 658.9,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 209084743680,
@@ -1279,17 +1279,7 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "corporateActions": [
-      {
-        "header": "Dividend",
-        "message": "2127.T announced a cash dividend of 15.00 JPY with an ex-date of Mar. 30, 2026",
-        "meta": {
-          "eventType": "DIVIDEND",
-          "dateEpochMs": 1774796400000,
-          "amount": "15.00"
-        }
-      }
-    ],
+    "corporateActions": [],
     "regularMarketTime": 1772778600,
     "exchange": "JPX",
     "messageBoardId": "finmb_28946658",
@@ -1300,13 +1290,15 @@
     "esgPopulated": false,
     "shortName": "NIHON M&A CENTER HOLDINGS INC",
     "longName": "Nihon M&A Center Holdings Inc.",
-    "cryptoTradeable": false,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1160438400000,
     "regularMarketChange": 15.600037,
     "regularMarketDayRange": "635.0 - 658.9",
     "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 2156518,
+    "regularMarketChangePercent": 2.4250019,
+    "regularMarketPrice": 658.9,
+    "marketState": "PREPRE",
+    "averageDailyVolume3Month": 2169384,
     "fiftyTwoWeekLowChange": 175.70001,
     "fiftyTwoWeekLowChangePercent": 0.36361757,
     "fiftyTwoWeekRange": "483.2 - 813.0",
@@ -1319,8 +1311,6 @@
     "earningsCallTimestampStart": 1761821940,
     "earningsCallTimestampEnd": 1761821940,
     "isEarningsDateEstimate": false,
-    "regularMarketChangePercent": 2.4250019,
-    "regularMarketPrice": 658.9,
     "epsTrailingTwelveMonths": 39.8,
     "epsForward": 38.82,
     "fiftyDayAverageChange": -58.10199,
@@ -1330,9 +1320,9 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "prevName": "Nihon M&A Center Inc.",
-    "nameChangeDate": "2026-03-07",
+    "nameChangeDate": "2026-03-08",
     "averageAnalystRating": "2.2 - Buy",
-    "marketState": "CLOSED",
+    "cryptoTradeable": false,
     "trailingPegRatio": null
   }
 }

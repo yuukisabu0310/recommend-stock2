@@ -1,7 +1,7 @@
 {
   "ticker": "2359",
   "japanese_ticker": "2359.T",
-  "fetch_date": "2026-03-07T23:23:36.405898",
+  "fetch_date": "2026-03-08T23:26:23.056022",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": 1273923.915519,
@@ -1247,11 +1247,11 @@
     "trailingPE": 13.210118,
     "volume": 23700,
     "regularMarketVolume": 23700,
-    "averageVolume": 21116,
+    "averageVolume": 21375,
     "averageVolume10days": 32560,
     "averageDailyVolume10Day": 32560,
-    "bid": 2230.0,
-    "ask": 2260.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 32041756672,
@@ -1316,8 +1316,6 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "regularMarketChangePercent": -1.1962782,
-    "regularMarketPrice": 2230.0,
     "longName": "Core Corporation",
     "corporateActions": [
       {
@@ -1338,15 +1336,15 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "marketState": "CLOSED",
-    "shortName": "CORE CORPORATION",
+    "regularMarketChangePercent": -1.1962782,
+    "regularMarketPrice": 2230.0,
+    "marketState": "PREPRE",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1048118400000,
-    "cryptoTradeable": false,
     "regularMarketChange": -27.0,
     "regularMarketDayRange": "2208.0 - 2269.0",
     "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 21116,
+    "averageDailyVolume3Month": 21375,
     "fiftyTwoWeekLowChange": 757.0,
     "fiftyTwoWeekLowChangePercent": 0.51391715,
     "fiftyTwoWeekRange": "1473.0 - 2348.0",
@@ -1363,6 +1361,8 @@
     "twoHundredDayAverageChangePercent": 0.09800835,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
+    "shortName": "CORE CORPORATION",
     "trailingPegRatio": null
   }
 }

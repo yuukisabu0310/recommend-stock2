@@ -1,7 +1,7 @@
 {
   "ticker": "1944",
   "japanese_ticker": "1944.T",
-  "fetch_date": "2026-03-07T23:19:01.576548",
+  "fetch_date": "2026-03-08T23:21:00.530221",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": 591782758.2581,
@@ -1115,11 +1115,11 @@
     "forwardPE": 39.79171,
     "volume": 607000,
     "regularMarketVolume": 607000,
-    "averageVolume": 644752,
+    "averageVolume": 649856,
     "averageVolume10days": 706220,
     "averageDailyVolume10Day": 706220,
-    "bid": 7908.0,
-    "ask": 7937.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 1565925441536,
@@ -1194,17 +1194,7 @@
     "regularMarketChangePercent": -2.7661667,
     "regularMarketPrice": 7909.0,
     "longName": "Kinden Corporation",
-    "corporateActions": [
-      {
-        "header": "Dividend",
-        "message": "1944.T announced a cash dividend of 65.00 JPY with an ex-date of Mar. 30, 2026",
-        "meta": {
-          "eventType": "DIVIDEND",
-          "dateEpochMs": 1774796400000,
-          "amount": "65.00"
-        }
-      }
-    ],
+    "corporateActions": [],
     "regularMarketTime": 1772778600,
     "exchange": "JPX",
     "messageBoardId": "finmb_880745",
@@ -1213,7 +1203,7 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "marketState": "CLOSED",
+    "marketState": "PREPRE",
     "shortName": "KINDEN CORPORATION",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 978566400000,
@@ -1221,7 +1211,7 @@
     "regularMarketChange": -225.0,
     "regularMarketDayRange": "7790.0 - 8009.0",
     "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 644752,
+    "averageDailyVolume3Month": 649856,
     "fiftyTwoWeekLowChange": 4843.0,
     "fiftyTwoWeekLowChangePercent": 1.5795826,
     "fiftyTwoWeekRange": "3066.0 - 8580.0",

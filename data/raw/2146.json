@@ -1,7 +1,7 @@
 {
   "ticker": "2146",
   "japanese_ticker": "2146.T",
-  "fetch_date": "2026-03-07T23:20:41.943307",
+  "fetch_date": "2026-03-08T23:22:56.609377",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": 1845704000.0,
@@ -1219,11 +1219,11 @@
     "forwardPE": 0.6960866,
     "volume": 4846800,
     "regularMarketVolume": 4846800,
-    "averageVolume": 4149025,
+    "averageVolume": 4147629,
     "averageVolume10days": 4854080,
     "averageDailyVolume10Day": 4854080,
-    "bid": 208.0,
-    "ask": 209.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 119281483776,
@@ -1297,18 +1297,11 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "corporateActions": [
-      {
-        "header": "Dividend",
-        "message": "2146.T announced a cash dividend of 2.60 JPY with an ex-date of Mar. 30, 2026",
-        "meta": {
-          "eventType": "DIVIDEND",
-          "dateEpochMs": 1774796400000,
-          "amount": "2.60"
-        }
-      }
-    ],
-    "regularMarketTime": 1772778600,
+    "regularMarketChangePercent": 1.9512196,
+    "regularMarketPrice": 209.0,
+    "cryptoTradeable": false,
+    "marketState": "PREPRE",
+    "longName": "UT Group Co.,Ltd.",
     "exchange": "JPX",
     "messageBoardId": "finmb_33139085",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1316,17 +1309,10 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "shortName": "UT GROUP CO LTD",
-    "longName": "UT Group Co.,Ltd.",
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1071187200000,
     "regularMarketChange": 4.0,
     "regularMarketDayRange": "203.0 - 209.0",
     "fullExchangeName": "Tokyo",
-    "regularMarketChangePercent": 1.9512196,
-    "regularMarketPrice": 209.0,
-    "marketState": "CLOSED",
-    "averageDailyVolume3Month": 4149025,
+    "averageDailyVolume3Month": 4147629,
     "fiftyTwoWeekLowChange": 105.2,
     "fiftyTwoWeekLowChangePercent": 1.0134875,
     "fiftyTwoWeekRange": "103.8 - 221.0",
@@ -1348,9 +1334,23 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "prevName": "UT Group Co., Ltd.",
-    "nameChangeDate": "2026-03-07",
+    "nameChangeDate": "2026-03-08",
     "averageAnalystRating": "3.0 - Hold",
-    "cryptoTradeable": false,
+    "shortName": "UT GROUP CO LTD",
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "2146.T announced a cash dividend of 2.60 JPY with an ex-date of Mar. 30, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1774796400000,
+          "amount": "2.60"
+        }
+      }
+    ],
+    "regularMarketTime": 1772778600,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1071187200000,
     "trailingPegRatio": null
   }
 }

@@ -1,7 +1,7 @@
 {
   "ticker": "1443",
   "japanese_ticker": "1443.T",
-  "fetch_date": "2026-03-07T23:15:49.953710",
+  "fetch_date": "2026-03-08T23:17:12.551407",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": -6131120.0,
@@ -1050,11 +1050,11 @@
     "trailingPE": 8.504319,
     "volume": 168400,
     "regularMarketVolume": 168400,
-    "averageVolume": 247357,
+    "averageVolume": 251003,
     "averageVolume10days": 232500,
     "averageDailyVolume10Day": 232500,
-    "bid": 314.0,
-    "ask": 317.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 5113810944,
@@ -1119,14 +1119,15 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "longName": "Giken Holdings Co., Ltd.",
     "regularMarketChangePercent": -1.8691589,
     "regularMarketPrice": 315.0,
+    "marketState": "PREPRE",
     "shortName": "GIKEN HOLDINGS CO LTD",
+    "longName": "Giken Holdings Co., Ltd.",
     "regularMarketChange": -6.0,
     "regularMarketDayRange": "309.0 - 322.0",
     "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 247357,
+    "averageDailyVolume3Month": 251003,
     "fiftyTwoWeekLowChange": 156.0,
     "fiftyTwoWeekLowChangePercent": 0.9811321,
     "fiftyTwoWeekRange": "159.0 - 375.0",
@@ -1155,7 +1156,6 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "marketState": "CLOSED",
     "trailingPegRatio": null
   }
 }

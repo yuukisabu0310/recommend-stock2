@@ -1,7 +1,7 @@
 {
   "ticker": "2326",
   "japanese_ticker": "2326.T",
-  "fetch_date": "2026-03-07T23:23:00.342758",
+  "fetch_date": "2026-03-08T23:25:39.240120",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": 0.0,
@@ -1024,11 +1024,11 @@
     "forwardPE": 17.479391,
     "volume": 135400,
     "regularMarketVolume": 135400,
-    "averageVolume": 118052,
+    "averageVolume": 118506,
     "averageVolume10days": 159010,
     "averageDailyVolume10Day": 159010,
-    "bid": 5270.0,
-    "ask": 5320.0,
+    "bid": 0.0,
+    "ask": 5220.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 70983188480,
@@ -1096,18 +1096,7 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "longName": "Digital Arts Inc.",
-    "corporateActions": [
-      {
-        "header": "Dividend",
-        "message": "2326.T announced a cash dividend of 50.00 JPY with an ex-date of Mar. 30, 2026",
-        "meta": {
-          "eventType": "DIVIDEND",
-          "dateEpochMs": 1774796400000,
-          "amount": "50.00"
-        }
-      }
-    ],
+    "corporateActions": [],
     "regularMarketTime": 1772778600,
     "exchange": "JPX",
     "messageBoardId": "finmb_9816389",
@@ -1116,15 +1105,10 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "regularMarketChangePercent": 2.7237353,
-    "regularMarketPrice": 5280.0,
-    "marketState": "CLOSED",
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1198801800000,
     "regularMarketChange": 140.0,
     "regularMarketDayRange": "5110.0 - 5340.0",
     "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 118052,
+    "averageDailyVolume3Month": 118506,
     "fiftyTwoWeekLowChange": 400.0,
     "fiftyTwoWeekLowChangePercent": 0.08196721,
     "fiftyTwoWeekRange": "4880.0 - 8280.0",
@@ -1146,6 +1130,12 @@
     "averageAnalystRating": "0.0 - Strong Buy",
     "cryptoTradeable": false,
     "shortName": "DIGITAL ARTS INC",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1198801800000,
+    "longName": "Digital Arts Inc.",
+    "regularMarketChangePercent": 2.7237353,
+    "regularMarketPrice": 5280.0,
+    "marketState": "PREPRE",
     "trailingPegRatio": null
   }
 }

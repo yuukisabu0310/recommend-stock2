@@ -1,7 +1,7 @@
 {
   "ticker": "1904",
   "japanese_ticker": "1904.T",
-  "fetch_date": "2026-03-07T23:18:30.521812",
+  "fetch_date": "2026-03-08T23:20:23.881259",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": -3824016.0,
@@ -1190,11 +1190,11 @@
     "trailingPE": 14.347007,
     "volume": 13300,
     "regularMarketVolume": 13300,
-    "averageVolume": 14076,
+    "averageVolume": 14225,
     "averageVolume10days": 22950,
     "averageDailyVolume10Day": 22950,
-    "bid": 5250.0,
-    "ask": 5260.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 31766626304,
@@ -1260,6 +1260,9 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "regularMarketChangePercent": 0.3824092,
+    "regularMarketPrice": 5250.0,
+    "longName": "Taisei Oncho Co., Ltd.",
     "corporateActions": [
       {
         "header": "Dividend",
@@ -1279,15 +1282,15 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
+    "marketState": "PREPRE",
     "shortName": "TAISEI ONCHO CO",
-    "longName": "Taisei Oncho Co., Ltd.",
-    "cryptoTradeable": false,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 946944000000,
+    "cryptoTradeable": false,
     "regularMarketChange": 20.0,
     "regularMarketDayRange": "5220.0 - 5330.0",
     "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 14076,
+    "averageDailyVolume3Month": 14225,
     "fiftyTwoWeekLowChange": 2130.0,
     "fiftyTwoWeekLowChangePercent": 0.6826923,
     "fiftyTwoWeekRange": "3120.0 - 5330.0",
@@ -1297,8 +1300,6 @@
     "earningsTimestampStart": 1747117800,
     "earningsTimestampEnd": 1747117800,
     "isEarningsDateEstimate": false,
-    "regularMarketChangePercent": 0.3824092,
-    "regularMarketPrice": 5250.0,
     "epsTrailingTwelveMonths": 365.93,
     "fiftyDayAverageChange": 429.7002,
     "fiftyDayAverageChangePercent": 0.08914387,
@@ -1306,7 +1307,6 @@
     "twoHundredDayAverageChangePercent": 0.21948384,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
-    "marketState": "CLOSED",
     "trailingPegRatio": null
   }
 }

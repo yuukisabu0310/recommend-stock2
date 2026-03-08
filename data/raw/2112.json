@@ -1,7 +1,7 @@
 {
   "ticker": "2112",
   "japanese_ticker": "2112.T",
-  "fetch_date": "2026-03-07T23:20:16.167155",
+  "fetch_date": "2026-03-08T23:22:26.971014",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": 12360000.0,
@@ -1152,10 +1152,10 @@
     "trailingPE": 6.1013007,
     "volume": 61800,
     "regularMarketVolume": 61800,
-    "averageVolume": 113579,
+    "averageVolume": 112500,
     "averageVolume10days": 105390,
     "averageDailyVolume10Day": 105390,
-    "bid": 576.0,
+    "bid": 0.0,
     "ask": 577.0,
     "bidSize": 0,
     "askSize": 0,
@@ -1221,15 +1221,37 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "shortName": "ENSUIKO SUGAR REFINING CO",
+    "regularMarketChangePercent": 0.6980803,
+    "regularMarketPrice": 577.0,
     "longName": "Ensuiko Sugar Refining Co., Ltd.",
-    "marketState": "CLOSED",
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "2112.T announced a cash dividend of 20.00 JPY with an ex-date of Mar. 30, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1774796400000,
+          "amount": "20.00"
+        }
+      }
+    ],
+    "regularMarketTime": 1772778600,
+    "exchange": "JPX",
+    "messageBoardId": "finmb_883579",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
+    "marketState": "PREPRE",
+    "shortName": "ENSUIKO SUGAR REFINING CO",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 978307200000,
+    "cryptoTradeable": false,
     "regularMarketChange": 4.0,
     "regularMarketDayRange": "564.0 - 577.0",
     "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 113579,
+    "averageDailyVolume3Month": 112500,
     "fiftyTwoWeekLowChange": 305.0,
     "fiftyTwoWeekLowChangePercent": 1.1213236,
     "fiftyTwoWeekRange": "272.0 - 595.0",
@@ -1246,18 +1268,6 @@
     "twoHundredDayAverageChangePercent": 0.26122978,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
-    "corporateActions": [],
-    "regularMarketTime": 1772778600,
-    "exchange": "JPX",
-    "messageBoardId": "finmb_883579",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
-    "regularMarketChangePercent": 0.6980803,
-    "regularMarketPrice": 577.0,
     "trailingPegRatio": null
   }
 }

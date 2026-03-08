@@ -1,7 +1,7 @@
 {
   "ticker": "2802",
   "japanese_ticker": "2802.T",
-  "fetch_date": "2026-03-07T23:28:24.947771",
+  "fetch_date": "2026-03-08T23:32:06.988053",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": 0.0,
@@ -1183,11 +1183,11 @@
     "forwardPE": 19.463232,
     "volume": 3447500,
     "regularMarketVolume": 3447500,
-    "averageVolume": 4674918,
+    "averageVolume": 4713844,
     "averageVolume10days": 4480770,
     "averageDailyVolume10Day": 4480770,
-    "bid": 4512.0,
-    "ask": 4552.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 4342780264448,
@@ -1263,8 +1263,6 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "longName": "Ajinomoto Co., Inc.",
-    "corporateActions": [],
     "regularMarketTime": 1772778600,
     "exchange": "JPX",
     "messageBoardId": "finmb_873739",
@@ -1273,11 +1271,29 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
+    "marketState": "PREPRE",
+    "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 946944000000,
     "regularMarketChange": 24.0,
     "regularMarketDayRange": "4482.0 - 4579.0",
+    "cryptoTradeable": false,
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "2802.T announced a cash dividend of 24.00 JPY with an ex-date of Mar. 30, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1774796400000,
+          "amount": "24.00"
+        }
+      }
+    ],
+    "shortName": "AJINOMOTO CO INC",
+    "longName": "Ajinomoto Co., Inc.",
+    "regularMarketChangePercent": 0.5340454,
+    "regularMarketPrice": 4518.0,
     "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 4674918,
+    "averageDailyVolume3Month": 4713844,
     "fiftyTwoWeekLowChange": 1881.5,
     "fiftyTwoWeekLowChangePercent": 0.7136355,
     "fiftyTwoWeekRange": "2636.5 - 5025.0",
@@ -1292,9 +1308,6 @@
     "isEarningsDateEstimate": true,
     "epsTrailingTwelveMonths": 37.5,
     "epsForward": 232.13,
-    "regularMarketChangePercent": 0.5340454,
-    "regularMarketPrice": 4518.0,
-    "hasPrePostMarketData": false,
     "fiftyDayAverageChange": 635.22,
     "fiftyDayAverageChangePercent": 0.16359927,
     "twoHundredDayAverageChange": 633.5801,
@@ -1302,9 +1315,6 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "averageAnalystRating": "2.1 - Buy",
-    "cryptoTradeable": false,
-    "shortName": "AJINOMOTO CO INC",
-    "marketState": "CLOSED",
-    "trailingPegRatio": 1.3991
+    "trailingPegRatio": 1.4066
   }
 }

@@ -1,7 +1,7 @@
 {
   "ticker": "2156",
   "japanese_ticker": "2156.T",
-  "fetch_date": "2026-03-07T23:20:51.672283",
+  "fetch_date": "2026-03-08T23:23:07.593001",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": -3265400.0,
@@ -1198,11 +1198,11 @@
     "trailingPE": 18.900967,
     "volume": 11500,
     "regularMarketVolume": 11500,
-    "averageVolume": 50638,
+    "averageVolume": 51427,
     "averageVolume10days": 45140,
     "averageDailyVolume10Day": 45140,
-    "bid": 311.0,
-    "ask": 313.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 1564083584,
@@ -1265,6 +1265,8 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "corporateActions": [],
+    "regularMarketTime": 1772778600,
     "exchange": "JPX",
     "messageBoardId": "finmb_34509410",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1272,25 +1274,12 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "shortName": "SAYLOR ADVERTISING INC.",
-    "longName": "Saylor Advertising.Inc.",
     "regularMarketChangePercent": 2.6229508,
     "regularMarketPrice": 313.0,
-    "corporateActions": [
-      {
-        "header": "Dividend",
-        "message": "2156.T announced a cash dividend of 6.00 JPY with an ex-date of Mar. 30, 2026",
-        "meta": {
-          "eventType": "DIVIDEND",
-          "dateEpochMs": 1774796400000,
-          "amount": "6.00"
-        }
-      }
-    ],
-    "regularMarketTime": 1772778600,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1182384000000,
-    "marketState": "CLOSED",
+    "marketState": "PREPRE",
+    "shortName": "SAYLOR ADVERTISING INC.",
+    "longName": "Saylor Advertising.Inc.",
+    "epsTrailingTwelveMonths": 16.56,
     "fiftyDayAverageChange": -3.7799988,
     "fiftyDayAverageChangePercent": -0.011932568,
     "twoHundredDayAverageChange": -26.609985,
@@ -1298,10 +1287,12 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1182384000000,
     "regularMarketChange": 8.0,
     "regularMarketDayRange": "306.0 - 313.0",
     "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 50638,
+    "averageDailyVolume3Month": 51427,
     "fiftyTwoWeekLowChange": 45.0,
     "fiftyTwoWeekLowChangePercent": 0.16791044,
     "fiftyTwoWeekRange": "268.0 - 506.0",
@@ -1311,7 +1302,6 @@
     "earningsTimestampStart": 1747204200,
     "earningsTimestampEnd": 1747204200,
     "isEarningsDateEstimate": false,
-    "epsTrailingTwelveMonths": 16.56,
     "trailingPegRatio": null
   }
 }

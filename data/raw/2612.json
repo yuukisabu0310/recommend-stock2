@@ -1,7 +1,7 @@
 {
   "ticker": "2612",
   "japanese_ticker": "2612.T",
-  "fetch_date": "2026-03-07T23:26:07.305581",
+  "fetch_date": "2026-03-08T23:29:22.710391",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": 303500.0,
@@ -989,11 +989,11 @@
     "trailingPE": 17.636623,
     "volume": 2200,
     "regularMarketVolume": 2200,
-    "averageVolume": 6225,
+    "averageVolume": 6263,
     "averageVolume10days": 8480,
     "averageDailyVolume10Day": 8480,
-    "bid": 5050.0,
-    "ask": 5150.0,
+    "bid": 0.0,
+    "ask": 5040.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 46662336512,
@@ -1061,6 +1061,18 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "regularMarketChangePercent": -0.9765625,
+    "regularMarketPrice": 5070.0,
+    "regularMarketChange": -50.0,
+    "regularMarketDayRange": "5000.0 - 5170.0",
+    "fullExchangeName": "Tokyo",
+    "averageDailyVolume3Month": 6263,
+    "fiftyTwoWeekLowChange": 1570.0,
+    "fiftyTwoWeekLowChangePercent": 0.4485714,
+    "fiftyTwoWeekRange": "3500.0 - 5400.0",
+    "fiftyTwoWeekHighChange": -330.0,
+    "fiftyTwoWeekHighChangePercent": -0.06111111,
+    "fiftyTwoWeekChangePercent": 34.661354,
     "earningsTimestampStart": 1753857000,
     "earningsTimestampEnd": 1754289000,
     "isEarningsDateEstimate": true,
@@ -1072,9 +1084,21 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
-    "regularMarketChangePercent": -0.9765625,
-    "regularMarketPrice": 5070.0,
+    "marketState": "PREPRE",
+    "shortName": "KADOYA SESAME MILLS INC",
+    "longName": "Kadoya Sesame Mills Incorporated",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1266796800000,
     "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "2612.T announced a cash dividend of 135.00 JPY with an ex-date of Mar. 30, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1774796400000,
+          "amount": "135.00"
+        }
+      },
       {
         "header": "Stock split",
         "message": "2612.T announces 3 for 1 split effective Mar. 30, 2026",
@@ -1093,21 +1117,6 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "shortName": "KADOYA SESAME MILLS INC",
-    "longName": "Kadoya Sesame Mills Incorporated",
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1266796800000,
-    "regularMarketChange": -50.0,
-    "regularMarketDayRange": "5000.0 - 5170.0",
-    "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 6225,
-    "fiftyTwoWeekLowChange": 1570.0,
-    "fiftyTwoWeekLowChangePercent": 0.4485714,
-    "fiftyTwoWeekRange": "3500.0 - 5400.0",
-    "fiftyTwoWeekHighChange": -330.0,
-    "fiftyTwoWeekHighChangePercent": -0.06111111,
-    "fiftyTwoWeekChangePercent": 34.661354,
-    "marketState": "CLOSED",
     "trailingPegRatio": null
   }
 }

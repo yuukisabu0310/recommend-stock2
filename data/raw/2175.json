@@ -1,7 +1,7 @@
 {
   "ticker": "2175",
   "japanese_ticker": "2175.T",
-  "fetch_date": "2026-03-07T23:21:12.668053",
+  "fetch_date": "2026-03-08T23:23:32.946998",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": -33062500.0,
@@ -1206,11 +1206,11 @@
     "forwardPE": 16.27907,
     "volume": 552800,
     "regularMarketVolume": 552800,
-    "averageVolume": 507500,
+    "averageVolume": 508275,
     "averageVolume10days": 529170,
     "averageDailyVolume10Day": 529170,
-    "bid": 1746.0,
-    "ask": 1755.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 143640788992,
@@ -1282,11 +1282,6 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "cryptoTradeable": false,
-    "shortName": "SMS CO LTD",
-    "longName": "SMS Co., Ltd.",
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1205366400000,
     "corporateActions": [
       {
         "header": "Dividend",
@@ -1306,13 +1301,17 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "marketState": "CLOSED",
-    "regularMarketChangePercent": 3.0624263,
-    "regularMarketPrice": 1750.0,
+    "shortName": "SMS CO LTD",
+    "longName": "SMS Co., Ltd.",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1205366400000,
     "regularMarketChange": 52.0,
     "regularMarketDayRange": "1682.0 - 1755.0",
     "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 507500,
+    "regularMarketChangePercent": 3.0624263,
+    "regularMarketPrice": 1750.0,
+    "marketState": "PREPRE",
+    "averageDailyVolume3Month": 508275,
     "fiftyTwoWeekLowChange": 771.3,
     "fiftyTwoWeekLowChangePercent": 0.78808624,
     "fiftyTwoWeekRange": "978.7 - 1851.0",
@@ -1334,6 +1333,7 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "averageAnalystRating": "2.8 - Hold",
+    "cryptoTradeable": false,
     "trailingPegRatio": null
   }
 }

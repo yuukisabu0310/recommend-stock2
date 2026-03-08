@@ -1,7 +1,7 @@
 {
   "ticker": "1945",
   "japanese_ticker": "1945.T",
-  "fetch_date": "2026-03-07T23:19:03.471706",
+  "fetch_date": "2026-03-08T23:21:02.656694",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": 404376000.0,
@@ -1203,11 +1203,11 @@
     "forwardPE": 28.553654,
     "volume": 444100,
     "regularMarketVolume": 444100,
-    "averageVolume": 269822,
+    "averageVolume": 271346,
     "averageVolume10days": 602290,
     "averageDailyVolume10Day": 602290,
-    "bid": 1828.0,
-    "ask": 1836.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 60835758080,
@@ -1273,10 +1273,15 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "shortName": "TOKYO ENERGY & SYSTEMS INC",
+    "longName": "Tokyo Energy & Systems Inc.",
+    "marketState": "PREPRE",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 978307200000,
     "regularMarketChange": -32.0,
     "regularMarketDayRange": "1795.0 - 1836.0",
     "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 269822,
+    "averageDailyVolume3Month": 271346,
     "fiftyTwoWeekLowChange": 921.0,
     "fiftyTwoWeekLowChangePercent": 1.0065573,
     "fiftyTwoWeekRange": "915.0 - 2074.0",
@@ -1294,7 +1299,18 @@
     "twoHundredDayAverageChangePercent": 0.09927617,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
-    "corporateActions": [],
+    "cryptoTradeable": false,
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "1945.T announced a cash dividend of 29.00 JPY with an ex-date of Mar. 30, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1774796400000,
+          "amount": "29.00"
+        }
+      }
+    ],
     "regularMarketTime": 1772778600,
     "exchange": "JPX",
     "messageBoardId": "finmb_880608",
@@ -1303,14 +1319,8 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "shortName": "TOKYO ENERGY & SYSTEMS INC",
-    "cryptoTradeable": false,
-    "longName": "Tokyo Energy & Systems Inc.",
-    "marketState": "CLOSED",
     "regularMarketChangePercent": -1.713062,
     "regularMarketPrice": 1836.0,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 978307200000,
     "trailingPegRatio": null
   }
 }

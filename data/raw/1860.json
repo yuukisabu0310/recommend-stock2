@@ -1,7 +1,7 @@
 {
   "ticker": "1860",
   "japanese_ticker": "1860.T",
-  "fetch_date": "2026-03-07T23:17:57.062495",
+  "fetch_date": "2026-03-08T23:19:43.562738",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": 2462374000.0,
@@ -1204,11 +1204,11 @@
     "forwardPE": 17.368422,
     "volume": 659900,
     "regularMarketVolume": 659900,
-    "averageVolume": 663615,
+    "averageVolume": 665191,
     "averageVolume10days": 994630,
     "averageDailyVolume10Day": 994630,
-    "bid": 1583.0,
-    "ask": 1588.0,
+    "bid": 0.0,
+    "ask": 1558.5,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 475524038656,
@@ -1280,6 +1280,10 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "regularMarketChangePercent": -1.8891298,
+    "regularMarketPrice": 1584.0,
+    "longName": "Toda Corporation",
+    "corporateActions": [],
     "regularMarketTime": 1772778600,
     "exchange": "JPX",
     "messageBoardId": "finmb_876263",
@@ -1288,29 +1292,15 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "marketState": "CLOSED",
+    "marketState": "PREPRE",
+    "shortName": "TODA CORP",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 978307200000,
+    "cryptoTradeable": false,
     "regularMarketChange": -30.5,
     "regularMarketDayRange": "1558.5 - 1596.0",
-    "cryptoTradeable": false,
-    "corporateActions": [
-      {
-        "header": "Dividend",
-        "message": "1860.T announced a cash dividend of 25.00 JPY with an ex-date of Mar. 30, 2026",
-        "meta": {
-          "eventType": "DIVIDEND",
-          "dateEpochMs": 1774796400000,
-          "amount": "25.00"
-        }
-      }
-    ],
-    "shortName": "TODA CORP",
-    "longName": "Toda Corporation",
-    "regularMarketChangePercent": -1.8891298,
-    "regularMarketPrice": 1584.0,
     "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 663615,
+    "averageDailyVolume3Month": 665191,
     "fiftyTwoWeekLowChange": 825.7,
     "fiftyTwoWeekLowChangePercent": 1.088883,
     "fiftyTwoWeekRange": "758.3 - 1665.0",

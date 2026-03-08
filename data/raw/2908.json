@@ -1,7 +1,7 @@
 {
   "ticker": "2908",
   "japanese_ticker": "2908.T",
-  "fetch_date": "2026-03-07T23:29:25.582218",
+  "fetch_date": "2026-03-08T23:33:18.574850",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": -71736000.0,
@@ -1050,10 +1050,10 @@
     "forwardPE": 61.666668,
     "volume": 73800,
     "regularMarketVolume": 73800,
-    "averageVolume": 52328,
+    "averageVolume": 51894,
     "averageVolume10days": 59600,
     "averageDailyVolume10Day": 59600,
-    "bid": 1591.0,
+    "bid": 0.0,
     "ask": 1594.0,
     "bidSize": 0,
     "askSize": 0,
@@ -1121,17 +1121,12 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "regularMarketChangePercent": -1.0572139,
-    "shortName": "FUJICCO CO LTD",
-    "longName": "Fujicco Co., Ltd.",
-    "marketState": "CLOSED",
-    "regularMarketPrice": 1591.0,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 978307200000,
     "regularMarketChange": -17.0,
     "regularMarketDayRange": "1588.0 - 1601.0",
     "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 52328,
+    "averageDailyVolume3Month": 51894,
     "fiftyTwoWeekLowChange": 111.0,
     "fiftyTwoWeekLowChangePercent": 0.075,
     "fiftyTwoWeekRange": "1480.0 - 1687.0",
@@ -1143,14 +1138,26 @@
     "isEarningsDateEstimate": true,
     "epsTrailingTwelveMonths": 46.93,
     "epsForward": 25.8,
+    "shortName": "FUJICCO CO LTD",
+    "longName": "Fujicco Co., Ltd.",
     "fiftyDayAverageChange": -17.199951,
     "fiftyDayAverageChangePercent": -0.010695158,
     "twoHundredDayAverageChange": -17.85498,
     "twoHundredDayAverageChangePercent": -0.0110979425,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
-    "corporateActions": [],
+    "marketState": "PREPRE",
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "2908.T announced a cash dividend of 23.00 JPY with an ex-date of Mar. 30, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1774796400000,
+          "amount": "23.00"
+        }
+      }
+    ],
     "regularMarketTime": 1772778600,
     "exchange": "JPX",
     "messageBoardId": "finmb_882425",
@@ -1159,6 +1166,9 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
+    "regularMarketChangePercent": -1.0572139,
+    "regularMarketPrice": 1591.0,
+    "cryptoTradeable": false,
     "trailingPegRatio": null
   }
 }

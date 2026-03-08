@@ -1,7 +1,7 @@
 {
   "ticker": "3001",
   "japanese_ticker": "3001.T",
-  "fetch_date": "2026-03-07T23:30:43.268765",
+  "fetch_date": "2026-03-08T23:34:49.466646",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2024-12-31 00:00:00": 444280000.0,
@@ -1011,49 +1011,8 @@
     "companyOfficers": [
       {
         "maxAge": 1,
-        "name": "Mr. Ryosuke  Joko",
-        "age": 64,
-        "title": "President, CEO & Representative Director",
-        "yearBorn": 1961,
-        "exercisedValue": 0,
-        "unexercisedValue": 0
-      },
-      {
-        "maxAge": 1,
-        "name": "Mr. Kenichi  Mizusawa",
-        "age": 55,
-        "title": "Executive Officer, GM of Accounting & Finance Department and Director",
-        "yearBorn": 1970,
-        "exercisedValue": 0,
-        "unexercisedValue": 0
-      },
-      {
-        "maxAge": 1,
-        "name": "Mr. Katsuhiro  Kakimoto",
-        "age": 65,
-        "title": "Managing Executive Officer & Director",
-        "yearBorn": 1960,
-        "exercisedValue": 0,
-        "unexercisedValue": 0
-      },
-      {
-        "maxAge": 1,
-        "name": "Yoshinori  Katakura",
-        "title": "Executive Officer",
-        "exercisedValue": 0,
-        "unexercisedValue": 0
-      },
-      {
-        "maxAge": 1,
         "name": "Akihiko  Kitahashi",
         "title": "Executive Officer",
-        "exercisedValue": 0,
-        "unexercisedValue": 0
-      },
-      {
-        "maxAge": 1,
-        "name": "Koji  Seo",
-        "title": "Executive Officer & Business Promotion Department Manager",
         "exercisedValue": 0,
         "unexercisedValue": 0
       }
@@ -1079,11 +1038,11 @@
     "trailingPE": 16.666666,
     "volume": 33000,
     "regularMarketVolume": 33000,
-    "averageVolume": 54354,
+    "averageVolume": 54715,
     "averageVolume10days": 33110,
     "averageDailyVolume10Day": 33110,
-    "bid": 2990.0,
-    "ask": 3050.0,
+    "bid": 2855.0,
+    "ask": 2855.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 95265513472,
@@ -1150,9 +1109,8 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "longName": "Katakura Industries Co.,Ltd.",
-    "corporateActions": [],
-    "regularMarketTime": 1772778600,
+    "regularMarketChangePercent": -1.9543973,
+    "regularMarketPrice": 3010.0,
     "exchange": "JPX",
     "messageBoardId": "finmb_880541",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1160,15 +1118,24 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "regularMarketChangePercent": -1.9543973,
-    "regularMarketPrice": 3010.0,
-    "marketState": "CLOSED",
+    "marketState": "PREPRE",
+    "longName": "Katakura Industries Co.,Ltd.",
+    "corporateActions": [],
+    "regularMarketTime": 1772778600,
+    "shortName": "KATAKURA INDUSTRIES CO",
+    "fiftyDayAverageChange": 5.120117,
+    "fiftyDayAverageChangePercent": 0.001703934,
+    "twoHundredDayAverageChange": 277.49512,
+    "twoHundredDayAverageChangePercent": 0.10155338,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 978307200000,
     "regularMarketChange": -60.0,
     "regularMarketDayRange": "2957.0 - 3035.0",
     "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 54354,
+    "averageDailyVolume3Month": 54715,
     "fiftyTwoWeekLowChange": 1159.0,
     "fiftyTwoWeekLowChangePercent": 0.62614805,
     "fiftyTwoWeekRange": "1851.0 - 3240.0",
@@ -1179,14 +1146,6 @@
     "earningsTimestampEnd": 1754983800,
     "isEarningsDateEstimate": true,
     "epsTrailingTwelveMonths": 180.6,
-    "fiftyDayAverageChange": 5.120117,
-    "fiftyDayAverageChangePercent": 0.001703934,
-    "twoHundredDayAverageChange": 277.49512,
-    "twoHundredDayAverageChangePercent": 0.10155338,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
-    "shortName": "KATAKURA INDUSTRIES CO",
     "trailingPegRatio": null
   }
 }

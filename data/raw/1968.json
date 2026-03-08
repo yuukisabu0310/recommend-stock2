@@ -1,7 +1,7 @@
 {
   "ticker": "1968",
   "japanese_ticker": "1968.T",
-  "fetch_date": "2026-03-07T23:19:32.573985",
+  "fetch_date": "2026-03-08T23:21:37.852038",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": 377777000.0,
@@ -1276,11 +1276,11 @@
     "forwardPE": 5.5590124,
     "volume": 121000,
     "regularMarketVolume": 121000,
-    "averageVolume": 163633,
+    "averageVolume": 165344,
     "averageVolume10days": 241570,
     "averageDailyVolume10Day": 241570,
-    "bid": 2845.0,
-    "ask": 2859.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 180416233472,
@@ -1348,22 +1348,26 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "regularMarketChangePercent": -1.7863277,
-    "regularMarketPrice": 2859.0,
-    "cryptoTradeable": false,
-    "marketState": "CLOSED",
-    "longName": "Taihei Dengyo Kaisha, Ltd.",
-    "exchange": "JPX",
+    "marketState": "PREPRE",
     "messageBoardId": "finmb_878932",
     "exchangeTimezoneName": "Asia/Tokyo",
     "exchangeTimezoneShortName": "JST",
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
+    "exchange": "JPX",
+    "shortName": "TAIHEI DENGYO KAISHA",
+    "longName": "Taihei Dengyo Kaisha, Ltd.",
+    "corporateActions": [],
+    "regularMarketTime": 1772778600,
+    "regularMarketChangePercent": -1.7863277,
+    "regularMarketPrice": 2859.0,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 978307200000,
     "regularMarketChange": -52.0,
     "regularMarketDayRange": "2781.0 - 2881.0",
     "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 163633,
+    "averageDailyVolume3Month": 165344,
     "fiftyTwoWeekLowChange": 1507.3334,
     "fiftyTwoWeekLowChangePercent": 1.1151665,
     "fiftyTwoWeekRange": "1351.6666 - 3165.0",
@@ -1381,21 +1385,7 @@
     "twoHundredDayAverageChangePercent": 0.3345751,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
-    "shortName": "TAIHEI DENGYO KAISHA",
-    "corporateActions": [
-      {
-        "header": "Dividend",
-        "message": "1968.T announced a cash dividend of 70.00 JPY with an ex-date of Mar. 30, 2026",
-        "meta": {
-          "eventType": "DIVIDEND",
-          "dateEpochMs": 1774796400000,
-          "amount": "70.00"
-        }
-      }
-    ],
-    "regularMarketTime": 1772778600,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 978307200000,
+    "cryptoTradeable": false,
     "trailingPegRatio": null
   }
 }

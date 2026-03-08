@@ -1,7 +1,7 @@
 {
   "ticker": "2267",
   "japanese_ticker": "2267.T",
-  "fetch_date": "2026-03-07T23:22:12.154635",
+  "fetch_date": "2026-03-08T23:24:41.733486",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": 1428154000.0,
@@ -1210,11 +1210,11 @@
     "forwardPE": 14.557462,
     "volume": 1273800,
     "regularMarketVolume": 1273800,
-    "averageVolume": 1551772,
+    "averageVolume": 1551467,
     "averageVolume10days": 1558150,
     "averageDailyVolume10Day": 1558150,
-    "bid": 2578.5,
-    "ask": 2586.5,
+    "bid": 0.0,
+    "ask": 2600.5,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 756288061440,
@@ -1232,7 +1232,7 @@
     "tradeable": false,
     "enterpriseValue": 668474081280,
     "profitMargins": 0.08967,
-    "floatShares": 212182948,
+    "floatShares": 218754649,
     "sharesOutstanding": 293248592,
     "heldPercentInsiders": 0.18125999,
     "heldPercentInstitutions": 0.24617,
@@ -1288,21 +1288,7 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "longName": "Yakult Honsha Co.,Ltd.",
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 978307200000,
-    "cryptoTradeable": false,
-    "corporateActions": [
-      {
-        "header": "Dividend",
-        "message": "2267.T announced a cash dividend of 37.00 JPY with an ex-date of Mar. 30, 2026",
-        "meta": {
-          "eventType": "DIVIDEND",
-          "dateEpochMs": 1774796400000,
-          "amount": "37.00"
-        }
-      }
-    ],
+    "corporateActions": [],
     "regularMarketTime": 1772778600,
     "exchange": "JPX",
     "messageBoardId": "finmb_881065",
@@ -1311,14 +1297,10 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "marketState": "CLOSED",
-    "shortName": "YAKULT HONSHA CO",
-    "regularMarketChangePercent": -1.7523811,
-    "regularMarketPrice": 2579.0,
     "regularMarketChange": -46.0,
     "regularMarketDayRange": "2553.0 - 2608.5",
     "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 1551772,
+    "averageDailyVolume3Month": 1551467,
     "fiftyTwoWeekLowChange": 288.0,
     "fiftyTwoWeekLowChangePercent": 0.1257093,
     "fiftyTwoWeekRange": "2291.0 - 3141.0",
@@ -1340,6 +1322,14 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "averageAnalystRating": "3.5 - Hold",
-    "trailingPegRatio": 164.4943
+    "cryptoTradeable": false,
+    "shortName": "YAKULT HONSHA CO",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 978307200000,
+    "longName": "Yakult Honsha Co.,Ltd.",
+    "regularMarketChangePercent": -1.7523811,
+    "regularMarketPrice": 2579.0,
+    "marketState": "PREPRE",
+    "trailingPegRatio": 161.6117
   }
 }

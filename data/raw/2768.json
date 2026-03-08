@@ -1,7 +1,7 @@
 {
   "ticker": "2768",
   "japanese_ticker": "2768.T",
-  "fetch_date": "2026-03-07T23:27:53.716717",
+  "fetch_date": "2026-03-08T23:31:28.928772",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": 2099916000.0,
@@ -1170,11 +1170,11 @@
     "forwardPE": 11.949757,
     "volume": 1507200,
     "regularMarketVolume": 1507200,
-    "averageVolume": 2434132,
+    "averageVolume": 2461255,
     "averageVolume10days": 2532750,
     "averageDailyVolume10Day": 2532750,
-    "bid": 6313.0,
-    "ask": 6319.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 1314331426816,
@@ -1250,10 +1250,17 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "regularMarketChangePercent": -0.45698076,
-    "regularMarketPrice": 6317.0,
-    "longName": "Sojitz Corporation",
-    "corporateActions": [],
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "2768.T announced a cash dividend of 82.50 JPY with an ex-date of Mar. 30, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1774796400000,
+          "amount": "82.50"
+        }
+      }
+    ],
     "regularMarketTime": 1772778600,
     "exchange": "JPX",
     "messageBoardId": "finmb_873920",
@@ -1262,15 +1269,17 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "marketState": "CLOSED",
     "shortName": "SOJITZ CORPORATION",
+    "longName": "Sojitz Corporation",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 946944000000,
-    "cryptoTradeable": false,
     "regularMarketChange": -29.0,
     "regularMarketDayRange": "6134.0 - 6325.0",
     "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 2434132,
+    "regularMarketChangePercent": -0.45698076,
+    "regularMarketPrice": 6317.0,
+    "marketState": "PREPRE",
+    "averageDailyVolume3Month": 2461255,
     "fiftyTwoWeekLowChange": 3628.0,
     "fiftyTwoWeekLowChangePercent": 1.3492005,
     "fiftyTwoWeekRange": "2689.0 - 7257.0",
@@ -1292,6 +1301,7 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "averageAnalystRating": "2.4 - Buy",
+    "cryptoTradeable": false,
     "trailingPegRatio": null
   }
 }

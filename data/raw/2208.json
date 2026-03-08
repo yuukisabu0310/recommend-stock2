@@ -1,7 +1,7 @@
 {
   "ticker": "2208",
   "japanese_ticker": "2208.T",
-  "fetch_date": "2026-03-07T23:21:42.637346",
+  "fetch_date": "2026-03-08T23:24:07.410518",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": 22275000.0,
@@ -1185,11 +1185,11 @@
     "forwardPE": 24.694656,
     "volume": 7100,
     "regularMarketVolume": 7100,
-    "averageVolume": 15050,
+    "averageVolume": 15008,
     "averageVolume10days": 14430,
     "averageDailyVolume10Day": 14430,
-    "bid": 3215.0,
-    "ask": 3240.0,
+    "bid": 0.0,
+    "ask": 3275.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 78201364480,
@@ -1257,26 +1257,15 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "corporateActions": [],
-    "regularMarketTime": 1772778600,
-    "exchange": "JPX",
-    "messageBoardId": "finmb_5490101",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
     "shortName": "BOURBON CORP",
     "longName": "Bourbon Corporation",
+    "marketState": "PREPRE",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 978652800000,
     "regularMarketChange": -50.0,
     "regularMarketDayRange": "3215.0 - 3270.0",
     "fullExchangeName": "Tokyo",
-    "regularMarketChangePercent": -1.5220699,
-    "regularMarketPrice": 3235.0,
-    "marketState": "CLOSED",
-    "averageDailyVolume3Month": 15050,
+    "averageDailyVolume3Month": 15008,
     "fiftyTwoWeekLowChange": 870.0,
     "fiftyTwoWeekLowChangePercent": 0.3678647,
     "fiftyTwoWeekRange": "2365.0 - 3350.0",
@@ -1295,6 +1284,27 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "2208.T announced a cash dividend of 22.00 JPY with an ex-date of Mar. 30, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1774796400000,
+          "amount": "22.00"
+        }
+      }
+    ],
+    "regularMarketTime": 1772778600,
+    "exchange": "JPX",
+    "messageBoardId": "finmb_5490101",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
+    "regularMarketChangePercent": -1.5220699,
+    "regularMarketPrice": 3235.0,
     "trailingPegRatio": null
   }
 }

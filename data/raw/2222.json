@@ -1,7 +1,7 @@
 {
   "ticker": "2222",
   "japanese_ticker": "2222.T",
-  "fetch_date": "2026-03-07T23:22:00.355857",
+  "fetch_date": "2026-03-08T23:24:27.933296",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": -15024000.0,
@@ -1105,11 +1105,11 @@
     "forwardPE": 20.96827,
     "volume": 603000,
     "regularMarketVolume": 603000,
-    "averageVolume": 605832,
+    "averageVolume": 609129,
     "averageVolume10days": 639260,
     "averageDailyVolume10Day": 639260,
-    "bid": 1925.0,
-    "ask": 1930.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 297978560512,
@@ -1181,10 +1181,14 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "shortName": "KOTOBUKI SPIRITS",
+    "longName": "Kotobuki Spirits Co., Ltd.",
+    "regularMarketChangePercent": 2.8518124,
+    "regularMarketPrice": 1929.5,
     "regularMarketChange": 53.5,
     "regularMarketDayRange": "1865.5 - 1929.5",
     "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 605832,
+    "averageDailyVolume3Month": 609129,
     "fiftyTwoWeekLowChange": 211.0,
     "fiftyTwoWeekLowChangePercent": 0.12278149,
     "fiftyTwoWeekRange": "1718.5 - 2570.0",
@@ -1203,6 +1207,9 @@
     "twoHundredDayAverageChangePercent": -0.0042780894,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1266796800000,
     "corporateActions": [
       {
         "header": "Dividend",
@@ -1222,14 +1229,7 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "shortName": "KOTOBUKI SPIRITS",
-    "cryptoTradeable": false,
-    "longName": "Kotobuki Spirits Co., Ltd.",
-    "marketState": "CLOSED",
-    "regularMarketChangePercent": 2.8518124,
-    "regularMarketPrice": 1929.5,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1266796800000,
+    "marketState": "PREPRE",
     "trailingPegRatio": null
   }
 }

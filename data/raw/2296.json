@@ -1,7 +1,7 @@
 {
   "ticker": "2296",
   "japanese_ticker": "2296.T",
-  "fetch_date": "2026-03-07T23:22:35.192890",
+  "fetch_date": "2026-03-08T23:25:08.885325",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": -420912000.0,
@@ -1273,11 +1273,11 @@
     "forwardPE": 21.681274,
     "volume": 229900,
     "regularMarketVolume": 229900,
-    "averageVolume": 146655,
+    "averageVolume": 147694,
     "averageVolume10days": 205980,
     "averageDailyVolume10Day": 205980,
-    "bid": 6100.0,
-    "ask": 6110.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 346747830272,
@@ -1352,15 +1352,12 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "shortName": "ITOHAM YONEKYU HOLDINGS INC",
-    "longName": "Itoham Yonekyu Holdings Inc.",
-    "marketState": "CLOSED",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1459468800000,
     "regularMarketChange": -60.0,
     "regularMarketDayRange": "6060.0 - 6150.0",
     "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 146655,
+    "averageDailyVolume3Month": 147694,
     "fiftyTwoWeekLowChange": 2355.0,
     "fiftyTwoWeekLowChangePercent": 0.62716377,
     "fiftyTwoWeekRange": "3755.0 - 6480.0",
@@ -1375,14 +1372,26 @@
     "isEarningsDateEstimate": true,
     "epsTrailingTwelveMonths": 287.78,
     "epsForward": 281.81,
+    "shortName": "ITOHAM YONEKYU HOLDINGS INC",
+    "longName": "Itoham Yonekyu Holdings Inc.",
     "fiftyDayAverageChange": 124.200195,
     "fiftyDayAverageChangePercent": 0.020749139,
     "twoHundredDayAverageChange": 563.7251,
     "twoHundredDayAverageChangePercent": 0.10164031,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
-    "corporateActions": [],
+    "marketState": "PREPRE",
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "2296.T announced a cash dividend of 75.00 JPY with an ex-date of Mar. 30, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1774796400000,
+          "amount": "75.00"
+        }
+      }
+    ],
     "regularMarketTime": 1772778600,
     "exchange": "JPX",
     "messageBoardId": "finmb_320586924",
@@ -1393,6 +1402,7 @@
     "esgPopulated": false,
     "regularMarketChangePercent": -0.97244734,
     "regularMarketPrice": 6110.0,
+    "cryptoTradeable": false,
     "trailingPegRatio": null
   }
 }

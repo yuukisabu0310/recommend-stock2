@@ -1,7 +1,7 @@
 {
   "ticker": "2531",
   "japanese_ticker": "2531.T",
-  "fetch_date": "2026-03-07T23:25:36.794565",
+  "fetch_date": "2026-03-08T23:28:47.817234",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": 1133734000.0,
@@ -1228,11 +1228,11 @@
     "forwardPE": 17.120728,
     "volume": 484700,
     "regularMarketVolume": 484700,
-    "averageVolume": 498252,
+    "averageVolume": 496605,
     "averageVolume10days": 522580,
     "averageDailyVolume10Day": 522580,
-    "bid": 1602.0,
-    "ask": 1602.5,
+    "bid": 0.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 309080391680,
@@ -1298,6 +1298,19 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "longName": "Takara Holdings Inc.",
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "2531.T announced a cash dividend of 31.00 JPY with an ex-date of Mar. 30, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1774796400000,
+          "amount": "31.00"
+        }
+      }
+    ],
+    "regularMarketTime": 1772778600,
     "exchange": "JPX",
     "messageBoardId": "finmb_877388",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1305,26 +1318,15 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "shortName": "TAKARA HOLDINGS INC",
-    "longName": "Takara Holdings Inc.",
     "regularMarketChangePercent": -0.8047044,
     "regularMarketPrice": 1602.5,
-    "corporateActions": [],
-    "regularMarketTime": 1772778600,
+    "marketState": "PREPRE",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 946944000000,
-    "marketState": "CLOSED",
-    "fiftyDayAverageChange": -14.719971,
-    "fiftyDayAverageChangePercent": -0.009102021,
-    "twoHundredDayAverageChange": 93.107544,
-    "twoHundredDayAverageChangePercent": 0.061685443,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
     "regularMarketChange": -13.0,
     "regularMarketDayRange": "1571.0 - 1621.0",
     "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 498252,
+    "averageDailyVolume3Month": 496605,
     "fiftyTwoWeekLowChange": 505.0,
     "fiftyTwoWeekLowChangePercent": 0.46013668,
     "fiftyTwoWeekRange": "1097.5 - 1858.0",
@@ -1339,6 +1341,14 @@
     "isEarningsDateEstimate": true,
     "epsTrailingTwelveMonths": 65.86,
     "epsForward": 93.6,
+    "fiftyDayAverageChange": -14.719971,
+    "fiftyDayAverageChangePercent": -0.009102021,
+    "twoHundredDayAverageChange": 93.107544,
+    "twoHundredDayAverageChangePercent": 0.061685443,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
+    "shortName": "TAKARA HOLDINGS INC",
     "trailingPegRatio": null
   }
 }

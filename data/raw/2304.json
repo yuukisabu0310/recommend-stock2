@@ -1,7 +1,7 @@
 {
   "ticker": "2304",
   "japanese_ticker": "2304.T",
-  "fetch_date": "2026-03-07T23:22:42.994975",
+  "fetch_date": "2026-03-08T23:25:17.985734",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-09-30 00:00:00": 1953918.0,
@@ -1163,11 +1163,11 @@
     "trailingPE": 8.291931,
     "volume": 9900,
     "regularMarketVolume": 9900,
-    "averageVolume": 9411,
+    "averageVolume": 9450,
     "averageVolume10days": 11010,
     "averageDailyVolume10Day": 11010,
-    "bid": 968.0,
-    "ask": 972.0,
+    "bid": 973.0,
+    "ask": 974.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 4777653248,
@@ -1234,7 +1234,7 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "marketState": "CLOSED",
+    "marketState": "PREPRE",
     "messageBoardId": "finmb_9283908",
     "exchangeTimezoneName": "Asia/Tokyo",
     "exchangeTimezoneShortName": "JST",
@@ -1244,7 +1244,17 @@
     "exchange": "JPX",
     "shortName": "CSS HOLDINGS LTD",
     "longName": "CSS Holdings,Ltd.",
-    "corporateActions": [],
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "2304.T announced a cash dividend of 15.00 JPY with an ex-date of Mar. 30, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1774796400000,
+          "amount": "15.00"
+        }
+      }
+    ],
     "regularMarketTime": 1772778600,
     "regularMarketChangePercent": -1.1235955,
     "regularMarketPrice": 968.0,
@@ -1253,7 +1263,7 @@
     "regularMarketChange": -11.0,
     "regularMarketDayRange": "956.0 - 979.0",
     "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 9411,
+    "averageDailyVolume3Month": 9450,
     "fiftyTwoWeekLowChange": 213.0,
     "fiftyTwoWeekLowChangePercent": 0.2821192,
     "fiftyTwoWeekRange": "755.0 - 1097.0",

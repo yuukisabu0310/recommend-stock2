@@ -1,7 +1,7 @@
 {
   "ticker": "1417",
   "japanese_ticker": "1417.T",
-  "fetch_date": "2026-03-07T23:15:27.569566",
+  "fetch_date": "2026-03-08T23:16:44.499666",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": 232845000.0,
@@ -1314,11 +1314,11 @@
     "forwardPE": 17.108711,
     "volume": 220500,
     "regularMarketVolume": 220500,
-    "averageVolume": 232728,
+    "averageVolume": 233950,
     "averageVolume10days": 276070,
     "averageDailyVolume10Day": 276070,
-    "bid": 3722.0,
-    "ask": 3730.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 329993715712,
@@ -1390,14 +1390,34 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "shortName": "MIRAIT ONE CORPORATION",
-    "longName": "MIRAIT ONE Corporation",
     "regularMarketChangePercent": -1.0895562,
     "regularMarketPrice": 3722.0,
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "1417.T announced a cash dividend of 45.00 JPY with an ex-date of Mar. 30, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1774796400000,
+          "amount": "45.00"
+        }
+      }
+    ],
+    "regularMarketTime": 1772778600,
+    "exchange": "JPX",
+    "messageBoardId": "finmb_881336",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
+    "longName": "MIRAIT ONE Corporation",
+    "shortName": "MIRAIT ONE CORPORATION",
+    "marketState": "PREPRE",
     "regularMarketChange": -41.0,
     "regularMarketDayRange": "3645.0 - 3731.0",
     "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 232728,
+    "averageDailyVolume3Month": 233950,
     "fiftyTwoWeekLowChange": 1862.0,
     "fiftyTwoWeekLowChangePercent": 1.0010753,
     "fiftyTwoWeekRange": "1860.0 - 4173.0",
@@ -1419,31 +1439,11 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "prevName": "MIRAIT Holdings Corporation",
-    "nameChangeDate": "2026-03-07",
+    "nameChangeDate": "2026-03-08",
     "averageAnalystRating": "1.0 - Strong Buy",
     "cryptoTradeable": false,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 978307200000,
-    "corporateActions": [
-      {
-        "header": "Dividend",
-        "message": "1417.T announced a cash dividend of 45.00 JPY with an ex-date of Mar. 30, 2026",
-        "meta": {
-          "eventType": "DIVIDEND",
-          "dateEpochMs": 1774796400000,
-          "amount": "45.00"
-        }
-      }
-    ],
-    "regularMarketTime": 1772778600,
-    "exchange": "JPX",
-    "messageBoardId": "finmb_881336",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
-    "marketState": "CLOSED",
     "trailingPegRatio": null
   }
 }

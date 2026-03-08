@@ -1,7 +1,7 @@
 {
   "ticker": "1776",
   "japanese_ticker": "1776.T",
-  "fetch_date": "2026-03-07T23:16:45.924099",
+  "fetch_date": "2026-03-08T23:18:19.324453",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": -10080000.0,
@@ -948,11 +948,11 @@
     "trailingPE": 55.85924,
     "volume": 6000,
     "regularMarketVolume": 6000,
-    "averageVolume": 12191,
+    "averageVolume": 11979,
     "averageVolume10days": 14040,
     "averageDailyVolume10Day": 14040,
-    "bid": 1635.0,
-    "ask": 1637.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 15049924608,
@@ -1018,17 +1018,14 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "regularMarketChangePercent": -1.3277006,
-    "shortName": "SUMIKEN MITSUI ROAD CO LTD",
     "longName": "Sumiken Mitsui Road Co.,Ltd.",
-    "marketState": "CLOSED",
+    "regularMarketChangePercent": -1.3277006,
     "regularMarketPrice": 1635.0,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 978566400000,
+    "shortName": "SUMIKEN MITSUI ROAD CO LTD",
     "regularMarketChange": -22.0,
     "regularMarketDayRange": "1621.0 - 1661.0",
     "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 12191,
+    "averageDailyVolume3Month": 11979,
     "fiftyTwoWeekLowChange": 389.0,
     "fiftyTwoWeekLowChangePercent": 0.31219903,
     "fiftyTwoWeekRange": "1246.0 - 1707.0",
@@ -1045,6 +1042,8 @@
     "twoHundredDayAverageChangePercent": 0.07187109,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 978566400000,
     "cryptoTradeable": false,
     "corporateActions": [
       {
@@ -1065,6 +1064,7 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
+    "marketState": "PREPRE",
     "trailingPegRatio": null
   }
 }

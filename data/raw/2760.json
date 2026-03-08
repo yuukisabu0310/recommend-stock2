@@ -1,7 +1,7 @@
 {
   "ticker": "2760",
   "japanese_ticker": "2760.T",
-  "fetch_date": "2026-03-07T23:27:44.203890",
+  "fetch_date": "2026-03-08T23:31:17.112275",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": -1540000.0,
@@ -1186,11 +1186,11 @@
     "forwardPE": 9.836305,
     "volume": 129800,
     "regularMarketVolume": 129800,
-    "averageVolume": 155696,
+    "averageVolume": 156015,
     "averageVolume10days": 204610,
     "averageDailyVolume10Day": 204610,
-    "bid": 3360.0,
-    "ask": 3380.0,
+    "bid": 0.0,
+    "ask": 3175.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 98986115072,
@@ -1256,13 +1256,13 @@
     "customPriceAlertConfidence": "LOW",
     "regularMarketChangePercent": 1.2030076,
     "regularMarketPrice": 3365.0,
-    "marketState": "CLOSED",
+    "marketState": "PREPRE",
     "shortName": "TOKYO ELECTRON DEVICE",
     "longName": "Tokyo Electron Device Limited",
     "regularMarketChange": 40.0,
     "regularMarketDayRange": "3270.0 - 3375.0",
     "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 155696,
+    "averageDailyVolume3Month": 156015,
     "fiftyTwoWeekLowChange": 1039.0,
     "fiftyTwoWeekLowChangePercent": 0.4466896,
     "fiftyTwoWeekRange": "2326.0 - 3860.0",
@@ -1283,7 +1283,17 @@
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1046995200000,
     "cryptoTradeable": false,
-    "corporateActions": [],
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "2760.T announced a cash dividend of 64.00 JPY with an ex-date of Mar. 30, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1774796400000,
+          "amount": "64.00"
+        }
+      }
+    ],
     "regularMarketTime": 1772778600,
     "exchange": "JPX",
     "messageBoardId": "finmb_5875019",

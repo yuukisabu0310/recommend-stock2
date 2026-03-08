@@ -1,7 +1,7 @@
 {
   "ticker": "2733",
   "japanese_ticker": "2733.T",
-  "fetch_date": "2026-03-07T23:27:19.000632",
+  "fetch_date": "2026-03-08T23:30:46.222581",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": 67737000.0,
@@ -1169,11 +1169,11 @@
     "forwardPE": 8.105235,
     "volume": 61600,
     "regularMarketVolume": 61600,
-    "averageVolume": 43562,
+    "averageVolume": 43677,
     "averageVolume10days": 66780,
     "averageDailyVolume10Day": 66780,
-    "bid": 2972.0,
-    "ask": 2985.0,
+    "bid": 0.0,
+    "ask": 2973.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 99529031680,
@@ -1241,36 +1241,27 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "marketState": "CLOSED",
+    "regularMarketChangePercent": -0.46869767,
+    "regularMarketPrice": 2973.0,
+    "longName": "Arata Corporation",
+    "corporateActions": [],
+    "regularMarketTime": 1772778600,
+    "exchange": "JPX",
     "messageBoardId": "finmb_7884402",
     "exchangeTimezoneName": "Asia/Tokyo",
     "exchangeTimezoneShortName": "JST",
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "exchange": "JPX",
+    "marketState": "PREPRE",
     "shortName": "ARATA CORPORATION",
-    "longName": "Arata Corporation",
-    "corporateActions": [
-      {
-        "header": "Dividend",
-        "message": "2733.T announced a cash dividend of 56.00 JPY with an ex-date of Mar. 30, 2026",
-        "meta": {
-          "eventType": "DIVIDEND",
-          "dateEpochMs": 1774796400000,
-          "amount": "56.00"
-        }
-      }
-    ],
-    "regularMarketTime": 1772778600,
-    "regularMarketChangePercent": -0.46869767,
-    "regularMarketPrice": 2973.0,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1266796800000,
+    "cryptoTradeable": false,
     "regularMarketChange": -14.0,
     "regularMarketDayRange": "2949.0 - 2982.0",
     "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 43562,
+    "averageDailyVolume3Month": 43677,
     "fiftyTwoWeekLowChange": 281.0,
     "fiftyTwoWeekLowChangePercent": 0.10438336,
     "fiftyTwoWeekRange": "2692.0 - 3375.0",
@@ -1290,7 +1281,6 @@
     "twoHundredDayAverageChangePercent": -0.031048458,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
     "trailingPegRatio": null
   }
 }

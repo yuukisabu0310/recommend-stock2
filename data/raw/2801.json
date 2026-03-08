@@ -1,7 +1,7 @@
 {
   "ticker": "2801",
   "japanese_ticker": "2801.T",
-  "fetch_date": "2026-03-07T23:28:22.738903",
+  "fetch_date": "2026-03-08T23:32:04.885942",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": 0.0,
@@ -1144,11 +1144,11 @@
     "forwardPE": 21.8998,
     "volume": 2461300,
     "regularMarketVolume": 2461300,
-    "averageVolume": 3080108,
+    "averageVolume": 3086298,
     "averageVolume10days": 3276180,
     "averageDailyVolume10Day": 3276180,
-    "bid": 1407.0,
-    "ask": 1408.0,
+    "bid": 0.0,
+    "ask": 1350.5,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 1304520032256,
@@ -1222,10 +1222,15 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "shortName": "KIKKOMAN CORP",
+    "longName": "Kikkoman Corporation",
+    "marketState": "PREPRE",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 946944000000,
     "regularMarketChange": 20.5,
     "regularMarketDayRange": "1373.5 - 1408.0",
     "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 3080108,
+    "averageDailyVolume3Month": 3086298,
     "fiftyTwoWeekLowChange": 205.5,
     "fiftyTwoWeekLowChangePercent": 0.17096506,
     "fiftyTwoWeekRange": "1202.0 - 1583.0",
@@ -1247,17 +1252,8 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "averageAnalystRating": "2.7 - Hold",
-    "corporateActions": [
-      {
-        "header": "Dividend",
-        "message": "2801.T announced a cash dividend of 15.00 JPY with an ex-date of Mar. 30, 2026",
-        "meta": {
-          "eventType": "DIVIDEND",
-          "dateEpochMs": 1774796400000,
-          "amount": "15.00"
-        }
-      }
-    ],
+    "cryptoTradeable": false,
+    "corporateActions": [],
     "regularMarketTime": 1772778600,
     "exchange": "JPX",
     "messageBoardId": "finmb_810173",
@@ -1266,14 +1262,8 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "shortName": "KIKKOMAN CORP",
-    "cryptoTradeable": false,
-    "longName": "Kikkoman Corporation",
-    "marketState": "CLOSED",
     "regularMarketChangePercent": 1.4780102,
     "regularMarketPrice": 1407.5,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 946944000000,
-    "trailingPegRatio": 7.1014
+    "trailingPegRatio": 7.2064
   }
 }

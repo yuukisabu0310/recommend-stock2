@@ -1,7 +1,7 @@
 {
   "ticker": "2813",
   "japanese_ticker": "2813.T",
-  "fetch_date": "2026-03-07T23:28:39.296035",
+  "fetch_date": "2026-03-08T23:32:23.502506",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": -950426.4,
@@ -1279,11 +1279,11 @@
     "trailingPE": 9.794412,
     "volume": 2300,
     "regularMarketVolume": 2300,
-    "averageVolume": 4422,
+    "averageVolume": 4474,
     "averageVolume10days": 7240,
     "averageDailyVolume10Day": 7240,
-    "bid": 4020.0,
-    "ask": 4145.0,
+    "bid": 0.0,
+    "ask": 3950.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 10330120192,
@@ -1350,7 +1350,18 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "corporateActions": [],
+    "longName": "Wakou Shokuhin Co., Ltd.",
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "2813.T announced a cash dividend of 86.00 JPY with an ex-date of Mar. 30, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1774796400000,
+          "amount": "86.00"
+        }
+      }
+    ],
     "regularMarketTime": 1772778600,
     "exchange": "JPX",
     "messageBoardId": "finmb_9794139",
@@ -1359,21 +1370,21 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "shortName": "WAKOU SHOKUHIN CO",
+    "regularMarketChangePercent": 0.60753345,
+    "regularMarketPrice": 4140.0,
+    "marketState": "PREPRE",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 947030400000,
     "regularMarketChange": 25.0,
     "regularMarketDayRange": "4020.0 - 4140.0",
     "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 4422,
+    "averageDailyVolume3Month": 4474,
     "fiftyTwoWeekLowChange": 1194.0,
     "fiftyTwoWeekLowChangePercent": 0.4052953,
     "fiftyTwoWeekRange": "2946.0 - 4920.0",
     "fiftyTwoWeekHighChange": -780.0,
     "fiftyTwoWeekHighChangePercent": -0.15853658,
     "fiftyTwoWeekChangePercent": -8.40708,
-    "longName": "Wakou Shokuhin Co., Ltd.",
-    "regularMarketChangePercent": 0.60753345,
-    "regularMarketPrice": 4140.0,
-    "marketState": "CLOSED",
     "earningsTimestampStart": 1747281600,
     "earningsTimestampEnd": 1747281600,
     "isEarningsDateEstimate": false,
@@ -1385,8 +1396,7 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 947030400000,
+    "shortName": "WAKOU SHOKUHIN CO",
     "trailingPegRatio": null
   }
 }

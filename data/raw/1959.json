@@ -1,7 +1,7 @@
 {
   "ticker": "1959",
   "japanese_ticker": "1959.T",
-  "fetch_date": "2026-03-07T23:19:16.865433",
+  "fetch_date": "2026-03-08T23:21:19.355417",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": 372208000.0,
@@ -1062,11 +1062,11 @@
     "forwardPE": 19.86715,
     "volume": 231700,
     "regularMarketVolume": 231700,
-    "averageVolume": 207854,
+    "averageVolume": 208544,
     "averageVolume10days": 276240,
     "averageDailyVolume10Day": 276240,
-    "bid": 9868.0,
-    "ask": 9870.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "marketCap": 698154745856,
     "nonDilutedMarketCap": 698154736230,
     "fiftyTwoWeekLow": 4209.0,
@@ -1136,6 +1136,7 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "corporateActions": [],
     "regularMarketTime": 1772778600,
     "exchange": "JPX",
     "messageBoardId": "finmb_880331",
@@ -1144,29 +1145,10 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "marketState": "CLOSED",
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 978307200000,
     "regularMarketChange": -185.0,
     "regularMarketDayRange": "9724.0 - 9951.0",
-    "cryptoTradeable": false,
-    "corporateActions": [
-      {
-        "header": "Dividend",
-        "message": "1959.T announced a cash dividend of 110.00 JPY with an ex-date of Mar. 30, 2026",
-        "meta": {
-          "eventType": "DIVIDEND",
-          "dateEpochMs": 1774796400000,
-          "amount": "110.00"
-        }
-      }
-    ],
-    "shortName": "KRAFTIA CORPORATION",
-    "longName": "Kraftia Corporation",
-    "regularMarketChangePercent": -1.8398807,
-    "regularMarketPrice": 9870.0,
     "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 207854,
+    "averageDailyVolume3Month": 208544,
     "fiftyTwoWeekLowChange": 5661.0,
     "fiftyTwoWeekLowChangePercent": 1.344975,
     "fiftyTwoWeekRange": "4209.0 - 10580.0",
@@ -1186,8 +1168,16 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "prevName": "Kyudenko Corporation",
-    "nameChangeDate": "2026-03-07",
+    "nameChangeDate": "2026-03-08",
     "averageAnalystRating": "1.8 - Buy",
+    "cryptoTradeable": false,
+    "shortName": "KRAFTIA CORPORATION",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 978307200000,
+    "longName": "Kraftia Corporation",
+    "regularMarketChangePercent": -1.8398807,
+    "regularMarketPrice": 9870.0,
+    "marketState": "PREPRE",
     "trailingPegRatio": null
   }
 }

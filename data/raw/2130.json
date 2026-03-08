@@ -1,7 +1,7 @@
 {
   "ticker": "2130",
   "japanese_ticker": "2130.T",
-  "fetch_date": "2026-03-07T23:20:31.728110",
+  "fetch_date": "2026-03-08T23:22:44.494036",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": 0.0,
@@ -887,11 +887,11 @@
     "forwardPE": 7.186125,
     "volume": 82200,
     "regularMarketVolume": 82200,
-    "averageVolume": 97201,
+    "averageVolume": 96501,
     "averageVolume10days": 85550,
     "averageDailyVolume10Day": 85550,
-    "bid": 1126.0,
-    "ask": 1132.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 14405568512,
@@ -964,26 +964,33 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "marketState": "CLOSED",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1461196800000,
+    "regularMarketChange": 5.0,
+    "regularMarketDayRange": "1105.0 - 1133.0",
+    "fullExchangeName": "Tokyo",
+    "averageDailyVolume3Month": 96501,
+    "shortName": "MEMBERS CO LTD",
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "2130.T announced a cash dividend of 33.00 JPY with an ex-date of Mar. 30, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1774796400000,
+          "amount": "33.00"
+        }
+      }
+    ],
+    "regularMarketTime": 1772778600,
+    "exchange": "JPX",
     "messageBoardId": "finmb_544045",
     "exchangeTimezoneName": "Asia/Tokyo",
     "exchangeTimezoneShortName": "JST",
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "exchange": "JPX",
-    "shortName": "MEMBERS CO LTD",
-    "longName": "Members Co., Ltd.",
-    "corporateActions": [],
-    "regularMarketTime": 1772778600,
-    "regularMarketChangePercent": 0.4456328,
-    "regularMarketPrice": 1127.0,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1461196800000,
-    "regularMarketChange": 5.0,
-    "regularMarketDayRange": "1105.0 - 1133.0",
-    "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 97201,
+    "marketState": "PREPRE",
     "fiftyTwoWeekLowChange": 251.0,
     "fiftyTwoWeekLowChangePercent": 0.2865297,
     "fiftyTwoWeekRange": "876.0 - 1478.0",
@@ -1003,6 +1010,9 @@
     "exchangeDataDelayedBy": 20,
     "averageAnalystRating": "0.0 - Strong Buy",
     "cryptoTradeable": false,
+    "regularMarketChangePercent": 0.4456328,
+    "regularMarketPrice": 1127.0,
+    "longName": "Members Co., Ltd.",
     "trailingPegRatio": null
   }
 }
