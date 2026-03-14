@@ -1,7 +1,7 @@
 {
   "ticker": "2374",
   "japanese_ticker": "2374.T",
-  "fetch_date": "2026-03-13T23:29:28.062617",
+  "fetch_date": "2026-03-14T23:28:37.002807",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": -7593816.0,
@@ -1175,8 +1175,8 @@
     "lastSplitDate": 1773360000,
     "enterpriseToRevenue": 0.439,
     "enterpriseToEbitda": 7.58,
-    "52WeekChange": 9726751.0,
-    "SandP52WeekChange": 0.1833111,
+    "52WeekChange": 9661118.0,
+    "SandP52WeekChange": 0.16864312,
     "lastDividendValue": 30.0,
     "lastDividendDate": 1743120000,
     "quoteType": "EQUITY",
@@ -1207,9 +1207,18 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "shortName": "SAINT-CARE HOLDING CORPORATION",
+    "corporateActions": [],
+    "regularMarketTime": 1773297000,
+    "exchange": "JPX",
+    "messageBoardId": "finmb_5437094",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
+    "regularMarketChangePercent": 0.0,
+    "regularMarketPrice": 1212.0,
     "longName": "Saint-Care Holding Corporation",
-    "marketState": "CLOSED",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1066953600000,
     "regularMarketChange": 0.0,
@@ -1221,7 +1230,7 @@
     "fiftyTwoWeekRange": "687.0 - 7.1647964E9",
     "fiftyTwoWeekHighChange": -7164795400.0,
     "fiftyTwoWeekHighChangePercent": -0.9999999,
-    "fiftyTwoWeekChangePercent": 972675070.0,
+    "fiftyTwoWeekChangePercent": 966111810.0,
     "earningsTimestampStart": 1754460000,
     "earningsTimestampEnd": 1754892000,
     "earningsCallTimestampStart": 1738925940,
@@ -1236,27 +1245,8 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
-    "exchange": "JPX",
-    "messageBoardId": "finmb_5437094",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
-    "regularMarketChangePercent": 0.0,
-    "regularMarketPrice": 1212.0,
-    "corporateActions": [
-      {
-        "header": "Reverse stock split",
-        "message": "2374.T announces 1 for 5905149 split effective Mar. 13, 2026",
-        "meta": {
-          "eventType": "SPLIT",
-          "dateEpochMs": 1773327600000,
-          "splitRatio": "1:5905149"
-        }
-      }
-    ],
-    "regularMarketTime": 1773297000,
+    "marketState": "CLOSED",
+    "shortName": "SAINT-CARE HOLDING CORPORATION",
     "trailingPegRatio": null
   }
 }
