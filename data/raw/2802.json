@@ -1,7 +1,7 @@
 {
   "ticker": "2802",
   "japanese_ticker": "2802.T",
-  "fetch_date": "2026-03-14T23:33:20.152002",
+  "fetch_date": "2026-03-15T23:36:54.802618",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": 0.0,
@@ -1183,11 +1183,11 @@
     "forwardPE": 18.976435,
     "volume": 3093000,
     "regularMarketVolume": 3093000,
-    "averageVolume": 4546330,
+    "averageVolume": 4565741,
     "averageVolume10days": 3719730,
     "averageDailyVolume10Day": 3719730,
-    "bid": 4404.0,
-    "ask": 4408.0,
+    "bid": 0.0,
+    "ask": 4301.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 4228301717504,
@@ -1263,13 +1263,29 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "cryptoTradeable": false,
+    "regularMarketChangePercent": 0.15916327,
+    "regularMarketPrice": 4405.0,
     "shortName": "AJINOMOTO CO INC",
     "longName": "Ajinomoto Co., Inc.",
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "2802.T announced a cash dividend of JPY 24.00 with an ex-date of Mar. 30, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1774796400000,
+          "amount": "24.00"
+        }
+      }
+    ],
+    "marketState": "PREPRE",
+    "cryptoTradeable": false,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 946944000000,
     "regularMarketChange": 7.0,
     "regularMarketDayRange": "4310.0 - 4424.0",
     "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 4546330,
+    "averageDailyVolume3Month": 4565741,
     "fiftyTwoWeekLowChange": 1768.5,
     "fiftyTwoWeekLowChangePercent": 0.67077565,
     "fiftyTwoWeekRange": "2636.5 - 5025.0",
@@ -1291,17 +1307,6 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "averageAnalystRating": "2.1 - Buy",
-    "corporateActions": [
-      {
-        "header": "Dividend",
-        "message": "2802.T announced a cash dividend of JPY 24.00 with an ex-date of Mar. 30, 2026",
-        "meta": {
-          "eventType": "DIVIDEND",
-          "dateEpochMs": 1774796400000,
-          "amount": "24.00"
-        }
-      }
-    ],
     "regularMarketTime": 1773383400,
     "exchange": "JPX",
     "messageBoardId": "finmb_873739",
@@ -1310,11 +1315,6 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "regularMarketChangePercent": 0.15916327,
-    "regularMarketPrice": 4405.0,
-    "marketState": "CLOSED",
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 946944000000,
     "trailingPegRatio": 1.3714
   }
 }

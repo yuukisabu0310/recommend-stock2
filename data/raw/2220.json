@@ -1,7 +1,7 @@
 {
   "ticker": "2220",
   "japanese_ticker": "2220.T",
-  "fetch_date": "2026-03-14T23:26:50.328605",
+  "fetch_date": "2026-03-15T23:29:23.923718",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": -28424000.0,
@@ -1198,11 +1198,11 @@
     "trailingPE": 3.3534434,
     "volume": 75300,
     "regularMarketVolume": 75300,
-    "averageVolume": 63408,
+    "averageVolume": 63924,
     "averageVolume10days": 74750,
     "averageDailyVolume10Day": 74750,
-    "bid": 4255.0,
-    "ask": 4335.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "marketCap": 90235707392,
     "nonDilutedMarketCap": 90235710800,
     "fiftyTwoWeekLow": 3600.0,
@@ -1266,17 +1266,18 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "regularMarketChangePercent": 0.7058824,
-    "regularMarketPrice": 4280.0,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 978307200000,
-    "shortName": "KAMEDA SEIKA CO",
     "longName": "Kameda Seika Co.,Ltd.",
-    "marketState": "CLOSED",
+    "marketState": "PREPRE",
     "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "2220.T announced a cash dividend of JPY 51.00 with an ex-date of Mar. 30, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1774796400000,
+          "amount": "51.00"
+        }
+      },
       {
         "header": "Stock split",
         "message": "2220.T announces 3 for 1 split effective Mar. 30, 2026",
@@ -1295,10 +1296,15 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
+    "regularMarketChangePercent": 0.7058824,
+    "regularMarketPrice": 4280.0,
+    "shortName": "KAMEDA SEIKA CO",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 978307200000,
     "regularMarketChange": 30.0,
     "regularMarketDayRange": "4250.0 - 4335.0",
     "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 63408,
+    "averageDailyVolume3Month": 63924,
     "fiftyTwoWeekLowChange": 680.0,
     "fiftyTwoWeekLowChangePercent": 0.18888889,
     "fiftyTwoWeekRange": "3600.0 - 4605.0",
@@ -1313,6 +1319,9 @@
     "fiftyDayAverageChangePercent": 0.05444691,
     "twoHundredDayAverageChange": 259.94995,
     "twoHundredDayAverageChangePercent": 0.064663365,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
     "trailingPegRatio": null
   }
 }

@@ -1,7 +1,7 @@
 {
   "ticker": "2818",
   "japanese_ticker": "2818.T",
-  "fetch_date": "2026-03-14T23:33:41.442143",
+  "fetch_date": "2026-03-15T23:37:21.806403",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": -6256576.0,
@@ -1183,11 +1183,11 @@
     "beta": 0.014,
     "volume": 5300,
     "regularMarketVolume": 5300,
-    "averageVolume": 3494,
+    "averageVolume": 3503,
     "averageVolume10days": 5020,
     "averageDailyVolume10Day": 5020,
-    "bid": 1795.0,
-    "ask": 1798.0,
+    "bid": 0.0,
+    "ask": 1799.0,
     "marketCap": 12456450048,
     "nonDilutedMarketCap": 12456450504,
     "fiftyTwoWeekLow": 1700.0,
@@ -1252,14 +1252,27 @@
     "customPriceAlertConfidence": "LOW",
     "regularMarketChangePercent": 0.22296545,
     "regularMarketPrice": 1798.0,
-    "corporateActions": [],
-    "regularMarketTime": 1773383400,
+    "shortName": "PIETRO CO LTD",
+    "longName": "PIETRO Co., Ltd.",
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "2818.T announced a cash dividend of JPY 24.00 with an ex-date of Mar. 30, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1774796400000,
+          "amount": "24.00"
+        }
+      }
+    ],
+    "marketState": "PREPRE",
+    "cryptoTradeable": false,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1018915200000,
     "regularMarketChange": 4.0,
     "regularMarketDayRange": "1793.0 - 1798.0",
     "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 3494,
+    "averageDailyVolume3Month": 3503,
     "fiftyTwoWeekLowChange": 98.0,
     "fiftyTwoWeekLowChangePercent": 0.05764706,
     "fiftyTwoWeekRange": "1700.0 - 1800.0",
@@ -1279,11 +1292,8 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "prevName": "Pietro Co. Ltd.",
-    "nameChangeDate": "2026-03-14",
-    "cryptoTradeable": false,
-    "shortName": "PIETRO CO LTD",
-    "longName": "PIETRO Co., Ltd.",
-    "marketState": "CLOSED",
+    "nameChangeDate": "2026-03-15",
+    "regularMarketTime": 1773383400,
     "exchange": "JPX",
     "messageBoardId": "finmb_5826630",
     "exchangeTimezoneName": "Asia/Tokyo",

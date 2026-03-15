@@ -1,7 +1,7 @@
 {
   "ticker": "2805",
   "japanese_ticker": "2805.T",
-  "fetch_date": "2026-03-14T23:33:24.039479",
+  "fetch_date": "2026-03-15T23:37:00.016717",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": 10340000.0,
@@ -1280,11 +1280,11 @@
     "forwardPE": 7.7845883,
     "volume": 20200,
     "regularMarketVolume": 20200,
-    "averageVolume": 35937,
+    "averageVolume": 36125,
     "averageVolume10days": 32920,
     "averageDailyVolume10Day": 32920,
-    "bid": 4430.0,
-    "ask": 4455.0,
+    "bid": 0.0,
+    "ask": 4445.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 107426045952,
@@ -1300,15 +1300,15 @@
     "trailingAnnualDividendYield": 0.004799107,
     "currency": "JPY",
     "tradeable": false,
-    "enterpriseValue": 112786268160,
+    "enterpriseValue": 112785022976,
     "profitMargins": 0.06183,
-    "floatShares": 18660653,
+    "floatShares": 18660436,
     "sharesOutstanding": 24167840,
     "heldPercentInsiders": 0.27902,
     "heldPercentInstitutions": 0.2824,
     "impliedSharesOutstanding": 24167840,
-    "bookValue": 3813.5,
-    "priceToBook": 1.1655959,
+    "bookValue": 3813.545,
+    "priceToBook": 1.1655822,
     "lastFiscalYearEnd": 1743379200,
     "nextFiscalYearEnd": 1774915200,
     "mostRecentQuarter": 1767139200,
@@ -1328,7 +1328,7 @@
     "currentPrice": 4445.0,
     "recommendationKey": "none",
     "totalCash": 21024999424,
-    "totalCashPerShare": 869.656,
+    "totalCashPerShare": 869.667,
     "ebitda": 12682999808,
     "totalDebt": 26347999232,
     "quickRatio": 1.504,
@@ -1354,14 +1354,28 @@
     "customPriceAlertConfidence": "LOW",
     "shortName": "S & B FOODS INC",
     "longName": "S&B Foods Inc.",
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "2805.T announced a cash dividend of JPY 24.00 with an ex-date of Mar. 30, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1774796400000,
+          "amount": "24.00"
+        }
+      }
+    ],
+    "regularMarketTime": 1773383400,
+    "marketState": "PREPRE",
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
-    "marketState": "CLOSED",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 978307200000,
     "regularMarketChange": -35.0,
     "regularMarketDayRange": "4415.0 - 4490.0",
     "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 35937,
+    "averageDailyVolume3Month": 36125,
     "fiftyTwoWeekLowChange": 2129.0,
     "fiftyTwoWeekLowChangePercent": 0.91925734,
     "fiftyTwoWeekRange": "2316.0 - 4685.0",
@@ -1377,20 +1391,6 @@
     "fiftyDayAverageChangePercent": 0.023934003,
     "twoHundredDayAverageChange": 877.3999,
     "twoHundredDayAverageChangePercent": 0.2459356,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "corporateActions": [
-      {
-        "header": "Dividend",
-        "message": "2805.T announced a cash dividend of JPY 24.00 with an ex-date of Mar. 30, 2026",
-        "meta": {
-          "eventType": "DIVIDEND",
-          "dateEpochMs": 1774796400000,
-          "amount": "24.00"
-        }
-      }
-    ],
-    "regularMarketTime": 1773383400,
     "exchange": "JPX",
     "messageBoardId": "finmb_883479",
     "exchangeTimezoneName": "Asia/Tokyo",

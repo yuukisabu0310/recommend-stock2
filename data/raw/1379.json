@@ -1,7 +1,7 @@
 {
   "ticker": "1379",
   "japanese_ticker": "1379.T",
-  "fetch_date": "2026-03-14T23:20:03.755308",
+  "fetch_date": "2026-03-15T23:21:19.118626",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": -243144000.0,
@@ -1137,11 +1137,11 @@
     "trailingPE": 10.904859,
     "volume": 138200,
     "regularMarketVolume": 138200,
-    "averageVolume": 75137,
+    "averageVolume": 75653,
     "averageVolume10days": 121210,
     "averageDailyVolume10Day": 121210,
-    "bid": 1920.0,
-    "ask": 1924.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 60125503488,
@@ -1209,17 +1209,36 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "shortName": "HOKUTO CORP",
-    "corporateActions": [],
-    "regularMarketTime": 1773383400,
-    "marketState": "CLOSED",
     "exchange": "JPX",
+    "messageBoardId": "finmb_884170",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
+    "esgPopulated": false,
+    "regularMarketChangePercent": -0.36307055,
+    "regularMarketPrice": 1921.0,
+    "marketState": "PREPRE",
+    "shortName": "HOKUTO CORP",
     "longName": "Hokuto Corporation",
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "1379.T announced a cash dividend of JPY 45.00 with an ex-date of Mar. 30, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1774796400000,
+          "amount": "45.00"
+        }
+      }
+    ],
+    "regularMarketTime": 1773383400,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 978566400000,
     "regularMarketChange": -7.0,
     "regularMarketDayRange": "1915.0 - 1934.0",
     "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 75137,
+    "averageDailyVolume3Month": 75653,
     "fiftyTwoWeekLowChange": 231.0,
     "fiftyTwoWeekLowChangePercent": 0.13668638,
     "fiftyTwoWeekRange": "1690.0 - 2123.0",
@@ -1240,15 +1259,6 @@
     "exchangeDataDelayedBy": 20,
     "averageAnalystRating": "0.0 - Strong Buy",
     "cryptoTradeable": false,
-    "firstTradeDateMilliseconds": 978566400000,
-    "messageBoardId": "finmb_884170",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "esgPopulated": false,
-    "regularMarketChangePercent": -0.36307055,
-    "regularMarketPrice": 1921.0,
-    "hasPrePostMarketData": false,
     "trailingPegRatio": null
   }
 }

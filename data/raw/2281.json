@@ -1,7 +1,7 @@
 {
   "ticker": "2281",
   "japanese_ticker": "2281.T",
-  "fetch_date": "2026-03-14T23:27:13.969138",
+  "fetch_date": "2026-03-15T23:29:51.441582",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": 96880000.0,
@@ -1238,11 +1238,11 @@
     "forwardPE": 15.693642,
     "volume": 110100,
     "regularMarketVolume": 110100,
-    "averageVolume": 122827,
+    "averageVolume": 122218,
     "averageVolume10days": 112540,
     "averageDailyVolume10Day": 112540,
-    "bid": 2712.0,
-    "ask": 2720.0,
+    "bid": 2703.0,
+    "ask": 2703.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 136463147008,
@@ -1317,7 +1317,6 @@
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
     "shortName": "PRIMA MEAT PACKERS",
-    "longName": "Prima Meat Packers, Ltd.",
     "exchange": "JPX",
     "messageBoardId": "finmb_874463",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1325,14 +1324,23 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "corporateActions": [],
-    "regularMarketTime": 1773383400,
     "regularMarketChangePercent": 0.14754702,
     "regularMarketPrice": 2715.0,
+    "fiftyDayAverageChange": -83.63989,
+    "fiftyDayAverageChangePercent": -0.029885907,
+    "twoHundredDayAverageChange": 215.11499,
+    "twoHundredDayAverageChangePercent": 0.08604995,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
+    "longName": "Prima Meat Packers, Ltd.",
+    "marketState": "PREPRE",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 978307200000,
     "regularMarketChange": 4.0,
     "regularMarketDayRange": "2706.0 - 2738.0",
     "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 122827,
+    "averageDailyVolume3Month": 122218,
     "fiftyTwoWeekLowChange": 703.0,
     "fiftyTwoWeekLowChangePercent": 0.3494036,
     "fiftyTwoWeekRange": "2012.0 - 2929.0",
@@ -1346,16 +1354,18 @@
     "isEarningsDateEstimate": false,
     "epsTrailingTwelveMonths": 118.65,
     "epsForward": 173.0,
-    "marketState": "CLOSED",
-    "fiftyDayAverageChange": -83.63989,
-    "fiftyDayAverageChangePercent": -0.029885907,
-    "twoHundredDayAverageChange": 215.11499,
-    "twoHundredDayAverageChangePercent": 0.08604995,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 978307200000,
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "2281.T announced a cash dividend of JPY 40.00 with an ex-date of Mar. 30, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1774796400000,
+          "amount": "40.00"
+        }
+      }
+    ],
+    "regularMarketTime": 1773383400,
     "trailingPegRatio": null
   }
 }

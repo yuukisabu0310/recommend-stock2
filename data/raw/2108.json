@@ -1,7 +1,7 @@
 {
   "ticker": "2108",
   "japanese_ticker": "2108.T",
-  "fetch_date": "2026-03-14T23:25:10.184400",
+  "fetch_date": "2026-03-15T23:27:22.200028",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": 847263157.894737,
@@ -1117,11 +1117,11 @@
     "beta": 0.181,
     "volume": 21700,
     "regularMarketVolume": 21700,
-    "averageVolume": 29440,
+    "averageVolume": 29689,
     "averageVolume10days": 23770,
     "averageDailyVolume10Day": 23770,
-    "bid": 4120.0,
-    "ask": 4145.0,
+    "bid": 4210.0,
+    "ask": 4210.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 49865412608,
@@ -1186,6 +1186,8 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "longName": "Nippon Beet Sugar Manufacturing Co.,Ltd.",
+    "marketState": "PREPRE",
     "corporateActions": [
       {
         "header": "Dividend",
@@ -1198,8 +1200,6 @@
       }
     ],
     "regularMarketTime": 1773383400,
-    "cryptoTradeable": false,
-    "marketState": "CLOSED",
     "exchange": "JPX",
     "messageBoardId": "finmb_879758",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1210,13 +1210,12 @@
     "regularMarketChangePercent": 0.0,
     "regularMarketPrice": 4125.0,
     "shortName": "NIPPON BEET SUGAR MANUFACTURING",
-    "longName": "Nippon Beet Sugar Manufacturing Co.,Ltd.",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 978307200000,
     "regularMarketChange": 0.0,
     "regularMarketDayRange": "4070.0 - 4170.0",
     "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 29440,
+    "averageDailyVolume3Month": 29689,
     "fiftyTwoWeekLowChange": 2104.0,
     "fiftyTwoWeekLowChangePercent": 1.0410688,
     "fiftyTwoWeekRange": "2021.0 - 4550.0",
@@ -1234,7 +1233,8 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "prevName": "Nippon Beet Sugar Manufacturing Co., Ltd.",
-    "nameChangeDate": "2026-03-14",
+    "nameChangeDate": "2026-03-15",
+    "cryptoTradeable": false,
     "trailingPegRatio": null
   }
 }

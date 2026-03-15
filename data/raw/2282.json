@@ -1,7 +1,7 @@
 {
   "ticker": "2282",
   "japanese_ticker": "2282.T",
-  "fetch_date": "2026-03-14T23:27:15.653885",
+  "fetch_date": "2026-03-15T23:29:53.857004",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": 0.0,
@@ -1024,11 +1024,11 @@
     "forwardPE": 19.038345,
     "volume": 510800,
     "regularMarketVolume": 510800,
-    "averageVolume": 506369,
+    "averageVolume": 508455,
     "averageVolume10days": 501750,
     "averageDailyVolume10Day": 501750,
-    "bid": 6540.0,
-    "ask": 6558.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 622844379136,
@@ -1099,12 +1099,26 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 946944000000,
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "2282.T announced a cash dividend of JPY 160.00 with an ex-date of Mar. 30, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1774796400000,
+          "amount": "160.00"
+        }
+      }
+    ],
+    "regularMarketTime": 1773383400,
+    "exchange": "JPX",
+    "messageBoardId": "finmb_874379",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "marketState": "PREPRE",
     "regularMarketChange": -37.0,
     "regularMarketDayRange": "6532.0 - 6639.0",
     "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 506369,
+    "averageDailyVolume3Month": 508455,
     "fiftyTwoWeekLowChange": 1776.0,
     "fiftyTwoWeekLowChangePercent": 0.37209302,
     "fiftyTwoWeekRange": "4773.0 - 7248.0",
@@ -1125,31 +1139,17 @@
     "twoHundredDayAverageChangePercent": 0.08702328,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
-    "exchange": "JPX",
-    "messageBoardId": "finmb_874379",
-    "exchangeTimezoneName": "Asia/Tokyo",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 946944000000,
+    "regularMarketChangePercent": -0.56179774,
+    "shortName": "NH FOODS LTD",
+    "longName": "NH Foods Ltd.",
     "exchangeTimezoneShortName": "JST",
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "regularMarketChangePercent": -0.56179774,
     "regularMarketPrice": 6549.0,
-    "corporateActions": [
-      {
-        "header": "Dividend",
-        "message": "2282.T announced a cash dividend of JPY 160.00 with an ex-date of Mar. 30, 2026",
-        "meta": {
-          "eventType": "DIVIDEND",
-          "dateEpochMs": 1774796400000,
-          "amount": "160.00"
-        }
-      }
-    ],
-    "regularMarketTime": 1773383400,
-    "marketState": "CLOSED",
     "cryptoTradeable": false,
-    "shortName": "NH FOODS LTD",
-    "longName": "NH Foods Ltd.",
     "trailingPegRatio": null
   }
 }

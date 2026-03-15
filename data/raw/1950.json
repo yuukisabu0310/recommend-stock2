@@ -1,7 +1,7 @@
 {
   "ticker": "1950",
   "japanese_ticker": "1950.T",
-  "fetch_date": "2026-03-14T23:24:09.782860",
+  "fetch_date": "2026-03-15T23:26:12.388775",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": 254051444.400475,
@@ -1008,11 +1008,11 @@
     "forwardPE": 27.56878,
     "volume": 147400,
     "regularMarketVolume": 147400,
-    "averageVolume": 151983,
+    "averageVolume": 153834,
     "averageVolume10days": 226810,
     "averageDailyVolume10Day": 226810,
-    "bid": 4900.0,
-    "ask": 4935.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 286607998976,
@@ -1083,11 +1083,6 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "shortName": "NIPPON DENSETSU KOGYO CO",
-    "longName": "Nippon Densetsu Kogyo Co., Ltd.",
-    "regularMarketChangePercent": -0.4056795,
-    "regularMarketPrice": 4910.0,
-    "marketState": "CLOSED",
     "corporateActions": [
       {
         "header": "Dividend",
@@ -1107,12 +1102,18 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
+    "regularMarketChangePercent": -0.4056795,
+    "regularMarketPrice": 4910.0,
+    "cryptoTradeable": false,
+    "shortName": "NIPPON DENSETSU KOGYO CO",
+    "longName": "Nippon Densetsu Kogyo Co., Ltd.",
+    "marketState": "PREPRE",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 978307200000,
     "regularMarketChange": -20.0,
     "regularMarketDayRange": "4845.0 - 4950.0",
     "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 151983,
+    "averageDailyVolume3Month": 153834,
     "fiftyTwoWeekLowChange": 3110.0,
     "fiftyTwoWeekLowChangePercent": 1.7277777,
     "fiftyTwoWeekRange": "1800.0 - 5380.0",
@@ -1132,7 +1133,6 @@
     "twoHundredDayAverageChangePercent": 0.5564819,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
     "trailingPegRatio": null
   }
 }

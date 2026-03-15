@@ -1,7 +1,7 @@
 {
   "ticker": "1720",
   "japanese_ticker": "1720.T",
-  "fetch_date": "2026-03-14T23:21:21.092359",
+  "fetch_date": "2026-03-15T23:22:52.425203",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": 42725609.756098,
@@ -1254,11 +1254,11 @@
     "forwardPE": 24.45561,
     "volume": 595100,
     "regularMarketVolume": 595100,
-    "averageVolume": 412720,
+    "averageVolume": 411627,
     "averageVolume10days": 614510,
     "averageDailyVolume10Day": 614510,
-    "bid": 1460.0,
-    "ask": 1474.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "marketCap": 154685620224,
     "nonDilutedMarketCap": 154685623220,
     "fiftyTwoWeekLow": 698.0,
@@ -1329,7 +1329,6 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "shortName": "TOKYU CONSTRUCTION CO(NEW)",
     "corporateActions": [
       {
         "header": "Dividend",
@@ -1342,14 +1341,14 @@
       }
     ],
     "regularMarketTime": 1773383400,
-    "marketState": "CLOSED",
     "exchange": "JPX",
-    "market": "jp_market",
-    "longName": "Tokyu Construction Co., Ltd.",
+    "messageBoardId": "finmb_876114",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "marketState": "PREPRE",
     "regularMarketChange": -19.0,
     "regularMarketDayRange": "1434.0 - 1478.0",
     "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 412720,
+    "averageDailyVolume3Month": 411627,
     "fiftyTwoWeekLowChange": 762.0,
     "fiftyTwoWeekLowChangePercent": 1.0916905,
     "fiftyTwoWeekRange": "698.0 - 1693.0",
@@ -1367,16 +1366,17 @@
     "twoHundredDayAverageChangePercent": 0.2287339,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
+    "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1064966400000,
-    "messageBoardId": "finmb_876114",
-    "exchangeTimezoneName": "Asia/Tokyo",
+    "regularMarketChangePercent": -1.2846519,
+    "shortName": "TOKYU CONSTRUCTION CO(NEW)",
+    "longName": "Tokyu Construction Co., Ltd.",
     "exchangeTimezoneShortName": "JST",
     "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
     "esgPopulated": false,
-    "regularMarketChangePercent": -1.2846519,
     "regularMarketPrice": 1460.0,
-    "hasPrePostMarketData": false,
+    "cryptoTradeable": false,
     "trailingPegRatio": null
   }
 }

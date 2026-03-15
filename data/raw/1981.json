@@ -1,7 +1,7 @@
 {
   "ticker": "1981",
   "japanese_ticker": "1981.T",
-  "fetch_date": "2026-03-14T23:24:45.264239",
+  "fetch_date": "2026-03-15T23:26:53.424161",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": 904456.8,
@@ -1272,11 +1272,11 @@
     "trailingPE": 11.723259,
     "volume": 4000,
     "regularMarketVolume": 4000,
-    "averageVolume": 3900,
+    "averageVolume": 3967,
     "averageVolume10days": 3610,
     "averageDailyVolume10Day": 3610,
-    "bid": 1563.0,
-    "ask": 1574.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 15831705600,
@@ -1343,13 +1343,21 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "marketState": "CLOSED",
+    "fiftyDayAverageChange": -39.71997,
+    "fiftyDayAverageChangePercent": -0.024767399,
+    "twoHundredDayAverageChange": 26.545044,
+    "twoHundredDayAverageChangePercent": 0.017265575,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
+    "shortName": "KYOWANISSEI CO LTD",
+    "longName": "Kyowanissei Co.,Ltd.",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 946944000000,
     "regularMarketChange": -73.0,
     "regularMarketDayRange": "1546.0 - 1568.0",
     "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 3900,
+    "averageDailyVolume3Month": 3967,
     "fiftyTwoWeekLowChange": 481.0,
     "fiftyTwoWeekLowChangePercent": 0.44413665,
     "fiftyTwoWeekRange": "1083.0 - 1947.0",
@@ -1360,14 +1368,18 @@
     "earningsTimestampEnd": 1747031400,
     "isEarningsDateEstimate": false,
     "epsTrailingTwelveMonths": 133.41,
-    "fiftyDayAverageChange": -39.71997,
-    "fiftyDayAverageChangePercent": -0.024767399,
-    "twoHundredDayAverageChange": 26.545044,
-    "twoHundredDayAverageChangePercent": 0.017265575,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
-    "corporateActions": [],
+    "marketState": "PREPRE",
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "1981.T announced a cash dividend of JPY 45.00 with an ex-date of Mar. 30, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1774796400000,
+          "amount": "45.00"
+        }
+      }
+    ],
     "regularMarketTime": 1773383078,
     "exchange": "JPX",
     "messageBoardId": "finmb_5547103",
@@ -1378,8 +1390,6 @@
     "esgPopulated": false,
     "regularMarketChangePercent": -4.459377,
     "regularMarketPrice": 1564.0,
-    "shortName": "KYOWANISSEI CO LTD",
-    "longName": "Kyowanissei Co.,Ltd.",
     "trailingPegRatio": null
   }
 }

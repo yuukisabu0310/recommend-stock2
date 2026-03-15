@@ -1,7 +1,7 @@
 {
   "ticker": "2307",
   "japanese_ticker": "2307.T",
-  "fetch_date": "2026-03-14T23:27:38.865457",
+  "fetch_date": "2026-03-15T23:30:23.032107",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": -7649095.686192,
@@ -1169,11 +1169,11 @@
     "trailingPE": 9.920595,
     "volume": 31800,
     "regularMarketVolume": 31800,
-    "averageVolume": 35754,
+    "averageVolume": 36048,
     "averageVolume10days": 60660,
     "averageDailyVolume10Day": 60660,
     "bid": 987.0,
-    "ask": 991.0,
+    "ask": 987.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 13814151168,
@@ -1240,18 +1240,37 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "corporateActions": [],
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "2307.T announced a cash dividend of JPY 37.00 with an ex-date of Mar. 30, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1774796400000,
+          "amount": "37.00"
+        }
+      }
+    ],
+    "regularMarketTime": 1773383400,
+    "exchange": "JPX",
+    "messageBoardId": "finmb_20338565",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
     "shortName": "CROSS CAT CO LTD",
     "longName": "Cross Cat Co., Ltd.",
-    "regularMarketTime": 1773383400,
+    "cryptoTradeable": false,
     "regularMarketChangePercent": -0.9036144,
     "regularMarketPrice": 987.0,
-    "hasPrePostMarketData": false,
+    "marketState": "PREPRE",
     "firstTradeDateMilliseconds": 1024358400000,
+    "hasPrePostMarketData": false,
     "regularMarketChange": -9.0,
     "regularMarketDayRange": "982.0 - 999.0",
     "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 35754,
+    "averageDailyVolume3Month": 36048,
     "fiftyTwoWeekLowChange": 157.0,
     "fiftyTwoWeekLowChangePercent": 0.18915662,
     "fiftyTwoWeekRange": "830.0 - 1287.0",
@@ -1261,14 +1280,6 @@
     "earningsTimestampStart": 1754289000,
     "earningsTimestampEnd": 1754634600,
     "isEarningsDateEstimate": true,
-    "marketState": "CLOSED",
-    "exchange": "JPX",
-    "messageBoardId": "finmb_20338565",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
     "epsTrailingTwelveMonths": 99.49,
     "fiftyDayAverageChange": -43.359985,
     "fiftyDayAverageChangePercent": -0.042082366,
@@ -1276,7 +1287,6 @@
     "twoHundredDayAverageChangePercent": -0.07643511,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
     "trailingPegRatio": null
   }
 }

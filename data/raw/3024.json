@@ -1,7 +1,7 @@
 {
   "ticker": "3024",
   "japanese_ticker": "3024.T",
-  "fetch_date": "2026-03-14T23:35:51.567758",
+  "fetch_date": "2026-03-15T23:39:55.112017",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": 5212981.0,
@@ -1157,11 +1157,11 @@
     "trailingPE": 8.802791,
     "volume": 2500,
     "regularMarketVolume": 2500,
-    "averageVolume": 3606,
+    "averageVolume": 3568,
     "averageVolume10days": 3980,
     "averageDailyVolume10Day": 3980,
-    "bid": 1209.0,
-    "ask": 1213.0,
+    "bid": 0.0,
+    "ask": 1212.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 4719412224,
@@ -1228,14 +1228,25 @@
     "customPriceAlertConfidence": "LOW",
     "shortName": "CREATE CORPORATION",
     "longName": "Create Corporation",
-    "cryptoTradeable": false,
-    "marketState": "CLOSED",
+    "marketState": "PREPRE",
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "3024.T announced a cash dividend of JPY 26.00 with an ex-date of Mar. 30, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1774796400000,
+          "amount": "26.00"
+        }
+      }
+    ],
+    "regularMarketTime": 1773383400,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1141344000000,
     "regularMarketChange": -6.0,
     "regularMarketDayRange": "1202.0 - 1219.0",
     "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 3606,
+    "averageDailyVolume3Month": 3568,
     "fiftyTwoWeekLowChange": 349.0,
     "fiftyTwoWeekLowChangePercent": 0.4048724,
     "fiftyTwoWeekRange": "862.0 - 1294.0",
@@ -1252,8 +1263,9 @@
     "twoHundredDayAverageChangePercent": 0.05640102,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
-    "corporateActions": [],
-    "regularMarketTime": 1773383400,
+    "cryptoTradeable": false,
+    "regularMarketChangePercent": -0.49301562,
+    "regularMarketPrice": 1211.0,
     "exchange": "JPX",
     "messageBoardId": "finmb_6465745",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1261,8 +1273,6 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "regularMarketChangePercent": -0.49301562,
-    "regularMarketPrice": 1211.0,
     "trailingPegRatio": null
   }
 }

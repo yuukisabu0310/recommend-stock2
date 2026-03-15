@@ -1,7 +1,7 @@
 {
   "ticker": "2393",
   "japanese_ticker": "2393.T",
-  "fetch_date": "2026-03-14T23:28:56.483767",
+  "fetch_date": "2026-03-15T23:31:55.595354",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": 4070288.0,
@@ -1095,11 +1095,11 @@
     "trailingPE": 18.018085,
     "volume": 4800,
     "regularMarketVolume": 4800,
-    "averageVolume": 4457,
+    "averageVolume": 4487,
     "averageVolume10days": 3670,
     "averageDailyVolume10Day": 3670,
-    "bid": 2390.0,
-    "ask": 2401.0,
+    "bid": 2355.0,
+    "ask": 2356.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 37153800192,
@@ -1166,18 +1166,40 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "2393.T announced a cash dividend of JPY 72.00 with an ex-date of Mar. 30, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1774796400000,
+          "amount": "72.00"
+        }
+      }
+    ],
+    "regularMarketTime": 1773383400,
+    "shortName": "NIPPON CARE SUPPLY CO",
+    "marketState": "PREPRE",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1077840000000,
     "regularMarketChange": -9.0,
     "regularMarketDayRange": "2390.0 - 2400.0",
-    "shortName": "NIPPON CARE SUPPLY CO",
-    "longName": "Nippon Care Supply Co., Ltd.",
     "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 4457,
+    "averageDailyVolume3Month": 4487,
     "fiftyTwoWeekLowChange": 580.0,
     "fiftyTwoWeekLowChangePercent": 0.32026505,
     "fiftyTwoWeekRange": "1811.0 - 2665.0",
     "fiftyTwoWeekHighChange": -274.0,
+    "regularMarketChangePercent": -0.375,
+    "regularMarketPrice": 2391.0,
+    "longName": "Nippon Care Supply Co., Ltd.",
+    "exchange": "JPX",
+    "messageBoardId": "finmb_9104441",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
     "fiftyTwoWeekHighChangePercent": -0.10281426,
     "fiftyTwoWeekChangePercent": 18.074072,
     "earningsTimestampStart": 1746685800,
@@ -1191,28 +1213,6 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
-    "regularMarketChangePercent": -0.375,
-    "regularMarketPrice": 2391.0,
-    "corporateActions": [
-      {
-        "header": "Dividend",
-        "message": "2393.T announced a cash dividend of JPY 72.00 with an ex-date of Mar. 30, 2026",
-        "meta": {
-          "eventType": "DIVIDEND",
-          "dateEpochMs": 1774796400000,
-          "amount": "72.00"
-        }
-      }
-    ],
-    "regularMarketTime": 1773383400,
-    "marketState": "CLOSED",
-    "exchange": "JPX",
-    "messageBoardId": "finmb_9104441",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
     "trailingPegRatio": null
   }
 }

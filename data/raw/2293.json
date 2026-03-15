@@ -1,7 +1,7 @@
 {
   "ticker": "2293",
   "japanese_ticker": "2293.T",
-  "fetch_date": "2026-03-14T23:27:24.632008",
+  "fetch_date": "2026-03-15T23:30:05.498850",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": -1130768.0,
@@ -989,11 +989,11 @@
     "beta": 0.039,
     "volume": 11000,
     "regularMarketVolume": 11000,
-    "averageVolume": 1444,
+    "averageVolume": 1446,
     "averageVolume10days": 2210,
     "averageDailyVolume10Day": 2210,
-    "bid": 2956.0,
-    "ask": 3025.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 6211931136,
@@ -1060,18 +1060,10 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "marketState": "CLOSED",
-    "corporateActions": [
-      {
-        "header": "Dividend",
-        "message": "2293.T announced a cash dividend of JPY 20.00 with an ex-date of Mar. 30, 2026",
-        "meta": {
-          "eventType": "DIVIDEND",
-          "dateEpochMs": 1774796400000,
-          "amount": "20.00"
-        }
-      }
-    ],
+    "regularMarketChangePercent": 0.8333334,
+    "regularMarketPrice": 3025.0,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 948067200000,
     "regularMarketTime": 1773383400,
     "exchange": "JPX",
     "messageBoardId": "finmb_6464951",
@@ -1080,20 +1072,10 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "shortName": "TAKIZAWA HAM CO",
-    "longName": "Takizawa Ham Co., Ltd.",
-    "regularMarketChangePercent": 0.8333334,
-    "regularMarketPrice": 3025.0,
-    "twoHundredDayAverageChangePercent": 0.1288493,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 948067200000,
     "regularMarketChange": 25.0,
     "regularMarketDayRange": "2900.0 - 3025.0",
     "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 1444,
+    "averageDailyVolume3Month": 1446,
     "fiftyTwoWeekLowChange": 520.0,
     "fiftyTwoWeekLowChangePercent": 0.20758483,
     "fiftyTwoWeekRange": "2505.0 - 3025.0",
@@ -1102,11 +1084,19 @@
     "fiftyTwoWeekChangePercent": 1.6465068,
     "earningsTimestampStart": 1747200600,
     "earningsTimestampEnd": 1747200600,
+    "marketState": "PREPRE",
+    "shortName": "TAKIZAWA HAM CO",
+    "longName": "Takizawa Ham Co., Ltd.",
+    "corporateActions": [],
     "isEarningsDateEstimate": false,
     "epsTrailingTwelveMonths": -212.05,
     "fiftyDayAverageChange": 105.73999,
     "fiftyDayAverageChangePercent": 0.036221504,
     "twoHundredDayAverageChange": 345.28003,
+    "twoHundredDayAverageChangePercent": 0.1288493,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
     "trailingPegRatio": null
   }
 }

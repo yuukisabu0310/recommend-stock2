@@ -1,7 +1,7 @@
 {
   "ticker": "1921",
   "japanese_ticker": "1921.T",
-  "fetch_date": "2026-03-14T23:23:38.522490",
+  "fetch_date": "2026-03-15T23:25:35.464841",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": 1433793515.0,
@@ -1088,11 +1088,11 @@
     "trailingPE": 31.543835,
     "volume": 31300,
     "regularMarketVolume": 31300,
-    "averageVolume": 51894,
+    "averageVolume": 51681,
     "averageVolume10days": 79980,
     "averageDailyVolume10Day": 79980,
-    "bid": 2033.0,
-    "ask": 2055.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 75011325952,
@@ -1110,7 +1110,7 @@
     "tradeable": false,
     "enterpriseValue": 82396741632,
     "profitMargins": 0.07086,
-    "floatShares": 23698090,
+    "floatShares": 23268222,
     "sharesOutstanding": 36896864,
     "heldPercentInsiders": 0.50112,
     "heldPercentInstitutions": 0.20565,
@@ -1157,7 +1157,9 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "marketState": "CLOSED",
+    "marketState": "PREPRE",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 978307200000,
     "corporateActions": [
       {
         "header": "Dividend",
@@ -1180,7 +1182,7 @@
     "regularMarketChange": -14.0,
     "regularMarketDayRange": "2023.0 - 2089.0",
     "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 51894,
+    "averageDailyVolume3Month": 51681,
     "fiftyTwoWeekLowChange": 949.0,
     "fiftyTwoWeekLowChangePercent": 0.8754613,
     "fiftyTwoWeekRange": "1084.0 - 2339.0",
@@ -1197,13 +1199,11 @@
     "twoHundredDayAverageChangePercent": 0.15962364,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 978307200000,
     "cryptoTradeable": false,
-    "shortName": "TOMOE CORPORATION",
-    "longName": "Tomoe Corporation",
     "regularMarketChangePercent": -0.6839277,
     "regularMarketPrice": 2033.0,
+    "shortName": "TOMOE CORPORATION",
+    "longName": "Tomoe Corporation",
     "trailingPegRatio": null
   }
 }

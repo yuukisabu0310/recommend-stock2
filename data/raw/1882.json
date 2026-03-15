@@ -1,7 +1,7 @@
 {
   "ticker": "1882",
   "japanese_ticker": "1882.T",
-  "fetch_date": "2026-03-14T23:23:13.432834",
+  "fetch_date": "2026-03-15T23:25:05.633883",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": 324360000.0,
@@ -1084,11 +1084,11 @@
     "trailingPE": 20.66173,
     "volume": 224700,
     "regularMarketVolume": 224700,
-    "averageVolume": 314344,
+    "averageVolume": 315194,
     "averageVolume10days": 329220,
     "averageDailyVolume10Day": 329220,
-    "bid": 1786.0,
-    "ask": 1789.0,
+    "bid": 0.0,
+    "ask": 1781.0,
     "marketCap": 82533359616,
     "nonDilutedMarketCap": 82533360368,
     "fiftyTwoWeekLow": 1242.0,
@@ -1153,7 +1153,7 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "marketState": "CLOSED",
+    "marketState": "PREPRE",
     "corporateActions": [
       {
         "header": "Dividend",
@@ -1175,10 +1175,18 @@
     "esgPopulated": false,
     "shortName": "TOA ROAD CORPORATION",
     "longName": "Toa Road Corporation",
+    "regularMarketChangePercent": -0.9977827,
+    "regularMarketPrice": 1786.0,
+    "twoHundredDayAverageChangePercent": 0.09060044,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 978307200000,
     "regularMarketChange": -18.0,
     "regularMarketDayRange": "1782.0 - 1803.0",
     "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 314344,
+    "averageDailyVolume3Month": 315194,
     "fiftyTwoWeekLowChange": 544.0,
     "fiftyTwoWeekLowChangePercent": 0.4380032,
     "fiftyTwoWeekRange": "1242.0 - 1954.0",
@@ -1192,14 +1200,6 @@
     "fiftyDayAverageChange": -28.160034,
     "fiftyDayAverageChangePercent": -0.015522354,
     "twoHundredDayAverageChange": 148.37,
-    "twoHundredDayAverageChangePercent": 0.09060044,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "regularMarketChangePercent": -0.9977827,
-    "regularMarketPrice": 1786.0,
-    "cryptoTradeable": false,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 978307200000,
     "trailingPegRatio": null
   }
 }

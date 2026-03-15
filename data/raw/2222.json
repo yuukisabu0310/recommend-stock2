@@ -1,7 +1,7 @@
 {
   "ticker": "2222",
   "japanese_ticker": "2222.T",
-  "fetch_date": "2026-03-14T23:26:54.697765",
+  "fetch_date": "2026-03-15T23:29:28.584007",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": -15024000.0,
@@ -1105,11 +1105,11 @@
     "forwardPE": 20.935667,
     "volume": 568000,
     "regularMarketVolume": 568000,
-    "averageVolume": 611972,
+    "averageVolume": 616463,
     "averageVolume10days": 567700,
     "averageDailyVolume10Day": 567700,
-    "bid": 1926.0,
-    "ask": 1927.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 297515253760,
@@ -1181,7 +1181,27 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "corporateActions": [],
+    "regularMarketChangePercent": 0.9960681,
+    "regularMarketPrice": 1926.5,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1266796800000,
+    "shortName": "KOTOBUKI SPIRITS",
+    "longName": "Kotobuki Spirits Co., Ltd.",
+    "marketState": "PREPRE",
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "2222.T announced a cash dividend of JPY 35.00 with an ex-date of Mar. 30, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1774796400000,
+          "amount": "35.00"
+        }
+      }
+    ],
     "regularMarketTime": 1773383400,
     "exchange": "JPX",
     "messageBoardId": "finmb_5382199",
@@ -1190,12 +1210,10 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1266796800000,
     "regularMarketChange": 19.0,
     "regularMarketDayRange": "1894.5 - 1929.5",
     "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 611972,
+    "averageDailyVolume3Month": 616463,
     "fiftyTwoWeekLowChange": 208.0,
     "fiftyTwoWeekLowChangePercent": 0.121035784,
     "fiftyTwoWeekRange": "1718.5 - 2570.0",
@@ -1208,18 +1226,10 @@
     "isEarningsDateEstimate": true,
     "epsTrailingTwelveMonths": 78.41,
     "epsForward": 92.02,
-    "cryptoTradeable": false,
     "fiftyDayAverageChange": 32.900024,
     "fiftyDayAverageChangePercent": 0.017374327,
     "twoHundredDayAverageChange": -0.8050537,
     "twoHundredDayAverageChangePercent": -0.00041770955,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "marketState": "CLOSED",
-    "shortName": "KOTOBUKI SPIRITS",
-    "longName": "Kotobuki Spirits Co., Ltd.",
-    "regularMarketChangePercent": 0.9960681,
-    "regularMarketPrice": 1926.5,
     "trailingPegRatio": null
   }
 }

@@ -1,7 +1,7 @@
 {
   "ticker": "2378",
   "japanese_ticker": "2378.T",
-  "fetch_date": "2026-03-14T23:28:42.217534",
+  "fetch_date": "2026-03-15T23:31:39.227704",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": -49494628.0,
@@ -1280,11 +1280,11 @@
     "forwardPE": 21.80723,
     "volume": 50900,
     "regularMarketVolume": 50900,
-    "averageVolume": 55016,
+    "averageVolume": 54967,
     "averageVolume10days": 54960,
     "averageDailyVolume10Day": 54960,
-    "bid": 1086.0,
-    "ask": 1094.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 20542713856,
@@ -1346,6 +1346,8 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "regularMarketChangePercent": -1.2727273,
+    "regularMarketPrice": 1086.0,
     "corporateActions": [
       {
         "header": "Dividend",
@@ -1365,15 +1367,13 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "regularMarketChangePercent": -1.2727273,
-    "regularMarketPrice": 1086.0,
-    "longName": "Renaissance,Incorporated",
+    "shortName": "RENAISSANCE INC",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1103155200000,
     "regularMarketChange": -14.0,
     "regularMarketDayRange": "1086.0 - 1102.0",
     "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 55016,
+    "averageDailyVolume3Month": 54967,
     "fiftyTwoWeekLowChange": 140.0,
     "fiftyTwoWeekLowChangePercent": 0.14799154,
     "fiftyTwoWeekRange": "946.0 - 1295.0",
@@ -1392,8 +1392,8 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
-    "marketState": "CLOSED",
-    "shortName": "RENAISSANCE INC",
+    "marketState": "PREPRE",
+    "longName": "Renaissance,Incorporated",
     "trailingPegRatio": null
   }
 }

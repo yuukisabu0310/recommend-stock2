@@ -1,7 +1,7 @@
 {
   "ticker": "1939",
   "japanese_ticker": "1939.T",
-  "fetch_date": "2026-03-14T23:23:54.059175",
+  "fetch_date": "2026-03-15T23:25:54.384101",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": -289062000.0,
@@ -1199,11 +1199,11 @@
     "trailingPE": 18.214783,
     "volume": 87100,
     "regularMarketVolume": 87100,
-    "averageVolume": 131947,
+    "averageVolume": 133389,
     "averageVolume10days": 145910,
     "averageDailyVolume10Day": 145910,
-    "bid": 1955.0,
-    "ask": 1959.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 92729188352,
@@ -1270,16 +1270,13 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "cryptoTradeable": false,
     "shortName": "YONDENKO CORP",
     "longName": "Yondenko Corporation",
-    "cryptoTradeable": false,
-    "marketState": "CLOSED",
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 978307200000,
     "regularMarketChange": -2.0,
     "regularMarketDayRange": "1926.0 - 1963.0",
     "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 131947,
+    "averageDailyVolume3Month": 133389,
     "fiftyTwoWeekLowChange": 883.0,
     "fiftyTwoWeekLowChangePercent": 0.820632,
     "fiftyTwoWeekRange": "1076.0 - 2116.0",
@@ -1296,17 +1293,7 @@
     "twoHundredDayAverageChangePercent": 0.31817552,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
-    "corporateActions": [
-      {
-        "header": "Dividend",
-        "message": "1939.T announced a cash dividend of JPY 40.00 with an ex-date of Mar. 30, 2026",
-        "meta": {
-          "eventType": "DIVIDEND",
-          "dateEpochMs": 1774796400000,
-          "amount": "40.00"
-        }
-      }
-    ],
+    "corporateActions": [],
     "regularMarketTime": 1773383400,
     "exchange": "JPX",
     "messageBoardId": "finmb_880757",
@@ -1317,6 +1304,9 @@
     "esgPopulated": false,
     "regularMarketChangePercent": -0.101988785,
     "regularMarketPrice": 1959.0,
+    "marketState": "PREPRE",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 978307200000,
     "trailingPegRatio": null
   }
 }

@@ -1,7 +1,7 @@
 {
   "ticker": "2175",
   "japanese_ticker": "2175.T",
-  "fetch_date": "2026-03-14T23:26:07.492765",
+  "fetch_date": "2026-03-15T23:28:33.544515",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": -33062500.0,
@@ -1206,11 +1206,11 @@
     "forwardPE": 15.413954,
     "volume": 506000,
     "regularMarketVolume": 506000,
-    "averageVolume": 516442,
+    "averageVolume": 522706,
     "averageVolume10days": 468210,
     "averageDailyVolume10Day": 468210,
-    "bid": 1655.0,
-    "ask": 1671.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 136007303168,
@@ -1282,15 +1282,32 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "regularMarketChangePercent": 0.72948325,
-    "regularMarketPrice": 1657.0,
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "2175.T announced a cash dividend of JPY 29.50 with an ex-date of Mar. 30, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1774796400000,
+          "amount": "29.50"
+        }
+      }
+    ],
+    "regularMarketTime": 1773383400,
     "exchange": "JPX",
     "messageBoardId": "finmb_41108571",
     "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
+    "marketState": "PREPRE",
+    "regularMarketChange": 12.0,
+    "regularMarketDayRange": "1630.0 - 1690.0",
+    "fullExchangeName": "Tokyo",
+    "averageDailyVolume3Month": 522706,
+    "fiftyTwoWeekLowChange": 678.3,
+    "fiftyTwoWeekLowChangePercent": 0.6930622,
+    "fiftyTwoWeekRange": "978.7 - 1851.0",
+    "fiftyTwoWeekHighChange": -194.0,
+    "fiftyTwoWeekHighChangePercent": -0.10480821,
+    "fiftyTwoWeekChangePercent": 38.313854,
     "earningsTimestamp": 1777357800,
     "earningsTimestampStart": 1777357800,
     "earningsTimestampEnd": 1777357800,
@@ -1306,34 +1323,17 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "averageAnalystRating": "2.8 - Hold",
-    "cryptoTradeable": false,
-    "shortName": "SMS CO LTD",
-    "longName": "SMS Co., Ltd.",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1205366400000,
-    "regularMarketChange": 12.0,
-    "regularMarketDayRange": "1630.0 - 1690.0",
-    "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 516442,
-    "fiftyTwoWeekLowChange": 678.3,
-    "fiftyTwoWeekLowChangePercent": 0.6930622,
-    "fiftyTwoWeekRange": "978.7 - 1851.0",
-    "fiftyTwoWeekHighChange": -194.0,
-    "fiftyTwoWeekHighChangePercent": -0.10480821,
-    "fiftyTwoWeekChangePercent": 38.313854,
-    "marketState": "CLOSED",
-    "corporateActions": [
-      {
-        "header": "Dividend",
-        "message": "2175.T announced a cash dividend of JPY 29.50 with an ex-date of Mar. 30, 2026",
-        "meta": {
-          "eventType": "DIVIDEND",
-          "dateEpochMs": 1774796400000,
-          "amount": "29.50"
-        }
-      }
-    ],
-    "regularMarketTime": 1773383400,
+    "regularMarketChangePercent": 0.72948325,
+    "shortName": "SMS CO LTD",
+    "longName": "SMS Co., Ltd.",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
+    "regularMarketPrice": 1657.0,
+    "cryptoTradeable": false,
     "trailingPegRatio": null
   }
 }

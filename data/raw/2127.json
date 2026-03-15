@@ -1,7 +1,7 @@
 {
   "ticker": "2127",
   "japanese_ticker": "2127.T",
-  "fetch_date": "2026-03-14T23:25:26.369526",
+  "fetch_date": "2026-03-15T23:27:42.760874",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": -25498044.0,
@@ -1201,11 +1201,11 @@
     "forwardPE": 16.46574,
     "volume": 2301700,
     "regularMarketVolume": 2301700,
-    "averageVolume": 2257242,
+    "averageVolume": 2271179,
     "averageVolume10days": 3529510,
     "averageDailyVolume10Day": 3529510,
-    "bid": 639.1,
-    "ask": 639.9,
+    "bid": 0.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 202833461248,
@@ -1221,9 +1221,9 @@
     "trailingAnnualDividendYield": 0.018598884,
     "currency": "JPY",
     "tradeable": false,
-    "enterpriseValue": 169790603264,
+    "enterpriseValue": 169790455808,
     "profitMargins": 0.27257,
-    "floatShares": 276056161,
+    "floatShares": 276055944,
     "sharesOutstanding": 317323937,
     "heldPercentInsiders": 0.08758,
     "heldPercentInstitutions": 0.42638,
@@ -1254,7 +1254,7 @@
     "recommendationKey": "none",
     "numberOfAnalystOpinions": 5,
     "totalCash": 37491998720,
-    "totalCashPerShare": 118.15,
+    "totalCashPerShare": 118.151,
     "ebitda": 21948999680,
     "totalDebt": 4000000000,
     "quickRatio": 4.113,
@@ -1278,9 +1278,16 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "shortName": "NIHON M&A CENTER HOLDINGS INC",
+    "longName": "Nihon M&A Center Holdings Inc.",
+    "cryptoTradeable": false,
+    "marketState": "PREPRE",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1160438400000,
+    "regularMarketChange": -6.0,
     "regularMarketDayRange": "632.2 - 644.0",
     "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 2257242,
+    "averageDailyVolume3Month": 2271179,
     "fiftyTwoWeekLowChange": 156.0,
     "fiftyTwoWeekLowChangePercent": 0.32284766,
     "fiftyTwoWeekRange": "483.2 - 813.0",
@@ -1302,12 +1309,18 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "prevName": "Nihon M&A Center Inc.",
-    "nameChangeDate": "2026-03-14",
-    "cryptoTradeable": false,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1160438400000,
-    "regularMarketChange": -6.0,
-    "corporateActions": [],
+    "nameChangeDate": "2026-03-15",
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "2127.T announced a cash dividend of JPY 15.00 with an ex-date of Mar. 30, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1774796400000,
+          "amount": "15.00"
+        }
+      }
+    ],
     "regularMarketTime": 1773383400,
     "exchange": "JPX",
     "messageBoardId": "finmb_28946658",
@@ -1318,9 +1331,6 @@
     "esgPopulated": false,
     "regularMarketChangePercent": -0.9299442,
     "regularMarketPrice": 639.2,
-    "shortName": "NIHON M&A CENTER HOLDINGS INC",
-    "longName": "Nihon M&A Center Holdings Inc.",
-    "marketState": "CLOSED",
     "trailingPegRatio": null
   }
 }

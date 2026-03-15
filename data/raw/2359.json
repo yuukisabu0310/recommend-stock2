@@ -1,7 +1,7 @@
 {
   "ticker": "2359",
   "japanese_ticker": "2359.T",
-  "fetch_date": "2026-03-14T23:28:29.495987",
+  "fetch_date": "2026-03-15T23:31:23.427267",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": 1273923.915519,
@@ -1247,11 +1247,11 @@
     "trailingPE": 12.902843,
     "volume": 27100,
     "regularMarketVolume": 27100,
-    "averageVolume": 22698,
+    "averageVolume": 23010,
     "averageVolume10days": 33590,
     "averageDailyVolume10Day": 33590,
-    "bid": 2174.0,
-    "ask": 2205.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 31294595072,
@@ -1316,8 +1316,18 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "marketState": "CLOSED",
-    "corporateActions": [],
+    "marketState": "PREPRE",
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "2359.T announced a cash dividend of JPY 45.00 with an ex-date of Mar. 30, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1774796400000,
+          "amount": "45.00"
+        }
+      }
+    ],
     "regularMarketTime": 1773383400,
     "exchange": "JPX",
     "messageBoardId": "finmb_20337587",
@@ -1328,19 +1338,11 @@
     "esgPopulated": false,
     "regularMarketChangePercent": -0.2747253,
     "regularMarketPrice": 2178.0,
-    "fiftyDayAverageChange": -7.040039,
-    "fiftyDayAverageChangePercent": -0.0032219267,
-    "twoHundredDayAverageChange": 135.52502,
-    "twoHundredDayAverageChangePercent": 0.066353336,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
-    "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1048118400000,
     "regularMarketChange": -6.0,
     "regularMarketDayRange": "2173.0 - 2196.0",
     "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 22698,
+    "averageDailyVolume3Month": 23010,
     "fiftyTwoWeekLowChange": 705.0,
     "fiftyTwoWeekLowChangePercent": 0.47861508,
     "fiftyTwoWeekRange": "1473.0 - 2348.0",
@@ -1353,6 +1355,14 @@
     "epsTrailingTwelveMonths": 168.8,
     "shortName": "CORE CORPORATION",
     "longName": "Core Corporation",
+    "fiftyDayAverageChange": -7.040039,
+    "fiftyDayAverageChangePercent": -0.0032219267,
+    "twoHundredDayAverageChange": 135.52502,
+    "twoHundredDayAverageChangePercent": 0.066353336,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
+    "hasPrePostMarketData": false,
     "trailingPegRatio": null
   }
 }

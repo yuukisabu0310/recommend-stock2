@@ -1,7 +1,7 @@
 {
   "ticker": "2121",
   "japanese_ticker": "2121.T",
-  "fetch_date": "2026-03-14T23:25:20.965355",
+  "fetch_date": "2026-03-15T23:27:35.939547",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": -2275000.0,
@@ -1191,11 +1191,11 @@
     "forwardPE": 13.671108,
     "volume": 263200,
     "regularMarketVolume": 263200,
-    "averageVolume": 301210,
+    "averageVolume": 299956,
     "averageVolume10days": 335940,
     "averageDailyVolume10Day": 335940,
-    "bid": 2647.0,
-    "ask": 2652.0,
+    "bid": 0.0,
+    "ask": 2672.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 172336775168,
@@ -1270,13 +1270,31 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "cryptoTradeable": false,
     "shortName": "MIXI. INC",
     "longName": "MIXI, Inc.",
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "2121.T announced a cash dividend of JPY 60.00 with an ex-date of Mar. 30, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1774796400000,
+          "amount": "60.00"
+        }
+      }
+    ],
+    "regularMarketTime": 1773383400,
+    "marketState": "PREPRE",
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "averageAnalystRating": "3.0 - Hold",
+    "cryptoTradeable": false,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1158192000000,
     "regularMarketChange": -11.0,
     "regularMarketDayRange": "2627.0 - 2674.0",
     "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 301210,
+    "averageDailyVolume3Month": 299956,
     "fiftyTwoWeekLowChange": 93.0,
     "fiftyTwoWeekLowChangePercent": 0.03641347,
     "fiftyTwoWeekRange": "2554.0 - 3525.0",
@@ -1295,21 +1313,6 @@
     "fiftyDayAverageChangePercent": -0.013814818,
     "twoHundredDayAverageChange": -404.06494,
     "twoHundredDayAverageChangePercent": -0.13243407,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "averageAnalystRating": "3.0 - Hold",
-    "corporateActions": [
-      {
-        "header": "Dividend",
-        "message": "2121.T announced a cash dividend of JPY 60.00 with an ex-date of Mar. 30, 2026",
-        "meta": {
-          "eventType": "DIVIDEND",
-          "dateEpochMs": 1774796400000,
-          "amount": "60.00"
-        }
-      }
-    ],
-    "regularMarketTime": 1773383400,
     "exchange": "JPX",
     "messageBoardId": "finmb_28689461",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1319,9 +1322,6 @@
     "esgPopulated": false,
     "regularMarketChangePercent": -0.413845,
     "regularMarketPrice": 2647.0,
-    "marketState": "CLOSED",
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1158192000000,
     "trailingPegRatio": null
   }
 }

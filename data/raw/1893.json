@@ -1,7 +1,7 @@
 {
   "ticker": "1893",
   "japanese_ticker": "1893.T",
-  "fetch_date": "2026-03-14T23:23:21.839966",
+  "fetch_date": "2026-03-15T23:25:14.376334",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": 151394100.0,
@@ -1159,11 +1159,11 @@
     "forwardPE": 26.171255,
     "volume": 1789500,
     "regularMarketVolume": 1789500,
-    "averageVolume": 2883618,
+    "averageVolume": 2884684,
     "averageVolume10days": 2628360,
     "averageDailyVolume10Day": 2628360,
-    "bid": 1815.0,
-    "ask": 1816.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 495783706624,
@@ -1235,17 +1235,32 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "shortName": "PENTA OCEAN CONSTRUCTION",
-    "corporateActions": [],
+    "marketState": "PREPRE",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 978307200000,
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "1893.T announced a cash dividend of JPY 27.00 with an ex-date of Mar. 30, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1774796400000,
+          "amount": "27.00"
+        }
+      }
+    ],
     "regularMarketTime": 1773383400,
-    "marketState": "CLOSED",
     "exchange": "JPX",
+    "messageBoardId": "finmb_874556",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
-    "longName": "Penta-Ocean Construction Co., Ltd.",
+    "esgPopulated": false,
     "regularMarketChange": -0.5,
     "regularMarketDayRange": "1764.5 - 1837.0",
     "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 2883618,
+    "averageDailyVolume3Month": 2884684,
     "fiftyTwoWeekLowChange": 1181.4,
     "fiftyTwoWeekLowChangePercent": 1.8631132,
     "fiftyTwoWeekRange": "634.1 - 2257.0",
@@ -1268,15 +1283,10 @@
     "exchangeDataDelayedBy": 20,
     "averageAnalystRating": "1.5 - Strong Buy",
     "cryptoTradeable": false,
-    "firstTradeDateMilliseconds": 978307200000,
-    "messageBoardId": "finmb_874556",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "esgPopulated": false,
     "regularMarketChangePercent": -0.02753304,
     "regularMarketPrice": 1815.5,
-    "hasPrePostMarketData": false,
+    "shortName": "PENTA OCEAN CONSTRUCTION",
+    "longName": "Penta-Ocean Construction Co., Ltd.",
     "trailingPegRatio": null
   }
 }

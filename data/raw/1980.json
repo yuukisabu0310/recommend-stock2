@@ -1,7 +1,7 @@
 {
   "ticker": "1980",
   "japanese_ticker": "1980.T",
-  "fetch_date": "2026-03-14T23:24:43.249742",
+  "fetch_date": "2026-03-15T23:26:50.840265",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": 170277000.0,
@@ -1107,11 +1107,11 @@
     "forwardPE": 10.26816,
     "volume": 474500,
     "regularMarketVolume": 474500,
-    "averageVolume": 629588,
+    "averageVolume": 633310,
     "averageVolume10days": 573060,
     "averageDailyVolume10Day": 573060,
-    "bid": 3025.0,
-    "ask": 3035.0,
+    "bid": 0.0,
+    "ask": 2801.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 391379779584,
@@ -1185,29 +1185,9 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "regularMarketChangePercent": 1.5441424,
-    "regularMarketPrice": 3025.0,
-    "shortName": "DAI-DAN CO LTD",
-    "longName": "Dai-Dan Co., Ltd.",
-    "corporateActions": [
-      {
-        "header": "Dividend",
-        "message": "1980.T announced a cash dividend of JPY 45.00 with an ex-date of Mar. 30, 2026",
-        "meta": {
-          "eventType": "DIVIDEND",
-          "dateEpochMs": 1774796400000,
-          "amount": "45.00"
-        }
-      }
-    ],
-    "marketState": "CLOSED",
+    "marketState": "PREPRE",
     "cryptoTradeable": false,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 978566400000,
-    "regularMarketChange": 46.0,
-    "regularMarketDayRange": "2929.0 - 3060.0",
-    "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 629588,
+    "averageDailyVolume3Month": 633310,
     "fiftyTwoWeekLowChange": 2052.6667,
     "fiftyTwoWeekLowChangePercent": 2.1110733,
     "fiftyTwoWeekRange": "972.3333 - 3680.0",
@@ -1227,6 +1207,19 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "averageAnalystRating": "1.0 - Strong Buy",
+    "shortName": "DAI-DAN CO LTD",
+    "longName": "Dai-Dan Co., Ltd.",
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "1980.T announced a cash dividend of JPY 45.00 with an ex-date of Mar. 30, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1774796400000,
+          "amount": "45.00"
+        }
+      }
+    ],
     "regularMarketTime": 1773383400,
     "exchange": "JPX",
     "messageBoardId": "finmb_880131",
@@ -1235,6 +1228,13 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
+    "regularMarketChangePercent": 1.5441424,
+    "regularMarketPrice": 3025.0,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 978566400000,
+    "regularMarketChange": 46.0,
+    "regularMarketDayRange": "2929.0 - 3060.0",
+    "fullExchangeName": "Tokyo",
     "trailingPegRatio": null
   }
 }

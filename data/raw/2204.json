@@ -1,7 +1,7 @@
 {
   "ticker": "2204",
   "japanese_ticker": "2204.T",
-  "fetch_date": "2026-03-14T23:26:32.000721",
+  "fetch_date": "2026-03-15T23:29:00.812237",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": -16195998.0,
@@ -1190,11 +1190,11 @@
     "trailingPE": 24.938124,
     "volume": 19000,
     "regularMarketVolume": 19000,
-    "averageVolume": 10306,
+    "averageVolume": 10405,
     "averageVolume10days": 17520,
     "averageDailyVolume10Day": 17520,
-    "bid": 3325.0,
-    "ask": 3350.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 19204153344,
@@ -1255,16 +1255,8 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "shortName": "NAKAMURAYA CO LTD",
-    "longName": "Nakamuraya Co., Ltd.",
-    "cryptoTradeable": false,
-    "marketState": "CLOSED",
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 978307200000,
-    "regularMarketChange": 0.0,
-    "regularMarketDayRange": "3310.0 - 3350.0",
-    "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 10306,
+    "regularMarketChangePercent": 0.0,
+    "regularMarketPrice": 3325.0,
     "fiftyTwoWeekLowChange": 336.0,
     "fiftyTwoWeekLowChangePercent": 0.11241218,
     "fiftyTwoWeekRange": "2989.0 - 3365.0",
@@ -1281,6 +1273,9 @@
     "twoHundredDayAverageChangePercent": 0.06747572,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
+    "shortName": "NAKAMURAYA CO LTD",
+    "longName": "Nakamuraya Co., Ltd.",
     "corporateActions": [
       {
         "header": "Dividend",
@@ -1300,8 +1295,13 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "regularMarketChangePercent": 0.0,
-    "regularMarketPrice": 3325.0,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 978307200000,
+    "regularMarketChange": 0.0,
+    "regularMarketDayRange": "3310.0 - 3350.0",
+    "fullExchangeName": "Tokyo",
+    "averageDailyVolume3Month": 10405,
+    "marketState": "PREPRE",
     "trailingPegRatio": null
   }
 }

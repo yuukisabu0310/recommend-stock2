@@ -1,7 +1,7 @@
 {
   "ticker": "2816",
   "japanese_ticker": "2816.T",
-  "fetch_date": "2026-03-14T23:33:39.645027",
+  "fetch_date": "2026-03-15T23:37:19.156998",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": -7770000.0,
@@ -1138,11 +1138,11 @@
     "trailingPE": 45.668278,
     "volume": 3100,
     "regularMarketVolume": 3100,
-    "averageVolume": 2994,
+    "averageVolume": 2953,
     "averageVolume10days": 2900,
     "averageDailyVolume10Day": 2900,
-    "bid": 1417.0,
-    "ask": 1430.0,
+    "bid": 0.0,
+    "ask": 1414.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 13687545856,
@@ -1207,17 +1207,6 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "corporateActions": [
-      {
-        "header": "Dividend",
-        "message": "2816.T announced a cash dividend of JPY 9.00 with an ex-date of Mar. 30, 2026",
-        "meta": {
-          "eventType": "DIVIDEND",
-          "dateEpochMs": 1774796400000,
-          "amount": "9.00"
-        }
-      }
-    ],
     "regularMarketTime": 1773383400,
     "exchange": "JPX",
     "messageBoardId": "finmb_5751391",
@@ -1228,7 +1217,17 @@
     "esgPopulated": false,
     "regularMarketChangePercent": -0.21111894,
     "regularMarketPrice": 1418.0,
-    "marketState": "CLOSED",
+    "fullExchangeName": "Tokyo",
+    "averageDailyVolume3Month": 2953,
+    "fiftyTwoWeekLowChange": 40.0,
+    "fiftyTwoWeekLowChangePercent": 0.029027576,
+    "fiftyTwoWeekRange": "1378.0 - 1435.0",
+    "fiftyTwoWeekHighChange": -17.0,
+    "fiftyTwoWeekHighChangePercent": -0.0118466895,
+    "fiftyTwoWeekChangePercent": -0.49122572,
+    "earningsTimestampStart": 1746770400,
+    "earningsTimestampEnd": 1746770400,
+    "isEarningsDateEstimate": false,
     "epsTrailingTwelveMonths": 31.05,
     "fiftyDayAverageChange": 5.079956,
     "fiftyDayAverageChangePercent": 0.0035953599,
@@ -1241,19 +1240,10 @@
     "firstTradeDateMilliseconds": 978652800000,
     "regularMarketChange": -3.0,
     "regularMarketDayRange": "1414.0 - 1422.0",
-    "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 2994,
-    "fiftyTwoWeekLowChange": 40.0,
-    "fiftyTwoWeekLowChangePercent": 0.029027576,
-    "fiftyTwoWeekRange": "1378.0 - 1435.0",
-    "fiftyTwoWeekHighChange": -17.0,
-    "fiftyTwoWeekHighChangePercent": -0.0118466895,
     "shortName": "DAISHO CO LTD",
     "longName": "Daisho Co.,Ltd.",
-    "fiftyTwoWeekChangePercent": -0.49122572,
-    "earningsTimestampStart": 1746770400,
-    "earningsTimestampEnd": 1746770400,
-    "isEarningsDateEstimate": false,
+    "corporateActions": [],
+    "marketState": "PREPRE",
     "trailingPegRatio": null
   }
 }

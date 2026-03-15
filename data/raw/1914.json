@@ -1,7 +1,7 @@
 {
   "ticker": "1914",
   "japanese_ticker": "1914.T",
-  "fetch_date": "2026-03-14T23:23:36.657455",
+  "fetch_date": "2026-03-15T23:25:33.330881",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": 10778040.0,
@@ -1162,11 +1162,11 @@
     "forwardPE": 27.734375,
     "volume": 32300,
     "regularMarketVolume": 32300,
-    "averageVolume": 33052,
+    "averageVolume": 33132,
     "averageVolume10days": 54250,
     "averageDailyVolume10Day": 54250,
-    "bid": 710.0,
-    "ask": 711.0,
+    "bid": 0.0,
+    "ask": 727.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 12987123712,
@@ -1232,26 +1232,13 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "regularMarketChangePercent": -1.7980638,
-    "regularMarketPrice": 710.0,
-    "corporateActions": [
-      {
-        "header": "Dividend",
-        "message": "1914.T announced a cash dividend of JPY 27.00 with an ex-date of Mar. 30, 2026",
-        "meta": {
-          "eventType": "DIVIDEND",
-          "dateEpochMs": 1774796400000,
-          "amount": "27.00"
-        }
-      }
-    ],
-    "regularMarketTime": 1773383400,
+    "marketState": "PREPRE",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 978307200000,
     "regularMarketChange": -13.0,
     "regularMarketDayRange": "706.0 - 717.0",
     "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 33052,
+    "averageDailyVolume3Month": 33132,
     "fiftyTwoWeekLowChange": 163.0,
     "fiftyTwoWeekLowChangePercent": 0.29798904,
     "fiftyTwoWeekRange": "547.0 - 779.0",
@@ -1270,9 +1257,18 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
-    "shortName": "JAPAN FOUNDATION ENGINEERING CO",
-    "longName": "Japan Foundation Engineering Co., Ltd.",
-    "marketState": "CLOSED",
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "1914.T announced a cash dividend of JPY 27.00 with an ex-date of Mar. 30, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1774796400000,
+          "amount": "27.00"
+        }
+      }
+    ],
+    "regularMarketTime": 1773383400,
     "exchange": "JPX",
     "messageBoardId": "finmb_880407",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1280,6 +1276,10 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
+    "regularMarketChangePercent": -1.7980638,
+    "regularMarketPrice": 710.0,
+    "shortName": "JAPAN FOUNDATION ENGINEERING CO",
+    "longName": "Japan Foundation Engineering Co., Ltd.",
     "trailingPegRatio": null
   }
 }

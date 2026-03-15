@@ -1,7 +1,7 @@
 {
   "ticker": "2370",
   "japanese_ticker": "2370.T",
-  "fetch_date": "2026-03-14T23:28:31.114379",
+  "fetch_date": "2026-03-15T23:31:25.665065",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-09-30 00:00:00": 13910024.0,
@@ -1098,7 +1098,7 @@
     "beta": 0.228,
     "volume": 688100,
     "regularMarketVolume": 688100,
-    "averageVolume": 2085357,
+    "averageVolume": 2111024,
     "averageVolume10days": 3007490,
     "averageDailyVolume10Day": 3007490,
     "bid": 0.0,
@@ -1167,9 +1167,13 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "marketState": "CLOSED",
     "cryptoTradeable": false,
-    "averageDailyVolume3Month": 2085357,
+    "shortName": "MEDINET CO LTD",
+    "longName": "MEDINET Co., Ltd.",
+    "regularMarketChange": -1.0,
+    "regularMarketDayRange": "30.0 - 31.0",
+    "fullExchangeName": "Tokyo",
+    "averageDailyVolume3Month": 2111024,
     "fiftyTwoWeekLowChange": 3.0,
     "fiftyTwoWeekLowChangePercent": 0.11111111,
     "fiftyTwoWeekRange": "27.0 - 43.0",
@@ -1186,8 +1190,6 @@
     "twoHundredDayAverageChangePercent": -0.109263666,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
-    "shortName": "MEDINET CO LTD",
-    "longName": "MEDINET Co., Ltd.",
     "corporateActions": [],
     "regularMarketTime": 1773383400,
     "exchange": "JPX",
@@ -1199,11 +1201,9 @@
     "esgPopulated": false,
     "regularMarketChangePercent": -3.2258062,
     "regularMarketPrice": 30.0,
+    "marketState": "PREPRE",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1065571200000,
-    "regularMarketChange": -1.0,
-    "regularMarketDayRange": "30.0 - 31.0",
-    "fullExchangeName": "Tokyo",
     "trailingPegRatio": null
   }
 }

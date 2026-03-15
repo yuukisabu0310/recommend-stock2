@@ -1,7 +1,7 @@
 {
   "ticker": "2806",
   "japanese_ticker": "2806.T",
-  "fetch_date": "2026-03-14T23:33:26.214236",
+  "fetch_date": "2026-03-15T23:37:02.398575",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": -4144853.875476,
@@ -975,11 +975,11 @@
     "trailingPE": 23.924671,
     "volume": 300,
     "regularMarketVolume": 300,
-    "averageVolume": 2093,
+    "averageVolume": 2074,
     "averageVolume10days": 1980,
     "averageDailyVolume10Day": 1980,
-    "bid": 2146.0,
-    "ask": 2165.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 14916327424,
@@ -1043,16 +1043,18 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "shortName": "YUTAKA FOODS CORP",
-    "longName": "Yutaka Foods Corporation",
-    "epsTrailingTwelveMonths": 89.74,
-    "fiftyDayAverageChange": -14.100098,
-    "fiftyDayAverageChangePercent": -0.0065245,
-    "twoHundredDayAverageChange": 56.149902,
-    "twoHundredDayAverageChangePercent": 0.026855059,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "2806.T announced a cash dividend of JPY 20.00 with an ex-date of Mar. 30, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1774796400000,
+          "amount": "20.00"
+        }
+      }
+    ],
+    "regularMarketTime": 1773382296,
     "exchange": "JPX",
     "messageBoardId": "finmb_9262020",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1062,15 +1064,16 @@
     "esgPopulated": false,
     "regularMarketChangePercent": 0.0,
     "regularMarketPrice": 2147.0,
-    "corporateActions": [],
-    "regularMarketTime": 1773382296,
-    "marketState": "CLOSED",
+    "cryptoTradeable": false,
+    "shortName": "YUTAKA FOODS CORP",
+    "longName": "Yutaka Foods Corporation",
+    "marketState": "PREPRE",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 978998400000,
     "regularMarketChange": 0.0,
     "regularMarketDayRange": "2146.0 - 2147.0",
     "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 2093,
+    "averageDailyVolume3Month": 2074,
     "fiftyTwoWeekLowChange": 324.0,
     "fiftyTwoWeekLowChangePercent": 0.17772903,
     "fiftyTwoWeekRange": "1823.0 - 2350.0",
@@ -1080,6 +1083,13 @@
     "earningsTimestampStart": 1747022400,
     "earningsTimestampEnd": 1747022400,
     "isEarningsDateEstimate": false,
+    "epsTrailingTwelveMonths": 89.74,
+    "fiftyDayAverageChange": -14.100098,
+    "fiftyDayAverageChangePercent": -0.0065245,
+    "twoHundredDayAverageChange": 56.149902,
+    "twoHundredDayAverageChangePercent": 0.026855059,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
     "trailingPegRatio": null
   }
 }

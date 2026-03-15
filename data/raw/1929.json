@@ -1,7 +1,7 @@
 {
   "ticker": "1929",
   "japanese_ticker": "1929.T",
-  "fetch_date": "2026-03-14T23:23:46.638808",
+  "fetch_date": "2026-03-15T23:25:45.154937",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": -16807000.0,
@@ -1164,11 +1164,11 @@
     "forwardPE": 13.180396,
     "volume": 92500,
     "regularMarketVolume": 92500,
-    "averageVolume": 112881,
+    "averageVolume": 113841,
     "averageVolume10days": 142830,
     "averageDailyVolume10Day": 142830,
-    "bid": 1264.0,
-    "ask": 1266.0,
+    "bid": 0.0,
+    "ask": 1261.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 52797038592,
@@ -1242,29 +1242,13 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "regularMarketChangePercent": -0.7849294,
-    "regularMarketPrice": 1264.0,
+    "cryptoTradeable": false,
     "shortName": "NITTOC CONSTRUCTION CO",
     "longName": "Nittoc Construction Co., Ltd.",
-    "corporateActions": [
-      {
-        "header": "Dividend",
-        "message": "1929.T announced a cash dividend of JPY 27.00 with an ex-date of Mar. 30, 2026",
-        "meta": {
-          "eventType": "DIVIDEND",
-          "dateEpochMs": 1774796400000,
-          "amount": "27.00"
-        }
-      }
-    ],
-    "marketState": "CLOSED",
-    "cryptoTradeable": false,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 978307200000,
     "regularMarketChange": -10.0,
     "regularMarketDayRange": "1253.0 - 1273.0",
     "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 112881,
+    "averageDailyVolume3Month": 113841,
     "fiftyTwoWeekLowChange": 355.0,
     "fiftyTwoWeekLowChangePercent": 0.39053905,
     "fiftyTwoWeekRange": "909.0 - 1465.0",
@@ -1283,6 +1267,7 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "averageAnalystRating": "3.0 - Hold",
+    "corporateActions": [],
     "regularMarketTime": 1773383400,
     "exchange": "JPX",
     "messageBoardId": "finmb_880945",
@@ -1291,6 +1276,11 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
+    "regularMarketChangePercent": -0.7849294,
+    "regularMarketPrice": 1264.0,
+    "marketState": "PREPRE",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 978307200000,
     "trailingPegRatio": null
   }
 }

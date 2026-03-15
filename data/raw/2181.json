@@ -1,7 +1,7 @@
 {
   "ticker": "2181",
   "japanese_ticker": "2181.T",
-  "fetch_date": "2026-03-14T23:26:13.271287",
+  "fetch_date": "2026-03-15T23:28:40.134324",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": 0.0,
@@ -1315,11 +1315,11 @@
     "forwardPE": 13.142858,
     "volume": 13608600,
     "regularMarketVolume": 13608600,
-    "averageVolume": 8948198,
+    "averageVolume": 8996396,
     "averageVolume10days": 17617540,
     "averageDailyVolume10Day": 17617540,
-    "bid": 234.5,
-    "ask": 234.7,
+    "bid": 0.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 523363680256,
@@ -1395,17 +1395,7 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "corporateActions": [
-      {
-        "header": "Dividend",
-        "message": "2181.T announced a cash dividend of JPY 5.50 with an ex-date of Mar. 30, 2026",
-        "meta": {
-          "eventType": "DIVIDEND",
-          "dateEpochMs": 1774796400000,
-          "amount": "5.50"
-        }
-      }
-    ],
+    "corporateActions": [],
     "regularMarketTime": 1773383400,
     "exchange": "JPX",
     "messageBoardId": "finmb_53336883",
@@ -1416,13 +1406,20 @@
     "esgPopulated": false,
     "regularMarketChangePercent": -0.382163,
     "regularMarketPrice": 234.6,
-    "longName": "Persol Holdings Co.,Ltd.",
+    "fiftyDayAverageChange": -30.64798,
+    "fiftyDayAverageChangePercent": -0.115544625,
+    "twoHundredDayAverageChange": -40.467987,
+    "twoHundredDayAverageChangePercent": -0.14711994,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "averageAnalystRating": "2.3 - Buy",
+    "cryptoTradeable": false,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1142553600000,
     "regularMarketChange": -0.8999939,
     "regularMarketDayRange": "232.2 - 235.4",
     "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 8948198,
+    "averageDailyVolume3Month": 8996396,
     "fiftyTwoWeekLowChange": 13.200012,
     "fiftyTwoWeekLowChangePercent": 0.059620652,
     "fiftyTwoWeekRange": "221.4 - 305.4",
@@ -1437,16 +1434,9 @@
     "isEarningsDateEstimate": false,
     "epsTrailingTwelveMonths": 17.34,
     "epsForward": 17.85,
-    "fiftyDayAverageChange": -30.64798,
-    "fiftyDayAverageChangePercent": -0.115544625,
-    "twoHundredDayAverageChange": -40.467987,
-    "twoHundredDayAverageChangePercent": -0.14711994,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "averageAnalystRating": "2.3 - Buy",
-    "cryptoTradeable": false,
-    "marketState": "CLOSED",
     "shortName": "PERSOL HOLDINGS CO LTD",
+    "longName": "Persol Holdings Co.,Ltd.",
+    "marketState": "PREPRE",
     "trailingPegRatio": null
   }
 }

@@ -1,7 +1,7 @@
 {
   "ticker": "1810",
   "japanese_ticker": "1810.T",
-  "fetch_date": "2026-03-14T23:22:14.177590",
+  "fetch_date": "2026-03-15T23:23:55.365626",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": 38528000.0,
@@ -1050,11 +1050,11 @@
     "trailingPE": 12.01943,
     "volume": 57300,
     "regularMarketVolume": 57300,
-    "averageVolume": 67615,
+    "averageVolume": 67594,
     "averageVolume10days": 83420,
     "averageDailyVolume10Day": 83420,
-    "bid": 1731.0,
-    "ask": 1740.0,
+    "bid": 2132.0,
+    "ask": 2132.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 49398128640,
@@ -1120,14 +1120,20 @@
     "customPriceAlertConfidence": "LOW",
     "regularMarketChangePercent": 1.2865497,
     "regularMarketPrice": 1732.0,
-    "corporateActions": [],
-    "regularMarketTime": 1773383400,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 978307200000,
+    "regularMarketTime": 1773383400,
+    "exchange": "JPX",
+    "messageBoardId": "finmb_5491026",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
     "regularMarketChange": 22.0,
     "regularMarketDayRange": "1691.0 - 1749.0",
     "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 67615,
+    "averageDailyVolume3Month": 67594,
     "fiftyTwoWeekLowChange": 956.0,
     "fiftyTwoWeekLowChangePercent": 1.2319587,
     "fiftyTwoWeekRange": "776.0 - 1964.0",
@@ -1136,6 +1142,20 @@
     "fiftyTwoWeekChangePercent": 83.28042,
     "earningsTimestampStart": 1754541000,
     "earningsTimestampEnd": 1754973000,
+    "marketState": "PREPRE",
+    "shortName": "MATSUI CONSTRUCTION CO",
+    "longName": "Matsui Construction Co., Ltd.",
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "1810.T announced a cash dividend of JPY 49.00 with an ex-date of Mar. 30, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1774796400000,
+          "amount": "49.00"
+        }
+      }
+    ],
     "isEarningsDateEstimate": true,
     "epsTrailingTwelveMonths": 144.1,
     "fiftyDayAverageChange": 61.119995,
@@ -1145,16 +1165,6 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
-    "shortName": "MATSUI CONSTRUCTION CO",
-    "longName": "Matsui Construction Co., Ltd.",
-    "marketState": "CLOSED",
-    "exchange": "JPX",
-    "messageBoardId": "finmb_5491026",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
     "trailingPegRatio": null
   }
 }

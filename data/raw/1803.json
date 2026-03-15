@@ -1,7 +1,7 @@
 {
   "ticker": "1803",
   "japanese_ticker": "1803.T",
-  "fetch_date": "2026-03-14T23:22:07.810028",
+  "fetch_date": "2026-03-15T23:23:48.826564",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": 12842550000.0,
@@ -1143,11 +1143,11 @@
     "forwardPE": 37.920116,
     "volume": 2582000,
     "regularMarketVolume": 2582000,
-    "averageVolume": 3523050,
+    "averageVolume": 3549770,
     "averageVolume10days": 3646960,
     "averageDailyVolume10Day": 3646960,
-    "bid": 3113.0,
-    "ask": 3122.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 2106796539904,
@@ -1221,25 +1221,19 @@
     "customPriceAlertConfidence": "LOW",
     "shortName": "SHIMIZU CORP",
     "longName": "Shimizu Corporation",
-    "marketState": "CLOSED",
-    "corporateActions": [
-      {
-        "header": "Dividend",
-        "message": "1803.T announced a cash dividend of JPY 43.00 with an ex-date of Mar. 30, 2026",
-        "meta": {
-          "eventType": "DIVIDEND",
-          "dateEpochMs": 1774796400000,
-          "amount": "43.00"
-        }
-      }
-    ],
+    "corporateActions": [],
     "regularMarketTime": 1773383400,
+    "marketState": "PREPRE",
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "averageAnalystRating": "2.6 - Hold",
+    "cryptoTradeable": false,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 946944000000,
     "regularMarketChange": -3.0,
     "regularMarketDayRange": "3050.0 - 3163.0",
     "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 3523050,
+    "averageDailyVolume3Month": 3549770,
     "fiftyTwoWeekLowChange": 1947.5,
     "fiftyTwoWeekLowChangePercent": 1.6695242,
     "fiftyTwoWeekRange": "1166.5 - 3618.0",
@@ -1258,12 +1252,6 @@
     "fiftyDayAverageChangePercent": 0.01640147,
     "twoHundredDayAverageChange": 828.0576,
     "twoHundredDayAverageChangePercent": 0.36223906,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "averageAnalystRating": "2.6 - Hold",
-    "cryptoTradeable": false,
-    "regularMarketChangePercent": -0.09624639,
-    "regularMarketPrice": 3114.0,
     "exchange": "JPX",
     "messageBoardId": "finmb_875399",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1271,6 +1259,8 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
+    "regularMarketChangePercent": -0.09624639,
+    "regularMarketPrice": 3114.0,
     "trailingPegRatio": null
   }
 }

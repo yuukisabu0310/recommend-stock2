@@ -1,7 +1,7 @@
 {
   "ticker": "2415",
   "japanese_ticker": "2415.T",
-  "fetch_date": "2026-03-14T23:29:11.152179",
+  "fetch_date": "2026-03-15T23:32:11.360634",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": 13922751.0,
@@ -1098,11 +1098,11 @@
     "forwardPE": 7.9107776,
     "volume": 3700,
     "regularMarketVolume": 3700,
-    "averageVolume": 9737,
+    "averageVolume": 9708,
     "averageVolume10days": 8480,
     "averageDailyVolume10Day": 8480,
-    "bid": 1790.0,
-    "ask": 1807.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 18586929152,
@@ -1172,6 +1172,22 @@
     "customPriceAlertConfidence": "LOW",
     "regularMarketChangePercent": -1.1589404,
     "regularMarketPrice": 1791.0,
+    "marketState": "PREPRE",
+    "shortName": "HUMAN HLDGS CO.LTD",
+    "longName": "Human Holdings Co., Ltd.",
+    "corporateActions": [],
+    "regularMarketTime": 1773383067,
+    "exchange": "JPX",
+    "messageBoardId": "finmb_11518917",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
+    "regularMarketChange": -21.0,
+    "regularMarketDayRange": "1787.0 - 1810.0",
+    "fullExchangeName": "Tokyo",
+    "averageDailyVolume3Month": 9708,
     "fiftyTwoWeekLowChange": 551.0,
     "fiftyTwoWeekLowChangePercent": 0.44435483,
     "fiftyTwoWeekRange": "1240.0 - 2111.0",
@@ -1190,34 +1206,8 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
-    "shortName": "HUMAN HLDGS CO.LTD",
-    "longName": "Human Holdings Co., Ltd.",
-    "corporateActions": [
-      {
-        "header": "Dividend",
-        "message": "2415.T announced a cash dividend of JPY 72.50 with an ex-date of Mar. 30, 2026",
-        "meta": {
-          "eventType": "DIVIDEND",
-          "dateEpochMs": 1774796400000,
-          "amount": "72.50"
-        }
-      }
-    ],
-    "regularMarketTime": 1773383067,
-    "exchange": "JPX",
-    "messageBoardId": "finmb_11518917",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1097107200000,
-    "regularMarketChange": -21.0,
-    "regularMarketDayRange": "1787.0 - 1810.0",
-    "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 9737,
-    "marketState": "CLOSED",
     "trailingPegRatio": null
   }
 }

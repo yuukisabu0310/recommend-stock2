@@ -1,7 +1,7 @@
 {
   "ticker": "1833",
   "japanese_ticker": "1833.T",
-  "fetch_date": "2026-03-14T23:22:35.223490",
+  "fetch_date": "2026-03-15T23:24:22.069154",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": -2564528000.0,
@@ -1188,11 +1188,11 @@
     "trailingPE": 18.247972,
     "volume": 79700,
     "regularMarketVolume": 79700,
-    "averageVolume": 127877,
+    "averageVolume": 128458,
     "averageVolume10days": 118500,
     "averageDailyVolume10Day": 118500,
-    "bid": 6570.0,
-    "ask": 6600.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 235671044096,
@@ -1260,7 +1260,25 @@
     "customPriceAlertConfidence": "LOW",
     "regularMarketChangePercent": -0.45454544,
     "regularMarketPrice": 6570.0,
-    "corporateActions": [],
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 978307200000,
+    "shortName": "OKUMURA CORP",
+    "longName": "Okumura Corporation",
+    "marketState": "PREPRE",
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "1833.T announced a cash dividend of JPY 154.00 with an ex-date of Mar. 30, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1774796400000,
+          "amount": "154.00"
+        }
+      }
+    ],
     "regularMarketTime": 1773383400,
     "exchange": "JPX",
     "messageBoardId": "finmb_875869",
@@ -1269,15 +1287,10 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "shortName": "OKUMURA CORP",
-    "longName": "Okumura Corporation",
-    "cryptoTradeable": false,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 978307200000,
     "regularMarketChange": -30.0,
     "regularMarketDayRange": "6470.0 - 6610.0",
     "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 127877,
+    "averageDailyVolume3Month": 128458,
     "fiftyTwoWeekLowChange": 2800.0,
     "fiftyTwoWeekLowChangePercent": 0.7427056,
     "fiftyTwoWeekRange": "3770.0 - 7490.0",
@@ -1295,9 +1308,6 @@
     "fiftyDayAverageChangePercent": -0.023106419,
     "twoHundredDayAverageChange": 1200.8999,
     "twoHundredDayAverageChangePercent": 0.22366875,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "marketState": "CLOSED",
     "trailingPegRatio": null
   }
 }

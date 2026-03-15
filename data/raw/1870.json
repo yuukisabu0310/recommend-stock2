@@ -1,7 +1,7 @@
 {
   "ticker": "1870",
   "japanese_ticker": "1870.T",
-  "fetch_date": "2026-03-14T23:23:03.110185",
+  "fetch_date": "2026-03-15T23:24:53.496864",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": -140286000.0,
@@ -1164,11 +1164,11 @@
     "trailingPE": 8.944366,
     "volume": 117700,
     "regularMarketVolume": 117700,
-    "averageVolume": 141413,
+    "averageVolume": 139987,
     "averageVolume10days": 168800,
     "averageDailyVolume10Day": 168800,
-    "bid": 2161.0,
-    "ask": 2173.0,
+    "bid": 0.0,
+    "ask": 2160.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 93132980224,
@@ -1233,10 +1233,16 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "shortName": "YAHAGI CONSTRUCTION CO",
     "longName": "Yahagi Construction Co.,Ltd.",
-    "marketState": "CLOSED",
-    "corporateActions": [],
-    "regularMarketTime": 1773383400,
+    "fiftyDayAverageChangePercent": -0.0912908,
+    "twoHundredDayAverageChange": 16.080078,
+    "twoHundredDayAverageChangePercent": 0.007486349,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
+    "regularMarketChangePercent": -1.3673656,
+    "regularMarketPrice": 2164.0,
     "exchange": "JPX",
     "messageBoardId": "finmb_881125",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1244,15 +1250,13 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "regularMarketChangePercent": -1.3673656,
-    "regularMarketPrice": 2164.0,
-    "shortName": "YAHAGI CONSTRUCTION CO",
+    "marketState": "PREPRE",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 978566400000,
     "regularMarketChange": -30.0,
     "regularMarketDayRange": "2151.0 - 2181.0",
     "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 141413,
+    "averageDailyVolume3Month": 139987,
     "fiftyTwoWeekLowChange": 994.0,
     "fiftyTwoWeekLowChangePercent": 0.84957266,
     "fiftyTwoWeekRange": "1170.0 - 2534.0",
@@ -1264,12 +1268,18 @@
     "isEarningsDateEstimate": true,
     "epsTrailingTwelveMonths": 241.94,
     "fiftyDayAverageChange": -217.3999,
-    "fiftyDayAverageChangePercent": -0.0912908,
-    "twoHundredDayAverageChange": 16.080078,
-    "twoHundredDayAverageChangePercent": 0.007486349,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "1870.T announced a cash dividend of JPY 45.00 with an ex-date of Mar. 30, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1774796400000,
+          "amount": "45.00"
+        }
+      }
+    ],
+    "regularMarketTime": 1773383400,
     "trailingPegRatio": null
   }
 }

@@ -1,7 +1,7 @@
 {
   "ticker": "2053",
   "japanese_ticker": "2053.T",
-  "fetch_date": "2026-03-14T23:25:04.657662",
+  "fetch_date": "2026-03-15T23:27:15.484693",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": 51227436.823105,
@@ -1116,11 +1116,11 @@
     "forwardPE": 12.173024,
     "volume": 53600,
     "regularMarketVolume": 53600,
-    "averageVolume": 64296,
+    "averageVolume": 64424,
     "averageVolume10days": 74180,
     "averageDailyVolume10Day": 74180,
-    "bid": 1785.0,
-    "ask": 1809.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 52756455424,
@@ -1186,26 +1186,22 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "corporateActions": [
-      {
-        "header": "Dividend",
-        "message": "2053.T announced a cash dividend of JPY 30.00 with an ex-date of Mar. 30, 2026",
-        "meta": {
-          "eventType": "DIVIDEND",
-          "dateEpochMs": 1774796400000,
-          "amount": "30.00"
-        }
-      }
-    ],
+    "marketState": "PREPRE",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 978307200000,
+    "corporateActions": [],
     "regularMarketTime": 1773383400,
     "exchange": "JPX",
     "messageBoardId": "finmb_883315",
     "exchangeTimezoneName": "Asia/Tokyo",
-    "marketState": "CLOSED",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
     "regularMarketChange": -15.0,
     "regularMarketDayRange": "1780.0 - 1805.0",
     "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 64296,
+    "averageDailyVolume3Month": 64424,
     "fiftyTwoWeekLowChange": 596.0,
     "fiftyTwoWeekLowChangePercent": 0.5004198,
     "fiftyTwoWeekRange": "1191.0 - 1998.0",
@@ -1223,17 +1219,11 @@
     "twoHundredDayAverageChangePercent": 0.03718361,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 978307200000,
+    "cryptoTradeable": false,
     "regularMarketChangePercent": -0.8324085,
+    "regularMarketPrice": 1787.0,
     "shortName": "CHUBU SHIRYO CO",
     "longName": "Chubu Shiryo Co., Ltd.",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
-    "regularMarketPrice": 1787.0,
-    "cryptoTradeable": false,
     "trailingPegRatio": null
   }
 }

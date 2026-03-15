@@ -1,7 +1,7 @@
 {
   "ticker": "2815",
   "japanese_ticker": "2815.T",
-  "fetch_date": "2026-03-14T23:33:37.344354",
+  "fetch_date": "2026-03-15T23:37:16.692361",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": -21991564.920416,
@@ -1160,11 +1160,11 @@
     "forwardPE": 20.111652,
     "volume": 74600,
     "regularMarketVolume": 74600,
-    "averageVolume": 68645,
+    "averageVolume": 69308,
     "averageVolume10days": 65240,
     "averageDailyVolume10Day": 65240,
-    "bid": 5610.0,
-    "ask": 5640.0,
+    "bid": 0.0,
+    "ask": 5710.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 178994790400,
@@ -1233,9 +1233,6 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "marketState": "CLOSED",
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 978307200000,
     "corporateActions": [],
     "regularMarketTime": 1773383400,
     "exchange": "JPX",
@@ -1248,7 +1245,7 @@
     "regularMarketChange": 0.0,
     "regularMarketDayRange": "5550.0 - 5710.0",
     "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 68645,
+    "averageDailyVolume3Month": 69308,
     "fiftyTwoWeekLowChange": 520.0,
     "fiftyTwoWeekLowChangePercent": 0.101960786,
     "fiftyTwoWeekRange": "5100.0 - 6890.0",
@@ -1273,8 +1270,11 @@
     "cryptoTradeable": false,
     "regularMarketChangePercent": 0.0,
     "regularMarketPrice": 5620.0,
+    "marketState": "PREPRE",
     "shortName": "ARIAKE JAPAN CO",
     "longName": "ARIAKE JAPAN Co., Ltd.",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 978307200000,
     "trailingPegRatio": null
   }
 }

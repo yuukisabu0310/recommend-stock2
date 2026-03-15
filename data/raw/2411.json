@@ -1,7 +1,7 @@
 {
   "ticker": "2411",
   "japanese_ticker": "2411.T",
-  "fetch_date": "2026-03-14T23:29:06.990491",
+  "fetch_date": "2026-03-15T23:32:06.661224",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": -276000.0,
@@ -1095,11 +1095,11 @@
     "trailingPE": 10.977583,
     "volume": 6800,
     "regularMarketVolume": 6800,
-    "averageVolume": 39500,
+    "averageVolume": 40017,
     "averageVolume10days": 28660,
     "averageDailyVolume10Day": 28660,
-    "bid": 474.0,
-    "ask": 476.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 5224999936,
@@ -1166,8 +1166,13 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "fiftyDayAverageChange": -6.4599915,
+    "fiftyDayAverageChangePercent": -0.013417504,
+    "twoHundredDayAverageChange": 29.475006,
+    "twoHundredDayAverageChangePercent": 0.066157915,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
-    "marketState": "CLOSED",
     "shortName": "GENDAI AGENCY INC",
     "longName": "Gendai Agency Inc.",
     "hasPrePostMarketData": false,
@@ -1175,7 +1180,7 @@
     "regularMarketChange": 0.0,
     "regularMarketDayRange": "473.0 - 476.0",
     "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 39500,
+    "averageDailyVolume3Month": 40017,
     "fiftyTwoWeekLowChange": 155.0,
     "fiftyTwoWeekLowChangePercent": 0.484375,
     "fiftyTwoWeekRange": "320.0 - 514.0",
@@ -1186,23 +1191,8 @@
     "earningsTimestampEnd": 1744957800,
     "isEarningsDateEstimate": false,
     "epsTrailingTwelveMonths": 43.27,
-    "fiftyDayAverageChange": -6.4599915,
-    "fiftyDayAverageChangePercent": -0.013417504,
-    "twoHundredDayAverageChange": 29.475006,
-    "twoHundredDayAverageChangePercent": 0.066157915,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "corporateActions": [
-      {
-        "header": "Dividend",
-        "message": "2411.T announced a cash dividend of JPY 12.00 with an ex-date of Mar. 30, 2026",
-        "meta": {
-          "eventType": "DIVIDEND",
-          "dateEpochMs": 1774796400000,
-          "amount": "12.00"
-        }
-      }
-    ],
+    "marketState": "PREPRE",
+    "corporateActions": [],
     "regularMarketTime": 1773383400,
     "exchange": "JPX",
     "messageBoardId": "finmb_11353901",

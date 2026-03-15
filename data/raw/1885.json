@@ -1,7 +1,7 @@
 {
   "ticker": "1885",
   "japanese_ticker": "1885.T",
-  "fetch_date": "2026-03-14T23:23:15.676741",
+  "fetch_date": "2026-03-15T23:25:07.622012",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": 255482000.0,
@@ -1161,11 +1161,11 @@
     "forwardPE": 24.943905,
     "volume": 444900,
     "regularMarketVolume": 444900,
-    "averageVolume": 812338,
+    "averageVolume": 820272,
     "averageVolume10days": 617610,
     "averageDailyVolume10Day": 617610,
-    "bid": 3330.0,
-    "ask": 3360.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 257805484032,
@@ -1238,17 +1238,37 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "shortName": "TOA CORPORATION (CONST)",
-    "corporateActions": [],
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "1885.T announced a cash dividend of JPY 54.00 with an ex-date of Mar. 30, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1774796400000,
+          "amount": "54.00"
+        }
+      }
+    ],
     "regularMarketTime": 1773383400,
-    "marketState": "CLOSED",
+    "cryptoTradeable": false,
+    "marketState": "PREPRE",
     "exchange": "JPX",
+    "messageBoardId": "finmb_874665",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
+    "esgPopulated": false,
+    "regularMarketChangePercent": 0.4518072,
+    "regularMarketPrice": 3335.0,
+    "shortName": "TOA CORPORATION (CONST)",
     "longName": "TOA Corporation",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 978307200000,
     "regularMarketChange": 15.0,
     "regularMarketDayRange": "3190.0 - 3365.0",
     "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 812338,
+    "averageDailyVolume3Month": 820272,
     "fiftyTwoWeekLowChange": 2268.0,
     "fiftyTwoWeekLowChangePercent": 2.1255858,
     "fiftyTwoWeekRange": "1067.0 - 4680.0",
@@ -1266,16 +1286,6 @@
     "twoHundredDayAverageChangePercent": 0.34664226,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
-    "firstTradeDateMilliseconds": 978307200000,
-    "messageBoardId": "finmb_874665",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "esgPopulated": false,
-    "regularMarketChangePercent": 0.4518072,
-    "regularMarketPrice": 3335.0,
-    "hasPrePostMarketData": false,
     "trailingPegRatio": null
   }
 }

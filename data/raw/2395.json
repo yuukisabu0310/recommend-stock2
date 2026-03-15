@@ -1,7 +1,7 @@
 {
   "ticker": "2395",
   "japanese_ticker": "2395.T",
-  "fetch_date": "2026-03-14T23:28:58.567319",
+  "fetch_date": "2026-03-15T23:31:57.815249",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": -86884945.0,
@@ -1238,11 +1238,11 @@
     "forwardPE": 16.82557,
     "volume": 118900,
     "regularMarketVolume": 118900,
-    "averageVolume": 254398,
+    "averageVolume": 255451,
     "averageVolume10days": 219040,
     "averageDailyVolume10Day": 219040,
-    "bid": 1550.0,
-    "ask": 1565.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 64654241792,
@@ -1315,14 +1315,13 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "marketState": "PREPRE",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1078704000000,
     "regularMarketChange": -6.0,
     "regularMarketDayRange": "1520.0 - 1574.0",
-    "shortName": "SHIN NIPPON BIOMEDICAL LABORATO",
-    "longName": "Shin Nippon Biomedical Laboratories, Ltd.",
     "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 254398,
+    "averageDailyVolume3Month": 255451,
     "fiftyTwoWeekLowChange": 411.0,
     "fiftyTwoWeekLowChangePercent": 0.35989493,
     "fiftyTwoWeekRange": "1142.0 - 2005.0",
@@ -1341,11 +1340,18 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
-    "regularMarketChangePercent": -0.3848621,
-    "regularMarketPrice": 1553.0,
-    "corporateActions": [],
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "2395.T announced a cash dividend of JPY 30.00 with an ex-date of Mar. 30, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1774796400000,
+          "amount": "30.00"
+        }
+      }
+    ],
     "regularMarketTime": 1773383400,
-    "marketState": "CLOSED",
     "exchange": "JPX",
     "messageBoardId": "finmb_5877815",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1353,6 +1359,10 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
+    "regularMarketChangePercent": -0.3848621,
+    "regularMarketPrice": 1553.0,
+    "shortName": "SHIN NIPPON BIOMEDICAL LABORATO",
+    "longName": "Shin Nippon Biomedical Laboratories, Ltd.",
     "trailingPegRatio": null
   }
 }

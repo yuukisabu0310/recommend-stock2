@@ -1,7 +1,7 @@
 {
   "ticker": "2730",
   "japanese_ticker": "2730.T",
-  "fetch_date": "2026-03-14T23:32:10.100568",
+  "fetch_date": "2026-03-15T23:35:33.976782",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": -1037136000.0,
@@ -1196,11 +1196,11 @@
     "forwardPE": 17.0934,
     "volume": 541200,
     "regularMarketVolume": 541200,
-    "averageVolume": 405928,
+    "averageVolume": 409956,
     "averageVolume10days": 752360,
     "averageDailyVolume10Day": 752360,
-    "bid": 2122.0,
-    "ask": 2131.0,
+    "bid": 0.0,
+    "ask": 2117.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 224486342656,
@@ -1272,18 +1272,8 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "marketState": "CLOSED",
-    "corporateActions": [
-      {
-        "header": "Dividend",
-        "message": "2730.T announced a cash dividend of JPY 24.00 with an ex-date of Mar. 30, 2026",
-        "meta": {
-          "eventType": "DIVIDEND",
-          "dateEpochMs": 1774796400000,
-          "amount": "24.00"
-        }
-      }
-    ],
+    "marketState": "PREPRE",
+    "corporateActions": [],
     "regularMarketTime": 1773383400,
     "exchange": "JPX",
     "messageBoardId": "finmb_9262023",
@@ -1292,10 +1282,20 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
+    "shortName": "EDION CORP",
+    "longName": "EDION Corporation",
+    "regularMarketChangePercent": -0.14111006,
+    "regularMarketPrice": 2123.0,
+    "twoHundredDayAverageChangePercent": 0.022856453,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1017273600000,
     "regularMarketChange": -3.0,
     "regularMarketDayRange": "2121.0 - 2142.0",
     "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 405928,
+    "averageDailyVolume3Month": 409956,
     "fiftyTwoWeekLowChange": 433.0,
     "fiftyTwoWeekLowChangePercent": 0.256213,
     "fiftyTwoWeekRange": "1690.0 - 2276.0",
@@ -1312,16 +1312,6 @@
     "fiftyDayAverageChange": -38.76001,
     "fiftyDayAverageChangePercent": -0.017929839,
     "twoHundredDayAverageChange": 47.43994,
-    "twoHundredDayAverageChangePercent": 0.022856453,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1017273600000,
-    "cryptoTradeable": false,
-    "shortName": "EDION CORP",
-    "longName": "EDION Corporation",
-    "regularMarketChangePercent": -0.14111006,
-    "regularMarketPrice": 2123.0,
     "trailingPegRatio": null
   }
 }

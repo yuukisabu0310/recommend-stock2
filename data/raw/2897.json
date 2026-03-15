@@ -1,7 +1,7 @@
 {
   "ticker": "2897",
   "japanese_ticker": "2897.T",
-  "fetch_date": "2026-03-14T23:34:09.846305",
+  "fetch_date": "2026-03-15T23:37:54.862038",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": 0.0,
@@ -1107,11 +1107,11 @@
     "forwardPE": 14.118926,
     "volume": 1082600,
     "regularMarketVolume": 1082600,
-    "averageVolume": 1303347,
+    "averageVolume": 1301379,
     "averageVolume10days": 1199940,
     "averageDailyVolume10Day": 1199940,
-    "bid": 2920.5,
-    "ask": 2929.0,
+    "bid": 0.0,
+    "ask": 2920.5,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 838350405632,
@@ -1189,15 +1189,6 @@
     "customPriceAlertConfidence": "LOW",
     "shortName": "NISSIN FOODS HOLDINGS CO. LTD.",
     "longName": "Nissin Foods Holdings Co.,Ltd.",
-    "fiftyDayAverageChangePercent": -0.05715809,
-    "twoHundredDayAverageChange": -0.5324707,
-    "twoHundredDayAverageChangePercent": -0.00018228852,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "averageAnalystRating": "2.5 - Buy",
-    "cryptoTradeable": false,
-    "regularMarketChangePercent": -0.06843456,
-    "regularMarketPrice": 2920.5,
     "exchange": "JPX",
     "messageBoardId": "finmb_874476",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1205,13 +1196,24 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "marketState": "CLOSED",
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 978307200000,
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "2897.T announced a cash dividend of JPY 35.00 with an ex-date of Mar. 30, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1774796400000,
+          "amount": "35.00"
+        }
+      }
+    ],
+    "regularMarketTime": 1773383400,
+    "regularMarketChangePercent": -0.06843456,
+    "regularMarketPrice": 2920.5,
     "regularMarketChange": -2.0,
     "regularMarketDayRange": "2905.5 - 2934.0",
     "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 1303347,
+    "averageDailyVolume3Month": 1301379,
     "fiftyTwoWeekLowChange": 292.5,
     "fiftyTwoWeekLowChangePercent": 0.11130137,
     "fiftyTwoWeekRange": "2628.0 - 3373.0",
@@ -1226,9 +1228,17 @@
     "isEarningsDateEstimate": true,
     "epsTrailingTwelveMonths": 164.72,
     "epsForward": 206.85,
+    "marketState": "PREPRE",
     "fiftyDayAverageChange": -177.05005,
-    "corporateActions": [],
-    "regularMarketTime": 1773383400,
+    "fiftyDayAverageChangePercent": -0.05715809,
+    "twoHundredDayAverageChange": -0.5324707,
+    "twoHundredDayAverageChangePercent": -0.00018228852,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "averageAnalystRating": "2.5 - Buy",
+    "cryptoTradeable": false,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 978307200000,
     "trailingPegRatio": null
   }
 }

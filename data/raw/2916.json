@@ -1,7 +1,7 @@
 {
   "ticker": "2916",
   "japanese_ticker": "2916.T",
-  "fetch_date": "2026-03-14T23:34:30.402227",
+  "fetch_date": "2026-03-15T23:38:17.482157",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": -49392336.0,
@@ -1235,11 +1235,11 @@
     "trailingPE": 36.772217,
     "volume": 10700,
     "regularMarketVolume": 10700,
-    "averageVolume": 2471,
+    "averageVolume": 2500,
     "averageVolume10days": 3180,
     "averageDailyVolume10Day": 3180,
-    "bid": 716.0,
-    "ask": 719.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 8196186112,
@@ -1304,32 +1304,25 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "marketState": "CLOSED",
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 947030400000,
-    "corporateActions": [
-      {
-        "header": "Dividend",
-        "message": "2916.T announced a cash dividend of JPY 15.00 with an ex-date of Mar. 30, 2026",
-        "meta": {
-          "eventType": "DIVIDEND",
-          "dateEpochMs": 1774796400000,
-          "amount": "15.00"
-        }
-      }
-    ],
+    "corporateActions": [],
     "regularMarketTime": 1773382980,
-    "exchange": "JPX",
+    "marketState": "PREPRE",
     "messageBoardId": "finmb_5719917",
     "exchangeTimezoneName": "Asia/Tokyo",
     "exchangeTimezoneShortName": "JST",
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
+    "regularMarketChangePercent": -1.6393442,
+    "regularMarketPrice": 720.0,
+    "shortName": "SEMBA TOHKA INDUSTRIES CO",
+    "longName": "Semba Tohka Industries Co., Ltd",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 947030400000,
     "regularMarketChange": -12.0,
     "regularMarketDayRange": "700.0 - 732.0",
     "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 2471,
+    "averageDailyVolume3Month": 2500,
     "fiftyTwoWeekLowChange": 76.0,
     "fiftyTwoWeekLowChangePercent": 0.11801242,
     "fiftyTwoWeekRange": "644.0 - 785.0",
@@ -1346,11 +1339,8 @@
     "twoHundredDayAverageChangePercent": -0.027230822,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
+    "exchange": "JPX",
     "cryptoTradeable": false,
-    "regularMarketChangePercent": -1.6393442,
-    "regularMarketPrice": 720.0,
-    "shortName": "SEMBA TOHKA INDUSTRIES CO",
-    "longName": "Semba Tohka Industries Co., Ltd",
     "trailingPegRatio": null
   }
 }

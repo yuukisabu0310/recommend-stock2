@@ -1,7 +1,7 @@
 {
   "ticker": "1808",
   "japanese_ticker": "1808.T",
-  "fetch_date": "2026-03-14T23:22:12.068538",
+  "fetch_date": "2026-03-15T23:23:53.326056",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": -5270576000.0,
@@ -1218,11 +1218,11 @@
     "forwardPE": 14.266899,
     "volume": 697500,
     "regularMarketVolume": 697500,
-    "averageVolume": 753064,
+    "averageVolume": 755901,
     "averageVolume10days": 741590,
     "averageDailyVolume10Day": 741590,
-    "bid": 3032.0,
-    "ask": 3054.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 802695675904,
@@ -1294,12 +1294,13 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 978307200000,
+    "cryptoTradeable": false,
+    "shortName": "HASEKO CORPORATION",
+    "longName": "HASEKO Corporation",
     "regularMarketChange": -9.0,
     "regularMarketDayRange": "3015.0 - 3080.0",
     "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 753064,
+    "averageDailyVolume3Month": 755901,
     "fiftyTwoWeekLowChange": 1245.0,
     "fiftyTwoWeekLowChangePercent": 0.69630873,
     "fiftyTwoWeekRange": "1788.0 - 3531.0",
@@ -1321,18 +1322,7 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "averageAnalystRating": "2.4 - Buy",
-    "marketState": "CLOSED",
-    "corporateActions": [
-      {
-        "header": "Dividend",
-        "message": "1808.T announced a cash dividend of JPY 45.00 with an ex-date of Mar. 30, 2026",
-        "meta": {
-          "eventType": "DIVIDEND",
-          "dateEpochMs": 1774796400000,
-          "amount": "45.00"
-        }
-      }
-    ],
+    "corporateActions": [],
     "regularMarketTime": 1773383400,
     "exchange": "JPX",
     "messageBoardId": "finmb_874112",
@@ -1343,9 +1333,9 @@
     "esgPopulated": false,
     "regularMarketChangePercent": -0.295858,
     "regularMarketPrice": 3033.0,
-    "shortName": "HASEKO CORPORATION",
-    "longName": "HASEKO Corporation",
-    "cryptoTradeable": false,
+    "marketState": "PREPRE",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 978307200000,
     "trailingPegRatio": null
   }
 }

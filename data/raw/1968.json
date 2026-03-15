@@ -1,7 +1,7 @@
 {
   "ticker": "1968",
   "japanese_ticker": "1968.T",
-  "fetch_date": "2026-03-14T23:24:32.079036",
+  "fetch_date": "2026-03-15T23:26:37.650867",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": 377777000.0,
@@ -1276,11 +1276,11 @@
     "forwardPE": 5.636788,
     "volume": 265700,
     "regularMarketVolume": 265700,
-    "averageVolume": 167928,
+    "averageVolume": 169206,
     "averageVolume10days": 204030,
     "averageDailyVolume10Day": 204030,
-    "bid": 2887.0,
-    "ask": 2901.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 182940418048,
@@ -1348,16 +1348,36 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "longName": "Taihei Dengyo Kaisha, Ltd.",
+    "marketState": "PREPRE",
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "1968.T announced a cash dividend of JPY 70.00 with an ex-date of Mar. 30, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1774796400000,
+          "amount": "70.00"
+        }
+      }
+    ],
+    "regularMarketTime": 1773383400,
+    "exchange": "JPX",
+    "messageBoardId": "finmb_878932",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
     "regularMarketChangePercent": 2.8014185,
     "regularMarketPrice": 2899.0,
-    "corporateActions": [],
-    "regularMarketTime": 1773383400,
+    "shortName": "TAIHEI DENGYO KAISHA",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 978307200000,
     "regularMarketChange": 79.0,
     "regularMarketDayRange": "2762.0 - 2954.0",
     "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 167928,
+    "averageDailyVolume3Month": 169206,
     "fiftyTwoWeekLowChange": 1547.3334,
     "fiftyTwoWeekLowChangePercent": 1.1447597,
     "fiftyTwoWeekRange": "1351.6666 - 3165.0",
@@ -1376,16 +1396,6 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
-    "shortName": "TAIHEI DENGYO KAISHA",
-    "longName": "Taihei Dengyo Kaisha, Ltd.",
-    "marketState": "CLOSED",
-    "exchange": "JPX",
-    "messageBoardId": "finmb_878932",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
     "trailingPegRatio": null
   }
 }
