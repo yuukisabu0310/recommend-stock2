@@ -1,7 +1,7 @@
 {
   "ticker": "1780",
   "japanese_ticker": "1780.T",
-  "fetch_date": "2026-03-20T23:23:27.458249",
+  "fetch_date": "2026-03-21T23:18:58.733790",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": 2766798.0,
@@ -1186,8 +1186,8 @@
     "trailingEps": 185.6,
     "enterpriseToRevenue": 0.667,
     "enterpriseToEbitda": 5.486,
-    "52WeekChange": 0.2982595,
-    "SandP52WeekChange": 0.16888046,
+    "52WeekChange": 0.28705883,
+    "SandP52WeekChange": 0.12811458,
     "lastDividendValue": 17.0,
     "lastDividendDate": 1774828800,
     "quoteType": "EQUITY",
@@ -1218,11 +1218,8 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "regularMarketChangePercent": -0.54545456,
-    "regularMarketPrice": 1641.0,
-    "marketState": "CLOSED",
-    "regularMarketChange": -9.0,
-    "regularMarketDayRange": "1638.0 - 1655.0",
+    "longName": "Yamaura Corporation",
+    "cryptoTradeable": false,
     "fullExchangeName": "Tokyo",
     "averageDailyVolume3Month": 52265,
     "fiftyTwoWeekLowChange": 609.0,
@@ -1230,7 +1227,7 @@
     "fiftyTwoWeekRange": "1032.0 - 1696.0",
     "fiftyTwoWeekHighChange": -55.0,
     "fiftyTwoWeekHighChangePercent": -0.032429244,
-    "fiftyTwoWeekChangePercent": 29.82595,
+    "fiftyTwoWeekChangePercent": 28.705883,
     "earningsTimestampStart": 1754546400,
     "earningsTimestampEnd": 1754978400,
     "isEarningsDateEstimate": true,
@@ -1241,10 +1238,18 @@
     "twoHundredDayAverageChangePercent": 0.14802608,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
     "shortName": "YAMAURA CORP",
-    "longName": "Yamaura Corporation",
-    "corporateActions": [],
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "1780.T announced a cash dividend of JPY 17.00 with an ex-date of Mar. 30, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1774796400000,
+          "amount": "17.00"
+        }
+      }
+    ],
     "regularMarketTime": 1773901800,
     "exchange": "JPX",
     "messageBoardId": "finmb_884138",
@@ -1253,8 +1258,13 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
+    "regularMarketChangePercent": -0.54545456,
+    "regularMarketPrice": 1641.0,
+    "marketState": "CLOSED",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 978307200000,
+    "regularMarketChange": -9.0,
+    "regularMarketDayRange": "1638.0 - 1655.0",
     "trailingPegRatio": null
   }
 }

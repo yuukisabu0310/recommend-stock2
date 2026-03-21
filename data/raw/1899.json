@@ -1,7 +1,7 @@
 {
   "ticker": "1899",
   "japanese_ticker": "1899.T",
-  "fetch_date": "2026-03-20T23:25:13.771802",
+  "fetch_date": "2026-03-21T23:20:38.496445",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-12-31 00:00:00": null,
@@ -1144,7 +1144,7 @@
     "tradeable": false,
     "enterpriseValue": 36218380288,
     "profitMargins": 0.03303,
-    "floatShares": 5784852,
+    "floatShares": 5785018,
     "sharesOutstanding": 8280240,
     "heldPercentInsiders": 0.29077,
     "heldPercentInstitutions": 0.23086001,
@@ -1161,8 +1161,8 @@
     "lastSplitDate": 1498608000,
     "enterpriseToRevenue": 0.216,
     "enterpriseToEbitda": 3.967,
-    "52WeekChange": 0.45772064,
-    "SandP52WeekChange": 0.16888046,
+    "52WeekChange": 0.48224294,
+    "SandP52WeekChange": 0.12811458,
     "lastDividendValue": 260.0,
     "lastDividendDate": 1798502400,
     "quoteType": "EQUITY",
@@ -1204,8 +1204,11 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
+    "shortName": "FUKUDA CORP",
+    "longName": "Fukuda Corporation",
     "regularMarketChangePercent": -1.3681593,
     "regularMarketPrice": 7930.0,
+    "marketState": "CLOSED",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 978307200000,
     "regularMarketChange": -110.0,
@@ -1217,7 +1220,7 @@
     "fiftyTwoWeekRange": "4375.0 - 8890.0",
     "fiftyTwoWeekHighChange": -960.0,
     "fiftyTwoWeekHighChangePercent": -0.1079865,
-    "fiftyTwoWeekChangePercent": 45.772064,
+    "fiftyTwoWeekChangePercent": 48.224293,
     "earningsTimestampStart": 1754460000,
     "earningsTimestampEnd": 1754978400,
     "isEarningsDateEstimate": true,
@@ -1229,9 +1232,6 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
-    "marketState": "CLOSED",
-    "shortName": "FUKUDA CORP",
-    "longName": "Fukuda Corporation",
     "trailingPegRatio": null
   }
 }

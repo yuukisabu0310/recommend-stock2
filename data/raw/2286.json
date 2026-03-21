@@ -1,7 +1,7 @@
 {
   "ticker": "2286",
   "japanese_ticker": "2286.T",
-  "fetch_date": "2026-03-20T23:29:29.439436",
+  "fetch_date": "2026-03-21T23:24:32.365209",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": 108770000.0,
@@ -1230,8 +1230,8 @@
     "lastSplitDate": 1475020800,
     "enterpriseToRevenue": 0.284,
     "enterpriseToEbitda": 5.152,
-    "52WeekChange": 0.96259844,
-    "SandP52WeekChange": 0.16888046,
+    "52WeekChange": 0.97817457,
+    "SandP52WeekChange": 0.12811458,
     "lastDividendValue": 43.0,
     "lastDividendDate": 1774828800,
     "quoteType": "EQUITY",
@@ -1263,9 +1263,17 @@
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
     "marketState": "CLOSED",
-    "shortName": "HAYASHIKANE SANGYO CO",
-    "longName": "Hayashikane Sangyo Co.,Ltd.",
-    "corporateActions": [],
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "2286.T announced a cash dividend of JPY 43.00 with an ex-date of Mar. 30, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1774796400000,
+          "amount": "43.00"
+        }
+      }
+    ],
     "regularMarketTime": 1773901800,
     "exchange": "JPX",
     "messageBoardId": "finmb_881099",
@@ -1276,6 +1284,8 @@
     "esgPopulated": false,
     "regularMarketChangePercent": -2.446184,
     "regularMarketPrice": 997.0,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 978307200000,
     "regularMarketChange": -25.0,
     "regularMarketDayRange": "995.0 - 1020.0",
     "fullExchangeName": "Tokyo",
@@ -1285,10 +1295,9 @@
     "fiftyTwoWeekRange": "425.0 - 1023.0",
     "fiftyTwoWeekHighChange": -26.0,
     "fiftyTwoWeekHighChangePercent": -0.025415445,
-    "fiftyTwoWeekChangePercent": 96.25984,
-    "earningsTimestampStart": 1754546400,
-    "earningsTimestampEnd": 1754892000,
-    "isEarningsDateEstimate": true,
+    "fiftyTwoWeekChangePercent": 97.81746,
+    "shortName": "HAYASHIKANE SANGYO CO",
+    "longName": "Hayashikane Sangyo Co.,Ltd.",
     "epsTrailingTwelveMonths": 182.85,
     "fiftyDayAverageChange": 178.88,
     "fiftyDayAverageChangePercent": 0.21864764,
@@ -1297,8 +1306,9 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 978307200000,
+    "earningsTimestampStart": 1754546400,
+    "earningsTimestampEnd": 1754892000,
+    "isEarningsDateEstimate": true,
     "trailingPegRatio": null
   }
 }

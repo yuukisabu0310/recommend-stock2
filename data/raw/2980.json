@@ -1,7 +1,7 @@
 {
   "ticker": "2980",
   "japanese_ticker": "2980.T",
-  "fetch_date": "2026-03-20T23:38:05.936170",
+  "fetch_date": "2026-03-21T23:32:37.799964",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": 31973956.0,
@@ -1134,8 +1134,8 @@
     "forwardEps": 154.3,
     "enterpriseToRevenue": 2.229,
     "enterpriseToEbitda": 13.161,
-    "52WeekChange": -0.11233336,
-    "SandP52WeekChange": 0.16888046,
+    "52WeekChange": -0.10517472,
+    "SandP52WeekChange": 0.12811458,
     "lastDividendValue": 18.0,
     "lastDividendDate": 1774828800,
     "quoteType": "EQUITY",
@@ -1170,6 +1170,15 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "shortName": "SRE HLDGS CORP",
+    "longName": "SRE Holdings Corporation",
+    "fiftyDayAverageChange": -221.41992,
+    "fiftyDayAverageChangePercent": -0.07676411,
+    "twoHundredDayAverageChange": -484.92505,
+    "twoHundredDayAverageChangePercent": -0.15404594,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "marketState": "CLOSED",
     "corporateActions": [
       {
         "header": "Dividend",
@@ -1191,6 +1200,7 @@
     "esgPopulated": false,
     "regularMarketChangePercent": -1.9513991,
     "regularMarketPrice": 2663.0,
+    "cryptoTradeable": false,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1576713600000,
     "regularMarketChange": -53.0,
@@ -1202,7 +1212,7 @@
     "fiftyTwoWeekRange": "2418.0 - 3975.0",
     "fiftyTwoWeekHighChange": -1312.0,
     "fiftyTwoWeekHighChangePercent": -0.3300629,
-    "fiftyTwoWeekChangePercent": -11.2333355,
+    "fiftyTwoWeekChangePercent": -10.517472,
     "earningsTimestampStart": 1754287200,
     "earningsTimestampEnd": 1754632800,
     "earningsCallTimestampStart": 1731409140,
@@ -1210,16 +1220,6 @@
     "isEarningsDateEstimate": true,
     "epsTrailingTwelveMonths": 65.78,
     "epsForward": 154.3,
-    "fiftyDayAverageChange": -221.41992,
-    "fiftyDayAverageChangePercent": -0.07676411,
-    "twoHundredDayAverageChange": -484.92505,
-    "twoHundredDayAverageChangePercent": -0.15404594,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
-    "marketState": "CLOSED",
-    "shortName": "SRE HLDGS CORP",
-    "longName": "SRE Holdings Corporation",
     "trailingPegRatio": null
   }
 }

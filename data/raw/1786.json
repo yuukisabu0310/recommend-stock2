@@ -1,7 +1,7 @@
 {
   "ticker": "1786",
   "japanese_ticker": "1786.T",
-  "fetch_date": "2026-03-20T23:23:31.631020",
+  "fetch_date": "2026-03-21T23:19:02.367170",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": -12099000.0,
@@ -1221,8 +1221,8 @@
     "forwardEps": 34.7,
     "enterpriseToRevenue": 0.616,
     "enterpriseToEbitda": 6.745,
-    "52WeekChange": 0.021052599,
-    "SandP52WeekChange": 0.16888046,
+    "52WeekChange": 0.018372655,
+    "SandP52WeekChange": 0.12811458,
     "lastDividendValue": 7.5,
     "lastDividendDate": 1774828800,
     "quoteType": "EQUITY",
@@ -1259,22 +1259,13 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "marketState": "CLOSED",
-    "cryptoTradeable": false,
-    "hasPrePostMarketData": false,
-    "shortName": "ORIENTAL SHIRAISHI CORPORATION",
-    "longName": "Oriental Shiraishi Corporation",
-    "firstTradeDateMilliseconds": 1617235200000,
-    "regularMarketChange": -6.0,
-    "regularMarketDayRange": "381.0 - 390.0",
-    "fullExchangeName": "Tokyo",
     "averageDailyVolume3Month": 283053,
     "fiftyTwoWeekLowChange": 65.0,
     "fiftyTwoWeekLowChangePercent": 0.2012384,
     "fiftyTwoWeekRange": "323.0 - 440.0",
     "fiftyTwoWeekHighChange": -52.0,
     "fiftyTwoWeekHighChangePercent": -0.11818182,
-    "fiftyTwoWeekChangePercent": 2.10526,
+    "fiftyTwoWeekChangePercent": 1.8372655,
     "earningsTimestampStart": 1747133940,
     "earningsTimestampEnd": 1747133940,
     "isEarningsDateEstimate": false,
@@ -1287,8 +1278,25 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "averageAnalystRating": "2.5 - Buy",
-    "corporateActions": [],
+    "cryptoTradeable": false,
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "1786.T announced a cash dividend of JPY 7.50 with an ex-date of Mar. 30, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1774796400000,
+          "amount": "7.50"
+        }
+      }
+    ],
     "regularMarketTime": 1773901800,
+    "marketState": "CLOSED",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1617235200000,
+    "regularMarketChange": -6.0,
+    "regularMarketDayRange": "381.0 - 390.0",
+    "fullExchangeName": "Tokyo",
     "exchange": "JPX",
     "messageBoardId": "finmb_881621",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1298,6 +1306,8 @@
     "esgPopulated": false,
     "regularMarketChangePercent": -1.5228426,
     "regularMarketPrice": 388.0,
+    "shortName": "ORIENTAL SHIRAISHI CORPORATION",
+    "longName": "Oriental Shiraishi Corporation",
     "trailingPegRatio": null
   }
 }

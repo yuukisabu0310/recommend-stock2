@@ -1,7 +1,7 @@
 {
   "ticker": "2594",
   "japanese_ticker": "2594.T",
-  "fetch_date": "2026-03-20T23:33:24.259320",
+  "fetch_date": "2026-03-21T23:28:14.888196",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": -19720000.0,
@@ -1274,8 +1274,8 @@
     "trailingEps": 27.19,
     "enterpriseToRevenue": 0.607,
     "enterpriseToEbitda": 35.573,
-    "52WeekChange": -0.023448944,
-    "SandP52WeekChange": 0.16888046,
+    "52WeekChange": -0.02582848,
+    "SandP52WeekChange": 0.12811458,
     "lastDividendValue": 6.0,
     "lastDividendDate": 1774828800,
     "quoteType": "EQUITY",
@@ -1304,8 +1304,6 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 978307200000,
     "regularMarketChange": -11.0,
     "regularMarketDayRange": "1999.0 - 2011.0",
     "fullExchangeName": "Tokyo",
@@ -1315,13 +1313,21 @@
     "fiftyTwoWeekRange": "1904.0 - 2159.0",
     "fiftyTwoWeekHighChange": -160.0,
     "fiftyTwoWeekHighChangePercent": -0.074108385,
-    "fiftyTwoWeekChangePercent": -2.3448944,
+    "fiftyTwoWeekChangePercent": -2.582848,
     "earningsTimestampStart": 1753678800,
     "earningsTimestampEnd": 1754024400,
     "isEarningsDateEstimate": true,
     "epsTrailingTwelveMonths": 27.19,
     "fiftyDayAverageChange": 1.5200195,
     "fiftyDayAverageChangePercent": 0.0007609686,
+    "twoHundredDayAverageChange": 12.045044,
+    "twoHundredDayAverageChangePercent": 0.006062062,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "shortName": "KEY COFFEE INC",
+    "longName": "Key Coffee Inc.",
+    "corporateActions": [],
+    "regularMarketTime": 1773901800,
     "exchange": "JPX",
     "messageBoardId": "finmb_882237",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1331,26 +1337,10 @@
     "esgPopulated": false,
     "regularMarketChangePercent": -0.5472637,
     "regularMarketPrice": 1999.0,
-    "twoHundredDayAverageChange": 12.045044,
-    "twoHundredDayAverageChangePercent": 0.006062062,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 978307200000,
     "marketState": "CLOSED",
-    "corporateActions": [
-      {
-        "header": "Dividend",
-        "message": "2594.T announced a cash dividend of JPY 6.00 with an ex-date of Mar. 30, 2026",
-        "meta": {
-          "eventType": "DIVIDEND",
-          "dateEpochMs": 1774796400000,
-          "amount": "6.00"
-        }
-      }
-    ],
-    "regularMarketTime": 1773901800,
-    "shortName": "KEY COFFEE INC",
-    "longName": "Key Coffee Inc.",
     "trailingPegRatio": null
   }
 }

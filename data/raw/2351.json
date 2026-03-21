@@ -1,7 +1,7 @@
 {
   "ticker": "2351",
   "japanese_ticker": "2351.T",
-  "fetch_date": "2026-03-20T23:30:42.378659",
+  "fetch_date": "2026-03-21T23:25:42.716560",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": 0.0,
@@ -998,7 +998,7 @@
     "tradeable": false,
     "enterpriseValue": 2460281344,
     "profitMargins": 0.08656,
-    "floatShares": 4007281,
+    "floatShares": 3965072,
     "sharesOutstanding": 7801882,
     "heldPercentInsiders": 0.45049,
     "heldPercentInstitutions": 0.07891,
@@ -1015,8 +1015,8 @@
     "lastSplitDate": 1380153600,
     "enterpriseToRevenue": 0.891,
     "enterpriseToEbitda": 5.535,
-    "52WeekChange": 0.025495768,
-    "SandP52WeekChange": 0.16888046,
+    "52WeekChange": 0.022598863,
+    "SandP52WeekChange": 0.12811458,
     "lastDividendValue": 3.0,
     "lastDividendDate": 1774828800,
     "quoteType": "EQUITY",
@@ -1047,20 +1047,13 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "shortName": "ASJ INC",
-    "longName": "ASJ Inc.",
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1043971200000,
-    "regularMarketChange": -9.0,
-    "regularMarketDayRange": "362.0 - 375.0",
-    "fullExchangeName": "Tokyo",
     "averageDailyVolume3Month": 28239,
     "fiftyTwoWeekLowChange": 91.0,
     "fiftyTwoWeekLowChangePercent": 0.33579335,
     "fiftyTwoWeekRange": "271.0 - 441.0",
     "fiftyTwoWeekHighChange": -79.0,
     "fiftyTwoWeekHighChangePercent": -0.17913832,
-    "fiftyTwoWeekChangePercent": 2.5495768,
+    "fiftyTwoWeekChangePercent": 2.2598863,
     "earningsTimestampStart": 1747285200,
     "earningsTimestampEnd": 1747285200,
     "isEarningsDateEstimate": false,
@@ -1072,19 +1065,14 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
-    "marketState": "CLOSED",
-    "corporateActions": [
-      {
-        "header": "Dividend",
-        "message": "2351.T announced a cash dividend of JPY 3.00 with an ex-date of Mar. 30, 2026",
-        "meta": {
-          "eventType": "DIVIDEND",
-          "dateEpochMs": 1774796400000,
-          "amount": "3.00"
-        }
-      }
-    ],
+    "corporateActions": [],
     "regularMarketTime": 1773901800,
+    "marketState": "CLOSED",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1043971200000,
+    "regularMarketChange": -9.0,
+    "regularMarketDayRange": "362.0 - 375.0",
+    "fullExchangeName": "Tokyo",
     "exchange": "JPX",
     "messageBoardId": "finmb_8839417",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1094,6 +1082,8 @@
     "esgPopulated": false,
     "regularMarketChangePercent": -2.4258761,
     "regularMarketPrice": 362.0,
+    "shortName": "ASJ INC",
+    "longName": "ASJ Inc.",
     "trailingPegRatio": null
   }
 }

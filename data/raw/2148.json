@@ -1,7 +1,7 @@
 {
   "ticker": "2148",
   "japanese_ticker": "2148.T",
-  "fetch_date": "2026-03-20T23:27:40.360480",
+  "fetch_date": "2026-03-21T23:22:52.641191",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": 0.0,
@@ -1034,8 +1034,8 @@
     "lastSplitDate": 1448496000,
     "enterpriseToRevenue": 3.95,
     "enterpriseToEbitda": 15.856,
-    "52WeekChange": 0.16768289,
-    "SandP52WeekChange": 0.16888046,
+    "52WeekChange": 0.1683954,
+    "SandP52WeekChange": 0.12811458,
     "lastDividendValue": 100.0,
     "lastDividendDate": 1774828800,
     "quoteType": "EQUITY",
@@ -1068,6 +1068,28 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "marketState": "CLOSED",
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "2148.T announced a cash dividend of JPY 100.00 with an ex-date of Mar. 30, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1774796400000,
+          "amount": "100.00"
+        }
+      }
+    ],
+    "regularMarketTime": 1773901800,
+    "exchange": "JPX",
+    "messageBoardId": "finmb_21770608",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
+    "regularMarketChangePercent": -0.20844188,
+    "regularMarketPrice": 1915.0,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1176940800000,
     "regularMarketChange": -4.0,
@@ -1079,10 +1101,9 @@
     "fiftyTwoWeekRange": "1266.0 - 1920.0",
     "fiftyTwoWeekHighChange": -5.0,
     "fiftyTwoWeekHighChangePercent": -0.0026041667,
-    "fiftyTwoWeekChangePercent": 16.768288,
-    "earningsTimestampStart": 1754294400,
-    "earningsTimestampEnd": 1754640000,
-    "isEarningsDateEstimate": true,
+    "fiftyTwoWeekChangePercent": 16.83954,
+    "shortName": "ITMEDIA INC.",
+    "longName": "ITmedia Inc.",
     "epsTrailingTwelveMonths": 71.24,
     "epsForward": 82.5,
     "fiftyDayAverageChange": 137.40002,
@@ -1091,21 +1112,10 @@
     "twoHundredDayAverageChangePercent": 0.16005765,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
-    "regularMarketChangePercent": -0.20844188,
-    "regularMarketPrice": 1915.0,
     "cryptoTradeable": false,
-    "marketState": "CLOSED",
-    "longName": "ITmedia Inc.",
-    "regularMarketTime": 1773901800,
-    "exchange": "JPX",
-    "messageBoardId": "finmb_21770608",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
-    "corporateActions": [],
-    "shortName": "ITMEDIA INC.",
+    "earningsTimestampStart": 1754294400,
+    "earningsTimestampEnd": 1754640000,
+    "isEarningsDateEstimate": true,
     "trailingPegRatio": null
   }
 }

@@ -1,7 +1,7 @@
 {
   "ticker": "2488",
   "japanese_ticker": "2488.T",
-  "fetch_date": "2026-03-20T23:32:37.640950",
+  "fetch_date": "2026-03-21T23:27:31.426887",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": -15953145.278217,
@@ -1098,8 +1098,8 @@
     "lastSplitDate": 1364342400,
     "enterpriseToRevenue": 0.548,
     "enterpriseToEbitda": 8.12,
-    "52WeekChange": -0.072612464,
-    "SandP52WeekChange": 0.16888046,
+    "52WeekChange": -0.08773291,
+    "SandP52WeekChange": 0.12811458,
     "lastDividendValue": 32.0,
     "lastDividendDate": 1774828800,
     "quoteType": "EQUITY",
@@ -1131,19 +1131,13 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "marketState": "CLOSED",
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1150934400000,
-    "regularMarketChange": -29.0,
-    "regularMarketDayRange": "1175.0 - 1203.0",
-    "fullExchangeName": "Tokyo",
     "averageDailyVolume3Month": 30132,
     "fiftyTwoWeekLowChange": 207.0,
     "fiftyTwoWeekLowChangePercent": 0.21384297,
     "fiftyTwoWeekRange": "968.0 - 1679.0",
     "fiftyTwoWeekHighChange": -504.0,
     "fiftyTwoWeekHighChangePercent": -0.30017868,
-    "fiftyTwoWeekChangePercent": -7.2612467,
+    "fiftyTwoWeekChangePercent": -8.773291,
     "earningsTimestampStart": 1747291200,
     "earningsTimestampEnd": 1747291200,
     "isEarningsDateEstimate": false,
@@ -1155,24 +1149,16 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "prevName": "Japan Third Party Co., Ltd.",
-    "nameChangeDate": "2026-03-20",
+    "nameChangeDate": "2026-03-21",
     "cryptoTradeable": false,
-    "shortName": "JTP CO LTD",
-    "longName": "JTP Co.,Ltd.",
-    "regularMarketChangePercent": -2.4086378,
-    "regularMarketPrice": 1175.0,
-    "corporateActions": [
-      {
-        "header": "Dividend",
-        "message": "2488.T announced a cash dividend of JPY 32.00 with an ex-date of Mar. 30, 2026",
-        "meta": {
-          "eventType": "DIVIDEND",
-          "dateEpochMs": 1774796400000,
-          "amount": "32.00"
-        }
-      }
-    ],
+    "corporateActions": [],
     "regularMarketTime": 1773901800,
+    "marketState": "CLOSED",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1150934400000,
+    "regularMarketChange": -29.0,
+    "regularMarketDayRange": "1175.0 - 1203.0",
+    "fullExchangeName": "Tokyo",
     "exchange": "JPX",
     "messageBoardId": "finmb_27352078",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1180,6 +1166,10 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
+    "regularMarketChangePercent": -2.4086378,
+    "regularMarketPrice": 1175.0,
+    "shortName": "JTP CO LTD",
+    "longName": "JTP Co.,Ltd.",
     "trailingPegRatio": null
   }
 }

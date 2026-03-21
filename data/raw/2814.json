@@ -1,7 +1,7 @@
 {
   "ticker": "2814",
   "japanese_ticker": "2814.T",
-  "fetch_date": "2026-03-20T23:36:16.306751",
+  "fetch_date": "2026-03-21T23:30:56.727195",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": 20697516.0,
@@ -1205,7 +1205,7 @@
     "enterpriseToRevenue": -0.335,
     "enterpriseToEbitda": -2.266,
     "52WeekChange": 0.34024894,
-    "SandP52WeekChange": 0.16888046,
+    "SandP52WeekChange": 0.12811458,
     "lastDividendValue": 22.0,
     "lastDividendDate": 1774828800,
     "quoteType": "EQUITY",
@@ -1236,9 +1236,32 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "shortName": "SATO FOODS INDUSTRIES CO",
+    "longName": "Sato Foods Industries Co., Ltd.",
+    "marketState": "CLOSED",
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "2814.T announced a cash dividend of JPY 22.00 with an ex-date of Mar. 30, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1774796400000,
+          "amount": "22.00"
+        }
+      }
+    ],
+    "regularMarketTime": 1773901800,
+    "exchange": "JPX",
+    "messageBoardId": "finmb_9155770",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
     "regularMarketChangePercent": -0.9202454,
     "regularMarketPrice": 3230.0,
-    "marketState": "CLOSED",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 947030400000,
     "regularMarketChange": -30.0,
     "regularMarketDayRange": "3225.0 - 3295.0",
     "fullExchangeName": "Tokyo",
@@ -1260,29 +1283,6 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
-    "shortName": "SATO FOODS INDUSTRIES CO",
-    "longName": "Sato Foods Industries Co., Ltd.",
-    "corporateActions": [
-      {
-        "header": "Dividend",
-        "message": "2814.T announced a cash dividend of JPY 22.00 with an ex-date of Mar. 30, 2026",
-        "meta": {
-          "eventType": "DIVIDEND",
-          "dateEpochMs": 1774796400000,
-          "amount": "22.00"
-        }
-      }
-    ],
-    "regularMarketTime": 1773901800,
-    "exchange": "JPX",
-    "messageBoardId": "finmb_9155770",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 947030400000,
     "trailingPegRatio": null
   }
 }

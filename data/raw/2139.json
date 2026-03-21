@@ -1,7 +1,7 @@
 {
   "ticker": "2139",
   "japanese_ticker": "2139.T",
-  "fetch_date": "2026-03-20T23:27:35.842453",
+  "fetch_date": "2026-03-21T23:22:48.462284",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": -10182972.0,
@@ -1141,7 +1141,7 @@
     "enterpriseToRevenue": 0.235,
     "enterpriseToEbitda": 6.942,
     "52WeekChange": 0.13932586,
-    "SandP52WeekChange": 0.16888046,
+    "SandP52WeekChange": 0.12811458,
     "lastDividendValue": 12.0,
     "lastDividendDate": 1774828800,
     "quoteType": "EQUITY",
@@ -1172,16 +1172,6 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "marketState": "CLOSED",
-    "corporateActions": [],
-    "regularMarketTime": 1773901800,
-    "exchange": "JPX",
-    "messageBoardId": "finmb_31211892",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1419206400000,
     "regularMarketChange": -7.0,
@@ -1195,6 +1185,28 @@
     "fiftyTwoWeekHighChangePercent": -0.10265487,
     "fiftyTwoWeekChangePercent": 13.932586,
     "earningsTimestampStart": 1754549400,
+    "cryptoTradeable": false,
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "2139.T announced a cash dividend of JPY 12.00 with an ex-date of Mar. 30, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1774796400000,
+          "amount": "12.00"
+        }
+      }
+    ],
+    "regularMarketTime": 1773901800,
+    "exchange": "JPX",
+    "messageBoardId": "finmb_31211892",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
+    "regularMarketChangePercent": -1.3618677,
+    "regularMarketPrice": 507.0,
     "earningsTimestampEnd": 1754895000,
     "isEarningsDateEstimate": true,
     "epsTrailingTwelveMonths": 18.15,
@@ -1202,13 +1214,11 @@
     "fiftyDayAverageChangePercent": 0.05177992,
     "twoHundredDayAverageChange": 59.670013,
     "twoHundredDayAverageChangePercent": 0.13339148,
-    "shortName": "CHUCO CO.LTD",
-    "longName": "Chuco Co., Ltd.",
-    "regularMarketChangePercent": -1.3618677,
-    "regularMarketPrice": 507.0,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
+    "shortName": "CHUCO CO.LTD",
+    "longName": "Chuco Co., Ltd.",
+    "marketState": "CLOSED",
     "trailingPegRatio": null
   }
 }

@@ -1,7 +1,7 @@
 {
   "ticker": "2179",
   "japanese_ticker": "2179.T",
-  "fetch_date": "2026-03-20T23:28:14.205062",
+  "fetch_date": "2026-03-21T23:23:22.942523",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": -29366026.6,
@@ -1171,8 +1171,8 @@
     "lastSplitDate": 1348617600,
     "enterpriseToRevenue": 0.346,
     "enterpriseToEbitda": 3.859,
-    "52WeekChange": -0.018072307,
-    "SandP52WeekChange": 0.16888046,
+    "52WeekChange": -0.016887844,
+    "SandP52WeekChange": 0.12811458,
     "lastDividendValue": 11.0,
     "lastDividendDate": 1774828800,
     "quoteType": "EQUITY",
@@ -1203,33 +1203,11 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "regularMarketChangePercent": 0.0,
-    "regularMarketPrice": 815.0,
-    "corporateActions": [
-      {
-        "header": "Dividend",
-        "message": "2179.T announced a cash dividend of JPY 11.00 with an ex-date of Mar. 30, 2026",
-        "meta": {
-          "eventType": "DIVIDEND",
-          "dateEpochMs": 1774796400000,
-          "amount": "11.00"
-        }
-      }
-    ],
-    "regularMarketTime": 1773898940,
-    "exchange": "JPX",
-    "messageBoardId": "finmb_46987108",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
-    "marketState": "CLOSED",
-    "cryptoTradeable": false,
     "shortName": "SEIGAKUSHA CO LTD",
     "longName": "Seigakusha Co.,Ltd.",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1219363200000,
+    "marketState": "CLOSED",
     "regularMarketChange": 0.0,
     "regularMarketDayRange": "814.0 - 816.0",
     "fullExchangeName": "Tokyo",
@@ -1239,7 +1217,7 @@
     "fiftyTwoWeekRange": "671.0 - 830.0",
     "fiftyTwoWeekHighChange": -15.0,
     "fiftyTwoWeekHighChangePercent": -0.018072288,
-    "fiftyTwoWeekChangePercent": -1.8072307,
+    "fiftyTwoWeekChangePercent": -1.6887844,
     "earningsTimestampStart": 1747290600,
     "earningsTimestampEnd": 1747290600,
     "isEarningsDateEstimate": false,
@@ -1251,7 +1229,19 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "prevName": "Seigakusya Co., Ltd.",
-    "nameChangeDate": "2026-03-20",
+    "nameChangeDate": "2026-03-21",
+    "corporateActions": [],
+    "regularMarketTime": 1773898940,
+    "exchange": "JPX",
+    "messageBoardId": "finmb_46987108",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
+    "regularMarketChangePercent": 0.0,
+    "regularMarketPrice": 815.0,
+    "cryptoTradeable": false,
     "trailingPegRatio": null
   }
 }

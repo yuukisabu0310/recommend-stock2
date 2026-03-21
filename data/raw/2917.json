@@ -1,7 +1,7 @@
 {
   "ticker": "2917",
   "japanese_ticker": "2917.T",
-  "fetch_date": "2026-03-20T23:37:18.366559",
+  "fetch_date": "2026-03-21T23:31:53.477378",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-09-30 00:00:00": 49476.0,
@@ -1052,8 +1052,8 @@
     "trailingEps": -14.79,
     "enterpriseToRevenue": 0.62,
     "enterpriseToEbitda": 34.087,
-    "52WeekChange": -0.009879231,
-    "SandP52WeekChange": 0.16888046,
+    "52WeekChange": -0.017429173,
+    "SandP52WeekChange": 0.12811458,
     "lastDividendValue": 10.0,
     "lastDividendDate": 1759104000,
     "quoteType": "EQUITY",
@@ -1084,11 +1084,6 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "longName": "Ohmoriya Co.,Ltd.",
-    "marketState": "CLOSED",
-    "shortName": "OHMORIYA CO LTD",
-    "corporateActions": [],
-    "regularMarketTime": 1773899355,
     "exchange": "JPX",
     "messageBoardId": "finmb_5606843",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1098,6 +1093,8 @@
     "esgPopulated": false,
     "regularMarketChangePercent": -0.66079295,
     "regularMarketPrice": 902.0,
+    "marketState": "CLOSED",
+    "cryptoTradeable": false,
     "regularMarketChange": -6.0,
     "regularMarketDayRange": "902.0 - 910.0",
     "fullExchangeName": "Tokyo",
@@ -1107,7 +1104,7 @@
     "fiftyTwoWeekRange": "883.0 - 979.0",
     "fiftyTwoWeekHighChange": -77.0,
     "fiftyTwoWeekHighChangePercent": -0.07865169,
-    "fiftyTwoWeekChangePercent": -0.98792315,
+    "fiftyTwoWeekChangePercent": -1.7429173,
     "earningsTimestampStart": 1754547300,
     "earningsTimestampEnd": 1754979300,
     "isEarningsDateEstimate": true,
@@ -1118,9 +1115,12 @@
     "twoHundredDayAverageChangePercent": -0.019394705,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 946944000000,
+    "corporateActions": [],
+    "regularMarketTime": 1773899355,
+    "shortName": "OHMORIYA CO LTD",
+    "longName": "Ohmoriya Co.,Ltd.",
     "trailingPegRatio": null
   }
 }

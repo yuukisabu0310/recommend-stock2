@@ -1,7 +1,7 @@
 {
   "ticker": "1723",
   "japanese_ticker": "1723.T",
-  "fetch_date": "2026-03-20T23:23:05.049604",
+  "fetch_date": "2026-03-21T23:18:36.026160",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": -48900317.32137,
@@ -328,7 +328,7 @@
       "2021-03-31 00:00:00": null
     },
     "Ordinary Shares Number": {
-      "2025-03-31 00:00:00": 15925136.0,
+      "2025-03-31 00:00:00": 15925116.0,
       "2024-03-31 00:00:00": 15918784.0,
       "2023-03-31 00:00:00": 16020806.0,
       "2022-03-31 00:00:00": 16016202.0,
@@ -1106,8 +1106,8 @@
     "lastSplitDate": 1774828800,
     "enterpriseToRevenue": 3.215,
     "enterpriseToEbitda": 12.784,
-    "52WeekChange": 1.7414248,
-    "SandP52WeekChange": 0.16888046,
+    "52WeekChange": 1.6917098,
+    "SandP52WeekChange": 0.12811458,
     "lastDividendValue": 91.0,
     "lastDividendDate": 1774828800,
     "quoteType": "EQUITY",
@@ -1133,8 +1133,6 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "marketState": "CLOSED",
-    "cryptoTradeable": false,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1047513600000,
     "regularMarketChange": -250.0,
@@ -1146,17 +1144,8 @@
     "fiftyTwoWeekRange": "3065.0 - 12590.0",
     "fiftyTwoWeekHighChange": -2200.0,
     "fiftyTwoWeekHighChangePercent": -0.17474186,
-    "fiftyTwoWeekChangePercent": 174.14249,
-    "earningsTimestampStart": 1746601200,
-    "earningsTimestampEnd": 1746601200,
-    "isEarningsDateEstimate": false,
-    "epsTrailingTwelveMonths": 486.25,
-    "fiftyDayAverageChange": -196.59961,
-    "fiftyDayAverageChangePercent": -0.01857061,
-    "twoHundredDayAverageChange": 3620.4248,
-    "twoHundredDayAverageChangePercent": 0.5348083,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
+    "fiftyTwoWeekChangePercent": 169.17097,
+    "marketState": "CLOSED",
     "corporateActions": [
       {
         "header": "Stock split",
@@ -1178,8 +1167,19 @@
     "esgPopulated": false,
     "regularMarketChangePercent": -2.3496242,
     "regularMarketPrice": 10390.0,
+    "earningsTimestampStart": 1746601200,
+    "earningsTimestampEnd": 1746601200,
+    "isEarningsDateEstimate": false,
+    "epsTrailingTwelveMonths": 486.25,
+    "fiftyDayAverageChange": -196.59961,
+    "fiftyDayAverageChangePercent": -0.01857061,
+    "twoHundredDayAverageChange": 3620.4248,
+    "twoHundredDayAverageChangePercent": 0.5348083,
     "shortName": "NIHON DENGI CO",
     "longName": "Nihon Dengi Co., Ltd.",
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
     "trailingPegRatio": null
   }
 }

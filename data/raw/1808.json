@@ -1,7 +1,7 @@
 {
   "ticker": "1808",
   "japanese_ticker": "1808.T",
-  "fetch_date": "2026-03-20T23:23:54.631458",
+  "fetch_date": "2026-03-21T23:19:25.170382",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": -5270576000.0,
@@ -1257,8 +1257,8 @@
     "lastSplitDate": 1380153600,
     "enterpriseToRevenue": 0.84,
     "enterpriseToEbitda": 10.391,
-    "52WeekChange": 0.47850144,
-    "SandP52WeekChange": 0.16888046,
+    "52WeekChange": 0.47664487,
+    "SandP52WeekChange": 0.12811458,
     "lastDividendValue": 45.0,
     "lastDividendDate": 1774828800,
     "quoteType": "EQUITY",
@@ -1294,19 +1294,7 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "regularMarketChangePercent": -4.3591413,
-    "regularMarketPrice": 2940.0,
-    "corporateActions": [
-      {
-        "header": "Dividend",
-        "message": "1808.T announced a cash dividend of JPY 45.00 with an ex-date of Mar. 30, 2026",
-        "meta": {
-          "eventType": "DIVIDEND",
-          "dateEpochMs": 1774796400000,
-          "amount": "45.00"
-        }
-      }
-    ],
+    "corporateActions": [],
     "regularMarketTime": 1773901800,
     "exchange": "JPX",
     "messageBoardId": "finmb_874112",
@@ -1315,10 +1303,11 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "marketState": "CLOSED",
-    "cryptoTradeable": false,
     "shortName": "HASEKO CORPORATION",
     "longName": "HASEKO Corporation",
+    "regularMarketChangePercent": -4.3591413,
+    "regularMarketPrice": 2940.0,
+    "marketState": "CLOSED",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 978307200000,
     "regularMarketChange": -134.0,
@@ -1330,7 +1319,7 @@
     "fiftyTwoWeekRange": "1788.0 - 3531.0",
     "fiftyTwoWeekHighChange": -591.0,
     "fiftyTwoWeekHighChangePercent": -0.16737469,
-    "fiftyTwoWeekChangePercent": 47.850143,
+    "fiftyTwoWeekChangePercent": 47.664486,
     "earningsTimestamp": 1770877800,
     "earningsTimestampStart": 1778740200,
     "earningsTimestampEnd": 1778740200,
@@ -1346,6 +1335,7 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "averageAnalystRating": "2.4 - Buy",
+    "cryptoTradeable": false,
     "trailingPegRatio": null
   }
 }

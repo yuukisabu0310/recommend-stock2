@@ -1,7 +1,7 @@
 {
   "ticker": "2221",
   "japanese_ticker": "2221.T",
-  "fetch_date": "2026-03-20T23:29:02.108264",
+  "fetch_date": "2026-03-21T23:24:07.491989",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": -7948039.4,
@@ -1119,8 +1119,8 @@
     "lastSplitDate": 1711584000,
     "enterpriseToRevenue": 1.117,
     "enterpriseToEbitda": 11.762,
-    "52WeekChange": 0.16087115,
-    "SandP52WeekChange": 0.16888046,
+    "52WeekChange": 0.17240155,
+    "SandP52WeekChange": 0.12811458,
     "lastDividendValue": 30.0,
     "lastDividendDate": 1774828800,
     "quoteType": "EQUITY",
@@ -1151,8 +1151,6 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 947203200000,
     "regularMarketChange": -30.0,
     "regularMarketDayRange": "3305.0 - 3335.0",
     "fullExchangeName": "Tokyo",
@@ -1162,7 +1160,7 @@
     "fiftyTwoWeekRange": "2559.0 - 3550.0",
     "fiftyTwoWeekHighChange": -245.0,
     "fiftyTwoWeekHighChangePercent": -0.06901409,
-    "fiftyTwoWeekChangePercent": 16.087114,
+    "fiftyTwoWeekChangePercent": 17.240154,
     "earningsTimestampStart": 1747204200,
     "earningsTimestampEnd": 1747204200,
     "isEarningsDateEstimate": false,
@@ -1173,11 +1171,19 @@
     "twoHundredDayAverageChangePercent": 0.082986906,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
-    "regularMarketChangePercent": -0.8995502,
-    "regularMarketPrice": 3305.0,
-    "cryptoTradeable": false,
-    "marketState": "CLOSED",
+    "shortName": "IWATSUKA CONFECTIONERY CO",
     "longName": "Iwatsuka Confectionery Co., Ltd.",
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "2221.T announced a cash dividend of JPY 30.00 with an ex-date of Mar. 30, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1774796400000,
+          "amount": "30.00"
+        }
+      }
+    ],
     "regularMarketTime": 1773901800,
     "exchange": "JPX",
     "messageBoardId": "finmb_5636761",
@@ -1186,8 +1192,12 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "corporateActions": [],
-    "shortName": "IWATSUKA CONFECTIONERY CO",
+    "regularMarketChangePercent": -0.8995502,
+    "regularMarketPrice": 3305.0,
+    "cryptoTradeable": false,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 947203200000,
+    "marketState": "CLOSED",
     "trailingPegRatio": null
   }
 }

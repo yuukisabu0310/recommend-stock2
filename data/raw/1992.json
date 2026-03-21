@@ -1,7 +1,7 @@
 {
   "ticker": "1992",
   "japanese_ticker": "1992.T",
-  "fetch_date": "2026-03-20T23:26:43.193212",
+  "fetch_date": "2026-03-21T23:21:59.500220",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": -29507912.266053,
@@ -1094,8 +1094,8 @@
     "volume": 200,
     "regularMarketVolume": 200,
     "averageVolume": 286,
-    "averageVolume10days": 80,
-    "averageDailyVolume10Day": 80,
+    "averageVolume10days": 88,
+    "averageDailyVolume10Day": 88,
     "bid": 2802.0,
     "ask": 0.0,
     "bidSize": 0,
@@ -1107,15 +1107,15 @@
     "allTimeHigh": 2930.0,
     "allTimeLow": 276.66666,
     "priceToSalesTrailing12Months": 0.9620584,
-    "fiftyDayAverage": 2800.86,
-    "twoHundredDayAverage": 2757.36,
+    "fiftyDayAverage": 2802.62,
+    "twoHundredDayAverage": 2758.395,
     "trailingAnnualDividendRate": 70.0,
     "trailingAnnualDividendYield": 0.024734983,
     "currency": "JPY",
     "tradeable": false,
     "enterpriseValue": 3557062144,
     "profitMargins": 0.038,
-    "floatShares": 894112,
+    "floatShares": 894043,
     "sharesOutstanding": 2290243,
     "heldPercentInsiders": 0.52677,
     "heldPercentInstitutions": 0.0,
@@ -1132,7 +1132,7 @@
     "enterpriseToRevenue": 0.528,
     "enterpriseToEbitda": 6.821,
     "52WeekChange": 0.0107142925,
-    "SandP52WeekChange": 0.16888046,
+    "SandP52WeekChange": 0.12811458,
     "lastDividendValue": 76.0,
     "lastDividendDate": 1774828800,
     "quoteType": "EQUITY",
@@ -1162,6 +1162,30 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "1992.T announced a cash dividend of JPY 76.00 with an ex-date of Mar. 30, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1774796400000,
+          "amount": "76.00"
+        }
+      }
+    ],
+    "regularMarketTime": 1773793271,
+    "exchange": "JPX",
+    "messageBoardId": "finmb_9264357",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
+    "shortName": "KANDA TSUSHINKI CO",
+    "longName": "Kanda Tsushinki Co., Ltd.",
+    "regularMarketChangePercent": 0.0,
+    "regularMarketPrice": 2830.0,
+    "marketState": "CLOSED",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 946944000000,
     "regularMarketChange": 0.0,
@@ -1178,37 +1202,13 @@
     "earningsTimestampEnd": 1747031400,
     "isEarningsDateEstimate": false,
     "epsTrailingTwelveMonths": 164.71,
-    "fiftyDayAverageChange": 29.139893,
-    "fiftyDayAverageChangePercent": 0.010403909,
-    "twoHundredDayAverageChange": 72.63989,
-    "twoHundredDayAverageChangePercent": 0.026344,
+    "fiftyDayAverageChange": 27.379883,
+    "fiftyDayAverageChangePercent": 0.009769388,
+    "twoHundredDayAverageChange": 71.60498,
+    "twoHundredDayAverageChangePercent": 0.02595893,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
-    "shortName": "KANDA TSUSHINKI CO",
-    "longName": "Kanda Tsushinki Co., Ltd.",
     "cryptoTradeable": false,
-    "exchange": "JPX",
-    "marketState": "CLOSED",
-    "corporateActions": [
-      {
-        "header": "Dividend",
-        "message": "1992.T announced a cash dividend of JPY 76.00 with an ex-date of Mar. 30, 2026",
-        "meta": {
-          "eventType": "DIVIDEND",
-          "dateEpochMs": 1774796400000,
-          "amount": "76.00"
-        }
-      }
-    ],
-    "regularMarketTime": 1773793271,
-    "messageBoardId": "finmb_9264357",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
-    "regularMarketChangePercent": 0.0,
-    "regularMarketPrice": 2830.0,
     "trailingPegRatio": null
   }
 }

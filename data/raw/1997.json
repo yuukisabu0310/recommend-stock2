@@ -1,7 +1,7 @@
 {
   "ticker": "1997",
   "japanese_ticker": "1997.T",
-  "fetch_date": "2026-03-20T23:26:47.377061",
+  "fetch_date": "2026-03-21T23:22:03.830253",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-08-31 00:00:00": 815458.0,
@@ -1213,8 +1213,8 @@
     "lastSplitDate": 1472428800,
     "enterpriseToRevenue": 1.719,
     "enterpriseToEbitda": 30.006,
-    "52WeekChange": 0.8819983,
-    "SandP52WeekChange": 0.16888046,
+    "52WeekChange": 0.8369063,
+    "SandP52WeekChange": 0.12811458,
     "lastDividendValue": 95.0,
     "lastDividendDate": 1787875200,
     "quoteType": "EQUITY",
@@ -1247,8 +1247,6 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 946944000000,
     "regularMarketChange": -60.0,
     "regularMarketDayRange": "4310.0 - 4440.0",
     "fullExchangeName": "Tokyo",
@@ -1258,7 +1256,7 @@
     "fiftyTwoWeekRange": "1990.0 - 4555.0",
     "fiftyTwoWeekHighChange": -185.0,
     "fiftyTwoWeekHighChangePercent": -0.04061471,
-    "fiftyTwoWeekChangePercent": 88.19983,
+    "fiftyTwoWeekChangePercent": 83.69063,
     "earningsTimestampStart": 1751522400,
     "earningsTimestampEnd": 1751868000,
     "isEarningsDateEstimate": true,
@@ -1269,10 +1267,8 @@
     "twoHundredDayAverageChangePercent": 0.27813098,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
     "shortName": "AKATSUKI EAZIMA CO LTD",
     "longName": "Akatsuki Eazima Co., Ltd.",
-    "marketState": "CLOSED",
     "corporateActions": [],
     "regularMarketTime": 1773901800,
     "exchange": "JPX",
@@ -1284,6 +1280,10 @@
     "esgPopulated": false,
     "regularMarketChangePercent": -1.3544018,
     "regularMarketPrice": 4370.0,
+    "cryptoTradeable": false,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 946944000000,
+    "marketState": "CLOSED",
     "trailingPegRatio": null
   }
 }

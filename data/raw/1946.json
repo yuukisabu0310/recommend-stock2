@@ -1,7 +1,7 @@
 {
   "ticker": "1946",
   "japanese_ticker": "1946.T",
-  "fetch_date": "2026-03-20T23:25:54.034563",
+  "fetch_date": "2026-03-21T23:21:16.388041",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": 288553400.0,
@@ -1239,7 +1239,7 @@
     "enterpriseToRevenue": 0.856,
     "enterpriseToEbitda": 7.582,
     "52WeekChange": 0.98814225,
-    "SandP52WeekChange": 0.16888046,
+    "SandP52WeekChange": 0.12811458,
     "lastDividendValue": 37.0,
     "lastDividendDate": 1774828800,
     "quoteType": "EQUITY",
@@ -1270,11 +1270,11 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "regularMarketChangePercent": -4.418052,
+    "regularMarketPrice": 2012.0,
+    "marketState": "CLOSED",
     "shortName": "TOENEC CORP",
     "longName": "Toenec Corporation",
-    "marketState": "CLOSED",
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 978307200000,
     "regularMarketChange": -93.0,
     "regularMarketDayRange": "2008.0 - 2057.0",
     "fullExchangeName": "Tokyo",
@@ -1295,16 +1295,6 @@
     "twoHundredDayAverageChangePercent": 0.21129294,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
-    "exchange": "JPX",
-    "messageBoardId": "finmb_875785",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
-    "regularMarketChangePercent": -4.418052,
-    "regularMarketPrice": 2012.0,
     "corporateActions": [
       {
         "header": "Dividend",
@@ -1317,6 +1307,16 @@
       }
     ],
     "regularMarketTime": 1773901800,
+    "exchange": "JPX",
+    "messageBoardId": "finmb_875785",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
+    "cryptoTradeable": false,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 978307200000,
     "trailingPegRatio": null
   }
 }

@@ -1,7 +1,7 @@
 {
   "ticker": "2329",
   "japanese_ticker": "2329.T",
-  "fetch_date": "2026-03-20T23:30:12.864341",
+  "fetch_date": "2026-03-21T23:25:15.273753",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": 2928636000.0,
@@ -1200,8 +1200,8 @@
     "lastSplitDate": 1719446400,
     "enterpriseToRevenue": 0.826,
     "enterpriseToEbitda": 10.055,
-    "52WeekChange": 0.049504995,
-    "SandP52WeekChange": 0.16888046,
+    "52WeekChange": 0.06532669,
+    "SandP52WeekChange": 0.12811458,
     "lastDividendValue": 6.77,
     "lastDividendDate": 1774828800,
     "quoteType": "EQUITY",
@@ -1231,27 +1231,9 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "regularMarketChangePercent": -1.3953488,
-    "regularMarketPrice": 636.0,
-    "marketState": "CLOSED",
-    "fiftyDayAverageChange": -10.880005,
-    "fiftyDayAverageChangePercent": -0.016819201,
-    "twoHundredDayAverageChange": 1.6799927,
-    "twoHundredDayAverageChangePercent": 0.002648494,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
-    "corporateActions": [
-      {
-        "header": "Dividend",
-        "message": "2329.T announced a cash dividend of JPY 6.77 with an ex-date of Mar. 30, 2026",
-        "meta": {
-          "eventType": "DIVIDEND",
-          "dateEpochMs": 1774796400000,
-          "amount": "6.77"
-        }
-      }
-    ],
+    "shortName": "TOHOKUSHINSHA FILM CORPORATION",
+    "longName": "Tohokushinsha Film Corporation",
+    "corporateActions": [],
     "regularMarketTime": 1773901800,
     "exchange": "JPX",
     "messageBoardId": "finmb_5522618",
@@ -1260,8 +1242,12 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "shortName": "TOHOKUSHINSHA FILM CORPORATION",
-    "longName": "Tohokushinsha Film Corporation",
+    "regularMarketChangePercent": -1.3953488,
+    "regularMarketPrice": 636.0,
+    "marketState": "CLOSED",
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1034035200000,
     "regularMarketChange": -9.0,
@@ -1273,11 +1259,15 @@
     "fiftyTwoWeekRange": "491.0 - 727.0",
     "fiftyTwoWeekHighChange": -91.0,
     "fiftyTwoWeekHighChangePercent": -0.12517194,
-    "fiftyTwoWeekChangePercent": 4.9504995,
+    "fiftyTwoWeekChangePercent": 6.532669,
     "earningsTimestampStart": 1747377000,
     "earningsTimestampEnd": 1747377000,
     "isEarningsDateEstimate": false,
     "epsTrailingTwelveMonths": 68.62,
+    "fiftyDayAverageChange": -10.880005,
+    "fiftyDayAverageChangePercent": -0.016819201,
+    "twoHundredDayAverageChange": 1.6799927,
+    "twoHundredDayAverageChangePercent": 0.002648494,
     "trailingPegRatio": null
   }
 }

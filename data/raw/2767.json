@@ -1,7 +1,7 @@
 {
   "ticker": "2767",
   "japanese_ticker": "2767.T",
-  "fetch_date": "2026-03-20T23:35:21.530576",
+  "fetch_date": "2026-03-21T23:30:08.011864",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": -65314000.0,
@@ -1304,7 +1304,7 @@
     "profitMargins": 0.0,
     "sharesOutstanding": 62230845,
     "heldPercentInsiders": 0.45187,
-    "heldPercentInstitutions": 0.29927,
+    "heldPercentInstitutions": 0.29926002,
     "impliedSharesOutstanding": 62230845,
     "bookValue": 997.445,
     "priceToBook": 1.4567219,
@@ -1318,8 +1318,8 @@
     "lastSplitDate": 1679011200,
     "enterpriseToRevenue": 0.347,
     "enterpriseToEbitda": 2.597,
-    "52WeekChange": -0.15914351,
-    "SandP52WeekChange": 0.16888046,
+    "52WeekChange": -0.15227538,
+    "SandP52WeekChange": 0.12811458,
     "lastDividendValue": 50.0,
     "lastDividendDate": 1774828800,
     "quoteType": "EQUITY",
@@ -1328,8 +1328,7 @@
     "targetLowPrice": 2000.0,
     "targetMeanPrice": 2070.0,
     "targetMedianPrice": 2070.0,
-    "recommendationMean": 1.0,
-    "recommendationKey": "strong_buy",
+    "recommendationKey": "none",
     "numberOfAnalystOpinions": 2,
     "totalCash": 36511997952,
     "totalCashPerShare": 586.623,
@@ -1354,7 +1353,18 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "marketState": "CLOSED",
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "2767.T announced a cash dividend of JPY 50.00 with an ex-date of Mar. 30, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1774796400000,
+          "amount": "50.00"
+        }
+      }
+    ],
+    "regularMarketTime": 1773901800,
     "exchange": "JPX",
     "messageBoardId": "finmb_9860909",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1364,7 +1374,6 @@
     "esgPopulated": false,
     "regularMarketChangePercent": -3.7748344,
     "regularMarketPrice": 1453.0,
-    "isEarningsDateEstimate": true,
     "epsTrailingTwelveMonths": 286.39,
     "epsForward": 268.5,
     "fiftyDayAverageChange": -212.69995,
@@ -1374,13 +1383,11 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "prevName": "Fields Corporation",
-    "nameChangeDate": "2026-03-20",
-    "averageAnalystRating": "1.0 - Strong Buy",
+    "nameChangeDate": "2026-03-21",
     "cryptoTradeable": false,
     "shortName": "TSUBURAYA FIELDS HOLDINGS INC",
     "longName": "Tsuburaya Fields Holdings Inc.",
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1048032000000,
+    "marketState": "CLOSED",
     "regularMarketChange": -57.0,
     "regularMarketDayRange": "1453.0 - 1494.0",
     "fullExchangeName": "Tokyo",
@@ -1390,11 +1397,12 @@
     "fiftyTwoWeekRange": "1412.0 - 2498.0",
     "fiftyTwoWeekHighChange": -1045.0,
     "fiftyTwoWeekHighChangePercent": -0.41833466,
-    "fiftyTwoWeekChangePercent": -15.9143505,
+    "fiftyTwoWeekChangePercent": -15.227538,
     "earningsTimestampStart": 1754546400,
     "earningsTimestampEnd": 1754978400,
-    "corporateActions": [],
-    "regularMarketTime": 1773901800,
+    "isEarningsDateEstimate": true,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1048032000000,
     "trailingPegRatio": null
   }
 }

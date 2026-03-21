@@ -1,7 +1,7 @@
 {
   "ticker": "1827",
   "japanese_ticker": "1827.T",
-  "fetch_date": "2026-03-20T23:24:15.130801",
+  "fetch_date": "2026-03-21T23:19:45.149343",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": -2912000.0,
@@ -1087,8 +1087,8 @@
     "lastSplitDate": 1078790400,
     "enterpriseToRevenue": 0.147,
     "enterpriseToEbitda": 3.849,
-    "52WeekChange": 0.77435267,
-    "SandP52WeekChange": 0.16888046,
+    "52WeekChange": 0.7634804,
+    "SandP52WeekChange": 0.12811458,
     "lastDividendValue": 30.0,
     "lastDividendDate": 1774828800,
     "quoteType": "EQUITY",
@@ -1119,8 +1119,6 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "marketState": "CLOSED",
-    "cryptoTradeable": false,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 978307200000,
     "regularMarketChange": -61.0,
@@ -1132,10 +1130,15 @@
     "fiftyTwoWeekRange": "578.0 - 1710.0",
     "fiftyTwoWeekHighChange": -271.0,
     "fiftyTwoWeekHighChangePercent": -0.15847953,
-    "fiftyTwoWeekChangePercent": 77.435265,
+    "fiftyTwoWeekChangePercent": 76.348045,
     "earningsTimestampStart": 1754546400,
     "earningsTimestampEnd": 1754978400,
     "isEarningsDateEstimate": true,
+    "regularMarketChangePercent": -4.0666666,
+    "regularMarketPrice": 1439.0,
+    "marketState": "CLOSED",
+    "shortName": "NAKANO CORPORATION",
+    "longName": "Nakano Corporation",
     "epsTrailingTwelveMonths": 91.95,
     "fiftyDayAverageChange": 61.69995,
     "fiftyDayAverageChangePercent": 0.044797756,
@@ -1143,6 +1146,7 @@
     "twoHundredDayAverageChangePercent": 0.4463402,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
     "corporateActions": [
       {
         "header": "Dividend",
@@ -1162,10 +1166,6 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "regularMarketChangePercent": -4.0666666,
-    "regularMarketPrice": 1439.0,
-    "shortName": "NAKANO CORPORATION",
-    "longName": "Nakano Corporation",
     "trailingPegRatio": null
   }
 }

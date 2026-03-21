@@ -1,7 +1,7 @@
 {
   "ticker": "2108",
   "japanese_ticker": "2108.T",
-  "fetch_date": "2026-03-20T23:27:06.501015",
+  "fetch_date": "2026-03-21T23:22:21.829812",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": 847263157.894737,
@@ -1155,8 +1155,8 @@
     "lastSplitDate": 1475020800,
     "enterpriseToRevenue": 0.789,
     "enterpriseToEbitda": 20.948,
-    "52WeekChange": 0.7107943,
-    "SandP52WeekChange": 0.16888046,
+    "52WeekChange": 0.7333883,
+    "SandP52WeekChange": 0.12811458,
     "lastDividendValue": 160.0,
     "lastDividendDate": 1774828800,
     "quoteType": "EQUITY",
@@ -1186,7 +1186,9 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "epsTrailingTwelveMonths": -148.68,
+    "shortName": "NIPPON BEET SUGAR MANUFACTURING",
+    "longName": "Nippon Beet Sugar Manufacturing Co.,Ltd.",
+    "marketState": "CLOSED",
     "fiftyDayAverageChange": 11.100098,
     "fiftyDayAverageChangePercent": 0.0026498837,
     "twoHundredDayAverageChange": 985.2549,
@@ -1194,9 +1196,29 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "prevName": "Nippon Beet Sugar Manufacturing Co., Ltd.",
-    "nameChangeDate": "2026-03-20",
+    "nameChangeDate": "2026-03-21",
     "cryptoTradeable": false,
-    "marketState": "CLOSED",
+    "regularMarketChangePercent": -1.983664,
+    "regularMarketPrice": 4200.0,
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "2108.T announced a cash dividend of JPY 160.00 with an ex-date of Mar. 30, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1774796400000,
+          "amount": "160.00"
+        }
+      }
+    ],
+    "regularMarketTime": 1773901800,
+    "exchange": "JPX",
+    "messageBoardId": "finmb_879758",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 978307200000,
     "regularMarketChange": -85.0,
@@ -1208,23 +1230,11 @@
     "fiftyTwoWeekRange": "2021.0 - 4550.0",
     "fiftyTwoWeekHighChange": -350.0,
     "fiftyTwoWeekHighChangePercent": -0.07692308,
-    "fiftyTwoWeekChangePercent": 71.07943,
+    "fiftyTwoWeekChangePercent": 73.33883,
     "earningsTimestampStart": 1754542800,
     "earningsTimestampEnd": 1754974800,
     "isEarningsDateEstimate": true,
-    "regularMarketChangePercent": -1.983664,
-    "regularMarketPrice": 4200.0,
-    "corporateActions": [],
-    "regularMarketTime": 1773901800,
-    "exchange": "JPX",
-    "messageBoardId": "finmb_879758",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
-    "shortName": "NIPPON BEET SUGAR MANUFACTURING",
-    "longName": "Nippon Beet Sugar Manufacturing Co.,Ltd.",
+    "epsTrailingTwelveMonths": -148.68,
     "trailingPegRatio": null
   }
 }

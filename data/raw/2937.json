@@ -1,7 +1,7 @@
 {
   "ticker": "2937",
   "japanese_ticker": "2937.T",
-  "fetch_date": "2026-03-20T23:37:50.761726",
+  "fetch_date": "2026-03-21T23:32:23.796070",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": -44452360.0,
@@ -1190,8 +1190,8 @@
     "trailingEps": 54.67,
     "enterpriseToRevenue": 0.792,
     "enterpriseToEbitda": 12.962,
-    "52WeekChange": 0.077881575,
-    "SandP52WeekChange": 0.16888046,
+    "52WeekChange": 0.089420676,
+    "SandP52WeekChange": 0.12811458,
     "lastDividendValue": 35.0,
     "lastDividendDate": 1774828800,
     "quoteType": "EQUITY",
@@ -1222,28 +1222,6 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "marketState": "CLOSED",
-    "corporateActions": [
-      {
-        "header": "Dividend",
-        "message": "2937.T announced a cash dividend of JPY 35.00 with an ex-date of Mar. 30, 2026",
-        "meta": {
-          "eventType": "DIVIDEND",
-          "dateEpochMs": 1774796400000,
-          "amount": "35.00"
-        }
-      }
-    ],
-    "regularMarketTime": 1773901800,
-    "exchange": "JPX",
-    "messageBoardId": "finmb_52131307",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
-    "regularMarketChangePercent": -0.40299365,
-    "regularMarketPrice": 1730.0,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1671580800000,
     "regularMarketChange": -7.0,
@@ -1255,8 +1233,20 @@
     "fiftyTwoWeekRange": "1320.0 - 1991.0",
     "fiftyTwoWeekHighChange": -261.0,
     "fiftyTwoWeekHighChangePercent": -0.13108991,
-    "fiftyTwoWeekChangePercent": 7.7881575,
+    "fiftyTwoWeekChangePercent": 8.942068,
     "earningsTimestampStart": 1747121400,
+    "cryptoTradeable": false,
+    "corporateActions": [],
+    "regularMarketTime": 1773901800,
+    "exchange": "JPX",
+    "messageBoardId": "finmb_52131307",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
+    "regularMarketChangePercent": -0.40299365,
+    "regularMarketPrice": 1730.0,
     "earningsTimestampEnd": 1747121400,
     "isEarningsDateEstimate": false,
     "epsTrailingTwelveMonths": 54.67,
@@ -1266,9 +1256,9 @@
     "twoHundredDayAverageChangePercent": 0.026237257,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
     "shortName": "ST COUSAIR CO LTD",
     "longName": "St.Cousair Co., Ltd.",
+    "marketState": "CLOSED",
     "trailingPegRatio": null
   }
 }

@@ -1,7 +1,7 @@
 {
   "ticker": "2264",
   "japanese_ticker": "2264.T",
-  "fetch_date": "2026-03-20T23:29:12.349697",
+  "fetch_date": "2026-03-21T23:24:17.277826",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": -3381632000.0,
@@ -1168,8 +1168,8 @@
     "lastSplitDate": 1701216000,
     "enterpriseToRevenue": 0.812,
     "enterpriseToEbitda": 7.659,
-    "52WeekChange": 0.45774865,
-    "SandP52WeekChange": 0.16888046,
+    "52WeekChange": 0.464599,
+    "SandP52WeekChange": 0.12811458,
     "lastDividendValue": 48.0,
     "lastDividendDate": 1774828800,
     "quoteType": "EQUITY",
@@ -1205,8 +1205,6 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 978307200000,
     "regularMarketChange": -103.0,
     "regularMarketDayRange": "4661.0 - 4739.0",
     "fullExchangeName": "Tokyo",
@@ -1216,7 +1214,7 @@
     "fiftyTwoWeekRange": "2872.0 - 5056.0",
     "fiftyTwoWeekHighChange": -381.0,
     "fiftyTwoWeekHighChangePercent": -0.075356014,
-    "fiftyTwoWeekChangePercent": 45.774864,
+    "fiftyTwoWeekChangePercent": 46.4599,
     "earningsTimestamp": 1770877800,
     "earningsTimestampStart": 1778653800,
     "earningsTimestampEnd": 1778653800,
@@ -1225,12 +1223,6 @@
     "isEarningsDateEstimate": true,
     "epsTrailingTwelveMonths": 128.1,
     "epsForward": 248.07,
-    "fiftyDayAverageChange": 360.2798,
-    "fiftyDayAverageChangePercent": 0.08350015,
-    "twoHundredDayAverageChange": 1011.78,
-    "twoHundredDayAverageChangePercent": 0.27619964,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
     "corporateActions": [
       {
         "header": "Dividend",
@@ -1250,12 +1242,20 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
+    "marketState": "CLOSED",
     "shortName": "MORINAGA MILK INDUSTRY CO",
     "longName": "Morinaga Milk Industry Co., Ltd.",
-    "cryptoTradeable": false,
     "regularMarketChangePercent": -2.1557138,
     "regularMarketPrice": 4675.0,
-    "marketState": "CLOSED",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 978307200000,
+    "fiftyDayAverageChange": 360.2798,
+    "fiftyDayAverageChangePercent": 0.08350015,
+    "twoHundredDayAverageChange": 1011.78,
+    "twoHundredDayAverageChangePercent": 0.27619964,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
     "trailingPegRatio": null
   }
 }

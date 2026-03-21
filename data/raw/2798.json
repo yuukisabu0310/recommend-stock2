@@ -1,7 +1,7 @@
 {
   "ticker": "2798",
   "japanese_ticker": "2798.T",
-  "fetch_date": "2026-03-20T23:35:54.195999",
+  "fetch_date": "2026-03-21T23:30:36.230291",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-02-28 00:00:00": -1109100.0,
@@ -994,8 +994,8 @@
     "lastSplitDate": 1393372800,
     "enterpriseToRevenue": 0.764,
     "enterpriseToEbitda": 27.419,
-    "52WeekChange": -0.006814301,
-    "SandP52WeekChange": 0.16888046,
+    "52WeekChange": -0.0037593842,
+    "SandP52WeekChange": 0.12811458,
     "quoteType": "EQUITY",
     "currentPrice": 2915.0,
     "recommendationKey": "none",
@@ -1035,7 +1035,7 @@
     "fiftyTwoWeekRange": "2710.0 - 3030.0",
     "fiftyTwoWeekHighChange": -115.0,
     "fiftyTwoWeekHighChangePercent": -0.037953794,
-    "fiftyTwoWeekChangePercent": -0.6814301,
+    "fiftyTwoWeekChangePercent": -0.37593842,
     "earningsTimestampStart": 1744617600,
     "earningsTimestampEnd": 1744617600,
     "isEarningsDateEstimate": false,
@@ -1044,11 +1044,14 @@
     "fiftyDayAverageChangePercent": -0.020655265,
     "twoHundredDayAverageChange": -33.22998,
     "twoHundredDayAverageChangePercent": -0.011271163,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
     "marketState": "CLOSED",
-    "regularMarketChangePercent": -0.37593985,
-    "regularMarketPrice": 2915.0,
     "shortName": "Y'S TABLE CORP",
     "longName": "Y's Table Corporation",
+    "regularMarketChangePercent": -0.37593985,
+    "regularMarketPrice": 2915.0,
     "corporateActions": [],
     "regularMarketTime": 1773901800,
     "exchange": "JPX",
@@ -1058,9 +1061,6 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
     "trailingPegRatio": null
   }
 }

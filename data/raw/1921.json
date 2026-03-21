@@ -1,7 +1,7 @@
 {
   "ticker": "1921",
   "japanese_ticker": "1921.T",
-  "fetch_date": "2026-03-20T23:25:25.928654",
+  "fetch_date": "2026-03-21T23:20:50.541949",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": 1433793515.0,
@@ -1125,8 +1125,8 @@
     "trailingEps": 64.59,
     "enterpriseToRevenue": 2.83,
     "enterpriseToEbitda": 18.674,
-    "52WeekChange": 0.7285106,
-    "SandP52WeekChange": 0.16888046,
+    "52WeekChange": 0.72704077,
+    "SandP52WeekChange": 0.12811458,
     "lastDividendValue": 24.0,
     "lastDividendDate": 1774828800,
     "quoteType": "EQUITY",
@@ -1159,20 +1159,9 @@
     "customPriceAlertConfidence": "LOW",
     "shortName": "TOMOE CORPORATION",
     "longName": "Tomoe Corporation",
-    "corporateActions": [],
-    "regularMarketTime": 1773901800,
-    "exchange": "JPX",
-    "messageBoardId": "finmb_880629",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
-    "regularMarketChangePercent": -2.5431862,
-    "regularMarketPrice": 2031.0,
-    "marketState": "CLOSED",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 978307200000,
+    "marketState": "CLOSED",
     "regularMarketChange": -53.0,
     "regularMarketDayRange": "2031.0 - 2095.0",
     "fullExchangeName": "Tokyo",
@@ -1182,7 +1171,7 @@
     "fiftyTwoWeekRange": "1084.0 - 2339.0",
     "fiftyTwoWeekHighChange": -308.0,
     "fiftyTwoWeekHighChangePercent": -0.1316802,
-    "fiftyTwoWeekChangePercent": 72.85106,
+    "fiftyTwoWeekChangePercent": 72.70408,
     "earningsTimestampStart": 1754532000,
     "earningsTimestampEnd": 1754964000,
     "isEarningsDateEstimate": true,
@@ -1193,6 +1182,27 @@
     "twoHundredDayAverageChangePercent": 0.14918143,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "1921.T announced a cash dividend of JPY 24.00 with an ex-date of Mar. 30, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1774796400000,
+          "amount": "24.00"
+        }
+      }
+    ],
+    "regularMarketTime": 1773901800,
+    "exchange": "JPX",
+    "messageBoardId": "finmb_880629",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
+    "regularMarketChangePercent": -2.5431862,
+    "regularMarketPrice": 2031.0,
     "cryptoTradeable": false,
     "trailingPegRatio": null
   }

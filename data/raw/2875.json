@@ -1,7 +1,7 @@
 {
   "ticker": "2875",
   "japanese_ticker": "2875.T",
-  "fetch_date": "2026-03-20T23:36:38.318562",
+  "fetch_date": "2026-03-21T23:31:15.397371",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": -17712000.0,
@@ -1285,8 +1285,8 @@
     "forwardEps": 632.55,
     "enterpriseToRevenue": 1.603,
     "enterpriseToEbitda": 8.743,
-    "52WeekChange": 0.13595796,
-    "SandP52WeekChange": 0.16888046,
+    "52WeekChange": 0.12380552,
+    "SandP52WeekChange": 0.12811458,
     "lastDividendValue": 120.0,
     "lastDividendDate": 1774828800,
     "quoteType": "EQUITY",
@@ -1322,9 +1322,6 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "longName": "Toyo Suisan Kaisha, Ltd.",
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 978307200000,
     "regularMarketChange": -275.0,
     "regularMarketDayRange": "10815.0 - 10995.0",
     "fullExchangeName": "Tokyo",
@@ -1334,7 +1331,7 @@
     "fiftyTwoWeekRange": "7753.0 - 12405.0",
     "fiftyTwoWeekHighChange": -1585.0,
     "fiftyTwoWeekHighChangePercent": -0.12777106,
-    "fiftyTwoWeekChangePercent": 13.595796,
+    "fiftyTwoWeekChangePercent": 12.380552,
     "earningsTimestamp": 1769754600,
     "earningsTimestampStart": 1778481000,
     "earningsTimestampEnd": 1778481000,
@@ -1349,6 +1346,8 @@
     "twoHundredDayAverageChangePercent": 0.031488974,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
+    "shortName": "TOYO SUISAN KAISHA",
+    "longName": "Toyo Suisan Kaisha, Ltd.",
     "corporateActions": [
       {
         "header": "Dividend",
@@ -1361,8 +1360,6 @@
       }
     ],
     "regularMarketTime": 1773901800,
-    "cryptoTradeable": false,
-    "marketState": "CLOSED",
     "exchange": "JPX",
     "messageBoardId": "finmb_874950",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1372,7 +1369,10 @@
     "esgPopulated": false,
     "regularMarketChangePercent": -2.478594,
     "regularMarketPrice": 10820.0,
-    "shortName": "TOYO SUISAN KAISHA",
+    "cryptoTradeable": false,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 978307200000,
+    "marketState": "CLOSED",
     "trailingPegRatio": 2.362
   }
 }

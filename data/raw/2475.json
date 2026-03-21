@@ -1,7 +1,7 @@
 {
   "ticker": "2475",
   "japanese_ticker": "2475.T",
-  "fetch_date": "2026-03-20T23:32:20.564830",
+  "fetch_date": "2026-03-21T23:27:14.902498",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": -6472017.3,
@@ -1093,8 +1093,8 @@
     "lastSplitDate": 1419552000,
     "enterpriseToRevenue": 0.29,
     "enterpriseToEbitda": 3.006,
-    "52WeekChange": -0.12724215,
-    "SandP52WeekChange": 0.16888046,
+    "52WeekChange": -0.15242243,
+    "SandP52WeekChange": 0.12811458,
     "lastDividendValue": 37.5,
     "lastDividendDate": 1774828800,
     "quoteType": "EQUITY",
@@ -1124,9 +1124,14 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "regularMarketChangePercent": -0.57471263,
-    "regularMarketPrice": 1557.0,
-    "marketState": "CLOSED",
+    "fiftyDayAverageChangePercent": -0.02933809,
+    "twoHundredDayAverageChange": -116.410034,
+    "twoHundredDayAverageChangePercent": -0.06956456,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1205798400000,
     "regularMarketChange": -9.0,
     "regularMarketDayRange": "1552.0 - 1568.0",
     "fullExchangeName": "Tokyo",
@@ -1136,22 +1141,24 @@
     "fiftyTwoWeekRange": "1533.0 - 2199.0",
     "fiftyTwoWeekHighChange": -642.0,
     "fiftyTwoWeekHighChangePercent": -0.29195088,
-    "fiftyTwoWeekChangePercent": -12.724215,
+    "fiftyTwoWeekChangePercent": -15.242243,
     "earningsTimestampStart": 1754548200,
     "earningsTimestampEnd": 1754980200,
     "isEarningsDateEstimate": true,
     "epsTrailingTwelveMonths": 155.39,
     "epsForward": 178.2,
     "fiftyDayAverageChange": -47.06006,
-    "fiftyDayAverageChangePercent": -0.02933809,
-    "twoHundredDayAverageChange": -116.410034,
-    "twoHundredDayAverageChangePercent": -0.06956456,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
-    "shortName": "WDB HOLDINGS CO LTD",
-    "longName": "WDB Holdings Co., Ltd.",
-    "corporateActions": [],
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "2475.T announced a cash dividend of JPY 37.50 with an ex-date of Mar. 30, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1774796400000,
+          "amount": "37.50"
+        }
+      }
+    ],
     "regularMarketTime": 1773901800,
     "exchange": "JPX",
     "messageBoardId": "finmb_23317032",
@@ -1160,8 +1167,11 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1205798400000,
+    "shortName": "WDB HOLDINGS CO LTD",
+    "longName": "WDB Holdings Co., Ltd.",
+    "regularMarketChangePercent": -0.57471263,
+    "regularMarketPrice": 1557.0,
+    "marketState": "CLOSED",
     "trailingPegRatio": null
   }
 }

@@ -1,7 +1,7 @@
 {
   "ticker": "2425",
   "japanese_ticker": "2425.T",
-  "fetch_date": "2026-03-20T23:31:39.476860",
+  "fetch_date": "2026-03-21T23:26:37.406376",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": -8151228.0,
@@ -1071,7 +1071,7 @@
     "enterpriseToRevenue": 0.114,
     "enterpriseToEbitda": 1.931,
     "52WeekChange": -0.10183066,
-    "SandP52WeekChange": 0.16888046,
+    "SandP52WeekChange": 0.12811458,
     "lastDividendValue": 22.0,
     "lastDividendDate": 1774828800,
     "quoteType": "EQUITY",
@@ -1101,13 +1101,6 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "cryptoTradeable": false,
-    "shortName": "CARE SERVICE CO LTD",
-    "longName": "Care Service Co.,Ltd.",
-    "regularMarketChangePercent": 0.0,
-    "regularMarketPrice": 785.0,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1101427200000,
     "regularMarketChange": 0.0,
     "regularMarketDayRange": "782.0 - 786.0",
     "fullExchangeName": "Tokyo",
@@ -1122,13 +1115,17 @@
     "earningsTimestampEnd": 1747206000,
     "isEarningsDateEstimate": false,
     "epsTrailingTwelveMonths": 69.16,
-    "fiftyDayAverageChange": -13.820007,
-    "fiftyDayAverageChangePercent": -0.017300528,
-    "twoHundredDayAverageChange": -15.809998,
-    "twoHundredDayAverageChangePercent": -0.019742507,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "corporateActions": [],
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "2425.T announced a cash dividend of JPY 22.00 with an ex-date of Mar. 30, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1774796400000,
+          "amount": "22.00"
+        }
+      }
+    ],
     "regularMarketTime": 1773901800,
     "exchange": "JPX",
     "messageBoardId": "finmb_13009566",
@@ -1138,6 +1135,19 @@
     "market": "jp_market",
     "esgPopulated": false,
     "marketState": "CLOSED",
+    "shortName": "CARE SERVICE CO LTD",
+    "longName": "Care Service Co.,Ltd.",
+    "regularMarketChangePercent": 0.0,
+    "regularMarketPrice": 785.0,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1101427200000,
+    "fiftyDayAverageChange": -13.820007,
+    "fiftyDayAverageChangePercent": -0.017300528,
+    "twoHundredDayAverageChange": -15.809998,
+    "twoHundredDayAverageChangePercent": -0.019742507,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
     "trailingPegRatio": null
   }
 }

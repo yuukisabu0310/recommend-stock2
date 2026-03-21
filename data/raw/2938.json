@@ -1,7 +1,7 @@
 {
   "ticker": "2938",
   "japanese_ticker": "2938.T",
-  "fetch_date": "2026-03-20T23:37:53.288877",
+  "fetch_date": "2026-03-21T23:32:25.578113",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-06-30 00:00:00": 32746800.0,
@@ -1237,8 +1237,8 @@
     "lastSplitDate": 1750982400,
     "enterpriseToRevenue": 2.32,
     "enterpriseToEbitda": 17.773,
-    "52WeekChange": 0.59704256,
-    "SandP52WeekChange": 0.16888046,
+    "52WeekChange": 0.55535555,
+    "SandP52WeekChange": 0.12811458,
     "lastDividendValue": 4.0,
     "lastDividendDate": 1782691200,
     "quoteType": "EQUITY",
@@ -1271,8 +1271,12 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "longName": "Okamura Foods Co., Ltd.",
+    "regularMarketChangePercent": -3.1932776,
+    "regularMarketPrice": 1152.0,
     "corporateActions": [],
     "regularMarketTime": 1773901800,
+    "shortName": "OKAMURA FOODS CO LTD",
     "exchange": "JPX",
     "messageBoardId": "finmb_5396072",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1280,8 +1284,8 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "regularMarketChangePercent": -3.1932776,
-    "regularMarketPrice": 1152.0,
+    "marketState": "CLOSED",
+    "cryptoTradeable": false,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1695772800000,
     "regularMarketChange": -38.0,
@@ -1293,7 +1297,7 @@
     "fiftyTwoWeekRange": "683.3333 - 1459.0",
     "fiftyTwoWeekHighChange": -307.0,
     "fiftyTwoWeekHighChangePercent": -0.21041809,
-    "fiftyTwoWeekChangePercent": 59.704254,
+    "fiftyTwoWeekChangePercent": 55.535553,
     "earningsTimestampStart": 1747198800,
     "earningsTimestampEnd": 1747198800,
     "isEarningsDateEstimate": false,
@@ -1304,10 +1308,6 @@
     "twoHundredDayAverageChangePercent": -0.012344252,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
-    "marketState": "CLOSED",
-    "shortName": "OKAMURA FOODS CO LTD",
-    "longName": "Okamura Foods Co., Ltd.",
     "trailingPegRatio": null
   }
 }

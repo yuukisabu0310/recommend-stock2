@@ -1,7 +1,7 @@
 {
   "ticker": "2222",
   "japanese_ticker": "2222.T",
-  "fetch_date": "2026-03-20T23:29:03.770404",
+  "fetch_date": "2026-03-21T23:24:09.119494",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": -15024000.0,
@@ -1145,8 +1145,8 @@
     "lastSplitDate": 1695859200,
     "enterpriseToRevenue": 3.598,
     "enterpriseToEbitda": 14.024,
-    "52WeekChange": -0.22767591,
-    "SandP52WeekChange": 0.16888046,
+    "52WeekChange": -0.22569168,
+    "SandP52WeekChange": 0.12811458,
     "lastDividendValue": 35.0,
     "lastDividendDate": 1774828800,
     "quoteType": "EQUITY",
@@ -1181,6 +1181,20 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "marketState": "CLOSED",
+    "corporateActions": [],
+    "regularMarketTime": 1773901800,
+    "exchange": "JPX",
+    "messageBoardId": "finmb_5382199",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
+    "regularMarketChangePercent": -2.5615518,
+    "regularMarketPrice": 1959.0,
+    "shortName": "KOTOBUKI SPIRITS",
+    "longName": "Kotobuki Spirits Co., Ltd.",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1266796800000,
     "regularMarketChange": -51.5,
@@ -1192,7 +1206,7 @@
     "fiftyTwoWeekRange": "1718.5 - 2570.0",
     "fiftyTwoWeekHighChange": -611.0,
     "fiftyTwoWeekHighChangePercent": -0.23774318,
-    "fiftyTwoWeekChangePercent": -22.767591,
+    "fiftyTwoWeekChangePercent": -22.569168,
     "earningsTimestamp": 1770013800,
     "earningsTimestampStart": 1778653800,
     "earningsTimestampEnd": 1778653800,
@@ -1205,31 +1219,7 @@
     "twoHundredDayAverageChangePercent": 0.020341758,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
-    "regularMarketChangePercent": -2.5615518,
-    "regularMarketPrice": 1959.0,
     "cryptoTradeable": false,
-    "marketState": "CLOSED",
-    "longName": "Kotobuki Spirits Co., Ltd.",
-    "regularMarketTime": 1773901800,
-    "exchange": "JPX",
-    "messageBoardId": "finmb_5382199",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
-    "corporateActions": [
-      {
-        "header": "Dividend",
-        "message": "2222.T announced a cash dividend of JPY 35.00 with an ex-date of Mar. 30, 2026",
-        "meta": {
-          "eventType": "DIVIDEND",
-          "dateEpochMs": 1774796400000,
-          "amount": "35.00"
-        }
-      }
-    ],
-    "shortName": "KOTOBUKI SPIRITS",
     "trailingPegRatio": null
   }
 }

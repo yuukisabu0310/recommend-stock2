@@ -1,7 +1,7 @@
 {
   "ticker": "1803",
   "japanese_ticker": "1803.T",
-  "fetch_date": "2026-03-20T23:23:50.198025",
+  "fetch_date": "2026-03-21T23:19:21.114277",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": 12842550000.0,
@@ -1182,7 +1182,7 @@
     "enterpriseToRevenue": 1.091,
     "enterpriseToEbitda": 15.319,
     "52WeekChange": 1.1029732,
-    "SandP52WeekChange": 0.16888046,
+    "SandP52WeekChange": 0.12811458,
     "lastDividendValue": 43.0,
     "lastDividendDate": 1774828800,
     "quoteType": "EQUITY",
@@ -1219,6 +1219,19 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "longName": "Shimizu Corporation",
+    "regularMarketTime": 1773901800,
+    "exchange": "JPX",
+    "messageBoardId": "finmb_875399",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
+    "regularMarketChangePercent": -6.2095733,
+    "regularMarketPrice": 2900.0,
+    "shortName": "SHIMIZU CORP",
+    "cryptoTradeable": false,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 946944000000,
     "regularMarketChange": -192.0,
@@ -1246,10 +1259,6 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "averageAnalystRating": "2.6 - Hold",
-    "cryptoTradeable": false,
-    "shortName": "SHIMIZU CORP",
-    "longName": "Shimizu Corporation",
-    "marketState": "CLOSED",
     "corporateActions": [
       {
         "header": "Dividend",
@@ -1261,16 +1270,7 @@
         }
       }
     ],
-    "regularMarketTime": 1773901800,
-    "exchange": "JPX",
-    "messageBoardId": "finmb_875399",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
-    "regularMarketChangePercent": -6.2095733,
-    "regularMarketPrice": 2900.0,
+    "marketState": "CLOSED",
     "trailingPegRatio": null
   }
 }

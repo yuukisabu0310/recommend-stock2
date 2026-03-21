@@ -1,7 +1,7 @@
 {
   "ticker": "3004",
   "japanese_ticker": "3004.T",
-  "fetch_date": "2026-03-20T23:38:35.902556",
+  "fetch_date": "2026-03-21T23:33:05.786149",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": 3737000.0,
@@ -1189,8 +1189,8 @@
     "lastSplitDate": 1506470400,
     "enterpriseToRevenue": 0.498,
     "enterpriseToEbitda": 11.331,
-    "52WeekChange": 0.4994166,
-    "SandP52WeekChange": 0.16888046,
+    "52WeekChange": 0.48899186,
+    "SandP52WeekChange": 0.12811458,
     "lastDividendValue": 110.0,
     "lastDividendDate": 1774828800,
     "quoteType": "EQUITY",
@@ -1221,9 +1221,17 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "shortName": "SHINYEI KAISHA",
-    "longName": "Shinyei Kaisha",
-    "corporateActions": [],
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "3004.T announced a cash dividend of JPY 110.00 with an ex-date of Mar. 30, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1774796400000,
+          "amount": "110.00"
+        }
+      }
+    ],
     "regularMarketTime": 1773901800,
     "exchange": "JPX",
     "messageBoardId": "finmb_881023",
@@ -1235,8 +1243,15 @@
     "regularMarketChangePercent": -0.8870034,
     "regularMarketPrice": 2570.0,
     "marketState": "CLOSED",
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 978307200000,
+    "shortName": "SHINYEI KAISHA",
+    "longName": "Shinyei Kaisha",
+    "fiftyDayAverageChange": -24.02002,
+    "fiftyDayAverageChangePercent": -0.009259767,
+    "twoHundredDayAverageChange": 336.1599,
+    "twoHundredDayAverageChangePercent": 0.15048522,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
     "regularMarketChange": -23.0,
     "regularMarketDayRange": "2560.0 - 2593.0",
     "fullExchangeName": "Tokyo",
@@ -1246,18 +1261,13 @@
     "fiftyTwoWeekRange": "1402.0 - 2827.0",
     "fiftyTwoWeekHighChange": -257.0,
     "fiftyTwoWeekHighChangePercent": -0.09090909,
-    "fiftyTwoWeekChangePercent": 49.941658,
+    "fiftyTwoWeekChangePercent": 48.899185,
     "earningsTimestampStart": 1753758000,
     "earningsTimestampEnd": 1754276400,
     "isEarningsDateEstimate": true,
     "epsTrailingTwelveMonths": 476.48,
-    "fiftyDayAverageChange": -24.02002,
-    "fiftyDayAverageChangePercent": -0.009259767,
-    "twoHundredDayAverageChange": 336.1599,
-    "twoHundredDayAverageChangePercent": 0.15048522,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 978307200000,
     "trailingPegRatio": null
   }
 }

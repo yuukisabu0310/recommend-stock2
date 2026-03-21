@@ -1,7 +1,7 @@
 {
   "ticker": "2612",
   "japanese_ticker": "2612.T",
-  "fetch_date": "2026-03-20T23:33:33.082681",
+  "fetch_date": "2026-03-21T23:28:22.541603",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": 303500.0,
@@ -1029,7 +1029,7 @@
     "enterpriseToRevenue": 0.921,
     "enterpriseToEbitda": 7.385,
     "52WeekChange": 0.34207082,
-    "SandP52WeekChange": 0.16888046,
+    "SandP52WeekChange": 0.12811458,
     "lastDividendValue": 135.0,
     "lastDividendDate": 1774828800,
     "quoteType": "EQUITY",
@@ -1061,10 +1061,16 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "marketState": "CLOSED",
-    "shortName": "KADOYA SESAME MILLS INC",
-    "longName": "Kadoya Sesame Mills Incorporated",
     "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "2612.T announced a cash dividend of JPY 135.00 with an ex-date of Mar. 30, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1774796400000,
+          "amount": "135.00"
+        }
+      },
       {
         "header": "Stock split",
         "message": "2612.T announces 3 for 1 split effective Mar. 30, 2026",
@@ -1083,10 +1089,22 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
+    "marketState": "CLOSED",
+    "shortName": "KADOYA SESAME MILLS INC",
+    "longName": "Kadoya Sesame Mills Incorporated",
     "regularMarketChangePercent": 0.78740156,
     "regularMarketPrice": 5120.0,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1266796800000,
     "regularMarketChange": 40.0,
     "regularMarketDayRange": "5090.0 - 5150.0",
+    "fiftyDayAverageChange": 602.1001,
+    "fiftyDayAverageChangePercent": 0.1332699,
+    "twoHundredDayAverageChange": 1164.6001,
+    "twoHundredDayAverageChangePercent": 0.29443297,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
     "fullExchangeName": "Tokyo",
     "averageDailyVolume3Month": 6782,
     "fiftyTwoWeekLowChange": 1620.0,
@@ -1099,15 +1117,6 @@
     "earningsTimestampEnd": 1754289000,
     "isEarningsDateEstimate": true,
     "epsTrailingTwelveMonths": 287.23,
-    "fiftyDayAverageChange": 602.1001,
-    "fiftyDayAverageChangePercent": 0.1332699,
-    "twoHundredDayAverageChange": 1164.6001,
-    "twoHundredDayAverageChangePercent": 0.29443297,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1266796800000,
     "trailingPegRatio": null
   }
 }

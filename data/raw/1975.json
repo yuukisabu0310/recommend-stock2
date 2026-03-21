@@ -1,7 +1,7 @@
 {
   "ticker": "1975",
   "japanese_ticker": "1975.T",
-  "fetch_date": "2026-03-20T23:26:30.360383",
+  "fetch_date": "2026-03-21T23:21:47.553734",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": 290232000.0,
@@ -1187,8 +1187,8 @@
     "lastSplitDate": 1711584000,
     "enterpriseToRevenue": 0.942,
     "enterpriseToEbitda": 8.991,
-    "52WeekChange": 0.7540132,
-    "SandP52WeekChange": 0.16888046,
+    "52WeekChange": 0.7834854,
+    "SandP52WeekChange": 0.12811458,
     "lastDividendValue": 85.0,
     "lastDividendDate": 1774828800,
     "quoteType": "EQUITY",
@@ -1217,18 +1217,19 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "shortName": "ASAHI KOGYOSHA CO",
+    "longName": "Asahi Kogyosha Co., Ltd.",
     "marketState": "CLOSED",
-    "corporateActions": [
-      {
-        "header": "Dividend",
-        "message": "1975.T announced a cash dividend of JPY 85.00 with an ex-date of Mar. 30, 2026",
-        "meta": {
-          "eventType": "DIVIDEND",
-          "dateEpochMs": 1774796400000,
-          "amount": "85.00"
-        }
-      }
-    ],
+    "fiftyDayAverageChange": -304.6001,
+    "fiftyDayAverageChangePercent": -0.07577871,
+    "twoHundredDayAverageChange": 496.865,
+    "twoHundredDayAverageChangePercent": 0.15439533,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
+    "regularMarketChangePercent": -5.3503184,
+    "regularMarketPrice": 3715.0,
+    "corporateActions": [],
     "regularMarketTime": 1773901800,
     "exchange": "JPX",
     "messageBoardId": "finmb_878871",
@@ -1237,8 +1238,6 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "regularMarketChangePercent": -5.3503184,
-    "regularMarketPrice": 3715.0,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 978307200000,
     "regularMarketChange": -210.0,
@@ -1250,20 +1249,11 @@
     "fiftyTwoWeekRange": "1620.0 - 4825.0",
     "fiftyTwoWeekHighChange": -1110.0,
     "fiftyTwoWeekHighChangePercent": -0.23005182,
-    "fiftyTwoWeekChangePercent": 75.40132,
+    "fiftyTwoWeekChangePercent": 78.34854,
     "earningsTimestampStart": 1754463600,
     "earningsTimestampEnd": 1754982000,
     "isEarningsDateEstimate": true,
     "epsTrailingTwelveMonths": 274.91,
-    "fiftyDayAverageChange": -304.6001,
-    "fiftyDayAverageChangePercent": -0.07577871,
-    "twoHundredDayAverageChange": 496.865,
-    "twoHundredDayAverageChangePercent": 0.15439533,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
-    "shortName": "ASAHI KOGYOSHA CO",
-    "longName": "Asahi Kogyosha Co., Ltd.",
     "trailingPegRatio": null
   }
 }

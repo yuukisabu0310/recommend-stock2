@@ -1,7 +1,7 @@
 {
   "ticker": "2780",
   "japanese_ticker": "2780.T",
-  "fetch_date": "2026-03-20T23:35:32.765557",
+  "fetch_date": "2026-03-21T23:30:17.502042",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": 121777259.7,
@@ -1129,8 +1129,8 @@
     "forwardEps": 497.8,
     "enterpriseToRevenue": 0.455,
     "enterpriseToEbitda": 9.337,
-    "52WeekChange": 0.55566764,
-    "SandP52WeekChange": 0.16888046,
+    "52WeekChange": 0.55097246,
+    "SandP52WeekChange": 0.12811458,
     "lastDividendValue": 53.0,
     "lastDividendDate": 1774828800,
     "quoteType": "EQUITY",
@@ -1167,7 +1167,20 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "marketState": "CLOSED",
+    "shortName": "KOMEHYO HOLDINGS CO LTD",
+    "longName": "Komehyo Holdings Co.,Ltd.",
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "2780.T announced a cash dividend of JPY 53.00 with an ex-date of Mar. 30, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1774796400000,
+          "amount": "53.00"
+        }
+      }
+    ],
+    "regularMarketTime": 1773901800,
     "exchange": "JPX",
     "messageBoardId": "finmb_8819427",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1177,21 +1190,13 @@
     "esgPopulated": false,
     "regularMarketChangePercent": -5.030801,
     "regularMarketPrice": 4625.0,
-    "isEarningsDateEstimate": false,
-    "epsTrailingTwelveMonths": 318.66,
-    "epsForward": 497.8,
-    "fiftyDayAverageChange": 685.8999,
-    "fiftyDayAverageChangePercent": 0.17412604,
-    "twoHundredDayAverageChange": 1458.8799,
-    "twoHundredDayAverageChangePercent": 0.46077845,
+    "marketState": "CLOSED",
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "prevName": "Komehyo Co.,Ltd.",
-    "nameChangeDate": "2026-03-20",
+    "nameChangeDate": "2026-03-21",
     "averageAnalystRating": "1.0 - Strong Buy",
     "cryptoTradeable": false,
-    "shortName": "KOMEHYO HOLDINGS CO LTD",
-    "longName": "Komehyo Holdings Co.,Ltd.",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1103587200000,
     "regularMarketChange": -245.0,
@@ -1203,11 +1208,16 @@
     "fiftyTwoWeekRange": "2400.0 - 5340.0",
     "fiftyTwoWeekHighChange": -715.0,
     "fiftyTwoWeekHighChangePercent": -0.13389513,
-    "fiftyTwoWeekChangePercent": 55.566765,
+    "fiftyTwoWeekChangePercent": 55.097244,
     "earningsTimestampStart": 1747204800,
     "earningsTimestampEnd": 1747204800,
-    "corporateActions": [],
-    "regularMarketTime": 1773901800,
+    "isEarningsDateEstimate": false,
+    "epsTrailingTwelveMonths": 318.66,
+    "epsForward": 497.8,
+    "fiftyDayAverageChange": 685.8999,
+    "fiftyDayAverageChangePercent": 0.17412604,
+    "twoHundredDayAverageChange": 1458.8799,
+    "twoHundredDayAverageChangePercent": 0.46077845,
     "trailingPegRatio": null
   }
 }

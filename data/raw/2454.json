@@ -1,7 +1,7 @@
 {
   "ticker": "2454",
   "japanese_ticker": "2454.T",
-  "fetch_date": "2026-03-20T23:32:05.151679",
+  "fetch_date": "2026-03-21T23:26:59.927123",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": 286520.0,
@@ -1067,8 +1067,8 @@
     "lastSplitDate": 1380153600,
     "enterpriseToRevenue": 0.305,
     "enterpriseToEbitda": 11.769,
-    "52WeekChange": 0.09141278,
-    "SandP52WeekChange": 0.16888046,
+    "52WeekChange": 0.08241761,
+    "SandP52WeekChange": 0.12811458,
     "lastDividendValue": 3.0,
     "lastDividendDate": 1743120000,
     "quoteType": "EQUITY",
@@ -1097,11 +1097,7 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "cryptoTradeable": false,
     "shortName": "ALL ABOUT INC",
-    "longName": "All About, Inc.",
-    "regularMarketChangePercent": 0.0,
-    "regularMarketPrice": 394.0,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1126569600000,
     "regularMarketChange": 0.0,
@@ -1113,7 +1109,7 @@
     "fiftyTwoWeekRange": "262.0 - 420.0",
     "fiftyTwoWeekHighChange": -26.0,
     "fiftyTwoWeekHighChangePercent": -0.061904762,
-    "fiftyTwoWeekChangePercent": 9.141278,
+    "fiftyTwoWeekChangePercent": 8.24176,
     "earningsTimestampStart": 1747035000,
     "earningsTimestampEnd": 1747035000,
     "isEarningsDateEstimate": false,
@@ -1124,6 +1120,7 @@
     "twoHundredDayAverageChangePercent": 0.018798616,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
     "corporateActions": [],
     "regularMarketTime": 1773901800,
     "exchange": "JPX",
@@ -1133,6 +1130,9 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
+    "regularMarketChangePercent": 0.0,
+    "regularMarketPrice": 394.0,
+    "longName": "All About, Inc.",
     "marketState": "CLOSED",
     "trailingPegRatio": null
   }

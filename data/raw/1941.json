@@ -1,7 +1,7 @@
 {
   "ticker": "1941",
   "japanese_ticker": "1941.T",
-  "fetch_date": "2026-03-20T23:25:46.076862",
+  "fetch_date": "2026-03-21T23:21:08.445999",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": -107448000.0,
@@ -1133,6 +1133,54 @@
         "yearBorn": 1957,
         "exercisedValue": 0,
         "unexercisedValue": 0
+      },
+      {
+        "maxAge": 1,
+        "name": "Mr. Mitsuharu  Higashi",
+        "title": "General Manager of Administration Division",
+        "exercisedValue": 0,
+        "unexercisedValue": 0
+      },
+      {
+        "maxAge": 1,
+        "name": "Mr. Shuji  Maehara",
+        "title": "Managing Executive Officer & GM of Sales Headquarters",
+        "exercisedValue": 0,
+        "unexercisedValue": 0
+      },
+      {
+        "maxAge": 1,
+        "name": "Masatoshi  Nagashima",
+        "title": "Managing Exec. Officer, Deputy GM of Power Business HQ & GM of Distribution Dept. - Power Bus. HQ",
+        "exercisedValue": 0,
+        "unexercisedValue": 0
+      },
+      {
+        "maxAge": 1,
+        "name": "Mr. Mio  Taniguchi",
+        "age": 64,
+        "title": "Executive VP & Representative Director",
+        "yearBorn": 1961,
+        "exercisedValue": 0,
+        "unexercisedValue": 0
+      },
+      {
+        "maxAge": 1,
+        "name": "Mr. Seiji  Kawakami",
+        "age": 61,
+        "title": "Managing Executive Officer & GM of Electricity Division",
+        "yearBorn": 1964,
+        "exercisedValue": 0,
+        "unexercisedValue": 0
+      },
+      {
+        "maxAge": 1,
+        "name": "Mr. Hideaki  Oba",
+        "age": 61,
+        "title": "Senior Managing Executive Officer & GM of Planning Division",
+        "yearBorn": 1964,
+        "exercisedValue": 0,
+        "unexercisedValue": 0
       }
     ],
     "auditRisk": 4,
@@ -1198,8 +1246,8 @@
     "trailingEps": 390.88,
     "enterpriseToRevenue": 0.965,
     "enterpriseToEbitda": 7.271,
-    "52WeekChange": 0.4172989,
-    "SandP52WeekChange": 0.16888046,
+    "52WeekChange": 0.42813456,
+    "SandP52WeekChange": 0.12811458,
     "lastDividendValue": 65.0,
     "lastDividendDate": 1774828800,
     "quoteType": "EQUITY",
@@ -1229,18 +1277,19 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 978307200000,
-    "regularMarketChange": -125.0,
-    "regularMarketDayRange": "4660.0 - 4725.0",
-    "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 74467,
-    "fiftyTwoWeekLowChange": 1788.0,
-    "fiftyTwoWeekLowChangePercent": 0.6204025,
-    "fiftyTwoWeekRange": "2882.0 - 5140.0",
-    "fiftyTwoWeekHighChange": -470.0,
-    "fiftyTwoWeekHighChangePercent": -0.09143969,
-    "fiftyTwoWeekChangePercent": 41.729893,
+    "marketState": "CLOSED",
+    "cryptoTradeable": false,
+    "corporateActions": [],
+    "regularMarketTime": 1773901800,
+    "exchange": "JPX",
+    "messageBoardId": "finmb_880879",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
+    "regularMarketChangePercent": -2.606882,
+    "regularMarketPrice": 4670.0,
     "earningsTimestamp": 1769754600,
     "earningsTimestampStart": 1777357800,
     "earningsTimestampEnd": 1777357800,
@@ -1254,31 +1303,20 @@
     "twoHundredDayAverageChangePercent": 0.13648811,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
-    "regularMarketChangePercent": -2.606882,
-    "regularMarketPrice": 4670.0,
-    "cryptoTradeable": false,
-    "marketState": "CLOSED",
-    "longName": "Chudenko Corporation",
-    "regularMarketTime": 1773901800,
-    "exchange": "JPX",
-    "messageBoardId": "finmb_880879",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
-    "corporateActions": [
-      {
-        "header": "Dividend",
-        "message": "1941.T announced a cash dividend of JPY 65.00 with an ex-date of Mar. 30, 2026",
-        "meta": {
-          "eventType": "DIVIDEND",
-          "dateEpochMs": 1774796400000,
-          "amount": "65.00"
-        }
-      }
-    ],
     "shortName": "CHUDENKO CORP",
+    "longName": "Chudenko Corporation",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 978307200000,
+    "regularMarketChange": -125.0,
+    "regularMarketDayRange": "4660.0 - 4725.0",
+    "fullExchangeName": "Tokyo",
+    "averageDailyVolume3Month": 74467,
+    "fiftyTwoWeekLowChange": 1788.0,
+    "fiftyTwoWeekLowChangePercent": 0.6204025,
+    "fiftyTwoWeekRange": "2882.0 - 5140.0",
+    "fiftyTwoWeekHighChange": -470.0,
+    "fiftyTwoWeekHighChangePercent": -0.09143969,
+    "fiftyTwoWeekChangePercent": 42.813457,
     "trailingPegRatio": null
   }
 }

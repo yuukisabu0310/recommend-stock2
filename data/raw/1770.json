@@ -1,7 +1,7 @@
 {
   "ticker": "1770",
   "japanese_ticker": "1770.T",
-  "fetch_date": "2026-03-20T23:23:23.124484",
+  "fetch_date": "2026-03-21T23:18:54.290331",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": -133791055.0,
@@ -1111,8 +1111,8 @@
     "lastSplitDate": 969926400,
     "enterpriseToRevenue": 0.309,
     "enterpriseToEbitda": 3.329,
-    "52WeekChange": 0.0865885,
-    "SandP52WeekChange": 0.16888046,
+    "52WeekChange": 0.09514439,
+    "SandP52WeekChange": 0.12811458,
     "lastDividendValue": 30.0,
     "lastDividendDate": 1774828800,
     "quoteType": "EQUITY",
@@ -1143,8 +1143,19 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "marketState": "CLOSED",
-    "corporateActions": [],
+    "regularMarketChangePercent": -1.0669829,
+    "regularMarketPrice": 1669.0,
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "1770.T announced a cash dividend of JPY 30.00 with an ex-date of Mar. 30, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1774796400000,
+          "amount": "30.00"
+        }
+      }
+    ],
     "regularMarketTime": 1773901800,
     "exchange": "JPX",
     "messageBoardId": "finmb_5718785",
@@ -1153,8 +1164,6 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "regularMarketChangePercent": -1.0669829,
-    "regularMarketPrice": 1669.0,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 946944000000,
     "regularMarketChange": -18.0,
@@ -1166,10 +1175,12 @@
     "fiftyTwoWeekRange": "1201.0 - 2000.0",
     "fiftyTwoWeekHighChange": -331.0,
     "fiftyTwoWeekHighChangePercent": -0.1655,
-    "fiftyTwoWeekChangePercent": 8.65885,
+    "fiftyTwoWeekChangePercent": 9.514439,
     "earningsTimestampStart": 1747116000,
     "earningsTimestampEnd": 1747116000,
     "isEarningsDateEstimate": false,
+    "shortName": "FUJITA ENGINEERING CO",
+    "longName": "Fujita Engineering Co., Ltd.",
     "epsTrailingTwelveMonths": 142.03,
     "fiftyDayAverageChange": -143.07996,
     "fiftyDayAverageChangePercent": -0.078958966,
@@ -1178,8 +1189,7 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
-    "shortName": "FUJITA ENGINEERING CO",
-    "longName": "Fujita Engineering Co., Ltd.",
+    "marketState": "CLOSED",
     "trailingPegRatio": null
   }
 }

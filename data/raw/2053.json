@@ -1,7 +1,7 @@
 {
   "ticker": "2053",
   "japanese_ticker": "2053.T",
-  "fetch_date": "2026-03-20T23:27:00.341519",
+  "fetch_date": "2026-03-21T23:22:15.819127",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": 51227436.823105,
@@ -1154,8 +1154,8 @@
     "forwardEps": 146.8,
     "enterpriseToRevenue": 0.253,
     "enterpriseToEbitda": 5.931,
-    "52WeekChange": 0.25515282,
-    "SandP52WeekChange": 0.16888046,
+    "52WeekChange": 0.28529835,
+    "SandP52WeekChange": 0.12811458,
     "lastDividendValue": 30.0,
     "lastDividendDate": 1774828800,
     "quoteType": "EQUITY",
@@ -1200,6 +1200,9 @@
     "regularMarketChangePercent": -3.2328765,
     "regularMarketPrice": 1766.0,
     "marketState": "CLOSED",
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 978307200000,
     "regularMarketChange": -59.0,
@@ -1211,7 +1214,7 @@
     "fiftyTwoWeekRange": "1191.0 - 1998.0",
     "fiftyTwoWeekHighChange": -232.0,
     "fiftyTwoWeekHighChangePercent": -0.116116114,
-    "fiftyTwoWeekChangePercent": 25.515282,
+    "fiftyTwoWeekChangePercent": 28.529835,
     "earningsTimestampStart": 1753765200,
     "earningsTimestampEnd": 1754283600,
     "isEarningsDateEstimate": true,
@@ -1221,9 +1224,6 @@
     "fiftyDayAverageChangePercent": -0.041519675,
     "twoHundredDayAverageChange": 37.079956,
     "twoHundredDayAverageChangePercent": 0.02144689,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
     "trailingPegRatio": null
   }
 }

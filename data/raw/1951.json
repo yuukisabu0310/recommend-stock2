@@ -1,7 +1,7 @@
 {
   "ticker": "1951",
   "japanese_ticker": "1951.T",
-  "fetch_date": "2026-03-20T23:26:02.739325",
+  "fetch_date": "2026-03-21T23:21:23.972834",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": 194776000.0,
@@ -1219,8 +1219,8 @@
     "lastSplitDate": 1711584000,
     "enterpriseToRevenue": 0.868,
     "enterpriseToEbitda": 9.776,
-    "52WeekChange": 0.5149971,
-    "SandP52WeekChange": 0.16888046,
+    "52WeekChange": 0.53321874,
+    "SandP52WeekChange": 0.12811458,
     "lastDividendValue": 33.0,
     "lastDividendDate": 1774828800,
     "quoteType": "EQUITY",
@@ -1257,8 +1257,8 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "regularMarketChangePercent": -3.705036,
-    "regularMarketPrice": 2677.0,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 978307200000,
     "regularMarketChange": -103.0,
     "regularMarketDayRange": "2660.5 - 2717.5",
     "fullExchangeName": "Tokyo",
@@ -1268,7 +1268,7 @@
     "fiftyTwoWeekRange": "1502.0 - 3003.0",
     "fiftyTwoWeekHighChange": -326.0,
     "fiftyTwoWeekHighChangePercent": -0.10855811,
-    "fiftyTwoWeekChangePercent": 51.499714,
+    "fiftyTwoWeekChangePercent": 53.321873,
     "earningsTimestamp": 1770359400,
     "earningsTimestampStart": 1778221800,
     "earningsTimestampEnd": 1778221800,
@@ -1281,16 +1281,15 @@
     "fiftyDayAverageChangePercent": -0.024687044,
     "twoHundredDayAverageChange": 371.53247,
     "twoHundredDayAverageChangePercent": 0.16115277,
+    "marketState": "CLOSED",
+    "shortName": "EXEO GROUP INC",
+    "longName": "EXEO Group, Inc.",
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "prevName": "Kyowa Exeo Corporation",
-    "nameChangeDate": "2026-03-20",
+    "nameChangeDate": "2026-03-21",
     "averageAnalystRating": "2.2 - Buy",
     "cryptoTradeable": false,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 978307200000,
-    "corporateActions": [],
-    "regularMarketTime": 1773901800,
     "exchange": "JPX",
     "messageBoardId": "finmb_880850",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1298,9 +1297,20 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "shortName": "EXEO GROUP INC",
-    "longName": "EXEO Group, Inc.",
-    "marketState": "CLOSED",
+    "regularMarketChangePercent": -3.705036,
+    "regularMarketPrice": 2677.0,
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "1951.T announced a cash dividend of JPY 33.00 with an ex-date of Mar. 30, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1774796400000,
+          "amount": "33.00"
+        }
+      }
+    ],
+    "regularMarketTime": 1773901800,
     "trailingPegRatio": null
   }
 }

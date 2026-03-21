@@ -1,7 +1,7 @@
 {
   "ticker": "1379",
   "japanese_ticker": "1379.T",
-  "fetch_date": "2026-03-20T23:21:42.642086",
+  "fetch_date": "2026-03-21T23:17:17.066914",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": -243144000.0,
@@ -1177,13 +1177,12 @@
     "enterpriseToRevenue": 0.793,
     "enterpriseToEbitda": 5.618,
     "52WeekChange": 0.018597245,
-    "SandP52WeekChange": 0.16888046,
+    "SandP52WeekChange": 0.12811458,
     "lastDividendValue": 45.0,
     "lastDividendDate": 1774828800,
     "quoteType": "EQUITY",
     "currentPrice": 1917.0,
-    "recommendationMean": 0.0,
-    "recommendationKey": "strong_buy",
+    "recommendationKey": "none",
     "totalCash": 23503998976,
     "totalCashPerShare": 750.412,
     "ebitda": 12020500480,
@@ -1209,7 +1208,29 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "corporateActions": [],
+    "shortName": "HOKUTO CORP",
+    "longName": "Hokuto Corporation",
+    "marketState": "CLOSED",
+    "fiftyDayAverageChange": -78.68005,
+    "fiftyDayAverageChangePercent": -0.039425183,
+    "twoHundredDayAverageChange": -4.040039,
+    "twoHundredDayAverageChangePercent": -0.002103048,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
+    "regularMarketChangePercent": -1.4902364,
+    "regularMarketPrice": 1917.0,
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "1379.T announced a cash dividend of JPY 45.00 with an ex-date of Mar. 30, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1774796400000,
+          "amount": "45.00"
+        }
+      }
+    ],
     "regularMarketTime": 1773901800,
     "exchange": "JPX",
     "messageBoardId": "finmb_884170",
@@ -1218,8 +1239,6 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "regularMarketChangePercent": -1.4902364,
-    "regularMarketPrice": 1917.0,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 978566400000,
     "regularMarketChange": -29.0,
@@ -1238,17 +1257,6 @@
     "earningsCallTimestampEnd": 1732273140,
     "isEarningsDateEstimate": true,
     "epsTrailingTwelveMonths": 175.98,
-    "fiftyDayAverageChange": -78.68005,
-    "fiftyDayAverageChangePercent": -0.039425183,
-    "twoHundredDayAverageChange": -4.040039,
-    "twoHundredDayAverageChangePercent": -0.002103048,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "averageAnalystRating": "0.0 - Strong Buy",
-    "cryptoTradeable": false,
-    "marketState": "CLOSED",
-    "shortName": "HOKUTO CORP",
-    "longName": "Hokuto Corporation",
     "trailingPegRatio": null
   }
 }

@@ -1,7 +1,7 @@
 {
   "ticker": "2784",
   "japanese_ticker": "2784.T",
-  "fetch_date": "2026-03-20T23:35:36.601044",
+  "fetch_date": "2026-03-21T23:30:20.978102",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": -340269000.0,
@@ -1195,7 +1195,7 @@
         "maxAge": 1,
         "name": "Shigeki  Ohashi",
         "age": 60,
-        "title": "Managing Executive Officer of Business Strategy & Director",
+        "title": "Director & Senior Managing Executive Officer",
         "yearBorn": 1965,
         "exercisedValue": 0,
         "unexercisedValue": 0
@@ -1204,7 +1204,7 @@
         "maxAge": 1,
         "name": "Toshiki  Tanaka",
         "age": 62,
-        "title": "Managing Executive Officer of Corporate Affairs & Director",
+        "title": "Director & Senior Managing Executive Officer",
         "yearBorn": 1963,
         "exercisedValue": 0,
         "unexercisedValue": 0
@@ -1240,7 +1240,7 @@
       {
         "maxAge": 1,
         "name": "Miki  Oguchi",
-        "title": "VP & Executive Officer",
+        "title": "Senior Executive Officer",
         "exercisedValue": 0,
         "unexercisedValue": 0
       },
@@ -1319,8 +1319,8 @@
     "lastSplitDate": 1411689600,
     "enterpriseToRevenue": 0.081,
     "enterpriseToEbitda": 4.701,
-    "52WeekChange": 0.13110542,
-    "SandP52WeekChange": 0.16888046,
+    "52WeekChange": 0.13216376,
+    "SandP52WeekChange": 0.12811458,
     "lastDividendValue": 34.0,
     "lastDividendDate": 1774828800,
     "quoteType": "EQUITY",
@@ -1357,15 +1357,17 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "fiftyDayAverageChange": -105.84009,
-    "fiftyDayAverageChangePercent": -0.041902926,
-    "twoHundredDayAverageChange": 143.79248,
-    "twoHundredDayAverageChangePercent": 0.06317195,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "averageAnalystRating": "3.0 - Hold",
-    "cryptoTradeable": false,
-    "corporateActions": [],
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "2784.T announced a cash dividend of JPY 34.00 with an ex-date of Mar. 30, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1774796400000,
+          "amount": "34.00"
+        }
+      }
+    ],
     "regularMarketTime": 1773901800,
     "exchange": "JPX",
     "messageBoardId": "finmb_9248638",
@@ -1376,11 +1378,19 @@
     "esgPopulated": false,
     "regularMarketChangePercent": -1.465798,
     "regularMarketPrice": 2420.0,
-    "marketState": "CLOSED",
+    "epsTrailingTwelveMonths": 135.52,
+    "epsForward": 160.57,
+    "fiftyDayAverageChange": -105.84009,
+    "fiftyDayAverageChangePercent": -0.041902926,
+    "twoHundredDayAverageChange": 143.79248,
+    "twoHundredDayAverageChangePercent": 0.06317195,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "averageAnalystRating": "3.0 - Hold",
+    "cryptoTradeable": false,
     "shortName": "ALFRESA HOLDINGS CORP",
     "longName": "Alfresa Holdings Corporation",
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1127952000000,
+    "marketState": "CLOSED",
     "regularMarketChange": -36.0,
     "regularMarketDayRange": "2407.5 - 2448.0",
     "fullExchangeName": "Tokyo",
@@ -1390,15 +1400,15 @@
     "fiftyTwoWeekRange": "1897.0 - 2685.5",
     "fiftyTwoWeekHighChange": -265.5,
     "fiftyTwoWeekHighChangePercent": -0.09886427,
-    "fiftyTwoWeekChangePercent": 13.110542,
+    "fiftyTwoWeekChangePercent": 13.216376,
     "earningsTimestamp": 1770705000,
     "earningsTimestampStart": 1778740200,
     "earningsTimestampEnd": 1778740200,
     "earningsCallTimestampStart": 1731063540,
     "earningsCallTimestampEnd": 1731063540,
     "isEarningsDateEstimate": true,
-    "epsTrailingTwelveMonths": 135.52,
-    "epsForward": 160.57,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1127952000000,
     "trailingPegRatio": null
   }
 }

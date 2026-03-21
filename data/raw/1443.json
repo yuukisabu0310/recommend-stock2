@@ -1,7 +1,7 @@
 {
   "ticker": "1443",
   "japanese_ticker": "1443.T",
-  "fetch_date": "2026-03-20T23:22:25.500729",
+  "fetch_date": "2026-03-21T23:17:58.331786",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": -6131120.0,
@@ -1087,8 +1087,8 @@
     "trailingEps": 37.03,
     "enterpriseToRevenue": 1.261,
     "enterpriseToEbitda": 6.59,
-    "52WeekChange": 0.5773196,
-    "SandP52WeekChange": 0.16888046,
+    "52WeekChange": 0.56122446,
+    "SandP52WeekChange": 0.12811458,
     "lastDividendValue": 1.1,
     "lastDividendDate": 1774828800,
     "quoteType": "EQUITY",
@@ -1120,8 +1120,6 @@
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
     "marketState": "CLOSED",
-    "shortName": "GIKEN HOLDINGS CO LTD",
-    "longName": "Giken Holdings Co., Ltd.",
     "corporateActions": [
       {
         "header": "Dividend",
@@ -1143,6 +1141,10 @@
     "esgPopulated": false,
     "regularMarketChangePercent": -4.375,
     "regularMarketPrice": 306.0,
+    "shortName": "GIKEN HOLDINGS CO LTD",
+    "longName": "Giken Holdings Co., Ltd.",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1515456000000,
     "regularMarketChange": -14.0,
     "regularMarketDayRange": "305.0 - 315.0",
     "fullExchangeName": "Tokyo",
@@ -1152,7 +1154,7 @@
     "fiftyTwoWeekRange": "159.0 - 375.0",
     "fiftyTwoWeekHighChange": -69.0,
     "fiftyTwoWeekHighChangePercent": -0.184,
-    "fiftyTwoWeekChangePercent": 57.731964,
+    "fiftyTwoWeekChangePercent": 56.122444,
     "earningsTimestampStart": 1747722900,
     "earningsTimestampEnd": 1747722900,
     "isEarningsDateEstimate": false,
@@ -1164,8 +1166,6 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1515456000000,
     "trailingPegRatio": null
   }
 }

@@ -1,7 +1,7 @@
 {
   "ticker": "2415",
   "japanese_ticker": "2415.T",
-  "fetch_date": "2026-03-20T23:31:33.327393",
+  "fetch_date": "2026-03-21T23:26:30.776877",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": 13922751.0,
@@ -1138,8 +1138,8 @@
     "lastSplitDate": 1380153600,
     "enterpriseToRevenue": -0.009,
     "enterpriseToEbitda": -0.211,
-    "52WeekChange": 0.08437312,
-    "SandP52WeekChange": 0.16888046,
+    "52WeekChange": 0.090854764,
+    "SandP52WeekChange": 0.12811458,
     "lastDividendValue": 72.5,
     "lastDividendDate": 1774828800,
     "quoteType": "EQUITY",
@@ -1171,6 +1171,24 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "shortName": "HUMAN HLDGS CO.LTD",
+    "longName": "Human Holdings Co., Ltd.",
+    "corporateActions": [],
+    "regularMarketTime": 1773901458,
+    "exchange": "JPX",
+    "messageBoardId": "finmb_11518917",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
+    "regularMarketChangePercent": -0.27322403,
+    "regularMarketPrice": 1825.0,
+    "marketState": "CLOSED",
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "averageAnalystRating": "0.0 - Strong Buy",
+    "cryptoTradeable": false,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1097107200000,
     "regularMarketChange": -5.0,
@@ -1182,7 +1200,7 @@
     "fiftyTwoWeekRange": "1240.0 - 2111.0",
     "fiftyTwoWeekHighChange": -286.0,
     "fiftyTwoWeekHighChangePercent": -0.13548082,
-    "fiftyTwoWeekChangePercent": 8.437311,
+    "fiftyTwoWeekChangePercent": 9.085476,
     "earningsTimestampStart": 1747290720,
     "earningsTimestampEnd": 1747290720,
     "isEarningsDateEstimate": false,
@@ -1192,34 +1210,6 @@
     "fiftyDayAverageChangePercent": -0.025564907,
     "twoHundredDayAverageChange": -29.97998,
     "twoHundredDayAverageChangePercent": -0.016161889,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "averageAnalystRating": "0.0 - Strong Buy",
-    "cryptoTradeable": false,
-    "shortName": "HUMAN HLDGS CO.LTD",
-    "longName": "Human Holdings Co., Ltd.",
-    "marketState": "CLOSED",
-    "corporateActions": [
-      {
-        "header": "Dividend",
-        "message": "2415.T announced a cash dividend of JPY 72.50 with an ex-date of Mar. 30, 2026",
-        "meta": {
-          "eventType": "DIVIDEND",
-          "dateEpochMs": 1774796400000,
-          "amount": "72.50"
-        }
-      }
-    ],
-    "regularMarketTime": 1773901458,
-    "exchange": "JPX",
-    "messageBoardId": "finmb_11518917",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
-    "regularMarketChangePercent": -0.27322403,
-    "regularMarketPrice": 1825.0,
     "trailingPegRatio": null
   }
 }

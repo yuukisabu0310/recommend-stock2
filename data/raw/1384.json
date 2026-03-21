@@ -1,7 +1,7 @@
 {
   "ticker": "1384",
   "japanese_ticker": "1384.T",
-  "fetch_date": "2026-03-20T23:21:53.364699",
+  "fetch_date": "2026-03-21T23:17:27.081106",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": 314591558.441558,
@@ -1304,7 +1304,7 @@
     "enterpriseToRevenue": 1.785,
     "enterpriseToEbitda": 10.644,
     "52WeekChange": 0.97265625,
-    "SandP52WeekChange": 0.16888046,
+    "SandP52WeekChange": 0.12811458,
     "lastDividendValue": 120.0,
     "lastDividendDate": 1774828800,
     "quoteType": "EQUITY",
@@ -1336,6 +1336,12 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "fiftyDayAverageChangePercent": -0.016821148,
+    "twoHundredDayAverageChange": 545.92993,
+    "twoHundredDayAverageChangePercent": 0.21977235,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1424390400000,
     "regularMarketChange": -120.0,
@@ -1353,18 +1359,7 @@
     "isEarningsDateEstimate": true,
     "epsTrailingTwelveMonths": 349.36,
     "fiftyDayAverageChange": -51.840088,
-    "fiftyDayAverageChangePercent": -0.016821148,
-    "corporateActions": [
-      {
-        "header": "Dividend",
-        "message": "1384.T announced a cash dividend of JPY 120.00 with an ex-date of Mar. 30, 2026",
-        "meta": {
-          "eventType": "DIVIDEND",
-          "dateEpochMs": 1774796400000,
-          "amount": "120.00"
-        }
-      }
-    ],
+    "corporateActions": [],
     "regularMarketTime": 1773901800,
     "exchange": "JPX",
     "messageBoardId": "finmb_267135698",
@@ -1378,11 +1373,6 @@
     "regularMarketChangePercent": -3.809524,
     "regularMarketPrice": 3030.0,
     "marketState": "CLOSED",
-    "twoHundredDayAverageChange": 545.92993,
-    "twoHundredDayAverageChangePercent": 0.21977235,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
     "trailingPegRatio": null
   }
 }

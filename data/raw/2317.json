@@ -1,7 +1,7 @@
 {
   "ticker": "2317",
   "japanese_ticker": "2317.T",
-  "fetch_date": "2026-03-20T23:30:00.329282",
+  "fetch_date": "2026-03-21T23:25:03.615039",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": -107160000.0,
@@ -1189,7 +1189,7 @@
     "enterpriseToRevenue": 1.356,
     "enterpriseToEbitda": 8.21,
     "52WeekChange": 0.14835167,
-    "SandP52WeekChange": 0.16888046,
+    "SandP52WeekChange": 0.12811458,
     "lastDividendValue": 7.0,
     "lastDividendDate": 1774828800,
     "quoteType": "EQUITY",
@@ -1198,8 +1198,7 @@
     "targetLowPrice": 530.0,
     "targetMeanPrice": 635.0,
     "targetMedianPrice": 635.0,
-    "recommendationMean": 2.33333,
-    "recommendationKey": "buy",
+    "recommendationKey": "none",
     "numberOfAnalystOpinions": 2,
     "totalCash": 25206999040,
     "totalCashPerShare": 70.518,
@@ -1226,7 +1225,21 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "marketState": "CLOSED",
+    "shortName": "SYSTENA CORPORATION",
     "longName": "Systena Corporation",
+    "cryptoTradeable": false,
+    "corporateActions": [],
+    "regularMarketTime": 1773901800,
+    "exchange": "JPX",
+    "messageBoardId": "finmb_9429314",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
+    "regularMarketChangePercent": -0.94786733,
+    "regularMarketPrice": 418.0,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1100476800000,
     "regularMarketChange": -4.0,
@@ -1251,31 +1264,6 @@
     "twoHundredDayAverageChangePercent": -0.116073534,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
-    "corporateActions": [
-      {
-        "header": "Dividend",
-        "message": "2317.T announced a cash dividend of JPY 7.00 with an ex-date of Mar. 30, 2026",
-        "meta": {
-          "eventType": "DIVIDEND",
-          "dateEpochMs": 1774796400000,
-          "amount": "7.00"
-        }
-      }
-    ],
-    "regularMarketTime": 1773901800,
-    "averageAnalystRating": "2.3 - Buy",
-    "cryptoTradeable": false,
-    "marketState": "CLOSED",
-    "exchange": "JPX",
-    "messageBoardId": "finmb_9429314",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
-    "regularMarketChangePercent": -0.94786733,
-    "regularMarketPrice": 418.0,
-    "shortName": "SYSTENA CORPORATION",
     "trailingPegRatio": null
   }
 }

@@ -1,7 +1,7 @@
 {
   "ticker": "2776",
   "japanese_ticker": "2776.T",
-  "fetch_date": "2026-03-20T23:35:27.952359",
+  "fetch_date": "2026-03-21T23:30:13.632420",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-01-31 00:00:00": 886936.0,
@@ -974,7 +974,7 @@
     "tradeable": false,
     "enterpriseValue": 12441147392,
     "profitMargins": 0.00347,
-    "floatShares": 32610617,
+    "floatShares": 34941204,
     "sharesOutstanding": 53319300,
     "heldPercentInsiders": 0.42079,
     "heldPercentInstitutions": 0.022130001,
@@ -991,8 +991,8 @@
     "lastSplitDate": 1375056000,
     "enterpriseToRevenue": 0.445,
     "enterpriseToEbitda": 14.251,
-    "52WeekChange": -0.050359726,
-    "SandP52WeekChange": 0.16888046,
+    "52WeekChange": -0.029411793,
+    "SandP52WeekChange": 0.12811458,
     "quoteType": "EQUITY",
     "currentPrice": 132.0,
     "recommendationKey": "none",
@@ -1023,11 +1023,8 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "marketState": "CLOSED",
-    "cryptoTradeable": false,
-    "hasPrePostMarketData": false,
     "shortName": "SHINTO HOLDINGS INC",
-    "longName": "SHINTO Holdings, Inc.",
+    "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1058400000000,
     "regularMarketChange": -3.0,
     "regularMarketDayRange": "131.0 - 136.0",
@@ -1038,7 +1035,7 @@
     "fiftyTwoWeekRange": "95.0 - 188.0",
     "fiftyTwoWeekHighChange": -56.0,
     "fiftyTwoWeekHighChangePercent": -0.29787233,
-    "fiftyTwoWeekChangePercent": -5.0359726,
+    "fiftyTwoWeekChangePercent": -2.9411793,
     "earningsTimestampStart": 1749725940,
     "earningsTimestampEnd": 1749725940,
     "isEarningsDateEstimate": false,
@@ -1049,6 +1046,7 @@
     "twoHundredDayAverageChangePercent": -0.02171491,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
     "corporateActions": [],
     "regularMarketTime": 1773901800,
     "exchange": "JPX",
@@ -1060,6 +1058,8 @@
     "esgPopulated": false,
     "regularMarketChangePercent": -2.2222223,
     "regularMarketPrice": 132.0,
+    "longName": "SHINTO Holdings, Inc.",
+    "marketState": "CLOSED",
     "trailingPegRatio": null
   }
 }

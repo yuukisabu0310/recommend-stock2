@@ -1,7 +1,7 @@
 {
   "ticker": "1871",
   "japanese_ticker": "1871.T",
-  "fetch_date": "2026-03-20T23:24:50.867836",
+  "fetch_date": "2026-03-21T23:20:16.856648",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": -5868000.0,
@@ -1182,8 +1182,8 @@
     "forwardEps": 87.6,
     "enterpriseToRevenue": 0.951,
     "enterpriseToEbitda": 9.388,
-    "52WeekChange": 0.9368999,
-    "SandP52WeekChange": 0.16888046,
+    "52WeekChange": 0.91847825,
+    "SandP52WeekChange": 0.12811458,
     "lastDividendValue": 69.0,
     "lastDividendDate": 1774828800,
     "quoteType": "EQUITY",
@@ -1214,9 +1214,11 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "marketState": "CLOSED",
+    "shortName": "PS CONSTRUCTION CO LTD",
+    "longName": "PS Construction Co., Ltd.",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 978307200000,
+    "marketState": "CLOSED",
     "regularMarketChange": -155.0,
     "regularMarketDayRange": "2824.0 - 2944.0",
     "fullExchangeName": "Tokyo",
@@ -1226,7 +1228,7 @@
     "fiftyTwoWeekRange": "1217.0 - 3550.0",
     "fiftyTwoWeekHighChange": -726.0,
     "fiftyTwoWeekHighChangePercent": -0.20450704,
-    "fiftyTwoWeekChangePercent": 93.68999,
+    "fiftyTwoWeekChangePercent": 91.847824,
     "earningsTimestampStart": 1754546400,
     "earningsTimestampEnd": 1754978400,
     "isEarningsDateEstimate": true,
@@ -1238,11 +1240,6 @@
     "twoHundredDayAverageChangePercent": 0.23180269,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
-    "shortName": "PS CONSTRUCTION CO LTD",
-    "longName": "PS Construction Co., Ltd.",
-    "regularMarketChangePercent": -5.2030883,
-    "regularMarketPrice": 2824.0,
     "corporateActions": [],
     "regularMarketTime": 1773901800,
     "exchange": "JPX",
@@ -1252,6 +1249,9 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
+    "regularMarketChangePercent": -5.2030883,
+    "regularMarketPrice": 2824.0,
+    "cryptoTradeable": false,
     "trailingPegRatio": null
   }
 }

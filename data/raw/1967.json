@@ -1,7 +1,7 @@
 {
   "ticker": "1967",
   "japanese_ticker": "1967.T",
-  "fetch_date": "2026-03-20T23:26:22.034915",
+  "fetch_date": "2026-03-21T23:21:40.365532",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": 155384836.173323,
@@ -1161,8 +1161,8 @@
     "trailingEps": 195.0,
     "enterpriseToRevenue": 0.786,
     "enterpriseToEbitda": 7.155,
-    "52WeekChange": 0.4860927,
-    "SandP52WeekChange": 0.16888046,
+    "52WeekChange": 0.47244096,
+    "SandP52WeekChange": 0.12811458,
     "lastDividendValue": 56.0,
     "lastDividendDate": 1773792000,
     "quoteType": "EQUITY",
@@ -1193,6 +1193,8 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "shortName": "YAMATO CORPORATION",
+    "longName": "Yamato Corporation",
     "marketState": "CLOSED",
     "corporateActions": [],
     "regularMarketTime": 1773901800,
@@ -1203,10 +1205,10 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
+    "regularMarketChangePercent": -2.646421,
+    "regularMarketPrice": 2244.0,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 978307200000,
-    "shortName": "YAMATO CORPORATION",
-    "longName": "Yamato Corporation",
     "regularMarketChange": -61.0,
     "regularMarketDayRange": "2215.0 - 2286.0",
     "fullExchangeName": "Tokyo",
@@ -1216,7 +1218,7 @@
     "fiftyTwoWeekRange": "1150.0 - 2529.0",
     "fiftyTwoWeekHighChange": -285.0,
     "fiftyTwoWeekHighChangePercent": -0.112692766,
-    "fiftyTwoWeekChangePercent": 48.60927,
+    "fiftyTwoWeekChangePercent": 47.244095,
     "earningsTimestampStart": 1754287200,
     "earningsTimestampEnd": 1754632800,
     "isEarningsDateEstimate": true,
@@ -1228,8 +1230,6 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
-    "regularMarketChangePercent": -2.646421,
-    "regularMarketPrice": 2244.0,
     "trailingPegRatio": null
   }
 }

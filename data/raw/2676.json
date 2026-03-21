@@ -1,7 +1,7 @@
 {
   "ticker": "2676",
   "japanese_ticker": "2676.T",
-  "fetch_date": "2026-03-20T23:34:04.318626",
+  "fetch_date": "2026-03-21T23:28:51.547502",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": 21589288.0,
@@ -1214,8 +1214,8 @@
     "lastSplitDate": 1748476800,
     "enterpriseToRevenue": 1.13,
     "enterpriseToEbitda": 14.422,
-    "52WeekChange": -0.039348066,
-    "SandP52WeekChange": 0.16888046,
+    "52WeekChange": -0.038228452,
+    "SandP52WeekChange": 0.12811458,
     "lastDividendValue": 40.5,
     "lastDividendDate": 1774828800,
     "quoteType": "EQUITY",
@@ -1246,17 +1246,9 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "corporateActions": [
-      {
-        "header": "Dividend",
-        "message": "2676.T announced a cash dividend of JPY 40.50 with an ex-date of Mar. 30, 2026",
-        "meta": {
-          "eventType": "DIVIDEND",
-          "dateEpochMs": 1774796400000,
-          "amount": "40.50"
-        }
-      }
-    ],
+    "regularMarketChangePercent": -1.5274463,
+    "regularMarketPrice": 2063.0,
+    "corporateActions": [],
     "regularMarketTime": 1773901800,
     "exchange": "JPX",
     "messageBoardId": "finmb_5569923",
@@ -1265,7 +1257,8 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "marketState": "CLOSED",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1079568000000,
     "regularMarketChange": -32.0,
     "regularMarketDayRange": "2060.0 - 2092.0",
     "fullExchangeName": "Tokyo",
@@ -1275,14 +1268,12 @@
     "fiftyTwoWeekRange": "1595.0 - 2252.0",
     "fiftyTwoWeekHighChange": -189.0,
     "fiftyTwoWeekHighChangePercent": -0.083925396,
-    "fiftyTwoWeekChangePercent": -3.9348066,
+    "fiftyTwoWeekChangePercent": -3.8228452,
     "earningsTimestampStart": 1753943400,
     "earningsTimestampEnd": 1754289000,
     "isEarningsDateEstimate": true,
     "shortName": "TAKACHIHO KOHEKI CO",
     "longName": "Takachiho Koheki Co.,Ltd.",
-    "regularMarketChangePercent": -1.5274463,
-    "regularMarketPrice": 2063.0,
     "epsTrailingTwelveMonths": 45.59,
     "fiftyDayAverageChange": -13.780029,
     "fiftyDayAverageChangePercent": -0.006635286,
@@ -1291,8 +1282,7 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1079568000000,
+    "marketState": "CLOSED",
     "trailingPegRatio": null
   }
 }

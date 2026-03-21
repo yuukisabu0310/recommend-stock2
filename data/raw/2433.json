@@ -1,7 +1,7 @@
 {
   "ticker": "2433",
   "japanese_ticker": "2433.T",
-  "fetch_date": "2026-03-20T23:31:47.976934",
+  "fetch_date": "2026-03-21T23:26:44.423193",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": -2384496000.0,
@@ -1274,7 +1274,7 @@
     "tradeable": false,
     "enterpriseValue": 402887835648,
     "profitMargins": 0.02349,
-    "floatShares": 193579390,
+    "floatShares": 193428182,
     "sharesOutstanding": 359032040,
     "heldPercentInsiders": 0.35939997,
     "heldPercentInstitutions": 0.15219,
@@ -1292,8 +1292,8 @@
     "lastSplitDate": 1380153600,
     "enterpriseToRevenue": 0.453,
     "enterpriseToEbitda": 5.739,
-    "52WeekChange": -0.09538597,
-    "SandP52WeekChange": 0.16888046,
+    "52WeekChange": -0.09216386,
+    "SandP52WeekChange": 0.12811458,
     "lastDividendValue": 16.0,
     "lastDividendDate": 1774828800,
     "quoteType": "EQUITY",
@@ -1330,8 +1330,8 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "regularMarketChangePercent": -2.206235,
-    "regularMarketPrice": 1019.5,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1108512000000,
     "regularMarketChange": -23.0,
     "regularMarketDayRange": "1017.5 - 1035.0",
     "fullExchangeName": "Tokyo",
@@ -1341,7 +1341,7 @@
     "fiftyTwoWeekRange": "979.2 - 1260.0",
     "fiftyTwoWeekHighChange": -240.5,
     "fiftyTwoWeekHighChangePercent": -0.19087301,
-    "fiftyTwoWeekChangePercent": -9.538597,
+    "fiftyTwoWeekChangePercent": -9.216386,
     "earningsTimestamp": 1770877800,
     "earningsTimestampStart": 1778653800,
     "earningsTimestampEnd": 1778653800,
@@ -1354,24 +1354,13 @@
     "fiftyDayAverageChangePercent": -0.1072836,
     "twoHundredDayAverageChange": -141.72253,
     "twoHundredDayAverageChangePercent": -0.12204597,
+    "marketState": "CLOSED",
+    "shortName": "HAKUHODO DY HLDGS INC",
+    "longName": "Hakuhodo DY Holdings Inc",
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "averageAnalystRating": "3.3 - Hold",
     "cryptoTradeable": false,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1108512000000,
-    "corporateActions": [
-      {
-        "header": "Dividend",
-        "message": "2433.T announced a cash dividend of JPY 16.00 with an ex-date of Mar. 30, 2026",
-        "meta": {
-          "eventType": "DIVIDEND",
-          "dateEpochMs": 1774796400000,
-          "amount": "16.00"
-        }
-      }
-    ],
-    "regularMarketTime": 1773901800,
     "exchange": "JPX",
     "messageBoardId": "finmb_13698805",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1379,9 +1368,10 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "shortName": "HAKUHODO DY HLDGS INC",
-    "longName": "Hakuhodo DY Holdings Inc",
-    "marketState": "CLOSED",
+    "regularMarketChangePercent": -2.206235,
+    "regularMarketPrice": 1019.5,
+    "corporateActions": [],
+    "regularMarketTime": 1773901800,
     "trailingPegRatio": 0.6829
   }
 }

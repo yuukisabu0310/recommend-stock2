@@ -1,7 +1,7 @@
 {
   "ticker": "2692",
   "japanese_ticker": "2692.T",
-  "fetch_date": "2026-03-20T23:34:20.462050",
+  "fetch_date": "2026-03-21T23:29:06.925763",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": -2176000.0,
@@ -1199,7 +1199,7 @@
     "tradeable": false,
     "enterpriseValue": 90342817792,
     "profitMargins": 0.01198,
-    "floatShares": 4446762,
+    "floatShares": 3631247,
     "sharesOutstanding": 12686909,
     "heldPercentInsiders": 0.67254996,
     "heldPercentInstitutions": 0.08137,
@@ -1215,8 +1215,8 @@
     "forwardEps": 307.4,
     "enterpriseToRevenue": 0.126,
     "enterpriseToEbitda": 8.081,
-    "52WeekChange": 0.66453266,
-    "SandP52WeekChange": 0.16888046,
+    "52WeekChange": 0.6795865,
+    "SandP52WeekChange": 0.12811458,
     "lastDividendValue": 80.0,
     "lastDividendDate": 1759104000,
     "quoteType": "EQUITY",
@@ -1248,7 +1248,6 @@
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
     "shortName": "ITOCHU SHOKUHIN CO",
-    "longName": "ITOCHU-SHOKUHIN Co., Ltd.",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 984441600000,
     "regularMarketChange": -30.0,
@@ -1260,7 +1259,7 @@
     "fiftyTwoWeekRange": "7120.0 - 13230.0",
     "fiftyTwoWeekHighChange": -230.0,
     "fiftyTwoWeekHighChangePercent": -0.017384732,
-    "fiftyTwoWeekChangePercent": 66.45326,
+    "fiftyTwoWeekChangePercent": 67.95866,
     "earningsTimestampStart": 1753761600,
     "earningsTimestampEnd": 1754280000,
     "isEarningsDateEstimate": true,
@@ -1273,7 +1272,6 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
-    "marketState": "CLOSED",
     "corporateActions": [],
     "regularMarketTime": 1773901800,
     "exchange": "JPX",
@@ -1285,6 +1283,8 @@
     "esgPopulated": false,
     "regularMarketChangePercent": -0.23023792,
     "regularMarketPrice": 13000.0,
+    "longName": "ITOCHU-SHOKUHIN Co., Ltd.",
+    "marketState": "CLOSED",
     "trailingPegRatio": null
   }
 }

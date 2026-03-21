@@ -1,7 +1,7 @@
 {
   "ticker": "2428",
   "japanese_ticker": "2428.T",
-  "fetch_date": "2026-03-20T23:31:41.563102",
+  "fetch_date": "2026-03-21T23:26:39.290351",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-06-30 00:00:00": null,
@@ -1045,8 +1045,8 @@
     "lastSplitDate": 1467072000,
     "enterpriseToRevenue": -0.858,
     "enterpriseToEbitda": -5.199,
-    "52WeekChange": -0.14097494,
-    "SandP52WeekChange": 0.16888046,
+    "52WeekChange": -0.13756615,
+    "SandP52WeekChange": 0.12811458,
     "lastDividendValue": 17.5,
     "lastDividendDate": 1782691200,
     "quoteType": "EQUITY",
@@ -1079,7 +1079,8 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "marketState": "CLOSED",
+    "shortName": "WELLNET CORP",
+    "longName": "Wellnet Corporation",
     "corporateActions": [],
     "regularMarketTime": 1773901800,
     "exchange": "JPX",
@@ -1091,6 +1092,10 @@
     "esgPopulated": false,
     "regularMarketChangePercent": -0.76103497,
     "regularMarketPrice": 652.0,
+    "marketState": "CLOSED",
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1056067200000,
     "regularMarketChange": -5.0,
@@ -1102,7 +1107,7 @@
     "fiftyTwoWeekRange": "588.0 - 797.0",
     "fiftyTwoWeekHighChange": -145.0,
     "fiftyTwoWeekHighChangePercent": -0.18193224,
-    "fiftyTwoWeekChangePercent": -14.097494,
+    "fiftyTwoWeekChangePercent": -13.756615,
     "earningsTimestampStart": 1754980200,
     "earningsTimestampEnd": 1755498600,
     "isEarningsDateEstimate": true,
@@ -1112,11 +1117,6 @@
     "fiftyDayAverageChangePercent": -0.016175717,
     "twoHundredDayAverageChange": -42.40503,
     "twoHundredDayAverageChangePercent": -0.06106671,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
-    "shortName": "WELLNET CORP",
-    "longName": "Wellnet Corporation",
     "trailingPegRatio": null
   }
 }

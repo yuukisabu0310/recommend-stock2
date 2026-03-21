@@ -1,7 +1,7 @@
 {
   "ticker": "2694",
   "japanese_ticker": "2694.T",
-  "fetch_date": "2026-03-20T23:34:23.855840",
+  "fetch_date": "2026-03-21T23:29:11.421646",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": -222774984.0,
@@ -1241,7 +1241,7 @@
     "enterpriseToRevenue": 0.803,
     "enterpriseToEbitda": 33.637,
     "52WeekChange": -0.026666641,
-    "SandP52WeekChange": 0.16888046,
+    "SandP52WeekChange": 0.12811458,
     "lastDividendValue": 0.5,
     "lastDividendDate": 1774828800,
     "quoteType": "EQUITY",
@@ -1276,19 +1276,6 @@
     "firstTradeDateMilliseconds": 988329600000,
     "regularMarketChange": 0.0,
     "regularMarketDayRange": "72.0 - 73.0",
-    "regularMarketChangePercent": 0.0,
-    "regularMarketPrice": 73.0,
-    "marketState": "CLOSED",
-    "corporateActions": [],
-    "regularMarketTime": 1773901800,
-    "exchange": "JPX",
-    "messageBoardId": "finmb_5756647",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
-    "shortName": "YAKINIKU SAKAI HOLDINGS INC",
     "fullExchangeName": "Tokyo",
     "averageDailyVolume3Month": 739493,
     "fiftyTwoWeekLowChange": 7.0,
@@ -1308,9 +1295,32 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "prevName": "G.taste Co.,Ltd.",
-    "nameChangeDate": "2026-03-20",
+    "nameChangeDate": "2026-03-21",
     "cryptoTradeable": false,
+    "messageBoardId": "finmb_5756647",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
+    "regularMarketChangePercent": 0.0,
+    "regularMarketPrice": 73.0,
+    "marketState": "CLOSED",
+    "shortName": "YAKINIKU SAKAI HOLDINGS INC",
     "longName": "Yakiniku Sakai Holdings Inc.",
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "2694.T announced a cash dividend of JPY 0.50 with an ex-date of Mar. 30, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1774796400000,
+          "amount": "0.50"
+        }
+      }
+    ],
+    "regularMarketTime": 1773901800,
+    "exchange": "JPX",
     "trailingPegRatio": null
   }
 }

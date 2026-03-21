@@ -1,7 +1,7 @@
 {
   "ticker": "2903",
   "japanese_ticker": "2903.T",
-  "fetch_date": "2026-03-20T23:36:59.284762",
+  "fetch_date": "2026-03-21T23:31:35.945552",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": -268035000.0,
@@ -1085,7 +1085,7 @@
     "tradeable": false,
     "enterpriseValue": 19793657856,
     "profitMargins": 0.01682,
-    "floatShares": 5962528,
+    "floatShares": 5903901,
     "sharesOutstanding": 11079224,
     "heldPercentInsiders": 0.37728,
     "heldPercentInstitutions": 0.01806,
@@ -1100,8 +1100,8 @@
     "trailingEps": 95.45,
     "enterpriseToRevenue": 0.323,
     "enterpriseToEbitda": 4.872,
-    "52WeekChange": 0.7698493,
-    "SandP52WeekChange": 0.16888046,
+    "52WeekChange": 0.7716298,
+    "SandP52WeekChange": 0.12811458,
     "lastDividendValue": 15.0,
     "lastDividendDate": 1774828800,
     "quoteType": "EQUITY",
@@ -1132,20 +1132,6 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "marketState": "CLOSED",
-    "corporateActions": [],
-    "regularMarketTime": 1773901494,
-    "exchange": "JPX",
-    "messageBoardId": "finmb_5555119",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 954806400000,
-    "shortName": "SHINOBU FOOD PRODUCTS CO",
-    "longName": "Shinobu Foods Products Co., Ltd.",
     "regularMarketChange": -91.0,
     "regularMarketDayRange": "1760.0 - 1852.0",
     "fullExchangeName": "Tokyo",
@@ -1155,7 +1141,7 @@
     "fiftyTwoWeekRange": "785.0 - 2119.0",
     "fiftyTwoWeekHighChange": -358.0,
     "fiftyTwoWeekHighChangePercent": -0.16894762,
-    "fiftyTwoWeekChangePercent": 76.98493,
+    "fiftyTwoWeekChangePercent": 77.16298,
     "earningsTimestampStart": 1746766800,
     "earningsTimestampEnd": 1746766800,
     "isEarningsDateEstimate": false,
@@ -1166,9 +1152,33 @@
     "twoHundredDayAverageChangePercent": 0.0813466,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
+    "shortName": "SHINOBU FOOD PRODUCTS CO",
+    "longName": "Shinobu Foods Products Co., Ltd.",
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "2903.T announced a cash dividend of JPY 15.00 with an ex-date of Mar. 30, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1774796400000,
+          "amount": "15.00"
+        }
+      }
+    ],
+    "regularMarketTime": 1773901494,
+    "exchange": "JPX",
+    "messageBoardId": "finmb_5555119",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
     "regularMarketChangePercent": -4.9136066,
     "regularMarketPrice": 1761.0,
+    "cryptoTradeable": false,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 954806400000,
+    "marketState": "CLOSED",
     "trailingPegRatio": null
   }
 }

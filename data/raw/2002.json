@@ -1,7 +1,7 @@
 {
   "ticker": "2002",
   "japanese_ticker": "2002.T",
-  "fetch_date": "2026-03-20T23:26:51.386200",
+  "fetch_date": "2026-03-21T23:22:07.687381",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": 1338230000.0,
@@ -1263,8 +1263,8 @@
     "lastSplitDate": 1411689600,
     "enterpriseToRevenue": 0.673,
     "enterpriseToEbitda": 8.267,
-    "52WeekChange": 0.15499723,
-    "SandP52WeekChange": 0.16888046,
+    "52WeekChange": 0.15793943,
+    "SandP52WeekChange": 0.12811458,
     "lastDividendValue": 30.0,
     "lastDividendDate": 1774828800,
     "quoteType": "EQUITY",
@@ -1300,21 +1300,6 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "regularMarketChangePercent": -2.5256135,
-    "regularMarketPrice": 2045.5,
-    "corporateActions": [],
-    "regularMarketTime": 1773901800,
-    "exchange": "JPX",
-    "messageBoardId": "finmb_874802",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
-    "marketState": "CLOSED",
-    "cryptoTradeable": false,
-    "shortName": "NISSHIN SEIFUN GROUP INC",
-    "longName": "Nisshin Seifun Group Inc.",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 946944000000,
     "regularMarketChange": -53.0,
@@ -1326,13 +1311,18 @@
     "fiftyTwoWeekRange": "1642.0 - 2192.0",
     "fiftyTwoWeekHighChange": -146.5,
     "fiftyTwoWeekHighChangePercent": -0.06683394,
-    "fiftyTwoWeekChangePercent": 15.499723,
+    "fiftyTwoWeekChangePercent": 15.793943,
     "earningsTimestamp": 1769754600,
     "earningsTimestampStart": 1778740200,
     "earningsTimestampEnd": 1778740200,
     "earningsCallTimestampStart": 1730458740,
     "earningsCallTimestampEnd": 1730458740,
     "isEarningsDateEstimate": true,
+    "regularMarketChangePercent": -2.5256135,
+    "regularMarketPrice": 2045.5,
+    "marketState": "CLOSED",
+    "shortName": "NISSHIN SEIFUN GROUP INC",
+    "longName": "Nisshin Seifun Group Inc.",
     "epsTrailingTwelveMonths": 84.48,
     "epsForward": 127.45,
     "fiftyDayAverageChange": -10.659912,
@@ -1341,6 +1331,26 @@
     "twoHundredDayAverageChangePercent": 0.09941493,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "2002.T announced a cash dividend of JPY 30.00 with an ex-date of Mar. 30, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1774796400000,
+          "amount": "30.00"
+        }
+      }
+    ],
+    "regularMarketTime": 1773901800,
+    "exchange": "JPX",
+    "messageBoardId": "finmb_874802",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
     "trailingPegRatio": null
   }
 }

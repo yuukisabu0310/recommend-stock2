@@ -1,7 +1,7 @@
 {
   "ticker": "2666",
   "japanese_ticker": "2666.T",
-  "fetch_date": "2026-03-20T23:33:50.661808",
+  "fetch_date": "2026-03-21T23:28:38.645254",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": -3622003.449554,
@@ -1055,8 +1055,8 @@
     "trailingEps": 20.95,
     "enterpriseToRevenue": 0.51,
     "enterpriseToEbitda": 10.411,
-    "52WeekChange": 0.15827334,
-    "SandP52WeekChange": 0.16888046,
+    "52WeekChange": 0.14999998,
+    "SandP52WeekChange": 0.12811458,
     "lastDividendValue": 4.0,
     "lastDividendDate": 1774828800,
     "quoteType": "EQUITY",
@@ -1088,8 +1088,7 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "shortName": "AUTOWAVE CO LTD",
-    "longName": "AUTOWAVE Co., Ltd.",
+    "marketState": "CLOSED",
     "corporateActions": [
       {
         "header": "Dividend",
@@ -1111,7 +1110,6 @@
     "esgPopulated": false,
     "regularMarketChangePercent": -1.8292682,
     "regularMarketPrice": 161.0,
-    "marketState": "CLOSED",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 969580800000,
     "regularMarketChange": -3.0,
@@ -1123,10 +1121,9 @@
     "fiftyTwoWeekRange": "111.0 - 184.0",
     "fiftyTwoWeekHighChange": -23.0,
     "fiftyTwoWeekHighChangePercent": -0.125,
-    "fiftyTwoWeekChangePercent": 15.827333,
-    "earningsTimestampStart": 1754629200,
-    "earningsTimestampEnd": 1755061200,
-    "isEarningsDateEstimate": true,
+    "fiftyTwoWeekChangePercent": 14.999998,
+    "shortName": "AUTOWAVE CO LTD",
+    "longName": "AUTOWAVE Co., Ltd.",
     "epsTrailingTwelveMonths": 20.95,
     "fiftyDayAverageChange": -9.639999,
     "fiftyDayAverageChangePercent": -0.0564932,
@@ -1135,6 +1132,9 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
+    "earningsTimestampStart": 1754629200,
+    "earningsTimestampEnd": 1755061200,
+    "isEarningsDateEstimate": true,
     "trailingPegRatio": null
   }
 }

@@ -1,7 +1,7 @@
 {
   "ticker": "2004",
   "japanese_ticker": "2004.T",
-  "fetch_date": "2026-03-20T23:26:55.695466",
+  "fetch_date": "2026-03-21T23:22:11.637281",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": 825673000.0,
@@ -1194,8 +1194,8 @@
     "lastSplitDate": 1506470400,
     "enterpriseToRevenue": 0.467,
     "enterpriseToEbitda": 7.128,
-    "52WeekChange": 0.11338794,
-    "SandP52WeekChange": 0.16888046,
+    "52WeekChange": 0.11835337,
+    "SandP52WeekChange": 0.12811458,
     "lastDividendValue": 50.0,
     "lastDividendDate": 1774828800,
     "quoteType": "EQUITY",
@@ -1226,6 +1226,8 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 978307200000,
     "regularMarketChange": -50.0,
     "regularMarketDayRange": "3250.0 - 3310.0",
     "fullExchangeName": "Tokyo",
@@ -1235,34 +1237,25 @@
     "fiftyTwoWeekRange": "2570.0 - 3455.0",
     "fiftyTwoWeekHighChange": -195.0,
     "fiftyTwoWeekHighChangePercent": -0.056439944,
-    "fiftyTwoWeekChangePercent": 11.338795,
+    "fiftyTwoWeekChangePercent": 11.835337,
     "earningsTimestampStart": 1754287200,
     "earningsTimestampEnd": 1754632800,
     "isEarningsDateEstimate": true,
+    "regularMarketChangePercent": -1.510574,
+    "regularMarketPrice": 3260.0,
+    "marketState": "CLOSED",
+    "shortName": "SHOWA SANGYO CO",
+    "longName": "Showa Sangyo Co., Ltd.",
     "epsTrailingTwelveMonths": 301.55,
     "epsForward": 307.8,
     "fiftyDayAverageChange": 2.1000977,
     "fiftyDayAverageChangePercent": 0.000644617,
     "twoHundredDayAverageChange": 207.00488,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 978307200000,
-    "shortName": "SHOWA SANGYO CO",
-    "longName": "Showa Sangyo Co., Ltd.",
     "twoHundredDayAverageChangePercent": 0.06780387,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
-    "corporateActions": [
-      {
-        "header": "Dividend",
-        "message": "2004.T announced a cash dividend of JPY 50.00 with an ex-date of Mar. 30, 2026",
-        "meta": {
-          "eventType": "DIVIDEND",
-          "dateEpochMs": 1774796400000,
-          "amount": "50.00"
-        }
-      }
-    ],
+    "corporateActions": [],
     "regularMarketTime": 1773901800,
     "exchange": "JPX",
     "messageBoardId": "finmb_874505",
@@ -1271,9 +1264,6 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "marketState": "CLOSED",
-    "regularMarketChangePercent": -1.510574,
-    "regularMarketPrice": 3260.0,
     "trailingPegRatio": null
   }
 }

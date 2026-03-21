@@ -1,7 +1,7 @@
 {
   "ticker": "1431",
   "japanese_ticker": "1431.T",
-  "fetch_date": "2026-03-20T23:22:14.247936",
+  "fetch_date": "2026-03-21T23:17:46.488488",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-06-30 00:00:00": -2629952.0,
@@ -1228,7 +1228,7 @@
     "tradeable": false,
     "enterpriseValue": 17614510080,
     "profitMargins": 0.015369999,
-    "floatShares": 8628598,
+    "floatShares": 8764470,
     "sharesOutstanding": 23265828,
     "heldPercentInsiders": 0.59575003,
     "heldPercentInstitutions": 0.00756,
@@ -1245,8 +1245,8 @@
     "lastSplitDate": 1617062400,
     "enterpriseToRevenue": 1.188,
     "enterpriseToEbitda": 20.387,
-    "52WeekChange": -0.037681162,
-    "SandP52WeekChange": 0.16888046,
+    "52WeekChange": -0.040462434,
+    "SandP52WeekChange": 0.12811458,
     "lastDividendValue": 1.6,
     "lastDividendDate": 1782691200,
     "quoteType": "EQUITY",
@@ -1279,8 +1279,11 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1560816000000,
+    "regularMarketChangePercent": 0.3021148,
+    "regularMarketPrice": 664.0,
+    "marketState": "CLOSED",
+    "shortName": "LIB WORK CO LTD",
+    "longName": "Lib Work Co.,Ltd.",
     "regularMarketChange": 2.0,
     "regularMarketDayRange": "659.0 - 664.0",
     "fullExchangeName": "Tokyo",
@@ -1290,7 +1293,7 @@
     "fiftyTwoWeekRange": "562.0 - 838.0",
     "fiftyTwoWeekHighChange": -174.0,
     "fiftyTwoWeekHighChangePercent": -0.20763724,
-    "fiftyTwoWeekChangePercent": -3.7681162,
+    "fiftyTwoWeekChangePercent": -4.0462437,
     "earningsTimestampStart": 1747117800,
     "earningsTimestampEnd": 1747117800,
     "isEarningsDateEstimate": false,
@@ -1299,11 +1302,8 @@
     "fiftyDayAverageChangePercent": 0.019405574,
     "twoHundredDayAverageChange": -40.034973,
     "twoHundredDayAverageChangePercent": -0.056865036,
-    "marketState": "CLOSED",
-    "regularMarketChangePercent": 0.3021148,
-    "regularMarketPrice": 664.0,
-    "shortName": "LIB WORK CO LTD",
-    "longName": "Lib Work Co.,Ltd.",
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
     "corporateActions": [
       {
         "header": "Dividend",
@@ -1323,9 +1323,9 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1560816000000,
     "trailingPegRatio": null
   }
 }

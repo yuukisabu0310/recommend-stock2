@@ -1,7 +1,7 @@
 {
   "ticker": "2681",
   "japanese_ticker": "2681.T",
-  "fetch_date": "2026-03-20T23:34:08.468061",
+  "fetch_date": "2026-03-21T23:28:55.337903",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": -768152000.0,
@@ -1197,8 +1197,8 @@
     "lastSplitDate": 1380153600,
     "enterpriseToRevenue": 0.28,
     "enterpriseToEbitda": 5.618,
-    "52WeekChange": -0.08793008,
-    "SandP52WeekChange": 0.16888046,
+    "52WeekChange": -0.10885805,
+    "SandP52WeekChange": 0.12811458,
     "lastDividendValue": 17.0,
     "lastDividendDate": 1774828800,
     "quoteType": "EQUITY",
@@ -1229,18 +1229,16 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "marketState": "CLOSED",
-    "corporateActions": [
-      {
-        "header": "Dividend",
-        "message": "2681.T announced a cash dividend of JPY 17.00 with an ex-date of Mar. 30, 2026",
-        "meta": {
-          "eventType": "DIVIDEND",
-          "dateEpochMs": 1774796400000,
-          "amount": "17.00"
-        }
-      }
-    ],
+    "shortName": "GEO HOLDINGS CORP",
+    "longName": "Geo Holdings Corporation",
+    "fiftyDayAverageChange": -114.04004,
+    "fiftyDayAverageChangePercent": -0.06392235,
+    "twoHundredDayAverageChange": -28.41504,
+    "twoHundredDayAverageChangePercent": -0.016730327,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
+    "corporateActions": [],
     "regularMarketTime": 1773901800,
     "exchange": "JPX",
     "messageBoardId": "finmb_20343547",
@@ -1249,10 +1247,11 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
+    "marketState": "CLOSED",
+    "regularMarketChangePercent": -3.7463977,
+    "regularMarketPrice": 1670.0,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1073952000000,
-    "shortName": "GEO HOLDINGS CORP",
-    "longName": "Geo Holdings Corporation",
     "regularMarketChange": -65.0,
     "regularMarketDayRange": "1670.0 - 1727.0",
     "fullExchangeName": "Tokyo",
@@ -1262,21 +1261,12 @@
     "fiftyTwoWeekRange": "1522.0 - 1988.0",
     "fiftyTwoWeekHighChange": -318.0,
     "fiftyTwoWeekHighChangePercent": -0.15995976,
-    "fiftyTwoWeekChangePercent": -8.793009,
+    "fiftyTwoWeekChangePercent": -10.885805,
     "earningsTimestampStart": 1754287200,
     "earningsTimestampEnd": 1754632800,
     "isEarningsDateEstimate": true,
     "epsTrailingTwelveMonths": 124.08,
     "epsForward": 268.9,
-    "fiftyDayAverageChange": -114.04004,
-    "fiftyDayAverageChangePercent": -0.06392235,
-    "twoHundredDayAverageChange": -28.41504,
-    "twoHundredDayAverageChangePercent": -0.016730327,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
-    "regularMarketChangePercent": -3.7463977,
-    "regularMarketPrice": 1670.0,
     "trailingPegRatio": null
   }
 }
