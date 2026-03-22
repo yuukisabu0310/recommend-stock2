@@ -1,7 +1,7 @@
 {
   "ticker": "2326",
   "japanese_ticker": "2326.T",
-  "fetch_date": "2026-03-21T23:25:11.369015",
+  "fetch_date": "2026-03-22T23:28:16.510055",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": 0.0,
@@ -1024,11 +1024,11 @@
     "forwardPE": 16.684874,
     "volume": 69400,
     "regularMarketVolume": 69400,
-    "averageVolume": 123403,
+    "averageVolume": 123835,
     "averageVolume10days": 117550,
     "averageDailyVolume10Day": 117550,
-    "bid": 5030.0,
-    "ask": 5050.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 67756675072,
@@ -1095,12 +1095,22 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "regularMarketChangePercent": -3.2629557,
+    "regularMarketPrice": 5040.0,
+    "cryptoTradeable": false,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1198801800000,
     "regularMarketChange": -170.0,
     "regularMarketDayRange": "5020.0 - 5210.0",
     "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 123403,
+    "corporateActions": [],
+    "regularMarketTime": 1773901800,
+    "exchange": "JPX",
+    "messageBoardId": "finmb_9816389",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "shortName": "DIGITAL ARTS INC",
+    "longName": "Digital Arts Inc.",
+    "averageDailyVolume3Month": 123835,
     "fiftyTwoWeekLowChange": 160.0,
     "fiftyTwoWeekLowChangePercent": 0.032786883,
     "fiftyTwoWeekRange": "4880.0 - 8280.0",
@@ -1111,11 +1121,6 @@
     "earningsTimestampStart": 1778135400,
     "earningsTimestampEnd": 1778135400,
     "isEarningsDateEstimate": true,
-    "regularMarketChangePercent": -3.2629557,
-    "regularMarketPrice": 5040.0,
-    "marketState": "CLOSED",
-    "shortName": "DIGITAL ARTS INC",
-    "longName": "Digital Arts Inc.",
     "epsTrailingTwelveMonths": 228.31,
     "epsForward": 302.07,
     "fiftyDayAverageChange": -424.2998,
@@ -1124,26 +1129,11 @@
     "twoHundredDayAverageChangePercent": -0.2690965,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
-    "corporateActions": [
-      {
-        "header": "Dividend",
-        "message": "2326.T announced a cash dividend of JPY 50.00 with an ex-date of Mar. 30, 2026",
-        "meta": {
-          "eventType": "DIVIDEND",
-          "dateEpochMs": 1774796400000,
-          "amount": "50.00"
-        }
-      }
-    ],
-    "regularMarketTime": 1773901800,
-    "exchange": "JPX",
-    "messageBoardId": "finmb_9816389",
-    "exchangeTimezoneName": "Asia/Tokyo",
     "exchangeTimezoneShortName": "JST",
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
+    "marketState": "PREPRE",
     "trailingPegRatio": null
   }
 }

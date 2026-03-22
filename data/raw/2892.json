@@ -1,7 +1,7 @@
 {
   "ticker": "2892",
   "japanese_ticker": "2892.T",
-  "fetch_date": "2026-03-21T23:31:28.172966",
+  "fetch_date": "2026-03-22T23:34:51.402848",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": -23504000.0,
@@ -1113,11 +1113,11 @@
     "trailingPE": 12.54703,
     "volume": 8200,
     "regularMarketVolume": 8200,
-    "averageVolume": 9177,
+    "averageVolume": 9140,
     "averageVolume10days": 5010,
     "averageDailyVolume10Day": 5010,
-    "bid": 3735.0,
-    "ask": 3845.0,
+    "bid": 0.0,
+    "ask": 3930.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 18192541696,
@@ -1178,11 +1178,11 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "shortName": "NIHON SHOKUHIN KAKO CO",
-    "longName": "Nihon Shokuhin Kako Co., Ltd.",
-    "marketState": "CLOSED",
-    "corporateActions": [],
-    "regularMarketTime": 1773901800,
+    "marketState": "PREPRE",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 978998400000,
+    "regularMarketChange": -125.0,
+    "regularMarketDayRange": "3730.0 - 3860.0",
     "exchange": "JPX",
     "messageBoardId": "finmb_883366",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1192,12 +1192,22 @@
     "esgPopulated": false,
     "regularMarketChangePercent": -3.238342,
     "regularMarketPrice": 3735.0,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 978998400000,
-    "regularMarketChange": -125.0,
-    "regularMarketDayRange": "3730.0 - 3860.0",
+    "shortName": "NIHON SHOKUHIN KAKO CO",
+    "longName": "Nihon Shokuhin Kako Co., Ltd.",
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "2892.T announced a cash dividend of JPY 75.00 with an ex-date of Mar. 30, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1774796400000,
+          "amount": "75.00"
+        }
+      }
+    ],
+    "regularMarketTime": 1773901800,
     "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 9177,
+    "averageDailyVolume3Month": 9140,
     "fiftyTwoWeekLowChange": 1585.0,
     "fiftyTwoWeekLowChangePercent": 0.7372093,
     "fiftyTwoWeekRange": "2150.0 - 4250.0",

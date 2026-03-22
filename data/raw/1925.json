@@ -1,7 +1,7 @@
 {
   "ticker": "1925",
   "japanese_ticker": "1925.T",
-  "fetch_date": "2026-03-21T23:20:52.593977",
+  "fetch_date": "2026-03-22T23:23:40.794486",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": -8138650000.0,
@@ -1326,11 +1326,11 @@
     "forwardPE": 10.960039,
     "volume": 2075800,
     "regularMarketVolume": 2075800,
-    "averageVolume": 1644744,
+    "averageVolume": 1646814,
     "averageVolume10days": 1631370,
     "averageDailyVolume10Day": 1631370,
-    "bid": 5158.0,
-    "ask": 5186.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "marketCap": 3195218427904,
     "nonDilutedMarketCap": 3195218478144,
     "fiftyTwoWeekLow": 4596.0,
@@ -1396,10 +1396,16 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "longName": "Daiwa House Industry Co., Ltd.",
+    "marketState": "PREPRE",
     "cryptoTradeable": false,
+    "hasPrePostMarketData": false,
+    "shortName": "DAIWA HOUSE INDUSTRY CO",
+    "longName": "Daiwa House Industry Co., Ltd.",
+    "firstTradeDateMilliseconds": 946944000000,
+    "regularMarketChange": -115.0,
+    "regularMarketDayRange": "5159.0 - 5245.0",
     "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 1644744,
+    "averageDailyVolume3Month": 1646814,
     "fiftyTwoWeekLowChange": 563.0,
     "fiftyTwoWeekLowChangePercent": 0.12249783,
     "fiftyTwoWeekRange": "4596.0 - 5805.0",
@@ -1421,8 +1427,7 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "prevName": "Daiwa House Industry Co.,Ltd.",
-    "nameChangeDate": "2026-03-21",
-    "shortName": "DAIWA HOUSE INDUSTRY CO",
+    "nameChangeDate": "2026-03-22",
     "corporateActions": [
       {
         "header": "Dividend",
@@ -1444,11 +1449,6 @@
     "esgPopulated": false,
     "regularMarketChangePercent": -2.1805081,
     "regularMarketPrice": 5159.0,
-    "marketState": "CLOSED",
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 946944000000,
-    "regularMarketChange": -115.0,
-    "regularMarketDayRange": "5159.0 - 5245.0",
     "trailingPegRatio": null
   }
 }

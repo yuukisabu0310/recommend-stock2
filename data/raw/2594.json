@@ -1,7 +1,7 @@
 {
   "ticker": "2594",
   "japanese_ticker": "2594.T",
-  "fetch_date": "2026-03-21T23:28:14.888196",
+  "fetch_date": "2026-03-22T23:31:27.977473",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": -19720000.0,
@@ -1238,10 +1238,10 @@
     "trailingPE": 73.51968,
     "volume": 62600,
     "regularMarketVolume": 62600,
-    "averageVolume": 78110,
+    "averageVolume": 78429,
     "averageVolume10days": 83270,
     "averageDailyVolume10Day": 83270,
-    "bid": 1998.0,
+    "bid": 0.0,
     "ask": 2004.0,
     "bidSize": 0,
     "askSize": 0,
@@ -1260,7 +1260,7 @@
     "tradeable": false,
     "enterpriseValue": 53288480768,
     "profitMargins": 0.00369,
-    "floatShares": 17220600,
+    "floatShares": 17226813,
     "sharesOutstanding": 21423453,
     "heldPercentInsiders": 0.20285,
     "heldPercentInstitutions": 0.099300005,
@@ -1304,10 +1304,17 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "cryptoTradeable": false,
+    "shortName": "KEY COFFEE INC",
+    "longName": "Key Coffee Inc.",
+    "regularMarketChangePercent": -0.5472637,
+    "regularMarketPrice": 1999.0,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 978307200000,
     "regularMarketChange": -11.0,
     "regularMarketDayRange": "1999.0 - 2011.0",
     "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 78110,
+    "averageDailyVolume3Month": 78429,
     "fiftyTwoWeekLowChange": 95.0,
     "fiftyTwoWeekLowChangePercent": 0.04989496,
     "fiftyTwoWeekRange": "1904.0 - 2159.0",
@@ -1324,9 +1331,17 @@
     "twoHundredDayAverageChangePercent": 0.006062062,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
-    "shortName": "KEY COFFEE INC",
-    "longName": "Key Coffee Inc.",
-    "corporateActions": [],
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "2594.T announced a cash dividend of JPY 6.00 with an ex-date of Mar. 30, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1774796400000,
+          "amount": "6.00"
+        }
+      }
+    ],
     "regularMarketTime": 1773901800,
     "exchange": "JPX",
     "messageBoardId": "finmb_882237",
@@ -1335,12 +1350,7 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "regularMarketChangePercent": -0.5472637,
-    "regularMarketPrice": 1999.0,
-    "cryptoTradeable": false,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 978307200000,
-    "marketState": "CLOSED",
+    "marketState": "PREPRE",
     "trailingPegRatio": null
   }
 }

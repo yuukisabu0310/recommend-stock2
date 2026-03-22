@@ -1,7 +1,7 @@
 {
   "ticker": "2332",
   "japanese_ticker": "2332.T",
-  "fetch_date": "2026-03-21T23:25:21.376586",
+  "fetch_date": "2026-03-22T23:28:26.012964",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": 2788811.95403,
@@ -1218,11 +1218,11 @@
     "trailingPE": 11.235552,
     "volume": 6800,
     "regularMarketVolume": 6800,
-    "averageVolume": 39718,
+    "averageVolume": 40326,
     "averageVolume10days": 13920,
     "averageDailyVolume10Day": 13920,
-    "bid": 1565.0,
-    "ask": 1573.0,
+    "bid": 0.0,
+    "ask": 1511.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 8421307392,
@@ -1288,13 +1288,11 @@
     "customPriceAlertConfidence": "LOW",
     "regularMarketChangePercent": -2.9758215,
     "regularMarketPrice": 1565.0,
-    "marketState": "CLOSED",
-    "shortName": "QUEST CO LTD",
-    "longName": "Quest Co., Ltd.",
+    "marketState": "PREPRE",
     "regularMarketChange": -48.0,
     "regularMarketDayRange": "1565.0 - 1592.0",
     "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 39718,
+    "averageDailyVolume3Month": 40326,
     "fiftyTwoWeekLowChange": 464.0,
     "fiftyTwoWeekLowChangePercent": 0.42143506,
     "fiftyTwoWeekRange": "1101.0 - 2105.0",
@@ -1311,7 +1309,20 @@
     "twoHundredDayAverageChangePercent": 4.1497828e-05,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
-    "corporateActions": [],
+    "cryptoTradeable": false,
+    "shortName": "QUEST CO LTD",
+    "longName": "Quest Co., Ltd.",
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "2332.T announced a cash dividend of JPY 55.00 with an ex-date of Mar. 30, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1774796400000,
+          "amount": "55.00"
+        }
+      }
+    ],
     "regularMarketTime": 1773901800,
     "exchange": "JPX",
     "messageBoardId": "finmb_12787025",
@@ -1320,7 +1331,6 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "cryptoTradeable": false,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1034294400000,
     "trailingPegRatio": null

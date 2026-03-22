@@ -1,7 +1,7 @@
 {
   "ticker": "2733",
   "japanese_ticker": "2733.T",
-  "fetch_date": "2026-03-21T23:29:33.947334",
+  "fetch_date": "2026-03-22T23:32:51.666198",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": 67737000.0,
@@ -1169,11 +1169,11 @@
     "forwardPE": 8.091603,
     "volume": 125800,
     "regularMarketVolume": 125800,
-    "averageVolume": 49772,
+    "averageVolume": 50198,
     "averageVolume10days": 76900,
     "averageDailyVolume10Day": 76900,
-    "bid": 2966.0,
-    "ask": 2980.0,
+    "bid": 2988.0,
+    "ask": 2989.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 99361644544,
@@ -1241,12 +1241,11 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "esgPopulated": false,
-    "regularMarketChangePercent": -1.3953488,
-    "regularMarketPrice": 2968.0,
-    "longName": "Arata Corporation",
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
     "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 49772,
+    "averageDailyVolume3Month": 50198,
     "fiftyTwoWeekLowChange": 276.0,
     "fiftyTwoWeekLowChangePercent": 0.102526,
     "fiftyTwoWeekRange": "2692.0 - 3375.0",
@@ -1264,25 +1263,8 @@
     "fiftyDayAverageChangePercent": -0.028738625,
     "twoHundredDayAverageChange": -99.42505,
     "twoHundredDayAverageChangePercent": -0.032413196,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1266796800000,
-    "regularMarketChange": -42.0,
-    "regularMarketDayRange": "2968.0 - 3010.0",
     "shortName": "ARATA CORPORATION",
-    "marketState": "CLOSED",
-    "corporateActions": [
-      {
-        "header": "Dividend",
-        "message": "2733.T announced a cash dividend of JPY 56.00 with an ex-date of Mar. 30, 2026",
-        "meta": {
-          "eventType": "DIVIDEND",
-          "dateEpochMs": 1774796400000,
-          "amount": "56.00"
-        }
-      }
-    ],
+    "corporateActions": [],
     "regularMarketTime": 1773901800,
     "exchange": "JPX",
     "messageBoardId": "finmb_7884402",
@@ -1290,7 +1272,15 @@
     "exchangeTimezoneShortName": "JST",
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
-    "cryptoTradeable": false,
+    "esgPopulated": false,
+    "longName": "Arata Corporation",
+    "regularMarketChangePercent": -1.3953488,
+    "regularMarketPrice": 2968.0,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1266796800000,
+    "regularMarketChange": -42.0,
+    "regularMarketDayRange": "2968.0 - 3010.0",
+    "marketState": "PREPRE",
     "trailingPegRatio": null
   }
 }

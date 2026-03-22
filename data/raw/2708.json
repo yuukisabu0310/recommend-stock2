@@ -1,7 +1,7 @@
 {
   "ticker": "2708",
   "japanese_ticker": "2708.T",
-  "fetch_date": "2026-03-21T23:29:23.316333",
+  "fetch_date": "2026-03-22T23:32:41.407120",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": 124160000.0,
@@ -131,7 +131,7 @@
     },
     "Diluted Average Shares": {
       "2025-03-31 00:00:00": 4626276.0,
-      "2024-03-31 00:00:00": 4626300.0,
+      "2024-03-31 00:00:00": 4625875.0,
       "2023-03-31 00:00:00": 4598451.0,
       "2022-03-31 00:00:00": 3701382.0,
       "2021-03-31 00:00:00": null
@@ -1222,11 +1222,11 @@
     "trailingPE": 6.414416,
     "volume": 3500,
     "regularMarketVolume": 3500,
-    "averageVolume": 4115,
+    "averageVolume": 4110,
     "averageVolume10days": 3390,
     "averageDailyVolume10Day": 3390,
-    "bid": 2175.0,
-    "ask": 2201.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 10062150656,
@@ -1293,32 +1293,12 @@
     "customPriceAlertConfidence": "LOW",
     "shortName": "KUZE CO LTD",
     "longName": "Kuze Co., Ltd.",
-    "corporateActions": [
-      {
-        "header": "Dividend",
-        "message": "2708.T announced a cash dividend of JPY 45.00 with an ex-date of Mar. 30, 2026",
-        "meta": {
-          "eventType": "DIVIDEND",
-          "dateEpochMs": 1774796400000,
-          "amount": "45.00"
-        }
-      }
-    ],
-    "regularMarketTime": 1773901800,
-    "exchange": "JPX",
-    "messageBoardId": "finmb_1333955",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
-    "regularMarketChangePercent": -1.8058691,
-    "regularMarketPrice": 2175.0,
-    "marketState": "CLOSED",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1000252800000,
     "regularMarketChange": -40.0,
     "regularMarketDayRange": "2175.0 - 2204.0",
     "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 4115,
+    "averageDailyVolume3Month": 4110,
     "fiftyTwoWeekLowChange": 759.0,
     "fiftyTwoWeekLowChangePercent": 0.53601694,
     "fiftyTwoWeekRange": "1416.0 - 2449.0",
@@ -1336,10 +1316,20 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "prevName": "Kuze Co.,Ltd.",
-    "nameChangeDate": "2026-03-21",
+    "nameChangeDate": "2026-03-22",
     "cryptoTradeable": false,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1000252800000,
+    "marketState": "PREPRE",
+    "corporateActions": [],
+    "regularMarketTime": 1773901800,
+    "exchange": "JPX",
+    "messageBoardId": "finmb_1333955",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
+    "regularMarketChangePercent": -1.8058691,
+    "regularMarketPrice": 2175.0,
     "trailingPegRatio": null
   }
 }

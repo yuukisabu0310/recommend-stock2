@@ -1,7 +1,7 @@
 {
   "ticker": "2221",
   "japanese_ticker": "2221.T",
-  "fetch_date": "2026-03-21T23:24:07.491989",
+  "fetch_date": "2026-03-22T23:27:08.331130",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": -7948039.4,
@@ -1080,11 +1080,11 @@
     "trailingPE": 16.750292,
     "volume": 1700,
     "regularMarketVolume": 1700,
-    "averageVolume": 4313,
+    "averageVolume": 4317,
     "averageVolume10days": 2960,
     "averageDailyVolume10Day": 2960,
-    "bid": 3305.0,
-    "ask": 3325.0,
+    "bid": 0.0,
+    "ask": 3350.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 33904961536,
@@ -1151,10 +1151,19 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "fiftyDayAverageChange": 142.6001,
+    "fiftyDayAverageChangePercent": 0.045092367,
+    "twoHundredDayAverageChange": 253.25488,
+    "twoHundredDayAverageChangePercent": 0.082986906,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 947203200000,
     "regularMarketChange": -30.0,
     "regularMarketDayRange": "3305.0 - 3335.0",
     "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 4313,
+    "averageDailyVolume3Month": 4317,
     "fiftyTwoWeekLowChange": 746.0,
     "fiftyTwoWeekLowChangePercent": 0.29152012,
     "fiftyTwoWeekRange": "2559.0 - 3550.0",
@@ -1165,26 +1174,8 @@
     "earningsTimestampEnd": 1747204200,
     "isEarningsDateEstimate": false,
     "epsTrailingTwelveMonths": 197.31,
-    "fiftyDayAverageChange": 142.6001,
-    "fiftyDayAverageChangePercent": 0.045092367,
-    "twoHundredDayAverageChange": 253.25488,
-    "twoHundredDayAverageChangePercent": 0.082986906,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
     "shortName": "IWATSUKA CONFECTIONERY CO",
     "longName": "Iwatsuka Confectionery Co., Ltd.",
-    "corporateActions": [
-      {
-        "header": "Dividend",
-        "message": "2221.T announced a cash dividend of JPY 30.00 with an ex-date of Mar. 30, 2026",
-        "meta": {
-          "eventType": "DIVIDEND",
-          "dateEpochMs": 1774796400000,
-          "amount": "30.00"
-        }
-      }
-    ],
-    "regularMarketTime": 1773901800,
     "exchange": "JPX",
     "messageBoardId": "finmb_5636761",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1192,12 +1183,11 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
+    "marketState": "PREPRE",
     "regularMarketChangePercent": -0.8995502,
     "regularMarketPrice": 3305.0,
-    "cryptoTradeable": false,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 947203200000,
-    "marketState": "CLOSED",
+    "corporateActions": [],
+    "regularMarketTime": 1773901800,
     "trailingPegRatio": null
   }
 }

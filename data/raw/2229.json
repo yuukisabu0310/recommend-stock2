@@ -1,7 +1,7 @@
 {
   "ticker": "2229",
   "japanese_ticker": "2229.T",
-  "fetch_date": "2026-03-21T23:24:15.600035",
+  "fetch_date": "2026-03-22T23:27:16.668872",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": -807000.0,
@@ -1204,11 +1204,11 @@
     "forwardPE": 18.56918,
     "volume": 859100,
     "regularMarketVolume": 859100,
-    "averageVolume": 436489,
+    "averageVolume": 438631,
     "averageVolume10days": 519810,
     "averageDailyVolume10Day": 519810,
-    "bid": 3068.0,
-    "ask": 3072.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 373031534592,
@@ -1281,44 +1281,13 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "shortName": "CALBEE INC",
     "longName": "Calbee, Inc.",
-    "regularMarketChangePercent": -1.5088283,
-    "regularMarketPrice": 3068.0,
-    "fiftyDayAverageChange": 7.0300293,
-    "fiftyDayAverageChangePercent": 0.002296667,
-    "twoHundredDayAverageChange": 180.47754,
-    "twoHundredDayAverageChangePercent": 0.062502556,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "averageAnalystRating": "3.5 - Hold",
-    "cryptoTradeable": false,
-    "corporateActions": [
-      {
-        "header": "Dividend",
-        "message": "2229.T announced a cash dividend of JPY 66.00 with an ex-date of Mar. 30, 2026",
-        "meta": {
-          "eventType": "DIVIDEND",
-          "dateEpochMs": 1774796400000,
-          "amount": "66.00"
-        }
-      }
-    ],
-    "regularMarketTime": 1773901800,
-    "exchange": "JPX",
-    "messageBoardId": "finmb_126883551",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
-    "marketState": "CLOSED",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1299801600000,
     "regularMarketChange": -47.0,
     "regularMarketDayRange": "3068.0 - 3117.0",
     "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 436489,
+    "averageDailyVolume3Month": 438631,
     "fiftyTwoWeekLowChange": 468.0,
     "fiftyTwoWeekLowChangePercent": 0.18,
     "fiftyTwoWeekRange": "2600.0 - 3194.0",
@@ -1333,6 +1302,37 @@
     "isEarningsDateEstimate": false,
     "epsTrailingTwelveMonths": 136.22,
     "epsForward": 165.22,
+    "fiftyDayAverageChange": 7.0300293,
+    "fiftyDayAverageChangePercent": 0.002296667,
+    "twoHundredDayAverageChange": 180.47754,
+    "twoHundredDayAverageChangePercent": 0.062502556,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "2229.T announced a cash dividend of JPY 66.00 with an ex-date of Mar. 30, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1774796400000,
+          "amount": "66.00"
+        }
+      }
+    ],
+    "regularMarketTime": 1773901800,
+    "averageAnalystRating": "3.5 - Hold",
+    "cryptoTradeable": false,
+    "marketState": "PREPRE",
+    "exchange": "JPX",
+    "messageBoardId": "finmb_126883551",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
+    "regularMarketChangePercent": -1.5088283,
+    "regularMarketPrice": 3068.0,
+    "shortName": "CALBEE INC",
     "trailingPegRatio": null
   }
 }

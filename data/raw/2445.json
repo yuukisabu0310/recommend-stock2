@@ -1,7 +1,7 @@
 {
   "ticker": "2445",
   "japanese_ticker": "2445.T",
-  "fetch_date": "2026-03-21T23:26:56.416573",
+  "fetch_date": "2026-03-22T23:30:05.928776",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": 27344500.0,
@@ -1232,11 +1232,11 @@
     "trailingPE": 14.905248,
     "volume": 119700,
     "regularMarketVolume": 119700,
-    "averageVolume": 153936,
+    "averageVolume": 154938,
     "averageVolume10days": 144590,
     "averageDailyVolume10Day": 144590,
-    "bid": 408.0,
-    "ask": 410.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 18750709760,
@@ -1297,7 +1297,12 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "averageDailyVolume3Month": 153936,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1197849600000,
+    "regularMarketChange": -14.0,
+    "regularMarketDayRange": "408.0 - 418.0",
+    "fullExchangeName": "Tokyo",
+    "averageDailyVolume3Month": 154938,
     "fiftyTwoWeekLowChange": 94.0,
     "fiftyTwoWeekLowChangePercent": 0.2984127,
     "fiftyTwoWeekRange": "315.0 - 482.0",
@@ -1312,9 +1317,8 @@
     "fiftyDayAverageChangePercent": -0.06616743,
     "twoHundredDayAverageChange": 21.23999,
     "twoHundredDayAverageChangePercent": 0.054776125,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
+    "shortName": "TAKAMIYA CO LTD",
+    "longName": "Takamiya Co., Ltd.",
     "corporateActions": [
       {
         "header": "Dividend",
@@ -1327,12 +1331,6 @@
       }
     ],
     "regularMarketTime": 1773901800,
-    "marketState": "CLOSED",
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1197849600000,
-    "regularMarketChange": -14.0,
-    "regularMarketDayRange": "408.0 - 418.0",
-    "fullExchangeName": "Tokyo",
     "exchange": "JPX",
     "messageBoardId": "finmb_5718541",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1342,8 +1340,10 @@
     "esgPopulated": false,
     "regularMarketChangePercent": -3.3096929,
     "regularMarketPrice": 409.0,
-    "shortName": "TAKAMIYA CO LTD",
-    "longName": "Takamiya Co., Ltd.",
+    "marketState": "PREPRE",
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
     "trailingPegRatio": null
   }
 }

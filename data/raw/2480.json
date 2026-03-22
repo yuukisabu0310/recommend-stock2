@@ -1,7 +1,7 @@
 {
   "ticker": "2480",
   "japanese_ticker": "2480.T",
-  "fetch_date": "2026-03-21T23:27:20.938927",
+  "fetch_date": "2026-03-22T23:30:30.528860",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": -23587131.085246,
@@ -977,11 +977,11 @@
     "trailingPE": 16.529406,
     "volume": 1100,
     "regularMarketVolume": 1100,
-    "averageVolume": 1389,
+    "averageVolume": 1380,
     "averageVolume10days": 1670,
     "averageDailyVolume10Day": 1670,
-    "bid": 1706.0,
-    "ask": 1719.0,
+    "bid": 0.0,
+    "ask": 1739.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 6018914816,
@@ -1047,10 +1047,12 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "longName": "System Location Co.,Ltd.",
-    "cryptoTradeable": false,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1145577600000,
+    "regularMarketChange": -1.0,
+    "regularMarketDayRange": "1705.0 - 1707.0",
     "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 1389,
+    "averageDailyVolume3Month": 1380,
     "fiftyTwoWeekLowChange": 406.0,
     "fiftyTwoWeekLowChangePercent": 0.3123077,
     "fiftyTwoWeekRange": "1300.0 - 1974.0",
@@ -1065,10 +1067,19 @@
     "fiftyDayAverageChangePercent": -0.0062444494,
     "twoHundredDayAverageChange": 92.410034,
     "twoHundredDayAverageChangePercent": 0.057269838,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
     "shortName": "SYSTEM LOCATION",
-    "corporateActions": [],
+    "longName": "System Location Co.,Ltd.",
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "2480.T announced a cash dividend of JPY 38.00 with an ex-date of Mar. 30, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1774796400000,
+          "amount": "38.00"
+        }
+      }
+    ],
     "regularMarketTime": 1773901800,
     "exchange": "JPX",
     "messageBoardId": "finmb_26416401",
@@ -1079,11 +1090,10 @@
     "esgPopulated": false,
     "regularMarketChangePercent": -0.05858231,
     "regularMarketPrice": 1706.0,
-    "marketState": "CLOSED",
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1145577600000,
-    "regularMarketChange": -1.0,
-    "regularMarketDayRange": "1705.0 - 1707.0",
+    "marketState": "PREPRE",
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
     "trailingPegRatio": null
   }
 }

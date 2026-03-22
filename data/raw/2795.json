@@ -1,7 +1,7 @@
 {
   "ticker": "2795",
   "japanese_ticker": "2795.T",
-  "fetch_date": "2026-03-21T23:30:32.418219",
+  "fetch_date": "2026-03-22T23:33:53.412930",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": 476555.428833,
@@ -974,11 +974,11 @@
     "trailingPE": 12.091768,
     "volume": 4200,
     "regularMarketVolume": 4200,
-    "averageVolume": 1205,
+    "averageVolume": 1224,
     "averageVolume10days": 1540,
     "averageDailyVolume10Day": 1540,
-    "bid": 896.0,
-    "ask": 899.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 4634819584,
@@ -1043,36 +1043,7 @@
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
     "cryptoTradeable": false,
-    "corporateActions": [
-      {
-        "header": "Dividend",
-        "message": "2795.T announced a cash dividend of JPY 25.00 with an ex-date of Mar. 30, 2026",
-        "meta": {
-          "eventType": "DIVIDEND",
-          "dateEpochMs": 1774796400000,
-          "amount": "25.00"
-        }
-      }
-    ],
-    "regularMarketTime": 1773901800,
-    "marketState": "CLOSED",
-    "shortName": "NIPPON PRIMEX INC",
-    "longName": "Nippon Primex Inc.",
-    "exchange": "JPX",
-    "messageBoardId": "finmb_11271972",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1076630400000,
-    "regularMarketChange": -18.0,
-    "regularMarketDayRange": "891.0 - 906.0",
-    "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 1205,
-    "fiftyTwoWeekLowChange": 96.0,
-    "fiftyTwoWeekLowChangePercent": 0.12,
+    "marketState": "PREPRE",
     "fiftyTwoWeekRange": "800.0 - 975.0",
     "fiftyTwoWeekHighChange": -79.0,
     "fiftyTwoWeekHighChangePercent": -0.08102564,
@@ -1087,8 +1058,37 @@
     "twoHundredDayAverageChangePercent": 0.0013578981,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1076630400000,
+    "regularMarketChange": -18.0,
+    "regularMarketDayRange": "891.0 - 906.0",
+    "fullExchangeName": "Tokyo",
+    "averageDailyVolume3Month": 1224,
+    "fiftyTwoWeekLowChange": 96.0,
+    "fiftyTwoWeekLowChangePercent": 0.12,
+    "shortName": "NIPPON PRIMEX INC",
+    "longName": "Nippon Primex Inc.",
     "regularMarketChangePercent": -1.9693654,
     "regularMarketPrice": 896.0,
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "2795.T announced a cash dividend of JPY 25.00 with an ex-date of Mar. 30, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1774796400000,
+          "amount": "25.00"
+        }
+      }
+    ],
+    "regularMarketTime": 1773901800,
+    "exchange": "JPX",
+    "messageBoardId": "finmb_11271972",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
     "trailingPegRatio": null
   }
 }

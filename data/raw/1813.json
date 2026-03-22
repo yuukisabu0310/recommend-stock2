@@ -1,7 +1,7 @@
 {
   "ticker": "1813",
   "japanese_ticker": "1813.T",
-  "fetch_date": "2026-03-21T23:19:33.143266",
+  "fetch_date": "2026-03-22T23:22:15.513536",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": -28580060.422961,
@@ -1209,11 +1209,11 @@
     "forwardPE": 15.390105,
     "volume": 84200,
     "regularMarketVolume": 84200,
-    "averageVolume": 102850,
+    "averageVolume": 104033,
     "averageVolume10days": 74790,
     "averageDailyVolume10Day": 74790,
-    "bid": 3235.0,
-    "ask": 3285.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 49009836032,
@@ -1281,8 +1281,14 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "marketState": "PREPRE",
+    "cryptoTradeable": false,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 978566400000,
+    "regularMarketChange": -160.0,
+    "regularMarketDayRange": "3220.0 - 3320.0",
+    "fullExchangeName": "Tokyo",
+    "averageDailyVolume3Month": 104033,
     "fiftyTwoWeekLowChange": 1339.0,
     "fiftyTwoWeekLowChangePercent": 0.7062236,
     "fiftyTwoWeekRange": "1896.0 - 4015.0",
@@ -1294,17 +1300,25 @@
     "earningsCallTimestampStart": 1732877940,
     "earningsCallTimestampEnd": 1732877940,
     "isEarningsDateEstimate": true,
+    "epsTrailingTwelveMonths": 199.6,
+    "epsForward": 210.2,
     "fiftyDayAverageChange": -151.0,
     "fiftyDayAverageChangePercent": -0.044595394,
     "twoHundredDayAverageChange": 509.24512,
-    "regularMarketChange": -160.0,
-    "regularMarketDayRange": "3220.0 - 3320.0",
-    "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 102850,
-    "cryptoTradeable": false,
+    "twoHundredDayAverageChangePercent": 0.18682718,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
-    "corporateActions": [],
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "1813.T announced a cash dividend of JPY 90.00 with an ex-date of Mar. 30, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1774796400000,
+          "amount": "90.00"
+        }
+      }
+    ],
     "regularMarketTime": 1773901800,
     "exchange": "JPX",
     "messageBoardId": "finmb_879738",
@@ -1315,12 +1329,8 @@
     "esgPopulated": false,
     "regularMarketChangePercent": -4.712813,
     "regularMarketPrice": 3235.0,
-    "marketState": "CLOSED",
     "shortName": "FUDO TETRA CORP",
     "longName": "Fudo Tetra Corporation",
-    "epsTrailingTwelveMonths": 199.6,
-    "epsForward": 210.2,
-    "twoHundredDayAverageChangePercent": 0.18682718,
     "trailingPegRatio": null
   }
 }

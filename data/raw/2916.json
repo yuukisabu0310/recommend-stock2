@@ -1,7 +1,7 @@
 {
   "ticker": "2916",
   "japanese_ticker": "2916.T",
-  "fetch_date": "2026-03-21T23:31:51.650895",
+  "fetch_date": "2026-03-22T23:35:15.479173",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": -49392336.0,
@@ -1235,11 +1235,11 @@
     "trailingPE": 37.321064,
     "volume": 1400,
     "regularMarketVolume": 1400,
-    "averageVolume": 2200,
+    "averageVolume": 2212,
     "averageVolume10days": 2560,
     "averageDailyVolume10Day": 2560,
-    "bid": 725.0,
-    "ask": 730.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 8310022144,
@@ -1304,18 +1304,12 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "fiftyDayAverageChangePercent": -0.0027049654,
-    "twoHundredDayAverageChange": -10.044983,
-    "twoHundredDayAverageChangePercent": -0.013573476,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 947030400000,
     "regularMarketChange": 7.0,
     "regularMarketDayRange": "724.0 - 730.0",
     "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 2200,
+    "averageDailyVolume3Month": 2212,
     "fiftyTwoWeekLowChange": 86.0,
     "fiftyTwoWeekLowChangePercent": 0.13354038,
     "fiftyTwoWeekRange": "644.0 - 785.0",
@@ -1327,6 +1321,11 @@
     "isEarningsDateEstimate": false,
     "epsTrailingTwelveMonths": 19.56,
     "fiftyDayAverageChange": -1.9799805,
+    "fiftyDayAverageChangePercent": -0.0027049654,
+    "twoHundredDayAverageChange": -10.044983,
+    "twoHundredDayAverageChangePercent": -0.013573476,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
     "corporateActions": [
       {
         "header": "Dividend",
@@ -1348,9 +1347,10 @@
     "esgPopulated": false,
     "shortName": "SEMBA TOHKA INDUSTRIES CO",
     "longName": "Semba Tohka Industries Co., Ltd",
+    "cryptoTradeable": false,
     "regularMarketChangePercent": 0.96818817,
     "regularMarketPrice": 730.0,
-    "marketState": "CLOSED",
+    "marketState": "PREPRE",
     "trailingPegRatio": null
   }
 }

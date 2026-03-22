@@ -1,7 +1,7 @@
 {
   "ticker": "2871",
   "japanese_ticker": "2871.T",
-  "fetch_date": "2026-03-21T23:31:09.680103",
+  "fetch_date": "2026-03-22T23:34:32.202466",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": -582255000.0,
@@ -1165,11 +1165,11 @@
     "forwardPE": 8.3796625,
     "volume": 2526500,
     "regularMarketVolume": 2526500,
-    "averageVolume": 1883429,
+    "averageVolume": 1904096,
     "averageVolume10days": 1427490,
     "averageDailyVolume10Day": 1427490,
-    "bid": 1974.0,
-    "ask": 1979.0,
+    "bid": 1920.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 494846345216,
@@ -1239,36 +1239,13 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "corporateActions": [
-      {
-        "header": "Dividend",
-        "message": "2871.T announced a cash dividend of JPY 24.00 with an ex-date of Mar. 30, 2026",
-        "meta": {
-          "eventType": "DIVIDEND",
-          "dateEpochMs": 1774796400000,
-          "amount": "24.00"
-        }
-      }
-    ],
-    "regularMarketTime": 1773901800,
-    "exchange": "JPX",
-    "messageBoardId": "finmb_876656",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
-    "shortName": "NICHIREI CORP",
-    "longName": "Nichirei Corporation",
-    "regularMarketChangePercent": -1.9856043,
-    "regularMarketPrice": 1974.5,
-    "marketState": "CLOSED",
+    "marketState": "PREPRE",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 946944000000,
     "regularMarketChange": -40.0,
     "regularMarketDayRange": "1974.5 - 2015.0",
     "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 1883429,
+    "averageDailyVolume3Month": 1904096,
     "fiftyTwoWeekLowChange": 346.5,
     "fiftyTwoWeekLowChangePercent": 0.21283785,
     "fiftyTwoWeekRange": "1628.0 - 2157.0",
@@ -1291,6 +1268,19 @@
     "exchangeDataDelayedBy": 20,
     "averageAnalystRating": "2.0 - Buy",
     "cryptoTradeable": false,
+    "shortName": "NICHIREI CORP",
+    "longName": "Nichirei Corporation",
+    "regularMarketChangePercent": -1.9856043,
+    "regularMarketPrice": 1974.5,
+    "corporateActions": [],
+    "regularMarketTime": 1773901800,
+    "exchange": "JPX",
+    "messageBoardId": "finmb_876656",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
     "trailingPegRatio": null
   }
 }

@@ -1,7 +1,7 @@
 {
   "ticker": "1780",
   "japanese_ticker": "1780.T",
-  "fetch_date": "2026-03-21T23:18:58.733790",
+  "fetch_date": "2026-03-22T23:21:41.078116",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": 2766798.0,
@@ -1149,11 +1149,11 @@
     "trailingPE": 8.841595,
     "volume": 33800,
     "regularMarketVolume": 33800,
-    "averageVolume": 52265,
+    "averageVolume": 52803,
     "averageVolume10days": 46490,
     "averageDailyVolume10Day": 46490,
-    "bid": 1640.0,
-    "ask": 1642.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 31059580928,
@@ -1218,10 +1218,16 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "longName": "Yamaura Corporation",
+    "marketState": "PREPRE",
     "cryptoTradeable": false,
+    "shortName": "YAMAURA CORP",
+    "longName": "Yamaura Corporation",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 978307200000,
+    "regularMarketChange": -9.0,
+    "regularMarketDayRange": "1638.0 - 1655.0",
     "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 52265,
+    "averageDailyVolume3Month": 52803,
     "fiftyTwoWeekLowChange": 609.0,
     "fiftyTwoWeekLowChangePercent": 0.59011626,
     "fiftyTwoWeekRange": "1032.0 - 1696.0",
@@ -1238,19 +1244,6 @@
     "twoHundredDayAverageChangePercent": 0.14802608,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
-    "shortName": "YAMAURA CORP",
-    "corporateActions": [
-      {
-        "header": "Dividend",
-        "message": "1780.T announced a cash dividend of JPY 17.00 with an ex-date of Mar. 30, 2026",
-        "meta": {
-          "eventType": "DIVIDEND",
-          "dateEpochMs": 1774796400000,
-          "amount": "17.00"
-        }
-      }
-    ],
-    "regularMarketTime": 1773901800,
     "exchange": "JPX",
     "messageBoardId": "finmb_884138",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1260,11 +1253,8 @@
     "esgPopulated": false,
     "regularMarketChangePercent": -0.54545456,
     "regularMarketPrice": 1641.0,
-    "marketState": "CLOSED",
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 978307200000,
-    "regularMarketChange": -9.0,
-    "regularMarketDayRange": "1638.0 - 1655.0",
+    "corporateActions": [],
+    "regularMarketTime": 1773901800,
     "trailingPegRatio": null
   }
 }

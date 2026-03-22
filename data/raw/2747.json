@@ -1,7 +1,7 @@
 {
   "ticker": "2747",
   "japanese_ticker": "2747.T",
-  "fetch_date": "2026-03-21T23:29:48.268773",
+  "fetch_date": "2026-03-22T23:33:06.088594",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-02-28 00:00:00": 8469604.0,
@@ -1086,11 +1086,11 @@
     "trailingPE": 26.31579,
     "volume": 1400,
     "regularMarketVolume": 1400,
-    "averageVolume": 2343,
+    "averageVolume": 2377,
     "averageVolume10days": 970,
     "averageDailyVolume10Day": 970,
-    "bid": 3030.0,
-    "ask": 3055.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 3829662464,
@@ -1159,15 +1159,16 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "marketState": "PREPRE",
+    "cryptoTradeable": false,
+    "hasPrePostMarketData": false,
     "shortName": "HOKUYU LUCKY CO.LTD.",
     "longName": "Hokuyu Lucky Co.,Ltd.",
-    "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1033689600000,
-    "marketState": "CLOSED",
     "regularMarketChange": 5.0,
     "regularMarketDayRange": "3025.0 - 3040.0",
     "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 2343,
+    "averageDailyVolume3Month": 2377,
     "fiftyTwoWeekLowChange": 177.0,
     "fiftyTwoWeekLowChangePercent": 0.062039956,
     "fiftyTwoWeekRange": "2853.0 - 3480.0",
@@ -1195,7 +1196,6 @@
     "esgPopulated": false,
     "regularMarketChangePercent": 0.16528925,
     "regularMarketPrice": 3030.0,
-    "cryptoTradeable": false,
     "trailingPegRatio": null
   }
 }

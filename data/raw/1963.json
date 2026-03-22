@@ -1,7 +1,7 @@
 {
   "ticker": "1963",
   "japanese_ticker": "1963.T",
-  "fetch_date": "2026-03-21T23:21:33.351838",
+  "fetch_date": "2026-03-22T23:24:22.313555",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": -708992000.0,
@@ -1118,11 +1118,11 @@
     "previousClose": 2264.0,
     "open": 2181.5,
     "dayLow": 2125.0,
-    "dayHigh": 2208.0,
+    "dayHigh": 2220.0,
     "regularMarketPreviousClose": 2264.0,
     "regularMarketOpen": 2181.5,
     "regularMarketDayLow": 2125.0,
-    "regularMarketDayHigh": 2208.0,
+    "regularMarketDayHigh": 2220.0,
     "dividendRate": 40.0,
     "dividendYield": 1.87,
     "exDividendDate": 1774828800,
@@ -1132,11 +1132,11 @@
     "forwardPE": 17.51642,
     "volume": 3688200,
     "regularMarketVolume": 3688200,
-    "averageVolume": 2025087,
+    "averageVolume": 2044263,
     "averageVolume10days": 2343670,
     "averageDailyVolume10Day": 2343670,
-    "bid": 2133.0,
-    "ask": 2142.5,
+    "bid": 0.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 515989438464,
@@ -1208,11 +1208,10 @@
     "longName": "JGC Holdings Corporation",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 946944000000,
-    "marketState": "CLOSED",
     "regularMarketChange": -130.5,
-    "regularMarketDayRange": "2125.0 - 2208.0",
+    "regularMarketDayRange": "2125.0 - 2220.0",
     "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 2025087,
+    "averageDailyVolume3Month": 2044263,
     "fiftyTwoWeekLowChange": 1192.9,
     "fiftyTwoWeekLowChangePercent": 1.2682331,
     "fiftyTwoWeekRange": "940.6 - 2571.0",
@@ -1233,6 +1232,8 @@
     "twoHundredDayAverageChangePercent": 0.26820236,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
+    "marketState": "PREPRE",
     "corporateActions": [
       {
         "header": "Dividend",
@@ -1254,7 +1255,6 @@
     "esgPopulated": false,
     "regularMarketChangePercent": -5.7641344,
     "regularMarketPrice": 2133.5,
-    "cryptoTradeable": false,
     "trailingPegRatio": null
   }
 }

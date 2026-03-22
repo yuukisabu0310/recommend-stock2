@@ -1,7 +1,7 @@
 {
   "ticker": "1853",
   "japanese_ticker": "1853.T",
-  "fetch_date": "2026-03-21T23:20:06.084330",
+  "fetch_date": "2026-03-22T23:22:50.887908",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": 0.0,
@@ -1198,11 +1198,11 @@
     "trailingPE": 12.486106,
     "volume": 28600,
     "regularMarketVolume": 28600,
-    "averageVolume": 49913,
+    "averageVolume": 49750,
     "averageVolume10days": 38620,
     "averageDailyVolume10Day": 38620,
-    "bid": 336.0,
-    "ask": 337.0,
+    "bid": 0.0,
+    "ask": 338.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 11036648448,
@@ -1269,7 +1269,14 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "averageDailyVolume3Month": 49913,
+    "shortName": "MORI-GUMI CO LTD",
+    "longName": "Mori-Gumi Co., Ltd.",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 954806400000,
+    "regularMarketChange": -3.0,
+    "regularMarketDayRange": "336.0 - 339.0",
+    "fullExchangeName": "Tokyo",
+    "averageDailyVolume3Month": 49750,
     "fiftyTwoWeekLowChange": 57.0,
     "fiftyTwoWeekLowChangePercent": 0.20357142,
     "fiftyTwoWeekRange": "280.0 - 352.0",
@@ -1287,6 +1294,7 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
+    "marketState": "PREPRE",
     "corporateActions": [
       {
         "header": "Dividend",
@@ -1299,12 +1307,6 @@
       }
     ],
     "regularMarketTime": 1773901800,
-    "marketState": "CLOSED",
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 954806400000,
-    "regularMarketChange": -3.0,
-    "regularMarketDayRange": "336.0 - 339.0",
-    "fullExchangeName": "Tokyo",
     "exchange": "JPX",
     "messageBoardId": "finmb_5510566",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1314,8 +1316,6 @@
     "esgPopulated": false,
     "regularMarketChangePercent": -0.882353,
     "regularMarketPrice": 337.0,
-    "shortName": "MORI-GUMI CO LTD",
-    "longName": "Mori-Gumi Co., Ltd.",
     "trailingPegRatio": null
   }
 }

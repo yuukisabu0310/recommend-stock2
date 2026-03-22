@@ -1,7 +1,7 @@
 {
   "ticker": "2130",
   "japanese_ticker": "2130.T",
-  "fetch_date": "2026-03-21T23:22:41.251281",
+  "fetch_date": "2026-03-22T23:25:34.767048",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": 0.0,
@@ -887,11 +887,11 @@
     "forwardPE": 6.89919,
     "volume": 67700,
     "regularMarketVolume": 67700,
-    "averageVolume": 96739,
+    "averageVolume": 97387,
     "averageVolume10days": 77570,
     "averageDailyVolume10Day": 77570,
-    "bid": 1082.0,
-    "ask": 1083.0,
+    "bid": 1149.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 13830368256,
@@ -963,20 +963,10 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "marketState": "PREPRE",
     "shortName": "MEMBERS CO LTD",
     "longName": "Members Co., Ltd.",
-    "marketState": "CLOSED",
-    "corporateActions": [
-      {
-        "header": "Dividend",
-        "message": "2130.T announced a cash dividend of JPY 33.00 with an ex-date of Mar. 30, 2026",
-        "meta": {
-          "eventType": "DIVIDEND",
-          "dateEpochMs": 1774796400000,
-          "amount": "33.00"
-        }
-      }
-    ],
+    "corporateActions": [],
     "regularMarketTime": 1773901800,
     "exchange": "JPX",
     "messageBoardId": "finmb_544045",
@@ -987,12 +977,10 @@
     "esgPopulated": false,
     "regularMarketChangePercent": -5.4195805,
     "regularMarketPrice": 1082.0,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1461196800000,
     "regularMarketChange": -62.0,
     "regularMarketDayRange": "1082.0 - 1118.0",
     "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 96739,
+    "averageDailyVolume3Month": 97387,
     "fiftyTwoWeekLowChange": 206.0,
     "fiftyTwoWeekLowChangePercent": 0.23515981,
     "fiftyTwoWeekRange": "876.0 - 1478.0",
@@ -1011,6 +999,8 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1461196800000,
     "trailingPegRatio": null
   }
 }

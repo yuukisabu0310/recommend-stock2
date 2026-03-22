@@ -1,7 +1,7 @@
 {
   "ticker": "1866",
   "japanese_ticker": "1866.T",
-  "fetch_date": "2026-03-21T23:20:11.443152",
+  "fetch_date": "2026-03-22T23:22:56.518545",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": 31845000.0,
@@ -1073,11 +1073,11 @@
     "trailingPE": 12.04775,
     "volume": 13100,
     "regularMarketVolume": 13100,
-    "averageVolume": 23489,
+    "averageVolume": 23650,
     "averageVolume10days": 14570,
     "averageDailyVolume10Day": 14570,
-    "bid": 1312.0,
-    "ask": 1315.0,
+    "bid": 0.0,
+    "ask": 1399.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 31915044864,
@@ -1143,20 +1143,12 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "fiftyDayAverageChange": -188.54004,
-    "fiftyDayAverageChangePercent": -0.12564813,
-    "twoHundredDayAverageChange": 64.24878,
-    "twoHundredDayAverageChangePercent": 0.05149166,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
-    "marketState": "CLOSED",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 978307200000,
     "regularMarketChange": -49.0,
     "regularMarketDayRange": "1310.0 - 1344.0",
     "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 23489,
+    "averageDailyVolume3Month": 23650,
     "fiftyTwoWeekLowChange": 535.75,
     "fiftyTwoWeekLowChangePercent": 0.69017714,
     "fiftyTwoWeekRange": "776.25 - 1714.0",
@@ -1167,9 +1159,17 @@
     "earningsTimestampEnd": 1754978400,
     "isEarningsDateEstimate": true,
     "epsTrailingTwelveMonths": 108.9,
-    "shortName": "KITANO CONSTRUCTION CORP",
+    "fiftyDayAverageChange": -188.54004,
+    "fiftyDayAverageChangePercent": -0.12564813,
+    "twoHundredDayAverageChange": 64.24878,
+    "twoHundredDayAverageChangePercent": 0.05149166,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "regularMarketChangePercent": -3.6002939,
+    "regularMarketPrice": 1312.0,
+    "cryptoTradeable": false,
+    "marketState": "PREPRE",
     "longName": "Kitano Construction Corp.",
-    "corporateActions": [],
     "regularMarketTime": 1773901800,
     "exchange": "JPX",
     "messageBoardId": "finmb_876074",
@@ -1178,8 +1178,18 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "regularMarketChangePercent": -3.6002939,
-    "regularMarketPrice": 1312.0,
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "1866.T announced a cash dividend of JPY 27.50 with an ex-date of Mar. 30, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1774796400000,
+          "amount": "27.50"
+        }
+      }
+    ],
+    "shortName": "KITANO CONSTRUCTION CORP",
     "trailingPegRatio": null
   }
 }

@@ -1,7 +1,7 @@
 {
   "ticker": "1871",
   "japanese_ticker": "1871.T",
-  "fetch_date": "2026-03-21T23:20:16.856648",
+  "fetch_date": "2026-03-22T23:23:03.347389",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": -5868000.0,
@@ -1144,11 +1144,11 @@
     "forwardPE": 32.237442,
     "volume": 529500,
     "regularMarketVolume": 529500,
-    "averageVolume": 153253,
+    "averageVolume": 153815,
     "averageVolume10days": 194040,
     "averageDailyVolume10Day": 194040,
-    "bid": 2820.0,
-    "ask": 2830.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 132219265024,
@@ -1166,7 +1166,7 @@
     "tradeable": false,
     "enterpriseValue": 139624562688,
     "profitMargins": 0.063260004,
-    "floatShares": 14675606,
+    "floatShares": 14684033,
     "sharesOutstanding": 46819853,
     "heldPercentInsiders": 0.67493,
     "heldPercentInstitutions": 0.06706,
@@ -1214,15 +1214,12 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "shortName": "PS CONSTRUCTION CO LTD",
-    "longName": "PS Construction Co., Ltd.",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 978307200000,
-    "marketState": "CLOSED",
     "regularMarketChange": -155.0,
     "regularMarketDayRange": "2824.0 - 2944.0",
     "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 153253,
+    "averageDailyVolume3Month": 153815,
     "fiftyTwoWeekLowChange": 1607.0,
     "fiftyTwoWeekLowChangePercent": 1.3204602,
     "fiftyTwoWeekRange": "1217.0 - 3550.0",
@@ -1240,7 +1237,21 @@
     "twoHundredDayAverageChangePercent": 0.23180269,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
-    "corporateActions": [],
+    "cryptoTradeable": false,
+    "shortName": "PS CONSTRUCTION CO LTD",
+    "longName": "PS Construction Co., Ltd.",
+    "marketState": "PREPRE",
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "1871.T announced a cash dividend of JPY 69.00 with an ex-date of Mar. 30, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1774796400000,
+          "amount": "69.00"
+        }
+      }
+    ],
     "regularMarketTime": 1773901800,
     "exchange": "JPX",
     "messageBoardId": "finmb_6562086",
@@ -1251,7 +1262,6 @@
     "esgPopulated": false,
     "regularMarketChangePercent": -5.2030883,
     "regularMarketPrice": 2824.0,
-    "cryptoTradeable": false,
     "trailingPegRatio": null
   }
 }

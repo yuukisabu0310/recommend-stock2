@@ -1,7 +1,7 @@
 {
   "ticker": "1969",
   "japanese_ticker": "1969.T",
-  "fetch_date": "2026-03-21T23:21:44.141938",
+  "fetch_date": "2026-03-22T23:24:34.968230",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": 615802000.0,
@@ -1220,11 +1220,11 @@
     "forwardPE": 13.677176,
     "volume": 960100,
     "regularMarketVolume": 960100,
-    "averageVolume": 643179,
+    "averageVolume": 645356,
     "averageVolume10days": 604430,
     "averageDailyVolume10Day": 604430,
-    "bid": 4583.0,
-    "ask": 4614.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 600016224256,
@@ -1303,7 +1303,7 @@
     "regularMarketChange": -259.0,
     "regularMarketDayRange": "4571.0 - 4680.0",
     "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 643179,
+    "averageDailyVolume3Month": 645356,
     "fiftyTwoWeekLowChange": 2127.0,
     "fiftyTwoWeekLowChangePercent": 0.86533767,
     "fiftyTwoWeekRange": "2458.0 - 5749.0",
@@ -1324,22 +1324,32 @@
     "twoHundredDayAverageChangePercent": 0.06389646,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
+    "regularMarketChangePercent": -5.346821,
+    "regularMarketPrice": 4585.0,
     "averageAnalystRating": "2.0 - Buy",
     "cryptoTradeable": false,
+    "marketState": "PREPRE",
+    "longName": "Takasago Thermal Engineering Co., Ltd.",
+    "regularMarketTime": 1773901800,
+    "exchange": "JPX",
     "messageBoardId": "finmb_876039",
     "exchangeTimezoneName": "Asia/Tokyo",
     "exchangeTimezoneShortName": "JST",
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "regularMarketChangePercent": -5.346821,
-    "regularMarketPrice": 4585.0,
-    "marketState": "CLOSED",
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "1969.T announced a cash dividend of JPY 69.00 with an ex-date of Mar. 30, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1774796400000,
+          "amount": "69.00"
+        }
+      }
+    ],
     "shortName": "TAKASAGO THERMAL ENGINEERING CO",
-    "longName": "Takasago Thermal Engineering Co., Ltd.",
-    "corporateActions": [],
-    "regularMarketTime": 1773901800,
-    "exchange": "JPX",
     "trailingPegRatio": null
   }
 }

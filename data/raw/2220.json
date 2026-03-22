@@ -1,7 +1,7 @@
 {
   "ticker": "2220",
   "japanese_ticker": "2220.T",
-  "fetch_date": "2026-03-21T23:24:05.421633",
+  "fetch_date": "2026-03-22T23:27:06.558305",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": -28424000.0,
@@ -1198,11 +1198,11 @@
     "trailingPE": 3.365882,
     "volume": 64000,
     "regularMarketVolume": 64000,
-    "averageVolume": 64179,
+    "averageVolume": 64668,
     "averageVolume10days": 50710,
     "averageDailyVolume10Day": 50710,
-    "bid": 4290.0,
-    "ask": 4310.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "marketCap": 90551959552,
     "nonDilutedMarketCap": 90551957450,
     "fiftyTwoWeekLow": 3600.0,
@@ -1266,36 +1266,12 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "marketState": "CLOSED",
-    "corporateActions": [
-      {
-        "header": "Stock split",
-        "message": "2220.T announces 3 for 1 split effective Mar. 30, 2026",
-        "meta": {
-          "eventType": "SPLIT",
-          "dateEpochMs": 1774796400000,
-          "splitRatio": "3:1"
-        }
-      }
-    ],
-    "regularMarketTime": 1773901800,
-    "exchange": "JPX",
-    "messageBoardId": "finmb_5496016",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
-    "regularMarketChangePercent": -1.1507479,
-    "regularMarketPrice": 4295.0,
-    "shortName": "KAMEDA SEIKA CO",
-    "longName": "Kameda Seika Co.,Ltd.",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 978307200000,
     "regularMarketChange": -50.0,
     "regularMarketDayRange": "4295.0 - 4350.0",
     "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 64179,
+    "averageDailyVolume3Month": 64668,
     "fiftyTwoWeekLowChange": 695.0,
     "fiftyTwoWeekLowChangePercent": 0.19305556,
     "fiftyTwoWeekRange": "3600.0 - 4605.0",
@@ -1312,7 +1288,31 @@
     "twoHundredDayAverageChangePercent": 0.06580312,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
+    "shortName": "KAMEDA SEIKA CO",
+    "longName": "Kameda Seika Co.,Ltd.",
     "cryptoTradeable": false,
+    "exchange": "JPX",
+    "marketState": "PREPRE",
+    "corporateActions": [
+      {
+        "header": "Stock split",
+        "message": "2220.T announces 3 for 1 split effective Mar. 30, 2026",
+        "meta": {
+          "eventType": "SPLIT",
+          "dateEpochMs": 1774796400000,
+          "splitRatio": "3:1"
+        }
+      }
+    ],
+    "regularMarketTime": 1773901800,
+    "messageBoardId": "finmb_5496016",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
+    "regularMarketChangePercent": -1.1507479,
+    "regularMarketPrice": 4295.0,
     "trailingPegRatio": null
   }
 }

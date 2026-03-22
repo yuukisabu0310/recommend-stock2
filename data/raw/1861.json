@@ -1,7 +1,7 @@
 {
   "ticker": "1861",
   "japanese_ticker": "1861.T",
-  "fetch_date": "2026-03-21T23:20:09.790388",
+  "fetch_date": "2026-03-22T23:22:54.787035",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": -287224000.0,
@@ -1149,11 +1149,11 @@
     "forwardPE": 4.423482,
     "volume": 1198400,
     "regularMarketVolume": 1198400,
-    "averageVolume": 1195813,
+    "averageVolume": 1209119,
     "averageVolume10days": 914440,
     "averageDailyVolume10Day": 914440,
-    "bid": 1659.0,
-    "ask": 1662.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 285345513472,
@@ -1227,40 +1227,13 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "shortName": "KUMAGAI GUMI CO",
     "longName": "Kumagai Gumi Co.,Ltd.",
-    "corporateActions": [
-      {
-        "header": "Dividend",
-        "message": "1861.T announced a cash dividend of JPY 25.00 with an ex-date of Mar. 30, 2026",
-        "meta": {
-          "eventType": "DIVIDEND",
-          "dateEpochMs": 1774796400000,
-          "amount": "25.00"
-        }
-      }
-    ],
-    "regularMarketTime": 1773901800,
-    "exchange": "JPX",
-    "messageBoardId": "finmb_874274",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
-    "regularMarketChangePercent": -2.3529413,
-    "regularMarketPrice": 1660.0,
-    "marketState": "CLOSED",
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "averageAnalystRating": "1.4 - Strong Buy",
-    "cryptoTradeable": false,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 946944000000,
     "regularMarketChange": -40.0,
     "regularMarketDayRange": "1650.0 - 1676.0",
     "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 1195813,
+    "averageDailyVolume3Month": 1209119,
     "fiftyTwoWeekLowChange": 761.25,
     "fiftyTwoWeekLowChangePercent": 0.8470097,
     "fiftyTwoWeekRange": "898.75 - 2043.0",
@@ -1279,6 +1252,33 @@
     "fiftyDayAverageChangePercent": -0.0784024,
     "twoHundredDayAverageChange": 248.62,
     "twoHundredDayAverageChangePercent": 0.17615384,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "1861.T announced a cash dividend of JPY 25.00 with an ex-date of Mar. 30, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1774796400000,
+          "amount": "25.00"
+        }
+      }
+    ],
+    "regularMarketTime": 1773901800,
+    "averageAnalystRating": "1.4 - Strong Buy",
+    "cryptoTradeable": false,
+    "marketState": "PREPRE",
+    "exchange": "JPX",
+    "messageBoardId": "finmb_874274",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
+    "regularMarketChangePercent": -2.3529413,
+    "regularMarketPrice": 1660.0,
+    "shortName": "KUMAGAI GUMI CO",
     "trailingPegRatio": null
   }
 }

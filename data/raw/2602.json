@@ -1,7 +1,7 @@
 {
   "ticker": "2602",
   "japanese_ticker": "2602.T",
-  "fetch_date": "2026-03-21T23:28:18.474214",
+  "fetch_date": "2026-03-22T23:31:31.833625",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": 457632000.0,
@@ -1205,11 +1205,11 @@
     "forwardPE": 10.950362,
     "volume": 138500,
     "regularMarketVolume": 138500,
-    "averageVolume": 72034,
+    "averageVolume": 72484,
     "averageVolume10days": 92990,
     "averageDailyVolume10Day": 92990,
-    "bid": 5750.0,
-    "ask": 5780.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "marketCap": 176662675456,
     "nonDilutedMarketCap": 176662667520,
     "fiftyTwoWeekLow": 4305.0,
@@ -1282,36 +1282,16 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "exchange": "JPX",
-    "messageBoardId": "finmb_877077",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
-    "marketState": "CLOSED",
-    "regularMarketChangePercent": -1.8739352,
-    "regularMarketPrice": 5760.0,
+    "marketState": "PREPRE",
+    "cryptoTradeable": false,
+    "hasPrePostMarketData": false,
     "shortName": "NISSHIN OILLIO GROUP LTD",
     "longName": "The Nisshin OilliO Group,Ltd.",
+    "firstTradeDateMilliseconds": 978307200000,
     "regularMarketChange": -110.0,
     "regularMarketDayRange": "5760.0 - 5840.0",
-    "corporateActions": [
-      {
-        "header": "Stock split",
-        "message": "2602.T announces 3 for 1 split effective Mar. 30, 2026",
-        "meta": {
-          "eventType": "SPLIT",
-          "dateEpochMs": 1774796400000,
-          "splitRatio": "3:1"
-        }
-      }
-    ],
-    "regularMarketTime": 1773901800,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 978307200000,
     "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 72034,
+    "averageDailyVolume3Month": 72484,
     "fiftyTwoWeekLowChange": 1455.0,
     "fiftyTwoWeekLowChangePercent": 0.3379791,
     "fiftyTwoWeekRange": "4305.0 - 6210.0",
@@ -1324,13 +1304,42 @@
     "isEarningsDateEstimate": true,
     "epsTrailingTwelveMonths": 743.04,
     "epsForward": 526.01,
-    "twoHundredDayAverageChangePercent": 0.09469283,
     "fiftyDayAverageChange": 18.799805,
     "fiftyDayAverageChangePercent": 0.0032745425,
     "twoHundredDayAverageChange": 498.25,
+    "twoHundredDayAverageChangePercent": 0.09469283,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "2602.T announced a cash dividend of JPY 90.00 with an ex-date of Mar. 30, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1774796400000,
+          "amount": "90.00"
+        }
+      },
+      {
+        "header": "Stock split",
+        "message": "2602.T announces 3 for 1 split effective Mar. 30, 2026",
+        "meta": {
+          "eventType": "SPLIT",
+          "dateEpochMs": 1774796400000,
+          "splitRatio": "3:1"
+        }
+      }
+    ],
+    "regularMarketTime": 1773901800,
+    "exchange": "JPX",
+    "messageBoardId": "finmb_877077",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
+    "regularMarketChangePercent": -1.8739352,
+    "regularMarketPrice": 5760.0,
     "trailingPegRatio": null
   }
 }

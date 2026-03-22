@@ -1,7 +1,7 @@
 {
   "ticker": "1942",
   "japanese_ticker": "1942.T",
-  "fetch_date": "2026-03-21T23:21:10.354255",
+  "fetch_date": "2026-03-22T23:23:58.550493",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": 623226858.310892,
@@ -1120,11 +1120,11 @@
     "forwardPE": 36.53574,
     "volume": 1381600,
     "regularMarketVolume": 1381600,
-    "averageVolume": 1561975,
+    "averageVolume": 1576280,
     "averageVolume10days": 1126490,
     "averageDailyVolume10Day": 1126490,
-    "bid": 6170.0,
-    "ask": 6195.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 1232891281408,
@@ -1192,12 +1192,14 @@
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
     "shortName": "KANDENKO CO LTD",
+    "longName": "Kandenko Co.,Ltd.",
+    "marketState": "PREPRE",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 978307200000,
     "regularMarketChange": -157.0,
     "regularMarketDayRange": "6011.0 - 6227.0",
     "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 1561975,
+    "averageDailyVolume3Month": 1576280,
     "fiftyTwoWeekLowChange": 3803.0,
     "fiftyTwoWeekLowChangePercent": 1.589883,
     "fiftyTwoWeekRange": "2392.0 - 6986.0",
@@ -1216,18 +1218,6 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
-    "corporateActions": [
-      {
-        "header": "Dividend",
-        "message": "1942.T announced a cash dividend of JPY 75.00 with an ex-date of Mar. 30, 2026",
-        "meta": {
-          "eventType": "DIVIDEND",
-          "dateEpochMs": 1774796400000,
-          "amount": "75.00"
-        }
-      }
-    ],
-    "regularMarketTime": 1773901800,
     "exchange": "JPX",
     "messageBoardId": "finmb_880786",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1237,8 +1227,8 @@
     "esgPopulated": false,
     "regularMarketChangePercent": -2.4716625,
     "regularMarketPrice": 6195.0,
-    "longName": "Kandenko Co.,Ltd.",
-    "marketState": "CLOSED",
+    "corporateActions": [],
+    "regularMarketTime": 1773901800,
     "trailingPegRatio": null
   }
 }

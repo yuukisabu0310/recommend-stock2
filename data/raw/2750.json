@@ -1,7 +1,7 @@
 {
   "ticker": "2750",
   "japanese_ticker": "2750.T",
-  "fetch_date": "2026-03-21T23:29:52.480901",
+  "fetch_date": "2026-03-22T23:33:10.088701",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": -13772902.0,
@@ -107,7 +107,7 @@
     },
     "Diluted Average Shares": {
       "2025-03-31 00:00:00": 7756479.0,
-      "2024-03-31 00:00:00": 7739263.0,
+      "2024-03-31 00:00:00": 7739058.0,
       "2023-03-31 00:00:00": 7719160.0,
       "2022-03-31 00:00:00": 7707000.0
     },
@@ -1117,11 +1117,11 @@
     "trailingPE": 9.380555,
     "volume": 23100,
     "regularMarketVolume": 23100,
-    "averageVolume": 17586,
+    "averageVolume": 17731,
     "averageVolume10days": 17560,
     "averageDailyVolume10Day": 17560,
-    "bid": 1372.0,
-    "ask": 1382.0,
+    "bid": 0.0,
+    "ask": 1301.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 10664998912,
@@ -1186,7 +1186,20 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "corporateActions": [],
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "2750.T announced a cash dividend of JPY 45.00 with an ex-date of Mar. 30, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1774796400000,
+          "amount": "45.00"
+        }
+      }
+    ],
     "regularMarketTime": 1773901800,
     "exchange": "JPX",
     "messageBoardId": "finmb_6463613",
@@ -1195,17 +1208,12 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "shortName": "S. ISHIMITSU & CO LTD",
-    "longName": "S.Ishimitsu & Co.,Ltd.",
-    "regularMarketChangePercent": -3.0388691,
-    "regularMarketPrice": 1372.0,
-    "marketState": "CLOSED",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1037059200000,
     "regularMarketChange": -43.0,
     "regularMarketDayRange": "1370.0 - 1408.0",
     "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 17586,
+    "averageDailyVolume3Month": 17731,
     "fiftyTwoWeekLowChange": 632.0,
     "fiftyTwoWeekLowChangePercent": 0.85405403,
     "fiftyTwoWeekRange": "740.0 - 1547.0",
@@ -1220,9 +1228,11 @@
     "fiftyDayAverageChangePercent": 0.0033200528,
     "twoHundredDayAverageChange": 97.650024,
     "twoHundredDayAverageChangePercent": 0.07662732,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
+    "shortName": "S. ISHIMITSU & CO LTD",
+    "longName": "S.Ishimitsu & Co.,Ltd.",
+    "marketState": "PREPRE",
+    "regularMarketChangePercent": -3.0388691,
+    "regularMarketPrice": 1372.0,
     "trailingPegRatio": null
   }
 }

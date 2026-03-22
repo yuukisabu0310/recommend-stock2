@@ -1,7 +1,7 @@
 {
   "ticker": "2317",
   "japanese_ticker": "2317.T",
-  "fetch_date": "2026-03-21T23:25:03.615039",
+  "fetch_date": "2026-03-22T23:28:08.584160",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": -107160000.0,
@@ -1150,11 +1150,11 @@
     "forwardPE": 16.587301,
     "volume": 1073500,
     "regularMarketVolume": 1073500,
-    "averageVolume": 1190379,
+    "averageVolume": 1195770,
     "averageVolume10days": 973060,
     "averageDailyVolume10Day": 973060,
-    "bid": 417.0,
-    "ask": 419.0,
+    "bid": 0.0,
+    "ask": 416.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 149416542208,
@@ -1225,11 +1225,20 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "marketState": "CLOSED",
-    "shortName": "SYSTENA CORPORATION",
-    "longName": "Systena Corporation",
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
-    "corporateActions": [],
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "2317.T announced a cash dividend of JPY 7.00 with an ex-date of Mar. 30, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1774796400000,
+          "amount": "7.00"
+        }
+      }
+    ],
     "regularMarketTime": 1773901800,
     "exchange": "JPX",
     "messageBoardId": "finmb_9429314",
@@ -1238,14 +1247,12 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "regularMarketChangePercent": -0.94786733,
-    "regularMarketPrice": 418.0,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1100476800000,
     "regularMarketChange": -4.0,
     "regularMarketDayRange": "416.0 - 422.0",
     "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 1190379,
+    "averageDailyVolume3Month": 1195770,
     "fiftyTwoWeekLowChange": 106.0,
     "fiftyTwoWeekLowChangePercent": 0.33974358,
     "fiftyTwoWeekRange": "312.0 - 555.0",
@@ -1262,8 +1269,11 @@
     "fiftyDayAverageChangePercent": -0.0985162,
     "twoHundredDayAverageChange": -54.890015,
     "twoHundredDayAverageChangePercent": -0.116073534,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
+    "shortName": "SYSTENA CORPORATION",
+    "longName": "Systena Corporation",
+    "marketState": "PREPRE",
+    "regularMarketChangePercent": -0.94786733,
+    "regularMarketPrice": 418.0,
     "trailingPegRatio": null
   }
 }

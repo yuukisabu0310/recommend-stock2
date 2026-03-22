@@ -1,7 +1,7 @@
 {
   "ticker": "2499",
   "japanese_ticker": "2499.T",
-  "fetch_date": "2026-03-21T23:27:45.246930",
+  "fetch_date": "2026-03-22T23:30:55.736094",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2024-12-31 00:00:00": -1112700.160789,
@@ -107,7 +107,7 @@
     },
     "Diluted Average Shares": {
       "2024-12-31 00:00:00": 9065600.0,
-      "2023-12-31 00:00:00": 9065600.0,
+      "2023-12-31 00:00:00": 9063431.0,
       "2022-12-31 00:00:00": 9065600.0,
       "2021-12-31 00:00:00": 9065600.0
     },
@@ -890,11 +890,11 @@
     "trailingPE": 10.2347975,
     "volume": 9700,
     "regularMarketVolume": 9700,
-    "averageVolume": 13101,
+    "averageVolume": 13110,
     "averageVolume10days": 8270,
     "averageDailyVolume10Day": 8270,
-    "bid": 340.0,
-    "ask": 345.0,
+    "bid": 341.0,
+    "ask": 338.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 3082304000,
@@ -963,8 +963,9 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "shortName": "NIHONWASOU HOLDINGS INC",
-    "longName": "Nihonwasou Holdings, Inc.",
+    "marketState": "PREPRE",
+    "corporateActions": [],
+    "regularMarketTime": 1773901800,
     "exchange": "JPX",
     "messageBoardId": "finmb_28606947",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -974,6 +975,18 @@
     "esgPopulated": false,
     "regularMarketChangePercent": -1.1627907,
     "regularMarketPrice": 340.0,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1266883200000,
+    "regularMarketChange": -4.0,
+    "regularMarketDayRange": "340.0 - 345.0",
+    "fullExchangeName": "Tokyo",
+    "averageDailyVolume3Month": 13110,
+    "fiftyTwoWeekLowChange": 50.0,
+    "fiftyTwoWeekLowChangePercent": 0.1724138,
+    "fiftyTwoWeekRange": "290.0 - 421.0",
+    "fiftyTwoWeekHighChange": -81.0,
+    "fiftyTwoWeekHighChangePercent": -0.19239905,
+    "fiftyTwoWeekChangePercent": 9.324753,
     "earningsTimestampStart": 1754978400,
     "earningsTimestampEnd": 1755496800,
     "isEarningsDateEstimate": true,
@@ -985,31 +998,8 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1266883200000,
-    "regularMarketChange": -4.0,
-    "regularMarketDayRange": "340.0 - 345.0",
-    "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 13101,
-    "fiftyTwoWeekLowChange": 50.0,
-    "fiftyTwoWeekLowChangePercent": 0.1724138,
-    "fiftyTwoWeekRange": "290.0 - 421.0",
-    "fiftyTwoWeekHighChange": -81.0,
-    "fiftyTwoWeekHighChangePercent": -0.19239905,
-    "fiftyTwoWeekChangePercent": 9.324753,
-    "corporateActions": [
-      {
-        "header": "Dividend",
-        "message": "2499.T announced a cash dividend of JPY 3.00 with an ex-date of Mar. 30, 2026",
-        "meta": {
-          "eventType": "DIVIDEND",
-          "dateEpochMs": 1774796400000,
-          "amount": "3.00"
-        }
-      }
-    ],
-    "regularMarketTime": 1773901800,
-    "marketState": "CLOSED",
+    "shortName": "NIHONWASOU HOLDINGS INC",
+    "longName": "Nihonwasou Holdings, Inc.",
     "trailingPegRatio": null
   }
 }

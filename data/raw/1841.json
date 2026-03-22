@@ -1,7 +1,7 @@
 {
   "ticker": "1841",
   "japanese_ticker": "1841.T",
-  "fetch_date": "2026-03-21T23:19:54.696937",
+  "fetch_date": "2026-03-22T23:22:38.132792",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": -7536027.405466,
@@ -1079,7 +1079,7 @@
     "trailingPE": 10.319682,
     "volume": 500,
     "regularMarketVolume": 500,
-    "averageVolume": 7974,
+    "averageVolume": 7936,
     "averageVolume10days": 3090,
     "averageDailyVolume10Day": 3090,
     "bid": 0.0,
@@ -1149,12 +1149,12 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "esgPopulated": false,
     "regularMarketChangePercent": 0.0,
     "regularMarketPrice": 1585.0,
-    "longName": "Sanyu Construction Co.,Ltd.",
+    "regularMarketChange": 0.0,
+    "regularMarketDayRange": "1585.0 - 1586.0",
     "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 7974,
+    "averageDailyVolume3Month": 7936,
     "fiftyTwoWeekLowChange": 650.0,
     "fiftyTwoWeekLowChangePercent": 0.69518715,
     "fiftyTwoWeekRange": "935.0 - 1817.0",
@@ -1171,12 +1171,9 @@
     "twoHundredDayAverageChangePercent": 0.19179648,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 948240000000,
-    "regularMarketChange": 0.0,
-    "regularMarketDayRange": "1585.0 - 1586.0",
-    "shortName": "SANYU CONSTRUCTION CO",
-    "marketState": "CLOSED",
     "corporateActions": [
       {
         "header": "Reverse stock split",
@@ -1195,7 +1192,10 @@
     "exchangeTimezoneShortName": "JST",
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
-    "cryptoTradeable": false,
+    "esgPopulated": false,
+    "shortName": "SANYU CONSTRUCTION CO",
+    "longName": "Sanyu Construction Co.,Ltd.",
+    "marketState": "PREPRE",
     "trailingPegRatio": null
   }
 }

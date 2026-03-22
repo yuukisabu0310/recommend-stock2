@@ -1,7 +1,7 @@
 {
   "ticker": "2117",
   "japanese_ticker": "2117.T",
-  "fetch_date": "2026-03-21T23:22:29.933726",
+  "fetch_date": "2026-03-22T23:25:22.083490",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": 0.0,
@@ -958,11 +958,11 @@
     "trailingPE": 16.420229,
     "volume": 59500,
     "regularMarketVolume": 59500,
-    "averageVolume": 32194,
+    "averageVolume": 32535,
     "averageVolume10days": 43140,
     "averageDailyVolume10Day": 43140,
-    "bid": 2852.0,
-    "ask": 2884.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 93467795456,
@@ -1033,13 +1033,10 @@
     "customPriceAlertConfidence": "LOW",
     "regularMarketChangePercent": -2.5606008,
     "regularMarketPrice": 2854.0,
-    "marketState": "CLOSED",
-    "shortName": "WELLNEO SUGAR CO LTD",
-    "longName": "WELLNEO SUGAR Co., Ltd.",
     "regularMarketChange": -75.0,
     "regularMarketDayRange": "2854.0 - 2919.0",
     "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 32194,
+    "averageDailyVolume3Month": 32535,
     "fiftyTwoWeekLowChange": 754.0,
     "fiftyTwoWeekLowChangePercent": 0.35904762,
     "fiftyTwoWeekRange": "2100.0 - 3050.0",
@@ -1057,7 +1054,10 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "prevName": "Nissin Sugar Co., Ltd.",
-    "nameChangeDate": "2026-03-21",
+    "nameChangeDate": "2026-03-22",
+    "cryptoTradeable": false,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 978307200000,
     "corporateActions": [
       {
         "header": "Dividend",
@@ -1077,9 +1077,9 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "cryptoTradeable": false,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 978307200000,
+    "shortName": "WELLNEO SUGAR CO LTD",
+    "longName": "WELLNEO SUGAR Co., Ltd.",
+    "marketState": "PREPRE",
     "trailingPegRatio": null
   }
 }

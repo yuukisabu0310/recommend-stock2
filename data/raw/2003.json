@@ -1,7 +1,7 @@
 {
   "ticker": "2003",
   "japanese_ticker": "2003.T",
-  "fetch_date": "2026-03-21T23:22:09.401060",
+  "fetch_date": "2026-03-22T23:25:01.329478",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": -98868000.0,
@@ -1190,11 +1190,11 @@
     "trailingPE": 19.084173,
     "volume": 4500,
     "regularMarketVolume": 4500,
-    "averageVolume": 5663,
+    "averageVolume": 5612,
     "averageVolume10days": 4550,
     "averageDailyVolume10Day": 4550,
-    "bid": 7160.0,
-    "ask": 7180.0,
+    "bid": 0.0,
+    "ask": 7160.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 65191821312,
@@ -1261,8 +1261,30 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "shortName": "NITTO FUJI FLOUR MILLING CO",
     "longName": "Nitto Fuji Flour Milling Co.,Ltd.",
+    "marketState": "PREPRE",
+    "shortName": "NITTO FUJI FLOUR MILLING CO",
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "2003.T announced a cash dividend of JPY 140.00 with an ex-date of Mar. 30, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1774796400000,
+          "amount": "140.00"
+        }
+      },
+      {
+        "header": "Stock split",
+        "message": "2003.T announces 4 for 1 split effective Mar. 30, 2026",
+        "meta": {
+          "eventType": "SPLIT",
+          "dateEpochMs": 1774796400000,
+          "splitRatio": "4:1"
+        }
+      }
+    ],
+    "regularMarketTime": 1773901800,
     "exchange": "JPX",
     "messageBoardId": "finmb_880844",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1272,6 +1294,16 @@
     "esgPopulated": false,
     "regularMarketChangePercent": -1.1049724,
     "regularMarketPrice": 7160.0,
+    "regularMarketChange": -80.0,
+    "regularMarketDayRange": "7160.0 - 7230.0",
+    "fullExchangeName": "Tokyo",
+    "averageDailyVolume3Month": 5612,
+    "fiftyTwoWeekLowChange": 1350.0,
+    "fiftyTwoWeekLowChangePercent": 0.23235801,
+    "fiftyTwoWeekRange": "5810.0 - 7770.0",
+    "fiftyTwoWeekHighChange": -610.0,
+    "fiftyTwoWeekHighChangePercent": -0.07850708,
+    "fiftyTwoWeekChangePercent": 4.0697694,
     "earningsTimestampStart": 1753776000,
     "earningsTimestampEnd": 1754294400,
     "isEarningsDateEstimate": true,
@@ -1285,29 +1317,6 @@
     "cryptoTradeable": false,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 978307200000,
-    "regularMarketChange": -80.0,
-    "regularMarketDayRange": "7160.0 - 7230.0",
-    "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 5663,
-    "fiftyTwoWeekLowChange": 1350.0,
-    "fiftyTwoWeekLowChangePercent": 0.23235801,
-    "fiftyTwoWeekRange": "5810.0 - 7770.0",
-    "fiftyTwoWeekHighChange": -610.0,
-    "fiftyTwoWeekHighChangePercent": -0.07850708,
-    "fiftyTwoWeekChangePercent": 4.0697694,
-    "corporateActions": [
-      {
-        "header": "Stock split",
-        "message": "2003.T announces 4 for 1 split effective Mar. 30, 2026",
-        "meta": {
-          "eventType": "SPLIT",
-          "dateEpochMs": 1774796400000,
-          "splitRatio": "4:1"
-        }
-      }
-    ],
-    "regularMarketTime": 1773901800,
-    "marketState": "CLOSED",
     "trailingPegRatio": null
   }
 }

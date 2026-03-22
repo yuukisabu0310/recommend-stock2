@@ -1,7 +1,7 @@
 {
   "ticker": "2924",
   "japanese_ticker": "2924.T",
-  "fetch_date": "2026-03-21T23:32:01.625362",
+  "fetch_date": "2026-03-22T23:35:24.670308",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": -1832892.998679,
@@ -1158,11 +1158,11 @@
     "trailingPE": 7.5132356,
     "volume": 10300,
     "regularMarketVolume": 10300,
-    "averageVolume": 12775,
+    "averageVolume": 12796,
     "averageVolume10days": 9280,
     "averageDailyVolume10Day": 9280,
-    "bid": 1925.0,
-    "ask": 1955.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 15728963584,
@@ -1229,9 +1229,9 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "shortName": "IFUJI SANGYO CO LTD",
     "longName": "Ifuji Sangyo Co., Ltd.",
-    "marketState": "CLOSED",
+    "marketState": "PREPRE",
+    "shortName": "IFUJI SANGYO CO LTD",
     "corporateActions": [
       {
         "header": "Dividend",
@@ -1253,12 +1253,10 @@
     "esgPopulated": false,
     "regularMarketChangePercent": -2.475998,
     "regularMarketPrice": 1930.0,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1266796800000,
     "regularMarketChange": -49.0,
     "regularMarketDayRange": "1927.0 - 1952.0",
     "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 12775,
+    "averageDailyVolume3Month": 12796,
     "fiftyTwoWeekLowChange": 230.0,
     "fiftyTwoWeekLowChangePercent": 0.13529412,
     "fiftyTwoWeekRange": "1700.0 - 2520.0",
@@ -1276,6 +1274,8 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1266796800000,
     "trailingPegRatio": null
   }
 }

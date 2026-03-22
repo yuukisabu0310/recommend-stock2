@@ -1,7 +1,7 @@
 {
   "ticker": "2819",
   "japanese_ticker": "2819.T",
-  "fetch_date": "2026-03-21T23:31:04.385291",
+  "fetch_date": "2026-03-22T23:34:26.583971",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": -38376000.0,
@@ -1120,11 +1120,11 @@
     "forwardPE": 13.255814,
     "volume": 16000,
     "regularMarketVolume": 16000,
-    "averageVolume": 12893,
+    "averageVolume": 13033,
     "averageVolume10days": 19070,
     "averageDailyVolume10Day": 19070,
-    "bid": 2564.0,
-    "ask": 2573.0,
+    "bid": 0.0,
+    "ask": 2561.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 24980838400,
@@ -1192,12 +1192,10 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "esgPopulated": false,
-    "regularMarketChangePercent": -1.1560693,
-    "regularMarketPrice": 2565.0,
-    "longName": "EBARA Foods Industry,Inc.",
+    "regularMarketChange": -30.0,
+    "regularMarketDayRange": "2565.0 - 2592.0",
     "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 12893,
+    "averageDailyVolume3Month": 13033,
     "fiftyTwoWeekLowChange": 115.0,
     "fiftyTwoWeekLowChangePercent": 0.046938777,
     "fiftyTwoWeekRange": "2450.0 - 2878.0",
@@ -1212,18 +1210,27 @@
     "fiftyDayAverageChange": -73.28003,
     "fiftyDayAverageChangePercent": -0.027775683,
     "twoHundredDayAverageChange": 5.620117,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1068681600000,
+    "shortName": "EBARA FOODS INDUSTRY INC",
+    "longName": "EBARA Foods Industry,Inc.",
     "twoHundredDayAverageChangePercent": 0.0021958903,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "prevName": "Ebara Foods Industry, Inc.",
-    "nameChangeDate": "2026-03-21",
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1068681600000,
-    "regularMarketChange": -30.0,
-    "regularMarketDayRange": "2565.0 - 2592.0",
-    "shortName": "EBARA FOODS INDUSTRY INC",
-    "marketState": "CLOSED",
-    "corporateActions": [],
+    "nameChangeDate": "2026-03-22",
+    "cryptoTradeable": false,
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "2819.T announced a cash dividend of JPY 25.00 with an ex-date of Mar. 30, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1774796400000,
+          "amount": "25.00"
+        }
+      }
+    ],
     "regularMarketTime": 1773901800,
     "exchange": "JPX",
     "messageBoardId": "finmb_9261940",
@@ -1231,7 +1238,10 @@
     "exchangeTimezoneShortName": "JST",
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
-    "cryptoTradeable": false,
+    "esgPopulated": false,
+    "marketState": "PREPRE",
+    "regularMarketChangePercent": -1.1560693,
+    "regularMarketPrice": 2565.0,
     "trailingPegRatio": null
   }
 }

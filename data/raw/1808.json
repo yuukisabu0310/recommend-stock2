@@ -1,7 +1,7 @@
 {
   "ticker": "1808",
   "japanese_ticker": "1808.T",
-  "fetch_date": "2026-03-21T23:19:25.170382",
+  "fetch_date": "2026-03-22T23:22:07.499450",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": -5270576000.0,
@@ -1218,11 +1218,11 @@
     "forwardPE": 13.829437,
     "volume": 1337700,
     "regularMarketVolume": 1337700,
-    "averageVolume": 738165,
+    "averageVolume": 739821,
     "averageVolume10days": 768960,
     "averageDailyVolume10Day": 768960,
-    "bid": 2939.5,
-    "ask": 2944.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 778061348864,
@@ -1294,26 +1294,15 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "corporateActions": [],
-    "regularMarketTime": 1773901800,
-    "exchange": "JPX",
-    "messageBoardId": "finmb_874112",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
     "shortName": "HASEKO CORPORATION",
     "longName": "HASEKO Corporation",
-    "regularMarketChangePercent": -4.3591413,
-    "regularMarketPrice": 2940.0,
-    "marketState": "CLOSED",
+    "marketState": "PREPRE",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 978307200000,
     "regularMarketChange": -134.0,
     "regularMarketDayRange": "2938.0 - 3015.0",
     "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 738165,
+    "averageDailyVolume3Month": 739821,
     "fiftyTwoWeekLowChange": 1152.0,
     "fiftyTwoWeekLowChangePercent": 0.6442953,
     "fiftyTwoWeekRange": "1788.0 - 3531.0",
@@ -1336,6 +1325,27 @@
     "exchangeDataDelayedBy": 20,
     "averageAnalystRating": "2.4 - Buy",
     "cryptoTradeable": false,
+    "exchange": "JPX",
+    "messageBoardId": "finmb_874112",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
+    "regularMarketChangePercent": -4.3591413,
+    "regularMarketPrice": 2940.0,
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "1808.T announced a cash dividend of JPY 45.00 with an ex-date of Mar. 30, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1774796400000,
+          "amount": "45.00"
+        }
+      }
+    ],
+    "regularMarketTime": 1773901800,
     "trailingPegRatio": null
   }
 }

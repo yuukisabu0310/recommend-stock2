@@ -1,7 +1,7 @@
 {
   "ticker": "2376",
   "japanese_ticker": "2376.T",
-  "fetch_date": "2026-03-21T23:26:01.505876",
+  "fetch_date": "2026-03-22T23:29:08.599465",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": -32480.0,
@@ -1142,11 +1142,11 @@
     "trailingPE": 28.657074,
     "volume": 1600,
     "regularMarketVolume": 1600,
-    "averageVolume": 3044,
+    "averageVolume": 3057,
     "averageVolume10days": 1630,
     "averageDailyVolume10Day": 1630,
-    "bid": 713.0,
-    "ask": 725.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 4020923904,
@@ -1211,10 +1211,16 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "marketState": "PREPRE",
+    "cryptoTradeable": false,
+    "hasPrePostMarketData": false,
+    "shortName": "SCINEX CORPORATION",
+    "longName": "Scinex Corporation",
+    "firstTradeDateMilliseconds": 1068163200000,
     "regularMarketChange": -5.0,
     "regularMarketDayRange": "717.0 - 724.0",
     "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 3044,
+    "averageDailyVolume3Month": 3057,
     "fiftyTwoWeekLowChange": 17.0,
     "fiftyTwoWeekLowChangePercent": 0.024285715,
     "fiftyTwoWeekRange": "700.0 - 867.0",
@@ -1225,17 +1231,13 @@
     "earningsTimestampEnd": 1754979600,
     "isEarningsDateEstimate": true,
     "epsTrailingTwelveMonths": 25.02,
-    "corporateActions": [
-      {
-        "header": "Dividend",
-        "message": "2376.T announced a cash dividend of JPY 15.00 with an ex-date of Mar. 30, 2026",
-        "meta": {
-          "eventType": "DIVIDEND",
-          "dateEpochMs": 1774796400000,
-          "amount": "15.00"
-        }
-      }
-    ],
+    "fiftyDayAverageChange": -24.97998,
+    "fiftyDayAverageChangePercent": -0.03366665,
+    "twoHundredDayAverageChange": -51.51001,
+    "twoHundredDayAverageChangePercent": -0.06702582,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "corporateActions": [],
     "regularMarketTime": 1773901225,
     "exchange": "JPX",
     "messageBoardId": "finmb_5853892",
@@ -1244,20 +1246,8 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "marketState": "CLOSED",
-    "shortName": "SCINEX CORPORATION",
-    "longName": "Scinex Corporation",
     "regularMarketChangePercent": -0.69252074,
     "regularMarketPrice": 717.0,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1068163200000,
-    "fiftyDayAverageChange": -24.97998,
-    "fiftyDayAverageChangePercent": -0.03366665,
-    "twoHundredDayAverageChange": -51.51001,
-    "twoHundredDayAverageChangePercent": -0.06702582,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
     "trailingPegRatio": null
   }
 }

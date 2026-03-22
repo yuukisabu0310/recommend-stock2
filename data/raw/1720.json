@@ -1,7 +1,7 @@
 {
   "ticker": "1720",
   "japanese_ticker": "1720.T",
-  "fetch_date": "2026-03-21T23:18:31.937176",
+  "fetch_date": "2026-03-22T23:21:14.709557",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": 42725609.756098,
@@ -1254,11 +1254,11 @@
     "forwardPE": 24.47236,
     "volume": 466900,
     "regularMarketVolume": 466900,
-    "averageVolume": 416705,
+    "averageVolume": 418778,
     "averageVolume10days": 501610,
     "averageDailyVolume10Day": 501610,
-    "bid": 1461.0,
-    "ask": 1463.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "marketCap": 154791575552,
     "nonDilutedMarketCap": 154791572277,
     "fiftyTwoWeekLow": 698.0,
@@ -1329,22 +1329,10 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "cryptoTradeable": false,
-    "corporateActions": [
-      {
-        "header": "Dividend",
-        "message": "1720.T announced a cash dividend of JPY 20.00 with an ex-date of Mar. 30, 2026",
-        "meta": {
-          "eventType": "DIVIDEND",
-          "dateEpochMs": 1774796400000,
-          "amount": "20.00"
-        }
-      }
-    ],
+    "regularMarketChangePercent": -3.6914964,
+    "regularMarketPrice": 1461.0,
+    "corporateActions": [],
     "regularMarketTime": 1773901800,
-    "marketState": "CLOSED",
-    "shortName": "TOKYU CONSTRUCTION CO(NEW)",
-    "longName": "Tokyu Construction Co., Ltd.",
     "exchange": "JPX",
     "messageBoardId": "finmb_876114",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1352,12 +1340,16 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
+    "marketState": "PREPRE",
+    "cryptoTradeable": false,
+    "shortName": "TOKYU CONSTRUCTION CO(NEW)",
+    "longName": "Tokyu Construction Co., Ltd.",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1064966400000,
     "regularMarketChange": -56.0,
     "regularMarketDayRange": "1453.0 - 1487.0",
     "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 416705,
+    "averageDailyVolume3Month": 418778,
     "fiftyTwoWeekLowChange": 763.0,
     "fiftyTwoWeekLowChangePercent": 1.0931232,
     "fiftyTwoWeekRange": "698.0 - 1693.0",
@@ -1375,8 +1367,6 @@
     "twoHundredDayAverageChangePercent": 0.21748984,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
-    "regularMarketChangePercent": -3.6914964,
-    "regularMarketPrice": 1461.0,
     "trailingPegRatio": null
   }
 }

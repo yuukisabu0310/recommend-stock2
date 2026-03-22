@@ -1,7 +1,7 @@
 {
   "ticker": "2351",
   "japanese_ticker": "2351.T",
-  "fetch_date": "2026-03-21T23:25:42.716560",
+  "fetch_date": "2026-03-22T23:28:50.668025",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": 0.0,
@@ -976,11 +976,11 @@
     "trailingPE": 13.158852,
     "volume": 10700,
     "regularMarketVolume": 10700,
-    "averageVolume": 28239,
+    "averageVolume": 28285,
     "averageVolume10days": 31030,
     "averageDailyVolume10Day": 31030,
-    "bid": 362.0,
-    "ask": 366.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 2824281344,
@@ -1047,7 +1047,12 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "averageDailyVolume3Month": 28239,
+    "regularMarketChangePercent": -2.4258761,
+    "regularMarketPrice": 362.0,
+    "regularMarketChange": -9.0,
+    "regularMarketDayRange": "362.0 - 375.0",
+    "fullExchangeName": "Tokyo",
+    "averageDailyVolume3Month": 28285,
     "fiftyTwoWeekLowChange": 91.0,
     "fiftyTwoWeekLowChangePercent": 0.33579335,
     "fiftyTwoWeekRange": "271.0 - 441.0",
@@ -1065,14 +1070,20 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
-    "corporateActions": [],
-    "regularMarketTime": 1773901800,
-    "marketState": "CLOSED",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1043971200000,
-    "regularMarketChange": -9.0,
-    "regularMarketDayRange": "362.0 - 375.0",
-    "fullExchangeName": "Tokyo",
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "2351.T announced a cash dividend of JPY 3.00 with an ex-date of Mar. 30, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1774796400000,
+          "amount": "3.00"
+        }
+      }
+    ],
+    "regularMarketTime": 1773901800,
     "exchange": "JPX",
     "messageBoardId": "finmb_8839417",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1080,10 +1091,9 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "regularMarketChangePercent": -2.4258761,
-    "regularMarketPrice": 362.0,
     "shortName": "ASJ INC",
     "longName": "ASJ Inc.",
+    "marketState": "PREPRE",
     "trailingPegRatio": null
   }
 }

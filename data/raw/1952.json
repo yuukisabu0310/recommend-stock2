@@ -1,7 +1,7 @@
 {
   "ticker": "1952",
   "japanese_ticker": "1952.T",
-  "fetch_date": "2026-03-21T23:21:25.727854",
+  "fetch_date": "2026-03-22T23:24:14.818399",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": 595782000.0,
@@ -1198,11 +1198,11 @@
     "trailingPE": 14.164306,
     "volume": 144600,
     "regularMarketVolume": 144600,
-    "averageVolume": 163425,
+    "averageVolume": 162587,
     "averageVolume10days": 153240,
     "averageDailyVolume10Day": 153240,
-    "bid": 3650.0,
-    "ask": 3675.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 165788581888,
@@ -1269,7 +1269,14 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "averageDailyVolume3Month": 163425,
+    "marketState": "PREPRE",
+    "cryptoTradeable": false,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 978307200000,
+    "regularMarketChange": -215.0,
+    "regularMarketDayRange": "3650.0 - 3770.0",
+    "fullExchangeName": "Tokyo",
+    "averageDailyVolume3Month": 162587,
     "fiftyTwoWeekLowChange": 2199.0,
     "fiftyTwoWeekLowChangePercent": 1.5155065,
     "fiftyTwoWeekRange": "1451.0 - 4400.0",
@@ -1287,16 +1294,19 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "prevName": "Shin Nippon Air Technologies Co. Ltd.",
-    "nameChangeDate": "2026-03-21",
-    "cryptoTradeable": false,
-    "corporateActions": [],
+    "nameChangeDate": "2026-03-22",
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "1952.T announced a cash dividend of JPY 70.00 with an ex-date of Mar. 30, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1774796400000,
+          "amount": "70.00"
+        }
+      }
+    ],
     "regularMarketTime": 1773901800,
-    "marketState": "CLOSED",
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 978307200000,
-    "regularMarketChange": -215.0,
-    "regularMarketDayRange": "3650.0 - 3770.0",
-    "fullExchangeName": "Tokyo",
     "exchange": "JPX",
     "messageBoardId": "finmb_880826",
     "exchangeTimezoneName": "Asia/Tokyo",

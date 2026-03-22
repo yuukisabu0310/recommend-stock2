@@ -1,7 +1,7 @@
 {
   "ticker": "2112",
   "japanese_ticker": "2112.T",
-  "fetch_date": "2026-03-21T23:22:26.234275",
+  "fetch_date": "2026-03-22T23:25:17.863857",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": 12360000.0,
@@ -1152,11 +1152,11 @@
     "trailingPE": 5.8139534,
     "volume": 105300,
     "regularMarketVolume": 105300,
-    "averageVolume": 115170,
+    "averageVolume": 116140,
     "averageVolume10days": 94760,
     "averageDailyVolume10Day": 94760,
-    "bid": 549.0,
-    "ask": 550.0,
+    "bid": 550.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 15137414144,
@@ -1221,15 +1221,12 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "regularMarketChangePercent": -1.9607844,
-    "regularMarketPrice": 550.0,
-    "marketState": "CLOSED",
-    "shortName": "ENSUIKO SUGAR REFINING CO",
-    "longName": "Ensuiko Sugar Refining Co., Ltd.",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 978307200000,
     "regularMarketChange": -11.0,
     "regularMarketDayRange": "547.0 - 558.0",
     "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 115170,
+    "averageDailyVolume3Month": 116140,
     "fiftyTwoWeekLowChange": 278.0,
     "fiftyTwoWeekLowChangePercent": 1.0220588,
     "fiftyTwoWeekRange": "272.0 - 595.0",
@@ -1244,9 +1241,19 @@
     "fiftyDayAverageChangePercent": -0.020480854,
     "twoHundredDayAverageChange": 82.32001,
     "twoHundredDayAverageChangePercent": 0.1760178,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "corporateActions": [],
+    "shortName": "ENSUIKO SUGAR REFINING CO",
+    "longName": "Ensuiko Sugar Refining Co., Ltd.",
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "2112.T announced a cash dividend of JPY 20.00 with an ex-date of Mar. 30, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1774796400000,
+          "amount": "20.00"
+        }
+      }
+    ],
     "regularMarketTime": 1773901800,
     "exchange": "JPX",
     "messageBoardId": "finmb_883579",
@@ -1255,9 +1262,12 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
+    "regularMarketChangePercent": -1.9607844,
+    "regularMarketPrice": 550.0,
+    "marketState": "PREPRE",
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 978307200000,
     "trailingPegRatio": null
   }
 }

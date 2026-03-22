@@ -1,7 +1,7 @@
 {
   "ticker": "2613",
   "japanese_ticker": "2613.T",
-  "fetch_date": "2026-03-21T23:28:24.728591",
+  "fetch_date": "2026-03-22T23:31:37.721375",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": 95289053.254438,
@@ -1135,11 +1135,11 @@
     "forwardPE": 14.825279,
     "volume": 142000,
     "regularMarketVolume": 142000,
-    "averageVolume": 75222,
+    "averageVolume": 75443,
     "averageVolume10days": 103560,
     "averageDailyVolume10Day": 103560,
-    "bid": 1994.0,
-    "ask": 2007.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 66034302976,
@@ -1207,7 +1207,24 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "corporateActions": [],
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 978307200000,
+    "regularMarketChange": -37.0,
+    "regularMarketDayRange": "1994.0 - 2026.0",
+    "regularMarketChangePercent": -1.8217627,
+    "regularMarketPrice": 1994.0,
+    "marketState": "PREPRE",
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "2613.T announced a cash dividend of JPY 35.00 with an ex-date of Mar. 30, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1774796400000,
+          "amount": "35.00"
+        }
+      }
+    ],
     "regularMarketTime": 1773901800,
     "exchange": "JPX",
     "messageBoardId": "finmb_9221389",
@@ -1216,17 +1233,9 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 978307200000,
-    "regularMarketChange": -37.0,
-    "regularMarketDayRange": "1994.0 - 2026.0",
-    "fullExchangeName": "Tokyo",
-    "marketState": "CLOSED",
     "shortName": "J-OIL MILLS INC",
-    "longName": "J-Oil Mills, Inc.",
-    "regularMarketChangePercent": -1.8217627,
-    "regularMarketPrice": 1994.0,
-    "averageDailyVolume3Month": 75222,
+    "fullExchangeName": "Tokyo",
+    "averageDailyVolume3Month": 75443,
     "fiftyTwoWeekLowChange": 164.0,
     "fiftyTwoWeekLowChangePercent": 0.08961748,
     "fiftyTwoWeekRange": "1830.0 - 2123.0",
@@ -1245,6 +1254,7 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
+    "longName": "J-Oil Mills, Inc.",
     "trailingPegRatio": null
   }
 }

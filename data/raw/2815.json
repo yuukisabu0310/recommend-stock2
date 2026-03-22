@@ -1,7 +1,7 @@
 {
   "ticker": "2815",
   "japanese_ticker": "2815.T",
-  "fetch_date": "2026-03-21T23:30:58.988954",
+  "fetch_date": "2026-03-22T23:34:20.577205",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": -21991564.920416,
@@ -1160,11 +1160,11 @@
     "forwardPE": 20.111652,
     "volume": 47500,
     "regularMarketVolume": 47500,
-    "averageVolume": 69563,
+    "averageVolume": 70092,
     "averageVolume10days": 55120,
     "averageDailyVolume10Day": 55120,
-    "bid": 5610.0,
-    "ask": 5630.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 178994790400,
@@ -1233,34 +1233,12 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "shortName": "ARIAKE JAPAN CO",
     "longName": "ARIAKE JAPAN Co., Ltd.",
-    "corporateActions": [
-      {
-        "header": "Dividend",
-        "message": "2815.T announced a cash dividend of JPY 120.00 with an ex-date of Mar. 30, 2026",
-        "meta": {
-          "eventType": "DIVIDEND",
-          "dateEpochMs": 1774796400000,
-          "amount": "120.00"
-        }
-      }
-    ],
-    "regularMarketTime": 1773901800,
-    "exchange": "JPX",
-    "messageBoardId": "finmb_883773",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
-    "regularMarketChangePercent": -2.2608695,
-    "regularMarketPrice": 5620.0,
-    "marketState": "CLOSED",
+    "marketState": "PREPRE",
     "regularMarketChange": -130.0,
     "regularMarketDayRange": "5620.0 - 5770.0",
     "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 69563,
+    "averageDailyVolume3Month": 70092,
     "fiftyTwoWeekLowChange": 520.0,
     "fiftyTwoWeekLowChangePercent": 0.101960786,
     "fiftyTwoWeekRange": "5100.0 - 6890.0",
@@ -1282,9 +1260,31 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "averageAnalystRating": "2.0 - Buy",
+    "shortName": "ARIAKE JAPAN CO",
+    "regularMarketChangePercent": -2.2608695,
+    "regularMarketPrice": 5620.0,
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "2815.T announced a cash dividend of JPY 120.00 with an ex-date of Mar. 30, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1774796400000,
+          "amount": "120.00"
+        }
+      }
+    ],
+    "regularMarketTime": 1773901800,
     "cryptoTradeable": false,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 978307200000,
+    "exchange": "JPX",
+    "messageBoardId": "finmb_883773",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
     "trailingPegRatio": null
   }
 }

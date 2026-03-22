@@ -1,7 +1,7 @@
 {
   "ticker": "1443",
   "japanese_ticker": "1443.T",
-  "fetch_date": "2026-03-21T23:17:58.331786",
+  "fetch_date": "2026-03-22T23:20:36.941245",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": -6131120.0,
@@ -1050,11 +1050,11 @@
     "trailingPE": 8.263571,
     "volume": 115600,
     "regularMarketVolume": 115600,
-    "averageVolume": 263791,
+    "averageVolume": 266478,
     "averageVolume10days": 135850,
     "averageDailyVolume10Day": 135850,
-    "bid": 305.0,
-    "ask": 306.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 4967702016,
@@ -1119,18 +1119,8 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "marketState": "CLOSED",
-    "corporateActions": [
-      {
-        "header": "Dividend",
-        "message": "1443.T announced a cash dividend of JPY 1.10 with an ex-date of Mar. 30, 2026",
-        "meta": {
-          "eventType": "DIVIDEND",
-          "dateEpochMs": 1774796400000,
-          "amount": "1.10"
-        }
-      }
-    ],
+    "marketState": "PREPRE",
+    "corporateActions": [],
     "regularMarketTime": 1773901800,
     "exchange": "JPX",
     "messageBoardId": "finmb_883763",
@@ -1139,16 +1129,12 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "regularMarketChangePercent": -4.375,
-    "regularMarketPrice": 306.0,
-    "shortName": "GIKEN HOLDINGS CO LTD",
-    "longName": "Giken Holdings Co., Ltd.",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1515456000000,
     "regularMarketChange": -14.0,
     "regularMarketDayRange": "305.0 - 315.0",
     "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 263791,
+    "averageDailyVolume3Month": 266478,
     "fiftyTwoWeekLowChange": 147.0,
     "fiftyTwoWeekLowChangePercent": 0.9245283,
     "fiftyTwoWeekRange": "159.0 - 375.0",
@@ -1163,6 +1149,10 @@
     "fiftyDayAverageChangePercent": -0.024607934,
     "twoHundredDayAverageChange": 58.479996,
     "twoHundredDayAverageChangePercent": 0.23626372,
+    "shortName": "GIKEN HOLDINGS CO LTD",
+    "longName": "Giken Holdings Co., Ltd.",
+    "regularMarketChangePercent": -4.375,
+    "regularMarketPrice": 306.0,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,

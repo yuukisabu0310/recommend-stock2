@@ -1,7 +1,7 @@
 {
   "ticker": "1961",
   "japanese_ticker": "1961.T",
-  "fetch_date": "2026-03-21T23:21:31.426158",
+  "fetch_date": "2026-03-22T23:24:20.457748",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": 67340000.0,
@@ -1294,11 +1294,11 @@
     "forwardPE": 29.786306,
     "volume": 279800,
     "regularMarketVolume": 279800,
-    "averageVolume": 204244,
+    "averageVolume": 204149,
     "averageVolume10days": 181160,
     "averageDailyVolume10Day": 181160,
-    "bid": 6820.0,
-    "ask": 6850.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 347766226944,
@@ -1373,10 +1373,12 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 978307200000,
     "regularMarketChange": -170.0,
     "regularMarketDayRange": "6760.0 - 6880.0",
     "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 204244,
+    "averageDailyVolume3Month": 204149,
     "fiftyTwoWeekLowChange": 4025.0,
     "fiftyTwoWeekLowChangePercent": 1.4349376,
     "fiftyTwoWeekRange": "2805.0 - 7940.0",
@@ -1392,21 +1394,9 @@
     "fiftyDayAverageChangePercent": -0.01616205,
     "twoHundredDayAverageChange": 1415.125,
     "twoHundredDayAverageChangePercent": 0.2613403,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
     "shortName": "SANKI ENGINEERING CO",
     "longName": "Sanki Engineering Co., Ltd.",
-    "corporateActions": [
-      {
-        "header": "Dividend",
-        "message": "1961.T announced a cash dividend of JPY 82.50 with an ex-date of Mar. 30, 2026",
-        "meta": {
-          "eventType": "DIVIDEND",
-          "dateEpochMs": 1774796400000,
-          "amount": "82.50"
-        }
-      }
-    ],
+    "corporateActions": [],
     "regularMarketTime": 1773901800,
     "exchange": "JPX",
     "messageBoardId": "finmb_877394",
@@ -1417,10 +1407,10 @@
     "esgPopulated": false,
     "regularMarketChangePercent": -2.4285715,
     "regularMarketPrice": 6830.0,
+    "marketState": "PREPRE",
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 978307200000,
-    "marketState": "CLOSED",
     "trailingPegRatio": null
   }
 }

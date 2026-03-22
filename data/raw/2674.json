@@ -1,7 +1,7 @@
 {
   "ticker": "2674",
   "japanese_ticker": "2674.T",
-  "fetch_date": "2026-03-21T23:28:49.883349",
+  "fetch_date": "2026-03-22T23:32:04.909745",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": -48005706.0,
@@ -1128,11 +1128,11 @@
     "trailingPE": 12.453019,
     "volume": 43400,
     "regularMarketVolume": 43400,
-    "averageVolume": 43224,
+    "averageVolume": 42573,
     "averageVolume10days": 34890,
     "averageDailyVolume10Day": 34890,
-    "bid": 1988.0,
-    "ask": 2001.0,
+    "bid": 1986.0,
+    "ask": 1987.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 27625617408,
@@ -1202,7 +1202,7 @@
     "regularMarketChange": -41.0,
     "regularMarketDayRange": "1986.0 - 2015.0",
     "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 43224,
+    "averageDailyVolume3Month": 42573,
     "fiftyTwoWeekLowChange": 417.0,
     "fiftyTwoWeekLowChangePercent": 0.26543602,
     "fiftyTwoWeekRange": "1571.0 - 2156.0",
@@ -1219,21 +1219,31 @@
     "twoHundredDayAverageChangePercent": 0.062346056,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "2674.T announced a cash dividend of JPY 78.00 with an ex-date of Mar. 30, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1774796400000,
+          "amount": "78.00"
+        }
+      }
+    ],
+    "regularMarketTime": 1773901800,
+    "exchange": "JPX",
     "messageBoardId": "finmb_1347920",
     "exchangeTimezoneName": "Asia/Tokyo",
     "exchangeTimezoneShortName": "JST",
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "regularMarketChangePercent": -2.0207,
-    "regularMarketPrice": 1988.0,
-    "marketState": "CLOSED",
     "shortName": "HARD OFF CORPORATION CO LTD",
     "longName": "Hard Off Corporation Co.,Ltd.",
-    "corporateActions": [],
-    "regularMarketTime": 1773901800,
-    "exchange": "JPX",
+    "cryptoTradeable": false,
+    "regularMarketChangePercent": -2.0207,
+    "regularMarketPrice": 1988.0,
+    "marketState": "PREPRE",
     "trailingPegRatio": null
   }
 }

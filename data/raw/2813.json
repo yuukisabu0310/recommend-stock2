@@ -1,7 +1,7 @@
 {
   "ticker": "2813",
   "japanese_ticker": "2813.T",
-  "fetch_date": "2026-03-21T23:30:54.360044",
+  "fetch_date": "2026-03-22T23:34:16.460908",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": -950426.4,
@@ -1279,11 +1279,11 @@
     "trailingPE": 9.225092,
     "volume": 5400,
     "regularMarketVolume": 5400,
-    "averageVolume": 4779,
+    "averageVolume": 4801,
     "averageVolume10days": 4010,
     "averageDailyVolume10Day": 4010,
-    "bid": 3900.0,
-    "ask": 3945.0,
+    "bid": 0.0,
+    "ask": 3905.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 9731272704,
@@ -1350,12 +1350,12 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "esgPopulated": false,
-    "regularMarketChangePercent": -1.3906447,
-    "regularMarketPrice": 3900.0,
-    "longName": "Wakou Shokuhin Co., Ltd.",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 947030400000,
+    "regularMarketChange": -55.0,
+    "regularMarketDayRange": "3900.0 - 3945.0",
     "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 4779,
+    "averageDailyVolume3Month": 4801,
     "fiftyTwoWeekLowChange": 954.0,
     "fiftyTwoWeekLowChangePercent": 0.3238289,
     "fiftyTwoWeekRange": "2946.0 - 4920.0",
@@ -1372,13 +1372,11 @@
     "twoHundredDayAverageChangePercent": 0.1571893,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 947030400000,
-    "regularMarketChange": -55.0,
-    "regularMarketDayRange": "3900.0 - 3945.0",
-    "shortName": "WAKOU SHOKUHIN CO",
-    "marketState": "CLOSED",
-    "corporateActions": [],
+    "regularMarketChangePercent": -1.3906447,
+    "regularMarketPrice": 3900.0,
+    "cryptoTradeable": false,
+    "marketState": "PREPRE",
+    "longName": "Wakou Shokuhin Co., Ltd.",
     "regularMarketTime": 1773901800,
     "exchange": "JPX",
     "messageBoardId": "finmb_9794139",
@@ -1386,7 +1384,19 @@
     "exchangeTimezoneShortName": "JST",
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
-    "cryptoTradeable": false,
+    "esgPopulated": false,
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "2813.T announced a cash dividend of JPY 86.00 with an ex-date of Mar. 30, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1774796400000,
+          "amount": "86.00"
+        }
+      }
+    ],
+    "shortName": "WAKOU SHOKUHIN CO",
     "trailingPegRatio": null
   }
 }

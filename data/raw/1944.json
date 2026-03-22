@@ -1,7 +1,7 @@
 {
   "ticker": "1944",
   "japanese_ticker": "1944.T",
-  "fetch_date": "2026-03-21T23:21:12.333703",
+  "fetch_date": "2026-03-22T23:24:00.398795",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": 591782758.2581,
@@ -1115,11 +1115,11 @@
     "forwardPE": 36.778027,
     "volume": 683300,
     "regularMarketVolume": 683300,
-    "averageVolume": 672265,
+    "averageVolume": 676831,
     "averageVolume10days": 646960,
     "averageDailyVolume10Day": 646960,
-    "bid": 7310.0,
-    "ask": 7318.0,
+    "bid": 0.0,
+    "ask": 5810.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 1447327694848,
@@ -1190,8 +1190,15 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "shortName": "KINDEN CORPORATION",
+    "longName": "Kinden Corporation",
+    "marketState": "PREPRE",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 978566400000,
+    "regularMarketChange": -325.0,
+    "regularMarketDayRange": "7300.0 - 7503.0",
+    "fullExchangeName": "Tokyo",
+    "averageDailyVolume3Month": 676831,
     "fiftyTwoWeekLowChange": 4244.0,
     "fiftyTwoWeekLowChangePercent": 1.3842139,
     "fiftyTwoWeekRange": "3066.0 - 8580.0",
@@ -1202,28 +1209,15 @@
     "earningsTimestampStart": 1776925800,
     "earningsTimestampEnd": 1776925800,
     "isEarningsDateEstimate": true,
+    "epsTrailingTwelveMonths": 301.17,
+    "epsForward": 198.76,
     "fiftyDayAverageChange": -329.7202,
     "fiftyDayAverageChangePercent": -0.043158676,
     "twoHundredDayAverageChange": 1395.4199,
-    "regularMarketChange": -325.0,
-    "regularMarketDayRange": "7300.0 - 7503.0",
-    "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 672265,
-    "cryptoTradeable": false,
+    "twoHundredDayAverageChangePercent": 0.23592882,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
-    "corporateActions": [
-      {
-        "header": "Dividend",
-        "message": "1944.T announced a cash dividend of JPY 65.00 with an ex-date of Mar. 30, 2026",
-        "meta": {
-          "eventType": "DIVIDEND",
-          "dateEpochMs": 1774796400000,
-          "amount": "65.00"
-        }
-      }
-    ],
-    "regularMarketTime": 1773901800,
+    "cryptoTradeable": false,
     "exchange": "JPX",
     "messageBoardId": "finmb_880745",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1233,12 +1227,8 @@
     "esgPopulated": false,
     "regularMarketChangePercent": -4.2567124,
     "regularMarketPrice": 7310.0,
-    "marketState": "CLOSED",
-    "shortName": "KINDEN CORPORATION",
-    "longName": "Kinden Corporation",
-    "epsTrailingTwelveMonths": 301.17,
-    "epsForward": 198.76,
-    "twoHundredDayAverageChangePercent": 0.23592882,
+    "corporateActions": [],
+    "regularMarketTime": 1773901800,
     "trailingPegRatio": null
   }
 }

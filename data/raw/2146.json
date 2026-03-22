@@ -1,7 +1,7 @@
 {
   "ticker": "2146",
   "japanese_ticker": "2146.T",
-  "fetch_date": "2026-03-21T23:22:50.608337",
+  "fetch_date": "2026-03-22T23:25:44.464741",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": 1845704000.0,
@@ -1219,11 +1219,11 @@
     "forwardPE": 0.65278935,
     "volume": 3340500,
     "regularMarketVolume": 3340500,
-    "averageVolume": 4344310,
+    "averageVolume": 4337789,
     "averageVolume10days": 5040330,
     "averageDailyVolume10Day": 5040330,
-    "bid": 196.0,
-    "ask": 197.0,
+    "bid": 0.0,
+    "ask": 198.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 111791366144,
@@ -1297,15 +1297,14 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "regularMarketChangePercent": -2.0,
-    "regularMarketPrice": 196.0,
-    "marketState": "CLOSED",
     "shortName": "UT GROUP CO LTD",
     "longName": "UT Group Co.,Ltd.",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1071187200000,
     "regularMarketChange": -4.0,
     "regularMarketDayRange": "196.0 - 200.0",
     "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 4344310,
+    "averageDailyVolume3Month": 4337789,
     "fiftyTwoWeekLowChange": 92.2,
     "fiftyTwoWeekLowChangePercent": 0.8882466,
     "fiftyTwoWeekRange": "103.8 - 221.0",
@@ -1327,9 +1326,21 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "prevName": "UT Group Co., Ltd.",
-    "nameChangeDate": "2026-03-21",
+    "nameChangeDate": "2026-03-22",
     "averageAnalystRating": "3.0 - Hold",
-    "corporateActions": [],
+    "cryptoTradeable": false,
+    "marketState": "PREPRE",
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "2146.T announced a cash dividend of JPY 2.60 with an ex-date of Mar. 30, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1774796400000,
+          "amount": "2.60"
+        }
+      }
+    ],
     "regularMarketTime": 1773901800,
     "exchange": "JPX",
     "messageBoardId": "finmb_33139085",
@@ -1338,9 +1349,8 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "cryptoTradeable": false,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1071187200000,
+    "regularMarketChangePercent": -2.0,
+    "regularMarketPrice": 196.0,
     "trailingPegRatio": null
   }
 }

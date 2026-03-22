@@ -1,7 +1,7 @@
 {
   "ticker": "2933",
   "japanese_ticker": "2933.T",
-  "fetch_date": "2026-03-21T23:32:15.914034",
+  "fetch_date": "2026-03-22T23:35:40.026995",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": -44820796.0,
@@ -1099,11 +1099,11 @@
     "forwardPE": 11.293478,
     "volume": 23600,
     "regularMarketVolume": 23600,
-    "averageVolume": 38181,
+    "averageVolume": 38228,
     "averageVolume10days": 38760,
     "averageDailyVolume10Day": 38760,
-    "bid": 1039.0,
-    "ask": 1043.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "marketCap": 23720034304,
     "nonDilutedMarketCap": 23720032325,
     "fiftyTwoWeekLow": 978.0,
@@ -1167,12 +1167,37 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "esgPopulated": false,
     "regularMarketChangePercent": -1.3295346,
     "regularMarketPrice": 1039.0,
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "2933.T announced a cash dividend of JPY 20.00 with an ex-date of Mar. 30, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1774796400000,
+          "amount": "20.00"
+        }
+      }
+    ],
+    "regularMarketTime": 1773901800,
+    "exchange": "JPX",
+    "messageBoardId": "finmb_5491791",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
+    "marketState": "PREPRE",
+    "cryptoTradeable": false,
+    "shortName": "KIBUN FOODS INC",
     "longName": "Kibun Foods Inc.",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1618272000000,
+    "regularMarketChange": -14.0,
+    "regularMarketDayRange": "1039.0 - 1047.0",
     "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 38181,
+    "averageDailyVolume3Month": 38228,
     "fiftyTwoWeekLowChange": 61.0,
     "fiftyTwoWeekLowChangePercent": 0.06237219,
     "fiftyTwoWeekRange": "978.0 - 1224.0",
@@ -1192,31 +1217,6 @@
     "twoHundredDayAverageChangePercent": -0.05485313,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1618272000000,
-    "regularMarketChange": -14.0,
-    "regularMarketDayRange": "1039.0 - 1047.0",
-    "shortName": "KIBUN FOODS INC",
-    "marketState": "CLOSED",
-    "corporateActions": [
-      {
-        "header": "Dividend",
-        "message": "2933.T announced a cash dividend of JPY 20.00 with an ex-date of Mar. 30, 2026",
-        "meta": {
-          "eventType": "DIVIDEND",
-          "dateEpochMs": 1774796400000,
-          "amount": "20.00"
-        }
-      }
-    ],
-    "regularMarketTime": 1773901800,
-    "exchange": "JPX",
-    "messageBoardId": "finmb_5491791",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "cryptoTradeable": false,
     "trailingPegRatio": null
   }
 }

@@ -1,7 +1,7 @@
 {
   "ticker": "1982",
   "japanese_ticker": "1982.T",
-  "fetch_date": "2026-03-21T23:21:57.798197",
+  "fetch_date": "2026-03-22T23:24:49.347209",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": 211720000.0,
@@ -1070,11 +1070,11 @@
     "trailingPE": 21.052633,
     "volume": 57000,
     "regularMarketVolume": 57000,
-    "averageVolume": 54525,
+    "averageVolume": 54828,
     "averageVolume10days": 58190,
     "averageDailyVolume10Day": 58190,
-    "bid": 5840.0,
-    "ask": 5880.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 126623637504,
@@ -1140,16 +1140,17 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "shortName": "HIBIYA ENGINEERING",
-    "longName": "Hibiya Engineering, Ltd.",
-    "fiftyDayAverageChange": 240.2998,
-    "fiftyDayAverageChangePercent": 0.042608615,
-    "twoHundredDayAverageChange": 1266.3999,
-    "twoHundredDayAverageChangePercent": 0.27449277,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "marketState": "CLOSED",
+    "marketState": "PREPRE",
     "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "1982.T announced a cash dividend of JPY 80.00 with an ex-date of Mar. 30, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1774796400000,
+          "amount": "80.00"
+        }
+      },
       {
         "header": "Stock split",
         "message": "1982.T announces 2 for 1 split effective Mar. 30, 2026",
@@ -1168,15 +1169,12 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "regularMarketChangePercent": -3.7643209,
-    "regularMarketPrice": 5880.0,
-    "cryptoTradeable": false,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 978307200000,
     "regularMarketChange": -230.0,
     "regularMarketDayRange": "5850.0 - 6020.0",
     "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 54525,
+    "averageDailyVolume3Month": 54828,
     "fiftyTwoWeekLowChange": 3194.0,
     "fiftyTwoWeekLowChangePercent": 1.1891288,
     "fiftyTwoWeekRange": "2686.0 - 6970.0",
@@ -1187,6 +1185,17 @@
     "earningsTimestampEnd": 1754978400,
     "isEarningsDateEstimate": true,
     "epsTrailingTwelveMonths": 279.3,
+    "fiftyDayAverageChange": 240.2998,
+    "fiftyDayAverageChangePercent": 0.042608615,
+    "twoHundredDayAverageChange": 1266.3999,
+    "twoHundredDayAverageChangePercent": 0.27449277,
+    "shortName": "HIBIYA ENGINEERING",
+    "longName": "Hibiya Engineering, Ltd.",
+    "regularMarketChangePercent": -3.7643209,
+    "regularMarketPrice": 5880.0,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
     "trailingPegRatio": null
   }
 }
