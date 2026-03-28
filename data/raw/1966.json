@@ -1,7 +1,7 @@
 {
   "ticker": "1966",
   "japanese_ticker": "1966.T",
-  "fetch_date": "2026-03-27T23:28:34.359497",
+  "fetch_date": "2026-03-28T23:27:44.596649",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": -19290618.0,
@@ -1260,11 +1260,6 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "marketState": "CLOSED",
-    "shortName": "TAKADA CORPORATION",
-    "longName": "Takada Corporation",
-    "regularMarketChangePercent": -0.43454644,
-    "regularMarketPrice": 1833.0,
     "corporateActions": [
       {
         "header": "Dividend",
@@ -1277,13 +1272,10 @@
       }
     ],
     "regularMarketTime": 1774593000,
-    "exchange": "JPX",
-    "messageBoardId": "finmb_5885317",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
+    "shortName": "TAKADA CORPORATION",
+    "longName": "Takada Corporation",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 955411200000,
     "regularMarketChange": -8.0,
     "regularMarketDayRange": "1833.0 - 1855.0",
     "fullExchangeName": "Tokyo",
@@ -1293,6 +1285,17 @@
     "fiftyTwoWeekRange": "1160.0 - 2049.0",
     "fiftyTwoWeekHighChange": -216.0,
     "fiftyTwoWeekHighChangePercent": -0.105417274,
+    "marketState": "CLOSED",
+    "exchange": "JPX",
+    "messageBoardId": "finmb_5885317",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
+    "regularMarketChangePercent": -0.43454644,
+    "regularMarketPrice": 1833.0,
+    "cryptoTradeable": false,
     "fiftyTwoWeekChangePercent": 20.09132,
     "earningsTimestampStart": 1747116000,
     "earningsTimestampEnd": 1747116000,
@@ -1305,9 +1308,6 @@
     "twoHundredDayAverageChangePercent": 0.09151327,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 955411200000,
     "trailingPegRatio": null
   }
 }

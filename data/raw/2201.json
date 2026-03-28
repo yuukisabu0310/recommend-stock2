@@ -1,7 +1,7 @@
 {
   "ticker": "2201",
   "japanese_ticker": "2201.T",
-  "fetch_date": "2026-03-27T23:30:43.772167",
+  "fetch_date": "2026-03-28T23:29:51.656338",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": 518605000.0,
@@ -1321,8 +1321,7 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 978307200000,
+    "marketState": "CLOSED",
     "regularMarketChange": 32.0,
     "regularMarketDayRange": "2712.5 - 2740.0",
     "fullExchangeName": "Tokyo",
@@ -1341,9 +1340,8 @@
     "isEarningsDateEstimate": false,
     "epsTrailingTwelveMonths": 200.79,
     "epsForward": 196.96,
-    "marketState": "CLOSED",
-    "regularMarketChangePercent": 1.1836509,
-    "regularMarketPrice": 2735.5,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 978307200000,
     "corporateActions": [
       {
         "header": "Dividend",
@@ -1356,15 +1354,9 @@
       }
     ],
     "regularMarketTime": 1774593000,
-    "exchange": "JPX",
-    "messageBoardId": "finmb_876948",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
     "shortName": "MORINAGA & CO",
     "longName": "Morinaga&Co., Ltd.",
+    "regularMarketChangePercent": 1.1836509,
     "fiftyDayAverageChange": -13.199951,
     "fiftyDayAverageChangePercent": -0.0048022526,
     "twoHundredDayAverageChange": 128.25,
@@ -1372,9 +1364,17 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "prevName": "Morinaga & Co., Ltd.",
-    "nameChangeDate": "2026-03-27",
+    "nameChangeDate": "2026-03-28",
     "averageAnalystRating": "2.3 - Buy",
     "cryptoTradeable": false,
+    "exchange": "JPX",
+    "messageBoardId": "finmb_876948",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
+    "regularMarketPrice": 2735.5,
     "trailingPegRatio": null
   }
 }

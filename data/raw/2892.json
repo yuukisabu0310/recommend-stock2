@@ -1,7 +1,7 @@
 {
   "ticker": "2892",
   "japanese_ticker": "2892.T",
-  "fetch_date": "2026-03-27T23:38:27.823064",
+  "fetch_date": "2026-03-28T23:37:34.842476",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": -23504000.0,
@@ -1178,18 +1178,6 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "corporateActions": [
-      {
-        "header": "Dividend",
-        "message": "2892.T announced a cash dividend of JPY 75.00 with an ex-date of Mar. 30, 2026",
-        "meta": {
-          "eventType": "DIVIDEND",
-          "dateEpochMs": 1774796400000,
-          "amount": "75.00"
-        }
-      }
-    ],
-    "regularMarketTime": 1774593000,
     "shortName": "NIHON SHOKUHIN KAKO CO",
     "longName": "Nihon Shokuhin Kako Co., Ltd.",
     "hasPrePostMarketData": false,
@@ -1203,6 +1191,10 @@
     "fiftyTwoWeekRange": "2150.0 - 4250.0",
     "fiftyTwoWeekHighChange": -465.0,
     "fiftyTwoWeekHighChangePercent": -0.10941176,
+    "fiftyTwoWeekChangePercent": 37.772034,
+    "earningsTimestampStart": 1745983800,
+    "earningsTimestampEnd": 1745983800,
+    "isEarningsDateEstimate": false,
     "marketState": "CLOSED",
     "exchange": "JPX",
     "messageBoardId": "finmb_883366",
@@ -1213,11 +1205,6 @@
     "esgPopulated": false,
     "regularMarketChangePercent": 0.397878,
     "regularMarketPrice": 3785.0,
-    "cryptoTradeable": false,
-    "fiftyTwoWeekChangePercent": 37.772034,
-    "earningsTimestampStart": 1745983800,
-    "earningsTimestampEnd": 1745983800,
-    "isEarningsDateEstimate": false,
     "epsTrailingTwelveMonths": 297.5,
     "fiftyDayAverageChange": -164.0,
     "fiftyDayAverageChangePercent": -0.041529503,
@@ -1225,6 +1212,19 @@
     "twoHundredDayAverageChangePercent": 0.037718378,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "2892.T announced a cash dividend of JPY 75.00 with an ex-date of Mar. 30, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1774796400000,
+          "amount": "75.00"
+        }
+      }
+    ],
+    "regularMarketTime": 1774593000,
     "trailingPegRatio": null
   }
 }

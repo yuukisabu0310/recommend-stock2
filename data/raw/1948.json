@@ -1,7 +1,7 @@
 {
   "ticker": "1948",
   "japanese_ticker": "1948.T",
-  "fetch_date": "2026-03-27T23:28:12.192522",
+  "fetch_date": "2026-03-28T23:27:23.470728",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": 167750000.0,
@@ -1178,8 +1178,6 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 978566400000,
     "regularMarketChange": -30.0,
     "regularMarketDayRange": "6420.0 - 6560.0",
     "fullExchangeName": "Tokyo",
@@ -1196,6 +1194,18 @@
     "epsTrailingTwelveMonths": 330.56,
     "fiftyDayAverageChange": 192.6001,
     "fiftyDayAverageChangePercent": 0.030439058,
+    "twoHundredDayAverageChange": 2810.8,
+    "twoHundredDayAverageChangePercent": 0.75779146,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
+    "regularMarketChangePercent": -0.45801526,
+    "regularMarketPrice": 6520.0,
+    "shortName": "KODENSHA CO LTD",
+    "longName": "The Kodensha Co., Ltd.",
+    "marketState": "CLOSED",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 978566400000,
     "corporateActions": [
       {
         "header": "Dividend",
@@ -1215,16 +1225,6 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "twoHundredDayAverageChange": 2810.8,
-    "twoHundredDayAverageChangePercent": 0.75779146,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
-    "marketState": "CLOSED",
-    "regularMarketChangePercent": -0.45801526,
-    "regularMarketPrice": 6520.0,
-    "shortName": "KODENSHA CO LTD",
-    "longName": "The Kodensha Co., Ltd.",
     "trailingPegRatio": null
   }
 }

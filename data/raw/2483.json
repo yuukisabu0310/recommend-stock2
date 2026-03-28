@@ -1,7 +1,7 @@
 {
   "ticker": "2483",
   "japanese_ticker": "2483.T",
-  "fetch_date": "2026-03-27T23:34:24.346036",
+  "fetch_date": "2026-03-28T23:33:31.760682",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": 60491811.9,
@@ -1087,8 +1087,6 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "shortName": "HONYAKU CENTER INC",
-    "longName": "Honyaku Center Inc.",
     "corporateActions": [
       {
         "header": "Dividend",
@@ -1101,20 +1099,8 @@
       }
     ],
     "regularMarketTime": 1774593000,
-    "exchange": "JPX",
-    "messageBoardId": "finmb_26523427",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
-    "regularMarketChangePercent": 0.6929637,
-    "regularMarketPrice": 1889.0,
-    "marketState": "CLOSED",
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1146182400000,
-    "regularMarketChange": 13.0,
-    "regularMarketDayRange": "1876.0 - 1889.0",
+    "shortName": "HONYAKU CENTER INC",
+    "longName": "Honyaku Center Inc.",
     "fullExchangeName": "Tokyo",
     "averageDailyVolume3Month": 3900,
     "fiftyTwoWeekLowChange": 194.0,
@@ -1123,6 +1109,8 @@
     "fiftyTwoWeekHighChange": -244.0,
     "fiftyTwoWeekHighChangePercent": -0.11439288,
     "fiftyTwoWeekChangePercent": 1.2459397,
+    "regularMarketChangePercent": 0.6929637,
+    "regularMarketPrice": 1889.0,
     "earningsTimestampStart": 1747117800,
     "earningsTimestampEnd": 1747117800,
     "isEarningsDateEstimate": false,
@@ -1135,6 +1123,18 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1146182400000,
+    "regularMarketChange": 13.0,
+    "regularMarketDayRange": "1876.0 - 1889.0",
+    "exchange": "JPX",
+    "messageBoardId": "finmb_26523427",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
+    "marketState": "CLOSED",
     "trailingPegRatio": null
   }
 }

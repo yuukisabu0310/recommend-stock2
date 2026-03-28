@@ -1,7 +1,7 @@
 {
   "ticker": "2153",
   "japanese_ticker": "2153.T",
-  "fetch_date": "2026-03-27T23:29:54.914942",
+  "fetch_date": "2026-03-28T23:29:03.196104",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-05-31 00:00:00": 98069000.0,
@@ -1322,9 +1322,6 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "shortName": "E J HOLDINGS INC",
-    "longName": "E J Holdings Inc.",
-    "marketState": "CLOSED",
     "regularMarketChangePercent": 1.1864407,
     "regularMarketPrice": 1791.0,
     "corporateActions": [],
@@ -1358,7 +1355,10 @@
     "twoHundredDayAverageChangePercent": 0.044893645,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
+    "shortName": "E J HOLDINGS INC",
+    "longName": "E J Holdings Inc.",
     "cryptoTradeable": false,
+    "marketState": "CLOSED",
     "trailingPegRatio": null
   }
 }

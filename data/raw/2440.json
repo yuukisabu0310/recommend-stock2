@@ -1,7 +1,7 @@
 {
   "ticker": "2440",
   "japanese_ticker": "2440.T",
-  "fetch_date": "2026-03-27T23:33:55.574029",
+  "fetch_date": "2026-03-28T23:33:01.109189",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": -2390574.0,
@@ -1192,12 +1192,11 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "shortName": "GURUNAVI INC",
-    "corporateActions": [],
-    "regularMarketTime": 1774593000,
-    "marketState": "CLOSED",
+    "cryptoTradeable": false,
     "regularMarketChangePercent": 1.3333334,
     "regularMarketPrice": 152.0,
+    "corporateActions": [],
+    "regularMarketTime": 1774593000,
     "exchange": "JPX",
     "messageBoardId": "finmb_21866963",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1207,6 +1206,9 @@
     "esgPopulated": false,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1220572800000,
+    "marketState": "CLOSED",
+    "shortName": "GURUNAVI INC",
+    "longName": "Gurunavi, Inc.",
     "regularMarketChange": 2.0,
     "regularMarketDayRange": "147.0 - 152.0",
     "fullExchangeName": "Tokyo",
@@ -1219,7 +1221,6 @@
     "fiftyTwoWeekChangePercent": -51.960785,
     "earningsTimestampStart": 1753942200,
     "earningsTimestampEnd": 1754287800,
-    "longName": "Gurunavi, Inc.",
     "earningsCallTimestampStart": 1747047540,
     "earningsCallTimestampEnd": 1747047540,
     "isEarningsDateEstimate": false,
@@ -1231,7 +1232,6 @@
     "twoHundredDayAverageChangePercent": -0.25486547,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
     "trailingPegRatio": null
   }
 }

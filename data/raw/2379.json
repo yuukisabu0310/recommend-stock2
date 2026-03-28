@@ -1,7 +1,7 @@
 {
   "ticker": "2379",
   "japanese_ticker": "2379.T",
-  "fetch_date": "2026-03-27T23:33:05.038660",
+  "fetch_date": "2026-03-28T23:32:13.053265",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-02-28 00:00:00": -65520883.556667,
@@ -1021,6 +1021,9 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "cryptoTradeable": false,
+    "regularMarketChangePercent": 0.096571706,
+    "regularMarketPrice": 2073.0,
     "corporateActions": [],
     "regularMarketTime": 1774593000,
     "exchange": "JPX",
@@ -1030,11 +1033,15 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1085616000000,
     "marketState": "CLOSED",
-    "regularMarketChangePercent": 0.096571706,
-    "regularMarketPrice": 2073.0,
     "shortName": "DIP CORPORATION",
     "longName": "DIP Corporation",
+    "regularMarketChange": 2.0,
+    "regularMarketDayRange": "2052.0 - 2078.0",
+    "fullExchangeName": "Tokyo",
+    "averageDailyVolume3Month": 439875,
     "fiftyTwoWeekLowChange": 130.0,
     "fiftyTwoWeekLowChangePercent": 0.06690685,
     "fiftyTwoWeekRange": "1943.0 - 2509.0",
@@ -1055,13 +1062,6 @@
     "twoHundredDayAverageChangePercent": -0.062217932,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1085616000000,
-    "regularMarketChange": 2.0,
-    "regularMarketDayRange": "2052.0 - 2078.0",
-    "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 439875,
     "trailingPegRatio": null
   }
 }

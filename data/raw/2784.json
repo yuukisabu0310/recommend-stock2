@@ -1,7 +1,7 @@
 {
   "ticker": "2784",
   "japanese_ticker": "2784.T",
-  "fetch_date": "2026-03-27T23:37:22.003783",
+  "fetch_date": "2026-03-28T23:36:27.903213",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": -340269000.0,
@@ -1193,6 +1193,24 @@
       },
       {
         "maxAge": 1,
+        "name": "Shigeki  Ohashi",
+        "age": 60,
+        "title": "Director & Senior Managing Executive Officer",
+        "yearBorn": 1965,
+        "exercisedValue": 0,
+        "unexercisedValue": 0
+      },
+      {
+        "maxAge": 1,
+        "name": "Toshiki  Tanaka",
+        "age": 62,
+        "title": "Director & Senior Managing Executive Officer",
+        "yearBorn": 1963,
+        "exercisedValue": 0,
+        "unexercisedValue": 0
+      },
+      {
+        "maxAge": 1,
         "name": "Mr. Kazuaki  Hano",
         "title": "Executive Officer",
         "exercisedValue": 0,
@@ -1216,6 +1234,13 @@
         "maxAge": 1,
         "name": "Mr. Takashi  Sasaki",
         "title": "Executive Officer",
+        "exercisedValue": 0,
+        "unexercisedValue": 0
+      },
+      {
+        "maxAge": 1,
+        "name": "Miki  Oguchi",
+        "title": "Senior Executive Officer",
         "exercisedValue": 0,
         "unexercisedValue": 0
       },
@@ -1279,7 +1304,7 @@
     "floatShares": 155242134,
     "sharesOutstanding": 181718647,
     "heldPercentInsiders": 0.067140006,
-    "heldPercentInstitutions": 0.393,
+    "heldPercentInstitutions": 0.39301,
     "impliedSharesOutstanding": 181718648,
     "bookValue": 2732.369,
     "priceToBook": 0.91843385,
@@ -1332,8 +1357,26 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "exchange": "JPX",
+    "messageBoardId": "finmb_9248638",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
     "regularMarketChangePercent": 1.3939394,
     "regularMarketPrice": 2509.5,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1127952000000,
+    "regularMarketChange": 34.5,
+    "regularMarketDayRange": "2472.0 - 2521.0",
+    "fullExchangeName": "Tokyo",
+    "averageDailyVolume3Month": 302360,
+    "fiftyTwoWeekLowChange": 612.5,
+    "fiftyTwoWeekLowChangePercent": 0.32287824,
+    "fiftyTwoWeekRange": "1897.0 - 2685.5",
+    "fiftyTwoWeekHighChange": -176.0,
+    "marketState": "CLOSED",
     "corporateActions": [
       {
         "header": "Dividend",
@@ -1346,23 +1389,8 @@
       }
     ],
     "regularMarketTime": 1774593000,
-    "exchange": "JPX",
-    "messageBoardId": "finmb_9248638",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
     "shortName": "ALFRESA HOLDINGS CORP",
     "longName": "Alfresa Holdings Corporation",
-    "regularMarketChange": 34.5,
-    "regularMarketDayRange": "2472.0 - 2521.0",
-    "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 302360,
-    "fiftyTwoWeekLowChange": 612.5,
-    "fiftyTwoWeekLowChangePercent": 0.32287824,
-    "fiftyTwoWeekRange": "1897.0 - 2685.5",
-    "fiftyTwoWeekHighChange": -176.0,
     "fiftyTwoWeekHighChangePercent": -0.06553715,
     "fiftyTwoWeekChangePercent": 13.216376,
     "earningsTimestamp": 1770705000,
@@ -1381,9 +1409,6 @@
     "exchangeDataDelayedBy": 20,
     "averageAnalystRating": "3.0 - Hold",
     "cryptoTradeable": false,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1127952000000,
-    "marketState": "CLOSED",
     "trailingPegRatio": null
   }
 }

@@ -1,7 +1,7 @@
 {
   "ticker": "2185",
   "japanese_ticker": "2185.T",
-  "fetch_date": "2026-03-27T23:30:32.120322",
+  "fetch_date": "2026-03-28T23:29:39.891496",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-09-30 00:00:00": 63461581.772823,
@@ -1202,26 +1202,9 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "corporateActions": [
-      {
-        "header": "Dividend",
-        "message": "2185.T announced a cash dividend of JPY 27.00 with an ex-date of Mar. 30, 2026",
-        "meta": {
-          "eventType": "DIVIDEND",
-          "dateEpochMs": 1774796400000,
-          "amount": "27.00"
-        }
-      }
-    ],
-    "regularMarketTime": 1774590839,
-    "exchange": "JPX",
-    "messageBoardId": "finmb_5458104",
-    "market": "jp_market",
-    "marketState": "CLOSED",
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
-    "longName": "CMC Corporation",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1228348800000,
     "regularMarketChange": 24.0,
@@ -1234,6 +1217,30 @@
     "fiftyTwoWeekHighChange": -231.0,
     "fiftyTwoWeekHighChangePercent": -0.10794392,
     "fiftyTwoWeekChangePercent": 17.167913,
+    "exchange": "JPX",
+    "messageBoardId": "finmb_5458104",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
+    "regularMarketChangePercent": 1.2732095,
+    "regularMarketPrice": 1909.0,
+    "marketState": "CLOSED",
+    "shortName": "CMC CORPORATION",
+    "longName": "CMC Corporation",
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "2185.T announced a cash dividend of JPY 27.00 with an ex-date of Mar. 30, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1774796400000,
+          "amount": "27.00"
+        }
+      }
+    ],
+    "regularMarketTime": 1774590839,
     "earningsTimestampStart": 1754546400,
     "earningsTimestampEnd": 1754978400,
     "isEarningsDateEstimate": true,
@@ -1242,13 +1249,6 @@
     "fiftyDayAverageChangePercent": 0.03748871,
     "twoHundredDayAverageChange": 230.68994,
     "twoHundredDayAverageChangePercent": 0.1374537,
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "esgPopulated": false,
-    "regularMarketChangePercent": 1.2732095,
-    "regularMarketPrice": 1909.0,
-    "shortName": "CMC CORPORATION",
     "trailingPegRatio": null
   }
 }

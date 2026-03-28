@@ -1,7 +1,7 @@
 {
   "ticker": "2798",
   "japanese_ticker": "2798.T",
-  "fetch_date": "2026-03-27T23:37:38.678406",
+  "fetch_date": "2026-03-28T23:36:43.272865",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-02-28 00:00:00": -1109100.0,
@@ -1024,9 +1024,8 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "regularMarketChangePercent": 0.44658193,
-    "regularMarketPrice": 2924.0,
-    "corporateActions": [],
+    "marketState": "CLOSED",
+    "shortName": "Y'S TABLE CORP",
     "regularMarketTime": 1774593000,
     "exchange": "JPX",
     "messageBoardId": "finmb_9124088",
@@ -1035,8 +1034,11 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "shortName": "Y'S TABLE CORP",
-    "longName": "Y's Table Corporation",
+    "regularMarketChangePercent": 0.44658193,
+    "regularMarketPrice": 2924.0,
+    "corporateActions": [],
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1078099200000,
     "regularMarketChange": 13.0,
     "regularMarketDayRange": "2910.0 - 2924.0",
     "fullExchangeName": "Tokyo",
@@ -1058,9 +1060,7 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1078099200000,
-    "marketState": "CLOSED",
+    "longName": "Y's Table Corporation",
     "trailingPegRatio": null
   }
 }

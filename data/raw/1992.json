@@ -1,7 +1,7 @@
 {
   "ticker": "1992",
   "japanese_ticker": "1992.T",
-  "fetch_date": "2026-03-27T23:28:56.756110",
+  "fetch_date": "2026-03-28T23:28:05.699818",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": -29507912.266053,
@@ -1162,13 +1162,10 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 946944000000,
+    "marketState": "CLOSED",
     "regularMarketChangePercent": -2.310231,
     "regularMarketPrice": 2960.0,
-    "marketState": "CLOSED",
-    "shortName": "KANDA TSUSHINKI CO",
-    "longName": "Kanda Tsushinki Co., Ltd.",
+    "cryptoTradeable": false,
     "corporateActions": [
       {
         "header": "Dividend",
@@ -1188,6 +1185,8 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 946944000000,
     "regularMarketChange": -70.0,
     "regularMarketDayRange": "2950.0 - 3020.0",
     "fullExchangeName": "Tokyo",
@@ -1208,7 +1207,8 @@
     "twoHundredDayAverageChangePercent": 0.07308778,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
+    "shortName": "KANDA TSUSHINKI CO",
+    "longName": "Kanda Tsushinki Co., Ltd.",
     "trailingPegRatio": null
   }
 }

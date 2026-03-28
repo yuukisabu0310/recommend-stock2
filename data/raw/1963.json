@@ -1,7 +1,7 @@
 {
   "ticker": "1963",
   "japanese_ticker": "1963.T",
-  "fetch_date": "2026-03-27T23:28:28.387731",
+  "fetch_date": "2026-03-28T23:27:38.964292",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": -708992000.0,
@@ -1154,10 +1154,10 @@
     "tradeable": false,
     "enterpriseValue": 211511099392,
     "profitMargins": 0.04079,
-    "floatShares": 212151759,
+    "floatShares": 212202548,
     "sharesOutstanding": 241851155,
     "heldPercentInsiders": 0.104329996,
-    "heldPercentInstitutions": 0.44138,
+    "heldPercentInstitutions": 0.44147,
     "impliedSharesOutstanding": 241851155,
     "bookValue": 1773.257,
     "priceToBook": 1.2378353,
@@ -1205,11 +1205,6 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "marketState": "CLOSED",
-    "shortName": "JGC HOLDINGS CORPORATION",
-    "longName": "JGC Holdings Corporation",
-    "regularMarketChangePercent": 1.1520737,
-    "regularMarketPrice": 2195.0,
     "corporateActions": [
       {
         "header": "Dividend",
@@ -1222,15 +1217,8 @@
       }
     ],
     "regularMarketTime": 1774593000,
-    "exchange": "JPX",
-    "messageBoardId": "finmb_874070",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
-    "regularMarketChange": 25.0,
-    "regularMarketDayRange": "2138.5 - 2213.0",
+    "shortName": "JGC HOLDINGS CORPORATION",
+    "longName": "JGC Holdings Corporation",
     "fullExchangeName": "Tokyo",
     "averageDailyVolume3Month": 2061917,
     "fiftyTwoWeekLowChange": 1254.4,
@@ -1239,6 +1227,8 @@
     "fiftyTwoWeekHighChange": -376.0,
     "fiftyTwoWeekHighChangePercent": -0.1462466,
     "fiftyTwoWeekChangePercent": 71.77938,
+    "regularMarketChangePercent": 1.1520737,
+    "regularMarketPrice": 2195.0,
     "earningsTimestamp": 1770705000,
     "earningsTimestampStart": 1778740200,
     "earningsTimestampEnd": 1778740200,
@@ -1257,6 +1247,16 @@
     "cryptoTradeable": false,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 946944000000,
+    "regularMarketChange": 25.0,
+    "regularMarketDayRange": "2138.5 - 2213.0",
+    "exchange": "JPX",
+    "messageBoardId": "finmb_874070",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
+    "marketState": "CLOSED",
     "trailingPegRatio": null
   }
 }

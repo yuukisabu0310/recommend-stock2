@@ -1,7 +1,7 @@
 {
   "ticker": "2139",
   "japanese_ticker": "2139.T",
-  "fetch_date": "2026-03-27T23:29:46.735865",
+  "fetch_date": "2026-03-28T23:28:55.699748",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": -10182972.0,
@@ -1172,8 +1172,7 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "regularMarketChangePercent": -2.0,
-    "regularMarketPrice": 490.0,
+    "marketState": "CLOSED",
     "corporateActions": [
       {
         "header": "Dividend",
@@ -1186,18 +1185,8 @@
       }
     ],
     "regularMarketTime": 1774593000,
-    "exchange": "JPX",
-    "messageBoardId": "finmb_31211892",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1419206400000,
-    "regularMarketChange": -10.0,
-    "regularMarketDayRange": "490.0 - 504.0",
-    "fullExchangeName": "Tokyo",
+    "shortName": "CHUCO CO.LTD",
+    "longName": "Chuco Co., Ltd.",
     "averageDailyVolume3Month": 13744,
     "fiftyTwoWeekLowChange": 98.0,
     "fiftyTwoWeekLowChangePercent": 0.25,
@@ -1215,10 +1204,21 @@
     "twoHundredDayAverageChangePercent": 0.095388226,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
-    "shortName": "CHUCO CO.LTD",
-    "longName": "Chuco Co., Ltd.",
     "cryptoTradeable": false,
-    "marketState": "CLOSED",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1419206400000,
+    "regularMarketChange": -10.0,
+    "regularMarketDayRange": "490.0 - 504.0",
+    "fullExchangeName": "Tokyo",
+    "exchange": "JPX",
+    "messageBoardId": "finmb_31211892",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
+    "regularMarketChangePercent": -2.0,
+    "regularMarketPrice": 490.0,
     "trailingPegRatio": null
   }
 }

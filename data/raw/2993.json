@@ -1,7 +1,7 @@
 {
   "ticker": "2993",
   "japanese_ticker": "2993.T",
-  "fetch_date": "2026-03-27T23:39:51.726151",
+  "fetch_date": "2026-03-28T23:38:57.137689",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": 486683260.0,
@@ -1256,6 +1256,17 @@
     "customPriceAlertConfidence": "LOW",
     "shortName": "CHOEI INC",
     "longName": "Choei Inc.",
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "2993.T announced a cash dividend of JPY 100.00 with an ex-date of Mar. 30, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1774796400000,
+          "amount": "100.00"
+        }
+      }
+    ],
     "regularMarketTime": 1774593000,
     "exchange": "JPX",
     "messageBoardId": "finmb_85062706",
@@ -1264,9 +1275,12 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
+    "marketState": "CLOSED",
     "regularMarketChangePercent": -3.373768,
     "regularMarketPrice": 2549.0,
-    "marketState": "CLOSED",
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1640304000000,
     "regularMarketChange": -89.0,
@@ -1287,20 +1301,6 @@
     "fiftyDayAverageChangePercent": 0.033699706,
     "twoHundredDayAverageChange": 327.06494,
     "twoHundredDayAverageChangePercent": 0.14719824,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "corporateActions": [
-      {
-        "header": "Dividend",
-        "message": "2993.T announced a cash dividend of JPY 100.00 with an ex-date of Mar. 30, 2026",
-        "meta": {
-          "eventType": "DIVIDEND",
-          "dateEpochMs": 1774796400000,
-          "amount": "100.00"
-        }
-      }
-    ],
-    "cryptoTradeable": false,
     "trailingPegRatio": null
   }
 }

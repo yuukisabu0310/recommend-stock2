@@ -1,7 +1,7 @@
 {
   "ticker": "2329",
   "japanese_ticker": "2329.T",
-  "fetch_date": "2026-03-27T23:32:15.234112",
+  "fetch_date": "2026-03-28T23:31:23.580611",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": 2928636000.0,
@@ -1231,10 +1231,6 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "regularMarketChangePercent": 1.1146497,
-    "regularMarketPrice": 635.0,
-    "corporateActions": [],
-    "regularMarketTime": 1774593000,
     "exchange": "JPX",
     "messageBoardId": "finmb_5522618",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1242,8 +1238,10 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "shortName": "TOHOKUSHINSHA FILM CORPORATION",
-    "longName": "Tohokushinsha Film Corporation",
+    "regularMarketChangePercent": 1.1146497,
+    "regularMarketPrice": 635.0,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1034035200000,
     "regularMarketChange": 7.0,
     "regularMarketDayRange": "630.0 - 640.0",
     "fullExchangeName": "Tokyo",
@@ -1252,6 +1250,11 @@
     "fiftyTwoWeekLowChangePercent": 0.29327902,
     "fiftyTwoWeekRange": "491.0 - 727.0",
     "fiftyTwoWeekHighChange": -92.0,
+    "marketState": "CLOSED",
+    "corporateActions": [],
+    "regularMarketTime": 1774593000,
+    "shortName": "TOHOKUSHINSHA FILM CORPORATION",
+    "longName": "Tohokushinsha Film Corporation",
     "fiftyTwoWeekHighChangePercent": -0.12654746,
     "fiftyTwoWeekChangePercent": 6.532669,
     "earningsTimestampStart": 1747377000,
@@ -1265,9 +1268,6 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1034035200000,
-    "marketState": "CLOSED",
     "trailingPegRatio": null
   }
 }

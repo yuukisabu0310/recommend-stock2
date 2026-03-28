@@ -1,7 +1,7 @@
 {
   "ticker": "2384",
   "japanese_ticker": "2384.T",
-  "fetch_date": "2026-03-27T23:33:06.836201",
+  "fetch_date": "2026-03-28T23:32:14.938419",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-12-31 00:00:00": null,
@@ -1159,9 +1159,8 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "marketState": "CLOSED",
-    "shortName": "SBS HOLDINGS INC",
-    "longName": "SBS Holdings, Inc.",
+    "gmtOffSetMilliseconds": 32400000,
+    "esgPopulated": false,
     "regularMarketChangePercent": 1.5186917,
     "regularMarketPrice": 4345.0,
     "corporateActions": [],
@@ -1170,9 +1169,11 @@
     "messageBoardId": "finmb_10732546",
     "exchangeTimezoneName": "Asia/Tokyo",
     "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
-    "esgPopulated": false,
+    "longName": "SBS Holdings, Inc.",
+    "marketState": "CLOSED",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1266796800000,
     "regularMarketChange": 65.0,
     "regularMarketDayRange": "4275.0 - 4360.0",
     "fullExchangeName": "Tokyo",
@@ -1188,16 +1189,15 @@
     "isEarningsDateEstimate": true,
     "epsTrailingTwelveMonths": 296.76,
     "epsForward": 282.0,
+    "twoHundredDayAverageChangePercent": 0.22414193,
     "fiftyDayAverageChange": 337.5,
     "fiftyDayAverageChangePercent": 0.084217094,
     "twoHundredDayAverageChange": 795.57495,
-    "twoHundredDayAverageChangePercent": 0.22414193,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "averageAnalystRating": "1.5 - Strong Buy",
     "cryptoTradeable": false,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1266796800000,
+    "shortName": "SBS HOLDINGS INC",
     "trailingPegRatio": null
   }
 }

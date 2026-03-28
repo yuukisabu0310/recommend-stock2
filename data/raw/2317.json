@@ -1,7 +1,7 @@
 {
   "ticker": "2317",
   "japanese_ticker": "2317.T",
-  "fetch_date": "2026-03-27T23:32:03.604732",
+  "fetch_date": "2026-03-28T23:31:10.388156",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": -107160000.0,
@@ -1225,9 +1225,7 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "shortName": "SYSTENA CORPORATION",
-    "longName": "Systena Corporation",
-    "marketState": "CLOSED",
+    "cryptoTradeable": false,
     "regularMarketChangePercent": 0.4796163,
     "regularMarketPrice": 419.0,
     "corporateActions": [],
@@ -1241,6 +1239,9 @@
     "esgPopulated": false,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1100476800000,
+    "marketState": "CLOSED",
+    "shortName": "SYSTENA CORPORATION",
+    "longName": "Systena Corporation",
     "regularMarketChange": 2.0,
     "regularMarketDayRange": "415.0 - 421.0",
     "fullExchangeName": "Tokyo",
@@ -1263,7 +1264,6 @@
     "twoHundredDayAverageChangePercent": -0.11395887,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
     "trailingPegRatio": null
   }
 }

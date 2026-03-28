@@ -1,7 +1,7 @@
 {
   "ticker": "2897",
   "japanese_ticker": "2897.T",
-  "fetch_date": "2026-03-27T23:38:32.319135",
+  "fetch_date": "2026-03-28T23:37:39.472028",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": 0.0,
@@ -1157,8 +1157,7 @@
     "targetLowPrice": 2700.0,
     "targetMeanPrice": 3436.3635,
     "targetMedianPrice": 3400.0,
-    "recommendationMean": 2.45455,
-    "recommendationKey": "buy",
+    "recommendationKey": "none",
     "numberOfAnalystOpinions": 11,
     "totalCash": 93710000128,
     "totalCashPerShare": 326.451,
@@ -1206,11 +1205,13 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "marketState": "CLOSED",
     "regularMarketChangePercent": 1.7960999,
     "regularMarketPrice": 2975.5,
-    "shortName": "NISSIN FOODS HOLDINGS CO. LTD.",
-    "longName": "Nissin Foods Holdings Co.,Ltd.",
+    "marketState": "CLOSED",
+    "regularMarketChange": 52.5,
+    "regularMarketDayRange": "2936.5 - 2984.5",
+    "fullExchangeName": "Tokyo",
+    "averageDailyVolume3Month": 1269951,
     "fiftyTwoWeekLowChange": 347.5,
     "fiftyTwoWeekLowChangePercent": 0.13222983,
     "fiftyTwoWeekRange": "2628.0 - 3373.0",
@@ -1231,14 +1232,11 @@
     "twoHundredDayAverageChangePercent": 0.019417077,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
-    "averageAnalystRating": "2.5 - Buy",
-    "cryptoTradeable": false,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 978307200000,
-    "regularMarketChange": 52.5,
-    "regularMarketDayRange": "2936.5 - 2984.5",
-    "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 1269951,
+    "shortName": "NISSIN FOODS HOLDINGS CO. LTD.",
+    "longName": "Nissin Foods Holdings Co.,Ltd.",
+    "cryptoTradeable": false,
     "trailingPegRatio": null
   }
 }

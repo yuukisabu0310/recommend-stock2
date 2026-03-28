@@ -1,7 +1,7 @@
 {
   "ticker": "2904",
   "japanese_ticker": "2904.T",
-  "fetch_date": "2026-03-27T23:38:38.514698",
+  "fetch_date": "2026-03-28T23:37:44.791212",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-06-30 00:00:00": 62160587.167164,
@@ -1284,7 +1284,8 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "corporateActions": [],
+    "shortName": "ICHIMASA KAMABOKO CO",
+    "longName": "Ichimasa Kamaboko Co., Ltd.",
     "regularMarketTime": 1774593000,
     "exchange": "JPX",
     "messageBoardId": "finmb_4493103",
@@ -1296,6 +1297,8 @@
     "regularMarketChangePercent": 0.13351135,
     "regularMarketPrice": 750.0,
     "marketState": "CLOSED",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 947030400000,
     "regularMarketChange": 1.0,
     "regularMarketDayRange": "750.0 - 753.0",
     "fullExchangeName": "Tokyo",
@@ -1317,10 +1320,7 @@
     "twoHundredDayAverageChangePercent": 0.00023337151,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 947030400000,
-    "shortName": "ICHIMASA KAMABOKO CO",
-    "longName": "Ichimasa Kamaboko Co., Ltd.",
+    "corporateActions": [],
     "cryptoTradeable": false,
     "trailingPegRatio": null
   }

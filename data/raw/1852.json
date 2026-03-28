@@ -1,7 +1,7 @@
 {
   "ticker": "1852",
   "japanese_ticker": "1852.T",
-  "fetch_date": "2026-03-27T23:26:57.332756",
+  "fetch_date": "2026-03-28T23:26:07.335482",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": -63973000.0,
@@ -1141,8 +1141,11 @@
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
     "shortName": "ASANUMA CORP",
-    "longName": "Asanuma Corporation",
+    "corporateActions": [],
     "regularMarketTime": 1774593000,
+    "marketState": "CLOSED",
+    "regularMarketChangePercent": 0.39138943,
+    "regularMarketPrice": 1026.0,
     "exchange": "JPX",
     "messageBoardId": "finmb_880661",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1150,9 +1153,6 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "regularMarketChangePercent": 0.39138943,
-    "regularMarketPrice": 1026.0,
-    "marketState": "CLOSED",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 978307200000,
     "regularMarketChange": 4.0,
@@ -1167,6 +1167,7 @@
     "fiftyTwoWeekChangePercent": 39.807163,
     "earningsTimestampStart": 1754460000,
     "earningsTimestampEnd": 1754978400,
+    "longName": "Asanuma Corporation",
     "isEarningsDateEstimate": true,
     "epsTrailingTwelveMonths": 73.36,
     "fiftyDayAverageChange": -67.119995,
@@ -1175,7 +1176,6 @@
     "twoHundredDayAverageChangePercent": 0.10969903,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
-    "corporateActions": [],
     "cryptoTradeable": false,
     "trailingPegRatio": null
   }

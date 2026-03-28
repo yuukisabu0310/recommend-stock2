@@ -1,7 +1,7 @@
 {
   "ticker": "2501",
   "japanese_ticker": "2501.T",
-  "fetch_date": "2026-03-27T23:34:46.234414",
+  "fetch_date": "2026-03-28T23:33:53.771152",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2024-12-31 00:00:00": 0.0,
@@ -1140,9 +1140,6 @@
     "isEarningsDateEstimate": true,
     "epsTrailingTwelveMonths": 38.59,
     "epsForward": 172.05,
-    "marketState": "CLOSED",
-    "regularMarketChangePercent": 2.0284588,
-    "regularMarketPrice": 1685.0,
     "corporateActions": [
       {
         "header": "Dividend",
@@ -1162,8 +1159,8 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "shortName": "SAPPORO HOLDINGS LIMITED",
-    "longName": "Sapporo Holdings Limited",
+    "regularMarketChangePercent": 2.0284588,
+    "regularMarketPrice": 1685.0,
     "fiftyDayAverageChange": 14.290039,
     "fiftyDayAverageChangePercent": 0.008553273,
     "twoHundredDayAverageChange": 138.47302,
@@ -1172,6 +1169,9 @@
     "exchangeDataDelayedBy": 20,
     "averageAnalystRating": "4.2 - Underperform",
     "cryptoTradeable": false,
+    "marketState": "CLOSED",
+    "shortName": "SAPPORO HOLDINGS LIMITED",
+    "longName": "Sapporo Holdings Limited",
     "trailingPegRatio": null
   }
 }

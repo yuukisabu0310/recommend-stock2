@@ -1,7 +1,7 @@
 {
   "ticker": "2491",
   "japanese_ticker": "2491.T",
-  "fetch_date": "2026-03-27T23:34:33.392319",
+  "fetch_date": "2026-03-28T23:33:41.443972",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-12-31 00:00:00": null,
@@ -1024,13 +1024,6 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "marketState": "CLOSED",
-    "corporateActions": [],
-    "regularMarketTime": 1774593000,
-    "exchange": "JPX",
-    "messageBoardId": "finmb_89806",
-    "shortName": "VALUECOMMERCE CO.LTD.",
-    "longName": "ValueCommerce Co., Ltd.",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1154304000000,
     "regularMarketChange": 4.0,
@@ -1053,9 +1046,10 @@
     "fiftyDayAverageChangePercent": -0.18393682,
     "twoHundredDayAverageChange": -268.47998,
     "twoHundredDayAverageChangePercent": -0.38437748,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
+    "corporateActions": [],
+    "regularMarketTime": 1774593000,
+    "exchange": "JPX",
+    "messageBoardId": "finmb_89806",
     "exchangeTimezoneName": "Asia/Tokyo",
     "exchangeTimezoneShortName": "JST",
     "gmtOffSetMilliseconds": 32400000,
@@ -1063,6 +1057,12 @@
     "esgPopulated": false,
     "regularMarketChangePercent": 0.93896717,
     "regularMarketPrice": 430.0,
+    "shortName": "VALUECOMMERCE CO.LTD.",
+    "longName": "ValueCommerce Co., Ltd.",
+    "marketState": "CLOSED",
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
     "trailingPegRatio": null
   }
 }

@@ -1,7 +1,7 @@
 {
   "ticker": "2209",
   "japanese_ticker": "2209.T",
-  "fetch_date": "2026-03-27T23:30:53.678927",
+  "fetch_date": "2026-03-28T23:30:01.574119",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": -13428718.355036,
@@ -1216,6 +1216,8 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "corporateActions": [],
+    "regularMarketTime": 1774593000,
     "exchange": "JPX",
     "messageBoardId": "finmb_883492",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1225,8 +1227,7 @@
     "esgPopulated": false,
     "regularMarketChangePercent": 0.16400164,
     "regularMarketPrice": 2443.0,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 978307200000,
+    "marketState": "CLOSED",
     "regularMarketChange": 4.0,
     "regularMarketDayRange": "2440.0 - 2464.0",
     "fullExchangeName": "Tokyo",
@@ -1235,11 +1236,6 @@
     "fiftyTwoWeekLowChangePercent": 0.13627908,
     "fiftyTwoWeekRange": "2150.0 - 2684.0",
     "fiftyTwoWeekHighChange": -241.0,
-    "marketState": "CLOSED",
-    "corporateActions": [],
-    "regularMarketTime": 1774593000,
-    "shortName": "IMURAYA GROUP CO LTD",
-    "longName": "Imuraya Group Co., Ltd.",
     "fiftyTwoWeekHighChangePercent": -0.08979136,
     "fiftyTwoWeekChangePercent": -2.9141724,
     "earningsTimestampStart": 1754548800,
@@ -1252,6 +1248,10 @@
     "twoHundredDayAverageChangePercent": -0.02599083,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 978307200000,
+    "shortName": "IMURAYA GROUP CO LTD",
+    "longName": "Imuraya Group Co., Ltd.",
     "cryptoTradeable": false,
     "trailingPegRatio": null
   }

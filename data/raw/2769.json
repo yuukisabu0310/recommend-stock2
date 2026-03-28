@@ -1,7 +1,7 @@
 {
   "ticker": "2769",
   "japanese_ticker": "2769.T",
-  "fetch_date": "2026-03-27T23:37:12.045105",
+  "fetch_date": "2026-03-28T23:36:18.890258",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-05-31 00:00:00": -732888000.0,
@@ -1029,13 +1029,14 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1049932800000,
-    "regularMarketChangePercent": -0.20898642,
-    "regularMarketPrice": 955.0,
-    "marketState": "CLOSED",
     "shortName": "VILLAGE VANGUARD CO LTD",
     "longName": "Village Vanguard CO.,LTD.",
+    "twoHundredDayAverageChange": -52.695007,
+    "twoHundredDayAverageChangePercent": -0.052292615,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
+    "marketState": "CLOSED",
     "corporateActions": [],
     "regularMarketTime": 1774593000,
     "exchange": "JPX",
@@ -1045,6 +1046,10 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
+    "regularMarketChangePercent": -0.20898642,
+    "regularMarketPrice": 955.0,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1049932800000,
     "regularMarketChange": -2.0,
     "regularMarketDayRange": "955.0 - 957.0",
     "fullExchangeName": "Tokyo",
@@ -1063,11 +1068,6 @@
     "epsTrailingTwelveMonths": -454.29,
     "fiftyDayAverageChange": -16.099976,
     "fiftyDayAverageChangePercent": -0.016579112,
-    "twoHundredDayAverageChange": -52.695007,
-    "twoHundredDayAverageChangePercent": -0.052292615,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
     "trailingPegRatio": null
   }
 }

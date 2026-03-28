@@ -1,7 +1,7 @@
 {
   "ticker": "2304",
   "japanese_ticker": "2304.T",
-  "fetch_date": "2026-03-27T23:31:52.934681",
+  "fetch_date": "2026-03-28T23:31:01.281256",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-09-30 00:00:00": 1953918.0,
@@ -1234,6 +1234,13 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1023926400000,
+    "regularMarketChange": -3.0,
+    "regularMarketDayRange": "945.0 - 956.0",
+    "shortName": "CSS HOLDINGS LTD",
+    "longName": "CSS Holdings,Ltd.",
+    "marketState": "CLOSED",
     "corporateActions": [],
     "regularMarketTime": 1774593000,
     "exchange": "JPX",
@@ -1243,11 +1250,10 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "marketState": "CLOSED",
     "regularMarketChangePercent": -0.31512606,
     "regularMarketPrice": 949.0,
-    "shortName": "CSS HOLDINGS LTD",
-    "longName": "CSS Holdings,Ltd.",
+    "fullExchangeName": "Tokyo",
+    "averageDailyVolume3Month": 8867,
     "fiftyTwoWeekLowChange": 194.0,
     "fiftyTwoWeekLowChangePercent": 0.25695366,
     "fiftyTwoWeekRange": "755.0 - 1097.0",
@@ -1265,12 +1271,6 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1023926400000,
-    "regularMarketChange": -3.0,
-    "regularMarketDayRange": "945.0 - 956.0",
-    "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 8867,
     "trailingPegRatio": null
   }
 }

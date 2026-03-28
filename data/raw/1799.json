@@ -1,7 +1,7 @@
 {
   "ticker": "1799",
   "japanese_ticker": "1799.T",
-  "fetch_date": "2026-03-27T23:26:08.027756",
+  "fetch_date": "2026-03-28T23:25:18.453946",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": -19655836.648679,
@@ -1171,7 +1171,7 @@
     "tradeable": false,
     "enterpriseValue": 72769413120,
     "profitMargins": 0.04704,
-    "floatShares": 10979628,
+    "floatShares": 11014339,
     "sharesOutstanding": 17701510,
     "heldPercentInsiders": 0.42523,
     "heldPercentInstitutions": 0.05921,
@@ -1221,29 +1221,17 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "regularMarketChangePercent": -0.25510204,
-    "regularMarketPrice": 3910.0,
-    "corporateActions": [
-      {
-        "header": "Dividend",
-        "message": "1799.T announced a cash dividend of JPY 130.00 with an ex-date of Mar. 30, 2026",
-        "meta": {
-          "eventType": "DIVIDEND",
-          "dateEpochMs": 1774796400000,
-          "amount": "130.00"
-        }
-      }
-    ],
-    "regularMarketTime": 1774593000,
-    "exchange": "JPX",
-    "messageBoardId": "finmb_880783",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
-    "shortName": "DAIICHI KENSETSU CORP",
-    "longName": "Daiichi Kensetsu Corporation",
+    "epsTrailingTwelveMonths": 313.19,
+    "epsForward": 189.4,
+    "fiftyDayAverageChange": -126.30005,
+    "fiftyDayAverageChangePercent": -0.031291045,
+    "twoHundredDayAverageChange": 448.39502,
+    "twoHundredDayAverageChangePercent": 0.12953386,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 946944000000,
     "regularMarketChange": -10.0,
     "regularMarketDayRange": "3905.0 - 4005.0",
     "fullExchangeName": "Tokyo",
@@ -1257,18 +1245,30 @@
     "earningsTimestampStart": 1747117800,
     "earningsTimestampEnd": 1747117800,
     "isEarningsDateEstimate": false,
-    "epsTrailingTwelveMonths": 313.19,
-    "epsForward": 189.4,
-    "fiftyDayAverageChange": -126.30005,
-    "fiftyDayAverageChangePercent": -0.031291045,
-    "twoHundredDayAverageChange": 448.39502,
-    "twoHundredDayAverageChangePercent": 0.12953386,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 946944000000,
+    "shortName": "DAIICHI KENSETSU CORP",
+    "longName": "Daiichi Kensetsu Corporation",
+    "regularMarketChangePercent": -0.25510204,
+    "regularMarketPrice": 3910.0,
     "marketState": "CLOSED",
+    "exchange": "JPX",
+    "messageBoardId": "finmb_880783",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "1799.T announced a cash dividend of JPY 130.00 with an ex-date of Mar. 30, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1774796400000,
+          "amount": "130.00"
+        }
+      }
+    ],
+    "regularMarketTime": 1774593000,
     "trailingPegRatio": null
   }
 }

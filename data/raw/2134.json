@@ -1,7 +1,7 @@
 {
   "ticker": "2134",
   "japanese_ticker": "2134.T",
-  "fetch_date": "2026-03-27T23:29:40.983706",
+  "fetch_date": "2026-03-28T23:28:49.836327",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": -52369824.0,
@@ -1310,8 +1310,10 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "shortName": "KITAHAMA CAPITAL PARTNERS CO LT",
-    "longName": "Kitahama Capital Partners Co.,Ltd.",
+    "cryptoTradeable": false,
+    "regularMarketChangePercent": 3.4482758,
+    "regularMarketPrice": 30.0,
+    "corporateActions": [],
     "regularMarketTime": 1774593000,
     "exchange": "JPX",
     "messageBoardId": "finmb_30006490",
@@ -1320,11 +1322,11 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "regularMarketChangePercent": 3.4482758,
-    "regularMarketPrice": 30.0,
-    "marketState": "CLOSED",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1165449600000,
+    "marketState": "CLOSED",
+    "shortName": "KITAHAMA CAPITAL PARTNERS CO LT",
+    "longName": "Kitahama Capital Partners Co.,Ltd.",
     "regularMarketChange": 1.0,
     "regularMarketDayRange": "29.0 - 31.0",
     "fullExchangeName": "Tokyo",
@@ -1346,9 +1348,7 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "prevName": "Sun Capital Management Corp.",
-    "nameChangeDate": "2026-03-27",
-    "corporateActions": [],
-    "cryptoTradeable": false,
+    "nameChangeDate": "2026-03-28",
     "trailingPegRatio": null
   }
 }

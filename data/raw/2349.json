@@ -1,7 +1,7 @@
 {
   "ticker": "2349",
   "japanese_ticker": "2349.T",
-  "fetch_date": "2026-03-27T23:32:40.547491",
+  "fetch_date": "2026-03-28T23:31:49.886916",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": -18626021.1,
@@ -1161,10 +1161,6 @@
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
     "shortName": "NIPPON INFORMATION DEVELOPMENT ",
-    "longName": "Nippon Information Development Co., Ltd.",
-    "marketState": "CLOSED",
-    "regularMarketChangePercent": 0.0,
-    "regularMarketPrice": 2520.0,
     "corporateActions": [
       {
         "header": "Dividend",
@@ -1177,6 +1173,9 @@
       }
     ],
     "regularMarketTime": 1774505903,
+    "marketState": "CLOSED",
+    "regularMarketChangePercent": 0.0,
+    "regularMarketPrice": 2520.0,
     "exchange": "JPX",
     "messageBoardId": "finmb_5754516",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1198,6 +1197,7 @@
     "fiftyTwoWeekChangePercent": 3.5950422,
     "earningsTimestampStart": 1747204200,
     "earningsTimestampEnd": 1747204200,
+    "longName": "Nippon Information Development Co., Ltd.",
     "isEarningsDateEstimate": false,
     "epsTrailingTwelveMonths": 212.18,
     "fiftyDayAverageChange": 126.37988,

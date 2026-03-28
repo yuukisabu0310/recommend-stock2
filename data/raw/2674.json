@@ -1,7 +1,7 @@
 {
   "ticker": "2674",
   "japanese_ticker": "2674.T",
-  "fetch_date": "2026-03-27T23:35:51.378999",
+  "fetch_date": "2026-03-28T23:34:56.157129",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": -48005706.0,
@@ -1197,11 +1197,6 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "marketState": "CLOSED",
-    "shortName": "HARD OFF CORPORATION CO LTD",
-    "longName": "Hard Off Corporation Co.,Ltd.",
-    "regularMarketChangePercent": 1.1482776,
-    "regularMarketPrice": 2026.0,
     "corporateActions": [],
     "regularMarketTime": 1774593000,
     "exchange": "JPX",
@@ -1211,10 +1206,11 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "regularMarketChange": 23.0,
-    "regularMarketDayRange": "2001.0 - 2032.0",
-    "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 42366,
+    "marketState": "CLOSED",
+    "regularMarketChangePercent": 1.1482776,
+    "regularMarketPrice": 2026.0,
+    "shortName": "HARD OFF CORPORATION CO LTD",
+    "longName": "Hard Off Corporation Co.,Ltd.",
     "fiftyTwoWeekLowChange": 455.0,
     "fiftyTwoWeekLowChangePercent": 0.28962445,
     "fiftyTwoWeekRange": "1571.0 - 2156.0",
@@ -1234,6 +1230,10 @@
     "cryptoTradeable": false,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1076371200000,
+    "regularMarketChange": 23.0,
+    "regularMarketDayRange": "2001.0 - 2032.0",
+    "fullExchangeName": "Tokyo",
+    "averageDailyVolume3Month": 42366,
     "trailingPegRatio": null
   }
 }

@@ -1,7 +1,7 @@
 {
   "ticker": "1860",
   "japanese_ticker": "1860.T",
-  "fetch_date": "2026-03-27T23:27:01.168775",
+  "fetch_date": "2026-03-28T23:26:11.115952",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": 2462374000.0,
@@ -1281,28 +1281,6 @@
     "customPriceAlertConfidence": "LOW",
     "shortName": "TODA CORP",
     "longName": "Toda Corporation",
-    "marketState": "CLOSED",
-    "regularMarketChangePercent": -0.46666664,
-    "regularMarketPrice": 1493.0,
-    "corporateActions": [
-      {
-        "header": "Dividend",
-        "message": "1860.T announced a cash dividend of JPY 25.00 with an ex-date of Mar. 30, 2026",
-        "meta": {
-          "eventType": "DIVIDEND",
-          "dateEpochMs": 1774796400000,
-          "amount": "25.00"
-        }
-      }
-    ],
-    "regularMarketTime": 1774593000,
-    "exchange": "JPX",
-    "messageBoardId": "finmb_876263",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 978307200000,
     "regularMarketChange": -7.0,
@@ -1319,6 +1297,16 @@
     "earningsTimestampStart": 1778740200,
     "earningsTimestampEnd": 1778740200,
     "isEarningsDateEstimate": true,
+    "marketState": "CLOSED",
+    "exchange": "JPX",
+    "messageBoardId": "finmb_876263",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
+    "regularMarketChangePercent": -0.46666664,
+    "regularMarketPrice": 1493.0,
     "epsTrailingTwelveMonths": 102.42,
     "epsForward": 91.2,
     "fiftyDayAverageChange": 22.060059,
@@ -1328,6 +1316,18 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "1860.T announced a cash dividend of JPY 25.00 with an ex-date of Mar. 30, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1774796400000,
+          "amount": "25.00"
+        }
+      }
+    ],
+    "regularMarketTime": 1774593000,
     "trailingPegRatio": null
   }
 }

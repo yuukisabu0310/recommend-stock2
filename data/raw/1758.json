@@ -1,7 +1,7 @@
 {
   "ticker": "1758",
   "japanese_ticker": "1758.T",
-  "fetch_date": "2026-03-27T23:25:37.772891",
+  "fetch_date": "2026-03-28T23:24:48.673887",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-01-31 00:00:00": 42502159.0,
@@ -1209,6 +1209,8 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "marketState": "CLOSED",
+    "cryptoTradeable": false,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 946944000000,
     "regularMarketChange": -46.0,
@@ -1225,7 +1227,14 @@
     "earningsTimestampEnd": 1749812340,
     "isEarningsDateEstimate": false,
     "epsTrailingTwelveMonths": 198.09,
-    "marketState": "CLOSED",
+    "fiftyDayAverageChange": -242.73999,
+    "fiftyDayAverageChangePercent": -0.09171282,
+    "twoHundredDayAverageChange": 129.06006,
+    "twoHundredDayAverageChangePercent": 0.056731194,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "shortName": "TAIYO KISOKOGYO CO",
+    "longName": "Taiyo Kisokogyo Co.,Ltd.",
     "regularMarketChangePercent": -1.877551,
     "regularMarketPrice": 2404.0,
     "corporateActions": [],
@@ -1237,15 +1246,6 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "shortName": "TAIYO KISOKOGYO CO",
-    "longName": "Taiyo Kisokogyo Co.,Ltd.",
-    "fiftyDayAverageChange": -242.73999,
-    "fiftyDayAverageChangePercent": -0.09171282,
-    "twoHundredDayAverageChange": 129.06006,
-    "twoHundredDayAverageChangePercent": 0.056731194,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
     "trailingPegRatio": null
   }
 }

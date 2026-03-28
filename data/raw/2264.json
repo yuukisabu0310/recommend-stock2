@@ -1,7 +1,7 @@
 {
   "ticker": "2264",
   "japanese_ticker": "2264.T",
-  "fetch_date": "2026-03-27T23:31:18.006016",
+  "fetch_date": "2026-03-28T23:30:25.059010",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": -3381632000.0,
@@ -1205,6 +1205,11 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "longName": "Morinaga Milk Industry Co., Ltd.",
+    "shortName": "MORINAGA MILK INDUSTRY CO",
+    "regularMarketChangePercent": -1.022704,
+    "regularMarketPrice": 4839.0,
+    "marketState": "CLOSED",
     "corporateActions": [
       {
         "header": "Dividend",
@@ -1217,16 +1222,8 @@
       }
     ],
     "regularMarketTime": 1774593000,
-    "exchange": "JPX",
-    "messageBoardId": "finmb_878406",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
-    "regularMarketChangePercent": -1.022704,
-    "regularMarketPrice": 4839.0,
-    "marketState": "CLOSED",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 978307200000,
     "regularMarketChange": -50.0,
     "regularMarketDayRange": "4822.0 - 4896.0",
     "fullExchangeName": "Tokyo",
@@ -1251,11 +1248,14 @@
     "twoHundredDayAverageChangePercent": 0.320969,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 978307200000,
-    "shortName": "MORINAGA MILK INDUSTRY CO",
-    "longName": "Morinaga Milk Industry Co., Ltd.",
     "cryptoTradeable": false,
+    "exchange": "JPX",
+    "messageBoardId": "finmb_878406",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
     "trailingPegRatio": null
   }
 }

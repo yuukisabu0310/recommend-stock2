@@ -1,7 +1,7 @@
 {
   "ticker": "1835",
   "japanese_ticker": "1835.T",
-  "fetch_date": "2026-03-27T23:26:43.324783",
+  "fetch_date": "2026-03-28T23:25:53.306166",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": 168560259.692863,
@@ -1158,6 +1158,9 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "marketState": "CLOSED",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 978307200000,
     "regularMarketChange": -40.0,
     "regularMarketDayRange": "5490.0 - 5560.0",
     "fullExchangeName": "Tokyo",
@@ -1172,23 +1175,6 @@
     "earningsTimestampStart": 1778481000,
     "earningsTimestampEnd": 1778481000,
     "isEarningsDateEstimate": true,
-    "epsTrailingTwelveMonths": 372.05,
-    "epsForward": 257.53,
-    "fiftyDayAverageChange": 469.6001,
-    "fiftyDayAverageChangePercent": 0.092982754,
-    "twoHundredDayAverageChange": 1094.8252,
-    "twoHundredDayAverageChangePercent": 0.24740835,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "averageAnalystRating": "1.7 - Buy",
-    "cryptoTradeable": false,
-    "regularMarketChangePercent": -0.7194245,
-    "regularMarketPrice": 5520.0,
-    "shortName": "TOTETSU KOGYO CO",
-    "longName": "Totetsu Kogyo Co., Ltd.",
-    "marketState": "CLOSED",
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 978307200000,
     "corporateActions": [
       {
         "header": "Dividend",
@@ -1208,6 +1194,20 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
+    "epsTrailingTwelveMonths": 372.05,
+    "epsForward": 257.53,
+    "fiftyDayAverageChange": 469.6001,
+    "fiftyDayAverageChangePercent": 0.092982754,
+    "twoHundredDayAverageChange": 1094.8252,
+    "twoHundredDayAverageChangePercent": 0.24740835,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "averageAnalystRating": "1.7 - Buy",
+    "cryptoTradeable": false,
+    "regularMarketChangePercent": -0.7194245,
+    "regularMarketPrice": 5520.0,
+    "shortName": "TOTETSU KOGYO CO",
+    "longName": "Totetsu Kogyo Co., Ltd.",
     "trailingPegRatio": null
   }
 }

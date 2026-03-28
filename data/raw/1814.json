@@ -1,7 +1,7 @@
 {
   "ticker": "1814",
   "japanese_ticker": "1814.T",
-  "fetch_date": "2026-03-27T23:26:27.707357",
+  "fetch_date": "2026-03-28T23:25:38.246925",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": -36888000.0,
@@ -992,6 +992,15 @@
         "yearBorn": 1965,
         "exercisedValue": 0,
         "unexercisedValue": 0
+      },
+      {
+        "maxAge": 1,
+        "name": "Kenjo  Matsuda",
+        "age": 60,
+        "title": "Executive Officer, Head of Business Strategy Department & Director",
+        "yearBorn": 1965,
+        "exercisedValue": 0,
+        "unexercisedValue": 0
       }
     ],
     "irWebsite": "http://www.daisue.co.jp/financial/kessan2005-01.html",
@@ -1086,6 +1095,13 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "fiftyDayAverageChange": -240.3999,
+    "fiftyDayAverageChangePercent": -0.0594255,
+    "twoHundredDayAverageChange": 691.865,
+    "twoHundredDayAverageChangePercent": 0.2222406,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 978307200000,
     "regularMarketChangePercent": -0.1312336,
@@ -1093,6 +1109,20 @@
     "marketState": "CLOSED",
     "shortName": "DAISUE CONSTRUCTION CO",
     "longName": "Daisue Construction Co., Ltd.",
+    "regularMarketChange": -5.0,
+    "regularMarketDayRange": "3750.0 - 3815.0",
+    "fullExchangeName": "Tokyo",
+    "averageDailyVolume3Month": 109400,
+    "fiftyTwoWeekLowChange": 2230.0,
+    "fiftyTwoWeekLowChangePercent": 1.415873,
+    "fiftyTwoWeekRange": "1575.0 - 4505.0",
+    "fiftyTwoWeekHighChange": -700.0,
+    "fiftyTwoWeekHighChangePercent": -0.1553829,
+    "fiftyTwoWeekChangePercent": 104.764465,
+    "earningsTimestampStart": 1754290800,
+    "earningsTimestampEnd": 1754636400,
+    "isEarningsDateEstimate": true,
+    "epsTrailingTwelveMonths": 284.61,
     "corporateActions": [
       {
         "header": "Dividend",
@@ -1112,27 +1142,6 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "regularMarketChange": -5.0,
-    "regularMarketDayRange": "3750.0 - 3815.0",
-    "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 109400,
-    "fiftyTwoWeekLowChange": 2230.0,
-    "fiftyTwoWeekLowChangePercent": 1.415873,
-    "fiftyTwoWeekRange": "1575.0 - 4505.0",
-    "fiftyTwoWeekHighChange": -700.0,
-    "fiftyTwoWeekHighChangePercent": -0.1553829,
-    "fiftyTwoWeekChangePercent": 104.764465,
-    "earningsTimestampStart": 1754290800,
-    "earningsTimestampEnd": 1754636400,
-    "isEarningsDateEstimate": true,
-    "epsTrailingTwelveMonths": 284.61,
-    "fiftyDayAverageChange": -240.3999,
-    "fiftyDayAverageChangePercent": -0.0594255,
-    "twoHundredDayAverageChange": 691.865,
-    "twoHundredDayAverageChangePercent": 0.2222406,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
     "trailingPegRatio": null
   }
 }

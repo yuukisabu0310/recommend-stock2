@@ -1,7 +1,7 @@
 {
   "ticker": "2488",
   "japanese_ticker": "2488.T",
-  "fetch_date": "2026-03-27T23:34:29.255215",
+  "fetch_date": "2026-03-28T23:33:37.718954",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": -15953145.278217,
@@ -1131,6 +1131,8 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "shortName": "JTP CO LTD",
+    "longName": "JTP Co.,Ltd.",
     "corporateActions": [],
     "regularMarketTime": 1774593000,
     "exchange": "JPX",
@@ -1140,11 +1142,15 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "marketState": "CLOSED",
     "regularMarketChangePercent": 0.42194092,
     "regularMarketPrice": 1190.0,
-    "shortName": "JTP CO LTD",
-    "longName": "JTP Co.,Ltd.",
+    "marketState": "CLOSED",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1150934400000,
+    "regularMarketChange": 5.0,
+    "regularMarketDayRange": "1164.0 - 1190.0",
+    "fullExchangeName": "Tokyo",
+    "averageDailyVolume3Month": 29275,
     "fiftyTwoWeekLowChange": 222.0,
     "fiftyTwoWeekLowChangePercent": 0.22933884,
     "fiftyTwoWeekRange": "968.0 - 1679.0",
@@ -1162,14 +1168,8 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "prevName": "Japan Third Party Co., Ltd.",
-    "nameChangeDate": "2026-03-27",
+    "nameChangeDate": "2026-03-28",
     "cryptoTradeable": false,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1150934400000,
-    "regularMarketChange": 5.0,
-    "regularMarketDayRange": "1164.0 - 1190.0",
-    "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 29275,
     "trailingPegRatio": null
   }
 }

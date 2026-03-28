@@ -1,7 +1,7 @@
 {
   "ticker": "1914",
   "japanese_ticker": "1914.T",
-  "fetch_date": "2026-03-27T23:27:42.908936",
+  "fetch_date": "2026-03-28T23:26:53.748558",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": 10778040.0,
@@ -1232,28 +1232,6 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "gmtOffSetMilliseconds": 32400000,
-    "esgPopulated": false,
-    "regularMarketChangePercent": 1.1111112,
-    "regularMarketPrice": 728.0,
-    "corporateActions": [
-      {
-        "header": "Dividend",
-        "message": "1914.T announced a cash dividend of JPY 27.00 with an ex-date of Mar. 30, 2026",
-        "meta": {
-          "eventType": "DIVIDEND",
-          "dateEpochMs": 1774796400000,
-          "amount": "27.00"
-        }
-      }
-    ],
-    "regularMarketTime": 1774593000,
-    "exchange": "JPX",
-    "messageBoardId": "finmb_880407",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "market": "jp_market",
-    "longName": "Japan Foundation Engineering Co., Ltd.",
     "marketState": "CLOSED",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 978307200000,
@@ -1272,14 +1250,36 @@
     "isEarningsDateEstimate": true,
     "epsTrailingTwelveMonths": 60.93,
     "epsForward": 25.6,
-    "twoHundredDayAverageChangePercent": 0.09264189,
     "fiftyDayAverageChange": 24.919983,
     "fiftyDayAverageChangePercent": 0.03544402,
     "twoHundredDayAverageChange": 61.724976,
+    "twoHundredDayAverageChangePercent": 0.09264189,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
     "shortName": "JAPAN FOUNDATION ENGINEERING CO",
+    "longName": "Japan Foundation Engineering Co., Ltd.",
+    "cryptoTradeable": false,
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "1914.T announced a cash dividend of JPY 27.00 with an ex-date of Mar. 30, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1774796400000,
+          "amount": "27.00"
+        }
+      }
+    ],
+    "regularMarketTime": 1774593000,
+    "exchange": "JPX",
+    "messageBoardId": "finmb_880407",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
+    "regularMarketChangePercent": 1.1111112,
+    "regularMarketPrice": 728.0,
     "trailingPegRatio": null
   }
 }

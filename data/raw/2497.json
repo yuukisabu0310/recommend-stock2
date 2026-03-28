@@ -1,7 +1,7 @@
 {
   "ticker": "2497",
   "japanese_ticker": "2497.T",
-  "fetch_date": "2026-03-27T23:34:40.214196",
+  "fetch_date": "2026-03-28T23:33:47.245124",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": 1174384.0,
@@ -1250,30 +1250,8 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "corporateActions": [
-      {
-        "header": "Dividend",
-        "message": "2497.T announced a cash dividend of JPY 11.50 with an ex-date of Mar. 30, 2026",
-        "meta": {
-          "eventType": "DIVIDEND",
-          "dateEpochMs": 1774796400000,
-          "amount": "11.50"
-        }
-      }
-    ],
-    "regularMarketTime": 1774593000,
-    "exchange": "JPX",
-    "messageBoardId": "finmb_28462301",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
-    "regularMarketChangePercent": 3.1598513,
-    "regularMarketPrice": 555.0,
     "marketState": "CLOSED",
-    "longName": "UNITED, Inc.",
-    "shortName": "UNITED INC",
+    "cryptoTradeable": false,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1156896000000,
     "regularMarketChange": 17.0,
@@ -1297,7 +1275,29 @@
     "twoHundredDayAverageChangePercent": 0.0070036384,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
+    "shortName": "UNITED INC",
+    "longName": "UNITED, Inc.",
+    "regularMarketChangePercent": 3.1598513,
+    "regularMarketPrice": 555.0,
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "2497.T announced a cash dividend of JPY 11.50 with an ex-date of Mar. 30, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1774796400000,
+          "amount": "11.50"
+        }
+      }
+    ],
+    "regularMarketTime": 1774593000,
+    "exchange": "JPX",
+    "messageBoardId": "finmb_28462301",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
     "trailingPegRatio": null
   }
 }

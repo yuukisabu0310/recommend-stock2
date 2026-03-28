@@ -1,7 +1,7 @@
 {
   "ticker": "2811",
   "japanese_ticker": "2811.T",
-  "fetch_date": "2026-03-27T23:37:54.578139",
+  "fetch_date": "2026-03-28T23:36:58.323814",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-12-31 00:00:00": 0.0,
@@ -949,6 +949,15 @@
       },
       {
         "maxAge": 1,
+        "name": "Mr. Takeshi  Saeki",
+        "age": 63,
+        "title": "Managing Executive Officer, CFO, CRO, Head of Finance & Accounting and Director",
+        "yearBorn": 1962,
+        "exercisedValue": 0,
+        "unexercisedValue": 0
+      },
+      {
+        "maxAge": 1,
         "name": "Yoshinobu  Tomimori",
         "title": "GM of Finance & Accounting Department",
         "exercisedValue": 0,
@@ -1002,13 +1011,6 @@
         "age": 60,
         "title": "Executive Officer and Director of D&I Innovation Promotion Office",
         "yearBorn": 1965,
-        "exercisedValue": 0,
-        "unexercisedValue": 0
-      },
-      {
-        "maxAge": 1,
-        "name": "Kazuhiko  Horii",
-        "title": "Executive Officer and Deputy GM of Sales Headquarters & Solution Business",
         "exercisedValue": 0,
         "unexercisedValue": 0
       }
@@ -1117,9 +1119,8 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "marketState": "CLOSED",
-    "shortName": "KAGOME CO LTD",
-    "longName": "Kagome Co., Ltd.",
+    "gmtOffSetMilliseconds": 32400000,
+    "esgPopulated": false,
     "regularMarketChangePercent": 0.44706726,
     "regularMarketPrice": 2808.5,
     "corporateActions": [],
@@ -1128,9 +1129,11 @@
     "messageBoardId": "finmb_880391",
     "exchangeTimezoneName": "Asia/Tokyo",
     "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
-    "esgPopulated": false,
+    "longName": "Kagome Co., Ltd.",
+    "marketState": "CLOSED",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 978307200000,
     "regularMarketChange": 12.5,
     "regularMarketDayRange": "2801.0 - 2830.0",
     "fullExchangeName": "Tokyo",
@@ -1149,15 +1152,14 @@
     "isEarningsDateEstimate": false,
     "epsTrailingTwelveMonths": 161.21,
     "epsForward": 223.28,
+    "twoHundredDayAverageChangePercent": -0.00461368,
     "fiftyDayAverageChange": 14.120117,
     "fiftyDayAverageChangePercent": 0.0050530415,
     "twoHundredDayAverageChange": -13.017578,
-    "twoHundredDayAverageChangePercent": -0.00461368,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 978307200000,
+    "shortName": "KAGOME CO LTD",
     "trailingPegRatio": null
   }
 }

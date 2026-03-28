@@ -1,7 +1,7 @@
 {
   "ticker": "1515",
   "japanese_ticker": "1515.T",
-  "fetch_date": "2026-03-27T23:25:06.858067",
+  "fetch_date": "2026-03-28T23:24:16.249825",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": 800326326.326326,
@@ -1172,12 +1172,6 @@
     "customPriceAlertConfidence": "LOW",
     "shortName": "NITTETSU MINING CO",
     "longName": "Nittetsu Mining Co., Ltd.",
-    "twoHundredDayAverageChange": 515.26,
-    "twoHundredDayAverageChangePercent": 0.24159533,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
-    "marketState": "CLOSED",
     "corporateActions": [],
     "regularMarketTime": 1774593000,
     "exchange": "JPX",
@@ -1189,6 +1183,7 @@
     "esgPopulated": false,
     "regularMarketChangePercent": -0.45112783,
     "regularMarketPrice": 2648.0,
+    "marketState": "CLOSED",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 978307200000,
     "regularMarketChange": -12.0,
@@ -1207,6 +1202,11 @@
     "epsTrailingTwelveMonths": 124.72,
     "fiftyDayAverageChange": -764.82007,
     "fiftyDayAverageChangePercent": -0.22410208,
+    "twoHundredDayAverageChange": 515.26,
+    "twoHundredDayAverageChangePercent": 0.24159533,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
     "trailingPegRatio": null
   }
 }

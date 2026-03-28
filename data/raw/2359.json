@@ -1,7 +1,7 @@
 {
   "ticker": "2359",
   "japanese_ticker": "2359.T",
-  "fetch_date": "2026-03-27T23:32:48.751090",
+  "fetch_date": "2026-03-28T23:31:57.612131",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": 1273923.915519,
@@ -1330,10 +1330,18 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "marketState": "CLOSED",
     "shortName": "CORE CORPORATION",
     "longName": "Core Corporation",
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1048118400000,
+    "regularMarketChangePercent": 0.7870573,
+    "regularMarketPrice": 2305.0,
+    "exchange": "JPX",
+    "messageBoardId": "finmb_20337587",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
     "corporateActions": [
       {
         "header": "Dividend",
@@ -1346,24 +1354,14 @@
       }
     ],
     "regularMarketTime": 1774593000,
-    "exchange": "JPX",
-    "messageBoardId": "finmb_20337587",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
-    "regularMarketChangePercent": 0.7870573,
-    "regularMarketPrice": 2305.0,
-    "marketState": "CLOSED",
-    "epsTrailingTwelveMonths": 168.73,
     "fiftyDayAverageChange": 109.41992,
     "fiftyDayAverageChangePercent": 0.049836453,
     "twoHundredDayAverageChange": 255.30005,
-    "twoHundredDayAverageChangePercent": 0.12455484,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1048118400000,
     "regularMarketChange": 18.0,
     "regularMarketDayRange": "2282.0 - 2323.0",
     "fullExchangeName": "Tokyo",
@@ -1377,6 +1375,8 @@
     "earningsTimestampStart": 1753684200,
     "earningsTimestampEnd": 1754029800,
     "isEarningsDateEstimate": true,
+    "epsTrailingTwelveMonths": 168.73,
+    "twoHundredDayAverageChangePercent": 0.12455484,
     "trailingPegRatio": null
   }
 }

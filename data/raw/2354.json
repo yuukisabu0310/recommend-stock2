@@ -1,7 +1,7 @@
 {
   "ticker": "2354",
   "japanese_ticker": "2354.T",
-  "fetch_date": "2026-03-27T23:32:46.545547",
+  "fetch_date": "2026-03-28T23:31:55.938089",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-02-28 00:00:00": 5557365.0,
@@ -1018,6 +1018,7 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "marketState": "CLOSED",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1045785600000,
     "regularMarketChange": 10.0,
@@ -1033,10 +1034,6 @@
     "earningsTimestampStart": 1743404400,
     "earningsTimestampEnd": 1743404400,
     "isEarningsDateEstimate": false,
-    "epsTrailingTwelveMonths": 48.07,
-    "marketState": "CLOSED",
-    "regularMarketChangePercent": 1.2787724,
-    "regularMarketPrice": 792.0,
     "corporateActions": [],
     "regularMarketTime": 1774593000,
     "exchange": "JPX",
@@ -1046,8 +1043,7 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "shortName": "YE DIGITAL CORPORATION",
-    "longName": "YE DIGITAL Corporation",
+    "epsTrailingTwelveMonths": 48.07,
     "fiftyDayAverageChange": -12.679993,
     "fiftyDayAverageChangePercent": -0.015757808,
     "twoHundredDayAverageChange": 79.880005,
@@ -1055,6 +1051,10 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
+    "regularMarketChangePercent": 1.2787724,
+    "regularMarketPrice": 792.0,
+    "shortName": "YE DIGITAL CORPORATION",
+    "longName": "YE DIGITAL Corporation",
     "trailingPegRatio": null
   }
 }

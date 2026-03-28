@@ -1,7 +1,7 @@
 {
   "ticker": "2170",
   "japanese_ticker": "2170.T",
-  "fetch_date": "2026-03-27T23:30:17.576935",
+  "fetch_date": "2026-03-28T23:29:25.919032",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-12-31 00:00:00": null,
@@ -1088,23 +1088,6 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "marketState": "CLOSED",
-    "corporateActions": [
-      {
-        "header": "Dividend",
-        "message": "2170.T announced a cash dividend of JPY 4.10 with an ex-date of Mar. 30, 2026",
-        "meta": {
-          "eventType": "DIVIDEND",
-          "dateEpochMs": 1774796400000,
-          "amount": "4.10"
-        }
-      }
-    ],
-    "regularMarketTime": 1774593000,
-    "exchange": "JPX",
-    "messageBoardId": "finmb_38981574",
-    "shortName": "LINK AND MOTIVATION INC",
-    "longName": "Link and Motivation Inc.",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1197849600000,
     "regularMarketChange": 12.0,
@@ -1124,6 +1107,30 @@
     "isEarningsDateEstimate": false,
     "epsTrailingTwelveMonths": 14.96,
     "epsForward": 37.65,
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "2170.T announced a cash dividend of JPY 4.10 with an ex-date of Mar. 30, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1774796400000,
+          "amount": "4.10"
+        }
+      }
+    ],
+    "regularMarketTime": 1774593000,
+    "exchange": "JPX",
+    "messageBoardId": "finmb_38981574",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
+    "regularMarketChangePercent": 2.255639,
+    "regularMarketPrice": 544.0,
+    "marketState": "CLOSED",
+    "shortName": "LINK AND MOTIVATION INC",
+    "longName": "Link and Motivation Inc.",
     "fiftyDayAverageChange": 12.26001,
     "fiftyDayAverageChangePercent": 0.0230564,
     "twoHundredDayAverageChange": 24.39502,
@@ -1132,13 +1139,6 @@
     "exchangeDataDelayedBy": 20,
     "averageAnalystRating": "1.0 - Strong Buy",
     "cryptoTradeable": false,
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
-    "regularMarketChangePercent": 2.255639,
-    "regularMarketPrice": 544.0,
     "trailingPegRatio": null
   }
 }

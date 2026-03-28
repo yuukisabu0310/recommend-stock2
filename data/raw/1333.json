@@ -1,7 +1,7 @@
 {
   "ticker": "1333",
   "japanese_ticker": "1333.T",
-  "fetch_date": "2026-03-27T23:24:03.019656",
+  "fetch_date": "2026-03-28T23:23:12.029228",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": 2800410000.0,
@@ -1258,6 +1258,11 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "shortName": "UMIOS CORP",
+    "longName": "Umios Corporation",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1396310400000,
+    "marketState": "CLOSED",
     "regularMarketChange": 10.0,
     "regularMarketDayRange": "1492.5 - 1507.5",
     "fullExchangeName": "Tokyo",
@@ -1283,15 +1288,16 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "prevName": "Maruha Nichiro Corporation",
-    "nameChangeDate": "2026-03-27",
-    "cryptoTradeable": false,
+    "nameChangeDate": "2026-03-28",
+    "messageBoardId": "finmb_874365",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
     "regularMarketChangePercent": 0.6702413,
     "regularMarketPrice": 1502.0,
-    "shortName": "UMIOS CORP",
-    "longName": "Umios Corporation",
-    "marketState": "CLOSED",
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1396310400000,
+    "cryptoTradeable": false,
     "corporateActions": [
       {
         "header": "Dividend",
@@ -1305,12 +1311,6 @@
     ],
     "regularMarketTime": 1774593000,
     "exchange": "JPX",
-    "messageBoardId": "finmb_874365",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
     "trailingPegRatio": null
   }
 }

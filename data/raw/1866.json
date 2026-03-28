@@ -1,7 +1,7 @@
 {
   "ticker": "1866",
   "japanese_ticker": "1866.T",
-  "fetch_date": "2026-03-27T23:27:05.094884",
+  "fetch_date": "2026-03-28T23:26:15.632656",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": 31845000.0,
@@ -1143,9 +1143,6 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "marketState": "CLOSED",
-    "shortName": "KITANO CONSTRUCTION CORP",
-    "longName": "Kitano Construction Corp.",
     "regularMarketChangePercent": -2.6946106,
     "regularMarketPrice": 1300.0,
     "corporateActions": [
@@ -1167,6 +1164,8 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 978307200000,
     "regularMarketChange": -36.0,
     "regularMarketDayRange": "1300.0 - 1349.0",
     "fullExchangeName": "Tokyo",
@@ -1187,9 +1186,10 @@
     "twoHundredDayAverageChangePercent": 0.041874357,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
+    "shortName": "KITANO CONSTRUCTION CORP",
+    "longName": "Kitano Construction Corp.",
     "cryptoTradeable": false,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 978307200000,
+    "marketState": "CLOSED",
     "trailingPegRatio": null
   }
 }

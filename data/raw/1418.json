@@ -1,7 +1,7 @@
 {
   "ticker": "1418",
   "japanese_ticker": "1418.T",
-  "fetch_date": "2026-03-27T23:24:30.690718",
+  "fetch_date": "2026-03-28T23:23:42.361031",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-02-28 00:00:00": -3980543.6,
@@ -1079,8 +1079,8 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "shortName": "INTERLIFE HLDG CO LTD",
-    "longName": "Interlife Holdings Co., Ltd.",
+    "cryptoTradeable": false,
+    "marketState": "CLOSED",
     "corporateActions": [],
     "regularMarketTime": 1774593000,
     "exchange": "JPX",
@@ -1090,11 +1090,8 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "regularMarketChangePercent": -1.3833992,
-    "regularMarketPrice": 499.0,
-    "marketState": "CLOSED",
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 946944000000,
+    "shortName": "INTERLIFE HLDG CO LTD",
+    "longName": "Interlife Holdings Co., Ltd.",
     "regularMarketChange": -7.0,
     "regularMarketDayRange": "497.0 - 505.0",
     "fullExchangeName": "Tokyo",
@@ -1115,7 +1112,10 @@
     "twoHundredDayAverageChangePercent": -0.013736559,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
+    "regularMarketChangePercent": -1.3833992,
+    "regularMarketPrice": 499.0,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 946944000000,
     "trailingPegRatio": null
   }
 }

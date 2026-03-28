@@ -1,7 +1,7 @@
 {
   "ticker": "1301",
   "japanese_ticker": "1301.T",
-  "fetch_date": "2026-03-27T23:23:58.905413",
+  "fetch_date": "2026-03-28T23:23:08.243307",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": 67072000.0,
@@ -1204,7 +1204,7 @@
     "profitMargins": 0.0,
     "sharesOutstanding": 11877339,
     "heldPercentInsiders": 0.12039,
-    "heldPercentInstitutions": 0.24605,
+    "heldPercentInstitutions": 0.24599001,
     "impliedSharesOutstanding": 11877339,
     "bookValue": 6229.201,
     "priceToBook": 0.82996196,
@@ -1247,6 +1247,8 @@
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
     "marketState": "CLOSED",
+    "shortName": "KYOKUYO CO LTD",
+    "regularMarketTime": 1774593000,
     "exchange": "JPX",
     "messageBoardId": "finmb_880050",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1257,7 +1259,6 @@
     "regularMarketChangePercent": 0.19379845,
     "regularMarketPrice": 5170.0,
     "corporateActions": [],
-    "regularMarketTime": 1774593000,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 978307200000,
     "regularMarketChange": 10.0,
@@ -1281,9 +1282,8 @@
     "twoHundredDayAverageChangePercent": 0.07326537,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
-    "shortName": "KYOKUYO CO LTD",
-    "longName": "Kyokuyo Co., Ltd.",
     "cryptoTradeable": false,
+    "longName": "Kyokuyo Co., Ltd.",
     "trailingPegRatio": null
   }
 }

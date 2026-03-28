@@ -1,7 +1,7 @@
 {
   "ticker": "2449",
   "japanese_ticker": "2449.T",
-  "fetch_date": "2026-03-27T23:33:59.716307",
+  "fetch_date": "2026-03-28T23:33:05.267652",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-08-31 00:00:00": 0.0,
@@ -1125,6 +1125,20 @@
         "yearBorn": 1977,
         "exercisedValue": 0,
         "unexercisedValue": 0
+      },
+      {
+        "maxAge": 1,
+        "name": "Hiroto  Funahashi",
+        "title": "Executive Officer",
+        "exercisedValue": 0,
+        "unexercisedValue": 0
+      },
+      {
+        "maxAge": 1,
+        "name": "Toshio  Mochizuki",
+        "title": "Executive Officer",
+        "exercisedValue": 0,
+        "unexercisedValue": 0
       }
     ],
     "irWebsite": "http://www.prap.co.jp/ir/index.html",
@@ -1216,11 +1230,12 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "marketState": "CLOSED",
     "shortName": "PRAP JAPAN INC",
     "longName": "PRAP Japan, Inc.",
     "regularMarketChangePercent": 0.9259259,
     "regularMarketPrice": 1090.0,
+    "corporateActions": [],
+    "regularMarketTime": 1774593000,
     "exchange": "JPX",
     "messageBoardId": "finmb_6140510",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1228,14 +1243,15 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "corporateActions": [],
-    "regularMarketTime": 1774593000,
+    "epsTrailingTwelveMonths": 107.47,
     "fiftyDayAverageChange": -18.97998,
     "fiftyDayAverageChangePercent": -0.017114809,
     "twoHundredDayAverageChange": 9.214966,
+    "twoHundredDayAverageChangePercent": 0.008526178,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
+    "marketState": "CLOSED",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1120780800000,
     "regularMarketChange": 10.0,
@@ -1251,8 +1267,6 @@
     "earningsTimestampStart": 1752129000,
     "earningsTimestampEnd": 1752474600,
     "isEarningsDateEstimate": true,
-    "epsTrailingTwelveMonths": 107.47,
-    "twoHundredDayAverageChangePercent": 0.008526178,
     "trailingPegRatio": null
   }
 }

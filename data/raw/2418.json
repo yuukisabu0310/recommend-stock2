@@ -1,7 +1,7 @@
 {
   "ticker": "2418",
   "japanese_ticker": "2418.T",
-  "fetch_date": "2026-03-27T23:33:34.649321",
+  "fetch_date": "2026-03-28T23:32:39.538070",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-12-31 00:00:00": null,
@@ -1132,7 +1132,8 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "corporateActions": [],
+    "marketState": "CLOSED",
+    "shortName": "TSUKADA GLOBAL HOLDINGS INC",
     "regularMarketTime": 1774593000,
     "exchange": "JPX",
     "messageBoardId": "finmb_12092092",
@@ -1143,10 +1144,7 @@
     "esgPopulated": false,
     "regularMarketChangePercent": 0.30959752,
     "regularMarketPrice": 648.0,
-    "shortName": "TSUKADA GLOBAL HOLDINGS INC",
-    "longName": "TSUKADA GLOBAL HOLDINGS Inc.",
-    "marketState": "CLOSED",
-    "cryptoTradeable": false,
+    "corporateActions": [],
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1098921600000,
     "regularMarketChange": 2.0,
@@ -1171,6 +1169,8 @@
     "twoHundredDayAverageChangePercent": 0.046849757,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
+    "longName": "TSUKADA GLOBAL HOLDINGS Inc.",
     "trailingPegRatio": null
   }
 }

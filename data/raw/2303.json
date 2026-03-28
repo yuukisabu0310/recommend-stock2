@@ -1,7 +1,7 @@
 {
   "ticker": "2303",
   "japanese_ticker": "2303.T",
-  "fetch_date": "2026-03-27T23:31:50.840753",
+  "fetch_date": "2026-03-28T23:30:59.468303",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-05-31 00:00:00": 0.0,
@@ -1077,8 +1077,6 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "regularMarketChangePercent": 4.168164,
-    "regularMarketPrice": 2899.0,
     "corporateActions": [],
     "regularMarketTime": 1774593000,
     "exchange": "JPX",
@@ -1088,6 +1086,9 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
+    "marketState": "CLOSED",
+    "shortName": "DAWN CORP",
+    "longName": "Dawn Corp.",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1024012800000,
     "regularMarketChange": 116.0,
@@ -1108,12 +1109,11 @@
     "fiftyDayAverageChangePercent": 0.08795188,
     "twoHundredDayAverageChange": 414.58008,
     "twoHundredDayAverageChangePercent": 0.16687198,
+    "regularMarketChangePercent": 4.168164,
+    "regularMarketPrice": 2899.0,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
-    "shortName": "DAWN CORP",
-    "longName": "Dawn Corp.",
     "cryptoTradeable": false,
-    "marketState": "CLOSED",
     "trailingPegRatio": null
   }
 }

@@ -1,7 +1,7 @@
 {
   "ticker": "2676",
   "japanese_ticker": "2676.T",
-  "fetch_date": "2026-03-27T23:35:53.477907",
+  "fetch_date": "2026-03-28T23:34:57.987363",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": 21589288.0,
@@ -1246,9 +1246,12 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "fiftyDayAverageChange": 23.21997,
+    "fiftyDayAverageChangePercent": 0.011180756,
+    "twoHundredDayAverageChange": 63.81494,
+    "twoHundredDayAverageChangePercent": 0.031340443,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1079568000000,
     "regularMarketChange": 62.0,
@@ -1260,7 +1263,17 @@
     "fiftyTwoWeekRange": "1595.0 - 2252.0",
     "fiftyTwoWeekHighChange": -152.0,
     "fiftyTwoWeekHighChangePercent": -0.06749556,
+    "cryptoTradeable": false,
     "fiftyTwoWeekChangePercent": -3.8228452,
+    "earningsTimestampStart": 1753943400,
+    "earningsTimestampEnd": 1754289000,
+    "isEarningsDateEstimate": true,
+    "epsTrailingTwelveMonths": 45.57,
+    "shortName": "TAKACHIHO KOHEKI CO",
+    "longName": "Takachiho Koheki Co.,Ltd.",
+    "regularMarketChangePercent": 3.0421982,
+    "regularMarketPrice": 2100.0,
+    "marketState": "CLOSED",
     "exchange": "JPX",
     "messageBoardId": "finmb_5569923",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1268,11 +1281,6 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "regularMarketChangePercent": 3.0421982,
-    "regularMarketPrice": 2100.0,
-    "marketState": "CLOSED",
-    "shortName": "TAKACHIHO KOHEKI CO",
-    "longName": "Takachiho Koheki Co.,Ltd.",
     "corporateActions": [
       {
         "header": "Dividend",
@@ -1285,14 +1293,6 @@
       }
     ],
     "regularMarketTime": 1774593000,
-    "earningsTimestampStart": 1753943400,
-    "earningsTimestampEnd": 1754289000,
-    "isEarningsDateEstimate": true,
-    "epsTrailingTwelveMonths": 45.57,
-    "fiftyDayAverageChange": 23.21997,
-    "fiftyDayAverageChangePercent": 0.011180756,
-    "twoHundredDayAverageChange": 63.81494,
-    "twoHundredDayAverageChangePercent": 0.031340443,
     "trailingPegRatio": null
   }
 }

@@ -1,7 +1,7 @@
 {
   "ticker": "2479",
   "japanese_ticker": "2479.T",
-  "fetch_date": "2026-03-27T23:34:19.007531",
+  "fetch_date": "2026-03-28T23:33:25.628398",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": 133797.0,
@@ -1186,8 +1186,7 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "corporateActions": [],
-    "regularMarketTime": 1774593000,
+    "marketState": "CLOSED",
     "exchange": "JPX",
     "messageBoardId": "finmb_26201120",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1197,9 +1196,8 @@
     "esgPopulated": false,
     "regularMarketChangePercent": 0.390625,
     "regularMarketPrice": 257.0,
-    "marketState": "CLOSED",
-    "longName": "JTEC Corporation",
-    "shortName": "JTEC CORP",
+    "corporateActions": [],
+    "regularMarketTime": 1774593000,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1144108800000,
     "regularMarketChange": 1.0,
@@ -1222,6 +1220,8 @@
     "twoHundredDayAverageChangePercent": 0.04582076,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
+    "shortName": "JTEC CORP",
+    "longName": "JTEC Corporation",
     "cryptoTradeable": false,
     "trailingPegRatio": null
   }

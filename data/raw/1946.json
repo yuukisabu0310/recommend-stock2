@@ -1,7 +1,7 @@
 {
   "ticker": "1946",
   "japanese_ticker": "1946.T",
-  "fetch_date": "2026-03-27T23:28:10.080946",
+  "fetch_date": "2026-03-28T23:27:21.498679",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": 288553400.0,
@@ -1271,12 +1271,6 @@
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
     "marketState": "CLOSED",
-    "shortName": "TOENEC CORP",
-    "longName": "Toenec Corporation",
-    "gmtOffSetMilliseconds": 32400000,
-    "esgPopulated": false,
-    "regularMarketChangePercent": 0.0,
-    "regularMarketPrice": 2057.0,
     "corporateActions": [
       {
         "header": "Dividend",
@@ -1293,7 +1287,19 @@
     "messageBoardId": "finmb_875785",
     "exchangeTimezoneName": "Asia/Tokyo",
     "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
+    "esgPopulated": false,
+    "shortName": "TOENEC CORP",
+    "longName": "Toenec Corporation",
+    "regularMarketChangePercent": 0.0,
+    "regularMarketPrice": 2057.0,
+    "twoHundredDayAverageChangePercent": 0.23838447,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 978307200000,
     "regularMarketChange": 0.0,
     "regularMarketDayRange": "2017.0 - 2077.0",
     "fullExchangeName": "Tokyo",
@@ -1311,12 +1317,6 @@
     "fiftyDayAverageChange": -81.78003,
     "fiftyDayAverageChangePercent": -0.038236763,
     "twoHundredDayAverageChange": 395.96497,
-    "twoHundredDayAverageChangePercent": 0.23838447,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 978307200000,
     "trailingPegRatio": null
   }
 }

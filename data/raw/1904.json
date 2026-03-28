@@ -1,7 +1,7 @@
 {
   "ticker": "1904",
   "japanese_ticker": "1904.T",
-  "fetch_date": "2026-03-27T23:27:35.172664",
+  "fetch_date": "2026-03-28T23:26:45.854235",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": -3824016.0,
@@ -1260,14 +1260,6 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "cryptoTradeable": false,
-    "regularMarketChangePercent": -0.38387716,
-    "regularMarketPrice": 5190.0,
-    "shortName": "TAISEI ONCHO CO",
-    "longName": "Taisei Oncho Co., Ltd.",
-    "corporateActions": [],
-    "regularMarketTime": 1774593000,
-    "marketState": "CLOSED",
     "exchange": "JPX",
     "messageBoardId": "finmb_5509165",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1275,6 +1267,8 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
+    "regularMarketChangePercent": -0.38387716,
+    "regularMarketPrice": 5190.0,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 946944000000,
     "regularMarketChange": -20.0,
@@ -1285,6 +1279,11 @@
     "fiftyTwoWeekLowChangePercent": 0.66346157,
     "fiftyTwoWeekRange": "3120.0 - 5530.0",
     "fiftyTwoWeekHighChange": -340.0,
+    "marketState": "CLOSED",
+    "corporateActions": [],
+    "regularMarketTime": 1774593000,
+    "shortName": "TAISEI ONCHO CO",
+    "longName": "Taisei Oncho Co., Ltd.",
     "fiftyTwoWeekHighChangePercent": -0.06148282,
     "fiftyTwoWeekChangePercent": 37.966537,
     "earningsTimestampStart": 1747117800,
@@ -1297,6 +1296,7 @@
     "twoHundredDayAverageChangePercent": 0.18843165,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
     "trailingPegRatio": null
   }
 }

@@ -1,7 +1,7 @@
 {
   "ticker": "1381",
   "japanese_ticker": "1381.T",
-  "fetch_date": "2026-03-27T23:24:14.895542",
+  "fetch_date": "2026-03-28T23:23:24.207965",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-06-30 00:00:00": 108819000.0,
@@ -1039,11 +1039,9 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "shortName": "AXYZ",
-    "longName": "AXYZ Co., Ltd.",
+    "marketState": "CLOSED",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 976579200000,
-    "marketState": "CLOSED",
     "regularMarketChange": -30.0,
     "regularMarketDayRange": "3520.0 - 3610.0",
     "fullExchangeName": "Tokyo",
@@ -1064,6 +1062,12 @@
     "twoHundredDayAverageChangePercent": 0.0025761998,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
+    "shortName": "AXYZ",
+    "longName": "AXYZ Co., Ltd.",
+    "cryptoTradeable": false,
+    "corporateActions": [],
+    "regularMarketTime": 1774593000,
+    "exchange": "JPX",
     "messageBoardId": "finmb_5722127",
     "exchangeTimezoneName": "Asia/Tokyo",
     "exchangeTimezoneShortName": "JST",
@@ -1072,10 +1076,6 @@
     "esgPopulated": false,
     "regularMarketChangePercent": -0.8450705,
     "regularMarketPrice": 3520.0,
-    "cryptoTradeable": false,
-    "corporateActions": [],
-    "regularMarketTime": 1774593000,
-    "exchange": "JPX",
     "trailingPegRatio": null
   }
 }

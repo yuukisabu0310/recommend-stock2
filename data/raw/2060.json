@@ -1,7 +1,7 @@
 {
   "ticker": "2060",
   "japanese_ticker": "2060.T",
-  "fetch_date": "2026-03-27T23:29:16.995858",
+  "fetch_date": "2026-03-28T23:28:25.631300",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": -2470000.0,
@@ -1150,28 +1150,6 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "corporateActions": [
-      {
-        "header": "Dividend",
-        "message": "2060.T announced a cash dividend of JPY 21.00 with an ex-date of Mar. 30, 2026",
-        "meta": {
-          "eventType": "DIVIDEND",
-          "dateEpochMs": 1774796400000,
-          "amount": "21.00"
-        }
-      }
-    ],
-    "regularMarketTime": 1774593000,
-    "exchange": "JPX",
-    "messageBoardId": "finmb_265815469",
-    "market": "jp_market",
-    "marketState": "CLOSED",
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "prevName": "Feedone Co., Ltd.",
-    "nameChangeDate": "2026-03-27",
-    "cryptoTradeable": false,
-    "longName": "Feed One Co.,Ltd.",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1412726400000,
     "regularMarketChange": 9.0,
@@ -1189,17 +1167,39 @@
     "isEarningsDateEstimate": true,
     "epsTrailingTwelveMonths": 135.14,
     "epsForward": 17.8,
+    "marketState": "CLOSED",
+    "regularMarketChangePercent": 0.7413509,
+    "regularMarketPrice": 1223.0,
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "2060.T announced a cash dividend of JPY 21.00 with an ex-date of Mar. 30, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1774796400000,
+          "amount": "21.00"
+        }
+      }
+    ],
+    "regularMarketTime": 1774593000,
+    "exchange": "JPX",
+    "messageBoardId": "finmb_265815469",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
+    "shortName": "FEED ONE CO LTD",
+    "longName": "Feed One Co.,Ltd.",
     "fiftyDayAverageChange": 41.5,
     "fiftyDayAverageChangePercent": 0.035124842,
     "twoHundredDayAverageChange": 136.04504,
     "twoHundredDayAverageChangePercent": 0.12516162,
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "esgPopulated": false,
-    "regularMarketChangePercent": 0.7413509,
-    "regularMarketPrice": 1223.0,
-    "shortName": "FEED ONE CO LTD",
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "prevName": "Feedone Co., Ltd.",
+    "nameChangeDate": "2026-03-28",
+    "cryptoTradeable": false,
     "trailingPegRatio": null
   }
 }

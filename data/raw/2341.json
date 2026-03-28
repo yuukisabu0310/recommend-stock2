@@ -1,7 +1,7 @@
 {
   "ticker": "2341",
   "japanese_ticker": "2341.T",
-  "fetch_date": "2026-03-27T23:32:32.520066",
+  "fetch_date": "2026-03-28T23:31:41.051833",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-02-28 00:00:00": -19463369.0,
@@ -959,12 +959,6 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "shortName": "ARBEIT-TIMES CO LTD",
-    "longName": "Arbeit-Times Co., Ltd.",
-    "twoHundredDayAverageChange": 19.210007,
-    "twoHundredDayAverageChangePercent": 0.11182262,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
     "marketState": "CLOSED",
     "corporateActions": [],
@@ -976,10 +970,8 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "regularMarketChangePercent": -0.5208334,
-    "regularMarketPrice": 191.0,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1038960000000,
+    "shortName": "ARBEIT-TIMES CO LTD",
+    "longName": "Arbeit-Times Co., Ltd.",
     "regularMarketChange": -1.0,
     "regularMarketDayRange": "190.0 - 192.0",
     "fullExchangeName": "Tokyo",
@@ -996,6 +988,14 @@
     "epsTrailingTwelveMonths": -23.74,
     "fiftyDayAverageChange": 3.2200012,
     "fiftyDayAverageChangePercent": 0.017147733,
+    "twoHundredDayAverageChange": 19.210007,
+    "twoHundredDayAverageChangePercent": 0.11182262,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "regularMarketChangePercent": -0.5208334,
+    "regularMarketPrice": 191.0,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1038960000000,
     "trailingPegRatio": null
   }
 }

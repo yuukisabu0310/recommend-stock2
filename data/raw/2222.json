@@ -1,7 +1,7 @@
 {
   "ticker": "2222",
   "japanese_ticker": "2222.T",
-  "fetch_date": "2026-03-27T23:31:09.676096",
+  "fetch_date": "2026-03-28T23:30:17.186106",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": -15024000.0,
@@ -1183,6 +1183,8 @@
     "customPriceAlertConfidence": "LOW",
     "regularMarketChangePercent": -0.15243901,
     "regularMarketPrice": 1965.0,
+    "shortName": "KOTOBUKI SPIRITS",
+    "longName": "Kotobuki Spirits Co., Ltd.",
     "corporateActions": [],
     "regularMarketTime": 1774593000,
     "exchange": "JPX",
@@ -1192,16 +1194,7 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "shortName": "KOTOBUKI SPIRITS",
-    "longName": "Kotobuki Spirits Co., Ltd.",
-    "regularMarketChange": -3.0,
-    "regularMarketDayRange": "1962.0 - 1999.0",
-    "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 634567,
-    "fiftyTwoWeekLowChange": 246.5,
-    "fiftyTwoWeekLowChangePercent": 0.14343904,
-    "fiftyTwoWeekRange": "1718.5 - 2570.0",
-    "fiftyTwoWeekHighChange": -605.0,
+    "marketState": "CLOSED",
     "fiftyTwoWeekHighChangePercent": -0.23540856,
     "fiftyTwoWeekChangePercent": -22.569168,
     "earningsTimestamp": 1770013800,
@@ -1219,7 +1212,14 @@
     "cryptoTradeable": false,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1266796800000,
-    "marketState": "CLOSED",
+    "regularMarketChange": -3.0,
+    "regularMarketDayRange": "1962.0 - 1999.0",
+    "fullExchangeName": "Tokyo",
+    "averageDailyVolume3Month": 634567,
+    "fiftyTwoWeekLowChange": 246.5,
+    "fiftyTwoWeekLowChangePercent": 0.14343904,
+    "fiftyTwoWeekRange": "1718.5 - 2570.0",
+    "fiftyTwoWeekHighChange": -605.0,
     "trailingPegRatio": null
   }
 }

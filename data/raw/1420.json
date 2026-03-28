@@ -1,7 +1,7 @@
 {
   "ticker": "1420",
   "japanese_ticker": "1420.T",
-  "fetch_date": "2026-03-27T23:24:34.621116",
+  "fetch_date": "2026-03-28T23:23:45.807113",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": -31570700.0,
@@ -1071,7 +1071,7 @@
     "profitMargins": 0.010829999,
     "floatShares": 3686440,
     "sharesOutstanding": 11831714,
-    "heldPercentInsiders": 0.47229,
+    "heldPercentInsiders": 0.46941003,
     "heldPercentInstitutions": 0.1043,
     "impliedSharesOutstanding": 11831714,
     "bookValue": 1292.279,
@@ -1114,22 +1114,14 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "fiftyDayAverageChange": -17.200012,
-    "fiftyDayAverageChangePercent": -0.023948777,
-    "twoHundredDayAverageChange": -1.789978,
-    "twoHundredDayAverageChangePercent": -0.00254696,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1365465600000,
-    "regularMarketChangePercent": -1.1283498,
-    "regularMarketPrice": 701.0,
-    "marketState": "CLOSED",
     "shortName": "SANYO HOMES CORPORATION",
     "longName": "Sanyo Homes Corporation",
-    "regularMarketChange": -8.0,
-    "regularMarketDayRange": "701.0 - 708.0",
+    "marketState": "CLOSED",
+    "regularMarketChangePercent": -1.1283498,
+    "regularMarketPrice": 701.0,
     "fullExchangeName": "Tokyo",
     "averageDailyVolume3Month": 42301,
     "fiftyTwoWeekLowChange": 101.0,
@@ -1142,6 +1134,10 @@
     "earningsTimestampEnd": 1754632800,
     "isEarningsDateEstimate": true,
     "epsTrailingTwelveMonths": 96.11,
+    "fiftyDayAverageChange": -17.200012,
+    "fiftyDayAverageChangePercent": -0.023948777,
+    "twoHundredDayAverageChange": -1.789978,
+    "twoHundredDayAverageChangePercent": -0.00254696,
     "corporateActions": [
       {
         "header": "Dividend",
@@ -1161,6 +1157,10 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1365465600000,
+    "regularMarketChange": -8.0,
+    "regularMarketDayRange": "701.0 - 708.0",
     "trailingPegRatio": null
   }
 }

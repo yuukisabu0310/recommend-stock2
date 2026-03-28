@@ -1,7 +1,7 @@
 {
   "ticker": "2152",
   "japanese_ticker": "2152.T",
-  "fetch_date": "2026-03-27T23:29:52.988091",
+  "fetch_date": "2026-03-28T23:29:01.530016",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": 0.0,
@@ -971,9 +971,8 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "marketState": "CLOSED",
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1180310400000,
+    "regularMarketChangePercent": -0.7427414,
+    "regularMarketPrice": 1470.0,
     "regularMarketChange": -11.0,
     "regularMarketDayRange": "1470.0 - 1470.0",
     "fullExchangeName": "Tokyo",
@@ -982,11 +981,6 @@
     "fiftyTwoWeekLowChangePercent": 0.25641027,
     "fiftyTwoWeekRange": "1170.0 - 1685.0",
     "fiftyTwoWeekHighChange": -215.0,
-    "fiftyTwoWeekHighChangePercent": -0.12759644,
-    "fiftyTwoWeekChangePercent": 12.856102,
-    "earningsTimestampStart": 1747033200,
-    "earningsTimestampEnd": 1747033200,
-    "isEarningsDateEstimate": false,
     "epsTrailingTwelveMonths": 91.58,
     "fiftyDayAverageChange": -13.280029,
     "fiftyDayAverageChangePercent": -0.00895315,
@@ -994,7 +988,9 @@
     "twoHundredDayAverageChangePercent": 0.037886407,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1180310400000,
+    "marketState": "CLOSED",
     "corporateActions": [
       {
         "header": "Dividend",
@@ -1007,8 +1003,12 @@
       }
     ],
     "regularMarketTime": 1774586382,
-    "regularMarketChangePercent": -0.7427414,
-    "regularMarketPrice": 1470.0,
+    "fiftyTwoWeekHighChangePercent": -0.12759644,
+    "fiftyTwoWeekChangePercent": 12.856102,
+    "earningsTimestampStart": 1747033200,
+    "earningsTimestampEnd": 1747033200,
+    "isEarningsDateEstimate": false,
+    "cryptoTradeable": false,
     "trailingPegRatio": null
   }
 }

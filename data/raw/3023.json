@@ -1,7 +1,7 @@
 {
   "ticker": "3023",
   "japanese_ticker": "3023.T",
-  "fetch_date": "2026-03-27T23:40:15.431774",
+  "fetch_date": "2026-03-28T23:39:21.111672",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": 13207000.0,
@@ -1165,7 +1165,7 @@
     "tradeable": false,
     "enterpriseValue": 19687802880,
     "profitMargins": 0.081750005,
-    "floatShares": 9486339,
+    "floatShares": 9636645,
     "sharesOutstanding": 10567591,
     "heldPercentInsiders": 0.13984999,
     "heldPercentInstitutions": 0.23066,
@@ -1212,7 +1212,12 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "shortName": "RASA CORPORATION",
+    "corporateActions": [],
+    "regularMarketTime": 1774593000,
     "marketState": "CLOSED",
+    "regularMarketChangePercent": 0.35514966,
+    "regularMarketPrice": 1978.0,
     "exchange": "JPX",
     "messageBoardId": "finmb_6465787",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1220,10 +1225,6 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "regularMarketChangePercent": 0.35514966,
-    "regularMarketPrice": 1978.0,
-    "corporateActions": [],
-    "regularMarketTime": 1774593000,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1141084800000,
     "regularMarketChange": 7.0,
@@ -1238,6 +1239,7 @@
     "fiftyTwoWeekChangePercent": 28.054296,
     "earningsTimestampStart": 1754546400,
     "earningsTimestampEnd": 1754978400,
+    "longName": "Rasa Corporation",
     "isEarningsDateEstimate": true,
     "epsTrailingTwelveMonths": 201.56,
     "fiftyDayAverageChange": -166.15991,
@@ -1246,8 +1248,6 @@
     "twoHundredDayAverageChangePercent": 0.1256577,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
-    "shortName": "RASA CORPORATION",
-    "longName": "Rasa Corporation",
     "cryptoTradeable": false,
     "trailingPegRatio": null
   }

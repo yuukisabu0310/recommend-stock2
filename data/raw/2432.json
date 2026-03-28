@@ -1,7 +1,7 @@
 {
   "ticker": "2432",
   "japanese_ticker": "2432.T",
-  "fetch_date": "2026-03-27T23:33:44.065233",
+  "fetch_date": "2026-03-28T23:32:49.937625",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": 0.0,
@@ -1162,7 +1162,7 @@
     "floatShares": 60393234,
     "sharesOutstanding": 111509432,
     "heldPercentInsiders": 0.44587,
-    "heldPercentInstitutions": 0.33293,
+    "heldPercentInstitutions": 0.33293998,
     "impliedSharesOutstanding": 111509432,
     "bookValue": 2255.095,
     "priceToBook": 1.1296642,
@@ -1215,31 +1215,21 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "marketState": "CLOSED",
-    "shortName": "DENA CO LTD",
-    "regularMarketTime": 1774593000,
-    "exchange": "JPX",
-    "messageBoardId": "finmb_13669266",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
-    "regularMarketChangePercent": 2.0224268,
-    "regularMarketPrice": 2547.5,
-    "corporateActions": [
-      {
-        "header": "Dividend",
-        "message": "2432.T announced a cash dividend of JPY 66.00 with an ex-date of Mar. 30, 2026",
-        "meta": {
-          "eventType": "DIVIDEND",
-          "dateEpochMs": 1774796400000,
-          "amount": "66.00"
-        }
-      }
-    ],
+    "fiftyDayAverageChange": -45.80005,
+    "fiftyDayAverageChangePercent": -0.017660914,
+    "twoHundredDayAverageChange": 54.202393,
+    "twoHundredDayAverageChangePercent": 0.021739239,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "averageAnalystRating": "2.5 - Buy",
+    "cryptoTradeable": false,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1108512000000,
+    "regularMarketChangePercent": 2.0224268,
+    "regularMarketPrice": 2547.5,
+    "marketState": "CLOSED",
+    "shortName": "DENA CO LTD",
+    "longName": "DeNA Co., Ltd.",
     "regularMarketChange": 50.5,
     "regularMarketDayRange": "2503.5 - 2557.5",
     "fullExchangeName": "Tokyo",
@@ -1258,15 +1248,25 @@
     "isEarningsDateEstimate": true,
     "epsTrailingTwelveMonths": 396.14,
     "epsForward": 95.27,
-    "fiftyDayAverageChange": -45.80005,
-    "fiftyDayAverageChangePercent": -0.017660914,
-    "twoHundredDayAverageChange": 54.202393,
-    "twoHundredDayAverageChangePercent": 0.021739239,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "averageAnalystRating": "2.5 - Buy",
-    "cryptoTradeable": false,
-    "longName": "DeNA Co., Ltd.",
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "2432.T announced a cash dividend of JPY 66.00 with an ex-date of Mar. 30, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1774796400000,
+          "amount": "66.00"
+        }
+      }
+    ],
+    "regularMarketTime": 1774593000,
+    "exchange": "JPX",
+    "messageBoardId": "finmb_13669266",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
     "trailingPegRatio": null
   }
 }

@@ -1,7 +1,7 @@
 {
   "ticker": "2730",
   "japanese_ticker": "2730.T",
-  "fetch_date": "2026-03-27T23:36:33.246551",
+  "fetch_date": "2026-03-28T23:35:38.501752",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": -1037136000.0,
@@ -1272,33 +1272,11 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "corporateActions": [
-      {
-        "header": "Dividend",
-        "message": "2730.T announced a cash dividend of JPY 24.00 with an ex-date of Mar. 30, 2026",
-        "meta": {
-          "eventType": "DIVIDEND",
-          "dateEpochMs": 1774796400000,
-          "amount": "24.00"
-        }
-      }
-    ],
-    "regularMarketTime": 1774593000,
-    "exchange": "JPX",
-    "messageBoardId": "finmb_9262023",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
-    "regularMarketChangePercent": 0.32243204,
-    "regularMarketPrice": 2178.0,
     "shortName": "EDION CORP",
     "longName": "EDION Corporation",
-    "marketState": "CLOSED",
-    "cryptoTradeable": false,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1017273600000,
+    "marketState": "CLOSED",
     "regularMarketChange": 7.0,
     "regularMarketDayRange": "2173.0 - 2205.0",
     "fullExchangeName": "Tokyo",
@@ -1323,6 +1301,28 @@
     "twoHundredDayAverageChangePercent": 0.046587035,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
+    "messageBoardId": "finmb_9262023",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
+    "regularMarketChangePercent": 0.32243204,
+    "regularMarketPrice": 2178.0,
+    "cryptoTradeable": false,
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "2730.T announced a cash dividend of JPY 24.00 with an ex-date of Mar. 30, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1774796400000,
+          "amount": "24.00"
+        }
+      }
+    ],
+    "regularMarketTime": 1774593000,
+    "exchange": "JPX",
     "trailingPegRatio": null
   }
 }

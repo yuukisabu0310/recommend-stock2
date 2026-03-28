@@ -1,7 +1,7 @@
 {
   "ticker": "2175",
   "japanese_ticker": "2175.T",
-  "fetch_date": "2026-03-27T23:30:22.090795",
+  "fetch_date": "2026-03-28T23:29:30.267351",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": -33062500.0,
@@ -1281,6 +1281,8 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "shortName": "SMS CO LTD",
+    "longName": "SMS Co., Ltd.",
     "regularMarketChangePercent": 1.5078408,
     "regularMarketPrice": 1683.0,
     "corporateActions": [
@@ -1302,6 +1304,16 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
+    "epsTrailingTwelveMonths": 88.36,
+    "epsForward": 107.5,
+    "fiftyDayAverageChange": 42.95996,
+    "fiftyDayAverageChangePercent": 0.026194459,
+    "twoHundredDayAverageChange": 172.55505,
+    "twoHundredDayAverageChangePercent": 0.114241205,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
+    "marketState": "CLOSED",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1205366400000,
     "regularMarketChange": 25.0,
@@ -1320,18 +1332,6 @@
     "earningsCallTimestampStart": 1745837940,
     "earningsCallTimestampEnd": 1745837940,
     "isEarningsDateEstimate": false,
-    "epsTrailingTwelveMonths": 88.36,
-    "epsForward": 107.5,
-    "fiftyDayAverageChange": 42.95996,
-    "fiftyDayAverageChangePercent": 0.026194459,
-    "twoHundredDayAverageChange": 172.55505,
-    "twoHundredDayAverageChangePercent": 0.114241205,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "shortName": "SMS CO LTD",
-    "longName": "SMS Co., Ltd.",
-    "cryptoTradeable": false,
-    "marketState": "CLOSED",
     "trailingPegRatio": null
   }
 }

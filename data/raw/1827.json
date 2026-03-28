@@ -1,7 +1,7 @@
 {
   "ticker": "1827",
   "japanese_ticker": "1827.T",
-  "fetch_date": "2026-03-27T23:26:37.431337",
+  "fetch_date": "2026-03-28T23:25:48.047918",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": -2912000.0,
@@ -1073,7 +1073,7 @@
     "floatShares": 19818060,
     "sharesOutstanding": 34364180,
     "heldPercentInsiders": 0.55096,
-    "heldPercentInstitutions": 0.1742,
+    "heldPercentInstitutions": 0.17559,
     "impliedSharesOutstanding": 34364180,
     "bookValue": 1369.02,
     "priceToBook": 0.9934113,
@@ -1119,6 +1119,16 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "marketState": "CLOSED",
+    "shortName": "NAKANO CORPORATION",
+    "regularMarketTime": 1774593000,
+    "exchange": "JPX",
+    "messageBoardId": "finmb_880708",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
     "regularMarketChangePercent": -4.1578574,
     "regularMarketPrice": 1360.0,
     "corporateActions": [
@@ -1132,15 +1142,6 @@
         }
       }
     ],
-    "regularMarketTime": 1774593000,
-    "exchange": "JPX",
-    "messageBoardId": "finmb_880708",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
-    "shortName": "NAKANO CORPORATION",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 978307200000,
     "regularMarketChange": -59.0,
@@ -1163,9 +1164,8 @@
     "twoHundredDayAverageChangePercent": 0.36693722,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
-    "longName": "Nakano Corporation",
-    "marketState": "CLOSED",
     "cryptoTradeable": false,
+    "longName": "Nakano Corporation",
     "trailingPegRatio": null
   }
 }

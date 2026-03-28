@@ -1,7 +1,7 @@
 {
   "ticker": "2804",
   "japanese_ticker": "2804.T",
-  "fetch_date": "2026-03-27T23:37:44.261745",
+  "fetch_date": "2026-03-28T23:36:48.651980",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": 124790283.0,
@@ -1218,11 +1218,6 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "marketState": "CLOSED",
-    "shortName": "BULL DOG SAUCE CO",
-    "longName": "Bull-Dog Sauce Co., Ltd.",
-    "regularMarketChangePercent": 0.4653568,
-    "regularMarketPrice": 1943.0,
     "corporateActions": [
       {
         "header": "Dividend",
@@ -1242,10 +1237,11 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "regularMarketChange": 9.0,
-    "regularMarketDayRange": "1931.0 - 1943.0",
-    "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 45753,
+    "marketState": "CLOSED",
+    "regularMarketChangePercent": 0.4653568,
+    "regularMarketPrice": 1943.0,
+    "shortName": "BULL DOG SAUCE CO",
+    "longName": "Bull-Dog Sauce Co., Ltd.",
     "fiftyTwoWeekLowChange": 404.0,
     "fiftyTwoWeekLowChangePercent": 0.26250812,
     "fiftyTwoWeekRange": "1539.0 - 2230.0",
@@ -1265,6 +1261,10 @@
     "cryptoTradeable": false,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 978307200000,
+    "regularMarketChange": 9.0,
+    "regularMarketDayRange": "1931.0 - 1943.0",
+    "fullExchangeName": "Tokyo",
+    "averageDailyVolume3Month": 45753,
     "trailingPegRatio": null
   }
 }

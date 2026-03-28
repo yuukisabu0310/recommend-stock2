@@ -1,7 +1,7 @@
 {
   "ticker": "1434",
   "japanese_ticker": "1434.T",
-  "fetch_date": "2026-03-27T23:24:44.239525",
+  "fetch_date": "2026-03-28T23:23:54.927103",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-08-31 00:00:00": 18112211.0,
@@ -1318,12 +1318,18 @@
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
     "marketState": "CLOSED",
-    "corporateActions": [],
+    "shortName": "JESCO HOLDINGS INC",
     "regularMarketTime": 1774593000,
     "exchange": "JPX",
     "messageBoardId": "finmb_215925093",
-    "shortName": "JESCO HOLDINGS INC",
-    "longName": "Jesco Holdings, Inc.",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
+    "regularMarketChangePercent": -2.4797845,
+    "regularMarketPrice": 1809.0,
+    "corporateActions": [],
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1441670400000,
     "regularMarketChange": -46.0,
@@ -1348,13 +1354,7 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
-    "regularMarketChangePercent": -2.4797845,
-    "regularMarketPrice": 1809.0,
+    "longName": "Jesco Holdings, Inc.",
     "trailingPegRatio": null
   }
 }

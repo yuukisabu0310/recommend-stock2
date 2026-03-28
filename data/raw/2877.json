@@ -1,7 +1,7 @@
 {
   "ticker": "2877",
   "japanese_ticker": "2877.T",
-  "fetch_date": "2026-03-27T23:38:20.220331",
+  "fetch_date": "2026-03-28T23:37:26.783060",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": 16585138.0,
@@ -1183,39 +1183,8 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "marketState": "CLOSED",
-    "regularMarketChangePercent": -1.5625,
-    "regularMarketPrice": 756.0,
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
-    "corporateActions": [
-      {
-        "header": "Dividend",
-        "message": "2877.T announced a cash dividend of JPY 12.00 with an ex-date of Mar. 30, 2026",
-        "meta": {
-          "eventType": "DIVIDEND",
-          "dateEpochMs": 1774796400000,
-          "amount": "12.00"
-        }
-      }
-    ],
-    "regularMarketTime": 1774593000,
-    "exchange": "JPX",
-    "messageBoardId": "finmb_883885",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "earningsTimestampStart": 1747204200,
-    "earningsTimestampEnd": 1747204200,
-    "isEarningsDateEstimate": false,
-    "epsTrailingTwelveMonths": 41.05,
-    "fiftyDayAverageChange": 8.320007,
-    "fiftyDayAverageChangePercent": 0.011127765,
-    "twoHundredDayAverageChange": 12.875,
-    "twoHundredDayAverageChangePercent": 0.017325483,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
+    "shortName": "NITTOBEST CORP",
+    "longName": "NittoBest Corporation",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 947548800000,
     "regularMarketChange": -12.0,
@@ -1228,8 +1197,39 @@
     "fiftyTwoWeekHighChange": -19.0,
     "fiftyTwoWeekHighChangePercent": -0.02451613,
     "fiftyTwoWeekChangePercent": -1.6839385,
-    "shortName": "NITTOBEST CORP",
-    "longName": "NittoBest Corporation",
+    "earningsTimestampStart": 1747204200,
+    "earningsTimestampEnd": 1747204200,
+    "isEarningsDateEstimate": false,
+    "marketState": "CLOSED",
+    "exchange": "JPX",
+    "messageBoardId": "finmb_883885",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
+    "regularMarketChangePercent": -1.5625,
+    "regularMarketPrice": 756.0,
+    "epsTrailingTwelveMonths": 41.05,
+    "fiftyDayAverageChange": 8.320007,
+    "fiftyDayAverageChangePercent": 0.011127765,
+    "twoHundredDayAverageChange": 12.875,
+    "twoHundredDayAverageChangePercent": 0.017325483,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "2877.T announced a cash dividend of JPY 12.00 with an ex-date of Mar. 30, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1774796400000,
+          "amount": "12.00"
+        }
+      }
+    ],
+    "regularMarketTime": 1774593000,
     "trailingPegRatio": null
   }
 }

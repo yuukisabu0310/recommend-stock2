@@ -1,7 +1,7 @@
 {
   "ticker": "2734",
   "japanese_ticker": "2734.T",
-  "fetch_date": "2026-03-27T23:36:37.295293",
+  "fetch_date": "2026-03-28T23:35:42.409266",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-11-30 00:00:00": 379192000.0,
@@ -1281,11 +1281,8 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "shortName": "SALA CORPORATION",
-    "longName": "SALA Corporation",
+    "cryptoTradeable": false,
     "marketState": "CLOSED",
-    "regularMarketChangePercent": 0.18957345,
-    "regularMarketPrice": 1057.0,
     "corporateActions": [],
     "regularMarketTime": 1774593000,
     "exchange": "JPX",
@@ -1295,8 +1292,8 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1020124800000,
+    "shortName": "SALA CORPORATION",
+    "longName": "SALA Corporation",
     "regularMarketChange": 2.0,
     "regularMarketDayRange": "1047.0 - 1062.0",
     "fullExchangeName": "Tokyo",
@@ -1317,7 +1314,10 @@
     "twoHundredDayAverageChangePercent": 0.0020382276,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
+    "regularMarketChangePercent": 0.18957345,
+    "regularMarketPrice": 1057.0,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1020124800000,
     "trailingPegRatio": null
   }
 }

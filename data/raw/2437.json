@@ -1,7 +1,7 @@
 {
   "ticker": "2437",
   "japanese_ticker": "2437.T",
-  "fetch_date": "2026-03-27T23:33:51.709791",
+  "fetch_date": "2026-03-28T23:32:57.775261",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-05-31 00:00:00": -3037647.220409,
@@ -1209,6 +1209,7 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "cryptoTradeable": false,
     "regularMarketChangePercent": -0.8759124,
     "regularMarketPrice": 679.0,
     "corporateActions": [],
@@ -1222,6 +1223,9 @@
     "esgPopulated": false,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1112659200000,
+    "marketState": "CLOSED",
+    "shortName": "SHINWA WISE HLDGS CO LTD",
+    "longName": "Shinwa Wise Holdings Co.,Ltd.",
     "regularMarketChange": -6.0,
     "regularMarketDayRange": "663.0 - 686.0",
     "fullExchangeName": "Tokyo",
@@ -1242,10 +1246,6 @@
     "twoHundredDayAverageChangePercent": 0.8347385,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
-    "shortName": "SHINWA WISE HLDGS CO LTD",
-    "longName": "Shinwa Wise Holdings Co.,Ltd.",
-    "cryptoTradeable": false,
-    "marketState": "CLOSED",
     "trailingPegRatio": null
   }
 }

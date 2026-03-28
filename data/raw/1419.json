@@ -1,7 +1,7 @@
 {
   "ticker": "1419",
   "japanese_ticker": "1419.T",
-  "fetch_date": "2026-03-27T23:24:32.675079",
+  "fetch_date": "2026-03-28T23:23:44.050313",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-05-31 00:00:00": -231768000.0,
@@ -1270,15 +1270,10 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
+    "regularMarketChangePercent": 0.62189054,
+    "regularMarketPrice": 4045.0,
     "marketState": "CLOSED",
-    "epsTrailingTwelveMonths": 83.73,
-    "fiftyDayAverageChange": 227.8999,
-    "fiftyDayAverageChangePercent": 0.059704985,
-    "twoHundredDayAverageChange": 412.375,
-    "twoHundredDayAverageChangePercent": 0.11351984,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
+    "longName": "Tama Home Co., Ltd.",
     "shortName": "TAMA HOME CO LIMITED",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1364342400000,
@@ -1295,9 +1290,14 @@
     "earningsTimestampStart": 1752040800,
     "earningsTimestampEnd": 1752472800,
     "isEarningsDateEstimate": true,
-    "longName": "Tama Home Co., Ltd.",
-    "regularMarketChangePercent": 0.62189054,
-    "regularMarketPrice": 4045.0,
+    "epsTrailingTwelveMonths": 83.73,
+    "fiftyDayAverageChange": 227.8999,
+    "fiftyDayAverageChangePercent": 0.059704985,
+    "twoHundredDayAverageChange": 412.375,
+    "twoHundredDayAverageChangePercent": 0.11351984,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
     "trailingPegRatio": null
   }
 }

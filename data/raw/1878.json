@@ -1,7 +1,7 @@
 {
   "ticker": "1878",
   "japanese_ticker": "1878.T",
-  "fetch_date": "2026-03-27T23:27:15.169314",
+  "fetch_date": "2026-03-28T23:26:25.584225",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": 167679000.0,
@@ -1211,7 +1211,7 @@
     "floatShares": 289957124,
     "sharesOutstanding": 331357540,
     "heldPercentInsiders": 0.10899,
-    "heldPercentInstitutions": 0.49231,
+    "heldPercentInstitutions": 0.49253,
     "impliedSharesOutstanding": 331357540,
     "bookValue": 1476.952,
     "priceToBook": 2.4963572,
@@ -1281,12 +1281,9 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "regularMarketChangePercent": 1.9071311,
-    "regularMarketPrice": 3687.0,
+    "marketState": "CLOSED",
     "shortName": "DAITO TRUST CONSTRUCTION CO",
     "longName": "Daito Trust Construction Co.,Ltd.",
-    "marketState": "CLOSED",
-    "cryptoTradeable": false,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 978307200000,
     "regularMarketChange": 69.0,
@@ -1311,9 +1308,12 @@
     "fiftyDayAverageChangePercent": 0.100111,
     "twoHundredDayAverageChange": 530.36743,
     "twoHundredDayAverageChangePercent": 0.16801684,
+    "regularMarketChangePercent": 1.9071311,
+    "regularMarketPrice": 3687.0,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "averageAnalystRating": "2.7 - Hold",
+    "cryptoTradeable": false,
     "trailingPegRatio": null
   }
 }

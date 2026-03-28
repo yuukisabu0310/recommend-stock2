@@ -1,7 +1,7 @@
 {
   "ticker": "2801",
   "japanese_ticker": "2801.T",
-  "fetch_date": "2026-03-27T23:37:40.539399",
+  "fetch_date": "2026-03-28T23:36:45.104616",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": 0.0,
@@ -1169,7 +1169,7 @@
     "floatShares": 663415120,
     "sharesOutstanding": 926834605,
     "heldPercentInsiders": 0.216,
-    "heldPercentInstitutions": 0.37486,
+    "heldPercentInstitutions": 0.37572,
     "impliedSharesOutstanding": 926834605,
     "bookValue": 588.392,
     "priceToBook": 2.4532964,
@@ -1222,8 +1222,6 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "shortName": "KIKKOMAN CORP",
-    "longName": "Kikkoman Corporation",
     "corporateActions": [
       {
         "header": "Dividend",
@@ -1246,8 +1244,6 @@
     "regularMarketChangePercent": 2.08628,
     "regularMarketPrice": 1443.5,
     "marketState": "CLOSED",
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 946944000000,
     "regularMarketChange": 29.5,
     "regularMarketDayRange": "1405.5 - 1447.0",
     "fullExchangeName": "Tokyo",
@@ -1273,6 +1269,10 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "averageAnalystRating": "2.5 - Buy",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 946944000000,
+    "shortName": "KIKKOMAN CORP",
+    "longName": "Kikkoman Corporation",
     "cryptoTradeable": false,
     "trailingPegRatio": 6.8428
   }

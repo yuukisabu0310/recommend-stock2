@@ -1,7 +1,7 @@
 {
   "ticker": "1720",
   "japanese_ticker": "1720.T",
-  "fetch_date": "2026-03-27T23:25:26.309169",
+  "fetch_date": "2026-03-28T23:24:37.626384",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": 42725609.756098,
@@ -1277,7 +1277,7 @@
     "floatShares": 81409587,
     "sharesOutstanding": 105949057,
     "heldPercentInsiders": 0.2019,
-    "heldPercentInstitutions": 0.18053,
+    "heldPercentInstitutions": 0.18049999,
     "impliedSharesOutstanding": 105949057,
     "bookValue": 988.213,
     "priceToBook": 1.4865216,
@@ -1329,6 +1329,8 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "cryptoTradeable": false,
+    "marketState": "CLOSED",
     "corporateActions": [
       {
         "header": "Dividend",
@@ -1348,14 +1350,8 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "regularMarketChangePercent": -0.60893095,
-    "regularMarketPrice": 1469.0,
     "shortName": "TOKYU CONSTRUCTION CO(NEW)",
     "longName": "Tokyu Construction Co., Ltd.",
-    "marketState": "CLOSED",
-    "cryptoTradeable": false,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1064966400000,
     "regularMarketChange": -9.0,
     "regularMarketDayRange": "1452.0 - 1478.0",
     "fullExchangeName": "Tokyo",
@@ -1377,6 +1373,10 @@
     "twoHundredDayAverageChangePercent": 0.22415645,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
+    "regularMarketChangePercent": -0.60893095,
+    "regularMarketPrice": 1469.0,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1064966400000,
     "trailingPegRatio": null
   }
 }

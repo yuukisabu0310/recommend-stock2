@@ -1,7 +1,7 @@
 {
   "ticker": "2831",
   "japanese_ticker": "2831.T",
-  "fetch_date": "2026-03-27T23:38:08.634314",
+  "fetch_date": "2026-03-28T23:37:14.987815",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": 26776780.990694,
@@ -1183,7 +1183,7 @@
     "tradeable": false,
     "enterpriseValue": 35678707712,
     "profitMargins": 0.03352,
-    "floatShares": 3233751,
+    "floatShares": 3304236,
     "sharesOutstanding": 9410561,
     "heldPercentInsiders": 0.63296,
     "heldPercentInstitutions": 0.058819998,
@@ -1240,6 +1240,7 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
+    "isEarningsDateEstimate": false,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 978652800000,
     "regularMarketChange": 5.0,
@@ -1254,19 +1255,7 @@
     "fiftyTwoWeekChangePercent": 6.7264557,
     "earningsTimestampStart": 1747117800,
     "earningsTimestampEnd": 1747117800,
-    "isEarningsDateEstimate": false,
-    "shortName": "HAGOROMO FOODS",
-    "longName": "Hagoromo Foods Corporation",
-    "regularMarketChangePercent": 0.13661201,
-    "regularMarketPrice": 3665.0,
     "marketState": "CLOSED",
-    "exchange": "JPX",
-    "messageBoardId": "finmb_5490649",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
     "corporateActions": [
       {
         "header": "Dividend",
@@ -1279,6 +1268,17 @@
       }
     ],
     "regularMarketTime": 1774593000,
+    "exchange": "JPX",
+    "messageBoardId": "finmb_5490649",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
+    "regularMarketChangePercent": 0.13661201,
+    "regularMarketPrice": 3665.0,
+    "shortName": "HAGOROMO FOODS",
+    "longName": "Hagoromo Foods Corporation",
     "trailingPegRatio": null
   }
 }

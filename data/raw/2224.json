@@ -1,7 +1,7 @@
 {
   "ticker": "2224",
   "japanese_ticker": "2224.T",
-  "fetch_date": "2026-03-27T23:31:11.770181",
+  "fetch_date": "2026-03-28T23:30:19.181037",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": -1953920.0,
@@ -1107,19 +1107,6 @@
     "customPriceAlertConfidence": "LOW",
     "shortName": "COMO CO LTD",
     "longName": "Como Co.,Ltd.",
-    "regularMarketChangePercent": 1.754386,
-    "regularMarketPrice": 3770.0,
-    "corporateActions": [
-      {
-        "header": "Dividend",
-        "message": "2224.T announced a cash dividend of JPY 7.00 with an ex-date of Mar. 30, 2026",
-        "meta": {
-          "eventType": "DIVIDEND",
-          "dateEpochMs": 1774796400000,
-          "amount": "7.00"
-        }
-      }
-    ],
     "regularMarketTime": 1774593000,
     "exchange": "JPX",
     "messageBoardId": "finmb_9193272",
@@ -1128,14 +1115,8 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "epsTrailingTwelveMonths": -10.56,
-    "fiftyDayAverageChange": 57.30005,
-    "fiftyDayAverageChangePercent": 0.015433526,
-    "twoHundredDayAverageChange": 398.4751,
-    "twoHundredDayAverageChangePercent": 0.11818839,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
+    "regularMarketChangePercent": 1.754386,
+    "regularMarketPrice": 3770.0,
     "marketState": "CLOSED",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 946944000000,
@@ -1152,6 +1133,25 @@
     "earningsTimestampStart": 1747029600,
     "earningsTimestampEnd": 1747029600,
     "isEarningsDateEstimate": false,
+    "epsTrailingTwelveMonths": -10.56,
+    "fiftyDayAverageChange": 57.30005,
+    "fiftyDayAverageChangePercent": 0.015433526,
+    "twoHundredDayAverageChange": 398.4751,
+    "twoHundredDayAverageChangePercent": 0.11818839,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "2224.T announced a cash dividend of JPY 7.00 with an ex-date of Mar. 30, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1774796400000,
+          "amount": "7.00"
+        }
+      }
+    ],
+    "cryptoTradeable": false,
     "trailingPegRatio": null
   }
 }

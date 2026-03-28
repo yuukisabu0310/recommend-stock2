@@ -1,7 +1,7 @@
 {
   "ticker": "2415",
   "japanese_ticker": "2415.T",
-  "fetch_date": "2026-03-27T23:33:32.674767",
+  "fetch_date": "2026-03-28T23:32:37.694325",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": 13922751.0,
@@ -1171,21 +1171,30 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "marketState": "CLOSED",
     "shortName": "HUMAN HLDGS CO.LTD",
     "longName": "Human Holdings Co., Ltd.",
+    "gmtOffSetMilliseconds": 32400000,
+    "esgPopulated": false,
+    "regularMarketChangePercent": 0.6629834,
+    "regularMarketPrice": 1822.0,
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "2415.T announced a cash dividend of JPY 72.50 with an ex-date of Mar. 30, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1774796400000,
+          "amount": "72.50"
+        }
+      }
+    ],
     "regularMarketTime": 1774593000,
     "exchange": "JPX",
     "messageBoardId": "finmb_11518917",
     "exchangeTimezoneName": "Asia/Tokyo",
     "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
-    "esgPopulated": false,
-    "regularMarketChangePercent": 0.6629834,
-    "regularMarketPrice": 1822.0,
-    "marketState": "CLOSED",
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1097107200000,
     "regularMarketChange": 12.0,
     "regularMarketDayRange": "1808.0 - 1834.0",
     "fullExchangeName": "Tokyo",
@@ -1208,18 +1217,9 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "averageAnalystRating": "0.0 - Strong Buy",
-    "corporateActions": [
-      {
-        "header": "Dividend",
-        "message": "2415.T announced a cash dividend of JPY 72.50 with an ex-date of Mar. 30, 2026",
-        "meta": {
-          "eventType": "DIVIDEND",
-          "dateEpochMs": 1774796400000,
-          "amount": "72.50"
-        }
-      }
-    ],
     "cryptoTradeable": false,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1097107200000,
     "trailingPegRatio": null
   }
 }

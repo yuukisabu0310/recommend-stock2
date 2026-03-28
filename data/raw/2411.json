@@ -1,7 +1,7 @@
 {
   "ticker": "2411",
   "japanese_ticker": "2411.T",
-  "fetch_date": "2026-03-27T23:33:28.473100",
+  "fetch_date": "2026-03-28T23:32:34.049954",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": -276000.0,
@@ -1166,7 +1166,28 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "2411.T announced a cash dividend of JPY 12.00 with an ex-date of Mar. 30, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1774796400000,
+          "amount": "12.00"
+        }
+      }
+    ],
+    "regularMarketTime": 1774593000,
+    "exchange": "JPX",
+    "messageBoardId": "finmb_11353901",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
     "marketState": "CLOSED",
+    "shortName": "GENDAI AGENCY INC",
+    "longName": "Gendai Agency Inc.",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1095292800000,
     "regularMarketChange": 0.0,
@@ -1187,31 +1208,10 @@
     "fiftyDayAverageChangePercent": -0.018753648,
     "twoHundredDayAverageChange": 25.75,
     "twoHundredDayAverageChangePercent": 0.057574064,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "corporateActions": [
-      {
-        "header": "Dividend",
-        "message": "2411.T announced a cash dividend of JPY 12.00 with an ex-date of Mar. 30, 2026",
-        "meta": {
-          "eventType": "DIVIDEND",
-          "dateEpochMs": 1774796400000,
-          "amount": "12.00"
-        }
-      }
-    ],
-    "regularMarketTime": 1774593000,
-    "exchange": "JPX",
-    "messageBoardId": "finmb_11353901",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
     "regularMarketChangePercent": 0.0,
     "regularMarketPrice": 473.0,
-    "shortName": "GENDAI AGENCY INC",
-    "longName": "Gendai Agency Inc.",
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
     "trailingPegRatio": null
   }

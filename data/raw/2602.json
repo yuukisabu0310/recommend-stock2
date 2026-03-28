@@ -1,7 +1,7 @@
 {
   "ticker": "2602",
   "japanese_ticker": "2602.T",
-  "fetch_date": "2026-03-27T23:35:18.679496",
+  "fetch_date": "2026-03-28T23:34:24.718634",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": 457632000.0,
@@ -1210,13 +1210,13 @@
     "averageDailyVolume10Day": 92990,
     "bid": 5840.0,
     "ask": 5860.0,
-    "marketCap": 179423019008,
+    "marketCap": 538269089792,
     "nonDilutedMarketCap": 176662667520,
     "fiftyTwoWeekLow": 4305.0,
     "fiftyTwoWeekHigh": 6210.0,
     "allTimeHigh": 6210.0,
     "allTimeLow": 1095.0,
-    "priceToSalesTrailing12Months": 0.33006623,
+    "priceToSalesTrailing12Months": 0.9901988,
     "fiftyDayAverage": 5741.2,
     "twoHundredDayAverage": 5261.75,
     "trailingAnnualDividendRate": 180.0,
@@ -1226,10 +1226,10 @@
     "enterpriseValue": 286044225536,
     "profitMargins": 0.04279,
     "floatShares": 24633160,
-    "sharesOutstanding": 30670602,
+    "sharesOutstanding": 92011806,
     "heldPercentInsiders": 0.18642999,
     "heldPercentInstitutions": 0.24624,
-    "impliedSharesOutstanding": 30670602,
+    "impliedSharesOutstanding": 92011806,
     "bookValue": 6669.853,
     "priceToBook": 0.8770808,
     "lastFiscalYearEnd": 1743379200,
@@ -1282,26 +1282,6 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "corporateActions": [
-      {
-        "header": "Stock split",
-        "message": "2602.T announces 3 for 1 split effective Mar. 30, 2026",
-        "meta": {
-          "eventType": "SPLIT",
-          "dateEpochMs": 1774796400000,
-          "splitRatio": "3:1"
-        }
-      }
-    ],
-    "regularMarketTime": 1774593000,
-    "exchange": "JPX",
-    "messageBoardId": "finmb_877077",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
-    "marketState": "CLOSED",
     "epsTrailingTwelveMonths": 742.95,
     "epsForward": 526.01,
     "fiftyDayAverageChange": 108.799805,
@@ -1311,7 +1291,6 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
-    "shortName": "NISSHIN OILLIO GROUP LTD",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 978307200000,
     "regularMarketChange": 0.0,
@@ -1328,9 +1307,30 @@
     "earningsTimestampStart": 1778135400,
     "earningsTimestampEnd": 1778135400,
     "isEarningsDateEstimate": true,
+    "shortName": "NISSHIN OILLIO GROUP LTD",
     "longName": "The Nisshin OilliO Group,Ltd.",
     "regularMarketChangePercent": 0.0,
     "regularMarketPrice": 5850.0,
+    "marketState": "CLOSED",
+    "exchange": "JPX",
+    "messageBoardId": "finmb_877077",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
+    "corporateActions": [
+      {
+        "header": "Stock split",
+        "message": "2602.T announces 3 for 1 split effective Mar. 30, 2026",
+        "meta": {
+          "eventType": "SPLIT",
+          "dateEpochMs": 1774796400000,
+          "splitRatio": "3:1"
+        }
+      }
+    ],
+    "regularMarketTime": 1774593000,
     "trailingPegRatio": null
   }
 }

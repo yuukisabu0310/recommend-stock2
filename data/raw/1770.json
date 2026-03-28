@@ -1,7 +1,7 @@
 {
   "ticker": "1770",
   "japanese_ticker": "1770.T",
-  "fetch_date": "2026-03-27T23:25:47.542345",
+  "fetch_date": "2026-03-28T23:24:58.444931",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": -133791055.0,
@@ -1146,22 +1146,27 @@
     "marketState": "CLOSED",
     "shortName": "FUJITA ENGINEERING CO",
     "longName": "Fujita Engineering Co., Ltd.",
+    "gmtOffSetMilliseconds": 32400000,
+    "esgPopulated": false,
     "regularMarketChangePercent": -1.257485,
     "regularMarketPrice": 1649.0,
-    "twoHundredDayAverageChange": -1.2900391,
-    "twoHundredDayAverageChangePercent": -0.00078170444,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "1770.T announced a cash dividend of JPY 30.00 with an ex-date of Mar. 30, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1774796400000,
+          "amount": "30.00"
+        }
+      }
+    ],
+    "regularMarketTime": 1774590191,
     "exchange": "JPX",
     "messageBoardId": "finmb_5718785",
     "exchangeTimezoneName": "Asia/Tokyo",
     "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
-    "esgPopulated": false,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 946944000000,
     "regularMarketChange": -21.0,
     "regularMarketDayRange": "1630.0 - 1710.0",
     "fullExchangeName": "Tokyo",
@@ -1178,18 +1183,13 @@
     "epsTrailingTwelveMonths": 141.98,
     "fiftyDayAverageChange": -163.07996,
     "fiftyDayAverageChangePercent": -0.089996,
-    "corporateActions": [
-      {
-        "header": "Dividend",
-        "message": "1770.T announced a cash dividend of JPY 30.00 with an ex-date of Mar. 30, 2026",
-        "meta": {
-          "eventType": "DIVIDEND",
-          "dateEpochMs": 1774796400000,
-          "amount": "30.00"
-        }
-      }
-    ],
-    "regularMarketTime": 1774590191,
+    "twoHundredDayAverageChange": -1.2900391,
+    "twoHundredDayAverageChangePercent": -0.00078170444,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 946944000000,
     "trailingPegRatio": null
   }
 }

@@ -1,7 +1,7 @@
 {
   "ticker": "2653",
   "japanese_ticker": "2653.T",
-  "fetch_date": "2026-03-27T23:35:29.904998",
+  "fetch_date": "2026-03-28T23:34:34.905796",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-02-28 00:00:00": -805749000.0,
@@ -1032,8 +1032,35 @@
       },
       {
         "maxAge": 1,
+        "name": "Mr. Masahiko  Akagi",
+        "age": 59,
+        "title": "Director, Senior Managing Executive Officer & GM of Business Administration Division",
+        "yearBorn": 1966,
+        "exercisedValue": 0,
+        "unexercisedValue": 0
+      },
+      {
+        "maxAge": 1,
+        "name": "Takao  Shiina",
+        "age": 58,
+        "title": "Director & Senior Managing Executive Officer of Sales",
+        "yearBorn": 1967,
+        "exercisedValue": 0,
+        "unexercisedValue": 0
+      },
+      {
+        "maxAge": 1,
         "name": "Ryosuke  Kaneko",
         "title": "Executive Officer, GM of HR & GA Division and Health Management & Sustainability Promotion Manager",
+        "exercisedValue": 0,
+        "unexercisedValue": 0
+      },
+      {
+        "maxAge": 1,
+        "name": "Mr. Haruhiko  Okuda",
+        "age": 64,
+        "title": "Director, Senior Managing Executive Officer & GM of Developer Business Headquarters",
+        "yearBorn": 1961,
         "exercisedValue": 0,
         "unexercisedValue": 0
       },
@@ -1069,27 +1096,6 @@
         "maxAge": 1,
         "name": "Taihei  Kawamura",
         "title": "Senior Executive Officer & Head of Digital Transformation and Corporate Transformation",
-        "exercisedValue": 0,
-        "unexercisedValue": 0
-      },
-      {
-        "maxAge": 1,
-        "name": "Naohiro  Higuchi",
-        "title": "Executive Officer and GM of SC Business Division & Leasing Department",
-        "exercisedValue": 0,
-        "unexercisedValue": 0
-      },
-      {
-        "maxAge": 1,
-        "name": "Noriyuki  Ninakawa",
-        "title": "Executive Officer and GM of Clothing, Home & Leisure Products Division",
-        "exercisedValue": 0,
-        "unexercisedValue": 0
-      },
-      {
-        "maxAge": 1,
-        "name": "Taku  Okago",
-        "title": "Executive Officer and Kagoshima & Miyazaki Division Manager",
         "exercisedValue": 0,
         "unexercisedValue": 0
       }
@@ -1185,30 +1191,10 @@
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
     "marketState": "CLOSED",
-    "shortName": "AEON KYUSHU CO LTD",
-    "longName": "Aeon Kyushu Co., Ltd.",
-    "regularMarketChangePercent": -0.3843466,
-    "regularMarketPrice": 2851.0,
-    "exchange": "JPX",
-    "messageBoardId": "finmb_9220820",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
     "corporateActions": [],
     "regularMarketTime": 1774593000,
-    "fiftyDayAverageChange": -31.399902,
-    "fiftyDayAverageChangePercent": -0.010893666,
-    "twoHundredDayAverageChange": -32.100098,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 965606400000,
-    "regularMarketChange": -11.0,
-    "regularMarketDayRange": "2851.0 - 2876.0",
-    "fullExchangeName": "Tokyo",
+    "shortName": "AEON KYUSHU CO LTD",
+    "longName": "Aeon Kyushu Co., Ltd.",
     "averageDailyVolume3Month": 45098,
     "fiftyTwoWeekLowChange": 621.0,
     "fiftyTwoWeekLowChangePercent": 0.27847534,
@@ -1222,7 +1208,27 @@
     "earningsCallTimestampEnd": 1744369140,
     "isEarningsDateEstimate": true,
     "epsTrailingTwelveMonths": 223.8,
+    "fiftyDayAverageChange": -31.399902,
+    "fiftyDayAverageChangePercent": -0.010893666,
+    "twoHundredDayAverageChange": -32.100098,
     "twoHundredDayAverageChangePercent": -0.011133882,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 965606400000,
+    "regularMarketChange": -11.0,
+    "regularMarketDayRange": "2851.0 - 2876.0",
+    "fullExchangeName": "Tokyo",
+    "exchange": "JPX",
+    "messageBoardId": "finmb_9220820",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
+    "regularMarketChangePercent": -0.3843466,
+    "regularMarketPrice": 2851.0,
     "trailingPegRatio": null
   }
 }

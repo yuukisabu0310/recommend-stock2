@@ -1,7 +1,7 @@
 {
   "ticker": "2903",
   "japanese_ticker": "2903.T",
-  "fetch_date": "2026-03-27T23:38:36.137158",
+  "fetch_date": "2026-03-28T23:37:43.094048",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": -268035000.0,
@@ -1132,6 +1132,19 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "shortName": "SHINOBU FOOD PRODUCTS CO",
+    "longName": "Shinobu Foods Products Co., Ltd.",
+    "regularMarketTime": 1774593000,
+    "exchange": "JPX",
+    "messageBoardId": "finmb_5555119",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
+    "regularMarketChangePercent": 0.94062316,
+    "regularMarketPrice": 1717.0,
+    "marketState": "CLOSED",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 954806400000,
     "regularMarketChange": 16.0,
@@ -1147,6 +1160,13 @@
     "earningsTimestampStart": 1746766800,
     "earningsTimestampEnd": 1746766800,
     "isEarningsDateEstimate": false,
+    "epsTrailingTwelveMonths": 95.47,
+    "fiftyDayAverageChange": -177.64001,
+    "fiftyDayAverageChangePercent": -0.093759246,
+    "twoHundredDayAverageChange": 88.474976,
+    "twoHundredDayAverageChangePercent": 0.05432829,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
     "corporateActions": [
       {
         "header": "Dividend",
@@ -1158,27 +1178,7 @@
         }
       }
     ],
-    "regularMarketTime": 1774593000,
-    "exchange": "JPX",
-    "messageBoardId": "finmb_5555119",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
-    "regularMarketChangePercent": 0.94062316,
-    "regularMarketPrice": 1717.0,
-    "marketState": "CLOSED",
-    "shortName": "SHINOBU FOOD PRODUCTS CO",
-    "longName": "Shinobu Foods Products Co., Ltd.",
-    "twoHundredDayAverageChangePercent": 0.05432829,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
-    "epsTrailingTwelveMonths": 95.47,
-    "fiftyDayAverageChange": -177.64001,
-    "fiftyDayAverageChangePercent": -0.093759246,
-    "twoHundredDayAverageChange": 88.474976,
     "trailingPegRatio": null
   }
 }

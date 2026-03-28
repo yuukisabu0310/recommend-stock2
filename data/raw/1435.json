@@ -1,7 +1,7 @@
 {
   "ticker": "1435",
   "japanese_ticker": "1435.T",
-  "fetch_date": "2026-03-27T23:24:46.220842",
+  "fetch_date": "2026-03-28T23:23:56.783038",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2024-12-31 00:00:00": -2085864.0,
@@ -1087,7 +1087,7 @@
     "tradeable": false,
     "enterpriseValue": 11258506240,
     "profitMargins": 0.08266,
-    "floatShares": 42627534,
+    "floatShares": 44079163,
     "sharesOutstanding": 89734200,
     "heldPercentInsiders": 0.50966,
     "heldPercentInstitutions": 0.06072,
@@ -1139,7 +1139,8 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "corporateActions": [],
+    "marketState": "CLOSED",
+    "shortName": "ROBOT HOME INC",
     "regularMarketTime": 1774593000,
     "exchange": "JPX",
     "messageBoardId": "finmb_84605117",
@@ -1150,9 +1151,7 @@
     "esgPopulated": false,
     "regularMarketChangePercent": 4.3010755,
     "regularMarketPrice": 194.0,
-    "marketState": "CLOSED",
-    "longName": "Robot Home, Inc.",
-    "shortName": "ROBOT HOME INC",
+    "corporateActions": [],
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1449100800000,
     "regularMarketChange": 8.0,
@@ -1177,8 +1176,9 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "prevName": "TATERU, Inc.",
-    "nameChangeDate": "2026-03-27",
+    "nameChangeDate": "2026-03-28",
     "cryptoTradeable": false,
+    "longName": "Robot Home, Inc.",
     "trailingPegRatio": null
   }
 }

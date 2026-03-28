@@ -1,7 +1,7 @@
 {
   "ticker": "2300",
   "japanese_ticker": "2300.T",
-  "fetch_date": "2026-03-27T23:31:46.867376",
+  "fetch_date": "2026-03-28T23:30:54.783319",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-02-28 00:00:00": -20583200.0,
@@ -1216,6 +1216,8 @@
     "marketState": "CLOSED",
     "shortName": "KYOKUTO CO LTD",
     "longName": "Kyokuto Co., Ltd.",
+    "gmtOffSetMilliseconds": 32400000,
+    "esgPopulated": false,
     "regularMarketChangePercent": -0.4008016,
     "regularMarketPrice": 497.0,
     "corporateActions": [],
@@ -1224,9 +1226,7 @@
     "messageBoardId": "finmb_10580355",
     "exchangeTimezoneName": "Asia/Tokyo",
     "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
-    "esgPopulated": false,
     "regularMarketChange": -2.0,
     "regularMarketDayRange": "497.0 - 499.0",
     "fullExchangeName": "Tokyo",

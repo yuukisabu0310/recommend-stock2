@@ -1,7 +1,7 @@
 {
   "ticker": "1841",
   "japanese_ticker": "1841.T",
-  "fetch_date": "2026-03-27T23:26:47.064144",
+  "fetch_date": "2026-03-28T23:25:57.215895",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": -7536027.405466,
@@ -1151,7 +1151,25 @@
     "customPriceAlertConfidence": "LOW",
     "marketState": "CLOSED",
     "shortName": "SANYU CONSTRUCTION CO",
-    "longName": "Sanyu Construction Co.,Ltd.",
+    "regularMarketTime": 1774489504,
+    "exchange": "JPX",
+    "messageBoardId": "finmb_5389711",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
+    "regularMarketChangePercent": 0.12594458,
+    "regularMarketPrice": 1590.0,
+    "corporateActions": [],
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 948240000000,
+    "regularMarketChange": 2.0,
+    "regularMarketDayRange": "1588.0 - 1590.0",
+    "fullExchangeName": "Tokyo",
+    "averageDailyVolume3Month": 7217,
+    "fiftyTwoWeekLowChange": 655.0,
+    "fiftyTwoWeekLowChangePercent": 0.70053476,
     "fiftyTwoWeekRange": "935.0 - 1817.0",
     "fiftyTwoWeekHighChange": -227.0,
     "fiftyTwoWeekHighChangePercent": -0.12493121,
@@ -1164,38 +1182,10 @@
     "fiftyDayAverageChangePercent": 0.0031799157,
     "twoHundredDayAverageChange": 260.07495,
     "twoHundredDayAverageChangePercent": 0.19555609,
-    "corporateActions": [
-      {
-        "header": "Reverse stock split",
-        "message": "1841.T announces 1 for 92100 split effective Mar. 27, 2026",
-        "meta": {
-          "eventType": "SPLIT",
-          "dateEpochMs": 1774537200000,
-          "splitRatio": "1:92100"
-        }
-      }
-    ],
-    "regularMarketTime": 1774489504,
-    "exchange": "JPX",
-    "messageBoardId": "finmb_5389711",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
-    "regularMarketChangePercent": 0.12594458,
-    "regularMarketPrice": 1590.0,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 948240000000,
-    "regularMarketChange": 2.0,
-    "regularMarketDayRange": "1588.0 - 1590.0",
-    "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 7217,
-    "fiftyTwoWeekLowChange": 655.0,
-    "fiftyTwoWeekLowChangePercent": 0.70053476,
+    "longName": "Sanyu Construction Co.,Ltd.",
     "trailingPegRatio": null
   }
 }
