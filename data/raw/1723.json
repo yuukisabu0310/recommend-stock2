@@ -1,7 +1,7 @@
 {
   "ticker": "1723",
   "japanese_ticker": "1723.T",
-  "fetch_date": "2026-03-28T23:24:41.524209",
+  "fetch_date": "2026-03-29T23:25:59.848901",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": -48900317.32137,
@@ -1072,8 +1072,8 @@
     "averageVolume": 93435,
     "averageVolume10days": 75290,
     "averageDailyVolume10Day": 75290,
-    "bid": 9160.0,
-    "ask": 9280.0,
+    "bid": 0.0,
+    "ask": 2790.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 589530398720,
@@ -1089,7 +1089,7 @@
     "trailingAnnualDividendYield": 0.014838035,
     "currency": "JPY",
     "tradeable": false,
-    "enterpriseValue": 132172365824,
+    "enterpriseValue": 21635592192,
     "profitMargins": 0.0,
     "sharesOutstanding": 63733016,
     "heldPercentInsiders": 0.3609,
@@ -1104,8 +1104,8 @@
     "trailingEps": 121.41,
     "lastSplitFactor": "4:1",
     "lastSplitDate": 1774828800,
-    "enterpriseToRevenue": 2.826,
-    "enterpriseToEbitda": 11.24,
+    "enterpriseToRevenue": 0.463,
+    "enterpriseToEbitda": 1.84,
     "52WeekChange": 1.6917098,
     "SandP52WeekChange": 0.12811458,
     "lastDividendValue": 91.0,
@@ -1133,7 +1133,11 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "marketState": "CLOSED",
+    "market": "jp_market",
+    "esgPopulated": false,
+    "regularMarketChangePercent": -3.3437827,
+    "regularMarketPrice": 9250.0,
+    "marketState": "PREPRE",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1047513600000,
     "regularMarketChange": -320.0,
@@ -1149,6 +1153,8 @@
     "earningsTimestampStart": 1746601200,
     "earningsTimestampEnd": 1746601200,
     "isEarningsDateEstimate": false,
+    "shortName": "NIHON DENGI CO",
+    "longName": "Nihon Dengi Co., Ltd.",
     "epsTrailingTwelveMonths": 121.41,
     "fiftyDayAverageChange": -1336.5996,
     "fiftyDayAverageChangePercent": -0.12625392,
@@ -1156,8 +1162,6 @@
     "twoHundredDayAverageChangePercent": 0.36640775,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
-    "shortName": "NIHON DENGI CO",
-    "longName": "Nihon Dengi Co., Ltd.",
     "cryptoTradeable": false,
     "corporateActions": [
       {
@@ -1185,10 +1189,6 @@
     "exchangeTimezoneName": "Asia/Tokyo",
     "exchangeTimezoneShortName": "JST",
     "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
-    "regularMarketChangePercent": -3.3437827,
-    "regularMarketPrice": 9250.0,
     "trailingPegRatio": null
   }
 }

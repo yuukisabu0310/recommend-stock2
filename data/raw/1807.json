@@ -1,7 +1,7 @@
 {
   "ticker": "1807",
   "japanese_ticker": "1807.T",
-  "fetch_date": "2026-03-28T23:25:25.448069",
+  "fetch_date": "2026-03-29T23:26:44.847884",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": -2699970.0,
@@ -1140,8 +1140,8 @@
     "averageVolume": 3196,
     "averageVolume10days": 2990,
     "averageDailyVolume10Day": 2990,
-    "bid": 2015.0,
-    "ask": 2029.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 12595271680,
@@ -1208,22 +1208,9 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "shortName": "WATANABE SATO CO LTD",
-    "longName": "Watanabe Sato Co., Ltd.",
-    "marketState": "CLOSED",
     "regularMarketChangePercent": 0.3482587,
     "regularMarketPrice": 2017.0,
-    "corporateActions": [
-      {
-        "header": "Dividend",
-        "message": "1807.T announced a cash dividend of JPY 40.00 with an ex-date of Mar. 30, 2026",
-        "meta": {
-          "eventType": "DIVIDEND",
-          "dateEpochMs": 1774796400000,
-          "amount": "40.00"
-        }
-      }
-    ],
+    "marketState": "PREPRE",
     "regularMarketTime": 1774593000,
     "exchange": "JPX",
     "messageBoardId": "finmb_884096",
@@ -1234,10 +1221,6 @@
     "esgPopulated": false,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 946944000000,
-    "regularMarketChange": 7.0,
-    "regularMarketDayRange": "2011.0 - 2045.0",
-    "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 3196,
     "fiftyTwoWeekLowChange": 617.0,
     "fiftyTwoWeekLowChangePercent": 0.4407143,
     "fiftyTwoWeekRange": "1400.0 - 2139.0",
@@ -1254,6 +1237,23 @@
     "twoHundredDayAverageChangePercent": 0.1253414,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
+    "shortName": "WATANABE SATO CO LTD",
+    "longName": "Watanabe Sato Co., Ltd.",
+    "regularMarketChange": 7.0,
+    "regularMarketDayRange": "2011.0 - 2045.0",
+    "fullExchangeName": "Tokyo",
+    "averageDailyVolume3Month": 3196,
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "1807.T announced a cash dividend of JPY 40.00 with an ex-date of Mar. 30, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1774796400000,
+          "amount": "40.00"
+        }
+      }
+    ],
     "cryptoTradeable": false,
     "trailingPegRatio": null
   }

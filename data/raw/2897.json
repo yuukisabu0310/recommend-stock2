@@ -1,7 +1,7 @@
 {
   "ticker": "2897",
   "japanese_ticker": "2897.T",
-  "fetch_date": "2026-03-28T23:37:39.472028",
+  "fetch_date": "2026-03-29T23:39:09.847286",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": 0.0,
@@ -1110,8 +1110,8 @@
     "averageVolume": 1269951,
     "averageVolume10days": 1049610,
     "averageDailyVolume10Day": 1049610,
-    "bid": 2975.0,
-    "ask": 2978.5,
+    "bid": 0.0,
+    "ask": 2874.5,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 854138552320,
@@ -1186,31 +1186,14 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "corporateActions": [
-      {
-        "header": "Dividend",
-        "message": "2897.T announced a cash dividend of JPY 35.00 with an ex-date of Mar. 30, 2026",
-        "meta": {
-          "eventType": "DIVIDEND",
-          "dateEpochMs": 1774796400000,
-          "amount": "35.00"
-        }
-      }
-    ],
-    "regularMarketTime": 1774593000,
-    "exchange": "JPX",
-    "messageBoardId": "finmb_874476",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
-    "regularMarketChangePercent": 1.7960999,
-    "regularMarketPrice": 2975.5,
-    "marketState": "CLOSED",
+    "shortName": "NISSIN FOODS HOLDINGS CO. LTD.",
+    "longName": "Nissin Foods Holdings Co.,Ltd.",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 978307200000,
     "regularMarketChange": 52.5,
     "regularMarketDayRange": "2936.5 - 2984.5",
     "fullExchangeName": "Tokyo",
+    "marketState": "PREPRE",
     "averageDailyVolume3Month": 1269951,
     "fiftyTwoWeekLowChange": 347.5,
     "fiftyTwoWeekLowChangePercent": 0.13222983,
@@ -1232,11 +1215,28 @@
     "twoHundredDayAverageChangePercent": 0.019417077,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 978307200000,
-    "shortName": "NISSIN FOODS HOLDINGS CO. LTD.",
-    "longName": "Nissin Foods Holdings Co.,Ltd.",
     "cryptoTradeable": false,
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "2897.T announced a cash dividend of JPY 35.00 with an ex-date of Mar. 30, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1774796400000,
+          "amount": "35.00"
+        }
+      }
+    ],
+    "regularMarketTime": 1774593000,
+    "exchange": "JPX",
+    "messageBoardId": "finmb_874476",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
+    "regularMarketChangePercent": 1.7960999,
+    "regularMarketPrice": 2975.5,
     "trailingPegRatio": null
   }
 }

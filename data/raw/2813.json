@@ -1,7 +1,7 @@
 {
   "ticker": "2813",
   "japanese_ticker": "2813.T",
-  "fetch_date": "2026-03-28T23:37:00.194823",
+  "fetch_date": "2026-03-29T23:38:23.921109",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": -950426.4,
@@ -1282,8 +1282,8 @@
     "averageVolume": 4851,
     "averageVolume10days": 4010,
     "averageDailyVolume10Day": 4010,
-    "bid": 3880.0,
-    "ask": 3960.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 9681368064,
@@ -1350,41 +1350,6 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "regularMarketTime": 1774593000,
-    "exchange": "JPX",
-    "messageBoardId": "finmb_9794139",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
-    "regularMarketChangePercent": -1.8963337,
-    "regularMarketPrice": 3880.0,
-    "longName": "Wakou Shokuhin Co., Ltd.",
-    "shortName": "WAKOU SHOKUHIN CO",
-    "corporateActions": [
-      {
-        "header": "Dividend",
-        "message": "2813.T announced a cash dividend of JPY 86.00 with an ex-date of Mar. 30, 2026",
-        "meta": {
-          "eventType": "DIVIDEND",
-          "dateEpochMs": 1774796400000,
-          "amount": "86.00"
-        }
-      }
-    ],
-    "epsTrailingTwelveMonths": 422.53,
-    "fiftyDayAverageChange": 402.30005,
-    "fiftyDayAverageChangePercent": 0.11567992,
-    "twoHundredDayAverageChange": 509.7649,
-    "twoHundredDayAverageChangePercent": 0.151255,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 947030400000,
-    "regularMarketChange": -75.0,
-    "regularMarketDayRange": "3880.0 - 3970.0",
     "fullExchangeName": "Tokyo",
     "averageDailyVolume3Month": 4851,
     "fiftyTwoWeekLowChange": 934.0,
@@ -1396,7 +1361,42 @@
     "earningsTimestampStart": 1747281600,
     "earningsTimestampEnd": 1747281600,
     "isEarningsDateEstimate": false,
-    "marketState": "CLOSED",
+    "epsTrailingTwelveMonths": 422.53,
+    "fiftyDayAverageChange": 402.30005,
+    "fiftyDayAverageChangePercent": 0.11567992,
+    "twoHundredDayAverageChange": 509.7649,
+    "twoHundredDayAverageChangePercent": 0.151255,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "2813.T announced a cash dividend of JPY 86.00 with an ex-date of Mar. 30, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1774796400000,
+          "amount": "86.00"
+        }
+      }
+    ],
+    "regularMarketTime": 1774593000,
+    "exchange": "JPX",
+    "messageBoardId": "finmb_9794139",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
+    "shortName": "WAKOU SHOKUHIN CO",
+    "longName": "Wakou Shokuhin Co., Ltd.",
+    "regularMarketPrice": 3880.0,
+    "regularMarketChangePercent": -1.8963337,
+    "marketState": "PREPRE",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 947030400000,
+    "regularMarketChange": -75.0,
+    "regularMarketDayRange": "3880.0 - 3970.0",
     "trailingPegRatio": null
   }
 }

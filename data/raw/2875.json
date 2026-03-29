@@ -1,7 +1,7 @@
 {
   "ticker": "2875",
   "japanese_ticker": "2875.T",
-  "fetch_date": "2026-03-28T23:37:22.673205",
+  "fetch_date": "2026-03-29T23:38:53.687961",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": -17712000.0,
@@ -1250,8 +1250,8 @@
     "averageVolume": 348750,
     "averageVolume10days": 392200,
     "averageDailyVolume10Day": 392200,
-    "bid": 11020.0,
-    "ask": 11085.0,
+    "bid": 10025.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 1073199579136,
@@ -1323,29 +1323,6 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "marketState": "CLOSED",
-    "shortName": "TOYO SUISAN KAISHA",
-    "regularMarketTime": 1774593000,
-    "exchange": "JPX",
-    "messageBoardId": "finmb_874950",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
-    "regularMarketChangePercent": -0.045330916,
-    "regularMarketPrice": 11025.0,
-    "corporateActions": [
-      {
-        "header": "Dividend",
-        "message": "2875.T announced a cash dividend of JPY 120.00 with an ex-date of Mar. 30, 2026",
-        "meta": {
-          "eventType": "DIVIDEND",
-          "dateEpochMs": 1774796400000,
-          "amount": "120.00"
-        }
-      }
-    ],
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 978307200000,
     "regularMarketChange": -5.0,
@@ -1369,12 +1346,35 @@
     "fiftyDayAverageChange": -409.2002,
     "fiftyDayAverageChangePercent": -0.035787392,
     "twoHundredDayAverageChange": 535.3096,
+    "shortName": "TOYO SUISAN KAISHA",
+    "longName": "Toyo Suisan Kaisha, Ltd.",
+    "market": "jp_market",
+    "esgPopulated": false,
+    "regularMarketChangePercent": -0.045330916,
+    "regularMarketPrice": 11025.0,
     "twoHundredDayAverageChangePercent": 0.05103197,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "averageAnalystRating": "2.3 - Buy",
     "cryptoTradeable": false,
-    "longName": "Toyo Suisan Kaisha, Ltd.",
+    "marketState": "PREPRE",
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "2875.T announced a cash dividend of JPY 120.00 with an ex-date of Mar. 30, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1774796400000,
+          "amount": "120.00"
+        }
+      }
+    ],
+    "regularMarketTime": 1774593000,
+    "exchange": "JPX",
+    "messageBoardId": "finmb_874950",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
     "trailingPegRatio": 2.362
   }
 }

@@ -1,7 +1,7 @@
 {
   "ticker": "1770",
   "japanese_ticker": "1770.T",
-  "fetch_date": "2026-03-28T23:24:58.444931",
+  "fetch_date": "2026-03-29T23:26:18.434257",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": -133791055.0,
@@ -1075,8 +1075,8 @@
     "averageVolume": 2969,
     "averageVolume10days": 4470,
     "averageDailyVolume10Day": 4470,
-    "bid": 1649.0,
-    "ask": 1662.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 15144492032,
@@ -1143,34 +1143,19 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "marketState": "CLOSED",
-    "shortName": "FUJITA ENGINEERING CO",
-    "longName": "Fujita Engineering Co., Ltd.",
-    "gmtOffSetMilliseconds": 32400000,
-    "esgPopulated": false,
     "regularMarketChangePercent": -1.257485,
     "regularMarketPrice": 1649.0,
-    "corporateActions": [
-      {
-        "header": "Dividend",
-        "message": "1770.T announced a cash dividend of JPY 30.00 with an ex-date of Mar. 30, 2026",
-        "meta": {
-          "eventType": "DIVIDEND",
-          "dateEpochMs": 1774796400000,
-          "amount": "30.00"
-        }
-      }
-    ],
+    "marketState": "PREPRE",
     "regularMarketTime": 1774590191,
     "exchange": "JPX",
     "messageBoardId": "finmb_5718785",
     "exchangeTimezoneName": "Asia/Tokyo",
     "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
-    "regularMarketChange": -21.0,
-    "regularMarketDayRange": "1630.0 - 1710.0",
-    "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 2969,
+    "esgPopulated": false,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 946944000000,
     "fiftyTwoWeekLowChange": 448.0,
     "fiftyTwoWeekLowChangePercent": 0.37302247,
     "fiftyTwoWeekRange": "1201.0 - 2000.0",
@@ -1187,9 +1172,24 @@
     "twoHundredDayAverageChangePercent": -0.00078170444,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
+    "shortName": "FUJITA ENGINEERING CO",
+    "longName": "Fujita Engineering Co., Ltd.",
+    "regularMarketChange": -21.0,
+    "regularMarketDayRange": "1630.0 - 1710.0",
+    "fullExchangeName": "Tokyo",
+    "averageDailyVolume3Month": 2969,
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "1770.T announced a cash dividend of JPY 30.00 with an ex-date of Mar. 30, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1774796400000,
+          "amount": "30.00"
+        }
+      }
+    ],
     "cryptoTradeable": false,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 946944000000,
     "trailingPegRatio": null
   }
 }

@@ -1,7 +1,7 @@
 {
   "ticker": "1518",
   "japanese_ticker": "1518.T",
-  "fetch_date": "2026-03-28T23:24:18.615376",
+  "fetch_date": "2026-03-29T23:25:37.619874",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": 947326700.0,
@@ -1272,8 +1272,8 @@
     "averageVolume": 267057,
     "averageVolume10days": 275650,
     "averageDailyVolume10Day": 275650,
-    "bid": 1403.0,
-    "ask": 1404.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 53949485056,
@@ -1341,11 +1341,6 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "marketState": "CLOSED",
-    "corporateActions": [],
-    "regularMarketTime": 1774593000,
-    "shortName": "MITSUI MATSUSHIMA HOLDINGS CO L",
-    "longName": "Mitsui Matsushima Holdings Co., Ltd.",
     "averageDailyVolume3Month": 267057,
     "fiftyTwoWeekLowChange": 748.0,
     "fiftyTwoWeekLowChangePercent": 1.1402439,
@@ -1366,9 +1361,13 @@
     "twoHundredDayAverageChangePercent": 0.08360084,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
+    "marketState": "PREPRE",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 978307200000,
+    "regularMarketChangePercent": 0.57306594,
+    "regularMarketPrice": 1404.0,
+    "corporateActions": [],
+    "regularMarketTime": 1774593000,
     "regularMarketChange": 8.0,
     "regularMarketDayRange": "1380.0 - 1430.0",
     "fullExchangeName": "Tokyo",
@@ -1379,8 +1378,9 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "regularMarketChangePercent": 0.57306594,
-    "regularMarketPrice": 1404.0,
+    "shortName": "MITSUI MATSUSHIMA HOLDINGS CO L",
+    "longName": "Mitsui Matsushima Holdings Co., Ltd.",
+    "cryptoTradeable": false,
     "trailingPegRatio": null
   }
 }

@@ -1,7 +1,7 @@
 {
   "ticker": "3002",
   "japanese_ticker": "3002.T",
-  "fetch_date": "2026-03-28T23:39:07.639156",
+  "fetch_date": "2026-03-29T23:40:37.921747",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": 276944000.0,
@@ -1198,8 +1198,8 @@
     "averageVolume": 225366,
     "averageVolume10days": 315420,
     "averageDailyVolume10Day": 315420,
-    "bid": 4215.0,
-    "ask": 4220.0,
+    "bid": 0.0,
+    "ask": 3300.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 133688008704,
@@ -1273,7 +1273,6 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "marketState": "CLOSED",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 978307200000,
     "regularMarketChange": 20.0,
@@ -1299,9 +1298,6 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "averageAnalystRating": "2.8 - Hold",
-    "shortName": "GUNZE LTD",
-    "longName": "Gunze Limited",
-    "cryptoTradeable": false,
     "corporateActions": [
       {
         "header": "Dividend",
@@ -1314,6 +1310,10 @@
       }
     ],
     "regularMarketTime": 1774593000,
+    "shortName": "GUNZE LTD",
+    "longName": "Gunze Limited",
+    "marketState": "PREPRE",
+    "cryptoTradeable": false,
     "exchange": "JPX",
     "messageBoardId": "finmb_874632",
     "exchangeTimezoneName": "Asia/Tokyo",

@@ -1,7 +1,7 @@
 {
   "ticker": "1827",
   "japanese_ticker": "1827.T",
-  "fetch_date": "2026-03-28T23:25:48.047918",
+  "fetch_date": "2026-03-29T23:27:06.230729",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": -2912000.0,
@@ -1053,8 +1053,8 @@
     "averageVolume": 56969,
     "averageVolume10days": 45100,
     "averageDailyVolume10Day": 45100,
-    "bid": 1355.0,
-    "ask": 1367.0,
+    "bid": 0.0,
+    "ask": 1311.0,
     "marketCap": 46735286272,
     "nonDilutedMarketCap": 49450055020,
     "fiftyTwoWeekLow": 578.0,
@@ -1119,31 +1119,7 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "marketState": "CLOSED",
-    "shortName": "NAKANO CORPORATION",
-    "regularMarketTime": 1774593000,
-    "exchange": "JPX",
-    "messageBoardId": "finmb_880708",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
-    "regularMarketChangePercent": -4.1578574,
-    "regularMarketPrice": 1360.0,
-    "corporateActions": [
-      {
-        "header": "Dividend",
-        "message": "1827.T announced a cash dividend of JPY 30.00 with an ex-date of Mar. 30, 2026",
-        "meta": {
-          "eventType": "DIVIDEND",
-          "dateEpochMs": 1774796400000,
-          "amount": "30.00"
-        }
-      }
-    ],
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 978307200000,
+    "longName": "Nakano Corporation",
     "regularMarketChange": -59.0,
     "regularMarketDayRange": "1344.0 - 1420.0",
     "fullExchangeName": "Tokyo",
@@ -1156,6 +1132,31 @@
     "fiftyTwoWeekChangePercent": 76.348045,
     "earningsTimestampStart": 1754546400,
     "earningsTimestampEnd": 1754978400,
+    "shortName": "NAKANO CORPORATION",
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "1827.T announced a cash dividend of JPY 30.00 with an ex-date of Mar. 30, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1774796400000,
+          "amount": "30.00"
+        }
+      }
+    ],
+    "regularMarketTime": 1774593000,
+    "exchange": "JPX",
+    "messageBoardId": "finmb_880708",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
+    "regularMarketChangePercent": -4.1578574,
+    "regularMarketPrice": 1360.0,
+    "marketState": "PREPRE",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 978307200000,
     "isEarningsDateEstimate": true,
     "epsTrailingTwelveMonths": 91.94,
     "fiftyDayAverageChange": -17.300049,
@@ -1165,7 +1166,6 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
-    "longName": "Nakano Corporation",
     "trailingPegRatio": null
   }
 }

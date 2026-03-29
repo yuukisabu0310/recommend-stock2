@@ -1,7 +1,7 @@
 {
   "ticker": "2267",
   "japanese_ticker": "2267.T",
-  "fetch_date": "2026-03-28T23:30:29.031172",
+  "fetch_date": "2026-03-29T23:31:51.373970",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": 1428154000.0,
@@ -1213,8 +1213,8 @@
     "averageVolume": 1486000,
     "averageVolume10days": 1256900,
     "averageDailyVolume10Day": 1256900,
-    "bid": 2668.0,
-    "ask": 2671.0,
+    "bid": 2550.0,
+    "ask": 2550.5,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 781290766336,
@@ -1288,31 +1288,6 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "cryptoTradeable": false,
-    "regularMarketChangePercent": 1.117001,
-    "regularMarketPrice": 2670.5,
-    "corporateActions": [
-      {
-        "header": "Dividend",
-        "message": "2267.T announced a cash dividend of JPY 37.00 with an ex-date of Mar. 30, 2026",
-        "meta": {
-          "eventType": "DIVIDEND",
-          "dateEpochMs": 1774796400000,
-          "amount": "37.00"
-        }
-      }
-    ],
-    "regularMarketTime": 1774593000,
-    "exchange": "JPX",
-    "messageBoardId": "finmb_881065",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 978307200000,
-    "marketState": "CLOSED",
     "shortName": "YAKULT HONSHA CO",
     "longName": "Yakult Honsha Co.,Ltd.",
     "regularMarketChange": 29.5,
@@ -1340,6 +1315,31 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "averageAnalystRating": "3.5 - Hold",
+    "marketState": "PREPRE",
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "2267.T announced a cash dividend of JPY 37.00 with an ex-date of Mar. 30, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1774796400000,
+          "amount": "37.00"
+        }
+      }
+    ],
+    "regularMarketTime": 1774593000,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 978307200000,
+    "cryptoTradeable": false,
+    "regularMarketChangePercent": 1.117001,
+    "regularMarketPrice": 2670.5,
+    "exchange": "JPX",
+    "messageBoardId": "finmb_881065",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
     "trailingPegRatio": 161.7684
   }
 }

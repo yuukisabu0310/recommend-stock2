@@ -1,7 +1,7 @@
 {
   "ticker": "2286",
   "japanese_ticker": "2286.T",
-  "fetch_date": "2026-03-28T23:30:40.731347",
+  "fetch_date": "2026-03-29T23:32:03.421637",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": 108770000.0,
@@ -1194,8 +1194,8 @@
     "averageVolume": 45228,
     "averageVolume10days": 96960,
     "averageDailyVolume10Day": 96960,
-    "bid": 980.0,
-    "ask": 990.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 8019300864,
@@ -1262,8 +1262,14 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "marketState": "PREPRE",
+    "shortName": "HAYASHIKANE SANGYO CO",
+    "longName": "Hayashikane Sangyo Co.,Ltd.",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 978307200000,
+    "regularMarketChangePercent": -0.5065856,
+    "regularMarketPrice": 982.0,
     "cryptoTradeable": false,
-    "marketState": "CLOSED",
     "corporateActions": [
       {
         "header": "Dividend",
@@ -1283,8 +1289,6 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "shortName": "HAYASHIKANE SANGYO CO",
-    "longName": "Hayashikane Sangyo Co.,Ltd.",
     "regularMarketChange": -5.0,
     "regularMarketDayRange": "971.0 - 1001.0",
     "fullExchangeName": "Tokyo",
@@ -1305,10 +1309,6 @@
     "twoHundredDayAverageChangePercent": 0.42205492,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
-    "regularMarketChangePercent": -0.5065856,
-    "regularMarketPrice": 982.0,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 978307200000,
     "trailingPegRatio": null
   }
 }

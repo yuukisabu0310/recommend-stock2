@@ -1,7 +1,7 @@
 {
   "ticker": "2180",
   "japanese_ticker": "2180.T",
-  "fetch_date": "2026-03-28T23:29:34.143227",
+  "fetch_date": "2026-03-29T23:30:55.765299",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-06-30 00:00:00": null,
@@ -1143,8 +1143,8 @@
     "averageVolume": 37467,
     "averageVolume10days": 28020,
     "averageDailyVolume10Day": 28020,
-    "bid": 903.0,
-    "ask": 906.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 13219508224,
@@ -1213,10 +1213,6 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "corporateActions": [],
-    "regularMarketTime": 1774593000,
-    "shortName": "SUNNY SIDE UP GROUP INC",
-    "longName": "SUNNY SIDE UP GROUP Inc.",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1220572800000,
     "regularMarketChange": -18.0,
@@ -1228,7 +1224,9 @@
     "fiftyTwoWeekRange": "428.0 - 1024.0",
     "fiftyTwoWeekHighChange": -121.0,
     "fiftyTwoWeekHighChangePercent": -0.11816406,
-    "marketState": "CLOSED",
+    "fiftyTwoWeekChangePercent": 80.303024,
+    "corporateActions": [],
+    "regularMarketTime": 1774593000,
     "exchange": "JPX",
     "messageBoardId": "finmb_47318901",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1236,10 +1234,11 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
+    "marketState": "PREPRE",
+    "shortName": "SUNNY SIDE UP GROUP INC",
+    "longName": "SUNNY SIDE UP GROUP Inc.",
     "regularMarketChangePercent": -1.9543973,
     "regularMarketPrice": 903.0,
-    "cryptoTradeable": false,
-    "fiftyTwoWeekChangePercent": 80.303024,
     "earningsTimestampStart": 1754985600,
     "earningsTimestampEnd": 1755504000,
     "isEarningsDateEstimate": true,
@@ -1250,6 +1249,7 @@
     "twoHundredDayAverageChangePercent": 0.1851794,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
     "trailingPegRatio": null
   }
 }

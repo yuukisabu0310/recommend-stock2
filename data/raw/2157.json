@@ -1,7 +1,7 @@
 {
   "ticker": "2157",
   "japanese_ticker": "2157.T",
-  "fetch_date": "2026-03-28T23:29:09.180683",
+  "fetch_date": "2026-03-29T23:30:31.240278",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-08-31 00:00:00": -1160930925.0,
@@ -1046,8 +1046,8 @@
     "averageVolume": 362246,
     "averageVolume10days": 309840,
     "averageDailyVolume10Day": 309840,
-    "bid": 1085.0,
-    "ask": 1088.0,
+    "bid": 0.0,
+    "ask": 1076.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 89512009728,
@@ -1115,8 +1115,15 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "marketState": "PREPRE",
     "shortName": "KOSHIDAKA HOLDINGS CO LTD",
     "longName": "Koshidaka Holdings Co., Ltd.",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1182902400000,
+    "regularMarketChangePercent": 0.18450184,
+    "regularMarketPrice": 1086.0,
+    "cryptoTradeable": false,
+    "corporateActions": [],
     "regularMarketTime": 1774593000,
     "exchange": "JPX",
     "messageBoardId": "finmb_30663334",
@@ -1125,11 +1132,6 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "regularMarketChangePercent": 0.18450184,
-    "regularMarketPrice": 1086.0,
-    "marketState": "CLOSED",
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1182902400000,
     "regularMarketChange": 2.0,
     "regularMarketDayRange": "1084.0 - 1101.0",
     "fullExchangeName": "Tokyo",
@@ -1153,8 +1155,6 @@
     "twoHundredDayAverageChangePercent": -0.11819161,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
-    "corporateActions": [],
-    "cryptoTradeable": false,
     "trailingPegRatio": null
   }
 }

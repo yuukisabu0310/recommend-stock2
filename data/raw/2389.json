@@ -1,7 +1,7 @@
 {
   "ticker": "2389",
   "japanese_ticker": "2389.T",
-  "fetch_date": "2026-03-28T23:32:20.277164",
+  "fetch_date": "2026-03-29T23:33:42.932492",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2024-12-31 00:00:00": 12992000.0,
@@ -1106,8 +1106,10 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "marketState": "CLOSED",
-    "cryptoTradeable": false,
+    "shortName": "DIGITAL HOLDINGS INC",
+    "longName": "Digital Holdings, Inc.",
+    "corporateActions": [],
+    "regularMarketTime": 1773815400,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1076630400000,
     "regularMarketChange": 1.0,
@@ -1122,6 +1124,7 @@
     "fiftyTwoWeekChangePercent": 1101720450.0,
     "earningsTimestampStart": 1754546400,
     "earningsTimestampEnd": 1754978400,
+    "marketState": "PREPRE",
     "isEarningsDateEstimate": true,
     "epsTrailingTwelveMonths": 811605630.0,
     "epsForward": -34.3,
@@ -1131,12 +1134,7 @@
     "twoHundredDayAverageChangePercent": -0.999975,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
-    "shortName": "DIGITAL HOLDINGS INC",
-    "longName": "Digital Holdings, Inc.",
-    "regularMarketChangePercent": 0.05,
-    "regularMarketPrice": 2001.0,
-    "corporateActions": [],
-    "regularMarketTime": 1773815400,
+    "cryptoTradeable": false,
     "exchange": "JPX",
     "messageBoardId": "finmb_9816654",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1144,6 +1142,8 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
+    "regularMarketChangePercent": 0.05,
+    "regularMarketPrice": 2001.0,
     "trailingPegRatio": null
   }
 }

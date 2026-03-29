@@ -1,7 +1,7 @@
 {
   "ticker": "1384",
   "japanese_ticker": "1384.T",
-  "fetch_date": "2026-03-28T23:23:29.867882",
+  "fetch_date": "2026-03-29T23:24:49.826814",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": 314591558.441558,
@@ -1270,8 +1270,8 @@
     "averageVolume": 42133,
     "averageVolume10days": 27180,
     "averageDailyVolume10Day": 27180,
-    "bid": 3020.0,
-    "ask": 3025.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 25545824256,
@@ -1336,6 +1336,7 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "shortName": "HOKURYO CO LTD",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1424390400000,
     "regularMarketChange": 15.0,
@@ -1350,11 +1351,7 @@
     "fiftyTwoWeekChangePercent": 97.265625,
     "earningsTimestampStart": 1754548200,
     "earningsTimestampEnd": 1754893800,
-    "isEarningsDateEstimate": true,
-    "epsTrailingTwelveMonths": 349.41,
-    "marketState": "CLOSED",
-    "regularMarketChangePercent": 0.49916804,
-    "regularMarketPrice": 3020.0,
+    "marketState": "PREPRE",
     "corporateActions": [],
     "regularMarketTime": 1774593000,
     "exchange": "JPX",
@@ -1364,8 +1361,10 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "shortName": "HOKURYO CO LTD",
-    "longName": "Hokuryo Co., Ltd.",
+    "regularMarketChangePercent": 0.49916804,
+    "regularMarketPrice": 3020.0,
+    "isEarningsDateEstimate": true,
+    "epsTrailingTwelveMonths": 349.41,
     "fiftyDayAverageChange": -61.840088,
     "fiftyDayAverageChangePercent": -0.020065963,
     "twoHundredDayAverageChange": 535.92993,
@@ -1373,6 +1372,7 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
+    "longName": "Hokuryo Co., Ltd.",
     "trailingPegRatio": null
   }
 }

@@ -1,7 +1,7 @@
 {
   "ticker": "1893",
   "japanese_ticker": "1893.T",
-  "fetch_date": "2026-03-28T23:26:38.182428",
+  "fetch_date": "2026-03-29T23:27:57.259351",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": 151394100.0,
@@ -1162,8 +1162,8 @@
     "averageVolume": 2820000,
     "averageVolume10days": 1951550,
     "averageDailyVolume10Day": 1951550,
-    "bid": 1760.0,
-    "ask": 1760.5,
+    "bid": 0.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 480763936768,
@@ -1235,29 +1235,6 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "marketState": "CLOSED",
-    "shortName": "PENTA OCEAN CONSTRUCTION",
-    "regularMarketTime": 1774593000,
-    "exchange": "JPX",
-    "messageBoardId": "finmb_874556",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
-    "regularMarketChangePercent": -1.1510386,
-    "regularMarketPrice": 1760.5,
-    "corporateActions": [
-      {
-        "header": "Dividend",
-        "message": "1893.T announced a cash dividend of JPY 27.00 with an ex-date of Mar. 30, 2026",
-        "meta": {
-          "eventType": "DIVIDEND",
-          "dateEpochMs": 1774796400000,
-          "amount": "27.00"
-        }
-      }
-    ],
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 978307200000,
     "regularMarketChange": -20.5,
@@ -1281,12 +1258,35 @@
     "fiftyDayAverageChange": -81.95996,
     "fiftyDayAverageChangePercent": -0.044483986,
     "twoHundredDayAverageChange": 398.05347,
+    "shortName": "PENTA OCEAN CONSTRUCTION",
+    "longName": "Penta-Ocean Construction Co., Ltd.",
+    "market": "jp_market",
+    "esgPopulated": false,
+    "regularMarketChangePercent": -1.1510386,
+    "regularMarketPrice": 1760.5,
     "twoHundredDayAverageChangePercent": 0.2921608,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "averageAnalystRating": "1.5 - Strong Buy",
     "cryptoTradeable": false,
-    "longName": "Penta-Ocean Construction Co., Ltd.",
+    "marketState": "PREPRE",
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "1893.T announced a cash dividend of JPY 27.00 with an ex-date of Mar. 30, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1774796400000,
+          "amount": "27.00"
+        }
+      }
+    ],
+    "regularMarketTime": 1774593000,
+    "exchange": "JPX",
+    "messageBoardId": "finmb_874556",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
     "trailingPegRatio": null
   }
 }

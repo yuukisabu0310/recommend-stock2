@@ -1,7 +1,7 @@
 {
   "ticker": "2981",
   "japanese_ticker": "2981.T",
-  "fetch_date": "2026-03-28T23:38:45.524105",
+  "fetch_date": "2026-03-29T23:40:17.298367",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": -1892772.0,
@@ -1006,8 +1006,8 @@
     "averageVolume": 13964,
     "averageVolume10days": 10080,
     "averageDailyVolume10Day": 10080,
-    "bid": 2169.0,
-    "ask": 2177.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "marketCap": 12295692288,
     "nonDilutedMarketCap": 12363718230,
     "fiftyTwoWeekLow": 1190.0,
@@ -1072,29 +1072,7 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "shortName": "LANDIX INC",
-    "corporateActions": [
-      {
-        "header": "Dividend",
-        "message": "2981.T announced a cash dividend of JPY 26.00 with an ex-date of Mar. 30, 2026",
-        "meta": {
-          "eventType": "DIVIDEND",
-          "dateEpochMs": 1774796400000,
-          "amount": "26.00"
-        }
-      }
-    ],
-    "regularMarketTime": 1774593000,
-    "marketState": "CLOSED",
-    "regularMarketChangePercent": 2.4563062,
-    "regularMarketPrice": 2169.0,
-    "exchange": "JPX",
-    "messageBoardId": "finmb_404309826",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
+    "marketState": "PREPRE",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1576713600000,
     "regularMarketChange": 52.0,
@@ -1107,9 +1085,31 @@
     "fiftyTwoWeekHighChange": -801.0,
     "fiftyTwoWeekHighChangePercent": -0.26969698,
     "fiftyTwoWeekChangePercent": 50.20661,
+    "shortName": "LANDIX INC",
+    "longName": "Landix Inc.",
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "2981.T announced a cash dividend of JPY 26.00 with an ex-date of Mar. 30, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1774796400000,
+          "amount": "26.00"
+        }
+      }
+    ],
+    "regularMarketTime": 1774593000,
+    "exchange": "JPX",
+    "messageBoardId": "finmb_404309826",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
+    "regularMarketChangePercent": 2.4563062,
+    "regularMarketPrice": 2169.0,
     "earningsTimestampStart": 1747119600,
     "earningsTimestampEnd": 1747119600,
-    "longName": "Landix Inc.",
     "isEarningsDateEstimate": false,
     "epsTrailingTwelveMonths": 365.04,
     "fiftyDayAverageChange": -155.45996,

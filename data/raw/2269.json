@@ -1,7 +1,7 @@
 {
   "ticker": "2269",
   "japanese_ticker": "2269.T",
-  "fetch_date": "2026-03-28T23:30:32.716935",
+  "fetch_date": "2026-03-29T23:31:55.807234",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": 160648000.0,
@@ -1195,8 +1195,8 @@
     "averageVolume": 1283876,
     "averageVolume10days": 1423140,
     "averageDailyVolume10Day": 1423140,
-    "bid": 3939.0,
-    "ask": 3943.0,
+    "bid": 3500.0,
+    "ask": 3501.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 1068962807808,
@@ -1269,10 +1269,14 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "shortName": "MEIJI HOLDINGS CO LTD",
+    "longName": "Meiji Holdings Co., Ltd.",
+    "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 946944000000,
     "regularMarketChange": 28.0,
     "regularMarketDayRange": "3885.0 - 3953.0",
     "fullExchangeName": "Tokyo",
+    "marketState": "PREPRE",
     "averageDailyVolume3Month": 1283876,
     "fiftyTwoWeekLowChange": 1036.0,
     "fiftyTwoWeekLowChangePercent": 0.35638115,
@@ -1295,10 +1299,6 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "averageAnalystRating": "2.5 - Buy",
-    "marketState": "CLOSED",
-    "shortName": "MEIJI HOLDINGS CO LTD",
-    "longName": "Meiji Holdings Co., Ltd.",
-    "hasPrePostMarketData": false,
     "cryptoTradeable": false,
     "corporateActions": [
       {

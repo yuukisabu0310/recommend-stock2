@@ -1,7 +1,7 @@
 {
   "ticker": "2224",
   "japanese_ticker": "2224.T",
-  "fetch_date": "2026-03-28T23:30:19.181037",
+  "fetch_date": "2026-03-29T23:31:41.346102",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": -1953920.0,
@@ -1039,8 +1039,8 @@
     "averageVolume": 4771,
     "averageVolume10days": 4810,
     "averageDailyVolume10Day": 4810,
-    "bid": 3770.0,
-    "ask": 3800.0,
+    "bid": 0.0,
+    "ask": 3715.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 13098933248,
@@ -1105,9 +1105,6 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "shortName": "COMO CO LTD",
-    "longName": "Como Co.,Ltd.",
-    "regularMarketTime": 1774593000,
     "exchange": "JPX",
     "messageBoardId": "finmb_9193272",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1115,11 +1112,31 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "2224.T announced a cash dividend of JPY 7.00 with an ex-date of Mar. 30, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1774796400000,
+          "amount": "7.00"
+        }
+      }
+    ],
+    "regularMarketTime": 1774593000,
     "regularMarketChangePercent": 1.754386,
     "regularMarketPrice": 3770.0,
-    "marketState": "CLOSED",
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 946944000000,
+    "marketState": "PREPRE",
+    "shortName": "COMO CO LTD",
+    "longName": "Como Co.,Ltd.",
+    "epsTrailingTwelveMonths": -10.56,
+    "fiftyDayAverageChange": 57.30005,
+    "fiftyDayAverageChangePercent": 0.015433526,
+    "twoHundredDayAverageChange": 398.4751,
+    "twoHundredDayAverageChangePercent": 0.11818839,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
     "regularMarketChange": 65.0,
     "regularMarketDayRange": "3705.0 - 3790.0",
     "fullExchangeName": "Tokyo",
@@ -1133,25 +1150,8 @@
     "earningsTimestampStart": 1747029600,
     "earningsTimestampEnd": 1747029600,
     "isEarningsDateEstimate": false,
-    "epsTrailingTwelveMonths": -10.56,
-    "fiftyDayAverageChange": 57.30005,
-    "fiftyDayAverageChangePercent": 0.015433526,
-    "twoHundredDayAverageChange": 398.4751,
-    "twoHundredDayAverageChangePercent": 0.11818839,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "corporateActions": [
-      {
-        "header": "Dividend",
-        "message": "2224.T announced a cash dividend of JPY 7.00 with an ex-date of Mar. 30, 2026",
-        "meta": {
-          "eventType": "DIVIDEND",
-          "dateEpochMs": 1774796400000,
-          "amount": "7.00"
-        }
-      }
-    ],
-    "cryptoTradeable": false,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 946944000000,
     "trailingPegRatio": null
   }
 }

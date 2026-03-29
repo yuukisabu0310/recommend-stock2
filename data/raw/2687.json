@@ -1,7 +1,7 @@
 {
   "ticker": "2687",
   "japanese_ticker": "2687.T",
-  "fetch_date": "2026-03-28T23:35:10.845705",
+  "fetch_date": "2026-03-29T23:36:34.283071",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-02-28 00:00:00": 63944699.2,
@@ -1055,8 +1055,8 @@
     "averageVolume": 10523,
     "averageVolume10days": 3840,
     "averageDailyVolume10Day": 3840,
-    "bid": 484.0,
-    "ask": 487.0,
+    "bid": 0.0,
+    "ask": 486.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 2399065600,
@@ -1123,10 +1123,11 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "marketState": "CLOSED",
-    "shortName": "CVS BAY AREA INC",
+    "corporateActions": [],
     "regularMarketTime": 1774593000,
     "exchange": "JPX",
+    "shortName": "CVS BAY AREA INC",
+    "longName": "CVS Bay Area Inc.",
     "messageBoardId": "finmb_1347494",
     "exchangeTimezoneName": "Asia/Tokyo",
     "exchangeTimezoneShortName": "JST",
@@ -1135,7 +1136,7 @@
     "esgPopulated": false,
     "regularMarketChangePercent": 0.0,
     "regularMarketPrice": 486.0,
-    "corporateActions": [],
+    "marketState": "PREPRE",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1033516800000,
     "regularMarketChange": 0.0,
@@ -1159,7 +1160,6 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
-    "longName": "CVS Bay Area Inc.",
     "trailingPegRatio": null
   }
 }

@@ -1,7 +1,7 @@
 {
   "ticker": "2323",
   "japanese_ticker": "2323.T",
-  "fetch_date": "2026-03-28T23:31:14.935986",
+  "fetch_date": "2026-03-29T23:32:37.141963",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": -26747048.0,
@@ -1281,8 +1281,8 @@
     "averageVolume": 208480,
     "averageVolume10days": 68570,
     "averageDailyVolume10Day": 68570,
-    "bid": 347.0,
-    "ask": 348.0,
+    "bid": 0.0,
+    "ask": 301.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 7287870464,
@@ -1351,11 +1351,12 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "marketState": "PREPRE",
+    "cryptoTradeable": false,
+    "shortName": "FONFUN CORPORATION",
     "corporateActions": [],
     "regularMarketTime": 1774593000,
     "exchange": "JPX",
-    "shortName": "FONFUN CORPORATION",
-    "longName": "fonfun corporation",
     "messageBoardId": "finmb_1570908",
     "exchangeTimezoneName": "Asia/Tokyo",
     "exchangeTimezoneShortName": "JST",
@@ -1364,7 +1365,6 @@
     "esgPopulated": false,
     "regularMarketChangePercent": 4.518072,
     "regularMarketPrice": 347.0,
-    "marketState": "CLOSED",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1032480000000,
     "regularMarketChange": 15.0,
@@ -1387,7 +1387,7 @@
     "twoHundredDayAverageChangePercent": 0.29703468,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
+    "longName": "fonfun corporation",
     "trailingPegRatio": null
   }
 }

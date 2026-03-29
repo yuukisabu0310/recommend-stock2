@@ -1,7 +1,7 @@
 {
   "ticker": "2903",
   "japanese_ticker": "2903.T",
-  "fetch_date": "2026-03-28T23:37:43.094048",
+  "fetch_date": "2026-03-29T23:39:13.825988",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": -268035000.0,
@@ -1066,8 +1066,8 @@
     "averageVolume": 10976,
     "averageVolume10days": 8200,
     "averageDailyVolume10Day": 8200,
-    "bid": 1702.0,
-    "ask": 1722.0,
+    "bid": 0.0,
+    "ask": 1556.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 18947995648,
@@ -1132,19 +1132,11 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "shortName": "SHINOBU FOOD PRODUCTS CO",
-    "longName": "Shinobu Foods Products Co., Ltd.",
-    "regularMarketTime": 1774593000,
-    "exchange": "JPX",
-    "messageBoardId": "finmb_5555119",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
     "regularMarketChangePercent": 0.94062316,
     "regularMarketPrice": 1717.0,
-    "marketState": "CLOSED",
+    "marketState": "PREPRE",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 954806400000,
     "regularMarketChange": 16.0,
@@ -1160,6 +1152,8 @@
     "earningsTimestampStart": 1746766800,
     "earningsTimestampEnd": 1746766800,
     "isEarningsDateEstimate": false,
+    "shortName": "SHINOBU FOOD PRODUCTS CO",
+    "longName": "Shinobu Foods Products Co., Ltd.",
     "epsTrailingTwelveMonths": 95.47,
     "fiftyDayAverageChange": -177.64001,
     "fiftyDayAverageChangePercent": -0.093759246,
@@ -1167,6 +1161,7 @@
     "twoHundredDayAverageChangePercent": 0.05432829,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
     "corporateActions": [
       {
         "header": "Dividend",
@@ -1178,7 +1173,12 @@
         }
       }
     ],
-    "cryptoTradeable": false,
+    "regularMarketTime": 1774593000,
+    "exchange": "JPX",
+    "messageBoardId": "finmb_5555119",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
     "trailingPegRatio": null
   }
 }

@@ -1,7 +1,7 @@
 {
   "ticker": "2742",
   "japanese_ticker": "2742.T",
-  "fetch_date": "2026-03-28T23:35:50.906903",
+  "fetch_date": "2026-03-29T23:37:11.991864",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-02-28 00:00:00": -30705000.0,
@@ -1109,8 +1109,8 @@
     "averageVolume": 41325,
     "averageVolume10days": 23010,
     "averageDailyVolume10Day": 23010,
-    "bid": 4300.0,
-    "ask": 4355.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 92748726272,
@@ -1199,7 +1199,11 @@
     "fiftyDayAverageChangePercent": -0.05868843,
     "twoHundredDayAverageChange": -410.4248,
     "twoHundredDayAverageChangePercent": -0.086306654,
-    "corporateActions": [],
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "shortName": "HALOWS CO LTD",
+    "longName": "Halows Co.,Ltd.",
+    "marketState": "PREPRE",
     "regularMarketTime": 1774593000,
     "exchange": "JPX",
     "messageBoardId": "finmb_5548153",
@@ -1210,11 +1214,7 @@
     "esgPopulated": false,
     "regularMarketChangePercent": 0.69524914,
     "regularMarketPrice": 4345.0,
-    "shortName": "HALOWS CO LTD",
-    "longName": "Halows Co.,Ltd.",
-    "marketState": "CLOSED",
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
+    "corporateActions": [],
     "cryptoTradeable": false,
     "trailingPegRatio": null
   }

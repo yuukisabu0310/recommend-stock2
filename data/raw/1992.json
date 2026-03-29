@@ -1,7 +1,7 @@
 {
   "ticker": "1992",
   "japanese_ticker": "1992.T",
-  "fetch_date": "2026-03-28T23:28:05.699818",
+  "fetch_date": "2026-03-29T23:29:25.232071",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": -29507912.266053,
@@ -1096,8 +1096,8 @@
     "averageVolume": 296,
     "averageVolume10days": 88,
     "averageDailyVolume10Day": 88,
-    "bid": 2954.0,
-    "ask": 3010.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 6779119104,
@@ -1162,31 +1162,22 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "marketState": "CLOSED",
-    "regularMarketChangePercent": -2.310231,
-    "regularMarketPrice": 2960.0,
-    "cryptoTradeable": false,
-    "corporateActions": [
-      {
-        "header": "Dividend",
-        "message": "1992.T announced a cash dividend of JPY 76.00 with an ex-date of Mar. 30, 2026",
-        "meta": {
-          "eventType": "DIVIDEND",
-          "dateEpochMs": 1774796400000,
-          "amount": "76.00"
-        }
-      }
-    ],
-    "regularMarketTime": 1774583568,
+    "shortName": "KANDA TSUSHINKI CO",
+    "longName": "Kanda Tsushinki Co., Ltd.",
+    "marketState": "PREPRE",
     "exchange": "JPX",
     "messageBoardId": "finmb_9264357",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
-    "esgPopulated": false,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 946944000000,
+    "epsTrailingTwelveMonths": 164.87,
+    "fiftyDayAverageChange": 157.37988,
+    "fiftyDayAverageChangePercent": 0.056154553,
+    "twoHundredDayAverageChange": 201.60498,
+    "twoHundredDayAverageChangePercent": 0.07308778,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
     "regularMarketChange": -70.0,
     "regularMarketDayRange": "2950.0 - 3020.0",
     "fullExchangeName": "Tokyo",
@@ -1200,15 +1191,24 @@
     "earningsTimestampStart": 1747031400,
     "earningsTimestampEnd": 1747031400,
     "isEarningsDateEstimate": false,
-    "epsTrailingTwelveMonths": 164.87,
-    "fiftyDayAverageChange": 157.37988,
-    "fiftyDayAverageChangePercent": 0.056154553,
-    "twoHundredDayAverageChange": 201.60498,
-    "twoHundredDayAverageChangePercent": 0.07308778,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "shortName": "KANDA TSUSHINKI CO",
-    "longName": "Kanda Tsushinki Co., Ltd.",
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "1992.T announced a cash dividend of JPY 76.00 with an ex-date of Mar. 30, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1774796400000,
+          "amount": "76.00"
+        }
+      }
+    ],
+    "regularMarketTime": 1774583568,
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "esgPopulated": false,
+    "regularMarketChangePercent": -2.310231,
+    "regularMarketPrice": 2960.0,
     "trailingPegRatio": null
   }
 }

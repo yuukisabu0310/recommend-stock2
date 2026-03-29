@@ -1,7 +1,7 @@
 {
   "ticker": "2503",
   "japanese_ticker": "2503.T",
-  "fetch_date": "2026-03-28T23:33:57.920776",
+  "fetch_date": "2026-03-29T23:35:20.010556",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-12-31 00:00:00": null,
@@ -987,60 +987,6 @@
         "fiscalYear": 2024,
         "exercisedValue": 0,
         "unexercisedValue": 0
-      },
-      {
-        "maxAge": 1,
-        "name": "Mr. Toshihito  Hama",
-        "title": "Sr. Exe. Off., Chief Risk Management & Legal Officer and Public Relations Strategy Officer",
-        "fiscalYear": 2024,
-        "exercisedValue": 0,
-        "unexercisedValue": 0
-      },
-      {
-        "maxAge": 1,
-        "name": "Mr. Nobuhiko  Hori",
-        "title": "General Manager of Corporate Communications Department",
-        "fiscalYear": 2024,
-        "exercisedValue": 0,
-        "unexercisedValue": 0
-      },
-      {
-        "maxAge": 1,
-        "name": "Mr. Mitsuharu  Yamagata",
-        "title": "Senior Executive Officer of Brand Strategy, Marketing Strategy, Digital & IT Strategy",
-        "fiscalYear": 2024,
-        "exercisedValue": 0,
-        "unexercisedValue": 0
-      },
-      {
-        "maxAge": 1,
-        "name": "Mr. Hiroshi  Ogawa",
-        "age": 69,
-        "title": "Senior Executive Vice President",
-        "yearBorn": 1956,
-        "fiscalYear": 2024,
-        "exercisedValue": 0,
-        "unexercisedValue": 0
-      },
-      {
-        "maxAge": 1,
-        "name": "Mr. Toru  Yoshimura",
-        "age": 61,
-        "title": "Senior Executive Officer & Director",
-        "yearBorn": 1964,
-        "fiscalYear": 2024,
-        "exercisedValue": 0,
-        "unexercisedValue": 0
-      },
-      {
-        "maxAge": 1,
-        "name": "Mr. Hideki  Horiguchi",
-        "age": 63,
-        "title": "Senior Executive Officer",
-        "yearBorn": 1962,
-        "fiscalYear": 2024,
-        "exercisedValue": 0,
-        "unexercisedValue": 0
       }
     ],
     "auditRisk": 1,
@@ -1075,8 +1021,8 @@
     "averageVolume": 3257089,
     "averageVolume10days": 3523440,
     "averageDailyVolume10Day": 3523440,
-    "bid": 2508.0,
-    "ask": 2516.0,
+    "bid": 0.0,
+    "ask": 2408.5,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 2032253665280,
@@ -1148,22 +1094,10 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "marketState": "PREPRE",
+    "cryptoTradeable": false,
     "shortName": "KIRIN HOLDINGS COMPANY LIMITED",
     "longName": "Kirin Holdings Company, Limited",
-    "corporateActions": [],
-    "regularMarketTime": 1774593000,
-    "exchange": "JPX",
-    "messageBoardId": "finmb_410455",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
-    "regularMarketChangePercent": 1.4970666,
-    "regularMarketPrice": 2508.5,
-    "marketState": "CLOSED",
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 946944000000,
     "regularMarketChange": 37.0,
     "regularMarketDayRange": "2474.0 - 2519.0",
     "fullExchangeName": "Tokyo",
@@ -1182,6 +1116,8 @@
     "isEarningsDateEstimate": false,
     "epsTrailingTwelveMonths": 182.12,
     "epsForward": 172.0,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 946944000000,
     "fiftyDayAverageChange": -4.2800293,
     "fiftyDayAverageChangePercent": -0.0017033044,
     "twoHundredDayAverageChange": 244.19507,
@@ -1189,7 +1125,17 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "averageAnalystRating": "2.5 - Buy",
-    "cryptoTradeable": false,
+    "regularMarketChangePercent": 1.4970666,
+    "regularMarketPrice": 2508.5,
+    "corporateActions": [],
+    "regularMarketTime": 1774593000,
+    "exchange": "JPX",
+    "messageBoardId": "finmb_410455",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
     "trailingPegRatio": 1.7193
   }
 }

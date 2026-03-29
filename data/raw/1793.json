@@ -1,7 +1,7 @@
 {
   "ticker": "1793",
   "japanese_ticker": "1793.T",
-  "fetch_date": "2026-03-28T23:25:12.622286",
+  "fetch_date": "2026-03-29T23:26:31.255014",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": 243402000.0,
@@ -1122,8 +1122,8 @@
     "averageVolume": 6557,
     "averageVolume10days": 4570,
     "averageDailyVolume10Day": 4570,
-    "bid": 1895.0,
-    "ask": 1920.0,
+    "bid": 0.0,
+    "ask": 1501.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 48794521600,
@@ -1189,14 +1189,19 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "marketState": "CLOSED",
-    "cryptoTradeable": false,
+    "regularMarketChangePercent": 2.1276596,
+    "regularMarketPrice": 1920.0,
+    "marketState": "PREPRE",
+    "regularMarketTime": 1774593000,
+    "exchange": "JPX",
+    "messageBoardId": "finmb_883903",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 946944000000,
-    "regularMarketChange": 40.0,
-    "regularMarketDayRange": "1869.0 - 1920.0",
-    "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 6557,
     "fiftyTwoWeekLowChange": 830.0,
     "fiftyTwoWeekLowChangePercent": 0.7614679,
     "fiftyTwoWeekRange": "1090.0 - 2150.0",
@@ -1215,8 +1220,10 @@
     "exchangeDataDelayedBy": 20,
     "shortName": "OHMOTO GUMI CO",
     "longName": "Ohmoto Gumi Co., Ltd.",
-    "regularMarketChangePercent": 2.1276596,
-    "regularMarketPrice": 1920.0,
+    "regularMarketChange": 40.0,
+    "regularMarketDayRange": "1869.0 - 1920.0",
+    "fullExchangeName": "Tokyo",
+    "averageDailyVolume3Month": 6557,
     "corporateActions": [
       {
         "header": "Dividend",
@@ -1228,14 +1235,7 @@
         }
       }
     ],
-    "regularMarketTime": 1774593000,
-    "exchange": "JPX",
-    "messageBoardId": "finmb_883903",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
+    "cryptoTradeable": false,
     "trailingPegRatio": null
   }
 }

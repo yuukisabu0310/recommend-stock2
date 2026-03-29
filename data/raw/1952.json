@@ -1,7 +1,7 @@
 {
   "ticker": "1952",
   "japanese_ticker": "1952.T",
-  "fetch_date": "2026-03-28T23:27:31.671747",
+  "fetch_date": "2026-03-29T23:28:48.595643",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": 595782000.0,
@@ -1201,8 +1201,8 @@
     "averageVolume": 164128,
     "averageVolume10days": 153240,
     "averageDailyVolume10Day": 153240,
-    "bid": 3485.0,
-    "ask": 3490.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 158294032384,
@@ -1269,32 +1269,22 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "corporateActions": [
-      {
-        "header": "Dividend",
-        "message": "1952.T announced a cash dividend of JPY 70.00 with an ex-date of Mar. 30, 2026",
-        "meta": {
-          "eventType": "DIVIDEND",
-          "dateEpochMs": 1774796400000,
-          "amount": "70.00"
-        }
-      }
-    ],
-    "regularMarketTime": 1774593000,
-    "exchange": "JPX",
-    "shortName": "SHIN NIPPON AIR TECHNOLOGIES CO",
-    "longName": "Shin Nippon Air Technologies Co., Ltd.",
-    "messageBoardId": "finmb_880826",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
-    "regularMarketChangePercent": -1.2747875,
-    "regularMarketPrice": 3485.0,
-    "marketState": "CLOSED",
+    "fiftyDayAverageChange": -159.19995,
+    "fiftyDayAverageChangePercent": -0.043685842,
+    "twoHundredDayAverageChange": 423.30493,
+    "twoHundredDayAverageChangePercent": 0.13825835,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "prevName": "Shin Nippon Air Technologies Co. Ltd.",
+    "nameChangeDate": "2026-03-29",
+    "cryptoTradeable": false,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 978307200000,
+    "regularMarketChangePercent": -1.2747875,
+    "regularMarketPrice": 3485.0,
+    "marketState": "PREPRE",
+    "shortName": "SHIN NIPPON AIR TECHNOLOGIES CO",
+    "longName": "Shin Nippon Air Technologies Co., Ltd.",
     "regularMarketChange": -45.0,
     "regularMarketDayRange": "3420.0 - 3510.0",
     "fullExchangeName": "Tokyo",
@@ -1309,15 +1299,25 @@
     "earningsTimestampEnd": 1754973000,
     "isEarningsDateEstimate": true,
     "epsTrailingTwelveMonths": 257.89,
-    "fiftyDayAverageChange": -159.19995,
-    "fiftyDayAverageChangePercent": -0.043685842,
-    "twoHundredDayAverageChange": 423.30493,
-    "twoHundredDayAverageChangePercent": 0.13825835,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "prevName": "Shin Nippon Air Technologies Co. Ltd.",
-    "nameChangeDate": "2026-03-28",
-    "cryptoTradeable": false,
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "1952.T announced a cash dividend of JPY 70.00 with an ex-date of Mar. 30, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1774796400000,
+          "amount": "70.00"
+        }
+      }
+    ],
+    "regularMarketTime": 1774593000,
+    "exchange": "JPX",
+    "messageBoardId": "finmb_880826",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
     "trailingPegRatio": null
   }
 }

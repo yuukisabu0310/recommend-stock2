@@ -1,7 +1,7 @@
 {
   "ticker": "2612",
   "japanese_ticker": "2612.T",
-  "fetch_date": "2026-03-28T23:34:28.710283",
+  "fetch_date": "2026-03-29T23:35:52.670101",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": 303500.0,
@@ -992,8 +992,8 @@
     "averageVolume": 6941,
     "averageVolume10days": 4550,
     "averageDailyVolume10Day": 4550,
-    "bid": 5260.0,
-    "ask": 5320.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 146613616640,
@@ -1009,7 +1009,7 @@
     "trailingAnnualDividendYield": 0.018726591,
     "currency": "JPY",
     "tradeable": false,
-    "enterpriseValue": 38658129920,
+    "enterpriseValue": 6076547072,
     "profitMargins": 0.070539996,
     "floatShares": 2527085,
     "sharesOutstanding": 27610851,
@@ -1026,8 +1026,8 @@
     "trailingEps": 95.76,
     "lastSplitFactor": "3:1",
     "lastSplitDate": 1774828800,
-    "enterpriseToRevenue": 0.965,
-    "enterpriseToEbitda": 7.735,
+    "enterpriseToRevenue": 0.152,
+    "enterpriseToEbitda": 1.216,
     "52WeekChange": 0.34207082,
     "SandP52WeekChange": 0.12811458,
     "lastDividendValue": 135.0,
@@ -1061,19 +1061,32 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "shortName": "KADOYA SESAME MILLS INC",
-    "longName": "Kadoya Sesame Mills Incorporated",
-    "regularMarketTime": 1774593000,
-    "exchange": "JPX",
-    "messageBoardId": "finmb_5633542",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
     "regularMarketChangePercent": -0.56179774,
     "regularMarketPrice": 5310.0,
-    "marketState": "CLOSED",
+    "shortName": "KADOYA SESAME MILLS INC",
+    "longName": "Kadoya Sesame Mills Incorporated",
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "2612.T announced a cash dividend of JPY 135.00 with an ex-date of Mar. 30, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1774796400000,
+          "amount": "135.00"
+        }
+      },
+      {
+        "header": "Stock split",
+        "message": "2612.T announces 3 for 1 split effective Mar. 30, 2026",
+        "meta": {
+          "eventType": "SPLIT",
+          "dateEpochMs": 1774796400000,
+          "splitRatio": "3:1"
+        }
+      }
+    ],
+    "regularMarketTime": 1774593000,
+    "marketState": "PREPRE",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1266796800000,
     "regularMarketChange": -30.0,
@@ -1096,27 +1109,14 @@
     "twoHundredDayAverageChangePercent": 0.34246856,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
-    "corporateActions": [
-      {
-        "header": "Dividend",
-        "message": "2612.T announced a cash dividend of JPY 135.00 with an ex-date of Mar. 30, 2026",
-        "meta": {
-          "eventType": "DIVIDEND",
-          "dateEpochMs": 1774796400000,
-          "amount": "135.00"
-        }
-      },
-      {
-        "header": "Stock split",
-        "message": "2612.T announces 3 for 1 split effective Mar. 30, 2026",
-        "meta": {
-          "eventType": "SPLIT",
-          "dateEpochMs": 1774796400000,
-          "splitRatio": "3:1"
-        }
-      }
-    ],
     "cryptoTradeable": false,
+    "exchange": "JPX",
+    "messageBoardId": "finmb_5633542",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
     "trailingPegRatio": null
   }
 }

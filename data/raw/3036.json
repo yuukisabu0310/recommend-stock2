@@ -1,7 +1,7 @@
 {
   "ticker": "3036",
   "japanese_ticker": "3036.T",
-  "fetch_date": "2026-03-28T23:39:34.541807",
+  "fetch_date": "2026-03-29T23:41:05.844635",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": -7722000.0,
@@ -1181,8 +1181,8 @@
     "averageVolume": 230267,
     "averageVolume10days": 161810,
     "averageDailyVolume10Day": 161810,
-    "bid": 2819.0,
-    "ask": 2823.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 84759330816,
@@ -1249,11 +1249,6 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "marketState": "CLOSED",
-    "cryptoTradeable": false,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1205452800000,
-    "regularMarketChange": 7.0,
     "regularMarketDayRange": "2776.0 - 2837.0",
     "fullExchangeName": "Tokyo",
     "averageDailyVolume3Month": 230267,
@@ -1266,6 +1261,14 @@
     "earningsTimestampStart": 1754278200,
     "earningsTimestampEnd": 1754623800,
     "isEarningsDateEstimate": true,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1205452800000,
+    "regularMarketChange": 7.0,
+    "shortName": "ALCONIX CORPORATION",
+    "longName": "ALCONIX Corporation",
+    "regularMarketChangePercent": 0.24866785,
+    "regularMarketPrice": 2822.0,
+    "marketState": "PREPRE",
     "epsTrailingTwelveMonths": 156.9,
     "fiftyDayAverageChange": -82.08008,
     "fiftyDayAverageChangePercent": -0.02826371,
@@ -1273,10 +1276,6 @@
     "twoHundredDayAverageChangePercent": 0.21990755,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
-    "shortName": "ALCONIX CORPORATION",
-    "longName": "ALCONIX Corporation",
-    "regularMarketChangePercent": 0.24866785,
-    "regularMarketPrice": 2822.0,
     "corporateActions": [
       {
         "header": "Dividend",
@@ -1296,6 +1295,7 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
+    "cryptoTradeable": false,
     "trailingPegRatio": null
   }
 }

@@ -1,7 +1,7 @@
 {
   "ticker": "2288",
   "japanese_ticker": "2288.T",
-  "fetch_date": "2026-03-28T23:30:42.751118",
+  "fetch_date": "2026-03-29T23:32:05.103750",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": 228900000.0,
@@ -1112,8 +1112,8 @@
     "averageVolume": 119526,
     "averageVolume10days": 258510,
     "averageDailyVolume10Day": 258510,
-    "bid": 2326.0,
-    "ask": 2330.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 56964952064,
@@ -1182,6 +1182,14 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "marketState": "PREPRE",
+    "shortName": "MARUDAI FOOD CO",
+    "longName": "Marudai Food Co., Ltd.",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 978307200000,
+    "regularMarketChangePercent": 0.3449763,
+    "regularMarketPrice": 2327.0,
+    "cryptoTradeable": false,
     "corporateActions": [],
     "regularMarketTime": 1774593000,
     "exchange": "JPX",
@@ -1191,9 +1199,6 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "regularMarketChangePercent": 0.3449763,
-    "regularMarketPrice": 2327.0,
-    "marketState": "CLOSED",
     "regularMarketChange": 8.0,
     "regularMarketDayRange": "2310.0 - 2346.0",
     "fullExchangeName": "Tokyo",
@@ -1214,11 +1219,6 @@
     "twoHundredDayAverageChangePercent": 0.1348203,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 978307200000,
-    "shortName": "MARUDAI FOOD CO",
-    "longName": "Marudai Food Co., Ltd.",
-    "cryptoTradeable": false,
     "trailingPegRatio": null
   }
 }

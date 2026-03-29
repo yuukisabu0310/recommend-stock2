@@ -1,7 +1,7 @@
 {
   "ticker": "1878",
   "japanese_ticker": "1878.T",
-  "fetch_date": "2026-03-28T23:26:25.584225",
+  "fetch_date": "2026-03-29T23:27:45.022334",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": 167679000.0,
@@ -1189,8 +1189,8 @@
     "averageVolume": 1581175,
     "averageVolume10days": 1691180,
     "averageDailyVolume10Day": 1691180,
-    "bid": 3685.0,
-    "ask": 3688.0,
+    "bid": 3528.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 1221715296256,
@@ -1262,30 +1262,24 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "corporateActions": [
-      {
-        "header": "Dividend",
-        "message": "1878.T announced a cash dividend of JPY 74.60 with an ex-date of Mar. 30, 2026",
-        "meta": {
-          "eventType": "DIVIDEND",
-          "dateEpochMs": 1774796400000,
-          "amount": "74.60"
-        }
-      }
-    ],
-    "regularMarketTime": 1774593000,
-    "exchange": "JPX",
-    "messageBoardId": "finmb_880828",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
-    "marketState": "CLOSED",
     "shortName": "DAITO TRUST CONSTRUCTION CO",
     "longName": "Daito Trust Construction Co.,Ltd.",
+    "marketState": "PREPRE",
+    "exchange": "JPX",
+    "messageBoardId": "finmb_880828",
+    "market": "jp_market",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 978307200000,
+    "epsTrailingTwelveMonths": 285.37,
+    "epsForward": 1395.07,
+    "fiftyDayAverageChange": 335.52002,
+    "fiftyDayAverageChangePercent": 0.100111,
+    "twoHundredDayAverageChange": 530.36743,
+    "twoHundredDayAverageChangePercent": 0.16801684,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "averageAnalystRating": "2.7 - Hold",
+    "cryptoTradeable": false,
     "regularMarketChange": 69.0,
     "regularMarketDayRange": "3634.0 - 3691.0",
     "fullExchangeName": "Tokyo",
@@ -1302,18 +1296,24 @@
     "earningsCallTimestampStart": 1746183540,
     "earningsCallTimestampEnd": 1746183540,
     "isEarningsDateEstimate": false,
-    "epsTrailingTwelveMonths": 285.37,
-    "epsForward": 1395.07,
-    "fiftyDayAverageChange": 335.52002,
-    "fiftyDayAverageChangePercent": 0.100111,
-    "twoHundredDayAverageChange": 530.36743,
-    "twoHundredDayAverageChangePercent": 0.16801684,
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "1878.T announced a cash dividend of JPY 74.60 with an ex-date of Mar. 30, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1774796400000,
+          "amount": "74.60"
+        }
+      }
+    ],
+    "regularMarketTime": 1774593000,
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "esgPopulated": false,
     "regularMarketChangePercent": 1.9071311,
     "regularMarketPrice": 3687.0,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "averageAnalystRating": "2.7 - Hold",
-    "cryptoTradeable": false,
     "trailingPegRatio": null
   }
 }

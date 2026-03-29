@@ -1,7 +1,7 @@
 {
   "ticker": "2801",
   "japanese_ticker": "2801.T",
-  "fetch_date": "2026-03-28T23:36:45.104616",
+  "fetch_date": "2026-03-29T23:38:06.684650",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": 0.0,
@@ -1147,8 +1147,8 @@
     "averageVolume": 3316107,
     "averageVolume10days": 3766720,
     "averageDailyVolume10Day": 3766720,
-    "bid": 1443.5,
-    "ask": 1445.0,
+    "bid": 0.0,
+    "ask": 1250.5,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 1337885720576,
@@ -1222,6 +1222,7 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "shortName": "KIKKOMAN CORP",
     "corporateActions": [
       {
         "header": "Dividend",
@@ -1241,9 +1242,19 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
+    "fiftyDayAverageChangePercent": 0.013316652,
+    "twoHundredDayAverageChange": 92.464966,
+    "twoHundredDayAverageChangePercent": 0.068440095,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "averageAnalystRating": "2.5 - Buy",
+    "cryptoTradeable": false,
+    "marketState": "PREPRE",
     "regularMarketChangePercent": 2.08628,
     "regularMarketPrice": 1443.5,
-    "marketState": "CLOSED",
+    "longName": "Kikkoman Corporation",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 946944000000,
     "regularMarketChange": 29.5,
     "regularMarketDayRange": "1405.5 - 1447.0",
     "fullExchangeName": "Tokyo",
@@ -1263,17 +1274,6 @@
     "epsTrailingTwelveMonths": 61.78,
     "epsForward": 64.27,
     "fiftyDayAverageChange": 18.96997,
-    "fiftyDayAverageChangePercent": 0.013316652,
-    "twoHundredDayAverageChange": 92.464966,
-    "twoHundredDayAverageChangePercent": 0.068440095,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "averageAnalystRating": "2.5 - Buy",
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 946944000000,
-    "shortName": "KIKKOMAN CORP",
-    "longName": "Kikkoman Corporation",
-    "cryptoTradeable": false,
     "trailingPegRatio": 6.8428
   }
 }

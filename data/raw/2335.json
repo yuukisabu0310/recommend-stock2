@@ -1,7 +1,7 @@
 {
   "ticker": "2335",
   "japanese_ticker": "2335.T",
-  "fetch_date": "2026-03-28T23:31:32.834400",
+  "fetch_date": "2026-03-29T23:32:55.333367",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": 104832000.0,
@@ -1114,8 +1114,8 @@
     "averageVolume": 25771,
     "averageVolume10days": 22890,
     "averageDailyVolume10Day": 22890,
-    "bid": 1039.0,
-    "ask": 1045.0,
+    "bid": 0.0,
+    "ask": 1021.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 15734004736,
@@ -1176,15 +1176,6 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "exchange": "JPX",
-    "messageBoardId": "finmb_9236621",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
-    "regularMarketChangePercent": 0.09578544,
-    "regularMarketPrice": 1045.0,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1164153600000,
     "regularMarketChange": 1.0,
@@ -1195,21 +1186,6 @@
     "fiftyTwoWeekLowChangePercent": 0.16111112,
     "fiftyTwoWeekRange": "900.0 - 1245.0",
     "fiftyTwoWeekHighChange": -200.0,
-    "marketState": "CLOSED",
-    "corporateActions": [
-      {
-        "header": "Dividend",
-        "message": "2335.T announced a cash dividend of JPY 22.00 with an ex-date of Mar. 30, 2026",
-        "meta": {
-          "eventType": "DIVIDEND",
-          "dateEpochMs": 1774796400000,
-          "amount": "22.00"
-        }
-      }
-    ],
-    "regularMarketTime": 1774593000,
-    "shortName": "CUBE SYSTEM INC",
-    "longName": "Cube System Inc.",
     "fiftyTwoWeekHighChangePercent": -0.16064256,
     "fiftyTwoWeekChangePercent": 0.5825281,
     "earningsTimestampStart": 1754377200,
@@ -1222,6 +1198,30 @@
     "twoHundredDayAverageChangePercent": -0.06529099,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
+    "shortName": "CUBE SYSTEM INC",
+    "longName": "Cube System Inc.",
+    "marketState": "PREPRE",
+    "regularMarketTime": 1774593000,
+    "exchange": "JPX",
+    "messageBoardId": "finmb_9236621",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
+    "regularMarketChangePercent": 0.09578544,
+    "regularMarketPrice": 1045.0,
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "2335.T announced a cash dividend of JPY 22.00 with an ex-date of Mar. 30, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1774796400000,
+          "amount": "22.00"
+        }
+      }
+    ],
     "cryptoTradeable": false,
     "trailingPegRatio": null
   }

@@ -1,7 +1,7 @@
 {
   "ticker": "2926",
   "japanese_ticker": "2926.T",
-  "fetch_date": "2026-03-28T23:38:09.097677",
+  "fetch_date": "2026-03-29T23:39:40.448953",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-09-30 00:00:00": -3366144.0,
@@ -1094,20 +1094,11 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "corporateActions": [],
-    "regularMarketTime": 1774593000,
-    "exchange": "JPX",
-    "messageBoardId": "finmb_10159852",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
     "regularMarketChangePercent": -1.0309278,
     "regularMarketPrice": 96.0,
-    "marketState": "CLOSED",
-    "longName": "Shinozakiya, Inc.",
-    "shortName": "SHINOZAKIYA INC",
+    "marketState": "PREPRE",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1069977600000,
     "regularMarketChange": -1.0,
@@ -1123,6 +1114,8 @@
     "earningsTimestampStart": 1753768800,
     "earningsTimestampEnd": 1754287200,
     "isEarningsDateEstimate": true,
+    "shortName": "SHINOZAKIYA INC",
+    "longName": "Shinozakiya, Inc.",
     "epsTrailingTwelveMonths": 2.69,
     "fiftyDayAverageChange": -1.1600037,
     "fiftyDayAverageChangePercent": -0.0119391065,
@@ -1131,6 +1124,13 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
+    "corporateActions": [],
+    "regularMarketTime": 1774593000,
+    "exchange": "JPX",
+    "messageBoardId": "finmb_10159852",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
     "trailingPegRatio": null
   }
 }

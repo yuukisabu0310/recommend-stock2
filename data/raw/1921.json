@@ -1,7 +1,7 @@
 {
   "ticker": "1921",
   "japanese_ticker": "1921.T",
-  "fetch_date": "2026-03-28T23:26:55.529740",
+  "fetch_date": "2026-03-29T23:28:13.999689",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": 1433793515.0,
@@ -1091,8 +1091,8 @@
     "averageVolume": 52626,
     "averageVolume10days": 56160,
     "averageDailyVolume10Day": 56160,
-    "bid": 2003.0,
-    "ask": 2026.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 67732545536,
@@ -1157,32 +1157,6 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "cryptoTradeable": false,
-    "marketState": "CLOSED",
-    "corporateActions": [
-      {
-        "header": "Dividend",
-        "message": "1921.T announced a cash dividend of JPY 24.00 with an ex-date of Mar. 30, 2026",
-        "meta": {
-          "eventType": "DIVIDEND",
-          "dateEpochMs": 1774796400000,
-          "amount": "24.00"
-        }
-      }
-    ],
-    "regularMarketTime": 1774593000,
-    "exchange": "JPX",
-    "messageBoardId": "finmb_880629",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
-    "shortName": "TOMOE CORPORATION",
-    "longName": "Tomoe Corporation",
-    "regularMarketChange": 9.0,
-    "regularMarketDayRange": "1985.0 - 2027.0",
-    "fullExchangeName": "Tokyo",
     "averageDailyVolume3Month": 52626,
     "fiftyTwoWeekLowChange": 934.0,
     "fiftyTwoWeekLowChangePercent": 0.86162364,
@@ -1200,10 +1174,36 @@
     "twoHundredDayAverageChangePercent": 0.14182575,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
-    "regularMarketChangePercent": 0.4479841,
-    "regularMarketPrice": 2018.0,
+    "marketState": "PREPRE",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 978307200000,
+    "regularMarketChangePercent": 0.4479841,
+    "regularMarketPrice": 2018.0,
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "1921.T announced a cash dividend of JPY 24.00 with an ex-date of Mar. 30, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1774796400000,
+          "amount": "24.00"
+        }
+      }
+    ],
+    "regularMarketTime": 1774593000,
+    "regularMarketChange": 9.0,
+    "regularMarketDayRange": "1985.0 - 2027.0",
+    "fullExchangeName": "Tokyo",
+    "exchange": "JPX",
+    "messageBoardId": "finmb_880629",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
+    "shortName": "TOMOE CORPORATION",
+    "longName": "Tomoe Corporation",
+    "cryptoTradeable": false,
     "trailingPegRatio": null
   }
 }
