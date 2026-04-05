@@ -1,7 +1,7 @@
 {
   "ticker": "3031",
   "japanese_ticker": "3031.T",
-  "fetch_date": "2026-04-04T23:38:19.302396",
+  "fetch_date": "2026-04-05T23:41:53.509459",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-04-30 00:00:00": 1734353.096756,
@@ -1152,11 +1152,11 @@
     "forwardPE": 12.918287,
     "volume": 129600,
     "regularMarketVolume": 129600,
-    "averageVolume": 154727,
+    "averageVolume": 154928,
     "averageVolume10days": 203420,
     "averageDailyVolume10Day": 203420,
-    "bid": 663.0,
-    "ask": 664.0,
+    "bid": 0.0,
+    "ask": 666.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 13500269568,
@@ -1238,14 +1238,16 @@
     "esgPopulated": false,
     "regularMarketChangePercent": 0.60606056,
     "regularMarketPrice": 664.0,
-    "averageAnalystRating": "0.0 - Strong Buy",
     "cryptoTradeable": false,
+    "marketState": "PREPRE",
+    "shortName": "RACCOON HOLDINGS INC",
+    "longName": "RACCOON HOLDINGS, Inc.",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1144281600000,
     "regularMarketChange": 4.0,
     "regularMarketDayRange": "660.0 - 670.0",
     "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 154727,
+    "averageDailyVolume3Month": 154928,
     "fiftyTwoWeekLowChange": 61.0,
     "fiftyTwoWeekLowChangePercent": 0.10116086,
     "fiftyTwoWeekRange": "603.0 - 893.0",
@@ -1263,9 +1265,7 @@
     "twoHundredDayAverageChangePercent": -0.00797063,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
-    "marketState": "CLOSED",
-    "shortName": "RACCOON HOLDINGS INC",
-    "longName": "RACCOON HOLDINGS, Inc.",
+    "averageAnalystRating": "0.0 - Strong Buy",
     "trailingPegRatio": null
   }
 }

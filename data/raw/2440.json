@@ -1,7 +1,7 @@
 {
   "ticker": "2440",
   "japanese_ticker": "2440.T",
-  "fetch_date": "2026-04-04T23:32:06.649596",
+  "fetch_date": "2026-04-05T23:35:29.954531",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": -2390574.0,
@@ -999,10 +999,10 @@
     "forwardPE": -13.043478,
     "volume": 57300,
     "regularMarketVolume": 57300,
-    "averageVolume": 266040,
+    "averageVolume": 267048,
     "averageVolume10days": 137120,
     "averageDailyVolume10Day": 137120,
-    "bid": 150.0,
+    "bid": 0.0,
     "ask": 151.0,
     "bidSize": 0,
     "askSize": 0,
@@ -1065,8 +1065,13 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "marketState": "PREPRE",
+    "shortName": "GURUNAVI INC",
+    "longName": "Gurunavi, Inc.",
+    "regularMarketChange": 0.0,
+    "regularMarketDayRange": "150.0 - 151.0",
     "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 266040,
+    "averageDailyVolume3Month": 267048,
     "fiftyTwoWeekLowChange": 10.0,
     "fiftyTwoWeekLowChangePercent": 0.071428575,
     "fiftyTwoWeekRange": "140.0 - 299.0",
@@ -1088,6 +1093,7 @@
     "exchangeDataDelayedBy": 20,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1220572800000,
+    "cryptoTradeable": false,
     "corporateActions": [],
     "regularMarketTime": 1775197800,
     "exchange": "JPX",
@@ -1099,12 +1105,6 @@
     "esgPopulated": false,
     "regularMarketChangePercent": 0.0,
     "regularMarketPrice": 150.0,
-    "regularMarketChange": 0.0,
-    "regularMarketDayRange": "150.0 - 151.0",
-    "marketState": "CLOSED",
-    "shortName": "GURUNAVI INC",
-    "longName": "Gurunavi, Inc.",
-    "cryptoTradeable": false,
     "trailingPegRatio": null
   }
 }

@@ -1,7 +1,7 @@
 {
   "ticker": "2373",
   "japanese_ticker": "2373.T",
-  "fetch_date": "2026-04-04T23:31:09.315959",
+  "fetch_date": "2026-04-05T23:34:32.876129",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-10-31 00:00:00": 41197200.0,
@@ -1228,11 +1228,11 @@
     "trailingPE": 15.360281,
     "volume": 4400,
     "regularMarketVolume": 4400,
-    "averageVolume": 10780,
+    "averageVolume": 10723,
     "averageVolume10days": 6800,
     "averageDailyVolume10Day": 6800,
-    "bid": 436.0,
-    "ask": 437.0,
+    "bid": 0.0,
+    "ask": 438.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 5903748096,
@@ -1297,18 +1297,9 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "corporateActions": [
-      {
-        "header": "Dividend",
-        "message": "2373.T announced a cash dividend of JPY 7.00 with an ex-date of Apr. 28, 2026",
-        "meta": {
-          "eventType": "DIVIDEND",
-          "dateEpochMs": 1777302000000,
-          "amount": "7.00"
-        }
-      }
-    ],
+    "corporateActions": [],
     "regularMarketTime": 1775197800,
+    "marketState": "PREPRE",
     "exchange": "JPX",
     "messageBoardId": "finmb_9476191",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1316,18 +1307,17 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "longName": "Care Twentyone Corporation",
-    "marketState": "CLOSED",
-    "cryptoTradeable": false,
-    "shortName": "CARE TWENTYONE CORP",
     "regularMarketChangePercent": 0.4597701,
     "regularMarketPrice": 437.0,
+    "cryptoTradeable": false,
+    "shortName": "CARE TWENTYONE CORP",
+    "longName": "Care Twentyone Corporation",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1066348800000,
     "regularMarketChange": 2.0,
     "regularMarketDayRange": "436.0 - 438.0",
     "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 10780,
+    "averageDailyVolume3Month": 10723,
     "fiftyTwoWeekLowChange": 71.0,
     "fiftyTwoWeekLowChangePercent": 0.19398907,
     "fiftyTwoWeekRange": "366.0 - 613.0",

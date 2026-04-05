@@ -1,7 +1,7 @@
 {
   "ticker": "1726",
   "japanese_ticker": "1726.T",
-  "fetch_date": "2026-04-04T23:24:06.590453",
+  "fetch_date": "2026-04-05T23:27:17.840279",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": 30030000.0,
@@ -984,7 +984,7 @@
     "forwardPE": 13.815789,
     "volume": 12900,
     "regularMarketVolume": 12900,
-    "averageVolume": 379014,
+    "averageVolume": 382963,
     "averageVolume10days": 109970,
     "averageDailyVolume10Day": 109970,
     "bid": 0.0,
@@ -992,7 +992,7 @@
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 23768129536,
-    "nonDilutedMarketCap": 23813402328,
+    "nonDilutedMarketCap": 23768129700,
     "fiftyTwoWeekLow": 296.0,
     "fiftyTwoWeekHigh": 531.0,
     "allTimeHigh": 820.0,
@@ -1056,6 +1056,8 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "corporateActions": [],
+    "regularMarketTime": 1775197800,
     "exchange": "JPX",
     "messageBoardId": "finmb_8983320",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1065,11 +1067,11 @@
     "esgPopulated": false,
     "regularMarketChangePercent": 0.0,
     "regularMarketPrice": 525.0,
-    "marketState": "CLOSED",
-    "corporateActions": [],
-    "regularMarketTime": 1775197800,
+    "marketState": "PREPRE",
     "shortName": "BR. HOLDINGS CORPORATION",
     "longName": "Br. Holdings Corporation",
+    "epsTrailingTwelveMonths": 25.25,
+    "epsForward": 38.0,
     "fiftyDayAverageChange": 37.399994,
     "fiftyDayAverageChangePercent": 0.0767022,
     "twoHundredDayAverageChange": 149.6,
@@ -1082,7 +1084,7 @@
     "regularMarketChange": 0.0,
     "regularMarketDayRange": "525.0 - 526.0",
     "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 379014,
+    "averageDailyVolume3Month": 382963,
     "fiftyTwoWeekLowChange": 229.0,
     "fiftyTwoWeekLowChangePercent": 0.7736486,
     "fiftyTwoWeekRange": "296.0 - 531.0",
@@ -1092,8 +1094,6 @@
     "earningsTimestampStart": 1754377200,
     "earningsTimestampEnd": 1754982000,
     "isEarningsDateEstimate": true,
-    "epsTrailingTwelveMonths": 25.25,
-    "epsForward": 38.0,
     "trailingPegRatio": null
   }
 }

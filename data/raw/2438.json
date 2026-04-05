@@ -1,7 +1,7 @@
 {
   "ticker": "2438",
   "japanese_ticker": "2438.T",
-  "fetch_date": "2026-04-04T23:32:04.825425",
+  "fetch_date": "2026-04-05T23:35:27.921344",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-04-30 00:00:00": -101508816.0,
@@ -1006,15 +1006,15 @@
     "beta": 0.189,
     "volume": 38700,
     "regularMarketVolume": 38700,
-    "averageVolume": 79859,
+    "averageVolume": 80355,
     "averageVolume10days": 71770,
     "averageDailyVolume10Day": 71770,
-    "bid": 372.0,
-    "ask": 374.0,
+    "bid": 374.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 5664287744,
-    "nonDilutedMarketCap": 5694577904,
+    "nonDilutedMarketCap": 5664287596,
     "fiftyTwoWeekLow": 330.0,
     "fiftyTwoWeekHigh": 482.0,
     "allTimeHigh": 4420.0,
@@ -1076,10 +1076,37 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "2438.T announced a cash dividend of JPY 7.00 with an ex-date of Apr. 28, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1777302000000,
+          "amount": "7.00"
+        }
+      }
+    ],
+    "regularMarketTime": 1775197800,
+    "marketState": "PREPRE",
+    "exchange": "JPX",
+    "messageBoardId": "finmb_21909627",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
+    "regularMarketChangePercent": 1.3550135,
+    "regularMarketPrice": 374.0,
+    "cryptoTradeable": false,
+    "shortName": "ASUKANET CO LIMITED",
+    "longName": "Asukanet Co., Ltd.",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1113436800000,
     "regularMarketChange": 5.0,
     "regularMarketDayRange": "370.0 - 375.0",
     "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 79859,
+    "averageDailyVolume3Month": 80355,
     "fiftyTwoWeekLowChange": 44.0,
     "fiftyTwoWeekLowChangePercent": 0.13333334,
     "fiftyTwoWeekRange": "330.0 - 482.0",
@@ -1096,33 +1123,6 @@
     "twoHundredDayAverageChangePercent": -0.030535536,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1113436800000,
-    "shortName": "ASUKANET CO LIMITED",
-    "longName": "Asukanet Co., Ltd.",
-    "cryptoTradeable": false,
-    "regularMarketChangePercent": 1.3550135,
-    "regularMarketPrice": 374.0,
-    "corporateActions": [
-      {
-        "header": "Dividend",
-        "message": "2438.T announced a cash dividend of JPY 7.00 with an ex-date of Apr. 28, 2026",
-        "meta": {
-          "eventType": "DIVIDEND",
-          "dateEpochMs": 1777302000000,
-          "amount": "7.00"
-        }
-      }
-    ],
-    "regularMarketTime": 1775197800,
-    "exchange": "JPX",
-    "messageBoardId": "finmb_21909627",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
-    "marketState": "CLOSED",
     "trailingPegRatio": null
   }
 }
