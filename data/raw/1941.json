@@ -1,7 +1,7 @@
 {
   "ticker": "1941",
   "japanese_ticker": "1941.T",
-  "fetch_date": "2026-04-11T23:29:18.207509",
+  "fetch_date": "2026-04-12T23:30:21.089884",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": -107448000.0,
@@ -1049,8 +1049,8 @@
     "averageVolume": 75762,
     "averageVolume10days": 61860,
     "averageDailyVolume10Day": 61860,
-    "bid": 4840.0,
-    "ask": 4850.0,
+    "bid": 0.0,
+    "ask": 4840.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 256244662272,
@@ -1116,6 +1116,10 @@
     "customPriceAlertConfidence": "LOW",
     "shortName": "CHUDENKO CORP",
     "longName": "Chudenko Corporation",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 978307200000,
+    "regularMarketChange": -65.0,
+    "regularMarketDayRange": "4835.0 - 4980.0",
     "corporateActions": [],
     "regularMarketTime": 1775802600,
     "exchange": "JPX",
@@ -1127,11 +1131,8 @@
     "esgPopulated": false,
     "regularMarketChangePercent": -1.3251784,
     "regularMarketPrice": 4840.0,
-    "marketState": "CLOSED",
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 978307200000,
-    "regularMarketChange": -65.0,
-    "regularMarketDayRange": "4835.0 - 4980.0",
+    "cryptoTradeable": false,
+    "marketState": "PREPRE",
     "fullExchangeName": "Tokyo",
     "averageDailyVolume3Month": 75762,
     "fiftyTwoWeekLowChange": 1630.0,
@@ -1153,7 +1154,6 @@
     "twoHundredDayAverageChangePercent": 0.14988269,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
     "trailingPegRatio": null
   }
 }

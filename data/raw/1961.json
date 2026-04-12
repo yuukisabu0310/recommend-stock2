@@ -1,7 +1,7 @@
 {
   "ticker": "1961",
   "japanese_ticker": "1961.T",
-  "fetch_date": "2026-04-11T23:29:40.586026",
+  "fetch_date": "2026-04-12T23:30:44.040930",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": 67340000.0,
@@ -1134,8 +1134,8 @@
     "averageVolume": 222842,
     "averageVolume10days": 254720,
     "averageDailyVolume10Day": 254720,
-    "bid": 8220.0,
-    "ask": 8240.0,
+    "bid": 0.0,
+    "ask": 8220.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 418541502464,
@@ -1210,14 +1210,8 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "regularMarketTime": 1775802600,
-    "exchange": "JPX",
-    "messageBoardId": "finmb_877394",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 978307200000,
     "regularMarketChange": 250.0,
     "regularMarketDayRange": "8040.0 - 8270.0",
     "fullExchangeName": "Tokyo",
@@ -1233,13 +1227,7 @@
     "isEarningsDateEstimate": true,
     "epsTrailingTwelveMonths": 350.17,
     "epsForward": 229.3,
-    "regularMarketPrice": 8220.0,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 978307200000,
-    "shortName": "SANKI ENGINEERING CO",
-    "longName": "Sanki Engineering Co., Ltd.",
-    "marketState": "CLOSED",
-    "regularMarketChangePercent": 3.136763,
+    "marketState": "PREPRE",
     "corporateActions": [
       {
         "header": "Stock split",
@@ -1251,6 +1239,16 @@
         }
       }
     ],
+    "regularMarketTime": 1775802600,
+    "exchange": "JPX",
+    "messageBoardId": "finmb_877394",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
+    "regularMarketChangePercent": 3.136763,
+    "regularMarketPrice": 8220.0,
     "fiftyDayAverageChange": 1026.7998,
     "fiftyDayAverageChangePercent": 0.1427459,
     "twoHundredDayAverageChange": 2561.4,
@@ -1258,6 +1256,8 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
+    "shortName": "SANKI ENGINEERING CO",
+    "longName": "Sanki Engineering Co., Ltd.",
     "trailingPegRatio": null
   }
 }

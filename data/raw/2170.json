@@ -1,7 +1,7 @@
 {
   "ticker": "2170",
   "japanese_ticker": "2170.T",
-  "fetch_date": "2026-04-11T23:31:25.705100",
+  "fetch_date": "2026-04-12T23:32:28.184320",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-12-31 00:00:00": 0.0,
@@ -1132,8 +1132,8 @@
     "averageVolume": 578424,
     "averageVolume10days": 858890,
     "averageDailyVolume10Day": 858890,
-    "bid": 581.0,
-    "ask": 584.0,
+    "bid": 0.0,
+    "ask": 574.0,
     "marketCap": 64017195008,
     "nonDilutedMarketCap": 62762003262,
     "fiftyTwoWeekLow": 475.0,
@@ -1204,8 +1204,8 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "marketState": "CLOSED",
-    "cryptoTradeable": false,
+    "shortName": "LINK AND MOTIVATION INC",
+    "longName": "Link and Motivation Inc.",
     "corporateActions": [],
     "regularMarketTime": 1775802600,
     "exchange": "JPX",
@@ -1217,10 +1217,9 @@
     "esgPopulated": false,
     "regularMarketChangePercent": -4.1254125,
     "regularMarketPrice": 581.0,
-    "shortName": "LINK AND MOTIVATION INC",
-    "longName": "Link and Motivation Inc.",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1197849600000,
+    "marketState": "PREPRE",
     "regularMarketChange": -25.0,
     "regularMarketDayRange": "576.0 - 609.0",
     "fullExchangeName": "Tokyo",
@@ -1244,6 +1243,7 @@
     "twoHundredDayAverageChangePercent": 0.10700398,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
     "trailingPegRatio": null
   }
 }

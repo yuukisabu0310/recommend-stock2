@@ -1,7 +1,7 @@
 {
   "ticker": "2693",
   "japanese_ticker": "2693.T",
-  "fetch_date": "2026-04-11T23:37:13.137960",
+  "fetch_date": "2026-04-12T23:38:03.241083",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-12-31 00:00:00": 38445184.0,
@@ -1144,8 +1144,8 @@
     "averageVolume": 29254,
     "averageVolume10days": 30240,
     "averageDailyVolume10Day": 30240,
-    "bid": 245.0,
-    "ask": 247.0,
+    "bid": 247.0,
+    "ask": 248.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 2844115456,
@@ -1221,13 +1221,6 @@
     "esgPopulated": false,
     "shortName": "YKT CORPORATION",
     "longName": "YKT Corporation",
-    "twoHundredDayAverageChangePercent": 0.0010009811,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
-    "marketState": "CLOSED",
-    "regularMarketChangePercent": -4.6692605,
-    "regularMarketPrice": 245.0,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 984441600000,
     "regularMarketChange": -12.0,
@@ -1247,6 +1240,13 @@
     "fiftyDayAverageChange": -0.80000305,
     "fiftyDayAverageChangePercent": -0.003254691,
     "twoHundredDayAverageChange": 0.24499512,
+    "twoHundredDayAverageChangePercent": 0.0010009811,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
+    "regularMarketChangePercent": -4.6692605,
+    "regularMarketPrice": 245.0,
+    "marketState": "PREPRE",
     "trailingPegRatio": null
   }
 }

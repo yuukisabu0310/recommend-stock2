@@ -1,7 +1,7 @@
 {
   "ticker": "2816",
   "japanese_ticker": "2816.T",
-  "fetch_date": "2026-04-11T23:39:01.473930",
+  "fetch_date": "2026-04-12T23:39:50.530216",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": -7770000.0,
@@ -1029,8 +1029,8 @@
     "averageVolume": 3619,
     "averageVolume10days": 4060,
     "averageDailyVolume10Day": 4060,
-    "bid": 1408.0,
-    "ask": 1411.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 13591018496,
@@ -1095,6 +1095,7 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "marketState": "PREPRE",
     "epsTrailingTwelveMonths": 31.12,
     "fiftyDayAverageChange": -8.839966,
     "fiftyDayAverageChangePercent": -0.0062392126,
@@ -1118,12 +1119,7 @@
     "earningsTimestampStart": 1746770400,
     "earningsTimestampEnd": 1746770400,
     "isEarningsDateEstimate": false,
-    "marketState": "CLOSED",
-    "regularMarketChangePercent": 0.071073204,
-    "regularMarketPrice": 1408.0,
     "shortName": "DAISHO CO LTD",
-    "longName": "Daisho Co.,Ltd.",
-    "corporateActions": [],
     "regularMarketTime": 1775802600,
     "exchange": "JPX",
     "messageBoardId": "finmb_5751391",
@@ -1132,6 +1128,10 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
+    "corporateActions": [],
+    "regularMarketChangePercent": 0.071073204,
+    "regularMarketPrice": 1408.0,
+    "longName": "Daisho Co.,Ltd.",
     "trailingPegRatio": null
   }
 }

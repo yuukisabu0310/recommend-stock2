@@ -1,7 +1,7 @@
 {
   "ticker": "2769",
   "japanese_ticker": "2769.T",
-  "fetch_date": "2026-04-11T23:38:13.897076",
+  "fetch_date": "2026-04-12T23:39:00.653019",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-05-31 00:00:00": -732888000.0,
@@ -960,8 +960,8 @@
     "averageVolume": 6063,
     "averageVolume10days": 5030,
     "averageDailyVolume10Day": 5030,
-    "bid": 951.0,
-    "ask": 952.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 7457550848,
@@ -1026,6 +1026,9 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "marketState": "PREPRE",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1049932800000,
     "regularMarketChange": -1.0,
     "regularMarketDayRange": "951.0 - 953.0",
     "fullExchangeName": "Tokyo",
@@ -1048,10 +1051,6 @@
     "twoHundredDayAverageChangePercent": -0.04987885,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
-    "regularMarketChangePercent": -0.105042025,
-    "regularMarketPrice": 951.0,
-    "shortName": "VILLAGE VANGUARD CO LTD",
-    "longName": "Village Vanguard CO.,LTD.",
     "cryptoTradeable": false,
     "corporateActions": [],
     "regularMarketTime": 1775802600,
@@ -1062,9 +1061,10 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1049932800000,
-    "marketState": "CLOSED",
+    "regularMarketChangePercent": -0.105042025,
+    "regularMarketPrice": 951.0,
+    "shortName": "VILLAGE VANGUARD CO LTD",
+    "longName": "Village Vanguard CO.,LTD.",
     "trailingPegRatio": null
   }
 }

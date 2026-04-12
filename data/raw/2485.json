@@ -1,7 +1,7 @@
 {
   "ticker": "2485",
   "japanese_ticker": "2485.T",
-  "fetch_date": "2026-04-11T23:35:32.839319",
+  "fetch_date": "2026-04-12T23:36:28.201284",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-09-30 00:00:00": -41745000.0,
@@ -1186,8 +1186,8 @@
     "averageVolume": 50352,
     "averageVolume10days": 25500,
     "averageDailyVolume10Day": 25500,
-    "bid": 509.0,
-    "ask": 511.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 11476194304,
@@ -1254,8 +1254,8 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1371772800000,
+    "corporateActions": [],
+    "regularMarketTime": 1775802600,
     "exchange": "JPX",
     "messageBoardId": "finmb_26991660",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1263,10 +1263,13 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "shortName": "TEAR CORPORATION",
-    "longName": "Tear Corporation",
     "regularMarketChangePercent": -0.9708738,
     "regularMarketPrice": 510.0,
+    "shortName": "TEAR CORPORATION",
+    "longName": "Tear Corporation",
+    "marketState": "PREPRE",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1371772800000,
     "regularMarketChange": -5.0,
     "regularMarketDayRange": "509.0 - 516.0",
     "fullExchangeName": "Tokyo",
@@ -1288,9 +1291,6 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
-    "corporateActions": [],
-    "regularMarketTime": 1775802600,
-    "marketState": "CLOSED",
     "trailingPegRatio": null
   }
 }

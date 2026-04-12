@@ -1,7 +1,7 @@
 {
   "ticker": "3036",
   "japanese_ticker": "3036.T",
-  "fetch_date": "2026-04-11T23:41:32.380699",
+  "fetch_date": "2026-04-12T23:42:16.415360",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": -7722000.0,
@@ -1123,8 +1123,8 @@
     "averageVolume": 214634,
     "averageVolume10days": 118350,
     "averageDailyVolume10Day": 118350,
-    "bid": 2662.0,
-    "ask": 2675.0,
+    "bid": 0.0,
+    "ask": 2631.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 79983738880,
@@ -1191,7 +1191,6 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1205452800000,
     "regularMarketChange": -37.0,
     "regularMarketDayRange": "2660.0 - 2728.0",
@@ -1213,14 +1212,11 @@
     "twoHundredDayAverageChangePercent": 0.116981015,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
-    "marketState": "CLOSED",
-    "regularMarketChangePercent": -1.3703704,
-    "regularMarketPrice": 2663.0,
+    "cryptoTradeable": false,
+    "marketState": "PREPRE",
+    "hasPrePostMarketData": false,
     "corporateActions": [],
     "regularMarketTime": 1775802600,
-    "shortName": "ALCONIX CORPORATION",
-    "longName": "ALCONIX Corporation",
-    "cryptoTradeable": false,
     "exchange": "JPX",
     "messageBoardId": "finmb_5478733",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1228,6 +1224,10 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
+    "regularMarketChangePercent": -1.3703704,
+    "regularMarketPrice": 2663.0,
+    "shortName": "ALCONIX CORPORATION",
+    "longName": "ALCONIX Corporation",
     "trailingPegRatio": null
   }
 }

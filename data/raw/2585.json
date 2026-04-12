@@ -1,7 +1,7 @@
 {
   "ticker": "2585",
   "japanese_ticker": "2585.T",
-  "fetch_date": "2026-04-11T23:36:06.036833",
+  "fetch_date": "2026-04-12T23:37:00.225315",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": -2787000.0,
@@ -1054,8 +1054,8 @@
     "averageVolume": 1388588,
     "averageVolume10days": 2892680,
     "averageDailyVolume10Day": 2892680,
-    "bid": 1607.0,
-    "ask": 1608.0,
+    "bid": 0.0,
+    "ask": 1690.0,
     "marketCap": 83435872256,
     "nonDilutedMarketCap": 83435873448,
     "fiftyTwoWeekLow": 931.0,
@@ -1123,6 +1123,12 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "regularMarketChangePercent": -0.3099814,
+    "regularMarketPrice": 1608.0,
+    "shortName": "LIFEDRINK CO INC",
+    "longName": "Lifedrink Company, Inc.",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1640044800000,
     "regularMarketChange": -5.0,
     "regularMarketDayRange": "1578.0 - 1698.0",
     "fullExchangeName": "Tokyo",
@@ -1145,12 +1151,8 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "prevName": "LIFEDRINK COMPANY Inc.",
-    "nameChangeDate": "2026-04-11",
+    "nameChangeDate": "2026-04-12",
     "averageAnalystRating": "2.0 - Buy",
-    "regularMarketChangePercent": -0.3099814,
-    "regularMarketPrice": 1608.0,
-    "shortName": "LIFEDRINK CO INC",
-    "longName": "Lifedrink Company, Inc.",
     "cryptoTradeable": false,
     "corporateActions": [],
     "regularMarketTime": 1775802600,
@@ -1161,9 +1163,7 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1640044800000,
-    "marketState": "CLOSED",
+    "marketState": "PREPRE",
     "trailingPegRatio": null
   }
 }

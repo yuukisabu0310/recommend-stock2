@@ -1,7 +1,7 @@
 {
   "ticker": "2282",
   "japanese_ticker": "2282.T",
-  "fetch_date": "2026-04-11T23:32:37.457822",
+  "fetch_date": "2026-04-12T23:33:39.670391",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": 0.0,
@@ -961,8 +961,8 @@
     "averageVolume": 528278,
     "averageVolume10days": 487630,
     "averageDailyVolume10Day": 487630,
-    "bid": 7042.0,
-    "ask": 7068.0,
+    "bid": 0.0,
+    "ask": 7001.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 666399277056,
@@ -1034,12 +1034,6 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "shortName": "NH FOODS LTD",
-    "longName": "NH Foods Ltd.",
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 946944000000,
-    "corporateActions": [],
-    "regularMarketTime": 1775802600,
     "exchange": "JPX",
     "messageBoardId": "finmb_874379",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1047,10 +1041,13 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
+    "longName": "NH Foods Ltd.",
+    "marketState": "PREPRE",
+    "shortName": "NH FOODS LTD",
     "regularMarketChangePercent": -2.546008,
     "regularMarketPrice": 7043.0,
-    "marketState": "CLOSED",
-    "cryptoTradeable": false,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 946944000000,
     "regularMarketChange": -184.0,
     "regularMarketDayRange": "7042.0 - 7250.0",
     "fullExchangeName": "Tokyo",
@@ -1076,6 +1073,9 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "averageAnalystRating": "2.6 - Hold",
+    "cryptoTradeable": false,
+    "corporateActions": [],
+    "regularMarketTime": 1775802600,
     "trailingPegRatio": null
   }
 }

@@ -1,7 +1,7 @@
 {
   "ticker": "2926",
   "japanese_ticker": "2926.T",
-  "fetch_date": "2026-04-11T23:40:04.174214",
+  "fetch_date": "2026-04-12T23:40:53.077189",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-09-30 00:00:00": -3366144.0,
@@ -1027,7 +1027,7 @@
     "averageVolume10days": 226690,
     "averageDailyVolume10Day": 226690,
     "bid": 0.0,
-    "ask": 101.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 1415778048,
@@ -1096,12 +1096,12 @@
     "customPriceAlertConfidence": "LOW",
     "shortName": "SHINOZAKIYA INC",
     "longName": "Shinozakiya, Inc.",
-    "marketState": "CLOSED",
-    "regularMarketChangePercent": 0.0,
-    "regularMarketPrice": 100.0,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1069977600000,
-    "cryptoTradeable": false,
+    "regularMarketChange": 0.0,
+    "regularMarketDayRange": "99.0 - 100.0",
+    "corporateActions": [],
+    "regularMarketTime": 1775802600,
     "exchange": "JPX",
     "messageBoardId": "finmb_10159852",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1109,8 +1109,10 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "regularMarketChange": 0.0,
-    "regularMarketDayRange": "99.0 - 100.0",
+    "regularMarketChangePercent": 0.0,
+    "regularMarketPrice": 100.0,
+    "cryptoTradeable": false,
+    "marketState": "PREPRE",
     "fullExchangeName": "Tokyo",
     "averageDailyVolume3Month": 272259,
     "fiftyTwoWeekLowChange": 21.0,
@@ -1129,8 +1131,6 @@
     "twoHundredDayAverageChangePercent": -0.040675346,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
-    "corporateActions": [],
-    "regularMarketTime": 1775802600,
     "trailingPegRatio": null
   }
 }

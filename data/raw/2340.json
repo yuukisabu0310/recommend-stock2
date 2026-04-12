@@ -1,7 +1,7 @@
 {
   "ticker": "2340",
   "japanese_ticker": "2340.T",
-  "fetch_date": "2026-04-11T23:33:38.032227",
+  "fetch_date": "2026-04-12T23:34:36.694528",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": -40653574.5,
@@ -1003,7 +1003,7 @@
     "averageVolume": 24195,
     "averageVolume10days": 15400,
     "averageDailyVolume10Day": 15400,
-    "bid": 486.0,
+    "bid": 0.0,
     "ask": 487.0,
     "bidSize": 0,
     "askSize": 0,
@@ -1072,7 +1072,6 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "longName": "Gokurakuyu Holdings Co., Ltd.",
     "corporateActions": [],
     "regularMarketTime": 1775802600,
     "exchange": "JPX",
@@ -1082,10 +1081,11 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "marketState": "CLOSED",
-    "shortName": "GOKURAKUYU HOLDINGSCO LTD",
     "regularMarketChangePercent": 0.41237116,
     "regularMarketPrice": 487.0,
+    "shortName": "GOKURAKUYU HOLDINGSCO LTD",
+    "longName": "Gokurakuyu Holdings Co., Ltd.",
+    "cryptoTradeable": false,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1038355200000,
     "regularMarketChange": 2.0,
@@ -1109,7 +1109,7 @@
     "twoHundredDayAverageChangePercent": 0.002047294,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
+    "marketState": "PREPRE",
     "trailingPegRatio": null
   }
 }

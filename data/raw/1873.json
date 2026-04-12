@@ -1,7 +1,7 @@
 {
   "ticker": "1873",
   "japanese_ticker": "1873.T",
-  "fetch_date": "2026-04-11T23:28:28.849830",
+  "fetch_date": "2026-04-12T23:29:35.285998",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-04-30 00:00:00": -106080000.0,
@@ -1025,7 +1025,7 @@
     "averageVolume": 113457,
     "averageVolume10days": 204440,
     "averageDailyVolume10Day": 204440,
-    "bid": 329.0,
+    "bid": 0.0,
     "ask": 330.0,
     "bidSize": 0,
     "askSize": 0,
@@ -1089,31 +1089,8 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "shortName": "NIHON HOUSE HOLDINGS CO LTD",
-    "longName": "Nihon House Holdings Co., Ltd.",
     "regularMarketChangePercent": -0.3021148,
     "regularMarketPrice": 330.0,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 946944000000,
-    "fiftyDayAverageChange": 10.959991,
-    "fiftyDayAverageChangePercent": 0.034353033,
-    "twoHundredDayAverageChange": 16.790009,
-    "twoHundredDayAverageChangePercent": 0.053606234,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "marketState": "CLOSED",
-    "corporateActions": [
-      {
-        "header": "Dividend",
-        "message": "1873.T announced a cash dividend of JPY 6.00 with an ex-date of Apr. 28, 2026",
-        "meta": {
-          "eventType": "DIVIDEND",
-          "dateEpochMs": 1777302000000,
-          "amount": "6.00"
-        }
-      }
-    ],
-    "regularMarketTime": 1775802600,
     "exchange": "JPX",
     "messageBoardId": "finmb_2914326",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1121,6 +1098,9 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
+    "marketState": "PREPRE",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 946944000000,
     "regularMarketChange": -1.0,
     "regularMarketDayRange": "328.0 - 333.0",
     "fullExchangeName": "Tokyo",
@@ -1135,6 +1115,26 @@
     "earningsTimestampEnd": 1749772800,
     "isEarningsDateEstimate": false,
     "epsTrailingTwelveMonths": 5.54,
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "1873.T announced a cash dividend of JPY 6.00 with an ex-date of Apr. 28, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1777302000000,
+          "amount": "6.00"
+        }
+      }
+    ],
+    "regularMarketTime": 1775802600,
+    "shortName": "NIHON HOUSE HOLDINGS CO LTD",
+    "longName": "Nihon House Holdings Co., Ltd.",
+    "fiftyDayAverageChange": 10.959991,
+    "fiftyDayAverageChangePercent": 0.034353033,
+    "twoHundredDayAverageChange": 16.790009,
+    "twoHundredDayAverageChangePercent": 0.053606234,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
     "trailingPegRatio": null
   }

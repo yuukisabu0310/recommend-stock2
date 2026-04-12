@@ -1,7 +1,7 @@
 {
   "ticker": "2305",
   "japanese_ticker": "2305.T",
-  "fetch_date": "2026-04-11T23:33:01.972450",
+  "fetch_date": "2026-04-12T23:34:02.399561",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-02-28 00:00:00": -304268622.0,
@@ -963,7 +963,7 @@
     "averageVolume": 29600,
     "averageVolume10days": 18570,
     "averageDailyVolume10Day": 18570,
-    "bid": 1971.0,
+    "bid": 0.0,
     "ask": 1972.0,
     "bidSize": 0,
     "askSize": 0,
@@ -1031,7 +1031,6 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "regularMarketChangePercent": -0.80523396,
     "corporateActions": [],
     "regularMarketTime": 1775802600,
     "exchange": "JPX",
@@ -1041,6 +1040,13 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
+    "regularMarketChangePercent": -0.80523396,
+    "regularMarketPrice": 1971.0,
+    "cryptoTradeable": false,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1059523200000,
+    "regularMarketChange": -16.0,
+    "regularMarketDayRange": "1971.0 - 1987.0",
     "fullExchangeName": "Tokyo",
     "averageDailyVolume3Month": 29600,
     "fiftyTwoWeekLowChange": 44.0,
@@ -1059,15 +1065,9 @@
     "twoHundredDayAverageChangePercent": -0.03882024,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
     "shortName": "STUDIO ALICE",
     "longName": "STUDIO ALICE Co.,Ltd.",
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1059523200000,
-    "regularMarketChange": -16.0,
-    "regularMarketDayRange": "1971.0 - 1987.0",
-    "regularMarketPrice": 1971.0,
-    "marketState": "CLOSED",
+    "marketState": "PREPRE",
     "trailingPegRatio": null
   }
 }

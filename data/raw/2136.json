@@ -1,7 +1,7 @@
 {
   "ticker": "2136",
   "japanese_ticker": "2136.T",
-  "fetch_date": "2026-04-11T23:30:53.372621",
+  "fetch_date": "2026-04-12T23:31:55.826641",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": 0.0,
@@ -999,8 +999,8 @@
     "averageVolume": 4752,
     "averageVolume10days": 3500,
     "averageDailyVolume10Day": 3500,
-    "bid": 1456.0,
-    "ask": 1471.0,
+    "bid": 0.0,
+    "ask": 1456.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 5540358144,
@@ -1069,8 +1069,6 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1166572800000,
     "exchange": "JPX",
     "messageBoardId": "finmb_30269787",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1078,10 +1076,15 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "shortName": "HIP CORPORATION",
-    "longName": "HIP Corporation",
     "regularMarketChangePercent": -1.5551049,
     "regularMarketPrice": 1456.0,
+    "corporateActions": [],
+    "regularMarketTime": 1775796197,
+    "shortName": "HIP CORPORATION",
+    "longName": "HIP Corporation",
+    "marketState": "PREPRE",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1166572800000,
     "regularMarketChange": -23.0,
     "regularMarketDayRange": "1452.0 - 1478.0",
     "fullExchangeName": "Tokyo",
@@ -1103,9 +1106,6 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
-    "corporateActions": [],
-    "regularMarketTime": 1775796197,
-    "marketState": "CLOSED",
     "trailingPegRatio": null
   }
 }

@@ -1,7 +1,7 @@
 {
   "ticker": "2692",
   "japanese_ticker": "2692.T",
-  "fetch_date": "2026-04-11T23:37:11.208584",
+  "fetch_date": "2026-04-12T23:38:01.435046",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": -2176000.0,
@@ -976,8 +976,8 @@
     "averageVolume": 49075,
     "averageVolume10days": 47560,
     "averageDailyVolume10Day": 47560,
-    "bid": 12880.0,
-    "ask": 12900.0,
+    "bid": 0.0,
+    "ask": 12910.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 163407380480,
@@ -1043,9 +1043,6 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "marketState": "CLOSED",
-    "regularMarketChangePercent": -0.07757952,
-    "regularMarketPrice": 12880.0,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 984441600000,
     "regularMarketChange": -10.0,
@@ -1061,6 +1058,8 @@
     "earningsTimestampStart": 1753761600,
     "earningsTimestampEnd": 1754280000,
     "isEarningsDateEstimate": true,
+    "epsTrailingTwelveMonths": 646.58,
+    "epsForward": 307.4,
     "corporateActions": [],
     "regularMarketTime": 1775802600,
     "exchange": "JPX",
@@ -1070,10 +1069,9 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "shortName": "ITOCHU SHOKUHIN CO",
-    "longName": "ITOCHU-SHOKUHIN Co., Ltd.",
-    "epsTrailingTwelveMonths": 646.58,
-    "epsForward": 307.4,
+    "regularMarketChangePercent": -0.07757952,
+    "regularMarketPrice": 12880.0,
+    "marketState": "PREPRE",
     "fiftyDayAverageChange": 324.4004,
     "fiftyDayAverageChangePercent": 0.025837108,
     "twoHundredDayAverageChange": 1955.25,
@@ -1081,6 +1079,8 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
+    "shortName": "ITOCHU SHOKUHIN CO",
+    "longName": "ITOCHU-SHOKUHIN Co., Ltd.",
     "trailingPegRatio": null
   }
 }

@@ -1,7 +1,7 @@
 {
   "ticker": "2173",
   "japanese_ticker": "2173.T",
-  "fetch_date": "2026-04-11T23:31:27.567953",
+  "fetch_date": "2026-04-12T23:32:29.731547",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-12-31 00:00:00": 4716792.0,
@@ -1090,8 +1090,8 @@
     "averageVolume": 55647,
     "averageVolume10days": 24610,
     "averageDailyVolume10Day": 24610,
-    "bid": 990.0,
-    "ask": 996.0,
+    "bid": 0.0,
+    "ask": 1010.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 15594519552,
@@ -1160,8 +1160,8 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1204502400000,
+    "corporateActions": [],
+    "regularMarketTime": 1775802600,
     "exchange": "JPX",
     "messageBoardId": "finmb_40371989",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1169,10 +1169,13 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "shortName": "HAKUTEN CORPORATION",
-    "longName": "Hakuten Corporation",
     "regularMarketChangePercent": -1.3861386,
     "regularMarketPrice": 996.0,
+    "shortName": "HAKUTEN CORPORATION",
+    "longName": "Hakuten Corporation",
+    "marketState": "PREPRE",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1204502400000,
     "regularMarketChange": -14.0,
     "regularMarketDayRange": "990.0 - 1025.0",
     "fullExchangeName": "Tokyo",
@@ -1194,9 +1197,6 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
-    "corporateActions": [],
-    "regularMarketTime": 1775802600,
-    "marketState": "CLOSED",
     "trailingPegRatio": null
   }
 }

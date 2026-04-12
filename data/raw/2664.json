@@ -1,7 +1,7 @@
 {
   "ticker": "2664",
   "japanese_ticker": "2664.T",
-  "fetch_date": "2026-04-11T23:36:39.398814",
+  "fetch_date": "2026-04-12T23:37:31.807530",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": -458565000.0,
@@ -957,8 +957,8 @@
     "averageVolume": 131998,
     "averageVolume10days": 54280,
     "averageDailyVolume10Day": 54280,
-    "bid": 3025.0,
-    "ask": 3035.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "marketCap": 67672772608,
     "nonDilutedMarketCap": 67672768410,
     "fiftyTwoWeekLow": 2726.0,
@@ -1020,7 +1020,6 @@
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
     "corporateActions": [],
-    "shortName": "CAWACHI LIMITED",
     "regularMarketTime": 1775802600,
     "exchange": "JPX",
     "messageBoardId": "finmb_5478544",
@@ -1029,9 +1028,9 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "marketState": "CLOSED",
+    "regularMarketChangePercent": -0.9803922,
+    "regularMarketPrice": 3030.0,
     "cryptoTradeable": false,
-    "longName": "Cawachi Limited",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1038960000000,
     "regularMarketChange": -30.0,
@@ -1054,8 +1053,9 @@
     "twoHundredDayAverageChangePercent": 0.02735722,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
-    "regularMarketChangePercent": -0.9803922,
-    "regularMarketPrice": 3030.0,
+    "shortName": "CAWACHI LIMITED",
+    "longName": "Cawachi Limited",
+    "marketState": "PREPRE",
     "trailingPegRatio": null
   }
 }

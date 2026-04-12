@@ -1,7 +1,7 @@
 {
   "ticker": "2901",
   "japanese_ticker": "2901.T",
-  "fetch_date": "2026-04-11T23:39:35.053360",
+  "fetch_date": "2026-04-12T23:40:22.701837",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": 11896548.667594,
@@ -1009,8 +1009,8 @@
     "averageVolume": 82337,
     "averageVolume10days": 49550,
     "averageDailyVolume10Day": 49550,
-    "bid": 353.0,
-    "ask": 354.0,
+    "bid": 0.0,
+    "ask": 356.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 10042166272,
@@ -1071,11 +1071,6 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "shortName": "WEL-DISH INCORPORATED",
-    "longName": "Wel-Dish.Incorporated",
-    "cryptoTradeable": false,
-    "corporateActions": [],
-    "regularMarketTime": 1775802600,
     "exchange": "JPX",
     "messageBoardId": "finmb_10203781",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1083,6 +1078,13 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
+    "regularMarketChangePercent": -0.28169012,
+    "regularMarketPrice": 354.0,
+    "corporateActions": [],
+    "regularMarketTime": 1775802600,
+    "shortName": "WEL-DISH INCORPORATED",
+    "longName": "Wel-Dish.Incorporated",
+    "marketState": "PREPRE",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 946944000000,
     "regularMarketChange": -1.0,
@@ -1106,10 +1108,8 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "prevName": "Ishigaki Foods Co.,Ltd.",
-    "nameChangeDate": "2026-04-11",
-    "marketState": "CLOSED",
-    "regularMarketChangePercent": -0.28169012,
-    "regularMarketPrice": 354.0,
+    "nameChangeDate": "2026-04-12",
+    "cryptoTradeable": false,
     "trailingPegRatio": null
   }
 }

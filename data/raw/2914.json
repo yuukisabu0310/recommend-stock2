@@ -1,7 +1,7 @@
 {
   "ticker": "2914",
   "japanese_ticker": "2914.T",
-  "fetch_date": "2026-04-11T23:39:48.529269",
+  "fetch_date": "2026-04-12T23:40:38.066483",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-12-31 00:00:00": 0.0,
@@ -1098,8 +1098,8 @@
     "averageVolume": 4108132,
     "averageVolume10days": 4117200,
     "averageDailyVolume10Day": 4117200,
-    "bid": 5973.0,
-    "ask": 5974.0,
+    "bid": 0.0,
+    "ask": 5951.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 10604400082944,
@@ -1171,7 +1171,10 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "marketState": "CLOSED",
+    "regularMarketChangePercent": -1.0109379,
+    "regularMarketPrice": 5973.0,
+    "shortName": "JAPAN TOBACCO INC",
+    "longName": "Japan Tobacco Inc.",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 946944000000,
     "regularMarketChange": -61.0,
@@ -1198,6 +1201,7 @@
     "twoHundredDayAverageChangePercent": 0.13249828,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
     "corporateActions": [],
     "regularMarketTime": 1775802600,
     "exchange": "JPX",
@@ -1207,11 +1211,7 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "regularMarketChangePercent": -1.0109379,
-    "regularMarketPrice": 5973.0,
-    "cryptoTradeable": false,
-    "shortName": "JAPAN TOBACCO INC",
-    "longName": "Japan Tobacco Inc.",
+    "marketState": "PREPRE",
     "trailingPegRatio": 0.7356
   }
 }

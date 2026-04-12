@@ -1,7 +1,7 @@
 {
   "ticker": "2294",
   "japanese_ticker": "2294.T",
-  "fetch_date": "2026-04-11T23:32:49.636200",
+  "fetch_date": "2026-04-12T23:33:50.617796",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-04-30 00:00:00": -74240000.0,
@@ -861,8 +861,8 @@
     "averageVolume": 37198,
     "averageVolume10days": 64270,
     "averageDailyVolume10Day": 64270,
-    "bid": 3010.0,
-    "ask": 3015.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "marketCap": 28877318144,
     "nonDilutedMarketCap": 28877317245,
     "fiftyTwoWeekLow": 2573.0,
@@ -924,15 +924,15 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "hasPrePostMarketData": false,
+    "isEarningsDateEstimate": false,
+    "epsTrailingTwelveMonths": 72.36,
     "fiftyDayAverageChange": 154.71997,
     "fiftyDayAverageChangePercent": 0.054092597,
     "twoHundredDayAverageChange": 292.85498,
     "twoHundredDayAverageChangePercent": 0.107582435,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
-    "regularMarketChangePercent": 0.70140284,
-    "regularMarketPrice": 3015.0,
     "corporateActions": [
       {
         "header": "Dividend",
@@ -952,7 +952,8 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "hasPrePostMarketData": false,
+    "regularMarketChangePercent": 0.70140284,
+    "regularMarketPrice": 3015.0,
     "firstTradeDateMilliseconds": 946944000000,
     "regularMarketChange": 21.0,
     "regularMarketDayRange": "2996.0 - 3015.0",
@@ -966,11 +967,10 @@
     "fiftyTwoWeekChangePercent": -0.33057928,
     "earningsTimestampStart": 1749537000,
     "earningsTimestampEnd": 1749537000,
-    "isEarningsDateEstimate": false,
-    "epsTrailingTwelveMonths": 72.36,
+    "marketState": "PREPRE",
     "shortName": "KAKIYASU HONTEN",
     "longName": "Kakiyasu Honten Co., Ltd.",
-    "marketState": "CLOSED",
+    "cryptoTradeable": false,
     "trailingPegRatio": null
   }
 }

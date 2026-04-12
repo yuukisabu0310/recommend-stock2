@@ -1,7 +1,7 @@
 {
   "ticker": "2164",
   "japanese_ticker": "2164.T",
-  "fetch_date": "2026-04-11T23:31:19.937871",
+  "fetch_date": "2026-04-12T23:32:22.664764",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-08-31 00:00:00": 962205.733815,
@@ -1139,8 +1139,8 @@
     "averageVolume": 87160,
     "averageVolume10days": 12550,
     "averageDailyVolume10Day": 12550,
-    "bid": 310.0,
-    "ask": 313.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 2336838400,
@@ -1207,7 +1207,6 @@
     "customPriceAlertConfidence": "LOW",
     "regularMarketChangePercent": -5.487805,
     "regularMarketPrice": 310.0,
-    "cryptoTradeable": false,
     "exchange": "JPX",
     "messageBoardId": "finmb_38010842",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1215,8 +1214,7 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "shortName": "CHIIKISHINBUNSHA CO LTD",
-    "longName": "Chiikishinbunsha Co.,Ltd.",
+    "marketState": "PREPRE",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1198801800000,
     "regularMarketChange": -18.0,
@@ -1235,15 +1233,17 @@
     "earningsCallTimestampEnd": 1744282740,
     "isEarningsDateEstimate": true,
     "epsTrailingTwelveMonths": -6.79,
+    "corporateActions": [],
+    "regularMarketTime": 1775802600,
+    "shortName": "CHIIKISHINBUNSHA CO LTD",
+    "longName": "Chiikishinbunsha Co.,Ltd.",
     "fiftyDayAverageChange": -27.279999,
     "fiftyDayAverageChangePercent": -0.08088235,
     "twoHundredDayAverageChange": 7.3099976,
     "twoHundredDayAverageChangePercent": 0.024150113,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
-    "marketState": "CLOSED",
-    "corporateActions": [],
-    "regularMarketTime": 1775802600,
+    "cryptoTradeable": false,
     "trailingPegRatio": null
   }
 }

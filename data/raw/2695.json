@@ -1,7 +1,7 @@
 {
   "ticker": "2695",
   "japanese_ticker": "2695.T",
-  "fetch_date": "2026-04-11T23:37:17.051236",
+  "fetch_date": "2026-04-12T23:38:06.392765",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-10-31 00:00:00": -284031000.0,
@@ -1016,8 +1016,8 @@
     "averageVolume": 205818,
     "averageVolume10days": 291310,
     "averageDailyVolume10Day": 291310,
-    "bid": 3560.0,
-    "ask": 3565.0,
+    "bid": 0.0,
+    "ask": 3590.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 141485916160,
@@ -1091,9 +1091,6 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "regularMarketChangePercent": 0.14064698,
-    "regularMarketPrice": 3560.0,
-    "marketState": "CLOSED",
     "shortName": "KURA SUSHI INC",
     "longName": "Kura Sushi, Inc.",
     "corporateActions": [
@@ -1108,8 +1105,18 @@
       }
     ],
     "regularMarketTime": 1775802600,
+    "exchange": "JPX",
+    "messageBoardId": "finmb_1340760",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
+    "regularMarketChangePercent": 0.14064698,
+    "regularMarketPrice": 3560.0,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1127952000000,
+    "marketState": "PREPRE",
     "regularMarketChange": 5.0,
     "regularMarketDayRange": "3550.0 - 3585.0",
     "fullExchangeName": "Tokyo",
@@ -1134,16 +1141,9 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "prevName": "Kura Sushi,Inc.",
-    "nameChangeDate": "2026-04-11",
+    "nameChangeDate": "2026-04-12",
     "averageAnalystRating": "3.3 - Hold",
     "cryptoTradeable": false,
-    "exchange": "JPX",
-    "messageBoardId": "finmb_1340760",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
     "trailingPegRatio": null
   }
 }

@@ -1,7 +1,7 @@
 {
   "ticker": "1893",
   "japanese_ticker": "1893.T",
-  "fetch_date": "2026-04-11T23:28:43.475605",
+  "fetch_date": "2026-04-12T23:29:47.991497",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": 151394100.0,
@@ -1052,8 +1052,8 @@
     "averageVolume": 2735714,
     "averageVolume10days": 2124670,
     "averageDailyVolume10Day": 2124670,
-    "bid": 1747.0,
-    "ask": 1749.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 477350395904,
@@ -1125,11 +1125,6 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "shortName": "PENTA OCEAN CONSTRUCTION",
-    "longName": "Penta-Ocean Construction Co., Ltd.",
-    "cryptoTradeable": false,
-    "corporateActions": [],
-    "regularMarketTime": 1775802600,
     "exchange": "JPX",
     "messageBoardId": "finmb_874556",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1137,6 +1132,10 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
+    "regularMarketChangePercent": -3.6118004,
+    "regularMarketPrice": 1748.0,
+    "shortName": "PENTA OCEAN CONSTRUCTION",
+    "longName": "Penta-Ocean Construction Co., Ltd.",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 978307200000,
     "regularMarketChange": -65.5,
@@ -1157,6 +1156,9 @@
     "isEarningsDateEstimate": true,
     "epsTrailingTwelveMonths": 70.79,
     "epsForward": 69.37,
+    "marketState": "PREPRE",
+    "corporateActions": [],
+    "regularMarketTime": 1775802600,
     "fiftyDayAverageChange": -116.339966,
     "fiftyDayAverageChangePercent": -0.062402762,
     "twoHundredDayAverageChange": 319.62646,
@@ -1164,9 +1166,7 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "averageAnalystRating": "1.5 - Strong Buy",
-    "marketState": "CLOSED",
-    "regularMarketChangePercent": -3.6118004,
-    "regularMarketPrice": 1748.0,
+    "cryptoTradeable": false,
     "trailingPegRatio": null
   }
 }

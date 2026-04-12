@@ -1,7 +1,7 @@
 {
   "ticker": "1770",
   "japanese_ticker": "1770.T",
-  "fetch_date": "2026-04-11T23:27:04.287706",
+  "fetch_date": "2026-04-12T23:28:13.254033",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": -133791055.0,
@@ -987,8 +987,8 @@
     "averageVolume": 3108,
     "averageVolume10days": 2390,
     "averageDailyVolume10Day": 2390,
-    "bid": 1671.0,
-    "ask": 1680.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 15254700032,
@@ -1055,7 +1055,6 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "regularMarketChangePercent": -0.12026458,
     "corporateActions": [],
     "regularMarketTime": 1775781780,
     "exchange": "JPX",
@@ -1065,6 +1064,13 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
+    "regularMarketChangePercent": -0.12026458,
+    "regularMarketPrice": 1661.0,
+    "cryptoTradeable": false,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 946944000000,
+    "regularMarketChange": -2.0,
+    "regularMarketDayRange": "1661.0 - 1677.0",
     "fullExchangeName": "Tokyo",
     "averageDailyVolume3Month": 3108,
     "fiftyTwoWeekLowChange": 290.0,
@@ -1083,15 +1089,9 @@
     "twoHundredDayAverageChangePercent": -0.002111735,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
     "shortName": "FUJITA ENGINEERING CO",
     "longName": "Fujita Engineering Co., Ltd.",
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 946944000000,
-    "regularMarketChange": -2.0,
-    "regularMarketDayRange": "1661.0 - 1677.0",
-    "regularMarketPrice": 1661.0,
-    "marketState": "CLOSED",
+    "marketState": "PREPRE",
     "trailingPegRatio": null
   }
 }

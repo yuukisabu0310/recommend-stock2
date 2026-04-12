@@ -1,7 +1,7 @@
 {
   "ticker": "2910",
   "japanese_ticker": "2910.T",
-  "fetch_date": "2026-04-11T23:39:44.095970",
+  "fetch_date": "2026-04-12T23:40:32.593230",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-04-30 00:00:00": -148712000.0,
@@ -1080,8 +1080,8 @@
     "averageVolume": 80568,
     "averageVolume10days": 113270,
     "averageDailyVolume10Day": 113270,
-    "bid": 1374.0,
-    "ask": 1375.0,
+    "bid": 0.0,
+    "ask": 1374.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 35917324288,
@@ -1155,28 +1155,10 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "corporateActions": [
-      {
-        "header": "Dividend",
-        "message": "2910.T announced a cash dividend of JPY 15.00 with an ex-date of Apr. 28, 2026",
-        "meta": {
-          "eventType": "DIVIDEND",
-          "dateEpochMs": 1777302000000,
-          "amount": "15.00"
-        }
-      }
-    ],
-    "regularMarketTime": 1775802600,
-    "exchange": "JPX",
-    "messageBoardId": "finmb_2445573",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
     "regularMarketChangePercent": -0.36258158,
     "regularMarketPrice": 1374.0,
-    "marketState": "CLOSED",
+    "shortName": "ROCK FIELD CO LTD",
+    "longName": "Rock Field Co.,Ltd.",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 978566400000,
     "regularMarketChange": -5.0,
@@ -1197,14 +1179,32 @@
     "fiftyDayAverageChange": -25.420044,
     "fiftyDayAverageChangePercent": -0.0181647,
     "twoHundredDayAverageChange": -73.515015,
-    "shortName": "ROCK FIELD CO LTD",
-    "longName": "Rock Field Co.,Ltd.",
     "twoHundredDayAverageChangePercent": -0.050787047,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "prevName": "Rock Field Co., Ltd.",
-    "nameChangeDate": "2026-04-11",
+    "nameChangeDate": "2026-04-12",
     "cryptoTradeable": false,
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "2910.T announced a cash dividend of JPY 15.00 with an ex-date of Apr. 28, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1777302000000,
+          "amount": "15.00"
+        }
+      }
+    ],
+    "regularMarketTime": 1775802600,
+    "exchange": "JPX",
+    "messageBoardId": "finmb_2445573",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
+    "marketState": "PREPRE",
     "trailingPegRatio": null
   }
 }

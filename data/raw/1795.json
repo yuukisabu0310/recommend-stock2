@@ -1,7 +1,7 @@
 {
   "ticker": "1795",
   "japanese_ticker": "1795.T",
-  "fetch_date": "2026-04-11T23:27:19.699422",
+  "fetch_date": "2026-04-12T23:28:28.943701",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-09-30 00:00:00": 2066205.0,
@@ -1082,8 +1082,8 @@
     "averageVolume": 1031,
     "averageVolume10days": 680,
     "averageDailyVolume10Day": 680,
-    "bid": 4770.0,
-    "ask": 4835.0,
+    "bid": 0.0,
+    "ask": 4950.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 4252254464,
@@ -1148,14 +1148,8 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "regularMarketPrice": 4780.0,
     "corporateActions": [],
     "regularMarketTime": 1775802092,
-    "shortName": "MASARU CORPORATION",
-    "longName": "Masaru Corporation",
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 947030400000,
-    "regularMarketChangePercent": -0.72689515,
     "exchange": "JPX",
     "messageBoardId": "finmb_5864375",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1163,8 +1157,13 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "marketState": "CLOSED",
+    "regularMarketChangePercent": -0.72689515,
+    "regularMarketPrice": 4780.0,
+    "shortName": "MASARU CORPORATION",
+    "longName": "Masaru Corporation",
     "cryptoTradeable": false,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 947030400000,
     "regularMarketChange": -35.0,
     "regularMarketDayRange": "4780.0 - 4790.0",
     "fullExchangeName": "Tokyo",
@@ -1185,6 +1184,7 @@
     "twoHundredDayAverageChangePercent": 0.07900677,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
+    "marketState": "PREPRE",
     "trailingPegRatio": null
   }
 }

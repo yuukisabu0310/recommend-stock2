@@ -1,7 +1,7 @@
 {
   "ticker": "2449",
   "japanese_ticker": "2449.T",
-  "fetch_date": "2026-04-11T23:35:03.150274",
+  "fetch_date": "2026-04-12T23:35:59.480590",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-08-31 00:00:00": 0.0,
@@ -1165,8 +1165,8 @@
     "averageVolume": 4560,
     "averageVolume10days": 1390,
     "averageDailyVolume10Day": 1390,
-    "bid": 1097.0,
-    "ask": 1099.0,
+    "bid": 0.0,
+    "ask": 1107.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 4873947136,
@@ -1230,11 +1230,6 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "regularMarketChangePercent": -0.27247956,
-    "regularMarketPrice": 1098.0,
-    "shortName": "PRAP JAPAN INC",
-    "longName": "PRAP Japan, Inc.",
-    "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1120780800000,
     "regularMarketChange": -3.0,
     "regularMarketDayRange": "1098.0 - 1103.0",
@@ -1257,7 +1252,8 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
-    "marketState": "CLOSED",
+    "marketState": "PREPRE",
+    "hasPrePostMarketData": false,
     "corporateActions": [],
     "regularMarketTime": 1775791800,
     "exchange": "JPX",
@@ -1267,6 +1263,10 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
+    "regularMarketChangePercent": -0.27247956,
+    "regularMarketPrice": 1098.0,
+    "shortName": "PRAP JAPAN INC",
+    "longName": "PRAP Japan, Inc.",
     "trailingPegRatio": null
   }
 }

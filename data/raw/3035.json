@@ -1,7 +1,7 @@
 {
   "ticker": "3035",
   "japanese_ticker": "3035.T",
-  "fetch_date": "2026-04-11T23:41:30.710941",
+  "fetch_date": "2026-04-12T23:42:14.450303",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-08-31 00:00:00": 13746348.0,
@@ -1039,7 +1039,7 @@
     "averageVolume": 12980,
     "averageVolume10days": 34460,
     "averageDailyVolume10Day": 34460,
-    "bid": 751.0,
+    "bid": 0.0,
     "ask": 756.0,
     "bidSize": 0,
     "askSize": 0,
@@ -1107,7 +1107,8 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "marketState": "CLOSED",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1145318400000,
     "regularMarketChange": 36.0,
     "regularMarketDayRange": "729.0 - 759.0",
     "fullExchangeName": "Tokyo",
@@ -1125,6 +1126,7 @@
     "fiftyDayAverageChange": 85.32001,
     "fiftyDayAverageChangePercent": 0.12721418,
     "twoHundredDayAverageChange": 107.275024,
+    "twoHundredDayAverageChangePercent": 0.16536286,
     "corporateActions": [],
     "regularMarketTime": 1775802600,
     "exchange": "JPX",
@@ -1134,16 +1136,14 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1145318400000,
-    "twoHundredDayAverageChangePercent": 0.16536286,
+    "shortName": "KTK INC",
+    "longName": "ktk Inc.",
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
     "regularMarketChangePercent": 5.0,
     "regularMarketPrice": 756.0,
-    "shortName": "KTK INC",
-    "longName": "ktk Inc.",
+    "marketState": "PREPRE",
     "trailingPegRatio": null
   }
 }

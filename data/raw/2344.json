@@ -1,7 +1,7 @@
 {
   "ticker": "2344",
   "japanese_ticker": "2344.T",
-  "fetch_date": "2026-04-11T23:33:43.885058",
+  "fetch_date": "2026-04-12T23:34:42.262667",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": -9253869.0,
@@ -862,8 +862,8 @@
     "averageVolume": 45195,
     "averageVolume10days": 36200,
     "averageDailyVolume10Day": 36200,
-    "bid": 1488.0,
-    "ask": 1489.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 17598121984,
@@ -929,39 +929,18 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "earningsTimestampStart": 1754373600,
-    "earningsTimestampEnd": 1754978400,
-    "isEarningsDateEstimate": true,
-    "epsTrailingTwelveMonths": 112.64,
+    "regularMarketChangePercent": -0.1342282,
+    "regularMarketPrice": 1488.0,
+    "marketState": "PREPRE",
+    "shortName": "HEIAN CEREMONY SERVICE CO",
+    "longName": "Heian Ceremony Service Co.,Ltd.",
     "fiftyDayAverageChange": 121.47998,
     "fiftyDayAverageChangePercent": 0.08889733,
     "twoHundredDayAverageChange": 432.47998,
     "twoHundredDayAverageChangePercent": 0.40973166,
-    "corporateActions": [
-      {
-        "header": "Reverse stock split",
-        "message": "2344.T announces 1 for 658353 split effective May. 8, 2026",
-        "meta": {
-          "eventType": "SPLIT",
-          "dateEpochMs": 1778166000000,
-          "splitRatio": "1:658353"
-        }
-      }
-    ],
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
-    "regularMarketTime": 1775802600,
-    "exchange": "JPX",
-    "messageBoardId": "finmb_10038683",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
-    "longName": "Heian Ceremony Service Co.,Ltd.",
-    "marketState": "CLOSED",
-    "shortName": "HEIAN CEREMONY SERVICE CO",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1039996800000,
     "regularMarketChange": -2.0,
@@ -974,8 +953,29 @@
     "fiftyTwoWeekHighChange": -3.0,
     "fiftyTwoWeekHighChangePercent": -0.0020120724,
     "fiftyTwoWeekChangePercent": 80.58252,
-    "regularMarketChangePercent": -0.1342282,
-    "regularMarketPrice": 1488.0,
+    "earningsTimestampStart": 1754373600,
+    "earningsTimestampEnd": 1754978400,
+    "isEarningsDateEstimate": true,
+    "epsTrailingTwelveMonths": 112.64,
+    "corporateActions": [
+      {
+        "header": "Reverse stock split",
+        "message": "2344.T announces 1 for 658353 split effective May. 8, 2026",
+        "meta": {
+          "eventType": "SPLIT",
+          "dateEpochMs": 1778166000000,
+          "splitRatio": "1:658353"
+        }
+      }
+    ],
+    "regularMarketTime": 1775802600,
+    "exchange": "JPX",
+    "messageBoardId": "finmb_10038683",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
     "trailingPegRatio": null
   }
 }

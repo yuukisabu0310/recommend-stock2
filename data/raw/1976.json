@@ -1,7 +1,7 @@
 {
   "ticker": "1976",
   "japanese_ticker": "1976.T",
-  "fetch_date": "2026-04-11T23:29:59.485574",
+  "fetch_date": "2026-04-12T23:31:02.495340",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": 207360000.0,
@@ -1085,8 +1085,8 @@
     "averageVolume": 95049,
     "averageVolume10days": 95890,
     "averageDailyVolume10Day": 95890,
-    "bid": 1915.0,
-    "ask": 1929.0,
+    "bid": 1924.0,
+    "ask": 1924.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 88315691008,
@@ -1151,8 +1151,9 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "shortName": "MEISEI INDUSTRIAL CO",
-    "longName": "MEISEI INDUSTRIAL Co.,Ltd.",
+    "firstTradeDateMilliseconds": 954806400000,
+    "regularMarketChangePercent": -0.2074689,
+    "regularMarketPrice": 1924.0,
     "corporateActions": [],
     "regularMarketTime": 1775802600,
     "exchange": "JPX",
@@ -1162,11 +1163,6 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "regularMarketChangePercent": -0.2074689,
-    "regularMarketPrice": 1924.0,
-    "marketState": "CLOSED",
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 954806400000,
     "regularMarketChange": -4.0,
     "regularMarketDayRange": "1914.0 - 1949.0",
     "fullExchangeName": "Tokyo",
@@ -1188,6 +1184,10 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
+    "hasPrePostMarketData": false,
+    "shortName": "MEISEI INDUSTRIAL CO",
+    "longName": "MEISEI INDUSTRIAL Co.,Ltd.",
+    "marketState": "PREPRE",
     "trailingPegRatio": null
   }
 }

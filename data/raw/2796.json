@@ -1,7 +1,7 @@
 {
   "ticker": "2796",
   "japanese_ticker": "2796.T",
-  "fetch_date": "2026-04-11T23:38:36.583085",
+  "fetch_date": "2026-04-12T23:39:24.310645",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-05-31 00:00:00": -25056000.0,
@@ -1165,8 +1165,8 @@
     "averageVolume": 8519,
     "averageVolume10days": 4280,
     "averageDailyVolume10Day": 4280,
-    "bid": 521.0,
-    "ask": 523.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 6015820800,
@@ -1231,8 +1231,10 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1172016000000,
+    "shortName": "PHARMARISE HOLDINGS CORPORATION",
+    "longName": "Pharmarise Holdings Corporation",
+    "corporateActions": [],
+    "regularMarketTime": 1775802600,
     "exchange": "JPX",
     "messageBoardId": "finmb_8868721",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1240,10 +1242,11 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "shortName": "PHARMARISE HOLDINGS CORPORATION",
-    "longName": "Pharmarise Holdings Corporation",
     "regularMarketChangePercent": 0.38387716,
     "regularMarketPrice": 523.0,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1172016000000,
+    "marketState": "PREPRE",
     "regularMarketChange": 2.0,
     "regularMarketDayRange": "520.0 - 523.0",
     "fullExchangeName": "Tokyo",
@@ -1267,9 +1270,6 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
-    "corporateActions": [],
-    "regularMarketTime": 1775802600,
-    "marketState": "CLOSED",
     "trailingPegRatio": null
   }
 }

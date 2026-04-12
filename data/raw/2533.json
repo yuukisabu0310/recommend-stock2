@@ -1,7 +1,7 @@
 {
   "ticker": "2533",
   "japanese_ticker": "2533.T",
-  "fetch_date": "2026-04-11T23:35:57.756919",
+  "fetch_date": "2026-04-12T23:36:52.158701",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-12-31 00:00:00": -40522254.475085,
@@ -1161,8 +1161,8 @@
     "averageVolume": 130365,
     "averageVolume10days": 63390,
     "averageDailyVolume10Day": 63390,
-    "bid": 438.0,
-    "ask": 441.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 24848785408,
@@ -1230,9 +1230,6 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "cryptoTradeable": false,
-    "shortName": "OENON HOLDINGS INC",
-    "longName": "Oenon Holdings, Inc.",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 978307200000,
     "regularMarketChange": 5.0,
@@ -1254,11 +1251,9 @@
     "fiftyDayAverageChangePercent": -0.026618985,
     "twoHundredDayAverageChange": -89.20001,
     "twoHundredDayAverageChangePercent": -0.16823842,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "marketState": "CLOSED",
-    "regularMarketChangePercent": 1.146789,
-    "regularMarketPrice": 441.0,
+    "marketState": "PREPRE",
+    "shortName": "OENON HOLDINGS INC",
+    "longName": "Oenon Holdings, Inc.",
     "corporateActions": [],
     "regularMarketTime": 1775802600,
     "exchange": "JPX",
@@ -1268,6 +1263,11 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
+    "regularMarketChangePercent": 1.146789,
+    "regularMarketPrice": 441.0,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
     "trailingPegRatio": null
   }
 }

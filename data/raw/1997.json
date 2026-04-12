@@ -1,7 +1,7 @@
 {
   "ticker": "1997",
   "japanese_ticker": "1997.T",
-  "fetch_date": "2026-04-11T23:30:12.968473",
+  "fetch_date": "2026-04-12T23:31:15.722848",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-08-31 00:00:00": 815458.0,
@@ -1177,8 +1177,8 @@
     "averageVolume": 3006,
     "averageVolume10days": 3590,
     "averageDailyVolume10Day": 3590,
-    "bid": 4100.0,
-    "ask": 4195.0,
+    "bid": 0.0,
+    "ask": 4020.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 8310612992,
@@ -1247,9 +1247,7 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "cryptoTradeable": false,
-    "shortName": "AKATSUKI EAZIMA CO LTD",
-    "longName": "Akatsuki Eazima Co., Ltd.",
+    "marketState": "PREPRE",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 946944000000,
     "regularMarketChange": -40.0,
@@ -1272,9 +1270,9 @@
     "twoHundredDayAverageChangePercent": 0.15971637,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
-    "marketState": "CLOSED",
-    "regularMarketChangePercent": -0.96385545,
-    "regularMarketPrice": 4110.0,
+    "cryptoTradeable": false,
+    "shortName": "AKATSUKI EAZIMA CO LTD",
+    "longName": "Akatsuki Eazima Co., Ltd.",
     "corporateActions": [],
     "regularMarketTime": 1775802600,
     "exchange": "JPX",
@@ -1284,6 +1282,8 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
+    "regularMarketChangePercent": -0.96385545,
+    "regularMarketPrice": 4110.0,
     "trailingPegRatio": null
   }
 }

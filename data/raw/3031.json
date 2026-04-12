@@ -1,7 +1,7 @@
 {
   "ticker": "3031",
   "japanese_ticker": "3031.T",
-  "fetch_date": "2026-04-11T23:41:27.059030",
+  "fetch_date": "2026-04-12T23:42:11.324335",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-04-30 00:00:00": 1734353.096756,
@@ -1155,7 +1155,7 @@
     "averageVolume": 159983,
     "averageVolume10days": 194830,
     "averageDailyVolume10Day": 194830,
-    "bid": 679.0,
+    "bid": 0.0,
     "ask": 681.0,
     "bidSize": 0,
     "askSize": 0,
@@ -1227,24 +1227,15 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "longName": "RACCOON HOLDINGS, Inc.",
+    "shortName": "RACCOON HOLDINGS INC",
+    "marketState": "PREPRE",
+    "gmtOffSetMilliseconds": 32400000,
+    "esgPopulated": false,
     "regularMarketChangePercent": 0.591716,
     "regularMarketPrice": 680.0,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1144281600000,
-    "corporateActions": [
-      {
-        "header": "Dividend",
-        "message": "3031.T announced a cash dividend of JPY 16.00 with an ex-date of Apr. 28, 2026",
-        "meta": {
-          "eventType": "DIVIDEND",
-          "dateEpochMs": 1777302000000,
-          "amount": "16.00"
-        }
-      }
-    ],
-    "regularMarketTime": 1775802600,
-    "shortName": "RACCOON HOLDINGS INC",
-    "longName": "RACCOON HOLDINGS, Inc.",
     "regularMarketChange": 4.0,
     "regularMarketDayRange": "677.0 - 683.0",
     "fullExchangeName": "Tokyo",
@@ -1268,14 +1259,13 @@
     "exchangeDataDelayedBy": 20,
     "averageAnalystRating": "0.0 - Strong Buy",
     "cryptoTradeable": false,
+    "corporateActions": [],
+    "regularMarketTime": 1775802600,
     "exchange": "JPX",
     "messageBoardId": "finmb_26271335",
     "exchangeTimezoneName": "Asia/Tokyo",
     "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
-    "esgPopulated": false,
-    "marketState": "CLOSED",
     "trailingPegRatio": null
   }
 }
