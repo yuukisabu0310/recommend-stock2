@@ -1,7 +1,7 @@
 {
   "ticker": "2593",
   "japanese_ticker": "2593.T",
-  "fetch_date": "2026-04-18T23:38:55.054198",
+  "fetch_date": "2026-04-19T23:41:29.635320",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-04-30 00:00:00": -258564000.0,
@@ -1141,11 +1141,11 @@
     "forwardPE": 18.00212,
     "volume": 522900,
     "regularMarketVolume": 522900,
-    "averageVolume": 468209,
+    "averageVolume": 468698,
     "averageVolume10days": 451020,
     "averageDailyVolume10Day": 451020,
-    "bid": 3059.0,
-    "ask": 3061.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 352436813824,
@@ -1220,17 +1220,11 @@
     "customPriceAlertConfidence": "LOW",
     "shortName": "ITO EN LTD",
     "longName": "Ito En, Ltd.",
-    "marketState": "CLOSED",
-    "market": "jp_market",
-    "esgPopulated": false,
-    "regularMarketChangePercent": 0.82372326,
-    "regularMarketPrice": 3060.0,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 978307200000,
+    "marketState": "PREPRE",
     "regularMarketChange": 25.0,
     "regularMarketDayRange": "3020.0 - 3068.0",
     "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 468209,
+    "averageDailyVolume3Month": 468698,
     "fiftyTwoWeekLowChange": 301.0,
     "fiftyTwoWeekLowChangePercent": 0.109097496,
     "fiftyTwoWeekRange": "2759.0 - 3698.0",
@@ -1252,14 +1246,30 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "averageAnalystRating": "3.0 - Hold",
-    "cryptoTradeable": false,
-    "corporateActions": [],
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "2593.T announced a cash dividend of JPY 24.00 with an ex-date of Apr. 28, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1777302000000,
+          "amount": "24.00"
+        }
+      }
+    ],
     "regularMarketTime": 1776407400,
     "exchange": "JPX",
     "messageBoardId": "finmb_4509036",
     "exchangeTimezoneName": "Asia/Tokyo",
     "exchangeTimezoneShortName": "JST",
     "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
+    "regularMarketChangePercent": 0.82372326,
+    "regularMarketPrice": 3060.0,
+    "cryptoTradeable": false,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 978307200000,
     "trailingPegRatio": null
   }
 }

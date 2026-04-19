@@ -1,7 +1,7 @@
 {
   "ticker": "1444",
   "japanese_ticker": "1444.T",
-  "fetch_date": "2026-04-18T23:28:02.002575",
+  "fetch_date": "2026-04-19T23:29:31.379605",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-07-31 00:00:00": null,
@@ -1138,11 +1138,11 @@
     "beta": 0.182,
     "volume": 800,
     "regularMarketVolume": 800,
-    "averageVolume": 3524,
+    "averageVolume": 3504,
     "averageVolume10days": 1660,
     "averageDailyVolume10Day": 1660,
-    "bid": 2764.0,
-    "ask": 2777.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "marketCap": 3019946496,
     "nonDilutedMarketCap": 3019946552,
     "fiftyTwoWeekLow": 2400.0,
@@ -1203,11 +1203,16 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "shortName": "NISSOU CO LTD",
+    "longName": "Nissou Co.,Ltd.",
+    "marketState": "PREPRE",
     "cryptoTradeable": false,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1674518400000,
     "regularMarketChange": 15.0,
     "regularMarketDayRange": "2761.0 - 2777.0",
     "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 3524,
+    "averageDailyVolume3Month": 3504,
     "fiftyTwoWeekLowChange": 376.0,
     "fiftyTwoWeekLowChangePercent": 0.15666667,
     "fiftyTwoWeekRange": "2400.0 - 3005.0",
@@ -1235,11 +1240,6 @@
     "esgPopulated": false,
     "regularMarketChangePercent": 0.54328144,
     "regularMarketPrice": 2776.0,
-    "marketState": "CLOSED",
-    "shortName": "NISSOU CO LTD",
-    "longName": "Nissou Co.,Ltd.",
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1674518400000,
     "trailingPegRatio": null
   }
 }

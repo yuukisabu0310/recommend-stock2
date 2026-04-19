@@ -1,7 +1,7 @@
 {
   "ticker": "2449",
   "japanese_ticker": "2449.T",
-  "fetch_date": "2026-04-18T23:37:37.153750",
+  "fetch_date": "2026-04-19T23:40:01.757331",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-08-31 00:00:00": 0.0,
@@ -1162,11 +1162,11 @@
     "trailingPE": 10.373093,
     "volume": 11700,
     "regularMarketVolume": 11700,
-    "averageVolume": 3770,
+    "averageVolume": 3781,
     "averageVolume10days": 3130,
     "averageDailyVolume10Day": 3130,
-    "bid": 1079.0,
-    "ask": 1104.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 4905100288,
@@ -1243,8 +1243,6 @@
     "esgPopulated": false,
     "regularMarketChangePercent": 0.27322403,
     "regularMarketPrice": 1101.0,
-    "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 3770,
     "fiftyTwoWeekLowChange": 161.0,
     "fiftyTwoWeekLowChangePercent": 0.1712766,
     "fiftyTwoWeekRange": "940.0 - 1224.0",
@@ -1262,13 +1260,15 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
+    "marketState": "PREPRE",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1120780800000,
     "regularMarketChange": 3.0,
     "regularMarketDayRange": "1100.0 - 1104.0",
+    "fullExchangeName": "Tokyo",
+    "averageDailyVolume3Month": 3781,
     "shortName": "PRAP JAPAN INC",
     "longName": "PRAP Japan, Inc.",
-    "marketState": "CLOSED",
     "trailingPegRatio": null
   }
 }

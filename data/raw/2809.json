@@ -1,7 +1,7 @@
 {
   "ticker": "2809",
   "japanese_ticker": "2809.T",
-  "fetch_date": "2026-04-18T23:41:44.376055",
+  "fetch_date": "2026-04-19T23:44:32.749822",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-11-30 00:00:00": 2869139000.0,
@@ -1210,11 +1210,11 @@
     "forwardPE": 22.046495,
     "volume": 288800,
     "regularMarketVolume": 288800,
-    "averageVolume": 431338,
+    "averageVolume": 429536,
     "averageVolume10days": 561290,
     "averageDailyVolume10Day": 561290,
-    "bid": 3944.0,
-    "ask": 3960.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "marketCap": 544457850880,
     "nonDilutedMarketCap": 542022955455,
     "fiftyTwoWeekLow": 3157.0,
@@ -1284,7 +1284,7 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "marketState": "CLOSED",
+    "marketState": "PREPRE",
     "corporateActions": [],
     "regularMarketTime": 1776407400,
     "exchange": "JPX",
@@ -1301,13 +1301,15 @@
     "regularMarketChange": -50.0,
     "regularMarketDayRange": "3945.0 - 4007.0",
     "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 431338,
+    "averageDailyVolume3Month": 429536,
     "fiftyTwoWeekLowChange": 788.0,
     "fiftyTwoWeekLowChangePercent": 0.24960406,
     "fiftyTwoWeekRange": "3157.0 - 4700.0",
     "fiftyTwoWeekHighChange": -755.0,
     "fiftyTwoWeekHighChangePercent": -0.1606383,
     "fiftyTwoWeekChangePercent": 21.27267,
+    "shortName": "KEWPIE CORP",
+    "longName": "Kewpie Corporation",
     "earningsTimestamp": 1775716200,
     "earningsTimestampStart": 1783578600,
     "earningsTimestampEnd": 1783578600,
@@ -1324,8 +1326,6 @@
     "exchangeDataDelayedBy": 20,
     "averageAnalystRating": "2.0 - Buy",
     "cryptoTradeable": false,
-    "shortName": "KEWPIE CORP",
-    "longName": "Kewpie Corporation",
     "trailingPegRatio": null
   }
 }

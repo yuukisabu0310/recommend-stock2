@@ -1,7 +1,7 @@
 {
   "ticker": "1873",
   "japanese_ticker": "1873.T",
-  "fetch_date": "2026-04-18T23:30:27.131532",
+  "fetch_date": "2026-04-19T23:32:11.602725",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-04-30 00:00:00": -106080000.0,
@@ -1022,11 +1022,11 @@
     "trailingPE": 59.205776,
     "volume": 54900,
     "regularMarketVolume": 54900,
-    "averageVolume": 110272,
+    "averageVolume": 111549,
     "averageVolume10days": 120730,
     "averageDailyVolume10Day": 120730,
-    "bid": 328.0,
-    "ask": 329.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 13119407104,
@@ -1089,10 +1089,23 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "exchange": "JPX",
+    "messageBoardId": "finmb_2914326",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
+    "regularMarketChangePercent": 0.0,
+    "regularMarketPrice": 328.0,
+    "shortName": "NIHON HOUSE HOLDINGS CO LTD",
+    "longName": "Nihon House Holdings Co., Ltd.",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 946944000000,
     "regularMarketChange": 0.0,
     "regularMarketDayRange": "328.0 - 331.0",
     "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 110272,
+    "averageDailyVolume3Month": 111549,
     "fiftyTwoWeekLowChange": 44.0,
     "fiftyTwoWeekLowChangePercent": 0.15492958,
     "fiftyTwoWeekRange": "284.0 - 353.0",
@@ -1110,32 +1123,9 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
-    "marketState": "CLOSED",
-    "shortName": "NIHON HOUSE HOLDINGS CO LTD",
-    "longName": "Nihon House Holdings Co., Ltd.",
-    "corporateActions": [
-      {
-        "header": "Dividend",
-        "message": "1873.T announced a cash dividend of JPY 6.00 with an ex-date of Apr. 28, 2026",
-        "meta": {
-          "eventType": "DIVIDEND",
-          "dateEpochMs": 1777302000000,
-          "amount": "6.00"
-        }
-      }
-    ],
+    "corporateActions": [],
     "regularMarketTime": 1776407400,
-    "exchange": "JPX",
-    "messageBoardId": "finmb_2914326",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
-    "regularMarketChangePercent": 0.0,
-    "regularMarketPrice": 328.0,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 946944000000,
+    "marketState": "PREPRE",
     "trailingPegRatio": null
   }
 }

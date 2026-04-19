@@ -1,7 +1,7 @@
 {
   "ticker": "1446",
   "japanese_ticker": "1446.T",
-  "fetch_date": "2026-04-18T23:28:03.881875",
+  "fetch_date": "2026-04-19T23:29:33.897692",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-09-30 00:00:00": 488360.0,
@@ -1135,11 +1135,11 @@
     "trailingPE": 24.63426,
     "volume": 16600,
     "regularMarketVolume": 16600,
-    "averageVolume": 27487,
+    "averageVolume": 27824,
     "averageVolume10days": 16090,
     "averageDailyVolume10Day": 16090,
-    "bid": 521.0,
-    "ask": 523.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 4835651584,
@@ -1206,8 +1206,6 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "corporateActions": [],
-    "regularMarketTime": 1776407400,
     "exchange": "JPX",
     "messageBoardId": "finmb_429320911",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1224,7 +1222,7 @@
     "regularMarketChange": -1.0,
     "regularMarketDayRange": "520.0 - 525.0",
     "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 27487,
+    "averageDailyVolume3Month": 27824,
     "fiftyTwoWeekLowChange": 6.0,
     "fiftyTwoWeekLowChangePercent": 0.011627907,
     "fiftyTwoWeekRange": "516.0 - 598.0",
@@ -1235,7 +1233,6 @@
     "earningsTimestampEnd": 1754978400,
     "isEarningsDateEstimate": true,
     "epsTrailingTwelveMonths": 21.19,
-    "marketState": "CLOSED",
     "fiftyDayAverageChange": -46.0,
     "fiftyDayAverageChangePercent": -0.08098592,
     "twoHundredDayAverageChange": -38.03003,
@@ -1243,6 +1240,9 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
+    "corporateActions": [],
+    "regularMarketTime": 1776407400,
+    "marketState": "PREPRE",
     "trailingPegRatio": null
   }
 }

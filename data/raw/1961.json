@@ -1,7 +1,7 @@
 {
   "ticker": "1961",
   "japanese_ticker": "1961.T",
-  "fetch_date": "2026-04-18T23:31:46.575258",
+  "fetch_date": "2026-04-19T23:33:39.905818",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": 67340000.0,
@@ -1131,11 +1131,11 @@
     "forwardPE": 31.31269,
     "volume": 328600,
     "regularMarketVolume": 328600,
-    "averageVolume": 242425,
+    "averageVolume": 244596,
     "averageVolume10days": 357550,
     "averageDailyVolume10Day": 357550,
-    "bid": 7170.0,
-    "ask": 7240.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 365587333120,
@@ -1210,6 +1210,18 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "corporateActions": [
+      {
+        "header": "Stock split",
+        "message": "1961.T announces 3 for 1 split effective Apr. 28, 2026",
+        "meta": {
+          "eventType": "SPLIT",
+          "dateEpochMs": 1777302000000,
+          "splitRatio": "3:1"
+        }
+      }
+    ],
+    "regularMarketTime": 1776407400,
     "exchange": "JPX",
     "messageBoardId": "finmb_877394",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1221,12 +1233,15 @@
     "regularMarketPrice": 7180.0,
     "shortName": "SANKI ENGINEERING CO",
     "longName": "Sanki Engineering Co., Ltd.",
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 978307200000,
     "regularMarketChange": -140.0,
     "regularMarketDayRange": "7070.0 - 7300.0",
     "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 242425,
+    "averageDailyVolume3Month": 244596,
     "fiftyTwoWeekLowChange": 3885.0,
     "fiftyTwoWeekLowChangePercent": 1.1790591,
     "fiftyTwoWeekRange": "3295.0 - 8350.0",
@@ -1242,22 +1257,7 @@
     "fiftyDayAverageChangePercent": -0.012515472,
     "twoHundredDayAverageChange": 1432.1499,
     "twoHundredDayAverageChangePercent": 0.2491627,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
-    "corporateActions": [
-      {
-        "header": "Stock split",
-        "message": "1961.T announces 3 for 1 split effective Apr. 28, 2026",
-        "meta": {
-          "eventType": "SPLIT",
-          "dateEpochMs": 1777302000000,
-          "splitRatio": "3:1"
-        }
-      }
-    ],
-    "regularMarketTime": 1776407400,
-    "marketState": "CLOSED",
+    "marketState": "PREPRE",
     "trailingPegRatio": null
   }
 }

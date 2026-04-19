@@ -1,7 +1,7 @@
 {
   "ticker": "2910",
   "japanese_ticker": "2910.T",
-  "fetch_date": "2026-04-18T23:42:42.193956",
+  "fetch_date": "2026-04-19T23:45:37.828355",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-04-30 00:00:00": -148712000.0,
@@ -1077,11 +1077,11 @@
     "forwardPE": 29.108282,
     "volume": 32700,
     "regularMarketVolume": 32700,
-    "averageVolume": 80964,
+    "averageVolume": 81013,
     "averageVolume10days": 85150,
     "averageDailyVolume10Day": 85150,
-    "bid": 1371.0,
-    "ask": 1375.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 35838902272,
@@ -1155,21 +1155,20 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "corporateActions": [
-      {
-        "header": "Dividend",
-        "message": "2910.T announced a cash dividend of JPY 15.00 with an ex-date of Apr. 28, 2026",
-        "meta": {
-          "eventType": "DIVIDEND",
-          "dateEpochMs": 1777302000000,
-          "amount": "15.00"
-        }
-      }
-    ],
-    "regularMarketTime": 1776407400,
-    "marketState": "CLOSED",
-    "shortName": "ROCK FIELD CO LTD",
-    "longName": "Rock Field Co.,Ltd.",
+    "exchange": "JPX",
+    "messageBoardId": "finmb_2445573",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
+    "regularMarketChangePercent": 0.29261157,
+    "regularMarketPrice": 1371.0,
+    "marketState": "PREPRE",
+    "regularMarketChange": 4.0,
+    "regularMarketDayRange": "1367.0 - 1375.0",
+    "fullExchangeName": "Tokyo",
+    "averageDailyVolume3Month": 81013,
     "fiftyTwoWeekLowChange": 73.0,
     "fiftyTwoWeekLowChangePercent": 0.05624037,
     "fiftyTwoWeekRange": "1298.0 - 1619.0",
@@ -1187,24 +1186,25 @@
     "twoHundredDayAverageChangePercent": -0.050221853,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
-    "prevName": "Rock Field Co., Ltd.",
-    "nameChangeDate": "2026-04-18",
-    "cryptoTradeable": false,
-    "exchange": "JPX",
-    "messageBoardId": "finmb_2445573",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
-    "regularMarketChangePercent": 0.29261157,
-    "regularMarketPrice": 1371.0,
+    "shortName": "ROCK FIELD CO LTD",
+    "longName": "Rock Field Co.,Ltd.",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 978566400000,
-    "regularMarketChange": 4.0,
-    "regularMarketDayRange": "1367.0 - 1375.0",
-    "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 80964,
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "2910.T announced a cash dividend of JPY 15.00 with an ex-date of Apr. 28, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1777302000000,
+          "amount": "15.00"
+        }
+      }
+    ],
+    "regularMarketTime": 1776407400,
+    "prevName": "Rock Field Co., Ltd.",
+    "nameChangeDate": "2026-04-19",
+    "cryptoTradeable": false,
     "trailingPegRatio": null
   }
 }
