@@ -1,7 +1,7 @@
 {
   "ticker": "1780",
   "japanese_ticker": "1780.T",
-  "fetch_date": "2026-04-25T23:32:06.197373",
+  "fetch_date": "2026-04-26T23:33:30.660948",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": 2766798.0,
@@ -107,13 +107,13 @@
     },
     "Diluted Average Shares": {
       "2025-03-31 00:00:00": 18927227.0,
-      "2024-03-31 00:00:00": 18927308.0,
+      "2024-03-31 00:00:00": 18927538.0,
       "2023-03-31 00:00:00": 18927321.0,
       "2022-03-31 00:00:00": 18927321.0
     },
     "Basic Average Shares": {
       "2025-03-31 00:00:00": 18927227.0,
-      "2024-03-31 00:00:00": 18927308.0,
+      "2024-03-31 00:00:00": 18927538.0,
       "2023-03-31 00:00:00": 18927321.0,
       "2022-03-31 00:00:00": 18927321.0
     },
@@ -270,13 +270,13 @@
       "2022-03-31 00:00:00": 2176193.0
     },
     "Ordinary Shares Number": {
-      "2025-03-31 00:00:00": 18927227.0,
+      "2025-03-31 00:00:00": 18927228.0,
       "2024-03-31 00:00:00": 18927228.0,
       "2023-03-31 00:00:00": 18927321.0,
       "2022-03-31 00:00:00": 18927321.0
     },
     "Share Issued": {
-      "2025-03-31 00:00:00": 21103514.0,
+      "2025-03-31 00:00:00": 18927228.0,
       "2024-03-31 00:00:00": 21103514.0,
       "2023-03-31 00:00:00": 21103514.0,
       "2022-03-31 00:00:00": 21103514.0
@@ -992,11 +992,11 @@
     "trailingPE": 7.770179,
     "volume": 22400,
     "regularMarketVolume": 22400,
-    "averageVolume": 56209,
+    "averageVolume": 56027,
     "averageVolume10days": 30910,
     "averageDailyVolume10Day": 30910,
-    "bid": 1442.0,
-    "ask": 1447.0,
+    "bid": 0.0,
+    "ask": 1449.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 27311990784,
@@ -1062,8 +1062,8 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "corporateActions": [],
-    "regularMarketTime": 1777012200,
+    "regularMarketChangePercent": -0.4827586,
+    "regularMarketPrice": 1443.0,
     "exchange": "JPX",
     "messageBoardId": "finmb_884138",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1071,14 +1071,20 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "regularMarketChangePercent": -0.4827586,
-    "regularMarketPrice": 1443.0,
-    "shortName": "YAMAURA CORP",
-    "longName": "Yamaura Corporation",
+    "fiftyDayAverageChange": -132.40002,
+    "fiftyDayAverageChangePercent": -0.08404216,
+    "twoHundredDayAverageChange": -23.974976,
+    "twoHundredDayAverageChangePercent": -0.01634314,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
+    "marketState": "PREPRE",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 978307200000,
     "regularMarketChange": -7.0,
     "regularMarketDayRange": "1440.0 - 1459.0",
     "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 56209,
+    "averageDailyVolume3Month": 56027,
     "fiftyTwoWeekLowChange": 263.0,
     "fiftyTwoWeekLowChangePercent": 0.22288136,
     "fiftyTwoWeekRange": "1180.0 - 1696.0",
@@ -1089,16 +1095,10 @@
     "earningsTimestampEnd": 1754978400,
     "isEarningsDateEstimate": true,
     "epsTrailingTwelveMonths": 185.71,
-    "fiftyDayAverageChange": -132.40002,
-    "fiftyDayAverageChangePercent": -0.08404216,
-    "twoHundredDayAverageChange": -23.974976,
-    "twoHundredDayAverageChangePercent": -0.01634314,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 978307200000,
-    "marketState": "CLOSED",
-    "cryptoTradeable": false,
+    "corporateActions": [],
+    "regularMarketTime": 1777012200,
+    "shortName": "YAMAURA CORP",
+    "longName": "Yamaura Corporation",
     "trailingPegRatio": null
   }
 }

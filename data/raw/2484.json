@@ -1,7 +1,7 @@
 {
   "ticker": "2484",
   "japanese_ticker": "2484.T",
-  "fetch_date": "2026-04-25T23:41:09.624458",
+  "fetch_date": "2026-04-26T23:41:56.656359",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-08-31 00:00:00": 0.0,
@@ -26,14 +26,14 @@
     },
     "Total Unusual Items": {
       "2025-08-31 00:00:00": 0.0,
-      "2024-08-31 00:00:00": 2128000000.0,
+      "2024-08-31 00:00:00": 2124000000.0,
       "2023-08-31 00:00:00": 12000000.0,
       "2022-08-31 00:00:00": 525000000.0,
       "2021-08-31 00:00:00": null
     },
     "Total Unusual Items Excluding Goodwill": {
       "2025-08-31 00:00:00": 0.0,
-      "2024-08-31 00:00:00": 2128000000.0,
+      "2024-08-31 00:00:00": 2124000000.0,
       "2023-08-31 00:00:00": 12000000.0,
       "2022-08-31 00:00:00": 525000000.0,
       "2021-08-31 00:00:00": null
@@ -131,10 +131,10 @@
     },
     "Basic Average Shares": {
       "2025-08-31 00:00:00": 113987748.0,
-      "2024-08-31 00:00:00": 131429585.0,
+      "2024-08-31 00:00:00": null,
       "2023-08-31 00:00:00": 131753229.0,
       "2022-08-31 00:00:00": 127418601.0,
-      "2021-08-31 00:00:00": null
+      "2021-08-31 00:00:00": 82217782.0
     },
     "Diluted EPS": {
       "2025-08-31 00:00:00": -43.62,
@@ -215,7 +215,7 @@
     },
     "Special Income Charges": {
       "2025-08-31 00:00:00": 0.0,
-      "2024-08-31 00:00:00": 4000000.0,
+      "2024-08-31 00:00:00": 0.0,
       "2023-08-31 00:00:00": 12000000.0,
       "2022-08-31 00:00:00": 525000000.0,
       "2021-08-31 00:00:00": null
@@ -724,7 +724,7 @@
     "Effect Of Exchange Rate Changes": {
       "2025-08-31 00:00:00": 0.0,
       "2024-08-31 00:00:00": 0.0,
-      "2023-08-31 00:00:00": 0.0,
+      "2023-08-31 00:00:00": null,
       "2022-08-31 00:00:00": null,
       "2021-08-31 00:00:00": null
     },
@@ -801,7 +801,7 @@
     "Net Investment Purchase And Sale": {
       "2025-08-31 00:00:00": 3000000.0,
       "2024-08-31 00:00:00": 2461000000.0,
-      "2023-08-31 00:00:00": 0.0,
+      "2023-08-31 00:00:00": null,
       "2022-08-31 00:00:00": null,
       "2021-08-31 00:00:00": 156000.0
     },
@@ -1013,11 +1013,11 @@
     "forwardPE": 157.89474,
     "volume": 460800,
     "regularMarketVolume": 460800,
-    "averageVolume": 625456,
+    "averageVolume": 626165,
     "averageVolume10days": 689290,
     "averageDailyVolume10Day": 689290,
-    "bid": 120.0,
-    "ask": 121.0,
+    "bid": 0.0,
+    "ask": 123.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 13364760576,
@@ -1082,33 +1082,26 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "epsTrailingTwelveMonths": -60.58,
-    "epsForward": 0.76,
-    "fiftyDayAverageChange": -11.0,
-    "fiftyDayAverageChangePercent": -0.08396947,
-    "twoHundredDayAverageChange": -32.990005,
-    "twoHundredDayAverageChangePercent": -0.21563503,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
+    "shortName": "DEMAE-CAN CO LTD",
+    "longName": "Demae-Can Co.,Ltd",
+    "marketState": "PREPRE",
     "corporateActions": [],
     "regularMarketTime": 1777012200,
     "exchange": "JPX",
-    "marketState": "CLOSED",
-    "regularMarketChangePercent": -1.6393442,
-    "regularMarketPrice": 120.0,
     "messageBoardId": "finmb_26954432",
     "exchangeTimezoneName": "Asia/Tokyo",
     "exchangeTimezoneShortName": "JST",
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
+    "regularMarketChangePercent": -1.6393442,
+    "regularMarketPrice": 120.0,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1149465600000,
     "regularMarketChange": -2.0,
     "regularMarketDayRange": "119.0 - 123.0",
     "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 625456,
+    "averageDailyVolume3Month": 626165,
     "fiftyTwoWeekLowChange": 2.0,
     "fiftyTwoWeekLowChangePercent": 0.016949153,
     "fiftyTwoWeekRange": "118.0 - 251.0",
@@ -1119,8 +1112,15 @@
     "earningsTimestampStart": 1784097000,
     "earningsTimestampEnd": 1784097000,
     "isEarningsDateEstimate": true,
-    "shortName": "DEMAE-CAN CO LTD",
-    "longName": "Demae-Can Co.,Ltd",
+    "epsTrailingTwelveMonths": -60.58,
+    "epsForward": 0.76,
+    "fiftyDayAverageChange": -11.0,
+    "fiftyDayAverageChangePercent": -0.08396947,
+    "twoHundredDayAverageChange": -32.990005,
+    "twoHundredDayAverageChangePercent": -0.21563503,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
     "trailingPegRatio": null
   }
 }

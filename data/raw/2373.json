@@ -1,7 +1,7 @@
 {
   "ticker": "2373",
   "japanese_ticker": "2373.T",
-  "fetch_date": "2026-04-25T23:39:32.232058",
+  "fetch_date": "2026-04-26T23:40:25.322086",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-10-31 00:00:00": 41197200.0,
@@ -145,7 +145,7 @@
     },
     "Diluted EPS": {
       "2025-10-31 00:00:00": null,
-      "2024-10-31 00:00:00": 20.64,
+      "2024-10-31 00:00:00": null,
       "2023-10-31 00:00:00": 0.46,
       "2022-10-31 00:00:00": 46.83,
       "2021-10-31 00:00:00": 69.63
@@ -1228,11 +1228,11 @@
     "trailingPE": 15.384616,
     "volume": 6400,
     "regularMarketVolume": 6400,
-    "averageVolume": 11456,
+    "averageVolume": 11544,
     "averageVolume10days": 20750,
     "averageDailyVolume10Day": 20750,
-    "bid": 438.0,
-    "ask": 440.0,
+    "bid": 437.0,
+    "ask": 437.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 5917257728,
@@ -1297,12 +1297,9 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "marketState": "CLOSED",
-    "cryptoTradeable": false,
-    "regularMarketChangePercent": -1.1286682,
-    "regularMarketPrice": 438.0,
     "shortName": "CARE TWENTYONE CORP",
     "longName": "Care Twentyone Corporation",
+    "marketState": "PREPRE",
     "corporateActions": [
       {
         "header": "Dividend",
@@ -1315,12 +1312,21 @@
       }
     ],
     "regularMarketTime": 1777012200,
+    "exchange": "JPX",
+    "messageBoardId": "finmb_9476191",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
+    "regularMarketChangePercent": -1.1286682,
+    "regularMarketPrice": 438.0,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1066348800000,
     "regularMarketChange": -5.0,
     "regularMarketDayRange": "437.0 - 443.0",
     "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 11456,
+    "averageDailyVolume3Month": 11544,
     "fiftyTwoWeekLowChange": 59.0,
     "fiftyTwoWeekLowChangePercent": 0.15567282,
     "fiftyTwoWeekRange": "379.0 - 613.0",
@@ -1337,13 +1343,7 @@
     "twoHundredDayAverageChangePercent": -0.00825321,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
-    "exchange": "JPX",
-    "messageBoardId": "finmb_9476191",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
+    "cryptoTradeable": false,
     "trailingPegRatio": null
   }
 }

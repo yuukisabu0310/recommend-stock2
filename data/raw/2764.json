@@ -1,7 +1,7 @@
 {
   "ticker": "2764",
   "japanese_ticker": "2764.T",
-  "fetch_date": "2026-04-25T23:44:03.597992",
+  "fetch_date": "2026-04-26T23:44:33.311729",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": 8085900.0,
@@ -113,7 +113,7 @@
     },
     "Basic Average Shares": {
       "2025-03-31 00:00:00": 70601027.0,
-      "2024-03-31 00:00:00": 70607940.0,
+      "2024-03-31 00:00:00": 70556682.0,
       "2023-03-31 00:00:00": 70678298.0,
       "2022-03-31 00:00:00": 59196578.0
     },
@@ -282,7 +282,7 @@
       "2022-03-31 00:00:00": 70721661.0
     },
     "Share Issued": {
-      "2025-03-31 00:00:00": 74740400.0,
+      "2025-03-31 00:00:00": 70621611.0,
       "2024-03-31 00:00:00": 74740400.0,
       "2023-03-31 00:00:00": 74740400.0,
       "2022-03-31 00:00:00": 74740400.0
@@ -996,11 +996,11 @@
     "beta": 0.258,
     "volume": 184900,
     "regularMarketVolume": 184900,
-    "averageVolume": 643524,
+    "averageVolume": 652634,
     "averageVolume10days": 177130,
     "averageDailyVolume10Day": 177130,
-    "bid": 149.0,
-    "ask": 151.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 10597110784,
@@ -1067,19 +1067,6 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "corporateActions": [],
-    "regularMarketTime": 1777012200,
-    "exchange": "JPX",
-    "messageBoardId": "finmb_4069933",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "cryptoTradeable": false,
-    "regularMarketChangePercent": 0.67114097,
-    "regularMarketPrice": 150.0,
-    "marketState": "CLOSED",
-    "market": "jp_market",
-    "esgPopulated": false,
     "shortName": "HIRAMATSU INC",
     "longName": "Hiramatsu Inc.",
     "hasPrePostMarketData": false,
@@ -1087,7 +1074,7 @@
     "regularMarketChange": 1.0,
     "regularMarketDayRange": "146.0 - 152.0",
     "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 643524,
+    "averageDailyVolume3Month": 652634,
     "fiftyTwoWeekLowChange": 43.0,
     "fiftyTwoWeekLowChangePercent": 0.40186915,
     "fiftyTwoWeekRange": "107.0 - 180.0",
@@ -1097,6 +1084,7 @@
     "earningsTimestampStart": 1754982000,
     "earningsTimestampEnd": 1755500400,
     "isEarningsDateEstimate": true,
+    "marketState": "PREPRE",
     "epsTrailingTwelveMonths": -2.48,
     "fiftyDayAverageChange": -2.3600006,
     "fiftyDayAverageChangePercent": -0.015489634,
@@ -1104,6 +1092,18 @@
     "twoHundredDayAverageChangePercent": 0.14025083,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
+    "corporateActions": [],
+    "regularMarketTime": 1777012200,
+    "exchange": "JPX",
+    "messageBoardId": "finmb_4069933",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
+    "regularMarketChangePercent": 0.67114097,
+    "regularMarketPrice": 150.0,
     "trailingPegRatio": null
   }
 }

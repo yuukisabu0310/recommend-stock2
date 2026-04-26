@@ -1,7 +1,7 @@
 {
   "ticker": "2689",
   "japanese_ticker": "2689.T",
-  "fetch_date": "2026-04-25T23:42:57.175598",
+  "fetch_date": "2026-04-26T23:43:34.380040",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-06-30 00:00:00": null,
@@ -124,17 +124,17 @@
     },
     "Diluted Average Shares": {
       "2025-06-30 00:00:00": 5923495.0,
-      "2024-06-30 00:00:00": 5961397.0,
-      "2023-06-30 00:00:00": 6020520.0,
+      "2024-06-30 00:00:00": null,
+      "2023-06-30 00:00:00": 6020596.0,
       "2022-06-30 00:00:00": 6073244.0,
-      "2021-06-30 00:00:00": null
+      "2021-06-30 00:00:00": 6082368.0
     },
     "Basic Average Shares": {
       "2025-06-30 00:00:00": 5923495.0,
-      "2024-06-30 00:00:00": 5961397.0,
-      "2023-06-30 00:00:00": 6020520.0,
+      "2024-06-30 00:00:00": null,
+      "2023-06-30 00:00:00": 6020596.0,
       "2022-06-30 00:00:00": 6073244.0,
-      "2021-06-30 00:00:00": null
+      "2021-06-30 00:00:00": 6082368.0
     },
     "Diluted EPS": {
       "2025-06-30 00:00:00": 241.43,
@@ -145,10 +145,10 @@
     },
     "Basic EPS": {
       "2025-06-30 00:00:00": 241.43,
-      "2024-06-30 00:00:00": 251.68,
+      "2024-06-30 00:00:00": null,
       "2023-06-30 00:00:00": 234.9,
       "2022-06-30 00:00:00": 252.8,
-      "2021-06-30 00:00:00": null
+      "2021-06-30 00:00:00": 162.66
     },
     "Diluted NI Availto Com Stockholders": {
       "2025-06-30 00:00:00": null,
@@ -996,7 +996,7 @@
     },
     "Net Foreign Currency Exchange Gain Loss": {
       "2024-06-30 00:00:00": -7062000.0,
-      "2023-06-30 00:00:00": 0.0,
+      "2023-06-30 00:00:00": null,
       "2022-06-30 00:00:00": null,
       "2021-06-30 00:00:00": null
     },
@@ -1096,11 +1096,11 @@
     "trailingPE": 10.010092,
     "volume": 1800,
     "regularMarketVolume": 1800,
-    "averageVolume": 2541,
+    "averageVolume": 2554,
     "averageVolume10days": 2090,
     "averageDailyVolume10Day": 2090,
     "bid": 2083.0,
-    "ask": 2088.0,
+    "ask": 2083.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 12348082176,
@@ -1167,7 +1167,13 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "epsTrailingTwelveMonths": 208.09,
+    "regularMarketChange": -13.0,
+    "regularMarketDayRange": "2083.0 - 2096.0",
+    "fullExchangeName": "Tokyo",
+    "averageDailyVolume3Month": 2554,
+    "fiftyTwoWeekLowChange": 98.0,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 978566400000,
     "fiftyDayAverageChange": -36.73999,
     "fiftyDayAverageChangePercent": -0.01733231,
     "twoHundredDayAverageChange": 18.61499,
@@ -1175,14 +1181,10 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "prevName": "Kawanishi Holdings, Inc.",
-    "nameChangeDate": "2026-04-25",
-    "cryptoTradeable": false,
-    "marketState": "CLOSED",
-    "regularMarketChange": -13.0,
-    "regularMarketDayRange": "2083.0 - 2096.0",
-    "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 2541,
-    "fiftyTwoWeekLowChange": 98.0,
+    "nameChangeDate": "2026-04-26",
+    "esgPopulated": false,
+    "regularMarketChangePercent": -0.620229,
+    "regularMarketPrice": 2083.0,
     "fiftyTwoWeekLowChangePercent": 0.049370278,
     "fiftyTwoWeekRange": "1985.0 - 2238.0",
     "fiftyTwoWeekHighChange": -155.0,
@@ -1193,10 +1195,9 @@
     "earningsCallTimestampStart": 1739876340,
     "earningsCallTimestampEnd": 1739876340,
     "isEarningsDateEstimate": true,
-    "shortName": "OLBA HEALTHCARE HLDGS INC",
-    "longName": "OLBA HEALTHCARE HOLDINGS, Inc.",
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 978566400000,
+    "epsTrailingTwelveMonths": 208.09,
+    "marketState": "PREPRE",
+    "cryptoTradeable": false,
     "corporateActions": [],
     "regularMarketTime": 1777011152,
     "exchange": "JPX",
@@ -1205,9 +1206,8 @@
     "exchangeTimezoneShortName": "JST",
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
-    "esgPopulated": false,
-    "regularMarketChangePercent": -0.620229,
-    "regularMarketPrice": 2083.0,
+    "shortName": "OLBA HEALTHCARE HLDGS INC",
+    "longName": "OLBA HEALTHCARE HOLDINGS, Inc.",
     "trailingPegRatio": null
   }
 }

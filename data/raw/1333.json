@@ -1,7 +1,7 @@
 {
   "ticker": "1333",
   "japanese_ticker": "1333.T",
-  "fetch_date": "2026-04-25T23:30:12.155691",
+  "fetch_date": "2026-04-26T23:31:43.632073",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": 2800410000.0,
@@ -985,57 +985,6 @@
         "title": "Managing Executive Officer & GM of Investor Relations and Public Relations Department",
         "exercisedValue": 0,
         "unexercisedValue": 0
-      },
-      {
-        "maxAge": 1,
-        "name": "Mr. Satoshi  Kokaji",
-        "age": 64,
-        "title": "Sr MEO, Director of Processed Foods Bus Segment, Production & Manufacturing Divi & Director",
-        "yearBorn": 1961,
-        "exercisedValue": 0,
-        "unexercisedValue": 0
-      },
-      {
-        "maxAge": 1,
-        "name": "Yoshinobu  Kumamoto",
-        "title": "MEO and Director of Foodstuff Distribution Buss Segment, Agricultural Foods, Meat & Products Unit",
-        "exercisedValue": 0,
-        "unexercisedValue": 0
-      },
-      {
-        "maxAge": 1,
-        "name": "Itaru  Kawada",
-        "title": "Managing Ex Officer, Director of Marine Resources Business Segment & North America Operations Unit",
-        "exercisedValue": 0,
-        "unexercisedValue": 0
-      },
-      {
-        "maxAge": 1,
-        "name": "Yoshitaka  Koseki",
-        "title": "Managing Executive Officer & Deputy Division Director of Corporate Management Division",
-        "exercisedValue": 0,
-        "unexercisedValue": 0
-      },
-      {
-        "maxAge": 1,
-        "name": "Narumi  Ito",
-        "title": "Chief of System Management Section & Digital Transformation Department",
-        "exercisedValue": 0,
-        "unexercisedValue": 0
-      },
-      {
-        "maxAge": 1,
-        "name": "Yusuke  Sato",
-        "title": "General Manager of Sustainability Department",
-        "exercisedValue": 0,
-        "unexercisedValue": 0
-      },
-      {
-        "maxAge": 1,
-        "name": "Toshimasa  Ouchi",
-        "title": "Chief of Grocery Section & Food Sales Department for Kanto Regional Branch",
-        "exercisedValue": 0,
-        "unexercisedValue": 0
       }
     ],
     "auditRisk": 1,
@@ -1064,11 +1013,11 @@
     "forwardPE": 5.102936,
     "volume": 346000,
     "regularMarketVolume": 346000,
-    "averageVolume": 623803,
+    "averageVolume": 622809,
     "averageVolume10days": 457520,
     "averageDailyVolume10Day": 457520,
-    "bid": 1336.0,
-    "ask": 1339.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 202351017984,
@@ -1137,9 +1086,6 @@
     "customPriceAlertConfidence": "LOW",
     "regularMarketChangePercent": 0.29973772,
     "regularMarketPrice": 1338.5,
-    "marketState": "CLOSED",
-    "corporateActions": [],
-    "regularMarketTime": 1777012200,
     "exchange": "JPX",
     "messageBoardId": "finmb_874365",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1147,13 +1093,22 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "shortName": "UMIOS CORP",
+    "fiftyDayAverageChange": -135.54004,
+    "fiftyDayAverageChangePercent": -0.09195139,
+    "twoHundredDayAverageChange": 71.412476,
+    "twoHundredDayAverageChangePercent": 0.056359544,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "prevName": "Maruha Nichiro Corporation",
+    "nameChangeDate": "2026-04-26",
+    "cryptoTradeable": false,
+    "marketState": "PREPRE",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1396310400000,
     "regularMarketChange": 4.0,
     "regularMarketDayRange": "1325.0 - 1343.5",
     "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 623803,
+    "averageDailyVolume3Month": 622809,
     "fiftyTwoWeekLowChange": 351.0,
     "fiftyTwoWeekLowChangePercent": 0.35544303,
     "fiftyTwoWeekRange": "987.5 - 1589.0",
@@ -1168,15 +1123,9 @@
     "isEarningsDateEstimate": false,
     "epsTrailingTwelveMonths": 144.96,
     "epsForward": 262.3,
-    "fiftyDayAverageChange": -135.54004,
-    "fiftyDayAverageChangePercent": -0.09195139,
-    "twoHundredDayAverageChange": 71.412476,
-    "twoHundredDayAverageChangePercent": 0.056359544,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "prevName": "Maruha Nichiro Corporation",
-    "nameChangeDate": "2026-04-25",
-    "cryptoTradeable": false,
+    "corporateActions": [],
+    "regularMarketTime": 1777012200,
+    "shortName": "UMIOS CORP",
     "longName": "Umios Corporation",
     "trailingPegRatio": null
   }

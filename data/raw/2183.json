@@ -1,7 +1,7 @@
 {
   "ticker": "2183",
   "japanese_ticker": "2183.T",
-  "fetch_date": "2026-04-25T23:36:58.188439",
+  "fetch_date": "2026-04-26T23:38:04.438271",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": -2912064.0,
@@ -258,7 +258,7 @@
   },
   "balance_sheet": {
     "Treasury Shares Number": {
-      "2025-03-31 00:00:00": 2153569.0,
+      "2025-03-31 00:00:00": null,
       "2024-03-31 00:00:00": 2153564.0,
       "2023-03-31 00:00:00": 2153564.0,
       "2022-03-31 00:00:00": 2153564.0
@@ -1003,10 +1003,10 @@
     "forwardPE": 10.638298,
     "volume": 24600,
     "regularMarketVolume": 24600,
-    "averageVolume": 40453,
+    "averageVolume": 40932,
     "averageVolume10days": 19330,
     "averageDailyVolume10Day": 19330,
-    "bid": 250.0,
+    "bid": 0.0,
     "ask": 252.0,
     "bidSize": 0,
     "askSize": 0,
@@ -1073,8 +1073,12 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1225065600000,
+    "regularMarketChangePercent": -0.3984064,
+    "regularMarketPrice": 250.0,
+    "marketState": "PREPRE",
+    "cryptoTradeable": false,
+    "shortName": "LINICAL CO LTD",
+    "longName": "Linical Co., Ltd.",
     "corporateActions": [],
     "regularMarketTime": 1777012200,
     "exchange": "JPX",
@@ -1084,13 +1088,12 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "regularMarketChangePercent": -0.3984064,
-    "regularMarketPrice": 250.0,
-    "marketState": "CLOSED",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1225065600000,
     "regularMarketChange": -1.0,
     "regularMarketDayRange": "250.0 - 253.0",
     "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 40453,
+    "averageDailyVolume3Month": 40932,
     "fiftyTwoWeekLowChange": 0.0,
     "fiftyTwoWeekLowChangePercent": 0.0,
     "fiftyTwoWeekRange": "250.0 - 363.0",
@@ -1108,9 +1111,6 @@
     "twoHundredDayAverageChangePercent": -0.20745626,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
-    "shortName": "LINICAL CO LTD",
-    "longName": "Linical Co., Ltd.",
-    "cryptoTradeable": false,
     "trailingPegRatio": null
   }
 }

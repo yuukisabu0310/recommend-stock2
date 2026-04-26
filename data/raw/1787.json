@@ -1,7 +1,7 @@
 {
   "ticker": "1787",
   "japanese_ticker": "1787.T",
-  "fetch_date": "2026-04-25T23:32:12.117566",
+  "fetch_date": "2026-04-26T23:33:35.697116",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": -1479525.3,
@@ -306,7 +306,7 @@
       "2022-03-31 00:00:00": 2463888.0
     },
     "Share Issued": {
-      "2025-03-31 00:00:00": 2602500.0,
+      "2025-03-31 00:00:00": 2460918.0,
       "2024-03-31 00:00:00": 2602500.0,
       "2023-03-31 00:00:00": 2602500.0,
       "2022-03-31 00:00:00": 2602500.0
@@ -925,7 +925,7 @@
     "averageVolume10days": 620,
     "averageDailyVolume10Day": 620,
     "bid": 5470.0,
-    "ask": 5510.0,
+    "ask": 5710.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 13437705216,
@@ -991,19 +991,7 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "exchange": "JPX",
-    "messageBoardId": "finmb_5774228",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
-    "regularMarketChangePercent": 0.0,
-    "regularMarketPrice": 5480.0,
-    "corporateActions": [],
-    "regularMarketTime": 1777001400,
-    "shortName": "NAKABOHTEC CORROSION PROTECTING",
-    "longName": "Nakabohtec Corrosion Protecting Co.,Ltd.",
+    "marketState": "PREPRE",
     "epsTrailingTwelveMonths": 377.57,
     "fiftyDayAverageChange": -572.0,
     "fiftyDayAverageChangePercent": -0.09451421,
@@ -1011,7 +999,20 @@
     "twoHundredDayAverageChangePercent": -0.01700506,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
+    "shortName": "NAKABOHTEC CORROSION PROTECTING",
+    "longName": "Nakabohtec Corrosion Protecting Co.,Ltd.",
     "cryptoTradeable": false,
+    "regularMarketChangePercent": 0.0,
+    "regularMarketPrice": 5480.0,
+    "corporateActions": [],
+    "regularMarketTime": 1777001400,
+    "exchange": "JPX",
+    "messageBoardId": "finmb_5774228",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 946944000000,
     "regularMarketChange": 0.0,
@@ -1027,7 +1028,6 @@
     "earningsTimestampStart": 1746694800,
     "earningsTimestampEnd": 1746694800,
     "isEarningsDateEstimate": false,
-    "marketState": "CLOSED",
     "trailingPegRatio": null
   }
 }

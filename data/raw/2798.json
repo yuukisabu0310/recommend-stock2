@@ -1,7 +1,7 @@
 {
   "ticker": "2798",
   "japanese_ticker": "2798.T",
-  "fetch_date": "2026-04-25T23:44:37.403363",
+  "fetch_date": "2026-04-26T23:45:04.597800",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-02-28 00:00:00": null,
@@ -132,7 +132,7 @@
     "Basic Average Shares": {
       "2026-02-28 00:00:00": null,
       "2025-02-28 00:00:00": null,
-      "2024-02-29 00:00:00": 3298164.0,
+      "2024-02-29 00:00:00": 3298175.0,
       "2023-02-28 00:00:00": 3045829.0,
       "2022-02-28 00:00:00": 2963997.0
     },
@@ -314,7 +314,7 @@
   },
   "balance_sheet": {
     "Treasury Shares Number": {
-      "2025-02-28 00:00:00": 282.0,
+      "2025-02-28 00:00:00": null,
       "2024-02-29 00:00:00": 236.0,
       "2023-02-28 00:00:00": 236.0,
       "2022-02-28 00:00:00": 236.0
@@ -326,7 +326,7 @@
       "2022-02-28 00:00:00": 3024864.0
     },
     "Share Issued": {
-      "2025-02-28 00:00:00": 3298400.0,
+      "2025-02-28 00:00:00": 3298118.0,
       "2024-02-29 00:00:00": 3298400.0,
       "2023-02-28 00:00:00": 3298400.0,
       "2022-02-28 00:00:00": 3025100.0
@@ -998,11 +998,11 @@
     "trailingPE": 47.844967,
     "volume": 1300,
     "regularMarketVolume": 1300,
-    "averageVolume": 3654,
+    "averageVolume": 3685,
     "averageVolume10days": 2070,
     "averageDailyVolume10Day": 2070,
-    "bid": 2976.0,
-    "ask": 2983.0,
+    "bid": 2984.0,
+    "ask": 2987.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 9811751936,
@@ -1069,14 +1069,15 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "corporateActions": [],
-    "cryptoTradeable": false,
+    "marketState": "PREPRE",
+    "shortName": "Y'S TABLE CORP",
+    "longName": "Y's Table Corporation",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1078099200000,
     "regularMarketChange": 2.0,
     "regularMarketDayRange": "2974.0 - 2984.0",
     "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 3654,
+    "averageDailyVolume3Month": 3685,
     "fiftyTwoWeekLowChange": 157.0,
     "fiftyTwoWeekLowChangePercent": 0.055713274,
     "fiftyTwoWeekRange": "2818.0 - 3030.0",
@@ -1086,16 +1087,7 @@
     "earningsTimestampStart": 1744617600,
     "earningsTimestampEnd": 1744617600,
     "isEarningsDateEstimate": false,
-    "epsTrailingTwelveMonths": 62.18,
-    "fiftyDayAverageChange": 23.600098,
-    "fiftyDayAverageChangePercent": 0.007996239,
-    "twoHundredDayAverageChange": 29.554932,
-    "twoHundredDayAverageChangePercent": 0.010034114,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "regularMarketChangePercent": 0.06727211,
-    "regularMarketPrice": 2975.0,
-    "marketState": "CLOSED",
+    "corporateActions": [],
     "regularMarketTime": 1777006010,
     "exchange": "JPX",
     "messageBoardId": "finmb_9124088",
@@ -1104,8 +1096,16 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "shortName": "Y'S TABLE CORP",
-    "longName": "Y's Table Corporation",
+    "regularMarketChangePercent": 0.06727211,
+    "regularMarketPrice": 2975.0,
+    "epsTrailingTwelveMonths": 62.18,
+    "fiftyDayAverageChange": 23.600098,
+    "fiftyDayAverageChangePercent": 0.007996239,
+    "twoHundredDayAverageChange": 29.554932,
+    "twoHundredDayAverageChangePercent": 0.010034114,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
     "trailingPegRatio": null
   }
 }

@@ -1,7 +1,7 @@
 {
   "ticker": "2384",
   "japanese_ticker": "2384.T",
-  "fetch_date": "2026-04-25T23:39:44.236350",
+  "fetch_date": "2026-04-26T23:40:36.533652",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-12-31 00:00:00": -243133000.0,
@@ -1019,34 +1019,6 @@
         "title": "Executive Officer",
         "exercisedValue": 0,
         "unexercisedValue": 0
-      },
-      {
-        "maxAge": 1,
-        "name": "Hirohiko  Ueda",
-        "title": "Executive Officer",
-        "exercisedValue": 0,
-        "unexercisedValue": 0
-      },
-      {
-        "maxAge": 1,
-        "name": "Kimihiro  Sato",
-        "title": "Executive Officer",
-        "exercisedValue": 0,
-        "unexercisedValue": 0
-      },
-      {
-        "maxAge": 1,
-        "name": "Ryo  Akuzawa",
-        "title": "Executive Officer",
-        "exercisedValue": 0,
-        "unexercisedValue": 0
-      },
-      {
-        "maxAge": 1,
-        "name": "Mitsugu  Kakushi",
-        "title": "Executive Officer & Representative Director",
-        "exercisedValue": 0,
-        "unexercisedValue": 0
       }
     ],
     "auditRisk": 4,
@@ -1076,11 +1048,11 @@
     "forwardPE": 14.379433,
     "volume": 42700,
     "regularMarketVolume": 42700,
-    "averageVolume": 75141,
+    "averageVolume": 75827,
     "averageVolume10days": 48870,
     "averageDailyVolume10Day": 48870,
-    "bid": 4020.0,
-    "ask": 4060.0,
+    "bid": 0.0,
+    "ask": 4025.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 161053933568,
@@ -1155,19 +1127,6 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "marketState": "CLOSED",
-    "regularMarketChangePercent": 0.49566296,
-    "regularMarketPrice": 4055.0,
-    "regularMarketTime": 1777012200,
-    "corporateActions": [],
-    "cryptoTradeable": false,
-    "exchange": "JPX",
-    "messageBoardId": "finmb_10732546",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
     "shortName": "SBS HOLDINGS INC",
     "longName": "SBS Holdings, Inc.",
     "hasPrePostMarketData": false,
@@ -1175,7 +1134,7 @@
     "regularMarketChange": 20.0,
     "regularMarketDayRange": "4010.0 - 4070.0",
     "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 75141,
+    "averageDailyVolume3Month": 75827,
     "fiftyTwoWeekLowChange": 1355.0,
     "fiftyTwoWeekLowChangePercent": 0.50185186,
     "fiftyTwoWeekRange": "2700.0 - 4445.0",
@@ -1185,6 +1144,7 @@
     "earningsTimestampStart": 1754452800,
     "earningsTimestampEnd": 1754971200,
     "isEarningsDateEstimate": true,
+    "marketState": "PREPRE",
     "epsTrailingTwelveMonths": 296.83,
     "epsForward": 282.0,
     "fiftyDayAverageChange": -105.299805,
@@ -1193,6 +1153,18 @@
     "twoHundredDayAverageChangePercent": 0.09013289,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
+    "corporateActions": [],
+    "regularMarketTime": 1777012200,
+    "exchange": "JPX",
+    "messageBoardId": "finmb_10732546",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
+    "regularMarketChangePercent": 0.49566296,
+    "regularMarketPrice": 4055.0,
     "trailingPegRatio": null
   }
 }

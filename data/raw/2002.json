@@ -1,7 +1,7 @@
 {
   "ticker": "2002",
   "japanese_ticker": "2002.T",
-  "fetch_date": "2026-04-25T23:35:28.287895",
+  "fetch_date": "2026-04-26T23:36:39.407857",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": 1338230000.0,
@@ -188,12 +188,6 @@
       "2024-03-31 00:00:00": 191000000.0,
       "2023-03-31 00:00:00": 485000000.0,
       "2022-03-31 00:00:00": 878000000.0
-    },
-    "Special Income Charges": {
-      "2025-03-31 00:00:00": -3299000000.0,
-      "2024-03-31 00:00:00": -1578000000.0,
-      "2023-03-31 00:00:00": -56564000000.0,
-      "2022-03-31 00:00:00": -3497000000.0
     },
     "Other Special Charges": {
       "2025-03-31 00:00:00": 954000000.0,
@@ -1044,11 +1038,11 @@
     "forwardPE": 15.457043,
     "volume": 526800,
     "regularMarketVolume": 526800,
-    "averageVolume": 894022,
+    "averageVolume": 893337,
     "averageVolume10days": 702610,
     "averageDailyVolume10Day": 702610,
-    "bid": 1966.0,
-    "ask": 1970.5,
+    "bid": 2027.0,
+    "ask": 2027.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 552986476544,
@@ -1122,9 +1116,6 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "regularMarketChangePercent": 0.0,
-    "regularMarketPrice": 1970.0,
-    "marketState": "CLOSED",
     "corporateActions": [],
     "regularMarketTime": 1777012200,
     "exchange": "JPX",
@@ -1134,13 +1125,12 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "shortName": "NISSHIN SEIFUN GROUP INC",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 946944000000,
     "regularMarketChange": 0.0,
     "regularMarketDayRange": "1955.0 - 1978.5",
     "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 894022,
+    "averageDailyVolume3Month": 893337,
     "fiftyTwoWeekLowChange": 278.0,
     "fiftyTwoWeekLowChangePercent": 0.1643026,
     "fiftyTwoWeekRange": "1692.0 - 2198.5",
@@ -1159,10 +1149,14 @@
     "fiftyDayAverageChangePercent": -0.062342327,
     "twoHundredDayAverageChange": 63.53003,
     "twoHundredDayAverageChangePercent": 0.033323385,
+    "marketState": "PREPRE",
+    "regularMarketChangePercent": 0.0,
+    "regularMarketPrice": 1970.0,
+    "shortName": "NISSHIN SEIFUN GROUP INC",
+    "longName": "Nisshin Seifun Group Inc.",
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
-    "longName": "Nisshin Seifun Group Inc.",
     "trailingPegRatio": null
   }
 }

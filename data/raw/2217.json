@@ -1,7 +1,7 @@
 {
   "ticker": "2217",
   "japanese_ticker": "2217.T",
-  "fetch_date": "2026-04-25T23:37:33.912743",
+  "fetch_date": "2026-04-26T23:38:37.037941",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-01-31 00:00:00": -79045600.0,
@@ -132,7 +132,7 @@
     "Basic Average Shares": {
       "2026-01-31 00:00:00": null,
       "2025-01-31 00:00:00": 20551802.0,
-      "2024-01-31 00:00:00": 21039516.0,
+      "2024-01-31 00:00:00": 21038492.0,
       "2023-01-31 00:00:00": 21107790.0,
       "2022-01-31 00:00:00": 21099078.0
     },
@@ -301,14 +301,14 @@
   "balance_sheet": {
     "Treasury Shares Number": {
       "2026-01-31 00:00:00": 1204758.0,
-      "2025-01-31 00:00:00": 1054635.0,
+      "2025-01-31 00:00:00": null,
       "2024-01-31 00:00:00": 513351.0,
       "2023-01-31 00:00:00": 154812.0,
-      "2022-01-31 00:00:00": null
+      "2022-01-31 00:00:00": 914964.0
     },
     "Ordinary Shares Number": {
       "2026-01-31 00:00:00": 20060598.0,
-      "2025-01-31 00:00:00": 20210721.0,
+      "2025-01-31 00:00:00": 20211495.0,
       "2024-01-31 00:00:00": 20752005.0,
       "2023-01-31 00:00:00": 21110544.0,
       "2022-01-31 00:00:00": null
@@ -1104,63 +1104,6 @@
         "yearBorn": 1959,
         "exercisedValue": 0,
         "unexercisedValue": 0
-      },
-      {
-        "maxAge": 1,
-        "name": "Mr. Masato  Suzuki",
-        "age": 54,
-        "title": "MD, GM of Marketing Division & Director",
-        "yearBorn": 1971,
-        "exercisedValue": 0,
-        "unexercisedValue": 0
-      },
-      {
-        "maxAge": 1,
-        "name": "Takayuki  Sasaki",
-        "age": 59,
-        "title": "Head of Sales Division & Director",
-        "yearBorn": 1966,
-        "exercisedValue": 0,
-        "unexercisedValue": 0
-      },
-      {
-        "maxAge": 1,
-        "name": "Mr. Koji  Takada",
-        "age": 60,
-        "title": "GM of Production Headquarters & Director",
-        "yearBorn": 1965,
-        "exercisedValue": 0,
-        "unexercisedValue": 0
-      },
-      {
-        "maxAge": 1,
-        "name": "Mr. Kenji  Isono",
-        "age": 60,
-        "title": "GM of Corporate Management Division & Director",
-        "yearBorn": 1965,
-        "exercisedValue": 0,
-        "unexercisedValue": 0
-      },
-      {
-        "maxAge": 1,
-        "name": "Mr. Shiro  Akamatsu",
-        "title": "General Manager of Corporate Planning & Business Management",
-        "exercisedValue": 0,
-        "unexercisedValue": 0
-      },
-      {
-        "maxAge": 1,
-        "name": "Manabu  Sasabe",
-        "title": "Executive Officer & Head of International Business",
-        "exercisedValue": 0,
-        "unexercisedValue": 0
-      },
-      {
-        "maxAge": 1,
-        "name": "Mr. Kenji  Sato",
-        "title": "Executive Officer & General Manager of Corporate Planning Business Management",
-        "exercisedValue": 0,
-        "unexercisedValue": 0
       }
     ],
     "irWebsite": "http://www.morozoff.co.jp/ir/index.html",
@@ -1185,11 +1128,11 @@
     "forwardPE": 6.475771,
     "volume": 33100,
     "regularMarketVolume": 33100,
-    "averageVolume": 49151,
+    "averageVolume": 49381,
     "averageVolume10days": 22810,
     "averageDailyVolume10Day": 22810,
-    "bid": 1470.0,
-    "ask": 1476.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 29489078272,
@@ -1259,34 +1202,24 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "marketState": "CLOSED",
     "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 978307200000,
-    "earningsTimestampStart": 1749708000,
     "earningsTimestampEnd": 1749708000,
     "isEarningsDateEstimate": false,
-    "epsTrailingTwelveMonths": 31.9,
-    "epsForward": 227.0,
+    "regularMarketChangePercent": -1.010101,
+    "regularMarketPrice": 1470.0,
     "fiftyDayAverageChange": -37.47998,
     "fiftyDayAverageChangePercent": -0.024862671,
     "twoHundredDayAverageChange": -69.58496,
     "twoHundredDayAverageChangePercent": -0.04519722,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
+    "longName": "Morozoff Limited",
     "regularMarketChange": -15.0,
     "regularMarketDayRange": "1470.0 - 1490.0",
-    "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 49151,
-    "fiftyTwoWeekLowChange": 10.0,
     "fiftyTwoWeekLowChangePercent": 0.006849315,
     "fiftyTwoWeekRange": "1460.0 - 1811.0",
     "fiftyTwoWeekHighChange": -341.0,
     "fiftyTwoWeekHighChangePercent": -0.18829376,
     "fiftyTwoWeekChangePercent": -17.96875,
-    "regularMarketChangePercent": -1.010101,
-    "regularMarketPrice": 1470.0,
-    "shortName": "MOROZOFF LIMITED",
-    "longName": "Morozoff Limited",
+    "cryptoTradeable": false,
     "corporateActions": [],
     "regularMarketTime": 1777012200,
     "exchange": "JPX",
@@ -1296,7 +1229,17 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "cryptoTradeable": false,
+    "shortName": "MOROZOFF LIMITED",
+    "earningsTimestampStart": 1749708000,
+    "averageDailyVolume3Month": 49381,
+    "fiftyTwoWeekLowChange": 10.0,
+    "epsTrailingTwelveMonths": 31.9,
+    "epsForward": 227.0,
+    "fullExchangeName": "Tokyo",
+    "firstTradeDateMilliseconds": 978307200000,
+    "marketState": "PREPRE",
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
     "trailingPegRatio": null
   }
 }

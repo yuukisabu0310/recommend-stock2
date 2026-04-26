@@ -1,7 +1,7 @@
 {
   "ticker": "2435",
   "japanese_ticker": "2435.T",
-  "fetch_date": "2026-04-25T23:40:26.473225",
+  "fetch_date": "2026-04-26T23:41:16.293035",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": -17476000.0,
@@ -264,7 +264,7 @@
   },
   "balance_sheet": {
     "Treasury Shares Number": {
-      "2025-03-31 00:00:00": 254037.0,
+      "2025-03-31 00:00:00": null,
       "2024-03-31 00:00:00": 254037.0,
       "2023-03-31 00:00:00": 254037.0,
       "2022-03-31 00:00:00": 254937.0
@@ -276,7 +276,7 @@
       "2022-03-31 00:00:00": 11221063.0
     },
     "Share Issued": {
-      "2025-03-31 00:00:00": 11476000.0,
+      "2025-03-31 00:00:00": 11221963.0,
       "2024-03-31 00:00:00": 11476000.0,
       "2023-03-31 00:00:00": 11476000.0,
       "2022-03-31 00:00:00": 11476000.0
@@ -945,10 +945,10 @@
     "trailingPE": 5.655931,
     "volume": 21300,
     "regularMarketVolume": 21300,
-    "averageVolume": 168066,
+    "averageVolume": 170472,
     "averageVolume10days": 13650,
     "averageDailyVolume10Day": 13650,
-    "bid": 216.0,
+    "bid": 0.0,
     "ask": 218.0,
     "bidSize": 0,
     "askSize": 0,
@@ -1016,19 +1016,6 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "corporateActions": [],
-    "regularMarketTime": 1777012200,
-    "exchange": "JPX",
-    "messageBoardId": "finmb_21811706",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "cryptoTradeable": false,
-    "regularMarketChangePercent": 0.46511626,
-    "regularMarketPrice": 216.0,
-    "marketState": "CLOSED",
-    "market": "jp_market",
-    "esgPopulated": false,
     "shortName": "CEDAR. CO LTD",
     "longName": "CEDAR.Co.,Ltd.",
     "hasPrePostMarketData": false,
@@ -1036,7 +1023,7 @@
     "regularMarketChange": 1.0,
     "regularMarketDayRange": "215.0 - 217.0",
     "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 168066,
+    "averageDailyVolume3Month": 170472,
     "fiftyTwoWeekLowChange": 25.0,
     "fiftyTwoWeekLowChangePercent": 0.13089006,
     "fiftyTwoWeekRange": "191.0 - 372.0",
@@ -1046,6 +1033,7 @@
     "earningsTimestampStart": 1746759600,
     "earningsTimestampEnd": 1746759600,
     "isEarningsDateEstimate": false,
+    "marketState": "PREPRE",
     "epsTrailingTwelveMonths": 38.19,
     "fiftyDayAverageChange": -4.080002,
     "fiftyDayAverageChangePercent": -0.01853872,
@@ -1053,6 +1041,18 @@
     "twoHundredDayAverageChangePercent": -0.013135351,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
+    "corporateActions": [],
+    "regularMarketTime": 1777012200,
+    "exchange": "JPX",
+    "messageBoardId": "finmb_21811706",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
+    "regularMarketChangePercent": 0.46511626,
+    "regularMarketPrice": 216.0,
     "trailingPegRatio": null
   }
 }

@@ -1,7 +1,7 @@
 {
   "ticker": "1934",
   "japanese_ticker": "1934.T",
-  "fetch_date": "2026-04-25T23:34:18.132466",
+  "fetch_date": "2026-04-26T23:35:34.826018",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": -12524940.617577,
@@ -1027,34 +1027,6 @@
         "title": "Managing Executive Officer, Deputy GM of Sales Headquarters & GM of Sales Planning Department",
         "exercisedValue": 0,
         "unexercisedValue": 0
-      },
-      {
-        "maxAge": 1,
-        "name": "Hiroshi  Togawa",
-        "title": "Managing Exe. Off., GM of Power Transmission Dep., Power Infrastructure Div.",
-        "exercisedValue": 0,
-        "unexercisedValue": 0
-      },
-      {
-        "maxAge": 1,
-        "name": "Yoshimi  Kato",
-        "title": "Mng. Exe. Off., GM of Power Generation & Transformation Dep., Power Infrastructure Div.",
-        "exercisedValue": 0,
-        "unexercisedValue": 0
-      },
-      {
-        "maxAge": 1,
-        "name": "Noriaki  Sato",
-        "title": "Managing Executive Officer & Head of the Tokyo Headquarters",
-        "exercisedValue": 0,
-        "unexercisedValue": 0
-      },
-      {
-        "maxAge": 1,
-        "name": "Akio  Sakuma",
-        "title": "Managing Executive Officer, Dpty GM of Sales Div. & GM of Sales Department",
-        "exercisedValue": 0,
-        "unexercisedValue": 0
       }
     ],
     "irWebsite": "http://www.yurtec.co.jp/ir/index.html",
@@ -1079,11 +1051,11 @@
     "forwardPE": 24.061338,
     "volume": 101500,
     "regularMarketVolume": 101500,
-    "averageVolume": 151654,
+    "averageVolume": 151691,
     "averageVolume10days": 103730,
     "averageDailyVolume10Day": 103730,
-    "bid": 2585.0,
-    "ask": 2594.0,
+    "bid": 0.0,
+    "ask": 2591.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 177831788544,
@@ -1154,14 +1126,6 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "marketState": "CLOSED",
-    "cryptoTradeable": false,
-    "shortName": "YURTEC CORPORATION",
-    "regularMarketChangePercent": -0.11574074,
-    "regularMarketPrice": 2589.0,
-    "longName": "Yurtec Corporation",
-    "corporateActions": [],
-    "regularMarketTime": 1777012200,
     "exchange": "JPX",
     "messageBoardId": "finmb_880734",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1169,12 +1133,20 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
+    "regularMarketChangePercent": -0.11574074,
+    "regularMarketPrice": 2589.0,
+    "marketState": "PREPRE",
+    "corporateActions": [],
+    "regularMarketTime": 1777012200,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 978307200000,
     "regularMarketChange": -3.0,
     "regularMarketDayRange": "2578.0 - 2617.0",
     "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 151654,
+    "averageDailyVolume3Month": 151691,
     "fiftyTwoWeekLowChange": 805.0,
     "fiftyTwoWeekLowChangePercent": 0.45123318,
     "fiftyTwoWeekRange": "1784.0 - 3305.0",
@@ -1190,8 +1162,8 @@
     "fiftyDayAverageChangePercent": -0.06369348,
     "twoHundredDayAverageChange": -93.78003,
     "twoHundredDayAverageChangePercent": -0.034956288,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
+    "shortName": "YURTEC CORPORATION",
+    "longName": "Yurtec Corporation",
     "trailingPegRatio": null
   }
 }

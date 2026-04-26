@@ -1,7 +1,7 @@
 {
   "ticker": "2668",
   "japanese_ticker": "2668.T",
-  "fetch_date": "2026-04-25T23:42:33.273843",
+  "fetch_date": "2026-04-26T23:43:11.392325",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-02-28 00:00:00": -18365984.0,
@@ -107,13 +107,13 @@
     },
     "Diluted Average Shares": {
       "2025-02-28 00:00:00": null,
-      "2024-02-29 00:00:00": 6796825.0,
+      "2024-02-29 00:00:00": 6796351.0,
       "2023-02-28 00:00:00": 6800886.0,
       "2022-02-28 00:00:00": 6802000.0
     },
     "Basic Average Shares": {
       "2025-02-28 00:00:00": null,
-      "2024-02-29 00:00:00": 6796825.0,
+      "2024-02-29 00:00:00": 6796351.0,
       "2023-02-28 00:00:00": 6800886.0,
       "2022-02-28 00:00:00": 6802000.0
     },
@@ -983,11 +983,11 @@
     "trailingPE": 14.728313,
     "volume": 200,
     "regularMarketVolume": 200,
-    "averageVolume": 2237,
+    "averageVolume": 2239,
     "averageVolume10days": 1700,
     "averageDailyVolume10Day": 1700,
-    "bid": 1231.0,
-    "ask": 1255.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 8379908096,
@@ -1063,14 +1063,14 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "regularMarketChangePercent": -1.12,
-    "regularMarketPrice": 1236.0,
+    "shortName": "TABIO CORPORATION",
+    "longName": "Tabio Corporation",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 970790400000,
     "regularMarketChange": -14.0,
     "regularMarketDayRange": "1236.0 - 1251.0",
     "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 2237,
+    "averageDailyVolume3Month": 2239,
     "fiftyTwoWeekLowChange": 86.0,
     "fiftyTwoWeekLowChangePercent": 0.07478261,
     "fiftyTwoWeekRange": "1150.0 - 1345.0",
@@ -1081,8 +1081,6 @@
     "earningsTimestampEnd": 1744093800,
     "isEarningsDateEstimate": false,
     "epsTrailingTwelveMonths": 83.92,
-    "shortName": "TABIO CORPORATION",
-    "longName": "Tabio Corporation",
     "fiftyDayAverageChange": -22.04004,
     "fiftyDayAverageChangePercent": -0.017519346,
     "twoHundredDayAverageChange": -12.0,
@@ -1090,7 +1088,9 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
-    "marketState": "CLOSED",
+    "regularMarketChangePercent": -1.12,
+    "regularMarketPrice": 1236.0,
+    "marketState": "PREPRE",
     "trailingPegRatio": null
   }
 }

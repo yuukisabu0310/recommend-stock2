@@ -1,7 +1,7 @@
 {
   "ticker": "1802",
   "japanese_ticker": "1802.T",
-  "fetch_date": "2026-04-25T23:32:26.806656",
+  "fetch_date": "2026-04-26T23:33:49.851310",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": 16548133000.0,
@@ -448,12 +448,6 @@
       "2024-03-31 00:00:00": 1433517000000.0,
       "2023-03-31 00:00:00": 1226434000000.0,
       "2022-03-31 00:00:00": 1128602000000.0
-    },
-    "Other Current Liabilities": {
-      "2025-03-31 00:00:00": 402324000000.0,
-      "2024-03-31 00:00:00": 430155000000.0,
-      "2023-03-31 00:00:00": 400931000000.0,
-      "2022-03-31 00:00:00": 347204000000.0
     },
     "Current Debt And Capital Lease Obligation": {
       "2025-03-31 00:00:00": 109737000000.0,
@@ -1052,11 +1046,11 @@
     "forwardPE": 26.072773,
     "volume": 2179700,
     "regularMarketVolume": 2179700,
-    "averageVolume": 2912682,
+    "averageVolume": 2925609,
     "averageVolume10days": 2157510,
     "averageDailyVolume10Day": 2157510,
-    "bid": 3594.0,
-    "ask": 3598.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 2472657551360,
@@ -1124,8 +1118,6 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "regularMarketChangePercent": -0.7997794,
-    "regularMarketPrice": 3597.0,
     "corporateActions": [],
     "regularMarketTime": 1777012200,
     "exchange": "JPX",
@@ -1135,15 +1127,18 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "marketState": "CLOSED",
+    "regularMarketChangePercent": -0.7997794,
+    "regularMarketPrice": 3597.0,
     "shortName": "OBAYASHI CORP",
     "longName": "Obayashi Corporation",
+    "marketState": "PREPRE",
+    "cryptoTradeable": false,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 946944000000,
     "regularMarketChange": -29.0,
     "regularMarketDayRange": "3558.0 - 3660.0",
     "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 2912682,
+    "averageDailyVolume3Month": 2925609,
     "fiftyTwoWeekLowChange": 1503.0,
     "fiftyTwoWeekLowChangePercent": 0.71776503,
     "fiftyTwoWeekRange": "2094.0 - 4439.0",
@@ -1165,7 +1160,6 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "averageAnalystRating": "1.6 - Buy",
-    "cryptoTradeable": false,
     "trailingPegRatio": null
   }
 }

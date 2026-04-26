@@ -1,7 +1,7 @@
 {
   "ticker": "1764",
   "japanese_ticker": "1764.T",
-  "fetch_date": "2026-04-25T23:31:56.426264",
+  "fetch_date": "2026-04-26T23:33:20.587002",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-06-30 00:00:00": null,
@@ -132,7 +132,7 @@
     "Diluted Average Shares": {
       "2025-06-30 00:00:00": 1243000.0,
       "2024-06-30 00:00:00": 1245000.0,
-      "2023-06-30 00:00:00": 1256000.0,
+      "2023-06-30 00:00:00": 1256105.0,
       "2022-06-30 00:00:00": 1203000.0,
       "2021-06-30 00:00:00": null
     },
@@ -152,10 +152,10 @@
     },
     "Basic EPS": {
       "2025-06-30 00:00:00": 307.93,
-      "2024-06-30 00:00:00": 165.94,
+      "2024-06-30 00:00:00": null,
       "2023-06-30 00:00:00": 108.19,
       "2022-06-30 00:00:00": 100.58,
-      "2021-06-30 00:00:00": null
+      "2021-06-30 00:00:00": 311.58
     },
     "Diluted NI Availto Com Stockholders": {
       "2025-06-30 00:00:00": null,
@@ -356,13 +356,13 @@
   },
   "balance_sheet": {
     "Treasury Shares Number": {
-      "2024-06-30 00:00:00": 88847.0,
+      "2024-06-30 00:00:00": null,
       "2023-06-30 00:00:00": 80795.0,
       "2022-06-30 00:00:00": 69772.0,
       "2021-06-30 00:00:00": 189662.0
     },
     "Ordinary Shares Number": {
-      "2024-06-30 00:00:00": 1242373.0,
+      "2024-06-30 00:00:00": 1243773.0,
       "2023-06-30 00:00:00": 1250425.0,
       "2022-06-30 00:00:00": 1261448.0,
       "2021-06-30 00:00:00": 1141558.0
@@ -1147,11 +1147,11 @@
     "trailingPE": 8.032128,
     "volume": 200,
     "regularMarketVolume": 200,
-    "averageVolume": 1530,
+    "averageVolume": 1545,
     "averageVolume10days": 810,
     "averageDailyVolume10Day": 810,
-    "bid": 3150.0,
-    "ask": 3195.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 3938383872,
@@ -1217,27 +1217,13 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "marketState": "CLOSED",
+    "marketState": "PREPRE",
     "regularMarketChangePercent": 0.6369427,
     "regularMarketPrice": 3160.0,
-    "regularMarketTime": 1776990577,
-    "corporateActions": [],
-    "cryptoTradeable": false,
-    "exchange": "JPX",
-    "messageBoardId": "finmb_882969",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
-    "shortName": "KUDO CORP",
-    "longName": "Kudo Corporation",
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 978307200000,
     "regularMarketChange": 20.0,
     "regularMarketDayRange": "3150.0 - 3160.0",
     "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 1530,
+    "averageDailyVolume3Month": 1545,
     "fiftyTwoWeekLowChange": 607.0,
     "fiftyTwoWeekLowChangePercent": 0.2377595,
     "fiftyTwoWeekRange": "2553.0 - 3495.0",
@@ -1247,6 +1233,19 @@
     "earningsTimestampStart": 1747204200,
     "earningsTimestampEnd": 1747204200,
     "isEarningsDateEstimate": false,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 978307200000,
+    "shortName": "KUDO CORP",
+    "longName": "Kudo Corporation",
+    "corporateActions": [],
+    "regularMarketTime": 1776990577,
+    "exchange": "JPX",
+    "messageBoardId": "finmb_882969",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
     "epsTrailingTwelveMonths": 393.42,
     "fiftyDayAverageChange": -58.80005,
     "fiftyDayAverageChangePercent": -0.018267693,
@@ -1254,6 +1253,7 @@
     "twoHundredDayAverageChangePercent": 0.096569195,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
     "trailingPegRatio": null
   }
 }

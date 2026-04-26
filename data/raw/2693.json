@@ -1,7 +1,7 @@
 {
   "ticker": "2693",
   "japanese_ticker": "2693.T",
-  "fetch_date": "2026-04-25T23:43:01.087762",
+  "fetch_date": "2026-04-26T23:43:38.526407",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-12-31 00:00:00": 38445184.0,
@@ -315,7 +315,7 @@
     },
     "Share Issued": {
       "2025-12-31 00:00:00": 11906880.0,
-      "2024-12-31 00:00:00": 11906880.0,
+      "2024-12-31 00:00:00": 11608814.0,
       "2023-12-31 00:00:00": 11906880.0,
       "2022-12-31 00:00:00": 11906880.0,
       "2021-12-31 00:00:00": null
@@ -1141,11 +1141,11 @@
     "trailingPE": 51.041664,
     "volume": 21600,
     "regularMarketVolume": 21600,
-    "averageVolume": 29956,
+    "averageVolume": 30298,
     "averageVolume10days": 19750,
     "averageDailyVolume10Day": 19750,
-    "bid": 241.0,
-    "ask": 245.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 2844115456,
@@ -1210,9 +1210,6 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "cryptoTradeable": false,
-    "corporateActions": [],
-    "regularMarketTime": 1777012200,
     "exchange": "JPX",
     "messageBoardId": "finmb_8952993",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1222,13 +1219,17 @@
     "esgPopulated": false,
     "regularMarketChangePercent": 2.9411764,
     "regularMarketPrice": 245.0,
-    "marketState": "CLOSED",
+    "marketState": "PREPRE",
+    "corporateActions": [],
+    "regularMarketTime": 1777012200,
     "shortName": "YKT CORPORATION",
     "longName": "YKT Corporation",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 984441600000,
     "regularMarketChange": 7.0,
     "regularMarketDayRange": "238.0 - 245.0",
     "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 29956,
+    "averageDailyVolume3Month": 30298,
     "fiftyTwoWeekLowChange": 24.0,
     "fiftyTwoWeekLowChangePercent": 0.108597286,
     "fiftyTwoWeekRange": "221.0 - 325.0",
@@ -1245,8 +1246,7 @@
     "twoHundredDayAverageChangePercent": 0.0002653865,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 984441600000,
+    "cryptoTradeable": false,
     "trailingPegRatio": null
   }
 }

@@ -1,7 +1,7 @@
 {
   "ticker": "1897",
   "japanese_ticker": "1897.T",
-  "fetch_date": "2026-04-25T23:33:48.781055",
+  "fetch_date": "2026-04-26T23:35:06.592627",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-12-31 00:00:00": 3168000.0,
@@ -125,7 +125,7 @@
     "Diluted Average Shares": {
       "2025-12-31 00:00:00": 2109591.0,
       "2024-12-31 00:00:00": 2155619.0,
-      "2023-12-31 00:00:00": 2155784.0,
+      "2023-12-31 00:00:00": 2157584.0,
       "2022-12-31 00:00:00": 2155968.0,
       "2021-12-31 00:00:00": null
     },
@@ -138,14 +138,14 @@
     },
     "Diluted EPS": {
       "2025-12-31 00:00:00": null,
-      "2024-12-31 00:00:00": 148.84,
+      "2024-12-31 00:00:00": null,
       "2023-12-31 00:00:00": 125.14,
       "2022-12-31 00:00:00": 88.35,
       "2021-12-31 00:00:00": 20.82
     },
     "Basic EPS": {
       "2025-12-31 00:00:00": null,
-      "2024-12-31 00:00:00": 148.84,
+      "2024-12-31 00:00:00": null,
       "2023-12-31 00:00:00": 125.14,
       "2022-12-31 00:00:00": 88.35,
       "2021-12-31 00:00:00": 20.82
@@ -308,10 +308,10 @@
   "balance_sheet": {
     "Treasury Shares Number": {
       "2025-12-31 00:00:00": 1701612.0,
-      "2024-12-31 00:00:00": 1651239.0,
+      "2024-12-31 00:00:00": null,
       "2023-12-31 00:00:00": 1650946.0,
       "2022-12-31 00:00:00": 1650779.0,
-      "2021-12-31 00:00:00": null
+      "2021-12-31 00:00:00": 1650630.0
     },
     "Ordinary Shares Number": {
       "2025-12-31 00:00:00": 2105048.0,
@@ -322,7 +322,7 @@
     },
     "Share Issued": {
       "2025-12-31 00:00:00": 3806660.0,
-      "2024-12-31 00:00:00": 3806660.0,
+      "2024-12-31 00:00:00": 2155754.0,
       "2023-12-31 00:00:00": 3806660.0,
       "2022-12-31 00:00:00": 3806660.0,
       "2021-12-31 00:00:00": null
@@ -1071,11 +1071,11 @@
     "trailingPE": 30.48726,
     "volume": 600,
     "regularMarketVolume": 600,
-    "averageVolume": 1082,
+    "averageVolume": 1078,
     "averageVolume10days": 330,
     "averageDailyVolume10Day": 330,
-    "bid": 3420.0,
-    "ask": 3480.0,
+    "bid": 0.0,
+    "ask": 3500.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 7178213888,
@@ -1144,8 +1144,6 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "shortName": "KANESHITA CONSTRUCTION CO",
-    "longName": "The Kaneshita Construction Co.,Ltd.",
     "exchange": "JPX",
     "messageBoardId": "finmb_5545275",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1153,13 +1151,19 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
+    "corporateActions": [],
+    "regularMarketTime": 1777006688,
+    "shortName": "KANESHITA CONSTRUCTION CO",
+    "longName": "The Kaneshita Construction Co.,Ltd.",
+    "marketState": "PREPRE",
     "regularMarketChangePercent": 1.7910447,
     "regularMarketPrice": 3410.0,
-    "marketState": "CLOSED",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 954806400000,
     "regularMarketChange": 60.0,
     "regularMarketDayRange": "3400.0 - 3425.0",
     "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 1082,
+    "averageDailyVolume3Month": 1078,
     "fiftyTwoWeekLowChange": 755.0,
     "fiftyTwoWeekLowChangePercent": 0.2843691,
     "fiftyTwoWeekRange": "2655.0 - 3500.0",
@@ -1176,10 +1180,6 @@
     "twoHundredDayAverageChangePercent": 0.12863825,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
-    "corporateActions": [],
-    "regularMarketTime": 1777006688,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 954806400000,
     "cryptoTradeable": false,
     "trailingPegRatio": null
   }

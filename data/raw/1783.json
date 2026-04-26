@@ -1,7 +1,7 @@
 {
   "ticker": "1783",
   "japanese_ticker": "1783.T",
-  "fetch_date": "2026-04-25T23:32:08.031845",
+  "fetch_date": "2026-04-26T23:33:32.406054",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-09-30 00:00:00": -38644008.0,
@@ -124,21 +124,21 @@
     },
     "Diluted Average Shares": {
       "2025-09-30 00:00:00": null,
-      "2024-09-30 00:00:00": 170042648.0,
-      "2023-09-30 00:00:00": 169675525.0,
+      "2024-09-30 00:00:00": null,
+      "2023-09-30 00:00:00": 169590338.0,
       "2022-09-30 00:00:00": 139772429.0,
       "2021-09-30 00:00:00": 59286622.0
     },
     "Basic Average Shares": {
       "2025-09-30 00:00:00": null,
       "2024-09-30 00:00:00": 170042648.0,
-      "2023-09-30 00:00:00": 169675525.0,
+      "2023-09-30 00:00:00": 169590338.0,
       "2022-09-30 00:00:00": 139772429.0,
       "2021-09-30 00:00:00": 59286622.0
     },
     "Diluted EPS": {
       "2025-09-30 00:00:00": null,
-      "2024-09-30 00:00:00": 1.71,
+      "2024-09-30 00:00:00": null,
       "2023-09-30 00:00:00": 6.21,
       "2022-09-30 00:00:00": -5.75,
       "2021-09-30 00:00:00": -16.48
@@ -308,10 +308,10 @@
   "balance_sheet": {
     "Treasury Shares Number": {
       "2025-09-30 00:00:00": 283.0,
-      "2024-09-30 00:00:00": 282.0,
+      "2024-09-30 00:00:00": null,
       "2023-09-30 00:00:00": 202.0,
       "2022-09-30 00:00:00": 202.0,
-      "2021-09-30 00:00:00": null
+      "2021-09-30 00:00:00": 202.0
     },
     "Ordinary Shares Number": {
       "2025-09-30 00:00:00": 170042568.0,
@@ -1164,10 +1164,10 @@
     "beta": 0.358,
     "volume": 428000,
     "regularMarketVolume": 428000,
-    "averageVolume": 1253595,
+    "averageVolume": 1257844,
     "averageVolume10days": 798110,
     "averageDailyVolume10Day": 798110,
-    "bid": 62.0,
+    "bid": 0.0,
     "ask": 63.0,
     "bidSize": 0,
     "askSize": 0,
@@ -1231,7 +1231,8 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "longName": "Fantasista Co., Ltd.",
+    "marketState": "PREPRE",
+    "epsTrailingTwelveMonths": -1.41,
     "fiftyDayAverageChange": -1.4599991,
     "fiftyDayAverageChangePercent": -0.02264969,
     "twoHundredDayAverageChange": 1.7599983,
@@ -1239,27 +1240,15 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "prevName": "Asia Gate Holdings Co., Ltd.",
-    "nameChangeDate": "2026-04-25",
+    "nameChangeDate": "2026-04-26",
     "cryptoTradeable": false,
-    "exchange": "JPX",
-    "messageBoardId": "finmb_5388763",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
-    "shortName": "FANTASISTA CO LTD",
-    "corporateActions": [],
-    "regularMarketTime": 1777012200,
-    "marketState": "CLOSED",
-    "regularMarketChangePercent": -1.5625,
-    "regularMarketPrice": 63.0,
+    "longName": "Fantasista Co., Ltd.",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 946944000000,
     "regularMarketChange": -1.0,
     "regularMarketDayRange": "62.0 - 64.0",
     "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 1253595,
+    "averageDailyVolume3Month": 1257844,
     "fiftyTwoWeekLowChange": 23.0,
     "fiftyTwoWeekLowChangePercent": 0.575,
     "fiftyTwoWeekRange": "40.0 - 74.0",
@@ -1269,7 +1258,18 @@
     "earningsTimestampStart": 1754546400,
     "earningsTimestampEnd": 1754978400,
     "isEarningsDateEstimate": true,
-    "epsTrailingTwelveMonths": -1.41,
+    "corporateActions": [],
+    "regularMarketTime": 1777012200,
+    "exchange": "JPX",
+    "messageBoardId": "finmb_5388763",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
+    "regularMarketChangePercent": -1.5625,
+    "regularMarketPrice": 63.0,
+    "shortName": "FANTASISTA CO LTD",
     "trailingPegRatio": null
   }
 }

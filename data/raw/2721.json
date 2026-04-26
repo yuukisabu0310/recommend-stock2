@@ -1,7 +1,7 @@
 {
   "ticker": "2721",
   "japanese_ticker": "2721.T",
-  "fetch_date": "2026-04-25T23:43:20.069366",
+  "fetch_date": "2026-04-26T23:43:54.723793",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-12-31 00:00:00": -58000.0,
@@ -131,14 +131,14 @@
     },
     "Basic Average Shares": {
       "2025-12-31 00:00:00": null,
-      "2024-12-31 00:00:00": 7001089.0,
+      "2024-12-31 00:00:00": null,
       "2023-12-31 00:00:00": 6622754.0,
       "2022-12-31 00:00:00": 4990727.0,
       "2021-12-31 00:00:00": 4333480.0
     },
     "Diluted EPS": {
       "2025-12-31 00:00:00": null,
-      "2024-12-31 00:00:00": -55.38,
+      "2024-12-31 00:00:00": null,
       "2023-12-31 00:00:00": -44.81,
       "2022-12-31 00:00:00": -54.14,
       "2021-12-31 00:00:00": -34.83
@@ -308,10 +308,10 @@
   "balance_sheet": {
     "Treasury Shares Number": {
       "2025-12-31 00:00:00": 20.0,
-      "2024-12-31 00:00:00": 20.0,
+      "2024-12-31 00:00:00": null,
       "2023-12-31 00:00:00": 20.0,
       "2022-12-31 00:00:00": 20.0,
-      "2021-12-31 00:00:00": null
+      "2021-12-31 00:00:00": 20.0
     },
     "Ordinary Shares Number": {
       "2025-12-31 00:00:00": 9728480.0,
@@ -1063,10 +1063,10 @@
     "beta": 0.834,
     "volume": 165000,
     "regularMarketVolume": 165000,
-    "averageVolume": 168317,
+    "averageVolume": 165208,
     "averageVolume10days": 80700,
     "averageDailyVolume10Day": 80700,
-    "bid": 112.0,
+    "bid": 114.0,
     "ask": 115.0,
     "bidSize": 0,
     "askSize": 0,
@@ -1131,12 +1131,23 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1006905600000,
+    "corporateActions": [],
+    "regularMarketTime": 1777012200,
+    "exchange": "JPX",
+    "messageBoardId": "finmb_9264699",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
+    "marketState": "PREPRE",
+    "regularMarketChangePercent": -4.2372885,
+    "regularMarketPrice": 113.0,
+    "cryptoTradeable": false,
     "regularMarketChange": -5.0,
     "regularMarketDayRange": "110.0 - 119.0",
     "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 168317,
+    "averageDailyVolume3Month": 165208,
     "fiftyTwoWeekLowChange": 3.0,
     "fiftyTwoWeekLowChangePercent": 0.027272727,
     "fiftyTwoWeekRange": "110.0 - 288.0",
@@ -1153,21 +1164,10 @@
     "twoHundredDayAverageChangePercent": -0.3840955,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
-    "marketState": "CLOSED",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1006905600000,
     "shortName": "J-HOLDINGS CORP",
     "longName": "J-Holdings Corp.",
-    "corporateActions": [],
-    "regularMarketTime": 1777012200,
-    "exchange": "JPX",
-    "messageBoardId": "finmb_9264699",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
-    "regularMarketChangePercent": -4.2372885,
-    "regularMarketPrice": 113.0,
     "trailingPegRatio": null
   }
 }

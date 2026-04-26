@@ -1,7 +1,7 @@
 {
   "ticker": "2752",
   "japanese_ticker": "2752.T",
-  "fetch_date": "2026-04-25T23:43:51.854210",
+  "fetch_date": "2026-04-26T23:44:23.532267",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-12-31 00:00:00": -90944000.0,
@@ -152,10 +152,10 @@
     },
     "Basic EPS": {
       "2025-12-31 00:00:00": 1.76,
-      "2024-12-31 00:00:00": 10.03,
+      "2024-12-31 00:00:00": null,
       "2023-12-31 00:00:00": -15.71,
       "2022-12-31 00:00:00": -77.21,
-      "2021-12-31 00:00:00": null
+      "2021-12-31 00:00:00": -11.23
     },
     "Diluted NI Availto Com Stockholders": {
       "2025-12-31 00:00:00": 90000000.0,
@@ -1360,11 +1360,11 @@
     "forwardPE": 47.205242,
     "volume": 39200,
     "regularMarketVolume": 39200,
-    "averageVolume": 119237,
+    "averageVolume": 118703,
     "averageVolume10days": 61650,
     "averageDailyVolume10Day": 61650,
-    "bid": 1081.0,
-    "ask": 1083.0,
+    "bid": 1087.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 55420129280,
@@ -1432,6 +1432,13 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "shortName": "FUJIO FOOD GROUP INC",
+    "longName": "Fujio Food Group Inc.",
+    "regularMarketChangePercent": -0.3686636,
+    "regularMarketPrice": 1081.0,
+    "marketState": "PREPRE",
+    "corporateActions": [],
+    "regularMarketTime": 1777012200,
     "exchange": "JPX",
     "messageBoardId": "finmb_9205330",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1439,15 +1446,6 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "regularMarketChangePercent": -0.3686636,
-    "regularMarketPrice": 1081.0,
-    "corporateActions": [],
-    "regularMarketTime": 1777012200,
-    "shortName": "FUJIO FOOD GROUP INC",
-    "longName": "Fujio Food Group Inc.",
-    "epsTrailingTwelveMonths": 1.73,
-    "epsForward": 22.9,
-    "fiftyDayAverageChange": -2.1999512,
     "fiftyDayAverageChangePercent": -0.0020309743,
     "twoHundredDayAverageChange": -40.204956,
     "twoHundredDayAverageChangePercent": -0.035858702,
@@ -1459,7 +1457,7 @@
     "regularMarketChange": -4.0,
     "regularMarketDayRange": "1080.0 - 1090.0",
     "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 119237,
+    "averageDailyVolume3Month": 118703,
     "fiftyTwoWeekLowChange": 36.0,
     "fiftyTwoWeekLowChangePercent": 0.03444976,
     "fiftyTwoWeekRange": "1045.0 - 1252.0",
@@ -1469,7 +1467,9 @@
     "earningsTimestampStart": 1754978400,
     "earningsTimestampEnd": 1755496800,
     "isEarningsDateEstimate": true,
-    "marketState": "CLOSED",
+    "epsTrailingTwelveMonths": 1.73,
+    "epsForward": 22.9,
+    "fiftyDayAverageChange": -2.1999512,
     "trailingPegRatio": null
   }
 }

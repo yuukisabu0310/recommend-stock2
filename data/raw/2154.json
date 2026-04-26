@@ -1,7 +1,7 @@
 {
   "ticker": "2154",
   "japanese_ticker": "2154.T",
-  "fetch_date": "2026-04-25T23:36:24.019413",
+  "fetch_date": "2026-04-26T23:37:31.865351",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-06-30 00:00:00": 0.0,
@@ -125,7 +125,7 @@
     "Diluted Average Shares": {
       "2025-06-30 00:00:00": 87003810.0,
       "2024-06-30 00:00:00": 86835891.0,
-      "2023-06-30 00:00:00": 87572656.0,
+      "2023-06-30 00:00:00": 87571192.0,
       "2022-06-30 00:00:00": 89386560.0,
       "2021-06-30 00:00:00": null
     },
@@ -138,17 +138,17 @@
     },
     "Diluted EPS": {
       "2025-06-30 00:00:00": 144.35,
-      "2024-06-30 00:00:00": 135.52,
+      "2024-06-30 00:00:00": null,
       "2023-06-30 00:00:00": 108.86,
       "2022-06-30 00:00:00": 78.03,
-      "2021-06-30 00:00:00": null
+      "2021-06-30 00:00:00": -494.85
     },
     "Basic EPS": {
       "2025-06-30 00:00:00": 144.56,
-      "2024-06-30 00:00:00": 135.76,
+      "2024-06-30 00:00:00": null,
       "2023-06-30 00:00:00": 109.13,
       "2022-06-30 00:00:00": 78.3,
-      "2021-06-30 00:00:00": null
+      "2021-06-30 00:00:00": -494.85
     },
     "Diluted NI Availto Com Stockholders": {
       "2025-06-30 00:00:00": 12559000000.0,
@@ -891,10 +891,10 @@
     },
     "Common Stock Dividend Paid": {
       "2025-06-30 00:00:00": -6526000000.0,
-      "2024-06-30 00:00:00": -4596000000.0,
-      "2023-06-30 00:00:00": -3968000000.0,
-      "2022-06-30 00:00:00": -3969000000.0,
-      "2021-06-30 00:00:00": null
+      "2024-06-30 00:00:00": null,
+      "2023-06-30 00:00:00": null,
+      "2022-06-30 00:00:00": null,
+      "2021-06-30 00:00:00": -1786000000.0
     },
     "Net Common Stock Issuance": {
       "2025-06-30 00:00:00": -1000000.0,
@@ -1251,11 +1251,11 @@
     "forwardPE": 11.280946,
     "volume": 108200,
     "regularMarketVolume": 108200,
-    "averageVolume": 215566,
+    "averageVolume": 215539,
     "averageVolume10days": 149600,
     "averageDailyVolume10Day": 149600,
-    "bid": 1725.0,
-    "ask": 1730.0,
+    "bid": 0.0,
+    "ask": 1725.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 146700451840,
@@ -1340,27 +1340,26 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "prevName": "BeNEXT Group Inc.",
-    "nameChangeDate": "2026-04-25",
+    "nameChangeDate": "2026-04-26",
     "averageAnalystRating": "1.0 - Strong Buy",
     "cryptoTradeable": false,
-    "corporateActions": [],
     "regularMarketTime": 1777012200,
     "exchange": "JPX",
-    "marketState": "CLOSED",
-    "regularMarketChangePercent": -1.4831717,
-    "regularMarketPrice": 1727.0,
     "messageBoardId": "finmb_34230747",
     "exchangeTimezoneName": "Asia/Tokyo",
     "exchangeTimezoneShortName": "JST",
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
+    "regularMarketChangePercent": -1.4831717,
+    "regularMarketPrice": 1727.0,
+    "corporateActions": [],
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1181088000000,
     "regularMarketChange": -26.0,
     "regularMarketDayRange": "1723.0 - 1753.0",
     "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 215566,
+    "averageDailyVolume3Month": 215539,
     "fiftyTwoWeekLowChange": 95.0,
     "fiftyTwoWeekLowChangePercent": 0.058210783,
     "fiftyTwoWeekRange": "1632.0 - 1979.0",
@@ -1373,6 +1372,7 @@
     "isEarningsDateEstimate": false,
     "shortName": "OPEN UP GROUP INC",
     "longName": "Open Up Group Inc.",
+    "marketState": "PREPRE",
     "trailingPegRatio": null
   }
 }

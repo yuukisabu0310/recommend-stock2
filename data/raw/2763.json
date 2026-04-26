@@ -1,7 +1,7 @@
 {
   "ticker": "2763",
   "japanese_ticker": "2763.T",
-  "fetch_date": "2026-04-25T23:44:01.233915",
+  "fetch_date": "2026-04-26T23:44:31.101976",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": 0.0,
@@ -101,7 +101,7 @@
     },
     "Basic Average Shares": {
       "2025-03-31 00:00:00": 30008530.0,
-      "2024-03-31 00:00:00": 30363192.0,
+      "2024-03-31 00:00:00": 30360837.0,
       "2023-03-31 00:00:00": 30730278.0,
       "2022-03-31 00:00:00": 30942268.0
     },
@@ -252,13 +252,13 @@
       "2022-03-31 00:00:00": 1080003.0
     },
     "Ordinary Shares Number": {
-      "2025-03-31 00:00:00": 29729245.0,
+      "2025-03-31 00:00:00": 30110545.0,
       "2024-03-31 00:00:00": 30154445.0,
       "2023-03-31 00:00:00": 30345365.0,
       "2022-03-31 00:00:00": 30942265.0
     },
     "Share Issued": {
-      "2025-03-31 00:00:00": 30342268.0,
+      "2025-03-31 00:00:00": 30110545.0,
       "2024-03-31 00:00:00": 30822268.0,
       "2023-03-31 00:00:00": 30822268.0,
       "2022-03-31 00:00:00": 32022268.0
@@ -909,11 +909,11 @@
     "trailingPE": 6.47667,
     "volume": 60700,
     "regularMarketVolume": 60700,
-    "averageVolume": 44400,
+    "averageVolume": 44937,
     "averageVolume10days": 57460,
     "averageDailyVolume10Day": 57460,
-    "bid": 1152.0,
-    "ask": 1161.0,
+    "bid": 0.0,
+    "ask": 1105.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 34456137728,
@@ -982,8 +982,6 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "corporateActions": [],
-    "regularMarketTime": 1777012200,
     "exchange": "JPX",
     "messageBoardId": "finmb_5607071",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -993,12 +991,18 @@
     "esgPopulated": false,
     "regularMarketChangePercent": 0.08635578,
     "regularMarketPrice": 1159.0,
+    "marketState": "PREPRE",
+    "corporateActions": [],
+    "regularMarketTime": 1777012200,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1047427200000,
     "regularMarketChange": 1.0,
     "regularMarketDayRange": "1139.0 - 1162.0",
     "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 44400,
+    "averageDailyVolume3Month": 44937,
     "fiftyTwoWeekLowChange": 119.0,
     "fiftyTwoWeekLowChangePercent": 0.114423074,
     "fiftyTwoWeekRange": "1040.0 - 1333.0",
@@ -1009,16 +1013,12 @@
     "earningsTimestampEnd": 1747029600,
     "isEarningsDateEstimate": false,
     "epsTrailingTwelveMonths": 178.95,
-    "shortName": "FTGROUP CO LTD",
-    "longName": "FTGroup Co., Ltd.",
     "fiftyDayAverageChange": -80.30005,
     "fiftyDayAverageChangePercent": -0.06479468,
     "twoHundredDayAverageChange": -82.380005,
     "twoHundredDayAverageChangePercent": -0.066361636,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
-    "marketState": "CLOSED",
+    "shortName": "FTGROUP CO LTD",
+    "longName": "FTGroup Co., Ltd.",
     "trailingPegRatio": null
   }
 }

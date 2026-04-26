@@ -1,7 +1,7 @@
 {
   "ticker": "2375",
   "japanese_ticker": "2375.T",
-  "fetch_date": "2026-04-25T23:39:36.413782",
+  "fetch_date": "2026-04-26T23:40:28.811714",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-10-31 00:00:00": 120489449.3,
@@ -132,7 +132,7 @@
     "Basic Average Shares": {
       "2025-10-31 00:00:00": null,
       "2024-10-31 00:00:00": 19791076.0,
-      "2023-10-31 00:00:00": 19606681.0,
+      "2023-10-31 00:00:00": 19608900.0,
       "2022-10-31 00:00:00": 19687580.0,
       "2021-10-31 00:00:00": 20243369.0
     },
@@ -315,10 +315,10 @@
   "balance_sheet": {
     "Treasury Shares Number": {
       "2025-10-31 00:00:00": 2281905.0,
-      "2024-10-31 00:00:00": 2272605.0,
+      "2024-10-31 00:00:00": null,
       "2023-10-31 00:00:00": 2280095.0,
       "2022-10-31 00:00:00": 2408495.0,
-      "2021-10-31 00:00:00": null
+      "2021-10-31 00:00:00": 1608495.0
     },
     "Ordinary Shares Number": {
       "2025-10-31 00:00:00": 19846080.0,
@@ -329,7 +329,7 @@
     },
     "Share Issued": {
       "2025-10-31 00:00:00": 22127985.0,
-      "2024-10-31 00:00:00": 22105485.0,
+      "2024-10-31 00:00:00": 19840390.0,
       "2023-10-31 00:00:00": 22015560.0,
       "2022-10-31 00:00:00": 21979560.0,
       "2021-10-31 00:00:00": null
@@ -1239,11 +1239,11 @@
     "forwardPE": 7.553191,
     "volume": 29600,
     "regularMarketVolume": 29600,
-    "averageVolume": 95500,
+    "averageVolume": 96159,
     "averageVolume10days": 20950,
     "averageDailyVolume10Day": 20950,
-    "bid": 209.0,
-    "ask": 213.0,
+    "bid": 0.0,
+    "ask": 218.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 4227215104,
@@ -1309,6 +1309,21 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1067990400000,
+    "regularMarketChange": 6.0,
+    "regularMarketDayRange": "207.0 - 213.0",
+    "fullExchangeName": "Tokyo",
+    "averageDailyVolume3Month": 96159,
+    "fiftyTwoWeekLowChange": 15.0,
+    "fiftyTwoWeekLowChangePercent": 0.07575758,
+    "fiftyTwoWeekRange": "198.0 - 320.0",
+    "fiftyTwoWeekHighChange": -107.0,
+    "fiftyTwoWeekHighChangePercent": -0.334375,
+    "fiftyTwoWeekChangePercent": -8.974361,
+    "marketState": "PREPRE",
+    "corporateActions": [],
+    "regularMarketTime": 1777012200,
     "exchange": "JPX",
     "messageBoardId": "finmb_9405921",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1316,23 +1331,10 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
+    "shortName": "GIG WORKS INC",
+    "longName": "GiG Works Inc.",
     "regularMarketChangePercent": 2.8985507,
     "regularMarketPrice": 213.0,
-    "marketState": "CLOSED",
-    "corporateActions": [],
-    "regularMarketTime": 1777012200,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1067990400000,
-    "regularMarketChange": 6.0,
-    "regularMarketDayRange": "207.0 - 213.0",
-    "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 95500,
-    "fiftyTwoWeekLowChange": 15.0,
-    "fiftyTwoWeekLowChangePercent": 0.07575758,
-    "fiftyTwoWeekRange": "198.0 - 320.0",
-    "fiftyTwoWeekHighChange": -107.0,
-    "fiftyTwoWeekHighChangePercent": -0.334375,
-    "fiftyTwoWeekChangePercent": -8.974361,
     "earningsTimestampStart": 1749621600,
     "earningsTimestampEnd": 1749621600,
     "isEarningsDateEstimate": false,
@@ -1345,8 +1347,6 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
-    "shortName": "GIG WORKS INC",
-    "longName": "GiG Works Inc.",
     "trailingPegRatio": null
   }
 }

@@ -1,7 +1,7 @@
 {
   "ticker": "1967",
   "japanese_ticker": "1967.T",
-  "fetch_date": "2026-04-25T23:34:58.813759",
+  "fetch_date": "2026-04-26T23:36:12.002767",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": 155384836.173323,
@@ -270,13 +270,13 @@
   },
   "balance_sheet": {
     "Treasury Shares Number": {
-      "2025-03-31 00:00:00": 2123282.0,
+      "2025-03-31 00:00:00": 2123261.0,
       "2024-03-31 00:00:00": 1751025.0,
       "2023-03-31 00:00:00": 1612197.0,
       "2022-03-31 00:00:00": 1272255.0
     },
     "Ordinary Shares Number": {
-      "2025-03-31 00:00:00": 24804370.0,
+      "2025-03-31 00:00:00": 24804391.0,
       "2024-03-31 00:00:00": 25176627.0,
       "2023-03-31 00:00:00": 25315455.0,
       "2022-03-31 00:00:00": 25655397.0
@@ -1074,11 +1074,11 @@
     "trailingPE": 10.833975,
     "volume": 35600,
     "regularMarketVolume": 35600,
-    "averageVolume": 56946,
+    "averageVolume": 55770,
     "averageVolume10days": 49840,
     "averageDailyVolume10Day": 49840,
-    "bid": 2111.0,
-    "ask": 2112.0,
+    "bid": 2100.0,
+    "ask": 2101.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 47258836992,
@@ -1143,20 +1143,18 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "marketState": "CLOSED",
-    "cryptoTradeable": false,
-    "regularMarketChangePercent": -0.8920188,
-    "regularMarketPrice": 2111.0,
+    "marketState": "PREPRE",
     "shortName": "YAMATO CORPORATION",
     "longName": "Yamato Corporation",
-    "corporateActions": [],
-    "regularMarketTime": 1777012200,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 978307200000,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
     "regularMarketChange": -19.0,
     "regularMarketDayRange": "2092.0 - 2156.0",
     "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 56946,
+    "averageDailyVolume3Month": 55770,
     "fiftyTwoWeekLowChange": 628.0,
     "fiftyTwoWeekLowChangePercent": 0.42346594,
     "fiftyTwoWeekRange": "1483.0 - 2529.0",
@@ -1171,8 +1169,8 @@
     "fiftyDayAverageChangePercent": -0.06447209,
     "twoHundredDayAverageChange": 25.60498,
     "twoHundredDayAverageChangePercent": 0.01227824,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
+    "corporateActions": [],
+    "regularMarketTime": 1777012200,
     "exchange": "JPX",
     "messageBoardId": "finmb_883570",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1180,6 +1178,8 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
+    "regularMarketChangePercent": -0.8920188,
+    "regularMarketPrice": 2111.0,
     "trailingPegRatio": null
   }
 }

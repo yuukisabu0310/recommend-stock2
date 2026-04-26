@@ -1,7 +1,7 @@
 {
   "ticker": "2163",
   "japanese_ticker": "2163.T",
-  "fetch_date": "2026-04-25T23:36:37.360123",
+  "fetch_date": "2026-04-26T23:37:44.205401",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-01-31 00:00:00": -1497983.372432,
@@ -1116,11 +1116,11 @@
     "forwardPE": 22.266356,
     "volume": 12800,
     "regularMarketVolume": 12800,
-    "averageVolume": 30829,
+    "averageVolume": 29995,
     "averageVolume10days": 14860,
     "averageDailyVolume10Day": 14860,
-    "bid": 1903.0,
-    "ask": 1909.0,
+    "bid": 0.0,
+    "ask": 1906.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 20202956800,
@@ -1190,6 +1190,9 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "shortName": "ARTNER CO LTD",
+    "longName": "Artner Co., Ltd.",
+    "marketState": "PREPRE",
     "corporateActions": [],
     "regularMarketTime": 1777012200,
     "exchange": "JPX",
@@ -1206,7 +1209,7 @@
     "regularMarketChange": -4.0,
     "regularMarketDayRange": "1902.0 - 1920.0",
     "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 30829,
+    "averageDailyVolume3Month": 29995,
     "fiftyTwoWeekLowChange": 84.0,
     "fiftyTwoWeekLowChangePercent": 0.046103183,
     "fiftyTwoWeekRange": "1822.0 - 2258.0",
@@ -1218,8 +1221,6 @@
     "isEarningsDateEstimate": false,
     "epsTrailingTwelveMonths": 118.55,
     "epsForward": 85.6,
-    "shortName": "ARTNER CO LTD",
-    "longName": "Artner Co., Ltd.",
     "fiftyDayAverageChange": -64.119995,
     "fiftyDayAverageChangePercent": -0.032546237,
     "twoHundredDayAverageChange": -93.494995,
@@ -1227,9 +1228,8 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "prevName": "Artner Co.,Ltd.",
-    "nameChangeDate": "2026-04-25",
+    "nameChangeDate": "2026-04-26",
     "cryptoTradeable": false,
-    "marketState": "CLOSED",
     "trailingPegRatio": null
   }
 }

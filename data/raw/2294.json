@@ -1,7 +1,7 @@
 {
   "ticker": "2294",
   "japanese_ticker": "2294.T",
-  "fetch_date": "2026-04-25T23:38:16.071853",
+  "fetch_date": "2026-04-26T23:39:18.976910",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-04-30 00:00:00": -74240000.0,
@@ -101,7 +101,7 @@
     },
     "Diluted Average Shares": {
       "2025-04-30 00:00:00": 9803374.0,
-      "2024-04-30 00:00:00": 10473879.0,
+      "2024-04-30 00:00:00": 10468072.0,
       "2023-02-28 00:00:00": 10472000.0,
       "2022-02-28 00:00:00": 10467473.0
     },
@@ -252,13 +252,13 @@
       "2022-02-28 00:00:00": 1978841.0
     },
     "Ordinary Shares Number": {
-      "2025-04-30 00:00:00": 9578083.0,
+      "2025-04-30 00:00:00": 9578391.0,
       "2024-04-30 00:00:00": 10473781.0,
       "2023-02-28 00:00:00": 10467859.0,
       "2022-02-28 00:00:00": 10467859.0
     },
     "Share Issued": {
-      "2025-04-30 00:00:00": 12446700.0,
+      "2025-04-30 00:00:00": 9578391.0,
       "2024-04-30 00:00:00": 12446700.0,
       "2023-02-28 00:00:00": 12446700.0,
       "2022-02-28 00:00:00": 12446700.0
@@ -858,11 +858,11 @@
     "trailingPE": 41.666668,
     "volume": 55200,
     "regularMarketVolume": 55200,
-    "averageVolume": 40182,
+    "averageVolume": 40347,
     "averageVolume10days": 41910,
     "averageDailyVolume10Day": 41910,
-    "bid": 3010.0,
-    "ask": 3025.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "marketCap": 28829427712,
     "nonDilutedMarketCap": 28829427830,
     "fiftyTwoWeekLow": 2573.0,
@@ -924,12 +924,26 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "corporateActions": [],
+    "regularMarketTime": 1777012200,
+    "marketState": "PREPRE",
+    "shortName": "KAKIYASU HONTEN",
+    "longName": "Kakiyasu Honten Co., Ltd.",
+    "regularMarketChangePercent": 0.0,
+    "regularMarketPrice": 3010.0,
+    "exchange": "JPX",
+    "messageBoardId": "finmb_5602538",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 946944000000,
     "regularMarketChange": 0.0,
     "regularMarketDayRange": "3000.0 - 3045.0",
     "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 40182,
+    "averageDailyVolume3Month": 40347,
     "fiftyTwoWeekLowChange": 437.0,
     "fiftyTwoWeekLowChangePercent": 0.16984065,
     "fiftyTwoWeekRange": "2573.0 - 3095.0",
@@ -943,30 +957,6 @@
     "fiftyDayAverageChange": 99.71997,
     "fiftyDayAverageChangePercent": 0.034264732,
     "twoHundredDayAverageChange": 268.17993,
-    "longName": "Kakiyasu Honten Co., Ltd.",
-    "shortName": "KAKIYASU HONTEN",
-    "corporateActions": [
-      {
-        "header": "Dividend",
-        "message": "2294.T announced a cash dividend of JPY 85.00 with an ex-date of Apr. 28, 2026",
-        "meta": {
-          "eventType": "DIVIDEND",
-          "dateEpochMs": 1777302000000,
-          "amount": "85.00"
-        }
-      }
-    ],
-    "regularMarketTime": 1777012200,
-    "exchange": "JPX",
-    "messageBoardId": "finmb_5602538",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
-    "marketState": "CLOSED",
-    "regularMarketChangePercent": 0.0,
-    "regularMarketPrice": 3010.0,
     "twoHundredDayAverageChangePercent": 0.09781092,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,

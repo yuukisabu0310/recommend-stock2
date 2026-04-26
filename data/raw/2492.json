@@ -1,7 +1,7 @@
 {
   "ticker": "2492",
   "japanese_ticker": "2492.T",
-  "fetch_date": "2026-04-25T23:41:20.429054",
+  "fetch_date": "2026-04-26T23:42:06.027523",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-12-31 00:00:00": -228343.307778,
@@ -1119,13 +1119,6 @@
         "title": "Executive Officer",
         "exercisedValue": 0,
         "unexercisedValue": 0
-      },
-      {
-        "maxAge": 1,
-        "name": "Katsuyuki  Hamashima",
-        "title": "Senior Executive Officer",
-        "exercisedValue": 0,
-        "unexercisedValue": 0
       }
     ],
     "executiveTeam": [],
@@ -1149,11 +1142,11 @@
     "forwardPE": 56.885456,
     "volume": 1288300,
     "regularMarketVolume": 1288300,
-    "averageVolume": 2580943,
+    "averageVolume": 2582045,
     "averageVolume10days": 1308290,
     "averageDailyVolume10Day": 1308290,
-    "bid": 441.0,
-    "ask": 442.0,
+    "bid": 0.0,
+    "ask": 444.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 117796478976,
@@ -1228,11 +1221,7 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1154995200000,
-    "cryptoTradeable": false,
-    "shortName": "INFOMART CORPORATION",
-    "longName": "Infomart Corporation",
+    "marketState": "PREPRE",
     "corporateActions": [],
     "regularMarketTime": 1777012200,
     "exchange": "JPX",
@@ -1244,10 +1233,14 @@
     "esgPopulated": false,
     "regularMarketChangePercent": -3.49345,
     "regularMarketPrice": 442.0,
+    "shortName": "INFOMART CORPORATION",
+    "longName": "Infomart Corporation",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1154995200000,
     "regularMarketChange": -16.0,
     "regularMarketDayRange": "438.0 - 453.0",
     "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 2580943,
+    "averageDailyVolume3Month": 2582045,
     "fiftyTwoWeekLowChange": 144.0,
     "fiftyTwoWeekLowChangePercent": 0.48322147,
     "fiftyTwoWeekRange": "298.0 - 490.0",
@@ -1266,7 +1259,7 @@
     "twoHundredDayAverageChangePercent": 0.12406699,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
-    "marketState": "CLOSED",
+    "cryptoTradeable": false,
     "trailingPegRatio": null
   }
 }

@@ -1,7 +1,7 @@
 {
   "ticker": "2156",
   "japanese_ticker": "2156.T",
-  "fetch_date": "2026-04-25T23:36:25.995637",
+  "fetch_date": "2026-04-26T23:37:33.974452",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": -3265400.0,
@@ -113,7 +113,7 @@
     },
     "Basic Average Shares": {
       "2025-03-31 00:00:00": 4190000.0,
-      "2024-03-31 00:00:00": 3796000.0,
+      "2024-03-31 00:00:00": 3797801.0,
       "2023-03-31 00:00:00": 3777000.0,
       "2022-03-31 00:00:00": 3777000.0
     },
@@ -270,19 +270,19 @@
   },
   "balance_sheet": {
     "Treasury Shares Number": {
-      "2025-03-31 00:00:00": 1666028.0,
+      "2025-03-31 00:00:00": null,
       "2024-03-31 00:00:00": 1900328.0,
       "2023-03-31 00:00:00": 2300000.0,
       "2022-03-31 00:00:00": 2300000.0
     },
     "Ordinary Shares Number": {
-      "2025-03-31 00:00:00": 4411972.0,
+      "2025-03-31 00:00:00": 4169672.0,
       "2024-03-31 00:00:00": 4177672.0,
       "2023-03-31 00:00:00": 3778000.0,
       "2022-03-31 00:00:00": 3778000.0
     },
     "Share Issued": {
-      "2025-03-31 00:00:00": 6078000.0,
+      "2025-03-31 00:00:00": 4169672.0,
       "2024-03-31 00:00:00": 6078000.0,
       "2023-03-31 00:00:00": 6078000.0,
       "2022-03-31 00:00:00": 6078000.0
@@ -990,15 +990,6 @@
       },
       {
         "maxAge": 1,
-        "name": "Mr. Minoru  Morikawa",
-        "age": 58,
-        "title": "MD, Director & Head of the First Sales Department",
-        "yearBorn": 1967,
-        "exercisedValue": 0,
-        "unexercisedValue": 0
-      },
-      {
-        "maxAge": 1,
         "name": "Mr. Seiji  Takafuji",
         "age": 62,
         "title": "MD, GM of the Second Sales Department & Director",
@@ -1028,11 +1019,11 @@
     "trailingPE": 17.703928,
     "volume": 3500,
     "regularMarketVolume": 3500,
-    "averageVolume": 30170,
+    "averageVolume": 30455,
     "averageVolume10days": 5050,
     "averageDailyVolume10Day": 5050,
-    "bid": 291.0,
-    "ask": 294.0,
+    "bid": 289.0,
+    "ask": 289.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 1464142080,
@@ -1095,6 +1086,7 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "marketState": "PREPRE",
     "epsTrailingTwelveMonths": 16.55,
     "fiftyDayAverageChange": -12.140015,
     "fiftyDayAverageChangePercent": -0.03978506,
@@ -1103,23 +1095,13 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
-    "shortName": "SAYLOR ADVERTISING INC.",
     "longName": "Saylor Advertising.Inc.",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1182384000000,
-    "corporateActions": [],
-    "regularMarketTime": 1777012200,
-    "exchange": "JPX",
-    "messageBoardId": "finmb_34509410",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
     "regularMarketChange": 0.0,
     "regularMarketDayRange": "290.0 - 294.0",
     "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 30170,
+    "averageDailyVolume3Month": 30455,
     "fiftyTwoWeekLowChange": 10.0,
     "fiftyTwoWeekLowChangePercent": 0.03533569,
     "fiftyTwoWeekRange": "283.0 - 506.0",
@@ -1129,9 +1111,18 @@
     "earningsTimestampStart": 1747204200,
     "earningsTimestampEnd": 1747204200,
     "isEarningsDateEstimate": false,
-    "marketState": "CLOSED",
+    "corporateActions": [],
+    "regularMarketTime": 1777012200,
+    "exchange": "JPX",
+    "messageBoardId": "finmb_34509410",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
     "regularMarketChangePercent": 0.0,
     "regularMarketPrice": 293.0,
+    "shortName": "SAYLOR ADVERTISING INC.",
     "trailingPegRatio": null
   }
 }

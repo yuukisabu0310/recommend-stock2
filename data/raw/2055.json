@@ -1,7 +1,7 @@
 {
   "ticker": "2055",
   "japanese_ticker": "2055.T",
-  "fetch_date": "2026-04-25T23:35:39.066745",
+  "fetch_date": "2026-04-26T23:36:49.603629",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": -163728000.0,
@@ -276,7 +276,7 @@
   },
   "balance_sheet": {
     "Treasury Shares Number": {
-      "2025-03-31 00:00:00": 2719032.0,
+      "2025-03-31 00:00:00": null,
       "2024-03-31 00:00:00": 2718972.0,
       "2023-03-31 00:00:00": 2718971.0,
       "2022-03-31 00:00:00": 2718918.0
@@ -948,11 +948,11 @@
     "trailingPE": 21.325647,
     "volume": 8000,
     "regularMarketVolume": 8000,
-    "averageVolume": 14024,
+    "averageVolume": 14216,
     "averageVolume10days": 17450,
     "averageDailyVolume10Day": 17450,
-    "bid": 369.0,
-    "ask": 370.0,
+    "bid": 366.0,
+    "ask": 367.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 6701363200,
@@ -1023,7 +1023,6 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
-    "corporateActions": [],
     "regularMarketTime": 1777012200,
     "exchange": "JPX",
     "messageBoardId": "finmb_5886017",
@@ -1034,14 +1033,13 @@
     "esgPopulated": false,
     "regularMarketChangePercent": 0.2710027,
     "regularMarketPrice": 370.0,
-    "shortName": "NICHIWA SANGYO CO",
-    "longName": "Nichiwa Sangyo Co., Ltd.",
+    "corporateActions": [],
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 954806400000,
     "regularMarketChange": 1.0,
     "regularMarketDayRange": "368.0 - 375.0",
     "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 14024,
+    "averageDailyVolume3Month": 14216,
     "fiftyTwoWeekLowChange": 83.0,
     "fiftyTwoWeekLowChangePercent": 0.2891986,
     "fiftyTwoWeekRange": "287.0 - 415.0",
@@ -1051,7 +1049,9 @@
     "earningsTimestampStart": 1747031400,
     "earningsTimestampEnd": 1747031400,
     "isEarningsDateEstimate": false,
-    "marketState": "CLOSED",
+    "shortName": "NICHIWA SANGYO CO",
+    "longName": "Nichiwa Sangyo Co., Ltd.",
+    "marketState": "PREPRE",
     "trailingPegRatio": null
   }
 }

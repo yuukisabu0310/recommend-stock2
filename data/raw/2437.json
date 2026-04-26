@@ -1,7 +1,7 @@
 {
   "ticker": "2437",
   "japanese_ticker": "2437.T",
-  "fetch_date": "2026-04-25T23:40:31.376073",
+  "fetch_date": "2026-04-26T23:41:20.336680",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-05-31 00:00:00": -3037647.220409,
@@ -124,7 +124,7 @@
     },
     "Diluted Average Shares": {
       "2025-05-31 00:00:00": 10747408.0,
-      "2024-05-31 00:00:00": 10223768.0,
+      "2024-05-31 00:00:00": 10223695.0,
       "2023-05-31 00:00:00": 10665455.0,
       "2022-05-31 00:00:00": 9015980.0,
       "2021-05-31 00:00:00": null
@@ -314,14 +314,14 @@
       "2021-05-31 00:00:00": 332882.0
     },
     "Ordinary Shares Number": {
-      "2025-05-31 00:00:00": 11017818.0,
+      "2025-05-31 00:00:00": 10921318.0,
       "2024-05-31 00:00:00": 10736118.0,
       "2023-05-31 00:00:00": 10066518.0,
       "2022-05-31 00:00:00": 9651518.0,
       "2021-05-31 00:00:00": null
     },
     "Share Issued": {
-      "2025-05-31 00:00:00": 11017818.0,
+      "2025-05-31 00:00:00": 10921318.0,
       "2024-05-31 00:00:00": 10736118.0,
       "2023-05-31 00:00:00": 10066518.0,
       "2022-05-31 00:00:00": 9651518.0,
@@ -1138,11 +1138,11 @@
     "beta": -0.881,
     "volume": 129600,
     "regularMarketVolume": 129600,
-    "averageVolume": 142440,
+    "averageVolume": 143550,
     "averageVolume10days": 284420,
     "averageDailyVolume10Day": 284420,
-    "bid": 427.0,
-    "ask": 429.0,
+    "bid": 0.0,
+    "ask": 426.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 4715625984,
@@ -1207,8 +1207,6 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1112659200000,
     "corporateActions": [],
     "regularMarketTime": 1777012200,
     "exchange": "JPX",
@@ -1218,13 +1216,14 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "regularMarketChangePercent": 1.6627079,
-    "regularMarketPrice": 428.0,
-    "marketState": "CLOSED",
+    "shortName": "SHINWA WISE HLDGS CO LTD",
+    "longName": "Shinwa Wise Holdings Co.,Ltd.",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1112659200000,
     "regularMarketChange": 7.0,
     "regularMarketDayRange": "412.0 - 432.0",
     "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 142440,
+    "averageDailyVolume3Month": 143550,
     "fiftyTwoWeekLowChange": 192.0,
     "fiftyTwoWeekLowChangePercent": 0.8135593,
     "fiftyTwoWeekRange": "236.0 - 794.0",
@@ -1241,9 +1240,10 @@
     "twoHundredDayAverageChangePercent": 0.031897224,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
-    "shortName": "SHINWA WISE HLDGS CO LTD",
-    "longName": "Shinwa Wise Holdings Co.,Ltd.",
     "cryptoTradeable": false,
+    "regularMarketChangePercent": 1.6627079,
+    "regularMarketPrice": 428.0,
+    "marketState": "PREPRE",
     "trailingPegRatio": null
   }
 }

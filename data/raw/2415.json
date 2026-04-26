@@ -1,7 +1,7 @@
 {
   "ticker": "2415",
   "japanese_ticker": "2415.T",
-  "fetch_date": "2026-04-25T23:40:09.951365",
+  "fetch_date": "2026-04-26T23:41:00.468054",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": 13922751.0,
@@ -107,13 +107,13 @@
     },
     "Diluted Average Shares": {
       "2025-03-31 00:00:00": 10377974.0,
-      "2024-03-31 00:00:00": 10670349.0,
+      "2024-03-31 00:00:00": 10670386.0,
       "2023-03-31 00:00:00": 10877999.0,
       "2022-03-31 00:00:00": 10877999.0
     },
     "Basic Average Shares": {
       "2025-03-31 00:00:00": 10377974.0,
-      "2024-03-31 00:00:00": 10670349.0,
+      "2024-03-31 00:00:00": 10670386.0,
       "2023-03-31 00:00:00": 10877999.0,
       "2022-03-31 00:00:00": 10877999.0
     },
@@ -270,7 +270,7 @@
       "2022-03-31 00:00:00": 10877999.0
     },
     "Share Issued": {
-      "2025-03-31 00:00:00": 10377999.0,
+      "2025-03-31 00:00:00": 10377962.0,
       "2024-03-31 00:00:00": 10377999.0,
       "2023-03-31 00:00:00": 10987200.0,
       "2022-03-31 00:00:00": 10987200.0
@@ -989,11 +989,11 @@
     "forwardPE": 7.376325,
     "volume": 2800,
     "regularMarketVolume": 2800,
-    "averageVolume": 8524,
+    "averageVolume": 8552,
     "averageVolume10days": 5070,
     "averageDailyVolume10Day": 5070,
-    "bid": 1662.0,
-    "ask": 1670.0,
+    "bid": 0.0,
+    "ask": 1702.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 17331195904,
@@ -1061,6 +1061,15 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "fiftyDayAverageChange": -103.099976,
+    "fiftyDayAverageChangePercent": -0.058146738,
+    "twoHundredDayAverageChange": -191.97998,
+    "twoHundredDayAverageChangePercent": -0.103105284,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
+    "regularMarketChangePercent": 0.7845504,
+    "regularMarketPrice": 1670.0,
     "fiftyTwoWeekLowChange": 135.0,
     "fiftyTwoWeekLowChangePercent": 0.08794788,
     "fiftyTwoWeekRange": "1535.0 - 2111.0",
@@ -1072,16 +1081,8 @@
     "isEarningsDateEstimate": false,
     "epsTrailingTwelveMonths": 264.36,
     "epsForward": 226.4,
-    "fiftyDayAverageChange": -103.099976,
-    "fiftyDayAverageChangePercent": -0.058146738,
-    "twoHundredDayAverageChange": -191.97998,
-    "twoHundredDayAverageChangePercent": -0.103105284,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
     "shortName": "HUMAN HLDGS CO.LTD",
     "longName": "Human Holdings Co., Ltd.",
-    "cryptoTradeable": false,
-    "marketState": "CLOSED",
     "corporateActions": [],
     "regularMarketTime": 1777010534,
     "exchange": "JPX",
@@ -1091,14 +1092,13 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "regularMarketChangePercent": 0.7845504,
-    "regularMarketPrice": 1670.0,
+    "marketState": "PREPRE",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1097107200000,
     "regularMarketChange": 13.0,
     "regularMarketDayRange": "1657.0 - 1670.0",
     "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 8524,
+    "averageDailyVolume3Month": 8552,
     "trailingPegRatio": null
   }
 }

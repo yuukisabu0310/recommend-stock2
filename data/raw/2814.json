@@ -1,7 +1,7 @@
 {
   "ticker": "2814",
   "japanese_ticker": "2814.T",
-  "fetch_date": "2026-04-25T23:44:57.330579",
+  "fetch_date": "2026-04-26T23:45:24.573282",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": 20697516.0,
@@ -119,7 +119,7 @@
     },
     "Basic Average Shares": {
       "2025-03-31 00:00:00": 3838869.0,
-      "2024-03-31 00:00:00": 4048374.0,
+      "2024-03-31 00:00:00": 4048463.0,
       "2023-03-31 00:00:00": 4160692.0,
       "2022-03-31 00:00:00": 6203173.0
     },
@@ -318,7 +318,7 @@
       "2022-03-31 00:00:00": 5111412.0
     },
     "Ordinary Shares Number": {
-      "2025-03-31 00:00:00": 3717775.0,
+      "2025-03-31 00:00:00": 3716785.0,
       "2024-03-31 00:00:00": 3908928.0,
       "2023-03-31 00:00:00": 4055048.0,
       "2022-03-31 00:00:00": 4215048.0
@@ -1035,11 +1035,11 @@
     "trailingPE": 15.798112,
     "volume": 1100,
     "regularMarketVolume": 1100,
-    "averageVolume": 1679,
+    "averageVolume": 1659,
     "averageVolume10days": 700,
     "averageDailyVolume10Day": 700,
-    "bid": 3075.0,
-    "ask": 3090.0,
+    "bid": 0.0,
+    "ask": 3105.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 11050673152,
@@ -1106,9 +1106,6 @@
     "customPriceAlertConfidence": "LOW",
     "shortName": "SATO FOODS INDUSTRIES CO",
     "longName": "Sato Foods Industries Co., Ltd.",
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
     "exchange": "JPX",
     "messageBoardId": "finmb_9155770",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1116,17 +1113,22 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "corporateActions": [],
-    "regularMarketTime": 1777009564,
-    "marketState": "CLOSED",
-    "hasPrePostMarketData": false,
     "regularMarketChangePercent": -0.6451613,
     "regularMarketPrice": 3080.0,
+    "marketState": "PREPRE",
+    "corporateActions": [],
+    "regularMarketTime": 1777009564,
+    "twoHundredDayAverageChange": -11.764893,
+    "twoHundredDayAverageChangePercent": -0.0038052353,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
+    "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 947030400000,
     "regularMarketChange": -20.0,
     "regularMarketDayRange": "3070.0 - 3100.0",
     "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 1679,
+    "averageDailyVolume3Month": 1659,
     "fiftyTwoWeekLowChange": 801.0,
     "fiftyTwoWeekLowChangePercent": 0.35146993,
     "fiftyTwoWeekRange": "2279.0 - 3750.0",
@@ -1139,8 +1141,6 @@
     "epsTrailingTwelveMonths": 194.96,
     "fiftyDayAverageChange": -118.1001,
     "fiftyDayAverageChangePercent": -0.036928207,
-    "twoHundredDayAverageChange": -11.764893,
-    "twoHundredDayAverageChangePercent": -0.0038052353,
     "trailingPegRatio": null
   }
 }

@@ -1,7 +1,7 @@
 {
   "ticker": "2471",
   "japanese_ticker": "2471.T",
-  "fetch_date": "2026-04-25T23:40:54.332345",
+  "fetch_date": "2026-04-26T23:41:42.132334",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-11-30 00:00:00": 0.0,
@@ -125,14 +125,14 @@
     "Diluted Average Shares": {
       "2025-11-30 00:00:00": 78308026.0,
       "2024-11-30 00:00:00": 79003645.0,
-      "2023-11-30 00:00:00": 78995434.0,
+      "2023-11-30 00:00:00": 79003645.0,
       "2022-11-30 00:00:00": 79003645.0,
       "2021-11-30 00:00:00": null
     },
     "Basic Average Shares": {
       "2025-11-30 00:00:00": 78308026.0,
       "2024-11-30 00:00:00": 79003645.0,
-      "2023-11-30 00:00:00": 78995434.0,
+      "2023-11-30 00:00:00": 79003645.0,
       "2022-11-30 00:00:00": 79003645.0,
       "2021-11-30 00:00:00": null
     },
@@ -1156,15 +1156,6 @@
         "yearBorn": 1970,
         "exercisedValue": 0,
         "unexercisedValue": 0
-      },
-      {
-        "maxAge": 1,
-        "name": "Mr. Shigetaka  Nakamura",
-        "age": 49,
-        "title": "Senior Managing Executive Officer, CDO, CDAO & Head of Digital Strategy Promotion Division",
-        "yearBorn": 1976,
-        "exercisedValue": 0,
-        "unexercisedValue": 0
       }
     ],
     "irWebsite": "http://ir.spool.co.jp/index.html",
@@ -1189,10 +1180,10 @@
     "forwardPE": 9.76801,
     "volume": 621400,
     "regularMarketVolume": 621400,
-    "averageVolume": 626920,
+    "averageVolume": 616824,
     "averageVolume10days": 754210,
     "averageDailyVolume10Day": 754210,
-    "bid": 240.0,
+    "bid": 0.0,
     "ask": 241.0,
     "bidSize": 0,
     "askSize": 0,
@@ -1262,8 +1253,6 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "shortName": "S-POOL INC",
-    "corporateActions": [],
     "regularMarketTime": 1777012200,
     "exchange": "JPX",
     "messageBoardId": "finmb_25524801",
@@ -1272,12 +1261,12 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "longName": "S-Pool, Inc.",
+    "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1139529600000,
     "regularMarketChange": -4.0,
     "regularMarketDayRange": "240.0 - 246.0",
     "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 626920,
+    "averageDailyVolume3Month": 616824,
     "fiftyTwoWeekLowChange": 2.0,
     "fiftyTwoWeekLowChangePercent": 0.008403362,
     "fiftyTwoWeekRange": "238.0 - 368.0",
@@ -1287,6 +1276,10 @@
     "earningsTimestampStart": 1752127200,
     "earningsTimestampEnd": 1752472800,
     "isEarningsDateEstimate": true,
+    "cryptoTradeable": false,
+    "regularMarketChangePercent": -1.6393442,
+    "regularMarketPrice": 240.0,
+    "marketState": "PREPRE",
     "epsTrailingTwelveMonths": 18.43,
     "epsForward": 24.57,
     "fiftyDayAverageChange": -13.960007,
@@ -1296,11 +1289,9 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "averageAnalystRating": "0.0 - Strong Buy",
-    "cryptoTradeable": false,
-    "hasPrePostMarketData": false,
-    "regularMarketChangePercent": -1.6393442,
-    "regularMarketPrice": 240.0,
-    "marketState": "CLOSED",
+    "shortName": "S-POOL INC",
+    "longName": "S-Pool, Inc.",
+    "corporateActions": [],
     "trailingPegRatio": null
   }
 }

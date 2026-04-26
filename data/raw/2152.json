@@ -1,7 +1,7 @@
 {
   "ticker": "2152",
   "japanese_ticker": "2152.T",
-  "fetch_date": "2026-04-25T23:36:19.969802",
+  "fetch_date": "2026-04-26T23:37:28.483843",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": 0.0,
@@ -107,7 +107,7 @@
     },
     "Basic Average Shares": {
       "2025-03-31 00:00:00": 10802000.0,
-      "2024-03-31 00:00:00": 10802000.0,
+      "2024-03-31 00:00:00": 10802082.0,
       "2023-03-31 00:00:00": 10802000.0,
       "2022-03-31 00:00:00": 10802000.0
     },
@@ -246,7 +246,7 @@
   },
   "balance_sheet": {
     "Treasury Shares Number": {
-      "2025-03-31 00:00:00": 981450.0,
+      "2025-03-31 00:00:00": null,
       "2024-03-31 00:00:00": 981412.0,
       "2023-03-31 00:00:00": 981412.0,
       "2022-03-31 00:00:00": 981412.0
@@ -849,11 +849,11 @@
     "trailingPE": 17.123512,
     "volume": 300,
     "regularMarketVolume": 300,
-    "averageVolume": 1046,
+    "averageVolume": 998,
     "averageVolume10days": 640,
     "averageDailyVolume10Day": 640,
-    "bid": 1542.0,
-    "ask": 1569.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "marketCap": 16938398720,
     "nonDilutedMarketCap": 16938398400,
     "fiftyTwoWeekLow": 1242.0,
@@ -920,19 +920,18 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "fiftyDayAverageChange": 67.04004,
-    "fiftyDayAverageChangePercent": 0.044664774,
-    "twoHundredDayAverageChange": 130.63,
-    "twoHundredDayAverageChangePercent": 0.090881266,
+    "marketState": "PREPRE",
+    "shortName": "YOUJI CORPORATION",
+    "longName": "Youji Corporation",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1180310400000,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1180310400000,
     "regularMarketChange": 53.0,
     "regularMarketDayRange": "1521.0 - 1568.0",
     "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 1046,
+    "averageDailyVolume3Month": 998,
     "fiftyTwoWeekLowChange": 326.0,
     "fiftyTwoWeekLowChangePercent": 0.26247987,
     "fiftyTwoWeekRange": "1242.0 - 1685.0",
@@ -943,7 +942,10 @@
     "earningsTimestampEnd": 1747033200,
     "isEarningsDateEstimate": false,
     "epsTrailingTwelveMonths": 91.57,
-    "regularMarketChangePercent": 3.4983497,
+    "fiftyDayAverageChange": 67.04004,
+    "fiftyDayAverageChangePercent": 0.044664774,
+    "twoHundredDayAverageChange": 130.63,
+    "twoHundredDayAverageChangePercent": 0.090881266,
     "corporateActions": [],
     "regularMarketTime": 1777012200,
     "exchange": "JPX",
@@ -953,10 +955,8 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
+    "regularMarketChangePercent": 3.4983497,
     "regularMarketPrice": 1568.0,
-    "marketState": "CLOSED",
-    "shortName": "YOUJI CORPORATION",
-    "longName": "Youji Corporation",
     "trailingPegRatio": null
   }
 }

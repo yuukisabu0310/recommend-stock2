@@ -1,7 +1,7 @@
 {
   "ticker": "2802",
   "japanese_ticker": "2802.T",
-  "fetch_date": "2026-04-25T23:44:41.064144",
+  "fetch_date": "2026-04-26T23:45:09.076378",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": 0.0,
@@ -270,7 +270,7 @@
       "2022-03-31 00:00:00": 1072873862.0
     },
     "Share Issued": {
-      "2025-03-31 00:00:00": 1005637616.0,
+      "2025-03-31 00:00:00": 1016629508.0,
       "2024-03-31 00:00:00": 1042861708.0,
       "2023-03-31 00:00:00": 1059596308.0,
       "2022-03-31 00:00:00": 1073992508.0
@@ -799,12 +799,6 @@
       "2023-03-31 00:00:00": 40255000000.0,
       "2022-03-31 00:00:00": 17763000000.0
     },
-    "Purchase Of PPE": {
-      "2025-03-31 00:00:00": -88104000000.0,
-      "2024-03-31 00:00:00": -65786000000.0,
-      "2023-03-31 00:00:00": -68383000000.0,
-      "2022-03-31 00:00:00": -73842000000.0
-    },
     "Operating Cash Flow": {
       "2025-03-31 00:00:00": 209898000000.0,
       "2024-03-31 00:00:00": 168074000000.0,
@@ -1050,11 +1044,11 @@
     "forwardPE": 20.497135,
     "volume": 4191800,
     "regularMarketVolume": 4191800,
-    "averageVolume": 4033848,
+    "averageVolume": 4022419,
     "averageVolume10days": 2810540,
     "averageDailyVolume10Day": 2810540,
-    "bid": 4757.0,
-    "ask": 4769.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 4560280616960,
@@ -1086,7 +1080,7 @@
     "netIncomeToCommon": 77580001280,
     "trailingEps": 37.59,
     "forwardEps": 232.13,
-    "pegRatio": 1.43,
+    "pegRatio": 1.48,
     "lastSplitFactor": "2:1",
     "lastSplitDate": 1743120000,
     "enterpriseToRevenue": 3.253,
@@ -1131,19 +1125,7 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "corporateActions": [],
-    "cryptoTradeable": false,
-    "regularMarketTime": 1777012200,
-    "exchange": "JPX",
-    "messageBoardId": "finmb_873739",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
-    "regularMarketChangePercent": 3.660131,
-    "regularMarketPrice": 4758.0,
-    "marketState": "CLOSED",
+    "marketState": "PREPRE",
     "shortName": "AJINOMOTO CO INC",
     "longName": "Ajinomoto Co., Inc.",
     "hasPrePostMarketData": false,
@@ -1151,7 +1133,7 @@
     "regularMarketChange": 168.0,
     "regularMarketDayRange": "4699.0 - 4877.0",
     "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 4033848,
+    "averageDailyVolume3Month": 4022419,
     "fiftyTwoWeekLowChange": 1894.5,
     "fiftyTwoWeekLowChangePercent": 0.6616029,
     "fiftyTwoWeekRange": "2863.5 - 5025.0",
@@ -1170,9 +1152,21 @@
     "fiftyDayAverageChangePercent": 0.038615156,
     "twoHundredDayAverageChange": 719.8401,
     "twoHundredDayAverageChangePercent": 0.17825943,
+    "regularMarketChangePercent": 3.660131,
+    "regularMarketPrice": 4758.0,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "averageAnalystRating": "2.0 - Buy",
+    "cryptoTradeable": false,
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
+    "corporateActions": [],
+    "regularMarketTime": 1777012200,
+    "exchange": "JPX",
+    "messageBoardId": "finmb_873739",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
     "trailingPegRatio": 1.4813
   }
 }

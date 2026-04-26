@@ -1,7 +1,7 @@
 {
   "ticker": "2705",
   "japanese_ticker": "2705.T",
-  "fetch_date": "2026-04-25T23:43:15.472272",
+  "fetch_date": "2026-04-26T23:43:50.908331",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": -29600000.0,
@@ -270,19 +270,19 @@
   },
   "balance_sheet": {
     "Treasury Shares Number": {
-      "2025-03-31 00:00:00": 4947.0,
+      "2025-03-31 00:00:00": null,
       "2024-03-31 00:00:00": 4919.0,
       "2023-03-31 00:00:00": 9919.0,
       "2022-03-31 00:00:00": 14873.0
     },
     "Ordinary Shares Number": {
-      "2025-03-31 00:00:00": 7252353.0,
+      "2025-03-31 00:00:00": 7252381.0,
       "2024-03-31 00:00:00": 7246881.0,
       "2023-03-31 00:00:00": 7241881.0,
       "2022-03-31 00:00:00": 7236927.0
     },
     "Share Issued": {
-      "2025-03-31 00:00:00": 7257300.0,
+      "2025-03-31 00:00:00": 7252381.0,
       "2024-03-31 00:00:00": 7251800.0,
       "2023-03-31 00:00:00": 7251800.0,
       "2022-03-31 00:00:00": 7251800.0
@@ -1025,11 +1025,11 @@
     "trailingPE": 45.662403,
     "volume": 9400,
     "regularMarketVolume": 9400,
-    "averageVolume": 14922,
+    "averageVolume": 15013,
     "averageVolume10days": 7650,
     "averageDailyVolume10Day": 7650,
-    "bid": 6890.0,
-    "ask": 6920.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 50010050560,
@@ -1095,21 +1095,13 @@
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
     "shortName": "OOTOYA HOLDINGS CO LTD",
-    "corporateActions": [],
-    "regularMarketTime": 1777012200,
-    "exchange": "JPX",
-    "messageBoardId": "finmb_5854221",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
     "longName": "OOTOYA Holdings Co., Ltd.",
+    "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 999216000000,
     "regularMarketChange": -110.0,
     "regularMarketDayRange": "6890.0 - 6990.0",
     "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 14922,
+    "averageDailyVolume3Month": 15013,
     "fiftyTwoWeekLowChange": 1720.0,
     "fiftyTwoWeekLowChangePercent": 0.3326886,
     "fiftyTwoWeekRange": "5170.0 - 7580.0",
@@ -1119,6 +1111,7 @@
     "earningsTimestampStart": 1754460000,
     "earningsTimestampEnd": 1754978400,
     "isEarningsDateEstimate": true,
+    "marketState": "PREPRE",
     "epsTrailingTwelveMonths": 150.89,
     "fiftyDayAverageChange": -145.7998,
     "fiftyDayAverageChangePercent": -0.020722562,
@@ -1127,10 +1120,17 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
-    "hasPrePostMarketData": false,
+    "corporateActions": [],
+    "regularMarketTime": 1777012200,
+    "exchange": "JPX",
+    "messageBoardId": "finmb_5854221",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
     "regularMarketChangePercent": -1.5714285,
     "regularMarketPrice": 6890.0,
-    "marketState": "CLOSED",
     "trailingPegRatio": null
   }
 }

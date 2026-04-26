@@ -1,7 +1,7 @@
 {
   "ticker": "1850",
   "japanese_ticker": "1850.T",
-  "fetch_date": "2026-04-25T23:33:14.005858",
+  "fetch_date": "2026-04-26T23:34:33.356634",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": -564000.0,
@@ -113,7 +113,7 @@
     },
     "Basic Average Shares": {
       "2025-03-31 00:00:00": 28827648.0,
-      "2024-03-31 00:00:00": 28827686.0,
+      "2024-03-31 00:00:00": 28818444.0,
       "2023-03-31 00:00:00": 28827748.0,
       "2022-03-31 00:00:00": 28827922.0
     },
@@ -258,7 +258,7 @@
       "2022-03-31 00:00:00": 7000.0
     },
     "Ordinary Shares Number": {
-      "2025-03-31 00:00:00": 28827599.0,
+      "2025-03-31 00:00:00": 28827671.0,
       "2024-03-31 00:00:00": 28827684.0,
       "2023-03-31 00:00:00": 28827730.0,
       "2022-03-31 00:00:00": 28828730.0
@@ -936,49 +936,6 @@
         "yearBorn": 1963,
         "exercisedValue": 0,
         "unexercisedValue": 0
-      },
-      {
-        "maxAge": 1,
-        "name": "Mr. Toru  Okumura",
-        "age": 63,
-        "title": "Senior Managing Executive Officer, GM of Civil Engineering Division & Director",
-        "yearBorn": 1962,
-        "exercisedValue": 0,
-        "unexercisedValue": 0
-      },
-      {
-        "maxAge": 1,
-        "name": "Takehiro  Sakii",
-        "age": 68,
-        "title": "Managing Executive Officer, GM of Tokyo Construction HQ and Tokyo Branch & Director",
-        "yearBorn": 1957,
-        "exercisedValue": 0,
-        "unexercisedValue": 0
-      },
-      {
-        "maxAge": 1,
-        "name": "Shigeo  Yoshida",
-        "age": 66,
-        "title": "Managing Executive Officer, GM of Osaka Construction Division & Director",
-        "yearBorn": 1959,
-        "exercisedValue": 0,
-        "unexercisedValue": 0
-      },
-      {
-        "maxAge": 1,
-        "name": "Shuji  Kasai",
-        "title": "Senior Executive Officer & GM of the Purchasing Department of the Administration Division",
-        "exercisedValue": 0,
-        "unexercisedValue": 0
-      },
-      {
-        "maxAge": 1,
-        "name": "Hideto  Kusuoka",
-        "age": 55,
-        "title": "Senior Managing Executive Officer, Head of Corporate Management & Director",
-        "yearBorn": 1970,
-        "exercisedValue": 0,
-        "unexercisedValue": 0
       }
     ],
     "irWebsite": "http://www.nantatsu.co.jp/ir/new.html",
@@ -1001,11 +958,11 @@
     "trailingPE": 6.265699,
     "volume": 110300,
     "regularMarketVolume": 110300,
-    "averageVolume": 137488,
+    "averageVolume": 136780,
     "averageVolume10days": 54270,
     "averageDailyVolume10Day": 54270,
-    "bid": 448.0,
-    "ask": 452.0,
+    "bid": 0.0,
+    "ask": 463.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 12943592448,
@@ -1072,12 +1029,8 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "marketState": "CLOSED",
     "regularMarketChangePercent": -1.5350877,
     "regularMarketPrice": 449.0,
-    "regularMarketTime": 1777012200,
-    "corporateActions": [],
-    "cryptoTradeable": false,
     "exchange": "JPX",
     "messageBoardId": "finmb_5493505",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1085,14 +1038,20 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "shortName": "NANKAI TATSUMURA CONSTRUCTION C",
-    "longName": "Nankai Tatsumura Construction Co., Ltd.",
+    "fiftyDayAverageChange": -57.339996,
+    "fiftyDayAverageChangePercent": -0.11324406,
+    "twoHundredDayAverageChange": -64.685,
+    "twoHundredDayAverageChangePercent": -0.12592347,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
+    "marketState": "PREPRE",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 954806400000,
     "regularMarketChange": -7.0,
     "regularMarketDayRange": "447.0 - 459.0",
     "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 137488,
+    "averageDailyVolume3Month": 136780,
     "fiftyTwoWeekLowChange": 159.0,
     "fiftyTwoWeekLowChangePercent": 0.5482759,
     "fiftyTwoWeekRange": "290.0 - 652.0",
@@ -1103,12 +1062,10 @@
     "earningsTimestampEnd": 1745823600,
     "isEarningsDateEstimate": false,
     "epsTrailingTwelveMonths": 71.66,
-    "fiftyDayAverageChange": -57.339996,
-    "fiftyDayAverageChangePercent": -0.11324406,
-    "twoHundredDayAverageChange": -64.685,
-    "twoHundredDayAverageChangePercent": -0.12592347,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
+    "corporateActions": [],
+    "regularMarketTime": 1777012200,
+    "shortName": "NANKAI TATSUMURA CONSTRUCTION C",
+    "longName": "Nankai Tatsumura Construction Co., Ltd.",
     "trailingPegRatio": null
   }
 }

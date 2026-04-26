@@ -1,7 +1,7 @@
 {
   "ticker": "2330",
   "japanese_ticker": "2330.T",
-  "fetch_date": "2026-04-25T23:38:51.741201",
+  "fetch_date": "2026-04-26T23:39:49.955322",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-12-31 00:00:00": 2240822.594331,
@@ -132,20 +132,20 @@
     "Basic Average Shares": {
       "2025-12-31 00:00:00": null,
       "2024-12-31 00:00:00": 39442056.0,
-      "2023-12-31 00:00:00": 34350946.0,
+      "2023-12-31 00:00:00": 34312991.0,
       "2022-12-31 00:00:00": 32539103.0,
       "2021-12-31 00:00:00": 32540397.0
     },
     "Diluted EPS": {
       "2025-12-31 00:00:00": null,
-      "2024-12-31 00:00:00": 1.63,
+      "2024-12-31 00:00:00": null,
       "2023-12-31 00:00:00": 3.31,
       "2022-12-31 00:00:00": -3.31,
       "2021-12-31 00:00:00": 2.64
     },
     "Basic EPS": {
       "2025-12-31 00:00:00": null,
-      "2024-12-31 00:00:00": 1.63,
+      "2024-12-31 00:00:00": null,
       "2023-12-31 00:00:00": 3.31,
       "2022-12-31 00:00:00": -3.31,
       "2021-12-31 00:00:00": 2.64
@@ -1155,10 +1155,10 @@
     "trailingPE": 10.52114,
     "volume": 331300,
     "regularMarketVolume": 331300,
-    "averageVolume": 436329,
+    "averageVolume": 440850,
     "averageVolume10days": 159740,
     "averageDailyVolume10Day": 159740,
-    "bid": 106.0,
+    "bid": 0.0,
     "ask": 107.0,
     "bidSize": 0,
     "askSize": 0,
@@ -1237,14 +1237,14 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
+    "marketState": "PREPRE",
     "regularMarketChangePercent": -0.9259259,
     "regularMarketPrice": 107.0,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1034208000000,
+    "cryptoTradeable": false,
     "regularMarketChange": -1.0,
     "regularMarketDayRange": "105.0 - 109.0",
     "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 436329,
+    "averageDailyVolume3Month": 440850,
     "fiftyTwoWeekLowChange": 2.0,
     "fiftyTwoWeekLowChangePercent": 0.01904762,
     "fiftyTwoWeekRange": "105.0 - 315.0",
@@ -1255,8 +1255,6 @@
     "earningsTimestampEnd": 1755497700,
     "isEarningsDateEstimate": true,
     "epsTrailingTwelveMonths": 10.17,
-    "shortName": "FORSIDE CO LTD",
-    "longName": "Forside Co.,Ltd.",
     "fiftyDayAverageChange": -10.620003,
     "fiftyDayAverageChangePercent": -0.090290785,
     "twoHundredDayAverageChange": -72.715,
@@ -1264,9 +1262,11 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "prevName": "Forside Co., Ltd.",
-    "nameChangeDate": "2026-04-25",
-    "cryptoTradeable": false,
-    "marketState": "CLOSED",
+    "nameChangeDate": "2026-04-26",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1034208000000,
+    "shortName": "FORSIDE CO LTD",
+    "longName": "Forside Co.,Ltd.",
     "trailingPegRatio": null
   }
 }

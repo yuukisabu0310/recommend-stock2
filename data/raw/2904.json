@@ -1,7 +1,7 @@
 {
   "ticker": "2904",
   "japanese_ticker": "2904.T",
-  "fetch_date": "2026-04-25T23:45:41.164369",
+  "fetch_date": "2026-04-26T23:46:04.504822",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-06-30 00:00:00": 62160587.167164,
@@ -145,10 +145,10 @@
     },
     "Basic EPS": {
       "2025-06-30 00:00:00": 40.67,
-      "2024-06-30 00:00:00": 52.1,
+      "2024-06-30 00:00:00": null,
       "2023-06-30 00:00:00": 4.58,
       "2022-06-30 00:00:00": 30.73,
-      "2021-06-30 00:00:00": null
+      "2021-06-30 00:00:00": 145.62
     },
     "Diluted NI Availto Com Stockholders": {
       "2025-06-30 00:00:00": 746874000.0,
@@ -1140,45 +1140,6 @@
         "title": "Managing Executive Officer, Head of Marketing Development & Technology Research Department",
         "exercisedValue": 0,
         "unexercisedValue": 0
-      },
-      {
-        "maxAge": 1,
-        "name": "Mr. Masayuki  Goto",
-        "age": 67,
-        "title": "Managing Executive Officer, GM of Bio Business Division & Director",
-        "yearBorn": 1958,
-        "exercisedValue": 0,
-        "unexercisedValue": 0
-      },
-      {
-        "maxAge": 1,
-        "name": "Motoyuki  Sakai",
-        "title": "Senior Executive Officer and GM of Hokkaido Business, Northern Japan, Sapporo & Sendai Branch",
-        "exercisedValue": 0,
-        "unexercisedValue": 0
-      },
-      {
-        "maxAge": 1,
-        "name": "Mr. Masaki  Takashima",
-        "age": 65,
-        "title": "Managing Executive Officer, GM of Corporate Business Division & Director",
-        "yearBorn": 1960,
-        "exercisedValue": 0,
-        "unexercisedValue": 0
-      },
-      {
-        "maxAge": 1,
-        "name": "Norihiro  Murayama",
-        "title": "Senior Executive Officer of Quality Assurance Department",
-        "exercisedValue": 0,
-        "unexercisedValue": 0
-      },
-      {
-        "maxAge": 1,
-        "name": "Yoshitaka  Tanabe",
-        "title": "Executive Officer & GM of e-Commerce Promotion Department",
-        "exercisedValue": 0,
-        "unexercisedValue": 0
       }
     ],
     "irWebsite": "http://www.oden.ne.jp/ichimasa2004/co_investor.htm",
@@ -1203,11 +1164,11 @@
     "forwardPE": 14.853802,
     "volume": 2000,
     "regularMarketVolume": 2000,
-    "averageVolume": 5408,
+    "averageVolume": 5347,
     "averageVolume10days": 3660,
     "averageDailyVolume10Day": 3660,
-    "bid": 759.0,
-    "ask": 764.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 13963811840,
@@ -1277,8 +1238,6 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "shortName": "ICHIMASA KAMABOKO CO",
-    "longName": "Ichimasa Kamaboko Co., Ltd.",
     "corporateActions": [],
     "regularMarketTime": 1777012200,
     "exchange": "JPX",
@@ -1288,19 +1247,12 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "fiftyDayAverageChange": 5.419983,
-    "fiftyDayAverageChangePercent": 0.0071637933,
-    "twoHundredDayAverageChange": 13.375,
-    "twoHundredDayAverageChangePercent": 0.017866088,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 947030400000,
     "regularMarketChange": 2.0,
     "regularMarketDayRange": "759.0 - 762.0",
     "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 5408,
+    "averageDailyVolume3Month": 5347,
     "fiftyTwoWeekLowChange": 30.0,
     "fiftyTwoWeekLowChangePercent": 0.040983606,
     "fiftyTwoWeekRange": "732.0 - 787.0",
@@ -1312,9 +1264,18 @@
     "isEarningsDateEstimate": true,
     "epsTrailingTwelveMonths": 21.95,
     "epsForward": 51.3,
+    "fiftyDayAverageChange": 5.419983,
+    "fiftyDayAverageChangePercent": 0.0071637933,
+    "twoHundredDayAverageChange": 13.375,
+    "twoHundredDayAverageChangePercent": 0.017866088,
+    "marketState": "PREPRE",
     "regularMarketChangePercent": 0.2631579,
     "regularMarketPrice": 762.0,
-    "marketState": "CLOSED",
+    "shortName": "ICHIMASA KAMABOKO CO",
+    "longName": "Ichimasa Kamaboko Co., Ltd.",
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
     "trailingPegRatio": null
   }
 }

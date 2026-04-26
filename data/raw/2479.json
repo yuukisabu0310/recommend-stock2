@@ -1,7 +1,7 @@
 {
   "ticker": "2479",
   "japanese_ticker": "2479.T",
-  "fetch_date": "2026-04-25T23:41:00.699159",
+  "fetch_date": "2026-04-26T23:41:48.190858",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": 133797.0,
@@ -107,7 +107,7 @@
     },
     "Diluted Average Shares": {
       "2025-03-31 00:00:00": 7998415.0,
-      "2024-03-31 00:00:00": 7978440.0,
+      "2024-03-31 00:00:00": 7978568.0,
       "2023-03-31 00:00:00": 7947025.0,
       "2022-03-31 00:00:00": 7906356.0
     },
@@ -264,7 +264,7 @@
   },
   "balance_sheet": {
     "Treasury Shares Number": {
-      "2025-03-31 00:00:00": 565700.0,
+      "2025-03-31 00:00:00": null,
       "2024-03-31 00:00:00": 586700.0,
       "2023-03-31 00:00:00": 604900.0,
       "2022-03-31 00:00:00": 636300.0
@@ -963,11 +963,11 @@
     "trailingPE": 10.123352,
     "volume": 46400,
     "regularMarketVolume": 46400,
-    "averageVolume": 49106,
+    "averageVolume": 49221,
     "averageVolume10days": 28260,
     "averageDailyVolume10Day": 28260,
-    "bid": 238.0,
-    "ask": 239.0,
+    "bid": 0.0,
+    "ask": 238.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 1905594624,
@@ -1034,14 +1034,9 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "epsTrailingTwelveMonths": 23.51,
-    "fiftyDayAverageChange": -6.7599945,
-    "fiftyDayAverageChangePercent": -0.02761887,
-    "twoHundredDayAverageChange": -6.0700073,
-    "twoHundredDayAverageChangePercent": -0.024869943,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
+    "shortName": "JTEC CORP",
+    "longName": "JTEC Corporation",
+    "marketState": "PREPRE",
     "corporateActions": [],
     "regularMarketTime": 1777012200,
     "exchange": "JPX",
@@ -1053,14 +1048,12 @@
     "esgPopulated": false,
     "regularMarketChangePercent": 0.42194092,
     "regularMarketPrice": 238.0,
-    "shortName": "JTEC CORP",
-    "longName": "JTEC Corporation",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1144108800000,
     "regularMarketChange": 1.0,
     "regularMarketDayRange": "238.0 - 240.0",
     "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 49106,
+    "averageDailyVolume3Month": 49221,
     "fiftyTwoWeekLowChange": 8.0,
     "fiftyTwoWeekLowChangePercent": 0.034782607,
     "fiftyTwoWeekRange": "230.0 - 269.0",
@@ -1070,7 +1063,14 @@
     "earningsTimestampStart": 1747204200,
     "earningsTimestampEnd": 1747204200,
     "isEarningsDateEstimate": false,
-    "marketState": "CLOSED",
+    "epsTrailingTwelveMonths": 23.51,
+    "fiftyDayAverageChange": -6.7599945,
+    "fiftyDayAverageChangePercent": -0.02761887,
+    "twoHundredDayAverageChange": -6.0700073,
+    "twoHundredDayAverageChangePercent": -0.024869943,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
     "trailingPegRatio": null
   }
 }

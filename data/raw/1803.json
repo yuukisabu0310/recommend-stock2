@@ -1,7 +1,7 @@
 {
   "ticker": "1803",
   "japanese_ticker": "1803.T",
-  "fetch_date": "2026-04-25T23:32:28.647432",
+  "fetch_date": "2026-04-26T23:33:51.870047",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": 12842550000.0,
@@ -56,12 +56,6 @@
       "2024-03-31 00:00:00": 69451000000.0,
       "2023-03-31 00:00:00": 105139000000.0,
       "2022-03-31 00:00:00": 87574000000.0
-    },
-    "EBIT": {
-      "2025-03-31 00:00:00": 114372000000.0,
-      "2024-03-31 00:00:00": 39195000000.0,
-      "2023-03-31 00:00:00": 79341000000.0,
-      "2022-03-31 00:00:00": 67361000000.0
     },
     "Net Interest Income": {
       "2025-03-31 00:00:00": -2509000000.0,
@@ -420,12 +414,6 @@
       "2022-03-31 00:00:00": 24875000000.0
     },
     "Long Term Debt And Capital Lease Obligation": {
-      "2025-03-31 00:00:00": 288959000000.0,
-      "2024-03-31 00:00:00": 310086000000.0,
-      "2023-03-31 00:00:00": 343184000000.0,
-      "2022-03-31 00:00:00": 292010000000.0
-    },
-    "Long Term Debt": {
       "2025-03-31 00:00:00": 288959000000.0,
       "2024-03-31 00:00:00": 310086000000.0,
       "2023-03-31 00:00:00": 343184000000.0,
@@ -1047,11 +1035,11 @@
     "forwardPE": 34.297367,
     "volume": 4204200,
     "regularMarketVolume": 4204200,
-    "averageVolume": 4187806,
+    "averageVolume": 4222672,
     "averageVolume10days": 3079620,
     "averageDailyVolume10Day": 3079620,
-    "bid": 2816.5,
-    "ask": 2818.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 1905520934912,
@@ -1126,6 +1114,7 @@
     "customPriceAlertConfidence": "LOW",
     "shortName": "SHIMIZU CORP",
     "longName": "Shimizu Corporation",
+    "marketState": "PREPRE",
     "corporateActions": [],
     "regularMarketTime": 1777012200,
     "exchange": "JPX",
@@ -1142,7 +1131,7 @@
     "regularMarketChange": 16.5,
     "regularMarketDayRange": "2767.0 - 2893.0",
     "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 4187806,
+    "averageDailyVolume3Month": 4222672,
     "fiftyTwoWeekLowChange": 1361.5,
     "fiftyTwoWeekLowChangePercent": 0.9357388,
     "fiftyTwoWeekRange": "1455.0 - 3618.0",
@@ -1155,7 +1144,6 @@
     "earningsCallTimestampStart": 1747306740,
     "earningsCallTimestampEnd": 1747306740,
     "isEarningsDateEstimate": false,
-    "marketState": "CLOSED",
     "epsTrailingTwelveMonths": 147.58,
     "epsForward": 82.12,
     "fiftyDayAverageChange": -254.52002,

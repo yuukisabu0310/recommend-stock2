@@ -1,7 +1,7 @@
 {
   "ticker": "2315",
   "japanese_ticker": "2315.T",
-  "fetch_date": "2026-04-25T23:38:34.849606",
+  "fetch_date": "2026-04-26T23:39:34.777863",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-10-31 00:00:00": 7727853.0,
@@ -138,14 +138,14 @@
     },
     "Diluted EPS": {
       "2025-10-31 00:00:00": null,
-      "2024-10-31 00:00:00": 0.22,
+      "2024-10-31 00:00:00": null,
       "2023-10-31 00:00:00": -31.57,
       "2022-10-31 00:00:00": -54.69,
       "2021-10-31 00:00:00": -10.87
     },
     "Basic EPS": {
       "2025-10-31 00:00:00": null,
-      "2024-10-31 00:00:00": 0.22,
+      "2024-10-31 00:00:00": null,
       "2023-10-31 00:00:00": -31.57,
       "2022-10-31 00:00:00": -54.69,
       "2021-10-31 00:00:00": -10.87
@@ -1203,11 +1203,11 @@
     "trailingPE": 60.655735,
     "volume": 935500,
     "regularMarketVolume": 935500,
-    "averageVolume": 2326437,
+    "averageVolume": 2329449,
     "averageVolume10days": 1262700,
     "averageDailyVolume10Day": 1262700,
-    "bid": 74.0,
-    "ask": 75.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 12479095808,
@@ -1273,6 +1273,10 @@
     "customPriceAlertConfidence": "LOW",
     "regularMarketChangePercent": -1.3333334,
     "regularMarketPrice": 74.0,
+    "marketState": "PREPRE",
+    "cryptoTradeable": false,
+    "shortName": "CAICA DIGITAL INC",
+    "longName": "CAICA DIGITAL Inc.",
     "corporateActions": [],
     "regularMarketTime": 1777012200,
     "exchange": "JPX",
@@ -1282,15 +1286,12 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "marketState": "CLOSED",
-    "shortName": "CAICA DIGITAL INC",
-    "longName": "CAICA DIGITAL Inc.",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1023753600000,
     "regularMarketChange": -1.0,
     "regularMarketDayRange": "74.0 - 76.0",
     "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 2326437,
+    "averageDailyVolume3Month": 2329449,
     "fiftyTwoWeekLowChange": 23.0,
     "fiftyTwoWeekLowChangePercent": 0.4509804,
     "fiftyTwoWeekRange": "51.0 - 177.0",
@@ -1308,8 +1309,7 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "prevName": "CAICA Inc.",
-    "nameChangeDate": "2026-04-25",
-    "cryptoTradeable": false,
+    "nameChangeDate": "2026-04-26",
     "trailingPegRatio": null
   }
 }

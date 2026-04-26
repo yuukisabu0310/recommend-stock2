@@ -1,7 +1,7 @@
 {
   "ticker": "2666",
   "japanese_ticker": "2666.T",
-  "fetch_date": "2026-04-25T23:42:29.262647",
+  "fetch_date": "2026-04-26T23:43:07.672750",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": -3622003.449554,
@@ -258,7 +258,7 @@
   },
   "balance_sheet": {
     "Treasury Shares Number": {
-      "2025-03-31 00:00:00": 211.0,
+      "2025-03-31 00:00:00": null,
       "2024-03-31 00:00:00": 211.0,
       "2023-03-31 00:00:00": 211.0,
       "2022-03-31 00:00:00": 211.0
@@ -270,7 +270,7 @@
       "2022-03-31 00:00:00": 14450789.0
     },
     "Share Issued": {
-      "2025-03-31 00:00:00": 14451000.0,
+      "2025-03-31 00:00:00": 14450789.0,
       "2024-03-31 00:00:00": 14451000.0,
       "2023-03-31 00:00:00": 14451000.0,
       "2022-03-31 00:00:00": 14451000.0
@@ -878,10 +878,10 @@
     "trailingPE": 7.975167,
     "volume": 96300,
     "regularMarketVolume": 96300,
-    "averageVolume": 75235,
+    "averageVolume": 73929,
     "averageVolume10days": 58560,
     "averageDailyVolume10Day": 58560,
-    "bid": 167.0,
+    "bid": 0.0,
     "ask": 168.0,
     "bidSize": 0,
     "askSize": 0,
@@ -947,7 +947,6 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "cryptoTradeable": false,
     "corporateActions": [],
     "regularMarketTime": 1777012200,
     "exchange": "JPX",
@@ -959,13 +958,14 @@
     "esgPopulated": false,
     "regularMarketChangePercent": 1.2121211,
     "regularMarketPrice": 167.0,
-    "marketState": "CLOSED",
     "shortName": "AUTOWAVE CO LTD",
     "longName": "AUTOWAVE Co., Ltd.",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 969580800000,
     "regularMarketChange": 2.0,
     "regularMarketDayRange": "166.0 - 170.0",
     "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 75235,
+    "averageDailyVolume3Month": 73929,
     "fiftyTwoWeekLowChange": 32.0,
     "fiftyTwoWeekLowChangePercent": 0.23703703,
     "fiftyTwoWeekRange": "135.0 - 184.0",
@@ -975,6 +975,7 @@
     "earningsTimestampStart": 1754629200,
     "earningsTimestampEnd": 1755061200,
     "isEarningsDateEstimate": true,
+    "marketState": "PREPRE",
     "epsTrailingTwelveMonths": 20.94,
     "fiftyDayAverageChange": 1.4400024,
     "fiftyDayAverageChangePercent": 0.008697768,
@@ -982,8 +983,7 @@
     "twoHundredDayAverageChangePercent": 0.037460387,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 969580800000,
+    "cryptoTradeable": false,
     "trailingPegRatio": null
   }
 }

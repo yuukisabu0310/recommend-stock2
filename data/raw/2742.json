@@ -1,7 +1,7 @@
 {
   "ticker": "2742",
   "japanese_ticker": "2742.T",
-  "fetch_date": "2026-04-25T23:43:38.927619",
+  "fetch_date": "2026-04-26T23:44:12.312707",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-02-28 00:00:00": -30705000.0,
@@ -112,7 +112,7 @@
       "2022-02-28 00:00:00": 8688000000.0
     },
     "Diluted Average Shares": {
-      "2025-02-28 00:00:00": 21469866.0,
+      "2025-02-28 00:00:00": null,
       "2024-02-29 00:00:00": 21446228.0,
       "2023-02-28 00:00:00": 21415990.0,
       "2022-02-28 00:00:00": 21408979.0
@@ -124,13 +124,13 @@
       "2022-02-28 00:00:00": 21358449.0
     },
     "Diluted EPS": {
-      "2025-02-28 00:00:00": 415.14,
+      "2025-02-28 00:00:00": null,
       "2024-02-29 00:00:00": 400.49,
       "2023-02-28 00:00:00": 289.55,
       "2022-02-28 00:00:00": 277.08
     },
     "Basic EPS": {
-      "2025-02-28 00:00:00": 416.95,
+      "2025-02-28 00:00:00": null,
       "2024-02-29 00:00:00": 402.12,
       "2023-02-28 00:00:00": 290.27,
       "2022-02-28 00:00:00": 277.77
@@ -300,13 +300,13 @@
   },
   "balance_sheet": {
     "Treasury Shares Number": {
-      "2025-02-28 00:00:00": 72318.0,
+      "2025-02-28 00:00:00": null,
       "2024-02-29 00:00:00": 72275.0,
       "2023-02-28 00:00:00": 57255.0,
       "2022-02-28 00:00:00": 62317.0
     },
     "Ordinary Shares Number": {
-      "2025-02-28 00:00:00": 21385782.0,
+      "2025-02-28 00:00:00": 21382482.0,
       "2024-02-29 00:00:00": 21359125.0,
       "2023-02-28 00:00:00": 21366645.0,
       "2022-02-28 00:00:00": 21361583.0
@@ -1105,11 +1105,11 @@
     "forwardPE": 11.13422,
     "volume": 32400,
     "regularMarketVolume": 32400,
-    "averageVolume": 42458,
+    "averageVolume": 42680,
     "averageVolume10days": 34010,
     "averageDailyVolume10Day": 34010,
-    "bid": 4015.0,
-    "ask": 4040.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 85704515584,
@@ -1179,10 +1179,26 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "marketState": "CLOSED",
     "shortName": "HALOWS CO LTD",
     "longName": "Halows Co.,Ltd.",
-    "averageDailyVolume3Month": 42458,
+    "regularMarketChangePercent": -3.0193238,
+    "regularMarketPrice": 4015.0,
+    "corporateActions": [],
+    "regularMarketTime": 1777012200,
+    "exchange": "JPX",
+    "messageBoardId": "finmb_5548153",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
+    "marketState": "PREPRE",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1031011200000,
+    "regularMarketChange": -125.0,
+    "regularMarketDayRange": "4010.0 - 4135.0",
+    "fullExchangeName": "Tokyo",
+    "averageDailyVolume3Month": 42680,
     "fiftyTwoWeekLowChange": 5.0,
     "fiftyTwoWeekLowChangePercent": 0.0012468828,
     "fiftyTwoWeekRange": "4010.0 - 5290.0",
@@ -1201,22 +1217,6 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
-    "corporateActions": [],
-    "regularMarketTime": 1777012200,
-    "exchange": "JPX",
-    "messageBoardId": "finmb_5548153",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1031011200000,
-    "regularMarketChange": -125.0,
-    "regularMarketDayRange": "4010.0 - 4135.0",
-    "fullExchangeName": "Tokyo",
-    "regularMarketChangePercent": -3.0193238,
-    "regularMarketPrice": 4015.0,
     "trailingPegRatio": null
   }
 }

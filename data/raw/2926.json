@@ -1,7 +1,7 @@
 {
   "ticker": "2926",
   "japanese_ticker": "2926.T",
-  "fetch_date": "2026-04-25T23:46:08.169571",
+  "fetch_date": "2026-04-26T23:46:30.461388",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-09-30 00:00:00": -3366144.0,
@@ -131,21 +131,21 @@
     },
     "Basic Average Shares": {
       "2025-09-30 00:00:00": null,
-      "2024-09-30 00:00:00": 14157800.0,
+      "2024-09-30 00:00:00": null,
       "2023-09-30 00:00:00": 14157800.0,
       "2022-09-30 00:00:00": 14157800.0,
       "2021-09-30 00:00:00": 14157800.0
     },
     "Diluted EPS": {
       "2025-09-30 00:00:00": null,
-      "2024-09-30 00:00:00": -2.0,
+      "2024-09-30 00:00:00": null,
       "2023-09-30 00:00:00": -1.61,
       "2022-09-30 00:00:00": -6.67,
       "2021-09-30 00:00:00": 0.92
     },
     "Basic EPS": {
       "2025-09-30 00:00:00": null,
-      "2024-09-30 00:00:00": -2.0,
+      "2024-09-30 00:00:00": null,
       "2023-09-30 00:00:00": -1.61,
       "2022-09-30 00:00:00": -6.67,
       "2021-09-30 00:00:00": 0.92
@@ -301,10 +301,10 @@
   "balance_sheet": {
     "Treasury Shares Number": {
       "2025-09-30 00:00:00": 0.0,
-      "2024-09-30 00:00:00": 278800.0,
+      "2024-09-30 00:00:00": null,
       "2023-09-30 00:00:00": 278800.0,
       "2022-09-30 00:00:00": 278800.0,
-      "2021-09-30 00:00:00": null
+      "2021-09-30 00:00:00": 278800.0
     },
     "Ordinary Shares Number": {
       "2025-09-30 00:00:00": 14157780.0,
@@ -1023,10 +1023,10 @@
     "trailingPE": 37.546467,
     "volume": 220200,
     "regularMarketVolume": 220200,
-    "averageVolume": 252848,
+    "averageVolume": 252639,
     "averageVolume10days": 203890,
     "averageDailyVolume10Day": 203890,
-    "bid": 101.0,
+    "bid": 0.0,
     "ask": 102.0,
     "bidSize": 0,
     "askSize": 0,
@@ -1094,17 +1094,7 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "shortName": "SHINOZAKIYA INC",
-    "longName": "Shinozakiya, Inc.",
-    "corporateActions": [],
-    "regularMarketTime": 1777012200,
-    "exchange": "JPX",
-    "messageBoardId": "finmb_10159852",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
+    "epsTrailingTwelveMonths": 2.69,
     "fiftyDayAverageChange": 3.300003,
     "fiftyDayAverageChangePercent": 0.0337769,
     "twoHundredDayAverageChange": -3.4950027,
@@ -1112,12 +1102,26 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
+    "shortName": "SHINOZAKIYA INC",
+    "longName": "Shinozakiya, Inc.",
+    "corporateActions": [],
+    "regularMarketTime": 1777012200,
+    "marketState": "PREPRE",
+    "exchange": "JPX",
+    "messageBoardId": "finmb_10159852",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
+    "regularMarketChangePercent": -1.9417475,
+    "regularMarketPrice": 101.0,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1069977600000,
     "regularMarketChange": -2.0,
     "regularMarketDayRange": "100.0 - 102.0",
     "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 252848,
+    "averageDailyVolume3Month": 252639,
     "fiftyTwoWeekLowChange": 16.0,
     "fiftyTwoWeekLowChangePercent": 0.1882353,
     "fiftyTwoWeekRange": "85.0 - 166.0",
@@ -1127,10 +1131,6 @@
     "earningsTimestampStart": 1753768800,
     "earningsTimestampEnd": 1754287200,
     "isEarningsDateEstimate": true,
-    "epsTrailingTwelveMonths": 2.69,
-    "regularMarketChangePercent": -1.9417475,
-    "regularMarketPrice": 101.0,
-    "marketState": "CLOSED",
     "trailingPegRatio": null
   }
 }

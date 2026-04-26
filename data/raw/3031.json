@@ -1,7 +1,7 @@
 {
   "ticker": "3031",
   "japanese_ticker": "3031.T",
-  "fetch_date": "2026-04-25T23:47:32.477270",
+  "fetch_date": "2026-04-26T23:47:50.533619",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-04-30 00:00:00": 1734353.096756,
@@ -1152,11 +1152,11 @@
     "forwardPE": 13.190661,
     "volume": 379100,
     "regularMarketVolume": 379100,
-    "averageVolume": 175298,
+    "averageVolume": 175563,
     "averageVolume10days": 215540,
     "averageDailyVolume10Day": 215540,
-    "bid": 677.0,
-    "ask": 679.0,
+    "bid": 0.0,
+    "ask": 687.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 13784913920,
@@ -1226,18 +1226,8 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "corporateActions": [
-      {
-        "header": "Dividend",
-        "message": "3031.T announced a cash dividend of JPY 16.00 with an ex-date of Apr. 28, 2026",
-        "meta": {
-          "eventType": "DIVIDEND",
-          "dateEpochMs": 1777302000000,
-          "amount": "16.00"
-        }
-      }
-    ],
-    "regularMarketTime": 1777012200,
+    "shortName": "RACCOON HOLDINGS INC",
+    "longName": "RACCOON HOLDINGS, Inc.",
     "exchange": "JPX",
     "messageBoardId": "finmb_26271335",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1247,13 +1237,20 @@
     "esgPopulated": false,
     "regularMarketChangePercent": -0.1472754,
     "regularMarketPrice": 678.0,
-    "marketState": "CLOSED",
+    "marketState": "PREPRE",
+    "corporateActions": [],
+    "regularMarketTime": 1777012200,
+    "twoHundredDayAverageChange": 10.960022,
+    "twoHundredDayAverageChangePercent": 0.016430832,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1144281600000,
     "regularMarketChange": -1.0,
     "regularMarketDayRange": "675.0 - 681.0",
     "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 175298,
+    "averageDailyVolume3Month": 175563,
     "fiftyTwoWeekLowChange": 75.0,
     "fiftyTwoWeekLowChangePercent": 0.12437811,
     "fiftyTwoWeekRange": "603.0 - 852.0",
@@ -1267,13 +1264,6 @@
     "epsForward": 51.4,
     "fiftyDayAverageChange": 18.840027,
     "fiftyDayAverageChangePercent": 0.028581873,
-    "twoHundredDayAverageChange": 10.960022,
-    "twoHundredDayAverageChangePercent": 0.016430832,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
-    "shortName": "RACCOON HOLDINGS INC",
-    "longName": "RACCOON HOLDINGS, Inc.",
     "trailingPegRatio": null
   }
 }
