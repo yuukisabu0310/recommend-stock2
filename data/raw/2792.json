@@ -1,7 +1,7 @@
 {
   "ticker": "2792",
   "japanese_ticker": "2792.T",
-  "fetch_date": "2026-05-02T23:48:23.011933",
+  "fetch_date": "2026-05-03T23:49:20.307492",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-05-31 00:00:00": -115347683.0,
@@ -993,7 +993,7 @@
     "forwardPE": 6.3299956,
     "volume": 97900,
     "regularMarketVolume": 97900,
-    "averageVolume": 84133,
+    "averageVolume": 84710,
     "averageVolume10days": 125620,
     "averageDailyVolume10Day": 125620,
     "bid": 1453.0,
@@ -1063,6 +1063,20 @@
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
     "marketState": "CLOSED",
+    "shortName": "HONEYS HOLDINGS CO LTD",
+    "longName": "Honeys Holdings Co., Ltd.",
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "2792.T announced a cash dividend of JPY 30.00 with an ex-date of May. 28, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1779894000000,
+          "amount": "30.00"
+        }
+      }
+    ],
+    "regularMarketTime": 1777617000,
     "exchange": "JPX",
     "messageBoardId": "finmb_5705330",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1072,19 +1086,12 @@
     "esgPopulated": false,
     "regularMarketChangePercent": -0.34270048,
     "regularMarketPrice": 1454.0,
-    "shortName": "HONEYS HOLDINGS CO LTD",
-    "longName": "Honeys Holdings Co., Ltd.",
-    "corporateActions": [],
-    "regularMarketTime": 1777617000,
-    "epsTrailingTwelveMonths": 122.72,
-    "epsForward": 229.7,
-    "fiftyDayAverageChange": -30.160034,
-    "fiftyDayAverageChangePercent": -0.020321282,
-    "twoHundredDayAverageChange": -51.51001,
-    "twoHundredDayAverageChangePercent": -0.034214325,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1114560000000,
+    "regularMarketChange": -5.0,
+    "regularMarketDayRange": "1446.0 - 1459.0",
+    "fullExchangeName": "Tokyo",
+    "averageDailyVolume3Month": 84710,
     "fiftyTwoWeekLowChange": 18.0,
     "fiftyTwoWeekLowChangePercent": 0.012534819,
     "fiftyTwoWeekRange": "1436.0 - 1645.0",
@@ -1094,12 +1101,15 @@
     "earningsTimestampStart": 1751868000,
     "earningsTimestampEnd": 1752213600,
     "isEarningsDateEstimate": true,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1114560000000,
-    "regularMarketChange": -5.0,
-    "regularMarketDayRange": "1446.0 - 1459.0",
-    "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 84133,
+    "epsTrailingTwelveMonths": 122.72,
+    "epsForward": 229.7,
+    "fiftyDayAverageChange": -30.160034,
+    "fiftyDayAverageChangePercent": -0.020321282,
+    "twoHundredDayAverageChange": -51.51001,
+    "twoHundredDayAverageChangePercent": -0.034214325,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
     "trailingPegRatio": null
   }
 }

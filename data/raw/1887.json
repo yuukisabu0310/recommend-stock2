@@ -1,7 +1,7 @@
 {
   "ticker": "1887",
   "japanese_ticker": "1887.T",
-  "fetch_date": "2026-05-02T23:38:32.664448",
+  "fetch_date": "2026-05-03T23:39:24.678204",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-05-31 00:00:00": 107051000.0,
@@ -1210,7 +1210,7 @@
     "trailingPE": 21.785847,
     "volume": 145200,
     "regularMarketVolume": 145200,
-    "averageVolume": 423725,
+    "averageVolume": 425779,
     "averageVolume10days": 277550,
     "averageDailyVolume10Day": 277550,
     "bid": 587.0,
@@ -1277,9 +1277,23 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1551744000000,
+    "regularMarketChange": 4.0,
+    "regularMarketDayRange": "579.0 - 590.0",
     "shortName": "JDC CORPORATION",
     "longName": "JDC Corporation",
-    "corporateActions": [],
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "1887.T announced a cash dividend of JPY 13.00 with an ex-date of May. 28, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1779894000000,
+          "amount": "13.00"
+        }
+      }
+    ],
     "regularMarketTime": 1777617000,
     "exchange": "JPX",
     "messageBoardId": "finmb_5885156",
@@ -1288,21 +1302,10 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "marketState": "CLOSED",
-    "epsTrailingTwelveMonths": 26.99,
-    "fiftyDayAverageChange": -29.28003,
-    "fiftyDayAverageChangePercent": -0.04743395,
-    "twoHundredDayAverageChange": 30.205017,
-    "twoHundredDayAverageChangePercent": 0.05415075,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1551744000000,
-    "regularMarketChange": 4.0,
-    "regularMarketDayRange": "579.0 - 590.0",
+    "regularMarketChangePercent": 0.6849315,
+    "regularMarketPrice": 588.0,
     "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 423725,
+    "averageDailyVolume3Month": 425779,
     "fiftyTwoWeekLowChange": 134.0,
     "fiftyTwoWeekLowChangePercent": 0.29515418,
     "fiftyTwoWeekRange": "454.0 - 719.0",
@@ -1312,8 +1315,15 @@
     "earningsTimestampStart": 1752481800,
     "earningsTimestampEnd": 1752827400,
     "isEarningsDateEstimate": true,
-    "regularMarketChangePercent": 0.6849315,
-    "regularMarketPrice": 588.0,
+    "epsTrailingTwelveMonths": 26.99,
+    "fiftyDayAverageChange": -29.28003,
+    "fiftyDayAverageChangePercent": -0.04743395,
+    "twoHundredDayAverageChange": 30.205017,
+    "twoHundredDayAverageChangePercent": 0.05415075,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
+    "marketState": "CLOSED",
     "trailingPegRatio": null
   }
 }

@@ -1,7 +1,7 @@
 {
   "ticker": "1929",
   "japanese_ticker": "1929.T",
-  "fetch_date": "2026-05-02T23:39:00.773596",
+  "fetch_date": "2026-05-03T23:39:52.594631",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": -16807000.0,
@@ -1044,7 +1044,7 @@
     "forwardPE": 12.231491,
     "volume": 74600,
     "regularMarketVolume": 74600,
-    "averageVolume": 115805,
+    "averageVolume": 116062,
     "averageVolume10days": 96860,
     "averageDailyVolume10Day": 96860,
     "bid": 1172.0,
@@ -1131,14 +1131,16 @@
     "market": "jp_market",
     "esgPopulated": false,
     "regularMarketChangePercent": -0.25510204,
+    "regularMarketPrice": 1173.0,
+    "marketState": "CLOSED",
+    "shortName": "NITTOC CONSTRUCTION CO",
+    "longName": "Nittoc Construction Co., Ltd.",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 978307200000,
-    "cryptoTradeable": false,
-    "regularMarketPrice": 1173.0,
     "regularMarketChange": -3.0,
     "regularMarketDayRange": "1163.0 - 1180.0",
     "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 115805,
+    "averageDailyVolume3Month": 116062,
     "fiftyTwoWeekLowChange": 150.0,
     "fiftyTwoWeekLowChangePercent": 0.14662756,
     "fiftyTwoWeekRange": "1023.0 - 1465.0",
@@ -1156,9 +1158,7 @@
     "twoHundredDayAverageChangePercent": -0.07302407,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
-    "longName": "Nittoc Construction Co., Ltd.",
-    "marketState": "CLOSED",
-    "shortName": "NITTOC CONSTRUCTION CO",
+    "cryptoTradeable": false,
     "trailingPegRatio": null
   }
 }

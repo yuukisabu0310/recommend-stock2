@@ -1,7 +1,7 @@
 {
   "ticker": "1419",
   "japanese_ticker": "1419.T",
-  "fetch_date": "2026-05-02T23:35:43.258513",
+  "fetch_date": "2026-05-03T23:36:37.792415",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-05-31 00:00:00": -231768000.0,
@@ -1187,7 +1187,7 @@
     "trailingPE": 42.37491,
     "volume": 116200,
     "regularMarketVolume": 116200,
-    "averageVolume": 143836,
+    "averageVolume": 143905,
     "averageVolume10days": 134010,
     "averageDailyVolume10Day": 134010,
     "bid": 3540.0,
@@ -1258,20 +1258,12 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "averageAnalystRating": "5.0 - Sell",
+    "cryptoTradeable": false,
     "shortName": "TAMA HOME CO LIMITED",
     "longName": "Tama Home Co., Ltd.",
-    "marketState": "CLOSED",
-    "corporateActions": [
-      {
-        "header": "Dividend",
-        "message": "1419.T announced a cash dividend of JPY 125.00 with an ex-date of May. 28, 2026",
-        "meta": {
-          "eventType": "DIVIDEND",
-          "dateEpochMs": 1779894000000,
-          "amount": "125.00"
-        }
-      }
-    ],
     "regularMarketTime": 1777617000,
     "exchange": "JPX",
     "messageBoardId": "finmb_22710998",
@@ -1282,12 +1274,14 @@
     "esgPopulated": false,
     "regularMarketChangePercent": -0.42194092,
     "regularMarketPrice": 3540.0,
+    "corporateActions": [],
+    "marketState": "CLOSED",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1364342400000,
     "regularMarketChange": -15.0,
     "regularMarketDayRange": "3525.0 - 3560.0",
     "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 143836,
+    "averageDailyVolume3Month": 143905,
     "fiftyTwoWeekLowChange": 340.0,
     "fiftyTwoWeekLowChangePercent": 0.10625,
     "fiftyTwoWeekRange": "3200.0 - 4125.0",
@@ -1302,10 +1296,6 @@
     "fiftyDayAverageChangePercent": -0.08311531,
     "twoHundredDayAverageChange": -155.5,
     "twoHundredDayAverageChangePercent": -0.042078204,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "averageAnalystRating": "5.0 - Sell",
-    "cryptoTradeable": false,
     "trailingPegRatio": null
   }
 }

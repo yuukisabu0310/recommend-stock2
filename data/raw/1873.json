@@ -1,7 +1,7 @@
 {
   "ticker": "1873",
   "japanese_ticker": "1873.T",
-  "fetch_date": "2026-05-02T23:38:23.241425",
+  "fetch_date": "2026-05-03T23:39:15.764886",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-04-30 00:00:00": -106080000.0,
@@ -1022,7 +1022,7 @@
     "trailingPE": 54.05405,
     "volume": 214500,
     "regularMarketVolume": 214500,
-    "averageVolume": 124605,
+    "averageVolume": 125947,
     "averageVolume10days": 164220,
     "averageDailyVolume10Day": 164220,
     "bid": 300.0,
@@ -1089,8 +1089,13 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "regularMarketChangePercent": -0.66225165,
+    "regularMarketPrice": 300.0,
+    "shortName": "NIHON HOUSE HOLDINGS CO LTD",
+    "longName": "Nihon House Holdings Co., Ltd.",
     "corporateActions": [],
     "regularMarketTime": 1777617000,
+    "marketState": "CLOSED",
     "exchange": "JPX",
     "messageBoardId": "finmb_2914326",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1098,13 +1103,12 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "marketState": "CLOSED",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 946944000000,
     "regularMarketChange": -2.0,
     "regularMarketDayRange": "297.0 - 302.0",
     "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 124605,
+    "averageDailyVolume3Month": 125947,
     "fiftyTwoWeekLowChange": 16.0,
     "fiftyTwoWeekLowChangePercent": 0.056338027,
     "fiftyTwoWeekRange": "284.0 - 336.0",
@@ -1122,10 +1126,6 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
-    "shortName": "NIHON HOUSE HOLDINGS CO LTD",
-    "longName": "Nihon House Holdings Co., Ltd.",
-    "regularMarketChangePercent": -0.66225165,
-    "regularMarketPrice": 300.0,
     "trailingPegRatio": null
   }
 }

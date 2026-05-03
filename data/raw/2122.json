@@ -1,7 +1,7 @@
 {
   "ticker": "2122",
   "japanese_ticker": "2122.T",
-  "fetch_date": "2026-05-02T23:40:37.430239",
+  "fetch_date": "2026-05-03T23:41:30.973677",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-09-30 00:00:00": -9726600.0,
@@ -1034,7 +1034,7 @@
     "forwardPE": 9.434815,
     "volume": 2200,
     "regularMarketVolume": 2200,
-    "averageVolume": 11505,
+    "averageVolume": 11605,
     "averageVolume10days": 3060,
     "averageDailyVolume10Day": 3060,
     "bid": 1252.0,
@@ -1106,6 +1106,8 @@
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
     "marketState": "CLOSED",
+    "shortName": "INTERSPACE CO LTD",
+    "longName": "Interspace Co.,Ltd.",
     "corporateActions": [],
     "regularMarketTime": 1777617000,
     "exchange": "JPX",
@@ -1117,10 +1119,12 @@
     "esgPopulated": false,
     "regularMarketChangePercent": -0.23904382,
     "regularMarketPrice": 1252.0,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1158624000000,
     "regularMarketChange": -3.0,
     "regularMarketDayRange": "1251.0 - 1260.0",
     "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 11505,
+    "averageDailyVolume3Month": 11605,
     "fiftyTwoWeekLowChange": 335.0,
     "fiftyTwoWeekLowChangePercent": 0.3653217,
     "fiftyTwoWeekRange": "917.0 - 1483.0",
@@ -1130,8 +1134,6 @@
     "earningsTimestampStart": 1754978400,
     "earningsTimestampEnd": 1755496800,
     "isEarningsDateEstimate": true,
-    "shortName": "INTERSPACE CO LTD",
-    "longName": "Interspace Co.,Ltd.",
     "epsTrailingTwelveMonths": 32.8,
     "epsForward": 132.7,
     "fiftyDayAverageChange": -26.819946,
@@ -1141,8 +1143,6 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1158624000000,
     "trailingPegRatio": null
   }
 }

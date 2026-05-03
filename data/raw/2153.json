@@ -1,7 +1,7 @@
 {
   "ticker": "2153",
   "japanese_ticker": "2153.T",
-  "fetch_date": "2026-05-02T23:40:58.314777",
+  "fetch_date": "2026-05-03T23:41:52.045482",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-05-31 00:00:00": 98069000.0,
@@ -1251,7 +1251,7 @@
     "trailingPE": 8.196562,
     "volume": 50300,
     "regularMarketVolume": 50300,
-    "averageVolume": 53973,
+    "averageVolume": 53789,
     "averageVolume10days": 67900,
     "averageDailyVolume10Day": 67900,
     "bid": 1681.0,
@@ -1322,26 +1322,36 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "marketState": "CLOSED",
+    "shortName": "E J HOLDINGS INC",
+    "longName": "E J Holdings Inc.",
+    "regularMarketChangePercent": -0.7079646,
+    "regularMarketPrice": 1683.0,
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "2153.T announced a cash dividend of JPY 44.00 with an ex-date of May. 28, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1779894000000,
+          "amount": "44.00"
+        }
+      }
+    ],
+    "regularMarketTime": 1777617000,
     "exchange": "JPX",
+    "messageBoardId": "finmb_34160292",
     "exchangeTimezoneName": "Asia/Tokyo",
     "exchangeTimezoneShortName": "JST",
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "regularMarketChangePercent": -0.7079646,
-    "regularMarketPrice": 1683.0,
-    "shortName": "E J HOLDINGS INC",
-    "longName": "E J Holdings Inc.",
-    "marketState": "CLOSED",
-    "corporateActions": [],
-    "regularMarketTime": 1777617000,
-    "messageBoardId": "finmb_34160292",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1180656000000,
     "regularMarketChange": -12.0,
     "regularMarketDayRange": "1676.0 - 1695.0",
     "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 53973,
+    "averageDailyVolume3Month": 53789,
     "fiftyTwoWeekLowChange": 237.0,
     "fiftyTwoWeekLowChangePercent": 0.16390042,
     "fiftyTwoWeekRange": "1446.0 - 1937.0",

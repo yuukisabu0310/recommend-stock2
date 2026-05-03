@@ -1,7 +1,7 @@
 {
   "ticker": "2810",
   "japanese_ticker": "2810.T",
-  "fetch_date": "2026-05-02T23:48:42.906536",
+  "fetch_date": "2026-05-03T23:49:40.244882",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": -347533800.0,
@@ -1144,7 +1144,7 @@
     "forwardPE": 19.07786,
     "volume": 131300,
     "regularMarketVolume": 131300,
-    "averageVolume": 191198,
+    "averageVolume": 183269,
     "averageVolume10days": 131500,
     "averageDailyVolume10Day": 131500,
     "bid": 3003.0,
@@ -1219,6 +1219,9 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "shortName": "HOUSE FOODS GROUP INC",
+    "longName": "House Foods Group Inc.",
+    "marketState": "CLOSED",
     "corporateActions": [],
     "regularMarketTime": 1777617000,
     "exchange": "JPX",
@@ -1235,14 +1238,13 @@
     "regularMarketChange": -1.0,
     "regularMarketDayRange": "2964.5 - 3023.0",
     "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 191198,
+    "averageDailyVolume3Month": 183269,
     "fiftyTwoWeekLowChange": 301.5,
     "fiftyTwoWeekLowChangePercent": 0.11156337,
     "fiftyTwoWeekRange": "2702.5 - 3135.0",
     "fiftyTwoWeekHighChange": -131.0,
     "fiftyTwoWeekHighChangePercent": -0.041786283,
     "fiftyTwoWeekChangePercent": 7.6316714,
-    "earningsTimestamp": 1770100200,
     "earningsTimestampStart": 1778135400,
     "earningsTimestampEnd": 1778135400,
     "earningsCallTimestampStart": 1746701940,
@@ -1256,9 +1258,6 @@
     "twoHundredDayAverageChangePercent": 0.01983832,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
-    "shortName": "HOUSE FOODS GROUP INC",
-    "longName": "House Foods Group Inc.",
-    "marketState": "CLOSED",
     "cryptoTradeable": false,
     "trailingPegRatio": null
   }

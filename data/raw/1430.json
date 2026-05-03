@@ -1,7 +1,7 @@
 {
   "ticker": "1430",
   "japanese_ticker": "1430.T",
-  "fetch_date": "2026-05-02T23:35:49.147321",
+  "fetch_date": "2026-05-03T23:36:43.551593",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-05-31 00:00:00": -1964355.181211,
@@ -1295,7 +1295,7 @@
     "forwardPE": 6.8012424,
     "volume": 60300,
     "regularMarketVolume": 60300,
-    "averageVolume": 28533,
+    "averageVolume": 28610,
     "averageVolume10days": 31320,
     "averageDailyVolume10Day": 31320,
     "bid": 1094.0,
@@ -1367,33 +1367,12 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "corporateActions": [
-      {
-        "header": "Dividend",
-        "message": "1430.T announced a cash dividend of JPY 46.00 with an ex-date of May. 28, 2026",
-        "meta": {
-          "eventType": "DIVIDEND",
-          "dateEpochMs": 1779894000000,
-          "amount": "46.00"
-        }
-      }
-    ],
-    "regularMarketTime": 1777617000,
-    "exchange": "JPX",
-    "messageBoardId": "finmb_249164445",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
-    "regularMarketChangePercent": -1.4401441,
-    "regularMarketPrice": 1095.0,
-    "hasPrePostMarketData": false,
+    "marketState": "CLOSED",
     "firstTradeDateMilliseconds": 1427155200000,
     "regularMarketChange": -16.0,
     "regularMarketDayRange": "1088.0 - 1109.0",
     "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 28533,
+    "averageDailyVolume3Month": 28610,
     "fiftyTwoWeekLowChange": 260.0,
     "fiftyTwoWeekLowChangePercent": 0.31137726,
     "fiftyTwoWeekRange": "835.0 - 1151.0",
@@ -1409,12 +1388,33 @@
     "fiftyDayAverageChangePercent": 0.01869939,
     "twoHundredDayAverageChange": 102.96002,
     "twoHundredDayAverageChangePercent": 0.10378616,
+    "hasPrePostMarketData": false,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
     "shortName": "FIRST-CORPORATION INC",
     "longName": "First-corporation Inc.",
-    "marketState": "CLOSED",
-    "cryptoTradeable": false,
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "1430.T announced a cash dividend of JPY 46.00 with an ex-date of May. 28, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1779894000000,
+          "amount": "46.00"
+        }
+      }
+    ],
+    "regularMarketTime": 1777617000,
+    "regularMarketChangePercent": -1.4401441,
+    "regularMarketPrice": 1095.0,
+    "exchange": "JPX",
+    "messageBoardId": "finmb_249164445",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
     "trailingPegRatio": null
   }
 }

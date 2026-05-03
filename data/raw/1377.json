@@ -1,7 +1,7 @@
 {
   "ticker": "1377",
   "japanese_ticker": "1377.T",
-  "fetch_date": "2026-05-02T23:35:21.356632",
+  "fetch_date": "2026-05-03T23:36:13.938885",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-05-31 00:00:00": 323120000.0,
@@ -1089,7 +1089,7 @@
     "forwardPE": 19.435886,
     "volume": 124200,
     "regularMarketVolume": 124200,
-    "averageVolume": 147010,
+    "averageVolume": 147735,
     "averageVolume10days": 139000,
     "averageDailyVolume10Day": 139000,
     "bid": 4095.0,
@@ -1164,20 +1164,10 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "shortName": "SAKATA SEED CORP",
-    "longName": "Sakata Seed Corporation",
-    "epsTrailingTwelveMonths": 267.32,
-    "epsForward": 210.95,
-    "fiftyDayAverageChange": -183.5,
-    "fiftyDayAverageChangePercent": -0.0428388,
-    "twoHundredDayAverageChange": 117.125,
-    "twoHundredDayAverageChangePercent": 0.02940715,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
-    "marketState": "CLOSED",
     "regularMarketChangePercent": -0.60606056,
     "regularMarketPrice": 4100.0,
+    "shortName": "SAKATA SEED CORP",
+    "longName": "Sakata Seed Corporation",
     "corporateActions": [
       {
         "header": "Dividend",
@@ -1190,6 +1180,7 @@
       }
     ],
     "regularMarketTime": 1777617000,
+    "marketState": "CLOSED",
     "exchange": "JPX",
     "messageBoardId": "finmb_876256",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1202,7 +1193,7 @@
     "regularMarketChange": -25.0,
     "regularMarketDayRange": "4075.0 - 4115.0",
     "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 147010,
+    "averageDailyVolume3Month": 147735,
     "fiftyTwoWeekLowChange": 815.0,
     "fiftyTwoWeekLowChangePercent": 0.24809742,
     "fiftyTwoWeekRange": "3285.0 - 4630.0",
@@ -1215,6 +1206,15 @@
     "earningsCallTimestampStart": 1737457140,
     "earningsCallTimestampEnd": 1737457140,
     "isEarningsDateEstimate": false,
+    "epsTrailingTwelveMonths": 267.32,
+    "epsForward": 210.95,
+    "fiftyDayAverageChange": -183.5,
+    "fiftyDayAverageChangePercent": -0.0428388,
+    "twoHundredDayAverageChange": 117.125,
+    "twoHundredDayAverageChangePercent": 0.02940715,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
     "trailingPegRatio": null
   }
 }

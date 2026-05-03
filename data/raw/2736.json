@@ -1,7 +1,7 @@
 {
   "ticker": "2736",
   "japanese_ticker": "2736.T",
-  "fetch_date": "2026-05-02T23:47:31.595909",
+  "fetch_date": "2026-05-03T23:48:29.250333",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-08-31 00:00:00": -6313358.0,
@@ -1131,7 +1131,7 @@
     "trailingPE": 17.604502,
     "volume": 1000,
     "regularMarketVolume": 1000,
-    "averageVolume": 3730,
+    "averageVolume": 3771,
     "averageVolume10days": 3440,
     "averageDailyVolume10Day": 3440,
     "bid": 655.0,
@@ -1204,9 +1204,11 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "regularMarketChangePercent": -0.90497744,
+    "regularMarketPrice": 657.0,
+    "marketState": "CLOSED",
     "shortName": "FESTARIA HOLDINGS CO LTD",
     "longName": "Festaria Holdings Co., Ltd.",
-    "cryptoTradeable": false,
     "corporateActions": [],
     "regularMarketTime": 1777594810,
     "exchange": "JPX",
@@ -1216,11 +1218,8 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "marketState": "CLOSED",
-    "regularMarketChange": -6.0,
-    "regularMarketDayRange": "657.0 - 661.0",
     "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 3730,
+    "averageDailyVolume3Month": 3771,
     "fiftyTwoWeekLowChange": 99.0,
     "fiftyTwoWeekLowChangePercent": 0.17741935,
     "fiftyTwoWeekRange": "558.0 - 737.0",
@@ -1237,10 +1236,11 @@
     "twoHundredDayAverageChangePercent": 0.058047656,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
+    "regularMarketChange": -6.0,
+    "regularMarketDayRange": "657.0 - 661.0",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1023321600000,
-    "regularMarketChangePercent": -0.90497744,
-    "regularMarketPrice": 657.0,
     "trailingPegRatio": null
   }
 }

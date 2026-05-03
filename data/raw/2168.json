@@ -1,7 +1,7 @@
 {
   "ticker": "2168",
   "japanese_ticker": "2168.T",
-  "fetch_date": "2026-05-02T23:41:14.770755",
+  "fetch_date": "2026-05-03T23:42:09.812765",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-05-31 00:00:00": -127832000.0,
@@ -1214,7 +1214,7 @@
     "forwardPE": 32.49493,
     "volume": 374400,
     "regularMarketVolume": 374400,
-    "averageVolume": 155836,
+    "averageVolume": 156772,
     "averageVolume10days": 290780,
     "averageDailyVolume10Day": 290780,
     "bid": 1602.0,
@@ -1284,17 +1284,34 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "shortName": "PASONA GROUP INC",
-    "longName": "Pasona Group Inc.",
-    "epsTrailingTwelveMonths": -142.1,
-    "epsForward": 49.3,
-    "fiftyDayAverageChange": -289.74,
     "fiftyDayAverageChangePercent": -0.15316057,
     "twoHundredDayAverageChange": -406.30505,
     "twoHundredDayAverageChangePercent": -0.20231242,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
+    "marketState": "CLOSED",
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "2168.T announced a cash dividend of JPY 75.00 with an ex-date of May. 28, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1779894000000,
+          "amount": "75.00"
+        }
+      }
+    ],
+    "regularMarketTime": 1777617000,
+    "shortName": "PASONA GROUP INC",
+    "longName": "Pasona Group Inc.",
+    "exchange": "JPX",
+    "messageBoardId": "finmb_6442783",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
     "regularMarketChangePercent": -1.7177913,
     "regularMarketPrice": 1602.0,
     "hasPrePostMarketData": false,
@@ -1302,7 +1319,7 @@
     "regularMarketChange": -28.0,
     "regularMarketDayRange": "1588.0 - 1620.0",
     "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 155836,
+    "averageDailyVolume3Month": 156772,
     "fiftyTwoWeekLowChange": 14.0,
     "fiftyTwoWeekLowChangePercent": 0.008816121,
     "fiftyTwoWeekRange": "1588.0 - 2498.0",
@@ -1312,16 +1329,9 @@
     "earningsTimestampStart": 1752129000,
     "earningsTimestampEnd": 1752474600,
     "isEarningsDateEstimate": true,
-    "marketState": "CLOSED",
-    "corporateActions": [],
-    "regularMarketTime": 1777617000,
-    "exchange": "JPX",
-    "messageBoardId": "finmb_6442783",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
+    "epsTrailingTwelveMonths": -142.1,
+    "epsForward": 49.3,
+    "fiftyDayAverageChange": -289.74,
     "trailingPegRatio": null
   }
 }

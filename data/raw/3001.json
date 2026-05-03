@@ -1,7 +1,7 @@
 {
   "ticker": "3001",
   "japanese_ticker": "3001.T",
-  "fetch_date": "2026-05-02T23:50:47.369496",
+  "fetch_date": "2026-05-03T23:51:46.891340",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-12-31 00:00:00": 450360000.0,
@@ -1250,7 +1250,7 @@
     "trailingPE": 14.144264,
     "volume": 43000,
     "regularMarketVolume": 43000,
-    "averageVolume": 32425,
+    "averageVolume": 32489,
     "averageVolume10days": 38410,
     "averageDailyVolume10Day": 38410,
     "bid": 2545.0,
@@ -1321,6 +1321,9 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "shortName": "KATAKURA INDUSTRIES CO",
+    "longName": "Katakura Industries Co.,Ltd.",
+    "marketState": "CLOSED",
     "corporateActions": [],
     "regularMarketTime": 1777617000,
     "exchange": "JPX",
@@ -1332,17 +1335,12 @@
     "esgPopulated": false,
     "regularMarketChangePercent": -0.5058366,
     "regularMarketPrice": 2557.0,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
-    "shortName": "KATAKURA INDUSTRIES CO",
-    "longName": "Katakura Industries Co.,Ltd.",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 978307200000,
     "regularMarketChange": -13.0,
     "regularMarketDayRange": "2532.0 - 2570.0",
     "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 32425,
+    "averageDailyVolume3Month": 32489,
     "fiftyTwoWeekLowChange": 507.0,
     "fiftyTwoWeekLowChangePercent": 0.24731708,
     "fiftyTwoWeekRange": "2050.0 - 3240.0",
@@ -1357,7 +1355,9 @@
     "fiftyDayAverageChangePercent": -0.104660496,
     "twoHundredDayAverageChange": -277.635,
     "twoHundredDayAverageChangePercent": -0.09794383,
-    "marketState": "CLOSED",
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
     "trailingPegRatio": null
   }
 }

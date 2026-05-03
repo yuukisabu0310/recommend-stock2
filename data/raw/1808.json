@@ -1,7 +1,7 @@
 {
   "ticker": "1808",
   "japanese_ticker": "1808.T",
-  "fetch_date": "2026-05-02T23:37:27.654069",
+  "fetch_date": "2026-05-03T23:38:21.673465",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": -5270576000.0,
@@ -1065,7 +1065,7 @@
     "forwardPE": 12.9074745,
     "volume": 788300,
     "regularMarketVolume": 788300,
-    "averageVolume": 878691,
+    "averageVolume": 883925,
     "averageVolume10days": 1033600,
     "averageDailyVolume10Day": 1033600,
     "bid": 2743.0,
@@ -1142,10 +1142,10 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "cryptoTradeable": false,
+    "marketState": "CLOSED",
     "corporateActions": [],
     "regularMarketTime": 1777617000,
-    "shortName": "HASEKO CORPORATION",
-    "longName": "HASEKO Corporation",
     "exchange": "JPX",
     "messageBoardId": "finmb_874112",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1155,10 +1155,7 @@
     "esgPopulated": false,
     "regularMarketChangePercent": 1.2919897,
     "regularMarketPrice": 2744.0,
-    "regularMarketChange": 35.0,
-    "regularMarketDayRange": "2680.0 - 2748.5",
-    "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 878691,
+    "averageDailyVolume3Month": 883925,
     "fiftyTwoWeekLowChange": 759.0,
     "fiftyTwoWeekLowChangePercent": 0.38236776,
     "fiftyTwoWeekRange": "1985.0 - 3531.0",
@@ -1180,10 +1177,13 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "averageAnalystRating": "2.4 - Buy",
-    "marketState": "CLOSED",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 978307200000,
-    "cryptoTradeable": false,
+    "regularMarketChange": 35.0,
+    "regularMarketDayRange": "2680.0 - 2748.5",
+    "fullExchangeName": "Tokyo",
+    "shortName": "HASEKO CORPORATION",
+    "longName": "HASEKO Corporation",
     "trailingPegRatio": null
   }
 }

@@ -1,7 +1,7 @@
 {
   "ticker": "2303",
   "japanese_ticker": "2303.T",
-  "fetch_date": "2026-05-02T23:42:51.066502",
+  "fetch_date": "2026-05-03T23:43:45.830579",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-05-31 00:00:00": 0.0,
@@ -1005,7 +1005,7 @@
     "trailingPE": 20.407728,
     "volume": 9100,
     "regularMarketVolume": 9100,
-    "averageVolume": 10508,
+    "averageVolume": 10493,
     "averageVolume10days": 8150,
     "averageDailyVolume10Day": 8150,
     "bid": 2859.0,
@@ -1075,9 +1075,8 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "shortName": "DAWN CORP",
-    "longName": "Dawn Corp.",
     "cryptoTradeable": false,
+    "marketState": "CLOSED",
     "corporateActions": [
       {
         "header": "Dividend",
@@ -1106,11 +1105,9 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "marketState": "CLOSED",
-    "regularMarketChange": -18.0,
-    "regularMarketDayRange": "2861.0 - 2936.0",
-    "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 10508,
+    "regularMarketChangePercent": -0.6226219,
+    "regularMarketPrice": 2873.0,
+    "averageDailyVolume3Month": 10493,
     "fiftyTwoWeekLowChange": 700.0,
     "fiftyTwoWeekLowChangePercent": 0.3221353,
     "fiftyTwoWeekRange": "2173.0 - 3100.0",
@@ -1129,8 +1126,11 @@
     "exchangeDataDelayedBy": 20,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1024012800000,
-    "regularMarketChangePercent": -0.6226219,
-    "regularMarketPrice": 2873.0,
+    "regularMarketChange": -18.0,
+    "regularMarketDayRange": "2861.0 - 2936.0",
+    "fullExchangeName": "Tokyo",
+    "shortName": "DAWN CORP",
+    "longName": "Dawn Corp.",
     "trailingPegRatio": null
   }
 }

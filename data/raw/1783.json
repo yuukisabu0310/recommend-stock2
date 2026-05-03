@@ -1,7 +1,7 @@
 {
   "ticker": "1783",
   "japanese_ticker": "1783.T",
-  "fetch_date": "2026-05-02T23:37:04.612855",
+  "fetch_date": "2026-05-03T23:37:56.976050",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-09-30 00:00:00": -38644008.0,
@@ -1164,7 +1164,7 @@
     "beta": 0.358,
     "volume": 1486700,
     "regularMarketVolume": 1486700,
-    "averageVolume": 1253021,
+    "averageVolume": 1253867,
     "averageVolume10days": 838820,
     "averageDailyVolume10Day": 838820,
     "bid": 64.0,
@@ -1231,11 +1231,12 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "corporateActions": [],
+    "exchange": "JPX",
     "messageBoardId": "finmb_5388763",
     "exchangeTimezoneName": "Asia/Tokyo",
     "exchangeTimezoneShortName": "JST",
     "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
     "esgPopulated": false,
     "regularMarketChangePercent": 6.557377,
     "regularMarketPrice": 65.0,
@@ -1247,7 +1248,7 @@
     "regularMarketChange": 4.0,
     "regularMarketDayRange": "60.0 - 65.0",
     "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 1253021,
+    "averageDailyVolume3Month": 1253867,
     "fiftyTwoWeekLowChange": 25.0,
     "fiftyTwoWeekLowChangePercent": 0.625,
     "fiftyTwoWeekRange": "40.0 - 74.0",
@@ -1262,14 +1263,13 @@
     "fiftyDayAverageChangePercent": 0.01214573,
     "twoHundredDayAverageChange": 3.5999985,
     "twoHundredDayAverageChangePercent": 0.058631897,
+    "corporateActions": [],
+    "regularMarketTime": 1777617000,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "prevName": "Asia Gate Holdings Co., Ltd.",
-    "nameChangeDate": "2026-05-01",
+    "nameChangeDate": "2026-05-03",
     "cryptoTradeable": false,
-    "regularMarketTime": 1777617000,
-    "exchange": "JPX",
-    "market": "jp_market",
     "trailingPegRatio": null
   }
 }

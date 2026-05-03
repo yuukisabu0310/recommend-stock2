@@ -1,7 +1,7 @@
 {
   "ticker": "1803",
   "japanese_ticker": "1803.T",
-  "fetch_date": "2026-05-02T23:37:23.608508",
+  "fetch_date": "2026-05-03T23:38:17.955642",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": 12842550000.0,
@@ -1035,7 +1035,7 @@
     "forwardPE": 36.483192,
     "volume": 2449700,
     "regularMarketVolume": 2449700,
-    "averageVolume": 4414870,
+    "averageVolume": 4443505,
     "averageVolume10days": 3459810,
     "averageDailyVolume10Day": 3459810,
     "bid": 2995.5,
@@ -1112,7 +1112,6 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "marketState": "CLOSED",
     "corporateActions": [],
     "regularMarketTime": 1777617000,
     "exchange": "JPX",
@@ -1124,10 +1123,11 @@
     "esgPopulated": false,
     "regularMarketChangePercent": -1.3824885,
     "regularMarketPrice": 2996.0,
+    "firstTradeDateMilliseconds": 946944000000,
     "regularMarketChange": -42.0,
     "regularMarketDayRange": "2990.5 - 3064.0",
     "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 4414870,
+    "averageDailyVolume3Month": 4443505,
     "fiftyTwoWeekLowChange": 1520.0,
     "fiftyTwoWeekLowChangePercent": 1.0298103,
     "fiftyTwoWeekRange": "1476.0 - 3618.0",
@@ -1140,8 +1140,6 @@
     "earningsCallTimestampStart": 1747306740,
     "earningsCallTimestampEnd": 1747306740,
     "isEarningsDateEstimate": false,
-    "shortName": "SHIMIZU CORP",
-    "longName": "Shimizu Corporation",
     "epsTrailingTwelveMonths": 147.4,
     "epsForward": 82.12,
     "fiftyDayAverageChange": -52.31006,
@@ -1151,9 +1149,11 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "averageAnalystRating": "2.3 - Buy",
+    "marketState": "CLOSED",
     "cryptoTradeable": false,
     "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 946944000000,
+    "shortName": "SHIMIZU CORP",
+    "longName": "Shimizu Corporation",
     "trailingPegRatio": null
   }
 }

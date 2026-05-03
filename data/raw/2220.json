@@ -1,7 +1,7 @@
 {
   "ticker": "2220",
   "japanese_ticker": "2220.T",
-  "fetch_date": "2026-05-02T23:42:05.851532",
+  "fetch_date": "2026-05-03T23:43:00.618655",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": -28424000.0,
@@ -1087,7 +1087,7 @@
     "trailingPE": 3.3355272,
     "volume": 93700,
     "regularMarketVolume": 93700,
-    "averageVolume": 184891,
+    "averageVolume": 185071,
     "averageVolume10days": 112170,
     "averageDailyVolume10Day": 112170,
     "bid": 1415.0,
@@ -1155,6 +1155,7 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "marketState": "CLOSED",
     "shortName": "KAMEDA SEIKA CO",
     "longName": "Kameda Seika Co.,Ltd.",
     "corporateActions": [],
@@ -1166,13 +1167,14 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "cryptoTradeable": false,
+    "regularMarketChangePercent": -0.6302521,
+    "regularMarketPrice": 1419.0,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 978307200000,
     "regularMarketChange": -9.0,
     "regularMarketDayRange": "1408.0 - 1444.0",
     "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 184891,
+    "averageDailyVolume3Month": 185071,
     "fiftyTwoWeekLowChange": 219.0,
     "fiftyTwoWeekLowChangePercent": 0.1825,
     "fiftyTwoWeekRange": "1200.0 - 1538.0",
@@ -1189,9 +1191,7 @@
     "twoHundredDayAverageChangePercent": 0.03339036,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
-    "marketState": "CLOSED",
-    "regularMarketChangePercent": -0.6302521,
-    "regularMarketPrice": 1419.0,
+    "cryptoTradeable": false,
     "trailingPegRatio": null
   }
 }

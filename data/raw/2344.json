@@ -1,7 +1,7 @@
 {
   "ticker": "2344",
   "japanese_ticker": "2344.T",
-  "fetch_date": "2026-05-02T23:43:35.863693",
+  "fetch_date": "2026-05-03T23:44:31.377329",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": -9253869.0,
@@ -859,7 +859,7 @@
     "trailingPE": 13.245092,
     "volume": 46300,
     "regularMarketVolume": 46300,
-    "averageVolume": 50156,
+    "averageVolume": 50874,
     "averageVolume10days": 36790,
     "averageDailyVolume10Day": 36790,
     "bid": 1489.0,
@@ -929,6 +929,11 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "marketState": "CLOSED",
+    "shortName": "HEIAN CEREMONY SERVICE CO",
+    "longName": "Heian Ceremony Service Co.,Ltd.",
+    "regularMarketChangePercent": 0.20161289,
+    "regularMarketPrice": 1491.0,
     "corporateActions": [
       {
         "header": "Reverse stock split",
@@ -948,14 +953,12 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "regularMarketChangePercent": 0.20161289,
-    "regularMarketPrice": 1491.0,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1039996800000,
     "regularMarketChange": 3.0,
     "regularMarketDayRange": "1487.0 - 1491.0",
     "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 50156,
+    "averageDailyVolume3Month": 50874,
     "fiftyTwoWeekLowChange": 673.0,
     "fiftyTwoWeekLowChangePercent": 0.8227384,
     "fiftyTwoWeekRange": "818.0 - 1491.0",
@@ -972,9 +975,6 @@
     "twoHundredDayAverageChangePercent": 0.3581894,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
-    "shortName": "HEIAN CEREMONY SERVICE CO",
-    "longName": "Heian Ceremony Service Co.,Ltd.",
-    "marketState": "CLOSED",
     "cryptoTradeable": false,
     "trailingPegRatio": null
   }

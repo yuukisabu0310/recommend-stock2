@@ -1,7 +1,7 @@
 {
   "ticker": "2933",
   "japanese_ticker": "2933.T",
-  "fetch_date": "2026-05-02T23:50:04.819131",
+  "fetch_date": "2026-05-03T23:51:04.395570",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": -44820796.0,
@@ -1047,7 +1047,7 @@
     "forwardPE": 11.206522,
     "volume": 19700,
     "regularMarketVolume": 19700,
-    "averageVolume": 32380,
+    "averageVolume": 32423,
     "averageVolume10days": 25140,
     "averageDailyVolume10Day": 25140,
     "bid": 1031.0,
@@ -1115,6 +1115,12 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "regularMarketChangePercent": -0.09689923,
+    "regularMarketPrice": 1031.0,
+    "marketState": "CLOSED",
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
     "shortName": "KIBUN FOODS INC",
     "longName": "Kibun Foods Inc.",
     "corporateActions": [],
@@ -1131,16 +1137,13 @@
     "regularMarketChange": -1.0,
     "regularMarketDayRange": "1027.0 - 1041.0",
     "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 32380,
+    "averageDailyVolume3Month": 32423,
     "fiftyTwoWeekLowChange": 9.0,
     "fiftyTwoWeekLowChangePercent": 0.008806262,
     "fiftyTwoWeekRange": "1022.0 - 1224.0",
     "fiftyTwoWeekHighChange": -193.0,
     "fiftyTwoWeekHighChangePercent": -0.15767974,
     "fiftyTwoWeekChangePercent": -4.003721,
-    "regularMarketChangePercent": -0.09689923,
-    "regularMarketPrice": 1031.0,
-    "marketState": "CLOSED",
     "earningsTimestampStart": 1747292400,
     "earningsTimestampEnd": 1747292400,
     "earningsCallTimestampStart": 1716893940,
@@ -1152,9 +1155,6 @@
     "fiftyDayAverageChangePercent": -0.02197013,
     "twoHundredDayAverageChange": -64.26001,
     "twoHundredDayAverageChangePercent": -0.05867101,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
     "trailingPegRatio": null
   }
 }

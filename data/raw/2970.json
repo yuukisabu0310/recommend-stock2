@@ -1,7 +1,7 @@
 {
   "ticker": "2970",
   "japanese_ticker": "2970.T",
-  "fetch_date": "2026-05-02T23:50:19.721700",
+  "fetch_date": "2026-05-03T23:51:19.729718",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-12-31 00:00:00": -4071942.446043,
@@ -1161,7 +1161,7 @@
     "trailingPE": 11.4809,
     "volume": 12200,
     "regularMarketVolume": 12200,
-    "averageVolume": 41791,
+    "averageVolume": 42388,
     "averageVolume10days": 19810,
     "averageDailyVolume10Day": 19810,
     "bid": 1092.0,
@@ -1232,6 +1232,7 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "marketState": "CLOSED",
     "shortName": "GLC GP INC",
     "longName": "Glc Group,Inc.",
     "corporateActions": [],
@@ -1243,13 +1244,14 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "cryptoTradeable": false,
+    "regularMarketChangePercent": -0.09107468,
+    "regularMarketPrice": 1097.0,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1545004800000,
     "regularMarketChange": -1.0,
     "regularMarketDayRange": "1082.0 - 1105.0",
     "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 41791,
+    "averageDailyVolume3Month": 42388,
     "fiftyTwoWeekLowChange": 360.75,
     "fiftyTwoWeekLowChangePercent": 0.48998302,
     "fiftyTwoWeekRange": "736.25 - 1274.0",
@@ -1267,10 +1269,8 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "prevName": "Good Life Company,Inc.",
-    "nameChangeDate": "2026-05-01",
-    "marketState": "CLOSED",
-    "regularMarketChangePercent": -0.09107468,
-    "regularMarketPrice": 1097.0,
+    "nameChangeDate": "2026-05-03",
+    "cryptoTradeable": false,
     "trailingPegRatio": null
   }
 }

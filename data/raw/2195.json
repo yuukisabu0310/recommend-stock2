@@ -1,7 +1,7 @@
 {
   "ticker": "2195",
   "japanese_ticker": "2195.T",
-  "fetch_date": "2026-05-02T23:41:38.919705",
+  "fetch_date": "2026-05-03T23:42:33.792769",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-12-31 00:00:00": 45292.0,
@@ -1109,7 +1109,7 @@
     "trailingPE": 29.322033,
     "volume": 541300,
     "regularMarketVolume": 541300,
-    "averageVolume": 982628,
+    "averageVolume": 998738,
     "averageVolume10days": 864400,
     "averageDailyVolume10Day": 864400,
     "bid": 519.0,
@@ -1184,6 +1184,9 @@
     "customPriceAlertConfidence": "LOW",
     "corporateActions": [],
     "regularMarketTime": 1777617000,
+    "marketState": "CLOSED",
+    "shortName": "AMITA HOLDINGS CO LTD",
+    "longName": "Amita Holdings Co.,Ltd.",
     "exchange": "JPX",
     "messageBoardId": "finmb_27340251",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1193,18 +1196,12 @@
     "esgPopulated": false,
     "regularMarketChangePercent": -8.465609,
     "regularMarketPrice": 519.0,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
-    "shortName": "AMITA HOLDINGS CO LTD",
-    "longName": "Amita Holdings Co.,Ltd.",
-    "marketState": "CLOSED",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1262563200000,
     "regularMarketChange": -48.0,
     "regularMarketDayRange": "514.0 - 555.0",
     "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 982628,
+    "averageDailyVolume3Month": 998738,
     "fiftyTwoWeekLowChange": 231.0,
     "fiftyTwoWeekLowChangePercent": 0.8020833,
     "fiftyTwoWeekRange": "288.0 - 675.0",
@@ -1219,6 +1216,9 @@
     "fiftyDayAverageChangePercent": 0.2161402,
     "twoHundredDayAverageChange": 150.76501,
     "twoHundredDayAverageChangePercent": 0.4094261,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
     "trailingPegRatio": null
   }
 }

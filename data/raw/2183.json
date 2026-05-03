@@ -1,7 +1,7 @@
 {
   "ticker": "2183",
   "japanese_ticker": "2183.T",
-  "fetch_date": "2026-05-02T23:41:31.306477",
+  "fetch_date": "2026-05-03T23:42:25.207766",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": -2912064.0,
@@ -1003,10 +1003,10 @@
     "forwardPE": 10.468085,
     "volume": 9600,
     "regularMarketVolume": 9600,
-    "averageVolume": 41010,
+    "averageVolume": 41361,
     "averageVolume10days": 19890,
     "averageDailyVolume10Day": 19890,
-    "bid": 247.0,
+    "bid": 246.0,
     "ask": 247.0,
     "bidSize": 0,
     "askSize": 0,
@@ -1083,14 +1083,12 @@
     "market": "jp_market",
     "esgPopulated": false,
     "regularMarketChangePercent": -0.40485832,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1225065600000,
-    "cryptoTradeable": false,
     "regularMarketPrice": 246.0,
+    "firstTradeDateMilliseconds": 1225065600000,
     "regularMarketChange": -1.0,
     "regularMarketDayRange": "246.0 - 247.0",
     "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 41010,
+    "averageDailyVolume3Month": 41361,
     "fiftyTwoWeekLowChange": 0.0,
     "fiftyTwoWeekLowChangePercent": 0.0,
     "fiftyTwoWeekRange": "246.0 - 363.0",
@@ -1108,9 +1106,11 @@
     "twoHundredDayAverageChangePercent": -0.21617359,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
-    "longName": "Linical Co., Ltd.",
     "marketState": "CLOSED",
+    "cryptoTradeable": false,
+    "hasPrePostMarketData": false,
     "shortName": "LINICAL CO LTD",
+    "longName": "Linical Co., Ltd.",
     "trailingPegRatio": null
   }
 }

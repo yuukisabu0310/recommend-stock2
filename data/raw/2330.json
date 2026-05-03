@@ -1,7 +1,7 @@
 {
   "ticker": "2330",
   "japanese_ticker": "2330.T",
-  "fetch_date": "2026-05-02T23:43:16.534629",
+  "fetch_date": "2026-05-03T23:44:11.662928",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-12-31 00:00:00": 2240822.594331,
@@ -1155,7 +1155,7 @@
     "trailingPE": 10.029498,
     "volume": 76900,
     "regularMarketVolume": 76900,
-    "averageVolume": 444676,
+    "averageVolume": 446503,
     "averageVolume10days": 189540,
     "averageDailyVolume10Day": 189540,
     "bid": 101.0,
@@ -1238,14 +1238,16 @@
     "market": "jp_market",
     "esgPopulated": false,
     "regularMarketChangePercent": 2.0,
+    "regularMarketPrice": 102.0,
+    "shortName": "FORSIDE CO LTD",
+    "marketState": "CLOSED",
+    "longName": "Forside Co.,Ltd.",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1034208000000,
-    "cryptoTradeable": false,
-    "regularMarketPrice": 102.0,
     "regularMarketChange": 2.0,
     "regularMarketDayRange": "100.0 - 103.0",
     "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 444676,
+    "averageDailyVolume3Month": 446503,
     "fiftyTwoWeekLowChange": 3.0,
     "fiftyTwoWeekLowChangePercent": 0.030303031,
     "fiftyTwoWeekRange": "99.0 - 315.0",
@@ -1263,10 +1265,8 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "prevName": "Forside Co., Ltd.",
-    "nameChangeDate": "2026-05-01",
-    "longName": "Forside Co.,Ltd.",
-    "marketState": "CLOSED",
-    "shortName": "FORSIDE CO LTD",
+    "nameChangeDate": "2026-05-03",
+    "cryptoTradeable": false,
     "trailingPegRatio": null
   }
 }

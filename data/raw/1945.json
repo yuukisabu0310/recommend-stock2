@@ -1,7 +1,7 @@
 {
   "ticker": "1945",
   "japanese_ticker": "1945.T",
-  "fetch_date": "2026-05-02T23:39:16.382660",
+  "fetch_date": "2026-05-03T23:40:08.663059",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": 404376000.0,
@@ -1037,7 +1037,7 @@
     "forwardPE": 29.782269,
     "volume": 299400,
     "regularMarketVolume": 299400,
-    "averageVolume": 323828,
+    "averageVolume": 326942,
     "averageVolume10days": 228020,
     "averageDailyVolume10Day": 228020,
     "bid": 1913.0,
@@ -1107,11 +1107,12 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "corporateActions": [],
+    "exchange": "JPX",
     "messageBoardId": "finmb_880608",
     "exchangeTimezoneName": "Asia/Tokyo",
     "exchangeTimezoneShortName": "JST",
     "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
     "esgPopulated": false,
     "regularMarketChangePercent": 1.2156448,
     "regularMarketPrice": 1915.0,
@@ -1123,7 +1124,7 @@
     "regularMarketChange": 23.0,
     "regularMarketDayRange": "1877.0 - 1930.0",
     "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 323828,
+    "averageDailyVolume3Month": 326942,
     "fiftyTwoWeekLowChange": 826.0,
     "fiftyTwoWeekLowChangePercent": 0.758494,
     "fiftyTwoWeekRange": "1089.0 - 2074.0",
@@ -1139,12 +1140,11 @@
     "fiftyDayAverageChangePercent": 0.053019416,
     "twoHundredDayAverageChange": 138.48499,
     "twoHundredDayAverageChangePercent": 0.077953175,
+    "corporateActions": [],
+    "regularMarketTime": 1777617000,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
-    "regularMarketTime": 1777617000,
-    "exchange": "JPX",
-    "market": "jp_market",
     "trailingPegRatio": null
   }
 }
