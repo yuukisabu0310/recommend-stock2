@@ -1,7 +1,7 @@
 {
   "ticker": "2303",
   "japanese_ticker": "2303.T",
-  "fetch_date": "2026-05-03T23:43:45.830579",
+  "fetch_date": "2026-05-04T23:53:50.023153",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-05-31 00:00:00": 0.0,
@@ -1001,13 +1001,13 @@
     "exDividendDate": 1779926400,
     "payoutRatio": 0.1706,
     "fiveYearAvgDividendYield": 0.82,
-    "beta": -0.184,
+    "beta": -0.136,
     "trailingPE": 20.407728,
     "volume": 9100,
     "regularMarketVolume": 9100,
-    "averageVolume": 10493,
-    "averageVolume10days": 8150,
-    "averageDailyVolume10Day": 8150,
+    "averageVolume": 10446,
+    "averageVolume10days": 8811,
+    "averageDailyVolume10Day": 8811,
     "bid": 2859.0,
     "ask": 2900.0,
     "bidSize": 0,
@@ -1019,8 +1019,8 @@
     "allTimeHigh": 4380.0,
     "allTimeLow": 78.0,
     "priceToSalesTrailing12Months": 5.073173,
-    "fiftyDayAverage": 2763.4,
-    "twoHundredDayAverage": 2562.07,
+    "fiftyDayAverage": 2768.92,
+    "twoHundredDayAverage": 2565.37,
     "trailingAnnualDividendRate": 0.0,
     "trailingAnnualDividendYield": 0.0,
     "currency": "JPY",
@@ -1075,28 +1075,6 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "cryptoTradeable": false,
-    "marketState": "CLOSED",
-    "corporateActions": [
-      {
-        "header": "Dividend",
-        "message": "2303.T announced a cash dividend of JPY 28.00 with an ex-date of May. 28, 2026",
-        "meta": {
-          "eventType": "DIVIDEND",
-          "dateEpochMs": 1779894000000,
-          "amount": "28.00"
-        }
-      },
-      {
-        "header": "Stock split",
-        "message": "2303.T announces 2 for 1 split effective May. 28, 2026",
-        "meta": {
-          "eventType": "SPLIT",
-          "dateEpochMs": 1779894000000,
-          "splitRatio": "2:1"
-        }
-      }
-    ],
     "regularMarketTime": 1777617000,
     "exchange": "JPX",
     "messageBoardId": "finmb_8888160",
@@ -1107,7 +1085,33 @@
     "esgPopulated": false,
     "regularMarketChangePercent": -0.6226219,
     "regularMarketPrice": 2873.0,
-    "averageDailyVolume3Month": 10493,
+    "marketState": "CLOSED",
+    "shortName": "DAWN CORP",
+    "longName": "Dawn Corp.",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1024012800000,
+    "corporateActions": [
+      {
+        "header": "Stock split",
+        "message": "2303.T announces 2 for 1 split effective May. 28, 2026",
+        "meta": {
+          "eventType": "SPLIT",
+          "dateEpochMs": 1779894000000,
+          "splitRatio": "2:1"
+        }
+      }
+    ],
+    "fiftyDayAverageChange": 104.08008,
+    "fiftyDayAverageChangePercent": 0.037588693,
+    "twoHundredDayAverageChange": 307.62988,
+    "twoHundredDayAverageChangePercent": 0.11991637,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
+    "regularMarketChange": -18.0,
+    "regularMarketDayRange": "2861.0 - 2936.0",
+    "fullExchangeName": "Tokyo",
+    "averageDailyVolume3Month": 10446,
     "fiftyTwoWeekLowChange": 700.0,
     "fiftyTwoWeekLowChangePercent": 0.3221353,
     "fiftyTwoWeekRange": "2173.0 - 3100.0",
@@ -1118,19 +1122,6 @@
     "earningsTimestampEnd": 1744261200,
     "isEarningsDateEstimate": false,
     "epsTrailingTwelveMonths": 140.78,
-    "fiftyDayAverageChange": 109.6001,
-    "fiftyDayAverageChangePercent": 0.03966132,
-    "twoHundredDayAverageChange": 310.92993,
-    "twoHundredDayAverageChangePercent": 0.12135887,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1024012800000,
-    "regularMarketChange": -18.0,
-    "regularMarketDayRange": "2861.0 - 2936.0",
-    "fullExchangeName": "Tokyo",
-    "shortName": "DAWN CORP",
-    "longName": "Dawn Corp.",
     "trailingPegRatio": null
   }
 }
