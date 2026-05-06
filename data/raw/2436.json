@@ -1,7 +1,7 @@
 {
   "ticker": "2436",
   "japanese_ticker": "2436.T",
-  "fetch_date": "2026-05-04T23:56:07.026134",
+  "fetch_date": "2026-05-05T23:52:23.888495",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-12-31 00:00:00": 830043.480259,
@@ -1208,7 +1208,7 @@
     "trailingPE": 10.309597,
     "volume": 21200,
     "regularMarketVolume": 21200,
-    "averageVolume": 12046,
+    "averageVolume": 12085,
     "averageVolume10days": 10055,
     "averageDailyVolume10Day": 10055,
     "bid": 990.0,
@@ -1248,7 +1248,7 @@
     "enterpriseToRevenue": 0.686,
     "enterpriseToEbitda": 3.927,
     "52WeekChange": 0.30759168,
-    "SandP52WeekChange": 0.2795812,
+    "SandP52WeekChange": 0.2842635,
     "lastDividendValue": 16.0,
     "lastDividendDate": 1798502400,
     "quoteType": "EQUITY",
@@ -1281,9 +1281,9 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "marketState": "CLOSED",
     "shortName": "KYODO PUBLIC RELATIONS CO LTD",
     "longName": "Kyodo Public Relations Co., Ltd.",
-    "marketState": "CLOSED",
     "corporateActions": [],
     "regularMarketTime": 1777617000,
     "exchange": "JPX",
@@ -1295,8 +1295,12 @@
     "esgPopulated": false,
     "regularMarketChangePercent": 2.3565574,
     "regularMarketPrice": 999.0,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1111708800000,
+    "regularMarketChange": 23.0,
+    "regularMarketDayRange": "983.0 - 1010.0",
     "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 12046,
+    "averageDailyVolume3Month": 12085,
     "fiftyTwoWeekLowChange": 242.0,
     "fiftyTwoWeekLowChangePercent": 0.31968296,
     "fiftyTwoWeekRange": "757.0 - 1103.0",
@@ -1314,10 +1318,6 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1111708800000,
-    "regularMarketChange": 23.0,
-    "regularMarketDayRange": "983.0 - 1010.0",
     "trailingPegRatio": null
   }
 }

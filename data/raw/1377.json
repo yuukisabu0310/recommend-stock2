@@ -1,7 +1,7 @@
 {
   "ticker": "1377",
   "japanese_ticker": "1377.T",
-  "fetch_date": "2026-05-04T23:44:39.393101",
+  "fetch_date": "2026-05-05T23:41:19.860758",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-05-31 00:00:00": 323120000.0,
@@ -106,14 +106,14 @@
       "2022-05-31 00:00:00": 11181000000.0
     },
     "Diluted Average Shares": {
-      "2025-05-31 00:00:00": 43632000.0,
-      "2024-05-31 00:00:00": 44253000.0,
+      "2025-05-31 00:00:00": 43629257.0,
+      "2024-05-31 00:00:00": 44252779.0,
       "2023-05-31 00:00:00": 44350242.0,
       "2022-05-31 00:00:00": 44402000.0
     },
     "Basic Average Shares": {
-      "2025-05-31 00:00:00": 43632000.0,
-      "2024-05-31 00:00:00": 44253000.0,
+      "2025-05-31 00:00:00": 43629257.0,
+      "2024-05-31 00:00:00": 44252779.0,
       "2023-05-31 00:00:00": 44350242.0,
       "2022-05-31 00:00:00": 44402000.0
     },
@@ -1089,7 +1089,7 @@
     "forwardPE": 19.435886,
     "volume": 124200,
     "regularMarketVolume": 124200,
-    "averageVolume": 148401,
+    "averageVolume": 149040,
     "averageVolume10days": 137333,
     "averageDailyVolume10Day": 137333,
     "bid": 4095.0,
@@ -1114,7 +1114,7 @@
     "floatShares": 33042434,
     "sharesOutstanding": 42259696,
     "heldPercentInsiders": 0.22709998,
-    "heldPercentInstitutions": 0.27372998,
+    "heldPercentInstitutions": 0.27375,
     "impliedSharesOutstanding": 42259696,
     "bookValue": 4095.392,
     "priceToBook": 1.0011251,
@@ -1128,7 +1128,7 @@
     "enterpriseToRevenue": 1.493,
     "enterpriseToEbitda": 8.474,
     "52WeekChange": 0.24430954,
-    "SandP52WeekChange": 0.2795812,
+    "SandP52WeekChange": 0.2842635,
     "lastDividendValue": 40.0,
     "lastDividendDate": 1779926400,
     "quoteType": "EQUITY",
@@ -1164,10 +1164,6 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "shortName": "SAKATA SEED CORP",
-    "longName": "Sakata Seed Corporation",
-    "corporateActions": [],
-    "regularMarketTime": 1777617000,
     "exchange": "JPX",
     "messageBoardId": "finmb_876256",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1177,12 +1173,10 @@
     "esgPopulated": false,
     "regularMarketChangePercent": -0.60606056,
     "regularMarketPrice": 4100.0,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 978307200000,
     "regularMarketChange": -25.0,
     "regularMarketDayRange": "4075.0 - 4115.0",
     "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 148401,
+    "averageDailyVolume3Month": 149040,
     "fiftyTwoWeekLowChange": 815.0,
     "fiftyTwoWeekLowChangePercent": 0.24809742,
     "fiftyTwoWeekRange": "3285.0 - 4630.0",
@@ -1197,13 +1191,29 @@
     "isEarningsDateEstimate": false,
     "epsTrailingTwelveMonths": 267.32,
     "epsForward": 210.95,
+    "twoHundredDayAverageChangePercent": 0.028561419,
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "1377.T announced a cash dividend of JPY 40.00 with an ex-date of May. 28, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1779894000000,
+          "amount": "40.00"
+        }
+      }
+    ],
+    "regularMarketTime": 1777617000,
+    "longName": "Sakata Seed Corporation",
+    "shortName": "SAKATA SEED CORP",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 978307200000,
+    "marketState": "CLOSED",
     "fiftyDayAverageChange": -181.7002,
     "fiftyDayAverageChangePercent": -0.04243646,
     "twoHundredDayAverageChange": 113.8501,
-    "twoHundredDayAverageChangePercent": 0.028561419,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
-    "marketState": "CLOSED",
     "cryptoTradeable": false,
     "trailingPegRatio": null
   }

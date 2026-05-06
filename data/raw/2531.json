@@ -1,7 +1,7 @@
 {
   "ticker": "2531",
   "japanese_ticker": "2531.T",
-  "fetch_date": "2026-05-04T23:57:22.879919",
+  "fetch_date": "2026-05-05T23:53:35.710439",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": 1133734000.0,
@@ -1040,7 +1040,7 @@
     "forwardPE": 18.536325,
     "volume": 497800,
     "regularMarketVolume": 497800,
-    "averageVolume": 566281,
+    "averageVolume": 570628,
     "averageVolume10days": 508566,
     "averageDailyVolume10Day": 508566,
     "bid": 1733.5,
@@ -1065,7 +1065,7 @@
     "floatShares": 155620292,
     "sharesOutstanding": 192873882,
     "heldPercentInsiders": 0.07822,
-    "heldPercentInstitutions": 0.53477,
+    "heldPercentInstitutions": 0.52814,
     "impliedSharesOutstanding": 192873882,
     "bookValue": 1279.764,
     "priceToBook": 1.3557186,
@@ -1080,7 +1080,7 @@
     "enterpriseToRevenue": 0.995,
     "enterpriseToEbitda": 12.41,
     "52WeekChange": 0.5159458,
-    "SandP52WeekChange": 0.2795812,
+    "SandP52WeekChange": 0.2842635,
     "lastDividendValue": 31.0,
     "lastDividendDate": 1774828800,
     "quoteType": "EQUITY",
@@ -1111,6 +1111,7 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "marketState": "CLOSED",
     "shortName": "TAKARA HOLDINGS INC",
     "longName": "Takara Holdings Inc.",
     "corporateActions": [],
@@ -1129,7 +1130,7 @@
     "regularMarketChange": -35.0,
     "regularMarketDayRange": "1698.5 - 1769.5",
     "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 566281,
+    "averageDailyVolume3Month": 570628,
     "fiftyTwoWeekLowChange": 597.0,
     "fiftyTwoWeekLowChangePercent": 0.52460456,
     "fiftyTwoWeekRange": "1138.0 - 1888.0",
@@ -1151,7 +1152,6 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
-    "marketState": "CLOSED",
     "trailingPegRatio": null
   }
 }

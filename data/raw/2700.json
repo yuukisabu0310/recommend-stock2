@@ -1,7 +1,7 @@
 {
   "ticker": "2700",
   "japanese_ticker": "2700.T",
-  "fetch_date": "2026-05-04T23:59:03.124155",
+  "fetch_date": "2026-05-05T23:55:13.216834",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-12-31 00:00:00": -59635416.0,
@@ -1220,7 +1220,7 @@
     "trailingPE": 2.7616537,
     "volume": 34800,
     "regularMarketVolume": 34800,
-    "averageVolume": 39148,
+    "averageVolume": 39712,
     "averageVolume10days": 50711,
     "averageDailyVolume10Day": 50711,
     "bid": 1860.0,
@@ -1260,7 +1260,7 @@
     "enterpriseToRevenue": 0.156,
     "enterpriseToEbitda": 3.222,
     "52WeekChange": 0.06938076,
-    "SandP52WeekChange": 0.2795812,
+    "SandP52WeekChange": 0.2842635,
     "lastDividendValue": 25.0,
     "lastDividendDate": 1798502400,
     "quoteType": "EQUITY",
@@ -1293,6 +1293,9 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "marketState": "CLOSED",
+    "shortName": "KITOKU SHINRYO CO",
+    "longName": "Kitoku Shinryo Co., Ltd.",
     "corporateActions": [],
     "regularMarketTime": 1777617000,
     "exchange": "JPX",
@@ -1304,13 +1307,12 @@
     "esgPopulated": false,
     "regularMarketChangePercent": 1.6902944,
     "regularMarketPrice": 1865.0,
-    "marketState": "CLOSED",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 995414400000,
     "regularMarketChange": 31.0,
     "regularMarketDayRange": "1851.0 - 1876.0",
     "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 39148,
+    "averageDailyVolume3Month": 39712,
     "fiftyTwoWeekLowChange": 121.0,
     "fiftyTwoWeekLowChangePercent": 0.06938073,
     "fiftyTwoWeekRange": "1744.0 - 6600.0",
@@ -1328,8 +1330,6 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
-    "shortName": "KITOKU SHINRYO CO",
-    "longName": "Kitoku Shinryo Co., Ltd.",
     "trailingPegRatio": null
   }
 }

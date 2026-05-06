@@ -1,7 +1,7 @@
 {
   "ticker": "2876",
   "japanese_ticker": "2876.T",
-  "fetch_date": "2026-05-05T00:01:29.205017",
+  "fetch_date": "2026-05-05T23:57:32.676034",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": -386842472.075729,
@@ -990,7 +990,7 @@
     "beta": 0.029,
     "volume": 900,
     "regularMarketVolume": 900,
-    "averageVolume": 3562,
+    "averageVolume": 3552,
     "averageVolume10days": 1911,
     "averageDailyVolume10Day": 1911,
     "bid": 453.0,
@@ -1028,7 +1028,7 @@
     "enterpriseToRevenue": 0.225,
     "enterpriseToEbitda": 3.731,
     "52WeekChange": 0.041570425,
-    "SandP52WeekChange": 0.2795812,
+    "SandP52WeekChange": 0.2842635,
     "lastDividendValue": 12.0,
     "lastDividendDate": 1774828800,
     "quoteType": "EQUITY",
@@ -1061,11 +1061,12 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "shortName": "DELSOLE CORPORATION",
-    "longName": "Delsole Corporation",
     "corporateActions": [],
     "regularMarketTime": 1777612643,
     "exchange": "JPX",
+    "marketState": "CLOSED",
+    "shortName": "DELSOLE CORPORATION",
+    "longName": "Delsole Corporation",
     "messageBoardId": "finmb_9261987",
     "exchangeTimezoneName": "Asia/Tokyo",
     "exchangeTimezoneShortName": "JST",
@@ -1079,7 +1080,7 @@
     "regularMarketChange": 1.0,
     "regularMarketDayRange": "450.0 - 454.0",
     "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 3562,
+    "averageDailyVolume3Month": 3552,
     "fiftyTwoWeekLowChange": 63.0,
     "fiftyTwoWeekLowChangePercent": 0.16237113,
     "fiftyTwoWeekRange": "388.0 - 520.0",
@@ -1096,7 +1097,6 @@
     "twoHundredDayAverageChangePercent": 0.0061462033,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
-    "marketState": "CLOSED",
     "cryptoTradeable": false,
     "trailingPegRatio": null
   }

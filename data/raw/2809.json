@@ -1,7 +1,7 @@
 {
   "ticker": "2809",
   "japanese_ticker": "2809.T",
-  "fetch_date": "2026-05-05T00:00:52.611513",
+  "fetch_date": "2026-05-05T23:56:58.364435",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-11-30 00:00:00": 2869139000.0,
@@ -1210,7 +1210,7 @@
     "forwardPE": 23.192131,
     "volume": 529000,
     "regularMarketVolume": 529000,
-    "averageVolume": 433039,
+    "averageVolume": 431712,
     "averageVolume10days": 470644,
     "averageDailyVolume10Day": 470644,
     "bid": 4147.0,
@@ -1233,7 +1233,7 @@
     "floatShares": 94163416,
     "sharesOutstanding": 137394919,
     "heldPercentInsiders": 0.27671,
-    "heldPercentInstitutions": 0.26951998,
+    "heldPercentInstitutions": 0.26943,
     "impliedSharesOutstanding": 137394919,
     "bookValue": 2355.059,
     "priceToBook": 1.7621639,
@@ -1247,7 +1247,7 @@
     "enterpriseToRevenue": 1.044,
     "enterpriseToEbitda": 9.899,
     "52WeekChange": 0.25150788,
-    "SandP52WeekChange": 0.2795812,
+    "SandP52WeekChange": 0.2842635,
     "lastDividendValue": 33.0,
     "lastDividendDate": 1795737600,
     "quoteType": "EQUITY",
@@ -1284,14 +1284,19 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "messageBoardId": "finmb_245700",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "esgPopulated": false,
+    "exchange": "JPX",
+    "market": "jp_market",
     "regularMarketChangePercent": -0.38406146,
     "regularMarketPrice": 4150.0,
-    "marketState": "CLOSED",
+    "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 978307200000,
     "regularMarketChange": -16.0,
     "regularMarketDayRange": "4133.0 - 4206.0",
     "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 433039,
+    "averageDailyVolume3Month": 431712,
     "fiftyTwoWeekLowChange": 993.0,
     "fiftyTwoWeekLowChangePercent": 0.3145391,
     "fiftyTwoWeekRange": "3157.0 - 4700.0",
@@ -1306,17 +1311,6 @@
     "isEarningsDateEstimate": true,
     "epsTrailingTwelveMonths": 220.78,
     "epsForward": 178.94,
-    "corporateActions": [
-      {
-        "header": "Dividend",
-        "message": "2809.T announced a cash dividend of JPY 32.00 with an ex-date of May. 28, 2026",
-        "meta": {
-          "eventType": "DIVIDEND",
-          "dateEpochMs": 1779894000000,
-          "amount": "32.00"
-        }
-      }
-    ],
     "fiftyDayAverageChange": -38.839844,
     "fiftyDayAverageChangePercent": -0.00927222,
     "twoHundredDayAverageChange": -87.76514,
@@ -1324,18 +1318,14 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "averageAnalystRating": "2.0 - Buy",
+    "marketState": "CLOSED",
     "cryptoTradeable": false,
-    "hasPrePostMarketData": false,
     "shortName": "KEWPIE CORP",
     "longName": "Kewpie Corporation",
+    "corporateActions": [],
     "regularMarketTime": 1777617000,
-    "exchange": "JPX",
-    "messageBoardId": "finmb_245700",
-    "exchangeTimezoneName": "Asia/Tokyo",
     "exchangeTimezoneShortName": "JST",
     "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
     "trailingPegRatio": null
   }
 }

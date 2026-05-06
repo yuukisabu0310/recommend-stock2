@@ -1,7 +1,7 @@
 {
   "ticker": "1376",
   "japanese_ticker": "1376.T",
-  "fetch_date": "2026-05-04T23:44:36.986724",
+  "fetch_date": "2026-05-05T23:41:17.804609",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-05-31 00:00:00": -21113760.0,
@@ -1010,7 +1010,7 @@
     "trailingPE": 12.121473,
     "volume": 20900,
     "regularMarketVolume": 20900,
-    "averageVolume": 19024,
+    "averageVolume": 19214,
     "averageVolume10days": 22100,
     "averageDailyVolume10Day": 22100,
     "bid": 1408.0,
@@ -1048,7 +1048,7 @@
     "enterpriseToRevenue": 0.221,
     "enterpriseToEbitda": 6.602,
     "52WeekChange": -0.011228085,
-    "SandP52WeekChange": 0.2795812,
+    "SandP52WeekChange": 0.2842635,
     "lastDividendValue": 27.0,
     "lastDividendDate": 1779926400,
     "quoteType": "EQUITY",
@@ -1079,8 +1079,6 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "shortName": "KANEKO SEEDS CO",
-    "longName": "Kaneko Seeds Co., Ltd.",
     "corporateActions": [
       {
         "header": "Dividend",
@@ -1093,6 +1091,7 @@
       }
     ],
     "regularMarketTime": 1777617000,
+    "longName": "Kaneko Seeds Co., Ltd.",
     "exchange": "JPX",
     "messageBoardId": "finmb_4493094",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1102,12 +1101,14 @@
     "esgPopulated": false,
     "regularMarketChangePercent": 0.0,
     "regularMarketPrice": 1409.0,
+    "marketState": "CLOSED",
+    "shortName": "KANEKO SEEDS CO",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 947030400000,
     "regularMarketChange": 0.0,
     "regularMarketDayRange": "1395.0 - 1412.0",
     "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 19024,
+    "averageDailyVolume3Month": 19214,
     "fiftyTwoWeekLowChange": 59.0,
     "fiftyTwoWeekLowChangePercent": 0.043703705,
     "fiftyTwoWeekRange": "1350.0 - 1859.0",
@@ -1125,7 +1126,6 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
-    "marketState": "CLOSED",
     "trailingPegRatio": null
   }
 }

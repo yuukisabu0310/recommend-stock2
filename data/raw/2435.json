@@ -1,7 +1,7 @@
 {
   "ticker": "2435",
   "japanese_ticker": "2435.T",
-  "fetch_date": "2026-05-04T23:56:04.551552",
+  "fetch_date": "2026-05-05T23:52:21.702209",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": -17476000.0,
@@ -945,7 +945,7 @@
     "trailingPE": 5.682116,
     "volume": 6500,
     "regularMarketVolume": 6500,
-    "averageVolume": 177824,
+    "averageVolume": 180519,
     "averageVolume10days": 12455,
     "averageDailyVolume10Day": 12455,
     "bid": 215.0,
@@ -985,7 +985,7 @@
     "enterpriseToRevenue": 0.807,
     "enterpriseToEbitda": 10.707,
     "52WeekChange": -0.0045871735,
-    "SandP52WeekChange": 0.2795812,
+    "SandP52WeekChange": 0.2842635,
     "lastDividendValue": 8.0,
     "lastDividendDate": 1774828800,
     "quoteType": "EQUITY",
@@ -1016,7 +1016,6 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "marketState": "CLOSED",
     "corporateActions": [],
     "regularMarketTime": 1777617000,
     "exchange": "JPX",
@@ -1030,12 +1029,16 @@
     "longName": "CEDAR.Co.,Ltd.",
     "regularMarketChangePercent": 0.0,
     "regularMarketPrice": 217.0,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
+    "marketState": "CLOSED",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1111017600000,
     "regularMarketChange": 0.0,
     "regularMarketDayRange": "215.0 - 217.0",
     "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 177824,
+    "averageDailyVolume3Month": 180519,
     "fiftyTwoWeekLowChange": 26.0,
     "fiftyTwoWeekLowChangePercent": 0.13612565,
     "fiftyTwoWeekRange": "191.0 - 372.0",
@@ -1050,9 +1053,6 @@
     "fiftyDayAverageChangePercent": -0.013457023,
     "twoHundredDayAverageChange": -1.8699951,
     "twoHundredDayAverageChangePercent": -0.008543862,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
     "trailingPegRatio": null
   }
 }

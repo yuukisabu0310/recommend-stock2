@@ -1,7 +1,7 @@
 {
   "ticker": "2168",
   "japanese_ticker": "2168.T",
-  "fetch_date": "2026-05-04T23:51:53.044453",
+  "fetch_date": "2026-05-05T23:48:16.689973",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-05-31 00:00:00": -127832000.0,
@@ -1214,7 +1214,7 @@
     "forwardPE": 32.49493,
     "volume": 374400,
     "regularMarketVolume": 374400,
-    "averageVolume": 157937,
+    "averageVolume": 159350,
     "averageVolume10days": 301711,
     "averageDailyVolume10Day": 301711,
     "bid": 1602.0,
@@ -1239,7 +1239,7 @@
     "floatShares": 14757570,
     "sharesOutstanding": 37352427,
     "heldPercentInsiders": 0.49835998,
-    "heldPercentInstitutions": 0.15472001,
+    "heldPercentInstitutions": 0.15469,
     "impliedSharesOutstanding": 37352427,
     "bookValue": 3420.581,
     "priceToBook": 0.46834147,
@@ -1254,7 +1254,7 @@
     "enterpriseToRevenue": 0.061,
     "enterpriseToEbitda": -30.638,
     "52WeekChange": -0.254537,
-    "SandP52WeekChange": 0.2795812,
+    "SandP52WeekChange": 0.2842635,
     "lastDividendValue": 75.0,
     "lastDividendDate": 1779926400,
     "quoteType": "EQUITY",
@@ -1284,6 +1284,11 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "marketState": "CLOSED",
+    "shortName": "PASONA GROUP INC",
+    "longName": "Pasona Group Inc.",
+    "corporateActions": [],
+    "regularMarketTime": 1777617000,
     "exchange": "JPX",
     "messageBoardId": "finmb_6442783",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1291,28 +1296,14 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "shortName": "PASONA GROUP INC",
-    "longName": "Pasona Group Inc.",
-    "marketState": "CLOSED",
-    "corporateActions": [
-      {
-        "header": "Dividend",
-        "message": "2168.T announced a cash dividend of JPY 75.00 with an ex-date of May. 28, 2026",
-        "meta": {
-          "eventType": "DIVIDEND",
-          "dateEpochMs": 1779894000000,
-          "amount": "75.00"
-        }
-      }
-    ],
-    "regularMarketTime": 1777617000,
-    "cryptoTradeable": false,
+    "regularMarketChangePercent": -1.7177913,
+    "regularMarketPrice": 1602.0,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1067299200000,
     "regularMarketChange": -28.0,
     "regularMarketDayRange": "1588.0 - 1620.0",
     "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 157937,
+    "averageDailyVolume3Month": 159350,
     "fiftyTwoWeekLowChange": 14.0,
     "fiftyTwoWeekLowChangePercent": 0.008816121,
     "fiftyTwoWeekRange": "1588.0 - 2498.0",
@@ -1330,8 +1321,7 @@
     "twoHundredDayAverageChangePercent": -0.20090584,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
-    "regularMarketChangePercent": -1.7177913,
-    "regularMarketPrice": 1602.0,
+    "cryptoTradeable": false,
     "trailingPegRatio": null
   }
 }

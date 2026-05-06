@@ -1,7 +1,7 @@
 {
   "ticker": "1407",
   "japanese_ticker": "1407.T",
-  "fetch_date": "2026-05-04T23:44:57.856869",
+  "fetch_date": "2026-05-05T23:41:38.305041",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-08-31 00:00:00": 57776000.0,
@@ -1170,7 +1170,7 @@
     "forwardPE": 10.903179,
     "volume": 1520300,
     "regularMarketVolume": 1520300,
-    "averageVolume": 713536,
+    "averageVolume": 722505,
     "averageVolume10days": 1163288,
     "averageDailyVolume10Day": 1163288,
     "bid": 2871.0,
@@ -1195,7 +1195,7 @@
     "floatShares": 20280103,
     "sharesOutstanding": 39659150,
     "heldPercentInsiders": 0.41321,
-    "heldPercentInstitutions": 0.21315001,
+    "heldPercentInstitutions": 0.21293,
     "impliedSharesOutstanding": 39659150,
     "bookValue": 866.635,
     "priceToBook": 3.3278139,
@@ -1211,7 +1211,7 @@
     "enterpriseToRevenue": 3.498,
     "enterpriseToEbitda": 14.425,
     "52WeekChange": 0.8727273,
-    "SandP52WeekChange": 0.2795812,
+    "SandP52WeekChange": 0.2842635,
     "lastDividendValue": 35.0,
     "lastDividendDate": 1787875200,
     "quoteType": "EQUITY",
@@ -1252,14 +1252,12 @@
     "marketState": "CLOSED",
     "shortName": "WEST HOLDINGS CORP",
     "longName": "West Holdings Corporation",
-    "regularMarketChangePercent": 0.243309,
-    "regularMarketPrice": 2884.0,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1088035200000,
     "regularMarketChange": 7.0,
     "regularMarketDayRange": "2820.0 - 3090.0",
     "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 713536,
+    "averageDailyVolume3Month": 722505,
     "fiftyTwoWeekLowChange": 1590.0,
     "fiftyTwoWeekLowChangePercent": 1.2287481,
     "fiftyTwoWeekRange": "1294.0 - 3090.0",
@@ -1287,6 +1285,8 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
+    "regularMarketChangePercent": 0.243309,
+    "regularMarketPrice": 2884.0,
     "trailingPegRatio": null
   }
 }

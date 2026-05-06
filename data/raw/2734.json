@@ -1,7 +1,7 @@
 {
   "ticker": "2734",
   "japanese_ticker": "2734.T",
-  "fetch_date": "2026-05-04T23:59:24.220644",
+  "fetch_date": "2026-05-05T23:55:33.398663",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-11-30 00:00:00": 379192000.0,
@@ -1217,7 +1217,7 @@
     "trailingPE": 11.311672,
     "volume": 141800,
     "regularMarketVolume": 141800,
-    "averageVolume": 325922,
+    "averageVolume": 330333,
     "averageVolume10days": 172111,
     "averageDailyVolume10Day": 172111,
     "bid": 1034.0,
@@ -1255,7 +1255,7 @@
     "enterpriseToRevenue": 0.437,
     "enterpriseToEbitda": 7.009,
     "52WeekChange": 0.13626373,
-    "SandP52WeekChange": 0.2795812,
+    "SandP52WeekChange": 0.2842635,
     "lastDividendValue": 17.0,
     "lastDividendDate": 1795737600,
     "quoteType": "EQUITY",
@@ -1295,28 +1295,12 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "shortName": "SALA CORPORATION",
-    "longName": "SALA Corporation",
-    "marketState": "CLOSED",
-    "corporateActions": [
-      {
-        "header": "Dividend",
-        "message": "2734.T announced a cash dividend of JPY 16.00 with an ex-date of May. 28, 2026",
-        "meta": {
-          "eventType": "DIVIDEND",
-          "dateEpochMs": 1779894000000,
-          "amount": "16.00"
-        }
-      }
-    ],
-    "regularMarketTime": 1777617000,
-    "cryptoTradeable": false,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1020124800000,
+    "regularMarketChangePercent": -0.5769231,
+    "regularMarketPrice": 1034.0,
     "regularMarketChange": -6.0,
     "regularMarketDayRange": "1029.0 - 1040.0",
     "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 325922,
+    "averageDailyVolume3Month": 330333,
     "fiftyTwoWeekLowChange": 149.0,
     "fiftyTwoWeekLowChangePercent": 0.16836159,
     "fiftyTwoWeekRange": "885.0 - 1228.0",
@@ -1327,14 +1311,20 @@
     "earningsTimestampEnd": 1751869800,
     "isEarningsDateEstimate": true,
     "epsTrailingTwelveMonths": 91.41,
+    "twoHundredDayAverageChangePercent": -0.035650145,
+    "corporateActions": [],
+    "regularMarketTime": 1777617000,
+    "longName": "SALA Corporation",
+    "shortName": "SALA CORPORATION",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1020124800000,
+    "marketState": "CLOSED",
     "fiftyDayAverageChange": -52.78003,
     "fiftyDayAverageChangePercent": -0.048565514,
     "twoHundredDayAverageChange": -38.224976,
-    "twoHundredDayAverageChangePercent": -0.035650145,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
-    "regularMarketChangePercent": -0.5769231,
-    "regularMarketPrice": 1034.0,
+    "cryptoTradeable": false,
     "trailingPegRatio": null
   }
 }

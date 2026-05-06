@@ -1,7 +1,7 @@
 {
   "ticker": "2408",
   "japanese_ticker": "2408.T",
-  "fetch_date": "2026-05-04T23:55:36.184177",
+  "fetch_date": "2026-05-05T23:51:53.312123",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-12-31 00:00:00": -386910.0,
@@ -1091,7 +1091,7 @@
     "trailingPE": 16.448517,
     "volume": 3400,
     "regularMarketVolume": 3400,
-    "averageVolume": 15805,
+    "averageVolume": 15966,
     "averageVolume10days": 15466,
     "averageDailyVolume10Day": 15466,
     "bid": 754.0,
@@ -1129,7 +1129,7 @@
     "enterpriseToRevenue": 0.178,
     "enterpriseToEbitda": 0.965,
     "52WeekChange": 0.18927443,
-    "SandP52WeekChange": 0.2795812,
+    "SandP52WeekChange": 0.2842635,
     "lastDividendValue": 19.0,
     "lastDividendDate": 1797465600,
     "quoteType": "EQUITY",
@@ -1162,12 +1162,11 @@
     "regularMarketChangePercent": -0.78947365,
     "regularMarketPrice": 754.0,
     "marketState": "CLOSED",
-    "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1093478400000,
     "regularMarketChange": -6.0,
     "regularMarketDayRange": "753.0 - 767.0",
     "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 15805,
+    "averageDailyVolume3Month": 15966,
     "fiftyTwoWeekLowChange": 154.0,
     "fiftyTwoWeekLowChangePercent": 0.25666666,
     "fiftyTwoWeekRange": "600.0 - 789.0",
@@ -1177,9 +1176,6 @@
     "earningsTimestampStart": 1751869800,
     "earningsTimestampEnd": 1752215400,
     "isEarningsDateEstimate": true,
-    "epsTrailingTwelveMonths": 45.84,
-    "shortName": "KG INTELLIGENCE CO LTD",
-    "longName": "KG Intelligence CO., LTD.",
     "corporateActions": [],
     "regularMarketTime": 1777617000,
     "exchange": "JPX",
@@ -1189,6 +1185,7 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
+    "epsTrailingTwelveMonths": 45.84,
     "fiftyDayAverageChange": 16.440002,
     "fiftyDayAverageChangePercent": 0.022289716,
     "twoHundredDayAverageChange": 58.40503,
@@ -1196,6 +1193,9 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
+    "hasPrePostMarketData": false,
+    "shortName": "KG INTELLIGENCE CO LTD",
+    "longName": "KG Intelligence CO., LTD.",
     "trailingPegRatio": null
   }
 }

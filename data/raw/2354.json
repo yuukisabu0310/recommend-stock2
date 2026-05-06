@@ -1,7 +1,7 @@
 {
   "ticker": "2354",
   "japanese_ticker": "2354.T",
-  "fetch_date": "2026-05-04T23:54:53.895347",
+  "fetch_date": "2026-05-05T23:51:11.797389",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-02-28 00:00:00": 5557365.0,
@@ -949,7 +949,7 @@
     "trailingPE": 13.333334,
     "volume": 120100,
     "regularMarketVolume": 120100,
-    "averageVolume": 149153,
+    "averageVolume": 150178,
     "averageVolume10days": 175266,
     "averageDailyVolume10Day": 175266,
     "bid": 896.0,
@@ -987,7 +987,7 @@
     "enterpriseToRevenue": 0.623,
     "enterpriseToEbitda": 6.607,
     "52WeekChange": 0.45542955,
-    "SandP52WeekChange": 0.2795812,
+    "SandP52WeekChange": 0.2842635,
     "lastDividendValue": 15.0,
     "lastDividendDate": 1803513600,
     "quoteType": "EQUITY",
@@ -1019,6 +1019,7 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "marketState": "CLOSED",
     "shortName": "YE DIGITAL CORPORATION",
     "longName": "YE DIGITAL Corporation",
     "corporateActions": [],
@@ -1037,7 +1038,7 @@
     "regularMarketChange": -22.0,
     "regularMarketDayRange": "895.0 - 920.0",
     "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 149153,
+    "averageDailyVolume3Month": 150178,
     "fiftyTwoWeekLowChange": 302.0,
     "fiftyTwoWeekLowChangePercent": 0.5067114,
     "fiftyTwoWeekRange": "596.0 - 993.0",
@@ -1055,7 +1056,6 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
-    "marketState": "CLOSED",
     "trailingPegRatio": null
   }
 }

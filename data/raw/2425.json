@@ -1,7 +1,7 @@
 {
   "ticker": "2425",
   "japanese_ticker": "2425.T",
-  "fetch_date": "2026-05-04T23:55:53.326778",
+  "fetch_date": "2026-05-05T23:52:09.877844",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": -8151228.0,
@@ -917,7 +917,7 @@
     "trailingPE": 10.81081,
     "volume": 500,
     "regularMarketVolume": 500,
-    "averageVolume": 4194,
+    "averageVolume": 4201,
     "averageVolume10days": 1366,
     "averageDailyVolume10Day": 1366,
     "bid": 748.0,
@@ -957,7 +957,7 @@
     "enterpriseToRevenue": 0.1,
     "enterpriseToEbitda": 1.687,
     "52WeekChange": -0.060301483,
-    "SandP52WeekChange": 0.2795812,
+    "SandP52WeekChange": 0.2842635,
     "lastDividendValue": 22.0,
     "lastDividendDate": 1774828800,
     "quoteType": "EQUITY",
@@ -987,7 +987,6 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "marketState": "CLOSED",
     "corporateActions": [],
     "regularMarketTime": 1777613071,
     "exchange": "JPX",
@@ -1006,7 +1005,7 @@
     "regularMarketChange": 0.0,
     "regularMarketDayRange": "748.0 - 748.0",
     "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 4194,
+    "averageDailyVolume3Month": 4201,
     "fiftyTwoWeekLowChange": 12.0,
     "fiftyTwoWeekLowChangePercent": 0.016304348,
     "fiftyTwoWeekRange": "736.0 - 855.0",
@@ -1024,6 +1023,7 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
+    "marketState": "CLOSED",
     "trailingPegRatio": null
   }
 }
