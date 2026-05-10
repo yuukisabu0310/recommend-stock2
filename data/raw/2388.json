@@ -1,7 +1,7 @@
 {
   "ticker": "2388",
   "japanese_ticker": "2388.T",
-  "fetch_date": "2026-05-09T23:48:36.098754",
+  "fetch_date": "2026-05-10T23:51:41.568431",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-09-30 00:00:00": 27208960.0,
@@ -124,15 +124,15 @@
     },
     "Diluted Average Shares": {
       "2025-09-30 00:00:00": null,
-      "2024-09-30 00:00:00": 42455078.0,
-      "2023-09-30 00:00:00": 37479872.0,
+      "2024-09-30 00:00:00": null,
+      "2023-09-30 00:00:00": 37486998.0,
       "2022-09-30 00:00:00": 35755078.0,
       "2021-09-30 00:00:00": 35755078.0
     },
     "Basic Average Shares": {
       "2025-09-30 00:00:00": null,
-      "2024-09-30 00:00:00": 42455078.0,
-      "2023-09-30 00:00:00": 37479872.0,
+      "2024-09-30 00:00:00": null,
+      "2023-09-30 00:00:00": 37486998.0,
       "2022-09-30 00:00:00": 35755078.0,
       "2021-09-30 00:00:00": 35755078.0
     },
@@ -145,7 +145,7 @@
     },
     "Basic EPS": {
       "2025-09-30 00:00:00": null,
-      "2024-09-30 00:00:00": -22.21,
+      "2024-09-30 00:00:00": null,
       "2023-09-30 00:00:00": -13.69,
       "2022-09-30 00:00:00": 1.54,
       "2021-09-30 00:00:00": -33.09
@@ -329,7 +329,7 @@
     },
     "Share Issued": {
       "2025-09-30 00:00:00": 42494478.0,
-      "2024-09-30 00:00:00": 42494478.0,
+      "2024-09-30 00:00:00": 42455078.0,
       "2023-09-30 00:00:00": 42494478.0,
       "2022-09-30 00:00:00": 35794478.0,
       "2021-09-30 00:00:00": null
@@ -1071,10 +1071,10 @@
     "beta": 0.8,
     "volume": 348300,
     "regularMarketVolume": 348300,
-    "averageVolume": 98370,
+    "averageVolume": 98264,
     "averageVolume10days": 161000,
     "averageDailyVolume10Day": 161000,
-    "bid": 52.0,
+    "bid": 0.0,
     "ask": 53.0,
     "bidSize": 0,
     "askSize": 0,
@@ -1136,10 +1136,6 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "marketState": "CLOSED",
-    "longName": "Wedge Holdings CO.,LTD.",
-    "corporateActions": [],
-    "regularMarketTime": 1778221800,
     "exchange": "JPX",
     "messageBoardId": "finmb_9262055",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1149,12 +1145,13 @@
     "esgPopulated": false,
     "regularMarketChangePercent": -3.7037036,
     "regularMarketPrice": 52.0,
+    "marketState": "PREPRE",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1075334400000,
     "regularMarketChange": -2.0,
     "regularMarketDayRange": "51.0 - 55.0",
     "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 98370,
+    "averageDailyVolume3Month": 98264,
     "fiftyTwoWeekLowChange": 1.0,
     "fiftyTwoWeekLowChangePercent": 0.019607844,
     "fiftyTwoWeekRange": "51.0 - 115.0",
@@ -1172,9 +1169,12 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "prevName": "Wedge Holdings CO., LTD.",
-    "nameChangeDate": "2026-05-09",
+    "nameChangeDate": "2026-05-10",
     "cryptoTradeable": false,
     "shortName": "WEDGE HOLDINGS CO",
+    "longName": "Wedge Holdings CO.,LTD.",
+    "corporateActions": [],
+    "regularMarketTime": 1778221800,
     "trailingPegRatio": null
   }
 }

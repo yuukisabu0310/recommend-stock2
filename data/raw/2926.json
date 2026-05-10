@@ -1,7 +1,7 @@
 {
   "ticker": "2926",
   "japanese_ticker": "2926.T",
-  "fetch_date": "2026-05-09T23:54:47.571169",
+  "fetch_date": "2026-05-10T23:57:31.992567",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-09-30 00:00:00": -3366144.0,
@@ -131,21 +131,21 @@
     },
     "Basic Average Shares": {
       "2025-09-30 00:00:00": null,
-      "2024-09-30 00:00:00": 14157800.0,
+      "2024-09-30 00:00:00": null,
       "2023-09-30 00:00:00": 14157800.0,
       "2022-09-30 00:00:00": 14157800.0,
       "2021-09-30 00:00:00": 14157800.0
     },
     "Diluted EPS": {
       "2025-09-30 00:00:00": null,
-      "2024-09-30 00:00:00": -2.0,
+      "2024-09-30 00:00:00": null,
       "2023-09-30 00:00:00": -1.61,
       "2022-09-30 00:00:00": -6.67,
       "2021-09-30 00:00:00": 0.92
     },
     "Basic EPS": {
       "2025-09-30 00:00:00": null,
-      "2024-09-30 00:00:00": -2.0,
+      "2024-09-30 00:00:00": null,
       "2023-09-30 00:00:00": -1.61,
       "2022-09-30 00:00:00": -6.67,
       "2021-09-30 00:00:00": 0.92
@@ -301,10 +301,10 @@
   "balance_sheet": {
     "Treasury Shares Number": {
       "2025-09-30 00:00:00": 0.0,
-      "2024-09-30 00:00:00": 278800.0,
+      "2024-09-30 00:00:00": null,
       "2023-09-30 00:00:00": 278800.0,
       "2022-09-30 00:00:00": 278800.0,
-      "2021-09-30 00:00:00": null
+      "2021-09-30 00:00:00": 278800.0
     },
     "Ordinary Shares Number": {
       "2025-09-30 00:00:00": 14157780.0,
@@ -1023,11 +1023,11 @@
     "trailingPE": 36.802975,
     "volume": 170700,
     "regularMarketVolume": 170700,
-    "averageVolume": 238457,
+    "averageVolume": 237660,
     "averageVolume10days": 184250,
     "averageDailyVolume10Day": 184250,
-    "bid": 99.0,
-    "ask": 100.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 1401620224,
@@ -1098,22 +1098,8 @@
     "firstTradeDateMilliseconds": 1069977600000,
     "regularMarketChange": 0.0,
     "regularMarketDayRange": "99.0 - 100.0",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "esgPopulated": false,
-    "regularMarketChangePercent": 0.0,
-    "regularMarketPrice": 99.0,
-    "corporateActions": [],
-    "regularMarketTime": 1778221800,
-    "exchange": "JPX",
-    "messageBoardId": "finmb_10159852",
-    "market": "jp_market",
-    "shortName": "SHINOZAKIYA INC",
-    "longName": "Shinozakiya, Inc.",
-    "marketState": "CLOSED",
     "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 238457,
+    "averageDailyVolume3Month": 237660,
     "fiftyTwoWeekLowChange": 13.0,
     "fiftyTwoWeekLowChangePercent": 0.15116279,
     "fiftyTwoWeekRange": "86.0 - 166.0",
@@ -1130,7 +1116,21 @@
     "twoHundredDayAverageChangePercent": -0.042877145,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
+    "shortName": "SHINOZAKIYA INC",
+    "longName": "Shinozakiya, Inc.",
+    "exchange": "JPX",
+    "messageBoardId": "finmb_10159852",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
+    "regularMarketChangePercent": 0.0,
+    "regularMarketPrice": 99.0,
     "cryptoTradeable": false,
+    "marketState": "PREPRE",
+    "corporateActions": [],
+    "regularMarketTime": 1778221800,
     "trailingPegRatio": null
   }
 }

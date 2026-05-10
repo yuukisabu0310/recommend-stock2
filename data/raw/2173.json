@@ -1,7 +1,7 @@
 {
   "ticker": "2173",
   "japanese_ticker": "2173.T",
-  "fetch_date": "2026-05-09T23:45:36.038809",
+  "fetch_date": "2026-05-10T23:48:51.774505",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-12-31 00:00:00": 4716792.0,
@@ -107,7 +107,7 @@
     },
     "Diluted Average Shares": {
       "2025-12-31 00:00:00": null,
-      "2024-12-31 00:00:00": 15483237.0,
+      "2024-12-31 00:00:00": 15482027.0,
       "2023-03-31 00:00:00": 30571838.0,
       "2022-03-31 00:00:00": 15647324.0
     },
@@ -277,13 +277,13 @@
     },
     "Ordinary Shares Number": {
       "2025-12-31 00:00:00": 15657148.0,
-      "2024-12-31 00:00:00": 15532654.0,
+      "2024-12-31 00:00:00": 15483154.0,
       "2023-03-31 00:00:00": 15284636.0,
       "2022-03-31 00:00:00": 15679836.0
     },
     "Share Issued": {
       "2025-12-31 00:00:00": 16248520.0,
-      "2024-12-31 00:00:00": 16175520.0,
+      "2024-12-31 00:00:00": 15483154.0,
       "2023-03-31 00:00:00": 16024200.0,
       "2022-03-31 00:00:00": 15950200.0
     },
@@ -1078,11 +1078,11 @@
     "trailingPE": 7.575634,
     "volume": 10600,
     "regularMarketVolume": 10600,
-    "averageVolume": 46245,
+    "averageVolume": 46837,
     "averageVolume10days": 15816,
     "averageDailyVolume10Day": 15816,
-    "bid": 928.0,
-    "ask": 936.0,
+    "bid": 0.0,
+    "ask": 998.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 14545490944,
@@ -1151,7 +1151,10 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "marketState": "CLOSED",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1204502400000,
+    "marketState": "PREPRE",
+    "cryptoTradeable": false,
     "shortName": "HAKUTEN CORPORATION",
     "longName": "Hakuten Corporation",
     "corporateActions": [],
@@ -1165,9 +1168,17 @@
     "esgPopulated": false,
     "regularMarketChangePercent": 0.0,
     "regularMarketPrice": 929.0,
+    "epsTrailingTwelveMonths": 122.63,
+    "fiftyDayAverageChange": -36.02002,
+    "fiftyDayAverageChangePercent": -0.03732567,
+    "twoHundredDayAverageChange": 112.5,
+    "twoHundredDayAverageChangePercent": 0.13778321,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "regularMarketChange": 0.0,
     "regularMarketDayRange": "924.0 - 933.0",
     "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 46245,
+    "averageDailyVolume3Month": 46837,
     "fiftyTwoWeekLowChange": 435.0,
     "fiftyTwoWeekLowChangePercent": 0.8805668,
     "fiftyTwoWeekRange": "494.0 - 1088.0",
@@ -1177,17 +1188,6 @@
     "earningsTimestampStart": 1754460000,
     "earningsTimestampEnd": 1754978400,
     "isEarningsDateEstimate": true,
-    "epsTrailingTwelveMonths": 122.63,
-    "fiftyDayAverageChange": -36.02002,
-    "fiftyDayAverageChangePercent": -0.03732567,
-    "twoHundredDayAverageChange": 112.5,
-    "twoHundredDayAverageChangePercent": 0.13778321,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1204502400000,
-    "regularMarketChange": 0.0,
     "trailingPegRatio": null
   }
 }

@@ -1,7 +1,7 @@
 {
   "ticker": "3021",
   "japanese_ticker": "3021.T",
-  "fetch_date": "2026-05-09T23:56:01.475577",
+  "fetch_date": "2026-05-10T23:58:41.025564",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-05-31 00:00:00": 46782.8,
@@ -1128,11 +1128,11 @@
     "trailingPE": 12.578406,
     "volume": 23900,
     "regularMarketVolume": 23900,
-    "averageVolume": 43168,
+    "averageVolume": 43123,
     "averageVolume10days": 27883,
     "averageDailyVolume10Day": 27883,
-    "bid": 1885.0,
-    "ask": 1890.0,
+    "bid": 0.0,
+    "ask": 1950.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 9905965056,
@@ -1199,13 +1199,23 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "cryptoTradeable": false,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1140393600000,
     "regularMarketChange": -10.0,
+    "exchange": "JPX",
+    "messageBoardId": "finmb_25601457",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
+    "regularMarketChangePercent": -0.5277045,
+    "regularMarketPrice": 1885.0,
+    "shortName": "PACIFIC NET CO. LTD",
+    "longName": "Pacific Net Co.,Ltd.",
     "regularMarketDayRange": "1858.0 - 1907.0",
     "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 43168,
+    "averageDailyVolume3Month": 43123,
     "fiftyTwoWeekLowChange": 677.0,
     "fiftyTwoWeekLowChangePercent": 0.56043047,
     "fiftyTwoWeekRange": "1208.0 - 2550.0",
@@ -1222,30 +1232,10 @@
     "twoHundredDayAverageChangePercent": 0.0930768,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
-    "marketState": "CLOSED",
-    "corporateActions": [
-      {
-        "header": "Dividend",
-        "message": "3021.T announced a cash dividend of JPY 52.00 with an ex-date of May. 28, 2026",
-        "meta": {
-          "eventType": "DIVIDEND",
-          "dateEpochMs": 1779894000000,
-          "amount": "52.00"
-        }
-      }
-    ],
+    "cryptoTradeable": false,
+    "marketState": "PREPRE",
+    "corporateActions": [],
     "regularMarketTime": 1778221800,
-    "exchange": "JPX",
-    "messageBoardId": "finmb_25601457",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
-    "regularMarketChangePercent": -0.5277045,
-    "regularMarketPrice": 1885.0,
-    "shortName": "PACIFIC NET CO. LTD",
-    "longName": "Pacific Net Co.,Ltd.",
     "trailingPegRatio": null
   }
 }

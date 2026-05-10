@@ -1,7 +1,7 @@
 {
   "ticker": "1870",
   "japanese_ticker": "1870.T",
-  "fetch_date": "2026-05-09T23:42:16.111058",
+  "fetch_date": "2026-05-10T23:45:42.058512",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": -140286000.0,
@@ -264,7 +264,7 @@
   },
   "balance_sheet": {
     "Treasury Shares Number": {
-      "2025-03-31 00:00:00": 1578452.0,
+      "2025-03-31 00:00:00": null,
       "2024-03-31 00:00:00": 1584173.0,
       "2023-03-31 00:00:00": 1598000.0,
       "2022-03-31 00:00:00": 1612000.0
@@ -1040,11 +1040,11 @@
     "trailingPE": 8.888888,
     "volume": 123400,
     "regularMarketVolume": 123400,
-    "averageVolume": 157836,
+    "averageVolume": 155891,
     "averageVolume10days": 176066,
     "averageDailyVolume10Day": 176066,
-    "bid": 2146.0,
-    "ask": 2153.0,
+    "bid": 2186.0,
+    "ask": 2186.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 92927057920,
@@ -1109,7 +1109,7 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "marketState": "CLOSED",
+    "shortName": "YAHAGI CONSTRUCTION CO",
     "longName": "Yahagi Construction Co.,Ltd.",
     "corporateActions": [],
     "regularMarketTime": 1778221800,
@@ -1122,12 +1122,14 @@
     "esgPopulated": false,
     "regularMarketChangePercent": -0.23180345,
     "regularMarketPrice": 2152.0,
+    "marketState": "PREPRE",
+    "cryptoTradeable": false,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 978566400000,
     "regularMarketChange": -5.0,
     "regularMarketDayRange": "2120.0 - 2157.0",
     "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 157836,
+    "averageDailyVolume3Month": 155891,
     "fiftyTwoWeekLowChange": 531.0,
     "fiftyTwoWeekLowChangePercent": 0.32757556,
     "fiftyTwoWeekRange": "1621.0 - 2534.0",
@@ -1144,8 +1146,6 @@
     "twoHundredDayAverageChangePercent": -0.032104224,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
-    "shortName": "YAHAGI CONSTRUCTION CO",
     "trailingPegRatio": null
   }
 }

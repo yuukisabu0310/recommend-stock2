@@ -1,7 +1,7 @@
 {
   "ticker": "2929",
   "japanese_ticker": "2929.T",
-  "fetch_date": "2026-05-09T23:54:52.058066",
+  "fetch_date": "2026-05-10T23:57:36.172247",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-07-31 00:00:00": null,
@@ -124,28 +124,28 @@
     },
     "Diluted Average Shares": {
       "2025-07-31 00:00:00": 28682775.0,
-      "2024-07-31 00:00:00": 28441034.0,
-      "2023-07-31 00:00:00": 28876505.0,
+      "2024-07-31 00:00:00": null,
+      "2023-07-31 00:00:00": 28875351.0,
       "2022-07-31 00:00:00": 29013832.0,
-      "2021-07-31 00:00:00": null
+      "2021-07-31 00:00:00": 29067656.0
     },
     "Basic Average Shares": {
       "2025-07-31 00:00:00": 28682775.0,
-      "2024-07-31 00:00:00": 28441034.0,
-      "2023-07-31 00:00:00": 28876505.0,
+      "2024-07-31 00:00:00": null,
+      "2023-07-31 00:00:00": 28875351.0,
       "2022-07-31 00:00:00": 29013832.0,
-      "2021-07-31 00:00:00": null
+      "2021-07-31 00:00:00": 29053368.0
     },
     "Diluted EPS": {
       "2025-07-31 00:00:00": null,
-      "2024-07-31 00:00:00": 112.71,
+      "2024-07-31 00:00:00": null,
       "2023-07-31 00:00:00": 106.7,
       "2022-07-31 00:00:00": -12.89,
       "2021-07-31 00:00:00": 132.14
     },
     "Basic EPS": {
       "2025-07-31 00:00:00": null,
-      "2024-07-31 00:00:00": 112.71,
+      "2024-07-31 00:00:00": null,
       "2023-07-31 00:00:00": 106.7,
       "2022-07-31 00:00:00": -12.89,
       "2021-07-31 00:00:00": 132.21
@@ -1125,11 +1125,11 @@
     "forwardPE": 3.976834,
     "volume": 139100,
     "regularMarketVolume": 139100,
-    "averageVolume": 293622,
+    "averageVolume": 297007,
     "averageVolume10days": 161716,
     "averageDailyVolume10Day": 161716,
-    "bid": 618.0,
-    "ask": 620.0,
+    "bid": 0.0,
+    "ask": 625.0,
     "marketCap": 17948807168,
     "nonDilutedMarketCap": 17948806986,
     "fiftyTwoWeekLow": 560.0,
@@ -1195,6 +1195,11 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1150070400000,
+    "regularMarketChange": -5.0,
+    "regularMarketDayRange": "615.0 - 625.0",
+    "longName": "Pharma Foods International Co., Ltd.",
     "corporateActions": [],
     "regularMarketTime": 1778221800,
     "exchange": "JPX",
@@ -1206,18 +1211,11 @@
     "esgPopulated": false,
     "regularMarketChangePercent": -0.80256826,
     "regularMarketPrice": 618.0,
-    "fiftyDayAverageChange": -38.140015,
-    "fiftyDayAverageChangePercent": -0.058127858,
-    "twoHundredDayAverageChange": -139.16998,
-    "twoHundredDayAverageChangePercent": -0.18380283,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
+    "marketState": "PREPRE",
+    "shortName": "PHARMA FOODS INTERNATIONAL CO",
     "cryptoTradeable": false,
-    "firstTradeDateMilliseconds": 1150070400000,
-    "regularMarketChange": -5.0,
-    "regularMarketDayRange": "615.0 - 625.0",
     "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 293622,
+    "averageDailyVolume3Month": 297007,
     "fiftyTwoWeekLowChange": 58.0,
     "fiftyTwoWeekLowChangePercent": 0.10357143,
     "fiftyTwoWeekRange": "560.0 - 1064.0",
@@ -1229,10 +1227,12 @@
     "isEarningsDateEstimate": false,
     "epsTrailingTwelveMonths": -58.34,
     "epsForward": 155.4,
-    "marketState": "CLOSED",
-    "hasPrePostMarketData": false,
-    "shortName": "PHARMA FOODS INTERNATIONAL CO",
-    "longName": "Pharma Foods International Co., Ltd.",
+    "fiftyDayAverageChange": -38.140015,
+    "fiftyDayAverageChangePercent": -0.058127858,
+    "twoHundredDayAverageChange": -139.16998,
+    "twoHundredDayAverageChangePercent": -0.18380283,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
     "trailingPegRatio": null
   }
 }

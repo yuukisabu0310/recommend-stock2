@@ -1,7 +1,7 @@
 {
   "ticker": "2813",
   "japanese_ticker": "2813.T",
-  "fetch_date": "2026-05-09T23:53:34.568250",
+  "fetch_date": "2026-05-10T23:56:24.226432",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": -950426.4,
@@ -113,7 +113,7 @@
     },
     "Diluted Average Shares": {
       "2025-03-31 00:00:00": 2491634.0,
-      "2024-03-31 00:00:00": 2487951.0,
+      "2024-03-31 00:00:00": 2487936.0,
       "2023-03-31 00:00:00": 2478735.0,
       "2022-03-31 00:00:00": 2464578.0
     },
@@ -312,7 +312,7 @@
       "2022-03-31 00:00:00": 2469168.0
     },
     "Share Issued": {
-      "2025-03-31 00:00:00": 2847957.0,
+      "2025-03-31 00:00:00": 2492340.0,
       "2024-03-31 00:00:00": 2847957.0,
       "2023-03-31 00:00:00": 2847957.0,
       "2022-03-31 00:00:00": 2847957.0
@@ -1103,10 +1103,10 @@
     "trailingPE": 9.569434,
     "volume": 4300,
     "regularMarketVolume": 4300,
-    "averageVolume": 5036,
+    "averageVolume": 4992,
     "averageVolume10days": 3133,
     "averageDailyVolume10Day": 3133,
-    "bid": 4000.0,
+    "bid": 4045.0,
     "ask": 4045.0,
     "bidSize": 0,
     "askSize": 0,
@@ -1174,23 +1174,22 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "cryptoTradeable": false,
     "corporateActions": [],
     "regularMarketTime": 1778221800,
+    "exchange": "JPX",
     "messageBoardId": "finmb_9794139",
     "exchangeTimezoneName": "Asia/Tokyo",
     "exchangeTimezoneShortName": "JST",
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "regularMarketChangePercent": 2.2756004,
-    "regularMarketPrice": 4045.0,
-    "marketState": "CLOSED",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 947030400000,
     "regularMarketChange": 90.0,
     "regularMarketDayRange": "3910.0 - 4045.0",
     "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 5036,
+    "averageDailyVolume3Month": 4992,
     "fiftyTwoWeekLowChange": 1099.0,
     "fiftyTwoWeekLowChangePercent": 0.3730482,
     "fiftyTwoWeekRange": "2946.0 - 4465.0",
@@ -1207,8 +1206,9 @@
     "twoHundredDayAverageChangePercent": 0.18965864,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
-    "exchange": "JPX",
+    "regularMarketChangePercent": 2.2756004,
+    "regularMarketPrice": 4045.0,
+    "marketState": "PREPRE",
     "shortName": "WAKOU SHOKUHIN CO",
     "longName": "Wakou Shokuhin Co., Ltd.",
     "trailingPegRatio": null

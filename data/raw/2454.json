@@ -1,7 +1,7 @@
 {
   "ticker": "2454",
   "japanese_ticker": "2454.T",
-  "fetch_date": "2026-05-09T23:49:27.997817",
+  "fetch_date": "2026-05-10T23:52:31.798649",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": 286520.0,
@@ -107,7 +107,7 @@
     },
     "Basic Average Shares": {
       "2025-03-31 00:00:00": 13956008.0,
-      "2024-03-31 00:00:00": 13835627.0,
+      "2024-03-31 00:00:00": 13835376.0,
       "2023-03-31 00:00:00": 13624192.0,
       "2022-03-31 00:00:00": 13551372.0
     },
@@ -258,7 +258,7 @@
   },
   "balance_sheet": {
     "Treasury Shares Number": {
-      "2025-03-31 00:00:00": 118216.0,
+      "2025-03-31 00:00:00": null,
       "2024-03-31 00:00:00": 206363.0,
       "2023-03-31 00:00:00": 295979.0,
       "2022-03-31 00:00:00": 373699.0
@@ -270,7 +270,7 @@
       "2022-03-31 00:00:00": 13571801.0
     },
     "Share Issued": {
-      "2025-03-31 00:00:00": 14103600.0,
+      "2025-03-31 00:00:00": 13985384.0,
       "2024-03-31 00:00:00": 14103600.0,
       "2023-03-31 00:00:00": 13960900.0,
       "2022-03-31 00:00:00": 13945500.0
@@ -930,11 +930,11 @@
     "trailingPE": 90.09662,
     "volume": 3200,
     "regularMarketVolume": 3200,
-    "averageVolume": 9359,
+    "averageVolume": 9355,
     "averageVolume10days": 5566,
     "averageDailyVolume10Day": 5566,
-    "bid": 371.0,
-    "ask": 374.0,
+    "bid": 0.0,
+    "ask": 375.0,
     "marketCap": 5256811008,
     "nonDilutedMarketCap": 5256810971,
     "fiftyTwoWeekLow": 329.0,
@@ -996,30 +996,19 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "marketState": "CLOSED",
     "regularMarketChange": 4.0,
     "regularMarketDayRange": "366.0 - 373.0",
     "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 9359,
+    "averageDailyVolume3Month": 9355,
     "fiftyTwoWeekLowChange": 44.0,
     "fiftyTwoWeekLowChangePercent": 0.1337386,
     "fiftyTwoWeekRange": "329.0 - 420.0",
     "fiftyTwoWeekHighChange": -47.0,
     "fiftyTwoWeekHighChangePercent": -0.11190476,
     "fiftyTwoWeekChangePercent": 10.6824875,
-    "earningsTimestampStart": 1747035000,
-    "earningsTimestampEnd": 1747035000,
-    "isEarningsDateEstimate": false,
-    "epsTrailingTwelveMonths": 4.14,
-    "fiftyDayAverageChange": -4.100006,
-    "fiftyDayAverageChangePercent": -0.010872464,
-    "twoHundredDayAverageChange": -15.429993,
-    "twoHundredDayAverageChangePercent": -0.039724,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
-    "shortName": "ALL ABOUT INC",
-    "longName": "All About, Inc.",
+    "marketState": "PREPRE",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1126569600000,
     "corporateActions": [],
     "regularMarketTime": 1778221800,
     "exchange": "JPX",
@@ -1031,8 +1020,19 @@
     "esgPopulated": false,
     "regularMarketChangePercent": 1.0840108,
     "regularMarketPrice": 373.0,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1126569600000,
+    "shortName": "ALL ABOUT INC",
+    "longName": "All About, Inc.",
+    "earningsTimestampStart": 1747035000,
+    "earningsTimestampEnd": 1747035000,
+    "isEarningsDateEstimate": false,
+    "epsTrailingTwelveMonths": 4.14,
+    "fiftyDayAverageChange": -4.100006,
+    "fiftyDayAverageChangePercent": -0.010872464,
+    "twoHundredDayAverageChange": -15.429993,
+    "twoHundredDayAverageChangePercent": -0.039724,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
     "trailingPegRatio": null
   }
 }

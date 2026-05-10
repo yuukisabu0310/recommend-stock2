@@ -1,7 +1,7 @@
 {
   "ticker": "1780",
   "japanese_ticker": "1780.T",
-  "fetch_date": "2026-05-09T23:40:54.992717",
+  "fetch_date": "2026-05-10T23:44:26.101511",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": 2766798.0,
@@ -107,13 +107,13 @@
     },
     "Diluted Average Shares": {
       "2025-03-31 00:00:00": 18927227.0,
-      "2024-03-31 00:00:00": 18927308.0,
+      "2024-03-31 00:00:00": 18927538.0,
       "2023-03-31 00:00:00": 18927321.0,
       "2022-03-31 00:00:00": 18927321.0
     },
     "Basic Average Shares": {
       "2025-03-31 00:00:00": 18927227.0,
-      "2024-03-31 00:00:00": 18927308.0,
+      "2024-03-31 00:00:00": 18927538.0,
       "2023-03-31 00:00:00": 18927321.0,
       "2022-03-31 00:00:00": 18927321.0
     },
@@ -270,13 +270,13 @@
       "2022-03-31 00:00:00": 2176193.0
     },
     "Ordinary Shares Number": {
-      "2025-03-31 00:00:00": 18927227.0,
+      "2025-03-31 00:00:00": 18927228.0,
       "2024-03-31 00:00:00": 18927228.0,
       "2023-03-31 00:00:00": 18927321.0,
       "2022-03-31 00:00:00": 18927321.0
     },
     "Share Issued": {
-      "2025-03-31 00:00:00": 21103514.0,
+      "2025-03-31 00:00:00": 18927228.0,
       "2024-03-31 00:00:00": 21103514.0,
       "2023-03-31 00:00:00": 21103514.0,
       "2022-03-31 00:00:00": 21103514.0
@@ -992,11 +992,11 @@
     "trailingPE": 7.806271,
     "volume": 21700,
     "regularMarketVolume": 21700,
-    "averageVolume": 54996,
+    "averageVolume": 54651,
     "averageVolume10days": 26533,
     "averageDailyVolume10Day": 26533,
-    "bid": 1449.0,
-    "ask": 1456.0,
+    "bid": 0.0,
+    "ask": 1450.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 27425552384,
@@ -1062,12 +1062,18 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "marketState": "PREPRE",
+    "shortName": "YAMAURA CORP",
+    "longName": "Yamaura Corporation",
+    "cryptoTradeable": false,
+    "regularMarketChangePercent": -1.2269938,
+    "regularMarketPrice": 1449.0,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 978307200000,
     "regularMarketChange": -18.0,
     "regularMarketDayRange": "1449.0 - 1462.0",
     "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 54996,
+    "averageDailyVolume3Month": 54651,
     "fiftyTwoWeekLowChange": 253.0,
     "fiftyTwoWeekLowChangePercent": 0.21153846,
     "fiftyTwoWeekRange": "1196.0 - 1696.0",
@@ -1080,14 +1086,10 @@
     "epsTrailingTwelveMonths": 185.62,
     "fiftyDayAverageChange": -92.5,
     "fiftyDayAverageChangePercent": -0.060006488,
-    "marketState": "CLOSED",
     "twoHundredDayAverageChange": -26.744995,
     "twoHundredDayAverageChangePercent": -0.018123046,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
-    "regularMarketChangePercent": -1.2269938,
-    "regularMarketPrice": 1449.0,
     "corporateActions": [],
     "regularMarketTime": 1778221800,
     "exchange": "JPX",
@@ -1097,8 +1099,6 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "shortName": "YAMAURA CORP",
-    "longName": "Yamaura Corporation",
     "trailingPegRatio": null
   }
 }

@@ -1,7 +1,7 @@
 {
   "ticker": "2335",
   "japanese_ticker": "2335.T",
-  "fetch_date": "2026-05-09T23:47:47.852674",
+  "fetch_date": "2026-05-10T23:50:55.951128",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": 104832000.0,
@@ -1004,11 +1004,11 @@
     "trailingPE": 13.262773,
     "volume": 45400,
     "regularMarketVolume": 45400,
-    "averageVolume": 24464,
+    "averageVolume": 24530,
     "averageVolume10days": 31500,
     "averageDailyVolume10Day": 31500,
-    "bid": 1015.0,
-    "ask": 1018.0,
+    "bid": 0.0,
+    "ask": 1019.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 15404722176,
@@ -1079,6 +1079,8 @@
     "customPriceAlertConfidence": "LOW",
     "corporateActions": [],
     "regularMarketTime": 1778221800,
+    "marketState": "PREPRE",
+    "longName": "Cube System Inc.",
     "exchange": "JPX",
     "messageBoardId": "finmb_9236621",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1095,11 +1097,12 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
+    "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1164153600000,
     "regularMarketChange": -6.0,
     "regularMarketDayRange": "1012.0 - 1025.0",
     "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 24464,
+    "averageDailyVolume3Month": 24530,
     "fiftyTwoWeekLowChange": 17.0,
     "fiftyTwoWeekLowChangePercent": 0.017034069,
     "fiftyTwoWeekRange": "998.0 - 1245.0",
@@ -1110,10 +1113,7 @@
     "earningsTimestampEnd": 1754982000,
     "isEarningsDateEstimate": true,
     "epsTrailingTwelveMonths": 76.53,
-    "marketState": "CLOSED",
-    "hasPrePostMarketData": false,
     "shortName": "CUBE SYSTEM INC",
-    "longName": "Cube System Inc.",
     "trailingPegRatio": null
   }
 }

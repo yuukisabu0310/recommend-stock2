@@ -1,7 +1,7 @@
 {
   "ticker": "2480",
   "japanese_ticker": "2480.T",
-  "fetch_date": "2026-05-09T23:49:49.685425",
+  "fetch_date": "2026-05-10T23:52:51.106358",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": -23587131.085246,
@@ -101,13 +101,13 @@
     },
     "Diluted Average Shares": {
       "2025-03-31 00:00:00": 3528217.0,
-      "2024-03-31 00:00:00": 3528217.0,
+      "2024-03-31 00:00:00": 3528288.0,
       "2023-03-31 00:00:00": 3528217.0,
       "2022-03-31 00:00:00": 3528234.0
     },
     "Basic Average Shares": {
       "2025-03-31 00:00:00": 3528217.0,
-      "2024-03-31 00:00:00": 3528217.0,
+      "2024-03-31 00:00:00": 3528288.0,
       "2023-03-31 00:00:00": 3528217.0,
       "2022-03-31 00:00:00": 3528234.0
     },
@@ -252,7 +252,7 @@
   },
   "balance_sheet": {
     "Treasury Shares Number": {
-      "2025-03-31 00:00:00": 41783.0,
+      "2025-03-31 00:00:00": null,
       "2024-03-31 00:00:00": 41783.0,
       "2023-03-31 00:00:00": 41783.0,
       "2022-03-31 00:00:00": 41783.0
@@ -264,7 +264,7 @@
       "2022-03-31 00:00:00": 3528217.0
     },
     "Share Issued": {
-      "2025-03-31 00:00:00": 3570000.0,
+      "2025-03-31 00:00:00": 3528217.0,
       "2024-03-31 00:00:00": 3570000.0,
       "2023-03-31 00:00:00": 3570000.0,
       "2022-03-31 00:00:00": 3570000.0
@@ -875,11 +875,11 @@
     "trailingPE": 16.556932,
     "volume": 300,
     "regularMarketVolume": 300,
-    "averageVolume": 1589,
+    "averageVolume": 1592,
     "averageVolume10days": 1300,
     "averageDailyVolume10Day": 1300,
-    "bid": 1705.0,
-    "ask": 1725.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 6033027072,
@@ -945,26 +945,8 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "marketState": "CLOSED",
     "regularMarketChangePercent": 0.5882353,
     "regularMarketPrice": 1710.0,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1145577600000,
-    "regularMarketChange": 10.0,
-    "regularMarketDayRange": "1710.0 - 1710.0",
-    "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 1589,
-    "fiftyTwoWeekLowChange": 330.0,
-    "fiftyTwoWeekLowChangePercent": 0.23913044,
-    "fiftyTwoWeekRange": "1380.0 - 1974.0",
-    "shortName": "SYSTEM LOCATION",
-    "longName": "System Location Co.,Ltd.",
-    "fiftyTwoWeekHighChange": -264.0,
-    "fiftyTwoWeekHighChangePercent": -0.1337386,
-    "fiftyTwoWeekChangePercent": 21.019114,
-    "earningsTimestampStart": 1746167400,
-    "earningsTimestampEnd": 1746167400,
-    "isEarningsDateEstimate": false,
     "epsTrailingTwelveMonths": 103.28,
     "fiftyDayAverageChange": 8.359985,
     "fiftyDayAverageChangePercent": 0.004912899,
@@ -973,6 +955,9 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
+    "marketState": "PREPRE",
+    "shortName": "SYSTEM LOCATION",
+    "longName": "System Location Co.,Ltd.",
     "corporateActions": [],
     "regularMarketTime": 1778200084,
     "exchange": "JPX",
@@ -982,6 +967,21 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1145577600000,
+    "regularMarketChange": 10.0,
+    "regularMarketDayRange": "1710.0 - 1710.0",
+    "fullExchangeName": "Tokyo",
+    "averageDailyVolume3Month": 1592,
+    "fiftyTwoWeekLowChange": 330.0,
+    "fiftyTwoWeekLowChangePercent": 0.23913044,
+    "fiftyTwoWeekRange": "1380.0 - 1974.0",
+    "fiftyTwoWeekHighChange": -264.0,
+    "fiftyTwoWeekHighChangePercent": -0.1337386,
+    "fiftyTwoWeekChangePercent": 21.019114,
+    "earningsTimestampStart": 1746167400,
+    "earningsTimestampEnd": 1746167400,
+    "isEarningsDateEstimate": false,
     "trailingPegRatio": null
   }
 }

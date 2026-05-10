@@ -1,7 +1,7 @@
 {
   "ticker": "2689",
   "japanese_ticker": "2689.T",
-  "fetch_date": "2026-05-09T23:51:39.107535",
+  "fetch_date": "2026-05-10T23:54:35.911682",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-06-30 00:00:00": null,
@@ -124,17 +124,17 @@
     },
     "Diluted Average Shares": {
       "2025-06-30 00:00:00": 5923495.0,
-      "2024-06-30 00:00:00": 5961397.0,
-      "2023-06-30 00:00:00": 6020520.0,
+      "2024-06-30 00:00:00": null,
+      "2023-06-30 00:00:00": 6020596.0,
       "2022-06-30 00:00:00": 6073244.0,
-      "2021-06-30 00:00:00": null
+      "2021-06-30 00:00:00": 6082368.0
     },
     "Basic Average Shares": {
       "2025-06-30 00:00:00": 5923495.0,
-      "2024-06-30 00:00:00": 5961397.0,
-      "2023-06-30 00:00:00": 6020520.0,
+      "2024-06-30 00:00:00": null,
+      "2023-06-30 00:00:00": 6020596.0,
       "2022-06-30 00:00:00": 6073244.0,
-      "2021-06-30 00:00:00": null
+      "2021-06-30 00:00:00": 6082368.0
     },
     "Diluted EPS": {
       "2025-06-30 00:00:00": 241.43,
@@ -145,10 +145,10 @@
     },
     "Basic EPS": {
       "2025-06-30 00:00:00": 241.43,
-      "2024-06-30 00:00:00": 251.68,
+      "2024-06-30 00:00:00": null,
       "2023-06-30 00:00:00": 234.9,
       "2022-06-30 00:00:00": 252.8,
-      "2021-06-30 00:00:00": null
+      "2021-06-30 00:00:00": 162.66
     },
     "Diluted NI Availto Com Stockholders": {
       "2025-06-30 00:00:00": null,
@@ -996,7 +996,7 @@
     },
     "Net Foreign Currency Exchange Gain Loss": {
       "2024-06-30 00:00:00": -7062000.0,
-      "2023-06-30 00:00:00": 0.0,
+      "2023-06-30 00:00:00": null,
       "2022-06-30 00:00:00": null,
       "2021-06-30 00:00:00": null
     },
@@ -1096,11 +1096,11 @@
     "trailingPE": 10.090817,
     "volume": 1200,
     "regularMarketVolume": 1200,
-    "averageVolume": 2615,
+    "averageVolume": 2648,
     "averageVolume10days": 2833,
     "averageDailyVolume10Day": 2833,
-    "bid": 2082.0,
-    "ask": 2100.0,
+    "bid": 0.0,
+    "ask": 2111.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 12448859136,
@@ -1165,22 +1165,10 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "marketState": "CLOSED",
     "shortName": "OLBA HEALTHCARE HLDGS INC",
     "longName": "OLBA HEALTHCARE HOLDINGS, Inc.",
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 978566400000,
-    "regularMarketChangePercent": 0.0,
-    "regularMarketChange": 0.0,
-    "regularMarketDayRange": "2079.0 - 2100.0",
-    "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 2615,
-    "fiftyTwoWeekLowChange": 115.0,
-    "fiftyTwoWeekLowChangePercent": 0.057934508,
-    "fiftyTwoWeekRange": "1985.0 - 2238.0",
-    "fiftyTwoWeekHighChange": -138.0,
-    "fiftyTwoWeekHighChangePercent": -0.061662197,
-    "fiftyTwoWeekChangePercent": -2.0065308,
+    "corporateActions": [],
+    "regularMarketTime": 1778221800,
     "earningsTimestampStart": 1754546400,
     "earningsTimestampEnd": 1754892000,
     "earningsCallTimestampStart": 1739876340,
@@ -1191,8 +1179,11 @@
     "fiftyDayAverageChangePercent": -0.0037477596,
     "twoHundredDayAverageChange": 32.899902,
     "twoHundredDayAverageChangePercent": 0.01591597,
-    "corporateActions": [],
-    "regularMarketTime": 1778221800,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "prevName": "Kawanishi Holdings, Inc.",
+    "nameChangeDate": "2026-05-10",
+    "cryptoTradeable": false,
     "exchange": "JPX",
     "messageBoardId": "finmb_8789263",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1200,12 +1191,21 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
+    "regularMarketChangePercent": 0.0,
     "regularMarketPrice": 2100.0,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "prevName": "Kawanishi Holdings, Inc.",
-    "nameChangeDate": "2026-05-09",
-    "cryptoTradeable": false,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 978566400000,
+    "regularMarketChange": 0.0,
+    "regularMarketDayRange": "2079.0 - 2100.0",
+    "fullExchangeName": "Tokyo",
+    "averageDailyVolume3Month": 2648,
+    "fiftyTwoWeekLowChange": 115.0,
+    "fiftyTwoWeekLowChangePercent": 0.057934508,
+    "fiftyTwoWeekRange": "1985.0 - 2238.0",
+    "fiftyTwoWeekHighChange": -138.0,
+    "fiftyTwoWeekHighChangePercent": -0.061662197,
+    "fiftyTwoWeekChangePercent": -2.0065308,
+    "marketState": "PREPRE",
     "trailingPegRatio": null
   }
 }

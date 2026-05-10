@@ -1,7 +1,7 @@
 {
   "ticker": "1897",
   "japanese_ticker": "1897.T",
-  "fetch_date": "2026-05-09T23:42:36.861145",
+  "fetch_date": "2026-05-10T23:46:01.253021",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-12-31 00:00:00": 3168000.0,
@@ -125,7 +125,7 @@
     "Diluted Average Shares": {
       "2025-12-31 00:00:00": 2109591.0,
       "2024-12-31 00:00:00": 2155619.0,
-      "2023-12-31 00:00:00": 2155784.0,
+      "2023-12-31 00:00:00": 2157584.0,
       "2022-12-31 00:00:00": 2155968.0,
       "2021-12-31 00:00:00": null
     },
@@ -138,14 +138,14 @@
     },
     "Diluted EPS": {
       "2025-12-31 00:00:00": null,
-      "2024-12-31 00:00:00": 148.84,
+      "2024-12-31 00:00:00": null,
       "2023-12-31 00:00:00": 125.14,
       "2022-12-31 00:00:00": 88.35,
       "2021-12-31 00:00:00": 20.82
     },
     "Basic EPS": {
       "2025-12-31 00:00:00": null,
-      "2024-12-31 00:00:00": 148.84,
+      "2024-12-31 00:00:00": null,
       "2023-12-31 00:00:00": 125.14,
       "2022-12-31 00:00:00": 88.35,
       "2021-12-31 00:00:00": 20.82
@@ -308,10 +308,10 @@
   "balance_sheet": {
     "Treasury Shares Number": {
       "2025-12-31 00:00:00": 1701612.0,
-      "2024-12-31 00:00:00": 1651239.0,
+      "2024-12-31 00:00:00": null,
       "2023-12-31 00:00:00": 1650946.0,
       "2022-12-31 00:00:00": 1650779.0,
-      "2021-12-31 00:00:00": null
+      "2021-12-31 00:00:00": 1650630.0
     },
     "Ordinary Shares Number": {
       "2025-12-31 00:00:00": 2105048.0,
@@ -322,7 +322,7 @@
     },
     "Share Issued": {
       "2025-12-31 00:00:00": 3806660.0,
-      "2024-12-31 00:00:00": 3806660.0,
+      "2024-12-31 00:00:00": 2155754.0,
       "2023-12-31 00:00:00": 3806660.0,
       "2022-12-31 00:00:00": 3806660.0,
       "2021-12-31 00:00:00": null
@@ -1070,11 +1070,11 @@
     "trailingPE": 30.769918,
     "volume": 2300,
     "regularMarketVolume": 2300,
-    "averageVolume": 1068,
+    "averageVolume": 1083,
     "averageVolume10days": 1150,
     "averageDailyVolume10Day": 1150,
-    "bid": 3330.0,
-    "ask": 3460.0,
+    "bid": 0.0,
+    "ask": 3540.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 7251890176,
@@ -1143,12 +1143,22 @@
     "customPriceAlertConfidence": "LOW",
     "regularMarketChangePercent": 0.4373178,
     "regularMarketPrice": 3445.0,
-    "hasPrePostMarketData": false,
+    "shortName": "KANESHITA CONSTRUCTION CO",
+    "longName": "The Kaneshita Construction Co.,Ltd.",
+    "corporateActions": [],
+    "regularMarketTime": 1778221414,
+    "exchange": "JPX",
+    "messageBoardId": "finmb_5545275",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
     "firstTradeDateMilliseconds": 954806400000,
     "regularMarketChange": 15.0,
     "regularMarketDayRange": "3330.0 - 3455.0",
     "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 1068,
+    "averageDailyVolume3Month": 1083,
     "fiftyTwoWeekLowChange": 775.0,
     "fiftyTwoWeekLowChangePercent": 0.29026216,
     "fiftyTwoWeekRange": "2670.0 - 3515.0",
@@ -1159,8 +1169,8 @@
     "earningsTimestampEnd": 1754965800,
     "isEarningsDateEstimate": true,
     "epsTrailingTwelveMonths": 111.96,
-    "shortName": "KANESHITA CONSTRUCTION CO",
-    "longName": "The Kaneshita Construction Co.,Ltd.",
+    "marketState": "PREPRE",
+    "hasPrePostMarketData": false,
     "fiftyDayAverageChange": 99.69995,
     "fiftyDayAverageChangePercent": 0.029802993,
     "twoHundredDayAverageChange": 392.8401,
@@ -1168,16 +1178,6 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
-    "marketState": "CLOSED",
-    "corporateActions": [],
-    "regularMarketTime": 1778221414,
-    "exchange": "JPX",
-    "messageBoardId": "finmb_5545275",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
     "trailingPegRatio": null
   }
 }

@@ -1,7 +1,7 @@
 {
   "ticker": "1885",
   "japanese_ticker": "1885.T",
-  "fetch_date": "2026-05-09T23:42:29.205080",
+  "fetch_date": "2026-05-10T23:45:53.857721",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": 255482000.0,
@@ -1065,11 +1065,11 @@
     "forwardPE": 21.346298,
     "volume": 450900,
     "regularMarketVolume": 450900,
-    "averageVolume": 638121,
+    "averageVolume": 616058,
     "averageVolume10days": 582883,
     "averageDailyVolume10Day": 582883,
-    "bid": 2843.0,
-    "ask": 2856.0,
+    "bid": 2856.0,
+    "ask": 2860.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 220622733312,
@@ -1142,8 +1142,8 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "marketState": "CLOSED",
-    "longName": "TOA Corporation",
+    "marketState": "PREPRE",
+    "shortName": "TOA CORPORATION (CONST)",
     "corporateActions": [],
     "regularMarketTime": 1778221800,
     "exchange": "JPX",
@@ -1160,7 +1160,7 @@
     "regularMarketChange": 12.0,
     "regularMarketDayRange": "2803.0 - 2866.0",
     "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 638121,
+    "averageDailyVolume3Month": 616058,
     "fiftyTwoWeekLowChange": 1463.0,
     "fiftyTwoWeekLowChangePercent": 1.0517613,
     "fiftyTwoWeekRange": "1391.0 - 4680.0",
@@ -1179,7 +1179,7 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
-    "shortName": "TOA CORPORATION (CONST)",
+    "longName": "TOA Corporation",
     "trailingPegRatio": null
   }
 }

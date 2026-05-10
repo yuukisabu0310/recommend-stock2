@@ -1,7 +1,7 @@
 {
   "ticker": "2734",
   "japanese_ticker": "2734.T",
-  "fetch_date": "2026-05-09T23:52:11.604709",
+  "fetch_date": "2026-05-10T23:55:06.581646",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-11-30 00:00:00": 379192000.0,
@@ -95,11 +95,11 @@
       "2021-11-30 00:00:00": null
     },
     "Normalized Income": {
-      "2025-11-30 00:00:00": null,
+      "2025-11-30 00:00:00": 5137192000.0,
       "2024-11-30 00:00:00": 4822684230.96841,
       "2023-11-30 00:00:00": 4433334000.0,
       "2022-11-30 00:00:00": 5198412000.0,
-      "2021-11-30 00:00:00": 5005968000.0
+      "2021-11-30 00:00:00": null
     },
     "Net Income From Continuing And Discontinued Operation": {
       "2025-11-30 00:00:00": 5870000000.0,
@@ -552,11 +552,11 @@
       "2021-11-30 00:00:00": null
     },
     "Payables": {
-      "2025-11-30 00:00:00": null,
+      "2025-11-30 00:00:00": 25123000000.0,
       "2024-11-30 00:00:00": 28767000000.0,
       "2023-11-30 00:00:00": 26566000000.0,
       "2022-11-30 00:00:00": 29522000000.0,
-      "2021-11-30 00:00:00": 25957000000.0
+      "2021-11-30 00:00:00": null
     },
     "Total Tax Payable": {
       "2025-11-30 00:00:00": 2324000000.0,
@@ -841,11 +841,11 @@
       "2021-11-30 00:00:00": null
     },
     "Changes In Cash": {
-      "2025-11-30 00:00:00": null,
+      "2025-11-30 00:00:00": 5486000000.0,
       "2024-11-30 00:00:00": 3478000000.0,
       "2023-11-30 00:00:00": -1225000000.0,
       "2022-11-30 00:00:00": -455000000.0,
-      "2021-11-30 00:00:00": 2630000000.0
+      "2021-11-30 00:00:00": null
     },
     "Financing Cash Flow": {
       "2025-11-30 00:00:00": 1752000000.0,
@@ -1217,11 +1217,11 @@
     "trailingPE": 11.363885,
     "volume": 168200,
     "regularMarketVolume": 168200,
-    "averageVolume": 333533,
+    "averageVolume": 338098,
     "averageVolume10days": 161250,
     "averageDailyVolume10Day": 161250,
-    "bid": 1038.0,
-    "ask": 1045.0,
+    "bid": 0.0,
+    "ask": 1039.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 66721255424,
@@ -1288,6 +1288,9 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "marketState": "PREPRE",
+    "corporateActions": [],
+    "regularMarketTime": 1778221800,
     "exchange": "JPX",
     "messageBoardId": "finmb_7870355",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1295,27 +1298,10 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "marketState": "CLOSED",
-    "corporateActions": [],
-    "regularMarketTime": 1778221800,
-    "shortName": "SALA CORPORATION",
-    "longName": "SALA Corporation",
     "regularMarketChangePercent": -0.3835091,
     "regularMarketPrice": 1039.0,
-    "epsTrailingTwelveMonths": 91.43,
-    "fiftyDayAverageChange": -32.23999,
-    "fiftyDayAverageChangePercent": -0.030095955,
-    "twoHundredDayAverageChange": -35.880005,
-    "twoHundredDayAverageChangePercent": -0.033380475,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1020124800000,
-    "regularMarketChange": -4.0,
-    "regularMarketDayRange": "1033.0 - 1045.0",
     "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 333533,
+    "averageDailyVolume3Month": 338098,
     "fiftyTwoWeekLowChange": 154.0,
     "fiftyTwoWeekLowChangePercent": 0.1740113,
     "fiftyTwoWeekRange": "885.0 - 1228.0",
@@ -1325,6 +1311,20 @@
     "earningsTimestampStart": 1751524200,
     "earningsTimestampEnd": 1751869800,
     "isEarningsDateEstimate": true,
+    "epsTrailingTwelveMonths": 91.43,
+    "fiftyDayAverageChange": -32.23999,
+    "fiftyDayAverageChangePercent": -0.030095955,
+    "twoHundredDayAverageChange": -35.880005,
+    "twoHundredDayAverageChangePercent": -0.033380475,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "shortName": "SALA CORPORATION",
+    "longName": "SALA Corporation",
+    "cryptoTradeable": false,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1020124800000,
+    "regularMarketChange": -4.0,
+    "regularMarketDayRange": "1033.0 - 1045.0",
     "trailingPegRatio": null
   }
 }

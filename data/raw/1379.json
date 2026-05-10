@@ -1,7 +1,7 @@
 {
   "ticker": "1379",
   "japanese_ticker": "1379.T",
-  "fetch_date": "2026-05-09T23:39:05.493168",
+  "fetch_date": "2026-05-10T23:42:43.460778",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": -243144000.0,
@@ -82,7 +82,7 @@
       "2022-03-31 00:00:00": 5000000.0
     },
     "Normalized Income": {
-      "2025-03-31 00:00:00": 5118856000.0,
+      "2025-03-31 00:00:00": 5119189520.809153,
       "2024-03-31 00:00:00": 3312048435.319912,
       "2023-03-31 00:00:00": -1726981261.42596,
       "2022-03-31 00:00:00": 2527926795.957389
@@ -1021,11 +1021,11 @@
     "trailingPE": 10.537671,
     "volume": 199500,
     "regularMarketVolume": 199500,
-    "averageVolume": 96761,
+    "averageVolume": 97330,
     "averageVolume10days": 95666,
     "averageDailyVolume10Day": 95666,
-    "bid": 1855.0,
-    "ask": 1860.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 58132635648,
@@ -1093,13 +1093,18 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "marketState": "CLOSED",
+    "marketState": "PREPRE",
+    "shortName": "HOKUTO CORP",
+    "longName": "Hokuto Corporation",
+    "cryptoTradeable": false,
+    "regularMarketChangePercent": 1.5873017,
+    "regularMarketPrice": 1856.0,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 978566400000,
     "regularMarketChange": 29.0,
     "regularMarketDayRange": "1810.0 - 1874.0",
     "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 96761,
+    "averageDailyVolume3Month": 97330,
     "fiftyTwoWeekLowChange": 139.0,
     "fiftyTwoWeekLowChangePercent": 0.080955155,
     "fiftyTwoWeekRange": "1717.0 - 2123.0",
@@ -1127,11 +1132,6 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "shortName": "HOKUTO CORP",
-    "longName": "Hokuto Corporation",
-    "cryptoTradeable": false,
-    "regularMarketChangePercent": 1.5873017,
-    "regularMarketPrice": 1856.0,
     "trailingPegRatio": null
   }
 }

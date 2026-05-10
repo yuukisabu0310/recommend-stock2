@@ -1,7 +1,7 @@
 {
   "ticker": "2408",
   "japanese_ticker": "2408.T",
-  "fetch_date": "2026-05-09T23:48:48.996519",
+  "fetch_date": "2026-05-10T23:51:54.097104",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-12-31 00:00:00": -386910.0,
@@ -117,10 +117,10 @@
     },
     "Diluted Average Shares": {
       "2025-12-31 00:00:00": 7320798.0,
-      "2024-12-31 00:00:00": 7310828.0,
+      "2024-12-31 00:00:00": null,
       "2023-12-31 00:00:00": 7232929.0,
       "2022-12-31 00:00:00": 7232929.0,
-      "2021-12-31 00:00:00": null
+      "2021-12-31 00:00:00": 7231138.0
     },
     "Basic Average Shares": {
       "2025-12-31 00:00:00": null,
@@ -131,7 +131,7 @@
     },
     "Diluted EPS": {
       "2025-12-31 00:00:00": null,
-      "2024-12-31 00:00:00": 32.97,
+      "2024-12-31 00:00:00": null,
       "2023-12-31 00:00:00": 51.35,
       "2022-12-31 00:00:00": 46.68,
       "2021-12-31 00:00:00": 10.02
@@ -1091,11 +1091,11 @@
     "trailingPE": 16.208551,
     "volume": 13000,
     "regularMarketVolume": 13000,
-    "averageVolume": 15770,
+    "averageVolume": 15862,
     "averageVolume10days": 13433,
     "averageDailyVolume10Day": 13433,
-    "bid": 743.0,
-    "ask": 745.0,
+    "bid": 0.0,
+    "ask": 743.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 5438781440,
@@ -1166,14 +1166,13 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "marketState": "CLOSED",
     "corporateActions": [],
     "regularMarketTime": 1778221800,
-    "shortName": "KG INTELLIGENCE CO LTD",
-    "longName": "KG Intelligence CO., LTD.",
+    "marketState": "PREPRE",
     "regularMarketChangePercent": -0.66844916,
     "regularMarketPrice": 743.0,
-    "epsTrailingTwelveMonths": 45.84,
+    "shortName": "KG INTELLIGENCE CO LTD",
+    "longName": "KG Intelligence CO., LTD.",
     "fiftyDayAverageChange": 3.6799927,
     "fiftyDayAverageChangePercent": 0.004977537,
     "twoHundredDayAverageChange": 44.02002,
@@ -1186,7 +1185,7 @@
     "regularMarketChange": -5.0,
     "regularMarketDayRange": "741.0 - 747.0",
     "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 15770,
+    "averageDailyVolume3Month": 15862,
     "fiftyTwoWeekLowChange": 143.0,
     "fiftyTwoWeekLowChangePercent": 0.23833333,
     "fiftyTwoWeekRange": "600.0 - 789.0",
@@ -1196,6 +1195,7 @@
     "earningsTimestampStart": 1751869800,
     "earningsTimestampEnd": 1752215400,
     "isEarningsDateEstimate": true,
+    "epsTrailingTwelveMonths": 45.84,
     "trailingPegRatio": null
   }
 }

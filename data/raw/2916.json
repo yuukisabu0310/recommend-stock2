@@ -1,7 +1,7 @@
 {
   "ticker": "2916",
   "japanese_ticker": "2916.T",
-  "fetch_date": "2026-05-09T23:54:34.211065",
+  "fetch_date": "2026-05-10T23:57:20.191634",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": -49392336.0,
@@ -282,7 +282,7 @@
   },
   "balance_sheet": {
     "Treasury Shares Number": {
-      "2025-03-31 00:00:00": 16408.0,
+      "2025-03-31 00:00:00": null,
       "2024-03-31 00:00:00": 16384.0,
       "2023-03-31 00:00:00": 16000.0,
       "2022-03-31 00:00:00": 16000.0
@@ -294,7 +294,7 @@
       "2022-03-31 00:00:00": 11384000.0
     },
     "Share Issued": {
-      "2025-03-31 00:00:00": 11400000.0,
+      "2025-03-31 00:00:00": 11383616.0,
       "2024-03-31 00:00:00": 11400000.0,
       "2023-03-31 00:00:00": 11400000.0,
       "2022-03-31 00:00:00": 11400000.0
@@ -1067,11 +1067,11 @@
     "trailingPE": 36.363636,
     "volume": 200,
     "regularMarketVolume": 200,
-    "averageVolume": 2210,
+    "averageVolume": 2230,
     "averageVolume10days": 916,
     "averageDailyVolume10Day": 916,
-    "bid": 712.0,
-    "ask": 713.0,
+    "bid": 0.0,
+    "ask": 715.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 8105117696,
@@ -1136,8 +1136,23 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "marketState": "CLOSED",
+    "marketState": "PREPRE",
+    "regularMarketChangePercent": -0.14025246,
+    "regularMarketPrice": 712.0,
+    "shortName": "SEMBA TOHKA INDUSTRIES CO",
     "longName": "Semba Tohka Industries Co., Ltd",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 947030400000,
+    "regularMarketChange": -1.0,
+    "regularMarketDayRange": "712.0 - 712.0",
+    "fullExchangeName": "Tokyo",
+    "averageDailyVolume3Month": 2230,
+    "fiftyTwoWeekLowChange": 17.0,
+    "fiftyTwoWeekLowChangePercent": 0.024460431,
+    "fiftyTwoWeekRange": "695.0 - 785.0",
+    "fiftyTwoWeekHighChange": -73.0,
+    "fiftyTwoWeekHighChangePercent": -0.09299363,
+    "fiftyTwoWeekChangePercent": -2.3319602,
     "corporateActions": [],
     "regularMarketTime": 1778207154,
     "exchange": "JPX",
@@ -1147,20 +1162,6 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "regularMarketChangePercent": -0.14025246,
-    "regularMarketPrice": 712.0,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 947030400000,
-    "regularMarketChange": -1.0,
-    "regularMarketDayRange": "712.0 - 712.0",
-    "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 2210,
-    "fiftyTwoWeekLowChange": 17.0,
-    "fiftyTwoWeekLowChangePercent": 0.024460431,
-    "fiftyTwoWeekRange": "695.0 - 785.0",
-    "fiftyTwoWeekHighChange": -73.0,
-    "fiftyTwoWeekHighChangePercent": -0.09299363,
-    "fiftyTwoWeekChangePercent": -2.3319602,
     "earningsTimestampStart": 1747116000,
     "earningsTimestampEnd": 1747116000,
     "isEarningsDateEstimate": false,
@@ -1172,7 +1173,6 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
-    "shortName": "SEMBA TOHKA INDUSTRIES CO",
     "trailingPegRatio": null
   }
 }

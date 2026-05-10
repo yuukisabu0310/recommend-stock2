@@ -1,7 +1,7 @@
 {
   "ticker": "2653",
   "japanese_ticker": "2653.T",
-  "fetch_date": "2026-05-09T23:51:00.546765",
+  "fetch_date": "2026-05-10T23:53:58.467815",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-02-28 00:00:00": -805749000.0,
@@ -124,7 +124,7 @@
       "2022-02-28 00:00:00": 34632000.0
     },
     "Diluted EPS": {
-      "2025-02-28 00:00:00": 177.25,
+      "2025-02-28 00:00:00": null,
       "2024-02-29 00:00:00": 205.07,
       "2023-02-28 00:00:00": 134.69,
       "2022-02-28 00:00:00": 79.89
@@ -318,7 +318,7 @@
       "2022-02-28 00:00:00": 105376.0
     },
     "Ordinary Shares Number": {
-      "2025-02-28 00:00:00": 34074105.0,
+      "2025-02-28 00:00:00": 34043866.0,
       "2024-02-29 00:00:00": 33959092.0,
       "2023-02-28 00:00:00": 34756996.0,
       "2022-02-28 00:00:00": 34637042.0
@@ -1120,11 +1120,11 @@
     "trailingPE": 14.90291,
     "volume": 12000,
     "regularMarketVolume": 12000,
-    "averageVolume": 30163,
+    "averageVolume": 30091,
     "averageVolume10days": 16466,
     "averageDailyVolume10Day": 16466,
-    "bid": 2825.0,
-    "ask": 2832.0,
+    "bid": 2837.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 96800661504,
@@ -1191,8 +1191,8 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "cryptoTradeable": false,
-    "marketState": "CLOSED",
+    "regularMarketChangePercent": 0.60390764,
+    "regularMarketPrice": 2832.0,
     "shortName": "AEON KYUSHU CO LTD",
     "longName": "Aeon Kyushu Co., Ltd.",
     "corporateActions": [],
@@ -1204,14 +1204,11 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "regularMarketChangePercent": 0.60390764,
-    "regularMarketPrice": 2832.0,
-    "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 965606400000,
     "regularMarketChange": 17.0,
     "regularMarketDayRange": "2819.0 - 2832.0",
     "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 30163,
+    "averageDailyVolume3Month": 30091,
     "fiftyTwoWeekLowChange": 272.0,
     "fiftyTwoWeekLowChangePercent": 0.10625,
     "fiftyTwoWeekRange": "2560.0 - 3135.0",
@@ -1224,12 +1221,15 @@
     "earningsCallTimestampEnd": 1744369140,
     "isEarningsDateEstimate": true,
     "epsTrailingTwelveMonths": 190.03,
+    "marketState": "PREPRE",
+    "hasPrePostMarketData": false,
     "fiftyDayAverageChange": 28.340088,
     "fiftyDayAverageChangePercent": 0.010108247,
     "twoHundredDayAverageChange": -61.43506,
     "twoHundredDayAverageChangePercent": -0.02123257,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
     "trailingPegRatio": null
   }
 }

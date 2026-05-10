@@ -1,7 +1,7 @@
 {
   "ticker": "2179",
   "japanese_ticker": "2179.T",
-  "fetch_date": "2026-05-09T23:45:40.209359",
+  "fetch_date": "2026-05-10T23:48:55.505675",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": -29366026.6,
@@ -107,13 +107,13 @@
     },
     "Diluted Average Shares": {
       "2025-03-31 00:00:00": 5547898.0,
-      "2024-03-31 00:00:00": 5547993.0,
+      "2024-03-31 00:00:00": 5548139.0,
       "2023-03-31 00:00:00": 5549653.0,
       "2022-03-31 00:00:00": 5551151.0
     },
     "Basic Average Shares": {
       "2025-03-31 00:00:00": 5547898.0,
-      "2024-03-31 00:00:00": 5547993.0,
+      "2024-03-31 00:00:00": 5548139.0,
       "2023-03-31 00:00:00": 5549653.0,
       "2022-03-31 00:00:00": 5551151.0
     },
@@ -264,13 +264,13 @@
   },
   "balance_sheet": {
     "Treasury Shares Number": {
-      "2025-03-31 00:00:00": 328102.0,
+      "2025-03-31 00:00:00": null,
       "2024-03-31 00:00:00": 328102.0,
       "2023-03-31 00:00:00": 327760.0,
       "2022-03-31 00:00:00": 325860.0
     },
     "Ordinary Shares Number": {
-      "2025-03-31 00:00:00": 5547898.0,
+      "2025-03-31 00:00:00": null,
       "2024-03-31 00:00:00": 5547898.0,
       "2023-03-31 00:00:00": 5548240.0,
       "2022-03-31 00:00:00": 5550140.0
@@ -1020,15 +1020,15 @@
     "trailingPE": 9.049228,
     "volume": 400,
     "regularMarketVolume": 400,
-    "averageVolume": 1556,
+    "averageVolume": 1573,
     "averageVolume10days": 1483,
     "averageDailyVolume10Day": 1483,
-    "bid": 750.0,
-    "ask": 754.0,
+    "bid": 0.0,
+    "ask": 747.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 4160923392,
-    "nonDilutedMarketCap": 4177567194,
+    "nonDilutedMarketCap": 4160923500,
     "fiftyTwoWeekLow": 740.0,
     "fiftyTwoWeekHigh": 826.0,
     "allTimeHigh": 7850000.0,
@@ -1091,8 +1091,13 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "marketState": "CLOSED",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1219363200000,
+    "shortName": "SEIGAKUSHA CO LTD",
     "longName": "Seigakusha Co.,Ltd.",
+    "marketState": "PREPRE",
+    "regularMarketChange": 0.0,
+    "regularMarketDayRange": "750.0 - 750.0",
     "corporateActions": [],
     "regularMarketTime": 1778211000,
     "exchange": "JPX",
@@ -1104,12 +1109,8 @@
     "esgPopulated": false,
     "regularMarketChangePercent": 0.0,
     "regularMarketPrice": 750.0,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1219363200000,
-    "regularMarketChange": 0.0,
-    "regularMarketDayRange": "750.0 - 750.0",
     "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 1556,
+    "averageDailyVolume3Month": 1573,
     "fiftyTwoWeekLowChange": 10.0,
     "fiftyTwoWeekLowChangePercent": 0.013513514,
     "fiftyTwoWeekRange": "740.0 - 826.0",
@@ -1119,6 +1120,7 @@
     "earningsTimestampStart": 1747290600,
     "earningsTimestampEnd": 1747290600,
     "isEarningsDateEstimate": false,
+    "cryptoTradeable": false,
     "epsTrailingTwelveMonths": 82.88,
     "fiftyDayAverageChange": -34.799988,
     "fiftyDayAverageChangePercent": -0.04434249,
@@ -1127,9 +1129,7 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "prevName": "Seigakusya Co., Ltd.",
-    "nameChangeDate": "2026-05-09",
-    "cryptoTradeable": false,
-    "shortName": "SEIGAKUSHA CO LTD",
+    "nameChangeDate": "2026-05-10",
     "trailingPegRatio": null
   }
 }

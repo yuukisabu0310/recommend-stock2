@@ -1,7 +1,7 @@
 {
   "ticker": "2370",
   "japanese_ticker": "2370.T",
-  "fetch_date": "2026-05-09T23:48:15.973861",
+  "fetch_date": "2026-05-10T23:51:21.257175",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-09-30 00:00:00": 13910024.0,
@@ -131,14 +131,14 @@
     },
     "Basic Average Shares": {
       "2025-09-30 00:00:00": null,
-      "2024-09-30 00:00:00": 253282224.0,
+      "2024-09-30 00:00:00": null,
       "2023-09-30 00:00:00": 216084438.0,
       "2022-09-30 00:00:00": 198069652.0,
       "2021-09-30 00:00:00": 172664409.0
     },
     "Diluted EPS": {
       "2025-09-30 00:00:00": null,
-      "2024-09-30 00:00:00": -5.04,
+      "2024-09-30 00:00:00": null,
       "2023-09-30 00:00:00": -6.65,
       "2022-09-30 00:00:00": -6.33,
       "2021-09-30 00:00:00": -4.88
@@ -1098,7 +1098,7 @@
     "beta": 0.258,
     "volume": 544100,
     "regularMarketVolume": 544100,
-    "averageVolume": 1870091,
+    "averageVolume": 1893942,
     "averageVolume10days": 376700,
     "averageDailyVolume10Day": 376700,
     "bid": 0.0,
@@ -1167,12 +1167,10 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1065571200000,
-    "regularMarketChange": -1.0,
-    "regularMarketDayRange": "28.0 - 29.0",
+    "corporateActions": [],
+    "marketState": "PREPRE",
     "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 1870091,
+    "averageDailyVolume3Month": 1893942,
     "fiftyTwoWeekLowChange": 1.0,
     "fiftyTwoWeekLowChangePercent": 0.037037037,
     "fiftyTwoWeekRange": "27.0 - 43.0",
@@ -1190,8 +1188,10 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
-    "shortName": "MEDINET CO LTD",
-    "corporateActions": [],
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1065571200000,
+    "regularMarketChange": -1.0,
+    "regularMarketDayRange": "28.0 - 29.0",
     "regularMarketTime": 1778221800,
     "exchange": "JPX",
     "messageBoardId": "finmb_9830272",
@@ -1200,10 +1200,10 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
+    "shortName": "MEDINET CO LTD",
+    "longName": "MEDINET Co., Ltd.",
     "regularMarketChangePercent": -3.4482758,
     "regularMarketPrice": 28.0,
-    "marketState": "CLOSED",
-    "longName": "MEDINET Co., Ltd.",
     "trailingPegRatio": null
   }
 }

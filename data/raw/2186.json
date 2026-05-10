@@ -1,7 +1,7 @@
 {
   "ticker": "2186",
   "japanese_ticker": "2186.T",
-  "fetch_date": "2026-05-09T23:45:50.803967",
+  "fetch_date": "2026-05-10T23:49:04.976561",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-02-28 00:00:00": null,
@@ -132,7 +132,7 @@
     "Basic Average Shares": {
       "2026-02-28 00:00:00": null,
       "2025-02-28 00:00:00": null,
-      "2024-02-29 00:00:00": 7867257.0,
+      "2024-02-29 00:00:00": 7866973.0,
       "2023-02-28 00:00:00": 7867257.0,
       "2022-02-28 00:00:00": 7867277.0
     },
@@ -306,13 +306,13 @@
       "2022-02-28 00:00:00": 300241.0
     },
     "Ordinary Shares Number": {
-      "2025-02-28 00:00:00": 7867235.0,
+      "2025-02-28 00:00:00": 7867257.0,
       "2024-02-29 00:00:00": 7867257.0,
       "2023-02-28 00:00:00": 7867257.0,
       "2022-02-28 00:00:00": 7867257.0
     },
     "Share Issued": {
-      "2025-02-28 00:00:00": 8167498.0,
+      "2025-02-28 00:00:00": 7867257.0,
       "2024-02-29 00:00:00": 8167498.0,
       "2023-02-28 00:00:00": 8167498.0,
       "2022-02-28 00:00:00": 8167498.0
@@ -645,7 +645,7 @@
     },
     "Repurchase Of Capital Stock": {
       "2025-02-28 00:00:00": -20000.0,
-      "2024-02-29 00:00:00": 0.0,
+      "2024-02-29 00:00:00": null,
       "2023-02-28 00:00:00": 0.0,
       "2022-02-28 00:00:00": -26000.0
     },
@@ -753,7 +753,7 @@
     },
     "Net Investment Purchase And Sale": {
       "2025-02-28 00:00:00": -202240000.0,
-      "2024-02-29 00:00:00": 0.0,
+      "2024-02-29 00:00:00": null,
       "2023-02-28 00:00:00": null,
       "2022-02-28 00:00:00": null
     },
@@ -1020,7 +1020,7 @@
     "averageVolume": 3875,
     "averageVolume10days": 1850,
     "averageDailyVolume10Day": 1850,
-    "bid": 902.0,
+    "bid": 0.0,
     "ask": 905.0,
     "bidSize": 0,
     "askSize": 0,
@@ -1089,10 +1089,10 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "cryptoTradeable": false,
-    "marketState": "CLOSED",
     "shortName": "SOBAL CORPORATION",
-    "longName": "Sobal Corporation",
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
     "corporateActions": [],
     "regularMarketTime": 1778221800,
     "exchange": "JPX",
@@ -1102,8 +1102,8 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "regularMarketChangePercent": 0.0,
-    "regularMarketPrice": 902.0,
+    "marketState": "PREPRE",
+    "longName": "Sobal Corporation",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1229040000000,
     "regularMarketChange": 0.0,
@@ -1124,8 +1124,8 @@
     "fiftyDayAverageChangePercent": -0.0016380888,
     "twoHundredDayAverageChange": -14.275024,
     "twoHundredDayAverageChangePercent": -0.01557941,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
+    "regularMarketChangePercent": 0.0,
+    "regularMarketPrice": 902.0,
     "trailingPegRatio": null
   }
 }

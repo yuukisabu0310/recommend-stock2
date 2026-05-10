@@ -1,7 +1,7 @@
 {
   "ticker": "2391",
   "japanese_ticker": "2391.T",
-  "fetch_date": "2026-05-09T23:48:40.535980",
+  "fetch_date": "2026-05-10T23:51:45.818303",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-07-31 00:00:00": null,
@@ -124,31 +124,31 @@
     },
     "Diluted Average Shares": {
       "2025-07-31 00:00:00": 6630782.0,
-      "2024-07-31 00:00:00": 6630820.0,
+      "2024-07-31 00:00:00": null,
       "2023-07-31 00:00:00": 6630884.0,
       "2022-07-31 00:00:00": 6630885.0,
-      "2021-07-31 00:00:00": null
+      "2021-07-31 00:00:00": 6630888.0
     },
     "Basic Average Shares": {
       "2025-07-31 00:00:00": 6630782.0,
-      "2024-07-31 00:00:00": 6630820.0,
+      "2024-07-31 00:00:00": null,
       "2023-07-31 00:00:00": 6630884.0,
       "2022-07-31 00:00:00": 6630885.0,
-      "2021-07-31 00:00:00": null
+      "2021-07-31 00:00:00": 6630888.0
     },
     "Diluted EPS": {
       "2025-07-31 00:00:00": 60.44,
-      "2024-07-31 00:00:00": 69.09,
+      "2024-07-31 00:00:00": null,
       "2023-07-31 00:00:00": 66.72,
       "2022-07-31 00:00:00": 79.34,
-      "2021-07-31 00:00:00": null
+      "2021-07-31 00:00:00": 75.12
     },
     "Basic EPS": {
       "2025-07-31 00:00:00": 60.44,
-      "2024-07-31 00:00:00": 69.09,
+      "2024-07-31 00:00:00": null,
       "2023-07-31 00:00:00": 66.72,
       "2022-07-31 00:00:00": 79.34,
-      "2021-07-31 00:00:00": null
+      "2021-07-31 00:00:00": 75.12
     },
     "Diluted NI Availto Com Stockholders": {
       "2025-07-31 00:00:00": null,
@@ -946,11 +946,11 @@
     "trailingPE": 19.230768,
     "volume": 4700,
     "regularMarketVolume": 4700,
-    "averageVolume": 6124,
+    "averageVolume": 6176,
     "averageVolume10days": 3733,
     "averageDailyVolume10Day": 3733,
-    "bid": 1235.0,
-    "ask": 1243.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 8189000704,
@@ -1018,23 +1018,24 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "regularMarketChangePercent": -0.24232633,
+    "regularMarketPrice": 1235.0,
+    "shortName": "PLANET INC",
+    "longName": "Planet, Inc.",
     "corporateActions": [],
     "regularMarketTime": 1778221800,
+    "exchange": "JPX",
     "messageBoardId": "finmb_8859734",
     "exchangeTimezoneName": "Asia/Tokyo",
     "exchangeTimezoneShortName": "JST",
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "regularMarketChangePercent": -0.24232633,
-    "regularMarketPrice": 1235.0,
-    "marketState": "CLOSED",
-    "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1077580800000,
     "regularMarketChange": -3.0,
     "regularMarketDayRange": "1235.0 - 1247.0",
     "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 6124,
+    "averageDailyVolume3Month": 6176,
     "fiftyTwoWeekLowChange": 21.0,
     "fiftyTwoWeekLowChangePercent": 0.017298188,
     "fiftyTwoWeekRange": "1214.0 - 1356.0",
@@ -1045,6 +1046,8 @@
     "earningsTimestampEnd": 1748414400,
     "isEarningsDateEstimate": false,
     "epsTrailingTwelveMonths": 64.22,
+    "marketState": "PREPRE",
+    "hasPrePostMarketData": false,
     "fiftyDayAverageChange": -10.900024,
     "fiftyDayAverageChangePercent": -0.008748715,
     "twoHundredDayAverageChange": -20.22998,
@@ -1052,9 +1055,6 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
-    "exchange": "JPX",
-    "shortName": "PLANET INC",
-    "longName": "Planet, Inc.",
     "trailingPegRatio": null
   }
 }

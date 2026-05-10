@@ -1,7 +1,7 @@
 {
   "ticker": "2378",
   "japanese_ticker": "2378.T",
-  "fetch_date": "2026-05-09T23:48:27.516466",
+  "fetch_date": "2026-05-10T23:51:33.113932",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": -49494628.0,
@@ -282,7 +282,7 @@
       "2022-03-31 00:00:00": 18888294.0
     },
     "Share Issued": {
-      "2025-03-31 00:00:00": 21379000.0,
+      "2025-03-31 00:00:00": 18896013.0,
       "2024-03-31 00:00:00": 21379000.0,
       "2023-03-31 00:00:00": 21379000.0,
       "2022-03-31 00:00:00": 21379000.0
@@ -1100,11 +1100,11 @@
     "forwardPE": 20.301205,
     "volume": 37800,
     "regularMarketVolume": 37800,
-    "averageVolume": 51687,
+    "averageVolume": 52101,
     "averageVolume10days": 46283,
     "averageDailyVolume10Day": 46283,
-    "bid": 1011.0,
-    "ask": 1014.0,
+    "bid": 0.0,
+    "ask": 1011.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 19124017152,
@@ -1168,10 +1168,7 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
-    "marketState": "CLOSED",
+    "corporateActions": [],
     "regularMarketTime": 1778221800,
     "exchange": "JPX",
     "messageBoardId": "finmb_9794774",
@@ -1182,14 +1179,10 @@
     "esgPopulated": false,
     "regularMarketChangePercent": -0.492126,
     "regularMarketPrice": 1011.0,
-    "shortName": "RENAISSANCE INC",
-    "longName": "Renaissance,Incorporated",
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1103155200000,
     "regularMarketChange": -5.0,
     "regularMarketDayRange": "1011.0 - 1020.0",
     "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 51687,
+    "averageDailyVolume3Month": 52101,
     "fiftyTwoWeekLowChange": 21.0,
     "fiftyTwoWeekLowChangePercent": 0.021212121,
     "fiftyTwoWeekRange": "990.0 - 1295.0",
@@ -1205,7 +1198,14 @@
     "fiftyDayAverageChangePercent": -0.044622075,
     "twoHundredDayAverageChange": -87.56995,
     "twoHundredDayAverageChangePercent": -0.079712674,
-    "corporateActions": [],
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "marketState": "PREPRE",
+    "cryptoTradeable": false,
+    "shortName": "RENAISSANCE INC",
+    "longName": "Renaissance,Incorporated",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1103155200000,
     "trailingPegRatio": null
   }
 }

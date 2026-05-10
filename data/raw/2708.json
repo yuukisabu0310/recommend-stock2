@@ -1,7 +1,7 @@
 {
   "ticker": "2708",
   "japanese_ticker": "2708.T",
-  "fetch_date": "2026-05-09T23:51:57.637853",
+  "fetch_date": "2026-05-10T23:54:53.722397",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": 124160000.0,
@@ -119,7 +119,7 @@
     },
     "Basic Average Shares": {
       "2025-03-31 00:00:00": 4626276.0,
-      "2024-03-31 00:00:00": 4626300.0,
+      "2024-03-31 00:00:00": 4625875.0,
       "2023-03-31 00:00:00": 4598451.0,
       "2022-03-31 00:00:00": 3701382.0
     },
@@ -300,7 +300,7 @@
   },
   "balance_sheet": {
     "Treasury Shares Number": {
-      "2025-03-31 00:00:00": 51.0,
+      "2025-03-31 00:00:00": null,
       "2024-03-31 00:00:00": 51.0,
       "2023-03-31 00:00:00": 0.0,
       "2022-03-31 00:00:00": 181118.0
@@ -312,7 +312,7 @@
       "2022-03-31 00:00:00": 3701382.0
     },
     "Share Issued": {
-      "2025-03-31 00:00:00": 4626327.0,
+      "2025-03-31 00:00:00": 4626276.0,
       "2024-03-31 00:00:00": 4626327.0,
       "2023-03-31 00:00:00": 4626327.0,
       "2022-03-31 00:00:00": 3882500.0
@@ -547,13 +547,13 @@
     },
     "Long Term Equity Investment": {
       "2025-03-31 00:00:00": 134000000.0,
-      "2024-03-31 00:00:00": 0.0,
+      "2024-03-31 00:00:00": null,
       "2023-03-31 00:00:00": null,
       "2022-03-31 00:00:00": null
     },
     "Investmentsin Subsidiariesat Cost": {
       "2025-03-31 00:00:00": 134000000.0,
-      "2024-03-31 00:00:00": 0.0,
+      "2024-03-31 00:00:00": null,
       "2023-03-31 00:00:00": null,
       "2022-03-31 00:00:00": null
     },
@@ -849,7 +849,7 @@
     },
     "Net Business Purchase And Sale": {
       "2025-03-31 00:00:00": 161000000.0,
-      "2024-03-31 00:00:00": 0.0,
+      "2024-03-31 00:00:00": null,
       "2023-03-31 00:00:00": null,
       "2022-03-31 00:00:00": null
     },
@@ -1052,11 +1052,11 @@
     "trailingPE": 5.602241,
     "volume": 1600,
     "regularMarketVolume": 1600,
-    "averageVolume": 4280,
+    "averageVolume": 4253,
     "averageVolume10days": 2066,
     "averageDailyVolume10Day": 2066,
-    "bid": 1900.0,
-    "ask": 1919.0,
+    "bid": 0.0,
+    "ask": 1902.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 8789924864,
@@ -1121,31 +1121,9 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "epsTrailingTwelveMonths": 339.15,
-    "fiftyDayAverageChange": -151.71997,
-    "fiftyDayAverageChangePercent": -0.0739477,
-    "twoHundredDayAverageChange": -92.93005,
-    "twoHundredDayAverageChangePercent": -0.04662986,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "prevName": "Kuze Co.,Ltd.",
-    "nameChangeDate": "2026-05-09",
-    "cryptoTradeable": false,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1000252800000,
-    "regularMarketChange": -12.0,
-    "regularMarketDayRange": "1900.0 - 1928.0",
-    "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 4280,
-    "fiftyTwoWeekLowChange": 377.0,
-    "fiftyTwoWeekLowChangePercent": 0.24753775,
-    "fiftyTwoWeekRange": "1523.0 - 2449.0",
-    "fiftyTwoWeekHighChange": -549.0,
-    "fiftyTwoWeekHighChangePercent": -0.22417313,
-    "fiftyTwoWeekChangePercent": 7.3446274,
-    "earningsTimestampStart": 1747291200,
-    "earningsTimestampEnd": 1747291200,
-    "isEarningsDateEstimate": false,
+    "marketState": "PREPRE",
+    "regularMarketChangePercent": -0.6276151,
+    "regularMarketPrice": 1900.0,
     "corporateActions": [],
     "regularMarketTime": 1778221800,
     "exchange": "JPX",
@@ -1155,11 +1133,33 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "marketState": "CLOSED",
+    "regularMarketChange": -12.0,
+    "regularMarketDayRange": "1900.0 - 1928.0",
+    "fullExchangeName": "Tokyo",
+    "averageDailyVolume3Month": 4253,
+    "fiftyTwoWeekLowChange": 377.0,
+    "fiftyTwoWeekLowChangePercent": 0.24753775,
+    "fiftyTwoWeekRange": "1523.0 - 2449.0",
+    "fiftyTwoWeekHighChange": -549.0,
+    "fiftyTwoWeekHighChangePercent": -0.22417313,
+    "fiftyTwoWeekChangePercent": 7.3446274,
+    "earningsTimestampStart": 1747291200,
+    "earningsTimestampEnd": 1747291200,
+    "isEarningsDateEstimate": false,
+    "epsTrailingTwelveMonths": 339.15,
+    "fiftyDayAverageChange": -151.71997,
+    "fiftyDayAverageChangePercent": -0.0739477,
+    "twoHundredDayAverageChange": -92.93005,
+    "twoHundredDayAverageChangePercent": -0.04662986,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "prevName": "Kuze Co.,Ltd.",
+    "nameChangeDate": "2026-05-10",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1000252800000,
     "shortName": "KUZE CO LTD",
     "longName": "Kuze Co., Ltd.",
-    "regularMarketChangePercent": -0.6276151,
-    "regularMarketPrice": 1900.0,
+    "cryptoTradeable": false,
     "trailingPegRatio": null
   }
 }

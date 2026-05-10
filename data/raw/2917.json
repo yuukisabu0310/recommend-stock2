@@ -1,7 +1,7 @@
 {
   "ticker": "2917",
   "japanese_ticker": "2917.T",
-  "fetch_date": "2026-05-09T23:54:36.189232",
+  "fetch_date": "2026-05-10T23:57:22.041712",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-09-30 00:00:00": 49476.0,
@@ -108,13 +108,13 @@
     "Diluted Average Shares": {
       "2025-09-30 00:00:00": 4993808.0,
       "2024-09-30 00:00:00": 5024808.0,
-      "2023-09-30 00:00:00": 5031732.0,
+      "2023-09-30 00:00:00": 5032147.0,
       "2022-09-30 00:00:00": 5031732.0
     },
     "Basic Average Shares": {
       "2025-09-30 00:00:00": 4993808.0,
       "2024-09-30 00:00:00": 5024808.0,
-      "2023-09-30 00:00:00": 5031732.0,
+      "2023-09-30 00:00:00": 5032147.0,
       "2022-09-30 00:00:00": 5031732.0
     },
     "Diluted EPS": {
@@ -265,7 +265,7 @@
     },
     "Ordinary Shares Number": {
       "2025-09-30 00:00:00": 4980732.0,
-      "2024-09-30 00:00:00": 5001732.0,
+      "2024-09-30 00:00:00": 5031732.0,
       "2023-09-30 00:00:00": 5031732.0,
       "2022-09-30 00:00:00": 5031732.0
     },
@@ -1015,11 +1015,11 @@
     "beta": 0.1,
     "volume": 1800,
     "regularMarketVolume": 1800,
-    "averageVolume": 2585,
+    "averageVolume": 2605,
     "averageVolume10days": 616,
     "averageDailyVolume10Day": 616,
-    "bid": 918.0,
-    "ask": 922.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 4592235008,
@@ -1084,7 +1084,8 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "marketState": "CLOSED",
+    "longName": "Ohmoriya Co.,Ltd.",
+    "marketState": "PREPRE",
     "corporateActions": [],
     "regularMarketTime": 1778211639,
     "exchange": "JPX",
@@ -1096,13 +1097,12 @@
     "esgPopulated": false,
     "regularMarketChangePercent": -0.43196544,
     "regularMarketPrice": 922.0,
-    "shortName": "OHMORIYA CO LTD",
-    "longName": "Ohmoriya Co.,Ltd.",
-    "cryptoTradeable": false,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 946944000000,
     "regularMarketChange": -4.0,
     "regularMarketDayRange": "917.0 - 926.0",
     "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 2585,
+    "averageDailyVolume3Month": 2605,
     "fiftyTwoWeekLowChange": 39.0,
     "fiftyTwoWeekLowChangePercent": 0.04416761,
     "fiftyTwoWeekRange": "883.0 - 979.0",
@@ -1113,14 +1113,14 @@
     "earningsTimestampEnd": 1754979300,
     "isEarningsDateEstimate": true,
     "epsTrailingTwelveMonths": -14.75,
+    "shortName": "OHMORIYA CO LTD",
     "fiftyDayAverageChange": 11.26001,
     "fiftyDayAverageChangePercent": 0.012363584,
     "twoHundredDayAverageChange": 9.650024,
     "twoHundredDayAverageChangePercent": 0.010577108,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 946944000000,
+    "cryptoTradeable": false,
     "trailingPegRatio": null
   }
 }

@@ -1,17 +1,17 @@
 {
   "ticker": "2168",
   "japanese_ticker": "2168.T",
-  "fetch_date": "2026-05-09T23:45:29.332693",
+  "fetch_date": "2026-05-10T23:48:45.549563",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-05-31 00:00:00": -127832000.0,
-      "2024-05-31 00:00:00": 6351220300.0,
+      "2024-05-31 00:00:00": 6353375299.997176,
       "2023-05-31 00:00:00": 428620400.0,
       "2022-05-31 00:00:00": -81815500.0
     },
     "Tax Rate For Calcs": {
       "2025-05-31 00:00:00": 0.232,
-      "2024-05-31 00:00:00": 0.0641,
+      "2024-05-31 00:00:00": 0.064122,
       "2023-05-31 00:00:00": 0.3614,
       "2022-05-31 00:00:00": 0.3991
     },
@@ -83,7 +83,7 @@
     },
     "Normalized Income": {
       "2025-05-31 00:00:00": -8234832000.0,
-      "2024-05-31 00:00:00": 3159220300.0,
+      "2024-05-31 00:00:00": 3161375299.997176,
       "2023-05-31 00:00:00": 5341620400.0,
       "2022-05-31 00:00:00": 8744184500.0
     },
@@ -1214,11 +1214,11 @@
     "forwardPE": 33.06288,
     "volume": 215500,
     "regularMarketVolume": 215500,
-    "averageVolume": 165968,
+    "averageVolume": 166391,
     "averageVolume10days": 309466,
     "averageDailyVolume10Day": 309466,
-    "bid": 1630.0,
-    "ask": 1634.0,
+    "bid": 1654.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 60884459520,
@@ -1284,6 +1284,19 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "corporateActions": [],
+    "marketState": "PREPRE",
+    "fullExchangeName": "Tokyo",
+    "averageDailyVolume3Month": 166391,
+    "fiftyTwoWeekLowChange": 42.0,
+    "fiftyTwoWeekLowChangePercent": 0.026448363,
+    "fiftyTwoWeekRange": "1588.0 - 2498.0",
+    "fiftyTwoWeekHighChange": -868.0,
+    "fiftyTwoWeekHighChangePercent": -0.34747797,
+    "fiftyTwoWeekChangePercent": -25.50274,
+    "earningsTimestampStart": 1752129000,
+    "earningsTimestampEnd": 1752474600,
+    "isEarningsDateEstimate": true,
     "epsTrailingTwelveMonths": -142.14,
     "epsForward": 49.3,
     "fiftyDayAverageChange": -215.16003,
@@ -1297,28 +1310,6 @@
     "firstTradeDateMilliseconds": 1067299200000,
     "regularMarketChange": -7.0,
     "regularMarketDayRange": "1626.0 - 1644.0",
-    "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 165968,
-    "fiftyTwoWeekLowChange": 42.0,
-    "fiftyTwoWeekLowChangePercent": 0.026448363,
-    "fiftyTwoWeekRange": "1588.0 - 2498.0",
-    "fiftyTwoWeekHighChange": -868.0,
-    "fiftyTwoWeekHighChangePercent": -0.34747797,
-    "fiftyTwoWeekChangePercent": -25.50274,
-    "earningsTimestampStart": 1752129000,
-    "earningsTimestampEnd": 1752474600,
-    "isEarningsDateEstimate": true,
-    "corporateActions": [
-      {
-        "header": "Dividend",
-        "message": "2168.T announced a cash dividend of JPY 75.00 with an ex-date of May. 28, 2026",
-        "meta": {
-          "eventType": "DIVIDEND",
-          "dateEpochMs": 1779894000000,
-          "amount": "75.00"
-        }
-      }
-    ],
     "regularMarketTime": 1778221800,
     "exchange": "JPX",
     "messageBoardId": "finmb_6442783",
@@ -1327,7 +1318,6 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "marketState": "CLOSED",
     "shortName": "PASONA GROUP INC",
     "longName": "Pasona Group Inc.",
     "regularMarketChangePercent": -0.4276115,

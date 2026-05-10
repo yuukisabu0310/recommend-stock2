@@ -1,7 +1,7 @@
 {
   "ticker": "1401",
   "japanese_ticker": "1401.T",
-  "fetch_date": "2026-05-09T23:39:18.581895",
+  "fetch_date": "2026-05-10T23:42:54.248272",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-05-31 00:00:00": -4013121.0,
@@ -958,7 +958,7 @@
     },
     "Sale Of Investment": {
       "2025-05-31 00:00:00": 311213000.0,
-      "2024-05-31 00:00:00": 0.0,
+      "2024-05-31 00:00:00": null,
       "2023-05-31 00:00:00": null,
       "2022-05-31 00:00:00": 0.0,
       "2021-05-31 00:00:00": 1800000.0
@@ -1248,11 +1248,11 @@
     "trailingPE": 17.57385,
     "volume": 5000,
     "regularMarketVolume": 5000,
-    "averageVolume": 6603,
+    "averageVolume": 6339,
     "averageVolume10days": 4133,
     "averageDailyVolume10Day": 4133,
-    "bid": 1284.0,
-    "ask": 1297.0,
+    "bid": 0.0,
+    "ask": 1500.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 8907494400,
@@ -1318,12 +1318,22 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "exchange": "JPX",
+    "messageBoardId": "finmb_22885797",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
+    "regularMarketChangePercent": -1.3056836,
+    "regularMarketPrice": 1285.0,
+    "marketState": "PREPRE",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1439424000000,
     "regularMarketChange": -17.0,
     "regularMarketDayRange": "1277.0 - 1302.0",
     "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 6603,
+    "averageDailyVolume3Month": 6339,
     "fiftyTwoWeekLowChange": 505.0,
     "fiftyTwoWeekLowChangePercent": 0.6474359,
     "fiftyTwoWeekRange": "780.0 - 1847.0",
@@ -1341,9 +1351,6 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
-    "regularMarketChangePercent": -1.3056836,
-    "regularMarketPrice": 1285.0,
-    "marketState": "CLOSED",
     "shortName": "MBS INC",
     "longName": "Mbs Inc",
     "corporateActions": [
@@ -1358,13 +1365,6 @@
       }
     ],
     "regularMarketTime": 1778221800,
-    "exchange": "JPX",
-    "messageBoardId": "finmb_22885797",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
     "trailingPegRatio": null
   }
 }

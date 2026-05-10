@@ -1,7 +1,7 @@
 {
   "ticker": "2667",
   "japanese_ticker": "2667.T",
-  "fetch_date": "2026-05-09T23:51:12.495150",
+  "fetch_date": "2026-05-10T23:54:09.235046",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-09-30 00:00:00": -28712784.0,
@@ -131,21 +131,21 @@
     },
     "Diluted Average Shares": {
       "2025-09-30 00:00:00": null,
-      "2024-09-30 00:00:00": 10729062.0,
-      "2023-09-30 00:00:00": 10729062.0,
+      "2024-09-30 00:00:00": null,
+      "2023-09-30 00:00:00": 10729774.0,
       "2022-09-30 00:00:00": 10255089.0,
       "2021-09-30 00:00:00": 9084157.0
     },
     "Basic Average Shares": {
       "2025-09-30 00:00:00": null,
-      "2024-09-30 00:00:00": 10729062.0,
-      "2023-09-30 00:00:00": 10729062.0,
+      "2024-09-30 00:00:00": null,
+      "2023-09-30 00:00:00": 10729774.0,
       "2022-09-30 00:00:00": 10255089.0,
       "2021-09-30 00:00:00": 9084157.0
     },
     "Diluted EPS": {
       "2025-09-30 00:00:00": null,
-      "2024-09-30 00:00:00": -82.92,
+      "2024-09-30 00:00:00": null,
       "2023-09-30 00:00:00": -61.43,
       "2022-09-30 00:00:00": -49.57,
       "2021-09-30 00:00:00": -55.44
@@ -357,10 +357,10 @@
   "balance_sheet": {
     "Treasury Shares Number": {
       "2025-09-30 00:00:00": 74538.0,
-      "2024-09-30 00:00:00": 74538.0,
+      "2024-09-30 00:00:00": null,
       "2023-09-30 00:00:00": 74538.0,
       "2022-09-30 00:00:00": 74538.0,
-      "2021-09-30 00:00:00": null
+      "2021-09-30 00:00:00": 74538.0
     },
     "Ordinary Shares Number": {
       "2025-09-30 00:00:00": 12961162.0,
@@ -1209,15 +1209,15 @@
     "beta": 0.538,
     "volume": 2698700,
     "regularMarketVolume": 2698700,
-    "averageVolume": 695057,
+    "averageVolume": 672516,
     "averageVolume10days": 1477183,
     "averageDailyVolume10Day": 1477183,
-    "bid": 273.0,
-    "ask": 274.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 3551358464,
-    "nonDilutedMarketCap": 3032911908,
+    "nonDilutedMarketCap": 3551358388,
     "fiftyTwoWeekLow": 150.0,
     "fiftyTwoWeekHigh": 348.0,
     "allTimeHigh": 2620.0,
@@ -1276,8 +1276,13 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1016496000000,
     "shortName": "IMAGEONE CO LTD",
     "longName": "ImageONE Co., Ltd.",
+    "marketState": "PREPRE",
+    "regularMarketChange": 44.0,
+    "regularMarketDayRange": "233.0 - 277.0",
     "corporateActions": [],
     "regularMarketTime": 1778221800,
     "exchange": "JPX",
@@ -1289,19 +1294,8 @@
     "esgPopulated": false,
     "regularMarketChangePercent": 19.130434,
     "regularMarketPrice": 274.0,
-    "marketState": "CLOSED",
-    "fiftyDayAverageChangePercent": 0.1661559,
-    "twoHundredDayAverageChange": 43.960007,
-    "twoHundredDayAverageChangePercent": 0.19109723,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1016496000000,
-    "regularMarketChange": 44.0,
-    "regularMarketDayRange": "233.0 - 277.0",
     "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 695057,
+    "averageDailyVolume3Month": 672516,
     "fiftyTwoWeekLowChange": 124.0,
     "fiftyTwoWeekLowChangePercent": 0.82666665,
     "fiftyTwoWeekRange": "150.0 - 348.0",
@@ -1311,8 +1305,14 @@
     "earningsTimestampStart": 1754546400,
     "earningsTimestampEnd": 1754978400,
     "isEarningsDateEstimate": true,
+    "cryptoTradeable": false,
     "epsTrailingTwelveMonths": -50.47,
     "fiftyDayAverageChange": 39.039993,
+    "fiftyDayAverageChangePercent": 0.1661559,
+    "twoHundredDayAverageChange": 43.960007,
+    "twoHundredDayAverageChangePercent": 0.19109723,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
     "trailingPegRatio": null
   }
 }

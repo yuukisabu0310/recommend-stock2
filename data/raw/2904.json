@@ -1,7 +1,7 @@
 {
   "ticker": "2904",
   "japanese_ticker": "2904.T",
-  "fetch_date": "2026-05-09T23:54:19.791490",
+  "fetch_date": "2026-05-10T23:57:06.433646",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-06-30 00:00:00": 62160587.167164,
@@ -145,10 +145,10 @@
     },
     "Basic EPS": {
       "2025-06-30 00:00:00": 40.67,
-      "2024-06-30 00:00:00": 52.1,
+      "2024-06-30 00:00:00": null,
       "2023-06-30 00:00:00": 4.58,
       "2022-06-30 00:00:00": 30.73,
-      "2021-06-30 00:00:00": null
+      "2021-06-30 00:00:00": 145.62
     },
     "Diluted NI Availto Com Stockholders": {
       "2025-06-30 00:00:00": 746874000.0,
@@ -1203,11 +1203,11 @@
     "forwardPE": 14.931774,
     "volume": 4200,
     "regularMarketVolume": 4200,
-    "averageVolume": 5250,
+    "averageVolume": 5298,
     "averageVolume10days": 4166,
     "averageDailyVolume10Day": 4166,
-    "bid": 763.0,
-    "ask": 766.0,
+    "bid": 0.0,
+    "ask": 767.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 14037112832,
@@ -1277,9 +1277,8 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "marketState": "CLOSED",
-    "shortName": "ICHIMASA KAMABOKO CO",
     "longName": "Ichimasa Kamaboko Co., Ltd.",
+    "marketState": "PREPRE",
     "corporateActions": [],
     "regularMarketTime": 1778221800,
     "exchange": "JPX",
@@ -1289,13 +1288,6 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "fiftyDayAverageChange": 7.2199707,
-    "fiftyDayAverageChangePercent": 0.009515235,
-    "twoHundredDayAverageChange": 16.684998,
-    "twoHundredDayAverageChangePercent": 0.022267,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
     "regularMarketChangePercent": 0.39318478,
     "regularMarketPrice": 766.0,
     "hasPrePostMarketData": false,
@@ -1303,7 +1295,7 @@
     "regularMarketChange": 3.0,
     "regularMarketDayRange": "761.0 - 766.0",
     "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 5250,
+    "averageDailyVolume3Month": 5298,
     "fiftyTwoWeekLowChange": 34.0,
     "fiftyTwoWeekLowChangePercent": 0.04644809,
     "fiftyTwoWeekRange": "732.0 - 787.0",
@@ -1315,6 +1307,14 @@
     "isEarningsDateEstimate": true,
     "epsTrailingTwelveMonths": 21.91,
     "epsForward": 51.3,
+    "shortName": "ICHIMASA KAMABOKO CO",
+    "fiftyDayAverageChange": 7.2199707,
+    "fiftyDayAverageChangePercent": 0.009515235,
+    "twoHundredDayAverageChange": 16.684998,
+    "twoHundredDayAverageChangePercent": 0.022267,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
     "trailingPegRatio": null
   }
 }

@@ -1,7 +1,7 @@
 {
   "ticker": "2055",
   "japanese_ticker": "2055.T",
-  "fetch_date": "2026-05-09T23:44:26.571428",
+  "fetch_date": "2026-05-10T23:47:47.817461",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": -163728000.0,
@@ -276,7 +276,7 @@
   },
   "balance_sheet": {
     "Treasury Shares Number": {
-      "2025-03-31 00:00:00": 2719032.0,
+      "2025-03-31 00:00:00": null,
       "2024-03-31 00:00:00": 2718972.0,
       "2023-03-31 00:00:00": 2718971.0,
       "2022-03-31 00:00:00": 2718918.0
@@ -948,11 +948,11 @@
     "trailingPE": 21.189377,
     "volume": 20100,
     "regularMarketVolume": 20100,
-    "averageVolume": 14882,
+    "averageVolume": 14967,
     "averageVolume10days": 11733,
     "averageDailyVolume10Day": 11733,
-    "bid": 365.0,
-    "ask": 368.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 6647027712,
@@ -1015,8 +1015,6 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "marketState": "CLOSED",
-    "longName": "Nichiwa Sangyo Co., Ltd.",
     "corporateActions": [],
     "regularMarketTime": 1778221800,
     "exchange": "JPX",
@@ -1028,12 +1026,10 @@
     "esgPopulated": false,
     "regularMarketChangePercent": -3.6745408,
     "regularMarketPrice": 367.0,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 954806400000,
     "regularMarketChange": -14.0,
     "regularMarketDayRange": "364.0 - 373.0",
     "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 14882,
+    "averageDailyVolume3Month": 14967,
     "fiftyTwoWeekLowChange": 74.0,
     "fiftyTwoWeekLowChangePercent": 0.25255972,
     "fiftyTwoWeekRange": "293.0 - 415.0",
@@ -1050,8 +1046,12 @@
     "twoHundredDayAverageChangePercent": 0.048346747,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
+    "marketState": "PREPRE",
     "cryptoTradeable": false,
     "shortName": "NICHIWA SANGYO CO",
+    "longName": "Nichiwa Sangyo Co., Ltd.",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 954806400000,
     "trailingPegRatio": null
   }
 }

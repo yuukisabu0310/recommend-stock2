@@ -1,7 +1,7 @@
 {
   "ticker": "2393",
   "japanese_ticker": "2393.T",
-  "fetch_date": "2026-05-09T23:48:42.980190",
+  "fetch_date": "2026-05-10T23:51:48.035052",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": 4070288.0,
@@ -10,8 +10,8 @@
       "2022-03-31 00:00:00": 4389976.0
     },
     "Tax Rate For Calcs": {
-      "2025-03-31 00:00:00": 0.284,
-      "2024-03-31 00:00:00": 0.284,
+      "2025-03-31 00:00:00": 0.283538,
+      "2024-03-31 00:00:00": 0.284168,
       "2023-03-31 00:00:00": 0.288,
       "2022-03-31 00:00:00": 0.296
     },
@@ -107,13 +107,13 @@
     },
     "Diluted Average Shares": {
       "2025-03-31 00:00:00": 15537356.0,
-      "2024-03-31 00:00:00": 15537809.0,
+      "2024-03-31 00:00:00": 15537541.0,
       "2023-03-31 00:00:00": 15537857.0,
       "2022-03-31 00:00:00": 15537879.0
     },
     "Basic Average Shares": {
       "2025-03-31 00:00:00": 15537356.0,
-      "2024-03-31 00:00:00": 15537809.0,
+      "2024-03-31 00:00:00": 15537541.0,
       "2023-03-31 00:00:00": 15537857.0,
       "2022-03-31 00:00:00": 15537879.0
     },
@@ -270,7 +270,7 @@
       "2022-03-31 00:00:00": 15537857.0
     },
     "Share Issued": {
-      "2025-03-31 00:00:00": 16237693.0,
+      "2025-03-31 00:00:00": 15537683.0,
       "2024-03-31 00:00:00": 16342400.0,
       "2023-03-31 00:00:00": 16342400.0,
       "2022-03-31 00:00:00": 16342400.0
@@ -961,11 +961,11 @@
     "trailingPE": 16.721878,
     "volume": 1300,
     "regularMarketVolume": 1300,
-    "averageVolume": 3185,
+    "averageVolume": 3105,
     "averageVolume10days": 3183,
     "averageDailyVolume10Day": 3183,
-    "bid": 2222.0,
-    "ask": 2240.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 34512166912,
@@ -1032,10 +1032,9 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "marketState": "CLOSED",
+    "corporateActions": [],
     "shortName": "NIPPON CARE SUPPLY CO",
     "longName": "Nippon Care Supply Co., Ltd.",
-    "corporateActions": [],
     "regularMarketTime": 1778215258,
     "exchange": "JPX",
     "messageBoardId": "finmb_9104441",
@@ -1044,11 +1043,10 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "regularMarketChangePercent": -0.8482143,
-    "regularMarketPrice": 2221.0,
+    "regularMarketChange": -19.0,
     "regularMarketDayRange": "2220.0 - 2222.0",
     "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 3185,
+    "averageDailyVolume3Month": 3105,
     "fiftyTwoWeekLowChange": 271.0,
     "fiftyTwoWeekLowChangePercent": 0.13897435,
     "fiftyTwoWeekRange": "1950.0 - 2665.0",
@@ -1059,16 +1057,18 @@
     "earningsTimestampEnd": 1746685800,
     "isEarningsDateEstimate": false,
     "epsTrailingTwelveMonths": 132.82,
+    "twoHundredDayAverageChangePercent": -0.036166575,
+    "marketState": "PREPRE",
+    "regularMarketChangePercent": -0.8482143,
+    "regularMarketPrice": 2221.0,
     "fiftyDayAverageChange": -138.8999,
     "fiftyDayAverageChangePercent": -0.058858387,
     "twoHundredDayAverageChange": -83.34009,
-    "twoHundredDayAverageChangePercent": -0.036166575,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1077840000000,
-    "regularMarketChange": -19.0,
     "trailingPegRatio": null
   }
 }

@@ -1,7 +1,7 @@
 {
   "ticker": "2053",
   "japanese_ticker": "2053.T",
-  "fetch_date": "2026-05-09T23:44:24.536483",
+  "fetch_date": "2026-05-10T23:47:45.903636",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": 51227436.823105,
@@ -270,7 +270,7 @@
       "2022-03-31 00:00:00": 612536.0
     },
     "Ordinary Shares Number": {
-      "2025-03-31 00:00:00": 29570966.0,
+      "2025-03-31 00:00:00": 29571518.0,
       "2024-03-31 00:00:00": 29561371.0,
       "2023-03-31 00:00:00": 29547478.0,
       "2022-03-31 00:00:00": 29759372.0
@@ -1039,11 +1039,11 @@
     "forwardPE": 11.532698,
     "volume": 230100,
     "regularMarketVolume": 230100,
-    "averageVolume": 87714,
+    "averageVolume": 87891,
     "averageVolume10days": 248950,
     "averageDailyVolume10Day": 248950,
-    "bid": 1693.0,
-    "ask": 1700.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 48582787072,
@@ -1123,18 +1123,10 @@
     "esgPopulated": false,
     "regularMarketChangePercent": -0.7038123,
     "regularMarketPrice": 1693.0,
-    "fiftyDayAverageChange": -73.76001,
-    "fiftyDayAverageChangePercent": -0.041748744,
-    "twoHundredDayAverageChange": -63.744995,
-    "twoHundredDayAverageChangePercent": -0.036285855,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
-    "firstTradeDateMilliseconds": 978307200000,
     "regularMarketChange": -12.0,
     "regularMarketDayRange": "1679.0 - 1715.0",
     "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 87714,
+    "averageDailyVolume3Month": 87891,
     "fiftyTwoWeekLowChange": 245.0,
     "fiftyTwoWeekLowChangePercent": 0.1691989,
     "fiftyTwoWeekRange": "1448.0 - 1998.0",
@@ -1146,10 +1138,18 @@
     "isEarningsDateEstimate": true,
     "epsTrailingTwelveMonths": 190.63,
     "epsForward": 146.8,
-    "marketState": "CLOSED",
-    "hasPrePostMarketData": false,
+    "fiftyDayAverageChange": -73.76001,
+    "fiftyDayAverageChangePercent": -0.041748744,
+    "twoHundredDayAverageChange": -63.744995,
+    "twoHundredDayAverageChangePercent": -0.036285855,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "marketState": "PREPRE",
+    "cryptoTradeable": false,
     "shortName": "CHUBU SHIRYO CO",
     "longName": "Chubu Shiryo Co., Ltd.",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 978307200000,
     "trailingPegRatio": null
   }
 }
