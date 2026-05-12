@@ -1,7 +1,7 @@
 {
   "ticker": "2344",
   "japanese_ticker": "2344.T",
-  "fetch_date": "2026-05-10T23:51:07.746948",
+  "fetch_date": "2026-05-11T23:58:16.687261",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": -9253869.0,
@@ -929,6 +929,10 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "marketState": "PREPRE",
+    "longName": "Heian Ceremony Service Co.,Ltd.",
+    "corporateActions": [],
+    "regularMarketTime": 1778135400,
     "exchange": "JPX",
     "messageBoardId": "finmb_10038683",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -938,7 +942,6 @@
     "esgPopulated": false,
     "regularMarketChangePercent": 0.13413815,
     "regularMarketPrice": 1493.0,
-    "marketState": "PREPRE",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1039996800000,
     "regularMarketChange": 2.0,
@@ -963,9 +966,6 @@
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
     "shortName": "HEIAN CEREMONY SERVICE CO",
-    "longName": "Heian Ceremony Service Co.,Ltd.",
-    "corporateActions": [],
-    "regularMarketTime": 1778135400,
     "trailingPegRatio": null
   }
 }

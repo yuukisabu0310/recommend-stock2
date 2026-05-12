@@ -1,7 +1,7 @@
 {
   "ticker": "2686",
   "japanese_ticker": "2686.T",
-  "fetch_date": "2026-05-10T23:54:32.277016",
+  "fetch_date": "2026-05-12T00:01:39.024245",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-02-28 00:00:00": 101848000.0,
@@ -306,19 +306,19 @@
   },
   "balance_sheet": {
     "Treasury Shares Number": {
-      "2025-02-28 00:00:00": null,
+      "2025-02-28 00:00:00": 12371.0,
       "2024-02-29 00:00:00": 12371.0,
       "2023-02-28 00:00:00": 12286.0,
       "2022-02-28 00:00:00": 12286.0
     },
     "Ordinary Shares Number": {
-      "2025-02-28 00:00:00": 42565129.0,
+      "2025-02-28 00:00:00": 42568529.0,
       "2024-02-29 00:00:00": 42565129.0,
       "2023-02-28 00:00:00": 42560414.0,
       "2022-02-28 00:00:00": 42545214.0
     },
     "Share Issued": {
-      "2025-02-28 00:00:00": 42565129.0,
+      "2025-02-28 00:00:00": 42580900.0,
       "2024-02-29 00:00:00": 42577500.0,
       "2023-02-28 00:00:00": 42572700.0,
       "2022-02-28 00:00:00": 42557500.0
@@ -1029,17 +1029,17 @@
     "previousClose": 297.0,
     "open": 297.0,
     "dayLow": 297.0,
-    "dayHigh": 297.0,
+    "dayHigh": 298.0,
     "regularMarketPreviousClose": 297.0,
     "regularMarketOpen": 297.0,
     "regularMarketDayLow": 297.0,
-    "regularMarketDayHigh": 297.0,
+    "regularMarketDayHigh": 298.0,
     "exDividendDate": 1582761600,
     "payoutRatio": 0.0,
     "fiveYearAvgDividendYield": 2.16,
     "beta": 0.435,
-    "volume": 60400,
-    "regularMarketVolume": 60400,
+    "volume": 151400,
+    "regularMarketVolume": 151400,
     "averageVolume": 80489,
     "averageVolume10days": 88800,
     "averageDailyVolume10Day": 88800,
@@ -1105,8 +1105,7 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "corporateActions": [],
-    "regularMarketTime": 1778221800,
+    "regularMarketTime": 1778481000,
     "exchange": "JPX",
     "messageBoardId": "finmb_5721271",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1115,12 +1114,14 @@
     "market": "jp_market",
     "esgPopulated": false,
     "regularMarketChangePercent": 0.0,
+    "regularMarketPrice": 297.0,
+    "marketState": "REGULAR",
+    "corporateActions": [],
     "shortName": "GFOOT CO.LTD",
     "longName": "Gfoot Co.,Ltd.",
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1447113600000,
+    "cryptoTradeable": false,
     "regularMarketChange": 0.0,
-    "regularMarketDayRange": "297.0 - 297.0",
+    "regularMarketDayRange": "297.0 - 298.0",
     "fullExchangeName": "Tokyo",
     "averageDailyVolume3Month": 80489,
     "fiftyTwoWeekLowChange": 23.0,
@@ -1132,8 +1133,6 @@
     "earningsTimestampStart": 1751956200,
     "earningsTimestampEnd": 1752474600,
     "isEarningsDateEstimate": true,
-    "marketState": "PREPRE",
-    "regularMarketPrice": 297.0,
     "epsTrailingTwelveMonths": -76.51,
     "fiftyDayAverageChange": 8.100006,
     "fiftyDayAverageChangePercent": 0.028037405,
@@ -1142,7 +1141,8 @@
     "priceToBook": -5.357143,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1447113600000,
     "trailingPegRatio": null
   }
 }
