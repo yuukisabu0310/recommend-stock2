@@ -1,7 +1,7 @@
 {
   "ticker": "2130",
   "japanese_ticker": "2130.T",
-  "fetch_date": "2026-05-16T23:48:23.965964",
+  "fetch_date": "2026-05-17T23:57:22.543112",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": 0.0,
@@ -10,7 +10,7 @@
       "2022-03-31 00:00:00": 0.0
     },
     "Tax Rate For Calcs": {
-      "2025-03-31 00:00:00": 0.260242,
+      "2025-03-31 00:00:00": 0.282,
       "2024-03-31 00:00:00": 0.13,
       "2023-03-31 00:00:00": 0.278971,
       "2022-03-31 00:00:00": 0.26
@@ -240,7 +240,7 @@
   },
   "balance_sheet": {
     "Treasury Shares Number": {
-      "2025-03-31 00:00:00": null,
+      "2025-03-31 00:00:00": 654871.0,
       "2024-03-31 00:00:00": 654512.0,
       "2023-03-31 00:00:00": 277518.0,
       "2022-03-31 00:00:00": 90124.0
@@ -252,7 +252,7 @@
       "2022-03-31 00:00:00": 13127776.0
     },
     "Share Issued": {
-      "2025-03-31 00:00:00": 12766829.0,
+      "2025-03-31 00:00:00": 13421700.0,
       "2024-03-31 00:00:00": 13421700.0,
       "2023-03-31 00:00:00": 13363700.0,
       "2022-03-31 00:00:00": 13217900.0
@@ -800,27 +800,6 @@
         "yearBorn": 1965,
         "exercisedValue": 0,
         "unexercisedValue": 0
-      },
-      {
-        "maxAge": 1,
-        "name": "Naoki  Nishizawa",
-        "title": "Senior Managing Executive Officer",
-        "exercisedValue": 0,
-        "unexercisedValue": 0
-      },
-      {
-        "maxAge": 1,
-        "name": "Hiroshi  Tsukamoto",
-        "title": "Senior Managing Executive Officer",
-        "exercisedValue": 0,
-        "unexercisedValue": 0
-      },
-      {
-        "maxAge": 1,
-        "name": "Maya  Yonezawa",
-        "title": "Senior Executive Officer & GM of Business Platform Division",
-        "exercisedValue": 0,
-        "unexercisedValue": 0
       }
     ],
     "irWebsite": "http://www.members.co.jp/ir/index.html",
@@ -845,11 +824,11 @@
     "forwardPE": 7.453931,
     "volume": 554100,
     "regularMarketVolume": 554100,
-    "averageVolume": 85872,
+    "averageVolume": 86014,
     "averageVolume10days": 195285,
     "averageDailyVolume10Day": 195285,
-    "bid": 1166.0,
-    "ask": 1170.0,
+    "bid": 0.0,
+    "ask": 1182.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 14942422016,
@@ -923,22 +902,22 @@
     "customPriceAlertConfidence": "LOW",
     "corporateActions": [],
     "regularMarketTime": 1778826600,
-    "marketState": "CLOSED",
+    "exchange": "JPX",
+    "messageBoardId": "finmb_544045",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
     "shortName": "MEMBERS CO LTD",
     "longName": "Members Co., Ltd.",
-    "fiftyDayAverageChange": 77.80005,
-    "fiftyDayAverageChangePercent": 0.071297705,
-    "twoHundredDayAverageChange": -31.015015,
-    "twoHundredDayAverageChangePercent": -0.025845522,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1461196800000,
+    "regularMarketChangePercent": 6.8555756,
+    "regularMarketPrice": 1169.0,
+    "marketState": "PREPRE",
     "regularMarketChange": 75.0,
     "regularMarketDayRange": "1150.0 - 1231.0",
     "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 85872,
+    "averageDailyVolume3Month": 86014,
     "fiftyTwoWeekLowChange": 138.0,
     "fiftyTwoWeekLowChangePercent": 0.13385063,
     "fiftyTwoWeekRange": "1031.0 - 1478.0",
@@ -950,15 +929,15 @@
     "isEarningsDateEstimate": true,
     "epsTrailingTwelveMonths": 67.8,
     "epsForward": 156.83,
-    "exchange": "JPX",
-    "messageBoardId": "finmb_544045",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
-    "regularMarketChangePercent": 6.8555756,
-    "regularMarketPrice": 1169.0,
+    "fiftyDayAverageChange": 77.80005,
+    "fiftyDayAverageChangePercent": 0.071297705,
+    "twoHundredDayAverageChange": -31.015015,
+    "twoHundredDayAverageChangePercent": -0.025845522,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1461196800000,
     "trailingPegRatio": null
   }
 }

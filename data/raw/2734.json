@@ -1,7 +1,7 @@
 {
   "ticker": "2734",
   "japanese_ticker": "2734.T",
-  "fetch_date": "2026-05-16T23:55:20.299368",
+  "fetch_date": "2026-05-18T00:04:44.459363",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-11-30 00:00:00": 379192000.0,
@@ -95,11 +95,11 @@
       "2021-11-30 00:00:00": null
     },
     "Normalized Income": {
-      "2025-11-30 00:00:00": 5137192000.0,
+      "2025-11-30 00:00:00": null,
       "2024-11-30 00:00:00": 4822684230.96841,
       "2023-11-30 00:00:00": 4433334000.0,
       "2022-11-30 00:00:00": 5198412000.0,
-      "2021-11-30 00:00:00": null
+      "2021-11-30 00:00:00": 5005968000.0
     },
     "Net Income From Continuing And Discontinued Operation": {
       "2025-11-30 00:00:00": 5870000000.0,
@@ -552,11 +552,11 @@
       "2021-11-30 00:00:00": null
     },
     "Payables": {
-      "2025-11-30 00:00:00": 25123000000.0,
+      "2025-11-30 00:00:00": null,
       "2024-11-30 00:00:00": 28767000000.0,
       "2023-11-30 00:00:00": 26566000000.0,
       "2022-11-30 00:00:00": 29522000000.0,
-      "2021-11-30 00:00:00": null
+      "2021-11-30 00:00:00": 25957000000.0
     },
     "Total Tax Payable": {
       "2025-11-30 00:00:00": 2324000000.0,
@@ -841,11 +841,11 @@
       "2021-11-30 00:00:00": null
     },
     "Changes In Cash": {
-      "2025-11-30 00:00:00": 5486000000.0,
+      "2025-11-30 00:00:00": null,
       "2024-11-30 00:00:00": 3478000000.0,
       "2023-11-30 00:00:00": -1225000000.0,
       "2022-11-30 00:00:00": -455000000.0,
-      "2021-11-30 00:00:00": null
+      "2021-11-30 00:00:00": 2630000000.0
     },
     "Financing Cash Flow": {
       "2025-11-30 00:00:00": 1752000000.0,
@@ -1217,11 +1217,11 @@
     "trailingPE": 11.049119,
     "volume": 129300,
     "regularMarketVolume": 129300,
-    "averageVolume": 334281,
+    "averageVolume": 338854,
     "averageVolume10days": 147714,
     "averageDailyVolume10Day": 147714,
-    "bid": 1010.0,
-    "ask": 1019.0,
+    "bid": 1001.0,
+    "ask": 1003.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 64402735104,
@@ -1288,23 +1288,16 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "corporateActions": [],
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1020124800000,
     "regularMarketChange": -5.0,
     "regularMarketDayRange": "1007.0 - 1023.0",
     "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 334281,
+    "averageDailyVolume3Month": 338854,
     "fiftyTwoWeekLowChange": 125.0,
     "fiftyTwoWeekLowChangePercent": 0.14124294,
     "fiftyTwoWeekRange": "885.0 - 1228.0",
     "fiftyTwoWeekHighChange": -218.0,
     "fiftyTwoWeekHighChangePercent": -0.17752443,
     "fiftyTwoWeekChangePercent": 11.9733925,
-    "marketState": "CLOSED",
-    "cryptoTradeable": false,
-    "shortName": "SALA CORPORATION",
-    "longName": "SALA Corporation",
     "earningsTimestampStart": 1751524200,
     "earningsTimestampEnd": 1751869800,
     "isEarningsDateEstimate": true,
@@ -1315,6 +1308,8 @@
     "twoHundredDayAverageChangePercent": -0.062396985,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
+    "corporateActions": [],
     "regularMarketTime": 1778826600,
     "exchange": "JPX",
     "messageBoardId": "finmb_7870355",
@@ -1325,6 +1320,11 @@
     "esgPopulated": false,
     "regularMarketChangePercent": -0.49261084,
     "regularMarketPrice": 1010.0,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1020124800000,
+    "marketState": "REGULAR",
+    "shortName": "SALA CORPORATION",
+    "longName": "SALA Corporation",
     "trailingPegRatio": null
   }
 }

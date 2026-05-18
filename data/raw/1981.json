@@ -1,7 +1,7 @@
 {
   "ticker": "1981",
   "japanese_ticker": "1981.T",
-  "fetch_date": "2026-05-16T23:47:37.506479",
+  "fetch_date": "2026-05-17T23:56:36.664529",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": 904456.8,
@@ -113,13 +113,13 @@
     },
     "Diluted Average Shares": {
       "2025-03-31 00:00:00": 10527000.0,
-      "2024-03-31 00:00:00": 11142874.0,
+      "2024-03-31 00:00:00": 11143000.0,
       "2023-03-31 00:00:00": 11483000.0,
       "2022-03-31 00:00:00": 11512000.0
     },
     "Basic Average Shares": {
       "2025-03-31 00:00:00": 10527000.0,
-      "2024-03-31 00:00:00": 11142874.0,
+      "2024-03-31 00:00:00": 11143000.0,
       "2023-03-31 00:00:00": 11483000.0,
       "2022-03-31 00:00:00": 11512000.0
     },
@@ -306,13 +306,13 @@
   },
   "balance_sheet": {
     "Treasury Shares Number": {
-      "2025-03-31 00:00:00": null,
+      "2025-03-31 00:00:00": 638637.0,
       "2024-03-31 00:00:00": 656500.0,
       "2023-03-31 00:00:00": 656600.0,
       "2022-03-31 00:00:00": 287300.0
     },
     "Ordinary Shares Number": {
-      "2025-03-31 00:00:00": 11160843.0,
+      "2025-03-31 00:00:00": 10527663.0,
       "2024-03-31 00:00:00": 11143500.0,
       "2023-03-31 00:00:00": 11143400.0,
       "2022-03-31 00:00:00": 11512700.0
@@ -1088,11 +1088,11 @@
     "trailingPE": 10.203928,
     "volume": 10600,
     "regularMarketVolume": 10600,
-    "averageVolume": 6493,
+    "averageVolume": 6503,
     "averageVolume10days": 6257,
     "averageDailyVolume10Day": 6257,
-    "bid": 1360.0,
-    "ask": 1365.0,
+    "bid": 1356.0,
+    "ask": 1357.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 13776823296,
@@ -1161,19 +1161,10 @@
     "customPriceAlertConfidence": "LOW",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 946944000000,
-    "corporateActions": [],
-    "regularMarketTime": 1778826600,
-    "exchange": "JPX",
-    "messageBoardId": "finmb_5547103",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
-    "marketState": "CLOSED",
-    "shortName": "KYOWANISSEI CO LTD",
-    "longName": "Kyowanissei Co.,Ltd.",
-    "averageDailyVolume3Month": 6493,
+    "regularMarketChange": -25.0,
+    "regularMarketDayRange": "1361.0 - 1381.0",
+    "fullExchangeName": "Tokyo",
+    "averageDailyVolume3Month": 6503,
     "fiftyTwoWeekLowChange": 48.0,
     "fiftyTwoWeekLowChangePercent": 0.036557503,
     "fiftyTwoWeekRange": "1313.0 - 1947.0",
@@ -1193,9 +1184,18 @@
     "cryptoTradeable": false,
     "regularMarketChangePercent": -1.8037518,
     "regularMarketPrice": 1361.0,
-    "regularMarketChange": -25.0,
-    "regularMarketDayRange": "1361.0 - 1381.0",
-    "fullExchangeName": "Tokyo",
+    "marketState": "PREPRE",
+    "shortName": "KYOWANISSEI CO LTD",
+    "longName": "Kyowanissei Co.,Ltd.",
+    "corporateActions": [],
+    "regularMarketTime": 1778826600,
+    "exchange": "JPX",
+    "messageBoardId": "finmb_5547103",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
     "trailingPegRatio": null
   }
 }

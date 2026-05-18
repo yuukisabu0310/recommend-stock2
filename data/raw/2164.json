@@ -1,7 +1,7 @@
 {
   "ticker": "2164",
   "japanese_ticker": "2164.T",
-  "fetch_date": "2026-05-16T23:48:55.181578",
+  "fetch_date": "2026-05-17T23:57:54.984806",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-08-31 00:00:00": 962205.733815,
@@ -132,7 +132,7 @@
     "Basic Average Shares": {
       "2025-08-31 00:00:00": 14959416.0,
       "2024-08-31 00:00:00": 8930956.0,
-      "2023-08-31 00:00:00": 2102745.0,
+      "2023-08-31 00:00:00": 2102092.0,
       "2022-08-31 00:00:00": 1908211.0,
       "2021-08-31 00:00:00": null
     },
@@ -315,14 +315,14 @@
     },
     "Ordinary Shares Number": {
       "2025-08-31 00:00:00": 7482188.0,
-      "2024-08-31 00:00:00": 3739655.0,
+      "2024-08-31 00:00:00": 2669517.0,
       "2023-08-31 00:00:00": 2158653.0,
       "2022-08-31 00:00:00": 2072033.0,
       "2021-08-31 00:00:00": null
     },
     "Share Issued": {
       "2025-08-31 00:00:00": 7483828.0,
-      "2024-08-31 00:00:00": 3739655.0,
+      "2024-08-31 00:00:00": 2670276.0,
       "2023-08-31 00:00:00": 2159286.0,
       "2022-08-31 00:00:00": 2072500.0,
       "2021-08-31 00:00:00": null
@@ -1098,31 +1098,6 @@
         "yearBorn": 1965,
         "exercisedValue": 0,
         "unexercisedValue": 0
-      },
-      {
-        "maxAge": 1,
-        "name": "Tsutomu  Ezawa",
-        "title": "General Manager of Finance & Accounting Division",
-        "exercisedValue": 0,
-        "unexercisedValue": 0
-      },
-      {
-        "maxAge": 1,
-        "name": "Mr. Yoshiaki  Kanebako",
-        "age": 66,
-        "title": "Chief of CS Promotion Office, GM of Operations Division & Director",
-        "yearBorn": 1959,
-        "exercisedValue": 0,
-        "unexercisedValue": 0
-      },
-      {
-        "maxAge": 1,
-        "name": "Mr. Masashi  Matsukawa",
-        "age": 44,
-        "title": "Head of the HR Management Department & Director",
-        "yearBorn": 1981,
-        "exercisedValue": 0,
-        "unexercisedValue": 0
       }
     ],
     "irWebsite": "http://www.chiikinews.co.jp/ir_top.html",
@@ -1143,11 +1118,11 @@
     "beta": 0.5,
     "volume": 72700,
     "regularMarketVolume": 72700,
-    "averageVolume": 61134,
+    "averageVolume": 61847,
     "averageVolume10days": 49114,
     "averageDailyVolume10Day": 49114,
-    "bid": 293.0,
-    "ask": 301.0,
+    "bid": 0.0,
+    "ask": 300.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 2216227328,
@@ -1212,7 +1187,9 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "marketState": "CLOSED",
+    "marketState": "PREPRE",
+    "shortName": "CHIIKISHINBUNSHA CO LTD",
+    "longName": "Chiikishinbunsha Co.,Ltd.",
     "corporateActions": [],
     "regularMarketTime": 1778826600,
     "exchange": "JPX",
@@ -1224,13 +1201,9 @@
     "esgPopulated": false,
     "regularMarketChangePercent": -3.9215689,
     "regularMarketPrice": 294.0,
-    "cryptoTradeable": false,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1198801800000,
-    "regularMarketChange": -12.0,
     "regularMarketDayRange": "280.0 - 300.0",
     "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 61134,
+    "averageDailyVolume3Month": 61847,
     "fiftyTwoWeekLowChange": 115.5,
     "fiftyTwoWeekLowChangePercent": 0.64705884,
     "fiftyTwoWeekRange": "178.5 - 462.5",
@@ -1249,8 +1222,10 @@
     "twoHundredDayAverageChangePercent": -0.06576954,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
-    "shortName": "CHIIKISHINBUNSHA CO LTD",
-    "longName": "Chiikishinbunsha Co.,Ltd.",
+    "cryptoTradeable": false,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1198801800000,
+    "regularMarketChange": -12.0,
     "trailingPegRatio": null
   }
 }

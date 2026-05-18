@@ -1,7 +1,7 @@
 {
   "ticker": "1803",
   "japanese_ticker": "1803.T",
-  "fetch_date": "2026-05-16T23:44:58.695069",
+  "fetch_date": "2026-05-17T23:53:53.348079",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": 12842550000.0,
@@ -56,6 +56,12 @@
       "2024-03-31 00:00:00": 69451000000.0,
       "2023-03-31 00:00:00": 105139000000.0,
       "2022-03-31 00:00:00": 87574000000.0
+    },
+    "EBIT": {
+      "2025-03-31 00:00:00": 114372000000.0,
+      "2024-03-31 00:00:00": 39195000000.0,
+      "2023-03-31 00:00:00": 79341000000.0,
+      "2022-03-31 00:00:00": 67361000000.0
     },
     "Net Interest Income": {
       "2025-03-31 00:00:00": -2509000000.0,
@@ -414,6 +420,12 @@
       "2022-03-31 00:00:00": 24875000000.0
     },
     "Long Term Debt And Capital Lease Obligation": {
+      "2025-03-31 00:00:00": 288959000000.0,
+      "2024-03-31 00:00:00": 310086000000.0,
+      "2023-03-31 00:00:00": 343184000000.0,
+      "2022-03-31 00:00:00": 292010000000.0
+    },
+    "Long Term Debt": {
       "2025-03-31 00:00:00": 288959000000.0,
       "2024-03-31 00:00:00": 310086000000.0,
       "2023-03-31 00:00:00": 343184000000.0,
@@ -985,22 +997,6 @@
         "fiscalYear": 2025,
         "exercisedValue": 0,
         "unexercisedValue": 0
-      },
-      {
-        "maxAge": 1,
-        "name": "Takefumi  Saito",
-        "title": "Senior Mang. Officer, Deputy Director Civil Eng. H.Q. & Director of Tokyo Civil Eng. Branch",
-        "fiscalYear": 2025,
-        "exercisedValue": 0,
-        "unexercisedValue": 0
-      },
-      {
-        "maxAge": 1,
-        "name": "Kojiro  Shimizu",
-        "title": "Senior Managing Officer & Director of Tokyo Branch",
-        "fiscalYear": 2025,
-        "exercisedValue": 0,
-        "unexercisedValue": 0
       }
     ],
     "auditRisk": 1,
@@ -1032,11 +1028,11 @@
     "forwardPE": 33.87725,
     "volume": 5234500,
     "regularMarketVolume": 5234500,
-    "averageVolume": 4512815,
+    "averageVolume": 4539896,
     "averageVolume10days": 6485971,
     "averageDailyVolume10Day": 6485971,
-    "bid": 2781.5,
-    "ask": 2782.0,
+    "bid": 0.0,
+    "ask": 2760.5,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 1889538015232,
@@ -1111,14 +1107,34 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "marketState": "PREPRE",
+    "fiftyDayAverageChange": -181.26001,
+    "fiftyDayAverageChangePercent": -0.06116912,
+    "twoHundredDayAverageChange": 203.94751,
+    "twoHundredDayAverageChangePercent": 0.07910914,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "averageAnalystRating": "2.3 - Buy",
+    "cryptoTradeable": false,
+    "corporateActions": [],
+    "regularMarketTime": 1778826600,
+    "exchange": "JPX",
+    "messageBoardId": "finmb_875399",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
     "regularMarketChangePercent": -5.1321397,
     "regularMarketPrice": 2782.0,
+    "shortName": "SHIMIZU CORP",
+    "longName": "Shimizu Corporation",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 946944000000,
     "regularMarketChange": -150.5,
     "regularMarketDayRange": "2771.0 - 2992.0",
     "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 4512815,
+    "averageDailyVolume3Month": 4539896,
     "fiftyTwoWeekLowChange": 1252.0,
     "fiftyTwoWeekLowChangePercent": 0.81830066,
     "fiftyTwoWeekRange": "1530.0 - 3618.0",
@@ -1133,26 +1149,6 @@
     "isEarningsDateEstimate": true,
     "epsTrailingTwelveMonths": 186.67,
     "epsForward": 82.12,
-    "fiftyDayAverageChange": -181.26001,
-    "fiftyDayAverageChangePercent": -0.06116912,
-    "twoHundredDayAverageChange": 203.94751,
-    "twoHundredDayAverageChangePercent": 0.07910914,
-    "shortName": "SHIMIZU CORP",
-    "longName": "Shimizu Corporation",
-    "corporateActions": [],
-    "regularMarketTime": 1778826600,
-    "exchange": "JPX",
-    "messageBoardId": "finmb_875399",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
-    "marketState": "CLOSED",
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "averageAnalystRating": "2.3 - Buy",
-    "cryptoTradeable": false,
     "trailingPegRatio": null
   }
 }

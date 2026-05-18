@@ -1,7 +1,7 @@
 {
   "ticker": "1434",
   "japanese_ticker": "1434.T",
-  "fetch_date": "2026-05-16T23:43:30.669163",
+  "fetch_date": "2026-05-17T23:52:20.340358",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-08-31 00:00:00": 18112211.0,
@@ -1109,77 +1109,6 @@
         "yearBorn": 1951,
         "exercisedValue": 0,
         "unexercisedValue": 0
-      },
-      {
-        "maxAge": 1,
-        "name": "Tomoki  Kato",
-        "title": "Executive Officer and Head of Finance & Accounting Department",
-        "exercisedValue": 0,
-        "unexercisedValue": 0
-      },
-      {
-        "maxAge": 1,
-        "name": "Shinji  Kawata",
-        "title": "Group Director of General Affairs & Legal Affairs Office and Managing Executive Officer",
-        "exercisedValue": 0,
-        "unexercisedValue": 0
-      },
-      {
-        "maxAge": 1,
-        "name": "Seiichi  Kawashima",
-        "age": 64,
-        "title": "Officer and Group Director of Human Resource & Development Office",
-        "yearBorn": 1961,
-        "exercisedValue": 0,
-        "unexercisedValue": 0
-      },
-      {
-        "maxAge": 1,
-        "name": "Taichi  Kotegawa",
-        "age": 59,
-        "title": "Executive VP, Senior MD & Director",
-        "yearBorn": 1966,
-        "exercisedValue": 0,
-        "unexercisedValue": 0
-      },
-      {
-        "maxAge": 1,
-        "name": "Naoyuki  Kato",
-        "title": "Managing Executive Officer",
-        "exercisedValue": 0,
-        "unexercisedValue": 0
-      },
-      {
-        "maxAge": 1,
-        "name": "Mr. Masayuki  Numai",
-        "age": 73,
-        "title": "Executive VP & Director",
-        "yearBorn": 1952,
-        "exercisedValue": 0,
-        "unexercisedValue": 0
-      },
-      {
-        "maxAge": 1,
-        "name": "Katsufumi  Nakazaki",
-        "title": "Managing Executive Officer",
-        "exercisedValue": 0,
-        "unexercisedValue": 0
-      },
-      {
-        "maxAge": 1,
-        "name": "Toshihiko  Hagiwara",
-        "age": 61,
-        "title": "Managing Executive Officer & Director",
-        "yearBorn": 1964,
-        "exercisedValue": 0,
-        "unexercisedValue": 0
-      },
-      {
-        "maxAge": 1,
-        "name": "Shigeki  Kannon",
-        "title": "Managing Executive Officer",
-        "exercisedValue": 0,
-        "unexercisedValue": 0
       }
     ],
     "executiveTeam": [],
@@ -1203,11 +1132,11 @@
     "forwardPE": 50.69328,
     "volume": 68200,
     "regularMarketVolume": 68200,
-    "averageVolume": 66937,
+    "averageVolume": 67480,
     "averageVolume10days": 36271,
     "averageDailyVolume10Day": 36271,
-    "bid": 2412.0,
-    "ask": 2455.0,
+    "bid": 0.0,
+    "ask": 2413.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 16790908928,
@@ -1275,18 +1204,9 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "marketState": "PREPRE",
     "shortName": "JESCO HOLDINGS INC",
-    "fiftyDayAverageChange": 284.56006,
-    "fiftyDayAverageChangePercent": 0.13369419,
-    "twoHundredDayAverageChange": 799.505,
-    "twoHundredDayAverageChangePercent": 0.4955113,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
     "longName": "Jesco Holdings, Inc.",
-    "regularMarketChangePercent": -4.699842,
-    "regularMarketPrice": 2413.0,
-    "marketState": "CLOSED",
     "corporateActions": [],
     "regularMarketTime": 1778826600,
     "exchange": "JPX",
@@ -1296,12 +1216,11 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1441670400000,
-    "regularMarketChange": -119.0,
+    "regularMarketChangePercent": -4.699842,
+    "regularMarketPrice": 2413.0,
     "regularMarketDayRange": "2382.0 - 2624.0",
     "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 66937,
+    "averageDailyVolume3Month": 67480,
     "fiftyTwoWeekLowChange": 1582.0,
     "fiftyTwoWeekLowChangePercent": 1.9037304,
     "fiftyTwoWeekRange": "831.0 - 2624.0",
@@ -1313,6 +1232,16 @@
     "isEarningsDateEstimate": true,
     "epsTrailingTwelveMonths": 220.07,
     "epsForward": 47.6,
+    "fiftyDayAverageChange": 284.56006,
+    "fiftyDayAverageChangePercent": 0.13369419,
+    "twoHundredDayAverageChange": 799.505,
+    "twoHundredDayAverageChangePercent": 0.4955113,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1441670400000,
+    "regularMarketChange": -119.0,
     "trailingPegRatio": null
   }
 }

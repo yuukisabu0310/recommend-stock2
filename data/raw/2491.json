@@ -1,19 +1,19 @@
 {
   "ticker": "2491",
   "japanese_ticker": "2491.T",
-  "fetch_date": "2026-05-16T23:53:16.763777",
+  "fetch_date": "2026-05-18T00:02:36.192822",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-12-31 00:00:00": -77952000.0,
       "2024-12-31 00:00:00": 2446280.991736,
-      "2023-12-31 00:00:00": -63765125.96707,
+      "2023-12-31 00:00:00": -63700000.0,
       "2022-12-31 00:00:00": 19937252.073567,
       "2021-12-31 00:00:00": null
     },
     "Tax Rate For Calcs": {
       "2025-12-31 00:00:00": 0.232,
       "2024-12-31 00:00:00": 0.305785,
-      "2023-12-31 00:00:00": 0.325332,
+      "2023-12-31 00:00:00": 0.325,
       "2022-12-31 00:00:00": 0.30208,
       "2021-12-31 00:00:00": null
     },
@@ -76,7 +76,7 @@
     "Normalized Income": {
       "2025-12-31 00:00:00": 745048000.0,
       "2024-12-31 00:00:00": 2849446280.991736,
-      "2023-12-31 00:00:00": 3532234874.03293,
+      "2023-12-31 00:00:00": 3532300000.0,
       "2022-12-31 00:00:00": 5759937252.073567,
       "2021-12-31 00:00:00": null
     },
@@ -104,30 +104,30 @@
     "Diluted Average Shares": {
       "2025-12-31 00:00:00": 21625222.0,
       "2024-12-31 00:00:00": 25211939.0,
-      "2023-12-31 00:00:00": 32334760.0,
+      "2023-12-31 00:00:00": 32337760.0,
       "2022-12-31 00:00:00": 32341800.0,
       "2021-12-31 00:00:00": null
     },
     "Basic Average Shares": {
       "2025-12-31 00:00:00": 21625222.0,
       "2024-12-31 00:00:00": 25211939.0,
-      "2023-12-31 00:00:00": 32331685.0,
+      "2023-12-31 00:00:00": 32337760.0,
       "2022-12-31 00:00:00": 32329328.0,
       "2021-12-31 00:00:00": null
     },
     "Diluted EPS": {
       "2025-12-31 00:00:00": 22.52,
-      "2024-12-31 00:00:00": null,
+      "2024-12-31 00:00:00": 113.24,
       "2023-12-31 00:00:00": 105.15,
       "2022-12-31 00:00:00": 179.52,
-      "2021-12-31 00:00:00": 100.84
+      "2021-12-31 00:00:00": null
     },
     "Basic EPS": {
       "2025-12-31 00:00:00": 22.52,
-      "2024-12-31 00:00:00": null,
+      "2024-12-31 00:00:00": 113.24,
       "2023-12-31 00:00:00": 105.16,
       "2022-12-31 00:00:00": 179.6,
-      "2021-12-31 00:00:00": 100.92
+      "2021-12-31 00:00:00": null
     },
     "Diluted NI Availto Com Stockholders": {
       "2025-12-31 00:00:00": 487000000.0,
@@ -1056,11 +1056,11 @@
     "forwardPE": 4.0064926,
     "volume": 384600,
     "regularMarketVolume": 384600,
-    "averageVolume": 394462,
+    "averageVolume": 397817,
     "averageVolume10days": 464642,
     "averageDailyVolume10Day": 464642,
-    "bid": 466.0,
-    "ask": 469.0,
+    "bid": 0.0,
+    "ask": 470.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 10166198272,
@@ -1127,11 +1127,9 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1154304000000,
-    "regularMarketChange": -5.0,
-    "regularMarketDayRange": "457.0 - 470.0",
-    "marketState": "CLOSED",
+    "shortName": "VALUECOMMERCE CO.LTD.",
+    "longName": "ValueCommerce Co., Ltd.",
+    "corporateActions": [],
     "regularMarketTime": 1778826600,
     "exchange": "JPX",
     "messageBoardId": "finmb_89806",
@@ -1140,11 +1138,21 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "corporateActions": [],
-    "shortName": "VALUECOMMERCE CO.LTD.",
-    "longName": "ValueCommerce Co., Ltd.",
+    "regularMarketChangePercent": -1.0548524,
+    "regularMarketPrice": 469.0,
+    "marketState": "REGULAR",
+    "fiftyDayAverageChangePercent": 0.026392957,
+    "twoHundredDayAverageChange": -162.89001,
+    "twoHundredDayAverageChangePercent": -0.25778222,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1154304000000,
+    "regularMarketChange": -5.0,
+    "regularMarketDayRange": "457.0 - 470.0",
     "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 394462,
+    "averageDailyVolume3Month": 397817,
     "fiftyTwoWeekLowChange": 61.0,
     "fiftyTwoWeekLowChangePercent": 0.1495098,
     "fiftyTwoWeekRange": "408.0 - 858.0",
@@ -1158,14 +1166,6 @@
     "epsTrailingTwelveMonths": 22.51,
     "epsForward": 117.06,
     "fiftyDayAverageChange": 12.059998,
-    "fiftyDayAverageChangePercent": 0.026392957,
-    "twoHundredDayAverageChange": -162.89001,
-    "twoHundredDayAverageChangePercent": -0.25778222,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
-    "regularMarketChangePercent": -1.0548524,
-    "regularMarketPrice": 469.0,
     "trailingPegRatio": null
   }
 }

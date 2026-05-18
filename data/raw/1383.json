@@ -1,7 +1,7 @@
 {
   "ticker": "1383",
   "japanese_ticker": "1383.T",
-  "fetch_date": "2026-05-16T23:43:04.417797",
+  "fetch_date": "2026-05-17T23:51:54.620046",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-10-31 00:00:00": 41892936.0,
@@ -132,13 +132,13 @@
     "Basic Average Shares": {
       "2025-10-31 00:00:00": null,
       "2024-10-31 00:00:00": 1597325.0,
-      "2023-10-31 00:00:00": 1534251.0,
+      "2023-10-31 00:00:00": 1534133.0,
       "2022-10-31 00:00:00": 1420735.0,
       "2021-10-31 00:00:00": 1269653.0
     },
     "Diluted EPS": {
       "2025-10-31 00:00:00": null,
-      "2024-10-31 00:00:00": null,
+      "2024-10-31 00:00:00": 25.0,
       "2023-10-31 00:00:00": 50.86,
       "2022-10-31 00:00:00": 139.16,
       "2021-10-31 00:00:00": 93.92
@@ -315,10 +315,10 @@
   "balance_sheet": {
     "Treasury Shares Number": {
       "2025-10-31 00:00:00": 13224.0,
-      "2024-10-31 00:00:00": null,
+      "2024-10-31 00:00:00": 13174.0,
       "2023-10-31 00:00:00": 13174.0,
       "2022-10-31 00:00:00": 13126.0,
-      "2021-10-31 00:00:00": 247.0
+      "2021-10-31 00:00:00": null
     },
     "Ordinary Shares Number": {
       "2025-10-31 00:00:00": 1600356.0,
@@ -1140,45 +1140,6 @@
         "yearBorn": 1957,
         "exercisedValue": 0,
         "unexercisedValue": 0
-      },
-      {
-        "maxAge": 1,
-        "name": "Yukiyo  Nomoto",
-        "title": "Executive Officer and Head of Finance & Accounting Division",
-        "exercisedValue": 0,
-        "unexercisedValue": 0
-      },
-      {
-        "maxAge": 1,
-        "name": "Ms. Mayuko  Yamaguchi",
-        "age": 65,
-        "title": "Senior MD & Director",
-        "yearBorn": 1960,
-        "exercisedValue": 0,
-        "unexercisedValue": 0
-      },
-      {
-        "maxAge": 1,
-        "name": "Mr. Chikakuni  Kotani",
-        "age": 65,
-        "title": "MD & Director",
-        "yearBorn": 1960,
-        "exercisedValue": 0,
-        "unexercisedValue": 0
-      },
-      {
-        "maxAge": 1,
-        "name": "Miki  Seike",
-        "title": "Head of Internal Audit Office",
-        "exercisedValue": 0,
-        "unexercisedValue": 0
-      },
-      {
-        "maxAge": 1,
-        "name": "Seiichiro  Matsuda",
-        "title": "Executive Officer & Chief of General Affairs Division",
-        "exercisedValue": 0,
-        "unexercisedValue": 0
       }
     ],
     "irWebsite": "http://www.bergearth.co.jp/ir/",
@@ -1202,11 +1163,11 @@
     "trailingPE": 95.25075,
     "volume": 2300,
     "regularMarketVolume": 2300,
-    "averageVolume": 7779,
+    "averageVolume": 7880,
     "averageVolume10days": 9285,
     "averageDailyVolume10Day": 9285,
-    "bid": 2860.0,
-    "ask": 2870.0,
+    "bid": 0.0,
+    "ask": 2868.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 4589820928,
@@ -1269,10 +1230,23 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "marketState": "PREPRE",
     "shortName": "BERG EARTH CO LTD",
     "longName": "Berg Earth Co.,Ltd.",
+    "corporateActions": [],
+    "regularMarketTime": 1778825613,
+    "exchange": "JPX",
+    "messageBoardId": "finmb_25336112",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
     "regularMarketChangePercent": 0.631579,
     "regularMarketPrice": 2868.0,
+    "regularMarketDayRange": "2851.0 - 2868.0",
+    "fullExchangeName": "Tokyo",
+    "averageDailyVolume3Month": 7880,
     "fiftyTwoWeekLowChange": 65.0,
     "fiftyTwoWeekLowChangePercent": 0.02318944,
     "fiftyTwoWeekRange": "2803.0 - 3365.0",
@@ -1292,20 +1266,7 @@
     "cryptoTradeable": false,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1322524800000,
-    "corporateActions": [],
-    "regularMarketTime": 1778825613,
-    "exchange": "JPX",
-    "messageBoardId": "finmb_25336112",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
-    "marketState": "CLOSED",
     "regularMarketChange": 18.0,
-    "regularMarketDayRange": "2851.0 - 2868.0",
-    "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 7779,
     "trailingPegRatio": null
   }
 }

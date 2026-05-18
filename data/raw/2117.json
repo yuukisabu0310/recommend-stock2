@@ -1,7 +1,7 @@
 {
   "ticker": "2117",
   "japanese_ticker": "2117.T",
-  "fetch_date": "2026-05-16T23:48:12.951558",
+  "fetch_date": "2026-05-17T23:57:10.877384",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": 0.0,
@@ -867,36 +867,6 @@
         "yearBorn": 1966,
         "exercisedValue": 0,
         "unexercisedValue": 0
-      },
-      {
-        "maxAge": 1,
-        "name": "Kenji  Oba",
-        "title": "Executive Officer, Finance Department",
-        "exercisedValue": 0,
-        "unexercisedValue": 0
-      },
-      {
-        "maxAge": 1,
-        "name": "Mr. Shigeto  Ito",
-        "age": 60,
-        "title": "Executive Officer & Director",
-        "yearBorn": 1965,
-        "exercisedValue": 0,
-        "unexercisedValue": 0
-      },
-      {
-        "maxAge": 1,
-        "name": "Masaki  Akagi",
-        "title": "Executive Officer of Kyushu Area",
-        "exercisedValue": 0,
-        "unexercisedValue": 0
-      },
-      {
-        "maxAge": 1,
-        "name": "Tomonobu  Miki",
-        "title": "Executive Officer",
-        "exercisedValue": 0,
-        "unexercisedValue": 0
       }
     ],
     "irWebsite": "http://www.nissin-sugar-hldgs.co.jp/ir/index.html",
@@ -919,11 +889,11 @@
     "trailingPE": 15.552359,
     "volume": 35300,
     "regularMarketVolume": 35300,
-    "averageVolume": 35748,
+    "averageVolume": 36040,
     "averageVolume10days": 35128,
     "averageDailyVolume10Day": 35128,
-    "bid": 2693.0,
-    "ask": 2711.0,
+    "bid": 2744.0,
+    "ask": 2744.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 88522588160,
@@ -992,10 +962,12 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 978307200000,
     "regularMarketChange": 70.0,
     "regularMarketDayRange": "2641.0 - 2703.0",
     "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 35748,
+    "averageDailyVolume3Month": 36040,
     "fiftyTwoWeekLowChange": 473.0,
     "fiftyTwoWeekLowChangePercent": 0.21210763,
     "fiftyTwoWeekRange": "2230.0 - 3050.0",
@@ -1008,18 +980,16 @@
     "epsTrailingTwelveMonths": 173.8,
     "fiftyDayAverageChange": -93.65991,
     "fiftyDayAverageChangePercent": -0.03348992,
+    "marketState": "PREPRE",
     "twoHundredDayAverageChange": -20.919922,
     "twoHundredDayAverageChangePercent": -0.0076800794,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "prevName": "Nissin Sugar Co., Ltd.",
-    "nameChangeDate": "2026-05-16",
-    "shortName": "WELLNEO SUGAR CO LTD",
-    "longName": "WELLNEO SUGAR Co., Ltd.",
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 978307200000,
+    "nameChangeDate": "2026-05-17",
     "cryptoTradeable": false,
-    "marketState": "CLOSED",
+    "regularMarketChangePercent": 2.6585643,
+    "regularMarketPrice": 2703.0,
     "corporateActions": [],
     "regularMarketTime": 1778826600,
     "exchange": "JPX",
@@ -1029,8 +999,8 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "regularMarketChangePercent": 2.6585643,
-    "regularMarketPrice": 2703.0,
+    "shortName": "WELLNEO SUGAR CO LTD",
+    "longName": "WELLNEO SUGAR Co., Ltd.",
     "trailingPegRatio": null
   }
 }

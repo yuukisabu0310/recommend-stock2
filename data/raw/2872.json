@@ -1,7 +1,7 @@
 {
   "ticker": "2872",
   "japanese_ticker": "2872.T",
-  "fetch_date": "2026-05-16T23:56:57.214248",
+  "fetch_date": "2026-05-18T00:06:27.869885",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-02-28 00:00:00": null,
@@ -132,14 +132,14 @@
     "Diluted Average Shares": {
       "2026-02-28 00:00:00": 1400043.0,
       "2025-02-28 00:00:00": null,
-      "2024-02-29 00:00:00": 1537222.0,
+      "2024-02-29 00:00:00": 1537182.0,
       "2023-02-28 00:00:00": 1493376.0,
       "2022-02-28 00:00:00": 1226388.0
     },
     "Basic Average Shares": {
       "2026-02-28 00:00:00": null,
       "2025-02-28 00:00:00": null,
-      "2024-02-29 00:00:00": 1537222.0,
+      "2024-02-29 00:00:00": 1537182.0,
       "2023-02-28 00:00:00": 1493376.0,
       "2022-02-28 00:00:00": 1226388.0
     },
@@ -369,13 +369,13 @@
       "2022-02-28 00:00:00": 70101.0
     },
     "Ordinary Shares Number": {
-      "2025-02-28 00:00:00": 1395395.0,
+      "2025-02-28 00:00:00": 1394795.0,
       "2024-02-29 00:00:00": 1393918.0,
       "2023-02-28 00:00:00": 1548954.0,
       "2022-02-28 00:00:00": 1226142.0
     },
     "Share Issued": {
-      "2025-02-28 00:00:00": 1395395.0,
+      "2025-02-28 00:00:00": 1620993.0,
       "2024-02-29 00:00:00": 1620993.0,
       "2023-02-28 00:00:00": 1620243.0,
       "2022-02-28 00:00:00": 1296243.0
@@ -526,7 +526,7 @@
     },
     "Long Term Debt": {
       "2025-02-28 00:00:00": 80000000.0,
-      "2024-02-29 00:00:00": null,
+      "2024-02-29 00:00:00": 0.0,
       "2023-02-28 00:00:00": null,
       "2022-02-28 00:00:00": null
     },
@@ -670,7 +670,7 @@
     },
     "Construction In Progress": {
       "2025-02-28 00:00:00": 935000.0,
-      "2024-02-29 00:00:00": null,
+      "2024-02-29 00:00:00": 0.0,
       "2023-02-28 00:00:00": 0.0,
       "2022-02-28 00:00:00": 30184000.0
     },
@@ -798,7 +798,7 @@
     },
     "Issuance Of Debt": {
       "2025-02-28 00:00:00": 100000000.0,
-      "2024-02-29 00:00:00": null,
+      "2024-02-29 00:00:00": 0.0,
       "2023-02-28 00:00:00": null,
       "2022-02-28 00:00:00": null
     },
@@ -888,7 +888,7 @@
     },
     "Net Long Term Debt Issuance": {
       "2025-02-28 00:00:00": 100000000.0,
-      "2024-02-29 00:00:00": null,
+      "2024-02-29 00:00:00": 0.0,
       "2023-02-28 00:00:00": null,
       "2022-02-28 00:00:00": null
     },
@@ -900,7 +900,7 @@
     },
     "Long Term Debt Issuance": {
       "2025-02-28 00:00:00": 100000000.0,
-      "2024-02-29 00:00:00": null,
+      "2024-02-29 00:00:00": 0.0,
       "2023-02-28 00:00:00": null,
       "2022-02-28 00:00:00": null
     },
@@ -1056,7 +1056,7 @@
     },
     "Gain Loss On Sale Of PPE": {
       "2025-02-28 00:00:00": -308000.0,
-      "2024-02-29 00:00:00": null,
+      "2024-02-29 00:00:00": 0.0,
       "2023-02-28 00:00:00": null,
       "2022-02-28 00:00:00": null
     },
@@ -1156,11 +1156,11 @@
     "trailingPE": 263.2927,
     "volume": 1900,
     "regularMarketVolume": 1900,
-    "averageVolume": 2117,
+    "averageVolume": 2119,
     "averageVolume10days": 1571,
     "averageDailyVolume10Day": 1571,
-    "bid": 2158.0,
-    "ask": 2175.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 3029929728,
@@ -1227,22 +1227,12 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "shortName": "SEIHYO CO LTD",
-    "longName": "Seihyo Co., Ltd.",
-    "marketState": "CLOSED",
-    "corporateActions": [],
-    "regularMarketChangePercent": -0.461042,
-    "regularMarketPrice": 2159.0,
-    "messageBoardId": "finmb_884076",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 980380800000,
     "regularMarketChange": -10.0,
     "regularMarketDayRange": "2159.0 - 2177.0",
     "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 2117,
+    "averageDailyVolume3Month": 2119,
     "fiftyTwoWeekLowChange": 236.0,
     "fiftyTwoWeekLowChangePercent": 0.122724906,
     "fiftyTwoWeekRange": "1923.0 - 2700.0",
@@ -1259,11 +1249,21 @@
     "twoHundredDayAverageChangePercent": 0.04308842,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
+    "shortName": "SEIHYO CO LTD",
+    "longName": "Seihyo Co., Ltd.",
+    "marketState": "REGULAR",
+    "corporateActions": [],
     "regularMarketTime": 1778825093,
     "exchange": "JPX",
-    "cryptoTradeable": false,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 980380800000,
+    "messageBoardId": "finmb_884076",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
+    "regularMarketChangePercent": -0.461042,
+    "regularMarketPrice": 2159.0,
     "trailingPegRatio": null
   }
 }

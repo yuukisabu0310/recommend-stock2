@@ -1,7 +1,7 @@
 {
   "ticker": "1799",
   "japanese_ticker": "1799.T",
-  "fetch_date": "2026-05-16T23:44:53.180557",
+  "fetch_date": "2026-05-17T23:53:46.906136",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": -19655836.648679,
@@ -113,7 +113,7 @@
     },
     "Basic Average Shares": {
       "2025-03-31 00:00:00": 18858564.0,
-      "2024-03-31 00:00:00": 19496781.0,
+      "2024-03-31 00:00:00": 19495960.0,
       "2023-03-31 00:00:00": 19944038.0,
       "2022-03-31 00:00:00": 20322000.0
     },
@@ -300,19 +300,19 @@
   },
   "balance_sheet": {
     "Treasury Shares Number": {
-      "2025-03-31 00:00:00": null,
+      "2025-03-31 00:00:00": 2092427.0,
       "2024-03-31 00:00:00": 1395723.0,
       "2023-03-31 00:00:00": 1270989.0,
       "2022-03-31 00:00:00": 547177.0
     },
     "Ordinary Shares Number": {
-      "2025-03-31 00:00:00": 18761968.0,
+      "2025-03-31 00:00:00": 18766064.0,
       "2024-03-31 00:00:00": 19462768.0,
       "2023-03-31 00:00:00": 19587502.0,
       "2022-03-31 00:00:00": 20311314.0
     },
     "Share Issued": {
-      "2025-03-31 00:00:00": 18761968.0,
+      "2025-03-31 00:00:00": 20858491.0,
       "2024-03-31 00:00:00": 20858491.0,
       "2023-03-31 00:00:00": 20858491.0,
       "2022-03-31 00:00:00": 20858491.0
@@ -1041,11 +1041,11 @@
     "forwardPE": 17.634636,
     "volume": 54600,
     "regularMarketVolume": 54600,
-    "averageVolume": 31017,
+    "averageVolume": 31022,
     "averageVolume10days": 66628,
     "averageDailyVolume10Day": 66628,
-    "bid": 3330.0,
-    "ask": 3340.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 59123044352,
@@ -1113,18 +1113,8 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "shortName": "DAIICHI KENSETSU CORP",
+    "marketState": "PREPRE",
     "longName": "Daiichi Kensetsu Corporation",
-    "epsTrailingTwelveMonths": 313.29,
-    "epsForward": 189.4,
-    "fiftyDayAverageChange": -511.1001,
-    "fiftyDayAverageChangePercent": -0.13271534,
-    "twoHundredDayAverageChange": -288.80005,
-    "twoHundredDayAverageChangePercent": -0.07958555,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
-    "marketState": "CLOSED",
     "corporateActions": [],
     "regularMarketTime": 1778826600,
     "exchange": "JPX",
@@ -1141,7 +1131,7 @@
     "regularMarketChange": 40.0,
     "regularMarketDayRange": "3300.0 - 3395.0",
     "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 31017,
+    "averageDailyVolume3Month": 31022,
     "fiftyTwoWeekLowChange": 611.0,
     "fiftyTwoWeekLowChangePercent": 0.22389154,
     "fiftyTwoWeekRange": "2729.0 - 4510.0",
@@ -1151,6 +1141,16 @@
     "earningsTimestampStart": 1747117800,
     "earningsTimestampEnd": 1747117800,
     "isEarningsDateEstimate": false,
+    "epsTrailingTwelveMonths": 313.29,
+    "epsForward": 189.4,
+    "fiftyDayAverageChange": -511.1001,
+    "fiftyDayAverageChangePercent": -0.13271534,
+    "twoHundredDayAverageChange": -288.80005,
+    "twoHundredDayAverageChangePercent": -0.07958555,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
+    "shortName": "DAIICHI KENSETSU CORP",
     "trailingPegRatio": null
   }
 }

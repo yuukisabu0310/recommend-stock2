@@ -1,7 +1,7 @@
 {
   "ticker": "2224",
   "japanese_ticker": "2224.T",
-  "fetch_date": "2026-05-16T23:49:55.368236",
+  "fetch_date": "2026-05-17T23:58:58.905011",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": -1953920.0,
@@ -252,7 +252,7 @@
   },
   "balance_sheet": {
     "Treasury Shares Number": {
-      "2025-03-31 00:00:00": null,
+      "2025-03-31 00:00:00": 155482.0,
       "2024-03-31 00:00:00": 155472.0,
       "2023-03-31 00:00:00": 155422.0,
       "2022-03-31 00:00:00": 155422.0
@@ -985,10 +985,10 @@
     "beta": 0.177,
     "volume": 7200,
     "regularMarketVolume": 7200,
-    "averageVolume": 4417,
+    "averageVolume": 4398,
     "averageVolume10days": 1914,
     "averageDailyVolume10Day": 1914,
-    "bid": 3530.0,
+    "bid": 0.0,
     "ask": 3570.0,
     "bidSize": 0,
     "askSize": 0,
@@ -1007,7 +1007,7 @@
     "tradeable": false,
     "enterpriseValue": 13514048512,
     "profitMargins": 0.01038,
-    "floatShares": 2784513,
+    "floatShares": 2728504,
     "sharesOutstanding": 3474518,
     "heldPercentInsiders": 0.18981001,
     "heldPercentInstitutions": 0.05237,
@@ -1063,12 +1063,14 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
+    "regularMarketChangePercent": -1.396648,
+    "regularMarketPrice": 3530.0,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 946944000000,
     "regularMarketChange": -50.0,
     "regularMarketDayRange": "3505.0 - 3580.0",
     "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 4417,
+    "averageDailyVolume3Month": 4398,
     "fiftyTwoWeekLowChange": 430.0,
     "fiftyTwoWeekLowChangePercent": 0.13870968,
     "fiftyTwoWeekRange": "3100.0 - 4035.0",
@@ -1083,14 +1085,12 @@
     "fiftyDayAverageChangePercent": -0.03435827,
     "twoHundredDayAverageChange": 61.774902,
     "twoHundredDayAverageChangePercent": 0.017811676,
-    "regularMarketChangePercent": -1.396648,
-    "regularMarketPrice": 3530.0,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
+    "marketState": "PREPRE",
     "shortName": "COMO CO LTD",
     "longName": "Como Co.,Ltd.",
-    "marketState": "CLOSED",
     "trailingPegRatio": null
   }
 }

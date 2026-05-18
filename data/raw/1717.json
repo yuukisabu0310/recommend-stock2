@@ -1,7 +1,7 @@
 {
   "ticker": "1717",
   "japanese_ticker": "1717.T",
-  "fetch_date": "2026-05-16T23:44:06.169232",
+  "fetch_date": "2026-05-17T23:52:57.712121",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": -146527.2,
@@ -246,7 +246,7 @@
   },
   "balance_sheet": {
     "Treasury Shares Number": {
-      "2025-03-31 00:00:00": null,
+      "2025-03-31 00:00:00": 1105228.0,
       "2024-03-31 00:00:00": 1177199.0,
       "2023-03-31 00:00:00": 1247340.0,
       "2022-03-31 00:00:00": 1281903.0
@@ -916,11 +916,11 @@
     "forwardPE": 11.222493,
     "volume": 25800,
     "regularMarketVolume": 25800,
-    "averageVolume": 27046,
+    "averageVolume": 27057,
     "averageVolume10days": 46528,
     "averageDailyVolume10Day": 46528,
-    "bid": 918.0,
-    "ask": 919.0,
+    "bid": 0.0,
+    "ask": 911.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 10794445824,
@@ -989,9 +989,9 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "marketState": "PREPRE",
     "shortName": "MEIHO FACILITY WORKS",
     "longName": "Meiho Facility Works Ltd.",
-    "marketState": "CLOSED",
     "corporateActions": [],
     "regularMarketTime": 1778826600,
     "exchange": "JPX",
@@ -1001,6 +1001,13 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
+    "fiftyDayAverageChange": -85.15997,
+    "fiftyDayAverageChangePercent": -0.084891714,
+    "twoHundredDayAverageChange": -146.90503,
+    "twoHundredDayAverageChangePercent": -0.1379513,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
     "regularMarketChangePercent": 0.43763676,
     "regularMarketPrice": 918.0,
     "hasPrePostMarketData": false,
@@ -1008,7 +1015,7 @@
     "regularMarketChange": 4.0,
     "regularMarketDayRange": "916.0 - 923.0",
     "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 27046,
+    "averageDailyVolume3Month": 27057,
     "fiftyTwoWeekLowChange": 21.0,
     "fiftyTwoWeekLowChangePercent": 0.02341137,
     "fiftyTwoWeekRange": "897.0 - 1155.0",
@@ -1020,13 +1027,6 @@
     "isEarningsDateEstimate": true,
     "epsTrailingTwelveMonths": 82.34,
     "epsForward": 81.8,
-    "fiftyDayAverageChange": -85.15997,
-    "fiftyDayAverageChangePercent": -0.084891714,
-    "twoHundredDayAverageChange": -146.90503,
-    "twoHundredDayAverageChangePercent": -0.1379513,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
     "trailingPegRatio": null
   }
 }

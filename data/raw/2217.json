@@ -1,7 +1,7 @@
 {
   "ticker": "2217",
   "japanese_ticker": "2217.T",
-  "fetch_date": "2026-05-16T23:49:47.499463",
+  "fetch_date": "2026-05-17T23:58:50.582732",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-01-31 00:00:00": -79045600.0,
@@ -132,7 +132,7 @@
     "Basic Average Shares": {
       "2026-01-31 00:00:00": null,
       "2025-01-31 00:00:00": 20551802.0,
-      "2024-01-31 00:00:00": 21038492.0,
+      "2024-01-31 00:00:00": 21039516.0,
       "2023-01-31 00:00:00": 21107790.0,
       "2022-01-31 00:00:00": 21099078.0
     },
@@ -301,14 +301,14 @@
   "balance_sheet": {
     "Treasury Shares Number": {
       "2026-01-31 00:00:00": 1204758.0,
-      "2025-01-31 00:00:00": null,
+      "2025-01-31 00:00:00": 1054635.0,
       "2024-01-31 00:00:00": 513351.0,
       "2023-01-31 00:00:00": 154812.0,
-      "2022-01-31 00:00:00": 914964.0
+      "2022-01-31 00:00:00": null
     },
     "Ordinary Shares Number": {
       "2026-01-31 00:00:00": 20060598.0,
-      "2025-01-31 00:00:00": 20211495.0,
+      "2025-01-31 00:00:00": 20210721.0,
       "2024-01-31 00:00:00": 20752005.0,
       "2023-01-31 00:00:00": 21110544.0,
       "2022-01-31 00:00:00": null
@@ -1186,11 +1186,11 @@
     "forwardPE": 6.674009,
     "volume": 19100,
     "regularMarketVolume": 19100,
-    "averageVolume": 38086,
+    "averageVolume": 37440,
     "averageVolume10days": 25757,
     "averageDailyVolume10Day": 25757,
-    "bid": 1501.0,
-    "ask": 1515.0,
+    "bid": 0.0,
+    "ask": 1491.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 30391805952,
@@ -1260,8 +1260,11 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "corporateActions": [],
-    "regularMarketTime": 1778826600,
+    "shortName": "MOROZOFF LIMITED",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 978307200000,
+    "longName": "Morozoff Limited",
+    "marketState": "PREPRE",
     "exchange": "JPX",
     "messageBoardId": "finmb_880598",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1271,8 +1274,19 @@
     "esgPopulated": false,
     "regularMarketChangePercent": 1.0673783,
     "regularMarketPrice": 1515.0,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 978307200000,
+    "corporateActions": [],
+    "regularMarketTime": 1778826600,
+    "regularMarketChange": 16.0,
+    "regularMarketDayRange": "1501.0 - 1518.0",
+    "fullExchangeName": "Tokyo",
+    "averageDailyVolume3Month": 37440,
+    "fiftyTwoWeekLowChange": 55.0,
+    "fiftyTwoWeekLowChangePercent": 0.037671234,
+    "fiftyTwoWeekRange": "1460.0 - 1739.0",
+    "fiftyTwoWeekHighChange": -224.0,
+    "fiftyTwoWeekHighChangePercent": -0.12880966,
+    "fiftyTwoWeekChangePercent": -12.224799,
+    "earningsTimestampStart": 1749708000,
     "earningsTimestampEnd": 1749708000,
     "isEarningsDateEstimate": false,
     "epsTrailingTwelveMonths": 31.82,
@@ -1284,20 +1298,6 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
-    "regularMarketChange": 16.0,
-    "regularMarketDayRange": "1501.0 - 1518.0",
-    "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 38086,
-    "fiftyTwoWeekLowChange": 55.0,
-    "fiftyTwoWeekLowChangePercent": 0.037671234,
-    "fiftyTwoWeekRange": "1460.0 - 1739.0",
-    "fiftyTwoWeekHighChange": -224.0,
-    "fiftyTwoWeekHighChangePercent": -0.12880966,
-    "fiftyTwoWeekChangePercent": -12.224799,
-    "earningsTimestampStart": 1749708000,
-    "shortName": "MOROZOFF LIMITED",
-    "marketState": "CLOSED",
-    "longName": "Morozoff Limited",
     "trailingPegRatio": null
   }
 }

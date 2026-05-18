@@ -1,7 +1,7 @@
 {
   "ticker": "1887",
   "japanese_ticker": "1887.T",
-  "fetch_date": "2026-05-16T23:46:07.617976",
+  "fetch_date": "2026-05-17T23:55:03.900755",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-05-31 00:00:00": 107051000.0,
@@ -1210,11 +1210,11 @@
     "trailingPE": 21.555555,
     "volume": 387800,
     "regularMarketVolume": 387800,
-    "averageVolume": 389729,
+    "averageVolume": 391785,
     "averageVolume10days": 299571,
     "averageDailyVolume10Day": 299571,
-    "bid": 581.0,
-    "ask": 583.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 46412320768,
@@ -1277,27 +1277,33 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "marketState": "CLOSED",
-    "corporateActions": [],
-    "regularMarketTime": 1778826600,
+    "marketState": "PREPRE",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1551744000000,
     "regularMarketChange": -6.0,
     "regularMarketDayRange": "578.0 - 593.0",
     "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 389729,
+    "averageDailyVolume3Month": 391785,
     "fiftyTwoWeekLowChange": 128.0,
     "fiftyTwoWeekLowChangePercent": 0.2819383,
     "fiftyTwoWeekRange": "454.0 - 719.0",
     "fiftyTwoWeekHighChange": -137.0,
     "fiftyTwoWeekHighChangePercent": -0.19054241,
     "fiftyTwoWeekChangePercent": 20.746887,
-    "earningsTimestampStart": 1752481800,
-    "earningsTimestampEnd": 1752827400,
-    "isEarningsDateEstimate": true,
-    "epsTrailingTwelveMonths": 27.0,
     "shortName": "JDC CORPORATION",
     "longName": "JDC Corporation",
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "1887.T announced a cash dividend of JPY 13.00 with an ex-date of May. 28, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1779894000000,
+          "amount": "13.00"
+        }
+      }
+    ],
+    "regularMarketTime": 1778826600,
     "exchange": "JPX",
     "messageBoardId": "finmb_5885156",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1305,8 +1311,10 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "regularMarketChangePercent": -1.0204082,
-    "regularMarketPrice": 582.0,
+    "earningsTimestampStart": 1752481800,
+    "earningsTimestampEnd": 1752827400,
+    "isEarningsDateEstimate": true,
+    "epsTrailingTwelveMonths": 27.0,
     "fiftyDayAverageChange": -16.700012,
     "fiftyDayAverageChangePercent": -0.02789379,
     "twoHundredDayAverageChange": 17.46997,
@@ -1314,6 +1322,8 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
+    "regularMarketChangePercent": -1.0204082,
+    "regularMarketPrice": 582.0,
     "trailingPegRatio": null
   }
 }

@@ -1,7 +1,7 @@
 {
   "ticker": "2910",
   "japanese_ticker": "2910.T",
-  "fetch_date": "2026-05-16T23:57:28.474139",
+  "fetch_date": "2026-05-18T00:07:01.382477",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-04-30 00:00:00": -148712000.0,
@@ -22,7 +22,7 @@
       "2022-04-30 00:00:00": 3884000000.0
     },
     "Total Unusual Items": {
-      "2025-04-30 00:00:00": -141000000.0,
+      "2025-04-30 00:00:00": -641000000.0,
       "2024-04-30 00:00:00": 29000000.0,
       "2023-04-30 00:00:00": -7000000.0,
       "2022-04-30 00:00:00": -89000000.0
@@ -76,7 +76,7 @@
       "2022-04-30 00:00:00": 8000000.0
     },
     "Normalized Income": {
-      "2025-04-30 00:00:00": 437288000.0,
+      "2025-04-30 00:00:00": 821288000.0,
       "2024-04-30 00:00:00": 1231857538.802661,
       "2023-04-30 00:00:00": 1082885510.996119,
       "2022-04-30 00:00:00": 1438651000.0
@@ -184,13 +184,13 @@
       "2022-04-30 00:00:00": 22000000.0
     },
     "Special Income Charges": {
-      "2025-04-30 00:00:00": -141000000.0,
+      "2025-04-30 00:00:00": -641000000.0,
       "2024-04-30 00:00:00": -63000000.0,
       "2023-04-30 00:00:00": -7000000.0,
       "2022-04-30 00:00:00": -89000000.0
     },
     "Other Special Charges": {
-      "2025-04-30 00:00:00": -19000000.0,
+      "2025-04-30 00:00:00": 481000000.0,
       "2024-04-30 00:00:00": -10000000.0,
       "2023-04-30 00:00:00": -10000000.0,
       "2022-04-30 00:00:00": 1000000.0
@@ -992,11 +992,11 @@
     "forwardPE": 27.834396,
     "volume": 59600,
     "regularMarketVolume": 59600,
-    "averageVolume": 99263,
+    "averageVolume": 99878,
     "averageVolume10days": 97171,
     "averageDailyVolume10Day": 97171,
-    "bid": 1303.0,
-    "ask": 1311.0,
+    "bid": 0.0,
+    "ask": 1281.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 34270451712,
@@ -1042,7 +1042,8 @@
     "targetLowPrice": 1400.0,
     "targetMeanPrice": 1400.0,
     "targetMedianPrice": 1400.0,
-    "recommendationKey": "none",
+    "recommendationMean": 3.0,
+    "recommendationKey": "hold",
     "numberOfAnalystOpinions": 1,
     "totalCash": 11975000064,
     "totalCashPerShare": 458.098,
@@ -1070,7 +1071,8 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "marketState": "CLOSED",
+    "shortName": "ROCK FIELD CO LTD",
+    "longName": "Rock Field Co.,Ltd.",
     "corporateActions": [],
     "regularMarketTime": 1778826600,
     "exchange": "JPX",
@@ -1080,15 +1082,20 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "prevName": "Rock Field Co., Ltd.",
+    "nameChangeDate": "2026-05-17",
+    "averageAnalystRating": "3.0 - Hold",
+    "cryptoTradeable": false,
     "regularMarketChangePercent": 1.3137558,
     "regularMarketPrice": 1311.0,
-    "cryptoTradeable": false,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 978566400000,
     "regularMarketChange": 17.0,
     "regularMarketDayRange": "1284.0 - 1311.0",
     "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 99263,
+    "averageDailyVolume3Month": 99878,
     "fiftyTwoWeekLowChange": 75.0,
     "fiftyTwoWeekLowChangePercent": 0.06067961,
     "fiftyTwoWeekRange": "1236.0 - 1586.0",
@@ -1104,12 +1111,7 @@
     "fiftyDayAverageChangePercent": -0.034040637,
     "twoHundredDayAverageChange": -110.05005,
     "twoHundredDayAverageChangePercent": -0.077442765,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "prevName": "Rock Field Co., Ltd.",
-    "nameChangeDate": "2026-05-16",
-    "shortName": "ROCK FIELD CO LTD",
-    "longName": "Rock Field Co.,Ltd.",
+    "marketState": "REGULAR",
     "trailingPegRatio": null
   }
 }

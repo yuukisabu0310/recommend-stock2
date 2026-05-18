@@ -1,7 +1,7 @@
 {
   "ticker": "2300",
   "japanese_ticker": "2300.T",
-  "fetch_date": "2026-05-16T23:50:30.906033",
+  "fetch_date": "2026-05-17T23:59:37.313294",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-02-28 00:00:00": null,
@@ -139,7 +139,7 @@
     "Basic Average Shares": {
       "2026-02-28 00:00:00": null,
       "2025-02-28 00:00:00": null,
-      "2024-02-29 00:00:00": 5261362.0,
+      "2024-02-29 00:00:00": 5261158.0,
       "2023-02-28 00:00:00": 5261196.0,
       "2022-02-28 00:00:00": 5261224.0
     },
@@ -370,7 +370,7 @@
   },
   "balance_sheet": {
     "Treasury Shares Number": {
-      "2025-02-28 00:00:00": null,
+      "2025-02-28 00:00:00": 290114.0,
       "2024-02-29 00:00:00": 290089.0,
       "2023-02-28 00:00:00": 290029.0,
       "2022-02-28 00:00:00": 290029.0
@@ -1196,18 +1196,18 @@
     "trailingPE": 49.021526,
     "volume": 700,
     "regularMarketVolume": 700,
-    "averageVolume": 3901,
+    "averageVolume": 3859,
     "averageVolume10days": 1442,
     "averageDailyVolume10Day": 1442,
-    "bid": 500.0,
-    "ask": 503.0,
-    "marketCap": 2635819008,
+    "bid": 0.0,
+    "ask": 0.0,
+    "marketCap": 2635773952,
     "nonDilutedMarketCap": 2625251974,
     "fiftyTwoWeekLow": 468.0,
     "fiftyTwoWeekHigh": 546.0,
     "allTimeHigh": 759.0,
     "allTimeLow": 165.0,
-    "priceToSalesTrailing12Months": 0.3815622,
+    "priceToSalesTrailing12Months": 0.38155568,
     "fiftyDayAverage": 499.14,
     "twoHundredDayAverage": 511.26,
     "trailingAnnualDividendRate": 11.0,
@@ -1217,10 +1217,10 @@
     "enterpriseValue": 1463116672,
     "profitMargins": 0.03429,
     "floatShares": 2771374,
-    "sharesOutstanding": 5261116,
+    "sharesOutstanding": 5261026,
     "heldPercentInsiders": 0.4318,
     "heldPercentInstitutions": 0.10989001,
-    "impliedSharesOutstanding": 5261116,
+    "impliedSharesOutstanding": 5261026,
     "bookValue": 613.711,
     "priceToBook": 0.81634516,
     "lastFiscalYearEnd": 1267315200,
@@ -1265,10 +1265,6 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "shortName": "KYOKUTO CO LTD",
-    "longName": "Kyokuto Co., Ltd.",
-    "corporateActions": [],
-    "regularMarketTime": 1778825351,
     "exchange": "JPX",
     "messageBoardId": "finmb_10580355",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1276,6 +1272,11 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
+    "marketState": "PREPRE",
+    "corporateActions": [],
+    "regularMarketTime": 1778825351,
+    "shortName": "KYOKUTO CO LTD",
+    "longName": "Kyokuto Co., Ltd.",
     "regularMarketChangePercent": -0.3976143,
     "regularMarketPrice": 501.0,
     "epsTrailingTwelveMonths": 10.22,
@@ -1291,7 +1292,7 @@
     "regularMarketChange": -2.0,
     "regularMarketDayRange": "501.0 - 503.0",
     "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 3901,
+    "averageDailyVolume3Month": 3859,
     "fiftyTwoWeekLowChange": 33.0,
     "fiftyTwoWeekLowChangePercent": 0.070512824,
     "fiftyTwoWeekRange": "468.0 - 546.0",
@@ -1301,7 +1302,6 @@
     "earningsTimestampStart": 1744693200,
     "earningsTimestampEnd": 1744693200,
     "isEarningsDateEstimate": false,
-    "marketState": "CLOSED",
     "trailingPegRatio": null
   }
 }

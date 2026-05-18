@@ -1,11 +1,11 @@
 {
   "ticker": "2876",
   "japanese_ticker": "2876.T",
-  "fetch_date": "2026-05-16T23:57:03.043577",
+  "fetch_date": "2026-05-18T00:06:33.850472",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": -386842472.075729,
-      "2024-03-31 00:00:00": -136620113.952131,
+      "2024-03-31 00:00:00": -136655044.0,
       "2023-03-31 00:00:00": -7208495.0,
       "2022-03-31 00:00:00": 5967465.0
     },
@@ -107,7 +107,7 @@
     },
     "Diluted Average Shares": {
       "2025-03-31 00:00:00": 8905018.0,
-      "2024-03-31 00:00:00": 8904441.0,
+      "2024-03-31 00:00:00": 8905098.0,
       "2023-03-31 00:00:00": 8979618.0,
       "2022-03-31 00:00:00": 9105098.0
     },
@@ -264,7 +264,7 @@
   },
   "balance_sheet": {
     "Treasury Shares Number": {
-      "2025-03-31 00:00:00": null,
+      "2025-03-31 00:00:00": 200292.0,
       "2024-03-31 00:00:00": 200192.0,
       "2023-03-31 00:00:00": 200192.0,
       "2022-03-31 00:00:00": 192.0
@@ -276,7 +276,7 @@
       "2022-03-31 00:00:00": 9105098.0
     },
     "Share Issued": {
-      "2025-03-31 00:00:00": 8904998.0,
+      "2025-03-31 00:00:00": 9105290.0,
       "2024-03-31 00:00:00": 9105290.0,
       "2023-03-31 00:00:00": 9105290.0,
       "2022-03-31 00:00:00": 9105290.0
@@ -990,11 +990,11 @@
     "beta": 0.029,
     "volume": 8700,
     "regularMarketVolume": 8700,
-    "averageVolume": 2932,
+    "averageVolume": 2856,
     "averageVolume10days": 4514,
     "averageDailyVolume10Day": 4514,
-    "bid": 445.0,
-    "ask": 455.0,
+    "bid": 450.0,
+    "ask": 451.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 4042868992,
@@ -1061,17 +1061,8 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "epsTrailingTwelveMonths": -104.74,
-    "fiftyDayAverageChange": -12.179993,
-    "fiftyDayAverageChangePercent": -0.026127232,
-    "twoHundredDayAverageChange": 4.23999,
-    "twoHundredDayAverageChangePercent": 0.009427228,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
-    "marketState": "CLOSED",
-    "shortName": "DELSOLE CORPORATION",
-    "longName": "Delsole Corporation",
+    "corporateActions": [],
+    "regularMarketTime": 1778826600,
     "exchange": "JPX",
     "messageBoardId": "finmb_9261987",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1081,6 +1072,14 @@
     "esgPopulated": false,
     "regularMarketChangePercent": 2.022472,
     "regularMarketPrice": 454.0,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 947030400000,
+    "regularMarketChange": 9.0,
+    "regularMarketDayRange": "437.0 - 454.0",
+    "fullExchangeName": "Tokyo",
+    "averageDailyVolume3Month": 2856,
+    "fiftyTwoWeekLowChange": 65.0,
+    "fiftyTwoWeekLowChangePercent": 0.16709511,
     "fiftyTwoWeekRange": "389.0 - 520.0",
     "fiftyTwoWeekHighChange": -66.0,
     "fiftyTwoWeekHighChangePercent": -0.12692308,
@@ -1088,16 +1087,17 @@
     "earningsTimestampStart": 1747281600,
     "earningsTimestampEnd": 1747281600,
     "isEarningsDateEstimate": false,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 947030400000,
-    "regularMarketChange": 9.0,
-    "regularMarketDayRange": "437.0 - 454.0",
-    "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 2932,
-    "fiftyTwoWeekLowChange": 65.0,
-    "fiftyTwoWeekLowChangePercent": 0.16709511,
-    "corporateActions": [],
-    "regularMarketTime": 1778826600,
+    "epsTrailingTwelveMonths": -104.74,
+    "fiftyDayAverageChange": -12.179993,
+    "fiftyDayAverageChangePercent": -0.026127232,
+    "twoHundredDayAverageChange": 4.23999,
+    "twoHundredDayAverageChangePercent": 0.009427228,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
+    "marketState": "REGULAR",
+    "shortName": "DELSOLE CORPORATION",
+    "longName": "Delsole Corporation",
     "trailingPegRatio": null
   }
 }

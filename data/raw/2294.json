@@ -1,7 +1,7 @@
 {
   "ticker": "2294",
   "japanese_ticker": "2294.T",
-  "fetch_date": "2026-05-16T23:50:27.249487",
+  "fetch_date": "2026-05-17T23:59:33.224898",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-04-30 00:00:00": -74240000.0,
@@ -101,7 +101,7 @@
     },
     "Diluted Average Shares": {
       "2025-04-30 00:00:00": 9803374.0,
-      "2024-04-30 00:00:00": 10468072.0,
+      "2024-04-30 00:00:00": 10473879.0,
       "2023-02-28 00:00:00": 10472000.0,
       "2022-02-28 00:00:00": 10467473.0
     },
@@ -252,13 +252,13 @@
       "2022-02-28 00:00:00": 1978841.0
     },
     "Ordinary Shares Number": {
-      "2025-04-30 00:00:00": 9578391.0,
+      "2025-04-30 00:00:00": 9578083.0,
       "2024-04-30 00:00:00": 10473781.0,
       "2023-02-28 00:00:00": 10467859.0,
       "2022-02-28 00:00:00": 10467859.0
     },
     "Share Issued": {
-      "2025-04-30 00:00:00": 9578391.0,
+      "2025-04-30 00:00:00": 12446700.0,
       "2024-04-30 00:00:00": 12446700.0,
       "2023-02-28 00:00:00": 12446700.0,
       "2022-02-28 00:00:00": 12446700.0
@@ -858,11 +858,11 @@
     "trailingPE": 35.716263,
     "volume": 25600,
     "regularMarketVolume": 25600,
-    "averageVolume": 48917,
+    "averageVolume": 49414,
     "averageVolume10days": 39114,
     "averageDailyVolume10Day": 39114,
-    "bid": 2570.0,
-    "ask": 2583.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "marketCap": 24739672064,
     "nonDilutedMarketCap": 25007852513,
     "fiftyTwoWeekLow": 2559.0,
@@ -924,14 +924,12 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "regularMarketChangePercent": 0.46674445,
-    "regularMarketPrice": 2583.0,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 946944000000,
     "regularMarketChange": 12.0,
     "regularMarketDayRange": "2571.0 - 2592.0",
     "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 48917,
+    "averageDailyVolume3Month": 49414,
     "fiftyTwoWeekLowChange": 24.0,
     "fiftyTwoWeekLowChangePercent": 0.009378663,
     "fiftyTwoWeekRange": "2559.0 - 3095.0",
@@ -946,8 +944,10 @@
     "fiftyDayAverageChangePercent": -0.09115861,
     "twoHundredDayAverageChange": -159.25488,
     "twoHundredDayAverageChangePercent": -0.058074426,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
     "shortName": "KAKIYASU HONTEN",
-    "longName": "Kakiyasu Honten Co., Ltd.",
     "corporateActions": [],
     "regularMarketTime": 1778826600,
     "exchange": "JPX",
@@ -957,10 +957,10 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "marketState": "CLOSED",
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
+    "regularMarketChangePercent": 0.46674445,
+    "regularMarketPrice": 2583.0,
+    "marketState": "PREPRE",
+    "longName": "Kakiyasu Honten Co., Ltd.",
     "trailingPegRatio": null
   }
 }

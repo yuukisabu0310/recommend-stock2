@@ -1,7 +1,7 @@
 {
   "ticker": "3036",
   "japanese_ticker": "3036.T",
-  "fetch_date": "2026-05-16T23:59:12.296369",
+  "fetch_date": "2026-05-18T00:08:52.966356",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": -7722000.0,
@@ -306,13 +306,13 @@
       "2022-03-31 00:00:00": 907000.0
     },
     "Ordinary Shares Number": {
-      "2025-03-31 00:00:00": 30232499.0,
+      "2025-03-31 00:00:00": 29932499.0,
       "2024-03-31 00:00:00": 30137893.0,
       "2023-03-31 00:00:00": 30105500.0,
       "2022-03-31 00:00:00": 30070000.0
     },
     "Share Issued": {
-      "2025-03-31 00:00:00": 30232499.0,
+      "2025-03-31 00:00:00": 31070000.0,
       "2024-03-31 00:00:00": 31042900.0,
       "2023-03-31 00:00:00": 31012500.0,
       "2022-03-31 00:00:00": 30977000.0
@@ -367,9 +367,9 @@
     },
     "Total Equity Gross Minority Interest": {
       "2025-03-31 00:00:00": 70309000000.0,
-      "2024-03-31 00:00:00": 66350000000.0,
-      "2023-03-31 00:00:00": 63047000000.0,
-      "2022-03-31 00:00:00": 57331000000.0
+      "2024-03-31 00:00:00": 66347000000.0,
+      "2023-03-31 00:00:00": 63045000000.0,
+      "2022-03-31 00:00:00": 57330000000.0
     },
     "Minority Interest": {
       "2025-03-31 00:00:00": 610000000.0,
@@ -421,21 +421,21 @@
     },
     "Total Liabilities Net Minority Interest": {
       "2025-03-31 00:00:00": 126325000000.0,
-      "2024-03-31 00:00:00": 116540000000.0,
+      "2024-03-31 00:00:00": 116543000000.0,
       "2023-03-31 00:00:00": 128845000000.0,
-      "2022-03-31 00:00:00": 119106000000.0
+      "2022-03-31 00:00:00": 119107000000.0
     },
     "Total Non Current Liabilities Net Minority Interest": {
-      "2025-03-31 00:00:00": 23126000000.0,
-      "2024-03-31 00:00:00": 26847000000.0,
-      "2023-03-31 00:00:00": 28495000000.0,
-      "2022-03-31 00:00:00": 24463000000.0
+      "2025-03-31 00:00:00": 23129000000.0,
+      "2024-03-31 00:00:00": 26850000000.0,
+      "2023-03-31 00:00:00": 28497000000.0,
+      "2022-03-31 00:00:00": 24464000000.0
     },
     "Other Non Current Liabilities": {
       "2025-03-31 00:00:00": 853000000.0,
-      "2024-03-31 00:00:00": 1171000000.0,
+      "2024-03-31 00:00:00": 1174000000.0,
       "2023-03-31 00:00:00": 1197000000.0,
-      "2022-03-31 00:00:00": 1047000000.0
+      "2022-03-31 00:00:00": 1048000000.0
     },
     "Non Current Pension And Other Postretirement Benefit Plans": {
       "2025-03-31 00:00:00": 1354000000.0,
@@ -1120,11 +1120,11 @@
     "trailingPE": 16.834522,
     "volume": 606200,
     "regularMarketVolume": 606200,
-    "averageVolume": 157746,
+    "averageVolume": 157914,
     "averageVolume10days": 223928,
     "averageDailyVolume10Day": 223928,
-    "bid": 2640.0,
-    "ask": 2649.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 79344877568,
@@ -1191,6 +1191,19 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "marketState": "REGULAR",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1205452800000,
+    "regularMarketChange": -104.0,
+    "regularMarketDayRange": "2608.0 - 2884.0",
+    "fullExchangeName": "Tokyo",
+    "averageDailyVolume3Month": 157914,
+    "fiftyTwoWeekLowChange": 964.0,
+    "fiftyTwoWeekLowChangePercent": 0.574836,
+    "fiftyTwoWeekRange": "1677.0 - 3310.0",
+    "fiftyTwoWeekHighChange": -669.0,
+    "fiftyTwoWeekHighChangePercent": -0.2021148,
+    "fiftyTwoWeekChangePercent": 53.27916,
     "shortName": "ALCONIX CORPORATION",
     "longName": "ALCONIX Corporation",
     "corporateActions": [],
@@ -1202,14 +1215,6 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "regularMarketChangePercent": -3.7887068,
-    "regularMarketPrice": 2641.0,
-    "fiftyTwoWeekLowChange": 964.0,
-    "fiftyTwoWeekLowChangePercent": 0.574836,
-    "fiftyTwoWeekRange": "1677.0 - 3310.0",
-    "fiftyTwoWeekHighChange": -669.0,
-    "fiftyTwoWeekHighChangePercent": -0.2021148,
-    "fiftyTwoWeekChangePercent": 53.27916,
     "earningsTimestampStart": 1754278200,
     "earningsTimestampEnd": 1754623800,
     "isEarningsDateEstimate": true,
@@ -1221,13 +1226,8 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1205452800000,
-    "marketState": "CLOSED",
-    "regularMarketChange": -104.0,
-    "regularMarketDayRange": "2608.0 - 2884.0",
-    "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 157746,
+    "regularMarketChangePercent": -3.7887068,
+    "regularMarketPrice": 2641.0,
     "trailingPegRatio": null
   }
 }

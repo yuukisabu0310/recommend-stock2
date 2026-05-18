@@ -1,7 +1,7 @@
 {
   "ticker": "2185",
   "japanese_ticker": "2185.T",
-  "fetch_date": "2026-05-16T23:49:15.215128",
+  "fetch_date": "2026-05-17T23:58:16.537682",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-09-30 00:00:00": 63461581.772823,
@@ -125,14 +125,14 @@
     "Diluted Average Shares": {
       "2025-09-30 00:00:00": null,
       "2024-09-30 00:00:00": 13265462.0,
-      "2023-09-30 00:00:00": 13254140.0,
+      "2023-09-30 00:00:00": 13254065.0,
       "2022-09-30 00:00:00": 13305511.0,
       "2021-09-30 00:00:00": 13609742.0
     },
     "Basic Average Shares": {
       "2025-09-30 00:00:00": null,
       "2024-09-30 00:00:00": 13265462.0,
-      "2023-09-30 00:00:00": 13254140.0,
+      "2023-09-30 00:00:00": 13254065.0,
       "2022-09-30 00:00:00": 13305511.0,
       "2021-09-30 00:00:00": 13609742.0
     },
@@ -145,7 +145,7 @@
     },
     "Basic EPS": {
       "2025-09-30 00:00:00": null,
-      "2024-09-30 00:00:00": null,
+      "2024-09-30 00:00:00": 156.72,
       "2023-09-30 00:00:00": 132.97,
       "2022-09-30 00:00:00": 150.56,
       "2021-09-30 00:00:00": 118.93
@@ -1130,11 +1130,11 @@
     "trailingPE": 11.236298,
     "volume": 1400,
     "regularMarketVolume": 1400,
-    "averageVolume": 2650,
+    "averageVolume": 2654,
     "averageVolume10days": 3614,
     "averageDailyVolume10Day": 3614,
-    "bid": 1840.0,
-    "ask": 1880.0,
+    "bid": 1830.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 23840237568,
@@ -1200,7 +1200,6 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "marketState": "CLOSED",
     "regularMarketChangePercent": 0.6546645,
     "regularMarketPrice": 1845.0,
     "hasPrePostMarketData": false,
@@ -1208,7 +1207,7 @@
     "regularMarketChange": 12.0,
     "regularMarketDayRange": "1830.0 - 1845.0",
     "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 2650,
+    "averageDailyVolume3Month": 2654,
     "fiftyTwoWeekLowChange": 533.0,
     "fiftyTwoWeekLowChangePercent": 0.40625,
     "fiftyTwoWeekRange": "1312.0 - 2140.0",
@@ -1218,6 +1217,17 @@
     "earningsTimestampStart": 1754546400,
     "earningsTimestampEnd": 1754978400,
     "isEarningsDateEstimate": true,
+    "epsTrailingTwelveMonths": 164.2,
+    "shortName": "CMC CORPORATION",
+    "longName": "CMC Corporation",
+    "fiftyDayAverageChange": -33.140015,
+    "fiftyDayAverageChangePercent": -0.017645124,
+    "twoHundredDayAverageChange": 88.21997,
+    "twoHundredDayAverageChangePercent": 0.050216857,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
+    "marketState": "PREPRE",
     "corporateActions": [],
     "regularMarketTime": 1778816101,
     "exchange": "JPX",
@@ -1227,16 +1237,6 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "shortName": "CMC CORPORATION",
-    "longName": "CMC Corporation",
-    "epsTrailingTwelveMonths": 164.2,
-    "fiftyDayAverageChange": -33.140015,
-    "fiftyDayAverageChangePercent": -0.017645124,
-    "twoHundredDayAverageChange": 88.21997,
-    "twoHundredDayAverageChangePercent": 0.050216857,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
     "trailingPegRatio": null
   }
 }

@@ -1,7 +1,7 @@
 {
   "ticker": "2666",
   "japanese_ticker": "2666.T",
-  "fetch_date": "2026-05-16T23:54:21.460936",
+  "fetch_date": "2026-05-18T00:03:43.684753",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": -3622003.449554,
@@ -258,7 +258,7 @@
   },
   "balance_sheet": {
     "Treasury Shares Number": {
-      "2025-03-31 00:00:00": null,
+      "2025-03-31 00:00:00": 211.0,
       "2024-03-31 00:00:00": 211.0,
       "2023-03-31 00:00:00": 211.0,
       "2022-03-31 00:00:00": 211.0
@@ -270,7 +270,7 @@
       "2022-03-31 00:00:00": 14450789.0
     },
     "Share Issued": {
-      "2025-03-31 00:00:00": 14450789.0,
+      "2025-03-31 00:00:00": 14451000.0,
       "2024-03-31 00:00:00": 14451000.0,
       "2023-03-31 00:00:00": 14451000.0,
       "2022-03-31 00:00:00": 14451000.0
@@ -878,10 +878,10 @@
     "trailingPE": 7.6849637,
     "volume": 40900,
     "regularMarketVolume": 40900,
-    "averageVolume": 74465,
+    "averageVolume": 74561,
     "averageVolume10days": 99714,
     "averageDailyVolume10Day": 99714,
-    "bid": 161.0,
+    "bid": 0.0,
     "ask": 162.0,
     "bidSize": 0,
     "askSize": 0,
@@ -947,13 +947,8 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "shortName": "AUTOWAVE CO LTD",
-    "longName": "AUTOWAVE Co., Ltd.",
-    "regularMarketChangePercent": -0.61728394,
-    "regularMarketPrice": 161.0,
     "corporateActions": [],
     "regularMarketTime": 1778826600,
-    "cryptoTradeable": false,
     "exchange": "JPX",
     "messageBoardId": "finmb_5554857",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -961,11 +956,14 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "marketState": "CLOSED",
+    "regularMarketChangePercent": -0.61728394,
+    "regularMarketPrice": 161.0,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 969580800000,
     "regularMarketChange": -1.0,
     "regularMarketDayRange": "161.0 - 163.0",
     "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 74465,
+    "averageDailyVolume3Month": 74561,
     "fiftyTwoWeekLowChange": 19.0,
     "fiftyTwoWeekLowChangePercent": 0.13380282,
     "fiftyTwoWeekRange": "142.0 - 184.0",
@@ -982,8 +980,10 @@
     "twoHundredDayAverageChangePercent": -0.0073677194,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 969580800000,
+    "cryptoTradeable": false,
+    "marketState": "REGULAR",
+    "shortName": "AUTOWAVE CO LTD",
+    "longName": "AUTOWAVE Co., Ltd.",
     "trailingPegRatio": null
   }
 }

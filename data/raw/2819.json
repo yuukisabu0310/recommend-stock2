@@ -1,10 +1,10 @@
 {
   "ticker": "2819",
   "japanese_ticker": "2819.T",
-  "fetch_date": "2026-05-16T23:56:48.556760",
+  "fetch_date": "2026-05-18T00:06:20.489615",
   "financials": {
     "Tax Effect Of Unusual Items": {
-      "2025-03-31 00:00:00": -38325648.414986,
+      "2025-03-31 00:00:00": -38376000.0,
       "2024-03-31 00:00:00": 5418147.448015,
       "2023-03-31 00:00:00": -1575000.0,
       "2022-03-31 00:00:00": 39750000.0
@@ -82,7 +82,7 @@
       "2022-03-31 00:00:00": 13000000.0
     },
     "Normalized Income": {
-      "2025-03-31 00:00:00": 1477674351.585014,
+      "2025-03-31 00:00:00": 1477624000.0,
       "2024-03-31 00:00:00": 1790418147.448015,
       "2023-03-31 00:00:00": 2180425000.0,
       "2022-03-31 00:00:00": 2593750000.0
@@ -107,13 +107,13 @@
     },
     "Diluted Average Shares": {
       "2025-03-31 00:00:00": 9771110.0,
-      "2024-03-31 00:00:00": 9815349.0,
+      "2024-03-31 00:00:00": 9816344.0,
       "2023-03-31 00:00:00": 9823034.0,
       "2022-03-31 00:00:00": 9936622.0
     },
     "Basic Average Shares": {
       "2025-03-31 00:00:00": 9771110.0,
-      "2024-03-31 00:00:00": 9815349.0,
+      "2024-03-31 00:00:00": 9816344.0,
       "2023-03-31 00:00:00": 9823034.0,
       "2022-03-31 00:00:00": 9936622.0
     },
@@ -264,7 +264,7 @@
       "2022-03-31 00:00:00": 614158.0
     },
     "Ordinary Shares Number": {
-      "2025-03-31 00:00:00": 9772465.0,
+      "2025-03-31 00:00:00": 9772418.0,
       "2024-03-31 00:00:00": 9806790.0,
       "2023-03-31 00:00:00": 9811365.0,
       "2022-03-31 00:00:00": 9854552.0
@@ -1020,11 +1020,11 @@
     "forwardPE": 13.018087,
     "volume": 8400,
     "regularMarketVolume": 8400,
-    "averageVolume": 15624,
+    "averageVolume": 15733,
     "averageVolume10days": 7428,
     "averageDailyVolume10Day": 7428,
-    "bid": 2515.0,
-    "ask": 2519.0,
+    "bid": 0.0,
+    "ask": 2521.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 24532838400,
@@ -1092,15 +1092,13 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "marketState": "CLOSED",
-    "corporateActions": [],
-    "regularMarketTime": 1778826600,
+    "cryptoTradeable": false,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1068681600000,
     "regularMarketChange": 8.0,
     "regularMarketDayRange": "2500.0 - 2528.0",
     "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 15624,
+    "averageDailyVolume3Month": 15733,
     "fiftyTwoWeekLowChange": 69.0,
     "fiftyTwoWeekLowChangePercent": 0.028163265,
     "fiftyTwoWeekRange": "2450.0 - 2836.0",
@@ -1112,8 +1110,17 @@
     "isEarningsDateEstimate": true,
     "epsTrailingTwelveMonths": 141.82,
     "epsForward": 193.5,
-    "shortName": "EBARA FOODS INDUSTRY INC",
-    "longName": "EBARA Foods Industry,Inc.",
+    "fiftyDayAverageChange": -27.800049,
+    "fiftyDayAverageChangePercent": -0.010915678,
+    "twoHundredDayAverageChange": -40.495117,
+    "twoHundredDayAverageChangePercent": -0.015821526,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "prevName": "Ebara Foods Industry, Inc.",
+    "nameChangeDate": "2026-05-17",
+    "marketState": "REGULAR",
+    "corporateActions": [],
+    "regularMarketTime": 1778826600,
     "exchange": "JPX",
     "messageBoardId": "finmb_9261940",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1123,15 +1130,8 @@
     "esgPopulated": false,
     "regularMarketChangePercent": 0.31859815,
     "regularMarketPrice": 2519.0,
-    "fiftyDayAverageChange": -27.800049,
-    "fiftyDayAverageChangePercent": -0.010915678,
-    "twoHundredDayAverageChange": -40.495117,
-    "twoHundredDayAverageChangePercent": -0.015821526,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "prevName": "Ebara Foods Industry, Inc.",
-    "nameChangeDate": "2026-05-16",
-    "cryptoTradeable": false,
+    "shortName": "EBARA FOODS INDUSTRY INC",
+    "longName": "EBARA Foods Industry,Inc.",
     "trailingPegRatio": null
   }
 }

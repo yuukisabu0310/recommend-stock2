@@ -1,7 +1,7 @@
 {
   "ticker": "2429",
   "japanese_ticker": "2429.T",
-  "fetch_date": "2026-05-16T23:52:22.855648",
+  "fetch_date": "2026-05-18T00:01:38.197471",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-12-31 00:00:00": -42532000.0,
@@ -131,7 +131,7 @@
     },
     "Diluted Average Shares": {
       "2025-12-31 00:00:00": null,
-      "2024-12-31 00:00:00": null,
+      "2024-12-31 00:00:00": 17802638.0,
       "2023-12-31 00:00:00": 17617493.0,
       "2022-12-31 00:00:00": 17579488.0,
       "2021-12-31 00:00:00": 17576656.0
@@ -145,14 +145,14 @@
     },
     "Diluted EPS": {
       "2025-12-31 00:00:00": null,
-      "2024-12-31 00:00:00": null,
+      "2024-12-31 00:00:00": 279.79,
       "2023-12-31 00:00:00": 352.15,
       "2022-12-31 00:00:00": 303.82,
       "2021-12-31 00:00:00": 263.19
     },
     "Basic EPS": {
       "2025-12-31 00:00:00": null,
-      "2024-12-31 00:00:00": null,
+      "2024-12-31 00:00:00": 280.39,
       "2023-12-31 00:00:00": 353.61,
       "2022-12-31 00:00:00": 305.5,
       "2021-12-31 00:00:00": 265.02
@@ -1151,11 +1151,11 @@
     "forwardPE": 6.726307,
     "volume": 112000,
     "regularMarketVolume": 112000,
-    "averageVolume": 75151,
+    "averageVolume": 73924,
     "averageVolume10days": 101828,
     "averageDailyVolume10Day": 101828,
-    "bid": 2395.0,
-    "ask": 2415.0,
+    "bid": 0.0,
+    "ask": 2407.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 43064348672,
@@ -1225,7 +1225,6 @@
     "customPriceAlertConfidence": "LOW",
     "shortName": "WORLD HOLDINGS CO LTD",
     "longName": "World Holdings Co., Ltd.",
-    "marketState": "CLOSED",
     "corporateActions": [],
     "regularMarketTime": 1778826600,
     "exchange": "JPX",
@@ -1237,12 +1236,19 @@
     "esgPopulated": false,
     "regularMarketChangePercent": -1.1097411,
     "regularMarketPrice": 2406.0,
+    "marketState": "REGULAR",
+    "fiftyDayAverageChangePercent": -0.07888795,
+    "twoHundredDayAverageChange": -194.7749,
+    "twoHundredDayAverageChangePercent": -0.074891105,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1198801800000,
     "regularMarketChange": -27.0,
     "regularMarketDayRange": "2387.0 - 2444.0",
     "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 75151,
+    "averageDailyVolume3Month": 73924,
     "fiftyTwoWeekLowChange": 290.0,
     "fiftyTwoWeekLowChangePercent": 0.13705105,
     "fiftyTwoWeekRange": "2116.0 - 2901.0",
@@ -1255,12 +1261,6 @@
     "epsTrailingTwelveMonths": 369.32,
     "epsForward": 357.7,
     "fiftyDayAverageChange": -206.06006,
-    "fiftyDayAverageChangePercent": -0.07888795,
-    "twoHundredDayAverageChange": -194.7749,
-    "twoHundredDayAverageChangePercent": -0.074891105,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
     "trailingPegRatio": null
   }
 }

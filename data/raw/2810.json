@@ -1,7 +1,7 @@
 {
   "ticker": "2810",
   "japanese_ticker": "2810.T",
-  "fetch_date": "2026-05-16T23:56:35.969904",
+  "fetch_date": "2026-05-18T00:06:05.119423",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": -347533800.0,
@@ -10,8 +10,8 @@
       "2022-03-31 00:00:00": 631960200.0
     },
     "Tax Rate For Calcs": {
-      "2025-03-31 00:00:00": 0.291811,
-      "2024-03-31 00:00:00": 0.297258,
+      "2025-03-31 00:00:00": 0.2918,
+      "2024-03-31 00:00:00": 0.2973,
       "2023-03-31 00:00:00": 0.2724,
       "2022-03-31 00:00:00": 0.3221
     },
@@ -1143,11 +1143,11 @@
     "forwardPE": 21.389559,
     "volume": 446800,
     "regularMarketVolume": 446800,
-    "averageVolume": 222625,
+    "averageVolume": 223782,
     "averageVolume10days": 538900,
     "averageDailyVolume10Day": 538900,
-    "bid": 3366.0,
-    "ask": 3369.0,
+    "bid": 3367.0,
+    "ask": 3368.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 305937285120,
@@ -1219,9 +1219,9 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "marketState": "REGULAR",
     "shortName": "HOUSE FOODS GROUP INC",
     "longName": "House Foods Group Inc.",
-    "marketState": "CLOSED",
     "corporateActions": [],
     "regularMarketTime": 1778826600,
     "exchange": "JPX",
@@ -1233,12 +1233,9 @@
     "esgPopulated": false,
     "regularMarketChangePercent": 0.71770334,
     "regularMarketPrice": 3368.0,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 978307200000,
-    "regularMarketChange": 24.0,
     "regularMarketDayRange": "3328.0 - 3376.0",
     "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 222625,
+    "averageDailyVolume3Month": 223782,
     "fiftyTwoWeekLowChange": 665.5,
     "fiftyTwoWeekLowChangePercent": 0.24625348,
     "fiftyTwoWeekRange": "2702.5 - 3398.0",
@@ -1261,6 +1258,9 @@
     "exchangeDataDelayedBy": 20,
     "averageAnalystRating": "3.0 - Hold",
     "cryptoTradeable": false,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 978307200000,
+    "regularMarketChange": 24.0,
     "trailingPegRatio": null
   }
 }

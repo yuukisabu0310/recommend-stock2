@@ -1,7 +1,7 @@
 {
   "ticker": "2216",
   "japanese_ticker": "2216.T",
-  "fetch_date": "2026-05-16T23:49:45.758397",
+  "fetch_date": "2026-05-17T23:58:48.615430",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-12-31 00:00:00": -10721922.0,
@@ -126,12 +126,12 @@
       "2025-12-31 00:00:00": 42140272.0,
       "2024-12-31 00:00:00": 42054804.0,
       "2023-12-31 00:00:00": 41717778.0,
-      "2022-12-31 00:00:00": 14012000.0,
+      "2022-12-31 00:00:00": 42036000.0,
       "2021-12-31 00:00:00": null
     },
     "Basic Average Shares": {
       "2025-12-31 00:00:00": null,
-      "2024-12-31 00:00:00": null,
+      "2024-12-31 00:00:00": 42054804.0,
       "2023-12-31 00:00:00": 41717778.0,
       "2022-12-31 00:00:00": 42036000.0,
       "2021-12-31 00:00:00": 42306000.0
@@ -139,14 +139,14 @@
     "Diluted EPS": {
       "2025-12-31 00:00:00": null,
       "2024-12-31 00:00:00": 77.52,
-      "2023-12-31 00:00:00": 177.09,
-      "2022-12-31 00:00:00": 96.08,
+      "2023-12-31 00:00:00": 59.03,
+      "2022-12-31 00:00:00": 32.026667,
       "2021-12-31 00:00:00": 20.776667
     },
     "Basic EPS": {
       "2025-12-31 00:00:00": null,
       "2024-12-31 00:00:00": 77.52,
-      "2023-12-31 00:00:00": 177.09,
+      "2023-12-31 00:00:00": 59.03,
       "2022-12-31 00:00:00": 32.026667,
       "2021-12-31 00:00:00": 20.776667
     },
@@ -301,23 +301,23 @@
   "balance_sheet": {
     "Treasury Shares Number": {
       "2025-12-31 00:00:00": 3808480.0,
-      "2024-12-31 00:00:00": 1269166.0,
+      "2024-12-31 00:00:00": 3807498.0,
       "2023-12-31 00:00:00": 4180509.0,
-      "2022-12-31 00:00:00": 1446176.0,
+      "2022-12-31 00:00:00": 4338528.0,
       "2021-12-31 00:00:00": null
     },
     "Ordinary Shares Number": {
       "2025-12-31 00:00:00": 42138332.0,
-      "2024-12-31 00:00:00": 14046438.0,
-      "2023-12-31 00:00:00": 13922101.0,
-      "2022-12-31 00:00:00": 13869428.0,
+      "2024-12-31 00:00:00": 42139314.0,
+      "2023-12-31 00:00:00": 41766303.0,
+      "2022-12-31 00:00:00": 41608284.0,
       "2021-12-31 00:00:00": null
     },
     "Share Issued": {
       "2025-12-31 00:00:00": 45946812.0,
       "2024-12-31 00:00:00": 45946812.0,
       "2023-12-31 00:00:00": 45946812.0,
-      "2022-12-31 00:00:00": 15315604.0,
+      "2022-12-31 00:00:00": 45946812.0,
       "2021-12-31 00:00:00": null
     },
     "Total Debt": {
@@ -1070,24 +1070,6 @@
     "companyOfficers": [
       {
         "maxAge": 1,
-        "name": "Mr. Tetsuya  Murata",
-        "age": 56,
-        "title": "President, CEO, Chief Compliance Officer, Sustainability Officer & Director",
-        "yearBorn": 1969,
-        "exercisedValue": 0,
-        "unexercisedValue": 0
-      },
-      {
-        "maxAge": 1,
-        "name": "Mr. Mitsunori  Sato",
-        "age": 56,
-        "title": "CFO, Head of Finance & Accounting Div., CIO, Head of Digital Sol. Div. and Director",
-        "yearBorn": 1969,
-        "exercisedValue": 0,
-        "unexercisedValue": 0
-      },
-      {
-        "maxAge": 1,
         "name": "Taeko  Uchiyama",
         "title": "Managing Executive Officer, Division COO, Marketing Div. & Head of Marketing Headquarters",
         "exercisedValue": 0,
@@ -1160,11 +1142,11 @@
     "forwardPE": 5.1815643,
     "volume": 64300,
     "regularMarketVolume": 64300,
-    "averageVolume": 161363,
+    "averageVolume": 159224,
     "averageVolume10days": 84471,
     "averageDailyVolume10Day": 84471,
-    "bid": 1102.0,
-    "ask": 1117.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 46949003264,
@@ -1232,35 +1214,12 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "shortName": "KANRO CO LTD",
-    "corporateActions": [],
-    "regularMarketTime": 1778826600,
-    "longName": "Kanro Inc.",
-    "marketState": "CLOSED",
-    "exchange": "JPX",
-    "messageBoardId": "finmb_883566",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
-    "regularMarketChangePercent": 1.1818181,
-    "regularMarketPrice": 1113.0,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 978998400000,
-    "epsTrailingTwelveMonths": 80.14,
-    "epsForward": 214.8,
-    "fiftyDayAverageChange": -67.099976,
-    "fiftyDayAverageChangePercent": -0.056859568,
-    "twoHundredDayAverageChange": -497.06995,
-    "twoHundredDayAverageChangePercent": -0.30872568,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
     "regularMarketChange": 13.0,
     "regularMarketDayRange": "1100.0 - 1125.0",
     "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 161363,
+    "averageDailyVolume3Month": 159224,
     "fiftyTwoWeekLowChange": 32.0,
     "fiftyTwoWeekLowChangePercent": 0.02960222,
     "fiftyTwoWeekRange": "1081.0 - 2470.0",
@@ -1270,6 +1229,29 @@
     "earningsTimestampStart": 1753677000,
     "earningsTimestampEnd": 1754022600,
     "isEarningsDateEstimate": true,
+    "epsTrailingTwelveMonths": 80.14,
+    "epsForward": 214.8,
+    "fiftyDayAverageChange": -67.099976,
+    "fiftyDayAverageChangePercent": -0.056859568,
+    "twoHundredDayAverageChange": -497.06995,
+    "twoHundredDayAverageChangePercent": -0.30872568,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
+    "shortName": "KANRO CO LTD",
+    "corporateActions": [],
+    "regularMarketTime": 1778826600,
+    "exchange": "JPX",
+    "messageBoardId": "finmb_883566",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
+    "regularMarketChangePercent": 1.1818181,
+    "regularMarketPrice": 1113.0,
+    "marketState": "PREPRE",
+    "longName": "Kanro Inc.",
     "trailingPegRatio": null
   }
 }

@@ -1,7 +1,7 @@
 {
   "ticker": "2871",
   "japanese_ticker": "2871.T",
-  "fetch_date": "2026-05-16T23:56:55.053495",
+  "fetch_date": "2026-05-18T00:06:25.942199",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": -582255000.0,
@@ -318,13 +318,13 @@
       "2022-03-31 00:00:00": 9045616.0
     },
     "Ordinary Shares Number": {
-      "2025-03-31 00:00:00": 250564380.0,
+      "2025-03-31 00:00:00": 250564076.0,
       "2024-03-31 00:00:00": 255443246.0,
       "2023-03-31 00:00:00": 255382706.0,
       "2022-03-31 00:00:00": 258969974.0
     },
     "Share Issued": {
-      "2025-03-31 00:00:00": 250564380.0,
+      "2025-03-31 00:00:00": 256929738.0,
       "2024-03-31 00:00:00": 268151304.0,
       "2023-03-31 00:00:00": 268085198.0,
       "2022-03-31 00:00:00": 268015590.0
@@ -1118,11 +1118,11 @@
     "forwardPE": 7.8852434,
     "volume": 1612400,
     "regularMarketVolume": 1612400,
-    "averageVolume": 1188498,
+    "averageVolume": 1190354,
     "averageVolume10days": 1696771,
     "averageDailyVolume10Day": 1696771,
-    "bid": 1845.5,
-    "ask": 1859.0,
+    "bid": 1861.0,
+    "ask": 1861.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 465647304704,
@@ -1195,8 +1195,9 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "epsTrailingTwelveMonths": 109.06,
-    "epsForward": 235.63,
+    "regularMarketPrice": 1858.0,
+    "shortName": "NICHIREI CORP",
+    "longName": "Nichirei Corporation",
     "fiftyDayAverageChange": -80.43005,
     "fiftyDayAverageChangePercent": -0.04149237,
     "twoHundredDayAverageChange": -8.680054,
@@ -1205,12 +1206,14 @@
     "exchangeDataDelayedBy": 20,
     "averageAnalystRating": "2.0 - Buy",
     "cryptoTradeable": false,
+    "regularMarketTime": 1778826600,
+    "marketState": "REGULAR",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 946944000000,
     "regularMarketChange": -5.0,
     "regularMarketDayRange": "1833.0 - 1870.0",
     "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 1188498,
+    "averageDailyVolume3Month": 1190354,
     "fiftyTwoWeekLowChange": 230.0,
     "fiftyTwoWeekLowChangePercent": 0.14127764,
     "fiftyTwoWeekRange": "1628.0 - 2157.0",
@@ -1223,9 +1226,8 @@
     "earningsCallTimestampStart": 1747220340,
     "earningsCallTimestampEnd": 1747220340,
     "isEarningsDateEstimate": false,
-    "longName": "Nichirei Corporation",
-    "corporateActions": [],
-    "regularMarketTime": 1778826600,
+    "epsTrailingTwelveMonths": 109.06,
+    "epsForward": 235.63,
     "exchange": "JPX",
     "messageBoardId": "finmb_876656",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1234,9 +1236,7 @@
     "market": "jp_market",
     "esgPopulated": false,
     "regularMarketChangePercent": -0.26838434,
-    "regularMarketPrice": 1858.0,
-    "shortName": "NICHIREI CORP",
-    "marketState": "CLOSED",
+    "corporateActions": [],
     "trailingPegRatio": null
   }
 }

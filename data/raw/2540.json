@@ -1,7 +1,7 @@
 {
   "ticker": "2540",
   "japanese_ticker": "2540.T",
-  "fetch_date": "2026-05-16T23:53:38.446880",
+  "fetch_date": "2026-05-18T00:02:59.218384",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": 104915459.240115,
@@ -113,7 +113,7 @@
     },
     "Diluted Average Shares": {
       "2025-03-31 00:00:00": 13846434.0,
-      "2024-03-31 00:00:00": 13829028.0,
+      "2024-03-31 00:00:00": 13828403.0,
       "2023-03-31 00:00:00": 13807778.0,
       "2022-03-31 00:00:00": 13785184.0
     },
@@ -1026,7 +1026,7 @@
     "trailingPE": 75.75188,
     "volume": 50500,
     "regularMarketVolume": 50500,
-    "averageVolume": 64129,
+    "averageVolume": 65094,
     "averageVolume10days": 29314,
     "averageDailyVolume10Day": 29314,
     "bid": 0.0,
@@ -1094,8 +1094,8 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "corporateActions": [],
     "regularMarketTime": 1778826600,
+    "corporateActions": [],
     "exchange": "JPX",
     "messageBoardId": "finmb_880886",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1105,16 +1105,15 @@
     "esgPopulated": false,
     "regularMarketChangePercent": 0.1242236,
     "regularMarketPrice": 4030.0,
-    "marketState": "CLOSED",
+    "marketState": "REGULAR",
     "shortName": "YOMEISHU SEIZO CO",
     "longName": "Yomeishu Seizo Co.,Ltd.",
-    "cryptoTradeable": false,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 978307200000,
     "regularMarketChange": 5.0,
     "regularMarketDayRange": "4025.0 - 4030.0",
     "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 64129,
+    "averageDailyVolume3Month": 65094,
     "fiftyTwoWeekLowChange": 1186.0,
     "fiftyTwoWeekLowChangePercent": 0.4170183,
     "fiftyTwoWeekRange": "2844.0 - 5500.0",
@@ -1132,7 +1131,8 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "prevName": "Yomeishu Seizo Co., Ltd.",
-    "nameChangeDate": "2026-05-16",
+    "nameChangeDate": "2026-05-17",
+    "cryptoTradeable": false,
     "trailingPegRatio": null
   }
 }
