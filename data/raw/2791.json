@@ -1,7 +1,7 @@
 {
   "ticker": "2791",
   "japanese_ticker": "2791.T",
-  "fetch_date": "2026-05-24T00:04:08.701573",
+  "fetch_date": "2026-05-25T00:07:39.399963",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-05-31 00:00:00": -6560000.0,
@@ -1198,11 +1198,11 @@
     "forwardPE": 6.238561,
     "volume": 67900,
     "regularMarketVolume": 67900,
-    "averageVolume": 91376,
+    "averageVolume": 91782,
     "averageVolume10days": 77640,
     "averageDailyVolume10Day": 77640,
-    "bid": 4290.0,
-    "ask": 4305.0,
+    "bid": 0.0,
+    "ask": 4300.0,
     "marketCap": 57602363392,
     "nonDilutedMarketCap": 57602362435,
     "fiftyTwoWeekLow": 4250.0,
@@ -1268,9 +1268,17 @@
     "customPriceAlertConfidence": "LOW",
     "regularMarketChangePercent": 0.7033998,
     "regularMarketPrice": 4295.0,
-    "shortName": "DAIKOKUTENBUSSAN CO",
-    "longName": "Daikokutenbussan Co.,Ltd.",
-    "corporateActions": [],
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "2791.T announced a cash dividend of JPY 35.00 with an ex-date of May. 28, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1779894000000,
+          "amount": "35.00"
+        }
+      }
+    ],
     "regularMarketTime": 1779431400,
     "exchange": "JPX",
     "messageBoardId": "finmb_5719971",
@@ -1279,13 +1287,12 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "marketState": "CLOSED",
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1148428800000,
+    "marketState": "REGULAR",
+    "cryptoTradeable": false,
     "regularMarketChange": 30.0,
     "regularMarketDayRange": "4250.0 - 4350.0",
     "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 91376,
+    "averageDailyVolume3Month": 91782,
     "fiftyTwoWeekLowChange": 45.0,
     "fiftyTwoWeekLowChangePercent": 0.010588235,
     "fiftyTwoWeekRange": "4250.0 - 8500.0",
@@ -1303,7 +1310,10 @@
     "twoHundredDayAverageChangePercent": -0.27707598,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
+    "shortName": "DAIKOKUTENBUSSAN CO",
+    "longName": "Daikokutenbussan Co.,Ltd.",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1148428800000,
     "trailingPegRatio": null
   }
 }

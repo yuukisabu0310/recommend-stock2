@@ -1,7 +1,7 @@
 {
   "ticker": "2831",
   "japanese_ticker": "2831.T",
-  "fetch_date": "2026-05-24T00:04:51.331754",
+  "fetch_date": "2026-05-25T00:08:21.392593",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": 26776780.990694,
@@ -1011,11 +1011,11 @@
     "trailingPE": 12.422359,
     "volume": 4100,
     "regularMarketVolume": 4100,
-    "averageVolume": 2276,
+    "averageVolume": 2229,
     "averageVolume10days": 1650,
     "averageDailyVolume10Day": 1650,
-    "bid": 3475.0,
-    "ask": 3480.0,
+    "bid": 0.0,
+    "ask": 3505.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 32748752896,
@@ -1082,11 +1082,7 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "shortName": "HAGOROMO FOODS",
-    "longName": "Hagoromo Foods Corporation",
-    "marketState": "CLOSED",
-    "corporateActions": [],
-    "regularMarketTime": 1779431400,
+    "marketState": "REGULAR",
     "exchange": "JPX",
     "messageBoardId": "finmb_5490649",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1094,6 +1090,8 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
+    "corporateActions": [],
+    "regularMarketTime": 1779431400,
     "regularMarketChangePercent": 0.0,
     "regularMarketPrice": 3480.0,
     "cryptoTradeable": false,
@@ -1102,7 +1100,7 @@
     "regularMarketChange": 0.0,
     "regularMarketDayRange": "3450.0 - 3495.0",
     "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 2276,
+    "averageDailyVolume3Month": 2229,
     "fiftyTwoWeekLowChange": 275.0,
     "fiftyTwoWeekLowChangePercent": 0.085803434,
     "fiftyTwoWeekRange": "3205.0 - 3700.0",
@@ -1119,6 +1117,8 @@
     "twoHundredDayAverageChangePercent": 0.02992101,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
+    "shortName": "HAGOROMO FOODS",
+    "longName": "Hagoromo Foods Corporation",
     "trailingPegRatio": null
   }
 }

@@ -1,7 +1,7 @@
 {
   "ticker": "2962",
   "japanese_ticker": "2962.T",
-  "fetch_date": "2026-05-24T00:06:17.998206",
+  "fetch_date": "2026-05-25T00:09:50.164042",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-06-30 00:00:00": null,
@@ -1078,10 +1078,10 @@
     "beta": 3.586,
     "volume": 251500,
     "regularMarketVolume": 251500,
-    "averageVolume": 305116,
+    "averageVolume": 295937,
     "averageVolume10days": 222720,
     "averageDailyVolume10Day": 222720,
-    "bid": 1108.0,
+    "bid": 1110.0,
     "ask": 1110.0,
     "marketCap": 10195451904,
     "nonDilutedMarketCap": 10195451766,
@@ -1141,7 +1141,6 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "marketState": "CLOSED",
     "corporateActions": [],
     "regularMarketTime": 1779431400,
     "exchange": "JPX",
@@ -1153,10 +1152,15 @@
     "esgPopulated": false,
     "regularMarketChangePercent": 8.406648,
     "regularMarketPrice": 1109.0,
+    "marketState": "REGULAR",
+    "shortName": "TECNISCO LTD",
+    "longName": "Tecnisco, Ltd.",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1690329600000,
     "regularMarketChange": 86.0,
     "regularMarketDayRange": "1044.0 - 1152.0",
     "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 305116,
+    "averageDailyVolume3Month": 295937,
     "fiftyTwoWeekLowChange": 860.0,
     "fiftyTwoWeekLowChangePercent": 3.4538152,
     "fiftyTwoWeekRange": "249.0 - 1959.0",
@@ -1174,10 +1178,6 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1690329600000,
-    "shortName": "TECNISCO LTD",
-    "longName": "Tecnisco, Ltd.",
     "trailingPegRatio": null
   }
 }

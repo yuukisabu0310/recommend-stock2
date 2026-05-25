@@ -1,7 +1,7 @@
 {
   "ticker": "2767",
   "japanese_ticker": "2767.T",
-  "fetch_date": "2026-05-24T00:03:46.158760",
+  "fetch_date": "2026-05-25T00:07:16.388479",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": -65314000.0,
@@ -1144,11 +1144,11 @@
     "forwardPE": 5.236499,
     "volume": 443300,
     "regularMarketVolume": 443300,
-    "averageVolume": 463715,
+    "averageVolume": 454679,
     "averageVolume10days": 612670,
     "averageDailyVolume10Day": 612670,
-    "bid": 1405.0,
-    "ask": 1410.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 87526932480,
@@ -1221,6 +1221,7 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "marketState": "REGULAR",
     "corporateActions": [],
     "regularMarketTime": 1779431400,
     "exchange": "JPX",
@@ -1232,13 +1233,11 @@
     "esgPopulated": false,
     "regularMarketChangePercent": -0.6360424,
     "regularMarketPrice": 1406.0,
-    "twoHundredDayAverageChangePercent": -0.24016224,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "prevName": "Fields Corporation",
-    "nameChangeDate": "2026-05-23",
+    "nameChangeDate": "2026-05-24",
     "cryptoTradeable": false,
-    "marketState": "CLOSED",
     "shortName": "TSUBURAYA FIELDS HOLDINGS INC",
     "longName": "Tsuburaya Fields Holdings Inc.",
     "hasPrePostMarketData": false,
@@ -1246,7 +1245,7 @@
     "regularMarketChange": -9.0,
     "regularMarketDayRange": "1394.0 - 1421.0",
     "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 463715,
+    "averageDailyVolume3Month": 454679,
     "fiftyTwoWeekLowChange": 31.0,
     "fiftyTwoWeekLowChangePercent": 0.022545455,
     "fiftyTwoWeekRange": "1375.0 - 2498.0",
@@ -1261,6 +1260,7 @@
     "fiftyDayAverageChange": -38.680054,
     "fiftyDayAverageChangePercent": -0.02677413,
     "twoHundredDayAverageChange": -444.39502,
+    "twoHundredDayAverageChangePercent": -0.24016224,
     "trailingPegRatio": null
   }
 }

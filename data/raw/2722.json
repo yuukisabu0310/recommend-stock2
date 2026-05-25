@@ -1,7 +1,7 @@
 {
   "ticker": "2722",
   "japanese_ticker": "2722.T",
-  "fetch_date": "2026-05-24T00:03:05.164580",
+  "fetch_date": "2026-05-25T00:06:33.426926",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-05-31 00:00:00": 33703591.057874,
@@ -1200,11 +1200,11 @@
     "forwardPE": 8.446389,
     "volume": 10700,
     "regularMarketVolume": 10700,
-    "averageVolume": 13679,
+    "averageVolume": 13434,
     "averageVolume10days": 15170,
     "averageDailyVolume10Day": 15170,
-    "bid": 386.0,
-    "ask": 388.0,
+    "bid": 0.0,
+    "ask": 386.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 2918937344,
@@ -1272,19 +1272,7 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "corporateActions": [
-      {
-        "header": "Dividend",
-        "message": "2722.T announced a cash dividend of JPY 9.00 with an ex-date of May. 28, 2026",
-        "meta": {
-          "eventType": "DIVIDEND",
-          "dateEpochMs": 1779894000000,
-          "amount": "9.00"
-        }
-      }
-    ],
     "regularMarketTime": 1779431400,
-    "longName": "IK HOLDINGS Co.,Ltd.",
     "exchange": "JPX",
     "messageBoardId": "finmb_10947975",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1293,24 +1281,18 @@
     "market": "jp_market",
     "esgPopulated": false,
     "shortName": "IK HOLDINGS CO LTD",
-    "marketState": "CLOSED",
-    "fiftyDayAverageChange": -1.8599854,
-    "fiftyDayAverageChangePercent": -0.004795507,
-    "twoHundredDayAverageChange": -19.11499,
-    "twoHundredDayAverageChangePercent": -0.04718411,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "prevName": "I.K Co.,Ltd.",
-    "nameChangeDate": "2026-05-23",
-    "cryptoTradeable": false,
     "regularMarketChangePercent": 0.25974026,
     "regularMarketPrice": 386.0,
+    "marketState": "REGULAR",
+    "longName": "IK HOLDINGS Co.,Ltd.",
+    "cryptoTradeable": false,
+    "corporateActions": [],
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1007424000000,
     "regularMarketChange": 1.0,
     "regularMarketDayRange": "386.0 - 388.0",
     "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 13679,
+    "averageDailyVolume3Month": 13434,
     "fiftyTwoWeekLowChange": 17.0,
     "fiftyTwoWeekLowChangePercent": 0.04607046,
     "fiftyTwoWeekRange": "369.0 - 575.0",
@@ -1322,6 +1304,14 @@
     "isEarningsDateEstimate": true,
     "epsTrailingTwelveMonths": 31.77,
     "epsForward": 45.7,
+    "fiftyDayAverageChange": -1.8599854,
+    "fiftyDayAverageChangePercent": -0.004795507,
+    "twoHundredDayAverageChange": -19.11499,
+    "twoHundredDayAverageChangePercent": -0.04718411,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "prevName": "I.K Co.,Ltd.",
+    "nameChangeDate": "2026-05-24",
     "trailingPegRatio": null
   }
 }

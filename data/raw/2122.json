@@ -1,7 +1,7 @@
 {
   "ticker": "2122",
   "japanese_ticker": "2122.T",
-  "fetch_date": "2026-05-23T23:55:50.631900",
+  "fetch_date": "2026-05-24T23:58:53.316293",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-09-30 00:00:00": -9726600.0,
@@ -1034,11 +1034,11 @@
     "forwardPE": 9.645818,
     "volume": 3900,
     "regularMarketVolume": 3900,
-    "averageVolume": 10611,
+    "averageVolume": 10417,
     "averageVolume10days": 4310,
     "averageDailyVolume10Day": 4310,
-    "bid": 1273.0,
-    "ask": 1281.0,
+    "bid": 1295.0,
+    "ask": 1320.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 8034343936,
@@ -1118,7 +1118,11 @@
     "esgPopulated": false,
     "regularMarketChangePercent": 2.2364218,
     "regularMarketPrice": 1280.0,
-    "marketState": "CLOSED",
+    "twoHundredDayAverageChangePercent": 0.070686206,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
+    "marketState": "PREPRE",
     "shortName": "INTERSPACE CO LTD",
     "longName": "Interspace Co.,Ltd.",
     "hasPrePostMarketData": false,
@@ -1126,7 +1130,7 @@
     "regularMarketChange": 28.0,
     "regularMarketDayRange": "1267.0 - 1284.0",
     "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 10611,
+    "averageDailyVolume3Month": 10417,
     "fiftyTwoWeekLowChange": 362.0,
     "fiftyTwoWeekLowChangePercent": 0.3943355,
     "fiftyTwoWeekRange": "918.0 - 1483.0",
@@ -1141,10 +1145,6 @@
     "fiftyDayAverageChange": 15.619995,
     "fiftyDayAverageChangePercent": 0.012353877,
     "twoHundredDayAverageChange": 84.505005,
-    "twoHundredDayAverageChangePercent": 0.070686206,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
     "trailingPegRatio": null
   }
 }

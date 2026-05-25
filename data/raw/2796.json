@@ -1,7 +1,7 @@
 {
   "ticker": "2796",
   "japanese_ticker": "2796.T",
-  "fetch_date": "2026-05-24T00:04:14.509509",
+  "fetch_date": "2026-05-25T00:07:45.886665",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-05-31 00:00:00": -25056000.0,
@@ -1162,10 +1162,10 @@
     "beta": 0.258,
     "volume": 13400,
     "regularMarketVolume": 13400,
-    "averageVolume": 7611,
+    "averageVolume": 7568,
     "averageVolume10days": 6980,
     "averageDailyVolume10Day": 6980,
-    "bid": 531.0,
+    "bid": 0.0,
     "ask": 540.0,
     "bidSize": 0,
     "askSize": 0,
@@ -1231,13 +1231,22 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "marketState": "CLOSED",
+    "epsTrailingTwelveMonths": -13.01,
+    "fiftyDayAverageChange": 18.460022,
+    "fiftyDayAverageChangePercent": 0.03539522,
+    "twoHundredDayAverageChange": 20.590027,
+    "twoHundredDayAverageChangePercent": 0.039641187,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1172016000000,
     "shortName": "PHARMARISE HOLDINGS CORPORATION",
     "longName": "Pharmarise Holdings Corporation",
     "regularMarketChange": 9.0,
     "regularMarketDayRange": "530.0 - 540.0",
     "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 7611,
+    "averageDailyVolume3Month": 7568,
     "fiftyTwoWeekLowChange": 67.0,
     "fiftyTwoWeekLowChangePercent": 0.14164905,
     "fiftyTwoWeekRange": "473.0 - 567.0",
@@ -1249,26 +1258,7 @@
     "earningsCallTimestampStart": 1737716340,
     "earningsCallTimestampEnd": 1737716340,
     "isEarningsDateEstimate": true,
-    "epsTrailingTwelveMonths": -13.01,
-    "fiftyDayAverageChange": 18.460022,
-    "fiftyDayAverageChangePercent": 0.03539522,
-    "twoHundredDayAverageChange": 20.590027,
-    "twoHundredDayAverageChangePercent": 0.039641187,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1172016000000,
-    "corporateActions": [
-      {
-        "header": "Dividend",
-        "message": "2796.T announced a cash dividend of JPY 14.00 with an ex-date of May. 28, 2026",
-        "meta": {
-          "eventType": "DIVIDEND",
-          "dateEpochMs": 1779894000000,
-          "amount": "14.00"
-        }
-      }
-    ],
+    "corporateActions": [],
     "regularMarketTime": 1779431400,
     "exchange": "JPX",
     "messageBoardId": "finmb_8868721",
@@ -1279,7 +1269,7 @@
     "esgPopulated": false,
     "regularMarketChangePercent": 1.6949153,
     "regularMarketPrice": 540.0,
-    "cryptoTradeable": false,
+    "marketState": "REGULAR",
     "trailingPegRatio": null
   }
 }

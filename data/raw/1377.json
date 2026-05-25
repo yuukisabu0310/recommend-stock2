@@ -1,7 +1,7 @@
 {
   "ticker": "1377",
   "japanese_ticker": "1377.T",
-  "fetch_date": "2026-05-23T23:50:04.583130",
+  "fetch_date": "2026-05-24T23:52:59.596055",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-05-31 00:00:00": 323120000.0,
@@ -1089,11 +1089,11 @@
     "forwardPE": 19.909931,
     "volume": 215400,
     "regularMarketVolume": 215400,
-    "averageVolume": 159379,
+    "averageVolume": 159679,
     "averageVolume10days": 176160,
     "averageDailyVolume10Day": 176160,
-    "bid": 4200.0,
-    "ask": 4210.0,
+    "bid": 0.0,
+    "ask": 4055.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 177490722816,
@@ -1165,27 +1165,30 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "exchange": "JPX",
-    "messageBoardId": "finmb_876256",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
+    "shortName": "SAKATA SEED CORP",
+    "longName": "Sakata Seed Corporation",
+    "regularMarketChangePercent": 0.8403362,
+    "regularMarketPrice": 4200.0,
+    "marketState": "PREPRE",
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "1377.T announced a cash dividend of JPY 40.00 with an ex-date of May. 28, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1779894000000,
+          "amount": "40.00"
+        }
+      }
+    ],
+    "regularMarketTime": 1779431400,
     "cryptoTradeable": false,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 978307200000,
     "regularMarketChange": 35.0,
     "regularMarketDayRange": "4145.0 - 4220.0",
-    "marketState": "CLOSED",
-    "regularMarketChangePercent": 0.8403362,
-    "regularMarketPrice": 4200.0,
-    "corporateActions": [],
-    "regularMarketTime": 1779431400,
-    "shortName": "SAKATA SEED CORP",
-    "longName": "Sakata Seed Corporation",
     "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 159379,
+    "averageDailyVolume3Month": 159679,
     "fiftyTwoWeekLowChange": 890.0,
     "fiftyTwoWeekLowChangePercent": 0.2688822,
     "fiftyTwoWeekRange": "3310.0 - 4630.0",
@@ -1207,6 +1210,13 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "averageAnalystRating": "2.0 - Buy",
+    "exchange": "JPX",
+    "messageBoardId": "finmb_876256",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
     "trailingPegRatio": null
   }
 }

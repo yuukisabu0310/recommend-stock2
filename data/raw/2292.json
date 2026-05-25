@@ -1,7 +1,7 @@
 {
   "ticker": "2292",
   "japanese_ticker": "2292.T",
-  "fetch_date": "2026-05-23T23:58:00.834530",
+  "fetch_date": "2026-05-25T00:01:13.918271",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-02-28 00:00:00": 1222504000.0,
@@ -965,46 +965,10 @@
       },
       {
         "maxAge": 1,
-        "name": "Mr. Kenji  Unoki",
-        "age": 61,
-        "title": "Corporate Officer & Supervising Administration Group",
-        "yearBorn": 1964,
-        "exercisedValue": 0,
-        "unexercisedValue": 0
-      },
-      {
-        "maxAge": 1,
-        "name": "Mr. Hiroyasu  Iwabuchi",
-        "age": 48,
-        "title": "MD, GM of Business Group, GM of Sales Division & Director",
-        "yearBorn": 1977,
-        "exercisedValue": 0,
-        "unexercisedValue": 0
-      },
-      {
-        "maxAge": 1,
-        "name": "Mr. Hirokatsu  Hirai",
-        "age": 64,
-        "title": "Senior Managing Corporate Officer",
-        "yearBorn": 1961,
-        "exercisedValue": 0,
-        "unexercisedValue": 0
-      },
-      {
-        "maxAge": 1,
         "name": "Mr. Akihiro  Tsujita",
         "age": 59,
         "title": "Managing Executive Officer",
         "yearBorn": 1966,
-        "exercisedValue": 0,
-        "unexercisedValue": 0
-      },
-      {
-        "maxAge": 1,
-        "name": "Mr. Nobuyuki  Yasuoka",
-        "age": 71,
-        "title": "Chairman of the Board of Corporate Auditors",
-        "yearBorn": 1954,
         "exercisedValue": 0,
         "unexercisedValue": 0
       },
@@ -1017,26 +981,52 @@
       },
       {
         "maxAge": 1,
-        "name": "Mr. Takahiro  Makimoto",
-        "age": 54,
-        "title": "GM of Imported Meat Division & Director",
-        "yearBorn": 1971,
-        "exercisedValue": 0,
-        "unexercisedValue": 0
-      },
-      {
-        "maxAge": 1,
-        "name": "Mr. Junji  Izuta",
-        "age": 54,
-        "title": "General Manager of Domestic Pork Division & Director",
-        "yearBorn": 1971,
-        "exercisedValue": 0,
-        "unexercisedValue": 0
-      },
-      {
-        "maxAge": 1,
         "name": "Atsushi  Terada",
         "title": "Corporate Officer & GM of Manufacturing Department of Tokyo Branch",
+        "exercisedValue": 0,
+        "unexercisedValue": 0
+      },
+      {
+        "maxAge": 1,
+        "name": "Kawataka  Michitaka",
+        "title": "Operating Officer & Group Quality Assurance Officer",
+        "exercisedValue": 0,
+        "unexercisedValue": 0
+      },
+      {
+        "maxAge": 1,
+        "name": "Naoki  Uebayashi",
+        "age": 55,
+        "title": "Corporate Officer and GM of Kyushu & Sanin",
+        "yearBorn": 1970,
+        "exercisedValue": 0,
+        "unexercisedValue": 0
+      },
+      {
+        "maxAge": 1,
+        "name": "Daisuke  Terao",
+        "title": "Senior Executive Officer & GM of Domestic Meat Division and Himeji Sales Office",
+        "exercisedValue": 0,
+        "unexercisedValue": 0
+      },
+      {
+        "maxAge": 1,
+        "name": "Ryohei  Yamaji",
+        "title": "Corporate Officer & GM of Overseas Division",
+        "exercisedValue": 0,
+        "unexercisedValue": 0
+      },
+      {
+        "maxAge": 1,
+        "name": "Kengo  Yamada",
+        "title": "Corporate Officer & General Manager Kanto Sales Office",
+        "exercisedValue": 0,
+        "unexercisedValue": 0
+      },
+      {
+        "maxAge": 1,
+        "name": "Moriyoshi  Arai",
+        "title": "Executive Officer & Regional Sales Manager",
         "exercisedValue": 0,
         "unexercisedValue": 0
       }
@@ -1063,11 +1053,11 @@
     "forwardPE": 12.303965,
     "volume": 51300,
     "regularMarketVolume": 51300,
-    "averageVolume": 109206,
+    "averageVolume": 102379,
     "averageVolume10days": 77430,
     "averageDailyVolume10Day": 77430,
-    "bid": 2793.0,
-    "ask": 2806.0,
+    "bid": 2821.0,
+    "ask": 2822.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 88463482880,
@@ -1135,8 +1125,19 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "corporateActions": [],
-    "regularMarketTime": 1779431400,
+    "marketState": "REGULAR",
+    "shortName": "S FOODS INC",
+    "longName": "S Foods Inc.",
+    "regularMarketChange": -26.0,
+    "regularMarketDayRange": "2766.0 - 2819.0",
+    "fullExchangeName": "Tokyo",
+    "averageDailyVolume3Month": 102379,
+    "fiftyTwoWeekLowChange": 315.0,
+    "fiftyTwoWeekLowChangePercent": 0.12711865,
+    "fiftyTwoWeekRange": "2478.0 - 3285.0",
+    "fiftyTwoWeekHighChange": -492.0,
+    "fiftyTwoWeekHighChangePercent": -0.14977169,
+    "fiftyTwoWeekChangePercent": 6.238115,
     "earningsTimestampStart": 1752127200,
     "earningsTimestampEnd": 1752472800,
     "isEarningsDateEstimate": true,
@@ -1148,22 +1149,10 @@
     "twoHundredDayAverageChangePercent": -0.006428181,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 978566400000,
-    "regularMarketChange": -26.0,
-    "regularMarketDayRange": "2766.0 - 2819.0",
-    "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 109206,
-    "fiftyTwoWeekLowChange": 315.0,
-    "fiftyTwoWeekLowChangePercent": 0.12711865,
-    "fiftyTwoWeekRange": "2478.0 - 3285.0",
-    "fiftyTwoWeekHighChange": -492.0,
-    "fiftyTwoWeekHighChangePercent": -0.14977169,
-    "fiftyTwoWeekChangePercent": 6.238115,
-    "shortName": "S FOODS INC",
-    "longName": "S Foods Inc.",
-    "marketState": "CLOSED",
+    "corporateActions": [],
+    "regularMarketTime": 1779431400,
     "exchange": "JPX",
     "messageBoardId": "finmb_5503996",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1173,6 +1162,7 @@
     "esgPopulated": false,
     "regularMarketChangePercent": -0.92231286,
     "regularMarketPrice": 2793.0,
+    "cryptoTradeable": false,
     "trailingPegRatio": null
   }
 }
