@@ -1,7 +1,7 @@
 {
   "ticker": "2170",
   "japanese_ticker": "2170.T",
-  "fetch_date": "2026-05-31T00:00:26.451433",
+  "fetch_date": "2026-06-01T00:05:35.823232",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-12-31 00:00:00": 0.0,
@@ -1132,8 +1132,8 @@
     "averageVolume": 561546,
     "averageVolume10days": 413290,
     "averageDailyVolume10Day": 413290,
-    "bid": 562.0,
-    "ask": 563.0,
+    "bid": 561.0,
+    "ask": 574.0,
     "marketCap": 60006998016,
     "nonDilutedMarketCap": 60006998621,
     "fiftyTwoWeekLow": 475.0,
@@ -1206,11 +1206,18 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "shortName": "LINK AND MOTIVATION INC",
-    "longName": "Link and Motivation Inc.",
-    "regularMarketChangePercent": 0.17793594,
-    "regularMarketPrice": 563.0,
-    "marketState": "CLOSED",
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "2170.T announced a cash dividend of JPY 4.10 with an ex-date of Jun. 29, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1782658800000,
+          "amount": "4.10"
+        }
+      }
+    ],
+    "regularMarketTime": 1780036200,
     "exchange": "JPX",
     "messageBoardId": "finmb_38981574",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1218,8 +1225,9 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "corporateActions": [],
-    "regularMarketTime": 1780036200,
+    "regularMarketChangePercent": 0.17793594,
+    "regularMarketPrice": 563.0,
+    "shortName": "LINK AND MOTIVATION INC",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1197849600000,
     "regularMarketChange": 1.0,
@@ -1246,6 +1254,8 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
+    "marketState": "REGULAR",
+    "longName": "Link and Motivation Inc.",
     "trailingPegRatio": null
   }
 }

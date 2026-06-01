@@ -1,7 +1,7 @@
 {
   "ticker": "2814",
   "japanese_ticker": "2814.T",
-  "fetch_date": "2026-05-31T00:07:56.255765",
+  "fetch_date": "2026-06-01T00:13:30.420790",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": 20697516.0,
@@ -119,7 +119,7 @@
     },
     "Basic Average Shares": {
       "2025-03-31 00:00:00": 3838869.0,
-      "2024-03-31 00:00:00": 4048463.0,
+      "2024-03-31 00:00:00": 4048374.0,
       "2023-03-31 00:00:00": 4160692.0,
       "2022-03-31 00:00:00": 6203173.0
     },
@@ -318,7 +318,7 @@
       "2022-03-31 00:00:00": 5111412.0
     },
     "Ordinary Shares Number": {
-      "2025-03-31 00:00:00": 3716785.0,
+      "2025-03-31 00:00:00": 3717775.0,
       "2024-03-31 00:00:00": 3908928.0,
       "2023-03-31 00:00:00": 4055048.0,
       "2022-03-31 00:00:00": 4215048.0
@@ -1037,8 +1037,8 @@
     "averageVolume": 1633,
     "averageVolume10days": 1380,
     "averageDailyVolume10Day": 1380,
-    "bid": 3020.0,
-    "ask": 3080.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 10853340160,
@@ -1105,11 +1105,12 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "shortName": "SATO FOODS INDUSTRIES CO",
-    "longName": "Sato Foods Industries Co., Ltd.",
     "regularMarketChangePercent": -0.1650165,
     "regularMarketPrice": 3025.0,
-    "marketState": "CLOSED",
+    "shortName": "SATO FOODS INDUSTRIES CO",
+    "longName": "Sato Foods Industries Co., Ltd.",
+    "corporateActions": [],
+    "regularMarketTime": 1780027244,
     "exchange": "JPX",
     "messageBoardId": "finmb_9155770",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1117,9 +1118,6 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "cryptoTradeable": false,
-    "corporateActions": [],
-    "regularMarketTime": 1780027244,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 947030400000,
     "regularMarketChange": -5.0,
@@ -1142,6 +1140,8 @@
     "twoHundredDayAverageChangePercent": -0.047257576,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
+    "marketState": "REGULAR",
     "trailingPegRatio": null
   }
 }

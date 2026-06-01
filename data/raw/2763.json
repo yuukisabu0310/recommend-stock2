@@ -1,7 +1,7 @@
 {
   "ticker": "2763",
   "japanese_ticker": "2763.T",
-  "fetch_date": "2026-05-31T00:07:02.422472",
+  "fetch_date": "2026-06-01T00:12:35.217284",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": 0.0,
@@ -101,7 +101,7 @@
     },
     "Basic Average Shares": {
       "2025-03-31 00:00:00": 30008530.0,
-      "2024-03-31 00:00:00": 30360837.0,
+      "2024-03-31 00:00:00": 30363192.0,
       "2023-03-31 00:00:00": 30730278.0,
       "2022-03-31 00:00:00": 30942268.0
     },
@@ -252,13 +252,13 @@
       "2022-03-31 00:00:00": 1080003.0
     },
     "Ordinary Shares Number": {
-      "2025-03-31 00:00:00": 30110545.0,
+      "2025-03-31 00:00:00": 29729245.0,
       "2024-03-31 00:00:00": 30154445.0,
       "2023-03-31 00:00:00": 30345365.0,
       "2022-03-31 00:00:00": 30942265.0
     },
     "Share Issued": {
-      "2025-03-31 00:00:00": 30110545.0,
+      "2025-03-31 00:00:00": 30342268.0,
       "2024-03-31 00:00:00": 30822268.0,
       "2023-03-31 00:00:00": 30822268.0,
       "2022-03-31 00:00:00": 32022268.0
@@ -911,8 +911,8 @@
     "averageVolume": 60320,
     "averageVolume10days": 75600,
     "averageDailyVolume10Day": 75600,
-    "bid": 1099.0,
-    "ask": 1104.0,
+    "bid": 0.0,
+    "ask": 1071.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 32701982720,
@@ -981,9 +981,20 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "shortName": "FTGROUP CO LTD",
+    "marketState": "REGULAR",
     "corporateActions": [],
     "regularMarketTime": 1780036200,
+    "exchange": "JPX",
+    "messageBoardId": "finmb_5607071",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
+    "regularMarketChangePercent": 0.82493126,
+    "regularMarketPrice": 1100.0,
+    "shortName": "FTGROUP CO LTD",
+    "longName": "FTGroup Co., Ltd.",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1047427200000,
     "regularMarketChange": 9.0,
@@ -1000,14 +1011,6 @@
     "earningsTimestampEnd": 1747029600,
     "isEarningsDateEstimate": false,
     "epsTrailingTwelveMonths": 217.36,
-    "marketState": "CLOSED",
-    "exchange": "JPX",
-    "messageBoardId": "finmb_5607071",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
     "fiftyDayAverageChange": -65.69995,
     "fiftyDayAverageChangePercent": -0.056360945,
     "twoHundredDayAverageChange": -130.85999,
@@ -1015,9 +1018,6 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
-    "longName": "FTGroup Co., Ltd.",
-    "regularMarketChangePercent": 0.82493126,
-    "regularMarketPrice": 1100.0,
     "trailingPegRatio": null
   }
 }

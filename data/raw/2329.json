@@ -1,7 +1,7 @@
 {
   "ticker": "2329",
   "japanese_ticker": "2329.T",
-  "fetch_date": "2026-05-31T00:02:19.478818",
+  "fetch_date": "2026-06-01T00:07:40.741613",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": null,
@@ -125,14 +125,14 @@
     "Diluted Average Shares": {
       "2026-03-31 00:00:00": 137659220.0,
       "2025-03-31 00:00:00": 134974177.0,
-      "2024-03-31 00:00:00": 134842388.0,
+      "2024-03-31 00:00:00": 134845314.0,
       "2023-03-31 00:00:00": 134845461.0,
       "2022-03-31 00:00:00": null
     },
     "Basic Average Shares": {
       "2026-03-31 00:00:00": null,
       "2025-03-31 00:00:00": 134974177.0,
-      "2024-03-31 00:00:00": 134842388.0,
+      "2024-03-31 00:00:00": 134845314.0,
       "2023-03-31 00:00:00": 134845461.0,
       "2022-03-31 00:00:00": 134845461.0
     },
@@ -307,13 +307,13 @@
   },
   "balance_sheet": {
     "Treasury Shares Number": {
-      "2025-03-31 00:00:00": null,
+      "2025-03-31 00:00:00": 2551963.0,
       "2024-03-31 00:00:00": 5360787.0,
       "2023-03-31 00:00:00": 5360541.0,
       "2022-03-31 00:00:00": 5360541.0
     },
     "Ordinary Shares Number": {
-      "2025-03-31 00:00:00": 134934039.0,
+      "2025-03-31 00:00:00": 137654039.0,
       "2024-03-31 00:00:00": 134845215.0,
       "2023-03-31 00:00:00": 134845461.0,
       "2022-03-31 00:00:00": 134845461.0
@@ -1089,8 +1089,8 @@
     "averageVolume": 49935,
     "averageVolume10days": 57380,
     "averageDailyVolume10Day": 57380,
-    "bid": 549.0,
-    "ask": 550.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 75677229056,
@@ -1159,18 +1159,7 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "shortName": "TOHOKUSHINSHA FILM CORPORATION",
-    "corporateActions": [],
-    "regularMarketTime": 1780036200,
-    "exchange": "JPX",
-    "messageBoardId": "finmb_5522618",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
-    "regularMarketChangePercent": 0.18214937,
-    "regularMarketPrice": 550.0,
+    "epsTrailingTwelveMonths": 50.6,
     "fiftyDayAverageChange": -51.359985,
     "fiftyDayAverageChangePercent": -0.08540639,
     "twoHundredDayAverageChange": -84.66498,
@@ -1178,6 +1167,8 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1034035200000,
     "regularMarketChange": 1.0,
     "regularMarketDayRange": "548.0 - 557.0",
     "fullExchangeName": "Tokyo",
@@ -1191,11 +1182,20 @@
     "earningsTimestampStart": 1747377000,
     "earningsTimestampEnd": 1747377000,
     "isEarningsDateEstimate": false,
-    "epsTrailingTwelveMonths": 50.6,
-    "marketState": "CLOSED",
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1034035200000,
+    "shortName": "TOHOKUSHINSHA FILM CORPORATION",
     "longName": "Tohokushinsha Film Corporation",
+    "marketState": "REGULAR",
+    "corporateActions": [],
+    "regularMarketTime": 1780036200,
+    "exchange": "JPX",
+    "messageBoardId": "finmb_5522618",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
+    "regularMarketChangePercent": 0.18214937,
+    "regularMarketPrice": 550.0,
     "trailingPegRatio": null
   }
 }

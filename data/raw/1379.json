@@ -1,7 +1,7 @@
 {
   "ticker": "1379",
   "japanese_ticker": "1379.T",
-  "fetch_date": "2026-05-30T23:54:34.036270",
+  "fetch_date": "2026-05-31T23:59:16.188224",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": -243144000.0,
@@ -82,7 +82,7 @@
       "2022-03-31 00:00:00": 5000000.0
     },
     "Normalized Income": {
-      "2025-03-31 00:00:00": 5119189520.809153,
+      "2025-03-31 00:00:00": 5118856000.0,
       "2024-03-31 00:00:00": 3312048435.319912,
       "2023-03-31 00:00:00": -1726981261.42596,
       "2022-03-31 00:00:00": 2527926795.957389
@@ -1032,8 +1032,8 @@
     "averageVolume": 102105,
     "averageVolume10days": 108820,
     "averageDailyVolume10Day": 108820,
-    "bid": 1820.0,
-    "ask": 1826.0,
+    "bid": 0.0,
+    "ask": 1850.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 57050398720,
@@ -1103,6 +1103,11 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "marketState": "PREPRE",
+    "regularMarketChangePercent": 0.05497526,
+    "regularMarketPrice": 1820.0,
+    "corporateActions": [],
+    "regularMarketTime": 1780036200,
     "exchange": "JPX",
     "messageBoardId": "finmb_884170",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1110,13 +1115,13 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "regularMarketChangePercent": 0.05497526,
-    "regularMarketPrice": 1820.0,
-    "marketState": "CLOSED",
+    "shortName": "HOKUTO CORP",
     "longName": "Hokuto Corporation",
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 978566400000,
-    "shortName": "HOKUTO CORP",
     "regularMarketChange": 1.0,
     "regularMarketDayRange": "1820.0 - 1837.0",
     "fullExchangeName": "Tokyo",
@@ -1137,11 +1142,6 @@
     "fiftyDayAverageChangePercent": -0.034236845,
     "twoHundredDayAverageChange": -118.61499,
     "twoHundredDayAverageChangePercent": -0.06118543,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "corporateActions": [],
-    "regularMarketTime": 1780036200,
-    "cryptoTradeable": false,
     "trailingPegRatio": null
   }
 }

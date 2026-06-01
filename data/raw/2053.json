@@ -1,7 +1,7 @@
 {
   "ticker": "2053",
   "japanese_ticker": "2053.T",
-  "fetch_date": "2026-05-30T23:59:24.211540",
+  "fetch_date": "2026-06-01T00:04:28.988542",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": 51227436.823105,
@@ -270,7 +270,7 @@
       "2022-03-31 00:00:00": 612536.0
     },
     "Ordinary Shares Number": {
-      "2025-03-31 00:00:00": 29571518.0,
+      "2025-03-31 00:00:00": 29570966.0,
       "2024-03-31 00:00:00": 29561371.0,
       "2023-03-31 00:00:00": 29547478.0,
       "2022-03-31 00:00:00": 29759372.0
@@ -1043,8 +1043,8 @@
     "averageVolume": 90110,
     "averageVolume10days": 78540,
     "averageDailyVolume10Day": 78540,
-    "bid": 1703.0,
-    "ask": 1713.0,
+    "bid": 0.0,
+    "ask": 1725.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 48869752832,
@@ -1113,9 +1113,7 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "longName": "Chubu Shiryo Co., Ltd.",
-    "marketState": "CLOSED",
-    "regularMarketTime": 1780036200,
+    "marketState": "REGULAR",
     "exchange": "JPX",
     "messageBoardId": "finmb_883315",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1140,8 +1138,6 @@
     "isEarningsDateEstimate": true,
     "epsTrailingTwelveMonths": 190.57,
     "epsForward": 146.8,
-    "shortName": "CHUBU SHIRYO CO",
-    "corporateActions": [],
     "fiftyDayAverageChange": -35.680054,
     "fiftyDayAverageChangePercent": -0.020521345,
     "twoHundredDayAverageChange": -57.900024,
@@ -1151,6 +1147,10 @@
     "cryptoTradeable": false,
     "regularMarketChangePercent": -1.3325608,
     "regularMarketPrice": 1703.0,
+    "shortName": "CHUBU SHIRYO CO",
+    "longName": "Chubu Shiryo Co., Ltd.",
+    "corporateActions": [],
+    "regularMarketTime": 1780036200,
     "trailingPegRatio": null
   }
 }

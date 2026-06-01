@@ -1,7 +1,7 @@
 {
   "ticker": "2488",
   "japanese_ticker": "2488.T",
-  "fetch_date": "2026-05-31T00:04:31.685018",
+  "fetch_date": "2026-06-01T00:09:57.877500",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": -15953145.278217,
@@ -107,7 +107,7 @@
     },
     "Basic Average Shares": {
       "2025-03-31 00:00:00": 5667778.0,
-      "2024-03-31 00:00:00": 5635816.0,
+      "2024-03-31 00:00:00": 5635535.0,
       "2023-03-31 00:00:00": 5601192.0,
       "2022-03-31 00:00:00": 5581143.0
     },
@@ -282,7 +282,7 @@
   },
   "balance_sheet": {
     "Treasury Shares Number": {
-      "2025-03-31 00:00:00": null,
+      "2025-03-31 00:00:00": 338732.0,
       "2024-03-31 00:00:00": 370032.0,
       "2023-03-31 00:00:00": 404032.0,
       "2022-03-31 00:00:00": 430127.0
@@ -861,8 +861,8 @@
     "averageVolume": 31206,
     "averageVolume10days": 48590,
     "averageDailyVolume10Day": 48590,
-    "bid": 1400.0,
-    "ask": 1416.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "marketCap": 7780595200,
     "nonDilutedMarketCap": 7780595200,
     "fiftyTwoWeekLow": 1117.0,
@@ -928,9 +928,12 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "regularMarketChangePercent": -1.0600706,
-    "regularMarketPrice": 1400.0,
-    "marketState": "CLOSED",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1150934400000,
+    "earningsTimestampStart": 1747291200,
+    "earningsTimestampEnd": 1747291200,
+    "isEarningsDateEstimate": false,
+    "epsTrailingTwelveMonths": 120.68,
     "fiftyDayAverageChange": 142.21997,
     "fiftyDayAverageChangePercent": 0.11307221,
     "twoHundredDayAverageChange": 15.525024,
@@ -938,10 +941,8 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "prevName": "Japan Third Party Co., Ltd.",
-    "nameChangeDate": "2026-05-30",
+    "nameChangeDate": "2026-05-31",
     "cryptoTradeable": false,
-    "shortName": "JTP CO LTD",
-    "longName": "JTP Co.,Ltd.",
     "corporateActions": [],
     "regularMarketTime": 1780036200,
     "exchange": "JPX",
@@ -950,9 +951,9 @@
     "exchangeTimezoneShortName": "JST",
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
-    "esgPopulated": false,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1150934400000,
+    "shortName": "JTP CO LTD",
+    "longName": "JTP Co.,Ltd.",
+    "marketState": "REGULAR",
     "regularMarketChange": -15.0,
     "regularMarketDayRange": "1400.0 - 1448.0",
     "fullExchangeName": "Tokyo",
@@ -963,10 +964,9 @@
     "fiftyTwoWeekHighChange": -279.0,
     "fiftyTwoWeekHighChangePercent": -0.16617034,
     "fiftyTwoWeekChangePercent": 15.894043,
-    "earningsTimestampStart": 1747291200,
-    "earningsTimestampEnd": 1747291200,
-    "isEarningsDateEstimate": false,
-    "epsTrailingTwelveMonths": 120.68,
+    "esgPopulated": false,
+    "regularMarketChangePercent": -1.0600706,
+    "regularMarketPrice": 1400.0,
     "trailingPegRatio": null
   }
 }

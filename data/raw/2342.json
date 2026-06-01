@@ -1,7 +1,7 @@
 {
   "ticker": "2342",
   "japanese_ticker": "2342.T",
-  "fetch_date": "2026-05-31T00:02:38.674040",
+  "fetch_date": "2026-06-01T00:08:00.855968",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": -86655712.0,
@@ -1060,8 +1060,8 @@
     "averageVolume": 255096,
     "averageVolume10days": 122440,
     "averageDailyVolume10Day": 122440,
-    "bid": 246.0,
-    "ask": 247.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 4096691968,
@@ -1128,7 +1128,6 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "marketState": "CLOSED",
     "corporateActions": [],
     "regularMarketTime": 1780036200,
     "exchange": "JPX",
@@ -1140,6 +1139,10 @@
     "esgPopulated": false,
     "shortName": "TRANSGENIC GROUP INC",
     "longName": "Transgenic Group Inc.",
+    "regularMarketChangePercent": -0.40485832,
+    "regularMarketPrice": 246.0,
+    "cryptoTradeable": false,
+    "marketState": "REGULAR",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1039478400000,
     "regularMarketChange": -1.0,
@@ -1163,10 +1166,7 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "prevName": "Trans Genic Inc.",
-    "nameChangeDate": "2026-05-30",
-    "cryptoTradeable": false,
-    "regularMarketChangePercent": -0.40485832,
-    "regularMarketPrice": 246.0,
+    "nameChangeDate": "2026-05-31",
     "trailingPegRatio": null
   }
 }

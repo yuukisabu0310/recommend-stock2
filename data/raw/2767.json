@@ -1,7 +1,7 @@
 {
   "ticker": "2767",
   "japanese_ticker": "2767.T",
-  "fetch_date": "2026-05-31T00:07:06.235167",
+  "fetch_date": "2026-06-01T00:12:39.817706",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": -65314000.0,
@@ -113,7 +113,7 @@
     },
     "Diluted Average Shares": {
       "2025-03-31 00:00:00": 62572903.0,
-      "2024-03-31 00:00:00": 65584343.0,
+      "2024-03-31 00:00:00": 65589688.0,
       "2023-03-31 00:00:00": 65380945.0,
       "2022-03-31 00:00:00": 64872670.0
     },
@@ -1147,8 +1147,8 @@
     "averageVolume": 456751,
     "averageVolume10days": 520350,
     "averageDailyVolume10Day": 520350,
-    "bid": 1382.0,
-    "ask": 1385.0,
+    "bid": 1399.0,
+    "ask": 1386.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 86095126528,
@@ -1166,7 +1166,7 @@
     "tradeable": false,
     "enterpriseValue": 69273845760,
     "profitMargins": 0.074939996,
-    "floatShares": 32564501,
+    "floatShares": 32569481,
     "sharesOutstanding": 62252445,
     "heldPercentInsiders": 0.45187,
     "heldPercentInstitutions": 0.21294,
@@ -1221,13 +1221,7 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "regularMarketChangePercent": 1.8409425,
-    "regularMarketPrice": 1383.0,
-    "shortName": "TSUBURAYA FIELDS HOLDINGS INC",
-    "longName": "Tsuburaya Fields Holdings Inc.",
-    "marketState": "CLOSED",
-    "corporateActions": [],
-    "regularMarketTime": 1780036200,
+    "marketState": "REGULAR",
     "exchange": "JPX",
     "messageBoardId": "finmb_9860909",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1259,8 +1253,14 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "prevName": "Fields Corporation",
-    "nameChangeDate": "2026-05-30",
+    "nameChangeDate": "2026-05-31",
     "cryptoTradeable": false,
+    "regularMarketChangePercent": 1.8409425,
+    "regularMarketPrice": 1383.0,
+    "shortName": "TSUBURAYA FIELDS HOLDINGS INC",
+    "longName": "Tsuburaya Fields Holdings Inc.",
+    "corporateActions": [],
+    "regularMarketTime": 1780036200,
     "trailingPegRatio": null
   }
 }

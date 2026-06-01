@@ -1,7 +1,7 @@
 {
   "ticker": "2722",
   "japanese_ticker": "2722.T",
-  "fetch_date": "2026-05-31T00:06:26.928459",
+  "fetch_date": "2026-06-01T00:11:58.777253",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-05-31 00:00:00": 33703591.057874,
@@ -276,7 +276,7 @@
       "2022-05-31 00:00:00": 7673624.0
     },
     "Share Issued": {
-      "2025-05-31 00:00:00": 7537524.0,
+      "2025-05-31 00:00:00": 8308000.0,
       "2024-05-31 00:00:00": 8308000.0,
       "2023-05-31 00:00:00": 8308000.0,
       "2022-05-31 00:00:00": 8308000.0
@@ -1029,8 +1029,8 @@
     "averageVolume": 17128,
     "averageVolume10days": 35010,
     "averageDailyVolume10Day": 35010,
-    "bid": 372.0,
-    "ask": 375.0,
+    "bid": 0.0,
+    "ask": 373.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 2820631296,
@@ -1098,14 +1098,20 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "marketState": "CLOSED",
+    "marketState": "REGULAR",
     "regularMarketChangePercent": 0.26881722,
     "regularMarketPrice": 373.0,
+    "exchange": "JPX",
+    "messageBoardId": "finmb_10947975",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
     "corporateActions": [],
     "regularMarketTime": 1780036200,
-    "esgPopulated": false,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1007424000000,
+    "shortName": "IK HOLDINGS CO LTD",
+    "longName": "IK HOLDINGS Co.,Ltd.",
     "regularMarketChange": 1.0,
     "regularMarketDayRange": "371.0 - 375.0",
     "fullExchangeName": "Tokyo",
@@ -1128,16 +1134,10 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "prevName": "I.K Co.,Ltd.",
-    "nameChangeDate": "2026-05-30",
+    "nameChangeDate": "2026-05-31",
     "cryptoTradeable": false,
-    "exchange": "JPX",
-    "messageBoardId": "finmb_10947975",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "shortName": "IK HOLDINGS CO LTD",
-    "longName": "IK HOLDINGS Co.,Ltd.",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1007424000000,
     "trailingPegRatio": null
   }
 }

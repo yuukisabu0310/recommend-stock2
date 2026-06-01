@@ -1,7 +1,7 @@
 {
   "ticker": "1822",
   "japanese_ticker": "1822.T",
-  "fetch_date": "2026-05-30T23:56:51.843782",
+  "fetch_date": "2026-06-01T00:01:41.980110",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": 23247000.0,
@@ -1027,8 +1027,8 @@
     "averageVolume": 198575,
     "averageVolume10days": 140490,
     "averageDailyVolume10Day": 140490,
-    "bid": 741.0,
-    "ask": 744.0,
+    "bid": 745.0,
+    "ask": 741.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 65530388480,
@@ -1098,9 +1098,12 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "marketState": "REGULAR",
     "regularMarketChangePercent": -0.40268457,
     "regularMarketPrice": 742.0,
-    "marketState": "CLOSED",
+    "corporateActions": [],
+    "regularMarketTime": 1780036200,
+    "exchange": "JPX",
     "messageBoardId": "finmb_874910",
     "exchangeTimezoneName": "Asia/Tokyo",
     "exchangeTimezoneShortName": "JST",
@@ -1108,8 +1111,7 @@
     "market": "jp_market",
     "esgPopulated": false,
     "shortName": "DAIHO CORPORATION",
-    "twoHundredDayAverageChange": -57.200012,
-    "twoHundredDayAverageChangePercent": -0.07157159,
+    "longName": "Daiho Corporation",
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
@@ -1132,10 +1134,8 @@
     "epsForward": 198.9,
     "fiftyDayAverageChange": -18.059998,
     "fiftyDayAverageChangePercent": -0.023761278,
-    "corporateActions": [],
-    "regularMarketTime": 1780036200,
-    "exchange": "JPX",
-    "longName": "Daiho Corporation",
+    "twoHundredDayAverageChange": -57.200012,
+    "twoHundredDayAverageChangePercent": -0.07157159,
     "trailingPegRatio": null
   }
 }

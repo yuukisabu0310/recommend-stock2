@@ -1,7 +1,7 @@
 {
   "ticker": "2668",
   "japanese_ticker": "2668.T",
-  "fetch_date": "2026-05-31T00:05:42.096591",
+  "fetch_date": "2026-06-01T00:11:12.253204",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-02-28 00:00:00": -35965325.0,
@@ -125,14 +125,14 @@
     "Diluted Average Shares": {
       "2026-02-28 00:00:00": null,
       "2025-02-28 00:00:00": 6788000.0,
-      "2024-02-29 00:00:00": 6796351.0,
+      "2024-02-29 00:00:00": 6796825.0,
       "2023-02-28 00:00:00": 6800886.0,
       "2022-02-28 00:00:00": 6802000.0
     },
     "Basic Average Shares": {
       "2026-02-28 00:00:00": null,
       "2025-02-28 00:00:00": 6788000.0,
-      "2024-02-29 00:00:00": 6796351.0,
+      "2024-02-29 00:00:00": 6796825.0,
       "2023-02-28 00:00:00": 6800886.0,
       "2022-02-28 00:00:00": 6802000.0
     },
@@ -1107,7 +1107,7 @@
     "averageVolume": 1393,
     "averageVolume10days": 1170,
     "averageDailyVolume10Day": 1170,
-    "bid": 1255.0,
+    "bid": 0.0,
     "ask": 1270.0,
     "bidSize": 0,
     "askSize": 0,
@@ -1175,7 +1175,6 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "marketState": "CLOSED",
     "corporateActions": [],
     "regularMarketTime": 1780036200,
     "exchange": "JPX",
@@ -1185,7 +1184,14 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
+    "regularMarketChangePercent": 1.5187849,
+    "regularMarketPrice": 1270.0,
+    "marketState": "REGULAR",
     "cryptoTradeable": false,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 970790400000,
+    "regularMarketChange": 19.0,
+    "regularMarketDayRange": "1256.0 - 1271.0",
     "fullExchangeName": "Tokyo",
     "averageDailyVolume3Month": 1393,
     "fiftyTwoWeekLowChange": 90.0,
@@ -1204,12 +1210,6 @@
     "twoHundredDayAverageChangePercent": 0.011476704,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 970790400000,
-    "regularMarketChange": 19.0,
-    "regularMarketDayRange": "1256.0 - 1271.0",
-    "regularMarketChangePercent": 1.5187849,
-    "regularMarketPrice": 1270.0,
     "shortName": "TABIO CORPORATION",
     "longName": "Tabio Corporation",
     "trailingPegRatio": null

@@ -1,7 +1,7 @@
 {
   "ticker": "2792",
   "japanese_ticker": "2792.T",
-  "fetch_date": "2026-05-31T00:07:30.877027",
+  "fetch_date": "2026-06-01T00:13:03.807193",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-05-31 00:00:00": -115347683.0,
@@ -896,8 +896,8 @@
     "averageVolume": 102893,
     "averageVolume10days": 160320,
     "averageDailyVolume10Day": 160320,
-    "bid": 1429.0,
-    "ask": 1431.0,
+    "bid": 1460.0,
+    "ask": 1461.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 39837372416,
@@ -962,7 +962,7 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "marketState": "CLOSED",
+    "marketState": "REGULAR",
     "corporateActions": [],
     "regularMarketTime": 1780036200,
     "exchange": "JPX",
@@ -972,6 +972,8 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
+    "regularMarketChangePercent": -1.9217571,
+    "regularMarketPrice": 1429.0,
     "shortName": "HONEYS HOLDINGS CO LTD",
     "longName": "Honeys Holdings Co., Ltd.",
     "hasPrePostMarketData": false,
@@ -998,8 +1000,6 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
-    "regularMarketChangePercent": -1.9217571,
-    "regularMarketPrice": 1429.0,
     "trailingPegRatio": null
   }
 }

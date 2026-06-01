@@ -1,7 +1,7 @@
 {
   "ticker": "1850",
   "japanese_ticker": "1850.T",
-  "fetch_date": "2026-05-30T23:57:11.877833",
+  "fetch_date": "2026-06-01T00:02:05.607294",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": null,
@@ -132,7 +132,7 @@
     "Basic Average Shares": {
       "2026-03-31 00:00:00": null,
       "2025-03-31 00:00:00": 28827648.0,
-      "2024-03-31 00:00:00": 28818444.0,
+      "2024-03-31 00:00:00": 28827686.0,
       "2023-03-31 00:00:00": 28827748.0,
       "2022-03-31 00:00:00": 28827922.0
     },
@@ -299,7 +299,7 @@
       "2022-03-31 00:00:00": 7000.0
     },
     "Ordinary Shares Number": {
-      "2025-03-31 00:00:00": 28827671.0,
+      "2025-03-31 00:00:00": 28827599.0,
       "2024-03-31 00:00:00": 28827684.0,
       "2023-03-31 00:00:00": 28827730.0,
       "2022-03-31 00:00:00": 28828730.0
@@ -1044,8 +1044,8 @@
     "averageVolume": 89515,
     "averageVolume10days": 62720,
     "averageDailyVolume10Day": 62720,
-    "bid": 410.0,
-    "ask": 412.0,
+    "bid": 0.0,
+    "ask": 411.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 11491292160,
@@ -1114,9 +1114,6 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "marketState": "CLOSED",
-    "shortName": "NANKAI TATSUMURA CONSTRUCTION C",
-    "longName": "Nankai Tatsumura Construction Co., Ltd.",
     "corporateActions": [],
     "regularMarketTime": 1780036200,
     "exchange": "JPX",
@@ -1126,8 +1123,17 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
+    "shortName": "NANKAI TATSUMURA CONSTRUCTION C",
+    "longName": "Nankai Tatsumura Construction Co., Ltd.",
     "regularMarketChangePercent": -1.4423077,
     "regularMarketPrice": 410.0,
+    "cryptoTradeable": false,
+    "marketState": "REGULAR",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 954806400000,
+    "regularMarketChange": -6.0,
+    "regularMarketDayRange": "410.0 - 417.0",
+    "fullExchangeName": "Tokyo",
     "averageDailyVolume3Month": 89515,
     "fiftyTwoWeekLowChange": 107.0,
     "fiftyTwoWeekLowChangePercent": 0.35313532,
@@ -1145,12 +1151,6 @@
     "twoHundredDayAverageChangePercent": -0.2162785,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 954806400000,
-    "regularMarketChange": -6.0,
-    "regularMarketDayRange": "410.0 - 417.0",
-    "fullExchangeName": "Tokyo",
     "trailingPegRatio": null
   }
 }

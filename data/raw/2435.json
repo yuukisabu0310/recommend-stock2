@@ -1,7 +1,7 @@
 {
   "ticker": "2435",
   "japanese_ticker": "2435.T",
-  "fetch_date": "2026-05-31T00:03:49.585907",
+  "fetch_date": "2026-06-01T00:09:14.037585",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": -17476000.0,
@@ -264,7 +264,7 @@
   },
   "balance_sheet": {
     "Treasury Shares Number": {
-      "2025-03-31 00:00:00": null,
+      "2025-03-31 00:00:00": 254037.0,
       "2024-03-31 00:00:00": 254037.0,
       "2023-03-31 00:00:00": 254037.0,
       "2022-03-31 00:00:00": 254937.0
@@ -276,7 +276,7 @@
       "2022-03-31 00:00:00": 11221063.0
     },
     "Share Issued": {
-      "2025-03-31 00:00:00": 11221963.0,
+      "2025-03-31 00:00:00": 11476000.0,
       "2024-03-31 00:00:00": 11476000.0,
       "2023-03-31 00:00:00": 11476000.0,
       "2022-03-31 00:00:00": 11476000.0
@@ -947,8 +947,8 @@
     "averageVolume": 171093,
     "averageVolume10days": 15140,
     "averageDailyVolume10Day": 15140,
-    "bid": 211.0,
-    "ask": 212.0,
+    "bid": 0.0,
+    "ask": 213.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 2379056128,
@@ -1017,6 +1017,11 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "shortName": "CEDAR. CO LTD",
+    "longName": "CEDAR.Co.,Ltd.",
+    "cryptoTradeable": false,
+    "corporateActions": [],
+    "regularMarketTime": 1780036200,
     "exchange": "JPX",
     "messageBoardId": "finmb_21811706",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1026,11 +1031,8 @@
     "esgPopulated": false,
     "regularMarketChangePercent": 0.952381,
     "regularMarketPrice": 212.0,
-    "marketState": "CLOSED",
-    "longName": "CEDAR.Co.,Ltd.",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1111017600000,
-    "shortName": "CEDAR. CO LTD",
     "regularMarketChange": 2.0,
     "regularMarketDayRange": "210.0 - 212.0",
     "fullExchangeName": "Tokyo",
@@ -1051,9 +1053,7 @@
     "twoHundredDayAverageChangePercent": -0.029237332,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
-    "corporateActions": [],
-    "regularMarketTime": 1780036200,
-    "cryptoTradeable": false,
+    "marketState": "REGULAR",
     "trailingPegRatio": null
   }
 }

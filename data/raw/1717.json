@@ -1,7 +1,7 @@
 {
   "ticker": "1717",
   "japanese_ticker": "1717.T",
-  "fetch_date": "2026-05-30T23:55:41.826401",
+  "fetch_date": "2026-06-01T00:00:25.634109",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": -146527.2,
@@ -246,7 +246,7 @@
   },
   "balance_sheet": {
     "Treasury Shares Number": {
-      "2025-03-31 00:00:00": null,
+      "2025-03-31 00:00:00": 1105228.0,
       "2024-03-31 00:00:00": 1177199.0,
       "2023-03-31 00:00:00": 1247340.0,
       "2022-03-31 00:00:00": 1281903.0
@@ -919,8 +919,8 @@
     "averageVolume": 26960,
     "averageVolume10days": 27340,
     "averageDailyVolume10Day": 27340,
-    "bid": 906.0,
-    "ask": 910.0,
+    "bid": 0.0,
+    "ask": 920.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 10665101312,
@@ -989,12 +989,20 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "marketState": "CLOSED",
+    "marketState": "REGULAR",
     "regularMarketChangePercent": -0.32967034,
     "regularMarketPrice": 907.0,
     "corporateActions": [],
     "regularMarketTime": 1780036200,
+    "messageBoardId": "finmb_8815681",
+    "exchange": "JPX",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
     "esgPopulated": false,
+    "longName": "Meiho Facility Works Ltd.",
+    "shortName": "MEIHO FACILITY WORKS",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1077148800000,
     "regularMarketChange": -3.0,
@@ -1019,14 +1027,6 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
-    "exchange": "JPX",
-    "messageBoardId": "finmb_8815681",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "shortName": "MEIHO FACILITY WORKS",
-    "longName": "Meiho Facility Works Ltd.",
     "trailingPegRatio": null
   }
 }

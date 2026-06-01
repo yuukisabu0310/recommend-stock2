@@ -1,7 +1,7 @@
 {
   "ticker": "2354",
   "japanese_ticker": "2354.T",
-  "fetch_date": "2026-05-31T00:02:50.361035",
+  "fetch_date": "2026-06-01T00:08:13.316216",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-02-28 00:00:00": 4647178.0,
@@ -132,7 +132,7 @@
     "Basic Average Shares": {
       "2026-02-28 00:00:00": null,
       "2025-02-28 00:00:00": 18275000.0,
-      "2024-02-29 00:00:00": 18135536.0,
+      "2024-02-29 00:00:00": 18135445.0,
       "2023-02-28 00:00:00": 18133460.0,
       "2022-02-28 00:00:00": 18126000.0
     },
@@ -308,14 +308,14 @@
   "balance_sheet": {
     "Treasury Shares Number": {
       "2026-02-28 00:00:00": 500315.0,
-      "2025-02-28 00:00:00": null,
+      "2025-02-28 00:00:00": 315.0,
       "2024-02-29 00:00:00": 355.0,
       "2023-02-28 00:00:00": 355.0,
-      "2022-02-28 00:00:00": 355.0
+      "2022-02-28 00:00:00": null
     },
     "Ordinary Shares Number": {
       "2026-02-28 00:00:00": 17825985.0,
-      "2025-02-28 00:00:00": 18319081.0,
+      "2025-02-28 00:00:00": 18319085.0,
       "2024-02-29 00:00:00": 18135445.0,
       "2023-02-28 00:00:00": 18135445.0,
       "2022-02-28 00:00:00": null
@@ -1096,8 +1096,8 @@
     "averageVolume": 178081,
     "averageVolume10days": 246770,
     "averageDailyVolume10Day": 246770,
-    "bid": 985.0,
-    "ask": 987.0,
+    "bid": 0.0,
+    "ask": 991.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 17576419328,
@@ -1163,16 +1163,9 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "regularMarketChangePercent": 1.1282051,
-    "regularMarketPrice": 986.0,
-    "marketState": "CLOSED",
-    "messageBoardId": "finmb_8378370",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
-    "shortName": "YE DIGITAL CORPORATION",
+    "epsTrailingTwelveMonths": 67.34,
+    "fiftyDayAverageChange": 91.29999,
+    "fiftyDayAverageChangePercent": 0.102045365,
     "twoHundredDayAverageChange": 213.63501,
     "twoHundredDayAverageChangePercent": 0.2765985,
     "sourceInterval": 15,
@@ -1193,13 +1186,20 @@
     "earningsTimestampStart": 1743404400,
     "earningsTimestampEnd": 1743404400,
     "isEarningsDateEstimate": false,
-    "epsTrailingTwelveMonths": 67.34,
-    "fiftyDayAverageChange": 91.29999,
-    "fiftyDayAverageChangePercent": 0.102045365,
+    "shortName": "YE DIGITAL CORPORATION",
+    "longName": "YE DIGITAL Corporation",
+    "marketState": "REGULAR",
     "corporateActions": [],
     "regularMarketTime": 1780036200,
     "exchange": "JPX",
-    "longName": "YE DIGITAL Corporation",
+    "messageBoardId": "finmb_8378370",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
+    "regularMarketChangePercent": 1.1282051,
+    "regularMarketPrice": 986.0,
     "trailingPegRatio": null
   }
 }

@@ -1,7 +1,7 @@
 {
   "ticker": "2301",
   "japanese_ticker": "2301.T",
-  "fetch_date": "2026-05-31T00:01:55.526545",
+  "fetch_date": "2026-06-01T00:07:14.856690",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-10-31 00:00:00": 38879890.0,
@@ -124,7 +124,7 @@
     },
     "Diluted Average Shares": {
       "2025-10-31 00:00:00": null,
-      "2024-10-31 00:00:00": null,
+      "2024-10-31 00:00:00": 13889959.0,
       "2023-10-31 00:00:00": 13969081.0,
       "2022-10-31 00:00:00": 14093906.0,
       "2021-10-31 00:00:00": 14259819.0
@@ -138,7 +138,7 @@
     },
     "Diluted EPS": {
       "2025-10-31 00:00:00": null,
-      "2024-10-31 00:00:00": null,
+      "2024-10-31 00:00:00": 160.54,
       "2023-10-31 00:00:00": 125.52,
       "2022-10-31 00:00:00": 99.11,
       "2021-10-31 00:00:00": 97.01
@@ -1041,7 +1041,7 @@
     "averageVolume": 131788,
     "averageVolume10days": 74570,
     "averageDailyVolume10Day": 74570,
-    "bid": 1595.0,
+    "bid": 1597.0,
     "ask": 1597.0,
     "bidSize": 0,
     "askSize": 0,
@@ -1107,11 +1107,8 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "shortName": "GAKUJO CO LTD",
-    "corporateActions": [],
-    "regularMarketTime": 1780036200,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1126828800000,
+    "longName": "Gakujo Co., Ltd.",
+    "marketState": "REGULAR",
     "regularMarketChange": 21.0,
     "regularMarketDayRange": "1584.0 - 1615.0",
     "fullExchangeName": "Tokyo",
@@ -1127,14 +1124,6 @@
     "isEarningsDateEstimate": false,
     "epsTrailingTwelveMonths": 139.81,
     "epsForward": 160.8,
-    "marketState": "CLOSED",
-    "exchange": "JPX",
-    "messageBoardId": "finmb_9275254",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
     "fiftyDayAverageChange": -25.819946,
     "fiftyDayAverageChangePercent": -0.015920354,
     "twoHundredDayAverageChange": -125.32495,
@@ -1142,9 +1131,20 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
-    "longName": "Gakujo Co., Ltd.",
+    "corporateActions": [],
+    "regularMarketTime": 1780036200,
+    "exchange": "JPX",
+    "messageBoardId": "finmb_9275254",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "shortName": "GAKUJO CO LTD",
+    "esgPopulated": false,
     "regularMarketChangePercent": 1.3333334,
     "regularMarketPrice": 1596.0,
+    "firstTradeDateMilliseconds": 1126828800000,
+    "hasPrePostMarketData": false,
     "trailingPegRatio": null
   }
 }

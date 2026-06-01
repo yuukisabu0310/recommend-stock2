@@ -1,7 +1,7 @@
 {
   "ticker": "1802",
   "japanese_ticker": "1802.T",
-  "fetch_date": "2026-05-30T23:56:31.895656",
+  "fetch_date": "2026-06-01T00:01:18.942081",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": 16548133000.0,
@@ -448,6 +448,12 @@
       "2024-03-31 00:00:00": 1433517000000.0,
       "2023-03-31 00:00:00": 1226434000000.0,
       "2022-03-31 00:00:00": 1128602000000.0
+    },
+    "Other Current Liabilities": {
+      "2025-03-31 00:00:00": 402324000000.0,
+      "2024-03-31 00:00:00": 430155000000.0,
+      "2023-03-31 00:00:00": 400931000000.0,
+      "2022-03-31 00:00:00": 347204000000.0
     },
     "Current Debt And Capital Lease Obligation": {
       "2025-03-31 00:00:00": 109737000000.0,
@@ -1048,8 +1054,8 @@
     "averageVolume": 2934490,
     "averageVolume10days": 3658310,
     "averageDailyVolume10Day": 3658310,
-    "bid": 3244.0,
-    "ask": 3247.0,
+    "bid": 3170.0,
+    "ask": 3171.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 2230682910720,
@@ -1121,9 +1127,14 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "regularMarketChangePercent": -3.4800713,
-    "regularMarketPrice": 3245.0,
-    "marketState": "CLOSED",
+    "fiftyDayAverageChange": -412.12012,
+    "fiftyDayAverageChangePercent": -0.11268979,
+    "twoHundredDayAverageChange": -1.3125,
+    "twoHundredDayAverageChangePercent": -0.00040430488,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "averageAnalystRating": "1.6 - Buy",
+    "cryptoTradeable": false,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 946944000000,
     "regularMarketChange": -117.0,
@@ -1144,15 +1155,6 @@
     "isEarningsDateEstimate": true,
     "epsTrailingTwelveMonths": 249.54,
     "epsForward": 137.96,
-    "shortName": "OBAYASHI CORP",
-    "fiftyDayAverageChange": -412.12012,
-    "fiftyDayAverageChangePercent": -0.11268979,
-    "twoHundredDayAverageChange": -1.3125,
-    "twoHundredDayAverageChangePercent": -0.00040430488,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "averageAnalystRating": "1.6 - Buy",
-    "cryptoTradeable": false,
     "corporateActions": [],
     "regularMarketTime": 1780036200,
     "exchange": "JPX",
@@ -1162,6 +1164,10 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
+    "marketState": "REGULAR",
+    "regularMarketChangePercent": -3.4800713,
+    "regularMarketPrice": 3245.0,
+    "shortName": "OBAYASHI CORP",
     "longName": "Obayashi Corporation",
     "trailingPegRatio": null
   }

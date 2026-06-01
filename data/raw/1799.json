@@ -1,7 +1,7 @@
 {
   "ticker": "1799",
   "japanese_ticker": "1799.T",
-  "fetch_date": "2026-05-30T23:56:28.159868",
+  "fetch_date": "2026-06-01T00:01:14.986441",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": -19655836.648679,
@@ -113,7 +113,7 @@
     },
     "Basic Average Shares": {
       "2025-03-31 00:00:00": 18858564.0,
-      "2024-03-31 00:00:00": 19496781.0,
+      "2024-03-31 00:00:00": 19495960.0,
       "2023-03-31 00:00:00": 19944038.0,
       "2022-03-31 00:00:00": 20322000.0
     },
@@ -300,19 +300,19 @@
   },
   "balance_sheet": {
     "Treasury Shares Number": {
-      "2025-03-31 00:00:00": null,
+      "2025-03-31 00:00:00": 2092427.0,
       "2024-03-31 00:00:00": 1395723.0,
       "2023-03-31 00:00:00": 1270989.0,
       "2022-03-31 00:00:00": 547177.0
     },
     "Ordinary Shares Number": {
-      "2025-03-31 00:00:00": 18761968.0,
+      "2025-03-31 00:00:00": 18766064.0,
       "2024-03-31 00:00:00": 19462768.0,
       "2023-03-31 00:00:00": 19587502.0,
       "2022-03-31 00:00:00": 20311314.0
     },
     "Share Issued": {
-      "2025-03-31 00:00:00": 18761968.0,
+      "2025-03-31 00:00:00": 20858491.0,
       "2024-03-31 00:00:00": 20858491.0,
       "2023-03-31 00:00:00": 20858491.0,
       "2022-03-31 00:00:00": 20858491.0
@@ -1044,8 +1044,8 @@
     "averageVolume": 32758,
     "averageVolume10days": 46780,
     "averageDailyVolume10Day": 46780,
-    "bid": 3270.0,
-    "ask": 3330.0,
+    "bid": 3445.0,
+    "ask": 3445.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 57972174848,
@@ -1063,7 +1063,7 @@
     "tradeable": false,
     "enterpriseValue": 59570749440,
     "profitMargins": 0.04704,
-    "floatShares": 10984616,
+    "floatShares": 10150710,
     "sharesOutstanding": 17701427,
     "heldPercentInsiders": 0.42523,
     "heldPercentInstitutions": 0.059120003,
@@ -1113,18 +1113,6 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "shortName": "DAIICHI KENSETSU CORP",
-    "corporateActions": [],
-    "regularMarketTime": 1780036200,
-    "exchange": "JPX",
-    "messageBoardId": "finmb_880783",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
-    "regularMarketChangePercent": 0.6144393,
-    "regularMarketPrice": 3275.0,
     "fiftyDayAverageChange": -408.3999,
     "fiftyDayAverageChangePercent": -0.1108758,
     "twoHundredDayAverageChange": -356.75,
@@ -1132,6 +1120,8 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 946944000000,
     "regularMarketChange": 20.0,
     "regularMarketDayRange": "3210.0 - 3340.0",
     "fullExchangeName": "Tokyo",
@@ -1147,9 +1137,19 @@
     "isEarningsDateEstimate": false,
     "epsTrailingTwelveMonths": 293.11,
     "epsForward": 189.4,
-    "marketState": "CLOSED",
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 946944000000,
+    "corporateActions": [],
+    "regularMarketTime": 1780036200,
+    "exchange": "JPX",
+    "messageBoardId": "finmb_880783",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
+    "marketState": "REGULAR",
+    "regularMarketChangePercent": 0.6144393,
+    "regularMarketPrice": 3275.0,
+    "shortName": "DAIICHI KENSETSU CORP",
     "longName": "Daiichi Kensetsu Corporation",
     "trailingPegRatio": null
   }

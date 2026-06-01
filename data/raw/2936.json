@@ -1,7 +1,7 @@
 {
   "ticker": "2936",
   "japanese_ticker": "2936.T",
-  "fetch_date": "2026-05-31T00:09:18.989675",
+  "fetch_date": "2026-06-01T00:14:58.788955",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-02-28 00:00:00": null,
@@ -1015,8 +1015,8 @@
     "averageVolume": 44528,
     "averageVolume10days": 38590,
     "averageDailyVolume10Day": 38590,
-    "bid": 301.0,
-    "ask": 303.0,
+    "bid": 0.0,
+    "ask": 304.0,
     "marketCap": 16125006848,
     "nonDilutedMarketCap": 16125007630,
     "fiftyTwoWeekLow": 295.0,
@@ -1079,12 +1079,8 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "marketState": "CLOSED",
     "corporateActions": [],
     "regularMarketTime": 1780036200,
-    "shortName": "BASE FOOD INC",
-    "regularMarketChangePercent": 0.33222592,
-    "regularMarketPrice": 302.0,
     "exchange": "JPX",
     "messageBoardId": "finmb_542019003",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1092,6 +1088,10 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
+    "regularMarketChangePercent": 0.33222592,
+    "regularMarketPrice": 302.0,
+    "marketState": "REGULAR",
+    "cryptoTradeable": false,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1668470400000,
     "regularMarketChange": 1.0,
@@ -1114,7 +1114,7 @@
     "twoHundredDayAverageChangePercent": -0.16932555,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
+    "shortName": "BASE FOOD INC",
     "longName": "BASE FOOD Inc.",
     "trailingPegRatio": null
   }

@@ -1,7 +1,7 @@
 {
   "ticker": "2590",
   "japanese_ticker": "2590.T",
-  "fetch_date": "2026-05-31T00:05:11.179545",
+  "fetch_date": "2026-06-01T00:10:39.433098",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-01-31 00:00:00": -11819200000.0,
@@ -1263,8 +1263,8 @@
     "averageVolume": 140213,
     "averageVolume10days": 156880,
     "averageDailyVolume10Day": 156880,
-    "bid": 2677.0,
-    "ask": 2687.0,
+    "bid": 2690.0,
+    "ask": 0.0,
     "marketCap": 85048082432,
     "nonDilutedMarketCap": 85048086991,
     "fiftyTwoWeekLow": 2400.0,
@@ -1334,7 +1334,6 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "marketState": "CLOSED",
     "corporateActions": [],
     "regularMarketTime": 1780036200,
     "exchange": "JPX",
@@ -1346,6 +1345,10 @@
     "esgPopulated": false,
     "shortName": "DYDO GROUP HOLDINGS INC",
     "longName": "DyDo Group Holdings, Inc.",
+    "regularMarketChangePercent": 2.5219717,
+    "regularMarketPrice": 2683.0,
+    "cryptoTradeable": false,
+    "marketState": "REGULAR",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 997315200000,
     "regularMarketChange": 66.0,
@@ -1370,9 +1373,6 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "averageAnalystRating": "4.0 - Underperform",
-    "cryptoTradeable": false,
-    "regularMarketChangePercent": 2.5219717,
-    "regularMarketPrice": 2683.0,
     "trailingPegRatio": null
   }
 }

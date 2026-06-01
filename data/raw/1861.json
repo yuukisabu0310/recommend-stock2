@@ -1,7 +1,7 @@
 {
   "ticker": "1861",
   "japanese_ticker": "1861.T",
-  "fetch_date": "2026-05-30T23:57:19.310051",
+  "fetch_date": "2026-06-01T00:02:14.198520",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": null,
@@ -1087,8 +1087,8 @@
     "averageVolume": 990173,
     "averageVolume10days": 1031350,
     "averageDailyVolume10Day": 1031350,
-    "bid": 1429.0,
-    "ask": 1443.0,
+    "bid": 1423.0,
+    "ask": 1424.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 242982076416,
@@ -1165,6 +1165,7 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "regularMarketTime": 1780036200,
     "exchange": "JPX",
     "messageBoardId": "finmb_874274",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1172,13 +1173,9 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "regularMarketChangePercent": 0.0,
-    "regularMarketPrice": 1430.0,
-    "marketState": "CLOSED",
-    "longName": "Kumagai Gumi Co.,Ltd.",
+    "corporateActions": [],
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 946944000000,
-    "shortName": "KUMAGAI GUMI CO",
     "regularMarketChange": 0.0,
     "regularMarketDayRange": "1419.0 - 1451.0",
     "fullExchangeName": "Tokyo",
@@ -1204,9 +1201,12 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "averageAnalystRating": "1.8 - Buy",
-    "corporateActions": [],
-    "regularMarketTime": 1780036200,
     "cryptoTradeable": false,
+    "shortName": "KUMAGAI GUMI CO",
+    "longName": "Kumagai Gumi Co.,Ltd.",
+    "marketState": "REGULAR",
+    "regularMarketChangePercent": 0.0,
+    "regularMarketPrice": 1430.0,
     "trailingPegRatio": null
   }
 }

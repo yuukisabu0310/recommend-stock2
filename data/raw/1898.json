@@ -1,7 +1,7 @@
 {
   "ticker": "1898",
   "japanese_ticker": "1898.T",
-  "fetch_date": "2026-05-30T23:57:45.750098",
+  "fetch_date": "2026-06-01T00:02:43.236153",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": -105937000.0,
@@ -980,8 +980,8 @@
     "averageVolume": 148333,
     "averageVolume10days": 173570,
     "averageDailyVolume10Day": 173570,
-    "bid": 1430.0,
-    "ask": 1435.0,
+    "bid": 1441.0,
+    "ask": 1450.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 52420661248,
@@ -1051,7 +1051,7 @@
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
     "regularMarketChangePercent": 0.06993007,
-    "regularMarketPrice": 1431.0,
+    "marketState": "REGULAR",
     "shortName": "SEIKITOKYU KOGYO CO",
     "longName": "Seikitokyu Kogyo Co., Ltd.",
     "corporateActions": [],
@@ -1063,8 +1063,7 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 978307200000,
+    "regularMarketPrice": 1431.0,
     "regularMarketChange": 1.0,
     "regularMarketDayRange": "1424.0 - 1440.0",
     "fullExchangeName": "Tokyo",
@@ -1086,7 +1085,8 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
-    "marketState": "CLOSED",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 978307200000,
     "trailingPegRatio": null
   }
 }

@@ -1,7 +1,7 @@
 {
   "ticker": "2215",
   "japanese_ticker": "2215.T",
-  "fetch_date": "2026-05-31T00:01:07.119406",
+  "fetch_date": "2026-06-01T00:06:21.007936",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-12-31 00:00:00": -16074000.0,
@@ -138,7 +138,7 @@
     },
     "Diluted EPS": {
       "2025-12-31 00:00:00": null,
-      "2024-12-31 00:00:00": null,
+      "2024-12-31 00:00:00": 296.82,
       "2023-12-31 00:00:00": 68.51,
       "2022-12-31 00:00:00": -165.5,
       "2021-12-31 00:00:00": -106.83
@@ -1103,8 +1103,8 @@
     "averageVolume": 12011,
     "averageVolume10days": 14260,
     "averageDailyVolume10Day": 14260,
-    "bid": 603.0,
-    "ask": 604.0,
+    "bid": 0.0,
+    "ask": 601.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 4174804736,
@@ -1168,18 +1168,20 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "marketState": "CLOSED",
+    "marketState": "REGULAR",
+    "regularMarketChangePercent": 0.0,
+    "regularMarketPrice": 603.0,
     "corporateActions": [],
     "regularMarketTime": 1780036200,
-    "exchange": "JPX",
     "messageBoardId": "finmb_880519",
+    "exchange": "JPX",
     "exchangeTimezoneName": "Asia/Tokyo",
     "exchangeTimezoneShortName": "JST",
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "shortName": "FIRST BAKING CO",
     "longName": "First Baking Co., Ltd.",
+    "shortName": "FIRST BAKING CO",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 978307200000,
     "regularMarketChange": 0.0,
@@ -1203,8 +1205,6 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
-    "regularMarketChangePercent": 0.0,
-    "regularMarketPrice": 603.0,
     "trailingPegRatio": null
   }
 }

@@ -1,7 +1,7 @@
 {
   "ticker": "2698",
   "japanese_ticker": "2698.T",
-  "fetch_date": "2026-05-31T00:06:15.703226",
+  "fetch_date": "2026-06-01T00:11:46.985623",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-02-28 00:00:00": -195200000.0,
@@ -124,7 +124,7 @@
     },
     "Diluted Average Shares": {
       "2026-02-28 00:00:00": 15999570.0,
-      "2025-02-28 00:00:00": 15991589.0,
+      "2025-02-28 00:00:00": 15996274.0,
       "2024-02-29 00:00:00": 15970772.0,
       "2022-11-30 00:00:00": 15971903.0,
       "2021-11-30 00:00:00": null
@@ -132,21 +132,21 @@
     "Basic Average Shares": {
       "2026-02-28 00:00:00": 15999570.0,
       "2025-02-28 00:00:00": 15996274.0,
-      "2024-02-29 00:00:00": 15982804.0,
+      "2024-02-29 00:00:00": 15970772.0,
       "2022-11-30 00:00:00": 15971903.0,
       "2021-11-30 00:00:00": null
     },
     "Diluted EPS": {
       "2026-02-28 00:00:00": 27.89,
       "2025-02-28 00:00:00": -15.83,
-      "2024-02-29 00:00:00": -72.98,
+      "2024-02-29 00:00:00": -28.74,
       "2022-11-30 00:00:00": -10.98,
       "2021-11-30 00:00:00": null
     },
     "Basic EPS": {
       "2026-02-28 00:00:00": 27.89,
       "2025-02-28 00:00:00": -15.83,
-      "2024-02-29 00:00:00": -72.98,
+      "2024-02-29 00:00:00": -28.74,
       "2022-11-30 00:00:00": -10.98,
       "2021-11-30 00:00:00": null
     },
@@ -1113,7 +1113,7 @@
     "averageVolume10days": 7920,
     "averageDailyVolume10Day": 7920,
     "bid": 3240.0,
-    "ask": 3280.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 51924004864,
@@ -1180,6 +1180,11 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "regularMarketTime": 1780036200,
+    "longName": "Can Do Co., Ltd.",
+    "marketState": "REGULAR",
+    "market": "jp_market",
+    "esgPopulated": false,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1070409600000,
     "regularMarketChange": 10.0,
@@ -1195,20 +1200,15 @@
     "earningsTimestampStart": 1752040800,
     "earningsTimestampEnd": 1752472800,
     "isEarningsDateEstimate": true,
-    "shortName": "CAN DO CO LTD",
-    "longName": "Can Do Co., Ltd.",
-    "marketState": "CLOSED",
-    "regularMarketChangePercent": 0.309119,
-    "regularMarketPrice": 3245.0,
-    "corporateActions": [],
-    "regularMarketTime": 1780036200,
     "exchange": "JPX",
     "messageBoardId": "finmb_5537194",
     "exchangeTimezoneName": "Asia/Tokyo",
     "exchangeTimezoneShortName": "JST",
     "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
+    "corporateActions": [],
+    "regularMarketChangePercent": 0.309119,
+    "regularMarketPrice": 3245.0,
+    "shortName": "CAN DO CO LTD",
     "epsTrailingTwelveMonths": 27.91,
     "fiftyDayAverageChange": -5.699951,
     "fiftyDayAverageChangePercent": -0.0017534535,

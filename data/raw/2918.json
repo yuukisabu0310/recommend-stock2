@@ -1,7 +1,7 @@
 {
   "ticker": "2918",
   "japanese_ticker": "2918.T",
-  "fetch_date": "2026-05-31T00:08:54.003214",
+  "fetch_date": "2026-06-01T00:14:32.509035",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-02-28 00:00:00": -133425000.0,
@@ -1178,8 +1178,8 @@
     "averageVolume": 130386,
     "averageVolume10days": 84760,
     "averageDailyVolume10Day": 84760,
-    "bid": 2640.0,
-    "ask": 2667.0,
+    "bid": 2723.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 46042931200,
@@ -1250,6 +1250,8 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "corporateActions": [],
+    "regularMarketTime": 1780036200,
     "exchange": "JPX",
     "messageBoardId": "finmb_883960",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1257,13 +1259,11 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "shortName": "WARABEYA NICHIYO HOLDINGS CO LT",
-    "corporateActions": [],
-    "regularMarketTime": 1780036200,
-    "marketState": "CLOSED",
     "regularMarketChangePercent": 1.4111365,
     "regularMarketPrice": 2659.0,
-    "longName": "Warabeya Nichiyo Holdings Co., Ltd.",
+    "shortName": "WARABEYA NICHIYO HOLDINGS CO LT",
+    "epsTrailingTwelveMonths": 307.38,
+    "epsForward": 200.4,
     "fiftyDayAverageChange": -176.17993,
     "fiftyDayAverageChangePercent": -0.06214065,
     "twoHundredDayAverageChange": -437.0349,
@@ -1286,8 +1286,8 @@
     "earningsTimestampStart": 1751868000,
     "earningsTimestampEnd": 1752213600,
     "isEarningsDateEstimate": true,
-    "epsTrailingTwelveMonths": 307.38,
-    "epsForward": 200.4,
+    "longName": "Warabeya Nichiyo Holdings Co., Ltd.",
+    "marketState": "REGULAR",
     "trailingPegRatio": null
   }
 }

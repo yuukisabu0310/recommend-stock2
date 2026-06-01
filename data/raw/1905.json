@@ -1,7 +1,7 @@
 {
   "ticker": "1905",
   "japanese_ticker": "1905.T",
-  "fetch_date": "2026-05-30T23:57:51.493930",
+  "fetch_date": "2026-06-01T00:02:49.771518",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": -7681473.8,
@@ -258,7 +258,7 @@
   },
   "balance_sheet": {
     "Treasury Shares Number": {
-      "2025-03-31 00:00:00": null,
+      "2025-03-31 00:00:00": 707354.0,
       "2024-03-31 00:00:00": 792750.0,
       "2023-03-31 00:00:00": 818204.0,
       "2022-03-31 00:00:00": 1004808.0
@@ -270,7 +270,7 @@
       "2022-03-31 00:00:00": 6689272.0
     },
     "Share Issued": {
-      "2025-03-31 00:00:00": 6640327.0,
+      "2025-03-31 00:00:00": 7347680.0,
       "2024-03-31 00:00:00": 7347680.0,
       "2023-03-31 00:00:00": 7347680.0,
       "2022-03-31 00:00:00": 7694080.0
@@ -1036,8 +1036,8 @@
     "averageVolume": 9146,
     "averageVolume10days": 11140,
     "averageDailyVolume10Day": 11140,
-    "bid": 1469.0,
-    "ask": 1480.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 9859364864,
@@ -1103,10 +1103,14 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
+    "marketState": "REGULAR",
+    "regularMarketChangePercent": 1.6494846,
+    "regularMarketPrice": 1479.0,
+    "shortName": "TENOX CORP",
     "longName": "Tenox Corporation",
-    "marketState": "CLOSED",
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 947030400000,
     "regularMarketChange": 24.0,
     "regularMarketDayRange": "1455.0 - 1482.0",
     "fullExchangeName": "Tokyo",
@@ -1125,9 +1129,6 @@
     "fiftyDayAverageChangePercent": 0.010466731,
     "twoHundredDayAverageChange": 84.70996,
     "twoHundredDayAverageChangePercent": 0.060754906,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
     "corporateActions": [],
     "regularMarketTime": 1780036200,
     "exchange": "JPX",
@@ -1137,9 +1138,8 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "shortName": "TENOX CORP",
-    "regularMarketChangePercent": 1.6494846,
-    "regularMarketPrice": 1479.0,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 947030400000,
     "trailingPegRatio": null
   }
 }

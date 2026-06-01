@@ -1,7 +1,7 @@
 {
   "ticker": "2130",
   "japanese_ticker": "2130.T",
-  "fetch_date": "2026-05-30T23:59:49.505468",
+  "fetch_date": "2026-06-01T00:04:56.304699",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": null,
@@ -12,7 +12,7 @@
     },
     "Tax Rate For Calcs": {
       "2026-03-31 00:00:00": null,
-      "2025-03-31 00:00:00": 0.260242,
+      "2025-03-31 00:00:00": 0.282,
       "2024-03-31 00:00:00": 0.13,
       "2023-03-31 00:00:00": 0.278971,
       "2022-03-31 00:00:00": 0.26
@@ -279,7 +279,7 @@
   },
   "balance_sheet": {
     "Treasury Shares Number": {
-      "2025-03-31 00:00:00": null,
+      "2025-03-31 00:00:00": 654871.0,
       "2024-03-31 00:00:00": 654512.0,
       "2023-03-31 00:00:00": 277518.0,
       "2022-03-31 00:00:00": 90124.0
@@ -291,7 +291,7 @@
       "2022-03-31 00:00:00": 13127776.0
     },
     "Share Issued": {
-      "2025-03-31 00:00:00": 12766829.0,
+      "2025-03-31 00:00:00": 13421700.0,
       "2024-03-31 00:00:00": 13421700.0,
       "2023-03-31 00:00:00": 13363700.0,
       "2022-03-31 00:00:00": 13217900.0
@@ -887,8 +887,8 @@
     "averageVolume": 97165,
     "averageVolume10days": 146780,
     "averageDailyVolume10Day": 146780,
-    "bid": 1098.0,
-    "ask": 1107.0,
+    "bid": 1095.0,
+    "ask": 1096.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 14087029760,
@@ -963,13 +963,16 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "regularMarketTime": 1780036200,
-    "marketState": "CLOSED",
-    "shortName": "MEMBERS CO LTD",
+    "marketState": "REGULAR",
+    "exchange": "JPX",
+    "messageBoardId": "finmb_544045",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1461196800000,
-    "regularMarketChangePercent": 0.9182736,
-    "regularMarketPrice": 1099.0,
     "regularMarketChange": 10.0,
     "regularMarketDayRange": "1092.0 - 1127.0",
     "fullExchangeName": "Tokyo",
@@ -992,15 +995,12 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
+    "regularMarketChangePercent": 0.9182736,
+    "regularMarketPrice": 1099.0,
+    "shortName": "MEMBERS CO LTD",
     "longName": "Members Co., Ltd.",
     "corporateActions": [],
-    "exchange": "JPX",
-    "messageBoardId": "finmb_544045",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
+    "regularMarketTime": 1780036200,
     "trailingPegRatio": null
   }
 }

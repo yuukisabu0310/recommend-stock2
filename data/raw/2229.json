@@ -1,7 +1,7 @@
 {
   "ticker": "2229",
   "japanese_ticker": "2229.T",
-  "fetch_date": "2026-05-31T00:01:22.519255",
+  "fetch_date": "2026-06-01T00:06:37.395464",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": -807000.0,
@@ -1101,8 +1101,8 @@
     "averageVolume": 508180,
     "averageVolume10days": 598140,
     "averageDailyVolume10Day": 598140,
-    "bid": 2904.0,
-    "ask": 2911.0,
+    "bid": 2933.0,
+    "ask": 2933.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 353091125248,
@@ -1179,9 +1179,9 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "marketState": "CLOSED",
     "shortName": "CALBEE INC",
     "longName": "Calbee, Inc.",
+    "cryptoTradeable": false,
     "corporateActions": [],
     "regularMarketTime": 1780036200,
     "exchange": "JPX",
@@ -1193,6 +1193,11 @@
     "esgPopulated": false,
     "regularMarketChangePercent": 0.08616233,
     "regularMarketPrice": 2904.0,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1299801600000,
+    "regularMarketChange": 2.5,
+    "regularMarketDayRange": "2878.0 - 2918.0",
+    "fullExchangeName": "Tokyo",
     "averageDailyVolume3Month": 508180,
     "fiftyTwoWeekLowChange": 304.0,
     "fiftyTwoWeekLowChangePercent": 0.11692308,
@@ -1215,12 +1220,7 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "averageAnalystRating": "3.5 - Hold",
-    "cryptoTradeable": false,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1299801600000,
-    "regularMarketChange": 2.5,
-    "regularMarketDayRange": "2878.0 - 2918.0",
-    "fullExchangeName": "Tokyo",
+    "marketState": "REGULAR",
     "trailingPegRatio": null
   }
 }

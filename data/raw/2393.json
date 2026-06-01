@@ -1,7 +1,7 @@
 {
   "ticker": "2393",
   "japanese_ticker": "2393.T",
-  "fetch_date": "2026-05-31T00:03:20.183836",
+  "fetch_date": "2026-06-01T00:08:44.295674",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": 4070288.0,
@@ -10,8 +10,8 @@
       "2022-03-31 00:00:00": 4389976.0
     },
     "Tax Rate For Calcs": {
-      "2025-03-31 00:00:00": 0.283538,
-      "2024-03-31 00:00:00": 0.284168,
+      "2025-03-31 00:00:00": 0.284,
+      "2024-03-31 00:00:00": 0.284,
       "2023-03-31 00:00:00": 0.288,
       "2022-03-31 00:00:00": 0.296
     },
@@ -107,13 +107,13 @@
     },
     "Diluted Average Shares": {
       "2025-03-31 00:00:00": 15537356.0,
-      "2024-03-31 00:00:00": 15537541.0,
+      "2024-03-31 00:00:00": 15537809.0,
       "2023-03-31 00:00:00": 15537857.0,
       "2022-03-31 00:00:00": 15537879.0
     },
     "Basic Average Shares": {
       "2025-03-31 00:00:00": 15537356.0,
-      "2024-03-31 00:00:00": 15537541.0,
+      "2024-03-31 00:00:00": 15537809.0,
       "2023-03-31 00:00:00": 15537857.0,
       "2022-03-31 00:00:00": 15537879.0
     },
@@ -270,7 +270,7 @@
       "2022-03-31 00:00:00": 15537857.0
     },
     "Share Issued": {
-      "2025-03-31 00:00:00": 15537683.0,
+      "2025-03-31 00:00:00": 16237693.0,
       "2024-03-31 00:00:00": 16342400.0,
       "2023-03-31 00:00:00": 16342400.0,
       "2022-03-31 00:00:00": 16342400.0
@@ -964,7 +964,7 @@
     "averageVolume10days": 5450,
     "averageDailyVolume10Day": 5450,
     "bid": 2323.0,
-    "ask": 2360.0,
+    "ask": 2324.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 36660563968,
@@ -982,7 +982,7 @@
     "tradeable": false,
     "enterpriseValue": 37030563840,
     "profitMargins": 0.06465,
-    "floatShares": 3413209,
+    "floatShares": 3414763,
     "sharesOutstanding": 15540723,
     "heldPercentInsiders": 0.74864995,
     "heldPercentInstitutions": 0.00978,
@@ -1033,9 +1033,6 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "regularMarketChangePercent": 0.5541347,
-    "regularMarketPrice": 2359.0,
-    "marketState": "CLOSED",
     "fiftyDayAverageChange": 30.600098,
     "fiftyDayAverageChangePercent": 0.0131421145,
     "twoHundredDayAverageChange": 38.590088,
@@ -1043,17 +1040,6 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
-    "shortName": "NIPPON CARE SUPPLY CO",
-    "longName": "Nippon Care Supply Co., Ltd.",
-    "corporateActions": [],
-    "regularMarketTime": 1780035821,
-    "exchange": "JPX",
-    "messageBoardId": "finmb_9104441",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1077840000000,
     "regularMarketChange": 13.0,
@@ -1070,6 +1056,20 @@
     "earningsTimestampEnd": 1746685800,
     "isEarningsDateEstimate": false,
     "epsTrailingTwelveMonths": 145.31,
+    "corporateActions": [],
+    "regularMarketTime": 1780035821,
+    "exchange": "JPX",
+    "messageBoardId": "finmb_9104441",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
+    "marketState": "REGULAR",
+    "regularMarketChangePercent": 0.5541347,
+    "regularMarketPrice": 2359.0,
+    "shortName": "NIPPON CARE SUPPLY CO",
+    "longName": "Nippon Care Supply Co., Ltd.",
     "trailingPegRatio": null
   }
 }

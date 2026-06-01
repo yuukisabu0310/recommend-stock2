@@ -1,7 +1,7 @@
 {
   "ticker": "2124",
   "japanese_ticker": "2124.T",
-  "fetch_date": "2026-05-30T23:59:45.398838",
+  "fetch_date": "2026-06-01T00:04:51.808232",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-12-31 00:00:00": -55080000.0,
@@ -1185,8 +1185,8 @@
     "averageVolume": 394630,
     "averageVolume10days": 458030,
     "averageDailyVolume10Day": 458030,
-    "bid": 846.0,
-    "ask": 858.0,
+    "bid": 848.0,
+    "ask": 849.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 134633725952,
@@ -1260,27 +1260,6 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "shortName": "JAC RECRUITMENT CO LTD",
-    "longName": "JAC Recruitment Co., Ltd.",
-    "corporateActions": [
-      {
-        "header": "Dividend",
-        "message": "2124.T announced a cash dividend of JPY 19.00 with an ex-date of Jun. 29, 2026",
-        "meta": {
-          "eventType": "DIVIDEND",
-          "dateEpochMs": 1782658800000,
-          "amount": "19.00"
-        }
-      }
-    ],
-    "regularMarketTime": 1780036200,
-    "exchange": "JPX",
-    "messageBoardId": "finmb_28707081",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1158883200000,
     "regularMarketChange": -10.0,
@@ -1301,6 +1280,30 @@
     "isEarningsDateEstimate": true,
     "epsTrailingTwelveMonths": 53.02,
     "epsForward": 142.25,
+    "shortName": "JAC RECRUITMENT CO LTD",
+    "longName": "JAC Recruitment Co., Ltd.",
+    "regularMarketChangePercent": -1.1668612,
+    "regularMarketPrice": 847.0,
+    "marketState": "REGULAR",
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "2124.T announced a cash dividend of JPY 19.00 with an ex-date of Jun. 29, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1782658800000,
+          "amount": "19.00"
+        }
+      }
+    ],
+    "regularMarketTime": 1780036200,
+    "exchange": "JPX",
+    "messageBoardId": "finmb_28707081",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
     "fiftyDayAverageChange": -10.580017,
     "fiftyDayAverageChangePercent": -0.012337062,
     "twoHundredDayAverageChange": -144.86499,
@@ -1309,9 +1312,6 @@
     "exchangeDataDelayedBy": 20,
     "averageAnalystRating": "1.5 - Strong Buy",
     "cryptoTradeable": false,
-    "regularMarketChangePercent": -1.1668612,
-    "regularMarketPrice": 847.0,
-    "marketState": "CLOSED",
     "trailingPegRatio": null
   }
 }

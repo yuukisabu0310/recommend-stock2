@@ -1,7 +1,7 @@
 {
   "ticker": "2108",
   "japanese_ticker": "2108.T",
-  "fetch_date": "2026-05-30T23:59:30.295347",
+  "fetch_date": "2026-06-01T00:04:35.414076",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": 847263157.894737,
@@ -1068,8 +1068,8 @@
     "averageVolume": 30895,
     "averageVolume10days": 25430,
     "averageDailyVolume10Day": 25430,
-    "bid": 4270.0,
-    "ask": 4340.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 51737767936,
@@ -1136,8 +1136,7 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "shortName": "NIPPON BEET SUGAR MANUFACTURING",
-    "longName": "Nippon Beet Sugar Manufacturing Co.,Ltd.",
+    "marketState": "REGULAR",
     "corporateActions": [],
     "regularMarketTime": 1780036200,
     "exchange": "JPX",
@@ -1147,10 +1146,10 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "marketState": "CLOSED",
     "regularMarketChangePercent": 0.8244994,
     "regularMarketPrice": 4280.0,
-    "nameChangeDate": "2026-05-30",
+    "shortName": "NIPPON BEET SUGAR MANUFACTURING",
+    "longName": "Nippon Beet Sugar Manufacturing Co.,Ltd.",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 978307200000,
     "regularMarketChange": 35.0,
@@ -1174,6 +1173,7 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "prevName": "Nippon Beet Sugar Manufacturing Co., Ltd.",
+    "nameChangeDate": "2026-05-31",
     "cryptoTradeable": false,
     "trailingPegRatio": null
   }

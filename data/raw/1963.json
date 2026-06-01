@@ -1,7 +1,7 @@
 {
   "ticker": "1963",
   "japanese_ticker": "1963.T",
-  "fetch_date": "2026-05-30T23:58:40.323002",
+  "fetch_date": "2026-06-01T00:03:44.258470",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": -708992000.0,
@@ -1087,8 +1087,8 @@
     "averageVolume": 3067380,
     "averageVolume10days": 2651760,
     "averageDailyVolume10Day": 2651760,
-    "bid": 2727.0,
-    "ask": 2748.0,
+    "bid": 2700.5,
+    "ask": 2708.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 659889651712,
@@ -1163,6 +1163,9 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "marketState": "REGULAR",
+    "shortName": "JGC HOLDINGS CORPORATION",
+    "longName": "JGC Holdings Corporation",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 946944000000,
     "regularMarketChange": 67.0,
@@ -1170,13 +1173,14 @@
     "fullExchangeName": "Tokyo",
     "averageDailyVolume3Month": 3067380,
     "fiftyTwoWeekLowChange": 1531.0,
-    "longName": "JGC Holdings Corporation",
     "fiftyTwoWeekLowChangePercent": 1.2784969,
     "fiftyTwoWeekRange": "1197.5 - 2927.5",
     "fiftyTwoWeekHighChange": -199.0,
     "fiftyTwoWeekHighChangePercent": -0.06797609,
     "fiftyTwoWeekChangePercent": 125.495865,
     "earningsTimestamp": 1778740200,
+    "regularMarketChangePercent": 2.5173774,
+    "regularMarketPrice": 2728.5,
     "earningsTimestampStart": 1785997800,
     "earningsTimestampEnd": 1785997800,
     "earningsCallTimestampStart": 1747220340,
@@ -1201,10 +1205,6 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "marketState": "CLOSED",
-    "regularMarketChangePercent": 2.5173774,
-    "regularMarketPrice": 2728.5,
-    "shortName": "JGC HOLDINGS CORPORATION",
     "trailingPegRatio": null
   }
 }

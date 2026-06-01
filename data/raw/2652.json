@@ -1,7 +1,7 @@
 {
   "ticker": "2652",
   "japanese_ticker": "2652.T",
-  "fetch_date": "2026-05-31T00:05:26.547134",
+  "fetch_date": "2026-06-01T00:10:55.576258",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-09-30 00:00:00": -359074.0,
@@ -113,7 +113,7 @@
     },
     "Diluted Average Shares": {
       "2025-09-30 00:00:00": 32643042.0,
-      "2024-09-30 00:00:00": 32967139.0,
+      "2024-09-30 00:00:00": 32968000.0,
       "2023-09-30 00:00:00": 33123645.0,
       "2022-09-30 00:00:00": 33123810.0
     },
@@ -1014,8 +1014,8 @@
     "averageVolume": 84423,
     "averageVolume10days": 80610,
     "averageDailyVolume10Day": 80610,
-    "bid": 349.0,
-    "ask": 351.0,
+    "bid": 342.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 11306040320,
@@ -1084,8 +1084,6 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "marketState": "CLOSED",
-    "corporateActions": [],
     "regularMarketTime": 1780036200,
     "exchange": "JPX",
     "messageBoardId": "finmb_1436987",
@@ -1094,7 +1092,11 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "cryptoTradeable": false,
+    "corporateActions": [],
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1127952000000,
+    "regularMarketChange": -4.0,
+    "regularMarketDayRange": "349.0 - 356.0",
     "fullExchangeName": "Tokyo",
     "averageDailyVolume3Month": 84423,
     "fiftyTwoWeekLowChange": 67.0,
@@ -1113,14 +1115,12 @@
     "twoHundredDayAverageChangePercent": 0.023235323,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1127952000000,
-    "regularMarketChange": -4.0,
-    "regularMarketDayRange": "349.0 - 356.0",
-    "regularMarketChangePercent": -1.1331445,
-    "regularMarketPrice": 349.0,
+    "cryptoTradeable": false,
     "shortName": "MANDARAKE INC",
     "longName": "Mandarake Inc.",
+    "marketState": "REGULAR",
+    "regularMarketChangePercent": -1.1331445,
+    "regularMarketPrice": 349.0,
     "trailingPegRatio": null
   }
 }

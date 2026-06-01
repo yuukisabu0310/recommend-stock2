@@ -1,7 +1,7 @@
 {
   "ticker": "2686",
   "japanese_ticker": "2686.T",
-  "fetch_date": "2026-05-31T00:06:01.498507",
+  "fetch_date": "2026-06-01T00:11:33.199404",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-02-28 00:00:00": -134800000.0,
@@ -307,21 +307,21 @@
   "balance_sheet": {
     "Treasury Shares Number": {
       "2026-02-28 00:00:00": 12371.0,
-      "2025-02-28 00:00:00": null,
+      "2025-02-28 00:00:00": 12371.0,
       "2024-02-29 00:00:00": 12371.0,
       "2023-02-28 00:00:00": 12286.0,
-      "2022-02-28 00:00:00": 12286.0
+      "2022-02-28 00:00:00": null
     },
     "Ordinary Shares Number": {
       "2026-02-28 00:00:00": 42568529.0,
-      "2025-02-28 00:00:00": 42565129.0,
+      "2025-02-28 00:00:00": 42568529.0,
       "2024-02-29 00:00:00": 42565129.0,
       "2023-02-28 00:00:00": 42560414.0,
       "2022-02-28 00:00:00": null
     },
     "Share Issued": {
       "2026-02-28 00:00:00": 42580900.0,
-      "2025-02-28 00:00:00": 42565129.0,
+      "2025-02-28 00:00:00": 42580900.0,
       "2024-02-29 00:00:00": 42577500.0,
       "2023-02-28 00:00:00": 42572700.0,
       "2022-02-28 00:00:00": null
@@ -1226,17 +1226,7 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "corporateActions": [],
-    "regularMarketTime": 1780036200,
-    "exchange": "JPX",
-    "messageBoardId": "finmb_5721271",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
-    "longName": "Gfoot Co.,Ltd.",
-    "marketState": "CLOSED",
+    "marketState": "REGULAR",
     "fiftyDayAverageChange": 2.7200012,
     "fiftyDayAverageChangePercent": 0.009274418,
     "twoHundredDayAverageChange": 7.25,
@@ -1245,7 +1235,6 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
-    "shortName": "GFOOT CO.LTD",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1447113600000,
     "regularMarketChange": 0.0,
@@ -1262,6 +1251,17 @@
     "earningsTimestampEnd": 1752474600,
     "isEarningsDateEstimate": true,
     "epsTrailingTwelveMonths": -76.52,
+    "shortName": "GFOOT CO.LTD",
+    "longName": "Gfoot Co.,Ltd.",
+    "corporateActions": [],
+    "regularMarketTime": 1780036200,
+    "exchange": "JPX",
+    "messageBoardId": "finmb_5721271",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
     "regularMarketChangePercent": 0.0,
     "regularMarketPrice": 296.0,
     "trailingPegRatio": null

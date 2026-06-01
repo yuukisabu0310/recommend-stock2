@@ -1,7 +1,7 @@
 {
   "ticker": "2935",
   "japanese_ticker": "2935.T",
-  "fetch_date": "2026-05-31T00:09:17.285531",
+  "fetch_date": "2026-06-01T00:14:56.919757",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-02-28 00:00:00": -10720000.0,
@@ -815,8 +815,8 @@
     "averageVolume": 38753,
     "averageVolume10days": 20940,
     "averageDailyVolume10Day": 20940,
-    "bid": 1107.0,
-    "ask": 1109.0,
+    "bid": 0.0,
+    "ask": 1101.0,
     "marketCap": 13881278464,
     "nonDilutedMarketCap": 13881278840,
     "fiftyTwoWeekLow": 902.0,
@@ -882,19 +882,20 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "marketState": "REGULAR",
     "regularMarketChangePercent": -0.18018019,
     "regularMarketPrice": 1108.0,
-    "shortName": "PICKLES HOLDINGS CO LTD",
-    "longName": "Pickles Holdings Co.,Ltd.",
     "corporateActions": [],
     "regularMarketTime": 1780036200,
-    "exchange": "JPX",
     "messageBoardId": "finmb_5646333",
+    "exchange": "JPX",
     "exchangeTimezoneName": "Asia/Tokyo",
     "exchangeTimezoneShortName": "JST",
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
+    "longName": "Pickles Holdings Co.,Ltd.",
+    "shortName": "PICKLES HOLDINGS CO LTD",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1661990400000,
     "regularMarketChange": -2.0,
@@ -919,7 +920,6 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
-    "marketState": "CLOSED",
     "trailingPegRatio": null
   }
 }

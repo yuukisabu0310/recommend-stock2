@@ -1,7 +1,7 @@
 {
   "ticker": "2351",
   "japanese_ticker": "2351.T",
-  "fetch_date": "2026-05-31T00:02:46.279465",
+  "fetch_date": "2026-06-01T00:08:09.641716",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": 0.0,
@@ -925,8 +925,8 @@
     "averageVolume": 41518,
     "averageVolume10days": 41820,
     "averageDailyVolume10Day": 41820,
-    "bid": 331.0,
-    "ask": 338.0,
+    "bid": 0.0,
+    "ask": 348.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 2605828608,
@@ -995,11 +995,8 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "regularMarketChangePercent": 1.5197569,
-    "regularMarketPrice": 334.0,
     "shortName": "ASJ INC",
     "longName": "ASJ Inc.",
-    "marketState": "CLOSED",
     "corporateActions": [],
     "regularMarketTime": 1780036200,
     "exchange": "JPX",
@@ -1009,8 +1006,6 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1043971200000,
     "regularMarketChange": 5.0,
     "regularMarketDayRange": "321.0 - 342.0",
     "fullExchangeName": "Tokyo",
@@ -1032,6 +1027,11 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
+    "marketState": "REGULAR",
+    "regularMarketChangePercent": 1.5197569,
+    "regularMarketPrice": 334.0,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1043971200000,
     "trailingPegRatio": null
   }
 }

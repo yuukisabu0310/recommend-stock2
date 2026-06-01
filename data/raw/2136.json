@@ -1,7 +1,7 @@
 {
   "ticker": "2136",
   "japanese_ticker": "2136.T",
-  "fetch_date": "2026-05-30T23:59:53.396979",
+  "fetch_date": "2026-06-01T00:05:00.456823",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": 0.0,
@@ -306,13 +306,13 @@
       "2022-03-31 00:00:00": 99.0
     },
     "Ordinary Shares Number": {
-      "2025-03-31 00:00:00": 3930191.0,
+      "2025-03-31 00:00:00": 3885191.0,
       "2024-03-31 00:00:00": 3930201.0,
       "2023-03-31 00:00:00": 3975201.0,
       "2022-03-31 00:00:00": 3975201.0
     },
     "Share Issued": {
-      "2025-03-31 00:00:00": 3930191.0,
+      "2025-03-31 00:00:00": 3975300.0,
       "2024-03-31 00:00:00": 3975300.0,
       "2023-03-31 00:00:00": 3975300.0,
       "2022-03-31 00:00:00": 3975300.0
@@ -999,8 +999,8 @@
     "averageVolume": 3201,
     "averageVolume10days": 1290,
     "averageDailyVolume10Day": 1290,
-    "bid": 1401.0,
-    "ask": 1410.0,
+    "bid": 0.0,
+    "ask": 1400.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 5338682880,
@@ -1069,11 +1069,7 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "shortName": "HIP CORPORATION",
-    "longName": "HIP Corporation",
-    "regularMarketChangePercent": 0.07132668,
-    "regularMarketPrice": 1403.0,
-    "marketState": "CLOSED",
+    "marketState": "REGULAR",
     "exchange": "JPX",
     "messageBoardId": "finmb_30269787",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1081,9 +1077,6 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "cryptoTradeable": false,
-    "corporateActions": [],
-    "regularMarketTime": 1780036200,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1166572800000,
     "regularMarketChange": 1.0,
@@ -1106,6 +1099,13 @@
     "twoHundredDayAverageChangePercent": -0.058499873,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
+    "regularMarketChangePercent": 0.07132668,
+    "regularMarketPrice": 1403.0,
+    "shortName": "HIP CORPORATION",
+    "longName": "HIP Corporation",
+    "corporateActions": [],
+    "regularMarketTime": 1780036200,
     "trailingPegRatio": null
   }
 }

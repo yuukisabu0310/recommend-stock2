@@ -1,7 +1,7 @@
 {
   "ticker": "2687",
   "japanese_ticker": "2687.T",
-  "fetch_date": "2026-05-31T00:06:03.839932",
+  "fetch_date": "2026-06-01T00:11:35.187803",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-02-28 00:00:00": null,
@@ -132,14 +132,14 @@
     "Diluted Average Shares": {
       "2026-02-28 00:00:00": 4936421.0,
       "2025-02-28 00:00:00": null,
-      "2024-02-29 00:00:00": 4936477.0,
+      "2024-02-29 00:00:00": 4936349.0,
       "2023-02-28 00:00:00": 4936349.0,
       "2022-02-28 00:00:00": 4936302.0
     },
     "Basic Average Shares": {
       "2026-02-28 00:00:00": null,
       "2025-02-28 00:00:00": null,
-      "2024-02-29 00:00:00": 4936477.0,
+      "2024-02-29 00:00:00": 4936349.0,
       "2023-02-28 00:00:00": 4936349.0,
       "2022-02-28 00:00:00": 4936302.0
     },
@@ -356,7 +356,7 @@
   },
   "balance_sheet": {
     "Treasury Shares Number": {
-      "2025-02-28 00:00:00": null,
+      "2025-02-28 00:00:00": 127651.0,
       "2024-02-29 00:00:00": 127651.0,
       "2023-02-28 00:00:00": 127651.0,
       "2022-02-28 00:00:00": 127651.0
@@ -495,7 +495,7 @@
     },
     "Non Current Deferred Taxes Liabilities": {
       "2025-02-28 00:00:00": 664000.0,
-      "2024-02-29 00:00:00": null,
+      "2024-02-29 00:00:00": 0.0,
       "2023-02-28 00:00:00": null,
       "2022-02-28 00:00:00": null
     },
@@ -1103,7 +1103,7 @@
     "averageVolume": 6268,
     "averageVolume10days": 2760,
     "averageDailyVolume10Day": 2760,
-    "bid": 482.0,
+    "bid": 0.0,
     "ask": 483.0,
     "bidSize": 0,
     "askSize": 0,
@@ -1171,27 +1171,6 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "exchange": "JPX",
-    "messageBoardId": "finmb_1347494",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
-    "shortName": "CVS BAY AREA INC",
-    "corporateActions": [],
-    "regularMarketTime": 1780036200,
-    "marketState": "CLOSED",
-    "regularMarketChangePercent": -0.20661156,
-    "regularMarketPrice": 483.0,
-    "longName": "CVS Bay Area Inc.",
-    "fiftyDayAverageChange": -13.179993,
-    "fiftyDayAverageChangePercent": -0.026562927,
-    "twoHundredDayAverageChange": -50.09497,
-    "twoHundredDayAverageChangePercent": -0.09397007,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1033516800000,
     "regularMarketChange": -1.0,
@@ -1208,6 +1187,27 @@
     "earningsTimestampEnd": 1752215400,
     "isEarningsDateEstimate": false,
     "epsTrailingTwelveMonths": -230.92,
+    "fiftyDayAverageChange": -13.179993,
+    "fiftyDayAverageChangePercent": -0.026562927,
+    "twoHundredDayAverageChange": -50.09497,
+    "twoHundredDayAverageChangePercent": -0.09397007,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
+    "marketState": "REGULAR",
+    "shortName": "CVS BAY AREA INC",
+    "longName": "CVS Bay Area Inc.",
+    "corporateActions": [],
+    "regularMarketTime": 1780036200,
+    "exchange": "JPX",
+    "messageBoardId": "finmb_1347494",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
+    "regularMarketChangePercent": -0.20661156,
+    "regularMarketPrice": 483.0,
     "trailingPegRatio": null
   }
 }

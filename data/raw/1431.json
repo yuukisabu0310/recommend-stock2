@@ -1,7 +1,7 @@
 {
   "ticker": "1431",
   "japanese_ticker": "1431.T",
-  "fetch_date": "2026-05-30T23:55:02.216400",
+  "fetch_date": "2026-05-31T23:59:45.476891",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-06-30 00:00:00": -2629952.0,
@@ -1211,8 +1211,8 @@
     "averageVolume": 20821,
     "averageVolume10days": 21380,
     "averageDailyVolume10Day": 21380,
-    "bid": 641.0,
-    "ask": 645.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "marketCap": 14959927296,
     "nonDilutedMarketCap": 14959926761,
     "fiftyTwoWeekLow": 634.0,
@@ -1277,20 +1277,10 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "marketState": "PREPRE",
     "regularMarketChangePercent": 0.3120125,
     "regularMarketPrice": 643.0,
-    "marketState": "CLOSED",
-    "corporateActions": [
-      {
-        "header": "Dividend",
-        "message": "1431.T announced a cash dividend of JPY 1.60 with an ex-date of Jun. 29, 2026",
-        "meta": {
-          "eventType": "DIVIDEND",
-          "dateEpochMs": 1782658800000,
-          "amount": "1.60"
-        }
-      }
-    ],
+    "corporateActions": [],
     "regularMarketTime": 1780036200,
     "exchange": "JPX",
     "messageBoardId": "finmb_52302883",
@@ -1301,11 +1291,6 @@
     "esgPopulated": false,
     "shortName": "LIB WORK CO LTD",
     "longName": "Lib Work Co.,Ltd.",
-    "epsTrailingTwelveMonths": 9.77,
-    "fiftyDayAverageChange": -2.919983,
-    "fiftyDayAverageChangePercent": -0.0045206575,
-    "twoHundredDayAverageChange": -46.48999,
-    "twoHundredDayAverageChangePercent": -0.06742664,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
@@ -1324,6 +1309,11 @@
     "earningsTimestampStart": 1747117800,
     "earningsTimestampEnd": 1747117800,
     "isEarningsDateEstimate": false,
+    "epsTrailingTwelveMonths": 9.77,
+    "fiftyDayAverageChange": -2.919983,
+    "fiftyDayAverageChangePercent": -0.0045206575,
+    "twoHundredDayAverageChange": -46.48999,
+    "twoHundredDayAverageChangePercent": -0.06742664,
     "trailingPegRatio": null
   }
 }

@@ -1,7 +1,7 @@
 {
   "ticker": "2612",
   "japanese_ticker": "2612.T",
-  "fetch_date": "2026-05-31T00:05:22.668776",
+  "fetch_date": "2026-06-01T00:10:51.110544",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": 303500.0,
@@ -954,8 +954,8 @@
     "averageVolume": 17790,
     "averageVolume10days": 11530,
     "averageDailyVolume10Day": 11530,
-    "bid": 1488.0,
-    "ask": 1496.0,
+    "bid": 1505.0,
+    "ask": 1505.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 41114886144,
@@ -1023,12 +1023,7 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "marketState": "CLOSED",
-    "corporateActions": [],
     "regularMarketTime": 1780036200,
-    "shortName": "KADOYA SESAME MILLS INC",
-    "regularMarketChangePercent": 1.2925171,
-    "regularMarketPrice": 1489.0,
     "exchange": "JPX",
     "messageBoardId": "finmb_5633542",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1036,6 +1031,7 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
+    "corporateActions": [],
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1266796800000,
     "regularMarketChange": 19.0,
@@ -1059,7 +1055,11 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
+    "shortName": "KADOYA SESAME MILLS INC",
     "longName": "Kadoya Sesame Mills Incorporated",
+    "marketState": "REGULAR",
+    "regularMarketChangePercent": 1.2925171,
+    "regularMarketPrice": 1489.0,
     "trailingPegRatio": null
   }
 }

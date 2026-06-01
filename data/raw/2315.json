@@ -1,7 +1,7 @@
 {
   "ticker": "2315",
   "japanese_ticker": "2315.T",
-  "fetch_date": "2026-05-31T00:02:06.478162",
+  "fetch_date": "2026-06-01T00:07:27.006126",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-10-31 00:00:00": 7727853.0,
@@ -138,14 +138,14 @@
     },
     "Diluted EPS": {
       "2025-10-31 00:00:00": null,
-      "2024-10-31 00:00:00": null,
+      "2024-10-31 00:00:00": 0.22,
       "2023-10-31 00:00:00": -31.57,
       "2022-10-31 00:00:00": -54.69,
       "2021-10-31 00:00:00": -10.87
     },
     "Basic EPS": {
       "2025-10-31 00:00:00": null,
-      "2024-10-31 00:00:00": null,
+      "2024-10-31 00:00:00": 0.22,
       "2023-10-31 00:00:00": -31.57,
       "2022-10-31 00:00:00": -54.69,
       "2021-10-31 00:00:00": -10.87
@@ -1206,7 +1206,7 @@
     "averageVolume": 1930413,
     "averageVolume10days": 1657070,
     "averageDailyVolume10Day": 1657070,
-    "bid": 64.0,
+    "bid": 0.0,
     "ask": 65.0,
     "bidSize": 0,
     "askSize": 0,
@@ -1272,9 +1272,8 @@
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
     "shortName": "CAICA DIGITAL INC",
+    "longName": "CAICA DIGITAL Inc.",
     "corporateActions": [],
-    "regularMarketChangePercent": 0.0,
-    "regularMarketPrice": 64.0,
     "regularMarketTime": 1780036200,
     "exchange": "JPX",
     "messageBoardId": "finmb_9247968",
@@ -1293,7 +1292,6 @@
     "fiftyTwoWeekHighChange": -113.0,
     "fiftyTwoWeekHighChangePercent": -0.6384181,
     "fiftyTwoWeekChangePercent": -5.882353,
-    "cryptoTradeable": false,
     "earningsTimestampStart": 1749794400,
     "earningsTimestampEnd": 1749794400,
     "isEarningsDateEstimate": false,
@@ -1305,11 +1303,13 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "prevName": "CAICA Inc.",
-    "nameChangeDate": "2026-05-30",
+    "nameChangeDate": "2026-05-31",
+    "cryptoTradeable": false,
+    "marketState": "REGULAR",
+    "regularMarketChangePercent": 0.0,
+    "regularMarketPrice": 64.0,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1023753600000,
-    "longName": "CAICA DIGITAL Inc.",
-    "marketState": "CLOSED",
     "trailingPegRatio": null
   }
 }

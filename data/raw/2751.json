@@ -1,7 +1,7 @@
 {
   "ticker": "2751",
   "japanese_ticker": "2751.T",
-  "fetch_date": "2026-05-31T00:06:51.575116",
+  "fetch_date": "2026-06-01T00:12:24.971004",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-04-30 00:00:00": -19239500.0,
@@ -270,13 +270,13 @@
       "2022-04-30 00:00:00": 2400132.0
     },
     "Ordinary Shares Number": {
-      "2025-04-30 00:00:00": 12016048.0,
+      "2025-04-30 00:00:00": 12029729.0,
       "2024-04-30 00:00:00": 11988693.0,
       "2023-04-30 00:00:00": 11943635.0,
       "2022-04-30 00:00:00": 11914668.0
     },
     "Share Issued": {
-      "2025-04-30 00:00:00": 12016048.0,
+      "2025-04-30 00:00:00": 14314800.0,
       "2024-04-30 00:00:00": 14314800.0,
       "2023-04-30 00:00:00": 14314800.0,
       "2022-04-30 00:00:00": 14314800.0
@@ -1032,8 +1032,8 @@
     "averageVolume": 19740,
     "averageVolume10days": 11010,
     "averageDailyVolume10Day": 11010,
-    "bid": 3515.0,
-    "ask": 3535.0,
+    "bid": 0.0,
+    "ask": 3515.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 42322538496,
@@ -1100,22 +1100,18 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "shortName": "TENPOS HOLDINGS CO LTD",
-    "longName": "TENPOS HOLDINGS Co.,Ltd.",
-    "marketState": "CLOSED",
-    "regularMarketChangePercent": -1.8156424,
-    "regularMarketPrice": 3515.0,
     "corporateActions": [],
     "regularMarketTime": 1780036200,
     "exchange": "JPX",
     "messageBoardId": "finmb_9329898",
     "exchangeTimezoneName": "Asia/Tokyo",
     "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
+    "cryptoTradeable": false,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1039478400000,
+    "shortName": "TENPOS HOLDINGS CO LTD",
+    "longName": "TENPOS HOLDINGS Co.,Ltd.",
+    "marketState": "REGULAR",
     "regularMarketChange": -65.0,
     "regularMarketDayRange": "3515.0 - 3575.0",
     "fullExchangeName": "Tokyo",
@@ -1136,7 +1132,11 @@
     "twoHundredDayAverageChangePercent": -0.033942558,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
+    "regularMarketChangePercent": -1.8156424,
+    "regularMarketPrice": 3515.0,
     "trailingPegRatio": null
   }
 }

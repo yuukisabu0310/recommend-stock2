@@ -1,7 +1,7 @@
 {
   "ticker": "2705",
   "japanese_ticker": "2705.T",
-  "fetch_date": "2026-05-31T00:06:21.166961",
+  "fetch_date": "2026-06-01T00:11:52.489306",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": -29600000.0,
@@ -270,19 +270,19 @@
   },
   "balance_sheet": {
     "Treasury Shares Number": {
-      "2025-03-31 00:00:00": null,
+      "2025-03-31 00:00:00": 4947.0,
       "2024-03-31 00:00:00": 4919.0,
       "2023-03-31 00:00:00": 9919.0,
       "2022-03-31 00:00:00": 14873.0
     },
     "Ordinary Shares Number": {
-      "2025-03-31 00:00:00": 7252381.0,
+      "2025-03-31 00:00:00": 7252353.0,
       "2024-03-31 00:00:00": 7246881.0,
       "2023-03-31 00:00:00": 7241881.0,
       "2022-03-31 00:00:00": 7236927.0
     },
     "Share Issued": {
-      "2025-03-31 00:00:00": 7252381.0,
+      "2025-03-31 00:00:00": 7257300.0,
       "2024-03-31 00:00:00": 7251800.0,
       "2023-03-31 00:00:00": 7251800.0,
       "2022-03-31 00:00:00": 7251800.0
@@ -1027,8 +1027,8 @@
     "averageVolume": 14913,
     "averageVolume10days": 18460,
     "averageDailyVolume10Day": 18460,
-    "bid": 7730.0,
-    "ask": 7760.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 56179187712,
@@ -1095,7 +1095,6 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "corporateActions": [],
     "regularMarketTime": 1780036200,
     "exchange": "JPX",
     "messageBoardId": "finmb_5854221",
@@ -1104,16 +1103,7 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "longName": "OOTOYA Holdings Co., Ltd.",
-    "marketState": "CLOSED",
-    "fiftyDayAverageChange": 653.0,
-    "fiftyDayAverageChangePercent": 0.09214054,
-    "twoHundredDayAverageChange": 1433.75,
-    "twoHundredDayAverageChangePercent": 0.22735381,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
-    "shortName": "OOTOYA HOLDINGS CO LTD",
+    "corporateActions": [],
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 999216000000,
     "regularMarketChange": -70.0,
@@ -1130,6 +1120,16 @@
     "earningsTimestampEnd": 1754978400,
     "isEarningsDateEstimate": true,
     "epsTrailingTwelveMonths": 170.28,
+    "fiftyDayAverageChange": 653.0,
+    "fiftyDayAverageChangePercent": 0.09214054,
+    "twoHundredDayAverageChange": 1433.75,
+    "twoHundredDayAverageChangePercent": 0.22735381,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
+    "shortName": "OOTOYA HOLDINGS CO LTD",
+    "longName": "OOTOYA Holdings Co., Ltd.",
+    "marketState": "REGULAR",
     "regularMarketChangePercent": -0.8962868,
     "regularMarketPrice": 7740.0,
     "trailingPegRatio": null

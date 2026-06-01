@@ -1,7 +1,7 @@
 {
   "ticker": "2730",
   "japanese_ticker": "2730.T",
-  "fetch_date": "2026-05-31T00:06:30.819022",
+  "fetch_date": "2026-06-01T00:12:02.917584",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": -1037136000.0,
@@ -1080,8 +1080,8 @@
     "averageVolume": 489610,
     "averageVolume10days": 360950,
     "averageDailyVolume10Day": 360950,
-    "bid": 2364.0,
-    "ask": 2378.0,
+    "bid": 2363.0,
+    "ask": 2363.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 250603110400,
@@ -1154,6 +1154,8 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "shortName": "EDION CORP",
+    "longName": "EDION Corporation",
     "exchange": "JPX",
     "messageBoardId": "finmb_9262023",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1161,11 +1163,9 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "marketState": "CLOSED",
-    "regularMarketChangePercent": 1.5424165,
-    "regularMarketPrice": 2370.0,
-    "longName": "EDION Corporation",
-    "shortName": "EDION CORP",
+    "corporateActions": [],
+    "regularMarketTime": 1780036200,
+    "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1017273600000,
     "regularMarketChange": 36.0,
     "regularMarketDayRange": "2341.0 - 2402.0",
@@ -1192,9 +1192,9 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
-    "hasPrePostMarketData": false,
-    "corporateActions": [],
-    "regularMarketTime": 1780036200,
+    "marketState": "REGULAR",
+    "regularMarketChangePercent": 1.5424165,
+    "regularMarketPrice": 2370.0,
     "trailingPegRatio": null
   }
 }

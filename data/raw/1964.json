@@ -1,7 +1,7 @@
 {
   "ticker": "1964",
   "japanese_ticker": "1964.T",
-  "fetch_date": "2026-05-30T23:58:42.017409",
+  "fetch_date": "2026-06-01T00:03:46.299114",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": null,
@@ -1015,8 +1015,8 @@
     "averageVolume": 37430,
     "averageVolume10days": 35650,
     "averageDailyVolume10Day": 35650,
-    "bid": 4295.0,
-    "ask": 4320.0,
+    "bid": 0.0,
+    "ask": 4245.0,
     "marketCap": 31010365440,
     "nonDilutedMarketCap": 31010365900,
     "fiftyTwoWeekLow": 3210.0,
@@ -1085,11 +1085,9 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "shortName": "CHUGAI RO CO LTD",
-    "corporateActions": [],
+    "marketState": "REGULAR",
     "regularMarketChangePercent": -0.46296296,
     "regularMarketPrice": 4300.0,
-    "regularMarketTime": 1780036200,
     "exchange": "JPX",
     "messageBoardId": "finmb_875341",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1097,6 +1095,10 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
+    "corporateActions": [],
+    "regularMarketTime": 1780036200,
+    "shortName": "CHUGAI RO CO LTD",
+    "longName": "Chugai Ro Co., Ltd.",
     "regularMarketChange": -20.0,
     "regularMarketDayRange": "4300.0 - 4390.0",
     "fullExchangeName": "Tokyo",
@@ -1107,7 +1109,6 @@
     "fiftyTwoWeekHighChange": -920.0,
     "fiftyTwoWeekHighChangePercent": -0.17624521,
     "fiftyTwoWeekChangePercent": 22.68188,
-    "cryptoTradeable": false,
     "earningsTimestampStart": 1753329600,
     "earningsTimestampEnd": 1753675200,
     "isEarningsDateEstimate": true,
@@ -1119,10 +1120,9 @@
     "twoHundredDayAverageChangePercent": -0.03257193,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 978566400000,
-    "longName": "Chugai Ro Co., Ltd.",
-    "marketState": "CLOSED",
     "trailingPegRatio": null
   }
 }

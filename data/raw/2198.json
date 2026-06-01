@@ -1,7 +1,7 @@
 {
   "ticker": "2198",
   "japanese_ticker": "2198.T",
-  "fetch_date": "2026-05-31T00:00:49.542671",
+  "fetch_date": "2026-06-01T00:06:01.181205",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-10-31 00:00:00": -20130465.0,
@@ -124,8 +124,8 @@
     },
     "Diluted Average Shares": {
       "2025-10-31 00:00:00": null,
-      "2024-10-31 00:00:00": null,
-      "2023-10-31 00:00:00": 29181624.0,
+      "2024-10-31 00:00:00": 28675689.0,
+      "2023-10-31 00:00:00": 29178772.0,
       "2022-10-31 00:00:00": 29458200.0,
       "2021-10-31 00:00:00": 29302499.0
     },
@@ -145,7 +145,7 @@
     },
     "Basic EPS": {
       "2025-10-31 00:00:00": null,
-      "2024-10-31 00:00:00": null,
+      "2024-10-31 00:00:00": 59.35,
       "2023-10-31 00:00:00": 45.93,
       "2022-10-31 00:00:00": 47.48,
       "2021-10-31 00:00:00": -14.03
@@ -322,7 +322,7 @@
     },
     "Share Issued": {
       "2025-10-31 00:00:00": 29956800.0,
-      "2024-10-31 00:00:00": 28590773.0,
+      "2024-10-31 00:00:00": 29956800.0,
       "2023-10-31 00:00:00": 29956800.0,
       "2022-10-31 00:00:00": 29956800.0,
       "2021-10-31 00:00:00": null
@@ -1150,7 +1150,7 @@
     "averageVolume": 56160,
     "averageVolume10days": 34740,
     "averageDailyVolume10Day": 34740,
-    "bid": 798.0,
+    "bid": 0.0,
     "ask": 800.0,
     "bidSize": 0,
     "askSize": 0,
@@ -1219,17 +1219,20 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "shortName": "IKK HOLDINGS INC",
-    "longName": "IKK Holdings Inc.",
+    "marketState": "REGULAR",
+    "regularMarketChangePercent": -0.12484394,
+    "regularMarketPrice": 800.0,
     "corporateActions": [],
     "regularMarketTime": 1780036200,
-    "exchange": "JPX",
     "messageBoardId": "finmb_47105769",
+    "exchange": "JPX",
     "exchangeTimezoneName": "Asia/Tokyo",
     "exchangeTimezoneShortName": "JST",
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
+    "longName": "IKK Holdings Inc.",
+    "shortName": "IKK HOLDINGS INC",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1279843200000,
     "regularMarketChange": -1.0,
@@ -1254,11 +1257,8 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "prevName": "IKK Inc.",
-    "nameChangeDate": "2026-05-30",
+    "nameChangeDate": "2026-05-31",
     "cryptoTradeable": false,
-    "regularMarketChangePercent": -0.12484394,
-    "regularMarketPrice": 800.0,
-    "marketState": "CLOSED",
     "trailingPegRatio": null
   }
 }

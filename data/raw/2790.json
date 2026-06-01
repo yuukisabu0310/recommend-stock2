@@ -1,7 +1,7 @@
 {
   "ticker": "2790",
   "japanese_ticker": "2790.T",
-  "fetch_date": "2026-05-31T00:07:27.181673",
+  "fetch_date": "2026-06-01T00:12:59.722830",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": -182584000.0,
@@ -1064,8 +1064,8 @@
     "averageVolume": 7545,
     "averageVolume10days": 5310,
     "averageDailyVolume10Day": 5310,
-    "bid": 2101.0,
-    "ask": 2106.0,
+    "bid": 2170.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 51648200704,
@@ -1132,6 +1132,7 @@
     "customPriceAlertConfidence": "LOW",
     "shortName": "NAFCO CO LTD",
     "longName": "NAFCO Co., Ltd.",
+    "cryptoTradeable": false,
     "corporateActions": [],
     "regularMarketTime": 1780036200,
     "exchange": "JPX",
@@ -1141,7 +1142,6 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "marketState": "CLOSED",
     "regularMarketChangePercent": 0.19074869,
     "regularMarketPrice": 2101.0,
     "hasPrePostMarketData": false,
@@ -1166,7 +1166,7 @@
     "twoHundredDayAverageChangePercent": -0.001674916,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
+    "marketState": "REGULAR",
     "trailingPegRatio": null
   }
 }

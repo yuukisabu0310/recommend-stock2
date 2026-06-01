@@ -1,7 +1,7 @@
 {
   "ticker": "2813",
   "japanese_ticker": "2813.T",
-  "fetch_date": "2026-05-31T00:07:54.622872",
+  "fetch_date": "2026-06-01T00:13:28.286360",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": -950426.4,
@@ -113,7 +113,7 @@
     },
     "Diluted Average Shares": {
       "2025-03-31 00:00:00": 2491634.0,
-      "2024-03-31 00:00:00": 2487936.0,
+      "2024-03-31 00:00:00": 2487951.0,
       "2023-03-31 00:00:00": 2478735.0,
       "2022-03-31 00:00:00": 2464578.0
     },
@@ -312,7 +312,7 @@
       "2022-03-31 00:00:00": 2469168.0
     },
     "Share Issued": {
-      "2025-03-31 00:00:00": 2492340.0,
+      "2025-03-31 00:00:00": 2847957.0,
       "2024-03-31 00:00:00": 2847957.0,
       "2023-03-31 00:00:00": 2847957.0,
       "2022-03-31 00:00:00": 2847957.0
@@ -1105,8 +1105,8 @@
     "averageVolume": 3461,
     "averageVolume10days": 1570,
     "averageDailyVolume10Day": 1570,
-    "bid": 3880.0,
-    "ask": 3915.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 9730921472,
@@ -1177,9 +1177,6 @@
     "customPriceAlertConfidence": "LOW",
     "shortName": "WAKOU SHOKUHIN CO",
     "longName": "Wakou Shokuhin Co., Ltd.",
-    "marketState": "CLOSED",
-    "regularMarketChangePercent": 0.7751938,
-    "regularMarketPrice": 3900.0,
     "corporateActions": [],
     "regularMarketTime": 1780036200,
     "exchange": "JPX",
@@ -1189,7 +1186,10 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "cryptoTradeable": false,
+    "regularMarketChange": 30.0,
+    "regularMarketDayRange": "3850.0 - 3910.0",
+    "fullExchangeName": "Tokyo",
+    "averageDailyVolume3Month": 3461,
     "fiftyTwoWeekLowChange": 954.0,
     "fiftyTwoWeekLowChangePercent": 0.3238289,
     "fiftyTwoWeekRange": "2946.0 - 4140.0",
@@ -1206,12 +1206,12 @@
     "twoHundredDayAverageChangePercent": 0.14311336,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
+    "marketState": "REGULAR",
+    "regularMarketChangePercent": 0.7751938,
+    "regularMarketPrice": 3900.0,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 947030400000,
-    "regularMarketChange": 30.0,
-    "regularMarketDayRange": "3850.0 - 3910.0",
-    "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 3461,
     "trailingPegRatio": null
   }
 }

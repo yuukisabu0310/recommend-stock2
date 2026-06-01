@@ -1,7 +1,7 @@
 {
   "ticker": "1807",
   "japanese_ticker": "1807.T",
-  "fetch_date": "2026-05-30T23:56:35.221220",
+  "fetch_date": "2026-06-01T00:01:23.294741",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": -2699970.0,
@@ -288,7 +288,7 @@
       "2022-03-31 00:00:00": 316520.0
     },
     "Ordinary Shares Number": {
-      "2025-03-31 00:00:00": 6230573.0,
+      "2025-03-31 00:00:00": 6229673.0,
       "2024-03-31 00:00:00": 6217302.0,
       "2023-03-31 00:00:00": 6096814.0,
       "2022-03-31 00:00:00": 6074880.0
@@ -1029,8 +1029,8 @@
     "averageVolume": 8740,
     "averageVolume10days": 36870,
     "averageDailyVolume10Day": 36870,
-    "bid": 1770.0,
-    "ask": 1782.0,
+    "bid": 0.0,
+    "ask": 1880.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 11064291328,
@@ -1099,17 +1099,11 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "marketState": "REGULAR",
     "regularMarketChangePercent": 0.33975086,
     "regularMarketPrice": 1772.0,
     "corporateActions": [],
     "regularMarketTime": 1780036200,
-    "fiftyDayAverageChange": -154.47998,
-    "fiftyDayAverageChangePercent": -0.08018769,
-    "twoHundredDayAverageChange": -83.94495,
-    "twoHundredDayAverageChangePercent": -0.0452303,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
     "exchange": "JPX",
     "messageBoardId": "finmb_884096",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1119,7 +1113,9 @@
     "esgPopulated": false,
     "shortName": "WATANABE SATO CO LTD",
     "longName": "Watanabe Sato Co., Ltd.",
-    "marketState": "CLOSED",
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 946944000000,
     "regularMarketChange": 6.0,
@@ -1136,6 +1132,10 @@
     "earningsTimestampEnd": 1747022400,
     "isEarningsDateEstimate": false,
     "epsTrailingTwelveMonths": 141.58,
+    "fiftyDayAverageChange": -154.47998,
+    "fiftyDayAverageChangePercent": -0.08018769,
+    "twoHundredDayAverageChange": -83.94495,
+    "twoHundredDayAverageChangePercent": -0.0452303,
     "trailingPegRatio": null
   }
 }

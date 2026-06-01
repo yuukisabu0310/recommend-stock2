@@ -1,7 +1,7 @@
 {
   "ticker": "2002",
   "japanese_ticker": "2002.T",
-  "fetch_date": "2026-05-30T23:59:16.450057",
+  "fetch_date": "2026-06-01T00:04:20.779415",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": 1338230000.0,
@@ -188,6 +188,12 @@
       "2024-03-31 00:00:00": 191000000.0,
       "2023-03-31 00:00:00": 485000000.0,
       "2022-03-31 00:00:00": 878000000.0
+    },
+    "Special Income Charges": {
+      "2025-03-31 00:00:00": -3299000000.0,
+      "2024-03-31 00:00:00": -1578000000.0,
+      "2023-03-31 00:00:00": -56564000000.0,
+      "2022-03-31 00:00:00": -3497000000.0
     },
     "Other Special Charges": {
       "2025-03-31 00:00:00": 954000000.0,
@@ -1040,8 +1046,8 @@
     "averageVolume": 935126,
     "averageVolume10days": 1173330,
     "averageDailyVolume10Day": 1173330,
-    "bid": 1964.5,
-    "ask": 1971.5,
+    "bid": 1965.0,
+    "ask": 1965.5,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 549712101376,
@@ -1119,16 +1125,6 @@
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
     "corporateActions": [],
-    "regularMarketChangePercent": 0.40878895,
-    "regularMarketPrice": 1965.0,
-    "marketState": "CLOSED",
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 946944000000,
-    "regularMarketChange": 8.0,
-    "regularMarketDayRange": "1942.0 - 1983.0",
-    "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 935126,
-    "longName": "Nisshin Seifun Group Inc.",
     "regularMarketTime": 1780036200,
     "exchange": "JPX",
     "messageBoardId": "finmb_874802",
@@ -1137,7 +1133,15 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
+    "regularMarketChangePercent": 0.40878895,
+    "regularMarketPrice": 1965.0,
     "shortName": "NISSHIN SEIFUN GROUP INC",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 946944000000,
+    "regularMarketChange": 8.0,
+    "regularMarketDayRange": "1942.0 - 1983.0",
+    "fullExchangeName": "Tokyo",
+    "averageDailyVolume3Month": 935126,
     "fiftyTwoWeekLowChange": 273.0,
     "fiftyTwoWeekLowChangePercent": 0.16134752,
     "fiftyTwoWeekRange": "1692.0 - 2198.5",
@@ -1160,6 +1164,8 @@
     "exchangeDataDelayedBy": 20,
     "averageAnalystRating": "2.6 - Hold",
     "cryptoTradeable": false,
+    "marketState": "REGULAR",
+    "longName": "Nisshin Seifun Group Inc.",
     "trailingPegRatio": null
   }
 }

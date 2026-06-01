@@ -1,7 +1,7 @@
 {
   "ticker": "2411",
   "japanese_ticker": "2411.T",
-  "fetch_date": "2026-05-31T00:03:30.003430",
+  "fetch_date": "2026-06-01T00:08:53.978338",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": -276000.0,
@@ -107,13 +107,13 @@
     },
     "Diluted Average Shares": {
       "2025-03-31 00:00:00": 12300000.0,
-      "2024-03-31 00:00:00": 12291052.0,
+      "2024-03-31 00:00:00": 12377607.0,
       "2023-03-31 00:00:00": 13275437.0,
       "2022-03-31 00:00:00": 14641210.0
     },
     "Basic Average Shares": {
       "2025-03-31 00:00:00": 12300000.0,
-      "2024-03-31 00:00:00": 12291052.0,
+      "2024-03-31 00:00:00": 12377607.0,
       "2023-03-31 00:00:00": 13275437.0,
       "2022-03-31 00:00:00": 14641210.0
     },
@@ -258,7 +258,7 @@
   },
   "balance_sheet": {
     "Treasury Shares Number": {
-      "2025-03-31 00:00:00": null,
+      "2025-03-31 00:00:00": 0.0,
       "2024-03-31 00:00:00": 0.0,
       "2023-03-31 00:00:00": 0.0,
       "2022-03-31 00:00:00": 1350300.0
@@ -946,8 +946,8 @@
     "averageVolume": 37535,
     "averageVolume10days": 17970,
     "averageDailyVolume10Day": 17970,
-    "bid": 451.0,
-    "ask": 453.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 4972000256,
@@ -1016,10 +1016,19 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "longName": "Gendai Agency Inc.",
-    "marketState": "CLOSED",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1095292800000,
+    "corporateActions": [],
+    "regularMarketTime": 1780036200,
+    "exchange": "JPX",
+    "messageBoardId": "finmb_11353901",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
+    "regularMarketChangePercent": 0.0,
+    "regularMarketPrice": 452.0,
     "regularMarketChange": 0.0,
     "regularMarketDayRange": "448.0 - 453.0",
     "fullExchangeName": "Tokyo",
@@ -1041,18 +1050,9 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
-    "corporateActions": [],
-    "regularMarketTime": 1780036200,
-    "exchange": "JPX",
-    "messageBoardId": "finmb_11353901",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
     "shortName": "GENDAI AGENCY INC",
-    "regularMarketChangePercent": 0.0,
-    "regularMarketPrice": 452.0,
+    "longName": "Gendai Agency Inc.",
+    "marketState": "REGULAR",
     "trailingPegRatio": null
   }
 }

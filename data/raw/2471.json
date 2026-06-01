@@ -1,7 +1,7 @@
 {
   "ticker": "2471",
   "japanese_ticker": "2471.T",
-  "fetch_date": "2026-05-31T00:04:14.431176",
+  "fetch_date": "2026-06-01T00:09:41.027325",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-11-30 00:00:00": 0.0,
@@ -125,14 +125,14 @@
     "Diluted Average Shares": {
       "2025-11-30 00:00:00": 78308026.0,
       "2024-11-30 00:00:00": 79003645.0,
-      "2023-11-30 00:00:00": 79003645.0,
+      "2023-11-30 00:00:00": 78995434.0,
       "2022-11-30 00:00:00": 79003645.0,
       "2021-11-30 00:00:00": null
     },
     "Basic Average Shares": {
       "2025-11-30 00:00:00": 78308026.0,
       "2024-11-30 00:00:00": 79003645.0,
-      "2023-11-30 00:00:00": 79003645.0,
+      "2023-11-30 00:00:00": 78995434.0,
       "2022-11-30 00:00:00": 79003645.0,
       "2021-11-30 00:00:00": null
     },
@@ -1192,8 +1192,8 @@
     "averageVolume": 579673,
     "averageVolume10days": 362210,
     "averageDailyVolume10Day": 362210,
-    "bid": 236.0,
-    "ask": 239.0,
+    "bid": 0.0,
+    "ask": 237.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 18510565376,
@@ -1264,8 +1264,6 @@
     "customPriceAlertConfidence": "LOW",
     "shortName": "S-POOL INC",
     "longName": "S-Pool, Inc.",
-    "corporateActions": [],
-    "regularMarketTime": 1780036200,
     "exchange": "JPX",
     "messageBoardId": "finmb_25524801",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1273,6 +1271,8 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
+    "corporateActions": [],
+    "regularMarketTime": 1780036200,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1139529600000,
     "regularMarketChange": 3.0,
@@ -1298,9 +1298,9 @@
     "exchangeDataDelayedBy": 20,
     "averageAnalystRating": "0.0 - Strong Buy",
     "cryptoTradeable": false,
+    "marketState": "REGULAR",
     "regularMarketChangePercent": 1.2820513,
     "regularMarketPrice": 237.0,
-    "marketState": "CLOSED",
     "trailingPegRatio": null
   }
 }

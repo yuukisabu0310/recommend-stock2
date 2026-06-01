@@ -1,7 +1,7 @@
 {
   "ticker": "2371",
   "japanese_ticker": "2371.T",
-  "fetch_date": "2026-05-31T00:02:56.410860",
+  "fetch_date": "2026-06-01T00:08:19.734359",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": null,
@@ -286,7 +286,7 @@
   },
   "balance_sheet": {
     "Treasury Shares Number": {
-      "2025-03-31 00:00:00": null,
+      "2025-03-31 00:00:00": 486331.0,
       "2024-03-31 00:00:00": 651327.0,
       "2023-03-31 00:00:00": 659087.0,
       "2022-03-31 00:00:00": 675587.0
@@ -1037,8 +1037,8 @@
     "averageVolume": 2164811,
     "averageVolume10days": 1041940,
     "averageDailyVolume10Day": 1041940,
-    "bid": 3335.0,
-    "ask": 3345.0,
+    "bid": 3300.0,
+    "ask": 3301.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 660773142528,
@@ -1115,8 +1115,6 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "epsTrailingTwelveMonths": 94.86,
-    "epsForward": 124.06,
     "fiftyDayAverageChange": 737.0901,
     "fiftyDayAverageChangePercent": 0.28317925,
     "twoHundredDayAverageChange": 929.18506,
@@ -1125,9 +1123,6 @@
     "exchangeDataDelayedBy": 20,
     "averageAnalystRating": "2.1 - Buy",
     "cryptoTradeable": false,
-    "regularMarketChangePercent": 0.0,
-    "regularMarketPrice": 3340.0,
-    "longName": "Kakaku.com, Inc.",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1127952000000,
     "regularMarketChange": 0.0,
@@ -1146,6 +1141,8 @@
     "earningsCallTimestampStart": 1746701940,
     "earningsCallTimestampEnd": 1746701940,
     "isEarningsDateEstimate": true,
+    "epsTrailingTwelveMonths": 94.86,
+    "epsForward": 124.06,
     "corporateActions": [],
     "regularMarketTime": 1780036200,
     "exchange": "JPX",
@@ -1155,8 +1152,11 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "marketState": "CLOSED",
+    "marketState": "REGULAR",
+    "regularMarketChangePercent": 0.0,
+    "regularMarketPrice": 3340.0,
     "shortName": "KAKAKU.COM. INC",
+    "longName": "Kakaku.com, Inc.",
     "trailingPegRatio": null
   }
 }

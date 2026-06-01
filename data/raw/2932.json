@@ -1,7 +1,7 @@
 {
   "ticker": "2932",
   "japanese_ticker": "2932.T",
-  "fetch_date": "2026-05-31T00:09:11.869096",
+  "fetch_date": "2026-06-01T00:14:51.064876",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-12-31 00:00:00": 135864000.0,
@@ -1228,8 +1228,8 @@
     "averageVolume": 23030,
     "averageVolume10days": 19880,
     "averageDailyVolume10Day": 19880,
-    "bid": 1048.0,
-    "ask": 1051.0,
+    "bid": 1060.0,
+    "ask": 0.0,
     "marketCap": 18631663616,
     "nonDilutedMarketCap": 18631661544,
     "fiftyTwoWeekLow": 1000.0,
@@ -1295,17 +1295,7 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "corporateActions": [
-      {
-        "header": "Dividend",
-        "message": "2932.T announced a cash dividend of JPY 20.00 with an ex-date of Jun. 29, 2026",
-        "meta": {
-          "eventType": "DIVIDEND",
-          "dateEpochMs": 1782658800000,
-          "amount": "20.00"
-        }
-      }
-    ],
+    "corporateActions": [],
     "regularMarketTime": 1780036200,
     "exchange": "JPX",
     "messageBoardId": "finmb_684524649",
@@ -1314,8 +1304,9 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "longName": "STI Foods Holdings,Inc.",
-    "marketState": "CLOSED",
+    "regularMarketChangePercent": 0.1912046,
+    "regularMarketPrice": 1048.0,
+    "shortName": "STI FOODS HLDGS INC",
     "fiftyDayAverageChange": -98.28003,
     "fiftyDayAverageChangePercent": -0.085738234,
     "twoHundredDayAverageChange": -203.44995,
@@ -1323,7 +1314,7 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
-    "shortName": "STI FOODS HLDGS INC",
+    "marketState": "REGULAR",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1600992000000,
     "regularMarketChange": 2.0,
@@ -1341,8 +1332,7 @@
     "isEarningsDateEstimate": true,
     "epsTrailingTwelveMonths": 136.24,
     "epsForward": 335.6,
-    "regularMarketChangePercent": 0.1912046,
-    "regularMarketPrice": 1048.0,
+    "longName": "STI Foods Holdings,Inc.",
     "trailingPegRatio": null
   }
 }

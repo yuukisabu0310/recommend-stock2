@@ -1,7 +1,7 @@
 {
   "ticker": "1965",
   "japanese_ticker": "1965.T",
-  "fetch_date": "2026-05-30T23:58:43.697111",
+  "fetch_date": "2026-06-01T00:03:48.176731",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": 62543000.0,
@@ -1085,8 +1085,8 @@
     "averageVolume": 89015,
     "averageVolume10days": 89070,
     "averageDailyVolume10Day": 89070,
-    "bid": 6300.0,
-    "ask": 6400.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 129787346944,
@@ -1155,6 +1155,10 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "regularMarketChangePercent": -1.24805,
+    "marketState": "REGULAR",
+    "shortName": "TECHNO RYOWA LTD",
+    "longName": "Techno Ryowa Ltd.",
     "corporateActions": [],
     "regularMarketTime": 1780036200,
     "exchange": "JPX",
@@ -1164,13 +1168,7 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "regularMarketChangePercent": -1.24805,
     "regularMarketPrice": 6330.0,
-    "marketState": "CLOSED",
-    "shortName": "TECHNO RYOWA LTD",
-    "longName": "Techno Ryowa Ltd.",
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 978307200000,
     "regularMarketChange": -80.0,
     "regularMarketDayRange": "6210.0 - 6430.0",
     "fullExchangeName": "Tokyo",
@@ -1192,6 +1190,8 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 978307200000,
     "trailingPegRatio": null
   }
 }

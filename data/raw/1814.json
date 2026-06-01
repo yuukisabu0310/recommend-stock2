@@ -1,7 +1,7 @@
 {
   "ticker": "1814",
   "japanese_ticker": "1814.T",
-  "fetch_date": "2026-05-30T23:56:46.048990",
+  "fetch_date": "2026-06-01T00:01:35.610205",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": -36888000.0,
@@ -978,8 +978,8 @@
     "averageVolume": 107868,
     "averageVolume10days": 100160,
     "averageDailyVolume10Day": 100160,
-    "bid": 3235.0,
-    "ask": 3260.0,
+    "bid": 0.0,
+    "ask": 3170.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 33356730368,
@@ -1048,11 +1048,6 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "regularMarketChangePercent": 0.777605,
-    "regularMarketPrice": 3240.0,
-    "shortName": "DAISUE CONSTRUCTION CO",
-    "longName": "Daisue Construction Co., Ltd.",
-    "corporateActions": [],
     "regularMarketTime": 1780036200,
     "exchange": "JPX",
     "messageBoardId": "finmb_880849",
@@ -1061,6 +1056,7 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
+    "corporateActions": [],
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 978307200000,
     "regularMarketChange": 25.0,
@@ -1084,7 +1080,11 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
-    "marketState": "CLOSED",
+    "shortName": "DAISUE CONSTRUCTION CO",
+    "longName": "Daisue Construction Co., Ltd.",
+    "marketState": "REGULAR",
+    "regularMarketChangePercent": 0.777605,
+    "regularMarketPrice": 3240.0,
     "trailingPegRatio": null
   }
 }

@@ -1,7 +1,7 @@
 {
   "ticker": "2332",
   "japanese_ticker": "2332.T",
-  "fetch_date": "2026-05-31T00:02:25.283373",
+  "fetch_date": "2026-06-01T00:07:47.255558",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": 2788811.95403,
@@ -113,7 +113,7 @@
     },
     "Basic Average Shares": {
       "2025-03-31 00:00:00": 5357945.0,
-      "2024-03-31 00:00:00": 5352737.0,
+      "2024-03-31 00:00:00": 5352602.0,
       "2023-03-31 00:00:00": 5339057.0,
       "2022-03-31 00:00:00": 5188000.0
     },
@@ -264,7 +264,7 @@
       "2022-03-31 00:00:00": 297936.0
     },
     "Ordinary Shares Number": {
-      "2025-03-31 00:00:00": 5359840.0,
+      "2025-03-31 00:00:00": 5354666.0,
       "2024-03-31 00:00:00": 5354189.0,
       "2023-03-31 00:00:00": 5348749.0,
       "2022-03-31 00:00:00": 5189832.0
@@ -989,8 +989,8 @@
     "averageVolume": 66545,
     "averageVolume10days": 115810,
     "averageDailyVolume10Day": 115810,
-    "bid": 1951.0,
-    "ask": 1962.0,
+    "bid": 1920.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 10007956480,
@@ -1057,10 +1057,7 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "regularMarketChangePercent": -3.8897092,
-    "regularMarketPrice": 1952.0,
-    "marketState": "CLOSED",
-    "hasPrePostMarketData": false,
+    "epsTrailingTwelveMonths": 152.45,
     "fiftyDayAverageChange": 199.43994,
     "fiftyDayAverageChangePercent": 0.11379921,
     "twoHundredDayAverageChange": 309.54004,
@@ -1068,15 +1065,7 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
-    "corporateActions": [],
-    "regularMarketTime": 1780036200,
-    "exchange": "JPX",
-    "messageBoardId": "finmb_12787025",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
+    "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1034294400000,
     "regularMarketChange": -79.0,
     "regularMarketDayRange": "1948.0 - 2099.0",
@@ -1091,9 +1080,20 @@
     "earningsTimestampStart": 1747209600,
     "earningsTimestampEnd": 1747209600,
     "isEarningsDateEstimate": false,
-    "epsTrailingTwelveMonths": 152.45,
     "shortName": "QUEST CO LTD",
     "longName": "Quest Co., Ltd.",
+    "marketState": "REGULAR",
+    "corporateActions": [],
+    "regularMarketTime": 1780036200,
+    "exchange": "JPX",
+    "messageBoardId": "finmb_12787025",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
+    "regularMarketChangePercent": -3.8897092,
+    "regularMarketPrice": 1952.0,
     "trailingPegRatio": null
   }
 }

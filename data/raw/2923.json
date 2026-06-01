@@ -1,7 +1,7 @@
 {
   "ticker": "2923",
   "japanese_ticker": "2923.T",
-  "fetch_date": "2026-05-31T00:08:57.322332",
+  "fetch_date": "2026-06-01T00:14:36.168260",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-04-30 00:00:00": -14499568.0,
@@ -107,13 +107,13 @@
     },
     "Diluted Average Shares": {
       "2025-04-30 00:00:00": 5043653.0,
-      "2024-04-30 00:00:00": 5043734.0,
+      "2024-04-30 00:00:00": 5043735.0,
       "2023-04-30 00:00:00": 5043790.0,
       "2022-04-30 00:00:00": 5043875.0
     },
     "Basic Average Shares": {
       "2025-04-30 00:00:00": 5043653.0,
-      "2024-04-30 00:00:00": 5043734.0,
+      "2024-04-30 00:00:00": 5043735.0,
       "2023-04-30 00:00:00": 5043790.0,
       "2022-04-30 00:00:00": 5043875.0
     },
@@ -1001,8 +1001,8 @@
     "averageVolume": 3748,
     "averageVolume10days": 2560,
     "averageDailyVolume10Day": 2560,
-    "bid": 7240.0,
-    "ask": 7320.0,
+    "bid": 0.0,
+    "ask": 7360.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 36919234560,
@@ -1069,8 +1069,20 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "marketState": "REGULAR",
+    "corporateActions": [],
+    "regularMarketTime": 1780036200,
+    "exchange": "JPX",
+    "messageBoardId": "finmb_5718656",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
     "regularMarketChangePercent": 0.6877579,
     "regularMarketPrice": 7320.0,
+    "shortName": "SATO FOODS CO LTD",
+    "longName": "Sato Foods Co., Ltd.",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 986947200000,
     "regularMarketChange": 50.0,
@@ -1094,18 +1106,6 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
-    "exchange": "JPX",
-    "messageBoardId": "finmb_5718656",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
-    "shortName": "SATO FOODS CO LTD",
-    "longName": "Sato Foods Co., Ltd.",
-    "marketState": "CLOSED",
-    "corporateActions": [],
-    "regularMarketTime": 1780036200,
     "trailingPegRatio": null
   }
 }

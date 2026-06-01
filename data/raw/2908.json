@@ -1,7 +1,7 @@
 {
   "ticker": "2908",
   "japanese_ticker": "2908.T",
-  "fetch_date": "2026-05-31T00:08:40.713063",
+  "fetch_date": "2026-06-01T00:14:18.371997",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": -71736000.0,
@@ -937,8 +937,8 @@
     "averageVolume": 66048,
     "averageVolume10days": 79750,
     "averageDailyVolume10Day": 79750,
-    "bid": 1491.0,
-    "ask": 1500.0,
+    "bid": 0.0,
+    "ask": 1506.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 42681499648,
@@ -1005,9 +1005,7 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "shortName": "FUJICCO CO LTD",
-    "longName": "Fujicco Co., Ltd.",
-    "marketState": "CLOSED",
+    "marketState": "REGULAR",
     "regularMarketChangePercent": 1.4895058,
     "regularMarketPrice": 1499.0,
     "corporateActions": [],
@@ -1019,6 +1017,11 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
+    "shortName": "FUJICCO CO LTD",
+    "longName": "Fujicco Co., Ltd.",
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 978307200000,
     "regularMarketChange": 22.0,
@@ -1040,9 +1043,6 @@
     "fiftyDayAverageChangePercent": -0.027961504,
     "twoHundredDayAverageChange": -95.18005,
     "twoHundredDayAverageChangePercent": -0.059704706,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
     "trailingPegRatio": null
   }
 }

@@ -1,7 +1,7 @@
 {
   "ticker": "1992",
   "japanese_ticker": "1992.T",
-  "fetch_date": "2026-05-30T23:59:08.383896",
+  "fetch_date": "2026-06-01T00:04:12.517318",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": -29507912.266053,
@@ -101,7 +101,7 @@
     },
     "Diluted Average Shares": {
       "2025-03-31 00:00:00": 2321181.0,
-      "2024-03-31 00:00:00": 2345146.0,
+      "2024-03-31 00:00:00": 2345190.0,
       "2023-03-31 00:00:00": 2376586.0,
       "2022-03-31 00:00:00": 2404888.0
     },
@@ -258,7 +258,7 @@
       "2022-03-31 00:00:00": 253413.0
     },
     "Ordinary Shares Number": {
-      "2025-03-31 00:00:00": 2317619.0,
+      "2025-03-31 00:00:00": 2279423.0,
       "2024-03-31 00:00:00": 2342788.0,
       "2023-03-31 00:00:00": 2381038.0,
       "2022-03-31 00:00:00": 2369814.0
@@ -954,7 +954,7 @@
     "averageVolume10days": 40,
     "averageDailyVolume10Day": 40,
     "bid": 0.0,
-    "ask": 2759.0,
+    "ask": 2784.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 6315069952,
@@ -972,7 +972,7 @@
     "tradeable": false,
     "enterpriseValue": 3242069760,
     "profitMargins": 0.05489,
-    "floatShares": 1102847,
+    "floatShares": 948566,
     "sharesOutstanding": 2289728,
     "heldPercentInsiders": 0.52677,
     "heldPercentInstitutions": 0.0,
@@ -1023,7 +1023,6 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "marketState": "CLOSED",
     "corporateActions": [],
     "regularMarketTime": 1780032994,
     "exchange": "JPX",
@@ -1033,8 +1032,10 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "shortName": "KANDA TSUSHINKI CO",
-    "longName": "Kanda Tsushinki Co., Ltd.",
+    "regularMarketChangePercent": 0.2544529,
+    "regularMarketPrice": 2758.0,
+    "marketState": "REGULAR",
+    "cryptoTradeable": false,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 946944000000,
     "regularMarketChange": 7.0,
@@ -1057,9 +1058,8 @@
     "twoHundredDayAverageChangePercent": -0.00049290684,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
-    "regularMarketChangePercent": 0.2544529,
-    "regularMarketPrice": 2758.0,
+    "shortName": "KANDA TSUSHINKI CO",
+    "longName": "Kanda Tsushinki Co., Ltd.",
     "trailingPegRatio": null
   }
 }

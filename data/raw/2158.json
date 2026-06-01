@@ -1,7 +1,7 @@
 {
   "ticker": "2158",
   "japanese_ticker": "2158.T",
-  "fetch_date": "2026-05-31T00:00:13.116301",
+  "fetch_date": "2026-06-01T00:05:21.212372",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": -68997264.0,
@@ -276,7 +276,7 @@
       "2022-03-31 00:00:00": 39313366.0
     },
     "Share Issued": {
-      "2025-03-31 00:00:00": 39356118.0,
+      "2025-03-31 00:00:00": 39356862.0,
       "2024-03-31 00:00:00": 39355862.0,
       "2023-03-31 00:00:00": 39332862.0,
       "2022-03-31 00:00:00": 39314062.0
@@ -1049,8 +1049,8 @@
     "averageVolume": 419773,
     "averageVolume10days": 584330,
     "averageDailyVolume10Day": 584330,
-    "bid": 595.0,
-    "ask": 601.0,
+    "bid": 0.0,
+    "ask": 605.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 23352176640,
@@ -1120,10 +1120,7 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "shortName": "FRONTEO INC",
     "corporateActions": [],
-    "regularMarketChangePercent": 0.8460237,
-    "regularMarketPrice": 596.0,
     "regularMarketTime": 1780036200,
     "exchange": "JPX",
     "messageBoardId": "finmb_34594958",
@@ -1132,6 +1129,12 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
+    "regularMarketChangePercent": 0.8460237,
+    "regularMarketPrice": 596.0,
+    "marketState": "REGULAR",
+    "cryptoTradeable": false,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1182816000000,
     "regularMarketChange": 5.0,
     "regularMarketDayRange": "596.0 - 622.0",
     "fullExchangeName": "Tokyo",
@@ -1142,7 +1145,6 @@
     "fiftyTwoWeekHighChange": -637.0,
     "fiftyTwoWeekHighChangePercent": -0.5166261,
     "fiftyTwoWeekChangePercent": -6.141734,
-    "cryptoTradeable": false,
     "earningsTimestamp": 1778826600,
     "earningsTimestampStart": 1786602600,
     "earningsTimestampEnd": 1786602600,
@@ -1155,10 +1157,8 @@
     "twoHundredDayAverageChangePercent": -0.3085927,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1182816000000,
+    "shortName": "FRONTEO INC",
     "longName": "FRONTEO, Inc.",
-    "marketState": "CLOSED",
     "trailingPegRatio": null
   }
 }

@@ -1,7 +1,7 @@
 {
   "ticker": "2325",
   "japanese_ticker": "2325.T",
-  "fetch_date": "2026-05-31T00:02:14.310942",
+  "fetch_date": "2026-06-01T00:07:35.031615",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-12-31 00:00:00": -51995385.0,
@@ -145,14 +145,14 @@
     },
     "Diluted EPS": {
       "2025-12-31 00:00:00": null,
-      "2024-12-31 00:00:00": null,
+      "2024-12-31 00:00:00": 222.22,
       "2023-12-31 00:00:00": 209.33,
       "2022-12-31 00:00:00": 181.03,
       "2021-12-31 00:00:00": 202.4
     },
     "Basic EPS": {
       "2025-12-31 00:00:00": null,
-      "2024-12-31 00:00:00": null,
+      "2024-12-31 00:00:00": 222.22,
       "2023-12-31 00:00:00": 209.33,
       "2022-12-31 00:00:00": 181.03,
       "2021-12-31 00:00:00": 202.4
@@ -1241,8 +1241,8 @@
     "averageVolume": 27805,
     "averageVolume10days": 30420,
     "averageDailyVolume10Day": 30420,
-    "bid": 5030.0,
-    "ask": 5080.0,
+    "bid": 5020.0,
+    "ask": 5020.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 48186945536,
@@ -1309,13 +1309,8 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "regularMarketTime": 1780036200,
-    "marketState": "CLOSED",
-    "shortName": "NJS CO. LTD",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1032998400000,
-    "regularMarketChangePercent": -0.7843138,
-    "regularMarketPrice": 5060.0,
     "regularMarketChange": -40.0,
     "regularMarketDayRange": "5060.0 - 5260.0",
     "fullExchangeName": "Tokyo",
@@ -1331,25 +1326,11 @@
     "isEarningsDateEstimate": true,
     "epsTrailingTwelveMonths": 229.22,
     "epsForward": 209.6,
-    "fiftyDayAverageChange": 287.2998,
-    "fiftyDayAverageChangePercent": 0.060196493,
-    "twoHundredDayAverageChange": -74.125,
-    "twoHundredDayAverageChangePercent": -0.014437708,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
-    "longName": "NJS Co., Ltd.",
-    "corporateActions": [
-      {
-        "header": "Dividend",
-        "message": "2325.T announced a cash dividend of JPY 55.00 with an ex-date of Jun. 29, 2026",
-        "meta": {
-          "eventType": "DIVIDEND",
-          "dateEpochMs": 1782658800000,
-          "amount": "55.00"
-        }
-      }
-    ],
+    "regularMarketChangePercent": -0.7843138,
+    "regularMarketPrice": 5060.0,
+    "marketState": "REGULAR",
+    "corporateActions": [],
+    "regularMarketTime": 1780036200,
     "exchange": "JPX",
     "messageBoardId": "finmb_6469603",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1357,6 +1338,15 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
+    "shortName": "NJS CO. LTD",
+    "longName": "NJS Co., Ltd.",
+    "fiftyDayAverageChange": 287.2998,
+    "fiftyDayAverageChangePercent": 0.060196493,
+    "twoHundredDayAverageChange": -74.125,
+    "twoHundredDayAverageChangePercent": -0.014437708,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
     "trailingPegRatio": null
   }
 }

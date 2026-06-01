@@ -1,7 +1,7 @@
 {
   "ticker": "2820",
   "japanese_ticker": "2820.T",
-  "fetch_date": "2026-05-31T00:08:05.789071",
+  "fetch_date": "2026-06-01T00:13:40.489539",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-06-30 00:00:00": 137055555.452803,
@@ -1094,8 +1094,8 @@
     "averageVolume": 18068,
     "averageVolume10days": 31020,
     "averageDailyVolume10Day": 31020,
-    "bid": 4540.0,
-    "ask": 4635.0,
+    "bid": 0.0,
+    "ask": 4670.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 31979108352,
@@ -1161,18 +1161,6 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "epsTrailingTwelveMonths": 263.01,
-    "epsForward": 306.7,
-    "fiftyDayAverageChange": 366.7998,
-    "fiftyDayAverageChangePercent": 0.08685352,
-    "twoHundredDayAverageChange": 4.2001953,
-    "twoHundredDayAverageChangePercent": 0.0009159134,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
-    "regularMarketChangePercent": -0.9708738,
-    "regularMarketPrice": 4590.0,
-    "longName": "Yamami Company",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1466121600000,
     "regularMarketChange": -45.0,
@@ -1188,7 +1176,29 @@
     "earningsTimestampStart": 1754461800,
     "earningsTimestampEnd": 1754980200,
     "isEarningsDateEstimate": true,
-    "corporateActions": [],
+    "epsTrailingTwelveMonths": 263.01,
+    "epsForward": 306.7,
+    "fiftyDayAverageChange": 366.7998,
+    "fiftyDayAverageChangePercent": 0.08685352,
+    "twoHundredDayAverageChange": 4.2001953,
+    "twoHundredDayAverageChangePercent": 0.0009159134,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
+    "marketState": "REGULAR",
+    "shortName": "YAMAMI COMPANY",
+    "longName": "Yamami Company",
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "2820.T announced a cash dividend of JPY 46.00 with an ex-date of Jun. 29, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1782658800000,
+          "amount": "46.00"
+        }
+      }
+    ],
     "regularMarketTime": 1780036200,
     "exchange": "JPX",
     "messageBoardId": "finmb_338910738",
@@ -1197,8 +1207,8 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "marketState": "CLOSED",
-    "shortName": "YAMAMI COMPANY",
+    "regularMarketChangePercent": -0.9708738,
+    "regularMarketPrice": 4590.0,
     "trailingPegRatio": null
   }
 }

@@ -1,7 +1,7 @@
 {
   "ticker": "2700",
   "japanese_ticker": "2700.T",
-  "fetch_date": "2026-05-31T00:06:17.368309",
+  "fetch_date": "2026-06-01T00:11:48.935147",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-12-31 00:00:00": -59635416.0,
@@ -125,23 +125,23 @@
     "Diluted Average Shares": {
       "2025-12-31 00:00:00": 8173696.0,
       "2024-12-31 00:00:00": 8126395.0,
-      "2023-12-31 00:00:00": 1620194.0,
+      "2023-12-31 00:00:00": 8100965.0,
       "2022-12-31 00:00:00": 8101255.0,
       "2021-12-31 00:00:00": null
     },
     "Basic Average Shares": {
       "2025-12-31 00:00:00": null,
       "2024-12-31 00:00:00": 8126395.0,
-      "2023-12-31 00:00:00": 1620194.0,
+      "2023-12-31 00:00:00": 8100965.0,
       "2022-12-31 00:00:00": 8101255.0,
-      "2021-12-31 00:00:00": 1620439.0
+      "2021-12-31 00:00:00": 8102195.0
     },
     "Diluted EPS": {
       "2025-12-31 00:00:00": null,
       "2024-12-31 00:00:00": 212.14,
-      "2023-12-31 00:00:00": 912.69,
-      "2022-12-31 00:00:00": 641.01,
-      "2021-12-31 00:00:00": 311.72
+      "2023-12-31 00:00:00": 182.538,
+      "2022-12-31 00:00:00": 128.202,
+      "2021-12-31 00:00:00": 62.344
     },
     "Basic EPS": {
       "2025-12-31 00:00:00": null,
@@ -315,10 +315,10 @@
   "balance_sheet": {
     "Treasury Shares Number": {
       "2025-12-31 00:00:00": 351418.0,
-      "2024-12-31 00:00:00": null,
-      "2023-12-31 00:00:00": 85813.0,
+      "2024-12-31 00:00:00": 363530.0,
+      "2023-12-31 00:00:00": 429065.0,
       "2022-12-31 00:00:00": 428985.0,
-      "2021-12-31 00:00:00": 428315.0
+      "2021-12-31 00:00:00": null
     },
     "Ordinary Shares Number": {
       "2025-12-31 00:00:00": 8178582.0,
@@ -329,7 +329,7 @@
     },
     "Share Issued": {
       "2025-12-31 00:00:00": 8530000.0,
-      "2024-12-31 00:00:00": 1624281.0,
+      "2024-12-31 00:00:00": 8530000.0,
       "2023-12-31 00:00:00": 8530000.0,
       "2022-12-31 00:00:00": 8530000.0,
       "2021-12-31 00:00:00": null
@@ -1223,7 +1223,7 @@
     "averageVolume": 31506,
     "averageVolume10days": 18330,
     "averageDailyVolume10Day": 18330,
-    "bid": 1780.0,
+    "bid": 0.0,
     "ask": 1781.0,
     "bidSize": 0,
     "askSize": 0,
@@ -1291,12 +1291,8 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "cryptoTradeable": false,
-    "corporateActions": [],
-    "regularMarketTime": 1780036200,
-    "marketState": "CLOSED",
-    "regularMarketChangePercent": 1.3667426,
-    "regularMarketPrice": 1780.0,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 995414400000,
     "regularMarketChange": 24.0,
     "regularMarketDayRange": "1774.0 - 1804.0",
     "fullExchangeName": "Tokyo",
@@ -1311,16 +1307,23 @@
     "earningsTimestampEnd": 1754632800,
     "isEarningsDateEstimate": true,
     "epsTrailingTwelveMonths": 675.33,
-    "fiftyDayAverageChange": -130.66003,
-    "fiftyDayAverageChangePercent": -0.06838477,
-    "twoHundredDayAverageChange": -1353.1201,
-    "twoHundredDayAverageChangePercent": -0.43187624,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
     "shortName": "KITOKU SHINRYO CO",
     "longName": "Kitoku Shinryo Co., Ltd.",
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 995414400000,
+    "regularMarketChangePercent": 1.3667426,
+    "regularMarketPrice": 1780.0,
+    "marketState": "REGULAR",
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "2700.T announced a cash dividend of JPY 25.00 with an ex-date of Jun. 29, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1782658800000,
+          "amount": "25.00"
+        }
+      }
+    ],
+    "regularMarketTime": 1780036200,
     "exchange": "JPX",
     "messageBoardId": "finmb_6452742",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1328,6 +1331,13 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
+    "fiftyDayAverageChange": -130.66003,
+    "fiftyDayAverageChangePercent": -0.06838477,
+    "twoHundredDayAverageChange": -1353.1201,
+    "twoHundredDayAverageChangePercent": -0.43187624,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
     "trailingPegRatio": null
   }
 }

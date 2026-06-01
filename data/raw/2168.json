@@ -1,17 +1,17 @@
 {
   "ticker": "2168",
   "japanese_ticker": "2168.T",
-  "fetch_date": "2026-05-31T00:00:22.543455",
+  "fetch_date": "2026-06-01T00:05:32.029850",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-05-31 00:00:00": -127832000.0,
-      "2024-05-31 00:00:00": 6353375299.997176,
+      "2024-05-31 00:00:00": 6351220300.0,
       "2023-05-31 00:00:00": 428620400.0,
       "2022-05-31 00:00:00": -81815500.0
     },
     "Tax Rate For Calcs": {
       "2025-05-31 00:00:00": 0.232,
-      "2024-05-31 00:00:00": 0.064122,
+      "2024-05-31 00:00:00": 0.0641,
       "2023-05-31 00:00:00": 0.3614,
       "2022-05-31 00:00:00": 0.3991
     },
@@ -83,7 +83,7 @@
     },
     "Normalized Income": {
       "2025-05-31 00:00:00": -8234832000.0,
-      "2024-05-31 00:00:00": 3161375299.997176,
+      "2024-05-31 00:00:00": 3159220300.0,
       "2023-05-31 00:00:00": 5341620400.0,
       "2022-05-31 00:00:00": 8744184500.0
     },
@@ -1141,8 +1141,8 @@
     "averageVolume": 237086,
     "averageVolume10days": 495260,
     "averageDailyVolume10Day": 495260,
-    "bid": 1610.0,
-    "ask": 1623.0,
+    "bid": 0.0,
+    "ask": 1601.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 60174761984,
@@ -1210,20 +1210,7 @@
     "customPriceAlertConfidence": "LOW",
     "shortName": "PASONA GROUP INC",
     "longName": "Pasona Group Inc.",
-    "regularMarketChangePercent": -0.86153847,
-    "regularMarketPrice": 1611.0,
-    "marketState": "CLOSED",
-    "exchange": "JPX",
-    "messageBoardId": "finmb_6442783",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
-    "corporateActions": [],
-    "regularMarketTime": 1780036200,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1067299200000,
+    "marketState": "REGULAR",
     "regularMarketChange": -14.0,
     "regularMarketDayRange": "1611.0 - 1649.0",
     "fullExchangeName": "Tokyo",
@@ -1246,6 +1233,19 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1067299200000,
+    "corporateActions": [],
+    "regularMarketTime": 1780036200,
+    "exchange": "JPX",
+    "messageBoardId": "finmb_6442783",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
+    "regularMarketChangePercent": -0.86153847,
+    "regularMarketPrice": 1611.0,
     "trailingPegRatio": null
   }
 }

@@ -1,7 +1,7 @@
 {
   "ticker": "2303",
   "japanese_ticker": "2303.T",
-  "fetch_date": "2026-05-31T00:01:57.209352",
+  "fetch_date": "2026-06-01T00:07:16.598487",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-05-31 00:00:00": 0.0,
@@ -107,7 +107,7 @@
     },
     "Basic Average Shares": {
       "2025-05-31 00:00:00": 3064566.0,
-      "2024-05-31 00:00:00": 3102694.0,
+      "2024-05-31 00:00:00": 3102823.0,
       "2023-05-31 00:00:00": 3175276.0,
       "2022-05-31 00:00:00": 3202471.0
     },
@@ -240,19 +240,19 @@
   },
   "balance_sheet": {
     "Treasury Shares Number": {
-      "2025-05-31 00:00:00": null,
+      "2025-05-31 00:00:00": 264206.0,
       "2024-05-31 00:00:00": 229068.0,
       "2023-05-31 00:00:00": 188768.0,
       "2022-05-31 00:00:00": 95968.0
     },
     "Ordinary Shares Number": {
-      "2025-05-31 00:00:00": 3080894.0,
+      "2025-05-31 00:00:00": 3035794.0,
       "2024-05-31 00:00:00": 3070932.0,
       "2023-05-31 00:00:00": 3111232.0,
       "2022-05-31 00:00:00": 3204032.0
     },
     "Share Issued": {
-      "2025-05-31 00:00:00": 3080894.0,
+      "2025-05-31 00:00:00": 3300000.0,
       "2024-05-31 00:00:00": 3300000.0,
       "2023-05-31 00:00:00": 3300000.0,
       "2022-05-31 00:00:00": 3300000.0
@@ -869,8 +869,8 @@
     "averageVolume": 22795,
     "averageVolume10days": 28070,
     "averageDailyVolume10Day": 28070,
-    "bid": 1321.0,
-    "ask": 1371.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 8109509120,
@@ -936,21 +936,8 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "regularMarketChangePercent": 1.3372957,
-    "regularMarketPrice": 1364.0,
-    "shortName": "DAWN CORP",
     "longName": "Dawn Corp.",
-    "corporateActions": [],
-    "regularMarketTime": 1780036200,
-    "exchange": "JPX",
-    "messageBoardId": "finmb_8888160",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1024012800000,
+    "marketState": "REGULAR",
     "regularMarketChange": 18.0,
     "regularMarketDayRange": "1312.0 - 1392.0",
     "fullExchangeName": "Tokyo",
@@ -972,7 +959,20 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
-    "marketState": "CLOSED",
+    "corporateActions": [],
+    "regularMarketTime": 1780036200,
+    "exchange": "JPX",
+    "messageBoardId": "finmb_8888160",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "shortName": "DAWN CORP",
+    "esgPopulated": false,
+    "regularMarketChangePercent": 1.3372957,
+    "regularMarketPrice": 1364.0,
+    "firstTradeDateMilliseconds": 1024012800000,
+    "hasPrePostMarketData": false,
     "trailingPegRatio": null
   }
 }

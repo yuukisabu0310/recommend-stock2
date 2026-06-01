@@ -1,7 +1,7 @@
 {
   "ticker": "2164",
   "japanese_ticker": "2164.T",
-  "fetch_date": "2026-05-31T00:00:20.629801",
+  "fetch_date": "2026-06-01T00:05:30.022246",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-08-31 00:00:00": 962205.733815,
@@ -132,7 +132,7 @@
     "Basic Average Shares": {
       "2025-08-31 00:00:00": 14959416.0,
       "2024-08-31 00:00:00": 8930956.0,
-      "2023-08-31 00:00:00": 2102745.0,
+      "2023-08-31 00:00:00": 2102092.0,
       "2022-08-31 00:00:00": 1908211.0,
       "2021-08-31 00:00:00": null
     },
@@ -315,14 +315,14 @@
     },
     "Ordinary Shares Number": {
       "2025-08-31 00:00:00": 7482188.0,
-      "2024-08-31 00:00:00": 3739655.0,
+      "2024-08-31 00:00:00": 2669517.0,
       "2023-08-31 00:00:00": 2158653.0,
       "2022-08-31 00:00:00": 2072033.0,
       "2021-08-31 00:00:00": null
     },
     "Share Issued": {
       "2025-08-31 00:00:00": 7483828.0,
-      "2024-08-31 00:00:00": 3739655.0,
+      "2024-08-31 00:00:00": 2670276.0,
       "2023-08-31 00:00:00": 2159286.0,
       "2022-08-31 00:00:00": 2072500.0,
       "2021-08-31 00:00:00": null
@@ -1146,8 +1146,8 @@
     "averageVolume": 60490,
     "averageVolume10days": 23390,
     "averageDailyVolume10Day": 23390,
-    "bid": 292.0,
-    "ask": 294.0,
+    "bid": 0.0,
+    "ask": 305.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 2216227328,
@@ -1212,28 +1212,15 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "shortName": "CHIIKISHINBUNSHA CO LTD",
-    "corporateActions": [
-      {
-        "header": "Stock split",
-        "message": "2164.T announces 1.7999999523162842 for 1 split effective Jun. 24, 2026",
-        "meta": {
-          "eventType": "SPLIT",
-          "dateEpochMs": 1782226800000,
-          "splitRatio": "1.7999999523162842:1"
-        }
-      }
-    ],
-    "regularMarketChangePercent": 0.6849315,
-    "regularMarketPrice": 294.0,
-    "regularMarketTime": 1780036200,
-    "exchange": "JPX",
-    "messageBoardId": "finmb_38010842",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
+    "fiftyDayAverageChange": -22.720001,
+    "fiftyDayAverageChangePercent": -0.07173529,
+    "twoHundredDayAverageChange": -17.862488,
+    "twoHundredDayAverageChangePercent": -0.057276808,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1198801800000,
     "regularMarketChange": 2.0,
     "regularMarketDayRange": "290.0 - 294.0",
     "fullExchangeName": "Tokyo",
@@ -1244,23 +1231,26 @@
     "fiftyTwoWeekHighChange": -168.5,
     "fiftyTwoWeekHighChangePercent": -0.36432433,
     "fiftyTwoWeekChangePercent": 62.430943,
-    "cryptoTradeable": false,
     "earningsTimestampStart": 1750917600,
     "earningsTimestampEnd": 1751263200,
     "earningsCallTimestampStart": 1744282740,
     "earningsCallTimestampEnd": 1744282740,
     "isEarningsDateEstimate": true,
     "epsTrailingTwelveMonths": -6.79,
-    "fiftyDayAverageChange": -22.720001,
-    "fiftyDayAverageChangePercent": -0.07173529,
-    "twoHundredDayAverageChange": -17.862488,
-    "twoHundredDayAverageChangePercent": -0.057276808,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1198801800000,
+    "corporateActions": [],
+    "regularMarketTime": 1780036200,
+    "exchange": "JPX",
+    "messageBoardId": "finmb_38010842",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
+    "marketState": "REGULAR",
+    "regularMarketChangePercent": 0.6849315,
+    "regularMarketPrice": 294.0,
+    "shortName": "CHIIKISHINBUNSHA CO LTD",
     "longName": "Chiikishinbunsha Co.,Ltd.",
-    "marketState": "CLOSED",
     "trailingPegRatio": null
   }
 }

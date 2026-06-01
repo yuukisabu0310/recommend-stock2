@@ -1,7 +1,7 @@
 {
   "ticker": "1788",
   "japanese_ticker": "1788.T",
-  "fetch_date": "2026-05-30T23:56:20.618793",
+  "fetch_date": "2026-06-01T00:01:07.157377",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-06-30 00:00:00": null,
@@ -145,17 +145,17 @@
     },
     "Diluted EPS": {
       "2025-06-30 00:00:00": 371.94,
-      "2024-06-30 00:00:00": null,
+      "2024-06-30 00:00:00": 214.43,
       "2023-06-30 00:00:00": 367.59,
       "2022-06-30 00:00:00": 305.28,
-      "2021-06-30 00:00:00": 240.23
+      "2021-06-30 00:00:00": null
     },
     "Basic EPS": {
       "2025-06-30 00:00:00": 371.94,
-      "2024-06-30 00:00:00": null,
+      "2024-06-30 00:00:00": 214.43,
       "2023-06-30 00:00:00": 367.59,
       "2022-06-30 00:00:00": 305.28,
-      "2021-06-30 00:00:00": 240.23
+      "2021-06-30 00:00:00": null
     },
     "Diluted NI Availto Com Stockholders": {
       "2025-06-30 00:00:00": null,
@@ -375,7 +375,7 @@
       "2021-06-30 00:00:00": 607641.0
     },
     "Share Issued": {
-      "2024-06-30 00:00:00": 618022.0,
+      "2024-06-30 00:00:00": 686000.0,
       "2023-06-30 00:00:00": 686000.0,
       "2022-06-30 00:00:00": 686000.0,
       "2021-06-30 00:00:00": 686000.0
@@ -1085,8 +1085,8 @@
     "averageVolume": 656,
     "averageVolume10days": 720,
     "averageDailyVolume10Day": 720,
-    "bid": 4480.0,
-    "ask": 4530.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 2811431168,
@@ -1153,6 +1153,11 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 947116800000,
+    "earningsTimestampStart": 1746597600,
+    "earningsTimestampEnd": 1746597600,
+    "isEarningsDateEstimate": false,
     "epsTrailingTwelveMonths": 518.91,
     "fiftyDayAverageChange": -423.1001,
     "fiftyDayAverageChangePercent": -0.086204454,
@@ -1161,24 +1166,6 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
-    "regularMarketChangePercent": -2.181025,
-    "regularMarketPrice": 4485.0,
-    "longName": "Santo Corporation",
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 947116800000,
-    "regularMarketChange": -100.0,
-    "regularMarketDayRange": "4485.0 - 4580.0",
-    "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 656,
-    "fiftyTwoWeekLowChange": 680.0,
-    "fiftyTwoWeekLowChangePercent": 0.17871222,
-    "fiftyTwoWeekRange": "3805.0 - 6400.0",
-    "fiftyTwoWeekHighChange": -1915.0,
-    "fiftyTwoWeekHighChangePercent": -0.29921874,
-    "fiftyTwoWeekChangePercent": 12.265337,
-    "earningsTimestampStart": 1746597600,
-    "earningsTimestampEnd": 1746597600,
-    "isEarningsDateEstimate": false,
     "corporateActions": [
       {
         "header": "Dividend",
@@ -1197,9 +1184,22 @@
     "exchangeTimezoneShortName": "JST",
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
-    "esgPopulated": false,
-    "marketState": "CLOSED",
     "shortName": "SANTO CORPORATION",
+    "longName": "Santo Corporation",
+    "marketState": "REGULAR",
+    "regularMarketChange": -100.0,
+    "regularMarketDayRange": "4485.0 - 4580.0",
+    "fullExchangeName": "Tokyo",
+    "averageDailyVolume3Month": 656,
+    "fiftyTwoWeekLowChange": 680.0,
+    "fiftyTwoWeekLowChangePercent": 0.17871222,
+    "fiftyTwoWeekRange": "3805.0 - 6400.0",
+    "fiftyTwoWeekHighChange": -1915.0,
+    "fiftyTwoWeekHighChangePercent": -0.29921874,
+    "fiftyTwoWeekChangePercent": 12.265337,
+    "esgPopulated": false,
+    "regularMarketChangePercent": -2.181025,
+    "regularMarketPrice": 4485.0,
     "trailingPegRatio": null
   }
 }
