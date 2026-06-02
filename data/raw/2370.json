@@ -1,7 +1,7 @@
 {
   "ticker": "2370",
   "japanese_ticker": "2370.T",
-  "fetch_date": "2026-06-01T00:08:17.636185",
+  "fetch_date": "2026-06-02T00:17:26.632797",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-09-30 00:00:00": 13910024.0,
@@ -131,17 +131,17 @@
     },
     "Basic Average Shares": {
       "2025-09-30 00:00:00": 264647679.0,
-      "2024-09-30 00:00:00": 253282224.0,
+      "2024-09-30 00:00:00": null,
       "2023-09-30 00:00:00": 216084438.0,
       "2022-09-30 00:00:00": 198069652.0,
-      "2021-09-30 00:00:00": null
+      "2021-09-30 00:00:00": 172664409.0
     },
     "Diluted EPS": {
       "2025-09-30 00:00:00": -5.15,
-      "2024-09-30 00:00:00": -5.04,
+      "2024-09-30 00:00:00": null,
       "2023-09-30 00:00:00": -6.65,
       "2022-09-30 00:00:00": -6.33,
-      "2021-09-30 00:00:00": null
+      "2021-09-30 00:00:00": -4.88
     },
     "Basic EPS": {
       "2025-09-30 00:00:00": -5.15,
@@ -1088,21 +1088,21 @@
     "priceHint": 2,
     "previousClose": 28.0,
     "open": 28.0,
-    "dayLow": 27.0,
+    "dayLow": 28.0,
     "dayHigh": 28.0,
     "regularMarketPreviousClose": 28.0,
     "regularMarketOpen": 28.0,
-    "regularMarketDayLow": 27.0,
+    "regularMarketDayLow": 28.0,
     "regularMarketDayHigh": 28.0,
     "payoutRatio": 0.0,
     "beta": 0.258,
-    "volume": 1497000,
-    "regularMarketVolume": 1497000,
+    "volume": 879300,
+    "regularMarketVolume": 879300,
     "averageVolume": 1265371,
     "averageVolume10days": 1181270,
     "averageDailyVolume10Day": 1181270,
     "bid": 0.0,
-    "ask": 29.0,
+    "ask": 28.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 7809682944,
@@ -1167,10 +1167,8 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1065571200000,
-    "corporateActions": [],
-    "regularMarketTime": 1780036200,
+    "regularMarketChangePercent": 0.0,
+    "regularMarketPrice": 28.0,
     "exchange": "JPX",
     "messageBoardId": "finmb_9830272",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1178,10 +1176,11 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "regularMarketChangePercent": 0.0,
-    "regularMarketPrice": 28.0,
+    "shortName": "MEDINET CO LTD",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1065571200000,
     "regularMarketChange": 0.0,
-    "regularMarketDayRange": "27.0 - 28.0",
+    "regularMarketDayRange": "28.0 - 28.0",
     "fullExchangeName": "Tokyo",
     "averageDailyVolume3Month": 1265371,
     "fiftyTwoWeekLowChange": 1.0,
@@ -1201,9 +1200,10 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
-    "shortName": "MEDINET CO LTD",
-    "longName": "MEDINET Co., Ltd.",
     "marketState": "REGULAR",
+    "corporateActions": [],
+    "regularMarketTime": 1780358400,
+    "longName": "MEDINET Co., Ltd.",
     "trailingPegRatio": null
   }
 }

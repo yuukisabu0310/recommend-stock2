@@ -1,7 +1,7 @@
 {
   "ticker": "1992",
   "japanese_ticker": "1992.T",
-  "fetch_date": "2026-06-01T00:04:12.517318",
+  "fetch_date": "2026-06-02T00:13:10.897541",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": -29507912.266053,
@@ -101,7 +101,7 @@
     },
     "Diluted Average Shares": {
       "2025-03-31 00:00:00": 2321181.0,
-      "2024-03-31 00:00:00": 2345190.0,
+      "2024-03-31 00:00:00": 2345146.0,
       "2023-03-31 00:00:00": 2376586.0,
       "2022-03-31 00:00:00": 2404888.0
     },
@@ -258,7 +258,7 @@
       "2022-03-31 00:00:00": 253413.0
     },
     "Ordinary Shares Number": {
-      "2025-03-31 00:00:00": 2279423.0,
+      "2025-03-31 00:00:00": 2317619.0,
       "2024-03-31 00:00:00": 2342788.0,
       "2023-03-31 00:00:00": 2381038.0,
       "2022-03-31 00:00:00": 2369814.0
@@ -933,11 +933,11 @@
     "executiveTeam": [],
     "maxAge": 86400,
     "priceHint": 2,
-    "previousClose": 2751.0,
+    "previousClose": 2758.0,
     "open": 2751.0,
     "dayLow": 2751.0,
     "dayHigh": 2758.0,
-    "regularMarketPreviousClose": 2751.0,
+    "regularMarketPreviousClose": 2758.0,
     "regularMarketOpen": 2751.0,
     "regularMarketDayLow": 2751.0,
     "regularMarketDayHigh": 2758.0,
@@ -967,7 +967,7 @@
     "fiftyDayAverage": 2789.92,
     "twoHundredDayAverage": 2759.36,
     "trailingAnnualDividendRate": 82.0,
-    "trailingAnnualDividendYield": 0.029807342,
+    "trailingAnnualDividendYield": 0.029731689,
     "currency": "JPY",
     "tradeable": false,
     "enterpriseValue": 3242069760,
@@ -1023,7 +1023,8 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "corporateActions": [],
+    "shortName": "KANDA TSUSHINKI CO",
+    "longName": "Kanda Tsushinki Co., Ltd.",
     "regularMarketTime": 1780032994,
     "exchange": "JPX",
     "messageBoardId": "finmb_9264357",
@@ -1032,13 +1033,12 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "regularMarketChangePercent": 0.2544529,
+    "regularMarketChangePercent": 0.0,
     "regularMarketPrice": 2758.0,
-    "marketState": "REGULAR",
-    "cryptoTradeable": false,
+    "corporateActions": [],
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 946944000000,
-    "regularMarketChange": 7.0,
+    "regularMarketChange": 0.0,
     "regularMarketDayRange": "2751.0 - 2758.0",
     "fullExchangeName": "Tokyo",
     "averageDailyVolume3Month": 185,
@@ -1048,6 +1048,7 @@
     "fiftyTwoWeekHighChange": -297.0,
     "fiftyTwoWeekHighChangePercent": -0.09721768,
     "fiftyTwoWeekChangePercent": 4.628229,
+    "marketState": "REGULAR",
     "earningsTimestampStart": 1747031400,
     "earningsTimestampEnd": 1747031400,
     "isEarningsDateEstimate": false,
@@ -1058,8 +1059,7 @@
     "twoHundredDayAverageChangePercent": -0.00049290684,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
-    "shortName": "KANDA TSUSHINKI CO",
-    "longName": "Kanda Tsushinki Co., Ltd.",
+    "cryptoTradeable": false,
     "trailingPegRatio": null
   }
 }
