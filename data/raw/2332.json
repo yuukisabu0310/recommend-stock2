@@ -1,7 +1,7 @@
 {
   "ticker": "2332",
   "japanese_ticker": "2332.T",
-  "fetch_date": "2026-06-06T00:09:22.047713",
+  "fetch_date": "2026-06-07T00:05:21.518600",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": 2788811.95403,
@@ -113,7 +113,7 @@
     },
     "Basic Average Shares": {
       "2025-03-31 00:00:00": 5357945.0,
-      "2024-03-31 00:00:00": 5352737.0,
+      "2024-03-31 00:00:00": 5352602.0,
       "2023-03-31 00:00:00": 5339057.0,
       "2022-03-31 00:00:00": 5188000.0
     },
@@ -264,7 +264,7 @@
       "2022-03-31 00:00:00": 297936.0
     },
     "Ordinary Shares Number": {
-      "2025-03-31 00:00:00": 5359840.0,
+      "2025-03-31 00:00:00": 5354666.0,
       "2024-03-31 00:00:00": 5354189.0,
       "2023-03-31 00:00:00": 5348749.0,
       "2022-03-31 00:00:00": 5189832.0
@@ -1058,8 +1058,8 @@
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
     "marketState": "CLOSED",
-    "corporateActions": [],
-    "regularMarketTime": 1780641000,
+    "regularMarketChangePercent": 2.1774633,
+    "regularMarketPrice": 1877.0,
     "exchange": "JPX",
     "messageBoardId": "finmb_12787025",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1067,8 +1067,10 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1034294400000,
+    "corporateActions": [],
+    "regularMarketTime": 1780641000,
+    "shortName": "QUEST CO LTD",
+    "longName": "Quest Co., Ltd.",
     "regularMarketChange": 40.0,
     "regularMarketDayRange": "1833.0 - 1900.0",
     "fullExchangeName": "Tokyo",
@@ -1090,10 +1092,8 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
-    "shortName": "QUEST CO LTD",
-    "longName": "Quest Co., Ltd.",
-    "regularMarketChangePercent": 2.1774633,
-    "regularMarketPrice": 1877.0,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1034294400000,
     "trailingPegRatio": null
   }
 }

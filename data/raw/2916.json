@@ -1,7 +1,7 @@
 {
   "ticker": "2916",
   "japanese_ticker": "2916.T",
-  "fetch_date": "2026-06-06T00:16:31.420092",
+  "fetch_date": "2026-06-07T00:11:28.434117",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": null,
@@ -328,7 +328,7 @@
   },
   "balance_sheet": {
     "Treasury Shares Number": {
-      "2025-03-31 00:00:00": null,
+      "2025-03-31 00:00:00": 16408.0,
       "2024-03-31 00:00:00": 16384.0,
       "2023-03-31 00:00:00": 16000.0,
       "2022-03-31 00:00:00": 16000.0
@@ -340,7 +340,7 @@
       "2022-03-31 00:00:00": 11384000.0
     },
     "Share Issued": {
-      "2025-03-31 00:00:00": 11383616.0,
+      "2025-03-31 00:00:00": 11400000.0,
       "2024-03-31 00:00:00": 11400000.0,
       "2023-03-31 00:00:00": 11400000.0,
       "2022-03-31 00:00:00": 11400000.0
@@ -1181,9 +1181,6 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "longName": "Semba Tohka Industries Co., Ltd",
-    "regularMarketChangePercent": -0.41208795,
-    "regularMarketPrice": 725.0,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 947030400000,
     "regularMarketChange": -3.0,
@@ -1200,16 +1197,8 @@
     "earningsTimestampEnd": 1747116000,
     "isEarningsDateEstimate": false,
     "epsTrailingTwelveMonths": 48.72,
-    "fiftyDayAverageChange": 11.840027,
-    "fiftyDayAverageChangePercent": 0.016602203,
-    "twoHundredDayAverageChange": -4.5150146,
-    "twoHundredDayAverageChangePercent": -0.006189063,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
     "corporateActions": [],
     "regularMarketTime": 1780631577,
-    "marketState": "CLOSED",
     "exchange": "JPX",
     "messageBoardId": "finmb_5719917",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1217,7 +1206,18 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
+    "marketState": "CLOSED",
+    "fiftyDayAverageChange": 11.840027,
+    "fiftyDayAverageChangePercent": 0.016602203,
+    "twoHundredDayAverageChange": -4.5150146,
+    "twoHundredDayAverageChangePercent": -0.006189063,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
     "shortName": "SEMBA TOHKA INDUSTRIES CO",
+    "longName": "Semba Tohka Industries Co., Ltd",
+    "regularMarketChangePercent": -0.41208795,
+    "regularMarketPrice": 725.0,
     "trailingPegRatio": null
   }
 }

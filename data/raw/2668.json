@@ -1,7 +1,7 @@
 {
   "ticker": "2668",
   "japanese_ticker": "2668.T",
-  "fetch_date": "2026-06-06T00:13:05.963168",
+  "fetch_date": "2026-06-07T00:08:30.095113",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-02-28 00:00:00": -35965325.0,
@@ -125,14 +125,14 @@
     "Diluted Average Shares": {
       "2026-02-28 00:00:00": null,
       "2025-02-28 00:00:00": 6788000.0,
-      "2024-02-29 00:00:00": 6796351.0,
+      "2024-02-29 00:00:00": 6796825.0,
       "2023-02-28 00:00:00": 6800886.0,
       "2022-02-28 00:00:00": 6802000.0
     },
     "Basic Average Shares": {
       "2026-02-28 00:00:00": null,
       "2025-02-28 00:00:00": 6788000.0,
-      "2024-02-29 00:00:00": 6796351.0,
+      "2024-02-29 00:00:00": 6796825.0,
       "2023-02-28 00:00:00": 6800886.0,
       "2022-02-28 00:00:00": 6802000.0
     },
@@ -1176,7 +1176,12 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "regularMarketChangePercent": 0.24174054,
+    "regularMarketPrice": 1244.0,
+    "shortName": "TABIO CORPORATION",
     "longName": "Tabio Corporation",
+    "corporateActions": [],
+    "regularMarketTime": 1780637941,
     "exchange": "JPX",
     "messageBoardId": "finmb_5863519",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1184,12 +1189,6 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "regularMarketChangePercent": 0.24174054,
-    "regularMarketPrice": 1244.0,
-    "marketState": "CLOSED",
-    "shortName": "TABIO CORPORATION",
-    "corporateActions": [],
-    "regularMarketTime": 1780637941,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 970790400000,
     "regularMarketChange": 3.0,
@@ -1213,6 +1212,7 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
+    "marketState": "CLOSED",
     "trailingPegRatio": null
   }
 }

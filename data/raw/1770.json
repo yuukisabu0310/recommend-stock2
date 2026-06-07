@@ -1,7 +1,7 @@
 {
   "ticker": "1770",
   "japanese_ticker": "1770.T",
-  "fetch_date": "2026-06-06T00:02:14.916962",
+  "fetch_date": "2026-06-06T23:59:13.909340",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": null,
@@ -335,7 +335,7 @@
   },
   "balance_sheet": {
     "Treasury Shares Number": {
-      "2025-03-31 00:00:00": null,
+      "2025-03-31 00:00:00": 1028254.0,
       "2024-03-31 00:00:00": 2540954.0,
       "2023-03-31 00:00:00": 2553000.0,
       "2022-03-31 00:00:00": 2567000.0
@@ -347,7 +347,7 @@
       "2022-03-31 00:00:00": 9133000.0
     },
     "Share Issued": {
-      "2025-03-31 00:00:00": 9171746.0,
+      "2025-03-31 00:00:00": 10200000.0,
       "2024-03-31 00:00:00": 11700000.0,
       "2023-03-31 00:00:00": 11700000.0,
       "2022-03-31 00:00:00": 11700000.0
@@ -1022,12 +1022,12 @@
     "regularMarketDayLow": 1749.0,
     "regularMarketDayHigh": 1825.0,
     "dividendRate": 68.0,
-    "dividendYield": 3.89,
+    "dividendYield": 3.73,
     "exDividendDate": 1790640000,
     "payoutRatio": 0.29930001,
     "fiveYearAvgDividendYield": 3.66,
     "beta": 0.439,
-    "trailingPE": 8.710802,
+    "trailingPE": 9.107241,
     "volume": 5200,
     "regularMarketVolume": 5200,
     "averageVolume": 4215,
@@ -1064,7 +1064,7 @@
     "mostRecentQuarter": 1774915200,
     "earningsQuarterlyGrowth": 1.379,
     "netIncomeToCommon": 1840000000,
-    "trailingEps": 209.51,
+    "trailingEps": 200.39,
     "lastSplitFactor": "2:1",
     "lastSplitDate": 969926400,
     "enterpriseToRevenue": 0.299,
@@ -1104,11 +1104,6 @@
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
     "marketState": "CLOSED",
-    "shortName": "FUJITA ENGINEERING CO",
-    "regularMarketChangePercent": 4.5246277,
-    "regularMarketPrice": 1825.0,
-    "corporateActions": [],
-    "regularMarketTime": 1780639515,
     "exchange": "JPX",
     "messageBoardId": "finmb_5718785",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1116,16 +1111,6 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "longName": "Fujita Engineering Co., Ltd.",
-    "isEarningsDateEstimate": false,
-    "epsTrailingTwelveMonths": 209.51,
-    "fiftyDayAverageChange": 126.69995,
-    "fiftyDayAverageChangePercent": 0.07460398,
-    "twoHundredDayAverageChange": 128.67004,
-    "twoHundredDayAverageChangePercent": 0.075852014,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 946944000000,
     "regularMarketChange": 79.0,
@@ -1140,6 +1125,21 @@
     "fiftyTwoWeekChangePercent": 15.068495,
     "earningsTimestampStart": 1747116000,
     "earningsTimestampEnd": 1747116000,
+    "isEarningsDateEstimate": false,
+    "epsTrailingTwelveMonths": 200.39,
+    "fiftyDayAverageChange": 126.69995,
+    "fiftyDayAverageChangePercent": 0.07460398,
+    "twoHundredDayAverageChange": 128.67004,
+    "twoHundredDayAverageChangePercent": 0.075852014,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
+    "regularMarketChangePercent": 4.5246277,
+    "regularMarketPrice": 1825.0,
+    "shortName": "FUJITA ENGINEERING CO",
+    "longName": "Fujita Engineering Co., Ltd.",
+    "corporateActions": [],
+    "regularMarketTime": 1780639515,
     "trailingPegRatio": null
   }
 }

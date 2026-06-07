@@ -1,7 +1,7 @@
 {
   "ticker": "1852",
   "japanese_ticker": "1852.T",
-  "fetch_date": "2026-06-06T00:03:31.200251",
+  "fetch_date": "2026-06-07T00:00:18.800158",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": -63973000.0,
@@ -1023,7 +1023,7 @@
     "regularMarketDayLow": 777.0,
     "regularMarketDayHigh": 793.0,
     "dividendRate": 56.0,
-    "dividendYield": 7.22,
+    "dividendYield": 7.16,
     "exDividendDate": 1790640000,
     "payoutRatio": 0.7005,
     "fiveYearAvgDividendYield": 5.73,
@@ -1104,6 +1104,9 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "regularMarketChangePercent": 0.77319586,
+    "regularMarketPrice": 782.0,
+    "shortName": "ASANUMA CORP",
     "longName": "Asanuma Corporation",
     "corporateActions": [],
     "regularMarketTime": 1780641000,
@@ -1135,12 +1138,9 @@
     "twoHundredDayAverageChange": -183.20502,
     "twoHundredDayAverageChangePercent": -0.18980943,
     "sourceInterval": 15,
-    "regularMarketChangePercent": 0.77319586,
-    "regularMarketPrice": 782.0,
-    "marketState": "CLOSED",
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
-    "shortName": "ASANUMA CORP",
+    "marketState": "CLOSED",
     "trailingPegRatio": null
   }
 }

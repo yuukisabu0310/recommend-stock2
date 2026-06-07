@@ -1,7 +1,7 @@
 {
   "ticker": "2158",
   "japanese_ticker": "2158.T",
-  "fetch_date": "2026-06-06T00:06:52.385073",
+  "fetch_date": "2026-06-07T00:03:13.104460",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": -68997264.0,
@@ -276,7 +276,7 @@
       "2022-03-31 00:00:00": 39313366.0
     },
     "Share Issued": {
-      "2025-03-31 00:00:00": 39356118.0,
+      "2025-03-31 00:00:00": 39356862.0,
       "2024-03-31 00:00:00": 39355862.0,
       "2023-03-31 00:00:00": 39332862.0,
       "2022-03-31 00:00:00": 39314062.0
@@ -1042,7 +1042,7 @@
     "exDividendDate": 1680134400,
     "payoutRatio": 0.0,
     "beta": 1.098,
-    "trailingPE": 41.331482,
+    "trailingPE": 42.908566,
     "forwardPE": 55.700935,
     "volume": 302200,
     "regularMarketVolume": 302200,
@@ -1080,7 +1080,7 @@
     "mostRecentQuarter": 1774915200,
     "earningsQuarterlyGrowth": 0.188,
     "netIncomeToCommon": 544000000,
-    "trailingEps": 14.42,
+    "trailingEps": 13.89,
     "forwardEps": 10.7,
     "lastSplitFactor": "10:1",
     "lastSplitDate": 1395878400,
@@ -1122,6 +1122,18 @@
     "customPriceAlertConfidence": "LOW",
     "shortName": "FRONTEO INC",
     "longName": "FRONTEO, Inc.",
+    "cryptoTradeable": false,
+    "corporateActions": [],
+    "regularMarketTime": 1780641000,
+    "exchange": "JPX",
+    "messageBoardId": "finmb_34594958",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
+    "regularMarketChangePercent": 4.013962,
+    "regularMarketPrice": 596.0,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1182816000000,
     "regularMarketChange": 23.0,
@@ -1138,7 +1150,7 @@
     "earningsTimestampStart": 1786602600,
     "earningsTimestampEnd": 1786602600,
     "isEarningsDateEstimate": true,
-    "epsTrailingTwelveMonths": 14.42,
+    "epsTrailingTwelveMonths": 13.89,
     "epsForward": 10.7,
     "fiftyDayAverageChange": -160.09998,
     "fiftyDayAverageChangePercent": -0.21174446,
@@ -1146,19 +1158,7 @@
     "twoHundredDayAverageChangePercent": -0.3041813,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
-    "regularMarketChangePercent": 4.013962,
-    "regularMarketPrice": 596.0,
     "marketState": "CLOSED",
-    "corporateActions": [],
-    "regularMarketTime": 1780641000,
-    "exchange": "JPX",
-    "messageBoardId": "finmb_34594958",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
-    "cryptoTradeable": false,
     "trailingPegRatio": null
   }
 }

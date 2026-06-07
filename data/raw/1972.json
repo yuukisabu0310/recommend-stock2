@@ -1,7 +1,7 @@
 {
   "ticker": "1972",
   "japanese_ticker": "1972.T",
-  "fetch_date": "2026-06-06T00:05:23.690103",
+  "fetch_date": "2026-06-07T00:01:59.553281",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": 0.0,
@@ -1021,12 +1021,12 @@
     "regularMarketDayLow": 1188.0,
     "regularMarketDayHigh": 1233.0,
     "dividendRate": 64.0,
-    "dividendYield": 5.39,
+    "dividendYield": 5.22,
     "exDividendDate": 1790640000,
     "payoutRatio": 0.5029,
     "fiveYearAvgDividendYield": 4.93,
     "beta": 0.572,
-    "trailingPE": 8.658192,
+    "trailingPE": 8.936511,
     "volume": 109100,
     "regularMarketVolume": 109100,
     "averageVolume": 95928,
@@ -1063,7 +1063,7 @@
     "mostRecentQuarter": 1490918400,
     "earningsQuarterlyGrowth": -0.428,
     "netIncomeToCommon": 1743000064,
-    "trailingEps": 141.6,
+    "trailingEps": 137.19,
     "lastSplitFactor": "5:1",
     "lastSplitDate": 1759104000,
     "enterpriseToRevenue": 0.535,
@@ -1102,6 +1102,7 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "marketState": "CLOSED",
     "corporateActions": [],
     "regularMarketTime": 1780641000,
     "exchange": "JPX",
@@ -1111,6 +1112,8 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
+    "regularMarketChangePercent": 3.198653,
+    "regularMarketPrice": 1226.0,
     "shortName": "SANKO METAL INDUSTRIAL CO",
     "longName": "Sanko Metal Industrial Co., Ltd.",
     "hasPrePostMarketData": false,
@@ -1128,7 +1131,7 @@
     "earningsTimestampStart": 1753335000,
     "earningsTimestampEnd": 1753680600,
     "isEarningsDateEstimate": true,
-    "epsTrailingTwelveMonths": 141.6,
+    "epsTrailingTwelveMonths": 137.19,
     "fiftyDayAverageChange": -48.180054,
     "fiftyDayAverageChangePercent": -0.037812594,
     "twoHundredDayAverageChange": -197.77002,
@@ -1136,9 +1139,6 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
-    "regularMarketChangePercent": 3.198653,
-    "regularMarketPrice": 1226.0,
-    "marketState": "CLOSED",
     "trailingPegRatio": null
   }
 }

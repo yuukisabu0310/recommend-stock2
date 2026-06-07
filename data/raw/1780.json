@@ -1,7 +1,7 @@
 {
   "ticker": "1780",
   "japanese_ticker": "1780.T",
-  "fetch_date": "2026-06-06T00:02:19.194628",
+  "fetch_date": "2026-06-06T23:59:17.575169",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": 2766798.0,
@@ -107,13 +107,13 @@
     },
     "Diluted Average Shares": {
       "2025-03-31 00:00:00": 18927227.0,
-      "2024-03-31 00:00:00": 18927538.0,
+      "2024-03-31 00:00:00": 18927308.0,
       "2023-03-31 00:00:00": 18927321.0,
       "2022-03-31 00:00:00": 18927321.0
     },
     "Basic Average Shares": {
       "2025-03-31 00:00:00": 18927227.0,
-      "2024-03-31 00:00:00": 18927538.0,
+      "2024-03-31 00:00:00": 18927308.0,
       "2023-03-31 00:00:00": 18927321.0,
       "2022-03-31 00:00:00": 18927321.0
     },
@@ -270,13 +270,13 @@
       "2022-03-31 00:00:00": 2176193.0
     },
     "Ordinary Shares Number": {
-      "2025-03-31 00:00:00": 18927228.0,
+      "2025-03-31 00:00:00": 18927227.0,
       "2024-03-31 00:00:00": 18927228.0,
       "2023-03-31 00:00:00": 18927321.0,
       "2022-03-31 00:00:00": 18927321.0
     },
     "Share Issued": {
-      "2025-03-31 00:00:00": 18927228.0,
+      "2025-03-31 00:00:00": 21103514.0,
       "2024-03-31 00:00:00": 21103514.0,
       "2023-03-31 00:00:00": 21103514.0,
       "2022-03-31 00:00:00": 21103514.0
@@ -1066,19 +1066,8 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "exchange": "JPX",
-    "messageBoardId": "finmb_884138",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
-    "corporateActions": [],
-    "regularMarketTime": 1780641000,
-    "marketState": "CLOSED",
-    "regularMarketPrice": 1363.0,
-    "shortName": "YAMAURA CORP",
-    "fiftyTwoWeekChangePercent": 9.942484,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 978307200000,
     "earningsTimestampStart": 1754546400,
     "earningsTimestampEnd": 1754978400,
     "isEarningsDateEstimate": true,
@@ -1090,10 +1079,17 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
-    "regularMarketChangePercent": 1.7923825,
+    "corporateActions": [],
+    "regularMarketTime": 1780641000,
+    "exchange": "JPX",
+    "messageBoardId": "finmb_884138",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "shortName": "YAMAURA CORP",
     "longName": "Yamaura Corporation",
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 978307200000,
+    "marketState": "CLOSED",
     "regularMarketChange": 24.0,
     "regularMarketDayRange": "1328.0 - 1373.0",
     "fullExchangeName": "Tokyo",
@@ -1103,6 +1099,10 @@
     "fiftyTwoWeekRange": "1199.0 - 1696.0",
     "fiftyTwoWeekHighChange": -333.0,
     "fiftyTwoWeekHighChangePercent": -0.19634435,
+    "fiftyTwoWeekChangePercent": 9.942484,
+    "esgPopulated": false,
+    "regularMarketChangePercent": 1.7923825,
+    "regularMarketPrice": 1363.0,
     "trailingPegRatio": null
   }
 }

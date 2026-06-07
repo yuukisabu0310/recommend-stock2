@@ -1,7 +1,7 @@
 {
   "ticker": "2760",
   "japanese_ticker": "2760.T",
-  "fetch_date": "2026-06-06T00:14:29.917517",
+  "fetch_date": "2026-06-07T00:09:40.713793",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": -1540000.0,
@@ -957,6 +957,31 @@
         "yearBorn": 1970,
         "exercisedValue": 0,
         "unexercisedValue": 0
+      },
+      {
+        "maxAge": 1,
+        "name": "Mr. Masami  Hasegawa",
+        "age": 60,
+        "title": "Corporate Director, Corporate Officer, GM of Global Sales & Operations and EC BU and Senior EVP",
+        "yearBorn": 1965,
+        "exercisedValue": 0,
+        "unexercisedValue": 0
+      },
+      {
+        "maxAge": 1,
+        "name": "Mr. Kazuki  Shinoda",
+        "age": 60,
+        "title": "Senior Executive VP & GM of PB BU/BUGM",
+        "yearBorn": 1965,
+        "exercisedValue": 0,
+        "unexercisedValue": 0
+      },
+      {
+        "maxAge": 1,
+        "name": "Toshikazu  Mishina",
+        "title": "Senior VP & Corporate Officer",
+        "exercisedValue": 0,
+        "unexercisedValue": 0
       }
     ],
     "auditRisk": 1,
@@ -977,7 +1002,7 @@
     "regularMarketDayLow": 4035.0,
     "regularMarketDayHigh": 4260.0,
     "dividendRate": 138.0,
-    "dividendYield": 3.26,
+    "dividendYield": 3.27,
     "exDividendDate": 1790640000,
     "payoutRatio": 0.40240002,
     "fiveYearAvgDividendYield": 3.33,
@@ -1060,10 +1085,6 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "regularMarketChangePercent": -0.2361275,
-    "regularMarketPrice": 4225.0,
-    "shortName": "TOKYO ELECTRON DEVICE",
-    "marketState": "CLOSED",
     "corporateActions": [],
     "regularMarketTime": 1780641000,
     "exchange": "JPX",
@@ -1073,10 +1094,9 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
-    "longName": "Tokyo Electron Device Limited",
+    "regularMarketChangePercent": -0.2361275,
+    "regularMarketPrice": 4225.0,
+    "shortName": "TOKYO ELECTRON DEVICE",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1046995200000,
     "regularMarketChange": -10.0,
@@ -1098,6 +1118,11 @@
     "fiftyDayAverageChangePercent": 0.17670321,
     "twoHundredDayAverageChange": 916.3601,
     "twoHundredDayAverageChangePercent": 0.27695975,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
+    "marketState": "CLOSED",
+    "longName": "Tokyo Electron Device Limited",
     "trailingPegRatio": null
   }
 }

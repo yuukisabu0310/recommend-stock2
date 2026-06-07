@@ -1,7 +1,7 @@
 {
   "ticker": "1967",
   "japanese_ticker": "1967.T",
-  "fetch_date": "2026-06-06T00:05:17.514074",
+  "fetch_date": "2026-06-07T00:01:53.661299",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": 155384836.173323,
@@ -270,13 +270,13 @@
   },
   "balance_sheet": {
     "Treasury Shares Number": {
-      "2025-03-31 00:00:00": 2123261.0,
+      "2025-03-31 00:00:00": 2123282.0,
       "2024-03-31 00:00:00": 1751025.0,
       "2023-03-31 00:00:00": 1612197.0,
       "2022-03-31 00:00:00": 1272255.0
     },
     "Ordinary Shares Number": {
-      "2025-03-31 00:00:00": 24804391.0,
+      "2025-03-31 00:00:00": 24804370.0,
       "2024-03-31 00:00:00": 25176627.0,
       "2023-03-31 00:00:00": 25315455.0,
       "2022-03-31 00:00:00": 25655397.0
@@ -1065,7 +1065,7 @@
     "regularMarketDayLow": 2043.0,
     "regularMarketDayHigh": 2109.0,
     "dividendRate": 154.0,
-    "dividendYield": 7.47,
+    "dividendYield": 7.34,
     "exDividendDate": 1805328000,
     "payoutRatio": 0.3038,
     "fiveYearAvgDividendYield": 2.78,
@@ -1145,9 +1145,8 @@
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
     "marketState": "CLOSED",
-    "shortName": "YAMATO CORPORATION",
-    "regularMarketChangePercent": 1.7952449,
-    "regularMarketPrice": 2098.0,
+    "corporateActions": [],
+    "regularMarketTime": 1780641000,
     "exchange": "JPX",
     "messageBoardId": "finmb_883570",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1155,14 +1154,10 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "earningsTimestampStart": 1754287200,
-    "earningsTimestampEnd": 1754632800,
-    "isEarningsDateEstimate": true,
-    "epsTrailingTwelveMonths": 197.42,
-    "fiftyDayAverageChange": -73.30005,
-    "fiftyDayAverageChangePercent": -0.0337586,
-    "twoHundredDayAverageChange": -37.06494,
-    "twoHundredDayAverageChangePercent": -0.0173601,
+    "regularMarketChangePercent": 1.7952449,
+    "regularMarketPrice": 2098.0,
+    "shortName": "YAMATO CORPORATION",
+    "longName": "Yamato Corporation",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 978307200000,
     "regularMarketChange": 37.0,
@@ -1175,12 +1170,17 @@
     "fiftyTwoWeekHighChange": -431.0,
     "fiftyTwoWeekHighChangePercent": -0.17042309,
     "fiftyTwoWeekChangePercent": 25.550127,
-    "corporateActions": [],
-    "regularMarketTime": 1780641000,
+    "earningsTimestampStart": 1754287200,
+    "earningsTimestampEnd": 1754632800,
+    "isEarningsDateEstimate": true,
+    "epsTrailingTwelveMonths": 197.42,
+    "fiftyDayAverageChange": -73.30005,
+    "fiftyDayAverageChangePercent": -0.0337586,
+    "twoHundredDayAverageChange": -37.06494,
+    "twoHundredDayAverageChangePercent": -0.0173601,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
-    "longName": "Yamato Corporation",
     "trailingPegRatio": null
   }
 }

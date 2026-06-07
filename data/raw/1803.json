@@ -1,7 +1,7 @@
 {
   "ticker": "1803",
   "japanese_ticker": "1803.T",
-  "fetch_date": "2026-06-06T00:02:43.266303",
+  "fetch_date": "2026-06-06T23:59:38.555539",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": 12842550000.0,
@@ -56,6 +56,12 @@
       "2024-03-31 00:00:00": 69451000000.0,
       "2023-03-31 00:00:00": 105139000000.0,
       "2022-03-31 00:00:00": 87574000000.0
+    },
+    "EBIT": {
+      "2025-03-31 00:00:00": 114372000000.0,
+      "2024-03-31 00:00:00": 39195000000.0,
+      "2023-03-31 00:00:00": 79341000000.0,
+      "2022-03-31 00:00:00": 67361000000.0
     },
     "Net Interest Income": {
       "2025-03-31 00:00:00": -2509000000.0,
@@ -414,6 +420,12 @@
       "2022-03-31 00:00:00": 24875000000.0
     },
     "Long Term Debt And Capital Lease Obligation": {
+      "2025-03-31 00:00:00": 288959000000.0,
+      "2024-03-31 00:00:00": 310086000000.0,
+      "2023-03-31 00:00:00": 343184000000.0,
+      "2022-03-31 00:00:00": 292010000000.0
+    },
+    "Long Term Debt": {
       "2025-03-31 00:00:00": 288959000000.0,
       "2024-03-31 00:00:00": 310086000000.0,
       "2023-03-31 00:00:00": 343184000000.0,
@@ -925,6 +937,27 @@
       },
       {
         "maxAge": 1,
+        "name": "Mr. Takeshi  Sekiguchi",
+        "age": 67,
+        "title": "Executive Officer, Executive VP & Director",
+        "yearBorn": 1958,
+        "fiscalYear": 2025,
+        "totalPay": 84000000,
+        "exercisedValue": 0,
+        "unexercisedValue": 0
+      },
+      {
+        "maxAge": 1,
+        "name": "Mr. Tatsuya  Shimmura",
+        "age": 64,
+        "title": "President, Executive Officer & Representative Director",
+        "yearBorn": 1961,
+        "fiscalYear": 2025,
+        "exercisedValue": 0,
+        "unexercisedValue": 0
+      },
+      {
+        "maxAge": 1,
         "name": "Kounari  Yotsumoto",
         "title": "Executive Officer and Director of Investment & Development Division",
         "fiscalYear": 2025,
@@ -951,6 +984,16 @@
       },
       {
         "maxAge": 1,
+        "name": "Mr. Mitsuo  Morii",
+        "age": 62,
+        "title": "Senior Managing Executive Officer",
+        "yearBorn": 1963,
+        "fiscalYear": 2025,
+        "exercisedValue": 0,
+        "unexercisedValue": 0
+      },
+      {
+        "maxAge": 1,
         "name": "Takao  Haneda",
         "title": "Executive VP, Executive Officer & Director of Corporate Ethics Office",
         "fiscalYear": 2025,
@@ -959,40 +1002,18 @@
       },
       {
         "maxAge": 1,
+        "name": "Mr. Takefumi  Saito",
+        "age": 63,
+        "title": "Senior VP, Exec Officer & Deputy Director of Civil Engineering HQ",
+        "yearBorn": 1962,
+        "fiscalYear": 2025,
+        "exercisedValue": 0,
+        "unexercisedValue": 0
+      },
+      {
+        "maxAge": 1,
         "name": "Kojiro  Shimizu",
         "title": "Senior Managing Officer & Director of Tokyo Branch",
-        "fiscalYear": 2025,
-        "exercisedValue": 0,
-        "unexercisedValue": 0
-      },
-      {
-        "maxAge": 1,
-        "name": "Takuya  Ito",
-        "title": "Managing Officer & Deputy Director of Global Business Headquarters",
-        "fiscalYear": 2025,
-        "exercisedValue": 0,
-        "unexercisedValue": 0
-      },
-      {
-        "maxAge": 1,
-        "name": "Shuji  Kakegawa",
-        "title": "Managing Officer & Director - Institute of Technology",
-        "fiscalYear": 2025,
-        "exercisedValue": 0,
-        "unexercisedValue": 0
-      },
-      {
-        "maxAge": 1,
-        "name": "Yutaka  Shimizu",
-        "title": "Managing Officer Director of Engineering Headquarters",
-        "fiscalYear": 2025,
-        "exercisedValue": 0,
-        "unexercisedValue": 0
-      },
-      {
-        "maxAge": 1,
-        "name": "Naoki  Iwagaki",
-        "title": "Managing Officer & Director of Kanto Branch",
         "fiscalYear": 2025,
         "exercisedValue": 0,
         "unexercisedValue": 0
@@ -1035,7 +1056,7 @@
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 1707851644928,
-    "nonDilutedMarketCap": 1672872745251,
+    "nonDilutedMarketCap": 1707851611016,
     "fiftyTwoWeekLow": 1545.5,
     "fiftyTwoWeekHigh": 3618.0,
     "allTimeHigh": 3618.0,
@@ -1052,7 +1073,7 @@
     "floatShares": 533553355,
     "sharesOutstanding": 679201277,
     "heldPercentInsiders": 0.25454,
-    "heldPercentInstitutions": 0.30786,
+    "heldPercentInstitutions": 0.30798,
     "impliedSharesOutstanding": 679201277,
     "bookValue": 1439.888,
     "priceToBook": 1.7463164,
@@ -1106,10 +1127,8 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "regularMarketChangePercent": 2.090946,
-    "regularMarketPrice": 2514.5,
-    "marketState": "CLOSED",
-    "longName": "Shimizu Corporation",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 946944000000,
     "corporateActions": [],
     "regularMarketTime": 1780641000,
     "exchange": "JPX",
@@ -1119,18 +1138,8 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "epsTrailingTwelveMonths": 186.58,
-    "epsForward": 82.12,
-    "fiftyDayAverageChange": -341.41992,
-    "fiftyDayAverageChangePercent": -0.11954814,
-    "twoHundredDayAverageChange": -119.9751,
-    "twoHundredDayAverageChangePercent": -0.04554042,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "averageAnalystRating": "2.3 - Buy",
-    "cryptoTradeable": false,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 946944000000,
+    "regularMarketChangePercent": 2.090946,
+    "regularMarketPrice": 2514.5,
     "regularMarketChange": 51.5,
     "regularMarketDayRange": "2431.0 - 2528.0",
     "fullExchangeName": "Tokyo",
@@ -1147,7 +1156,19 @@
     "earningsCallTimestampStart": 1747306740,
     "earningsCallTimestampEnd": 1747306740,
     "isEarningsDateEstimate": true,
+    "epsTrailingTwelveMonths": 186.58,
+    "epsForward": 82.12,
+    "fiftyDayAverageChange": -341.41992,
+    "fiftyDayAverageChangePercent": -0.11954814,
+    "twoHundredDayAverageChange": -119.9751,
+    "twoHundredDayAverageChangePercent": -0.04554042,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "averageAnalystRating": "2.3 - Buy",
+    "cryptoTradeable": false,
     "shortName": "SHIMIZU CORP",
+    "longName": "Shimizu Corporation",
+    "marketState": "CLOSED",
     "trailingPegRatio": null
   }
 }

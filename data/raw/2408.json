@@ -1,7 +1,7 @@
 {
   "ticker": "2408",
   "japanese_ticker": "2408.T",
-  "fetch_date": "2026-06-06T00:10:29.713186",
+  "fetch_date": "2026-06-07T00:06:17.974543",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-12-31 00:00:00": -386910.0,
@@ -117,10 +117,10 @@
     },
     "Diluted Average Shares": {
       "2025-12-31 00:00:00": 7320798.0,
-      "2024-12-31 00:00:00": null,
+      "2024-12-31 00:00:00": 7310828.0,
       "2023-12-31 00:00:00": 7232929.0,
       "2022-12-31 00:00:00": 7232929.0,
-      "2021-12-31 00:00:00": 7231138.0
+      "2021-12-31 00:00:00": null
     },
     "Basic Average Shares": {
       "2025-12-31 00:00:00": null,
@@ -131,7 +131,7 @@
     },
     "Diluted EPS": {
       "2025-12-31 00:00:00": null,
-      "2024-12-31 00:00:00": null,
+      "2024-12-31 00:00:00": 32.97,
       "2023-12-31 00:00:00": 51.35,
       "2022-12-31 00:00:00": 46.68,
       "2021-12-31 00:00:00": 10.02
@@ -1083,12 +1083,12 @@
     "regularMarketDayLow": 860.0,
     "regularMarketDayHigh": 888.0,
     "dividendRate": 37.0,
-    "dividendYield": 4.22,
+    "dividendYield": 4.25,
     "exDividendDate": 1781740800,
     "payoutRatio": 0.78480005,
     "fiveYearAvgDividendYield": 4.29,
     "beta": -0.094,
-    "trailingPE": 19.083132,
+    "trailingPE": 18.974918,
     "volume": 18600,
     "regularMarketVolume": 18600,
     "averageVolume": 22260,
@@ -1125,7 +1125,7 @@
     "mostRecentQuarter": 1773964800,
     "earningsQuarterlyGrowth": 2.016,
     "netIncomeToCommon": 460000000,
-    "trailingEps": 45.59,
+    "trailingEps": 45.85,
     "enterpriseToRevenue": 0.481,
     "enterpriseToEbitda": 2.613,
     "52WeekChange": 0.34562206,
@@ -1159,9 +1159,6 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "regularMarketChangePercent": -0.6849315,
-    "regularMarketPrice": 870.0,
-    "corporateActions": [],
     "regularMarketTime": 1780641000,
     "exchange": "JPX",
     "messageBoardId": "finmb_11071985",
@@ -1170,8 +1167,7 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "shortName": "KG INTELLIGENCE CO LTD",
-    "longName": "KG Intelligence CO., LTD.",
+    "corporateActions": [],
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1093478400000,
     "regularMarketChange": -6.0,
@@ -1187,15 +1183,19 @@
     "earningsTimestampStart": 1751869800,
     "earningsTimestampEnd": 1752215400,
     "isEarningsDateEstimate": true,
-    "epsTrailingTwelveMonths": 45.59,
+    "epsTrailingTwelveMonths": 45.85,
     "fiftyDayAverageChange": 90.46002,
     "fiftyDayAverageChangePercent": 0.11604282,
     "twoHundredDayAverageChange": 152.875,
     "twoHundredDayAverageChangePercent": 0.21317762,
-    "marketState": "CLOSED",
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
+    "shortName": "KG INTELLIGENCE CO LTD",
+    "longName": "KG Intelligence CO., LTD.",
+    "marketState": "CLOSED",
+    "regularMarketChangePercent": -0.6849315,
+    "regularMarketPrice": 870.0,
     "trailingPegRatio": null
   }
 }

@@ -1,7 +1,7 @@
 {
   "ticker": "2984",
   "japanese_ticker": "2984.T",
-  "fetch_date": "2026-06-06T00:17:29.431900",
+  "fetch_date": "2026-06-07T00:12:18.323781",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": 4578288.0,
@@ -1045,7 +1045,7 @@
     "regularMarketDayLow": 703.0,
     "regularMarketDayHigh": 712.0,
     "dividendRate": 31.0,
-    "dividendYield": 4.37,
+    "dividendYield": 4.41,
     "exDividendDate": 1806364800,
     "payoutRatio": 0.4047,
     "beta": 0.251,
@@ -1123,6 +1123,8 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1655683200000,
     "corporateActions": [],
     "regularMarketTime": 1780639950,
     "exchange": "JPX",
@@ -1132,13 +1134,8 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "shortName": "YAMAICHI REAL ESTATE CO LTD",
-    "longName": "Yamaichi Real Estate Co., Ltd",
     "regularMarketChangePercent": -0.8462624,
     "regularMarketPrice": 703.0,
-    "marketState": "CLOSED",
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1655683200000,
     "regularMarketChange": -6.0,
     "regularMarketDayRange": "703.0 - 712.0",
     "fullExchangeName": "Tokyo",
@@ -1161,8 +1158,11 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "prevName": "Yamaichi Uniheim Real Estate Co.,Ltd",
-    "nameChangeDate": "2026-06-05",
+    "nameChangeDate": "2026-06-06",
     "cryptoTradeable": false,
+    "shortName": "YAMAICHI REAL ESTATE CO LTD",
+    "longName": "Yamaichi Real Estate Co., Ltd",
+    "marketState": "CLOSED",
     "trailingPegRatio": null
   }
 }

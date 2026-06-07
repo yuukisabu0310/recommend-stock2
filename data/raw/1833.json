@@ -1,7 +1,7 @@
 {
   "ticker": "1833",
   "japanese_ticker": "1833.T",
-  "fetch_date": "2026-06-06T00:03:14.404367",
+  "fetch_date": "2026-06-07T00:00:05.325373",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": null,
@@ -1031,7 +1031,7 @@
         "maxAge": 1,
         "name": "Mr. Masahiro  Kaneshige",
         "age": 59,
-        "title": "GM of Sales Dept., Senior Managing Executive Officer & Representative Director",
+        "title": "GM of Mkt. & Sales Dept., Senior Managing Executive Officer & Representative Director",
         "yearBorn": 1966,
         "exercisedValue": 0,
         "unexercisedValue": 0
@@ -1066,7 +1066,7 @@
       },
       {
         "maxAge": 1,
-        "name": "Yasuyuki  Nakatani",
+        "name": "Mr. Yasuyuki  Nakatani",
         "age": 59,
         "title": "Managing Executive Officer, GM of Civil Engineering Dept & Director",
         "yearBorn": 1966,
@@ -1075,7 +1075,7 @@
       },
       {
         "maxAge": 1,
-        "name": "Masanari  Kashiki",
+        "name": "Mr. Masanari  Kashiki",
         "age": 62,
         "title": "Managing Executive Officer & Director",
         "yearBorn": 1963,
@@ -1187,8 +1187,8 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "corporateActions": [],
-    "regularMarketTime": 1780641000,
+    "shortName": "OKUMURA CORP",
+    "longName": "Okumura Corporation",
     "exchange": "JPX",
     "messageBoardId": "finmb_875869",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1196,11 +1196,8 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "longName": "Okumura Corporation",
-    "shortName": "OKUMURA CORP",
-    "marketState": "CLOSED",
-    "regularMarketChangePercent": 2.5547445,
-    "regularMarketPrice": 5620.0,
+    "corporateActions": [],
+    "regularMarketTime": 1780641000,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 978307200000,
     "regularMarketChange": 140.0,
@@ -1227,6 +1224,9 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
+    "marketState": "CLOSED",
+    "regularMarketChangePercent": 2.5547445,
+    "regularMarketPrice": 5620.0,
     "trailingPegRatio": null
   }
 }

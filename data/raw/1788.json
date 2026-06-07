@@ -1,7 +1,7 @@
 {
   "ticker": "1788",
   "japanese_ticker": "1788.T",
-  "fetch_date": "2026-06-06T00:02:27.540547",
+  "fetch_date": "2026-06-06T23:59:24.981989",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-06-30 00:00:00": null,
@@ -145,17 +145,17 @@
     },
     "Diluted EPS": {
       "2025-06-30 00:00:00": 371.94,
-      "2024-06-30 00:00:00": null,
+      "2024-06-30 00:00:00": 214.43,
       "2023-06-30 00:00:00": 367.59,
       "2022-06-30 00:00:00": 305.28,
-      "2021-06-30 00:00:00": 240.23
+      "2021-06-30 00:00:00": null
     },
     "Basic EPS": {
       "2025-06-30 00:00:00": 371.94,
-      "2024-06-30 00:00:00": null,
+      "2024-06-30 00:00:00": 214.43,
       "2023-06-30 00:00:00": 367.59,
       "2022-06-30 00:00:00": 305.28,
-      "2021-06-30 00:00:00": 240.23
+      "2021-06-30 00:00:00": null
     },
     "Diluted NI Availto Com Stockholders": {
       "2025-06-30 00:00:00": null,
@@ -375,7 +375,7 @@
       "2021-06-30 00:00:00": 607641.0
     },
     "Share Issued": {
-      "2024-06-30 00:00:00": 618022.0,
+      "2024-06-30 00:00:00": 686000.0,
       "2023-06-30 00:00:00": 686000.0,
       "2022-06-30 00:00:00": 686000.0,
       "2021-06-30 00:00:00": 686000.0
@@ -1074,14 +1074,14 @@
     "regularMarketDayLow": 4535.0,
     "regularMarketDayHigh": 4640.0,
     "dividendRate": 70.0,
-    "dividendYield": 1.56,
+    "dividendYield": 1.51,
     "exDividendDate": 1782691200,
     "payoutRatio": 0.1349,
     "fiveYearAvgDividendYield": 1.9,
     "beta": 0.054,
-    "trailingPE": 8.673059,
-    "volume": 800,
-    "regularMarketVolume": 800,
+    "trailingPE": 8.944578,
+    "volume": 900,
+    "regularMarketVolume": 900,
     "averageVolume": 665,
     "averageVolume10days": 730,
     "averageDailyVolume10Day": 730,
@@ -1116,7 +1116,7 @@
     "mostRecentQuarter": 1774915200,
     "earningsQuarterlyGrowth": 0.105,
     "netIncomeToCommon": 338000000,
-    "trailingEps": 534.99,
+    "trailingEps": 518.75,
     "lastSplitFactor": "1:10",
     "lastSplitDate": 1514332800,
     "enterpriseToRevenue": 0.14,
@@ -1153,16 +1153,13 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "marketState": "CLOSED",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 947116800000,
     "regularMarketChangePercent": 3.1111112,
     "regularMarketPrice": 4640.0,
-    "fiftyDayAverageChange": -220.7002,
-    "fiftyDayAverageChangePercent": -0.045405023,
-    "twoHundredDayAverageChange": -135.875,
-    "twoHundredDayAverageChangePercent": -0.028450284,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
+    "marketState": "CLOSED",
+    "shortName": "SANTO CORPORATION",
+    "longName": "Santo Corporation",
     "regularMarketChange": 140.0,
     "regularMarketDayRange": "4535.0 - 4640.0",
     "fullExchangeName": "Tokyo",
@@ -1176,7 +1173,14 @@
     "earningsTimestampStart": 1746597600,
     "earningsTimestampEnd": 1746597600,
     "isEarningsDateEstimate": false,
-    "epsTrailingTwelveMonths": 534.99,
+    "epsTrailingTwelveMonths": 518.75,
+    "fiftyDayAverageChange": -220.7002,
+    "fiftyDayAverageChangePercent": -0.045405023,
+    "twoHundredDayAverageChange": -135.875,
+    "twoHundredDayAverageChangePercent": -0.028450284,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
     "corporateActions": [],
     "regularMarketTime": 1780639447,
     "exchange": "JPX",
@@ -1186,10 +1190,6 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "shortName": "SANTO CORPORATION",
-    "longName": "Santo Corporation",
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 947116800000,
     "trailingPegRatio": null
   }
 }

@@ -1,7 +1,7 @@
 {
   "ticker": "2986",
   "japanese_ticker": "2986.T",
-  "fetch_date": "2026-06-06T00:17:32.015393",
+  "fetch_date": "2026-06-07T00:12:20.398903",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-12-31 00:00:00": -18550899.031443,
@@ -1112,12 +1112,12 @@
     "regularMarketDayLow": 8100.0,
     "regularMarketDayHigh": 8310.0,
     "dividendRate": 292.0,
-    "dividendYield": 3.64,
+    "dividendYield": 3.55,
     "exDividendDate": 1782691200,
     "payoutRatio": 0.39099997,
     "fiveYearAvgDividendYield": 4.9,
     "beta": 0.388,
-    "trailingPE": 9.285093,
+    "trailingPE": 9.505748,
     "volume": 75000,
     "regularMarketVolume": 75000,
     "averageVolume": 79148,
@@ -1152,7 +1152,7 @@
     "mostRecentQuarter": 1774915200,
     "earningsQuarterlyGrowth": -0.119,
     "netIncomeToCommon": 6055000064,
-    "trailingEps": 885.29,
+    "trailingEps": 864.74,
     "lastSplitFactor": "3:1",
     "lastSplitDate": 1782691200,
     "enterpriseToRevenue": 2.469,
@@ -1190,11 +1190,6 @@
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
     "marketState": "CLOSED",
-    "regularMarketChangePercent": 2.366127,
-    "regularMarketPrice": 8220.0,
-    "cryptoTradeable": false,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1593561600000,
     "corporateActions": [
       {
         "header": "Stock split",
@@ -1214,8 +1209,12 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
+    "regularMarketChangePercent": 2.366127,
+    "regularMarketPrice": 8220.0,
     "shortName": "LA HOLDINGS CO LTD",
     "longName": "LA Holdings Co., Ltd.",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1593561600000,
     "regularMarketChange": 190.0,
     "regularMarketDayRange": "8100.0 - 8310.0",
     "fullExchangeName": "Tokyo",
@@ -1229,13 +1228,14 @@
     "earningsTimestampStart": 1754548200,
     "earningsTimestampEnd": 1754980200,
     "isEarningsDateEstimate": true,
-    "epsTrailingTwelveMonths": 885.29,
+    "epsTrailingTwelveMonths": 864.74,
     "fiftyDayAverageChange": -776.0,
     "fiftyDayAverageChangePercent": -0.08626056,
     "twoHundredDayAverageChange": -459.25,
     "twoHundredDayAverageChangePercent": -0.052913558,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
     "trailingPegRatio": null
   }
 }

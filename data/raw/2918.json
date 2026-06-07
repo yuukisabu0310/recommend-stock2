@@ -1,7 +1,7 @@
 {
   "ticker": "2918",
   "japanese_ticker": "2918.T",
-  "fetch_date": "2026-06-06T00:16:35.742431",
+  "fetch_date": "2026-06-07T00:11:32.146630",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-02-28 00:00:00": -133425000.0,
@@ -130,28 +130,28 @@
       "2022-02-28 00:00:00": null
     },
     "Diluted Average Shares": {
-      "2026-02-28 00:00:00": null,
-      "2025-02-28 00:00:00": 17466000.0,
+      "2026-02-28 00:00:00": 17373000.0,
+      "2025-02-28 00:00:00": 17463008.0,
       "2024-02-29 00:00:00": 17464000.0,
       "2023-02-28 00:00:00": 17464305.0,
-      "2022-02-28 00:00:00": 17459000.0
+      "2022-02-28 00:00:00": null
     },
     "Basic Average Shares": {
-      "2026-02-28 00:00:00": null,
-      "2025-02-28 00:00:00": 17466000.0,
+      "2026-02-28 00:00:00": 17373000.0,
+      "2025-02-28 00:00:00": 17463008.0,
       "2024-02-29 00:00:00": 17464000.0,
       "2023-02-28 00:00:00": 17464305.0,
-      "2022-02-28 00:00:00": 17459000.0
+      "2022-02-28 00:00:00": null
     },
     "Diluted EPS": {
-      "2026-02-28 00:00:00": null,
+      "2026-02-28 00:00:00": 307.34,
       "2025-02-28 00:00:00": null,
       "2024-02-29 00:00:00": 244.71,
       "2023-02-28 00:00:00": 160.94,
       "2022-02-28 00:00:00": 186.98
     },
     "Basic EPS": {
-      "2026-02-28 00:00:00": null,
+      "2026-02-28 00:00:00": 307.34,
       "2025-02-28 00:00:00": null,
       "2024-02-29 00:00:00": 244.71,
       "2023-02-28 00:00:00": 160.94,
@@ -1116,7 +1116,44 @@
     "sectorDisp": "Consumer Defensive",
     "longBusinessSummary": "Warabeya Nichiyo Holdings Co., Ltd., together with its subsidiaries, engages in the manufacture and sale of food products for convenience stores in Japan, the United States, and internationally. It operates through Food Production Business; Food Materials Business; Logistics Business; and Other segments. The company offers cooked rice products, bento meal boxes, onigiri rice balls and sushi, chilled and baked bread products, side dishes and noodles, and chilled Japanese sweets. It also procures, processes, and sells food ingredients; and sorts and delivers food products and ingredients. The company was formerly known as Warabeya Nichiyo Co., Ltd. and changed its name to Warabeya Nichiyo Holdings Co., Ltd. in September 2016. Warabeya Nichiyo Holdings Co., Ltd. was incorporated in 1964 and is headquartered in Tokyo, Japan.",
     "fullTimeEmployees": 1960,
-    "companyOfficers": [],
+    "companyOfficers": [
+      {
+        "maxAge": 1,
+        "name": "Mr. Hideo  Tsuji",
+        "age": 61,
+        "title": "CEO, President & Representative Director",
+        "yearBorn": 1964,
+        "exercisedValue": 0,
+        "unexercisedValue": 0
+      },
+      {
+        "maxAge": 1,
+        "name": "Mr. Masahide  Ebata",
+        "age": 52,
+        "title": "Executive Officer, GM of Corporate Planning & Sustainability Promotion and Director",
+        "yearBorn": 1973,
+        "exercisedValue": 0,
+        "unexercisedValue": 0
+      },
+      {
+        "maxAge": 1,
+        "name": "Mr. Koji  Mori",
+        "age": 54,
+        "title": "Managing Executive Officer & Director",
+        "yearBorn": 1971,
+        "exercisedValue": 0,
+        "unexercisedValue": 0
+      },
+      {
+        "maxAge": 1,
+        "name": "Mr. Atsushi  Inoue",
+        "age": 58,
+        "title": "Executive Officer, GM of Financial Planning Department & Director",
+        "yearBorn": 1967,
+        "exercisedValue": 0,
+        "unexercisedValue": 0
+      }
+    ],
     "irWebsite": "http://www.warabeya.co.jp/en/ir/highlight/index.html",
     "executiveTeam": [],
     "maxAge": 86400,
@@ -1161,9 +1198,9 @@
     "tradeable": false,
     "enterpriseValue": 73452347392,
     "profitMargins": 0.02283,
-    "floatShares": 11095844,
+    "floatShares": 10912642,
     "sharesOutstanding": 17315882,
-    "heldPercentInsiders": 0.35804,
+    "heldPercentInsiders": 0.36844003,
     "heldPercentInstitutions": 0.17653,
     "impliedSharesOutstanding": 17315882,
     "bookValue": 3431.243,
@@ -1214,20 +1251,12 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "longName": "Warabeya Nichiyo Holdings Co., Ltd.",
-    "corporateActions": [],
-    "regularMarketTime": 1780641000,
     "marketState": "CLOSED",
-    "cryptoTradeable": false,
-    "regularMarketChange": 35.0,
-    "regularMarketDayRange": "2551.0 - 2601.0",
-    "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 127956,
-    "fiftyTwoWeekLowChange": 352.0,
-    "fiftyTwoWeekLowChangePercent": 0.15813118,
-    "fiftyTwoWeekRange": "2226.0 - 3820.0",
-    "fiftyTwoWeekHighChange": -1242.0,
-    "fiftyTwoWeekHighChangePercent": -0.32513088,
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "esgPopulated": false,
+    "regularMarketChangePercent": 1.3763272,
+    "regularMarketPrice": 2578.0,
     "fiftyTwoWeekChangePercent": 14.537441,
     "earningsTimestampStart": 1751868000,
     "earningsTimestampEnd": 1752213600,
@@ -1240,18 +1269,26 @@
     "twoHundredDayAverageChangePercent": -0.16685921,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 978566400000,
-    "regularMarketChangePercent": 1.3763272,
-    "regularMarketPrice": 2578.0,
+    "regularMarketChange": 35.0,
+    "regularMarketDayRange": "2551.0 - 2601.0",
+    "fullExchangeName": "Tokyo",
+    "averageDailyVolume3Month": 127956,
+    "fiftyTwoWeekLowChange": 352.0,
+    "fiftyTwoWeekLowChangePercent": 0.15813118,
+    "fiftyTwoWeekRange": "2226.0 - 3820.0",
+    "fiftyTwoWeekHighChange": -1242.0,
+    "fiftyTwoWeekHighChangePercent": -0.32513088,
+    "corporateActions": [],
+    "regularMarketTime": 1780641000,
     "exchange": "JPX",
     "messageBoardId": "finmb_883960",
     "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
-    "esgPopulated": false,
     "shortName": "WARABEYA NICHIYO HOLDINGS CO LT",
+    "longName": "Warabeya Nichiyo Holdings Co., Ltd.",
     "trailingPegRatio": null
   }
 }

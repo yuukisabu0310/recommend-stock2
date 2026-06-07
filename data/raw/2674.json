@@ -1,7 +1,7 @@
 {
   "ticker": "2674",
   "japanese_ticker": "2674.T",
-  "fetch_date": "2026-06-06T00:13:14.284717",
+  "fetch_date": "2026-06-07T00:08:37.285335",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": -48005706.0,
@@ -264,7 +264,7 @@
       "2022-03-31 00:00:00": 73979.0
     },
     "Ordinary Shares Number": {
-      "2025-03-31 00:00:00": 13896726.0,
+      "2025-03-31 00:00:00": 13896438.0,
       "2024-03-31 00:00:00": 13897095.0,
       "2023-03-31 00:00:00": 13897546.0,
       "2022-03-31 00:00:00": 13880021.0
@@ -961,7 +961,7 @@
     "regularMarketDayLow": 2300.0,
     "regularMarketDayHigh": 2389.0,
     "dividendRate": 92.0,
-    "dividendYield": 4.01,
+    "dividendYield": 3.89,
     "exDividendDate": 1806364800,
     "payoutRatio": 0.4691,
     "fiveYearAvgDividendYield": 4.29,
@@ -1041,9 +1041,6 @@
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
     "shortName": "HARD OFF CORPORATION CO LTD",
-    "regularMarketChangePercent": 3.141361,
-    "regularMarketPrice": 2364.0,
-    "marketState": "CLOSED",
     "longName": "Hard Off Corporation Co.,Ltd.",
     "corporateActions": [],
     "regularMarketTime": 1780641000,
@@ -1075,6 +1072,9 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
+    "marketState": "CLOSED",
+    "regularMarketChangePercent": 3.141361,
+    "regularMarketPrice": 2364.0,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1076371200000,
     "trailingPegRatio": null

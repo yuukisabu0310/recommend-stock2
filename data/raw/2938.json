@@ -1,7 +1,7 @@
 {
   "ticker": "2938",
   "japanese_ticker": "2938.T",
-  "fetch_date": "2026-06-06T00:17:06.795027",
+  "fetch_date": "2026-06-07T00:12:00.418742",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-06-30 00:00:00": 32746800.0,
@@ -1193,7 +1193,7 @@
     "regularMarketDayLow": 1488.0,
     "regularMarketDayHigh": 1533.0,
     "dividendRate": 8.0,
-    "dividendYield": 0.54,
+    "dividendYield": 0.52,
     "exDividendDate": 1782691200,
     "payoutRatio": 0.15560001,
     "beta": 1.109,
@@ -1269,16 +1269,13 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "regularMarketChangePercent": 3.030303,
-    "regularMarketPrice": 1530.0,
-    "exchange": "JPX",
-    "messageBoardId": "finmb_5396072",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
+    "regularMarketTime": 1780641000,
+    "longName": "Okamura Foods Co., Ltd.",
+    "marketState": "CLOSED",
     "market": "jp_market",
     "esgPopulated": false,
-    "longName": "Okamura Foods Co., Ltd.",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1695772800000,
     "regularMarketChange": 45.0,
     "regularMarketDayRange": "1488.0 - 1533.0",
     "fullExchangeName": "Tokyo",
@@ -1292,6 +1289,25 @@
     "earningsTimestampStart": 1747198800,
     "earningsTimestampEnd": 1747198800,
     "isEarningsDateEstimate": false,
+    "exchange": "JPX",
+    "messageBoardId": "finmb_5396072",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "2938.T announced a cash dividend of JPY 4.00 with an ex-date of Jun. 29, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1782658800000,
+          "amount": "4.00"
+        }
+      }
+    ],
+    "regularMarketChangePercent": 3.030303,
+    "regularMarketPrice": 1530.0,
+    "shortName": "OKAMURA FOODS CO LTD",
     "epsTrailingTwelveMonths": 46.05,
     "fiftyDayAverageChange": 250.68005,
     "fiftyDayAverageChangePercent": 0.1959479,
@@ -1300,12 +1316,6 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1695772800000,
-    "shortName": "OKAMURA FOODS CO LTD",
-    "marketState": "CLOSED",
-    "corporateActions": [],
-    "regularMarketTime": 1780641000,
     "trailingPegRatio": null
   }
 }

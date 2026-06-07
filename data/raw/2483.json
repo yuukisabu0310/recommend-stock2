@@ -1,7 +1,7 @@
 {
   "ticker": "2483",
   "japanese_ticker": "2483.T",
-  "fetch_date": "2026-06-06T00:11:39.048940",
+  "fetch_date": "2026-06-07T00:07:16.568555",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": 60491811.9,
@@ -949,7 +949,8 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "longName": "Honyaku Center Inc.",
+    "corporateActions": [],
+    "regularMarketTime": 1780641000,
     "exchange": "JPX",
     "messageBoardId": "finmb_26523427",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -959,10 +960,15 @@
     "esgPopulated": false,
     "regularMarketChangePercent": 0.7681229,
     "regularMarketPrice": 2099.0,
-    "marketState": "CLOSED",
     "shortName": "HONYAKU CENTER INC",
-    "corporateActions": [],
-    "regularMarketTime": 1780641000,
+    "fiftyDayAverageChange": 201.14001,
+    "fiftyDayAverageChangePercent": 0.105982535,
+    "twoHundredDayAverageChange": 166.71497,
+    "twoHundredDayAverageChangePercent": 0.08627866,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
+    "marketState": "CLOSED",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1146182400000,
     "regularMarketChange": 16.0,
@@ -980,13 +986,7 @@
     "isEarningsDateEstimate": false,
     "epsTrailingTwelveMonths": 137.69,
     "epsForward": 207.8,
-    "fiftyDayAverageChange": 201.14001,
-    "fiftyDayAverageChangePercent": 0.105982535,
-    "twoHundredDayAverageChange": 166.71497,
-    "twoHundredDayAverageChangePercent": 0.08627866,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
+    "longName": "Honyaku Center Inc.",
     "trailingPegRatio": null
   }
 }

@@ -1,7 +1,7 @@
 {
   "ticker": "2206",
   "japanese_ticker": "2206.T",
-  "fetch_date": "2026-06-06T00:07:38.683926",
+  "fetch_date": "2026-06-07T00:03:54.234117",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-12-31 00:00:00": -1570212000.0,
@@ -106,13 +106,13 @@
       "2022-12-31 00:00:00": 12845000000.0
     },
     "Diluted Average Shares": {
-      "2025-12-31 00:00:00": 63662869.0,
+      "2025-12-31 00:00:00": 63662000.0,
       "2024-12-31 00:00:00": 63616404.0,
       "2023-12-31 00:00:00": 63590399.0,
       "2022-12-31 00:00:00": 63984620.0
     },
     "Basic Average Shares": {
-      "2025-12-31 00:00:00": 63662869.0,
+      "2025-12-31 00:00:00": 63662000.0,
       "2024-12-31 00:00:00": 63616404.0,
       "2023-12-31 00:00:00": 63590399.0,
       "2022-12-31 00:00:00": 63984620.0
@@ -1136,12 +1136,12 @@
     "regularMarketDayLow": 5223.0,
     "regularMarketDayHigh": 5295.0,
     "dividendRate": 95.0,
-    "dividendYield": 1.82,
+    "dividendYield": 1.8,
     "exDividendDate": 1782691200,
     "payoutRatio": 1.2007,
     "fiveYearAvgDividendYield": 1.87,
     "beta": 0.413,
-    "trailingPE": 66.222664,
+    "trailingPE": 66.666664,
     "forwardPE": 31.481483,
     "volume": 125000,
     "regularMarketVolume": 125000,
@@ -1177,7 +1177,7 @@
     "mostRecentQuarter": 1577750400,
     "earningsQuarterlyGrowth": 0.47,
     "netIncomeToCommon": 11733000192,
-    "trailingEps": 79.58,
+    "trailingEps": 79.05,
     "forwardEps": 167.4,
     "lastSplitFactor": "1:2",
     "lastSplitDate": 1411689600,
@@ -1220,18 +1220,8 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "corporateActions": [
-      {
-        "header": "Dividend",
-        "message": "2206.T announced a cash dividend of JPY 45.00 with an ex-date of Jun. 29, 2026",
-        "meta": {
-          "eventType": "DIVIDEND",
-          "dateEpochMs": 1782658800000,
-          "amount": "45.00"
-        }
-      }
-    ],
-    "regularMarketTime": 1780641000,
+    "shortName": "EZAKI GLICO CO",
+    "longName": "Ezaki Glico Co., Ltd.",
     "exchange": "JPX",
     "messageBoardId": "finmb_877366",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1239,9 +1229,8 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "shortName": "EZAKI GLICO CO",
-    "regularMarketChangePercent": 0.7840888,
-    "regularMarketPrice": 5270.0,
+    "corporateActions": [],
+    "regularMarketTime": 1780641000,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 978307200000,
     "regularMarketChange": 41.0,
@@ -1260,9 +1249,7 @@
     "earningsCallTimestampStart": 1739444340,
     "earningsCallTimestampEnd": 1739444340,
     "isEarningsDateEstimate": true,
-    "longName": "Ezaki Glico Co., Ltd.",
-    "cryptoTradeable": false,
-    "epsTrailingTwelveMonths": 79.58,
+    "epsTrailingTwelveMonths": 79.05,
     "epsForward": 167.4,
     "fiftyDayAverageChange": -426.41992,
     "fiftyDayAverageChangePercent": -0.07485753,
@@ -1270,7 +1257,10 @@
     "twoHundredDayAverageChangePercent": -0.036548108,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
     "marketState": "CLOSED",
+    "regularMarketChangePercent": 0.7840888,
+    "regularMarketPrice": 5270.0,
     "trailingPegRatio": null
   }
 }

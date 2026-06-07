@@ -1,7 +1,7 @@
 {
   "ticker": "2375",
   "japanese_ticker": "2375.T",
-  "fetch_date": "2026-06-06T00:10:04.125410",
+  "fetch_date": "2026-06-07T00:05:55.686633",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-10-31 00:00:00": 120489449.3,
@@ -132,7 +132,7 @@
     "Basic Average Shares": {
       "2025-10-31 00:00:00": null,
       "2024-10-31 00:00:00": 19791076.0,
-      "2023-10-31 00:00:00": 19608900.0,
+      "2023-10-31 00:00:00": 19606681.0,
       "2022-10-31 00:00:00": 19687580.0,
       "2021-10-31 00:00:00": 20243369.0
     },
@@ -315,10 +315,10 @@
   "balance_sheet": {
     "Treasury Shares Number": {
       "2025-10-31 00:00:00": 2281905.0,
-      "2024-10-31 00:00:00": null,
+      "2024-10-31 00:00:00": 2272605.0,
       "2023-10-31 00:00:00": 2280095.0,
       "2022-10-31 00:00:00": 2408495.0,
-      "2021-10-31 00:00:00": 1608495.0
+      "2021-10-31 00:00:00": null
     },
     "Ordinary Shares Number": {
       "2025-10-31 00:00:00": 19846080.0,
@@ -329,7 +329,7 @@
     },
     "Share Issued": {
       "2025-10-31 00:00:00": 22127985.0,
-      "2024-10-31 00:00:00": 19840390.0,
+      "2024-10-31 00:00:00": 22105485.0,
       "2023-10-31 00:00:00": 22015560.0,
       "2022-10-31 00:00:00": 21979560.0,
       "2021-10-31 00:00:00": null
@@ -1310,15 +1310,15 @@
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
     "marketState": "CLOSED",
-    "regularMarketChangePercent": 1.8867924,
-    "regularMarketPrice": 216.0,
-    "fiftyDayAverageChange": 7.580002,
-    "fiftyDayAverageChangePercent": 0.03636888,
-    "twoHundredDayAverageChange": -11.464996,
-    "twoHundredDayAverageChangePercent": -0.05040334,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
+    "exchange": "JPX",
+    "messageBoardId": "finmb_9405921",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1067990400000,
     "regularMarketChange": 4.0,
     "regularMarketDayRange": "212.0 - 217.0",
     "fullExchangeName": "Tokyo",
@@ -1334,19 +1334,19 @@
     "isEarningsDateEstimate": false,
     "epsTrailingTwelveMonths": 13.72,
     "epsForward": 28.2,
-    "corporateActions": [],
-    "regularMarketTime": 1780641000,
-    "exchange": "JPX",
-    "messageBoardId": "finmb_9405921",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
+    "fiftyDayAverageChange": 7.580002,
+    "fiftyDayAverageChangePercent": 0.03636888,
+    "twoHundredDayAverageChange": -11.464996,
+    "twoHundredDayAverageChangePercent": -0.05040334,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
+    "regularMarketChangePercent": 1.8867924,
+    "regularMarketPrice": 216.0,
     "shortName": "GIG WORKS INC",
     "longName": "GiG Works Inc.",
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1067990400000,
+    "corporateActions": [],
+    "regularMarketTime": 1780641000,
     "trailingPegRatio": null
   }
 }

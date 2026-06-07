@@ -1,7 +1,7 @@
 {
   "ticker": "2130",
   "japanese_ticker": "2130.T",
-  "fetch_date": "2026-06-06T00:06:25.305988",
+  "fetch_date": "2026-06-07T00:02:51.004695",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": null,
@@ -12,7 +12,7 @@
     },
     "Tax Rate For Calcs": {
       "2026-03-31 00:00:00": null,
-      "2025-03-31 00:00:00": 0.260242,
+      "2025-03-31 00:00:00": 0.282,
       "2024-03-31 00:00:00": 0.13,
       "2023-03-31 00:00:00": 0.278971,
       "2022-03-31 00:00:00": 0.26
@@ -279,7 +279,7 @@
   },
   "balance_sheet": {
     "Treasury Shares Number": {
-      "2025-03-31 00:00:00": null,
+      "2025-03-31 00:00:00": 654871.0,
       "2024-03-31 00:00:00": 654512.0,
       "2023-03-31 00:00:00": 277518.0,
       "2022-03-31 00:00:00": 90124.0
@@ -291,7 +291,7 @@
       "2022-03-31 00:00:00": 13127776.0
     },
     "Share Issued": {
-      "2025-03-31 00:00:00": 12766829.0,
+      "2025-03-31 00:00:00": 13421700.0,
       "2024-03-31 00:00:00": 13421700.0,
       "2023-03-31 00:00:00": 13363700.0,
       "2022-03-31 00:00:00": 13217900.0
@@ -815,9 +815,9 @@
     "companyOfficers": [
       {
         "maxAge": 1,
-        "name": "Akihiko  Takano",
+        "name": "Mr. Akihiko  Takano",
         "age": 50,
-        "title": "Executive Officer, President & Director",
+        "title": "Executive Officer, President & Representative Director",
         "yearBorn": 1975,
         "exercisedValue": 0,
         "unexercisedValue": 0
@@ -828,15 +828,6 @@
         "age": 57,
         "title": "Senior Managing Executive Officer & CHRO",
         "yearBorn": 1968,
-        "exercisedValue": 0,
-        "unexercisedValue": 0
-      },
-      {
-        "maxAge": 1,
-        "name": "Mr. Tadashi  Kemmotsu",
-        "age": 60,
-        "title": "Executive Officer & Director",
-        "yearBorn": 1965,
         "exercisedValue": 0,
         "unexercisedValue": 0
       },
@@ -875,12 +866,12 @@
     "regularMarketDayLow": 950.0,
     "regularMarketDayHigh": 1027.0,
     "dividendRate": 35.0,
-    "dividendYield": 3.69,
+    "dividendYield": 3.42,
     "exDividendDate": 1806364800,
     "payoutRatio": 0.3487,
     "fiveYearAvgDividendYield": 2.4,
     "beta": 0.426,
-    "trailingPE": 10.80224,
+    "trailingPE": 10.798817,
     "forwardPE": 6.51661,
     "volume": 187300,
     "regularMarketVolume": 187300,
@@ -906,7 +897,7 @@
     "tradeable": false,
     "enterpriseValue": 9393037312,
     "profitMargins": 0.04966,
-    "floatShares": 7437202,
+    "floatShares": 7432592,
     "sharesOutstanding": 12818043,
     "heldPercentInsiders": 0.3742,
     "heldPercentInstitutions": 0.14187999,
@@ -918,7 +909,7 @@
     "mostRecentQuarter": 1774915200,
     "earningsQuarterlyGrowth": 0.527,
     "netIncomeToCommon": 1212999936,
-    "trailingEps": 94.61,
+    "trailingEps": 94.64,
     "forwardEps": 156.83,
     "lastSplitFactor": "2:1",
     "lastSplitDate": 1482883200,
@@ -972,11 +963,10 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "longName": "Members Co., Ltd.",
-    "shortName": "MEMBERS CO LTD",
-    "marketState": "CLOSED",
     "regularMarketChangePercent": 7.805907,
     "regularMarketPrice": 1022.0,
+    "marketState": "CLOSED",
+    "cryptoTradeable": false,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1461196800000,
     "regularMarketChange": 74.0,
@@ -992,7 +982,7 @@
     "earningsTimestampStart": 1753768800,
     "earningsTimestampEnd": 1754287200,
     "isEarningsDateEstimate": true,
-    "epsTrailingTwelveMonths": 94.61,
+    "epsTrailingTwelveMonths": 94.64,
     "epsForward": 156.83,
     "fiftyDayAverageChange": -73.099976,
     "fiftyDayAverageChangePercent": -0.066751875,
@@ -1000,7 +990,8 @@
     "twoHundredDayAverageChangePercent": -0.14195517,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
+    "shortName": "MEMBERS CO LTD",
+    "longName": "Members Co., Ltd.",
     "trailingPegRatio": null
   }
 }

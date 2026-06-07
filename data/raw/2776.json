@@ -1,18 +1,18 @@
 {
   "ticker": "2776",
   "japanese_ticker": "2776.T",
-  "fetch_date": "2026-06-06T00:14:44.471340",
+  "fetch_date": "2026-06-07T00:09:53.530031",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-01-31 00:00:00": -23818000.0,
-      "2025-01-31 00:00:00": 1529200.0,
+      "2025-01-31 00:00:00": 886936.0,
       "2024-01-31 00:00:00": -4041.025356,
       "2023-01-31 00:00:00": -4998904.0,
       "2022-01-31 00:00:00": null
     },
     "Tax Rate For Calcs": {
       "2026-01-31 00:00:00": 0.4,
-      "2025-01-31 00:00:00": 0.4,
+      "2025-01-31 00:00:00": 0.232,
       "2024-01-31 00:00:00": 2.5e-05,
       "2023-01-31 00:00:00": 0.232,
       "2022-01-31 00:00:00": null
@@ -125,14 +125,14 @@
     "Diluted Average Shares": {
       "2026-01-31 00:00:00": null,
       "2025-01-31 00:00:00": 36573000.0,
-      "2024-01-31 00:00:00": 31908259.0,
+      "2024-01-31 00:00:00": 31907900.0,
       "2023-01-31 00:00:00": 28067870.0,
       "2022-01-31 00:00:00": 25469091.0
     },
     "Basic Average Shares": {
       "2026-01-31 00:00:00": null,
       "2025-01-31 00:00:00": 36573000.0,
-      "2024-01-31 00:00:00": 31908259.0,
+      "2024-01-31 00:00:00": 31907900.0,
       "2023-01-31 00:00:00": 28067870.0,
       "2022-01-31 00:00:00": 25469091.0
     },
@@ -329,7 +329,7 @@
     },
     "Share Issued": {
       "2026-01-31 00:00:00": 53377500.0,
-      "2025-01-31 00:00:00": 39007900.0,
+      "2025-01-31 00:00:00": 39066100.0,
       "2024-01-31 00:00:00": 31966100.0,
       "2023-01-31 00:00:00": 31966100.0,
       "2022-01-31 00:00:00": null
@@ -1148,27 +1148,15 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "market": "jp_market",
-    "esgPopulated": false,
-    "corporateActions": [],
     "regularMarketTime": 1780641000,
     "exchange": "JPX",
     "messageBoardId": "finmb_20338985",
     "exchangeTimezoneName": "Asia/Tokyo",
     "exchangeTimezoneShortName": "JST",
     "gmtOffSetMilliseconds": 32400000,
-    "shortName": "SHINTO HOLDINGS INC",
-    "longName": "SHINTO Holdings, Inc.",
-    "marketState": "CLOSED",
-    "regularMarketPrice": 113.0,
-    "regularMarketChangePercent": 0.0,
-    "fiftyDayAverageChange": -4.6399994,
-    "fiftyDayAverageChangePercent": -0.03944236,
-    "twoHundredDayAverageChange": -16.279999,
-    "twoHundredDayAverageChangePercent": -0.12592821,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
+    "market": "jp_market",
+    "esgPopulated": false,
+    "corporateActions": [],
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1058400000000,
     "regularMarketChange": 0.0,
@@ -1185,6 +1173,18 @@
     "earningsTimestampEnd": 1749725940,
     "isEarningsDateEstimate": false,
     "epsTrailingTwelveMonths": 2.18,
+    "fiftyDayAverageChange": -4.6399994,
+    "fiftyDayAverageChangePercent": -0.03944236,
+    "twoHundredDayAverageChange": -16.279999,
+    "twoHundredDayAverageChangePercent": -0.12592821,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
+    "shortName": "SHINTO HOLDINGS INC",
+    "longName": "SHINTO Holdings, Inc.",
+    "marketState": "CLOSED",
+    "regularMarketChangePercent": 0.0,
+    "regularMarketPrice": 113.0,
     "trailingPegRatio": null
   }
 }

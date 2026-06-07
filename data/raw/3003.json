@@ -1,7 +1,7 @@
 {
   "ticker": "3003",
   "japanese_ticker": "3003.T",
-  "fetch_date": "2026-06-06T00:17:49.291275",
+  "fetch_date": "2026-06-07T00:12:34.617875",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-12-31 00:00:00": 1369149000.0,
@@ -1245,7 +1245,7 @@
     "payoutRatio": 0.412,
     "fiveYearAvgDividendYield": 3.54,
     "beta": 0.359,
-    "trailingPE": 10.846215,
+    "trailingPE": 11.001129,
     "forwardPE": 12.156805,
     "volume": 2105800,
     "regularMarketVolume": 2105800,
@@ -1271,10 +1271,10 @@
     "tradeable": false,
     "enterpriseValue": 3200683606016,
     "profitMargins": 0.14455,
-    "floatShares": 648545230,
+    "floatShares": 498910720,
     "sharesOutstanding": 759319729,
     "heldPercentInsiders": 0.27497998,
-    "heldPercentInstitutions": 0.37050998,
+    "heldPercentInstitutions": 0.37048998,
     "impliedSharesOutstanding": 759319729,
     "bookValue": 1197.131,
     "priceToBook": 1.3833073,
@@ -1283,7 +1283,7 @@
     "mostRecentQuarter": 1774915200,
     "earningsQuarterlyGrowth": 0.056,
     "netIncomeToCommon": 115299999744,
-    "trailingEps": 152.68,
+    "trailingEps": 150.53,
     "forwardEps": 136.22,
     "lastSplitFactor": "11:10",
     "lastSplitDate": 1182902400,
@@ -1327,30 +1327,8 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "shortName": "HULIC CO LTD",
-    "regularMarketChangePercent": 1.5016856,
-    "regularMarketPrice": 1656.0,
-    "marketState": "CLOSED",
-    "longName": "Hulic Co., Ltd.",
-    "corporateActions": [
-      {
-        "header": "Dividend",
-        "message": "3003.T announced a cash dividend of JPY 33.50 with an ex-date of Jun. 29, 2026",
-        "meta": {
-          "eventType": "DIVIDEND",
-          "dateEpochMs": 1782658800000,
-          "amount": "33.50"
-        }
-      }
-    ],
-    "regularMarketTime": 1780641000,
-    "exchange": "JPX",
-    "messageBoardId": "finmb_34301063",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 978652800000,
     "regularMarketChange": 24.5,
     "regularMarketDayRange": "1647.5 - 1670.5",
     "fullExchangeName": "Tokyo",
@@ -1367,18 +1345,40 @@
     "earningsCallTimestampStart": 1738234740,
     "earningsCallTimestampEnd": 1738234740,
     "isEarningsDateEstimate": true,
-    "epsTrailingTwelveMonths": 152.68,
+    "epsTrailingTwelveMonths": 150.53,
     "epsForward": 136.22,
     "fiftyDayAverageChange": -143.08997,
     "fiftyDayAverageChangePercent": -0.079534635,
     "twoHundredDayAverageChange": -89.317505,
     "twoHundredDayAverageChangePercent": -0.051175505,
+    "shortName": "HULIC CO LTD",
+    "longName": "Hulic Co., Ltd.",
+    "marketState": "CLOSED",
+    "regularMarketTime": 1780641000,
+    "exchange": "JPX",
+    "messageBoardId": "finmb_34301063",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
+    "regularMarketChangePercent": 1.5016856,
+    "regularMarketPrice": 1656.0,
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "3003.T announced a cash dividend of JPY 33.50 with an ex-date of Jun. 29, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1782658800000,
+          "amount": "33.50"
+        }
+      }
+    ],
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "averageAnalystRating": "2.7 - Hold",
     "cryptoTradeable": false,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 978652800000,
     "trailingPegRatio": null
   }
 }

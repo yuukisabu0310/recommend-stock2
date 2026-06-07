@@ -1,7 +1,7 @@
 {
   "ticker": "2136",
   "japanese_ticker": "2136.T",
-  "fetch_date": "2026-06-06T00:06:29.834271",
+  "fetch_date": "2026-06-07T00:02:54.417029",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": 0.0,
@@ -306,13 +306,13 @@
       "2022-03-31 00:00:00": 99.0
     },
     "Ordinary Shares Number": {
-      "2025-03-31 00:00:00": 3930191.0,
+      "2025-03-31 00:00:00": 3885191.0,
       "2024-03-31 00:00:00": 3930201.0,
       "2023-03-31 00:00:00": 3975201.0,
       "2022-03-31 00:00:00": 3975201.0
     },
     "Share Issued": {
-      "2025-03-31 00:00:00": 3930191.0,
+      "2025-03-31 00:00:00": 3975300.0,
       "2024-03-31 00:00:00": 3975300.0,
       "2023-03-31 00:00:00": 3975300.0,
       "2022-03-31 00:00:00": 3975300.0
@@ -988,12 +988,12 @@
     "regularMarketDayLow": 1375.0,
     "regularMarketDayHigh": 1417.0,
     "dividendRate": 71.0,
-    "dividendYield": 5.16,
+    "dividendYield": 5.01,
     "exDividendDate": 1806364800,
     "payoutRatio": 0.4909,
     "fiveYearAvgDividendYield": 4.34,
     "beta": 0.253,
-    "trailingPE": 12.270364,
+    "trailingPE": 12.641728,
     "volume": 3400,
     "regularMarketVolume": 3400,
     "averageVolume": 2903,
@@ -1030,7 +1030,7 @@
     "mostRecentQuarter": 1490918400,
     "earningsQuarterlyGrowth": 0.288,
     "netIncomeToCommon": 220000000,
-    "trailingEps": 115.4,
+    "trailingEps": 112.01,
     "lastSplitFactor": "100:1",
     "lastSplitDate": 1364342400,
     "enterpriseToRevenue": 0.964,
@@ -1078,8 +1078,10 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "shortName": "HIP CORPORATION",
-    "longName": "HIP Corporation",
+    "regularMarketChangePercent": 2.9818182,
+    "regularMarketPrice": 1416.0,
+    "marketState": "CLOSED",
+    "cryptoTradeable": false,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1166572800000,
     "regularMarketChange": 41.0,
@@ -1095,17 +1097,15 @@
     "earningsTimestampStart": 1746687600,
     "earningsTimestampEnd": 1746687600,
     "isEarningsDateEstimate": false,
-    "epsTrailingTwelveMonths": 115.4,
+    "epsTrailingTwelveMonths": 112.01,
     "fiftyDayAverageChange": -20.21997,
     "fiftyDayAverageChangePercent": -0.014078603,
     "twoHundredDayAverageChange": -75.20996,
     "twoHundredDayAverageChangePercent": -0.05043553,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
-    "regularMarketChangePercent": 2.9818182,
-    "regularMarketPrice": 1416.0,
-    "marketState": "CLOSED",
+    "shortName": "HIP CORPORATION",
+    "longName": "HIP Corporation",
     "trailingPegRatio": null
   }
 }

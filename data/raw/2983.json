@@ -1,7 +1,7 @@
 {
   "ticker": "2983",
   "japanese_ticker": "2983.T",
-  "fetch_date": "2026-06-06T00:17:27.155658",
+  "fetch_date": "2026-06-07T00:12:16.481737",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-01-31 00:00:00": -11955054.6,
@@ -1079,10 +1079,8 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "regularMarketChangePercent": 5.185185,
-    "regularMarketPrice": 1420.0,
-    "longName": "Arr Planner Co., Ltd.",
-    "shortName": "ARR PLANNER CO LTD",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1612915200000,
     "corporateActions": [],
     "regularMarketTime": 1780641000,
     "exchange": "JPX",
@@ -1092,6 +1090,8 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
+    "regularMarketChangePercent": 5.185185,
+    "regularMarketPrice": 1420.0,
     "regularMarketChange": 70.0,
     "regularMarketDayRange": "1365.0 - 1432.0",
     "fullExchangeName": "Tokyo",
@@ -1102,8 +1102,6 @@
     "fiftyTwoWeekHighChange": -980.0,
     "fiftyTwoWeekHighChangePercent": -0.40833333,
     "fiftyTwoWeekChangePercent": 86.72199,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1612915200000,
     "earningsTimestampStart": 1749725940,
     "earningsTimestampEnd": 1749725940,
     "earningsCallTimestampStart": 1741949940,
@@ -1117,6 +1115,8 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
+    "shortName": "ARR PLANNER CO LTD",
+    "longName": "Arr Planner Co., Ltd.",
     "marketState": "CLOSED",
     "trailingPegRatio": null
   }

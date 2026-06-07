@@ -1,7 +1,7 @@
 {
   "ticker": "2594",
   "japanese_ticker": "2594.T",
-  "fetch_date": "2026-06-06T00:12:35.080368",
+  "fetch_date": "2026-06-07T00:08:03.783514",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": -19720000.0,
@@ -1151,11 +1151,10 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "shortName": "KEY COFFEE INC",
-    "longName": "Key Coffee Inc.",
     "regularMarketChangePercent": 0.0,
     "regularMarketPrice": 1915.0,
     "marketState": "CLOSED",
+    "cryptoTradeable": false,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 978307200000,
     "regularMarketChange": 0.0,
@@ -1178,7 +1177,8 @@
     "twoHundredDayAverageChangePercent": -0.034624983,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
+    "shortName": "KEY COFFEE INC",
+    "longName": "Key Coffee Inc.",
     "trailingPegRatio": null
   }
 }

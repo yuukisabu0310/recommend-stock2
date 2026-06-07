@@ -1,7 +1,7 @@
 {
   "ticker": "2180",
   "japanese_ticker": "2180.T",
-  "fetch_date": "2026-06-06T00:07:14.242002",
+  "fetch_date": "2026-06-07T00:03:33.587631",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-06-30 00:00:00": null,
@@ -138,10 +138,10 @@
     },
     "Diluted EPS": {
       "2025-06-30 00:00:00": 63.58,
-      "2024-06-30 00:00:00": null,
+      "2024-06-30 00:00:00": 53.23,
       "2023-06-30 00:00:00": 59.28,
       "2022-06-30 00:00:00": 38.58,
-      "2021-06-30 00:00:00": 19.83
+      "2021-06-30 00:00:00": null
     },
     "Basic EPS": {
       "2025-06-30 00:00:00": 63.58,
@@ -1211,10 +1211,8 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "shortName": "SUNNY SIDE UP GROUP INC",
     "longName": "SUNNY SIDE UP GROUP Inc.",
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1220572800000,
+    "marketState": "CLOSED",
     "regularMarketChange": 0.0,
     "regularMarketDayRange": "1317.0 - 1318.0",
     "fullExchangeName": "Tokyo",
@@ -1235,9 +1233,7 @@
     "twoHundredDayAverageChangePercent": 0.47606856,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
-    "regularMarketChangePercent": 0.0,
-    "regularMarketPrice": 1317.0,
-    "marketState": "CLOSED",
+    "cryptoTradeable": false,
     "corporateActions": [],
     "regularMarketTime": 1780641000,
     "exchange": "JPX",
@@ -1246,8 +1242,12 @@
     "exchangeTimezoneShortName": "JST",
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
+    "shortName": "SUNNY SIDE UP GROUP INC",
     "esgPopulated": false,
-    "cryptoTradeable": false,
+    "regularMarketChangePercent": 0.0,
+    "regularMarketPrice": 1317.0,
+    "firstTradeDateMilliseconds": 1220572800000,
+    "hasPrePostMarketData": false,
     "trailingPegRatio": null
   }
 }

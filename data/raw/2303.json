@@ -1,7 +1,7 @@
 {
   "ticker": "2303",
   "japanese_ticker": "2303.T",
-  "fetch_date": "2026-06-06T00:08:48.266309",
+  "fetch_date": "2026-06-07T00:04:53.979757",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-05-31 00:00:00": 0.0,
@@ -100,28 +100,28 @@
       "2022-05-31 00:00:00": 400595000.0
     },
     "Diluted Average Shares": {
-      "2025-05-31 00:00:00": 3064566.0,
-      "2024-05-31 00:00:00": 3102823.0,
-      "2023-05-31 00:00:00": 3175276.0,
-      "2022-05-31 00:00:00": 3202471.0
+      "2025-05-31 00:00:00": 6129132.0,
+      "2024-05-31 00:00:00": 6205646.0,
+      "2023-05-31 00:00:00": 6350552.0,
+      "2022-05-31 00:00:00": 6404942.0
     },
     "Basic Average Shares": {
-      "2025-05-31 00:00:00": 3064566.0,
-      "2024-05-31 00:00:00": 3102694.0,
-      "2023-05-31 00:00:00": 3175276.0,
-      "2022-05-31 00:00:00": 3202471.0
+      "2025-05-31 00:00:00": 6129132.0,
+      "2024-05-31 00:00:00": 6205646.0,
+      "2023-05-31 00:00:00": 6350552.0,
+      "2022-05-31 00:00:00": 6404942.0
     },
     "Diluted EPS": {
-      "2025-05-31 00:00:00": 136.65,
-      "2024-05-31 00:00:00": 125.09,
-      "2023-05-31 00:00:00": 101.11,
-      "2022-05-31 00:00:00": 88.53
+      "2025-05-31 00:00:00": 68.325,
+      "2024-05-31 00:00:00": 62.545,
+      "2023-05-31 00:00:00": 50.555,
+      "2022-05-31 00:00:00": 44.265
     },
     "Basic EPS": {
-      "2025-05-31 00:00:00": 136.65,
-      "2024-05-31 00:00:00": 125.09,
-      "2023-05-31 00:00:00": 101.11,
-      "2022-05-31 00:00:00": 88.53
+      "2025-05-31 00:00:00": 68.325,
+      "2024-05-31 00:00:00": 62.545,
+      "2023-05-31 00:00:00": 50.555,
+      "2022-05-31 00:00:00": 44.265
     },
     "Diluted NI Availto Com Stockholders": {
       "2025-05-31 00:00:00": 418774000.0,
@@ -240,22 +240,22 @@
   },
   "balance_sheet": {
     "Treasury Shares Number": {
-      "2025-05-31 00:00:00": null,
-      "2024-05-31 00:00:00": 229068.0,
-      "2023-05-31 00:00:00": 188768.0,
-      "2022-05-31 00:00:00": 95968.0
+      "2025-05-31 00:00:00": 528412.0,
+      "2024-05-31 00:00:00": 458136.0,
+      "2023-05-31 00:00:00": 377536.0,
+      "2022-05-31 00:00:00": 191936.0
     },
     "Ordinary Shares Number": {
-      "2025-05-31 00:00:00": 3080894.0,
-      "2024-05-31 00:00:00": 3070932.0,
-      "2023-05-31 00:00:00": 3111232.0,
-      "2022-05-31 00:00:00": 3204032.0
+      "2025-05-31 00:00:00": 6071588.0,
+      "2024-05-31 00:00:00": 6141864.0,
+      "2023-05-31 00:00:00": 6222464.0,
+      "2022-05-31 00:00:00": 6408064.0
     },
     "Share Issued": {
-      "2025-05-31 00:00:00": 3080894.0,
-      "2024-05-31 00:00:00": 3300000.0,
-      "2023-05-31 00:00:00": 3300000.0,
-      "2022-05-31 00:00:00": 3300000.0
+      "2025-05-31 00:00:00": 6600000.0,
+      "2024-05-31 00:00:00": 6600000.0,
+      "2023-05-31 00:00:00": 6600000.0,
+      "2022-05-31 00:00:00": 6600000.0
     },
     "Tangible Book Value": {
       "2025-05-31 00:00:00": 2748177000.0,
@@ -858,7 +858,7 @@
     "regularMarketDayLow": 1257.0,
     "regularMarketDayHigh": 1299.0,
     "dividendRate": 28.0,
-    "dividendYield": 2.23,
+    "dividendYield": 2.22,
     "exDividendDate": 1779926400,
     "payoutRatio": 0.1706,
     "fiveYearAvgDividendYield": 0.85,
@@ -874,7 +874,7 @@
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 7497134080,
-    "nonDilutedMarketCap": 7758731340,
+    "nonDilutedMarketCap": 7497134268,
     "fiftyTwoWeekLow": 1109.0,
     "fiftyTwoWeekHigh": 1550.0,
     "allTimeHigh": 2190.0,
@@ -936,9 +936,18 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "marketState": "CLOSED",
     "corporateActions": [],
     "regularMarketTime": 1780641000,
-    "marketState": "CLOSED",
+    "exchange": "JPX",
+    "messageBoardId": "finmb_8888160",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
+    "regularMarketChangePercent": 0.47808763,
+    "regularMarketPrice": 1261.0,
     "shortName": "DAWN CORP",
     "longName": "Dawn Corp.",
     "hasPrePostMarketData": false,
@@ -953,8 +962,6 @@
     "fiftyTwoWeekHighChange": -289.0,
     "fiftyTwoWeekHighChangePercent": -0.18645161,
     "fiftyTwoWeekChangePercent": 10.121107,
-    "regularMarketChangePercent": 0.47808763,
-    "regularMarketPrice": 1261.0,
     "earningsTimestampStart": 1744261200,
     "earningsTimestampEnd": 1744261200,
     "isEarningsDateEstimate": false,
@@ -966,13 +973,6 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
-    "exchange": "JPX",
-    "messageBoardId": "finmb_8888160",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
     "trailingPegRatio": null
   }
 }

@@ -1,7 +1,7 @@
 {
   "ticker": "2269",
   "japanese_ticker": "2269.T",
-  "fetch_date": "2026-06-06T00:08:20.362990",
+  "fetch_date": "2026-06-07T00:04:30.277532",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": null,
@@ -1141,7 +1141,7 @@
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 996028579840,
-    "nonDilutedMarketCap": 994673076564,
+    "nonDilutedMarketCap": 996028586344,
     "fiftyTwoWeekLow": 2907.0,
     "fiftyTwoWeekHigh": 4077.0,
     "allTimeHigh": 5465.0,
@@ -1158,7 +1158,7 @@
     "floatShares": 260119616,
     "sharesOutstanding": 271101956,
     "heldPercentInsiders": 0.07727,
-    "heldPercentInstitutions": 0.34614,
+    "heldPercentInstitutions": 0.34612998,
     "impliedSharesOutstanding": 271101956,
     "bookValue": 2849.795,
     "priceToBook": 1.2892156,
@@ -1168,7 +1168,7 @@
     "netIncomeToCommon": 35076001792,
     "trailingEps": 129.32,
     "forwardEps": 209.4,
-    "pegRatio": 0.91,
+    "pegRatio": 0.89,
     "lastSplitFactor": "2:1",
     "lastSplitDate": 1680134400,
     "enterpriseToRevenue": 0.924,
@@ -1213,8 +1213,7 @@
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
     "shortName": "MEIJI HOLDINGS CO LTD",
-    "regularMarketChangePercent": 0.13627692,
-    "regularMarketPrice": 3674.0,
+    "longName": "Meiji Holdings Co., Ltd.",
     "exchange": "JPX",
     "messageBoardId": "finmb_71516224",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1224,8 +1223,6 @@
     "esgPopulated": false,
     "corporateActions": [],
     "regularMarketTime": 1780641000,
-    "marketState": "CLOSED",
-    "longName": "Meiji Holdings Co., Ltd.",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 946944000000,
     "regularMarketChange": 5.0,
@@ -1254,6 +1251,9 @@
     "exchangeDataDelayedBy": 20,
     "averageAnalystRating": "2.6 - Hold",
     "cryptoTradeable": false,
-    "trailingPegRatio": 0.8925
+    "marketState": "CLOSED",
+    "regularMarketChangePercent": 0.13627692,
+    "regularMarketPrice": 3674.0,
+    "trailingPegRatio": 0.8937
   }
 }

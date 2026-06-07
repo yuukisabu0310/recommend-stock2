@@ -1,7 +1,7 @@
 {
   "ticker": "2669",
   "japanese_ticker": "2669.T",
-  "fetch_date": "2026-06-06T00:13:07.995412",
+  "fetch_date": "2026-06-07T00:08:31.883532",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-02-28 00:00:00": -17874720.0,
@@ -126,14 +126,14 @@
       "2026-02-28 00:00:00": 9566594.0,
       "2025-02-28 00:00:00": 9676039.0,
       "2024-02-29 00:00:00": 9674000.0,
-      "2023-02-28 00:00:00": 9672776.0,
+      "2023-02-28 00:00:00": 9672000.0,
       "2022-02-28 00:00:00": null
     },
     "Basic Average Shares": {
       "2026-02-28 00:00:00": null,
       "2025-02-28 00:00:00": 9676039.0,
       "2024-02-29 00:00:00": 9674000.0,
-      "2023-02-28 00:00:00": 9672776.0,
+      "2023-02-28 00:00:00": 9672000.0,
       "2022-02-28 00:00:00": 9671000.0
     },
     "Diluted EPS": {
@@ -343,21 +343,21 @@
   "balance_sheet": {
     "Treasury Shares Number": {
       "2026-02-28 00:00:00": 533392.0,
-      "2025-02-28 00:00:00": null,
+      "2025-02-28 00:00:00": 323494.0,
       "2024-02-29 00:00:00": 325008.0,
       "2023-02-28 00:00:00": 326765.0,
-      "2022-02-28 00:00:00": 328226.0
+      "2022-02-28 00:00:00": null
     },
     "Ordinary Shares Number": {
       "2026-02-28 00:00:00": 9466608.0,
-      "2025-02-28 00:00:00": 9676575.0,
+      "2025-02-28 00:00:00": 9676506.0,
       "2024-02-29 00:00:00": 9674992.0,
       "2023-02-28 00:00:00": 9673235.0,
       "2022-02-28 00:00:00": null
     },
     "Share Issued": {
       "2026-02-28 00:00:00": 10000000.0,
-      "2025-02-28 00:00:00": 9676575.0,
+      "2025-02-28 00:00:00": 10000000.0,
       "2024-02-29 00:00:00": 10000000.0,
       "2023-02-28 00:00:00": 10000000.0,
       "2022-02-28 00:00:00": null
@@ -1223,8 +1223,13 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "shortName": "KANEMI CO LTD",
-    "longName": "Kanemi Co., Ltd.",
+    "fiftyDayAverageChange": 72.8999,
+    "fiftyDayAverageChangePercent": 0.019403236,
+    "twoHundredDayAverageChange": 340.875,
+    "twoHundredDayAverageChangePercent": 0.097696416,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 971827200000,
     "regularMarketChange": 0.0,
@@ -1243,15 +1248,6 @@
     "earningsCallTimestampEnd": 1744369140,
     "isEarningsDateEstimate": false,
     "epsTrailingTwelveMonths": 188.82,
-    "fiftyDayAverageChange": 72.8999,
-    "fiftyDayAverageChangePercent": 0.019403236,
-    "twoHundredDayAverageChange": 340.875,
-    "twoHundredDayAverageChangePercent": 0.097696416,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "regularMarketChangePercent": 0.0,
-    "regularMarketPrice": 3830.0,
-    "marketState": "CLOSED",
     "corporateActions": [],
     "regularMarketTime": 1780641000,
     "exchange": "JPX",
@@ -1261,7 +1257,11 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "cryptoTradeable": false,
+    "marketState": "CLOSED",
+    "regularMarketChangePercent": 0.0,
+    "regularMarketPrice": 3830.0,
+    "shortName": "KANEMI CO LTD",
+    "longName": "Kanemi Co., Ltd.",
     "trailingPegRatio": null
   }
 }

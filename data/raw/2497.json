@@ -1,7 +1,7 @@
 {
   "ticker": "2497",
   "japanese_ticker": "2497.T",
-  "fetch_date": "2026-06-06T00:11:57.262492",
+  "fetch_date": "2026-06-07T00:07:31.575699",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": 1174384.0,
@@ -1049,7 +1049,7 @@
     "nextFiscalYearEnd": 1806451200,
     "mostRecentQuarter": 1774915200,
     "netIncomeToCommon": -1559000064,
-    "trailingEps": -41.73,
+    "trailingEps": -41.33,
     "forwardEps": 49.9,
     "lastSplitFactor": "2:1",
     "lastSplitDate": 1685404800,
@@ -1088,11 +1088,13 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "longName": "UNITED, Inc.",
-    "regularMarketChangePercent": 1.0204082,
-    "regularMarketPrice": 495.0,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1156896000000,
+    "regularMarketChangePercent": 1.0204082,
+    "regularMarketPrice": 495.0,
+    "marketState": "CLOSED",
+    "shortName": "UNITED INC",
+    "longName": "UNITED, Inc.",
     "regularMarketChange": 5.0,
     "regularMarketDayRange": "490.0 - 497.0",
     "fullExchangeName": "Tokyo",
@@ -1106,7 +1108,7 @@
     "earningsTimestampStart": 1754375400,
     "earningsTimestampEnd": 1754980200,
     "isEarningsDateEstimate": true,
-    "epsTrailingTwelveMonths": -41.73,
+    "epsTrailingTwelveMonths": -41.33,
     "epsForward": 49.9,
     "fiftyDayAverageChange": -10.200012,
     "fiftyDayAverageChangePercent": -0.020190047,
@@ -1117,7 +1119,6 @@
     "cryptoTradeable": false,
     "corporateActions": [],
     "regularMarketTime": 1780641000,
-    "marketState": "CLOSED",
     "exchange": "JPX",
     "messageBoardId": "finmb_28462301",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1125,7 +1126,6 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "shortName": "UNITED INC",
     "trailingPegRatio": null
   }
 }

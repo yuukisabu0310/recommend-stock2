@@ -1,7 +1,7 @@
 {
   "ticker": "2373",
   "japanese_ticker": "2373.T",
-  "fetch_date": "2026-06-06T00:09:59.395076",
+  "fetch_date": "2026-06-07T00:05:52.215638",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-10-31 00:00:00": 41197200.0,
@@ -145,7 +145,7 @@
     },
     "Diluted EPS": {
       "2025-10-31 00:00:00": null,
-      "2024-10-31 00:00:00": null,
+      "2024-10-31 00:00:00": 20.64,
       "2023-10-31 00:00:00": 0.46,
       "2022-10-31 00:00:00": 46.83,
       "2021-10-31 00:00:00": 69.63
@@ -1220,7 +1220,7 @@
     "regularMarketDayLow": 414.0,
     "regularMarketDayHigh": 420.0,
     "dividendRate": 17.0,
-    "dividendYield": 4.08,
+    "dividendYield": 4.05,
     "exDividendDate": 1793232000,
     "payoutRatio": 0.5975,
     "fiveYearAvgDividendYield": 3.23,
@@ -1236,7 +1236,7 @@
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 5674082816,
-    "nonDilutedMarketCap": 5525475889,
+    "nonDilutedMarketCap": 5674082820,
     "fiftyTwoWeekLow": 389.0,
     "fiftyTwoWeekHigh": 613.0,
     "allTimeHigh": 1221.6666,
@@ -1306,11 +1306,17 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "longName": "Care Twentyone Corporation",
-    "shortName": "CARE TWENTYONE CORP",
-    "marketState": "CLOSED",
     "regularMarketChangePercent": 0.7194245,
     "regularMarketPrice": 420.0,
+    "shortName": "CARE TWENTYONE CORP",
+    "fiftyDayAverageChange": -5.1400146,
+    "fiftyDayAverageChangePercent": -0.012090169,
+    "twoHundredDayAverageChange": -20.820007,
+    "twoHundredDayAverageChangePercent": -0.047230177,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
+    "marketState": "CLOSED",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1066348800000,
     "regularMarketChange": 3.0,
@@ -1327,13 +1333,7 @@
     "earningsTimestampEnd": 1749801600,
     "isEarningsDateEstimate": false,
     "epsTrailingTwelveMonths": 28.43,
-    "fiftyDayAverageChange": -5.1400146,
-    "fiftyDayAverageChangePercent": -0.012090169,
-    "twoHundredDayAverageChange": -20.820007,
-    "twoHundredDayAverageChangePercent": -0.047230177,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
+    "longName": "Care Twentyone Corporation",
     "trailingPegRatio": null
   }
 }

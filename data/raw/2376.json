@@ -1,7 +1,7 @@
 {
   "ticker": "2376",
   "japanese_ticker": "2376.T",
-  "fetch_date": "2026-06-06T00:10:06.438795",
+  "fetch_date": "2026-06-07T00:05:57.228478",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": -32480.0,
@@ -276,7 +276,7 @@
       "2022-03-31 00:00:00": 5607983.0
     },
     "Share Issued": {
-      "2025-03-31 00:00:00": 5607983.0,
+      "2025-03-31 00:00:00": 6470660.0,
       "2024-03-31 00:00:00": 6470660.0,
       "2023-03-31 00:00:00": 6470660.0,
       "2022-03-31 00:00:00": 6470660.0
@@ -1026,7 +1026,7 @@
     "payoutRatio": 1.6667,
     "fiveYearAvgDividendYield": 2.04,
     "beta": -0.17,
-    "trailingPE": 87.761856,
+    "trailingPE": 88.54283,
     "volume": 3000,
     "regularMarketVolume": 3000,
     "averageVolume": 10220,
@@ -1037,7 +1037,7 @@
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 4463954432,
-    "nonDilutedMarketCap": 4368618757,
+    "nonDilutedMarketCap": 4463954468,
     "fiftyTwoWeekLow": 634.0,
     "fiftyTwoWeekHigh": 985.0,
     "allTimeHigh": 2619.0,
@@ -1063,7 +1063,7 @@
     "mostRecentQuarter": 1774915200,
     "earningsQuarterlyGrowth": -0.392,
     "netIncomeToCommon": 50000000,
-    "trailingEps": 9.07,
+    "trailingEps": 8.99,
     "enterpriseToRevenue": 0.179,
     "enterpriseToEbitda": 6.336,
     "52WeekChange": -0.024539888,
@@ -1100,11 +1100,6 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "regularMarketChangePercent": 0.63211125,
-    "regularMarketPrice": 796.0,
-    "marketState": "CLOSED",
-    "corporateActions": [],
-    "regularMarketTime": 1780641000,
     "shortName": "SCINEX CORPORATION",
     "longName": "Scinex Corporation",
     "hasPrePostMarketData": false,
@@ -1122,13 +1117,19 @@
     "earningsTimestampStart": 1754547600,
     "earningsTimestampEnd": 1754979600,
     "isEarningsDateEstimate": true,
-    "epsTrailingTwelveMonths": 9.07,
+    "epsTrailingTwelveMonths": 8.99,
     "fiftyDayAverageChange": 104.21997,
     "fiftyDayAverageChangePercent": 0.15065478,
     "twoHundredDayAverageChange": 55.429993,
     "twoHundredDayAverageChangePercent": 0.07484774,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
+    "marketState": "CLOSED",
+    "regularMarketChangePercent": 0.63211125,
+    "regularMarketPrice": 796.0,
+    "corporateActions": [],
+    "regularMarketTime": 1780641000,
     "exchange": "JPX",
     "messageBoardId": "finmb_5853892",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1136,7 +1137,6 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "cryptoTradeable": false,
     "trailingPegRatio": null
   }
 }

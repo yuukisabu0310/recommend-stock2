@@ -1,7 +1,7 @@
 {
   "ticker": "2922",
   "japanese_ticker": "2922.T",
-  "fetch_date": "2026-06-06T00:16:37.888303",
+  "fetch_date": "2026-06-07T00:11:34.195047",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": -11223231.963539,
@@ -982,8 +982,10 @@
       },
       {
         "maxAge": 1,
-        "name": "Toshio  Imazeki",
-        "title": "Executive Officer & GM of Human Resources",
+        "name": "Mr. Katsuomi  Machida",
+        "age": 56,
+        "title": "Executive Officer & General Manager of Human Resources Department",
+        "yearBorn": 1969,
         "exercisedValue": 0,
         "unexercisedValue": 0
       },
@@ -991,7 +993,7 @@
         "maxAge": 1,
         "name": "Mr. Tadashi  Yamagata",
         "age": 68,
-        "title": "Executive Officer, GM of Logistics Headquarters & Director",
+        "title": "Executive Officer, GM of Food Safety Division & Director",
         "yearBorn": 1957,
         "exercisedValue": 0,
         "unexercisedValue": 0
@@ -1002,13 +1004,6 @@
         "age": 58,
         "title": "Executive Officer, GM of Production Division & Director",
         "yearBorn": 1967,
-        "exercisedValue": 0,
-        "unexercisedValue": 0
-      },
-      {
-        "maxAge": 1,
-        "name": "Katsuomi  Machida",
-        "title": "Executive Officer",
         "exercisedValue": 0,
         "unexercisedValue": 0
       },
@@ -1112,15 +1107,17 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "regularMarketTime": 1780641000,
+    "shortName": "NATORI CO LTD",
+    "longName": "Natori Co., Ltd.",
     "exchange": "JPX",
     "messageBoardId": "finmb_5546702",
-    "regularMarketChangePercent": 0.591716,
-    "regularMarketPrice": 1870.0,
-    "longName": "Natori Co., Ltd.",
-    "cryptoTradeable": false,
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
     "corporateActions": [],
-    "marketState": "CLOSED",
+    "regularMarketTime": 1780641000,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1000684800000,
     "regularMarketChange": 11.0,
@@ -1144,12 +1141,10 @@
     "twoHundredDayAverageChangePercent": -0.033356953,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
-    "shortName": "NATORI CO LTD",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
+    "cryptoTradeable": false,
+    "marketState": "CLOSED",
+    "regularMarketChangePercent": 0.591716,
+    "regularMarketPrice": 1870.0,
     "trailingPegRatio": null
   }
 }

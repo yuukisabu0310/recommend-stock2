@@ -1,7 +1,7 @@
 {
   "ticker": "1376",
   "japanese_ticker": "1376.T",
-  "fetch_date": "2026-06-06T00:00:23.692641",
+  "fetch_date": "2026-06-06T23:57:38.942540",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-05-31 00:00:00": -21113760.0,
@@ -1028,18 +1028,20 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "longName": "Kaneko Seeds Co., Ltd.",
+    "marketState": "CLOSED",
+    "regularMarketChangePercent": 1.8691589,
+    "regularMarketPrice": 1417.0,
     "corporateActions": [],
     "regularMarketTime": 1780641000,
-    "shortName": "KANEKO SEEDS CO",
-    "exchange": "JPX",
     "messageBoardId": "finmb_4493094",
+    "exchange": "JPX",
     "exchangeTimezoneName": "Asia/Tokyo",
     "exchangeTimezoneShortName": "JST",
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "marketState": "CLOSED",
+    "longName": "Kaneko Seeds Co., Ltd.",
+    "shortName": "KANEKO SEEDS CO",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 947030400000,
     "regularMarketChange": 26.0,
@@ -1062,8 +1064,6 @@
     "twoHundredDayAverageChangePercent": -0.06672246,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
-    "regularMarketChangePercent": 1.8691589,
-    "regularMarketPrice": 1417.0,
     "cryptoTradeable": false,
     "trailingPegRatio": null
   }

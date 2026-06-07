@@ -1,7 +1,7 @@
 {
   "ticker": "1964",
   "japanese_ticker": "1964.T",
-  "fetch_date": "2026-06-06T00:05:11.500870",
+  "fetch_date": "2026-06-07T00:01:47.940712",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": null,
@@ -1086,6 +1086,8 @@
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
     "marketState": "CLOSED",
+    "regularMarketChangePercent": 1.5990161,
+    "regularMarketPrice": 4130.0,
     "corporateActions": [],
     "regularMarketTime": 1780641000,
     "exchange": "JPX",
@@ -1095,6 +1097,11 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
+    "shortName": "CHUGAI RO CO LTD",
+    "longName": "Chugai Ro Co., Ltd.",
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 978566400000,
     "regularMarketChange": 65.0,
@@ -1116,13 +1123,6 @@
     "fiftyDayAverageChangePercent": -0.05526583,
     "twoHundredDayAverageChange": -318.1748,
     "twoHundredDayAverageChangePercent": -0.07152929,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
-    "shortName": "CHUGAI RO CO LTD",
-    "longName": "Chugai Ro Co., Ltd.",
-    "regularMarketChangePercent": 1.5990161,
-    "regularMarketPrice": 4130.0,
     "trailingPegRatio": null
   }
 }

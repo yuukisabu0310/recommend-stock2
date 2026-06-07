@@ -1,7 +1,7 @@
 {
   "ticker": "3028",
   "japanese_ticker": "3028.T",
-  "fetch_date": "2026-06-06T00:18:06.403942",
+  "fetch_date": "2026-06-07T00:12:49.664689",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-06-30 00:00:00": -737640449.438202,
@@ -1134,7 +1134,7 @@
     "regularMarketDayLow": 2004.0,
     "regularMarketDayHigh": 2046.0,
     "dividendRate": 50.0,
-    "dividendYield": 2.49,
+    "dividendYield": 2.45,
     "exDividendDate": 1782691200,
     "payoutRatio": 0.41529998,
     "fiveYearAvgDividendYield": 2.31,
@@ -1165,7 +1165,7 @@
     "tradeable": false,
     "enterpriseValue": 90217332736,
     "profitMargins": 0.01675,
-    "floatShares": 14697621,
+    "floatShares": 15243617,
     "sharesOutstanding": 37499672,
     "heldPercentInsiders": 0.62552,
     "heldPercentInstitutions": 0.08158,
@@ -1213,15 +1213,9 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "regularMarketChangePercent": 1.6426083,
-    "regularMarketPrice": 2042.0,
-    "marketState": "CLOSED",
-    "corporateActions": [],
-    "regularMarketTime": 1780641000,
     "shortName": "ALPEN CO LTD",
     "longName": "Alpen Co.,Ltd.",
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1143158400000,
+    "marketState": "CLOSED",
     "regularMarketChange": 33.0,
     "regularMarketDayRange": "2004.0 - 2046.0",
     "fullExchangeName": "Tokyo",
@@ -1243,6 +1237,21 @@
     "twoHundredDayAverageChangePercent": -0.07716439,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1143158400000,
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "3028.T announced a cash dividend of JPY 25.00 with an ex-date of Jun. 29, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1782658800000,
+          "amount": "25.00"
+        }
+      }
+    ],
+    "regularMarketTime": 1780641000,
     "exchange": "JPX",
     "messageBoardId": "finmb_5478185",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1250,7 +1259,8 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "cryptoTradeable": false,
+    "regularMarketChangePercent": 1.6426083,
+    "regularMarketPrice": 2042.0,
     "trailingPegRatio": null
   }
 }

@@ -1,7 +1,7 @@
 {
   "ticker": "2183",
   "japanese_ticker": "2183.T",
-  "fetch_date": "2026-06-06T00:07:18.769056",
+  "fetch_date": "2026-06-07T00:03:37.149539",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": -2912064.0,
@@ -258,7 +258,7 @@
   },
   "balance_sheet": {
     "Treasury Shares Number": {
-      "2025-03-31 00:00:00": null,
+      "2025-03-31 00:00:00": 2153569.0,
       "2024-03-31 00:00:00": 2153564.0,
       "2023-03-31 00:00:00": 2153564.0,
       "2022-03-31 00:00:00": 2153564.0
@@ -994,7 +994,7 @@
     "regularMarketDayLow": 210.0,
     "regularMarketDayHigh": 214.0,
     "dividendRate": 16.0,
-    "dividendYield": 7.48,
+    "dividendYield": 7.55,
     "exDividendDate": 1806364800,
     "payoutRatio": 1.0013,
     "fiveYearAvgDividendYield": 3.23,
@@ -1010,7 +1010,7 @@
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 4788323328,
-    "nonDilutedMarketCap": 5014187682,
+    "nonDilutedMarketCap": 4788323372,
     "fiftyTwoWeekLow": 210.0,
     "fiftyTwoWeekHigh": 363.0,
     "allTimeHigh": 2584.0,
@@ -1074,20 +1074,22 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "shortName": "LINICAL CO LTD",
+    "marketState": "CLOSED",
     "regularMarketChangePercent": -0.93457943,
     "regularMarketPrice": 212.0,
-    "marketState": "CLOSED",
-    "longName": "Linical Co., Ltd.",
     "corporateActions": [],
     "regularMarketTime": 1780641000,
-    "exchange": "JPX",
     "messageBoardId": "finmb_49131700",
+    "exchange": "JPX",
     "exchangeTimezoneName": "Asia/Tokyo",
     "exchangeTimezoneShortName": "JST",
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
+    "longName": "Linical Co., Ltd.",
+    "shortName": "LINICAL CO LTD",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1225065600000,
     "regularMarketChange": -2.0,
     "regularMarketDayRange": "210.0 - 214.0",
     "fullExchangeName": "Tokyo",
@@ -1110,8 +1112,6 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1225065600000,
     "trailingPegRatio": null
   }
 }

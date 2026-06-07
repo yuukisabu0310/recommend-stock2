@@ -1,7 +1,7 @@
 {
   "ticker": "2266",
   "japanese_ticker": "2266.T",
-  "fetch_date": "2026-06-06T00:08:13.698785",
+  "fetch_date": "2026-06-07T00:04:24.501914",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-12-31 00:00:00": 135015060.0,
@@ -126,14 +126,14 @@
       "2025-12-31 00:00:00": 19482442.0,
       "2024-12-31 00:00:00": 19483054.0,
       "2023-12-31 00:00:00": 19483335.0,
-      "2022-12-31 00:00:00": 19483335.0,
+      "2022-12-31 00:00:00": 19483668.0,
       "2021-12-31 00:00:00": null
     },
     "Basic Average Shares": {
       "2025-12-31 00:00:00": 19482442.0,
       "2024-12-31 00:00:00": 19483054.0,
       "2023-12-31 00:00:00": 19483335.0,
-      "2022-12-31 00:00:00": 19483335.0,
+      "2022-12-31 00:00:00": 19483668.0,
       "2021-12-31 00:00:00": null
     },
     "Diluted EPS": {
@@ -1337,9 +1337,8 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "shortName": "ROKKO BUTTER CO",
-    "regularMarketChangePercent": 0.58479536,
-    "regularMarketPrice": 1032.0,
+    "corporateActions": [],
+    "regularMarketTime": 1780641000,
     "exchange": "JPX",
     "messageBoardId": "finmb_5539241",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1347,10 +1346,12 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "corporateActions": [],
-    "regularMarketTime": 1780641000,
-    "marketState": "CLOSED",
+    "shortName": "ROKKO BUTTER CO",
     "longName": "Rokko Butter Co., Ltd.",
+    "regularMarketChangePercent": 0.58479536,
+    "regularMarketPrice": 1032.0,
+    "cryptoTradeable": false,
+    "marketState": "CLOSED",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 954892800000,
     "regularMarketChange": 6.0,
@@ -1373,7 +1374,6 @@
     "twoHundredDayAverageChangePercent": -0.13637635,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
     "trailingPegRatio": null
   }
 }

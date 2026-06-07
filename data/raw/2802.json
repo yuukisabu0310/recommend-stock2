@@ -1,7 +1,7 @@
 {
   "ticker": "2802",
   "japanese_ticker": "2802.T",
-  "fetch_date": "2026-06-06T00:15:13.451254",
+  "fetch_date": "2026-06-07T00:10:19.896751",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": null,
@@ -312,7 +312,7 @@
       "2022-03-31 00:00:00": 1072873862.0
     },
     "Share Issued": {
-      "2025-03-31 00:00:00": 1016629508.0,
+      "2025-03-31 00:00:00": 1005637616.0,
       "2024-03-31 00:00:00": 1042861708.0,
       "2023-03-31 00:00:00": 1059596308.0,
       "2022-03-31 00:00:00": 1073992508.0
@@ -841,6 +841,12 @@
       "2023-03-31 00:00:00": 40255000000.0,
       "2022-03-31 00:00:00": 17763000000.0
     },
+    "Purchase Of PPE": {
+      "2025-03-31 00:00:00": -88104000000.0,
+      "2024-03-31 00:00:00": -65786000000.0,
+      "2023-03-31 00:00:00": -68383000000.0,
+      "2022-03-31 00:00:00": -73842000000.0
+    },
     "Operating Cash Flow": {
       "2025-03-31 00:00:00": 209898000000.0,
       "2024-03-31 00:00:00": 168074000000.0,
@@ -1090,7 +1096,7 @@
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 4729178423296,
-    "nonDilutedMarketCap": 5001905355363,
+    "nonDilutedMarketCap": 4729178547198,
     "fiftyTwoWeekLow": 3270.0,
     "fiftyTwoWeekHigh": 5739.0,
     "allTimeHigh": 5739.0,
@@ -1107,7 +1113,7 @@
     "floatShares": 952004028,
     "sharesOutstanding": 956936169,
     "heldPercentInsiders": 0.00331,
-    "heldPercentInstitutions": 0.63496,
+    "heldPercentInstitutions": 0.63492,
     "impliedSharesOutstanding": 956936169,
     "bookValue": 804.239,
     "priceToBook": 6.1449394,
@@ -1117,7 +1123,7 @@
     "netIncomeToCommon": 134674997248,
     "trailingEps": 138.38,
     "forwardEps": 232.13,
-    "pegRatio": 4.09,
+    "pegRatio": 3.87,
     "lastSplitFactor": "2:1",
     "lastSplitDate": 1743120000,
     "enterpriseToRevenue": 3.236,
@@ -1130,7 +1136,7 @@
     "currentPrice": 4942.0,
     "targetHighPrice": 6700.0,
     "targetLowPrice": 3650.0,
-    "targetMeanPrice": 5471.4287,
+    "targetMeanPrice": 5535.7144,
     "targetMedianPrice": 5450.0,
     "recommendationMean": 1.85714,
     "recommendationKey": "buy",
@@ -1161,9 +1167,8 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "shortName": "AJINOMOTO CO INC",
-    "regularMarketChangePercent": -3.4388435,
-    "regularMarketPrice": 4942.0,
+    "corporateActions": [],
+    "regularMarketTime": 1780641000,
     "exchange": "JPX",
     "messageBoardId": "finmb_873739",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1171,10 +1176,12 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "corporateActions": [],
-    "regularMarketTime": 1780641000,
-    "marketState": "CLOSED",
+    "shortName": "AJINOMOTO CO INC",
     "longName": "Ajinomoto Co., Inc.",
+    "regularMarketChangePercent": -3.4388435,
+    "regularMarketPrice": 4942.0,
+    "cryptoTradeable": false,
+    "marketState": "CLOSED",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 946944000000,
     "regularMarketChange": -176.0,
@@ -1202,7 +1209,6 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "averageAnalystRating": "1.9 - Buy",
-    "cryptoTradeable": false,
-    "trailingPegRatio": 4.0905
+    "trailingPegRatio": 3.8675
   }
 }

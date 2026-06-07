@@ -1,7 +1,7 @@
 {
   "ticker": "2330",
   "japanese_ticker": "2330.T",
-  "fetch_date": "2026-06-06T00:09:17.295467",
+  "fetch_date": "2026-06-07T00:05:17.382856",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-12-31 00:00:00": 2240822.594331,
@@ -132,20 +132,20 @@
     "Basic Average Shares": {
       "2025-12-31 00:00:00": null,
       "2024-12-31 00:00:00": 39442056.0,
-      "2023-12-31 00:00:00": 34312991.0,
+      "2023-12-31 00:00:00": 34350946.0,
       "2022-12-31 00:00:00": 32539103.0,
       "2021-12-31 00:00:00": 32540397.0
     },
     "Diluted EPS": {
       "2025-12-31 00:00:00": null,
-      "2024-12-31 00:00:00": null,
+      "2024-12-31 00:00:00": 1.63,
       "2023-12-31 00:00:00": 3.31,
       "2022-12-31 00:00:00": -3.31,
       "2021-12-31 00:00:00": 2.64
     },
     "Basic EPS": {
       "2025-12-31 00:00:00": null,
-      "2024-12-31 00:00:00": null,
+      "2024-12-31 00:00:00": 1.63,
       "2023-12-31 00:00:00": 3.31,
       "2022-12-31 00:00:00": -3.31,
       "2021-12-31 00:00:00": 2.64
@@ -1162,7 +1162,7 @@
     "exDividendDate": 1293494400,
     "payoutRatio": 0.0,
     "beta": 1.051,
-    "trailingPE": 7.0754714,
+    "trailingPE": 7.3746314,
     "volume": 116700,
     "regularMarketVolume": 116700,
     "averageVolume": 373096,
@@ -1199,7 +1199,7 @@
     "mostRecentQuarter": 1774915200,
     "earningsQuarterlyGrowth": -0.382,
     "netIncomeToCommon": 419000000,
-    "trailingEps": 10.6,
+    "trailingEps": 10.17,
     "lastSplitFactor": "10:1",
     "lastSplitDate": 1395878400,
     "enterpriseToRevenue": 0.186,
@@ -1236,8 +1236,9 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "corporateActions": [],
-    "regularMarketTime": 1780641000,
+    "marketState": "CLOSED",
+    "regularMarketChangePercent": 4.166667,
+    "regularMarketPrice": 75.0,
     "exchange": "JPX",
     "messageBoardId": "finmb_10444021",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1245,13 +1246,10 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "longName": "Forside Co.,Ltd.",
+    "corporateActions": [],
+    "regularMarketTime": 1780641000,
     "shortName": "FORSIDE CO LTD",
-    "marketState": "CLOSED",
-    "regularMarketChangePercent": 4.166667,
-    "regularMarketPrice": 75.0,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1034208000000,
+    "longName": "Forside Co.,Ltd.",
     "regularMarketChange": 3.0,
     "regularMarketDayRange": "72.0 - 75.0",
     "fullExchangeName": "Tokyo",
@@ -1265,7 +1263,7 @@
     "earningsTimestampStart": 1754979300,
     "earningsTimestampEnd": 1755497700,
     "isEarningsDateEstimate": true,
-    "epsTrailingTwelveMonths": 10.6,
+    "epsTrailingTwelveMonths": 10.17,
     "fiftyDayAverageChange": -23.519997,
     "fiftyDayAverageChangePercent": -0.23873323,
     "twoHundredDayAverageChange": -91.065,
@@ -1273,8 +1271,10 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "prevName": "Forside Co., Ltd.",
-    "nameChangeDate": "2026-06-05",
+    "nameChangeDate": "2026-06-06",
     "cryptoTradeable": false,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1034208000000,
     "trailingPegRatio": null
   }
 }

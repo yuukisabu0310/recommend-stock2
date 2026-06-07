@@ -1,7 +1,7 @@
 {
   "ticker": "2489",
   "japanese_ticker": "2489.T",
-  "fetch_date": "2026-06-06T00:11:48.322795",
+  "fetch_date": "2026-06-07T00:07:24.052658",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-12-31 00:00:00": 17320192.0,
@@ -1067,6 +1067,9 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "shortName": "ADWAYS INC",
+    "longName": "Adways Inc.",
+    "cryptoTradeable": false,
     "corporateActions": [],
     "regularMarketTime": 1780641000,
     "exchange": "JPX",
@@ -1078,10 +1081,6 @@
     "esgPopulated": false,
     "regularMarketChangePercent": 2.6415095,
     "regularMarketPrice": 272.0,
-    "marketState": "CLOSED",
-    "longName": "Adways Inc.",
-    "shortName": "ADWAYS INC",
-    "cryptoTradeable": false,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1150761600000,
     "regularMarketChange": 7.0,
@@ -1105,6 +1104,7 @@
     "twoHundredDayAverageChangePercent": -0.03534125,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
+    "marketState": "CLOSED",
     "trailingPegRatio": null
   }
 }

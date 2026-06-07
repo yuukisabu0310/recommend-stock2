@@ -1,7 +1,7 @@
 {
   "ticker": "2481",
   "japanese_ticker": "2481.T",
-  "fetch_date": "2026-06-06T00:11:36.676216",
+  "fetch_date": "2026-06-07T00:07:14.700338",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-06-30 00:00:00": 12009374.819155,
@@ -138,10 +138,10 @@
     },
     "Basic Average Shares": {
       "2025-06-30 00:00:00": 5520623.0,
-      "2024-06-30 00:00:00": null,
-      "2023-06-30 00:00:00": 5520606.0,
+      "2024-06-30 00:00:00": 5520623.0,
+      "2023-06-30 00:00:00": 5520623.0,
       "2022-06-30 00:00:00": 5520628.0,
-      "2021-06-30 00:00:00": 5520633.0
+      "2021-06-30 00:00:00": null
     },
     "Diluted EPS": {
       "2025-06-30 00:00:00": 70.49,
@@ -1105,12 +1105,12 @@
     "regularMarketDayLow": 640.0,
     "regularMarketDayHigh": 679.0,
     "dividendRate": 20.0,
-    "dividendYield": 3.1,
+    "dividendYield": 3.02,
     "exDividendDate": 1782691200,
     "payoutRatio": 0.2886,
     "fiveYearAvgDividendYield": 2.92,
     "beta": 0.106,
-    "trailingPE": 9.319652,
+    "trailingPE": 9.569861,
     "volume": 12400,
     "regularMarketVolume": 12400,
     "averageVolume": 1943,
@@ -1147,7 +1147,7 @@
     "mostRecentQuarter": 1774915200,
     "earningsQuarterlyGrowth": 0.228,
     "netIncomeToCommon": 431000000,
-    "trailingEps": 71.14,
+    "trailingEps": 69.28,
     "enterpriseToRevenue": 0.31,
     "enterpriseToEbitda": 1.952,
     "52WeekChange": -0.065808296,
@@ -1192,9 +1192,14 @@
     "esgPopulated": false,
     "regularMarketChangePercent": 2.631579,
     "regularMarketPrice": 663.0,
-    "marketState": "CLOSED",
-    "longName": "Townnews-Sha Co.,Ltd.",
     "shortName": "TOWNNEWS-SHA CO LTD",
+    "epsTrailingTwelveMonths": 69.28,
+    "fiftyDayAverageChange": -24.419983,
+    "fiftyDayAverageChangePercent": -0.03552411,
+    "twoHundredDayAverageChange": -20.835022,
+    "twoHundredDayAverageChangePercent": -0.030467907,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1145491200000,
@@ -1211,13 +1216,8 @@
     "earningsTimestampStart": 1745562600,
     "earningsTimestampEnd": 1745562600,
     "isEarningsDateEstimate": false,
-    "epsTrailingTwelveMonths": 71.14,
-    "fiftyDayAverageChange": -24.419983,
-    "fiftyDayAverageChangePercent": -0.03552411,
-    "twoHundredDayAverageChange": -20.835022,
-    "twoHundredDayAverageChangePercent": -0.030467907,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
+    "longName": "Townnews-Sha Co.,Ltd.",
+    "marketState": "CLOSED",
     "trailingPegRatio": null
   }
 }

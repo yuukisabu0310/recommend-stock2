@@ -1,7 +1,7 @@
 {
   "ticker": "2991",
   "japanese_ticker": "2991.T",
-  "fetch_date": "2026-06-06T00:17:34.453545",
+  "fetch_date": "2026-06-07T00:12:21.977838",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-07-31 00:00:00": null,
@@ -1035,7 +1035,7 @@
     "regularMarketDayLow": 560.0,
     "regularMarketDayHigh": 580.0,
     "dividendRate": 11.1,
-    "dividendYield": 1.98,
+    "dividendYield": 1.93,
     "exDividendDate": 1785369600,
     "payoutRatio": 0.105399996,
     "beta": -0.237,
@@ -1113,18 +1113,10 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "marketState": "CLOSED",
-    "shortName": "LANDNET INC",
-    "longName": "LANDNET Inc.",
-    "fiftyDayAverageChange": -16.200012,
-    "fiftyDayAverageChangePercent": -0.027355643,
-    "twoHundredDayAverageChange": -81.21753,
-    "twoHundredDayAverageChangePercent": -0.12357785,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
     "regularMarketChangePercent": 2.857143,
     "regularMarketPrice": 576.0,
+    "shortName": "LANDNET INC",
+    "longName": "LANDNET Inc.",
     "corporateActions": [],
     "regularMarketTime": 1780641000,
     "exchange": "JPX",
@@ -1150,6 +1142,14 @@
     "earningsTimestampEnd": 1749466740,
     "isEarningsDateEstimate": false,
     "epsTrailingTwelveMonths": 94.92,
+    "fiftyDayAverageChange": -16.200012,
+    "fiftyDayAverageChangePercent": -0.027355643,
+    "twoHundredDayAverageChange": -81.21753,
+    "twoHundredDayAverageChangePercent": -0.12357785,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
+    "marketState": "CLOSED",
     "trailingPegRatio": null
   }
 }

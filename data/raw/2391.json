@@ -1,7 +1,7 @@
 {
   "ticker": "2391",
   "japanese_ticker": "2391.T",
-  "fetch_date": "2026-06-06T00:10:21.295157",
+  "fetch_date": "2026-06-07T00:06:10.103867",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-07-31 00:00:00": null,
@@ -124,31 +124,31 @@
     },
     "Diluted Average Shares": {
       "2025-07-31 00:00:00": 6630782.0,
-      "2024-07-31 00:00:00": null,
+      "2024-07-31 00:00:00": 6630820.0,
       "2023-07-31 00:00:00": 6630884.0,
       "2022-07-31 00:00:00": 6630885.0,
-      "2021-07-31 00:00:00": 6630888.0
+      "2021-07-31 00:00:00": null
     },
     "Basic Average Shares": {
       "2025-07-31 00:00:00": 6630782.0,
-      "2024-07-31 00:00:00": null,
+      "2024-07-31 00:00:00": 6630820.0,
       "2023-07-31 00:00:00": 6630884.0,
       "2022-07-31 00:00:00": 6630885.0,
-      "2021-07-31 00:00:00": 6630888.0
+      "2021-07-31 00:00:00": null
     },
     "Diluted EPS": {
       "2025-07-31 00:00:00": 60.44,
-      "2024-07-31 00:00:00": null,
+      "2024-07-31 00:00:00": 69.09,
       "2023-07-31 00:00:00": 66.72,
       "2022-07-31 00:00:00": 79.34,
-      "2021-07-31 00:00:00": 75.12
+      "2021-07-31 00:00:00": null
     },
     "Basic EPS": {
       "2025-07-31 00:00:00": 60.44,
-      "2024-07-31 00:00:00": null,
+      "2024-07-31 00:00:00": 69.09,
       "2023-07-31 00:00:00": 66.72,
       "2022-07-31 00:00:00": 79.34,
-      "2021-07-31 00:00:00": 75.12
+      "2021-07-31 00:00:00": null
     },
     "Diluted NI Availto Com Stockholders": {
       "2025-07-31 00:00:00": null,
@@ -1016,8 +1016,8 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "regularMarketChangePercent": -0.25359258,
-    "regularMarketPrice": 1180.0,
+    "shortName": "PLANET INC",
+    "longName": "Planet, Inc.",
     "corporateActions": [],
     "regularMarketTime": 1780641000,
     "exchange": "JPX",
@@ -1027,10 +1027,6 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "shortName": "PLANET INC",
-    "longName": "Planet, Inc.",
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1077580800000,
     "regularMarketChange": -3.0,
     "regularMarketDayRange": "1180.0 - 1184.0",
     "fullExchangeName": "Tokyo",
@@ -1049,10 +1045,14 @@
     "fiftyDayAverageChangePercent": -0.043108787,
     "twoHundredDayAverageChange": -69.98999,
     "twoHundredDayAverageChangePercent": -0.05599244,
-    "marketState": "CLOSED",
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
+    "marketState": "CLOSED",
+    "regularMarketChangePercent": -0.25359258,
+    "regularMarketPrice": 1180.0,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1077580800000,
     "trailingPegRatio": null
   }
 }

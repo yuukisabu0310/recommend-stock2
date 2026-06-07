@@ -1,11 +1,11 @@
 {
   "ticker": "2819",
   "japanese_ticker": "2819.T",
-  "fetch_date": "2026-06-06T00:15:39.768032",
+  "fetch_date": "2026-06-07T00:10:43.432555",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": null,
-      "2025-03-31 00:00:00": -38325648.414986,
+      "2025-03-31 00:00:00": -38376000.0,
       "2024-03-31 00:00:00": 5418147.448015,
       "2023-03-31 00:00:00": -1575000.0,
       "2022-03-31 00:00:00": 39750000.0
@@ -96,7 +96,7 @@
     },
     "Normalized Income": {
       "2026-03-31 00:00:00": null,
-      "2025-03-31 00:00:00": 1477674351.585014,
+      "2025-03-31 00:00:00": 1477624000.0,
       "2024-03-31 00:00:00": 1790418147.448015,
       "2023-03-31 00:00:00": 2180425000.0,
       "2022-03-31 00:00:00": 2593750000.0
@@ -125,14 +125,14 @@
     "Diluted Average Shares": {
       "2026-03-31 00:00:00": 9762776.0,
       "2025-03-31 00:00:00": 9771110.0,
-      "2024-03-31 00:00:00": 9815349.0,
+      "2024-03-31 00:00:00": 9816344.0,
       "2023-03-31 00:00:00": 9823034.0,
       "2022-03-31 00:00:00": null
     },
     "Basic Average Shares": {
       "2026-03-31 00:00:00": null,
       "2025-03-31 00:00:00": 9771110.0,
-      "2024-03-31 00:00:00": 9815349.0,
+      "2024-03-31 00:00:00": 9816344.0,
       "2023-03-31 00:00:00": 9823034.0,
       "2022-03-31 00:00:00": 9936622.0
     },
@@ -306,7 +306,7 @@
       "2022-03-31 00:00:00": 614158.0
     },
     "Ordinary Shares Number": {
-      "2025-03-31 00:00:00": 9772465.0,
+      "2025-03-31 00:00:00": 9772418.0,
       "2024-03-31 00:00:00": 9806790.0,
       "2023-03-31 00:00:00": 9811365.0,
       "2022-03-31 00:00:00": 9854552.0
@@ -1052,7 +1052,7 @@
     "regularMarketDayLow": 2351.0,
     "regularMarketDayHigh": 2387.0,
     "dividendRate": 50.0,
-    "dividendYield": 2.12,
+    "dividendYield": 2.1,
     "exDividendDate": 1790640000,
     "payoutRatio": 0.2573,
     "fiveYearAvgDividendYield": 1.48,
@@ -1140,6 +1140,19 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
+    "regularMarketChangePercent": 0.9341826,
+    "regularMarketPrice": 2377.0,
+    "shortName": "EBARA FOODS INDUSTRY INC",
+    "fiftyDayAverageChange": -121.15991,
+    "fiftyDayAverageChangePercent": -0.048499662,
+    "twoHundredDayAverageChange": -172.47998,
+    "twoHundredDayAverageChangePercent": -0.06765301,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "prevName": "Ebara Foods Industry, Inc.",
+    "nameChangeDate": "2026-06-06",
+    "cryptoTradeable": false,
+    "marketState": "CLOSED",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1068681600000,
     "regularMarketChange": 22.0,
@@ -1157,20 +1170,7 @@
     "isEarningsDateEstimate": true,
     "epsTrailingTwelveMonths": 182.79,
     "epsForward": 193.5,
-    "fiftyDayAverageChange": -121.15991,
-    "fiftyDayAverageChangePercent": -0.048499662,
-    "twoHundredDayAverageChange": -172.47998,
-    "twoHundredDayAverageChangePercent": -0.06765301,
-    "marketState": "CLOSED",
-    "shortName": "EBARA FOODS INDUSTRY INC",
     "longName": "EBARA Foods Industry,Inc.",
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "prevName": "Ebara Foods Industry, Inc.",
-    "nameChangeDate": "2026-06-05",
-    "cryptoTradeable": false,
-    "regularMarketChangePercent": 0.9341826,
-    "regularMarketPrice": 2377.0,
     "trailingPegRatio": null
   }
 }

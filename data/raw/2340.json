@@ -1,7 +1,7 @@
 {
   "ticker": "2340",
   "japanese_ticker": "2340.T",
-  "fetch_date": "2026-06-06T00:09:32.288539",
+  "fetch_date": "2026-06-07T00:05:30.572729",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": -40653574.5,
@@ -813,7 +813,7 @@
     },
     "Sale Of PPE": {
       "2025-03-31 00:00:00": 1554000.0,
-      "2024-03-31 00:00:00": null,
+      "2024-03-31 00:00:00": 0.0,
       "2023-03-31 00:00:00": null,
       "2022-03-31 00:00:00": null
     },
@@ -1075,18 +1075,6 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "longName": "Gokurakuyu Holdings Co., Ltd.",
-    "corporateActions": [],
-    "regularMarketTime": 1780641000,
-    "shortName": "GOKURAKUYU HOLDINGSCO LTD",
-    "exchange": "JPX",
-    "messageBoardId": "finmb_9247927",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
-    "marketState": "CLOSED",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1038355200000,
     "regularMarketChange": 0.0,
@@ -1110,9 +1098,21 @@
     "twoHundredDayAverageChangePercent": -0.026010897,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
+    "marketState": "CLOSED",
+    "shortName": "GOKURAKUYU HOLDINGSCO LTD",
+    "longName": "Gokurakuyu Holdings Co., Ltd.",
+    "corporateActions": [],
+    "regularMarketTime": 1780641000,
+    "exchange": "JPX",
+    "messageBoardId": "finmb_9247927",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
     "regularMarketChangePercent": 0.0,
     "regularMarketPrice": 472.0,
-    "cryptoTradeable": false,
     "trailingPegRatio": null
   }
 }

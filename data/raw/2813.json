@@ -1,7 +1,7 @@
 {
   "ticker": "2813",
   "japanese_ticker": "2813.T",
-  "fetch_date": "2026-06-06T00:15:28.746769",
+  "fetch_date": "2026-06-07T00:10:33.754839",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": -950426.4,
@@ -113,7 +113,7 @@
     },
     "Diluted Average Shares": {
       "2025-03-31 00:00:00": 2491634.0,
-      "2024-03-31 00:00:00": 2487936.0,
+      "2024-03-31 00:00:00": 2487951.0,
       "2023-03-31 00:00:00": 2478735.0,
       "2022-03-31 00:00:00": 2464578.0
     },
@@ -312,7 +312,7 @@
       "2022-03-31 00:00:00": 2469168.0
     },
     "Share Issued": {
-      "2025-03-31 00:00:00": 2492340.0,
+      "2025-03-31 00:00:00": 2847957.0,
       "2024-03-31 00:00:00": 2847957.0,
       "2023-03-31 00:00:00": 2847957.0,
       "2022-03-31 00:00:00": 2847957.0
@@ -1094,7 +1094,7 @@
     "regularMarketDayLow": 3850.0,
     "regularMarketDayHigh": 3915.0,
     "dividendRate": 210.0,
-    "dividendYield": 5.44,
+    "dividendYield": 5.41,
     "exDividendDate": 1806364800,
     "payoutRatio": 0.2163,
     "fiveYearAvgDividendYield": 1.69,
@@ -1175,10 +1175,12 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "regularMarketChangePercent": 0.6476684,
+    "regularMarketPrice": 3885.0,
+    "shortName": "WAKOU SHOKUHIN CO",
     "longName": "Wakou Shokuhin Co., Ltd.",
     "corporateActions": [],
     "regularMarketTime": 1780641000,
-    "shortName": "WAKOU SHOKUHIN CO",
     "exchange": "JPX",
     "messageBoardId": "finmb_9794139",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1186,7 +1188,6 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "marketState": "CLOSED",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 947030400000,
     "regularMarketChange": 25.0,
@@ -1209,9 +1210,8 @@
     "twoHundredDayAverageChangePercent": 0.1354968,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
-    "regularMarketChangePercent": 0.6476684,
-    "regularMarketPrice": 3885.0,
     "cryptoTradeable": false,
+    "marketState": "CLOSED",
     "trailingPegRatio": null
   }
 }

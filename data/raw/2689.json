@@ -1,7 +1,7 @@
 {
   "ticker": "2689",
   "japanese_ticker": "2689.T",
-  "fetch_date": "2026-06-06T00:13:31.513394",
+  "fetch_date": "2026-06-07T00:08:51.016893",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-06-30 00:00:00": null,
@@ -124,17 +124,17 @@
     },
     "Diluted Average Shares": {
       "2025-06-30 00:00:00": 5923495.0,
-      "2024-06-30 00:00:00": null,
-      "2023-06-30 00:00:00": 6020596.0,
+      "2024-06-30 00:00:00": 5961397.0,
+      "2023-06-30 00:00:00": 6020520.0,
       "2022-06-30 00:00:00": 6073244.0,
-      "2021-06-30 00:00:00": 6082368.0
+      "2021-06-30 00:00:00": null
     },
     "Basic Average Shares": {
       "2025-06-30 00:00:00": 5923495.0,
-      "2024-06-30 00:00:00": null,
-      "2023-06-30 00:00:00": 6020596.0,
+      "2024-06-30 00:00:00": 5961397.0,
+      "2023-06-30 00:00:00": 6020520.0,
       "2022-06-30 00:00:00": 6073244.0,
-      "2021-06-30 00:00:00": 6082368.0
+      "2021-06-30 00:00:00": null
     },
     "Diluted EPS": {
       "2025-06-30 00:00:00": 241.43,
@@ -145,10 +145,10 @@
     },
     "Basic EPS": {
       "2025-06-30 00:00:00": 241.43,
-      "2024-06-30 00:00:00": null,
+      "2024-06-30 00:00:00": 251.68,
       "2023-06-30 00:00:00": 234.9,
       "2022-06-30 00:00:00": 252.8,
-      "2021-06-30 00:00:00": 162.66
+      "2021-06-30 00:00:00": null
     },
     "Diluted NI Availto Com Stockholders": {
       "2025-06-30 00:00:00": null,
@@ -996,7 +996,7 @@
     },
     "Net Foreign Currency Exchange Gain Loss": {
       "2024-06-30 00:00:00": -7062000.0,
-      "2023-06-30 00:00:00": null,
+      "2023-06-30 00:00:00": 0.0,
       "2022-06-30 00:00:00": null,
       "2021-06-30 00:00:00": null
     },
@@ -1088,12 +1088,12 @@
     "regularMarketDayLow": 2010.0,
     "regularMarketDayHigh": 2054.0,
     "dividendRate": 80.0,
-    "dividendYield": 3.89,
+    "dividendYield": 3.94,
     "exDividendDate": 1782691200,
     "payoutRatio": 0.38459998,
     "fiveYearAvgDividendYield": 4.08,
     "beta": 0.257,
-    "trailingPE": 9.871682,
+    "trailingPE": 9.765832,
     "volume": 5400,
     "regularMarketVolume": 5400,
     "averageVolume": 2908,
@@ -1130,7 +1130,7 @@
     "mostRecentQuarter": 1774915200,
     "earningsQuarterlyGrowth": 0.481,
     "netIncomeToCommon": 1369227008,
-    "trailingEps": 205.74,
+    "trailingEps": 207.97,
     "enterpriseToRevenue": 0.101,
     "enterpriseToEbitda": 4.871,
     "52WeekChange": -0.027869642,
@@ -1165,16 +1165,32 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "marketState": "CLOSED",
     "regularMarketChangePercent": -1.1197662,
     "regularMarketPrice": 2031.0,
-    "exchange": "JPX",
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "2689.T announced a cash dividend of JPY 80.00 with an ex-date of Jun. 29, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1782658800000,
+          "amount": "80.00"
+        }
+      }
+    ],
+    "regularMarketTime": 1780637336,
     "messageBoardId": "finmb_8789263",
+    "exchange": "JPX",
     "exchangeTimezoneName": "Asia/Tokyo",
     "exchangeTimezoneShortName": "JST",
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
     "longName": "OLBA HEALTHCARE HOLDINGS, Inc.",
+    "shortName": "OLBA HEALTHCARE HLDGS INC",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 978566400000,
     "regularMarketChange": -23.0,
     "regularMarketDayRange": "2010.0 - 2054.0",
     "fullExchangeName": "Tokyo",
@@ -1190,7 +1206,7 @@
     "earningsCallTimestampStart": 1739876340,
     "earningsCallTimestampEnd": 1739876340,
     "isEarningsDateEstimate": true,
-    "epsTrailingTwelveMonths": 205.74,
+    "epsTrailingTwelveMonths": 207.97,
     "fiftyDayAverageChange": -56.899902,
     "fiftyDayAverageChangePercent": -0.027252218,
     "twoHundredDayAverageChange": -37.57007,
@@ -1198,14 +1214,8 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "prevName": "Kawanishi Holdings, Inc.",
-    "nameChangeDate": "2026-06-05",
+    "nameChangeDate": "2026-06-06",
     "cryptoTradeable": false,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 978566400000,
-    "shortName": "OLBA HEALTHCARE HLDGS INC",
-    "marketState": "CLOSED",
-    "corporateActions": [],
-    "regularMarketTime": 1780637336,
     "trailingPegRatio": null
   }
 }

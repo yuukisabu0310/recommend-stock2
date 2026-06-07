@@ -1,7 +1,7 @@
 {
   "ticker": "2982",
   "japanese_ticker": "2982.T",
-  "fetch_date": "2026-06-06T00:17:24.963264",
+  "fetch_date": "2026-06-07T00:12:14.788059",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-12-31 00:00:00": 53478340.0,
@@ -1164,7 +1164,7 @@
     "regularMarketDayLow": 386.0,
     "regularMarketDayHigh": 401.0,
     "dividendRate": 20.0,
-    "dividendYield": 5.21,
+    "dividendYield": 5.15,
     "exDividendDate": 1782691200,
     "payoutRatio": 0.23709999,
     "fiveYearAvgDividendYield": 3.16,
@@ -1236,12 +1236,14 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "shortName": "AD WORKS GRP CO LTD",
-    "longName": "A.D.Works Group Co.,Ltd.",
-    "corporateActions": [],
-    "regularMarketTime": 1780641000,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1585699200000,
+    "fiftyDayAverageChange": -23.540009,
+    "fiftyDayAverageChangePercent": -0.057199806,
+    "twoHundredDayAverageChange": -52.690002,
+    "twoHundredDayAverageChangePercent": -0.11956251,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
+    "marketState": "CLOSED",
     "regularMarketChange": 4.0,
     "regularMarketDayRange": "386.0 - 401.0",
     "fullExchangeName": "Tokyo",
@@ -1256,8 +1258,22 @@
     "earningsTimestampEnd": 1754978400,
     "isEarningsDateEstimate": true,
     "epsTrailingTwelveMonths": 67.47,
-    "regularMarketChangePercent": 1.0416667,
-    "regularMarketPrice": 388.0,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1585699200000,
+    "shortName": "AD WORKS GRP CO LTD",
+    "longName": "A.D.Works Group Co.,Ltd.",
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "2982.T announced a cash dividend of JPY 10.00 with an ex-date of Jun. 29, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1782658800000,
+          "amount": "10.00"
+        }
+      }
+    ],
+    "regularMarketTime": 1780641000,
     "exchange": "JPX",
     "messageBoardId": "finmb_644039311",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1265,14 +1281,8 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "marketState": "CLOSED",
-    "fiftyDayAverageChange": -23.540009,
-    "fiftyDayAverageChangePercent": -0.057199806,
-    "twoHundredDayAverageChange": -52.690002,
-    "twoHundredDayAverageChangePercent": -0.11956251,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
+    "regularMarketChangePercent": 1.0416667,
+    "regularMarketPrice": 388.0,
     "trailingPegRatio": null
   }
 }

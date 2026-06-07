@@ -1,7 +1,7 @@
 {
   "ticker": "2742",
   "japanese_ticker": "2742.T",
-  "fetch_date": "2026-06-06T00:14:11.998233",
+  "fetch_date": "2026-06-07T00:09:25.796631",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-02-28 00:00:00": 12540000.0,
@@ -131,7 +131,7 @@
     },
     "Diluted Average Shares": {
       "2026-02-28 00:00:00": null,
-      "2025-02-28 00:00:00": null,
+      "2025-02-28 00:00:00": 21469866.0,
       "2024-02-29 00:00:00": 21446228.0,
       "2023-02-28 00:00:00": 21415990.0,
       "2022-02-28 00:00:00": 21408979.0
@@ -145,14 +145,14 @@
     },
     "Diluted EPS": {
       "2026-02-28 00:00:00": null,
-      "2025-02-28 00:00:00": null,
+      "2025-02-28 00:00:00": 415.14,
       "2024-02-29 00:00:00": 400.49,
       "2023-02-28 00:00:00": 289.55,
       "2022-02-28 00:00:00": 277.08
     },
     "Basic EPS": {
       "2026-02-28 00:00:00": null,
-      "2025-02-28 00:00:00": null,
+      "2025-02-28 00:00:00": 416.95,
       "2024-02-29 00:00:00": 402.12,
       "2023-02-28 00:00:00": 290.27,
       "2022-02-28 00:00:00": 277.77
@@ -350,14 +350,14 @@
   "balance_sheet": {
     "Treasury Shares Number": {
       "2026-02-28 00:00:00": 139318.0,
-      "2025-02-28 00:00:00": null,
+      "2025-02-28 00:00:00": 72318.0,
       "2024-02-29 00:00:00": 72275.0,
       "2023-02-28 00:00:00": 57255.0,
-      "2022-02-28 00:00:00": 62317.0
+      "2022-02-28 00:00:00": null
     },
     "Ordinary Shares Number": {
       "2026-02-28 00:00:00": 21346082.0,
-      "2025-02-28 00:00:00": 21382482.0,
+      "2025-02-28 00:00:00": 21385782.0,
       "2024-02-29 00:00:00": 21359125.0,
       "2023-02-28 00:00:00": 21366645.0,
       "2022-02-28 00:00:00": null
@@ -1356,11 +1356,6 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "shortName": "HALOWS CO LTD",
-    "marketState": "CLOSED",
-    "regularMarketChangePercent": 0.94722605,
-    "regularMarketPrice": 3730.0,
-    "longName": "Halows Co.,Ltd.",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1031011200000,
     "regularMarketChange": 35.0,
@@ -1385,6 +1380,11 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
+    "marketState": "CLOSED",
+    "shortName": "HALOWS CO LTD",
+    "longName": "Halows Co.,Ltd.",
+    "corporateActions": [],
+    "regularMarketTime": 1780641000,
     "exchange": "JPX",
     "messageBoardId": "finmb_5548153",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1392,8 +1392,8 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "corporateActions": [],
-    "regularMarketTime": 1780641000,
+    "regularMarketChangePercent": 0.94722605,
+    "regularMarketPrice": 3730.0,
     "trailingPegRatio": null
   }
 }

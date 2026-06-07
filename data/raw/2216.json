@@ -1,7 +1,7 @@
 {
   "ticker": "2216",
   "japanese_ticker": "2216.T",
-  "fetch_date": "2026-06-06T00:07:53.586888",
+  "fetch_date": "2026-06-07T00:04:07.453082",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-12-31 00:00:00": -10721922.0,
@@ -126,12 +126,12 @@
       "2025-12-31 00:00:00": 42140272.0,
       "2024-12-31 00:00:00": 42054804.0,
       "2023-12-31 00:00:00": 41717778.0,
-      "2022-12-31 00:00:00": 14012000.0,
+      "2022-12-31 00:00:00": 42036000.0,
       "2021-12-31 00:00:00": null
     },
     "Basic Average Shares": {
       "2025-12-31 00:00:00": null,
-      "2024-12-31 00:00:00": null,
+      "2024-12-31 00:00:00": 42054804.0,
       "2023-12-31 00:00:00": 41717778.0,
       "2022-12-31 00:00:00": 42036000.0,
       "2021-12-31 00:00:00": 42306000.0
@@ -139,14 +139,14 @@
     "Diluted EPS": {
       "2025-12-31 00:00:00": null,
       "2024-12-31 00:00:00": 77.52,
-      "2023-12-31 00:00:00": 177.09,
-      "2022-12-31 00:00:00": 96.08,
+      "2023-12-31 00:00:00": 59.03,
+      "2022-12-31 00:00:00": 32.026667,
       "2021-12-31 00:00:00": 20.776667
     },
     "Basic EPS": {
       "2025-12-31 00:00:00": null,
       "2024-12-31 00:00:00": 77.52,
-      "2023-12-31 00:00:00": 177.09,
+      "2023-12-31 00:00:00": 59.03,
       "2022-12-31 00:00:00": 32.026667,
       "2021-12-31 00:00:00": 20.776667
     },
@@ -301,23 +301,23 @@
   "balance_sheet": {
     "Treasury Shares Number": {
       "2025-12-31 00:00:00": 3808480.0,
-      "2024-12-31 00:00:00": 1269166.0,
+      "2024-12-31 00:00:00": 3807498.0,
       "2023-12-31 00:00:00": 4180509.0,
-      "2022-12-31 00:00:00": 1446176.0,
+      "2022-12-31 00:00:00": 4338528.0,
       "2021-12-31 00:00:00": null
     },
     "Ordinary Shares Number": {
       "2025-12-31 00:00:00": 42138332.0,
-      "2024-12-31 00:00:00": 14046438.0,
-      "2023-12-31 00:00:00": 13922101.0,
-      "2022-12-31 00:00:00": 13869428.0,
+      "2024-12-31 00:00:00": 42139314.0,
+      "2023-12-31 00:00:00": 41766303.0,
+      "2022-12-31 00:00:00": 41608284.0,
       "2021-12-31 00:00:00": null
     },
     "Share Issued": {
       "2025-12-31 00:00:00": 45946812.0,
       "2024-12-31 00:00:00": 45946812.0,
       "2023-12-31 00:00:00": 45946812.0,
-      "2022-12-31 00:00:00": 15315604.0,
+      "2022-12-31 00:00:00": 45946812.0,
       "2021-12-31 00:00:00": null
     },
     "Total Debt": {
@@ -1156,7 +1156,7 @@
     "payoutRatio": 0.3991,
     "fiveYearAvgDividendYield": 2.54,
     "beta": 0.063,
-    "trailingPE": 13.05467,
+    "trailingPE": 13.280957,
     "forwardPE": 4.9581003,
     "volume": 86500,
     "regularMarketVolume": 86500,
@@ -1182,7 +1182,7 @@
     "tradeable": false,
     "enterpriseValue": 42888183808,
     "profitMargins": 0.095790006,
-    "floatShares": 35217657,
+    "floatShares": 35789229,
     "sharesOutstanding": 42182392,
     "heldPercentInsiders": 0.39661,
     "heldPercentInstitutions": 0.13848,
@@ -1194,7 +1194,7 @@
     "mostRecentQuarter": 1774915200,
     "earningsQuarterlyGrowth": 0.0,
     "netIncomeToCommon": 3379219968,
-    "trailingEps": 81.58,
+    "trailingEps": 80.19,
     "forwardEps": 214.8,
     "lastSplitFactor": "3:1",
     "lastSplitDate": 1750982400,
@@ -1232,10 +1232,26 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "regularMarketChangePercent": 1.7191976,
-    "regularMarketPrice": 1065.0,
-    "shortName": "KANRO CO LTD",
-    "longName": "Kanro Inc.",
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "2216.T announced a cash dividend of JPY 15.00 with an ex-date of Jun. 29, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1782658800000,
+          "amount": "15.00"
+        }
+      }
+    ],
+    "regularMarketTime": 1780641000,
+    "exchange": "JPX",
+    "messageBoardId": "finmb_883566",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
+    "marketState": "CLOSED",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 978998400000,
     "regularMarketChange": 18.0,
@@ -1251,18 +1267,10 @@
     "earningsTimestampStart": 1753677000,
     "earningsTimestampEnd": 1754022600,
     "isEarningsDateEstimate": true,
-    "corporateActions": [],
-    "regularMarketTime": 1780641000,
-    "exchange": "JPX",
-    "messageBoardId": "finmb_883566",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
-    "marketState": "CLOSED",
-    "epsTrailingTwelveMonths": 81.58,
+    "epsTrailingTwelveMonths": 80.19,
     "epsForward": 214.8,
+    "shortName": "KANRO CO LTD",
+    "longName": "Kanro Inc.",
     "fiftyDayAverageChange": -81.900024,
     "fiftyDayAverageChangePercent": -0.07140991,
     "twoHundredDayAverageChange": -487.95496,
@@ -1270,6 +1278,8 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
+    "regularMarketChangePercent": 1.7191976,
+    "regularMarketPrice": 1065.0,
     "trailingPegRatio": null
   }
 }

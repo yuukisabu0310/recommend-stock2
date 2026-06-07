@@ -1,7 +1,7 @@
 {
   "ticker": "2698",
   "japanese_ticker": "2698.T",
-  "fetch_date": "2026-06-06T00:13:42.156249",
+  "fetch_date": "2026-06-07T00:09:00.228774",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-02-28 00:00:00": -195200000.0,
@@ -124,7 +124,7 @@
     },
     "Diluted Average Shares": {
       "2026-02-28 00:00:00": 15999570.0,
-      "2025-02-28 00:00:00": 15991589.0,
+      "2025-02-28 00:00:00": 15996274.0,
       "2024-02-29 00:00:00": 15970772.0,
       "2022-11-30 00:00:00": 15971903.0,
       "2021-11-30 00:00:00": null
@@ -132,21 +132,21 @@
     "Basic Average Shares": {
       "2026-02-28 00:00:00": 15999570.0,
       "2025-02-28 00:00:00": 15996274.0,
-      "2024-02-29 00:00:00": 15982804.0,
+      "2024-02-29 00:00:00": 15970772.0,
       "2022-11-30 00:00:00": 15971903.0,
       "2021-11-30 00:00:00": null
     },
     "Diluted EPS": {
       "2026-02-28 00:00:00": 27.89,
       "2025-02-28 00:00:00": -15.83,
-      "2024-02-29 00:00:00": -72.98,
+      "2024-02-29 00:00:00": -28.74,
       "2022-11-30 00:00:00": -10.98,
       "2021-11-30 00:00:00": null
     },
     "Basic EPS": {
       "2026-02-28 00:00:00": 27.89,
       "2025-02-28 00:00:00": -15.83,
-      "2024-02-29 00:00:00": -72.98,
+      "2024-02-29 00:00:00": -28.74,
       "2022-11-30 00:00:00": -10.98,
       "2021-11-30 00:00:00": null
     },
@@ -1102,7 +1102,7 @@
     "regularMarketDayLow": 3175.0,
     "regularMarketDayHigh": 3230.0,
     "dividendRate": 17.0,
-    "dividendYield": 0.54,
+    "dividendYield": 0.53,
     "exDividendDate": 1787875200,
     "payoutRatio": 0.6095,
     "fiveYearAvgDividendYield": 0.62,
@@ -1181,15 +1181,7 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "gmtOffSetMilliseconds": 32400000,
-    "esgPopulated": false,
-    "exchangeTimezoneShortName": "JST",
-    "market": "jp_market",
-    "marketState": "CLOSED",
-    "regularMarketTime": 1780641000,
-    "exchange": "JPX",
-    "messageBoardId": "finmb_5537194",
-    "exchangeTimezoneName": "Asia/Tokyo",
+    "epsTrailingTwelveMonths": 28.01,
     "fiftyDayAverageChange": -25.899902,
     "fiftyDayAverageChangePercent": -0.007979267,
     "twoHundredDayAverageChange": -212.80005,
@@ -1197,11 +1189,6 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
-    "regularMarketChangePercent": 1.4173229,
-    "regularMarketPrice": 3220.0,
-    "corporateActions": [],
-    "shortName": "CAN DO CO LTD",
-    "longName": "Can Do Co., Ltd.",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1070409600000,
     "regularMarketChange": 45.0,
@@ -1217,7 +1204,20 @@
     "earningsTimestampStart": 1752040800,
     "earningsTimestampEnd": 1752472800,
     "isEarningsDateEstimate": true,
-    "epsTrailingTwelveMonths": 28.01,
+    "shortName": "CAN DO CO LTD",
+    "longName": "Can Do Co., Ltd.",
+    "marketState": "CLOSED",
+    "corporateActions": [],
+    "regularMarketTime": 1780641000,
+    "exchange": "JPX",
+    "messageBoardId": "finmb_5537194",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
+    "regularMarketChangePercent": 1.4173229,
+    "regularMarketPrice": 3220.0,
     "trailingPegRatio": null
   }
 }

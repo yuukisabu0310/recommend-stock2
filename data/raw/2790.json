@@ -1,7 +1,7 @@
 {
   "ticker": "2790",
   "japanese_ticker": "2790.T",
-  "fetch_date": "2026-06-06T00:14:58.760967",
+  "fetch_date": "2026-06-07T00:10:06.301881",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": -182584000.0,
@@ -1053,7 +1053,7 @@
     "regularMarketDayLow": 2055.0,
     "regularMarketDayHigh": 2095.0,
     "dividendRate": 58.0,
-    "dividendYield": 2.79,
+    "dividendYield": 2.78,
     "exDividendDate": 1790640000,
     "payoutRatio": 6.3806,
     "fiveYearAvgDividendYield": 2.89,
@@ -1130,10 +1130,6 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "regularMarketChangePercent": 0.2888782,
-    "regularMarketPrice": 2083.0,
-    "longName": "NAFCO Co., Ltd.",
-    "shortName": "NAFCO CO LTD",
     "corporateActions": [],
     "regularMarketTime": 1780641000,
     "exchange": "JPX",
@@ -1143,6 +1139,14 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
+    "shortName": "NAFCO CO LTD",
+    "longName": "NAFCO Co., Ltd.",
+    "regularMarketChangePercent": 0.2888782,
+    "regularMarketPrice": 2083.0,
+    "cryptoTradeable": false,
+    "marketState": "CLOSED",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1071446400000,
     "regularMarketChange": 6.0,
     "regularMarketDayRange": "2055.0 - 2095.0",
     "fullExchangeName": "Tokyo",
@@ -1153,8 +1157,6 @@
     "fiftyTwoWeekHighChange": -292.0,
     "fiftyTwoWeekHighChangePercent": -0.122947365,
     "fiftyTwoWeekChangePercent": 19.747412,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1071446400000,
     "earningsTimestampStart": 1746772200,
     "earningsTimestampEnd": 1746772200,
     "isEarningsDateEstimate": false,
@@ -1165,8 +1167,6 @@
     "twoHundredDayAverageChangePercent": -0.0115031935,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
-    "marketState": "CLOSED",
     "trailingPegRatio": null
   }
 }

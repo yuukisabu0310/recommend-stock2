@@ -1,7 +1,7 @@
 {
   "ticker": "2185",
   "japanese_ticker": "2185.T",
-  "fetch_date": "2026-06-06T00:07:21.298632",
+  "fetch_date": "2026-06-07T00:03:39.386795",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-09-30 00:00:00": 63461581.772823,
@@ -125,14 +125,14 @@
     "Diluted Average Shares": {
       "2025-09-30 00:00:00": null,
       "2024-09-30 00:00:00": 13265462.0,
-      "2023-09-30 00:00:00": 13254140.0,
+      "2023-09-30 00:00:00": 13254065.0,
       "2022-09-30 00:00:00": 13305511.0,
       "2021-09-30 00:00:00": 13609742.0
     },
     "Basic Average Shares": {
       "2025-09-30 00:00:00": null,
       "2024-09-30 00:00:00": 13265462.0,
-      "2023-09-30 00:00:00": 13254140.0,
+      "2023-09-30 00:00:00": 13254065.0,
       "2022-09-30 00:00:00": 13305511.0,
       "2021-09-30 00:00:00": 13609742.0
     },
@@ -145,7 +145,7 @@
     },
     "Basic EPS": {
       "2025-09-30 00:00:00": null,
-      "2024-09-30 00:00:00": null,
+      "2024-09-30 00:00:00": 156.72,
       "2023-09-30 00:00:00": 132.97,
       "2022-09-30 00:00:00": 150.56,
       "2021-09-30 00:00:00": 118.93
@@ -1139,7 +1139,7 @@
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 23271690240,
-    "nonDilutedMarketCap": 23530120698,
+    "nonDilutedMarketCap": 23271689938,
     "fiftyTwoWeekLow": 1423.0,
     "fiftyTwoWeekHigh": 2140.0,
     "allTimeHigh": 2970.0,
@@ -1153,7 +1153,7 @@
     "tradeable": false,
     "enterpriseValue": 9438690304,
     "profitMargins": 0.13218,
-    "floatShares": 5868575,
+    "floatShares": 5668550,
     "sharesOutstanding": 12921538,
     "heldPercentInsiders": 0.46522,
     "heldPercentInstitutions": 0.0504,
@@ -1203,9 +1203,10 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "marketState": "CLOSED",
-    "regularMarketChangePercent": -0.49723753,
-    "regularMarketPrice": 1801.0,
+    "shortName": "CMC CORPORATION",
+    "longName": "CMC Corporation",
+    "isEarningsDateEstimate": true,
+    "epsTrailingTwelveMonths": 199.37,
     "fiftyDayAverageChange": -62.640015,
     "fiftyDayAverageChangePercent": -0.033611648,
     "twoHundredDayAverageChange": 28.369995,
@@ -1213,6 +1214,8 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1228348800000,
     "regularMarketChange": -9.0,
     "regularMarketDayRange": "1793.0 - 1810.0",
     "fullExchangeName": "Tokyo",
@@ -1225,8 +1228,6 @@
     "fiftyTwoWeekChangePercent": 24.147343,
     "earningsTimestampStart": 1754546400,
     "earningsTimestampEnd": 1754978400,
-    "isEarningsDateEstimate": true,
-    "epsTrailingTwelveMonths": 199.37,
     "corporateActions": [],
     "regularMarketTime": 1780641000,
     "exchange": "JPX",
@@ -1236,10 +1237,9 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "shortName": "CMC CORPORATION",
-    "longName": "CMC Corporation",
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1228348800000,
+    "regularMarketChangePercent": -0.49723753,
+    "regularMarketPrice": 1801.0,
+    "marketState": "CLOSED",
     "trailingPegRatio": null
   }
 }

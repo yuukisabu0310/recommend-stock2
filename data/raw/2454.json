@@ -1,7 +1,7 @@
 {
   "ticker": "2454",
   "japanese_ticker": "2454.T",
-  "fetch_date": "2026-06-06T00:11:12.281391",
+  "fetch_date": "2026-06-07T00:06:53.980691",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": 286520.0,
@@ -107,7 +107,7 @@
     },
     "Basic Average Shares": {
       "2025-03-31 00:00:00": 13956008.0,
-      "2024-03-31 00:00:00": 13835376.0,
+      "2024-03-31 00:00:00": 13835627.0,
       "2023-03-31 00:00:00": 13624192.0,
       "2022-03-31 00:00:00": 13551372.0
     },
@@ -258,7 +258,7 @@
   },
   "balance_sheet": {
     "Treasury Shares Number": {
-      "2025-03-31 00:00:00": null,
+      "2025-03-31 00:00:00": 118216.0,
       "2024-03-31 00:00:00": 206363.0,
       "2023-03-31 00:00:00": 295979.0,
       "2022-03-31 00:00:00": 373699.0
@@ -270,7 +270,7 @@
       "2022-03-31 00:00:00": 13571801.0
     },
     "Share Issued": {
-      "2025-03-31 00:00:00": 13985384.0,
+      "2025-03-31 00:00:00": 14103600.0,
       "2024-03-31 00:00:00": 14103600.0,
       "2023-03-31 00:00:00": 13960900.0,
       "2022-03-31 00:00:00": 13945500.0
@@ -996,6 +996,9 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "marketState": "CLOSED",
+    "corporateActions": [],
+    "regularMarketTime": 1780641000,
     "exchange": "JPX",
     "messageBoardId": "finmb_23553576",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1003,17 +1006,10 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "corporateActions": [],
-    "regularMarketTime": 1780641000,
+    "regularMarketChangePercent": -0.28089887,
+    "regularMarketPrice": 355.0,
     "shortName": "ALL ABOUT INC",
     "longName": "All About, Inc.",
-    "fiftyDayAverageChange": -9.679993,
-    "fiftyDayAverageChangePercent": -0.0265438,
-    "twoHundredDayAverageChange": -31.730011,
-    "twoHundredDayAverageChangePercent": -0.08204693,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1126569600000,
     "regularMarketChange": -1.0,
@@ -1030,9 +1026,13 @@
     "earningsTimestampEnd": 1747035000,
     "isEarningsDateEstimate": false,
     "epsTrailingTwelveMonths": -33.65,
-    "marketState": "CLOSED",
-    "regularMarketChangePercent": -0.28089887,
-    "regularMarketPrice": 355.0,
+    "fiftyDayAverageChange": -9.679993,
+    "fiftyDayAverageChangePercent": -0.0265438,
+    "twoHundredDayAverageChange": -31.730011,
+    "twoHundredDayAverageChangePercent": -0.08204693,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
     "trailingPegRatio": null
   }
 }

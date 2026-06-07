@@ -1,7 +1,7 @@
 {
   "ticker": "2664",
   "japanese_ticker": "2664.T",
-  "fetch_date": "2026-06-06T00:12:59.293744",
+  "fetch_date": "2026-06-07T00:08:24.619436",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": -458565000.0,
@@ -946,7 +946,7 @@
     "regularMarketDayLow": 3310.0,
     "regularMarketDayHigh": 3350.0,
     "dividendRate": 100.0,
-    "dividendYield": 3.02,
+    "dividendYield": 2.99,
     "exDividendDate": 1789344000,
     "payoutRatio": 0.5589,
     "fiveYearAvgDividendYield": 2.55,
@@ -1023,9 +1023,10 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "shortName": "CAWACHI LIMITED",
-    "regularMarketChangePercent": 1.2084593,
-    "regularMarketPrice": 3350.0,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1038960000000,
+    "corporateActions": [],
+    "regularMarketTime": 1780641000,
     "exchange": "JPX",
     "messageBoardId": "finmb_5478544",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1033,12 +1034,8 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "corporateActions": [],
-    "regularMarketTime": 1780641000,
-    "marketState": "CLOSED",
-    "longName": "Cawachi Limited",
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1038960000000,
+    "regularMarketChangePercent": 1.2084593,
+    "regularMarketPrice": 3350.0,
     "regularMarketChange": 40.0,
     "regularMarketDayRange": "3310.0 - 3350.0",
     "fullExchangeName": "Tokyo",
@@ -1060,6 +1057,9 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
+    "shortName": "CAWACHI LIMITED",
+    "longName": "Cawachi Limited",
+    "marketState": "CLOSED",
     "trailingPegRatio": null
   }
 }

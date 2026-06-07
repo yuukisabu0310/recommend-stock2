@@ -1,18 +1,18 @@
 {
   "ticker": "2789",
   "japanese_ticker": "2789.T",
-  "fetch_date": "2026-06-06T00:14:56.692289",
+  "fetch_date": "2026-06-07T00:10:04.659000",
   "financials": {
     "Tax Effect Of Unusual Items": {
-      "2026-02-28 00:00:00": -2014310.243661,
-      "2025-02-28 00:00:00": 9026631.6,
+      "2026-02-28 00:00:00": -2015397.6,
+      "2025-02-28 00:00:00": 2237878.5,
       "2024-02-29 00:00:00": -71456.0,
       "2023-02-28 00:00:00": -11267776.0,
       "2022-02-28 00:00:00": null
     },
     "Tax Rate For Calcs": {
-      "2026-02-28 00:00:00": 0.040778,
-      "2025-02-28 00:00:00": 0.2884,
+      "2026-02-28 00:00:00": 0.0408,
+      "2025-02-28 00:00:00": 0.0715,
       "2024-02-29 00:00:00": 0.232,
       "2023-02-28 00:00:00": 0.232,
       "2022-02-28 00:00:00": null
@@ -95,8 +95,8 @@
       "2022-02-28 00:00:00": null
     },
     "Normalized Income": {
-      "2026-02-28 00:00:00": 287363689.756339,
-      "2025-02-28 00:00:00": 341036631.6,
+      "2026-02-28 00:00:00": 287362602.4,
+      "2025-02-28 00:00:00": 334247878.5,
       "2024-02-29 00:00:00": 437240544.0,
       "2023-02-28 00:00:00": -24050776.0,
       "2022-02-28 00:00:00": null
@@ -307,11 +307,11 @@
   },
   "balance_sheet": {
     "Treasury Shares Number": {
-      "2026-02-28 00:00:00": null,
+      "2026-02-28 00:00:00": 256756.0,
       "2025-02-28 00:00:00": 256756.0,
       "2024-02-29 00:00:00": 256756.0,
       "2023-02-28 00:00:00": 13756.0,
-      "2022-02-28 00:00:00": 13756.0
+      "2022-02-28 00:00:00": null
     },
     "Ordinary Shares Number": {
       "2026-02-28 00:00:00": 5764356.0,
@@ -321,8 +321,8 @@
       "2022-02-28 00:00:00": null
     },
     "Share Issued": {
-      "2026-02-28 00:00:00": 5764356.0,
-      "2025-02-28 00:00:00": 5764356.0,
+      "2026-02-28 00:00:00": 6021112.0,
+      "2025-02-28 00:00:00": 6021112.0,
       "2024-02-29 00:00:00": 6021112.0,
       "2023-02-28 00:00:00": 6021112.0,
       "2022-02-28 00:00:00": null
@@ -1120,7 +1120,7 @@
     "payoutRatio": 0.1201,
     "fiveYearAvgDividendYield": 2.36,
     "beta": 0.088,
-    "trailingPE": 10.953298,
+    "trailingPE": 10.929618,
     "volume": 1900,
     "regularMarketVolume": 1900,
     "averageVolume": 2928,
@@ -1145,7 +1145,7 @@
     "tradeable": false,
     "enterpriseValue": 3727781888,
     "profitMargins": 0.03168,
-    "floatShares": 2712648,
+    "floatShares": 2712591,
     "sharesOutstanding": 5764356,
     "heldPercentInsiders": 0.49493,
     "heldPercentInstitutions": 0.0,
@@ -1156,7 +1156,7 @@
     "nextFiscalYearEnd": 1803772800,
     "mostRecentQuarter": 1772236800,
     "netIncomeToCommon": 239000000,
-    "trailingEps": 41.54,
+    "trailingEps": 41.63,
     "lastSplitFactor": "2:1",
     "lastSplitDate": 1109116800,
     "enterpriseToRevenue": 0.494,
@@ -1194,22 +1194,6 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "marketState": "CLOSED",
-    "shortName": "KARULA CO LTD",
-    "regularMarketChangePercent": -0.21929824,
-    "regularMarketPrice": 455.0,
-    "corporateActions": [],
-    "regularMarketTime": 1780634673,
-    "exchange": "JPX",
-    "messageBoardId": "finmb_9776597",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
-    "longName": "Karula Co.,LTD.",
-    "isEarningsDateEstimate": false,
-    "epsTrailingTwelveMonths": 41.54,
     "fiftyDayAverageChange": -4.100006,
     "fiftyDayAverageChangePercent": -0.0089305295,
     "twoHundredDayAverageChange": -19.869995,
@@ -1231,6 +1215,22 @@
     "fiftyTwoWeekChangePercent": 0.21929741,
     "earningsTimestampStart": 1744005600,
     "earningsTimestampEnd": 1744005600,
+    "isEarningsDateEstimate": false,
+    "epsTrailingTwelveMonths": 41.63,
+    "corporateActions": [],
+    "regularMarketTime": 1780634673,
+    "exchange": "JPX",
+    "messageBoardId": "finmb_9776597",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
+    "marketState": "CLOSED",
+    "regularMarketChangePercent": -0.21929824,
+    "regularMarketPrice": 455.0,
+    "shortName": "KARULA CO LTD",
+    "longName": "Karula Co.,LTD.",
     "trailingPegRatio": null
   }
 }

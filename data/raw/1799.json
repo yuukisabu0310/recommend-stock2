@@ -1,7 +1,7 @@
 {
   "ticker": "1799",
   "japanese_ticker": "1799.T",
-  "fetch_date": "2026-06-06T00:02:36.513449",
+  "fetch_date": "2026-06-06T23:59:32.340012",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": -19655836.648679,
@@ -113,7 +113,7 @@
     },
     "Basic Average Shares": {
       "2025-03-31 00:00:00": 18858564.0,
-      "2024-03-31 00:00:00": 19496781.0,
+      "2024-03-31 00:00:00": 19495960.0,
       "2023-03-31 00:00:00": 19944038.0,
       "2022-03-31 00:00:00": 20322000.0
     },
@@ -300,19 +300,19 @@
   },
   "balance_sheet": {
     "Treasury Shares Number": {
-      "2025-03-31 00:00:00": null,
+      "2025-03-31 00:00:00": 2092427.0,
       "2024-03-31 00:00:00": 1395723.0,
       "2023-03-31 00:00:00": 1270989.0,
       "2022-03-31 00:00:00": 547177.0
     },
     "Ordinary Shares Number": {
-      "2025-03-31 00:00:00": 18761968.0,
+      "2025-03-31 00:00:00": 18766064.0,
       "2024-03-31 00:00:00": 19462768.0,
       "2023-03-31 00:00:00": 19587502.0,
       "2022-03-31 00:00:00": 20311314.0
     },
     "Share Issued": {
-      "2025-03-31 00:00:00": 18761968.0,
+      "2025-03-31 00:00:00": 20858491.0,
       "2024-03-31 00:00:00": 20858491.0,
       "2023-03-31 00:00:00": 20858491.0,
       "2022-03-31 00:00:00": 20858491.0
@@ -1032,12 +1032,12 @@
     "regularMarketDayLow": 3175.0,
     "regularMarketDayHigh": 3270.0,
     "dividendRate": 160.0,
-    "dividendYield": 4.98,
+    "dividendYield": 4.93,
     "exDividendDate": 1806364800,
     "payoutRatio": 0.5459,
     "fiveYearAvgDividendYield": 3.52,
     "beta": 0.445,
-    "trailingPE": 10.96506,
+    "trailingPE": 11.074329,
     "forwardPE": 17.133053,
     "volume": 19200,
     "regularMarketVolume": 19200,
@@ -1075,7 +1075,7 @@
     "mostRecentQuarter": 1293753600,
     "earningsQuarterlyGrowth": 0.17,
     "netIncomeToCommon": 1981355008,
-    "trailingEps": 295.94,
+    "trailingEps": 293.02,
     "forwardEps": 189.4,
     "enterpriseToRevenue": 1.399,
     "enterpriseToEbitda": 10.178,
@@ -1113,13 +1113,6 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "regularMarketChangePercent": 0.933126,
-    "regularMarketPrice": 3245.0,
-    "marketState": "CLOSED",
-    "corporateActions": [],
-    "regularMarketTime": 1780641000,
-    "shortName": "DAIICHI KENSETSU CORP",
-    "longName": "Daiichi Kensetsu Corporation",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 946944000000,
     "regularMarketChange": 30.0,
@@ -1135,7 +1128,7 @@
     "earningsTimestampStart": 1747117800,
     "earningsTimestampEnd": 1747117800,
     "isEarningsDateEstimate": false,
-    "epsTrailingTwelveMonths": 295.94,
+    "epsTrailingTwelveMonths": 293.02,
     "epsForward": 189.4,
     "fiftyDayAverageChange": -394.3999,
     "fiftyDayAverageChangePercent": -0.108369485,
@@ -1143,6 +1136,12 @@
     "twoHundredDayAverageChangePercent": -0.10609139,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
+    "marketState": "CLOSED",
+    "shortName": "DAIICHI KENSETSU CORP",
+    "longName": "Daiichi Kensetsu Corporation",
+    "corporateActions": [],
+    "regularMarketTime": 1780641000,
     "exchange": "JPX",
     "messageBoardId": "finmb_880783",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1150,7 +1149,8 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "cryptoTradeable": false,
+    "regularMarketChangePercent": 0.933126,
+    "regularMarketPrice": 3245.0,
     "trailingPegRatio": null
   }
 }

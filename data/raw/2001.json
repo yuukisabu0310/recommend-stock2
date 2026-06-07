@@ -1,7 +1,7 @@
 {
   "ticker": "2001",
   "japanese_ticker": "2001.T",
-  "fetch_date": "2026-06-06T00:05:45.392481",
+  "fetch_date": "2026-06-07T00:02:17.216935",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": 3996083787.521354,
@@ -113,7 +113,7 @@
     },
     "Basic Average Shares": {
       "2025-03-31 00:00:00": 78031330.0,
-      "2024-03-31 00:00:00": 77964000.0,
+      "2024-03-31 00:00:00": 77962744.0,
       "2023-03-31 00:00:00": 77633189.0,
       "2022-03-31 00:00:00": 76712000.0
     },
@@ -1147,7 +1147,7 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "longName": "Nippn Corporation",
+    "marketState": "CLOSED",
     "corporateActions": [],
     "regularMarketTime": 1780641000,
     "exchange": "JPX",
@@ -1157,6 +1157,10 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
+    "regularMarketChangePercent": 1.0408635,
+    "regularMarketPrice": 2621.0,
+    "shortName": "NIPPN CORPORATION",
+    "longName": "Nippn Corporation",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 978307200000,
     "regularMarketChange": 27.0,
@@ -1180,15 +1184,11 @@
     "twoHundredDayAverageChange": 116.2251,
     "twoHundredDayAverageChangePercent": 0.046401415,
     "sourceInterval": 15,
-    "regularMarketChangePercent": 1.0408635,
-    "regularMarketPrice": 2621.0,
-    "marketState": "CLOSED",
     "exchangeDataDelayedBy": 20,
     "prevName": "Nippon Flour Mills Co., Ltd.",
-    "nameChangeDate": "2026-06-05",
+    "nameChangeDate": "2026-06-06",
     "averageAnalystRating": "0.0 - Strong Buy",
     "cryptoTradeable": false,
-    "shortName": "NIPPN CORPORATION",
     "trailingPegRatio": null
   }
 }

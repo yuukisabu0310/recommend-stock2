@@ -1,7 +1,7 @@
 {
   "ticker": "2937",
   "japanese_ticker": "2937.T",
-  "fetch_date": "2026-06-06T00:17:04.954974",
+  "fetch_date": "2026-06-07T00:11:58.610155",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": -44452360.0,
@@ -1064,11 +1064,8 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "longName": "St.Cousair Co., Ltd.",
-    "corporateActions": [],
-    "regularMarketTime": 1780640697,
-    "marketState": "CLOSED",
-    "cryptoTradeable": false,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1671580800000,
     "regularMarketChange": 2.0,
     "regularMarketDayRange": "1670.0 - 1689.0",
     "fullExchangeName": "Tokyo",
@@ -1089,10 +1086,12 @@
     "twoHundredDayAverageChangePercent": -0.029622365,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1671580800000,
-    "regularMarketChangePercent": 0.11983224,
-    "regularMarketPrice": 1671.0,
+    "cryptoTradeable": false,
+    "marketState": "CLOSED",
+    "shortName": "ST COUSAIR CO LTD",
+    "longName": "St.Cousair Co., Ltd.",
+    "corporateActions": [],
+    "regularMarketTime": 1780640697,
     "exchange": "JPX",
     "messageBoardId": "finmb_52131307",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1100,7 +1099,8 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "shortName": "ST COUSAIR CO LTD",
+    "regularMarketChangePercent": 0.11983224,
+    "regularMarketPrice": 1671.0,
     "trailingPegRatio": null
   }
 }

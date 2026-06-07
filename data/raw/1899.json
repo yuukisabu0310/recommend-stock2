@@ -1,7 +1,7 @@
 {
   "ticker": "1899",
   "japanese_ticker": "1899.T",
-  "fetch_date": "2026-06-06T00:04:08.859210",
+  "fetch_date": "2026-06-07T00:00:52.695076",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-12-31 00:00:00": -30461732.442315,
@@ -107,26 +107,26 @@
     },
     "Diluted Average Shares": {
       "2025-12-31 00:00:00": 8279000.0,
-      "2024-12-31 00:00:00": 8275000.0,
-      "2023-12-31 00:00:00": 8463188.0,
+      "2024-12-31 00:00:00": 8275271.0,
+      "2023-12-31 00:00:00": 8273204.0,
       "2022-12-31 00:00:00": 8525000.0
     },
     "Basic Average Shares": {
       "2025-12-31 00:00:00": 8279000.0,
-      "2024-12-31 00:00:00": 8275000.0,
-      "2023-12-31 00:00:00": 8463188.0,
+      "2024-12-31 00:00:00": 8275271.0,
+      "2023-12-31 00:00:00": 8273204.0,
       "2022-12-31 00:00:00": 8525000.0
     },
     "Diluted EPS": {
       "2025-12-31 00:00:00": 670.1,
       "2024-12-31 00:00:00": 641.55,
-      "2023-12-31 00:00:00": 400.08,
+      "2023-12-31 00:00:00": 409.273118,
       "2022-12-31 00:00:00": 428.24
     },
     "Basic EPS": {
       "2025-12-31 00:00:00": 670.1,
       "2024-12-31 00:00:00": 641.55,
-      "2023-12-31 00:00:00": 400.08,
+      "2023-12-31 00:00:00": 409.273118,
       "2022-12-31 00:00:00": 428.24
     },
     "Diluted NI Availto Com Stockholders": {
@@ -1187,7 +1187,7 @@
     "regularMarketDayLow": 7290.0,
     "regularMarketDayHigh": 7450.0,
     "dividendRate": 260.0,
-    "dividendYield": 3.61,
+    "dividendYield": 3.54,
     "exDividendDate": 1798502400,
     "payoutRatio": 0.38799998,
     "fiveYearAvgDividendYield": 2.94,
@@ -1266,8 +1266,15 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "regularMarketTime": 1780641000,
+    "longName": "Fukuda Corporation",
     "marketState": "CLOSED",
-    "shortName": "FUKUDA CORP",
+    "market": "jp_market",
+    "esgPopulated": false,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 978307200000,
+    "regularMarketChange": 150.0,
+    "regularMarketDayRange": "7290.0 - 7450.0",
     "fullExchangeName": "Tokyo",
     "averageDailyVolume3Month": 26043,
     "fiftyTwoWeekLowChange": 2555.0,
@@ -1276,14 +1283,14 @@
     "fiftyTwoWeekHighChange": -1550.0,
     "fiftyTwoWeekHighChangePercent": -0.1741573,
     "fiftyTwoWeekChangePercent": 44.466805,
-    "epsTrailingTwelveMonths": 670.32,
-    "fiftyDayAverageChange": -830.0,
-    "fiftyDayAverageChangePercent": -0.10146699,
-    "twoHundredDayAverageChange": -188.5498,
-    "twoHundredDayAverageChangePercent": -0.025011417,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "longName": "Fukuda Corporation",
+    "earningsTimestampStart": 1754460000,
+    "earningsTimestampEnd": 1754978400,
+    "isEarningsDateEstimate": true,
+    "exchange": "JPX",
+    "messageBoardId": "finmb_876538",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
     "corporateActions": [
       {
         "header": "Stock split",
@@ -1295,24 +1302,17 @@
         }
       }
     ],
-    "regularMarketTime": 1780641000,
-    "exchange": "JPX",
-    "messageBoardId": "finmb_876538",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
-    "earningsTimestampStart": 1754460000,
-    "earningsTimestampEnd": 1754978400,
-    "isEarningsDateEstimate": true,
-    "cryptoTradeable": false,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 978307200000,
-    "regularMarketChange": 150.0,
-    "regularMarketDayRange": "7290.0 - 7450.0",
     "regularMarketChangePercent": 2.0833335,
     "regularMarketPrice": 7350.0,
+    "shortName": "FUKUDA CORP",
+    "epsTrailingTwelveMonths": 670.32,
+    "fiftyDayAverageChange": -830.0,
+    "fiftyDayAverageChangePercent": -0.10146699,
+    "twoHundredDayAverageChange": -188.5498,
+    "twoHundredDayAverageChangePercent": -0.025011417,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
     "trailingPegRatio": null
   }
 }

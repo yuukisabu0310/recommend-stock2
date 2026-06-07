@@ -1,7 +1,7 @@
 {
   "ticker": "2809",
   "japanese_ticker": "2809.T",
-  "fetch_date": "2026-06-06T00:15:21.785082",
+  "fetch_date": "2026-06-07T00:10:27.406045",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-11-30 00:00:00": 2869139000.0,
@@ -429,6 +429,13 @@
       "2024-11-30 00:00:00": 15532000000.0,
       "2023-11-30 00:00:00": 12766000000.0,
       "2022-11-30 00:00:00": 9558000000.0,
+      "2021-11-30 00:00:00": null
+    },
+    "Long Term Debt And Capital Lease Obligation": {
+      "2025-11-30 00:00:00": 3592000000.0,
+      "2024-11-30 00:00:00": 19285000000.0,
+      "2023-11-30 00:00:00": 14591000000.0,
+      "2022-11-30 00:00:00": 29407000000.0,
       "2021-11-30 00:00:00": null
     },
     "Long Term Capital Lease Obligation": {
@@ -1284,8 +1291,9 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "shortName": "KEWPIE CORP",
     "marketState": "CLOSED",
+    "regularMarketChangePercent": -0.6273526,
+    "regularMarketPrice": 3960.0,
     "corporateActions": [],
     "regularMarketTime": 1780641000,
     "exchange": "JPX",
@@ -1295,13 +1303,8 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
+    "shortName": "KEWPIE CORP",
     "longName": "Kewpie Corporation",
-    "epsTrailingTwelveMonths": 220.57,
-    "epsForward": 178.94,
-    "fiftyDayAverageChange": -97.71997,
-    "fiftyDayAverageChangePercent": -0.024082482,
-    "twoHundredDayAverageChange": -278.60986,
-    "twoHundredDayAverageChangePercent": -0.06573142,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "averageAnalystRating": "2.0 - Buy",
@@ -1324,8 +1327,12 @@
     "earningsCallTimestampStart": 1736420340,
     "earningsCallTimestampEnd": 1736420340,
     "isEarningsDateEstimate": false,
-    "regularMarketChangePercent": -0.6273526,
-    "regularMarketPrice": 3960.0,
+    "epsTrailingTwelveMonths": 220.57,
+    "epsForward": 178.94,
+    "fiftyDayAverageChange": -97.71997,
+    "fiftyDayAverageChangePercent": -0.024082482,
+    "twoHundredDayAverageChange": -278.60986,
+    "twoHundredDayAverageChangePercent": -0.06573142,
     "trailingPegRatio": null
   }
 }

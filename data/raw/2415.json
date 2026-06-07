@@ -1,7 +1,7 @@
 {
   "ticker": "2415",
   "japanese_ticker": "2415.T",
-  "fetch_date": "2026-06-06T00:10:38.922915",
+  "fetch_date": "2026-06-07T00:06:25.298121",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": null,
@@ -125,14 +125,14 @@
     "Diluted Average Shares": {
       "2026-03-31 00:00:00": 10377786.0,
       "2025-03-31 00:00:00": 10377974.0,
-      "2024-03-31 00:00:00": 10670386.0,
+      "2024-03-31 00:00:00": 10670349.0,
       "2023-03-31 00:00:00": 10877999.0,
       "2022-03-31 00:00:00": null
     },
     "Basic Average Shares": {
       "2026-03-31 00:00:00": null,
       "2025-03-31 00:00:00": 10377974.0,
-      "2024-03-31 00:00:00": 10670386.0,
+      "2024-03-31 00:00:00": 10670349.0,
       "2023-03-31 00:00:00": 10877999.0,
       "2022-03-31 00:00:00": 10877999.0
     },
@@ -312,7 +312,7 @@
       "2022-03-31 00:00:00": 10877999.0
     },
     "Share Issued": {
-      "2025-03-31 00:00:00": 10377962.0,
+      "2025-03-31 00:00:00": 10377999.0,
       "2024-03-31 00:00:00": 10377999.0,
       "2023-03-31 00:00:00": 10987200.0,
       "2022-03-31 00:00:00": 10987200.0
@@ -1104,19 +1104,6 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "corporateActions": [],
-    "regularMarketTime": 1780641000,
-    "exchange": "JPX",
-    "messageBoardId": "finmb_11518917",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
-    "shortName": "HUMAN HLDGS CO.LTD",
-    "longName": "Human Holdings Co., Ltd.",
-    "regularMarketChangePercent": -0.46113306,
-    "regularMarketPrice": 1511.0,
     "marketState": "CLOSED",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1097107200000,
@@ -1142,6 +1129,19 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
+    "corporateActions": [],
+    "regularMarketTime": 1780641000,
+    "exchange": "JPX",
+    "messageBoardId": "finmb_11518917",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
+    "regularMarketChangePercent": -0.46113306,
+    "regularMarketPrice": 1511.0,
+    "shortName": "HUMAN HLDGS CO.LTD",
+    "longName": "Human Holdings Co., Ltd.",
     "trailingPegRatio": null
   }
 }

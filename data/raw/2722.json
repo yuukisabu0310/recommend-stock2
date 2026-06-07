@@ -1,7 +1,7 @@
 {
   "ticker": "2722",
   "japanese_ticker": "2722.T",
-  "fetch_date": "2026-06-06T00:13:55.470082",
+  "fetch_date": "2026-06-07T00:09:10.659992",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-05-31 00:00:00": 33703591.057874,
@@ -276,7 +276,7 @@
       "2022-05-31 00:00:00": 7673624.0
     },
     "Share Issued": {
-      "2025-05-31 00:00:00": 7537524.0,
+      "2025-05-31 00:00:00": 8308000.0,
       "2024-05-31 00:00:00": 8308000.0,
       "2023-05-31 00:00:00": 8308000.0,
       "2022-05-31 00:00:00": 8308000.0
@@ -1017,7 +1017,7 @@
     "regularMarketDayLow": 358.0,
     "regularMarketDayHigh": 364.0,
     "dividendRate": 9.0,
-    "dividendYield": 2.47,
+    "dividendYield": 2.5,
     "exDividendDate": 1779926400,
     "payoutRatio": 0.25190002,
     "fiveYearAvgDividendYield": 2.29,
@@ -1098,8 +1098,15 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "shortName": "IK HOLDINGS CO LTD",
-    "longName": "IK HOLDINGS Co.,Ltd.",
+    "fiftyDayAverageChange": -25.799988,
+    "fiftyDayAverageChangePercent": -0.066874,
+    "twoHundredDayAverageChange": -43.910004,
+    "twoHundredDayAverageChangePercent": -0.108712345,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "prevName": "I.K Co.,Ltd.",
+    "nameChangeDate": "2026-06-06",
+    "cryptoTradeable": false,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1007424000000,
     "regularMarketChange": -4.0,
@@ -1117,17 +1124,6 @@
     "isEarningsDateEstimate": true,
     "epsTrailingTwelveMonths": 31.75,
     "epsForward": 45.7,
-    "fiftyDayAverageChange": -25.799988,
-    "fiftyDayAverageChangePercent": -0.066874,
-    "twoHundredDayAverageChange": -43.910004,
-    "twoHundredDayAverageChangePercent": -0.108712345,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "prevName": "I.K Co.,Ltd.",
-    "nameChangeDate": "2026-06-05",
-    "regularMarketChangePercent": -1.0989012,
-    "regularMarketPrice": 360.0,
-    "marketState": "CLOSED",
     "corporateActions": [],
     "regularMarketTime": 1780641000,
     "exchange": "JPX",
@@ -1137,7 +1133,11 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "cryptoTradeable": false,
+    "marketState": "CLOSED",
+    "regularMarketChangePercent": -1.0989012,
+    "regularMarketPrice": 360.0,
+    "shortName": "IK HOLDINGS CO LTD",
+    "longName": "IK HOLDINGS Co.,Ltd.",
     "trailingPegRatio": null
   }
 }

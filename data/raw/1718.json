@@ -1,7 +1,7 @@
 {
   "ticker": "1718",
   "japanese_ticker": "1718.T",
-  "fetch_date": "2026-06-06T00:01:46.528745",
+  "fetch_date": "2026-06-06T23:58:50.759207",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-12-31 00:00:00": 12486210.0,
@@ -138,7 +138,7 @@
     },
     "Diluted EPS": {
       "2025-12-31 00:00:00": null,
-      "2024-12-31 00:00:00": null,
+      "2024-12-31 00:00:00": 602.24,
       "2023-12-31 00:00:00": 767.98,
       "2022-12-31 00:00:00": 672.07,
       "2021-12-31 00:00:00": 669.02
@@ -327,7 +327,7 @@
     },
     "Share Issued": {
       "2025-12-31 00:00:00": 1153263.0,
-      "2024-12-31 00:00:00": 1092961.0,
+      "2024-12-31 00:00:00": 1153263.0,
       "2023-12-31 00:00:00": 1153263.0,
       "2022-12-31 00:00:00": 1153263.0
     },
@@ -1120,15 +1120,6 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "corporateActions": [],
-    "regularMarketTime": 1780637133,
-    "exchange": "JPX",
-    "messageBoardId": "finmb_5663631",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1067385600000,
     "regularMarketChange": -50.0,
@@ -1149,14 +1140,33 @@
     "fiftyDayAverageChangePercent": -0.027231919,
     "twoHundredDayAverageChange": -968.5498,
     "twoHundredDayAverageChangePercent": -0.12185239,
-    "marketState": "CLOSED",
     "shortName": "MIKIKOGYO CO LTD",
     "longName": "Mikikogyo Co., Ltd.",
+    "marketState": "CLOSED",
+    "regularMarketTime": 1780637133,
+    "exchange": "JPX",
+    "messageBoardId": "finmb_5663631",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
+    "regularMarketChangePercent": -0.71123755,
+    "regularMarketPrice": 6980.0,
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "1718.T announced a cash dividend of JPY 150.00 with an ex-date of Jun. 29, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1782658800000,
+          "amount": "150.00"
+        }
+      }
+    ],
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
-    "regularMarketChangePercent": -0.71123755,
-    "regularMarketPrice": 6980.0,
     "trailingPegRatio": null
   }
 }

@@ -1,7 +1,7 @@
 {
   "ticker": "2335",
   "japanese_ticker": "2335.T",
-  "fetch_date": "2026-06-06T00:09:26.061487",
+  "fetch_date": "2026-06-07T00:05:25.346879",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": 104832000.0,
@@ -997,7 +997,7 @@
     "regularMarketDayLow": 1007.0,
     "regularMarketDayHigh": 1027.0,
     "dividendRate": 48.0,
-    "dividendYield": 4.78,
+    "dividendYield": 4.68,
     "exDividendDate": 1790640000,
     "payoutRatio": 0.445,
     "fiveYearAvgDividendYield": 2.91,
@@ -1078,9 +1078,6 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "marketState": "CLOSED",
-    "regularMarketChangePercent": 2.191235,
-    "regularMarketPrice": 1026.0,
     "corporateActions": [],
     "regularMarketTime": 1780641000,
     "exchange": "JPX",
@@ -1090,7 +1087,10 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
+    "regularMarketChangePercent": 2.191235,
+    "regularMarketPrice": 1026.0,
     "shortName": "CUBE SYSTEM INC",
+    "epsTrailingTwelveMonths": 103.42,
     "fiftyDayAverageChange": -0.060058594,
     "fiftyDayAverageChangePercent": -5.8533216e-05,
     "twoHundredDayAverageChange": -66.18506,
@@ -1113,8 +1113,8 @@
     "earningsTimestampStart": 1754377200,
     "earningsTimestampEnd": 1754982000,
     "isEarningsDateEstimate": true,
-    "epsTrailingTwelveMonths": 103.42,
     "longName": "Cube System Inc.",
+    "marketState": "CLOSED",
     "trailingPegRatio": null
   }
 }

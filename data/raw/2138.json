@@ -1,7 +1,7 @@
 {
   "ticker": "2138",
   "japanese_ticker": "2138.T",
-  "fetch_date": "2026-06-06T00:06:31.998573",
+  "fetch_date": "2026-06-07T00:02:56.280475",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": 122554696.0,
@@ -1175,8 +1175,7 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "corporateActions": [],
-    "regularMarketTime": 1780641000,
+    "marketState": "CLOSED",
     "exchange": "JPX",
     "messageBoardId": "finmb_31068167",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1184,8 +1183,6 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "shortName": "CROOZ INC",
-    "longName": "CROOZ, Inc.",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1171411200000,
     "regularMarketChange": 8.0,
@@ -1212,7 +1209,10 @@
     "cryptoTradeable": false,
     "regularMarketChangePercent": 1.6806724,
     "regularMarketPrice": 484.0,
-    "marketState": "CLOSED",
+    "shortName": "CROOZ INC",
+    "longName": "CROOZ, Inc.",
+    "corporateActions": [],
+    "regularMarketTime": 1780641000,
     "trailingPegRatio": null
   }
 }

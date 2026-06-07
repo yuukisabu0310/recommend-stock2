@@ -1,7 +1,7 @@
 {
   "ticker": "1383",
   "japanese_ticker": "1383.T",
-  "fetch_date": "2026-06-06T00:00:37.607051",
+  "fetch_date": "2026-06-06T23:57:50.377045",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-10-31 00:00:00": 41892936.0,
@@ -132,13 +132,13 @@
     "Basic Average Shares": {
       "2025-10-31 00:00:00": null,
       "2024-10-31 00:00:00": 1597325.0,
-      "2023-10-31 00:00:00": 1534251.0,
+      "2023-10-31 00:00:00": 1534133.0,
       "2022-10-31 00:00:00": 1420735.0,
       "2021-10-31 00:00:00": 1269653.0
     },
     "Diluted EPS": {
       "2025-10-31 00:00:00": null,
-      "2024-10-31 00:00:00": null,
+      "2024-10-31 00:00:00": 25.0,
       "2023-10-31 00:00:00": 50.86,
       "2022-10-31 00:00:00": 139.16,
       "2021-10-31 00:00:00": 93.92
@@ -315,10 +315,10 @@
   "balance_sheet": {
     "Treasury Shares Number": {
       "2025-10-31 00:00:00": 13224.0,
-      "2024-10-31 00:00:00": null,
+      "2024-10-31 00:00:00": 13174.0,
       "2023-10-31 00:00:00": 13174.0,
       "2022-10-31 00:00:00": 13126.0,
-      "2021-10-31 00:00:00": 247.0
+      "2021-10-31 00:00:00": null
     },
     "Ordinary Shares Number": {
       "2025-10-31 00:00:00": 1600356.0,
@@ -1199,7 +1199,7 @@
     "payoutRatio": 0.3309,
     "fiveYearAvgDividendYield": 0.36,
     "beta": 0.165,
-    "trailingPE": 93.46255,
+    "trailingPE": 94.33024,
     "volume": 3300,
     "regularMarketVolume": 3300,
     "averageVolume": 7830,
@@ -1235,7 +1235,7 @@
     "nextFiscalYearEnd": 1793404800,
     "mostRecentQuarter": 1769817600,
     "netIncomeToCommon": 93000000,
-    "trailingEps": 30.44,
+    "trailingEps": 30.16,
     "enterpriseToRevenue": 0.868,
     "enterpriseToEbitda": 20.503,
     "52WeekChange": -0.03840971,
@@ -1269,7 +1269,7 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "epsTrailingTwelveMonths": 30.44,
+    "marketState": "CLOSED",
     "fiftyDayAverageChange": -225.47998,
     "fiftyDayAverageChangePercent": -0.07343477,
     "twoHundredDayAverageChange": -239.5249,
@@ -1277,15 +1277,6 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
-    "longName": "Berg Earth Co.,Ltd.",
-    "corporateActions": [],
-    "regularMarketTime": 1780640033,
-    "exchange": "JPX",
-    "messageBoardId": "finmb_25336112",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "marketState": "CLOSED",
-    "shortName": "BERG EARTH CO LTD",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1322524800000,
     "regularMarketChange": 15.0,
@@ -1301,11 +1292,20 @@
     "earningsTimestampStart": 1749796200,
     "earningsTimestampEnd": 1749796200,
     "isEarningsDateEstimate": false,
-    "regularMarketChangePercent": 0.5300353,
-    "regularMarketPrice": 2845.0,
+    "epsTrailingTwelveMonths": 30.16,
+    "shortName": "BERG EARTH CO LTD",
+    "longName": "Berg Earth Co.,Ltd.",
+    "corporateActions": [],
+    "regularMarketTime": 1780640033,
+    "exchange": "JPX",
+    "messageBoardId": "finmb_25336112",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
+    "regularMarketChangePercent": 0.5300353,
+    "regularMarketPrice": 2845.0,
     "trailingPegRatio": null
   }
 }
