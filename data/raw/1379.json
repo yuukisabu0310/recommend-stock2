@@ -1,7 +1,7 @@
 {
   "ticker": "1379",
   "japanese_ticker": "1379.T",
-  "fetch_date": "2026-06-06T23:57:42.990730",
+  "fetch_date": "2026-06-08T00:00:32.776834",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": -243144000.0,
@@ -82,7 +82,7 @@
       "2022-03-31 00:00:00": 5000000.0
     },
     "Normalized Income": {
-      "2025-03-31 00:00:00": 5118856000.0,
+      "2025-03-31 00:00:00": 5119189520.809153,
       "2024-03-31 00:00:00": 3312048435.319912,
       "2023-03-31 00:00:00": -1726981261.42596,
       "2022-03-31 00:00:00": 2527926795.957389
@@ -1032,8 +1032,8 @@
     "averageVolume": 101728,
     "averageVolume10days": 104540,
     "averageDailyVolume10Day": 104540,
-    "bid": 1825.0,
-    "ask": 1833.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 57238478848,
@@ -1103,19 +1103,8 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "corporateActions": [],
-    "regularMarketTime": 1780641000,
-    "exchange": "JPX",
-    "messageBoardId": "finmb_884170",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
     "regularMarketChangePercent": 0.8282716,
     "regularMarketPrice": 1826.0,
-    "shortName": "HOKUTO CORP",
-    "epsTrailingTwelveMonths": 191.91,
     "fiftyDayAverageChange": -51.859985,
     "fiftyDayAverageChangePercent": -0.027616534,
     "twoHundredDayAverageChange": -111.97998,
@@ -1123,6 +1112,7 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
+    "marketState": "REGULAR",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 978566400000,
     "regularMarketChange": 15.0,
@@ -1140,8 +1130,18 @@
     "earningsCallTimestampStart": 1732273140,
     "earningsCallTimestampEnd": 1732273140,
     "isEarningsDateEstimate": true,
+    "epsTrailingTwelveMonths": 191.91,
+    "shortName": "HOKUTO CORP",
     "longName": "Hokuto Corporation",
-    "marketState": "CLOSED",
+    "corporateActions": [],
+    "regularMarketTime": 1780641000,
+    "exchange": "JPX",
+    "messageBoardId": "finmb_884170",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
     "trailingPegRatio": null
   }
 }

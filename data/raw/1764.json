@@ -1,7 +1,7 @@
 {
   "ticker": "1764",
   "japanese_ticker": "1764.T",
-  "fetch_date": "2026-06-06T23:59:08.984376",
+  "fetch_date": "2026-06-08T00:02:00.879904",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-06-30 00:00:00": null,
@@ -132,7 +132,7 @@
     "Diluted Average Shares": {
       "2025-06-30 00:00:00": 1243000.0,
       "2024-06-30 00:00:00": 1245000.0,
-      "2023-06-30 00:00:00": 1256000.0,
+      "2023-06-30 00:00:00": 1256105.0,
       "2022-06-30 00:00:00": 1203000.0,
       "2021-06-30 00:00:00": null
     },
@@ -152,10 +152,10 @@
     },
     "Basic EPS": {
       "2025-06-30 00:00:00": 307.93,
-      "2024-06-30 00:00:00": 165.94,
+      "2024-06-30 00:00:00": null,
       "2023-06-30 00:00:00": 108.19,
       "2022-06-30 00:00:00": 100.58,
-      "2021-06-30 00:00:00": null
+      "2021-06-30 00:00:00": 311.58
     },
     "Diluted NI Availto Com Stockholders": {
       "2025-06-30 00:00:00": null,
@@ -357,14 +357,14 @@
   "balance_sheet": {
     "Treasury Shares Number": {
       "2025-06-30 00:00:00": null,
-      "2024-06-30 00:00:00": 88847.0,
+      "2024-06-30 00:00:00": null,
       "2023-06-30 00:00:00": 80795.0,
       "2022-06-30 00:00:00": 69772.0,
       "2021-06-30 00:00:00": 189662.0
     },
     "Ordinary Shares Number": {
       "2025-06-30 00:00:00": null,
-      "2024-06-30 00:00:00": 1242373.0,
+      "2024-06-30 00:00:00": 1243773.0,
       "2023-06-30 00:00:00": 1250425.0,
       "2022-06-30 00:00:00": 1261448.0,
       "2021-06-30 00:00:00": 1141558.0
@@ -1226,8 +1226,8 @@
     "averageVolume": 1553,
     "averageVolume10days": 1890,
     "averageDailyVolume10Day": 1890,
-    "bid": 2920.0,
-    "ask": 2948.0,
+    "bid": 2905.0,
+    "ask": 2914.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 3671552768,
@@ -1290,6 +1290,8 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "regularMarketChangePercent": 1.0288066,
+    "regularMarketPrice": 2946.0,
     "fiftyDayAverageChange": -169.1399,
     "fiftyDayAverageChangePercent": -0.054296084,
     "twoHundredDayAverageChange": 11.340088,
@@ -1297,7 +1299,9 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
-    "marketState": "CLOSED",
+    "marketState": "REGULAR",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 978307200000,
     "regularMarketChange": 30.0,
     "regularMarketDayRange": "2915.0 - 2946.0",
     "fullExchangeName": "Tokyo",
@@ -1312,11 +1316,19 @@
     "earningsTimestampEnd": 1747204200,
     "isEarningsDateEstimate": false,
     "epsTrailingTwelveMonths": 393.59,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 978307200000,
     "shortName": "KUDO CORP",
     "longName": "Kudo Corporation",
-    "corporateActions": [],
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "1764.T announced a cash dividend of JPY 117.00 with an ex-date of Jun. 29, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1782658800000,
+          "amount": "117.00"
+        }
+      }
+    ],
     "regularMarketTime": 1780632506,
     "exchange": "JPX",
     "messageBoardId": "finmb_882969",
@@ -1325,8 +1337,6 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "regularMarketChangePercent": 1.0288066,
-    "regularMarketPrice": 2946.0,
     "trailingPegRatio": null
   }
 }

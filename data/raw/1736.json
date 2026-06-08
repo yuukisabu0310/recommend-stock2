@@ -1,7 +1,7 @@
 {
   "ticker": "1736",
   "japanese_ticker": "1736.T",
-  "fetch_date": "2026-06-06T23:59:03.388063",
+  "fetch_date": "2026-06-08T00:01:55.315070",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": null,
@@ -340,7 +340,7 @@
       "2022-03-31 00:00:00": 15749367.0
     },
     "Share Issued": {
-      "2025-03-31 00:00:00": 17100000.0,
+      "2025-03-31 00:00:00": 15494382.0,
       "2024-03-31 00:00:00": 17100000.0,
       "2023-03-31 00:00:00": 17100000.0,
       "2022-03-31 00:00:00": 17100000.0
@@ -1106,8 +1106,8 @@
     "averageVolume": 6046,
     "averageVolume10days": 6080,
     "averageDailyVolume10Day": 6080,
-    "bid": 2302.0,
-    "ask": 2347.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 35853930496,
@@ -1176,17 +1176,7 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "shortName": "OTEC CORP",
-    "longName": "Otec Corporation",
-    "isEarningsDateEstimate": false,
-    "epsTrailingTwelveMonths": 233.95,
-    "fiftyDayAverageChange": -30.0,
-    "fiftyDayAverageChangePercent": -0.012798634,
-    "twoHundredDayAverageChange": 90.56494,
-    "twoHundredDayAverageChangePercent": 0.040731993,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
+    "marketState": "REGULAR",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 956707200000,
     "regularMarketChange": 18.0,
@@ -1200,7 +1190,19 @@
     "fiftyTwoWeekHighChangePercent": -0.17120343,
     "fiftyTwoWeekChangePercent": 76.16859,
     "earningsTimestampStart": 1747031400,
+    "regularMarketChangePercent": 0.78397214,
+    "regularMarketPrice": 2314.0,
     "earningsTimestampEnd": 1747031400,
+    "isEarningsDateEstimate": false,
+    "epsTrailingTwelveMonths": 233.95,
+    "fiftyDayAverageChange": -30.0,
+    "fiftyDayAverageChangePercent": -0.012798634,
+    "twoHundredDayAverageChange": 90.56494,
+    "twoHundredDayAverageChangePercent": 0.040731993,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
+    "longName": "Otec Corporation",
     "corporateActions": [],
     "regularMarketTime": 1780641000,
     "exchange": "JPX",
@@ -1210,9 +1212,7 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "regularMarketChangePercent": 0.78397214,
-    "regularMarketPrice": 2314.0,
-    "marketState": "CLOSED",
+    "shortName": "OTEC CORP",
     "trailingPegRatio": null
   }
 }

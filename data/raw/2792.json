@@ -1,7 +1,7 @@
 {
   "ticker": "2792",
   "japanese_ticker": "2792.T",
-  "fetch_date": "2026-06-07T00:10:09.924046",
+  "fetch_date": "2026-06-08T00:13:39.697801",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-05-31 00:00:00": -115347683.0,
@@ -896,8 +896,8 @@
     "averageVolume": 109373,
     "averageVolume10days": 206240,
     "averageDailyVolume10Day": 206240,
-    "bid": 1370.0,
-    "ask": 1378.0,
+    "bid": 0.0,
+    "ask": 1369.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 38415601664,
@@ -915,7 +915,7 @@
     "tradeable": false,
     "enterpriseValue": 24079603712,
     "profitMargins": 0.05552,
-    "floatShares": 14098917,
+    "floatShares": 14825691,
     "sharesOutstanding": 27877797,
     "heldPercentInsiders": 0.46713,
     "heldPercentInstitutions": 0.08846,
@@ -962,6 +962,9 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "marketState": "REGULAR",
+    "regularMarketChangePercent": 1.3980868,
+    "regularMarketPrice": 1378.0,
     "corporateActions": [],
     "regularMarketTime": 1780641000,
     "exchange": "JPX",
@@ -971,11 +974,7 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "regularMarketChangePercent": 1.3980868,
-    "regularMarketPrice": 1378.0,
     "shortName": "HONEYS HOLDINGS CO LTD",
-    "epsTrailingTwelveMonths": 122.78,
-    "epsForward": 229.7,
     "fiftyDayAverageChange": -80.21997,
     "fiftyDayAverageChangePercent": -0.055012256,
     "twoHundredDayAverageChange": -123.11499,
@@ -998,8 +997,9 @@
     "earningsTimestampStart": 1751868000,
     "earningsTimestampEnd": 1752213600,
     "isEarningsDateEstimate": true,
+    "epsTrailingTwelveMonths": 122.78,
+    "epsForward": 229.7,
     "longName": "Honeys Holdings Co., Ltd.",
-    "marketState": "CLOSED",
     "trailingPegRatio": null
   }
 }

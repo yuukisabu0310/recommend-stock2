@@ -1,7 +1,7 @@
 {
   "ticker": "1899",
   "japanese_ticker": "1899.T",
-  "fetch_date": "2026-06-07T00:00:52.695076",
+  "fetch_date": "2026-06-08T00:03:48.420958",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-12-31 00:00:00": -30461732.442315,
@@ -1198,8 +1198,8 @@
     "averageVolume": 26043,
     "averageVolume10days": 23380,
     "averageDailyVolume10Day": 23380,
-    "bid": 7300.0,
-    "ask": 7450.0,
+    "bid": 0.0,
+    "ask": 8170.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 60870156288,
@@ -1266,11 +1266,38 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "regularMarketTime": 1780641000,
+    "shortName": "FUKUDA CORP",
     "longName": "Fukuda Corporation",
-    "marketState": "CLOSED",
+    "epsTrailingTwelveMonths": 670.32,
+    "fiftyDayAverageChange": -830.0,
+    "fiftyDayAverageChangePercent": -0.10146699,
+    "twoHundredDayAverageChange": -188.5498,
+    "twoHundredDayAverageChangePercent": -0.025011417,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
+    "corporateActions": [
+      {
+        "header": "Stock split",
+        "message": "1899.T announces 2 for 1 split effective Jun. 29, 2026",
+        "meta": {
+          "eventType": "SPLIT",
+          "dateEpochMs": 1782658800000,
+          "splitRatio": "2:1"
+        }
+      }
+    ],
+    "regularMarketTime": 1780641000,
+    "exchange": "JPX",
+    "messageBoardId": "finmb_876538",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
+    "marketState": "REGULAR",
+    "regularMarketChangePercent": 2.0833335,
+    "regularMarketPrice": 7350.0,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 978307200000,
     "regularMarketChange": 150.0,
@@ -1286,33 +1313,6 @@
     "earningsTimestampStart": 1754460000,
     "earningsTimestampEnd": 1754978400,
     "isEarningsDateEstimate": true,
-    "exchange": "JPX",
-    "messageBoardId": "finmb_876538",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "corporateActions": [
-      {
-        "header": "Stock split",
-        "message": "1899.T announces 2 for 1 split effective Jun. 29, 2026",
-        "meta": {
-          "eventType": "SPLIT",
-          "dateEpochMs": 1782658800000,
-          "splitRatio": "2:1"
-        }
-      }
-    ],
-    "regularMarketChangePercent": 2.0833335,
-    "regularMarketPrice": 7350.0,
-    "shortName": "FUKUDA CORP",
-    "epsTrailingTwelveMonths": 670.32,
-    "fiftyDayAverageChange": -830.0,
-    "fiftyDayAverageChangePercent": -0.10146699,
-    "twoHundredDayAverageChange": -188.5498,
-    "twoHundredDayAverageChangePercent": -0.025011417,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
     "trailingPegRatio": null
   }
 }

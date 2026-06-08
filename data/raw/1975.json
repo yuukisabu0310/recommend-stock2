@@ -1,7 +1,7 @@
 {
   "ticker": "1975",
   "japanese_ticker": "1975.T",
-  "fetch_date": "2026-06-07T00:02:01.480222",
+  "fetch_date": "2026-06-08T00:04:59.624493",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": 290232000.0,
@@ -276,7 +276,7 @@
   },
   "balance_sheet": {
     "Treasury Shares Number": {
-      "2025-03-31 00:00:00": 1444491.0,
+      "2025-03-31 00:00:00": null,
       "2024-03-31 00:00:00": 1473548.0,
       "2023-03-31 00:00:00": 1500348.0,
       "2022-03-31 00:00:00": 1541644.0
@@ -1039,8 +1039,8 @@
     "averageVolume": 106576,
     "averageVolume10days": 112410,
     "averageDailyVolume10Day": 112410,
-    "bid": 3865.0,
-    "ask": 3875.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 100268277760,
@@ -1058,7 +1058,7 @@
     "tradeable": false,
     "enterpriseValue": 82165268480,
     "profitMargins": 0.088149995,
-    "floatShares": 14510824,
+    "floatShares": 14510566,
     "sharesOutstanding": 25875683,
     "heldPercentInsiders": 0.19856001,
     "heldPercentInstitutions": 0.22607,
@@ -1109,6 +1109,10 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "regularMarketChangePercent": 2.2427442,
+    "regularMarketPrice": 3875.0,
+    "shortName": "ASAHI KOGYOSHA CO",
+    "longName": "Asahi Kogyosha Co., Ltd.",
     "corporateActions": [],
     "regularMarketTime": 1780641000,
     "exchange": "JPX",
@@ -1118,17 +1122,10 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "regularMarketChangePercent": 2.2427442,
-    "regularMarketPrice": 3875.0,
-    "shortName": "ASAHI KOGYOSHA CO",
-    "fiftyDayAverageChange": 126.80005,
-    "fiftyDayAverageChangePercent": 0.033829585,
-    "twoHundredDayAverageChange": 334.70996,
     "twoHundredDayAverageChangePercent": 0.09454309,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
-    "marketState": "CLOSED",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 978307200000,
     "regularMarketChange": 85.0,
@@ -1145,7 +1142,10 @@
     "earningsTimestampEnd": 1754982000,
     "isEarningsDateEstimate": true,
     "epsTrailingTwelveMonths": 358.05,
-    "longName": "Asahi Kogyosha Co., Ltd.",
+    "fiftyDayAverageChange": 126.80005,
+    "fiftyDayAverageChangePercent": 0.033829585,
+    "twoHundredDayAverageChange": 334.70996,
+    "marketState": "REGULAR",
     "trailingPegRatio": null
   }
 }

@@ -1,7 +1,7 @@
 {
   "ticker": "1799",
   "japanese_ticker": "1799.T",
-  "fetch_date": "2026-06-06T23:59:32.340012",
+  "fetch_date": "2026-06-08T00:02:25.496849",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": -19655836.648679,
@@ -113,7 +113,7 @@
     },
     "Basic Average Shares": {
       "2025-03-31 00:00:00": 18858564.0,
-      "2024-03-31 00:00:00": 19495960.0,
+      "2024-03-31 00:00:00": 19496781.0,
       "2023-03-31 00:00:00": 19944038.0,
       "2022-03-31 00:00:00": 20322000.0
     },
@@ -300,19 +300,19 @@
   },
   "balance_sheet": {
     "Treasury Shares Number": {
-      "2025-03-31 00:00:00": 2092427.0,
+      "2025-03-31 00:00:00": null,
       "2024-03-31 00:00:00": 1395723.0,
       "2023-03-31 00:00:00": 1270989.0,
       "2022-03-31 00:00:00": 547177.0
     },
     "Ordinary Shares Number": {
-      "2025-03-31 00:00:00": 18766064.0,
+      "2025-03-31 00:00:00": 18761968.0,
       "2024-03-31 00:00:00": 19462768.0,
       "2023-03-31 00:00:00": 19587502.0,
       "2022-03-31 00:00:00": 20311314.0
     },
     "Share Issued": {
-      "2025-03-31 00:00:00": 20858491.0,
+      "2025-03-31 00:00:00": 18761968.0,
       "2024-03-31 00:00:00": 20858491.0,
       "2023-03-31 00:00:00": 20858491.0,
       "2022-03-31 00:00:00": 20858491.0
@@ -1044,7 +1044,7 @@
     "averageVolume": 32800,
     "averageVolume10days": 43660,
     "averageDailyVolume10Day": 43660,
-    "bid": 3205.0,
+    "bid": 0.0,
     "ask": 3255.0,
     "bidSize": 0,
     "askSize": 0,
@@ -1137,9 +1137,6 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
-    "marketState": "CLOSED",
-    "shortName": "DAIICHI KENSETSU CORP",
-    "longName": "Daiichi Kensetsu Corporation",
     "corporateActions": [],
     "regularMarketTime": 1780641000,
     "exchange": "JPX",
@@ -1149,8 +1146,11 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
+    "marketState": "REGULAR",
     "regularMarketChangePercent": 0.933126,
     "regularMarketPrice": 3245.0,
+    "longName": "Daiichi Kensetsu Corporation",
+    "shortName": "DAIICHI KENSETSU CORP",
     "trailingPegRatio": null
   }
 }

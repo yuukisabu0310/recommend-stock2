@@ -1,7 +1,7 @@
 {
   "ticker": "2750",
   "japanese_ticker": "2750.T",
-  "fetch_date": "2026-06-07T00:09:33.407773",
+  "fetch_date": "2026-06-08T00:13:00.274073",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": -13772902.0,
@@ -113,7 +113,7 @@
     },
     "Basic Average Shares": {
       "2025-03-31 00:00:00": 7756479.0,
-      "2024-03-31 00:00:00": 7739263.0,
+      "2024-03-31 00:00:00": 7739058.0,
       "2023-03-31 00:00:00": 7719160.0,
       "2022-03-31 00:00:00": 7707000.0
     },
@@ -1070,8 +1070,8 @@
     "averageVolume": 18131,
     "averageVolume10days": 13650,
     "averageDailyVolume10Day": 13650,
-    "bid": 1250.0,
-    "ask": 1257.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 9771067392,
@@ -1089,7 +1089,7 @@
     "tradeable": false,
     "enterpriseValue": 17625067520,
     "profitMargins": 0.0165,
-    "floatShares": 5481359,
+    "floatShares": 5733292,
     "sharesOutstanding": 7773323,
     "heldPercentInsiders": 0.2785,
     "heldPercentInstitutions": 0.055749997,
@@ -1138,10 +1138,8 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "marketState": "CLOSED",
     "regularMarketChangePercent": 2.195122,
     "regularMarketPrice": 1257.0,
-    "corporateActions": [],
     "regularMarketTime": 1780641000,
     "exchange": "JPX",
     "messageBoardId": "finmb_6463613",
@@ -1152,13 +1150,6 @@
     "esgPopulated": false,
     "shortName": "S. ISHIMITSU & CO LTD",
     "longName": "S.Ishimitsu & Co.,Ltd.",
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1037059200000,
-    "regularMarketChange": 27.0,
-    "regularMarketDayRange": "1235.0 - 1258.0",
     "fullExchangeName": "Tokyo",
     "averageDailyVolume3Month": 18131,
     "fiftyTwoWeekLowChange": 323.0,
@@ -1175,6 +1166,15 @@
     "fiftyDayAverageChangePercent": 0.0029362445,
     "twoHundredDayAverageChange": -61.890015,
     "twoHundredDayAverageChangePercent": -0.046925835,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
+    "corporateActions": [],
+    "marketState": "REGULAR",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1037059200000,
+    "regularMarketChange": 27.0,
+    "regularMarketDayRange": "1235.0 - 1258.0",
     "trailingPegRatio": null
   }
 }

@@ -1,7 +1,7 @@
 {
   "ticker": "1793",
   "japanese_ticker": "1793.T",
-  "fetch_date": "2026-06-06T23:59:26.578532",
+  "fetch_date": "2026-06-08T00:02:19.621315",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": null,
@@ -356,19 +356,19 @@
   },
   "balance_sheet": {
     "Treasury Shares Number": {
-      "2025-03-31 00:00:00": 1380466.0,
+      "2025-03-31 00:00:00": null,
       "2024-03-31 00:00:00": 2204844.0,
       "2023-03-31 00:00:00": 2204514.0,
       "2022-03-31 00:00:00": 1052034.0
     },
     "Ordinary Shares Number": {
-      "2025-03-31 00:00:00": 25413814.0,
+      "2025-03-31 00:00:00": 28608128.0,
       "2024-03-31 00:00:00": 28589436.0,
       "2023-03-31 00:00:00": 28589766.0,
       "2022-03-31 00:00:00": 29742246.0
     },
     "Share Issued": {
-      "2025-03-31 00:00:00": 26794280.0,
+      "2025-03-31 00:00:00": 28608128.0,
       "2024-03-31 00:00:00": 30794280.0,
       "2023-03-31 00:00:00": 30794280.0,
       "2022-03-31 00:00:00": 30794280.0
@@ -1106,8 +1106,8 @@
     "averageVolume": 4321,
     "averageVolume10days": 2250,
     "averageDailyVolume10Day": 2250,
-    "bid": 1835.0,
-    "ask": 1843.0,
+    "bid": 0.0,
+    "ask": 2000.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 46798716928,
@@ -1174,8 +1174,12 @@
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
     "shortName": "OHMOTO GUMI CO",
+    "regularMarketChangePercent": -0.43290043,
+    "regularMarketPrice": 1840.0,
     "longName": "Ohmoto Gumi Co., Ltd.",
-    "marketState": "CLOSED",
+    "marketState": "REGULAR",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 946944000000,
     "regularMarketChange": -8.0,
     "regularMarketDayRange": "1834.0 - 1859.0",
     "fullExchangeName": "Tokyo",
@@ -1197,8 +1201,6 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 946944000000,
     "corporateActions": [],
     "regularMarketTime": 1780640622,
     "exchange": "JPX",
@@ -1208,8 +1210,6 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "regularMarketChangePercent": -0.43290043,
-    "regularMarketPrice": 1840.0,
     "trailingPegRatio": null
   }
 }

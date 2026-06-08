@@ -1,7 +1,7 @@
 {
   "ticker": "2435",
   "japanese_ticker": "2435.T",
-  "fetch_date": "2026-06-07T00:06:40.578761",
+  "fetch_date": "2026-06-08T00:09:55.342566",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": -17476000.0,
@@ -264,7 +264,7 @@
   },
   "balance_sheet": {
     "Treasury Shares Number": {
-      "2025-03-31 00:00:00": 254037.0,
+      "2025-03-31 00:00:00": null,
       "2024-03-31 00:00:00": 254037.0,
       "2023-03-31 00:00:00": 254037.0,
       "2022-03-31 00:00:00": 254937.0
@@ -276,7 +276,7 @@
       "2022-03-31 00:00:00": 11221063.0
     },
     "Share Issued": {
-      "2025-03-31 00:00:00": 11476000.0,
+      "2025-03-31 00:00:00": 11221963.0,
       "2024-03-31 00:00:00": 11476000.0,
       "2023-03-31 00:00:00": 11476000.0,
       "2022-03-31 00:00:00": 11476000.0
@@ -947,8 +947,8 @@
     "averageVolume": 169345,
     "averageVolume10days": 16190,
     "averageDailyVolume10Day": 16190,
-    "bid": 204.0,
-    "ask": 206.0,
+    "bid": 203.0,
+    "ask": 204.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 2311724288,
@@ -1017,8 +1017,15 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "shortName": "CEDAR. CO LTD",
     "longName": "CEDAR.Co.,Ltd.",
+    "regularMarketChange": 1.0,
+    "regularMarketDayRange": "204.0 - 206.0",
+    "fullExchangeName": "Tokyo",
+    "regularMarketChangePercent": 0.4878049,
+    "regularMarketPrice": 206.0,
+    "shortName": "CEDAR. CO LTD",
+    "corporateActions": [],
+    "regularMarketTime": 1780641000,
     "exchange": "JPX",
     "messageBoardId": "finmb_21811706",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1026,13 +1033,6 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "corporateActions": [],
-    "regularMarketTime": 1780641000,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1111017600000,
-    "regularMarketChange": 1.0,
-    "regularMarketDayRange": "204.0 - 206.0",
-    "fullExchangeName": "Tokyo",
     "averageDailyVolume3Month": 169345,
     "fiftyTwoWeekLowChange": 5.0,
     "fiftyTwoWeekLowChangePercent": 0.024875622,
@@ -1051,9 +1051,9 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
-    "marketState": "CLOSED",
-    "regularMarketChangePercent": 0.4878049,
-    "regularMarketPrice": 206.0,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1111017600000,
+    "marketState": "REGULAR",
     "trailingPegRatio": null
   }
 }

@@ -1,7 +1,7 @@
 {
   "ticker": "2173",
   "japanese_ticker": "2173.T",
-  "fetch_date": "2026-06-07T00:03:28.582068",
+  "fetch_date": "2026-06-08T00:06:32.504820",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-12-31 00:00:00": 4716792.0,
@@ -107,7 +107,7 @@
     },
     "Diluted Average Shares": {
       "2025-12-31 00:00:00": null,
-      "2024-12-31 00:00:00": 15483237.0,
+      "2024-12-31 00:00:00": 15482027.0,
       "2023-03-31 00:00:00": 30571838.0,
       "2022-03-31 00:00:00": 15647324.0
     },
@@ -277,13 +277,13 @@
     },
     "Ordinary Shares Number": {
       "2025-12-31 00:00:00": 15657148.0,
-      "2024-12-31 00:00:00": 15532654.0,
+      "2024-12-31 00:00:00": 15483154.0,
       "2023-03-31 00:00:00": 15284636.0,
       "2022-03-31 00:00:00": 15679836.0
     },
     "Share Issued": {
       "2025-12-31 00:00:00": 16248520.0,
-      "2024-12-31 00:00:00": 16175520.0,
+      "2024-12-31 00:00:00": 15483154.0,
       "2023-03-31 00:00:00": 16024200.0,
       "2022-03-31 00:00:00": 15950200.0
     },
@@ -1081,8 +1081,8 @@
     "averageVolume": 30963,
     "averageVolume10days": 38520,
     "averageDailyVolume10Day": 38520,
-    "bid": 670.0,
-    "ask": 676.0,
+    "bid": 671.0,
+    "ask": 671.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 10552918016,
@@ -1149,6 +1149,15 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "fiftyDayAverageChange": -209.32,
+    "fiftyDayAverageChangePercent": -0.23696962,
+    "twoHundredDayAverageChange": -159.35498,
+    "twoHundredDayAverageChangePercent": -0.19122101,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
+    "shortName": "HAKUTEN CORPORATION",
+    "longName": "Hakuten Corporation",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1204502400000,
     "regularMarketChange": 21.0,
@@ -1165,6 +1174,11 @@
     "earningsTimestampEnd": 1754978400,
     "isEarningsDateEstimate": true,
     "epsTrailingTwelveMonths": 122.6,
+    "marketState": "REGULAR",
+    "gmtOffSetMilliseconds": 32400000,
+    "esgPopulated": false,
+    "regularMarketChangePercent": 3.2159264,
+    "regularMarketPrice": 674.0,
     "corporateActions": [
       {
         "header": "Dividend",
@@ -1181,21 +1195,7 @@
     "messageBoardId": "finmb_40371989",
     "exchangeTimezoneName": "Asia/Tokyo",
     "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
-    "esgPopulated": false,
-    "regularMarketChangePercent": 3.2159264,
-    "regularMarketPrice": 674.0,
-    "fiftyDayAverageChange": -209.32,
-    "fiftyDayAverageChangePercent": -0.23696962,
-    "twoHundredDayAverageChange": -159.35498,
-    "twoHundredDayAverageChangePercent": -0.19122101,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
-    "marketState": "CLOSED",
-    "shortName": "HAKUTEN CORPORATION",
-    "longName": "Hakuten Corporation",
     "trailingPegRatio": null
   }
 }

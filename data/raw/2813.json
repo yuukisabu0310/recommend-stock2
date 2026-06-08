@@ -1,7 +1,7 @@
 {
   "ticker": "2813",
   "japanese_ticker": "2813.T",
-  "fetch_date": "2026-06-07T00:10:33.754839",
+  "fetch_date": "2026-06-08T00:14:03.907271",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": -950426.4,
@@ -113,7 +113,7 @@
     },
     "Diluted Average Shares": {
       "2025-03-31 00:00:00": 2491634.0,
-      "2024-03-31 00:00:00": 2487951.0,
+      "2024-03-31 00:00:00": 2487936.0,
       "2023-03-31 00:00:00": 2478735.0,
       "2022-03-31 00:00:00": 2464578.0
     },
@@ -312,7 +312,7 @@
       "2022-03-31 00:00:00": 2469168.0
     },
     "Share Issued": {
-      "2025-03-31 00:00:00": 2847957.0,
+      "2025-03-31 00:00:00": 2492340.0,
       "2024-03-31 00:00:00": 2847957.0,
       "2023-03-31 00:00:00": 2847957.0,
       "2022-03-31 00:00:00": 2847957.0
@@ -1105,8 +1105,8 @@
     "averageVolume": 3156,
     "averageVolume10days": 1320,
     "averageDailyVolume10Day": 1320,
-    "bid": 3885.0,
-    "ask": 3920.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 9693494272,
@@ -1175,9 +1175,6 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "regularMarketChangePercent": 0.6476684,
-    "regularMarketPrice": 3885.0,
-    "shortName": "WAKOU SHOKUHIN CO",
     "longName": "Wakou Shokuhin Co., Ltd.",
     "corporateActions": [],
     "regularMarketTime": 1780641000,
@@ -1188,6 +1185,14 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
+    "marketState": "REGULAR",
+    "fiftyDayAverageChange": -22.800049,
+    "fiftyDayAverageChangePercent": -0.0058344975,
+    "twoHundredDayAverageChange": 463.5901,
+    "twoHundredDayAverageChangePercent": 0.1354968,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 947030400000,
     "regularMarketChange": 25.0,
@@ -1204,14 +1209,9 @@
     "earningsTimestampEnd": 1747281600,
     "isEarningsDateEstimate": false,
     "epsTrailingTwelveMonths": 462.32,
-    "fiftyDayAverageChange": -22.800049,
-    "fiftyDayAverageChangePercent": -0.0058344975,
-    "twoHundredDayAverageChange": 463.5901,
-    "twoHundredDayAverageChangePercent": 0.1354968,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
-    "marketState": "CLOSED",
+    "shortName": "WAKOU SHOKUHIN CO",
+    "regularMarketChangePercent": 0.6476684,
+    "regularMarketPrice": 3885.0,
     "trailingPegRatio": null
   }
 }

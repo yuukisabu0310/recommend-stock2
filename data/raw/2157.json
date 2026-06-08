@@ -1,7 +1,7 @@
 {
   "ticker": "2157",
   "japanese_ticker": "2157.T",
-  "fetch_date": "2026-06-07T00:03:11.399961",
+  "fetch_date": "2026-06-08T00:06:14.741196",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-08-31 00:00:00": -1160930925.0,
@@ -1046,7 +1046,7 @@
     "averageVolume": 386331,
     "averageVolume10days": 437630,
     "averageDailyVolume10Day": 437630,
-    "bid": 941.0,
+    "bid": 942.0,
     "ask": 943.0,
     "bidSize": 0,
     "askSize": 0,
@@ -1065,7 +1065,7 @@
     "tradeable": false,
     "enterpriseValue": 82101657600,
     "profitMargins": 0.08006,
-    "floatShares": 70465979,
+    "floatShares": 73073006,
     "sharesOutstanding": 82868004,
     "heldPercentInsiders": 0.38417998,
     "heldPercentInstitutions": 0.30236,
@@ -1118,9 +1118,10 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "regularMarketChangePercent": 2.2801301,
+    "regularMarketPrice": 942.0,
     "shortName": "KOSHIDAKA HOLDINGS CO LTD",
     "longName": "Koshidaka Holdings Co., Ltd.",
-    "cryptoTradeable": false,
     "corporateActions": [],
     "regularMarketTime": 1780641000,
     "exchange": "JPX",
@@ -1130,8 +1131,7 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "regularMarketChangePercent": 2.2801301,
-    "regularMarketPrice": 942.0,
+    "marketState": "REGULAR",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1182902400000,
     "regularMarketChange": 21.0,
@@ -1158,7 +1158,7 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "averageAnalystRating": "0.0 - Strong Buy",
-    "marketState": "CLOSED",
+    "cryptoTradeable": false,
     "trailingPegRatio": null
   }
 }

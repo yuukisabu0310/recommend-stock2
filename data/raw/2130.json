@@ -1,7 +1,7 @@
 {
   "ticker": "2130",
   "japanese_ticker": "2130.T",
-  "fetch_date": "2026-06-07T00:02:51.004695",
+  "fetch_date": "2026-06-08T00:05:52.425221",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": null,
@@ -12,7 +12,7 @@
     },
     "Tax Rate For Calcs": {
       "2026-03-31 00:00:00": null,
-      "2025-03-31 00:00:00": 0.282,
+      "2025-03-31 00:00:00": 0.260242,
       "2024-03-31 00:00:00": 0.13,
       "2023-03-31 00:00:00": 0.278971,
       "2022-03-31 00:00:00": 0.26
@@ -279,7 +279,7 @@
   },
   "balance_sheet": {
     "Treasury Shares Number": {
-      "2025-03-31 00:00:00": 654871.0,
+      "2025-03-31 00:00:00": null,
       "2024-03-31 00:00:00": 654512.0,
       "2023-03-31 00:00:00": 277518.0,
       "2022-03-31 00:00:00": 90124.0
@@ -291,7 +291,7 @@
       "2022-03-31 00:00:00": 13127776.0
     },
     "Share Issued": {
-      "2025-03-31 00:00:00": 13421700.0,
+      "2025-03-31 00:00:00": 12766829.0,
       "2024-03-31 00:00:00": 13421700.0,
       "2023-03-31 00:00:00": 13363700.0,
       "2022-03-31 00:00:00": 13217900.0
@@ -878,8 +878,8 @@
     "averageVolume": 100595,
     "averageVolume10days": 140260,
     "averageDailyVolume10Day": 140260,
-    "bid": 1021.0,
-    "ask": 1025.0,
+    "bid": 0.0,
+    "ask": 1001.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 13100040192,
@@ -954,6 +954,8 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "shortName": "MEMBERS CO LTD",
+    "longName": "Members Co., Ltd.",
     "corporateActions": [],
     "regularMarketTime": 1780641000,
     "exchange": "JPX",
@@ -963,12 +965,10 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
+    "marketState": "REGULAR",
     "regularMarketChangePercent": 7.805907,
     "regularMarketPrice": 1022.0,
-    "marketState": "CLOSED",
     "cryptoTradeable": false,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1461196800000,
     "regularMarketChange": 74.0,
     "regularMarketDayRange": "950.0 - 1027.0",
     "fullExchangeName": "Tokyo",
@@ -990,8 +990,8 @@
     "twoHundredDayAverageChangePercent": -0.14195517,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
-    "shortName": "MEMBERS CO LTD",
-    "longName": "Members Co., Ltd.",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1461196800000,
     "trailingPegRatio": null
   }
 }

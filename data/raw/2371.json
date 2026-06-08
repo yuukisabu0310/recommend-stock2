@@ -1,7 +1,7 @@
 {
   "ticker": "2371",
   "japanese_ticker": "2371.T",
-  "fetch_date": "2026-06-07T00:05:50.485946",
+  "fetch_date": "2026-06-08T00:09:00.862470",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": null,
@@ -286,7 +286,7 @@
   },
   "balance_sheet": {
     "Treasury Shares Number": {
-      "2025-03-31 00:00:00": 486331.0,
+      "2025-03-31 00:00:00": null,
       "2024-03-31 00:00:00": 651327.0,
       "2023-03-31 00:00:00": 659087.0,
       "2022-03-31 00:00:00": 675587.0
@@ -1037,8 +1037,8 @@
     "averageVolume": 2115071,
     "averageVolume10days": 923750,
     "averageDailyVolume10Day": 923750,
-    "bid": 3335.0,
-    "ask": 3342.0,
+    "bid": 3265.0,
+    "ask": 3201.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 659981795328,
@@ -1115,20 +1115,16 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "marketState": "CLOSED",
     "regularMarketChangePercent": 0.15010507,
     "regularMarketPrice": 3336.0,
-    "corporateActions": [],
-    "regularMarketTime": 1780641000,
-    "messageBoardId": "finmb_20346352",
+    "marketState": "REGULAR",
     "exchange": "JPX",
+    "messageBoardId": "finmb_20346352",
     "exchangeTimezoneName": "Asia/Tokyo",
     "exchangeTimezoneShortName": "JST",
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "longName": "Kakaku.com, Inc.",
-    "shortName": "KAKAKU.COM. INC",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1127952000000,
     "regularMarketChange": 5.0,
@@ -1149,6 +1145,8 @@
     "isEarningsDateEstimate": true,
     "epsTrailingTwelveMonths": 95.08,
     "epsForward": 124.06,
+    "shortName": "KAKAKU.COM. INC",
+    "longName": "Kakaku.com, Inc.",
     "fiftyDayAverageChange": 651.23,
     "fiftyDayAverageChangePercent": 0.24256453,
     "twoHundredDayAverageChange": 917.76,
@@ -1157,6 +1155,8 @@
     "exchangeDataDelayedBy": 20,
     "averageAnalystRating": "2.4 - Buy",
     "cryptoTradeable": false,
+    "corporateActions": [],
+    "regularMarketTime": 1780641000,
     "trailingPegRatio": null
   }
 }

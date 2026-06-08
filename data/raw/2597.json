@@ -1,7 +1,7 @@
 {
   "ticker": "2597",
   "japanese_ticker": "2597.T",
-  "fetch_date": "2026-06-07T00:08:05.774923",
+  "fetch_date": "2026-06-08T00:11:24.658442",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-12-31 00:00:00": -54548.0,
@@ -138,7 +138,7 @@
     },
     "Diluted EPS": {
       "2025-12-31 00:00:00": null,
-      "2024-12-31 00:00:00": 34.22,
+      "2024-12-31 00:00:00": null,
       "2023-12-31 00:00:00": 33.12,
       "2022-12-31 00:00:00": -14.27,
       "2021-12-31 00:00:00": 22.05
@@ -308,14 +308,14 @@
   "balance_sheet": {
     "Treasury Shares Number": {
       "2025-12-31 00:00:00": 486152.0,
-      "2024-12-31 00:00:00": 488930.0,
+      "2024-12-31 00:00:00": 488870.0,
       "2023-12-31 00:00:00": 494720.0,
       "2022-12-31 00:00:00": 503240.0,
       "2021-12-31 00:00:00": null
     },
     "Ordinary Shares Number": {
       "2025-12-31 00:00:00": 13383048.0,
-      "2024-12-31 00:00:00": 13380270.0,
+      "2024-12-31 00:00:00": 13380330.0,
       "2023-12-31 00:00:00": 13374480.0,
       "2022-12-31 00:00:00": 13365960.0,
       "2021-12-31 00:00:00": null
@@ -1119,7 +1119,7 @@
     "averageVolume": 4486,
     "averageVolume10days": 2980,
     "averageDailyVolume10Day": 2980,
-    "bid": 1078.0,
+    "bid": 0.0,
     "ask": 1079.0,
     "bidSize": 0,
     "askSize": 0,
@@ -1187,6 +1187,9 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "longName": "Unicafe Inc.",
+    "regularMarketChangePercent": -0.092678405,
+    "regularMarketPrice": 1078.0,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 978566400000,
     "regularMarketChange": -1.0,
@@ -1210,11 +1213,9 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
-    "marketState": "CLOSED",
-    "shortName": "UNICAFE INC",
-    "longName": "Unicafe Inc.",
     "corporateActions": [],
     "regularMarketTime": 1780638139,
+    "marketState": "REGULAR",
     "exchange": "JPX",
     "messageBoardId": "finmb_5633614",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1222,8 +1223,7 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "regularMarketChangePercent": -0.092678405,
-    "regularMarketPrice": 1078.0,
+    "shortName": "UNICAFE INC",
     "trailingPegRatio": null
   }
 }

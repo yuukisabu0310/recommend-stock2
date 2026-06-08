@@ -1,7 +1,7 @@
 {
   "ticker": "2217",
   "japanese_ticker": "2217.T",
-  "fetch_date": "2026-06-07T00:04:09.363702",
+  "fetch_date": "2026-06-08T00:07:15.852133",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-01-31 00:00:00": -79045600.0,
@@ -132,7 +132,7 @@
     "Basic Average Shares": {
       "2026-01-31 00:00:00": null,
       "2025-01-31 00:00:00": 20551802.0,
-      "2024-01-31 00:00:00": 21039516.0,
+      "2024-01-31 00:00:00": 21038492.0,
       "2023-01-31 00:00:00": 21107790.0,
       "2022-01-31 00:00:00": 21099078.0
     },
@@ -301,14 +301,14 @@
   "balance_sheet": {
     "Treasury Shares Number": {
       "2026-01-31 00:00:00": 1204758.0,
-      "2025-01-31 00:00:00": 1054635.0,
+      "2025-01-31 00:00:00": null,
       "2024-01-31 00:00:00": 513351.0,
       "2023-01-31 00:00:00": 154812.0,
-      "2022-01-31 00:00:00": null
+      "2022-01-31 00:00:00": 914964.0
     },
     "Ordinary Shares Number": {
       "2026-01-31 00:00:00": 20060598.0,
-      "2025-01-31 00:00:00": 20210721.0,
+      "2025-01-31 00:00:00": 20211495.0,
       "2024-01-31 00:00:00": 20752005.0,
       "2023-01-31 00:00:00": 21110544.0,
       "2022-01-31 00:00:00": null
@@ -1189,8 +1189,8 @@
     "averageVolume": 31771,
     "averageVolume10days": 24170,
     "averageDailyVolume10Day": 24170,
-    "bid": 1473.0,
-    "ask": 1480.0,
+    "bid": 0.0,
+    "ask": 1482.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 29589381120,
@@ -1208,7 +1208,7 @@
     "tradeable": false,
     "enterpriseValue": 30005381120,
     "profitMargins": 0.0177,
-    "floatShares": 17364454,
+    "floatShares": 17549613,
     "sharesOutstanding": 20060598,
     "heldPercentInsiders": 0.13122,
     "heldPercentInstitutions": 0.20525,
@@ -1260,18 +1260,6 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "marketState": "CLOSED",
-    "regularMarketChangePercent": 1.0273973,
-    "regularMarketPrice": 1475.0,
-    "shortName": "MOROZOFF LIMITED",
-    "longName": "Morozoff Limited",
-    "fiftyDayAverageChange": -23.560059,
-    "fiftyDayAverageChangePercent": -0.015721798,
-    "twoHundredDayAverageChange": -52.390015,
-    "twoHundredDayAverageChangePercent": -0.034300353,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 978307200000,
     "regularMarketChange": 15.0,
@@ -1289,6 +1277,13 @@
     "isEarningsDateEstimate": false,
     "epsTrailingTwelveMonths": 31.86,
     "epsForward": 227.0,
+    "fiftyDayAverageChange": -23.560059,
+    "fiftyDayAverageChangePercent": -0.015721798,
+    "twoHundredDayAverageChange": -52.390015,
+    "twoHundredDayAverageChangePercent": -0.034300353,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
     "corporateActions": [],
     "regularMarketTime": 1780641000,
     "exchange": "JPX",
@@ -1298,6 +1293,11 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
+    "marketState": "REGULAR",
+    "regularMarketChangePercent": 1.0273973,
+    "regularMarketPrice": 1475.0,
+    "longName": "Morozoff Limited",
+    "shortName": "MOROZOFF LIMITED",
     "trailingPegRatio": null
   }
 }

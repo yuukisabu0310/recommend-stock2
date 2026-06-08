@@ -1,7 +1,7 @@
 {
   "ticker": "1717",
   "japanese_ticker": "1717.T",
-  "fetch_date": "2026-06-06T23:58:48.623241",
+  "fetch_date": "2026-06-08T00:01:39.875697",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": -146527.2,
@@ -246,7 +246,7 @@
   },
   "balance_sheet": {
     "Treasury Shares Number": {
-      "2025-03-31 00:00:00": 1105228.0,
+      "2025-03-31 00:00:00": null,
       "2024-03-31 00:00:00": 1177199.0,
       "2023-03-31 00:00:00": 1247340.0,
       "2022-03-31 00:00:00": 1281903.0
@@ -919,8 +919,8 @@
     "averageVolume": 26193,
     "averageVolume10days": 28550,
     "averageDailyVolume10Day": 28550,
-    "bid": 895.0,
-    "ask": 898.0,
+    "bid": 0.0,
+    "ask": 901.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 10523997184,
@@ -990,6 +990,8 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "shortName": "MEIHO FACILITY WORKS",
+    "longName": "Meiho Facility Works Ltd.",
     "epsTrailingTwelveMonths": 79.39,
     "epsForward": 81.8,
     "fiftyDayAverageChange": -70.859985,
@@ -1000,6 +1002,18 @@
     "exchangeDataDelayedBy": 20,
     "averageAnalystRating": "0.0 - Strong Buy",
     "cryptoTradeable": false,
+    "corporateActions": [],
+    "regularMarketTime": 1780641000,
+    "exchange": "JPX",
+    "messageBoardId": "finmb_8815681",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
+    "marketState": "REGULAR",
+    "regularMarketChangePercent": 1.3590034,
+    "regularMarketPrice": 895.0,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1077148800000,
     "regularMarketChange": 12.0,
@@ -1015,20 +1029,6 @@
     "earningsTimestampStart": 1754550000,
     "earningsTimestampEnd": 1754982000,
     "isEarningsDateEstimate": true,
-    "shortName": "MEIHO FACILITY WORKS",
-    "longName": "Meiho Facility Works Ltd.",
-    "marketState": "CLOSED",
-    "corporateActions": [],
-    "regularMarketTime": 1780641000,
-    "exchange": "JPX",
-    "messageBoardId": "finmb_8815681",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
-    "regularMarketChangePercent": 1.3590034,
-    "regularMarketPrice": 895.0,
     "trailingPegRatio": null
   }
 }

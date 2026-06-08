@@ -1,7 +1,7 @@
 {
   "ticker": "2370",
   "japanese_ticker": "2370.T",
-  "fetch_date": "2026-06-07T00:05:48.967928",
+  "fetch_date": "2026-06-08T00:08:58.938144",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-09-30 00:00:00": 13910024.0,
@@ -131,17 +131,17 @@
     },
     "Basic Average Shares": {
       "2025-09-30 00:00:00": 264647679.0,
-      "2024-09-30 00:00:00": 253282224.0,
+      "2024-09-30 00:00:00": null,
       "2023-09-30 00:00:00": 216084438.0,
       "2022-09-30 00:00:00": 198069652.0,
-      "2021-09-30 00:00:00": null
+      "2021-09-30 00:00:00": 172664409.0
     },
     "Diluted EPS": {
       "2025-09-30 00:00:00": -5.15,
-      "2024-09-30 00:00:00": -5.04,
+      "2024-09-30 00:00:00": null,
       "2023-09-30 00:00:00": -6.65,
       "2022-09-30 00:00:00": -6.33,
-      "2021-09-30 00:00:00": null
+      "2021-09-30 00:00:00": -4.88
     },
     "Basic EPS": {
       "2025-09-30 00:00:00": -5.15,
@@ -1167,9 +1167,6 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "marketState": "CLOSED",
-    "regularMarketChangePercent": -3.5714288,
-    "regularMarketPrice": 27.0,
     "corporateActions": [],
     "regularMarketTime": 1780641000,
     "exchange": "JPX",
@@ -1179,11 +1176,7 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "shortName": "MEDINET CO LTD",
-    "longName": "MEDINET Co., Ltd.",
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
+    "marketState": "REGULAR",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1065571200000,
     "regularMarketChange": -1.0,
@@ -1196,6 +1189,10 @@
     "fiftyTwoWeekHighChange": -16.0,
     "fiftyTwoWeekHighChangePercent": -0.37209302,
     "fiftyTwoWeekChangePercent": -3.4482777,
+    "regularMarketChangePercent": -3.5714288,
+    "regularMarketPrice": 27.0,
+    "shortName": "MEDINET CO LTD",
+    "longName": "MEDINET Co., Ltd.",
     "earningsTimestampStart": 1754546400,
     "earningsTimestampEnd": 1754978400,
     "isEarningsDateEstimate": true,
@@ -1204,6 +1201,9 @@
     "fiftyDayAverageChangePercent": -0.05726255,
     "twoHundredDayAverageChange": -4.715,
     "twoHundredDayAverageChangePercent": -0.14866783,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
     "trailingPegRatio": null
   }
 }

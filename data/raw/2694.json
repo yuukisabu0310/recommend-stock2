@@ -1,7 +1,7 @@
 {
   "ticker": "2694",
   "japanese_ticker": "2694.T",
-  "fetch_date": "2026-06-07T00:08:56.679696",
+  "fetch_date": "2026-06-08T00:12:21.603836",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": null,
@@ -1143,8 +1143,12 @@
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
     "shortName": "YAKINIKU SAKAI HOLDINGS INC",
+    "marketState": "REGULAR",
+    "regularMarketChangePercent": -1.4285715,
+    "regularMarketPrice": 69.0,
     "longName": "Yakiniku Sakai Holdings Inc.",
-    "marketState": "CLOSED",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 988329600000,
     "regularMarketChange": -1.0,
     "regularMarketDayRange": "69.0 - 70.0",
     "fullExchangeName": "Tokyo",
@@ -1166,10 +1170,6 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 988329600000,
-    "corporateActions": [],
-    "regularMarketTime": 1780641000,
     "exchange": "JPX",
     "messageBoardId": "finmb_5756647",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1177,8 +1177,8 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "regularMarketChangePercent": -1.4285715,
-    "regularMarketPrice": 69.0,
+    "corporateActions": [],
+    "regularMarketTime": 1780641000,
     "trailingPegRatio": null
   }
 }

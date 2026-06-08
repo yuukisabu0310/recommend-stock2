@@ -1,7 +1,7 @@
 {
   "ticker": "2206",
   "japanese_ticker": "2206.T",
-  "fetch_date": "2026-06-07T00:03:54.234117",
+  "fetch_date": "2026-06-08T00:06:59.699183",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-12-31 00:00:00": -1570212000.0,
@@ -1148,8 +1148,8 @@
     "averageVolume": 212280,
     "averageVolume10days": 230220,
     "averageDailyVolume10Day": 230220,
-    "bid": 5246.0,
-    "ask": 5270.0,
+    "bid": 5295.0,
+    "ask": 5320.0,
     "marketCap": 326308397056,
     "nonDilutedMarketCap": 326308408080,
     "fiftyTwoWeekLow": 4429.0,
@@ -1220,17 +1220,24 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "2206.T announced a cash dividend of JPY 45.00 with an ex-date of Jun. 29, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1782658800000,
+          "amount": "45.00"
+        }
+      }
+    ],
+    "regularMarketTime": 1780641000,
     "shortName": "EZAKI GLICO CO",
     "longName": "Ezaki Glico Co., Ltd.",
-    "exchange": "JPX",
-    "messageBoardId": "finmb_877366",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
-    "corporateActions": [],
-    "regularMarketTime": 1780641000,
+    "marketState": "REGULAR",
+    "cryptoTradeable": false,
+    "regularMarketChangePercent": 0.7840888,
+    "regularMarketPrice": 5270.0,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 978307200000,
     "regularMarketChange": 41.0,
@@ -1251,16 +1258,19 @@
     "isEarningsDateEstimate": true,
     "epsTrailingTwelveMonths": 79.05,
     "epsForward": 167.4,
+    "exchange": "JPX",
+    "messageBoardId": "finmb_877366",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
     "fiftyDayAverageChange": -426.41992,
     "fiftyDayAverageChangePercent": -0.07485753,
     "twoHundredDayAverageChange": -199.91504,
     "twoHundredDayAverageChangePercent": -0.036548108,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
-    "marketState": "CLOSED",
-    "regularMarketChangePercent": 0.7840888,
-    "regularMarketPrice": 5270.0,
     "trailingPegRatio": null
   }
 }

@@ -1,7 +1,7 @@
 {
   "ticker": "2705",
   "japanese_ticker": "2705.T",
-  "fetch_date": "2026-06-07T00:09:05.852241",
+  "fetch_date": "2026-06-08T00:12:31.617967",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": -29600000.0,
@@ -270,19 +270,19 @@
   },
   "balance_sheet": {
     "Treasury Shares Number": {
-      "2025-03-31 00:00:00": 4947.0,
+      "2025-03-31 00:00:00": null,
       "2024-03-31 00:00:00": 4919.0,
       "2023-03-31 00:00:00": 9919.0,
       "2022-03-31 00:00:00": 14873.0
     },
     "Ordinary Shares Number": {
-      "2025-03-31 00:00:00": 7252353.0,
+      "2025-03-31 00:00:00": 7252381.0,
       "2024-03-31 00:00:00": 7246881.0,
       "2023-03-31 00:00:00": 7241881.0,
       "2022-03-31 00:00:00": 7236927.0
     },
     "Share Issued": {
-      "2025-03-31 00:00:00": 7257300.0,
+      "2025-03-31 00:00:00": 7252381.0,
       "2024-03-31 00:00:00": 7251800.0,
       "2023-03-31 00:00:00": 7251800.0,
       "2022-03-31 00:00:00": 7251800.0
@@ -1027,8 +1027,8 @@
     "averageVolume": 15316,
     "averageVolume10days": 21050,
     "averageDailyVolume10Day": 21050,
-    "bid": 7000.0,
-    "ask": 7040.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 50808049664,
@@ -1095,8 +1095,13 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "regularMarketPrice": 7000.0,
+    "marketState": "REGULAR",
+    "shortName": "OOTOYA HOLDINGS CO LTD",
     "longName": "OOTOYA Holdings Co., Ltd.",
-    "marketState": "CLOSED",
+    "regularMarketChangePercent": -0.28490028,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 999216000000,
     "regularMarketChange": -20.0,
     "regularMarketDayRange": "6910.0 - 7260.0",
     "fullExchangeName": "Tokyo",
@@ -1115,9 +1120,6 @@
     "fiftyDayAverageChangePercent": -0.015858706,
     "twoHundredDayAverageChange": 663.0498,
     "twoHundredDayAverageChangePercent": 0.10463232,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
     "corporateActions": [],
     "regularMarketTime": 1780641000,
     "exchange": "JPX",
@@ -1126,12 +1128,10 @@
     "exchangeTimezoneShortName": "JST",
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
-    "shortName": "OOTOYA HOLDINGS CO LTD",
     "esgPopulated": false,
-    "regularMarketChangePercent": -0.28490028,
-    "regularMarketPrice": 7000.0,
-    "firstTradeDateMilliseconds": 999216000000,
-    "hasPrePostMarketData": false,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
     "trailingPegRatio": null
   }
 }

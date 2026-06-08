@@ -1,7 +1,7 @@
 {
   "ticker": "2492",
   "japanese_ticker": "2492.T",
-  "fetch_date": "2026-06-07T00:07:27.749695",
+  "fetch_date": "2026-06-08T00:10:44.834537",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-12-31 00:00:00": -228343.307778,
@@ -1152,8 +1152,8 @@
     "averageVolume": 2105306,
     "averageVolume10days": 2247680,
     "averageDailyVolume10Day": 2247680,
-    "bid": 370.0,
-    "ask": 373.0,
+    "bid": 0.0,
+    "ask": 366.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 98607915008,
@@ -1229,17 +1229,27 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1154995200000,
-    "regularMarketChangePercent": 0.54347825,
-    "regularMarketPrice": 370.0,
-    "marketState": "CLOSED",
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "2492.T announced a cash dividend of JPY 3.29 with an ex-date of Jun. 29, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1782658800000,
+          "amount": "3.29"
+        }
+      }
+    ],
+    "regularMarketTime": 1780641000,
+    "exchange": "JPX",
+    "messageBoardId": "finmb_27941726",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
     "shortName": "INFOMART CORPORATION",
     "longName": "Infomart Corporation",
-    "regularMarketChange": 2.0,
-    "regularMarketDayRange": "367.0 - 384.0",
-    "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 2105306,
     "fiftyTwoWeekLowChange": 72.0,
     "fiftyTwoWeekLowChangePercent": 0.24161074,
     "fiftyTwoWeekRange": "298.0 - 490.0",
@@ -1260,15 +1270,15 @@
     "exchangeDataDelayedBy": 20,
     "averageAnalystRating": "2.5 - Buy",
     "cryptoTradeable": false,
-    "corporateActions": [],
-    "regularMarketTime": 1780641000,
-    "exchange": "JPX",
-    "messageBoardId": "finmb_27941726",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
+    "regularMarketChange": 2.0,
+    "regularMarketDayRange": "367.0 - 384.0",
+    "fullExchangeName": "Tokyo",
+    "averageDailyVolume3Month": 2105306,
+    "marketState": "REGULAR",
+    "regularMarketChangePercent": 0.54347825,
+    "regularMarketPrice": 370.0,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1154995200000,
     "trailingPegRatio": null
   }
 }

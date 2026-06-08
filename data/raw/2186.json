@@ -1,7 +1,7 @@
 {
   "ticker": "2186",
   "japanese_ticker": "2186.T",
-  "fetch_date": "2026-06-07T00:03:41.439113",
+  "fetch_date": "2026-06-08T00:06:46.023552",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-02-28 00:00:00": -7107560.455279,
@@ -132,7 +132,7 @@
     "Basic Average Shares": {
       "2026-02-28 00:00:00": 7866838.0,
       "2025-02-28 00:00:00": 7867256.0,
-      "2024-02-29 00:00:00": 7867257.0,
+      "2024-02-29 00:00:00": 7866973.0,
       "2023-02-28 00:00:00": 7867257.0,
       "2022-02-28 00:00:00": null
     },
@@ -308,14 +308,14 @@
     },
     "Ordinary Shares Number": {
       "2026-02-28 00:00:00": 7867235.0,
-      "2025-02-28 00:00:00": 7867235.0,
+      "2025-02-28 00:00:00": 7867257.0,
       "2024-02-29 00:00:00": 7867257.0,
       "2023-02-28 00:00:00": 7867257.0,
       "2022-02-28 00:00:00": null
     },
     "Share Issued": {
       "2026-02-28 00:00:00": 8167498.0,
-      "2025-02-28 00:00:00": 8167498.0,
+      "2025-02-28 00:00:00": 7867257.0,
       "2024-02-29 00:00:00": 8167498.0,
       "2023-02-28 00:00:00": 8167498.0,
       "2022-02-28 00:00:00": null
@@ -710,9 +710,9 @@
     "Repurchase Of Capital Stock": {
       "2026-02-28 00:00:00": 0.0,
       "2025-02-28 00:00:00": -20000.0,
-      "2024-02-29 00:00:00": 0.0,
+      "2024-02-29 00:00:00": null,
       "2023-02-28 00:00:00": 0.0,
-      "2022-02-28 00:00:00": null
+      "2022-02-28 00:00:00": -26000.0
     },
     "Repayment Of Debt": {
       "2026-02-28 00:00:00": null,
@@ -836,7 +836,7 @@
     "Net Investment Purchase And Sale": {
       "2026-02-28 00:00:00": 0.0,
       "2025-02-28 00:00:00": -202240000.0,
-      "2024-02-29 00:00:00": 0.0,
+      "2024-02-29 00:00:00": null,
       "2023-02-28 00:00:00": null,
       "2022-02-28 00:00:00": null
     },
@@ -1134,8 +1134,8 @@
     "averageVolume": 3190,
     "averageVolume10days": 3250,
     "averageDailyVolume10Day": 3250,
-    "bid": 898.0,
-    "ask": 901.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 7064777216,
@@ -1203,6 +1203,16 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "marketState": "REGULAR",
+    "shortName": "SOBAL CORPORATION",
+    "regularMarketChangePercent": -0.1112347,
+    "regularMarketPrice": 898.0,
+    "fiftyTwoWeekHighChangePercent": -0.08460754,
+    "fiftyTwoWeekChangePercent": -2.7144432,
+    "earningsTimestampStart": 1744353000,
+    "earningsTimestampEnd": 1744353000,
+    "isEarningsDateEstimate": false,
+    "epsTrailingTwelveMonths": 58.46,
     "fiftyDayAverageChange": -5.7800293,
     "fiftyDayAverageChangePercent": -0.006395394,
     "twoHundredDayAverageChange": -14.205017,
@@ -1210,20 +1220,6 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
-    "corporateActions": [],
-    "regularMarketTime": 1780641000,
-    "exchange": "JPX",
-    "messageBoardId": "finmb_48670392",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
-    "marketState": "CLOSED",
-    "shortName": "SOBAL CORPORATION",
-    "longName": "Sobal Corporation",
-    "regularMarketChangePercent": -0.1112347,
-    "regularMarketPrice": 898.0,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1229040000000,
     "regularMarketChange": -1.0,
@@ -1234,12 +1230,16 @@
     "fiftyTwoWeekLowChangePercent": 0.0055991043,
     "fiftyTwoWeekRange": "893.0 - 981.0",
     "fiftyTwoWeekHighChange": -83.0,
-    "fiftyTwoWeekHighChangePercent": -0.08460754,
-    "fiftyTwoWeekChangePercent": -2.7144432,
-    "earningsTimestampStart": 1744353000,
-    "earningsTimestampEnd": 1744353000,
-    "isEarningsDateEstimate": false,
-    "epsTrailingTwelveMonths": 58.46,
+    "corporateActions": [],
+    "regularMarketTime": 1780641000,
+    "exchange": "JPX",
+    "messageBoardId": "finmb_48670392",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
+    "longName": "Sobal Corporation",
     "trailingPegRatio": null
   }
 }

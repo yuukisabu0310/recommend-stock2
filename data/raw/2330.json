@@ -1,7 +1,7 @@
 {
   "ticker": "2330",
   "japanese_ticker": "2330.T",
-  "fetch_date": "2026-06-07T00:05:17.382856",
+  "fetch_date": "2026-06-08T00:08:26.714009",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-12-31 00:00:00": 2240822.594331,
@@ -132,20 +132,20 @@
     "Basic Average Shares": {
       "2025-12-31 00:00:00": null,
       "2024-12-31 00:00:00": 39442056.0,
-      "2023-12-31 00:00:00": 34350946.0,
+      "2023-12-31 00:00:00": 34312991.0,
       "2022-12-31 00:00:00": 32539103.0,
       "2021-12-31 00:00:00": 32540397.0
     },
     "Diluted EPS": {
       "2025-12-31 00:00:00": null,
-      "2024-12-31 00:00:00": 1.63,
+      "2024-12-31 00:00:00": null,
       "2023-12-31 00:00:00": 3.31,
       "2022-12-31 00:00:00": -3.31,
       "2021-12-31 00:00:00": 2.64
     },
     "Basic EPS": {
       "2025-12-31 00:00:00": null,
-      "2024-12-31 00:00:00": 1.63,
+      "2024-12-31 00:00:00": null,
       "2023-12-31 00:00:00": 3.31,
       "2022-12-31 00:00:00": -3.31,
       "2021-12-31 00:00:00": 2.64
@@ -1168,8 +1168,8 @@
     "averageVolume": 373096,
     "averageVolume10days": 782760,
     "averageDailyVolume10Day": 782760,
-    "bid": 74.0,
-    "ask": 75.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 3269346560,
@@ -1236,9 +1236,10 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "marketState": "CLOSED",
     "regularMarketChangePercent": 4.166667,
     "regularMarketPrice": 75.0,
+    "marketState": "REGULAR",
+    "longName": "Forside Co.,Ltd.",
     "exchange": "JPX",
     "messageBoardId": "finmb_10444021",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1246,10 +1247,9 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "corporateActions": [],
-    "regularMarketTime": 1780641000,
     "shortName": "FORSIDE CO LTD",
-    "longName": "Forside Co.,Ltd.",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1034208000000,
     "regularMarketChange": 3.0,
     "regularMarketDayRange": "72.0 - 75.0",
     "fullExchangeName": "Tokyo",
@@ -1271,10 +1271,10 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "prevName": "Forside Co., Ltd.",
-    "nameChangeDate": "2026-06-06",
+    "nameChangeDate": "2026-06-07",
     "cryptoTradeable": false,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1034208000000,
+    "corporateActions": [],
+    "regularMarketTime": 1780641000,
     "trailingPegRatio": null
   }
 }

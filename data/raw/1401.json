@@ -1,7 +1,7 @@
 {
   "ticker": "1401",
   "japanese_ticker": "1401.T",
-  "fetch_date": "2026-06-06T23:57:54.112545",
+  "fetch_date": "2026-06-08T00:00:43.740919",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-05-31 00:00:00": -4013121.0,
@@ -867,7 +867,7 @@
     },
     "Sale Of Investment": {
       "2025-05-31 00:00:00": 311213000.0,
-      "2024-05-31 00:00:00": 0.0,
+      "2024-05-31 00:00:00": null,
       "2023-05-31 00:00:00": null,
       "2022-05-31 00:00:00": 0.0
     },
@@ -1129,8 +1129,8 @@
     "averageVolume": 4135,
     "averageVolume10days": 2650,
     "averageDailyVolume10Day": 2650,
-    "bid": 1283.0,
-    "ask": 1291.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 8893630464,
@@ -1196,8 +1196,10 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "corporateActions": [],
-    "regularMarketTime": 1780641000,
+    "shortName": "MBS INC",
+    "longName": "Mbs Inc",
+    "regularMarketChangePercent": 0.23437501,
+    "regularMarketPrice": 1283.0,
     "exchange": "JPX",
     "messageBoardId": "finmb_22885797",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1205,9 +1207,9 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "regularMarketChangePercent": 0.23437501,
-    "regularMarketPrice": 1283.0,
-    "shortName": "MBS INC",
+    "marketState": "REGULAR",
+    "corporateActions": [],
+    "regularMarketTime": 1780641000,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1439424000000,
     "regularMarketChange": 3.0,
@@ -1231,8 +1233,6 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
-    "marketState": "CLOSED",
-    "longName": "Mbs Inc",
     "trailingPegRatio": null
   }
 }

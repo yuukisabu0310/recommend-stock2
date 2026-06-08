@@ -1,7 +1,7 @@
 {
   "ticker": "2425",
   "japanese_ticker": "2425.T",
-  "fetch_date": "2026-06-07T00:06:31.004451",
+  "fetch_date": "2026-06-08T00:09:45.145538",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": -8151228.0,
@@ -270,7 +270,7 @@
       "2022-03-31 00:00:00": 3793239.0
     },
     "Share Issued": {
-      "2025-03-31 00:00:00": 4200000.0,
+      "2025-03-31 00:00:00": 3793193.0,
       "2024-03-31 00:00:00": 4200000.0,
       "2023-03-31 00:00:00": 4200000.0,
       "2022-03-31 00:00:00": 4200000.0
@@ -921,7 +921,7 @@
     "averageVolume10days": 4950,
     "averageDailyVolume10Day": 4950,
     "bid": 654.0,
-    "ask": 659.0,
+    "ask": 654.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 2495920896,
@@ -987,18 +987,22 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "corporateActions": [],
-    "regularMarketTime": 1780641000,
+    "shortName": "CARE SERVICE CO LTD",
+    "longName": "Care Service Co.,Ltd.",
+    "regularMarketChangePercent": 0.9202454,
+    "regularMarketPrice": 658.0,
     "exchange": "JPX",
     "messageBoardId": "finmb_13009566",
     "exchangeTimezoneName": "Asia/Tokyo",
     "exchangeTimezoneShortName": "JST",
-    "cryptoTradeable": false,
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
+    "marketState": "REGULAR",
+    "corporateActions": [],
+    "regularMarketTime": 1780641000,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1101427200000,
-    "shortName": "CARE SERVICE CO LTD",
-    "longName": "Care Service Co.,Ltd.",
-    "marketState": "CLOSED",
     "regularMarketChange": 6.0,
     "regularMarketDayRange": "652.0 - 669.0",
     "fullExchangeName": "Tokyo",
@@ -1019,11 +1023,7 @@
     "twoHundredDayAverageChangePercent": -0.15973364,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
-    "regularMarketChangePercent": 0.9202454,
-    "regularMarketPrice": 658.0,
+    "cryptoTradeable": false,
     "trailingPegRatio": null
   }
 }

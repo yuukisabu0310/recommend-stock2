@@ -1,7 +1,7 @@
 {
   "ticker": "2376",
   "japanese_ticker": "2376.T",
-  "fetch_date": "2026-06-07T00:05:57.228478",
+  "fetch_date": "2026-06-08T00:09:08.449644",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": -32480.0,
@@ -276,7 +276,7 @@
       "2022-03-31 00:00:00": 5607983.0
     },
     "Share Issued": {
-      "2025-03-31 00:00:00": 6470660.0,
+      "2025-03-31 00:00:00": 5607983.0,
       "2024-03-31 00:00:00": 6470660.0,
       "2023-03-31 00:00:00": 6470660.0,
       "2022-03-31 00:00:00": 6470660.0
@@ -1032,8 +1032,8 @@
     "averageVolume": 10220,
     "averageVolume10days": 6400,
     "averageDailyVolume10Day": 6400,
-    "bid": 796.0,
-    "ask": 805.0,
+    "bid": 0.0,
+    "ask": 782.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 4463954432,
@@ -1051,7 +1051,7 @@
     "tradeable": false,
     "enterpriseValue": 3053954560,
     "profitMargins": 0.0029300002,
-    "floatShares": 2071701,
+    "floatShares": 2221715,
     "sharesOutstanding": 5607983,
     "heldPercentInsiders": 0.52776,
     "heldPercentInstitutions": 0.02318,
@@ -1100,8 +1100,18 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "shortName": "SCINEX CORPORATION",
+    "regularMarketChangePercent": 0.63211125,
+    "regularMarketPrice": 796.0,
+    "marketState": "REGULAR",
     "longName": "Scinex Corporation",
+    "exchange": "JPX",
+    "messageBoardId": "finmb_5853892",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
+    "shortName": "SCINEX CORPORATION",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1068163200000,
     "regularMarketChange": 5.0,
@@ -1125,18 +1135,8 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
-    "marketState": "CLOSED",
-    "regularMarketChangePercent": 0.63211125,
-    "regularMarketPrice": 796.0,
     "corporateActions": [],
     "regularMarketTime": 1780641000,
-    "exchange": "JPX",
-    "messageBoardId": "finmb_5853892",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
     "trailingPegRatio": null
   }
 }

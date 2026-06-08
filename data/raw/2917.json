@@ -1,7 +1,7 @@
 {
   "ticker": "2917",
   "japanese_ticker": "2917.T",
-  "fetch_date": "2026-06-07T00:11:30.261189",
+  "fetch_date": "2026-06-08T00:15:02.022755",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-09-30 00:00:00": 49476.0,
@@ -108,13 +108,13 @@
     "Diluted Average Shares": {
       "2025-09-30 00:00:00": 4993808.0,
       "2024-09-30 00:00:00": 5024808.0,
-      "2023-09-30 00:00:00": 5031732.0,
+      "2023-09-30 00:00:00": 5032147.0,
       "2022-09-30 00:00:00": 5031732.0
     },
     "Basic Average Shares": {
       "2025-09-30 00:00:00": 4993808.0,
       "2024-09-30 00:00:00": 5024808.0,
-      "2023-09-30 00:00:00": 5031732.0,
+      "2023-09-30 00:00:00": 5032147.0,
       "2022-09-30 00:00:00": 5031732.0
     },
     "Diluted EPS": {
@@ -265,7 +265,7 @@
     },
     "Ordinary Shares Number": {
       "2025-09-30 00:00:00": 4980732.0,
-      "2024-09-30 00:00:00": 5001732.0,
+      "2024-09-30 00:00:00": 5031732.0,
       "2023-09-30 00:00:00": 5031732.0,
       "2022-09-30 00:00:00": 5031732.0
     },
@@ -1019,8 +1019,8 @@
     "averageVolume": 2138,
     "averageVolume10days": 1490,
     "averageDailyVolume10Day": 1490,
-    "bid": 915.0,
-    "ask": 923.0,
+    "bid": 0.0,
+    "ask": 924.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 4557369856,
@@ -1087,24 +1087,12 @@
     "customPriceAlertConfidence": "LOW",
     "corporateActions": [],
     "regularMarketTime": 1780631804,
-    "exchange": "JPX",
-    "messageBoardId": "finmb_5606843",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
+    "shortName": "OHMORIYA CO LTD",
+    "longName": "Ohmoriya Co.,Ltd.",
+    "marketState": "REGULAR",
+    "cryptoTradeable": false,
     "regularMarketChangePercent": 0.21905807,
     "regularMarketPrice": 915.0,
-    "shortName": "OHMORIYA CO LTD",
-    "epsTrailingTwelveMonths": 18.21,
-    "fiftyDayAverageChange": 0.34002686,
-    "fiftyDayAverageChangePercent": 0.0003717522,
-    "twoHundredDayAverageChange": 5.6950073,
-    "twoHundredDayAverageChangePercent": 0.006263033,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 946944000000,
     "regularMarketChange": 2.0,
@@ -1120,8 +1108,20 @@
     "earningsTimestampStart": 1754547300,
     "earningsTimestampEnd": 1754979300,
     "isEarningsDateEstimate": true,
-    "longName": "Ohmoriya Co.,Ltd.",
-    "marketState": "CLOSED",
+    "epsTrailingTwelveMonths": 18.21,
+    "exchange": "JPX",
+    "messageBoardId": "finmb_5606843",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
+    "fiftyDayAverageChange": 0.34002686,
+    "fiftyDayAverageChangePercent": 0.0003717522,
+    "twoHundredDayAverageChange": 5.6950073,
+    "twoHundredDayAverageChangePercent": 0.006263033,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
     "trailingPegRatio": null
   }
 }

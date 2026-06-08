@@ -1,7 +1,7 @@
 {
   "ticker": "2185",
   "japanese_ticker": "2185.T",
-  "fetch_date": "2026-06-07T00:03:39.386795",
+  "fetch_date": "2026-06-08T00:06:44.235261",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-09-30 00:00:00": 63461581.772823,
@@ -123,29 +123,29 @@
       "2021-09-30 00:00:00": null
     },
     "Diluted Average Shares": {
-      "2025-09-30 00:00:00": null,
+      "2025-09-30 00:00:00": 13097989.0,
       "2024-09-30 00:00:00": 13265462.0,
-      "2023-09-30 00:00:00": 13254065.0,
+      "2023-09-30 00:00:00": 13254140.0,
       "2022-09-30 00:00:00": 13305511.0,
-      "2021-09-30 00:00:00": 13609742.0
+      "2021-09-30 00:00:00": null
     },
     "Basic Average Shares": {
-      "2025-09-30 00:00:00": null,
+      "2025-09-30 00:00:00": 13097989.0,
       "2024-09-30 00:00:00": 13265462.0,
-      "2023-09-30 00:00:00": 13254065.0,
+      "2023-09-30 00:00:00": 13254140.0,
       "2022-09-30 00:00:00": 13305511.0,
-      "2021-09-30 00:00:00": 13609742.0
+      "2021-09-30 00:00:00": null
     },
     "Diluted EPS": {
-      "2025-09-30 00:00:00": null,
+      "2025-09-30 00:00:00": 164.12,
       "2024-09-30 00:00:00": 156.72,
       "2023-09-30 00:00:00": 132.97,
       "2022-09-30 00:00:00": 150.56,
-      "2021-09-30 00:00:00": 118.93
+      "2021-09-30 00:00:00": null
     },
     "Basic EPS": {
-      "2025-09-30 00:00:00": null,
-      "2024-09-30 00:00:00": 156.72,
+      "2025-09-30 00:00:00": 164.12,
+      "2024-09-30 00:00:00": null,
       "2023-09-30 00:00:00": 132.97,
       "2022-09-30 00:00:00": 150.56,
       "2021-09-30 00:00:00": 118.93
@@ -1135,7 +1135,7 @@
     "averageVolume10days": 2760,
     "averageDailyVolume10Day": 2760,
     "bid": 1800.0,
-    "ask": 1819.0,
+    "ask": 1820.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 23271690240,
@@ -1153,7 +1153,7 @@
     "tradeable": false,
     "enterpriseValue": 9438690304,
     "profitMargins": 0.13218,
-    "floatShares": 5668550,
+    "floatShares": 5908632,
     "sharesOutstanding": 12921538,
     "heldPercentInsiders": 0.46522,
     "heldPercentInstitutions": 0.0504,
@@ -1203,17 +1203,18 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "shortName": "CMC CORPORATION",
     "longName": "CMC Corporation",
-    "isEarningsDateEstimate": true,
-    "epsTrailingTwelveMonths": 199.37,
-    "fiftyDayAverageChange": -62.640015,
-    "fiftyDayAverageChangePercent": -0.033611648,
-    "twoHundredDayAverageChange": 28.369995,
-    "twoHundredDayAverageChangePercent": 0.016004466,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
+    "corporateActions": [],
+    "regularMarketTime": 1780641000,
+    "shortName": "CMC CORPORATION",
+    "exchange": "JPX",
+    "messageBoardId": "finmb_5458104",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
+    "marketState": "REGULAR",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1228348800000,
     "regularMarketChange": -9.0,
@@ -1228,18 +1229,17 @@
     "fiftyTwoWeekChangePercent": 24.147343,
     "earningsTimestampStart": 1754546400,
     "earningsTimestampEnd": 1754978400,
-    "corporateActions": [],
-    "regularMarketTime": 1780641000,
-    "exchange": "JPX",
-    "messageBoardId": "finmb_5458104",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
+    "isEarningsDateEstimate": true,
+    "epsTrailingTwelveMonths": 199.37,
+    "fiftyDayAverageChange": -62.640015,
+    "fiftyDayAverageChangePercent": -0.033611648,
+    "twoHundredDayAverageChange": 28.369995,
+    "twoHundredDayAverageChangePercent": 0.016004466,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
     "regularMarketChangePercent": -0.49723753,
     "regularMarketPrice": 1801.0,
-    "marketState": "CLOSED",
+    "cryptoTradeable": false,
     "trailingPegRatio": null
   }
 }

@@ -1,19 +1,19 @@
 {
   "ticker": "2122",
   "japanese_ticker": "2122.T",
-  "fetch_date": "2026-06-07T00:02:45.813348",
+  "fetch_date": "2026-06-08T00:05:46.547308",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-09-30 00:00:00": -9726600.0,
       "2024-09-30 00:00:00": -41530320.0,
-      "2023-09-30 00:00:00": -5037663.0,
+      "2023-09-30 00:00:00": -5042124.643398,
       "2022-09-30 00:00:00": -32397408.0,
       "2021-09-30 00:00:00": null
     },
     "Tax Rate For Calcs": {
       "2025-09-30 00:00:00": 0.232,
       "2024-09-30 00:00:00": 0.232,
-      "2023-09-30 00:00:00": 0.353,
+      "2023-09-30 00:00:00": 0.353313,
       "2022-09-30 00:00:00": 0.232,
       "2021-09-30 00:00:00": null
     },
@@ -138,17 +138,17 @@
     },
     "Diluted EPS": {
       "2025-09-30 00:00:00": 32.82,
-      "2024-09-30 00:00:00": 9.48,
+      "2024-09-30 00:00:00": null,
       "2023-09-30 00:00:00": 93.36,
       "2022-09-30 00:00:00": 85.62,
-      "2021-09-30 00:00:00": null
+      "2021-09-30 00:00:00": 63.11
     },
     "Basic EPS": {
       "2025-09-30 00:00:00": 32.82,
-      "2024-09-30 00:00:00": 9.48,
+      "2024-09-30 00:00:00": null,
       "2023-09-30 00:00:00": 93.36,
       "2022-09-30 00:00:00": 85.62,
-      "2021-09-30 00:00:00": null
+      "2021-09-30 00:00:00": 63.11
     },
     "Diluted NI Availto Com Stockholders": {
       "2025-09-30 00:00:00": 206005000.0,
@@ -1037,8 +1037,8 @@
     "averageVolume": 8455,
     "averageVolume10days": 5450,
     "averageDailyVolume10Day": 5450,
-    "bid": 1232.0,
-    "ask": 1250.0,
+    "bid": 1223.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 7783270400,
@@ -1056,7 +1056,7 @@
     "tradeable": false,
     "enterpriseValue": 1917270400,
     "profitMargins": 0.041389998,
-    "floatShares": 1210110,
+    "floatShares": 1110120,
     "sharesOutstanding": 6276831,
     "heldPercentInsiders": 0.67713,
     "heldPercentInstitutions": 0.0,
@@ -1107,7 +1107,8 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "marketState": "CLOSED",
+    "corporateActions": [],
+    "regularMarketTime": 1780641000,
     "exchange": "JPX",
     "messageBoardId": "finmb_28689483",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1115,6 +1116,16 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
+    "marketState": "REGULAR",
+    "regularMarketChangePercent": -1.2738854,
+    "regularMarketPrice": 1240.0,
+    "shortName": "INTERSPACE CO LTD",
+    "longName": "Interspace Co.,Ltd.",
+    "twoHundredDayAverageChange": 31.61499,
+    "twoHundredDayAverageChangePercent": 0.026163012,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1158624000000,
     "regularMarketChange": -16.0,
@@ -1134,17 +1145,6 @@
     "epsForward": 132.7,
     "fiftyDayAverageChange": -13.420044,
     "fiftyDayAverageChangePercent": -0.010706741,
-    "twoHundredDayAverageChange": 31.61499,
-    "twoHundredDayAverageChangePercent": 0.026163012,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
-    "regularMarketChangePercent": -1.2738854,
-    "regularMarketPrice": 1240.0,
-    "shortName": "INTERSPACE CO LTD",
-    "longName": "Interspace Co.,Ltd.",
-    "corporateActions": [],
-    "regularMarketTime": 1780641000,
     "trailingPegRatio": null
   }
 }

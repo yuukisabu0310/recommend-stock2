@@ -1,7 +1,7 @@
 {
   "ticker": "1433",
   "japanese_ticker": "1433.T",
-  "fetch_date": "2026-06-06T23:58:13.777992",
+  "fetch_date": "2026-06-08T00:01:03.014184",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-01-31 00:00:00": 65652865.2,
@@ -1217,8 +1217,8 @@
     "averageVolume": 98941,
     "averageVolume10days": 49430,
     "averageDailyVolume10Day": 49430,
-    "bid": 1028.0,
-    "ask": 1038.0,
+    "bid": 1005.0,
+    "ask": 1006.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 9162180608,
@@ -1286,9 +1286,6 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "marketState": "CLOSED",
-    "shortName": "BESTERRA CO LTD",
-    "longName": "Besterra Co., Ltd.",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1441152000000,
     "regularMarketChange": 30.0,
@@ -1301,8 +1298,6 @@
     "fiftyTwoWeekHighChange": -321.0,
     "fiftyTwoWeekHighChangePercent": -0.23690037,
     "fiftyTwoWeekChangePercent": -9.464288,
-    "regularMarketChangePercent": 2.9880478,
-    "regularMarketPrice": 1034.0,
     "earningsTimestampStart": 1749448800,
     "earningsTimestampEnd": 1749448800,
     "isEarningsDateEstimate": false,
@@ -1314,7 +1309,10 @@
     "twoHundredDayAverageChangePercent": -0.10212267,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
+    "shortName": "BESTERRA CO LTD",
+    "regularMarketChangePercent": 2.9880478,
+    "regularMarketPrice": 1034.0,
+    "longName": "Besterra Co., Ltd.",
     "corporateActions": [],
     "regularMarketTime": 1780641000,
     "exchange": "JPX",
@@ -1324,6 +1322,8 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
+    "cryptoTradeable": false,
+    "marketState": "REGULAR",
     "trailingPegRatio": null
   }
 }

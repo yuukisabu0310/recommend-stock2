@@ -1,7 +1,7 @@
 {
   "ticker": "1788",
   "japanese_ticker": "1788.T",
-  "fetch_date": "2026-06-06T23:59:24.981989",
+  "fetch_date": "2026-06-08T00:02:17.959830",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-06-30 00:00:00": null,
@@ -145,17 +145,17 @@
     },
     "Diluted EPS": {
       "2025-06-30 00:00:00": 371.94,
-      "2024-06-30 00:00:00": 214.43,
+      "2024-06-30 00:00:00": null,
       "2023-06-30 00:00:00": 367.59,
       "2022-06-30 00:00:00": 305.28,
-      "2021-06-30 00:00:00": null
+      "2021-06-30 00:00:00": 240.23
     },
     "Basic EPS": {
       "2025-06-30 00:00:00": 371.94,
-      "2024-06-30 00:00:00": 214.43,
+      "2024-06-30 00:00:00": null,
       "2023-06-30 00:00:00": 367.59,
       "2022-06-30 00:00:00": 305.28,
-      "2021-06-30 00:00:00": null
+      "2021-06-30 00:00:00": 240.23
     },
     "Diluted NI Availto Com Stockholders": {
       "2025-06-30 00:00:00": null,
@@ -375,7 +375,7 @@
       "2021-06-30 00:00:00": 607641.0
     },
     "Share Issued": {
-      "2024-06-30 00:00:00": 686000.0,
+      "2024-06-30 00:00:00": 618022.0,
       "2023-06-30 00:00:00": 686000.0,
       "2022-06-30 00:00:00": 686000.0,
       "2021-06-30 00:00:00": 686000.0
@@ -1085,8 +1085,8 @@
     "averageVolume": 665,
     "averageVolume10days": 730,
     "averageDailyVolume10Day": 730,
-    "bid": 4600.0,
-    "ask": 4640.0,
+    "bid": 4975.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 2908593152,
@@ -1153,16 +1153,32 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 947116800000,
+    "corporateActions": [],
+    "regularMarketTime": 1780639447,
     "regularMarketChangePercent": 3.1111112,
     "regularMarketPrice": 4640.0,
-    "marketState": "CLOSED",
-    "shortName": "SANTO CORPORATION",
-    "longName": "Santo Corporation",
+    "marketState": "REGULAR",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 947116800000,
     "regularMarketChange": 140.0,
     "regularMarketDayRange": "4535.0 - 4640.0",
     "fullExchangeName": "Tokyo",
+    "shortName": "SANTO CORPORATION",
+    "longName": "Santo Corporation",
+    "fiftyDayAverageChange": -220.7002,
+    "fiftyDayAverageChangePercent": -0.045405023,
+    "twoHundredDayAverageChange": -135.875,
+    "twoHundredDayAverageChangePercent": -0.028450284,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
+    "exchange": "JPX",
+    "messageBoardId": "finmb_5827070",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
     "averageDailyVolume3Month": 665,
     "fiftyTwoWeekLowChange": 835.0,
     "fiftyTwoWeekLowChangePercent": 0.21944809,
@@ -1174,22 +1190,6 @@
     "earningsTimestampEnd": 1746597600,
     "isEarningsDateEstimate": false,
     "epsTrailingTwelveMonths": 518.75,
-    "fiftyDayAverageChange": -220.7002,
-    "fiftyDayAverageChangePercent": -0.045405023,
-    "twoHundredDayAverageChange": -135.875,
-    "twoHundredDayAverageChangePercent": -0.028450284,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
-    "corporateActions": [],
-    "regularMarketTime": 1780639447,
-    "exchange": "JPX",
-    "messageBoardId": "finmb_5827070",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
     "trailingPegRatio": null
   }
 }

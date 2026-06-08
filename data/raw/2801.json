@@ -1,7 +1,7 @@
 {
   "ticker": "2801",
   "japanese_ticker": "2801.T",
-  "fetch_date": "2026-06-07T00:10:18.360153",
+  "fetch_date": "2026-06-08T00:13:47.986157",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": null,
@@ -1101,8 +1101,8 @@
     "averageVolume": 4191125,
     "averageVolume10days": 4840820,
     "averageDailyVolume10Day": 4840820,
-    "bid": 1429.0,
-    "ask": 1438.0,
+    "bid": 0.0,
+    "ask": 1250.5,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 1331437502464,
@@ -1179,8 +1179,6 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "shortName": "KIKKOMAN CORP",
-    "longName": "Kikkoman Corporation",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 946944000000,
     "regularMarketChange": -13.0,
@@ -1207,11 +1205,10 @@
     "twoHundredDayAverageChangePercent": 0.03485527,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
-    "averageAnalystRating": "2.3 - Buy",
-    "cryptoTradeable": false,
-    "marketState": "CLOSED",
+    "shortName": "KIKKOMAN CORP",
     "regularMarketChangePercent": -0.8965517,
     "regularMarketPrice": 1437.0,
+    "longName": "Kikkoman Corporation",
     "corporateActions": [],
     "regularMarketTime": 1780641000,
     "exchange": "JPX",
@@ -1221,6 +1218,9 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
+    "averageAnalystRating": "2.3 - Buy",
+    "cryptoTradeable": false,
+    "marketState": "REGULAR",
     "trailingPegRatio": 5.4428
   }
 }

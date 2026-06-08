@@ -1,7 +1,7 @@
 {
   "ticker": "2998",
   "japanese_ticker": "2998.T",
-  "fetch_date": "2026-06-07T00:12:27.130530",
+  "fetch_date": "2026-06-08T00:16:03.239340",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": 700588.0,
@@ -1106,8 +1106,8 @@
     "averageVolume": 161240,
     "averageVolume10days": 299670,
     "averageDailyVolume10Day": 299670,
-    "bid": 441.0,
-    "ask": 443.0,
+    "bid": 416.0,
+    "ask": 421.0,
     "marketCap": 15904691200,
     "nonDilutedMarketCap": 15904691460,
     "fiftyTwoWeekLow": 415.0,
@@ -1175,8 +1175,10 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "shortName": "CREAL INC",
     "longName": "CREAL Inc.",
-    "marketState": "CLOSED",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1651104000000,
     "regularMarketChange": 21.0,
     "regularMarketDayRange": "417.0 - 448.0",
     "fullExchangeName": "Tokyo",
@@ -1197,6 +1199,9 @@
     "twoHundredDayAverageChange": -482.84998,
     "twoHundredDayAverageChangePercent": -0.52264977,
     "sourceInterval": 15,
+    "marketState": "REGULAR",
+    "regularMarketChangePercent": 5.0,
+    "regularMarketPrice": 441.0,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
     "corporateActions": [],
@@ -1207,12 +1212,7 @@
     "exchangeTimezoneShortName": "JST",
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
-    "shortName": "CREAL INC",
     "esgPopulated": false,
-    "regularMarketChangePercent": 5.0,
-    "regularMarketPrice": 441.0,
-    "firstTradeDateMilliseconds": 1651104000000,
-    "hasPrePostMarketData": false,
     "trailingPegRatio": null
   }
 }

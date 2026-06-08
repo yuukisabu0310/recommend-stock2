@@ -1,7 +1,7 @@
 {
   "ticker": "2809",
   "japanese_ticker": "2809.T",
-  "fetch_date": "2026-06-07T00:10:27.406045",
+  "fetch_date": "2026-06-08T00:13:57.618526",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-11-30 00:00:00": 2869139000.0,
@@ -107,13 +107,13 @@
     },
     "Diluted Average Shares": {
       "2025-11-30 00:00:00": 138266241.0,
-      "2024-11-30 00:00:00": 139002362.0,
+      "2024-11-30 00:00:00": 138994160.0,
       "2023-11-30 00:00:00": 139003000.0,
       "2022-11-30 00:00:00": 139004000.0
     },
     "Basic Average Shares": {
       "2025-11-30 00:00:00": 138266241.0,
-      "2024-11-30 00:00:00": 139002362.0,
+      "2024-11-30 00:00:00": 138994160.0,
       "2023-11-30 00:00:00": 139003000.0,
       "2022-11-30 00:00:00": 139004000.0
     },
@@ -429,13 +429,6 @@
       "2024-11-30 00:00:00": 15532000000.0,
       "2023-11-30 00:00:00": 12766000000.0,
       "2022-11-30 00:00:00": 9558000000.0,
-      "2021-11-30 00:00:00": null
-    },
-    "Long Term Debt And Capital Lease Obligation": {
-      "2025-11-30 00:00:00": 3592000000.0,
-      "2024-11-30 00:00:00": 19285000000.0,
-      "2023-11-30 00:00:00": 14591000000.0,
-      "2022-11-30 00:00:00": 29407000000.0,
       "2021-11-30 00:00:00": null
     },
     "Long Term Capital Lease Obligation": {
@@ -1220,8 +1213,8 @@
     "averageVolume": 442333,
     "averageVolume10days": 410630,
     "averageDailyVolume10Day": 410630,
-    "bid": 3960.0,
-    "ask": 3965.0,
+    "bid": 3910.0,
+    "ask": 3951.0,
     "marketCap": 541223976960,
     "nonDilutedMarketCap": 541223998920,
     "fiftyTwoWeekLow": 3244.0,
@@ -1291,11 +1284,14 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "marketState": "CLOSED",
-    "regularMarketChangePercent": -0.6273526,
-    "regularMarketPrice": 3960.0,
-    "corporateActions": [],
-    "regularMarketTime": 1780641000,
+    "fiftyDayAverageChange": -97.71997,
+    "fiftyDayAverageChangePercent": -0.024082482,
+    "twoHundredDayAverageChange": -278.60986,
+    "twoHundredDayAverageChangePercent": -0.06573142,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "averageAnalystRating": "2.0 - Buy",
+    "cryptoTradeable": false,
     "exchange": "JPX",
     "messageBoardId": "finmb_245700",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1303,12 +1299,8 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "shortName": "KEWPIE CORP",
-    "longName": "Kewpie Corporation",
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "averageAnalystRating": "2.0 - Buy",
-    "cryptoTradeable": false,
+    "regularMarketChangePercent": -0.6273526,
+    "regularMarketPrice": 3960.0,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 978307200000,
     "regularMarketChange": -25.0,
@@ -1329,10 +1321,11 @@
     "isEarningsDateEstimate": false,
     "epsTrailingTwelveMonths": 220.57,
     "epsForward": 178.94,
-    "fiftyDayAverageChange": -97.71997,
-    "fiftyDayAverageChangePercent": -0.024082482,
-    "twoHundredDayAverageChange": -278.60986,
-    "twoHundredDayAverageChangePercent": -0.06573142,
+    "corporateActions": [],
+    "regularMarketTime": 1780641000,
+    "shortName": "KEWPIE CORP",
+    "longName": "Kewpie Corporation",
+    "marketState": "REGULAR",
     "trailingPegRatio": null
   }
 }

@@ -1,7 +1,7 @@
 {
   "ticker": "2901",
   "japanese_ticker": "2901.T",
-  "fetch_date": "2026-06-07T00:11:11.509768",
+  "fetch_date": "2026-06-08T00:14:42.316564",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": 11896548.667594,
@@ -113,7 +113,7 @@
     },
     "Basic Average Shares": {
       "2025-03-31 00:00:00": null,
-      "2024-03-31 00:00:00": 14307581.0,
+      "2024-03-31 00:00:00": 14304882.0,
       "2023-03-31 00:00:00": 14293921.0,
       "2022-03-31 00:00:00": 11889733.0
     },
@@ -276,7 +276,7 @@
   },
   "balance_sheet": {
     "Treasury Shares Number": {
-      "2025-03-31 00:00:00": 1781.0,
+      "2025-03-31 00:00:00": null,
       "2024-03-31 00:00:00": 1781.0,
       "2023-03-31 00:00:00": 1780.0,
       "2022-03-31 00:00:00": 1779.0
@@ -1010,8 +1010,8 @@
     "averageVolume": 360858,
     "averageVolume10days": 115560,
     "averageDailyVolume10Day": 115560,
-    "bid": 197.0,
-    "ask": 199.0,
+    "bid": 0.0,
+    "ask": 198.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 5634711552,
@@ -1074,10 +1074,7 @@
     "customPriceAlertConfidence": "LOW",
     "regularMarketChangePercent": 0.5102041,
     "regularMarketPrice": 197.0,
-    "shortName": "WEL-DISH INCORPORATED",
-    "longName": "Wel-Dish.Incorporated",
-    "corporateActions": [],
-    "regularMarketTime": 1780641000,
+    "marketState": "REGULAR",
     "exchange": "JPX",
     "messageBoardId": "finmb_10203781",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1101,6 +1098,8 @@
     "earningsTimestampEnd": 1747294200,
     "isEarningsDateEstimate": false,
     "epsTrailingTwelveMonths": 21.77,
+    "shortName": "WEL-DISH INCORPORATED",
+    "longName": "Wel-Dish.Incorporated",
     "fiftyDayAverageChange": -43.479996,
     "fiftyDayAverageChangePercent": -0.18080504,
     "twoHundredDayAverageChange": -255.56,
@@ -1108,9 +1107,10 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "prevName": "Ishigaki Foods Co.,Ltd.",
-    "nameChangeDate": "2026-06-06",
+    "nameChangeDate": "2026-06-07",
     "cryptoTradeable": false,
-    "marketState": "CLOSED",
+    "corporateActions": [],
+    "regularMarketTime": 1780641000,
     "trailingPegRatio": null
   }
 }

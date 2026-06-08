@@ -1,7 +1,7 @@
 {
   "ticker": "2315",
   "japanese_ticker": "2315.T",
-  "fetch_date": "2026-06-07T00:05:03.771423",
+  "fetch_date": "2026-06-08T00:08:12.024755",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-10-31 00:00:00": 7727853.0,
@@ -138,14 +138,14 @@
     },
     "Diluted EPS": {
       "2025-10-31 00:00:00": null,
-      "2024-10-31 00:00:00": 0.22,
+      "2024-10-31 00:00:00": null,
       "2023-10-31 00:00:00": -31.57,
       "2022-10-31 00:00:00": -54.69,
       "2021-10-31 00:00:00": -10.87
     },
     "Basic EPS": {
       "2025-10-31 00:00:00": null,
-      "2024-10-31 00:00:00": 0.22,
+      "2024-10-31 00:00:00": null,
       "2023-10-31 00:00:00": -31.57,
       "2022-10-31 00:00:00": -54.69,
       "2021-10-31 00:00:00": -10.87
@@ -1271,7 +1271,15 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "marketState": "CLOSED",
+    "regularMarketTime": 1780641000,
+    "exchange": "JPX",
+    "messageBoardId": "finmb_9247968",
+    "regularMarketChangePercent": 5.0847454,
+    "regularMarketPrice": 62.0,
+    "longName": "CAICA DIGITAL Inc.",
+    "cryptoTradeable": false,
+    "corporateActions": [],
+    "marketState": "REGULAR",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1023753600000,
     "regularMarketChange": 3.0,
@@ -1295,21 +1303,13 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "prevName": "CAICA Inc.",
-    "nameChangeDate": "2026-06-06",
-    "cryptoTradeable": false,
-    "corporateActions": [],
-    "regularMarketTime": 1780641000,
-    "exchange": "JPX",
-    "messageBoardId": "finmb_9247968",
+    "nameChangeDate": "2026-06-07",
+    "shortName": "CAICA DIGITAL INC",
     "exchangeTimezoneName": "Asia/Tokyo",
     "exchangeTimezoneShortName": "JST",
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "regularMarketChangePercent": 5.0847454,
-    "regularMarketPrice": 62.0,
-    "shortName": "CAICA DIGITAL INC",
-    "longName": "CAICA DIGITAL Inc.",
     "trailingPegRatio": null
   }
 }

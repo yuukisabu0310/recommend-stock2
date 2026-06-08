@@ -1,7 +1,7 @@
 {
   "ticker": "2593",
   "japanese_ticker": "2593.T",
-  "fetch_date": "2026-06-07T00:08:01.847902",
+  "fetch_date": "2026-06-08T00:11:20.730113",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-04-30 00:00:00": -258564000.0,
@@ -82,8 +82,8 @@
       "2022-04-30 00:00:00": 86000000.0
     },
     "Normalized Income": {
-      "2025-04-30 00:00:00": 14640436000.0,
-      "2024-04-30 00:00:00": 17054408000.0,
+      "2025-04-30 00:00:00": 14640682920.246504,
+      "2024-04-30 00:00:00": 17054030336.391438,
       "2023-04-30 00:00:00": 13327505000.0,
       "2022-04-30 00:00:00": 12670157000.0
     },
@@ -1088,8 +1088,8 @@
     "averageVolume": 536575,
     "averageVolume10days": 752230,
     "averageDailyVolume10Day": 752230,
-    "bid": 2683.0,
-    "ask": 2690.0,
+    "bid": 2719.5,
+    "ask": 2720.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 309913747456,
@@ -1166,15 +1166,9 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "regularMarketTime": 1780641000,
-    "exchange": "JPX",
-    "messageBoardId": "finmb_4509036",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
-    "corporateActions": [],
+    "longName": "Ito En, Ltd.",
+    "regularMarketChangePercent": -0.75645757,
+    "regularMarketPrice": 2689.5,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 978307200000,
     "regularMarketChange": -20.5,
@@ -1203,11 +1197,17 @@
     "exchangeDataDelayedBy": 20,
     "averageAnalystRating": "3.0 - Hold",
     "cryptoTradeable": false,
+    "corporateActions": [],
+    "regularMarketTime": 1780641000,
+    "marketState": "REGULAR",
+    "exchange": "JPX",
+    "messageBoardId": "finmb_4509036",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
     "shortName": "ITO EN LTD",
-    "longName": "Ito En, Ltd.",
-    "marketState": "CLOSED",
-    "regularMarketChangePercent": -0.75645757,
-    "regularMarketPrice": 2689.5,
     "trailingPegRatio": null
   }
 }

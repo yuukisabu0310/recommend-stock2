@@ -1,7 +1,7 @@
 {
   "ticker": "2796",
   "japanese_ticker": "2796.T",
-  "fetch_date": "2026-06-07T00:10:13.726422",
+  "fetch_date": "2026-06-08T00:13:44.113107",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-05-31 00:00:00": -25056000.0,
@@ -113,7 +113,7 @@
     },
     "Basic Average Shares": {
       "2025-05-31 00:00:00": 11321567.0,
-      "2024-05-31 00:00:00": 10524018.0,
+      "2024-05-31 00:00:00": 10505837.0,
       "2023-05-31 00:00:00": 9400592.0,
       "2022-05-31 00:00:00": 9331334.0
     },
@@ -1028,7 +1028,7 @@
     "averageVolume": 8821,
     "averageVolume10days": 17860,
     "averageDailyVolume10Day": 17860,
-    "bid": 500.0,
+    "bid": 0.0,
     "ask": 502.0,
     "bidSize": 0,
     "askSize": 0,
@@ -1112,9 +1112,13 @@
     "earningsCallTimestampEnd": 1737716340,
     "isEarningsDateEstimate": true,
     "epsTrailingTwelveMonths": -13.0,
-    "regularMarketChangePercent": -0.1996008,
-    "regularMarketPrice": 500.0,
-    "marketState": "CLOSED",
+    "fiftyDayAverageChange": -22.140015,
+    "fiftyDayAverageChangePercent": -0.042402446,
+    "twoHundredDayAverageChange": -20.0,
+    "twoHundredDayAverageChangePercent": -0.03846154,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
     "corporateActions": [],
     "regularMarketTime": 1780641000,
     "exchange": "JPX",
@@ -1124,15 +1128,11 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "shortName": "PHARMARISE HOLDINGS CORPORATION",
+    "marketState": "REGULAR",
+    "regularMarketChangePercent": -0.1996008,
+    "regularMarketPrice": 500.0,
     "longName": "Pharmarise Holdings Corporation",
-    "fiftyDayAverageChange": -22.140015,
-    "fiftyDayAverageChangePercent": -0.042402446,
-    "twoHundredDayAverageChange": -20.0,
-    "twoHundredDayAverageChangePercent": -0.03846154,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
+    "shortName": "PHARMARISE HOLDINGS CORPORATION",
     "trailingPegRatio": null
   }
 }

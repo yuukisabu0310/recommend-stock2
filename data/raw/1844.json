@@ -1,7 +1,7 @@
 {
   "ticker": "1844",
   "japanese_ticker": "1844.T",
-  "fetch_date": "2026-06-07T00:00:12.229376",
+  "fetch_date": "2026-06-08T00:03:05.860004",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-07-31 00:00:00": null,
@@ -131,17 +131,17 @@
     },
     "Diluted Average Shares": {
       "2025-07-31 00:00:00": 19051470.0,
-      "2024-07-31 00:00:00": 18671879.0,
+      "2024-07-31 00:00:00": null,
       "2023-07-31 00:00:00": 15997763.0,
       "2022-07-31 00:00:00": 15191299.0,
-      "2021-07-31 00:00:00": null
+      "2021-07-31 00:00:00": 15154891.0
     },
     "Basic Average Shares": {
       "2025-07-31 00:00:00": 18654284.0,
-      "2024-07-31 00:00:00": 18238041.0,
-      "2023-07-31 00:00:00": 15403249.0,
+      "2024-07-31 00:00:00": null,
+      "2023-07-31 00:00:00": 15401208.0,
       "2022-07-31 00:00:00": 14931451.0,
-      "2021-07-31 00:00:00": null
+      "2021-07-31 00:00:00": 14837836.0
     },
     "Diluted EPS": {
       "2025-07-31 00:00:00": 27.22,
@@ -152,10 +152,10 @@
     },
     "Basic EPS": {
       "2025-07-31 00:00:00": 27.8,
-      "2024-07-31 00:00:00": 22.72,
+      "2024-07-31 00:00:00": null,
       "2023-07-31 00:00:00": 19.04,
       "2022-07-31 00:00:00": 17.07,
-      "2021-07-31 00:00:00": null
+      "2021-07-31 00:00:00": 16.39
     },
     "Diluted NI Availto Com Stockholders": {
       "2025-07-31 00:00:00": null,
@@ -355,7 +355,7 @@
       "2021-07-31 00:00:00": 16302.0
     },
     "Ordinary Shares Number": {
-      "2024-07-31 00:00:00": 18654514.0,
+      "2024-07-31 00:00:00": 18654694.0,
       "2023-07-31 00:00:00": 17505284.0,
       "2022-07-31 00:00:00": 14956047.0,
       "2021-07-31 00:00:00": 14857937.0
@@ -1119,8 +1119,8 @@
     "averageVolume": 246998,
     "averageVolume10days": 97140,
     "averageDailyVolume10Day": 97140,
-    "bid": 529.0,
-    "ask": 530.0,
+    "bid": 0.0,
+    "ask": 506.0,
     "marketCap": 9919507456,
     "nonDilutedMarketCap": 9919507030,
     "fiftyTwoWeekLow": 340.0,
@@ -1187,6 +1187,24 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "corporateActions": [],
+    "regularMarketTime": 1780641000,
+    "exchange": "JPX",
+    "messageBoardId": "finmb_883665",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "marketState": "REGULAR",
+    "regularMarketChangePercent": 6.2124248,
+    "regularMarketPrice": 530.0,
+    "fiftyDayAverageChange": -20.26001,
+    "fiftyDayAverageChangePercent": -0.036818974,
+    "twoHundredDayAverageChange": -117.20502,
+    "twoHundredDayAverageChangePercent": -0.18109411,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 978307200000,
     "regularMarketChange": 31.0,
@@ -1203,27 +1221,9 @@
     "earningsTimestampEnd": 1749434400,
     "isEarningsDateEstimate": false,
     "epsTrailingTwelveMonths": 27.83,
-    "fiftyDayAverageChange": -20.26001,
-    "fiftyDayAverageChangePercent": -0.036818974,
-    "twoHundredDayAverageChange": -117.20502,
-    "twoHundredDayAverageChangePercent": -0.18109411,
     "shortName": "OHMORI CO LTD",
-    "longName": "Ohmori Co.,Ltd.",
-    "marketState": "CLOSED",
-    "regularMarketTime": 1780641000,
-    "exchange": "JPX",
-    "messageBoardId": "finmb_883665",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
     "esgPopulated": false,
-    "regularMarketChangePercent": 6.2124248,
-    "regularMarketPrice": 530.0,
-    "corporateActions": [],
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
+    "longName": "Ohmori Co.,Ltd.",
     "trailingPegRatio": null
   }
 }

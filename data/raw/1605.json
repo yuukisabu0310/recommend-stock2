@@ -1,7 +1,7 @@
 {
   "ticker": "1605",
   "japanese_ticker": "1605.T",
-  "fetch_date": "2026-06-06T23:58:39.242756",
+  "fetch_date": "2026-06-08T00:01:30.900202",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-12-31 00:00:00": 0.0,
@@ -1232,8 +1232,8 @@
     "averageVolume": 10572425,
     "averageVolume10days": 6323970,
     "averageDailyVolume10Day": 6323970,
-    "bid": 3684.0,
-    "ask": 3685.0,
+    "bid": 3678.0,
+    "ask": 3575.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 4282669596672,
@@ -1308,23 +1308,11 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "corporateActions": [],
-    "regularMarketTime": 1780641000,
-    "exchange": "JPX",
-    "messageBoardId": "finmb_6441007",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
-    "shortName": "INPEX CORPORATION",
-    "longName": "Inpex Corporation",
     "regularMarketChangePercent": 1.0142545,
     "regularMarketPrice": 3685.0,
-    "cryptoTradeable": false,
-    "marketState": "CLOSED",
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 946944000000,
+    "marketState": "REGULAR",
+    "shortName": "INPEX CORPORATION",
+    "longName": "Inpex Corporation",
     "regularMarketChange": 37.0,
     "regularMarketDayRange": "3639.0 - 3726.0",
     "fullExchangeName": "Tokyo",
@@ -1347,9 +1335,31 @@
     "fiftyDayAverageChangePercent": -0.093570106,
     "twoHundredDayAverageChange": 300.52246,
     "twoHundredDayAverageChangePercent": 0.08879434,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 946944000000,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "averageAnalystRating": "2.4 - Buy",
+    "cryptoTradeable": false,
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "1605.T announced a cash dividend of JPY 54.00 with an ex-date of Jun. 29, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1782658800000,
+          "amount": "54.00"
+        }
+      }
+    ],
+    "regularMarketTime": 1780641000,
+    "exchange": "JPX",
+    "messageBoardId": "finmb_6441007",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
     "trailingPegRatio": null
   }
 }

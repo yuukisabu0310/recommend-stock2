@@ -1,7 +1,7 @@
 {
   "ticker": "2152",
   "japanese_ticker": "2152.T",
-  "fetch_date": "2026-06-07T00:03:03.872920",
+  "fetch_date": "2026-06-08T00:06:06.391118",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": null,
@@ -125,7 +125,7 @@
     "Basic Average Shares": {
       "2026-03-31 00:00:00": null,
       "2025-03-31 00:00:00": 10802000.0,
-      "2024-03-31 00:00:00": 10802000.0,
+      "2024-03-31 00:00:00": 10802082.0,
       "2023-03-31 00:00:00": 10802000.0,
       "2022-03-31 00:00:00": 10802000.0
     },
@@ -286,7 +286,7 @@
   },
   "balance_sheet": {
     "Treasury Shares Number": {
-      "2025-03-31 00:00:00": 981450.0,
+      "2025-03-31 00:00:00": null,
       "2024-03-31 00:00:00": 981412.0,
       "2023-03-31 00:00:00": 981412.0,
       "2022-03-31 00:00:00": 981412.0
@@ -892,8 +892,8 @@
     "averageVolume": 931,
     "averageVolume10days": 760,
     "averageDailyVolume10Day": 760,
-    "bid": 1442.0,
-    "ask": 1499.0,
+    "bid": 1416.0,
+    "ask": 1445.0,
     "marketCap": 15566474240,
     "nonDilutedMarketCap": 15566474550,
     "fiftyTwoWeekLow": 1289.0,
@@ -960,6 +960,15 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "marketState": "REGULAR",
+    "regularMarketChangePercent": -3.6764708,
+    "regularMarketPrice": 1441.0,
+    "shortName": "YOUJI CORPORATION",
+    "longName": "Youji Corporation",
+    "cryptoTradeable": false,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1180310400000,
+    "corporateActions": [],
     "regularMarketTime": 1780631444,
     "exchange": "JPX",
     "messageBoardId": "finmb_33983913",
@@ -968,9 +977,6 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "corporateActions": [],
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1180310400000,
     "regularMarketChange": -55.0,
     "regularMarketDayRange": "1441.0 - 1466.0",
     "fullExchangeName": "Tokyo",
@@ -991,12 +997,6 @@
     "twoHundredDayAverageChangePercent": -0.0067583537,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
-    "shortName": "YOUJI CORPORATION",
-    "longName": "Youji Corporation",
-    "marketState": "CLOSED",
-    "regularMarketChangePercent": -3.6764708,
-    "regularMarketPrice": 1441.0,
     "trailingPegRatio": null
   }
 }

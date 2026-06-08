@@ -1,7 +1,7 @@
 {
   "ticker": "1992",
   "japanese_ticker": "1992.T",
-  "fetch_date": "2026-06-07T00:02:12.469715",
+  "fetch_date": "2026-06-08T00:05:11.024940",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": -29507912.266053,
@@ -101,7 +101,7 @@
     },
     "Diluted Average Shares": {
       "2025-03-31 00:00:00": 2321181.0,
-      "2024-03-31 00:00:00": 2345190.0,
+      "2024-03-31 00:00:00": 2345146.0,
       "2023-03-31 00:00:00": 2376586.0,
       "2022-03-31 00:00:00": 2404888.0
     },
@@ -258,7 +258,7 @@
       "2022-03-31 00:00:00": 253413.0
     },
     "Ordinary Shares Number": {
-      "2025-03-31 00:00:00": 2279423.0,
+      "2025-03-31 00:00:00": 2317619.0,
       "2024-03-31 00:00:00": 2342788.0,
       "2023-03-31 00:00:00": 2381038.0,
       "2022-03-31 00:00:00": 2369814.0
@@ -953,8 +953,8 @@
     "averageVolume": 171,
     "averageVolume10days": 30,
     "averageDailyVolume10Day": 30,
-    "bid": 2763.0,
-    "ask": 2785.0,
+    "bid": 0.0,
+    "ask": 2786.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 6315069952,
@@ -1023,10 +1023,11 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "marketState": "CLOSED",
+    "marketState": "REGULAR",
     "regularMarketChangePercent": 0.0,
     "regularMarketPrice": 2758.0,
-    "corporateActions": [],
+    "longName": "Kanda Tsushinki Co., Ltd.",
+    "shortName": "KANDA TSUSHINKI CO",
     "regularMarketTime": 1780032994,
     "exchange": "JPX",
     "messageBoardId": "finmb_9264357",
@@ -1035,8 +1036,15 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "shortName": "KANDA TSUSHINKI CO",
-    "longName": "Kanda Tsushinki Co., Ltd.",
+    "corporateActions": [],
+    "earningsTimestampStart": 1747031400,
+    "earningsTimestampEnd": 1747031400,
+    "isEarningsDateEstimate": false,
+    "epsTrailingTwelveMonths": 163.0,
+    "fiftyDayAverageChange": -25.0,
+    "fiftyDayAverageChangePercent": -0.008983112,
+    "twoHundredDayAverageChange": 0.4399414,
+    "twoHundredDayAverageChangePercent": 0.0001595401,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
@@ -1052,14 +1060,6 @@
     "fiftyTwoWeekHighChange": -297.0,
     "fiftyTwoWeekHighChangePercent": -0.09721768,
     "fiftyTwoWeekChangePercent": 4.4696927,
-    "earningsTimestampStart": 1747031400,
-    "earningsTimestampEnd": 1747031400,
-    "isEarningsDateEstimate": false,
-    "epsTrailingTwelveMonths": 163.0,
-    "fiftyDayAverageChange": -25.0,
-    "fiftyDayAverageChangePercent": -0.008983112,
-    "twoHundredDayAverageChange": 0.4399414,
-    "twoHundredDayAverageChangePercent": 0.0001595401,
     "trailingPegRatio": null
   }
 }

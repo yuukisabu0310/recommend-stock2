@@ -1,11 +1,11 @@
 {
   "ticker": "2876",
   "japanese_ticker": "2876.T",
-  "fetch_date": "2026-06-07T00:10:56.117921",
+  "fetch_date": "2026-06-08T00:14:26.022178",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": -386842472.075729,
-      "2024-03-31 00:00:00": -136655044.0,
+      "2024-03-31 00:00:00": -136620113.952131,
       "2023-03-31 00:00:00": -7208495.0,
       "2022-03-31 00:00:00": 5967465.0
     },
@@ -107,7 +107,7 @@
     },
     "Diluted Average Shares": {
       "2025-03-31 00:00:00": 8905018.0,
-      "2024-03-31 00:00:00": 8905098.0,
+      "2024-03-31 00:00:00": 8904441.0,
       "2023-03-31 00:00:00": 8979618.0,
       "2022-03-31 00:00:00": 9105098.0
     },
@@ -264,7 +264,7 @@
   },
   "balance_sheet": {
     "Treasury Shares Number": {
-      "2025-03-31 00:00:00": 200292.0,
+      "2025-03-31 00:00:00": null,
       "2024-03-31 00:00:00": 200192.0,
       "2023-03-31 00:00:00": 200192.0,
       "2022-03-31 00:00:00": 192.0
@@ -276,7 +276,7 @@
       "2022-03-31 00:00:00": 9105098.0
     },
     "Share Issued": {
-      "2025-03-31 00:00:00": 9105290.0,
+      "2025-03-31 00:00:00": 8904998.0,
       "2024-03-31 00:00:00": 9105290.0,
       "2023-03-31 00:00:00": 9105290.0,
       "2022-03-31 00:00:00": 9105290.0
@@ -994,8 +994,8 @@
     "averageVolume": 3590,
     "averageVolume10days": 5170,
     "averageDailyVolume10Day": 5170,
-    "bid": 446.0,
-    "ask": 460.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 3971629056,
@@ -1062,6 +1062,14 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "corporateActions": [],
+    "regularMarketTime": 1780639675,
+    "shortName": "DELSOLE CORPORATION",
+    "longName": "Delsole Corporation",
+    "marketState": "REGULAR",
+    "cryptoTradeable": false,
+    "regularMarketChangePercent": 0.2247191,
+    "regularMarketPrice": 446.0,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 947030400000,
     "regularMarketChange": 1.0,
@@ -1078,18 +1086,6 @@
     "earningsTimestampEnd": 1747281600,
     "isEarningsDateEstimate": false,
     "epsTrailingTwelveMonths": 23.82,
-    "fiftyDayAverageChange": -15.140015,
-    "fiftyDayAverageChangePercent": -0.03283171,
-    "twoHundredDayAverageChange": -6.01001,
-    "twoHundredDayAverageChangePercent": -0.013296187,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
-    "marketState": "CLOSED",
-    "shortName": "DELSOLE CORPORATION",
-    "longName": "Delsole Corporation",
-    "corporateActions": [],
-    "regularMarketTime": 1780639675,
     "exchange": "JPX",
     "messageBoardId": "finmb_9261987",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1097,8 +1093,12 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "regularMarketChangePercent": 0.2247191,
-    "regularMarketPrice": 446.0,
+    "fiftyDayAverageChange": -15.140015,
+    "fiftyDayAverageChangePercent": -0.03283171,
+    "twoHundredDayAverageChange": -6.01001,
+    "twoHundredDayAverageChangePercent": -0.013296187,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
     "trailingPegRatio": null
   }
 }

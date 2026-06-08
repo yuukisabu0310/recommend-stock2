@@ -1,7 +1,7 @@
 {
   "ticker": "2437",
   "japanese_ticker": "2437.T",
-  "fetch_date": "2026-06-07T00:06:44.319303",
+  "fetch_date": "2026-06-08T00:09:58.968048",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-05-31 00:00:00": -3037647.220409,
@@ -107,7 +107,7 @@
     },
     "Diluted Average Shares": {
       "2025-05-31 00:00:00": 10747408.0,
-      "2024-05-31 00:00:00": 10223768.0,
+      "2024-05-31 00:00:00": 10223695.0,
       "2023-05-31 00:00:00": 10665455.0,
       "2022-05-31 00:00:00": 9015980.0
     },
@@ -270,13 +270,13 @@
       "2022-05-31 00:00:00": 0.0
     },
     "Ordinary Shares Number": {
-      "2025-05-31 00:00:00": 11017818.0,
+      "2025-05-31 00:00:00": 10921318.0,
       "2024-05-31 00:00:00": 10736118.0,
       "2023-05-31 00:00:00": 10066518.0,
       "2022-05-31 00:00:00": 9651518.0
     },
     "Share Issued": {
-      "2025-05-31 00:00:00": 11017818.0,
+      "2025-05-31 00:00:00": 10921318.0,
       "2024-05-31 00:00:00": 10736118.0,
       "2023-05-31 00:00:00": 10066518.0,
       "2022-05-31 00:00:00": 9651518.0
@@ -986,8 +986,8 @@
     "averageVolume": 124225,
     "averageVolume10days": 38580,
     "averageDailyVolume10Day": 38580,
-    "bid": 393.0,
-    "ask": 412.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 4374073856,
@@ -1052,21 +1052,10 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "corporateActions": [],
-    "regularMarketTime": 1780641000,
-    "exchange": "JPX",
-    "messageBoardId": "finmb_21823395",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
-    "shortName": "SHINWA WISE HLDGS CO LTD",
-    "longName": "Shinwa Wise Holdings Co.,Ltd.",
     "regularMarketChangePercent": 0.0,
     "regularMarketPrice": 397.0,
-    "cryptoTradeable": false,
-    "marketState": "CLOSED",
+    "shortName": "SHINWA WISE HLDGS CO LTD",
+    "longName": "Shinwa Wise Holdings Co.,Ltd.",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1112659200000,
     "regularMarketChange": 0.0,
@@ -1082,6 +1071,16 @@
     "earningsTimestampStart": 1744093800,
     "earningsTimestampEnd": 1744093800,
     "isEarningsDateEstimate": false,
+    "corporateActions": [],
+    "regularMarketTime": 1780641000,
+    "exchange": "JPX",
+    "messageBoardId": "finmb_21823395",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
+    "marketState": "REGULAR",
     "epsTrailingTwelveMonths": -56.14,
     "fiftyDayAverageChange": -133.26001,
     "fiftyDayAverageChangePercent": -0.2513107,
@@ -1089,6 +1088,7 @@
     "twoHundredDayAverageChangePercent": -0.08614833,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
     "trailingPegRatio": null
   }
 }

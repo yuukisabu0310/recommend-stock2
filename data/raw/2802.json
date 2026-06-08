@@ -1,7 +1,7 @@
 {
   "ticker": "2802",
   "japanese_ticker": "2802.T",
-  "fetch_date": "2026-06-07T00:10:19.896751",
+  "fetch_date": "2026-06-08T00:13:49.570250",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": null,
@@ -312,7 +312,7 @@
       "2022-03-31 00:00:00": 1072873862.0
     },
     "Share Issued": {
-      "2025-03-31 00:00:00": 1005637616.0,
+      "2025-03-31 00:00:00": 1016629508.0,
       "2024-03-31 00:00:00": 1042861708.0,
       "2023-03-31 00:00:00": 1059596308.0,
       "2022-03-31 00:00:00": 1073992508.0
@@ -841,12 +841,6 @@
       "2023-03-31 00:00:00": 40255000000.0,
       "2022-03-31 00:00:00": 17763000000.0
     },
-    "Purchase Of PPE": {
-      "2025-03-31 00:00:00": -88104000000.0,
-      "2024-03-31 00:00:00": -65786000000.0,
-      "2023-03-31 00:00:00": -68383000000.0,
-      "2022-03-31 00:00:00": -73842000000.0
-    },
     "Operating Cash Flow": {
       "2025-03-31 00:00:00": 209898000000.0,
       "2024-03-31 00:00:00": 168074000000.0,
@@ -1091,8 +1085,8 @@
     "averageVolume": 4233195,
     "averageVolume10days": 4964610,
     "averageDailyVolume10Day": 4964610,
-    "bid": 4942.0,
-    "ask": 4950.0,
+    "bid": 0.0,
+    "ask": 4740.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 4729178423296,
@@ -1167,6 +1161,14 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "marketState": "REGULAR",
+    "regularMarketChangePercent": -3.4388435,
+    "regularMarketPrice": 4942.0,
+    "shortName": "AJINOMOTO CO INC",
+    "longName": "Ajinomoto Co., Inc.",
+    "cryptoTradeable": false,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 946944000000,
     "corporateActions": [],
     "regularMarketTime": 1780641000,
     "exchange": "JPX",
@@ -1176,14 +1178,6 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "shortName": "AJINOMOTO CO INC",
-    "longName": "Ajinomoto Co., Inc.",
-    "regularMarketChangePercent": -3.4388435,
-    "regularMarketPrice": 4942.0,
-    "cryptoTradeable": false,
-    "marketState": "CLOSED",
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 946944000000,
     "regularMarketChange": -176.0,
     "regularMarketDayRange": "4936.0 - 5070.0",
     "fullExchangeName": "Tokyo",

@@ -1,7 +1,7 @@
 {
   "ticker": "2503",
   "japanese_ticker": "2503.T",
-  "fetch_date": "2026-06-07T00:07:42.196966",
+  "fetch_date": "2026-06-08T00:10:59.131180",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-12-31 00:00:00": 0.0,
@@ -1131,8 +1131,8 @@
     "averageVolume": 3751340,
     "averageVolume10days": 3642330,
     "averageDailyVolume10Day": 3642330,
-    "bid": 2601.5,
-    "ask": 2607.5,
+    "bid": 2648.5,
+    "ask": 2649.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 2098615287808,
@@ -1207,6 +1207,8 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "shortName": "KIRIN HOLDINGS COMPANY LIMITED",
+    "longName": "Kirin Holdings Company, Limited",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 946944000000,
     "regularMarketChange": -20.0,
@@ -1227,7 +1229,28 @@
     "isEarningsDateEstimate": false,
     "epsTrailingTwelveMonths": 182.0,
     "epsForward": 172.0,
-    "corporateActions": [],
+    "fiftyDayAverageChange": 21.98999,
+    "fiftyDayAverageChangePercent": 0.008505088,
+    "twoHundredDayAverageChange": 198.74756,
+    "twoHundredDayAverageChangePercent": 0.082510576,
+    "sourceInterval": 15,
+    "marketState": "REGULAR",
+    "regularMarketChangePercent": -0.7611798,
+    "regularMarketPrice": 2607.5,
+    "exchangeDataDelayedBy": 20,
+    "averageAnalystRating": "2.4 - Buy",
+    "cryptoTradeable": false,
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "2503.T announced a cash dividend of JPY 38.00 with an ex-date of Jun. 29, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1782658800000,
+          "amount": "38.00"
+        }
+      }
+    ],
     "regularMarketTime": 1780641000,
     "exchange": "JPX",
     "messageBoardId": "finmb_410455",
@@ -1236,19 +1259,6 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "marketState": "CLOSED",
-    "fiftyDayAverageChange": 21.98999,
-    "fiftyDayAverageChangePercent": 0.008505088,
-    "twoHundredDayAverageChange": 198.74756,
-    "twoHundredDayAverageChangePercent": 0.082510576,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "averageAnalystRating": "2.4 - Buy",
-    "cryptoTradeable": false,
-    "shortName": "KIRIN HOLDINGS COMPANY LIMITED",
-    "longName": "Kirin Holdings Company, Limited",
-    "regularMarketChangePercent": -0.7611798,
-    "regularMarketPrice": 2607.5,
     "trailingPegRatio": 1.7407
   }
 }

@@ -1,7 +1,7 @@
 {
   "ticker": "2674",
   "japanese_ticker": "2674.T",
-  "fetch_date": "2026-06-07T00:08:37.285335",
+  "fetch_date": "2026-06-08T00:11:59.442683",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": -48005706.0,
@@ -264,7 +264,7 @@
       "2022-03-31 00:00:00": 73979.0
     },
     "Ordinary Shares Number": {
-      "2025-03-31 00:00:00": 13896438.0,
+      "2025-03-31 00:00:00": 13896726.0,
       "2024-03-31 00:00:00": 13897095.0,
       "2023-03-31 00:00:00": 13897546.0,
       "2022-03-31 00:00:00": 13880021.0
@@ -972,8 +972,8 @@
     "averageVolume": 49440,
     "averageVolume10days": 52120,
     "averageDailyVolume10Day": 52120,
-    "bid": 2360.0,
-    "ask": 2365.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 32890615808,
@@ -1042,15 +1042,8 @@
     "customPriceAlertConfidence": "LOW",
     "shortName": "HARD OFF CORPORATION CO LTD",
     "longName": "Hard Off Corporation Co.,Ltd.",
-    "corporateActions": [],
-    "regularMarketTime": 1780641000,
-    "exchange": "JPX",
-    "messageBoardId": "finmb_1347920",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1076371200000,
     "regularMarketChange": 72.0,
     "regularMarketDayRange": "2300.0 - 2389.0",
     "fullExchangeName": "Tokyo",
@@ -1070,13 +1063,20 @@
     "twoHundredDayAverageChange": 378.07996,
     "twoHundredDayAverageChangePercent": 0.19038025,
     "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
-    "marketState": "CLOSED",
+    "marketState": "REGULAR",
     "regularMarketChangePercent": 3.141361,
     "regularMarketPrice": 2364.0,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1076371200000,
+    "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
+    "corporateActions": [],
+    "regularMarketTime": 1780641000,
+    "exchange": "JPX",
+    "messageBoardId": "finmb_1347920",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
     "trailingPegRatio": null
   }
 }

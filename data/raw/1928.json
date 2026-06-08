@@ -1,7 +1,7 @@
 {
   "ticker": "1928",
   "japanese_ticker": "1928.T",
-  "fetch_date": "2026-06-07T00:01:10.033963",
+  "fetch_date": "2026-06-08T00:04:04.850113",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-01-31 00:00:00": 3298101335.254194,
@@ -1170,8 +1170,8 @@
     "averageVolume": 2437840,
     "averageVolume10days": 2778340,
     "averageDailyVolume10Day": 2778340,
-    "bid": 3202.0,
-    "ask": 3204.0,
+    "bid": 0.0,
+    "ask": 3201.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 2076306964480,
@@ -1244,7 +1244,11 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "marketState": "CLOSED",
+    "regularMarketPrice": 3203.0,
+    "marketState": "REGULAR",
+    "shortName": "SEKISUI HOUSE",
+    "longName": "Sekisui House, Ltd.",
+    "regularMarketChangePercent": -2.7625988,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 946944000000,
     "regularMarketChange": -91.0,
@@ -1269,10 +1273,6 @@
     "fiftyDayAverageChangePercent": -0.071448855,
     "twoHundredDayAverageChange": -255.81006,
     "twoHundredDayAverageChangePercent": -0.07395898,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "averageAnalystRating": "2.0 - Buy",
-    "cryptoTradeable": false,
     "corporateActions": [],
     "regularMarketTime": 1780641000,
     "exchange": "JPX",
@@ -1282,10 +1282,10 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "regularMarketChangePercent": -2.7625988,
-    "regularMarketPrice": 3203.0,
-    "shortName": "SEKISUI HOUSE",
-    "longName": "Sekisui House, Ltd.",
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "averageAnalystRating": "2.0 - Buy",
+    "cryptoTradeable": false,
     "trailingPegRatio": null
   }
 }

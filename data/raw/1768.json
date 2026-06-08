@@ -1,7 +1,7 @@
 {
   "ticker": "1768",
   "japanese_ticker": "1768.T",
-  "fetch_date": "2026-06-06T23:59:12.517217",
+  "fetch_date": "2026-06-08T00:02:04.195015",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": 8564710.0,
@@ -861,8 +861,8 @@
     "averageVolume": 16580,
     "averageVolume10days": 19920,
     "averageDailyVolume10Day": 19920,
-    "bid": 1025.0,
-    "ask": 1030.0,
+    "bid": 0.0,
+    "ask": 1000.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 7502612992,
@@ -928,8 +928,8 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "longName": "Sonec Corporation",
-    "marketState": "CLOSED",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 955065600000,
     "regularMarketChange": 25.0,
     "regularMarketDayRange": "1000.0 - 1048.0",
     "fullExchangeName": "Tokyo",
@@ -950,7 +950,10 @@
     "twoHundredDayAverageChangePercent": -0.19467403,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
+    "shortName": "SONEC CORP",
+    "regularMarketChangePercent": 2.49501,
+    "regularMarketPrice": 1027.0,
+    "longName": "Sonec Corporation",
     "corporateActions": [],
     "regularMarketTime": 1780641000,
     "exchange": "JPX",
@@ -959,12 +962,9 @@
     "exchangeTimezoneShortName": "JST",
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
-    "shortName": "SONEC CORP",
     "esgPopulated": false,
-    "regularMarketChangePercent": 2.49501,
-    "regularMarketPrice": 1027.0,
-    "firstTradeDateMilliseconds": 955065600000,
-    "hasPrePostMarketData": false,
+    "cryptoTradeable": false,
+    "marketState": "REGULAR",
     "trailingPegRatio": null
   }
 }

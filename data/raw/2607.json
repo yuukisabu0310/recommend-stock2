@@ -1,7 +1,7 @@
 {
   "ticker": "2607",
   "japanese_ticker": "2607.T",
-  "fetch_date": "2026-06-07T00:08:09.198305",
+  "fetch_date": "2026-06-08T00:11:29.207750",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": 193444000.0,
@@ -1077,8 +1077,8 @@
     "averageVolume": 433175,
     "averageVolume10days": 262430,
     "averageDailyVolume10Day": 262430,
-    "bid": 3658.0,
-    "ask": 3664.0,
+    "bid": 3250.0,
+    "ask": 3301.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 314867875840,
@@ -1150,7 +1150,7 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "marketState": "CLOSED",
+    "marketState": "REGULAR",
     "regularMarketChangePercent": 7.9280877,
     "regularMarketPrice": 3662.0,
     "corporateActions": [],
@@ -1164,14 +1164,6 @@
     "esgPopulated": false,
     "shortName": "FUJI OIL CO LTD",
     "longName": "Fuji Oil Co., Ltd.",
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "prevName": "Fuji Oil Holdings Inc.",
-    "nameChangeDate": "2026-06-06",
-    "averageAnalystRating": "1.5 - Strong Buy",
-    "cryptoTradeable": false,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 978307200000,
     "regularMarketChange": 269.0,
     "regularMarketDayRange": "3463.0 - 3820.0",
     "fullExchangeName": "Tokyo",
@@ -1194,6 +1186,14 @@
     "fiftyDayAverageChangePercent": 0.05067457,
     "twoHundredDayAverageChange": 80.04492,
     "twoHundredDayAverageChangePercent": 0.022346713,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "prevName": "Fuji Oil Holdings Inc.",
+    "nameChangeDate": "2026-06-07",
+    "averageAnalystRating": "1.5 - Strong Buy",
+    "cryptoTradeable": false,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 978307200000,
     "trailingPegRatio": null
   }
 }

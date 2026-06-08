@@ -1,7 +1,7 @@
 {
   "ticker": "2613",
   "japanese_ticker": "2613.T",
-  "fetch_date": "2026-06-07T00:08:13.334742",
+  "fetch_date": "2026-06-08T00:11:33.482970",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": 95289053.254438,
@@ -1047,8 +1047,8 @@
     "averageVolume": 102925,
     "averageVolume10days": 62440,
     "averageDailyVolume10Day": 62440,
-    "bid": 1966.0,
-    "ask": 1979.0,
+    "bid": 1960.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 65402650624,
@@ -1118,13 +1118,6 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "shortName": "J-OIL MILLS INC",
-    "longName": "J-Oil Mills, Inc.",
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 978307200000,
-    "regularMarketChange": 13.0,
-    "regularMarketDayRange": "1965.0 - 1985.0",
-    "fullExchangeName": "Tokyo",
     "averageDailyVolume3Month": 102925,
     "fiftyTwoWeekLowChange": 65.0,
     "fiftyTwoWeekLowChangePercent": 0.034031413,
@@ -1144,7 +1137,7 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
-    "marketState": "CLOSED",
+    "shortName": "J-OIL MILLS INC",
     "regularMarketChangePercent": 0.6625892,
     "regularMarketPrice": 1975.0,
     "corporateActions": [],
@@ -1156,6 +1149,13 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
+    "longName": "J-Oil Mills, Inc.",
+    "marketState": "REGULAR",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 978307200000,
+    "regularMarketChange": 13.0,
+    "regularMarketDayRange": "1965.0 - 1985.0",
+    "fullExchangeName": "Tokyo",
     "trailingPegRatio": null
   }
 }

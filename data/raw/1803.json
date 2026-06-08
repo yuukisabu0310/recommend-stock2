@@ -1,7 +1,7 @@
 {
   "ticker": "1803",
   "japanese_ticker": "1803.T",
-  "fetch_date": "2026-06-06T23:59:38.555539",
+  "fetch_date": "2026-06-08T00:02:31.731834",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": 12842550000.0,
@@ -56,12 +56,6 @@
       "2024-03-31 00:00:00": 69451000000.0,
       "2023-03-31 00:00:00": 105139000000.0,
       "2022-03-31 00:00:00": 87574000000.0
-    },
-    "EBIT": {
-      "2025-03-31 00:00:00": 114372000000.0,
-      "2024-03-31 00:00:00": 39195000000.0,
-      "2023-03-31 00:00:00": 79341000000.0,
-      "2022-03-31 00:00:00": 67361000000.0
     },
     "Net Interest Income": {
       "2025-03-31 00:00:00": -2509000000.0,
@@ -420,12 +414,6 @@
       "2022-03-31 00:00:00": 24875000000.0
     },
     "Long Term Debt And Capital Lease Obligation": {
-      "2025-03-31 00:00:00": 288959000000.0,
-      "2024-03-31 00:00:00": 310086000000.0,
-      "2023-03-31 00:00:00": 343184000000.0,
-      "2022-03-31 00:00:00": 292010000000.0
-    },
-    "Long Term Debt": {
       "2025-03-31 00:00:00": 288959000000.0,
       "2024-03-31 00:00:00": 310086000000.0,
       "2023-03-31 00:00:00": 343184000000.0,
@@ -1051,8 +1039,8 @@
     "averageVolume": 3940260,
     "averageVolume10days": 3461650,
     "averageDailyVolume10Day": 3461650,
-    "bid": 2514.0,
-    "ask": 2516.0,
+    "bid": 0.0,
+    "ask": 2512.5,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 1707851644928,
@@ -1129,17 +1117,6 @@
     "customPriceAlertConfidence": "LOW",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 946944000000,
-    "corporateActions": [],
-    "regularMarketTime": 1780641000,
-    "exchange": "JPX",
-    "messageBoardId": "finmb_875399",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
-    "regularMarketChangePercent": 2.090946,
-    "regularMarketPrice": 2514.5,
     "regularMarketChange": 51.5,
     "regularMarketDayRange": "2431.0 - 2528.0",
     "fullExchangeName": "Tokyo",
@@ -1166,9 +1143,20 @@
     "exchangeDataDelayedBy": 20,
     "averageAnalystRating": "2.3 - Buy",
     "cryptoTradeable": false,
-    "shortName": "SHIMIZU CORP",
+    "corporateActions": [],
+    "regularMarketTime": 1780641000,
+    "exchange": "JPX",
+    "messageBoardId": "finmb_875399",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
+    "marketState": "REGULAR",
+    "regularMarketChangePercent": 2.090946,
+    "regularMarketPrice": 2514.5,
     "longName": "Shimizu Corporation",
-    "marketState": "CLOSED",
+    "shortName": "SHIMIZU CORP",
     "trailingPegRatio": null
   }
 }

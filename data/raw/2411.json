@@ -1,7 +1,7 @@
 {
   "ticker": "2411",
   "japanese_ticker": "2411.T",
-  "fetch_date": "2026-06-07T00:06:21.674538",
+  "fetch_date": "2026-06-08T00:09:35.004850",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": -276000.0,
@@ -107,13 +107,13 @@
     },
     "Diluted Average Shares": {
       "2025-03-31 00:00:00": 12300000.0,
-      "2024-03-31 00:00:00": 12377607.0,
+      "2024-03-31 00:00:00": 12291052.0,
       "2023-03-31 00:00:00": 13275437.0,
       "2022-03-31 00:00:00": 14641210.0
     },
     "Basic Average Shares": {
       "2025-03-31 00:00:00": 12300000.0,
-      "2024-03-31 00:00:00": 12377607.0,
+      "2024-03-31 00:00:00": 12291052.0,
       "2023-03-31 00:00:00": 13275437.0,
       "2022-03-31 00:00:00": 14641210.0
     },
@@ -258,7 +258,7 @@
   },
   "balance_sheet": {
     "Treasury Shares Number": {
-      "2025-03-31 00:00:00": 0.0,
+      "2025-03-31 00:00:00": null,
       "2024-03-31 00:00:00": 0.0,
       "2023-03-31 00:00:00": 0.0,
       "2022-03-31 00:00:00": 1350300.0
@@ -946,8 +946,8 @@
     "averageVolume": 36133,
     "averageVolume10days": 14500,
     "averageDailyVolume10Day": 14500,
-    "bid": 440.0,
-    "ask": 441.0,
+    "bid": 441.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 4840000000,
@@ -1016,17 +1016,17 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1095292800000,
-    "regularMarketChangePercent": 0.22779045,
-    "regularMarketPrice": 440.0,
-    "marketState": "CLOSED",
+    "corporateActions": [],
+    "regularMarketTime": 1780641000,
+    "exchange": "JPX",
+    "messageBoardId": "finmb_11353901",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
     "shortName": "GENDAI AGENCY INC",
     "longName": "Gendai Agency Inc.",
-    "regularMarketChange": 1.0,
-    "regularMarketDayRange": "438.0 - 443.0",
-    "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 36133,
     "fiftyTwoWeekLowChange": 57.0,
     "fiftyTwoWeekLowChangePercent": 0.14882506,
     "fiftyTwoWeekRange": "383.0 - 514.0",
@@ -1044,15 +1044,15 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
-    "corporateActions": [],
-    "regularMarketTime": 1780641000,
-    "exchange": "JPX",
-    "messageBoardId": "finmb_11353901",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
+    "regularMarketChange": 1.0,
+    "regularMarketDayRange": "438.0 - 443.0",
+    "fullExchangeName": "Tokyo",
+    "averageDailyVolume3Month": 36133,
+    "marketState": "REGULAR",
+    "regularMarketChangePercent": 0.22779045,
+    "regularMarketPrice": 440.0,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1095292800000,
     "trailingPegRatio": null
   }
 }

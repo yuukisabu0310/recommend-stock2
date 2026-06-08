@@ -1,7 +1,7 @@
 {
   "ticker": "2502",
   "japanese_ticker": "2502.T",
-  "fetch_date": "2026-06-07T00:07:39.905344",
+  "fetch_date": "2026-06-08T00:10:57.316686",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2024-12-31 00:00:00": 0.0,
@@ -873,7 +873,7 @@
     },
     "Gain Loss On Investment Securities": {
       "2024-12-31 00:00:00": 5165000000.0,
-      "2023-12-31 00:00:00": 46395000000.0,
+      "2023-12-31 00:00:00": null,
       "2022-12-31 00:00:00": null,
       "2021-12-31 00:00:00": null
     },
@@ -885,7 +885,7 @@
     },
     "Gain Loss On Sale Of Business": {
       "2024-12-31 00:00:00": -1604000000.0,
-      "2023-12-31 00:00:00": 0.0,
+      "2023-12-31 00:00:00": null,
       "2022-12-31 00:00:00": null,
       "2021-12-31 00:00:00": null
     },
@@ -1039,8 +1039,8 @@
     "averageVolume": 6885063,
     "averageVolume10days": 6923410,
     "averageDailyVolume10Day": 6923410,
-    "bid": 1475.0,
-    "ask": 1476.0,
+    "bid": 1453.0,
+    "ask": 1470.5,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 2158460141568,
@@ -1116,6 +1116,8 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "shortName": "ASAHI GROUP HLDGS",
+    "longName": "Asahi Group Holdings, Ltd.",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 946944000000,
     "regularMarketChange": -12.5,
@@ -1140,9 +1142,14 @@
     "fiftyDayAverageChangePercent": -0.059604097,
     "twoHundredDayAverageChange": -211.38745,
     "twoHundredDayAverageChangePercent": -0.12531212,
-    "shortName": "ASAHI GROUP HLDGS",
-    "longName": "Asahi Group Holdings, Ltd.",
-    "marketState": "CLOSED",
+    "sourceInterval": 15,
+    "marketState": "REGULAR",
+    "regularMarketChangePercent": -0.8400538,
+    "regularMarketPrice": 1475.5,
+    "exchangeDataDelayedBy": 20,
+    "averageAnalystRating": "1.8 - Buy",
+    "cryptoTradeable": false,
+    "corporateActions": [],
     "regularMarketTime": 1780641000,
     "exchange": "JPX",
     "messageBoardId": "finmb_877335",
@@ -1151,13 +1158,6 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "regularMarketChangePercent": -0.8400538,
-    "regularMarketPrice": 1475.5,
-    "corporateActions": [],
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "averageAnalystRating": "1.8 - Buy",
-    "cryptoTradeable": false,
     "trailingPegRatio": 3.4967
   }
 }

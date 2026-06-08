@@ -1,7 +1,7 @@
 {
   "ticker": "1848",
   "japanese_ticker": "1848.T",
-  "fetch_date": "2026-06-07T00:00:15.520853",
+  "fetch_date": "2026-06-08T00:03:10.118353",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": null,
@@ -1022,8 +1022,8 @@
     "averageVolume": 12343,
     "averageVolume10days": 5590,
     "averageDailyVolume10Day": 5590,
-    "bid": 595.0,
-    "ask": 598.0,
+    "bid": 0.0,
+    "ask": 596.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 10510580736,
@@ -1090,7 +1090,8 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "marketState": "CLOSED",
+    "shortName": "FUJI P.S CORPORATION",
+    "longName": "Fuji P.S Corporation",
     "regularMarketChangePercent": -0.33500838,
     "regularMarketPrice": 595.0,
     "exchange": "JPX",
@@ -1100,10 +1101,11 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
+    "marketState": "REGULAR",
     "corporateActions": [],
     "regularMarketTime": 1780641000,
-    "shortName": "FUJI P.S CORPORATION",
-    "longName": "Fuji P.S Corporation",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 954892800000,
     "regularMarketChange": -2.0,
     "regularMarketDayRange": "595.0 - 598.0",
     "fullExchangeName": "Tokyo",
@@ -1125,8 +1127,6 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 954892800000,
     "trailingPegRatio": null
   }
 }

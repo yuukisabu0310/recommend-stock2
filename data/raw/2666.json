@@ -1,7 +1,7 @@
 {
   "ticker": "2666",
   "japanese_ticker": "2666.T",
-  "fetch_date": "2026-06-07T00:08:26.662431",
+  "fetch_date": "2026-06-08T00:11:47.143072",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": -3622422.8,
@@ -258,7 +258,7 @@
   },
   "balance_sheet": {
     "Treasury Shares Number": {
-      "2025-03-31 00:00:00": 211.0,
+      "2025-03-31 00:00:00": null,
       "2024-03-31 00:00:00": 211.0,
       "2023-03-31 00:00:00": 211.0,
       "2022-03-31 00:00:00": 211.0
@@ -270,7 +270,7 @@
       "2022-03-31 00:00:00": 14450789.0
     },
     "Share Issued": {
-      "2025-03-31 00:00:00": 14451000.0,
+      "2025-03-31 00:00:00": 14450789.0,
       "2024-03-31 00:00:00": 14451000.0,
       "2023-03-31 00:00:00": 14451000.0,
       "2022-03-31 00:00:00": 14451000.0
@@ -881,8 +881,8 @@
     "averageVolume": 70253,
     "averageVolume10days": 36350,
     "averageDailyVolume10Day": 36350,
-    "bid": 156.0,
-    "ask": 157.0,
+    "bid": 0.0,
+    "ask": 155.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 2268773888,
@@ -947,18 +947,8 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "corporateActions": [],
-    "regularMarketTime": 1780641000,
-    "exchange": "JPX",
-    "messageBoardId": "finmb_5554857",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
     "regularMarketChangePercent": 0.64102566,
     "regularMarketPrice": 157.0,
-    "shortName": "AUTOWAVE CO LTD",
     "fiftyDayAverageChange": -5.1600037,
     "fiftyDayAverageChangePercent": -0.031820446,
     "twoHundredDayAverageChange": -5.6349945,
@@ -966,7 +956,7 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
-    "marketState": "CLOSED",
+    "marketState": "REGULAR",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 969580800000,
     "regularMarketChange": 1.0,
@@ -983,7 +973,17 @@
     "earningsTimestampEnd": 1755061200,
     "isEarningsDateEstimate": true,
     "epsTrailingTwelveMonths": 30.55,
+    "shortName": "AUTOWAVE CO LTD",
     "longName": "AUTOWAVE Co., Ltd.",
+    "corporateActions": [],
+    "regularMarketTime": 1780641000,
+    "exchange": "JPX",
+    "messageBoardId": "finmb_5554857",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
     "trailingPegRatio": null
   }
 }

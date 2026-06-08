@@ -1,7 +1,7 @@
 {
   "ticker": "1438",
   "japanese_ticker": "1438.T",
-  "fetch_date": "2026-06-06T23:58:21.602352",
+  "fetch_date": "2026-06-08T00:01:10.597081",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-09-30 00:00:00": -230584.171648,
@@ -123,32 +123,32 @@
       "2021-09-30 00:00:00": null
     },
     "Diluted Average Shares": {
-      "2025-09-30 00:00:00": null,
+      "2025-09-30 00:00:00": 3262851.0,
       "2024-09-30 00:00:00": 3249943.0,
       "2023-09-30 00:00:00": 3230057.0,
       "2022-09-30 00:00:00": 3221265.0,
-      "2021-09-30 00:00:00": 3212963.0
+      "2021-09-30 00:00:00": null
     },
     "Basic Average Shares": {
-      "2025-09-30 00:00:00": null,
+      "2025-09-30 00:00:00": 3242218.0,
       "2024-09-30 00:00:00": 3216654.0,
       "2023-09-30 00:00:00": 3203827.0,
       "2022-09-30 00:00:00": 3203238.0,
-      "2021-09-30 00:00:00": 3203238.0
+      "2021-09-30 00:00:00": null
     },
     "Diluted EPS": {
-      "2025-09-30 00:00:00": null,
+      "2025-09-30 00:00:00": 117.85,
       "2024-09-30 00:00:00": 104.76,
       "2023-09-30 00:00:00": 92.49,
       "2022-09-30 00:00:00": 76.7,
-      "2021-09-30 00:00:00": 68.81
+      "2021-09-30 00:00:00": null
     },
     "Basic EPS": {
-      "2025-09-30 00:00:00": null,
+      "2025-09-30 00:00:00": 118.6,
       "2024-09-30 00:00:00": 105.84,
       "2023-09-30 00:00:00": 93.25,
       "2022-09-30 00:00:00": 77.13,
-      "2021-09-30 00:00:00": 69.02
+      "2021-09-30 00:00:00": null
     },
     "Diluted NI Availto Com Stockholders": {
       "2025-09-30 00:00:00": 384527000.0,
@@ -1026,8 +1026,8 @@
     "averageVolume": 1066,
     "averageVolume10days": 1320,
     "averageDailyVolume10Day": 1320,
-    "bid": 1825.0,
-    "ask": 1852.0,
+    "bid": 0.0,
+    "ask": 1853.0,
     "marketCap": 6021259264,
     "nonDilutedMarketCap": 6021259328,
     "fiftyTwoWeekLow": 1758.0,
@@ -1092,8 +1092,6 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "shortName": "GIFU LANDSCAPE ARCHITECT CO LTD",
-    "longName": "Gifu landscape architect Co., Ltd.",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1664323200000,
     "regularMarketChange": 50.0,
@@ -1116,10 +1114,10 @@
     "twoHundredDayAverageChangePercent": -0.009724006,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
-    "marketState": "CLOSED",
+    "shortName": "GIFU LANDSCAPE ARCHITECT CO LTD",
     "regularMarketChangePercent": 2.7685494,
     "regularMarketPrice": 1856.0,
+    "longName": "Gifu landscape architect Co., Ltd.",
     "corporateActions": [],
     "regularMarketTime": 1780631744,
     "exchange": "JPX",
@@ -1129,6 +1127,8 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
+    "cryptoTradeable": false,
+    "marketState": "REGULAR",
     "trailingPegRatio": null
   }
 }

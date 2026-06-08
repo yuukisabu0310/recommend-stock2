@@ -1,7 +1,7 @@
 {
   "ticker": "2340",
   "japanese_ticker": "2340.T",
-  "fetch_date": "2026-06-07T00:05:30.572729",
+  "fetch_date": "2026-06-08T00:08:39.952346",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": -40653574.5,
@@ -813,7 +813,7 @@
     },
     "Sale Of PPE": {
       "2025-03-31 00:00:00": 1554000.0,
-      "2024-03-31 00:00:00": 0.0,
+      "2024-03-31 00:00:00": null,
       "2023-03-31 00:00:00": null,
       "2022-03-31 00:00:00": null
     },
@@ -1004,7 +1004,7 @@
     "averageVolume": 23690,
     "averageVolume10days": 40090,
     "averageDailyVolume10Day": 40090,
-    "bid": 472.0,
+    "bid": 0.0,
     "ask": 473.0,
     "bidSize": 0,
     "askSize": 0,
@@ -1023,7 +1023,7 @@
     "tradeable": false,
     "enterpriseValue": 15887550464,
     "profitMargins": 0.05712,
-    "floatShares": 26503701,
+    "floatShares": 26754227,
     "sharesOutstanding": 31721925,
     "heldPercentInsiders": 0.24695998,
     "heldPercentInstitutions": 0.00316,
@@ -1075,6 +1075,11 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "regularMarketPrice": 472.0,
+    "marketState": "REGULAR",
+    "shortName": "GOKURAKUYU HOLDINGSCO LTD",
+    "longName": "Gokurakuyu Holdings Co., Ltd.",
+    "regularMarketChangePercent": 0.0,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1038355200000,
     "regularMarketChange": 0.0,
@@ -1096,12 +1101,6 @@
     "fiftyDayAverageChangePercent": -0.020868767,
     "twoHundredDayAverageChange": -12.605011,
     "twoHundredDayAverageChangePercent": -0.026010897,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
-    "marketState": "CLOSED",
-    "shortName": "GOKURAKUYU HOLDINGSCO LTD",
-    "longName": "Gokurakuyu Holdings Co., Ltd.",
     "corporateActions": [],
     "regularMarketTime": 1780641000,
     "exchange": "JPX",
@@ -1111,8 +1110,9 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "regularMarketChangePercent": 0.0,
-    "regularMarketPrice": 472.0,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
     "trailingPegRatio": null
   }
 }

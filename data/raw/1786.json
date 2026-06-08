@@ -1,7 +1,7 @@
 {
   "ticker": "1786",
   "japanese_ticker": "1786.T",
-  "fetch_date": "2026-06-06T23:59:20.969835",
+  "fetch_date": "2026-06-08T00:02:13.861611",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": -12099000.0,
@@ -1062,8 +1062,8 @@
     "averageVolume": 431313,
     "averageVolume10days": 513170,
     "averageDailyVolume10Day": 513170,
-    "bid": 328.0,
-    "ask": 329.0,
+    "bid": 327.0,
+    "ask": 328.0,
     "marketCap": 42320035840,
     "nonDilutedMarketCap": 42320036899,
     "fiftyTwoWeekLow": 310.0,
@@ -1133,8 +1133,16 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "marketState": "REGULAR",
+    "regularMarketChangePercent": 2.8125,
+    "regularMarketPrice": 329.0,
     "shortName": "ORIENTAL SHIRAISHI CORPORATION",
     "longName": "Oriental Shiraishi Corporation",
+    "cryptoTradeable": false,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1617235200000,
+    "corporateActions": [],
+    "regularMarketTime": 1780641000,
     "exchange": "JPX",
     "messageBoardId": "finmb_881621",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1142,10 +1150,6 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "corporateActions": [],
-    "regularMarketTime": 1780641000,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1617235200000,
     "regularMarketChange": 9.0,
     "regularMarketDayRange": "320.0 - 329.0",
     "fullExchangeName": "Tokyo",
@@ -1168,10 +1172,6 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "averageAnalystRating": "2.5 - Buy",
-    "cryptoTradeable": false,
-    "marketState": "CLOSED",
-    "regularMarketChangePercent": 2.8125,
-    "regularMarketPrice": 329.0,
     "trailingPegRatio": null
   }
 }

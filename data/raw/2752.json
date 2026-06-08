@@ -1,7 +1,7 @@
 {
   "ticker": "2752",
   "japanese_ticker": "2752.T",
-  "fetch_date": "2026-06-07T00:09:36.843491",
+  "fetch_date": "2026-06-08T00:13:04.572028",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-12-31 00:00:00": -90944000.0,
@@ -152,10 +152,10 @@
     },
     "Basic EPS": {
       "2025-12-31 00:00:00": 1.76,
-      "2024-12-31 00:00:00": 10.03,
+      "2024-12-31 00:00:00": null,
       "2023-12-31 00:00:00": -15.71,
       "2022-12-31 00:00:00": -77.21,
-      "2021-12-31 00:00:00": null
+      "2021-12-31 00:00:00": -11.23
     },
     "Diluted NI Availto Com Stockholders": {
       "2025-12-31 00:00:00": 90000000.0,
@@ -1363,8 +1363,8 @@
     "averageVolume": 98486,
     "averageVolume10days": 94770,
     "averageDailyVolume10Day": 94770,
-    "bid": 1153.0,
-    "ask": 1155.0,
+    "bid": 0.0,
+    "ask": 1152.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 59162652672,
@@ -1433,8 +1433,6 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "shortName": "FUJIO FOOD GROUP INC",
-    "longName": "Fujio Food Group Inc.",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1040169600000,
     "regularMarketChange": 4.0,
@@ -1452,7 +1450,14 @@
     "isEarningsDateEstimate": true,
     "epsTrailingTwelveMonths": 1.73,
     "epsForward": 22.9,
-    "marketState": "CLOSED",
+    "fiftyDayAverageChange": 48.180054,
+    "fiftyDayAverageChangePercent": 0.043569528,
+    "twoHundredDayAverageChange": 34.94995,
+    "twoHundredDayAverageChangePercent": 0.031231804,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "averageAnalystRating": "0.0 - Strong Buy",
+    "cryptoTradeable": false,
     "corporateActions": [],
     "regularMarketTime": 1780641000,
     "exchange": "JPX",
@@ -1462,16 +1467,11 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
+    "marketState": "REGULAR",
     "regularMarketChangePercent": 0.3478261,
     "regularMarketPrice": 1154.0,
-    "fiftyDayAverageChange": 48.180054,
-    "fiftyDayAverageChangePercent": 0.043569528,
-    "twoHundredDayAverageChange": 34.94995,
-    "twoHundredDayAverageChangePercent": 0.031231804,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "averageAnalystRating": "0.0 - Strong Buy",
-    "cryptoTradeable": false,
+    "longName": "Fujio Food Group Inc.",
+    "shortName": "FUJIO FOOD GROUP INC",
     "trailingPegRatio": null
   }
 }

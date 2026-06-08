@@ -1,7 +1,7 @@
 {
   "ticker": "2667",
   "japanese_ticker": "2667.T",
-  "fetch_date": "2026-06-07T00:08:28.194613",
+  "fetch_date": "2026-06-08T00:11:49.072088",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-09-30 00:00:00": -28712784.0,
@@ -130,32 +130,32 @@
       "2021-09-30 00:00:00": null
     },
     "Diluted Average Shares": {
-      "2025-09-30 00:00:00": null,
-      "2024-09-30 00:00:00": 10729062.0,
-      "2023-09-30 00:00:00": 10729062.0,
+      "2025-09-30 00:00:00": 11083752.0,
+      "2024-09-30 00:00:00": null,
+      "2023-09-30 00:00:00": 10729774.0,
       "2022-09-30 00:00:00": 10255089.0,
       "2021-09-30 00:00:00": 9084157.0
     },
     "Basic Average Shares": {
-      "2025-09-30 00:00:00": null,
-      "2024-09-30 00:00:00": 10729062.0,
-      "2023-09-30 00:00:00": 10729062.0,
+      "2025-09-30 00:00:00": 11083752.0,
+      "2024-09-30 00:00:00": null,
+      "2023-09-30 00:00:00": 10729774.0,
       "2022-09-30 00:00:00": 10255089.0,
       "2021-09-30 00:00:00": 9084157.0
     },
     "Diluted EPS": {
-      "2025-09-30 00:00:00": null,
-      "2024-09-30 00:00:00": -82.92,
+      "2025-09-30 00:00:00": -50.46,
+      "2024-09-30 00:00:00": null,
       "2023-09-30 00:00:00": -61.43,
       "2022-09-30 00:00:00": -49.57,
       "2021-09-30 00:00:00": -55.44
     },
     "Basic EPS": {
-      "2025-09-30 00:00:00": null,
+      "2025-09-30 00:00:00": -50.46,
       "2024-09-30 00:00:00": -82.92,
       "2023-09-30 00:00:00": -61.43,
       "2022-09-30 00:00:00": -49.57,
-      "2021-09-30 00:00:00": -55.44
+      "2021-09-30 00:00:00": null
     },
     "Diluted NI Availto Com Stockholders": {
       "2025-09-30 00:00:00": -559333000.0,
@@ -357,10 +357,10 @@
   "balance_sheet": {
     "Treasury Shares Number": {
       "2025-09-30 00:00:00": 74538.0,
-      "2024-09-30 00:00:00": 74538.0,
+      "2024-09-30 00:00:00": null,
       "2023-09-30 00:00:00": 74538.0,
       "2022-09-30 00:00:00": 74538.0,
-      "2021-09-30 00:00:00": null
+      "2021-09-30 00:00:00": 74538.0
     },
     "Ordinary Shares Number": {
       "2025-09-30 00:00:00": 12961162.0,
@@ -1212,8 +1212,8 @@
     "averageVolume": 556076,
     "averageVolume10days": 530440,
     "averageDailyVolume10Day": 530440,
-    "bid": 149.0,
-    "ask": 150.0,
+    "bid": 0.0,
+    "ask": 149.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 2252486912,
@@ -1276,20 +1276,24 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "marketState": "CLOSED",
-    "regularMarketChangePercent": 0.6756757,
-    "regularMarketPrice": 149.0,
     "corporateActions": [],
     "regularMarketTime": 1780641000,
-    "messageBoardId": "finmb_8847096",
     "exchange": "JPX",
+    "messageBoardId": "finmb_8847096",
     "exchangeTimezoneName": "Asia/Tokyo",
     "exchangeTimezoneShortName": "JST",
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
-    "esgPopulated": false,
-    "longName": "ImageONE Co., Ltd.",
-    "shortName": "IMAGEONE CO LTD",
+    "marketState": "REGULAR",
+    "regularMarketChangePercent": 0.6756757,
+    "regularMarketPrice": 149.0,
+    "fiftyDayAverageChange": -78.58,
+    "fiftyDayAverageChangePercent": -0.34528518,
+    "twoHundredDayAverageChange": -78.03999,
+    "twoHundredDayAverageChangePercent": -0.34372795,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1016496000000,
     "regularMarketChange": 1.0,
@@ -1306,13 +1310,9 @@
     "earningsTimestampEnd": 1754978400,
     "isEarningsDateEstimate": true,
     "epsTrailingTwelveMonths": -37.35,
-    "fiftyDayAverageChange": -78.58,
-    "fiftyDayAverageChangePercent": -0.34528518,
-    "twoHundredDayAverageChange": -78.03999,
-    "twoHundredDayAverageChangePercent": -0.34372795,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
+    "shortName": "IMAGEONE CO LTD",
+    "esgPopulated": false,
+    "longName": "ImageONE Co., Ltd.",
     "trailingPegRatio": null
   }
 }

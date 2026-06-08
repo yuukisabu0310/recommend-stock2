@@ -1,7 +1,7 @@
 {
   "ticker": "2469",
   "japanese_ticker": "2469.T",
-  "fetch_date": "2026-06-07T00:07:03.876238",
+  "fetch_date": "2026-06-08T00:10:19.244480",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": -126440000.0,
@@ -270,7 +270,7 @@
       "2022-03-31 00:00:00": 377687.0
     },
     "Ordinary Shares Number": {
-      "2025-03-31 00:00:00": 9934307.0,
+      "2025-03-31 00:00:00": 9934357.0,
       "2024-03-31 00:00:00": 9922759.0,
       "2023-03-31 00:00:00": 9922793.0,
       "2022-03-31 00:00:00": 9887793.0
@@ -1145,8 +1145,8 @@
     "averageVolume": 35863,
     "averageVolume10days": 27190,
     "averageDailyVolume10Day": 27190,
-    "bid": 2668.0,
-    "ask": 2710.0,
+    "bid": 2699.0,
+    "ask": 2700.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 26572623872,
@@ -1217,6 +1217,11 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "regularMarketPrice": 2680.0,
+    "marketState": "REGULAR",
+    "shortName": "HIBINO CORPORATION COM STK",
+    "longName": "Hibino Corporation",
+    "regularMarketChangePercent": 1.7077798,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1138838400000,
     "regularMarketChange": 45.0,
@@ -1234,6 +1239,10 @@
     "isEarningsDateEstimate": false,
     "epsTrailingTwelveMonths": 307.93,
     "epsForward": 317.1,
+    "fiftyDayAverageChange": -605.28,
+    "fiftyDayAverageChangePercent": -0.18424001,
+    "twoHundredDayAverageChange": -397.4751,
+    "twoHundredDayAverageChangePercent": -0.12915623,
     "corporateActions": [],
     "regularMarketTime": 1780641000,
     "exchange": "JPX",
@@ -1243,19 +1252,10 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "marketState": "CLOSED",
-    "fiftyDayAverageChange": -605.28,
-    "fiftyDayAverageChangePercent": -0.18424001,
-    "twoHundredDayAverageChange": -397.4751,
-    "twoHundredDayAverageChangePercent": -0.12915623,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "averageAnalystRating": "0.0 - Strong Buy",
     "cryptoTradeable": false,
-    "shortName": "HIBINO CORPORATION COM STK",
-    "longName": "Hibino Corporation",
-    "regularMarketChangePercent": 1.7077798,
-    "regularMarketPrice": 2680.0,
     "trailingPegRatio": null
   }
 }

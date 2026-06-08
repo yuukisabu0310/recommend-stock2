@@ -1,7 +1,7 @@
 {
   "ticker": "2413",
   "japanese_ticker": "2413.T",
-  "fetch_date": "2026-06-07T00:06:23.718603",
+  "fetch_date": "2026-06-08T00:09:37.014686",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": null,
@@ -979,8 +979,8 @@
     "averageVolume": 5197731,
     "averageVolume10days": 7866770,
     "averageDailyVolume10Day": 7866770,
-    "bid": 1587.0,
-    "ask": 1590.5,
+    "bid": 1450.0,
+    "ask": 1585.5,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 1061212389376,
@@ -1056,7 +1056,11 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "marketState": "CLOSED",
+    "shortName": "M3 INC",
+    "regularMarketChangePercent": 2.9126215,
+    "regularMarketPrice": 1590.0,
+    "longName": "M3, Inc.",
+    "marketState": "REGULAR",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1095292800000,
     "regularMarketChange": 45.0,
@@ -1094,10 +1098,6 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "regularMarketChangePercent": 2.9126215,
-    "regularMarketPrice": 1590.0,
-    "shortName": "M3 INC",
-    "longName": "M3, Inc.",
     "trailingPegRatio": null
   }
 }

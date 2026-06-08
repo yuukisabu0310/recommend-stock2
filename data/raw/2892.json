@@ -1,7 +1,7 @@
 {
   "ticker": "2892",
   "japanese_ticker": "2892.T",
-  "fetch_date": "2026-06-07T00:11:05.651607",
+  "fetch_date": "2026-06-08T00:14:36.209809",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": -23504000.0,
@@ -1003,7 +1003,7 @@
     "averageVolume": 6813,
     "averageVolume10days": 5420,
     "averageDailyVolume10Day": 5420,
-    "bid": 4010.0,
+    "bid": 0.0,
     "ask": 4030.0,
     "bidSize": 0,
     "askSize": 0,
@@ -1084,6 +1084,10 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
+    "marketState": "REGULAR",
+    "regularMarketChangePercent": 0.6242198,
+    "regularMarketPrice": 4030.0,
+    "cryptoTradeable": false,
     "regularMarketChange": 25.0,
     "regularMarketDayRange": "4005.0 - 4050.0",
     "fullExchangeName": "Tokyo",
@@ -1104,10 +1108,6 @@
     "twoHundredDayAverageChangePercent": 0.06515832,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
-    "marketState": "CLOSED",
-    "regularMarketChangePercent": 0.6242198,
-    "regularMarketPrice": 4030.0,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 978998400000,
     "trailingPegRatio": null

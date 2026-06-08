@@ -1,7 +1,7 @@
 {
   "ticker": "1946",
   "japanese_ticker": "1946.T",
-  "fetch_date": "2026-06-07T00:01:28.878846",
+  "fetch_date": "2026-06-08T00:04:25.891910",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": null,
@@ -1123,8 +1123,8 @@
     "averageVolume": 209001,
     "averageVolume10days": 210410,
     "averageDailyVolume10Day": 210410,
-    "bid": 2068.0,
-    "ask": 2078.0,
+    "bid": 0.0,
+    "ask": 2057.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 192721010688,
@@ -1193,8 +1193,6 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "shortName": "TOENEC CORP",
-    "longName": "Toenec Corporation",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 978307200000,
     "regularMarketChange": 36.0,
@@ -1218,9 +1216,6 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
-    "marketState": "CLOSED",
-    "regularMarketChangePercent": 1.764706,
-    "regularMarketPrice": 2076.0,
     "corporateActions": [],
     "regularMarketTime": 1780641000,
     "exchange": "JPX",
@@ -1230,6 +1225,11 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
+    "marketState": "REGULAR",
+    "regularMarketChangePercent": 1.764706,
+    "regularMarketPrice": 2076.0,
+    "longName": "Toenec Corporation",
+    "shortName": "TOENEC CORP",
     "trailingPegRatio": null
   }
 }

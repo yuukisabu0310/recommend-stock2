@@ -1,19 +1,19 @@
 {
   "ticker": "2491",
   "japanese_ticker": "2491.T",
-  "fetch_date": "2026-06-07T00:07:25.918246",
+  "fetch_date": "2026-06-08T00:10:42.564532",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-12-31 00:00:00": -77952000.0,
       "2024-12-31 00:00:00": 2446280.991736,
-      "2023-12-31 00:00:00": -63700000.0,
+      "2023-12-31 00:00:00": -63765125.96707,
       "2022-12-31 00:00:00": 19937252.073567,
       "2021-12-31 00:00:00": null
     },
     "Tax Rate For Calcs": {
       "2025-12-31 00:00:00": 0.232,
       "2024-12-31 00:00:00": 0.305785,
-      "2023-12-31 00:00:00": 0.325,
+      "2023-12-31 00:00:00": 0.325332,
       "2022-12-31 00:00:00": 0.30208,
       "2021-12-31 00:00:00": null
     },
@@ -76,7 +76,7 @@
     "Normalized Income": {
       "2025-12-31 00:00:00": 745048000.0,
       "2024-12-31 00:00:00": 2849446280.991736,
-      "2023-12-31 00:00:00": 3532300000.0,
+      "2023-12-31 00:00:00": 3532234874.03293,
       "2022-12-31 00:00:00": 5759937252.073567,
       "2021-12-31 00:00:00": null
     },
@@ -104,30 +104,30 @@
     "Diluted Average Shares": {
       "2025-12-31 00:00:00": 21625222.0,
       "2024-12-31 00:00:00": 25211939.0,
-      "2023-12-31 00:00:00": 32337760.0,
+      "2023-12-31 00:00:00": 32334760.0,
       "2022-12-31 00:00:00": 32341800.0,
       "2021-12-31 00:00:00": null
     },
     "Basic Average Shares": {
       "2025-12-31 00:00:00": 21625222.0,
       "2024-12-31 00:00:00": 25211939.0,
-      "2023-12-31 00:00:00": 32337760.0,
+      "2023-12-31 00:00:00": 32331685.0,
       "2022-12-31 00:00:00": 32329328.0,
       "2021-12-31 00:00:00": null
     },
     "Diluted EPS": {
       "2025-12-31 00:00:00": 22.52,
-      "2024-12-31 00:00:00": 113.24,
+      "2024-12-31 00:00:00": null,
       "2023-12-31 00:00:00": 105.15,
       "2022-12-31 00:00:00": 179.52,
-      "2021-12-31 00:00:00": null
+      "2021-12-31 00:00:00": 100.84
     },
     "Basic EPS": {
       "2025-12-31 00:00:00": 22.52,
-      "2024-12-31 00:00:00": 113.24,
+      "2024-12-31 00:00:00": null,
       "2023-12-31 00:00:00": 105.16,
       "2022-12-31 00:00:00": 179.6,
-      "2021-12-31 00:00:00": null
+      "2021-12-31 00:00:00": 100.92
     },
     "Diluted NI Availto Com Stockholders": {
       "2025-12-31 00:00:00": 487000000.0,
@@ -1059,8 +1059,8 @@
     "averageVolume": 358275,
     "averageVolume10days": 253830,
     "averageDailyVolume10Day": 253830,
-    "bid": 475.0,
-    "ask": 478.0,
+    "bid": 0.0,
+    "ask": 471.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 10296255488,
@@ -1127,18 +1127,6 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "marketState": "CLOSED",
-    "shortName": "VALUECOMMERCE CO.LTD.",
-    "epsTrailingTwelveMonths": 22.52,
-    "epsForward": 117.06,
-    "fiftyDayAverageChange": 7.220001,
-    "fiftyDayAverageChangePercent": 0.015434609,
-    "twoHundredDayAverageChange": -134.495,
-    "twoHundredDayAverageChangePercent": -0.22066629,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
-    "fullExchangeName": "Tokyo",
     "averageDailyVolume3Month": 358275,
     "fiftyTwoWeekLowChange": 67.0,
     "fiftyTwoWeekLowChangePercent": 0.16421568,
@@ -1150,11 +1138,18 @@
     "earningsTimestampStart": 1785220200,
     "earningsTimestampEnd": 1785220200,
     "isEarningsDateEstimate": true,
-    "longName": "ValueCommerce Co., Ltd.",
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1154304000000,
-    "regularMarketChange": 16.0,
-    "regularMarketDayRange": "459.0 - 481.0",
+    "epsTrailingTwelveMonths": 22.52,
+    "epsForward": 117.06,
+    "fiftyDayAverageChange": 7.220001,
+    "fiftyDayAverageChangePercent": 0.015434609,
+    "twoHundredDayAverageChange": -134.495,
+    "twoHundredDayAverageChangePercent": -0.22066629,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
+    "shortName": "VALUECOMMERCE CO.LTD.",
+    "regularMarketChangePercent": 3.4858387,
+    "regularMarketPrice": 475.0,
     "corporateActions": [
       {
         "header": "Dividend",
@@ -1174,8 +1169,13 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "regularMarketChangePercent": 3.4858387,
-    "regularMarketPrice": 475.0,
+    "longName": "ValueCommerce Co., Ltd.",
+    "marketState": "REGULAR",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1154304000000,
+    "regularMarketChange": 16.0,
+    "regularMarketDayRange": "459.0 - 481.0",
+    "fullExchangeName": "Tokyo",
     "trailingPegRatio": null
   }
 }

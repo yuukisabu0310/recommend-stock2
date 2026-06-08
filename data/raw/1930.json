@@ -1,7 +1,7 @@
 {
   "ticker": "1930",
   "japanese_ticker": "1930.T",
-  "fetch_date": "2026-06-07T00:01:12.975157",
+  "fetch_date": "2026-06-08T00:04:09.293890",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": 16528253.424658,
@@ -191,7 +191,7 @@
     },
     "Write Off": {
       "2025-03-31 00:00:00": 3000000.0,
-      "2024-03-31 00:00:00": 0.0,
+      "2024-03-31 00:00:00": null,
       "2023-03-31 00:00:00": 0.0,
       "2022-03-31 00:00:00": 26000000.0
     },
@@ -246,7 +246,7 @@
   },
   "balance_sheet": {
     "Treasury Shares Number": {
-      "2025-03-31 00:00:00": 1974606.0,
+      "2025-03-31 00:00:00": null,
       "2024-03-31 00:00:00": 1974231.0,
       "2023-03-31 00:00:00": 1973000.0,
       "2022-03-31 00:00:00": 1973000.0
@@ -947,8 +947,8 @@
     "averageVolume": 91165,
     "averageVolume10days": 64820,
     "averageDailyVolume10Day": 64820,
-    "bid": 1607.0,
-    "ask": 1620.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 44526620672,
@@ -1017,10 +1017,17 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "shortName": "HOKURIKU ELECTRICAL CONSTRUCTIO",
-    "longName": "Hokuriku Electrical Construction Co.,Ltd.",
-    "isEarningsDateEstimate": true,
-    "epsTrailingTwelveMonths": 139.72,
+    "corporateActions": [],
+    "regularMarketTime": 1780641000,
+    "exchange": "JPX",
+    "messageBoardId": "finmb_880605",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "marketState": "REGULAR",
+    "regularMarketChangePercent": 4.3170104,
+    "regularMarketPrice": 1619.0,
     "fiftyDayAverageChange": 53.54004,
     "fiftyDayAverageChangePercent": 0.034200836,
     "twoHundredDayAverageChange": 106.07495,
@@ -1042,18 +1049,11 @@
     "fiftyTwoWeekChangePercent": 34.86786,
     "earningsTimestampStart": 1753682400,
     "earningsTimestampEnd": 1754028000,
-    "corporateActions": [],
-    "regularMarketTime": 1780641000,
-    "exchange": "JPX",
-    "messageBoardId": "finmb_880605",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
+    "isEarningsDateEstimate": true,
+    "epsTrailingTwelveMonths": 139.72,
+    "shortName": "HOKURIKU ELECTRICAL CONSTRUCTIO",
     "esgPopulated": false,
-    "regularMarketChangePercent": 4.3170104,
-    "regularMarketPrice": 1619.0,
-    "marketState": "CLOSED",
+    "longName": "Hokuriku Electrical Construction Co.,Ltd.",
     "trailingPegRatio": null
   }
 }

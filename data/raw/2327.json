@@ -1,7 +1,7 @@
 {
   "ticker": "2327",
   "japanese_ticker": "2327.T",
-  "fetch_date": "2026-06-07T00:05:14.258339",
+  "fetch_date": "2026-06-08T00:08:23.281861",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": null,
@@ -1071,8 +1071,8 @@
     "averageVolume": 258743,
     "averageVolume10days": 234760,
     "averageDailyVolume10Day": 234760,
-    "bid": 3405.0,
-    "ask": 3419.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 624881500160,
@@ -1149,6 +1149,9 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "shortName": "NS SOLUTIONS CORPORATION",
+    "longName": "NS Solutions Corporation",
+    "corporateActions": [],
     "regularMarketTime": 1780641000,
     "exchange": "JPX",
     "messageBoardId": "finmb_1882296",
@@ -1157,9 +1160,10 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "corporateActions": [],
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1034294400000,
+    "marketState": "REGULAR",
+    "regularMarketChangePercent": -0.52432275,
+    "regularMarketPrice": 3415.0,
+    "cryptoTradeable": false,
     "regularMarketChange": -18.0,
     "regularMarketDayRange": "3404.0 - 3484.0",
     "fullExchangeName": "Tokyo",
@@ -1185,12 +1189,8 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "averageAnalystRating": "3.6 - Underperform",
-    "cryptoTradeable": false,
-    "shortName": "NS SOLUTIONS CORPORATION",
-    "longName": "NS Solutions Corporation",
-    "marketState": "CLOSED",
-    "regularMarketChangePercent": -0.52432275,
-    "regularMarketPrice": 3415.0,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1034294400000,
     "trailingPegRatio": null
   }
 }

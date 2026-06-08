@@ -1,7 +1,7 @@
 {
   "ticker": "1798",
   "japanese_ticker": "1798.T",
-  "fetch_date": "2026-06-06T23:59:30.211632",
+  "fetch_date": "2026-06-08T00:02:23.173952",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": 4869816.0,
@@ -1003,8 +1003,8 @@
     "averageVolume": 22950,
     "averageVolume10days": 7350,
     "averageDailyVolume10Day": 7350,
-    "bid": 1010.0,
-    "ask": 1025.0,
+    "bid": 0.0,
+    "ask": 1010.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 11166412800,
@@ -1075,11 +1075,6 @@
     "customPriceAlertConfidence": "LOW",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 947030400000,
-    "regularMarketChangePercent": 1.8905472,
-    "regularMarketPrice": 1024.0,
-    "marketState": "CLOSED",
-    "shortName": "MORIYA CORPORATION",
-    "longName": "Moriya Corporation",
     "regularMarketChange": 19.0,
     "regularMarketDayRange": "988.0 - 1025.0",
     "fullExchangeName": "Tokyo",
@@ -1100,7 +1095,10 @@
     "twoHundredDayAverageChangePercent": -0.15941204,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
+    "shortName": "MORIYA CORPORATION",
+    "regularMarketChangePercent": 1.8905472,
+    "regularMarketPrice": 1024.0,
+    "longName": "Moriya Corporation",
     "corporateActions": [],
     "regularMarketTime": 1780640609,
     "exchange": "JPX",
@@ -1110,6 +1108,8 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
+    "cryptoTradeable": false,
+    "marketState": "REGULAR",
     "trailingPegRatio": null
   }
 }

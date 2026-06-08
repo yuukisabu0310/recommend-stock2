@@ -1,7 +1,7 @@
 {
   "ticker": "2148",
   "japanese_ticker": "2148.T",
-  "fetch_date": "2026-06-07T00:03:02.140563",
+  "fetch_date": "2026-06-08T00:06:04.243385",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": 0.0,
@@ -10,7 +10,7 @@
       "2022-03-31 00:00:00": 0.0
     },
     "Tax Rate For Calcs": {
-      "2025-03-31 00:00:00": 0.2832,
+      "2025-03-31 00:00:00": 0.283165,
       "2024-03-31 00:00:00": 0.3269,
       "2023-03-31 00:00:00": 0.324603,
       "2022-03-31 00:00:00": 0.31
@@ -872,8 +872,8 @@
     "averageVolume": 90350,
     "averageVolume10days": 80220,
     "averageDailyVolume10Day": 80220,
-    "bid": 1159.0,
-    "ask": 1164.0,
+    "bid": 0.0,
+    "ask": 1122.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 22669887488,
@@ -943,9 +943,11 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "marketState": "CLOSED",
     "shortName": "ITMEDIA INC.",
+    "regularMarketChangePercent": 3.5587187,
+    "regularMarketPrice": 1164.0,
     "longName": "ITmedia Inc.",
+    "marketState": "REGULAR",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1176940800000,
     "regularMarketChange": 40.0,
@@ -958,8 +960,6 @@
     "fiftyTwoWeekHighChange": -756.0,
     "fiftyTwoWeekHighChangePercent": -0.39375,
     "fiftyTwoWeekChangePercent": -29.328405,
-    "regularMarketChangePercent": 3.5587187,
-    "regularMarketPrice": 1164.0,
     "earningsTimestampStart": 1754294400,
     "earningsTimestampEnd": 1754640000,
     "isEarningsDateEstimate": true,

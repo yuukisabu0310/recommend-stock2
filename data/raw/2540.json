@@ -1,7 +1,7 @@
 {
   "ticker": "2540",
   "japanese_ticker": "2540.T",
-  "fetch_date": "2026-06-07T00:07:47.177922",
+  "fetch_date": "2026-06-08T00:11:05.262331",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": 104915459.240115,
@@ -113,7 +113,7 @@
     },
     "Diluted Average Shares": {
       "2025-03-31 00:00:00": 13846434.0,
-      "2024-03-31 00:00:00": 13828403.0,
+      "2024-03-31 00:00:00": 13829028.0,
       "2023-03-31 00:00:00": 13807778.0,
       "2022-03-31 00:00:00": 13785184.0
     },
@@ -1048,7 +1048,7 @@
     "tradeable": false,
     "enterpriseValue": 45323780096,
     "profitMargins": -0.23587,
-    "floatShares": 1611005,
+    "floatShares": 1874955,
     "sharesOutstanding": 13862685,
     "heldPercentInsiders": 0.70072997,
     "heldPercentInstitutions": 0.03356,
@@ -1096,6 +1096,16 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "regularMarketChangePercent": 0.124533,
+    "regularMarketPrice": 4020.0,
+    "marketState": "REGULAR",
+    "exchange": "JPX",
+    "messageBoardId": "finmb_880886",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
     "corporateActions": [
       {
         "header": "Reverse stock split",
@@ -1108,17 +1118,6 @@
       }
     ],
     "regularMarketTime": 1780641000,
-    "exchange": "JPX",
-    "messageBoardId": "finmb_880886",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
-    "regularMarketChangePercent": 0.124533,
-    "regularMarketPrice": 4020.0,
-    "shortName": "YOMEISHU SEIZO CO",
-    "epsTrailingTwelveMonths": -164.02,
     "fiftyDayAverageChange": -3.8999023,
     "fiftyDayAverageChangePercent": -0.00096918474,
     "twoHundredDayAverageChange": -191.375,
@@ -1126,7 +1125,8 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "prevName": "Yomeishu Seizo Co., Ltd.",
-    "nameChangeDate": "2026-06-06",
+    "nameChangeDate": "2026-06-07",
+    "longName": "Yomeishu Seizo Co.,Ltd.",
     "cryptoTradeable": false,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 978307200000,
@@ -1143,8 +1143,8 @@
     "earningsTimestampStart": 1753682400,
     "earningsTimestampEnd": 1754028000,
     "isEarningsDateEstimate": true,
-    "longName": "Yomeishu Seizo Co.,Ltd.",
-    "marketState": "CLOSED",
+    "epsTrailingTwelveMonths": -164.02,
+    "shortName": "YOMEISHU SEIZO CO",
     "trailingPegRatio": null
   }
 }
