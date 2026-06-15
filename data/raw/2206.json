@@ -1,7 +1,7 @@
 {
   "ticker": "2206",
   "japanese_ticker": "2206.T",
-  "fetch_date": "2026-06-14T00:06:40.576305",
+  "fetch_date": "2026-06-15T00:09:39.139511",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-12-31 00:00:00": -1570212000.0,
@@ -1148,8 +1148,8 @@
     "averageVolume": 207555,
     "averageVolume10days": 187760,
     "averageDailyVolume10Day": 187760,
-    "bid": 5437.0,
-    "ask": 5452.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "marketCap": 337082155008,
     "nonDilutedMarketCap": 337082158176,
     "fiftyTwoWeekLow": 4429.0,
@@ -1220,9 +1220,6 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "marketState": "CLOSED",
-    "regularMarketChangePercent": 0.47988188,
-    "regularMarketPrice": 5444.0,
     "corporateActions": [
       {
         "header": "Dividend",
@@ -1244,6 +1241,9 @@
     "esgPopulated": false,
     "shortName": "EZAKI GLICO CO",
     "longName": "Ezaki Glico Co., Ltd.",
+    "marketState": "REGULAR",
+    "regularMarketChangePercent": 0.47988188,
+    "regularMarketPrice": 5444.0,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 978307200000,
     "regularMarketChange": 26.0,

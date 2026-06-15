@@ -1,7 +1,7 @@
 {
   "ticker": "1762",
   "japanese_ticker": "1762.T",
-  "fetch_date": "2026-06-14T00:01:42.043325",
+  "fetch_date": "2026-06-15T00:04:35.914114",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": null,
@@ -1072,8 +1072,8 @@
     "averageVolume": 69526,
     "averageVolume10days": 49220,
     "averageDailyVolume10Day": 49220,
-    "bid": 3445.0,
-    "ask": 3455.0,
+    "bid": 3630.0,
+    "ask": 3630.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 120123711488,
@@ -1148,12 +1148,11 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 978652800000,
-    "regularMarketChange": 50.0,
-    "regularMarketDayRange": "3410.0 - 3455.0",
+    "shortName": "TAKAMATSU CONSTRUCTION GROUP CO",
+    "longName": "Takamatsu Construction Group Co., Ltd.",
     "regularMarketChangePercent": 1.4705882,
     "regularMarketPrice": 3450.0,
+    "marketState": "REGULAR",
     "corporateActions": [],
     "regularMarketTime": 1781245800,
     "exchange": "JPX",
@@ -1163,8 +1162,10 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "marketState": "CLOSED",
-    "cryptoTradeable": false,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 978652800000,
+    "regularMarketChange": 50.0,
+    "regularMarketDayRange": "3410.0 - 3455.0",
     "fullExchangeName": "Tokyo",
     "averageDailyVolume3Month": 69526,
     "fiftyTwoWeekLowChange": 705.0,
@@ -1184,8 +1185,7 @@
     "twoHundredDayAverageChangePercent": -0.06090507,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
-    "shortName": "TAKAMATSU CONSTRUCTION GROUP CO",
-    "longName": "Takamatsu Construction Group Co., Ltd.",
+    "cryptoTradeable": false,
     "trailingPegRatio": null
   }
 }

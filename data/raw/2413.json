@@ -1,7 +1,7 @@
 {
   "ticker": "2413",
   "japanese_ticker": "2413.T",
-  "fetch_date": "2026-06-14T00:09:20.232775",
+  "fetch_date": "2026-06-15T00:12:24.138962",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": null,
@@ -979,8 +979,8 @@
     "averageVolume": 5204471,
     "averageVolume10days": 5601630,
     "averageDailyVolume10Day": 5601630,
-    "bid": 1607.5,
-    "ask": 1610.5,
+    "bid": 1635.5,
+    "ask": 1649.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 1074560958464,
@@ -1056,11 +1056,11 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "marketState": "REGULAR",
     "regularMarketChangePercent": -0.27872404,
     "regularMarketPrice": 1610.0,
     "corporateActions": [],
     "regularMarketTime": 1781245800,
-    "marketState": "CLOSED",
     "exchange": "JPX",
     "messageBoardId": "finmb_11367675",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1068,11 +1068,7 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "shortName": "M3 INC",
     "longName": "M3, Inc.",
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1095292800000,
-    "regularMarketChange": -4.5,
     "regularMarketDayRange": "1590.0 - 1621.5",
     "fullExchangeName": "Tokyo",
     "averageDailyVolume3Month": 5204471,
@@ -1098,6 +1094,10 @@
     "exchangeDataDelayedBy": 20,
     "averageAnalystRating": "1.8 - Buy",
     "cryptoTradeable": false,
+    "shortName": "M3 INC",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1095292800000,
+    "regularMarketChange": -4.5,
     "trailingPegRatio": null
   }
 }

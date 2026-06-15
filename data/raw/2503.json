@@ -1,7 +1,7 @@
 {
   "ticker": "2503",
   "japanese_ticker": "2503.T",
-  "fetch_date": "2026-06-14T00:10:41.620524",
+  "fetch_date": "2026-06-15T00:13:46.691959",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-12-31 00:00:00": 0.0,
@@ -1131,8 +1131,8 @@
     "averageVolume": 3706646,
     "averageVolume10days": 3563580,
     "averageDailyVolume10Day": 3563580,
-    "bid": 2716.0,
-    "ask": 2720.5,
+    "bid": 0.0,
+    "ask": 2775.5,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 2174022975488,
@@ -1209,20 +1209,9 @@
     "customPriceAlertConfidence": "LOW",
     "regularMarketChangePercent": -0.6935572,
     "regularMarketPrice": 2720.5,
-    "marketState": "CLOSED",
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 946944000000,
-    "corporateActions": [
-      {
-        "header": "Dividend",
-        "message": "2503.T announced a cash dividend of JPY 38.00 with an ex-date of Jun. 29, 2026",
-        "meta": {
-          "eventType": "DIVIDEND",
-          "dateEpochMs": 1782658800000,
-          "amount": "38.00"
-        }
-      }
-    ],
+    "shortName": "KIRIN HOLDINGS COMPANY LIMITED",
+    "longName": "Kirin Holdings Company, Limited",
+    "corporateActions": [],
     "regularMarketTime": 1781245800,
     "exchange": "JPX",
     "messageBoardId": "finmb_410455",
@@ -1231,9 +1220,6 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "cryptoTradeable": false,
-    "shortName": "KIRIN HOLDINGS COMPANY LIMITED",
-    "longName": "Kirin Holdings Company, Limited",
     "regularMarketChange": -19.0,
     "regularMarketDayRange": "2701.0 - 2751.5",
     "fullExchangeName": "Tokyo",
@@ -1246,6 +1232,9 @@
     "fiftyTwoWeekChangePercent": 32.22357,
     "earningsTimestamp": 1786084200,
     "earningsTimestampStart": 1786084200,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 946944000000,
+    "marketState": "REGULAR",
     "earningsTimestampEnd": 1786084200,
     "earningsCallTimestampStart": 1747133940,
     "earningsCallTimestampEnd": 1747133940,
@@ -1259,6 +1248,7 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "averageAnalystRating": "2.4 - Buy",
+    "cryptoTradeable": false,
     "trailingPegRatio": 1.8161
   }
 }

@@ -1,7 +1,7 @@
 {
   "ticker": "2156",
   "japanese_ticker": "2156.T",
-  "fetch_date": "2026-06-14T00:05:55.249327",
+  "fetch_date": "2026-06-15T00:08:51.425096",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": -3265400.0,
@@ -1029,8 +1029,8 @@
     "averageVolume": 11216,
     "averageVolume10days": 24680,
     "averageDailyVolume10Day": 24680,
-    "bid": 258.0,
-    "ask": 262.0,
+    "bid": 0.0,
+    "ask": 261.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 1338238720,
@@ -1097,10 +1097,7 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "regularMarketChangePercent": 0.0,
-    "regularMarketPrice": 260.0,
-    "marketState": "CLOSED",
-    "shortName": "SAYLOR ADVERTISING INC.",
+    "cryptoTradeable": false,
     "corporateActions": [],
     "regularMarketTime": 1781238552,
     "exchange": "JPX",
@@ -1110,9 +1107,11 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "longName": "Saylor Advertising.Inc.",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1182384000000,
+    "longName": "Saylor Advertising.Inc.",
+    "shortName": "SAYLOR ADVERTISING INC.",
+    "marketState": "REGULAR",
     "regularMarketChange": 0.0,
     "regularMarketDayRange": "256.0 - 261.0",
     "fullExchangeName": "Tokyo",
@@ -1133,7 +1132,8 @@
     "twoHundredDayAverageChangePercent": -0.17562386,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
+    "regularMarketChangePercent": 0.0,
+    "regularMarketPrice": 260.0,
     "trailingPegRatio": null
   }
 }

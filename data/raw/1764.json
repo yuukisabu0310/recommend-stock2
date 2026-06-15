@@ -1,7 +1,7 @@
 {
   "ticker": "1764",
   "japanese_ticker": "1764.T",
-  "fetch_date": "2026-06-14T00:01:44.201014",
+  "fetch_date": "2026-06-15T00:04:38.198120",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-06-30 00:00:00": null,
@@ -1226,7 +1226,7 @@
     "averageVolume": 1476,
     "averageVolume10days": 1360,
     "averageDailyVolume10Day": 1360,
-    "bid": 2901.0,
+    "bid": 0.0,
     "ask": 2929.0,
     "bidSize": 0,
     "askSize": 0,
@@ -1292,19 +1292,10 @@
     "customPriceAlertConfidence": "LOW",
     "regularMarketChangePercent": 0.23956195,
     "regularMarketPrice": 2929.0,
-    "corporateActions": [
-      {
-        "header": "Dividend",
-        "message": "1764.T announced a cash dividend of JPY 117.00 with an ex-date of Jun. 29, 2026",
-        "meta": {
-          "eventType": "DIVIDEND",
-          "dateEpochMs": 1782658800000,
-          "amount": "117.00"
-        }
-      }
-    ],
+    "shortName": "KUDO CORP",
+    "longName": "Kudo Corporation",
+    "corporateActions": [],
     "regularMarketTime": 1781244147,
-    "marketState": "CLOSED",
     "exchange": "JPX",
     "messageBoardId": "finmb_882969",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1312,10 +1303,6 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "shortName": "KUDO CORP",
-    "longName": "Kudo Corporation",
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 978307200000,
     "regularMarketChange": 7.0,
     "regularMarketDayRange": "2900.0 - 2938.0",
     "fullExchangeName": "Tokyo",
@@ -1327,6 +1314,9 @@
     "fiftyTwoWeekHighChangePercent": -0.16194564,
     "fiftyTwoWeekChangePercent": 1.0697007,
     "earningsTimestampStart": 1747204200,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 978307200000,
+    "marketState": "REGULAR",
     "earningsTimestampEnd": 1747204200,
     "isEarningsDateEstimate": false,
     "epsTrailingTwelveMonths": 393.66,

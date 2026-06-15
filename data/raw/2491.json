@@ -1,7 +1,7 @@
 {
   "ticker": "2491",
   "japanese_ticker": "2491.T",
-  "fetch_date": "2026-06-14T00:10:25.899396",
+  "fetch_date": "2026-06-15T00:13:31.069614",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-12-31 00:00:00": -77952000.0,
@@ -1059,8 +1059,8 @@
     "averageVolume": 334068,
     "averageVolume10days": 222430,
     "averageDailyVolume10Day": 222430,
-    "bid": 457.0,
-    "ask": 458.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 9906081792,
@@ -1127,6 +1127,12 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "regularMarketChangePercent": -1.2958963,
+    "regularMarketPrice": 457.0,
+    "marketState": "REGULAR",
+    "cryptoTradeable": false,
+    "shortName": "VALUECOMMERCE CO.LTD.",
+    "longName": "ValueCommerce Co., Ltd.",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1154304000000,
     "regularMarketChange": -6.0,
@@ -1151,7 +1157,17 @@
     "twoHundredDayAverageChangePercent": -0.23492238,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
-    "corporateActions": [],
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "2491.T announced a cash dividend of JPY 8.00 with an ex-date of Jun. 29, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1782658800000,
+          "amount": "8.00"
+        }
+      }
+    ],
     "regularMarketTime": 1781245800,
     "exchange": "JPX",
     "messageBoardId": "finmb_89806",
@@ -1160,12 +1176,6 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "shortName": "VALUECOMMERCE CO.LTD.",
-    "longName": "ValueCommerce Co., Ltd.",
-    "regularMarketChangePercent": -1.2958963,
-    "regularMarketPrice": 457.0,
-    "marketState": "CLOSED",
-    "cryptoTradeable": false,
     "trailingPegRatio": null
   }
 }

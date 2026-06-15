@@ -1,7 +1,7 @@
 {
   "ticker": "2351",
   "japanese_ticker": "2351.T",
-  "fetch_date": "2026-06-14T00:08:34.400067",
+  "fetch_date": "2026-06-15T00:11:37.069838",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": 0.0,
@@ -925,8 +925,8 @@
     "averageVolume": 38573,
     "averageVolume10days": 26600,
     "averageDailyVolume10Day": 26600,
-    "bid": 307.0,
-    "ask": 311.0,
+    "bid": 0.0,
+    "ask": 330.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 2426385408,
@@ -995,10 +995,7 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "marketState": "CLOSED",
-    "regularMarketChangePercent": 2.640264,
-    "regularMarketPrice": 311.0,
-    "longName": "ASJ Inc.",
+    "cryptoTradeable": false,
     "corporateActions": [],
     "regularMarketTime": 1781245800,
     "exchange": "JPX",
@@ -1008,7 +1005,11 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
+    "regularMarketChangePercent": 2.640264,
+    "regularMarketPrice": 311.0,
     "shortName": "ASJ INC",
+    "longName": "ASJ Inc.",
+    "marketState": "REGULAR",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1043971200000,
     "regularMarketChange": 8.0,
@@ -1031,7 +1032,6 @@
     "twoHundredDayAverageChangePercent": -0.10588502,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
     "trailingPegRatio": null
   }
 }

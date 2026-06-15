@@ -1,7 +1,7 @@
 {
   "ticker": "1514",
   "japanese_ticker": "1514.T",
-  "fetch_date": "2026-06-14T00:01:05.566314",
+  "fetch_date": "2026-06-15T00:03:59.675324",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": -1046000.0,
@@ -940,8 +940,8 @@
     "averageVolume": 1286426,
     "averageVolume10days": 367820,
     "averageDailyVolume10Day": 367820,
-    "bid": 551.0,
-    "ask": 554.0,
+    "bid": 0.0,
+    "ask": 551.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 33082200064,
@@ -1010,13 +1010,9 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "longName": "Sumiseki Holdings,Inc.",
-    "shortName": "SUMISEKI HOLDINGS INC",
-    "corporateActions": [],
-    "regularMarketTime": 1781245800,
-    "marketState": "CLOSED",
     "regularMarketChangePercent": 0.9124087,
     "regularMarketPrice": 553.0,
+    "marketState": "REGULAR",
     "exchange": "JPX",
     "messageBoardId": "finmb_47864925",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1024,9 +1020,8 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
+    "corporateActions": [],
+    "regularMarketTime": 1781245800,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 978307200000,
     "regularMarketChange": 5.0,
@@ -1047,6 +1042,11 @@
     "fiftyDayAverageChangePercent": -0.22765364,
     "twoHundredDayAverageChange": -138.34497,
     "twoHundredDayAverageChangePercent": -0.2001099,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
+    "shortName": "SUMISEKI HOLDINGS INC",
+    "longName": "Sumiseki Holdings,Inc.",
     "trailingPegRatio": null
   }
 }

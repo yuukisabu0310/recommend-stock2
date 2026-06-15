@@ -1,7 +1,7 @@
 {
   "ticker": "1716",
   "japanese_ticker": "1716.T",
-  "fetch_date": "2026-06-14T00:01:19.901605",
+  "fetch_date": "2026-06-15T00:04:13.669775",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-06-30 00:00:00": 23232738.0,
@@ -1078,8 +1078,8 @@
     "averageVolume": 18305,
     "averageVolume10days": 19650,
     "averageDailyVolume10Day": 19650,
-    "bid": 1375.0,
-    "ask": 1393.0,
+    "bid": 1382.0,
+    "ask": 1382.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 15545574400,
@@ -1149,24 +1149,10 @@
     "customPriceAlertConfidence": "LOW",
     "regularMarketChangePercent": 0.43604654,
     "regularMarketPrice": 1382.0,
+    "marketState": "REGULAR",
     "cryptoTradeable": false,
-    "marketState": "CLOSED",
     "shortName": "DAI-ICHI CUTTER KOGYO KK",
     "longName": "Dai-Ichi Cutter Kogyo k.k.",
-    "corporateActions": [],
-    "regularMarketTime": 1781245800,
-    "exchange": "JPX",
-    "messageBoardId": "finmb_11272857",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
-    "fiftyDayAverageChange": -52.43994,
-    "fiftyDayAverageChangePercent": -0.036557782,
-    "twoHundredDayAverageChange": -24.869995,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1086825600000,
     "regularMarketChange": 6.0,
@@ -1184,7 +1170,31 @@
     "isEarningsDateEstimate": true,
     "epsTrailingTwelveMonths": 151.88,
     "epsForward": 238.9,
+    "fiftyDayAverageChange": -52.43994,
+    "fiftyDayAverageChangePercent": -0.036557782,
+    "twoHundredDayAverageChange": -24.869995,
     "twoHundredDayAverageChangePercent": -0.017677536,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "1716.T announced a cash dividend of JPY 40.00 with an ex-date of Jun. 29, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1782658800000,
+          "amount": "40.00"
+        }
+      }
+    ],
+    "regularMarketTime": 1781245800,
+    "exchange": "JPX",
+    "messageBoardId": "finmb_11272857",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
     "trailingPegRatio": null
   }
 }

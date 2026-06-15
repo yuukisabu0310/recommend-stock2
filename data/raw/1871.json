@@ -1,7 +1,7 @@
 {
   "ticker": "1871",
   "japanese_ticker": "1871.T",
-  "fetch_date": "2026-06-14T00:03:10.891160",
+  "fetch_date": "2026-06-15T00:06:05.688513",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": -5868000.0,
@@ -1035,8 +1035,8 @@
     "averageVolume": 139830,
     "averageVolume10days": 125940,
     "averageDailyVolume10Day": 125940,
-    "bid": 2141.0,
-    "ask": 2155.0,
+    "bid": 2277.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 100895907840,
@@ -1104,6 +1104,9 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "regularMarketChangePercent": 2.4239545,
+    "regularMarketPrice": 2155.0,
+    "regularMarketTime": 1781245800,
     "exchange": "JPX",
     "messageBoardId": "finmb_6562086",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1111,9 +1114,8 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "shortName": "PS CONSTRUCTION CO LTD",
-    "longName": "PS Construction Co., Ltd.",
-    "regularMarketChangePercent": 2.4239545,
+    "corporateActions": [],
+    "marketState": "REGULAR",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 978307200000,
     "regularMarketChange": 51.0,
@@ -1138,12 +1140,10 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "prevName": "P.S. Mitsubishi Construction Co., Ltd.",
-    "nameChangeDate": "2026-06-13",
+    "nameChangeDate": "2026-06-14",
     "cryptoTradeable": false,
-    "marketState": "CLOSED",
-    "regularMarketPrice": 2155.0,
-    "corporateActions": [],
-    "regularMarketTime": 1781245800,
+    "shortName": "PS CONSTRUCTION CO LTD",
+    "longName": "PS Construction Co., Ltd.",
     "trailingPegRatio": null
   }
 }

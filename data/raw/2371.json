@@ -1,7 +1,7 @@
 {
   "ticker": "2371",
   "japanese_ticker": "2371.T",
-  "fetch_date": "2026-06-14T00:08:44.816643",
+  "fetch_date": "2026-06-15T00:11:46.574081",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": null,
@@ -1037,8 +1037,8 @@
     "averageVolume": 1953043,
     "averageVolume10days": 907660,
     "averageDailyVolume10Day": 907660,
-    "bid": 3307.0,
-    "ask": 3311.0,
+    "bid": 3309.0,
+    "ask": 3310.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 654244577280,
@@ -1115,11 +1115,8 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "marketState": "CLOSED",
     "regularMarketChangePercent": -0.54135334,
     "regularMarketPrice": 3307.0,
-    "longName": "Kakaku.com, Inc.",
-    "corporateActions": [],
     "regularMarketTime": 1781245800,
     "exchange": "JPX",
     "messageBoardId": "finmb_20346352",
@@ -1128,7 +1125,8 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "shortName": "KAKAKU.COM. INC",
+    "corporateActions": [],
+    "marketState": "REGULAR",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1127952000000,
     "regularMarketChange": -18.0,
@@ -1157,6 +1155,8 @@
     "exchangeDataDelayedBy": 20,
     "averageAnalystRating": "2.4 - Buy",
     "cryptoTradeable": false,
+    "shortName": "KAKAKU.COM. INC",
+    "longName": "Kakaku.com, Inc.",
     "trailingPegRatio": null
   }
 }

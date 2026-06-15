@@ -1,7 +1,7 @@
 {
   "ticker": "2124",
   "japanese_ticker": "2124.T",
-  "fetch_date": "2026-06-14T00:05:31.665653",
+  "fetch_date": "2026-06-15T00:08:27.280407",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-12-31 00:00:00": -55080000.0,
@@ -1185,8 +1185,8 @@
     "averageVolume": 366851,
     "averageVolume10days": 390740,
     "averageDailyVolume10Day": 390740,
-    "bid": 858.0,
-    "ask": 859.0,
+    "bid": 0.0,
+    "ask": 865.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 136382218240,
@@ -1261,16 +1261,22 @@
     "customPriceAlertConfidence": "LOW",
     "regularMarketChangePercent": -0.46403712,
     "regularMarketPrice": 858.0,
-    "marketState": "CLOSED",
-    "epsTrailingTwelveMonths": 52.94,
-    "epsForward": 142.25,
-    "fiftyDayAverageChange": -1.2600098,
-    "fiftyDayAverageChangePercent": -0.0014663894,
-    "twoHundredDayAverageChange": -121.21002,
-    "twoHundredDayAverageChangePercent": -0.12378348,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "2124.T announced a cash dividend of JPY 19.00 with an ex-date of Jun. 29, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1782658800000,
+          "amount": "19.00"
+        }
+      }
+    ],
+    "regularMarketTime": 1781245800,
+    "exchange": "JPX",
     "messageBoardId": "finmb_28707081",
     "exchangeTimezoneName": "Asia/Tokyo",
     "exchangeTimezoneShortName": "JST",
@@ -1279,9 +1285,7 @@
     "esgPopulated": false,
     "shortName": "JAC RECRUITMENT CO LTD",
     "longName": "JAC Recruitment Co., Ltd.",
-    "corporateActions": [],
-    "regularMarketTime": 1781245800,
-    "exchange": "JPX",
+    "marketState": "REGULAR",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1158883200000,
     "regularMarketChange": -4.0,
@@ -1300,6 +1304,12 @@
     "earningsCallTimestampStart": 1755860340,
     "earningsCallTimestampEnd": 1755860340,
     "isEarningsDateEstimate": false,
+    "epsTrailingTwelveMonths": 52.94,
+    "epsForward": 142.25,
+    "fiftyDayAverageChange": -1.2600098,
+    "fiftyDayAverageChangePercent": -0.0014663894,
+    "twoHundredDayAverageChange": -121.21002,
+    "twoHundredDayAverageChangePercent": -0.12378348,
     "trailingPegRatio": null
   }
 }

@@ -1,7 +1,7 @@
 {
   "ticker": "2432",
   "japanese_ticker": "2432.T",
-  "fetch_date": "2026-06-14T00:09:33.730832",
+  "fetch_date": "2026-06-15T00:12:39.023866",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": null,
@@ -1071,8 +1071,8 @@
     "averageVolume": 1537646,
     "averageVolume10days": 1198500,
     "averageDailyVolume10Day": 1198500,
-    "bid": 2670.0,
-    "ask": 2678.0,
+    "bid": 2699.5,
+    "ask": 2692.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 260863836160,
@@ -1149,10 +1149,7 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "regularMarketChangePercent": 1.3088012,
-    "regularMarketPrice": 2670.5,
-    "marketState": "CLOSED",
-    "longName": "DeNA Co., Ltd.",
+    "cryptoTradeable": false,
     "corporateActions": [],
     "regularMarketTime": 1781245800,
     "exchange": "JPX",
@@ -1162,11 +1159,11 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
+    "regularMarketChangePercent": 1.3088012,
+    "regularMarketPrice": 2670.5,
     "shortName": "DENA CO LTD",
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "averageAnalystRating": "2.5 - Buy",
-    "cryptoTradeable": false,
+    "longName": "DeNA Co., Ltd.",
+    "marketState": "REGULAR",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1108512000000,
     "regularMarketChange": 34.5,
@@ -1191,6 +1188,9 @@
     "fiftyDayAverageChangePercent": 0.004714135,
     "twoHundredDayAverageChange": 136.03003,
     "twoHundredDayAverageChangePercent": 0.053671982,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "averageAnalystRating": "2.5 - Buy",
     "trailingPegRatio": null
   }
 }

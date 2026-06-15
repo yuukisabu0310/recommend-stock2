@@ -1,7 +1,7 @@
 {
   "ticker": "1981",
   "japanese_ticker": "1981.T",
-  "fetch_date": "2026-06-14T00:04:49.581244",
+  "fetch_date": "2026-06-15T00:07:45.384505",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": 904456.8,
@@ -1091,8 +1091,8 @@
     "averageVolume": 6670,
     "averageVolume10days": 4250,
     "averageDailyVolume10Day": 4250,
-    "bid": 1294.0,
-    "ask": 1300.0,
+    "bid": 0.0,
+    "ask": 1306.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 12637656064,
@@ -1159,6 +1159,13 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "shortName": "KYOWANISSEI CO LTD",
+    "marketState": "REGULAR",
+    "regularMarketChangePercent": 0.38610038,
+    "regularMarketPrice": 1300.0,
+    "longName": "Kyowanissei Co.,Ltd.",
+    "corporateActions": [],
+    "regularMarketTime": 1781227303,
     "exchange": "JPX",
     "messageBoardId": "finmb_5547103",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1166,8 +1173,6 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "shortName": "KYOWANISSEI CO LTD",
-    "longName": "Kyowanissei Co.,Ltd.",
     "regularMarketChange": 5.0,
     "regularMarketDayRange": "1300.0 - 1300.0",
     "fullExchangeName": "Tokyo",
@@ -1188,14 +1193,9 @@
     "twoHundredDayAverageChangePercent": -0.14296356,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
-    "marketState": "CLOSED",
+    "cryptoTradeable": false,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 946944000000,
-    "cryptoTradeable": false,
-    "regularMarketChangePercent": 0.38610038,
-    "regularMarketPrice": 1300.0,
-    "corporateActions": [],
-    "regularMarketTime": 1781227303,
     "trailingPegRatio": null
   }
 }

@@ -1,7 +1,7 @@
 {
   "ticker": "2292",
   "japanese_ticker": "2292.T",
-  "fetch_date": "2026-06-14T00:07:32.324102",
+  "fetch_date": "2026-06-15T00:10:32.064397",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-02-28 00:00:00": 1222504000.0,
@@ -1026,8 +1026,8 @@
     "averageVolume": 95051,
     "averageVolume10days": 129300,
     "averageDailyVolume10Day": 129300,
-    "bid": 2616.0,
-    "ask": 2626.0,
+    "bid": 2644.0,
+    "ask": 2644.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 83142369280,
@@ -1095,10 +1095,12 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "marketState": "CLOSED",
+    "marketState": "REGULAR",
+    "cryptoTradeable": false,
+    "shortName": "S FOODS INC",
+    "longName": "S Foods Inc.",
     "regularMarketChangePercent": -0.19011407,
     "regularMarketPrice": 2625.0,
-    "longName": "S Foods Inc.",
     "corporateActions": [],
     "regularMarketTime": 1781245800,
     "exchange": "JPX",
@@ -1108,7 +1110,6 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "shortName": "S FOODS INC",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 978566400000,
     "regularMarketChange": -5.0,
@@ -1132,7 +1133,6 @@
     "twoHundredDayAverageChangePercent": -0.06420281,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
     "trailingPegRatio": null
   }
 }

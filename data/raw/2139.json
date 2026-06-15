@@ -1,7 +1,7 @@
 {
   "ticker": "2139",
   "japanese_ticker": "2139.T",
-  "fetch_date": "2026-06-14T00:05:43.996892",
+  "fetch_date": "2026-06-15T00:08:39.030500",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": -10182972.0,
@@ -979,8 +979,8 @@
     "averageVolume": 5420,
     "averageVolume10days": 2440,
     "averageDailyVolume10Day": 2440,
-    "bid": 485.0,
-    "ask": 493.0,
+    "bid": 0.0,
+    "ask": 490.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 3304811776,
@@ -1047,7 +1047,12 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "marketState": "CLOSED",
+    "regularMarketChangePercent": -0.20533882,
+    "regularMarketPrice": 486.0,
+    "marketState": "REGULAR",
+    "cryptoTradeable": false,
+    "shortName": "CHUCO CO.LTD",
+    "longName": "Chuco Co., Ltd.",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1419206400000,
     "regularMarketChange": -1.0,
@@ -1070,9 +1075,6 @@
     "twoHundredDayAverageChangePercent": 0.04918883,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
-    "regularMarketChangePercent": -0.20533882,
-    "regularMarketPrice": 486.0,
     "corporateActions": [],
     "regularMarketTime": 1781239619,
     "exchange": "JPX",
@@ -1082,8 +1084,6 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "longName": "Chuco Co., Ltd.",
-    "shortName": "CHUCO CO.LTD",
     "trailingPegRatio": null
   }
 }

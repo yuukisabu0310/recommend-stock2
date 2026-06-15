@@ -1,7 +1,7 @@
 {
   "ticker": "1899",
   "japanese_ticker": "1899.T",
-  "fetch_date": "2026-06-14T00:03:31.287922",
+  "fetch_date": "2026-06-15T00:06:26.752706",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-12-31 00:00:00": -30461732.442315,
@@ -1198,8 +1198,8 @@
     "averageVolume": 24616,
     "averageVolume10days": 24480,
     "averageDailyVolume10Day": 24480,
-    "bid": 7170.0,
-    "ask": 7290.0,
+    "bid": 0.0,
+    "ask": 7140.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 59959173120,
@@ -1266,9 +1266,18 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "marketState": "CLOSED",
+    "fiftyDayAverageChange": -766.6001,
+    "fiftyDayAverageChangePercent": -0.09574602,
+    "twoHundredDayAverageChange": -345.75,
+    "twoHundredDayAverageChangePercent": -0.045578882,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
+    "shortName": "FUKUDA CORP",
+    "marketState": "REGULAR",
     "regularMarketChangePercent": 1.1173184,
     "regularMarketPrice": 7240.0,
+    "longName": "Fukuda Corporation",
     "corporateActions": [
       {
         "header": "Stock split",
@@ -1288,8 +1297,6 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "shortName": "FUKUDA CORP",
-    "longName": "Fukuda Corporation",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 978307200000,
     "regularMarketChange": 80.0,
@@ -1306,13 +1313,6 @@
     "earningsTimestampEnd": 1754978400,
     "isEarningsDateEstimate": true,
     "epsTrailingTwelveMonths": 670.42,
-    "fiftyDayAverageChange": -766.6001,
-    "fiftyDayAverageChangePercent": -0.09574602,
-    "twoHundredDayAverageChange": -345.75,
-    "twoHundredDayAverageChangePercent": -0.045578882,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
     "trailingPegRatio": null
   }
 }

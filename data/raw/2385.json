@@ -1,7 +1,7 @@
 {
   "ticker": "2385",
   "japanese_ticker": "2385.T",
-  "fetch_date": "2026-06-14T00:09:00.618360",
+  "fetch_date": "2026-06-15T00:12:02.870731",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-06-30 00:00:00": -3741078.142582,
@@ -1000,8 +1000,8 @@
     "averageVolume": 65940,
     "averageVolume10days": 51400,
     "averageDailyVolume10Day": 51400,
-    "bid": 245.0,
-    "ask": 247.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 6408758272,
@@ -1068,21 +1068,6 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "corporateActions": [
-      {
-        "header": "Dividend",
-        "message": "2385.T announced a cash dividend of JPY 10.00 with an ex-date of Jun. 29, 2026",
-        "meta": {
-          "eventType": "DIVIDEND",
-          "dateEpochMs": 1782658800000,
-          "amount": "10.00"
-        }
-      }
-    ],
-    "regularMarketTime": 1781245800,
-    "marketState": "CLOSED",
-    "regularMarketChangePercent": -0.80971664,
-    "regularMarketPrice": 245.0,
     "shortName": "SOIKEN HOLDINGS INC",
     "longName": "Soiken Holdings Inc.",
     "exchange": "JPX",
@@ -1092,11 +1077,7 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1071705600000,
+    "marketState": "REGULAR",
     "regularMarketChange": -2.0,
     "regularMarketDayRange": "243.0 - 248.0",
     "fullExchangeName": "Tokyo",
@@ -1116,6 +1097,25 @@
     "fiftyDayAverageChangePercent": -0.020391867,
     "twoHundredDayAverageChange": 12.035004,
     "twoHundredDayAverageChangePercent": 0.051660135,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "2385.T announced a cash dividend of JPY 10.00 with an ex-date of Jun. 29, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1782658800000,
+          "amount": "10.00"
+        }
+      }
+    ],
+    "regularMarketTime": 1781245800,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1071705600000,
+    "regularMarketChangePercent": -0.80971664,
+    "regularMarketPrice": 245.0,
     "trailingPegRatio": null
   }
 }

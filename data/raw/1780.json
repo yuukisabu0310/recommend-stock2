@@ -1,7 +1,7 @@
 {
   "ticker": "1780",
   "japanese_ticker": "1780.T",
-  "fetch_date": "2026-06-14T00:01:54.512733",
+  "fetch_date": "2026-06-15T00:04:47.120514",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": 2766798.0,
@@ -926,15 +926,6 @@
     "companyOfficers": [
       {
         "maxAge": 1,
-        "name": "Mr. Masataka  Yamaura",
-        "age": 54,
-        "title": "CEO, President & Representative Director",
-        "yearBorn": 1971,
-        "exercisedValue": 0,
-        "unexercisedValue": 0
-      },
-      {
-        "maxAge": 1,
         "name": "Hiroshi  Ishikawa",
         "title": "Executive Officer & GM of Administration Division and Head of Corp. Strategy Office",
         "exercisedValue": 0,
@@ -953,24 +944,6 @@
         "age": 70,
         "title": "Executive Officer & Special Assignment Office Chief",
         "yearBorn": 1955,
-        "exercisedValue": 0,
-        "unexercisedValue": 0
-      },
-      {
-        "maxAge": 1,
-        "name": "Mr. Kimiaki  Fujiki",
-        "age": 67,
-        "title": "Senior MD & Director",
-        "yearBorn": 1958,
-        "exercisedValue": 0,
-        "unexercisedValue": 0
-      },
-      {
-        "maxAge": 1,
-        "name": "Mr. Kazunari  Akahane",
-        "age": 68,
-        "title": "MD, Senior Executive Officer, Head of Corporate Division & Corporate Strategy and Director",
-        "yearBorn": 1957,
         "exercisedValue": 0,
         "unexercisedValue": 0
       }
@@ -999,8 +972,8 @@
     "averageVolume": 38141,
     "averageVolume10days": 29590,
     "averageDailyVolume10Day": 29590,
-    "bid": 1388.0,
-    "ask": 1398.0,
+    "bid": 0.0,
+    "ask": 1379.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 26441336832,
@@ -1066,11 +1039,11 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "marketState": "CLOSED",
-    "regularMarketChangePercent": 0.64841497,
-    "regularMarketPrice": 1397.0,
-    "shortName": "YAMAURA CORP",
-    "longName": "Yamaura Corporation",
+    "twoHundredDayAverageChange": -82.829956,
+    "twoHundredDayAverageChangePercent": -0.055972617,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
     "exchange": "JPX",
     "messageBoardId": "finmb_884138",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1080,7 +1053,11 @@
     "esgPopulated": false,
     "corporateActions": [],
     "regularMarketTime": 1781245800,
-    "cryptoTradeable": false,
+    "marketState": "REGULAR",
+    "regularMarketChangePercent": 0.64841497,
+    "regularMarketPrice": 1397.0,
+    "shortName": "YAMAURA CORP",
+    "longName": "Yamaura Corporation",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 978307200000,
     "regularMarketChange": 9.0,
@@ -1099,10 +1076,6 @@
     "epsTrailingTwelveMonths": 167.22,
     "fiftyDayAverageChange": -36.099976,
     "fiftyDayAverageChangePercent": -0.02519013,
-    "twoHundredDayAverageChange": -82.829956,
-    "twoHundredDayAverageChangePercent": -0.055972617,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
     "trailingPegRatio": null
   }
 }

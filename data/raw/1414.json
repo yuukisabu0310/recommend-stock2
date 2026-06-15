@@ -1,7 +1,7 @@
 {
   "ticker": "1414",
   "japanese_ticker": "1414.T",
-  "fetch_date": "2026-06-14T00:00:28.814251",
+  "fetch_date": "2026-06-15T00:03:20.106817",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-06-30 00:00:00": 231178615.659832,
@@ -1001,8 +1001,8 @@
     "averageVolume": 882206,
     "averageVolume10days": 809710,
     "averageDailyVolume10Day": 809710,
-    "bid": 1269.0,
-    "ask": 1270.0,
+    "bid": 1294.5,
+    "ask": 1295.0,
     "marketCap": 255120785408,
     "nonDilutedMarketCap": 255120801980,
     "fiftyTwoWeekLow": 1152.25,
@@ -1074,6 +1074,12 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "regularMarketChangePercent": 0.91414946,
+    "regularMarketPrice": 1269.5,
+    "marketState": "REGULAR",
+    "cryptoTradeable": false,
+    "shortName": "SHO-BOND HOLDINGS CO LTD",
+    "longName": "SHO-BOND Holdings Co.,Ltd.",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 978307200000,
     "regularMarketChange": 11.5,
@@ -1101,13 +1107,17 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "averageAnalystRating": "2.3 - Buy",
-    "cryptoTradeable": false,
-    "shortName": "SHO-BOND HOLDINGS CO LTD",
-    "longName": "SHO-BOND Holdings Co.,Ltd.",
-    "marketState": "CLOSED",
-    "regularMarketChangePercent": 0.91414946,
-    "regularMarketPrice": 1269.5,
-    "corporateActions": [],
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "1414.T announced a cash dividend of JPY 25.00 with an ex-date of Jun. 29, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1782658800000,
+          "amount": "25.00"
+        }
+      }
+    ],
     "regularMarketTime": 1781245800,
     "exchange": "JPX",
     "messageBoardId": "finmb_878204",

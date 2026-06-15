@@ -1,7 +1,7 @@
 {
   "ticker": "2160",
   "japanese_ticker": "2160.T",
-  "fetch_date": "2026-06-14T00:06:00.742212",
+  "fetch_date": "2026-06-15T00:08:57.696876",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-12-31 00:00:00": 0.0,
@@ -1098,8 +1098,8 @@
     "averageVolume": 1227091,
     "averageVolume10days": 1604300,
     "averageDailyVolume10Day": 1604300,
-    "bid": 2518.0,
-    "ask": 2521.0,
+    "bid": 2525.0,
+    "ask": 2530.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 140499845120,
@@ -1171,11 +1171,9 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "regularMarketChangePercent": -6.1452518,
-    "corporateActions": [],
-    "shortName": "GNI GROUP LTD",
     "longName": "GNI Group Ltd.",
-    "marketState": "CLOSED",
+    "shortName": "GNI GROUP LTD",
+    "corporateActions": [],
     "regularMarketTime": 1781245800,
     "exchange": "JPX",
     "messageBoardId": "finmb_26764279",
@@ -1184,6 +1182,10 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
+    "marketState": "REGULAR",
+    "regularMarketChangePercent": -6.1452518,
+    "regularMarketPrice": 2520.0,
+    "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1188518400000,
     "regularMarketChange": -165.0,
     "regularMarketDayRange": "2482.0 - 2735.0",
@@ -1209,8 +1211,6 @@
     "exchangeDataDelayedBy": 20,
     "averageAnalystRating": "1.0 - Strong Buy",
     "cryptoTradeable": false,
-    "hasPrePostMarketData": false,
-    "regularMarketPrice": 2520.0,
     "trailingPegRatio": null
   }
 }

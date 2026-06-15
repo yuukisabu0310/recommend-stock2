@@ -1,7 +1,7 @@
 {
   "ticker": "2477",
   "japanese_ticker": "2477.T",
-  "fetch_date": "2026-06-14T00:10:07.266236",
+  "fetch_date": "2026-06-15T00:13:12.322863",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-06-30 00:00:00": 0.0,
@@ -782,8 +782,8 @@
     "averageVolume": 10885,
     "averageVolume10days": 21090,
     "averageDailyVolume10Day": 21090,
-    "bid": 2240.0,
-    "ask": 2310.0,
+    "bid": 2248.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 13271477248,
@@ -853,6 +853,18 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "corporateActions": [],
+    "regularMarketTime": 1781245800,
+    "marketState": "REGULAR",
+    "shortName": "TEMAIRAZU INC",
+    "exchange": "JPX",
+    "messageBoardId": "finmb_25960644",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
+    "longName": "Temairazu, Inc.",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1142467200000,
     "regularMarketChange": -63.0,
@@ -876,32 +888,10 @@
     "twoHundredDayAverageChangePercent": -0.22572471,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
-    "corporateActions": [
-      {
-        "header": "Dividend",
-        "message": "2477.T announced a cash dividend of JPY 24.00 with an ex-date of Jun. 29, 2026",
-        "meta": {
-          "eventType": "DIVIDEND",
-          "dateEpochMs": 1782658800000,
-          "amount": "24.00"
-        }
-      }
-    ],
-    "regularMarketTime": 1781245800,
-    "exchange": "JPX",
-    "messageBoardId": "finmb_25960644",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
-    "shortName": "TEMAIRAZU INC",
-    "longName": "Temairazu, Inc.",
-    "regularMarketChangePercent": -2.7260926,
-    "regularMarketPrice": 2248.0,
-    "marketState": "CLOSED",
     "averageAnalystRating": "0.0 - Strong Buy",
     "cryptoTradeable": false,
+    "regularMarketChangePercent": -2.7260926,
+    "regularMarketPrice": 2248.0,
     "trailingPegRatio": null
   }
 }

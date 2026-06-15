@@ -1,7 +1,7 @@
 {
   "ticker": "2337",
   "japanese_ticker": "2337.T",
-  "fetch_date": "2026-06-14T00:08:18.493480",
+  "fetch_date": "2026-06-15T00:11:21.930380",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-02-28 00:00:00": 2755440231.362468,
@@ -1122,8 +1122,8 @@
     "averageVolume": 959051,
     "averageVolume10days": 945840,
     "averageDailyVolume10Day": 945840,
-    "bid": 440.0,
-    "ask": 441.0,
+    "bid": 449.0,
+    "ask": 450.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 174093074432,
@@ -1198,8 +1198,8 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "shortName": "ICHIGO INC",
-    "longName": "Ichigo Inc.",
+    "regularMarketChangePercent": -0.22624436,
+    "regularMarketPrice": 441.0,
     "corporateActions": [],
     "regularMarketTime": 1781245800,
     "exchange": "JPX",
@@ -1209,11 +1209,9 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "marketState": "CLOSED",
-    "earningsTimestampEnd": 1784097000,
-    "earningsCallTimestampStart": 1744628340,
-    "earningsCallTimestampEnd": 1744628340,
-    "isEarningsDateEstimate": false,
+    "longName": "Ichigo Inc.",
+    "marketState": "REGULAR",
+    "shortName": "ICHIGO INC",
     "epsTrailingTwelveMonths": 41.37,
     "epsForward": 35.19,
     "fiftyDayAverageChange": -41.619995,
@@ -1237,8 +1235,10 @@
     "fiftyTwoWeekChangePercent": 12.213743,
     "earningsTimestamp": 1784097000,
     "earningsTimestampStart": 1784097000,
-    "regularMarketChangePercent": -0.22624436,
-    "regularMarketPrice": 441.0,
+    "earningsTimestampEnd": 1784097000,
+    "earningsCallTimestampStart": 1744628340,
+    "earningsCallTimestampEnd": 1744628340,
+    "isEarningsDateEstimate": false,
     "trailingPegRatio": null
   }
 }

@@ -1,7 +1,7 @@
 {
   "ticker": "1950",
   "japanese_ticker": "1950.T",
-  "fetch_date": "2026-06-14T00:04:14.827646",
+  "fetch_date": "2026-06-15T00:07:09.877036",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": null,
@@ -1012,8 +1012,8 @@
     "averageVolume": 149798,
     "averageVolume10days": 121720,
     "averageDailyVolume10Day": 121720,
-    "bid": 4255.0,
-    "ask": 4300.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 249249742848,
@@ -1086,12 +1086,10 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "marketState": "CLOSED",
-    "regularMarketChangePercent": -1.1574074,
-    "regularMarketPrice": 4270.0,
-    "longName": "Nippon Densetsu Kogyo Co., Ltd.",
     "corporateActions": [],
     "regularMarketTime": 1781245800,
+    "marketState": "REGULAR",
+    "shortName": "NIPPON DENSETSU KOGYO CO",
     "exchange": "JPX",
     "messageBoardId": "finmb_880795",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1099,7 +1097,7 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "shortName": "NIPPON DENSETSU KOGYO CO",
+    "longName": "Nippon Densetsu Kogyo Co., Ltd.",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 978307200000,
     "regularMarketChange": -50.0,
@@ -1126,6 +1124,8 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
+    "regularMarketChangePercent": -1.1574074,
+    "regularMarketPrice": 4270.0,
     "trailingPegRatio": null
   }
 }

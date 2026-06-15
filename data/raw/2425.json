@@ -1,7 +1,7 @@
 {
   "ticker": "2425",
   "japanese_ticker": "2425.T",
-  "fetch_date": "2026-06-14T00:09:27.939359",
+  "fetch_date": "2026-06-15T00:12:32.342760",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": -8151228.0,
@@ -920,8 +920,8 @@
     "averageVolume": 4438,
     "averageVolume10days": 2690,
     "averageDailyVolume10Day": 2690,
-    "bid": 666.0,
-    "ask": 675.0,
+    "bid": 675.0,
+    "ask": 676.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 2560405248,
@@ -989,6 +989,9 @@
     "customPriceAlertConfidence": "LOW",
     "regularMarketChangePercent": 2.739726,
     "regularMarketPrice": 675.0,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
     "corporateActions": [],
     "regularMarketTime": 1781245800,
     "exchange": "JPX",
@@ -998,12 +1001,14 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
+    "shortName": "CARE SERVICE CO LTD",
+    "longName": "Care Service Co.,Ltd.",
+    "marketState": "REGULAR",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1101427200000,
     "regularMarketChange": 18.0,
     "regularMarketDayRange": "666.0 - 676.0",
     "fullExchangeName": "Tokyo",
-    "marketState": "CLOSED",
     "averageDailyVolume3Month": 4438,
     "fiftyTwoWeekLowChange": 27.0,
     "fiftyTwoWeekLowChangePercent": 0.041666668,
@@ -1019,11 +1024,6 @@
     "fiftyDayAverageChangePercent": -0.05983623,
     "twoHundredDayAverageChange": -103.38501,
     "twoHundredDayAverageChangePercent": -0.13281989,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "shortName": "CARE SERVICE CO LTD",
-    "cryptoTradeable": false,
-    "longName": "Care Service Co.,Ltd.",
     "trailingPegRatio": null
   }
 }

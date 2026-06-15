@@ -1,7 +1,7 @@
 {
   "ticker": "2802",
   "japanese_ticker": "2802.T",
-  "fetch_date": "2026-06-14T00:13:32.960916",
+  "fetch_date": "2026-06-15T00:16:39.984446",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": 0.0,
@@ -1141,8 +1141,8 @@
     "averageVolume": 4433225,
     "averageVolume10days": 4991500,
     "averageDailyVolume10Day": 4991500,
-    "bid": 5125.0,
-    "ask": 5159.0,
+    "bid": 5699.0,
+    "ask": 5700.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 4930350874624,
@@ -1217,6 +1217,10 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "regularMarketChangePercent": 1.4555469,
+    "regularMarketPrice": 5158.0,
+    "marketState": "REGULAR",
+    "shortName": "AJINOMOTO CO INC",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 946944000000,
     "regularMarketChange": 74.0,
@@ -1243,6 +1247,9 @@
     "twoHundredDayAverageChangePercent": 0.21722573,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
+    "averageAnalystRating": "1.9 - Buy",
+    "cryptoTradeable": false,
+    "longName": "Ajinomoto Co., Inc.",
     "corporateActions": [],
     "regularMarketTime": 1781245800,
     "exchange": "JPX",
@@ -1252,13 +1259,6 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "shortName": "AJINOMOTO CO INC",
-    "longName": "Ajinomoto Co., Inc.",
-    "regularMarketChangePercent": 1.4555469,
-    "regularMarketPrice": 5158.0,
-    "marketState": "CLOSED",
-    "averageAnalystRating": "1.9 - Buy",
-    "cryptoTradeable": false,
     "trailingPegRatio": 4.0365
   }
 }

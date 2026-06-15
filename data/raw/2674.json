@@ -1,7 +1,7 @@
 {
   "ticker": "2674",
   "japanese_ticker": "2674.T",
-  "fetch_date": "2026-06-14T00:11:39.575008",
+  "fetch_date": "2026-06-15T00:14:47.621403",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": -48005706.0,
@@ -972,8 +972,8 @@
     "averageVolume": 53388,
     "averageVolume10days": 66730,
     "averageDailyVolume10Day": 66730,
-    "bid": 2606.0,
-    "ask": 2619.0,
+    "bid": 0.0,
+    "ask": 2688.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 36382810112,
@@ -1042,7 +1042,16 @@
     "customPriceAlertConfidence": "LOW",
     "regularMarketChangePercent": 1.6323358,
     "regularMarketPrice": 2615.0,
-    "marketState": "CLOSED",
+    "marketState": "REGULAR",
+    "exchange": "JPX",
+    "messageBoardId": "finmb_1347920",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
+    "corporateActions": [],
+    "regularMarketTime": 1781245800,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1076371200000,
     "regularMarketChange": 42.0,
@@ -1068,15 +1077,6 @@
     "cryptoTradeable": false,
     "shortName": "HARD OFF CORPORATION CO LTD",
     "longName": "Hard Off Corporation Co.,Ltd.",
-    "corporateActions": [],
-    "regularMarketTime": 1781245800,
-    "exchange": "JPX",
-    "messageBoardId": "finmb_1347920",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
     "trailingPegRatio": null
   }
 }

@@ -1,7 +1,7 @@
 {
   "ticker": "1850",
   "japanese_ticker": "1850.T",
-  "fetch_date": "2026-06-14T00:02:56.348593",
+  "fetch_date": "2026-06-15T00:05:48.883882",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": null,
@@ -1044,8 +1044,8 @@
     "averageVolume": 77623,
     "averageVolume10days": 71990,
     "averageDailyVolume10Day": 71990,
-    "bid": 391.0,
-    "ask": 397.0,
+    "bid": 0.0,
+    "ask": 394.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 11014823936,
@@ -1114,11 +1114,6 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "marketState": "CLOSED",
-    "regularMarketChangePercent": 1.0282776,
-    "regularMarketPrice": 393.0,
-    "corporateActions": [],
-    "regularMarketTime": 1781245800,
     "exchange": "JPX",
     "messageBoardId": "finmb_5493505",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1128,8 +1123,6 @@
     "esgPopulated": false,
     "shortName": "NANKAI TATSUMURA CONSTRUCTION C",
     "longName": "Nankai Tatsumura Construction Co., Ltd.",
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 954806400000,
     "regularMarketChange": 4.0,
     "regularMarketDayRange": "389.0 - 398.0",
     "fullExchangeName": "Tokyo",
@@ -1150,7 +1143,14 @@
     "twoHundredDayAverageChangePercent": -0.24421622,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
+    "marketState": "REGULAR",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 954806400000,
     "cryptoTradeable": false,
+    "regularMarketChangePercent": 1.0282776,
+    "regularMarketPrice": 393.0,
+    "corporateActions": [],
+    "regularMarketTime": 1781245800,
     "trailingPegRatio": null
   }
 }

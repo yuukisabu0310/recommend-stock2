@@ -1,7 +1,7 @@
 {
   "ticker": "1801",
   "japanese_ticker": "1801.T",
-  "fetch_date": "2026-06-14T00:02:12.132108",
+  "fetch_date": "2026-06-15T00:05:04.156049",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": null,
@@ -1148,8 +1148,8 @@
     "averageVolume": 949590,
     "averageVolume10days": 941050,
     "averageDailyVolume10Day": 941050,
-    "bid": 13315.0,
-    "ask": 13375.0,
+    "bid": 14195.0,
+    "ask": 14200.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 2180246929408,
@@ -1220,9 +1220,8 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "longName": "Taisei Corporation",
-    "marketState": "CLOSED",
-    "hasPrePostMarketData": false,
+    "regularMarketChangePercent": 1.1724659,
+    "regularMarketPrice": 13375.0,
     "firstTradeDateMilliseconds": 946944000000,
     "regularMarketChange": 155.0,
     "regularMarketDayRange": "13205.0 - 13600.0",
@@ -1250,9 +1249,7 @@
     "exchangeDataDelayedBy": 20,
     "averageAnalystRating": "1.7 - Buy",
     "cryptoTradeable": false,
-    "regularMarketChangePercent": 1.1724659,
-    "regularMarketPrice": 13375.0,
-    "shortName": "TAISEI CORP",
+    "hasPrePostMarketData": false,
     "corporateActions": [],
     "regularMarketTime": 1781245800,
     "exchange": "JPX",
@@ -1262,6 +1259,9 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
+    "marketState": "REGULAR",
+    "shortName": "TAISEI CORP",
+    "longName": "Taisei Corporation",
     "trailingPegRatio": null
   }
 }

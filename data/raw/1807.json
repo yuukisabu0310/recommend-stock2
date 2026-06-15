@@ -1,7 +1,7 @@
 {
   "ticker": "1807",
   "japanese_ticker": "1807.T",
-  "fetch_date": "2026-06-14T00:02:17.372630",
+  "fetch_date": "2026-06-15T00:05:09.987430",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": -2699970.0,
@@ -1030,7 +1030,7 @@
     "averageVolume10days": 950,
     "averageDailyVolume10Day": 950,
     "bid": 0.0,
-    "ask": 1846.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 11289074688,
@@ -1099,6 +1099,8 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "shortName": "WATANABE SATO CO LTD",
+    "longName": "Watanabe Sato Co., Ltd.",
     "exchange": "JPX",
     "messageBoardId": "finmb_884096",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1106,8 +1108,7 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "shortName": "WATANABE SATO CO LTD",
-    "longName": "Watanabe Sato Co., Ltd.",
+    "marketState": "REGULAR",
     "regularMarketChange": 0.0,
     "regularMarketDayRange": "1808.0 - 1849.0",
     "fullExchangeName": "Tokyo",
@@ -1128,14 +1129,13 @@
     "twoHundredDayAverageChangePercent": -0.02735561,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
-    "marketState": "CLOSED",
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 946944000000,
     "cryptoTradeable": false,
-    "regularMarketChangePercent": 0.0,
-    "regularMarketPrice": 1808.0,
     "corporateActions": [],
     "regularMarketTime": 1781149631,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 946944000000,
+    "regularMarketChangePercent": 0.0,
+    "regularMarketPrice": 1808.0,
     "trailingPegRatio": null
   }
 }

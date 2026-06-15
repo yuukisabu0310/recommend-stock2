@@ -1,7 +1,7 @@
 {
   "ticker": "2391",
   "japanese_ticker": "2391.T",
-  "fetch_date": "2026-06-14T00:09:06.471006",
+  "fetch_date": "2026-06-15T00:12:09.743347",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-07-31 00:00:00": null,
@@ -949,8 +949,8 @@
     "averageVolume": 4611,
     "averageVolume10days": 5010,
     "averageDailyVolume10Day": 5010,
-    "bid": 1171.0,
-    "ask": 1177.0,
+    "bid": 0.0,
+    "ask": 1176.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 7791154688,
@@ -1018,6 +1018,9 @@
     "customPriceAlertConfidence": "LOW",
     "corporateActions": [],
     "regularMarketTime": 1781245800,
+    "regularMarketChangePercent": -0.08503401,
+    "regularMarketPrice": 1175.0,
+    "marketState": "REGULAR",
     "exchange": "JPX",
     "messageBoardId": "finmb_8859734",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1025,6 +1028,8 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
+    "shortName": "PLANET INC",
+    "longName": "Planet, Inc.",
     "fiftyDayAverageChange": -48.19995,
     "fiftyDayAverageChangePercent": -0.039404802,
     "twoHundredDayAverageChange": -72.484985,
@@ -1034,9 +1039,6 @@
     "cryptoTradeable": false,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1077580800000,
-    "shortName": "PLANET INC",
-    "regularMarketChangePercent": -0.08503401,
-    "regularMarketPrice": 1175.0,
     "regularMarketChange": -1.0,
     "regularMarketDayRange": "1169.0 - 1177.0",
     "fullExchangeName": "Tokyo",
@@ -1051,8 +1053,6 @@
     "earningsTimestampEnd": 1748414400,
     "isEarningsDateEstimate": false,
     "epsTrailingTwelveMonths": 64.27,
-    "marketState": "CLOSED",
-    "longName": "Planet, Inc.",
     "trailingPegRatio": null
   }
 }

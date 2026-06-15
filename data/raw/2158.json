@@ -1,7 +1,7 @@
 {
   "ticker": "2158",
   "japanese_ticker": "2158.T",
-  "fetch_date": "2026-06-14T00:05:58.828355",
+  "fetch_date": "2026-06-15T00:08:55.407428",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": -68997264.0,
@@ -1049,8 +1049,8 @@
     "averageVolume": 386368,
     "averageVolume10days": 287360,
     "averageDailyVolume10Day": 287360,
-    "bid": 552.0,
-    "ask": 554.0,
+    "bid": 0.0,
+    "ask": 555.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 21706553344,
@@ -1120,11 +1120,9 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "marketState": "CLOSED",
+    "shortName": "FRONTEO INC",
     "regularMarketChangePercent": 2.0257826,
     "regularMarketPrice": 554.0,
-    "corporateActions": [],
-    "regularMarketTime": 1781245800,
     "exchange": "JPX",
     "messageBoardId": "finmb_34594958",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1132,8 +1130,8 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "shortName": "FRONTEO INC",
-    "longName": "FRONTEO, Inc.",
+    "corporateActions": [],
+    "regularMarketTime": 1781245800,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1182816000000,
     "regularMarketChange": 11.0,
@@ -1159,6 +1157,8 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
+    "marketState": "REGULAR",
+    "longName": "FRONTEO, Inc.",
     "trailingPegRatio": null
   }
 }

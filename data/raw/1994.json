@@ -1,7 +1,7 @@
 {
   "ticker": "1994",
   "japanese_ticker": "1994.T",
-  "fetch_date": "2026-06-14T00:04:55.856243",
+  "fetch_date": "2026-06-15T00:07:51.046860",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-12-31 00:00:00": 141856.0,
@@ -1048,8 +1048,8 @@
     "averageVolume": 10635,
     "averageVolume10days": 11140,
     "averageDailyVolume10Day": 11140,
-    "bid": 552.0,
-    "ask": 554.0,
+    "bid": 0.0,
+    "ask": 552.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 4373908480,
@@ -1112,20 +1112,19 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "marketState": "CLOSED",
+    "fiftyDayAverageChange": -14.0,
+    "fiftyDayAverageChangePercent": -0.024734983,
+    "twoHundredDayAverageChange": 14.575012,
+    "twoHundredDayAverageChangePercent": 0.027120087,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
+    "shortName": "TAKAHASHI CURTAIN WALL CORP",
+    "marketState": "REGULAR",
     "regularMarketChangePercent": 0.36363637,
     "regularMarketPrice": 552.0,
-    "corporateActions": [
-      {
-        "header": "Dividend",
-        "message": "1994.T announced a cash dividend of JPY 10.00 with an ex-date of Jun. 29, 2026",
-        "meta": {
-          "eventType": "DIVIDEND",
-          "dateEpochMs": 1782658800000,
-          "amount": "10.00"
-        }
-      }
-    ],
+    "longName": "Takahashi Curtain Wall Corporation",
+    "corporateActions": [],
     "regularMarketTime": 1781245800,
     "exchange": "JPX",
     "messageBoardId": "finmb_5863898",
@@ -1134,8 +1133,6 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "shortName": "TAKAHASHI CURTAIN WALL CORP",
-    "longName": "Takahashi Curtain Wall Corporation",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 946944000000,
     "regularMarketChange": 2.0,
@@ -1152,13 +1149,6 @@
     "earningsTimestampEnd": 1754965800,
     "isEarningsDateEstimate": true,
     "epsTrailingTwelveMonths": 23.85,
-    "fiftyDayAverageChange": -14.0,
-    "fiftyDayAverageChangePercent": -0.024734983,
-    "twoHundredDayAverageChange": 14.575012,
-    "twoHundredDayAverageChangePercent": 0.027120087,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
     "trailingPegRatio": null
   }
 }

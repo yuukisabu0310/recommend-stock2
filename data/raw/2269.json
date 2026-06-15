@@ -1,7 +1,7 @@
 {
   "ticker": "2269",
   "japanese_ticker": "2269.T",
-  "fetch_date": "2026-06-14T00:07:18.877086",
+  "fetch_date": "2026-06-15T00:10:17.709732",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": null,
@@ -1136,8 +1136,8 @@
     "averageVolume": 1071695,
     "averageVolume10days": 867520,
     "averageDailyVolume10Day": 867520,
-    "bid": 3720.0,
-    "ask": 3727.0,
+    "bid": 3809.0,
+    "ask": 3800.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 1010396954624,
@@ -1212,11 +1212,10 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "regularMarketChangePercent": -1.193001,
-    "regularMarketPrice": 3727.0,
     "corporateActions": [],
     "regularMarketTime": 1781245800,
-    "marketState": "CLOSED",
+    "marketState": "REGULAR",
+    "shortName": "MEIJI HOLDINGS CO LTD",
     "exchange": "JPX",
     "messageBoardId": "finmb_71516224",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1224,7 +1223,6 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "shortName": "MEIJI HOLDINGS CO LTD",
     "longName": "Meiji Holdings Co., Ltd.",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 946944000000,
@@ -1254,6 +1252,8 @@
     "exchangeDataDelayedBy": 20,
     "averageAnalystRating": "2.6 - Hold",
     "cryptoTradeable": false,
+    "regularMarketChangePercent": -1.193001,
+    "regularMarketPrice": 3727.0,
     "trailingPegRatio": 0.9066
   }
 }

@@ -1,7 +1,7 @@
 {
   "ticker": "1972",
   "japanese_ticker": "1972.T",
-  "fetch_date": "2026-06-14T00:04:39.669264",
+  "fetch_date": "2026-06-15T00:07:34.929517",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": 0.0,
@@ -1032,7 +1032,7 @@
     "averageVolume": 92930,
     "averageVolume10days": 111290,
     "averageDailyVolume10Day": 111290,
-    "bid": 1205.0,
+    "bid": 0.0,
     "ask": 1222.0,
     "bidSize": 0,
     "askSize": 0,
@@ -1104,8 +1104,15 @@
     "customPriceAlertConfidence": "LOW",
     "shortName": "SANKO METAL INDUSTRIAL CO",
     "longName": "Sanko Metal Industrial Co., Ltd.",
-    "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
+    "regularMarketChangePercent": 1.1599007,
+    "regularMarketPrice": 1221.0,
+    "marketState": "REGULAR",
+    "corporateActions": [],
+    "regularMarketTime": 1781245800,
+    "exchange": "JPX",
+    "messageBoardId": "finmb_880901",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
@@ -1130,15 +1137,8 @@
     "twoHundredDayAverageChange": -191.63,
     "twoHundredDayAverageChangePercent": -0.13565478,
     "sourceInterval": 15,
-    "marketState": "CLOSED",
-    "regularMarketChangePercent": 1.1599007,
-    "regularMarketPrice": 1221.0,
-    "corporateActions": [],
-    "regularMarketTime": 1781245800,
-    "exchange": "JPX",
-    "messageBoardId": "finmb_880901",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
+    "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
     "trailingPegRatio": null
   }
 }
