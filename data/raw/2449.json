@@ -1,7 +1,7 @@
 {
   "ticker": "2449",
   "japanese_ticker": "2449.T",
-  "fetch_date": "2026-06-15T00:12:55.141459",
+  "fetch_date": "2026-06-16T00:34:32.968676",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-08-31 00:00:00": 0.0,
@@ -132,30 +132,30 @@
     "Diluted Average Shares": {
       "2025-08-31 00:00:00": 4431000.0,
       "2024-08-31 00:00:00": 4407000.0,
-      "2023-08-31 00:00:00": 4369183.0,
+      "2023-08-31 00:00:00": 4369000.0,
       "2022-08-31 00:00:00": 4003000.0,
       "2021-08-31 00:00:00": null
     },
     "Basic Average Shares": {
       "2025-08-31 00:00:00": 4431000.0,
       "2024-08-31 00:00:00": 4407000.0,
-      "2023-08-31 00:00:00": 4369183.0,
+      "2023-08-31 00:00:00": 4369000.0,
       "2022-08-31 00:00:00": 4003000.0,
       "2021-08-31 00:00:00": null
     },
     "Diluted EPS": {
       "2025-08-31 00:00:00": 107.45,
-      "2024-08-31 00:00:00": null,
+      "2024-08-31 00:00:00": 51.43,
       "2023-08-31 00:00:00": 99.88,
       "2022-08-31 00:00:00": 39.26,
-      "2021-08-31 00:00:00": 34.82
+      "2021-08-31 00:00:00": null
     },
     "Basic EPS": {
       "2025-08-31 00:00:00": 107.45,
-      "2024-08-31 00:00:00": null,
+      "2024-08-31 00:00:00": 51.43,
       "2023-08-31 00:00:00": 99.88,
       "2022-08-31 00:00:00": 39.26,
-      "2021-08-31 00:00:00": 34.82
+      "2021-08-31 00:00:00": null
     },
     "Diluted NI Availto Com Stockholders": {
       "2025-08-31 00:00:00": 476168000.0,
@@ -343,10 +343,10 @@
   "balance_sheet": {
     "Treasury Shares Number": {
       "2025-08-31 00:00:00": 240078.0,
-      "2024-08-31 00:00:00": null,
+      "2024-08-31 00:00:00": 260528.0,
       "2023-08-31 00:00:00": 296628.0,
       "2022-08-31 00:00:00": 339028.0,
-      "2021-08-31 00:00:00": 718028.0
+      "2021-08-31 00:00:00": null
     },
     "Ordinary Shares Number": {
       "2025-08-31 00:00:00": 4438932.0,
@@ -357,7 +357,7 @@
     },
     "Share Issued": {
       "2025-08-31 00:00:00": 4679010.0,
-      "2024-08-31 00:00:00": 4382382.0,
+      "2024-08-31 00:00:00": 4679010.0,
       "2023-08-31 00:00:00": 4679010.0,
       "2022-08-31 00:00:00": 4679010.0,
       "2021-08-31 00:00:00": null
@@ -1145,14 +1145,14 @@
     "executiveTeam": [],
     "maxAge": 86400,
     "priceHint": 2,
-    "previousClose": 1033.0,
-    "open": 1031.0,
-    "dayLow": 1026.0,
-    "dayHigh": 1031.0,
-    "regularMarketPreviousClose": 1033.0,
-    "regularMarketOpen": 1031.0,
-    "regularMarketDayLow": 1026.0,
-    "regularMarketDayHigh": 1031.0,
+    "previousClose": 1031.0,
+    "open": 1033.0,
+    "dayLow": 1031.0,
+    "dayHigh": 1035.0,
+    "regularMarketPreviousClose": 1031.0,
+    "regularMarketOpen": 1033.0,
+    "regularMarketDayLow": 1031.0,
+    "regularMarketDayHigh": 1035.0,
     "dividendRate": 41.0,
     "dividendYield": 3.98,
     "exDividendDate": 1787875200,
@@ -1160,13 +1160,13 @@
     "fiveYearAvgDividendYield": 4.42,
     "beta": 0.252,
     "trailingPE": 9.718164,
-    "volume": 2300,
-    "regularMarketVolume": 2300,
+    "volume": 1600,
+    "regularMarketVolume": 1600,
     "averageVolume": 3608,
     "averageVolume10days": 10410,
     "averageDailyVolume10Day": 10410,
-    "bid": 0.0,
-    "ask": 0.0,
+    "bid": 1033.0,
+    "ask": 1050.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 4593241088,
@@ -1179,7 +1179,7 @@
     "fiftyDayAverage": 1071.3,
     "twoHundredDayAverage": 1091.63,
     "trailingAnnualDividendRate": 41.0,
-    "trailingAnnualDividendYield": 0.039690223,
+    "trailingAnnualDividendYield": 0.039767217,
     "currency": "JPY",
     "tradeable": false,
     "enterpriseValue": 334241088,
@@ -1232,9 +1232,16 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "regularMarketChangePercent": -0.19361085,
+    "regularMarketChangePercent": 0.0,
     "regularMarketPrice": 1031.0,
-    "regularMarketTime": 1781245800,
+    "marketState": "REGULAR",
+    "cryptoTradeable": false,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1120780800000,
+    "shortName": "PRAP JAPAN INC",
+    "longName": "PRAP Japan, Inc.",
+    "corporateActions": [],
+    "regularMarketTime": 1781502344,
     "exchange": "JPX",
     "messageBoardId": "finmb_6140510",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1242,12 +1249,8 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "corporateActions": [],
-    "marketState": "REGULAR",
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1120780800000,
-    "regularMarketChange": -2.0,
-    "regularMarketDayRange": "1026.0 - 1031.0",
+    "regularMarketChange": 0.0,
+    "regularMarketDayRange": "1031.0 - 1035.0",
     "fullExchangeName": "Tokyo",
     "averageDailyVolume3Month": 3608,
     "fiftyTwoWeekLowChange": 42.0,
@@ -1266,9 +1269,6 @@
     "twoHundredDayAverageChangePercent": -0.0555408,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
-    "shortName": "PRAP JAPAN INC",
-    "longName": "PRAP Japan, Inc.",
     "trailingPegRatio": null
   }
 }
