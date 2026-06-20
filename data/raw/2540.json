@@ -1,7 +1,7 @@
 {
   "ticker": "2540",
   "japanese_ticker": "2540.T",
-  "fetch_date": "2026-06-19T00:32:18.464505",
+  "fetch_date": "2026-06-20T00:12:34.776166",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": 104915459.240115,
@@ -1026,7 +1026,7 @@
     "beta": -0.007,
     "volume": 25900,
     "regularMarketVolume": 25900,
-    "averageVolume": 44645,
+    "averageVolume": 41759,
     "averageVolume10days": 57550,
     "averageDailyVolume10Day": 57550,
     "bid": 0.0,
@@ -1064,8 +1064,8 @@
     "lastSplitDate": 1781740800,
     "enterpriseToRevenue": 4.715,
     "enterpriseToEbitda": 41.953,
-    "52WeekChange": 0.25155282,
-    "SandP52WeekChange": 0.24334764,
+    "52WeekChange": 0.26530612,
+    "SandP52WeekChange": 0.2568333,
     "lastDividendValue": 45.0,
     "lastDividendDate": 1743120000,
     "quoteType": "EQUITY",
@@ -1096,25 +1096,12 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "regularMarketChangePercent": 0.1242236,
-    "regularMarketPrice": 4030.0,
-    "marketState": "REGULAR",
-    "cryptoTradeable": false,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 978307200000,
+    "corporateActions": [],
     "shortName": "YOMEISHU SEIZO CO",
     "longName": "Yomeishu Seizo Co.,Ltd.",
-    "corporateActions": [
-      {
-        "header": "Reverse stock split",
-        "message": "2540.T announces 1 for 2306800 split effective Jun. 18, 2026",
-        "meta": {
-          "eventType": "SPLIT",
-          "dateEpochMs": 1781708400000,
-          "splitRatio": "1:2306800"
-        }
-      }
-    ],
+    "marketState": "CLOSED",
+    "regularMarketChangePercent": 0.1242236,
+    "regularMarketPrice": 4030.0,
     "regularMarketTime": 1781677800,
     "exchange": "JPX",
     "messageBoardId": "finmb_880886",
@@ -1123,16 +1110,18 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 978307200000,
     "regularMarketChange": 5.0,
     "regularMarketDayRange": "4025.0 - 4030.0",
     "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 44645,
+    "averageDailyVolume3Month": 41759,
     "fiftyTwoWeekLowChange": 1010.0,
     "fiftyTwoWeekLowChangePercent": 0.33443707,
     "fiftyTwoWeekRange": "3020.0 - 5500.0",
     "fiftyTwoWeekHighChange": -1470.0,
     "fiftyTwoWeekHighChangePercent": -0.26727274,
-    "fiftyTwoWeekChangePercent": 25.155281,
+    "fiftyTwoWeekChangePercent": 26.530611,
     "earningsTimestampStart": 1753682400,
     "earningsTimestampEnd": 1754028000,
     "isEarningsDateEstimate": true,
@@ -1144,7 +1133,8 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "prevName": "Yomeishu Seizo Co., Ltd.",
-    "nameChangeDate": "2026-06-18",
+    "nameChangeDate": "2026-06-19",
+    "cryptoTradeable": false,
     "trailingPegRatio": null
   }
 }
