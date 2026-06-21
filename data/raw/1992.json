@@ -1,7 +1,7 @@
 {
   "ticker": "1992",
   "japanese_ticker": "1992.T",
-  "fetch_date": "2026-06-20T00:06:46.898831",
+  "fetch_date": "2026-06-21T00:05:35.116514",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": -29507912.266053,
@@ -101,7 +101,7 @@
     },
     "Diluted Average Shares": {
       "2025-03-31 00:00:00": 2321181.0,
-      "2024-03-31 00:00:00": 2345190.0,
+      "2024-03-31 00:00:00": 2345146.0,
       "2023-03-31 00:00:00": 2376586.0,
       "2022-03-31 00:00:00": 2404888.0
     },
@@ -258,7 +258,7 @@
       "2022-03-31 00:00:00": 253413.0
     },
     "Ordinary Shares Number": {
-      "2025-03-31 00:00:00": 2279423.0,
+      "2025-03-31 00:00:00": 2317619.0,
       "2024-03-31 00:00:00": 2342788.0,
       "2023-03-31 00:00:00": 2381038.0,
       "2022-03-31 00:00:00": 2369814.0
@@ -950,7 +950,7 @@
     "trailingPE": 17.66763,
     "volume": 400,
     "regularMarketVolume": 400,
-    "averageVolume": 200,
+    "averageVolume": 196,
     "averageVolume10days": 320,
     "averageDailyVolume10Day": 320,
     "bid": 2794.0,
@@ -964,8 +964,8 @@
     "allTimeHigh": 3055.0,
     "allTimeLow": 276.66666,
     "priceToSalesTrailing12Months": 0.9730584,
-    "fiftyDayAverage": 2775.18,
-    "twoHundredDayAverage": 2761.3,
+    "fiftyDayAverage": 2777.2,
+    "twoHundredDayAverage": 2762.34,
     "trailingAnnualDividendRate": 82.0,
     "trailingAnnualDividendYield": 0.028472222,
     "currency": "JPY",
@@ -990,7 +990,7 @@
     "enterpriseToRevenue": 0.52,
     "enterpriseToEbitda": 6.973,
     "52WeekChange": 0.04651165,
-    "SandP52WeekChange": 0.2568333,
+    "SandP52WeekChange": 0.24487448,
     "lastDividendValue": 85.0,
     "lastDividendDate": 1806364800,
     "quoteType": "EQUITY",
@@ -1023,11 +1023,13 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "marketState": "CLOSED",
+    "cryptoTradeable": false,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 946944000000,
     "regularMarketChange": 0.0,
     "regularMarketDayRange": "2864.0 - 2880.0",
     "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 200,
+    "averageDailyVolume3Month": 196,
     "fiftyTwoWeekLowChange": 273.0,
     "fiftyTwoWeekLowChangePercent": 0.10471807,
     "fiftyTwoWeekRange": "2607.0 - 3055.0",
@@ -1038,17 +1040,14 @@
     "earningsTimestampEnd": 1747031400,
     "isEarningsDateEstimate": false,
     "epsTrailingTwelveMonths": 163.01,
-    "fiftyDayAverageChange": 104.82007,
-    "fiftyDayAverageChangePercent": 0.037770547,
-    "twoHundredDayAverageChange": 118.69995,
-    "twoHundredDayAverageChangePercent": 0.04298698,
+    "fiftyDayAverageChange": 102.80005,
+    "fiftyDayAverageChangePercent": 0.037015717,
+    "twoHundredDayAverageChange": 117.65991,
+    "twoHundredDayAverageChangePercent": 0.042594288,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
-    "shortName": "KANDA TSUSHINKI CO",
     "longName": "Kanda Tsushinki Co., Ltd.",
-    "cryptoTradeable": false,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 946944000000,
+    "shortName": "KANDA TSUSHINKI CO",
     "corporateActions": [],
     "regularMarketTime": 1781591072,
     "exchange": "JPX",
@@ -1060,6 +1059,7 @@
     "esgPopulated": false,
     "regularMarketChangePercent": 0.0,
     "regularMarketPrice": 2880.0,
+    "marketState": "CLOSED",
     "trailingPegRatio": null
   }
 }
