@@ -1,7 +1,7 @@
 {
   "ticker": "1893",
   "japanese_ticker": "1893.T",
-  "fetch_date": "2026-06-21T00:03:57.596950",
+  "fetch_date": "2026-06-22T00:07:42.886651",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": -239651647.93294,
@@ -1164,8 +1164,8 @@
     "averageVolume": 2330003,
     "averageVolume10days": 2011060,
     "averageDailyVolume10Day": 2011060,
-    "bid": 1762.5,
-    "ask": 1775.0,
+    "bid": 0.0,
+    "ask": 1760.5,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 478986272768,
@@ -1242,11 +1242,11 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "marketState": "CLOSED",
+    "marketState": "REGULAR",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 978307200000,
     "corporateActions": [],
     "regularMarketTime": 1781850600,
-    "shortName": "PENTA OCEAN CONSTRUCTION",
-    "longName": "Penta-Ocean Construction Co., Ltd.",
     "exchange": "JPX",
     "messageBoardId": "finmb_874556",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1254,8 +1254,12 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
+    "shortName": "PENTA OCEAN CONSTRUCTION",
     "regularMarketChangePercent": -4.054422,
     "regularMarketPrice": 1763.0,
+    "longName": "Penta-Ocean Construction Co., Ltd.",
+    "regularMarketChange": -74.5,
+    "regularMarketDayRange": "1761.0 - 1866.0",
     "fullExchangeName": "Tokyo",
     "averageDailyVolume3Month": 2330003,
     "fiftyTwoWeekLowChange": 887.7,
@@ -1280,10 +1284,6 @@
     "exchangeDataDelayedBy": 20,
     "averageAnalystRating": "1.5 - Strong Buy",
     "cryptoTradeable": false,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 978307200000,
-    "regularMarketChange": -74.5,
-    "regularMarketDayRange": "1761.0 - 1866.0",
     "trailingPegRatio": null
   }
 }

@@ -1,7 +1,7 @@
 {
   "ticker": "2268",
   "japanese_ticker": "2268.T",
-  "fetch_date": "2026-06-21T00:08:13.100596",
+  "fetch_date": "2026-06-22T00:11:36.432384",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-12-31 00:00:00": -45917796.0,
@@ -1220,8 +1220,8 @@
     "averageVolume": 6695,
     "averageVolume10days": 7610,
     "averageDailyVolume10Day": 7610,
-    "bid": 4125.0,
-    "ask": 4135.0,
+    "bid": 0.0,
+    "ask": 4120.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 39747825664,
@@ -1286,10 +1286,20 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "shortName": "BR 31 ICE CREAM CO.LTD",
+    "longName": "B-R 31 Ice Cream Co.,Ltd.",
     "regularMarketChangePercent": -0.24183798,
     "regularMarketPrice": 4125.0,
-    "marketState": "CLOSED",
-    "regularMarketChange": -10.0,
+    "corporateActions": [],
+    "regularMarketTime": 1781850600,
+    "marketState": "REGULAR",
+    "exchange": "JPX",
+    "messageBoardId": "finmb_12721969",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
     "regularMarketDayRange": "4120.0 - 4140.0",
     "fullExchangeName": "Tokyo",
     "averageDailyVolume3Month": 6695,
@@ -1309,30 +1319,10 @@
     "twoHundredDayAverageChangePercent": 0.012667575,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 946944000000,
-    "corporateActions": [
-      {
-        "header": "Dividend",
-        "message": "2268.T announced a cash dividend of JPY 30.00 with an ex-date of Jun. 29, 2026",
-        "meta": {
-          "eventType": "DIVIDEND",
-          "dateEpochMs": 1782658800000,
-          "amount": "30.00"
-        }
-      }
-    ],
-    "regularMarketTime": 1781850600,
-    "exchange": "JPX",
-    "messageBoardId": "finmb_12721969",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
-    "shortName": "BR 31 ICE CREAM CO.LTD",
-    "cryptoTradeable": false,
-    "longName": "B-R 31 Ice Cream Co.,Ltd.",
+    "regularMarketChange": -10.0,
     "trailingPegRatio": null
   }
 }

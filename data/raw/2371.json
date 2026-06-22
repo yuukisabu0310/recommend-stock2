@@ -1,7 +1,7 @@
 {
   "ticker": "2371",
   "japanese_ticker": "2371.T",
-  "fetch_date": "2026-06-21T00:09:52.764995",
+  "fetch_date": "2026-06-22T00:13:08.052787",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": -21114000.0,
@@ -1091,8 +1091,8 @@
     "averageVolume": 1903268,
     "averageVolume10days": 1009360,
     "averageDailyVolume10Day": 1009360,
-    "bid": 3320.0,
-    "ask": 3343.0,
+    "bid": 0.0,
+    "ask": 3310.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 657014259712,
@@ -1169,8 +1169,13 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "shortName": "KAKAKU.COM. INC",
+    "longName": "Kakaku.com, Inc.",
     "corporateActions": [],
     "regularMarketTime": 1781850600,
+    "regularMarketChangePercent": -0.2702703,
+    "regularMarketPrice": 3321.0,
+    "marketState": "REGULAR",
     "exchange": "JPX",
     "messageBoardId": "finmb_20346352",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1178,6 +1183,8 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
+    "epsTrailingTwelveMonths": 94.98,
+    "epsForward": 124.06,
     "fiftyDayAverageChange": 345.28003,
     "fiftyDayAverageChangePercent": 0.11603244,
     "twoHundredDayAverageChange": 872.7776,
@@ -1186,11 +1193,6 @@
     "exchangeDataDelayedBy": 20,
     "averageAnalystRating": "2.4 - Buy",
     "cryptoTradeable": false,
-    "shortName": "KAKAKU.COM. INC",
-    "regularMarketChangePercent": -0.2702703,
-    "regularMarketPrice": 3321.0,
-    "marketState": "CLOSED",
-    "longName": "Kakaku.com, Inc.",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1127952000000,
     "regularMarketChange": -9.0,
@@ -1209,8 +1211,6 @@
     "earningsCallTimestampStart": 1746701940,
     "earningsCallTimestampEnd": 1746701940,
     "isEarningsDateEstimate": true,
-    "epsTrailingTwelveMonths": 94.98,
-    "epsForward": 124.06,
     "trailingPegRatio": null
   }
 }

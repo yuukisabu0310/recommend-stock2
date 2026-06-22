@@ -1,7 +1,7 @@
 {
   "ticker": "1438",
   "japanese_ticker": "1438.T",
-  "fetch_date": "2026-06-21T00:01:03.604183",
+  "fetch_date": "2026-06-22T00:05:03.420863",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-09-30 00:00:00": -230584.171648,
@@ -1026,8 +1026,8 @@
     "averageVolume": 1083,
     "averageVolume10days": 1120,
     "averageDailyVolume10Day": 1120,
-    "bid": 1845.0,
-    "ask": 1874.0,
+    "bid": 0.0,
+    "ask": 1890.0,
     "marketCap": 6073166848,
     "nonDilutedMarketCap": 6073166736,
     "fiftyTwoWeekLow": 1758.0,
@@ -1092,12 +1092,6 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "corporateActions": [],
-    "regularMarketTime": 1781828369,
-    "regularMarketChangePercent": 0.48309177,
-    "regularMarketPrice": 1872.0,
-    "marketState": "CLOSED",
-    "cryptoTradeable": false,
     "exchange": "JPX",
     "messageBoardId": "finmb_403015405",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1105,6 +1099,13 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
+    "regularMarketChangePercent": 0.48309177,
+    "regularMarketPrice": 1872.0,
+    "corporateActions": [],
+    "regularMarketTime": 1781828369,
+    "marketState": "REGULAR",
+    "shortName": "GIFU LANDSCAPE ARCHITECT CO LTD",
+    "longName": "Gifu landscape architect Co., Ltd.",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1664323200000,
     "regularMarketChange": 9.0,
@@ -1127,8 +1128,7 @@
     "twoHundredDayAverageChangePercent": 0.00249286,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
-    "longName": "Gifu landscape architect Co., Ltd.",
-    "shortName": "GIFU LANDSCAPE ARCHITECT CO LTD",
+    "cryptoTradeable": false,
     "trailingPegRatio": null
   }
 }

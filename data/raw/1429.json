@@ -1,7 +1,7 @@
 {
   "ticker": "1429",
   "japanese_ticker": "1429.T",
-  "fetch_date": "2026-06-21T00:00:48.218380",
+  "fetch_date": "2026-06-22T00:04:50.093647",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-12-31 00:00:00": 1573614.0,
@@ -1207,8 +1207,8 @@
     "averageVolume": 200455,
     "averageVolume10days": 166740,
     "averageDailyVolume10Day": 166740,
-    "bid": 718.0,
-    "ask": 722.0,
+    "bid": 719.0,
+    "ask": 720.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 23235207168,
@@ -1276,11 +1276,12 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "marketState": "CLOSED",
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1386892800000,
     "corporateActions": [],
     "regularMarketTime": 1781850600,
+    "regularMarketChangePercent": -0.4137931,
+    "regularMarketPrice": 722.0,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1386892800000,
     "exchange": "JPX",
     "messageBoardId": "finmb_107241451",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1288,10 +1289,6 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "shortName": "NIPPON AQUA CO LTD",
-    "regularMarketChangePercent": -0.4137931,
-    "regularMarketPrice": 722.0,
-    "longName": "Nippon Aqua Co., Ltd.",
     "regularMarketChange": -3.0,
     "regularMarketDayRange": "718.0 - 732.0",
     "fullExchangeName": "Tokyo",
@@ -1314,6 +1311,9 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
+    "longName": "Nippon Aqua Co., Ltd.",
+    "shortName": "NIPPON AQUA CO LTD",
+    "marketState": "REGULAR",
     "trailingPegRatio": null
   }
 }

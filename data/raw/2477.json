@@ -1,7 +1,7 @@
 {
   "ticker": "2477",
   "japanese_ticker": "2477.T",
-  "fetch_date": "2026-06-21T00:11:23.570578",
+  "fetch_date": "2026-06-22T00:14:30.250269",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-06-30 00:00:00": 0.0,
@@ -782,8 +782,8 @@
     "averageVolume": 10886,
     "averageVolume10days": 19470,
     "averageDailyVolume10Day": 19470,
-    "bid": 2205.0,
-    "ask": 2300.0,
+    "bid": 2269.0,
+    "ask": 2269.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 13283335168,
@@ -852,10 +852,9 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1142467200000,
-    "shortName": "TEMAIRAZU INC",
-    "longName": "Temairazu, Inc.",
+    "regularMarketChangePercent": -0.6619594,
+    "regularMarketPrice": 2251.0,
+    "marketState": "REGULAR",
     "corporateActions": [],
     "regularMarketTime": 1781850600,
     "exchange": "JPX",
@@ -865,9 +864,11 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "marketState": "CLOSED",
-    "regularMarketChangePercent": -0.6619594,
-    "regularMarketPrice": 2251.0,
+    "shortName": "TEMAIRAZU INC",
+    "longName": "Temairazu, Inc.",
+    "cryptoTradeable": false,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1142467200000,
     "regularMarketChange": -15.0,
     "regularMarketDayRange": "2205.0 - 2263.0",
     "fullExchangeName": "Tokyo",
@@ -889,7 +890,6 @@
     "twoHundredDayAverageChangePercent": -0.2195328,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
     "trailingPegRatio": null
   }
 }

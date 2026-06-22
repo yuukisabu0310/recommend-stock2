@@ -1,7 +1,7 @@
 {
   "ticker": "2193",
   "japanese_ticker": "2193.T",
-  "fetch_date": "2026-06-21T00:07:20.883914",
+  "fetch_date": "2026-06-22T00:10:48.960523",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-12-31 00:00:00": 0.0,
@@ -921,8 +921,8 @@
     "averageVolume": 465421,
     "averageVolume10days": 319460,
     "averageDailyVolume10Day": 319460,
-    "bid": 116.0,
-    "ask": 118.0,
+    "bid": 0.0,
+    "ask": 116.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 8338613760,
@@ -988,6 +988,8 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "corporateActions": [],
+    "regularMarketTime": 1781850600,
     "exchange": "JPX",
     "messageBoardId": "finmb_60054436",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -997,11 +999,12 @@
     "esgPopulated": false,
     "regularMarketChangePercent": -0.8547009,
     "regularMarketPrice": 116.0,
-    "corporateActions": [],
-    "regularMarketTime": 1781850600,
-    "marketState": "CLOSED",
+    "marketState": "REGULAR",
     "shortName": "COOKPAD INC.",
     "longName": "Cookpad Inc.",
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1248134400000,
     "regularMarketChange": -1.0,
@@ -1025,9 +1028,6 @@
     "fiftyDayAverageChangePercent": -0.090053365,
     "twoHundredDayAverageChange": -32.475006,
     "twoHundredDayAverageChangePercent": -0.21872373,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
     "trailingPegRatio": null
   }
 }

@@ -1,7 +1,7 @@
 {
   "ticker": "2206",
   "japanese_ticker": "2206.T",
-  "fetch_date": "2026-06-21T00:07:34.044383",
+  "fetch_date": "2026-06-22T00:11:00.506085",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-12-31 00:00:00": -1570212000.0,
@@ -1148,8 +1148,8 @@
     "averageVolume": 213331,
     "averageVolume10days": 210920,
     "averageDailyVolume10Day": 210920,
-    "bid": 5318.0,
-    "ask": 5320.0,
+    "bid": 5378.0,
+    "ask": 5381.0,
     "marketCap": 329404317696,
     "nonDilutedMarketCap": 329404313280,
     "fiftyTwoWeekLow": 4429.0,
@@ -1220,18 +1220,7 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "marketState": "CLOSED",
-    "corporateActions": [
-      {
-        "header": "Dividend",
-        "message": "2206.T announced a cash dividend of JPY 45.00 with an ex-date of Jun. 29, 2026",
-        "meta": {
-          "eventType": "DIVIDEND",
-          "dateEpochMs": 1782658800000,
-          "amount": "45.00"
-        }
-      }
-    ],
+    "corporateActions": [],
     "regularMarketTime": 1781850600,
     "exchange": "JPX",
     "messageBoardId": "finmb_877366",
@@ -1240,20 +1229,6 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "shortName": "EZAKI GLICO CO",
-    "longName": "Ezaki Glico Co., Ltd.",
-    "regularMarketChangePercent": -0.24376523,
-    "regularMarketPrice": 5320.0,
-    "fiftyTwoWeekHighChangePercent": -0.15421304,
-    "fiftyTwoWeekChangePercent": 18.511915,
-    "earningsTimestamp": 1778221800,
-    "earningsTimestampStart": 1785911400,
-    "earningsTimestampEnd": 1785911400,
-    "earningsCallTimestampStart": 1739444340,
-    "earningsCallTimestampEnd": 1739444340,
-    "isEarningsDateEstimate": true,
-    "epsTrailingTwelveMonths": 79.27,
-    "epsForward": 167.4,
     "fiftyDayAverageChange": -231.2998,
     "fiftyDayAverageChangePercent": -0.041665882,
     "twoHundredDayAverageChange": -173.91992,
@@ -1261,6 +1236,11 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
+    "shortName": "EZAKI GLICO CO",
+    "regularMarketChangePercent": -0.24376523,
+    "regularMarketPrice": 5320.0,
+    "marketState": "REGULAR",
+    "longName": "Ezaki Glico Co., Ltd.",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 978307200000,
     "regularMarketChange": -13.0,
@@ -1271,6 +1251,16 @@
     "fiftyTwoWeekLowChangePercent": 0.20117408,
     "fiftyTwoWeekRange": "4429.0 - 6290.0",
     "fiftyTwoWeekHighChange": -970.0,
+    "fiftyTwoWeekHighChangePercent": -0.15421304,
+    "fiftyTwoWeekChangePercent": 18.511915,
+    "earningsTimestamp": 1778221800,
+    "earningsTimestampStart": 1785911400,
+    "earningsTimestampEnd": 1785911400,
+    "earningsCallTimestampStart": 1739444340,
+    "earningsCallTimestampEnd": 1739444340,
+    "isEarningsDateEstimate": true,
+    "epsTrailingTwelveMonths": 79.27,
+    "epsForward": 167.4,
     "trailingPegRatio": null
   }
 }

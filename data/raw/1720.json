@@ -1,7 +1,7 @@
 {
   "ticker": "1720",
   "japanese_ticker": "1720.T",
-  "fetch_date": "2026-06-21T00:01:43.709824",
+  "fetch_date": "2026-06-22T00:05:39.298127",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": 503377972.790529,
@@ -1217,8 +1217,8 @@
     "averageVolume": 408467,
     "averageVolume10days": 335460,
     "averageDailyVolume10Day": 335460,
-    "bid": 1188.0,
-    "ask": 1193.0,
+    "bid": 1191.0,
+    "ask": 1191.0,
     "marketCap": 126571380736,
     "nonDilutedMarketCap": 126571380009,
     "fiftyTwoWeekLow": 997.0,
@@ -1291,6 +1291,11 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "regularMarketChangePercent": 0.16820858,
+    "regularMarketPrice": 1191.0,
+    "marketState": "REGULAR",
+    "corporateActions": [],
+    "regularMarketTime": 1781850600,
     "exchange": "JPX",
     "messageBoardId": "finmb_876114",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1298,13 +1303,9 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "regularMarketChangePercent": 0.16820858,
-    "regularMarketPrice": 1191.0,
-    "corporateActions": [],
-    "regularMarketTime": 1781850600,
-    "marketState": "CLOSED",
     "shortName": "TOKYU CONSTRUCTION CO(NEW)",
     "longName": "Tokyu Construction Co., Ltd.",
+    "cryptoTradeable": false,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1064966400000,
     "regularMarketChange": 2.0,
@@ -1328,7 +1329,6 @@
     "twoHundredDayAverageChangePercent": -0.07828397,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
     "trailingPegRatio": null
   }
 }

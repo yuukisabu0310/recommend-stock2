@@ -1,7 +1,7 @@
 {
   "ticker": "2353",
   "japanese_ticker": "2353.T",
-  "fetch_date": "2026-06-21T00:09:43.923387",
+  "fetch_date": "2026-06-22T00:13:00.450971",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-07-31 00:00:00": null,
@@ -1141,8 +1141,8 @@
     "averageVolume": 1513268,
     "averageVolume10days": 1681100,
     "averageDailyVolume10Day": 1681100,
-    "bid": 252.0,
-    "ask": 254.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 78974337024,
@@ -1216,10 +1216,8 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "regularMarketChangePercent": 0.0,
-    "regularMarketPrice": 253.0,
-    "corporateActions": [],
-    "regularMarketTime": 1781850600,
+    "shortName": "NIPPON PARKING DEVELOPMENT CO.L",
+    "longName": "NIPPON PARKING DEVELOPMENT Co.,Ltd.",
     "exchange": "JPX",
     "messageBoardId": "finmb_9464187",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1227,7 +1225,8 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "shortName": "NIPPON PARKING DEVELOPMENT CO.L",
+    "corporateActions": [],
+    "regularMarketTime": 1781850600,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1077667200000,
     "regularMarketChange": 0.0,
@@ -1245,6 +1244,9 @@
     "isEarningsDateEstimate": false,
     "epsTrailingTwelveMonths": 15.26,
     "epsForward": 16.8,
+    "regularMarketChangePercent": 0.0,
+    "regularMarketPrice": 253.0,
+    "marketState": "REGULAR",
     "fiftyDayAverageChange": 1.8999939,
     "fiftyDayAverageChangePercent": 0.007566682,
     "twoHundredDayAverageChange": -16.265015,
@@ -1253,8 +1255,6 @@
     "exchangeDataDelayedBy": 20,
     "averageAnalystRating": "1.0 - Strong Buy",
     "cryptoTradeable": false,
-    "marketState": "CLOSED",
-    "longName": "NIPPON PARKING DEVELOPMENT Co.,Ltd.",
     "trailingPegRatio": null
   }
 }

@@ -1,7 +1,7 @@
 {
   "ticker": "2459",
   "japanese_ticker": "2459.T",
-  "fetch_date": "2026-06-21T00:11:07.703272",
+  "fetch_date": "2026-06-22T00:14:15.929892",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-05-31 00:00:00": -275616.0,
@@ -889,8 +889,8 @@
     "averageVolume": 133145,
     "averageVolume10days": 166460,
     "averageDailyVolume10Day": 166460,
-    "bid": 168.0,
-    "ask": 171.0,
+    "bid": 0.0,
+    "ask": 161.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 1260470400,
@@ -966,6 +966,8 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
+    "shortName": "AUN CONSULTINGS INC",
+    "longName": "AUN CONSULTING, Inc.",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1131494400000,
     "regularMarketChange": 2.0,
@@ -991,13 +993,11 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "prevName": "AUN CONSULTING,Inc.",
-    "nameChangeDate": "2026-06-20",
+    "nameChangeDate": "2026-06-21",
+    "marketState": "REGULAR",
     "cryptoTradeable": false,
-    "marketState": "CLOSED",
     "regularMarketChangePercent": 1.2048192,
     "regularMarketPrice": 168.0,
-    "longName": "AUN CONSULTING, Inc.",
-    "shortName": "AUN CONSULTINGS INC",
     "trailingPegRatio": null
   }
 }

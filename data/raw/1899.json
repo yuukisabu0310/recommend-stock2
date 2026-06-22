@@ -1,7 +1,7 @@
 {
   "ticker": "1899",
   "japanese_ticker": "1899.T",
-  "fetch_date": "2026-06-21T00:04:04.044521",
+  "fetch_date": "2026-06-22T00:07:49.329622",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-12-31 00:00:00": -30461732.442315,
@@ -1198,8 +1198,8 @@
     "averageVolume": 24272,
     "averageVolume10days": 24770,
     "averageDailyVolume10Day": 24770,
-    "bid": 7500.0,
-    "ask": 8200.0,
+    "bid": 8230.0,
+    "ask": 8230.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 65756332032,
@@ -1266,7 +1266,17 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "marketState": "CLOSED",
+    "exchange": "JPX",
+    "messageBoardId": "finmb_876538",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
+    "marketState": "REGULAR",
+    "shortName": "FUKUDA CORP",
+    "longName": "Fukuda Corporation",
+    "regularMarketChangePercent": 1.6645327,
     "corporateActions": [
       {
         "header": "Stock split",
@@ -1279,17 +1289,11 @@
       }
     ],
     "regularMarketTime": 1781850600,
-    "shortName": "FUKUDA CORP",
-    "longName": "Fukuda Corporation",
-    "exchange": "JPX",
-    "messageBoardId": "finmb_876538",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
-    "regularMarketChangePercent": 1.6645327,
     "regularMarketPrice": 7940.0,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 978307200000,
+    "regularMarketChange": 130.0,
+    "regularMarketDayRange": "7770.0 - 8090.0",
     "fullExchangeName": "Tokyo",
     "averageDailyVolume3Month": 24272,
     "fiftyTwoWeekLowChange": 3080.0,
@@ -1309,10 +1313,6 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 978307200000,
-    "regularMarketChange": 130.0,
-    "regularMarketDayRange": "7770.0 - 8090.0",
     "trailingPegRatio": null
   }
 }

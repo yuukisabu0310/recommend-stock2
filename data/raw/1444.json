@@ -1,7 +1,7 @@
 {
   "ticker": "1444",
   "japanese_ticker": "1444.T",
-  "fetch_date": "2026-06-21T00:01:07.872867",
+  "fetch_date": "2026-06-22T00:05:07.081244",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-07-31 00:00:00": null,
@@ -1141,8 +1141,8 @@
     "averageVolume": 1675,
     "averageVolume10days": 1340,
     "averageDailyVolume10Day": 1340,
-    "bid": 2833.0,
-    "ask": 2855.0,
+    "bid": 2834.0,
+    "ask": 2895.0,
     "marketCap": 3092834304,
     "nonDilutedMarketCap": 3092834311,
     "fiftyTwoWeekLow": 2520.0,
@@ -1203,9 +1203,10 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "regularMarketChangePercent": -0.105411105,
-    "regularMarketPrice": 2843.0,
-    "marketState": "CLOSED",
+    "shortName": "NISSOU CO LTD",
+    "longName": "Nissou Co.,Ltd.",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1674518400000,
     "regularMarketChange": -3.0,
     "regularMarketDayRange": "2843.0 - 2853.0",
     "fullExchangeName": "Tokyo",
@@ -1218,6 +1219,9 @@
     "fiftyTwoWeekChangePercent": 1.0664821,
     "earningsTimestampStart": 1757572200,
     "earningsTimestampEnd": 1757917800,
+    "marketState": "REGULAR",
+    "regularMarketChangePercent": -0.105411105,
+    "regularMarketPrice": 2843.0,
     "isEarningsDateEstimate": true,
     "epsTrailingTwelveMonths": -40.09,
     "fiftyDayAverageChange": 60.52002,
@@ -1226,8 +1230,7 @@
     "twoHundredDayAverageChangePercent": 0.020605939,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1674518400000,
+    "cryptoTradeable": false,
     "corporateActions": [],
     "regularMarketTime": 1781849630,
     "exchange": "JPX",
@@ -1237,9 +1240,6 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "shortName": "NISSOU CO LTD",
-    "cryptoTradeable": false,
-    "longName": "Nissou Co.,Ltd.",
     "trailingPegRatio": null
   }
 }

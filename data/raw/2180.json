@@ -1,7 +1,7 @@
 {
   "ticker": "2180",
   "japanese_ticker": "2180.T",
-  "fetch_date": "2026-06-21T00:07:09.951069",
+  "fetch_date": "2026-06-22T00:10:39.677253",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-06-30 00:00:00": null,
@@ -1143,7 +1143,7 @@
     "averageVolume": 85600,
     "averageVolume10days": 67190,
     "averageDailyVolume10Day": 67190,
-    "bid": 1316.0,
+    "bid": 0.0,
     "ask": 1317.0,
     "bidSize": 0,
     "askSize": 0,
@@ -1211,10 +1211,6 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "regularMarketChangePercent": -0.07593014,
-    "regularMarketPrice": 1316.0,
-    "corporateActions": [],
-    "regularMarketTime": 1781850600,
     "exchange": "JPX",
     "messageBoardId": "finmb_47318901",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1223,6 +1219,7 @@
     "market": "jp_market",
     "esgPopulated": false,
     "shortName": "SUNNY SIDE UP GROUP INC",
+    "longName": "SUNNY SIDE UP GROUP Inc.",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1220572800000,
     "regularMarketChange": -1.0,
@@ -1232,6 +1229,7 @@
     "fiftyTwoWeekLowChange": 792.0,
     "fiftyTwoWeekLowChangePercent": 1.5114504,
     "fiftyTwoWeekRange": "524.0 - 1318.0",
+    "marketState": "REGULAR",
     "fiftyTwoWeekHighChange": -2.0,
     "fiftyTwoWeekHighChangePercent": -0.0015174507,
     "fiftyTwoWeekChangePercent": 145.06519,
@@ -1246,8 +1244,10 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
-    "marketState": "CLOSED",
-    "longName": "SUNNY SIDE UP GROUP Inc.",
+    "regularMarketChangePercent": -0.07593014,
+    "regularMarketPrice": 1316.0,
+    "corporateActions": [],
+    "regularMarketTime": 1781850600,
     "trailingPegRatio": null
   }
 }

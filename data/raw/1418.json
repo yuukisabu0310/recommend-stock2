@@ -1,7 +1,7 @@
 {
   "ticker": "1418",
   "japanese_ticker": "1418.T",
-  "fetch_date": "2026-06-21T00:00:41.587407",
+  "fetch_date": "2026-06-22T00:04:44.066181",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-02-28 00:00:00": 20236392.321334,
@@ -1166,8 +1166,8 @@
     "averageVolume": 75139,
     "averageVolume10days": 33540,
     "averageDailyVolume10Day": 33540,
-    "bid": 507.0,
-    "ask": 510.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 7764259840,
@@ -1236,9 +1236,6 @@
     "customPriceAlertConfidence": "LOW",
     "corporateActions": [],
     "regularMarketTime": 1781850600,
-    "regularMarketPrice": 509.0,
-    "shortName": "INTERLIFE HLDG CO LTD",
-    "longName": "Interlife Holdings Co., Ltd.",
     "exchange": "JPX",
     "messageBoardId": "finmb_9617817",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1247,11 +1244,10 @@
     "market": "jp_market",
     "esgPopulated": false,
     "regularMarketChangePercent": -0.9727626,
-    "epsTrailingTwelveMonths": 53.55,
-    "fiftyDayAverageChange": -22.080017,
-    "fiftyDayAverageChangePercent": -0.04157569,
-    "twoHundredDayAverageChange": -35.35498,
-    "twoHundredDayAverageChangePercent": -0.064948395,
+    "regularMarketPrice": 509.0,
+    "marketState": "REGULAR",
+    "shortName": "INTERLIFE HLDG CO LTD",
+    "longName": "Interlife Holdings Co., Ltd.",
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
@@ -1270,7 +1266,11 @@
     "earningsTimestampStart": 1744614000,
     "earningsTimestampEnd": 1744614000,
     "isEarningsDateEstimate": false,
-    "marketState": "CLOSED",
+    "epsTrailingTwelveMonths": 53.55,
+    "fiftyDayAverageChange": -22.080017,
+    "fiftyDayAverageChangePercent": -0.04157569,
+    "twoHundredDayAverageChange": -35.35498,
+    "twoHundredDayAverageChangePercent": -0.064948395,
     "trailingPegRatio": null
   }
 }

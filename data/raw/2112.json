@@ -1,7 +1,7 @@
 {
   "ticker": "2112",
   "japanese_ticker": "2112.T",
-  "fetch_date": "2026-06-21T00:06:03.251799",
+  "fetch_date": "2026-06-22T00:09:38.053247",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": 12360000.0,
@@ -1003,8 +1003,8 @@
     "averageVolume": 105373,
     "averageVolume10days": 64550,
     "averageDailyVolume10Day": 64550,
-    "bid": 424.0,
-    "ask": 425.0,
+    "bid": 427.0,
+    "ask": 428.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 11695852544,
@@ -1071,9 +1071,7 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "marketState": "CLOSED",
-    "regularMarketChangePercent": 0.7109004,
-    "regularMarketPrice": 425.0,
+    "marketState": "REGULAR",
     "corporateActions": [],
     "regularMarketTime": 1781850600,
     "exchange": "JPX",
@@ -1083,7 +1081,8 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "regularMarketChange": 3.0,
+    "shortName": "ENSUIKO SUGAR REFINING CO",
+    "longName": "Ensuiko Sugar Refining Co., Ltd.",
     "regularMarketDayRange": "421.0 - 427.0",
     "fullExchangeName": "Tokyo",
     "averageDailyVolume3Month": 105373,
@@ -1104,10 +1103,11 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
+    "regularMarketChangePercent": 0.7109004,
+    "regularMarketPrice": 425.0,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 978307200000,
-    "shortName": "ENSUIKO SUGAR REFINING CO",
-    "longName": "Ensuiko Sugar Refining Co., Ltd.",
+    "regularMarketChange": 3.0,
     "trailingPegRatio": null
   }
 }

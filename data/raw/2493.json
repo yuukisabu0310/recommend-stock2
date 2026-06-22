@@ -1,7 +1,7 @@
 {
   "ticker": "2493",
   "japanese_ticker": "2493.T",
-  "fetch_date": "2026-06-21T00:11:47.271487",
+  "fetch_date": "2026-06-22T00:14:51.768970",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-11-30 00:00:00": -11137392.0,
@@ -1175,8 +1175,8 @@
     "averageVolume": 13219,
     "averageVolume10days": 5420,
     "averageDailyVolume10Day": 5420,
-    "bid": 920.0,
-    "ask": 922.0,
+    "bid": 0.0,
+    "ask": 920.0,
     "marketCap": 4070501376,
     "nonDilutedMarketCap": 4070501360,
     "fiftyTwoWeekLow": 897.0,
@@ -1241,8 +1241,6 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "corporateActions": [],
-    "regularMarketTime": 1781850600,
     "exchange": "JPX",
     "messageBoardId": "finmb_27941528",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1250,11 +1248,7 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "regularMarketChangePercent": -0.10857764,
-    "regularMarketPrice": 920.0,
-    "shortName": "E SUPPORTLINK LTD",
-    "longName": "E-SUPPORTLINK, Ltd.",
-    "marketState": "CLOSED",
+    "epsTrailingTwelveMonths": 33.21,
     "fiftyDayAverageChange": -51.539978,
     "fiftyDayAverageChangePercent": -0.053049777,
     "twoHundredDayAverageChange": -47.09497,
@@ -1262,6 +1256,9 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
+    "shortName": "E SUPPORTLINK LTD",
+    "longName": "E-SUPPORTLINK, Ltd.",
+    "marketState": "REGULAR",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1155168000000,
     "regularMarketChange": -1.0,
@@ -1279,7 +1276,10 @@
     "earningsCallTimestampStart": 1738148340,
     "earningsCallTimestampEnd": 1738148340,
     "isEarningsDateEstimate": true,
-    "epsTrailingTwelveMonths": 33.21,
+    "corporateActions": [],
+    "regularMarketTime": 1781850600,
+    "regularMarketChangePercent": -0.10857764,
+    "regularMarketPrice": 920.0,
     "trailingPegRatio": null
   }
 }

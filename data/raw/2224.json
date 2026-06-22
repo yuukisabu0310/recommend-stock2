@@ -1,7 +1,7 @@
 {
   "ticker": "2224",
   "japanese_ticker": "2224.T",
-  "fetch_date": "2026-06-21T00:08:00.500902",
+  "fetch_date": "2026-06-22T00:11:24.769083",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": -1953920.0,
@@ -989,8 +989,8 @@
     "averageVolume": 2609,
     "averageVolume10days": 1220,
     "averageDailyVolume10Day": 1220,
-    "bid": 3625.0,
-    "ask": 3650.0,
+    "bid": 3600.0,
+    "ask": 3600.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 12681991168,
@@ -1055,11 +1055,9 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "cryptoTradeable": false,
+    "marketState": "REGULAR",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 946944000000,
-    "regularMarketChange": 10.0,
-    "regularMarketDayRange": "3625.0 - 3650.0",
     "corporateActions": [],
     "regularMarketTime": 1781845080,
     "exchange": "JPX",
@@ -1070,10 +1068,11 @@
     "market": "jp_market",
     "esgPopulated": false,
     "shortName": "COMO CO LTD",
-    "longName": "Como Co.,Ltd.",
-    "marketState": "CLOSED",
     "regularMarketChangePercent": 0.2747253,
     "regularMarketPrice": 3650.0,
+    "longName": "Como Co.,Ltd.",
+    "regularMarketChange": 10.0,
+    "regularMarketDayRange": "3625.0 - 3650.0",
     "fullExchangeName": "Tokyo",
     "averageDailyVolume3Month": 2609,
     "fiftyTwoWeekLowChange": 520.0,
@@ -1092,6 +1091,7 @@
     "twoHundredDayAverageChangePercent": 0.040382534,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
     "trailingPegRatio": null
   }
 }

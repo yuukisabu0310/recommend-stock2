@@ -1,7 +1,7 @@
 {
   "ticker": "1887",
   "japanese_ticker": "1887.T",
-  "fetch_date": "2026-06-21T00:03:52.903202",
+  "fetch_date": "2026-06-22T00:07:39.001269",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-05-31 00:00:00": 107051000.0,
@@ -1060,13 +1060,6 @@
         "title": "Executive Officer",
         "exercisedValue": 0,
         "unexercisedValue": 0
-      },
-      {
-        "maxAge": 1,
-        "name": "Yukio  Hasegawa",
-        "title": "Managing Executive Officer & GM of Construction Business Division",
-        "exercisedValue": 0,
-        "unexercisedValue": 0
       }
     ],
     "executiveTeam": [],
@@ -1092,8 +1085,8 @@
     "averageVolume": 398259,
     "averageVolume10days": 274180,
     "averageDailyVolume10Day": 274180,
-    "bid": 533.0,
-    "ask": 535.0,
+    "bid": 0.0,
+    "ask": 533.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 42584502272,
@@ -1156,7 +1149,9 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "longName": "JDC Corporation",
+    "cryptoTradeable": false,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1551744000000,
     "regularMarketChange": -3.0,
     "regularMarketDayRange": "531.0 - 541.0",
     "fullExchangeName": "Tokyo",
@@ -1177,11 +1172,8 @@
     "twoHundredDayAverageChangePercent": -0.06516693,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
-    "regularMarketChangePercent": -0.5586592,
-    "regularMarketPrice": 534.0,
-    "cryptoTradeable": false,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1551744000000,
+    "longName": "JDC Corporation",
+    "shortName": "JDC CORPORATION",
     "corporateActions": [],
     "regularMarketTime": 1781850600,
     "exchange": "JPX",
@@ -1191,8 +1183,9 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "marketState": "CLOSED",
-    "shortName": "JDC CORPORATION",
+    "regularMarketChangePercent": -0.5586592,
+    "regularMarketPrice": 534.0,
+    "marketState": "REGULAR",
     "trailingPegRatio": null
   }
 }

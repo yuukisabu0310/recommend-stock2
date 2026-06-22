@@ -1,7 +1,7 @@
 {
   "ticker": "2461",
   "japanese_ticker": "2461.T",
-  "fetch_date": "2026-06-21T00:11:10.147817",
+  "fetch_date": "2026-06-22T00:14:18.150831",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-12-31 00:00:00": -8426220.0,
@@ -1021,8 +1021,8 @@
     "averageVolume": 72726,
     "averageVolume10days": 53030,
     "averageDailyVolume10Day": 53030,
-    "bid": 413.0,
-    "ask": 415.0,
+    "bid": 411.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 27115857920,
@@ -1089,10 +1089,17 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "marketState": "REGULAR",
     "regularMarketChangePercent": -1.6666667,
     "regularMarketPrice": 413.0,
-    "corporateActions": [],
-    "marketState": "CLOSED",
+    "regularMarketChange": -7.0,
+    "regularMarketDayRange": "413.0 - 420.0",
+    "fullExchangeName": "Tokyo",
+    "averageDailyVolume3Month": 72726,
+    "fiftyTwoWeekLowChange": 13.0,
+    "fiftyTwoWeekLowChangePercent": 0.0325,
+    "fiftyTwoWeekRange": "400.0 - 549.0",
+    "fiftyTwoWeekHighChange": -136.0,
     "fiftyTwoWeekHighChangePercent": -0.24772313,
     "fiftyTwoWeekChangePercent": -5.92255,
     "earningsTimestampStart": 1754460000,
@@ -1107,7 +1114,23 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "prevName": "F@N Communications, Inc.",
-    "nameChangeDate": "2026-06-20",
+    "nameChangeDate": "2026-06-21",
+    "cryptoTradeable": false,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1133308800000,
+    "shortName": "FAN COMMUNICATIONS INC",
+    "longName": "FAN Communications, Inc.",
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "2461.T announced a cash dividend of JPY 10.50 with an ex-date of Jun. 29, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1782658800000,
+          "amount": "10.50"
+        }
+      }
+    ],
     "regularMarketTime": 1781850600,
     "exchange": "JPX",
     "messageBoardId": "finmb_24526940",
@@ -1116,19 +1139,6 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1133308800000,
-    "regularMarketChange": -7.0,
-    "regularMarketDayRange": "413.0 - 420.0",
-    "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 72726,
-    "fiftyTwoWeekLowChange": 13.0,
-    "fiftyTwoWeekLowChangePercent": 0.0325,
-    "fiftyTwoWeekRange": "400.0 - 549.0",
-    "fiftyTwoWeekHighChange": -136.0,
-    "cryptoTradeable": false,
-    "shortName": "FAN COMMUNICATIONS INC",
-    "longName": "FAN Communications, Inc.",
     "trailingPegRatio": null
   }
 }

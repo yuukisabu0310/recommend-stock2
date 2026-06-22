@@ -1,7 +1,7 @@
 {
   "ticker": "1788",
   "japanese_ticker": "1788.T",
-  "fetch_date": "2026-06-21T00:02:20.331170",
+  "fetch_date": "2026-06-22T00:06:15.010402",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-06-30 00:00:00": null,
@@ -1086,7 +1086,7 @@
     "averageVolume10days": 630,
     "averageDailyVolume10Day": 630,
     "bid": 4500.0,
-    "ask": 4520.0,
+    "ask": 4550.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 2839639552,
@@ -1153,9 +1153,39 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "marketState": "REGULAR",
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "1788.T announced a cash dividend of JPY 130.00 with an ex-date of Jun. 29, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1782658800000,
+          "amount": "130.00"
+        }
+      }
+    ],
+    "regularMarketTime": 1781848412,
     "regularMarketChangePercent": 0.6666667,
     "regularMarketPrice": 4530.0,
-    "marketState": "CLOSED",
+    "exchange": "JPX",
+    "messageBoardId": "finmb_5827070",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
+    "earningsTimestampStart": 1746597600,
+    "earningsTimestampEnd": 1746597600,
+    "isEarningsDateEstimate": false,
+    "epsTrailingTwelveMonths": 518.69,
+    "fiftyDayAverageChange": -189.7002,
+    "fiftyDayAverageChangePercent": -0.04019327,
+    "twoHundredDayAverageChange": -279.3252,
+    "twoHundredDayAverageChangePercent": -0.058079913,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
     "shortName": "SANTO CORPORATION",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 947116800000,
@@ -1169,37 +1199,7 @@
     "fiftyTwoWeekHighChange": -1870.0,
     "fiftyTwoWeekHighChangePercent": -0.2921875,
     "fiftyTwoWeekChangePercent": 12.546587,
-    "earningsTimestampStart": 1746597600,
-    "earningsTimestampEnd": 1746597600,
     "longName": "Santo Corporation",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
-    "isEarningsDateEstimate": false,
-    "epsTrailingTwelveMonths": 518.69,
-    "fiftyDayAverageChange": -189.7002,
-    "fiftyDayAverageChangePercent": -0.04019327,
-    "twoHundredDayAverageChange": -279.3252,
-    "twoHundredDayAverageChangePercent": -0.058079913,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
-    "corporateActions": [
-      {
-        "header": "Dividend",
-        "message": "1788.T announced a cash dividend of JPY 130.00 with an ex-date of Jun. 29, 2026",
-        "meta": {
-          "eventType": "DIVIDEND",
-          "dateEpochMs": 1782658800000,
-          "amount": "130.00"
-        }
-      }
-    ],
-    "regularMarketTime": 1781848412,
-    "exchange": "JPX",
-    "messageBoardId": "finmb_5827070",
     "trailingPegRatio": null
   }
 }

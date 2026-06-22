@@ -1,7 +1,7 @@
 {
   "ticker": "2410",
   "japanese_ticker": "2410.T",
-  "fetch_date": "2026-06-21T00:10:26.617763",
+  "fetch_date": "2026-06-22T00:13:38.261170",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-09-30 00:00:00": -53659.8,
@@ -1075,8 +1075,8 @@
     "averageVolume": 25086,
     "averageVolume10days": 46140,
     "averageDailyVolume10Day": 46140,
-    "bid": 2876.0,
-    "ask": 2878.0,
+    "bid": 0.0,
+    "ask": 2880.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 15204339712,
@@ -1147,8 +1147,6 @@
     "customPriceAlertConfidence": "LOW",
     "corporateActions": [],
     "regularMarketTime": 1781850600,
-    "regularMarketChangePercent": 2.4946542,
-    "regularMarketPrice": 2876.0,
     "exchange": "JPX",
     "messageBoardId": "finmb_2119557",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1156,13 +1154,17 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
+    "shortName": "CAREER DESIGN CENTER CO.LTD.",
+    "longName": "Career Design Center Co., Ltd.",
+    "regularMarketChangePercent": 2.4946542,
+    "regularMarketPrice": 2876.0,
+    "fiftyDayAverageChange": 366.76,
     "fiftyDayAverageChangePercent": 0.14616378,
     "twoHundredDayAverageChange": 464.34497,
     "twoHundredDayAverageChangePercent": 0.19254203,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
-    "marketState": "CLOSED",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1132272000000,
     "regularMarketChange": 70.0,
@@ -1180,9 +1182,7 @@
     "isEarningsDateEstimate": true,
     "epsTrailingTwelveMonths": 219.15,
     "epsForward": 135.9,
-    "fiftyDayAverageChange": 366.76,
-    "shortName": "CAREER DESIGN CENTER CO.LTD.",
-    "longName": "Career Design Center Co., Ltd.",
+    "marketState": "REGULAR",
     "trailingPegRatio": null
   }
 }

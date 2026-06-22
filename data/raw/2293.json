@@ -1,7 +1,7 @@
 {
   "ticker": "2293",
   "japanese_ticker": "2293.T",
-  "fetch_date": "2026-06-21T00:08:33.492199",
+  "fetch_date": "2026-06-22T00:11:53.558604",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": -1130768.0,
@@ -944,8 +944,8 @@
     "averageVolume": 980,
     "averageVolume10days": 670,
     "averageDailyVolume10Day": 670,
-    "bid": 2653.0,
-    "ask": 2720.0,
+    "bid": 2654.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 5448017920,
@@ -1012,9 +1012,10 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "marketState": "CLOSED",
     "regularMarketChangePercent": -0.63670415,
     "regularMarketPrice": 2653.0,
+    "marketState": "REGULAR",
+    "shortName": "TAKIZAWA HAM CO",
     "corporateActions": [],
     "regularMarketTime": 1781850600,
     "exchange": "JPX",
@@ -1024,6 +1025,8 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 948067200000,
     "regularMarketChange": -17.0,
     "regularMarketDayRange": "2653.0 - 2666.0",
     "fullExchangeName": "Tokyo",
@@ -1045,9 +1048,6 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 948067200000,
-    "shortName": "TAKIZAWA HAM CO",
     "longName": "Takizawa Ham Co., Ltd.",
     "trailingPegRatio": null
   }

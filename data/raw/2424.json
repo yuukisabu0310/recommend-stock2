@@ -1,7 +1,7 @@
 {
   "ticker": "2424",
   "japanese_ticker": "2424.T",
-  "fetch_date": "2026-06-21T00:10:37.553261",
+  "fetch_date": "2026-06-22T00:13:48.704727",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2024-07-31 00:00:00": -2135560.0,
@@ -1041,7 +1041,7 @@
     "averageVolume": 2167,
     "averageVolume10days": 2560,
     "averageDailyVolume10Day": 2560,
-    "bid": 609.0,
+    "bid": 0.0,
     "ask": 612.0,
     "marketCap": 3255020544,
     "nonDilutedMarketCap": 3255020532,
@@ -1107,11 +1107,9 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "cryptoTradeable": false,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1457481600000,
-    "regularMarketChange": 9.0,
-    "regularMarketDayRange": "609.0 - 613.0",
+    "marketState": "REGULAR",
+    "regularMarketChangePercent": 1.4925373,
+    "regularMarketPrice": 612.0,
     "corporateActions": [],
     "regularMarketTime": 1781850600,
     "exchange": "JPX",
@@ -1121,11 +1119,8 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "shortName": "BRASS CORPORATION",
-    "longName": "Brass Corporation",
-    "marketState": "CLOSED",
-    "regularMarketChangePercent": 1.4925373,
-    "regularMarketPrice": 612.0,
+    "regularMarketChange": 9.0,
+    "regularMarketDayRange": "609.0 - 613.0",
     "fullExchangeName": "Tokyo",
     "averageDailyVolume3Month": 2167,
     "fiftyTwoWeekLowChange": 21.0,
@@ -1144,6 +1139,11 @@
     "twoHundredDayAverageChangePercent": -0.036478397,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1457481600000,
+    "shortName": "BRASS CORPORATION",
+    "longName": "Brass Corporation",
     "trailingPegRatio": null
   }
 }

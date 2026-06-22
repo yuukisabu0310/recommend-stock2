@@ -1,7 +1,7 @@
 {
   "ticker": "2300",
   "japanese_ticker": "2300.T",
-  "fetch_date": "2026-06-21T00:08:39.990825",
+  "fetch_date": "2026-06-22T00:12:02.641976",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-02-28 00:00:00": -2586800.0,
@@ -1328,8 +1328,8 @@
     "averageVolume": 1914,
     "averageVolume10days": 1670,
     "averageDailyVolume10Day": 1670,
-    "bid": 493.0,
-    "ask": 496.0,
+    "bid": 496.0,
+    "ask": 500.0,
     "marketCap": 2604193024,
     "nonDilutedMarketCap": 2604193020,
     "fiftyTwoWeekLow": 475.0,
@@ -1394,10 +1394,6 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1019692800000,
-    "shortName": "KYOKUTO CO LTD",
-    "longName": "Kyokuto Co., Ltd.",
     "corporateActions": [],
     "regularMarketTime": 1781842386,
     "exchange": "JPX",
@@ -1407,9 +1403,8 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "marketState": "CLOSED",
-    "regularMarketChangePercent": 0.4056795,
-    "regularMarketPrice": 495.0,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1019692800000,
     "regularMarketChange": 2.0,
     "regularMarketDayRange": "492.0 - 496.0",
     "fullExchangeName": "Tokyo",
@@ -1431,6 +1426,11 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
+    "marketState": "REGULAR",
+    "regularMarketChangePercent": 0.4056795,
+    "regularMarketPrice": 495.0,
+    "longName": "Kyokuto Co., Ltd.",
+    "shortName": "KYOKUTO CO LTD",
     "trailingPegRatio": null
   }
 }

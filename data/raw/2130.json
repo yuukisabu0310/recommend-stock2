@@ -1,7 +1,7 @@
 {
   "ticker": "2130",
   "japanese_ticker": "2130.T",
-  "fetch_date": "2026-06-21T00:06:20.603747",
+  "fetch_date": "2026-06-22T00:09:54.655762",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": 0.0,
@@ -939,8 +939,8 @@
     "averageVolume": 117067,
     "averageVolume10days": 131170,
     "averageDailyVolume10Day": 131170,
-    "bid": 1047.0,
-    "ask": 1059.0,
+    "bid": 0.0,
+    "ask": 1092.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 13484580864,
@@ -1016,11 +1016,11 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "marketState": "CLOSED",
+    "marketState": "REGULAR",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1461196800000,
     "corporateActions": [],
     "regularMarketTime": 1781850600,
-    "shortName": "MEMBERS CO LTD",
-    "longName": "Members Co., Ltd.",
     "exchange": "JPX",
     "messageBoardId": "finmb_544045",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1028,8 +1028,12 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
+    "shortName": "MEMBERS CO LTD",
     "regularMarketChangePercent": -1.9571295,
     "regularMarketPrice": 1052.0,
+    "longName": "Members Co., Ltd.",
+    "regularMarketChange": -21.0,
+    "regularMarketDayRange": "1045.0 - 1080.0",
     "fullExchangeName": "Tokyo",
     "averageDailyVolume3Month": 117067,
     "fiftyTwoWeekLowChange": 127.0,
@@ -1051,10 +1055,6 @@
     "exchangeDataDelayedBy": 20,
     "averageAnalystRating": "0.0 - Strong Buy",
     "cryptoTradeable": false,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1461196800000,
-    "regularMarketChange": -21.0,
-    "regularMarketDayRange": "1045.0 - 1080.0",
     "trailingPegRatio": null
   }
 }

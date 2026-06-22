@@ -1,7 +1,7 @@
 {
   "ticker": "1382",
   "japanese_ticker": "1382.T",
-  "fetch_date": "2026-06-21T00:00:25.895972",
+  "fetch_date": "2026-06-22T00:04:28.513387",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-06-30 00:00:00": 556950.0,
@@ -1059,8 +1059,8 @@
     "averageVolume": 1739,
     "averageVolume10days": 1290,
     "averageDailyVolume10Day": 1290,
-    "bid": 1420.0,
-    "ask": 1492.0,
+    "bid": 0.0,
+    "ask": 1540.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 1089116544,
@@ -1127,22 +1127,8 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "shortName": "HOB CO.LTD",
-    "regularMarketChangePercent": 0.3508772,
-    "regularMarketPrice": 1430.0,
-    "marketState": "CLOSED",
     "longName": "HOB Co.,Ltd.",
-    "earningsTimestampStart": 1746684000,
-    "earningsTimestampEnd": 1746684000,
-    "isEarningsDateEstimate": false,
-    "epsTrailingTwelveMonths": -9.3,
-    "fiftyDayAverageChange": -140.35999,
-    "fiftyDayAverageChangePercent": -0.08938077,
-    "twoHundredDayAverageChange": -407.21497,
-    "twoHundredDayAverageChangePercent": -0.22164796,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
+    "shortName": "HOB CO.LTD",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1122854400000,
     "regularMarketChange": 5.0,
@@ -1155,7 +1141,29 @@
     "fiftyTwoWeekHighChange": -2215.0,
     "fiftyTwoWeekHighChangePercent": -0.60768175,
     "fiftyTwoWeekChangePercent": -29.347824,
-    "corporateActions": [],
+    "earningsTimestampStart": 1746684000,
+    "earningsTimestampEnd": 1746684000,
+    "isEarningsDateEstimate": false,
+    "epsTrailingTwelveMonths": -9.3,
+    "fiftyDayAverageChange": -140.35999,
+    "fiftyDayAverageChangePercent": -0.08938077,
+    "twoHundredDayAverageChange": -407.21497,
+    "twoHundredDayAverageChangePercent": -0.22164796,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
+    "marketState": "REGULAR",
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "1382.T announced a cash dividend of JPY 50.00 with an ex-date of Jun. 29, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1782658800000,
+          "amount": "50.00"
+        }
+      }
+    ],
     "regularMarketTime": 1781850218,
     "exchange": "JPX",
     "messageBoardId": "finmb_22829189",
@@ -1164,6 +1172,8 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
+    "regularMarketChangePercent": 0.3508772,
+    "regularMarketPrice": 1430.0,
     "trailingPegRatio": null
   }
 }

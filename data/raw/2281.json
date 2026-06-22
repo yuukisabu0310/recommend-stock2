@@ -1,7 +1,7 @@
 {
   "ticker": "2281",
   "japanese_ticker": "2281.T",
-  "fetch_date": "2026-06-21T00:08:20.050430",
+  "fetch_date": "2026-06-22T00:11:42.199170",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": null,
@@ -1185,8 +1185,8 @@
     "averageVolume": 102024,
     "averageVolume10days": 87360,
     "averageDailyVolume10Day": 87360,
-    "bid": 2318.0,
-    "ask": 2329.0,
+    "bid": 0.0,
+    "ask": 2319.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 116558381056,
@@ -1259,9 +1259,9 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "marketState": "CLOSED",
     "regularMarketChangePercent": 0.0,
     "regularMarketPrice": 2319.0,
+    "marketState": "REGULAR",
     "corporateActions": [],
     "regularMarketTime": 1781850600,
     "exchange": "JPX",
@@ -1271,6 +1271,11 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
+    "shortName": "PRIMA MEAT PACKERS",
+    "longName": "Prima Meat Packers, Ltd.",
+    "cryptoTradeable": false,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 978307200000,
     "regularMarketChange": 0.0,
     "regularMarketDayRange": "2300.0 - 2335.0",
     "fullExchangeName": "Tokyo",
@@ -1294,11 +1299,6 @@
     "twoHundredDayAverageChangePercent": -0.099445485,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 978307200000,
-    "shortName": "PRIMA MEAT PACKERS",
-    "longName": "Prima Meat Packers, Ltd.",
     "trailingPegRatio": null
   }
 }

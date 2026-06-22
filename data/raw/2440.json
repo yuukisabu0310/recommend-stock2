@@ -1,7 +1,7 @@
 {
   "ticker": "2440",
   "japanese_ticker": "2440.T",
-  "fetch_date": "2026-06-21T00:10:59.012917",
+  "fetch_date": "2026-06-22T00:14:08.438979",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": -2390574.0,
@@ -1002,7 +1002,7 @@
     "averageVolume": 147100,
     "averageVolume10days": 145730,
     "averageDailyVolume10Day": 145730,
-    "bid": 116.0,
+    "bid": 0.0,
     "ask": 118.0,
     "bidSize": 0,
     "askSize": 0,
@@ -1081,11 +1081,10 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "marketState": "CLOSED",
+    "shortName": "GURUNAVI INC",
+    "longName": "Gurunavi, Inc.",
     "regularMarketChangePercent": -2.5,
     "regularMarketPrice": 117.0,
-    "epsTrailingTwelveMonths": 4.18,
-    "epsForward": -11.5,
     "fiftyDayAverageChange": -17.080002,
     "fiftyDayAverageChangePercent": -0.12738664,
     "twoHundredDayAverageChange": -50.5,
@@ -1110,8 +1109,9 @@
     "earningsCallTimestampStart": 1747047540,
     "earningsCallTimestampEnd": 1747047540,
     "isEarningsDateEstimate": false,
-    "shortName": "GURUNAVI INC",
-    "longName": "Gurunavi, Inc.",
+    "epsTrailingTwelveMonths": 4.18,
+    "epsForward": -11.5,
+    "marketState": "REGULAR",
     "trailingPegRatio": null
   }
 }

@@ -1,7 +1,7 @@
 {
   "ticker": "1820",
   "japanese_ticker": "1820.T",
-  "fetch_date": "2026-06-21T00:02:55.041651",
+  "fetch_date": "2026-06-22T00:06:47.337414",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": 1967694000.0,
@@ -1248,8 +1248,8 @@
     "averageVolume": 130724,
     "averageVolume10days": 117980,
     "averageDailyVolume10Day": 117980,
-    "bid": 5380.0,
-    "ask": 5416.0,
+    "bid": 5444.0,
+    "ask": 5444.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 212544700416,
@@ -1325,7 +1325,8 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "longName": "Nishimatsu Construction Co., Ltd.",
+    "regularMarketChangePercent": -0.9931948,
+    "regularMarketPrice": 5383.0,
     "regularMarketChange": -54.0,
     "regularMarketDayRange": "5373.0 - 5448.0",
     "fullExchangeName": "Tokyo",
@@ -1348,10 +1349,11 @@
     "twoHundredDayAverageChangePercent": -0.052309588,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
+    "shortName": "NISHIMATSU CONSTRUCTION CO",
+    "longName": "Nishimatsu Construction Co., Ltd.",
     "averageAnalystRating": "2.4 - Buy",
-    "regularMarketChangePercent": -0.9931948,
-    "regularMarketPrice": 5383.0,
     "cryptoTradeable": false,
+    "marketState": "REGULAR",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 978307200000,
     "corporateActions": [],
@@ -1363,8 +1365,6 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "marketState": "CLOSED",
-    "shortName": "NISHIMATSU CONSTRUCTION CO",
     "trailingPegRatio": null
   }
 }

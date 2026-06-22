@@ -1,7 +1,7 @@
 {
   "ticker": "1766",
   "japanese_ticker": "1766.T",
-  "fetch_date": "2026-06-21T00:02:02.797565",
+  "fetch_date": "2026-06-22T00:05:56.952209",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-04-30 00:00:00": 65444942.044257,
@@ -810,7 +810,7 @@
     "averageVolume": 50147,
     "averageVolume10days": 28640,
     "averageDailyVolume10Day": 28640,
-    "bid": 12360.0,
+    "bid": 12460.0,
     "ask": 12460.0,
     "bidSize": 0,
     "askSize": 0,
@@ -881,10 +881,11 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "regularMarketChangePercent": -0.7194245,
-    "regularMarketPrice": 12420.0,
+    "marketState": "REGULAR",
     "corporateActions": [],
     "regularMarketTime": 1781850600,
+    "shortName": "TOKEN CORPORATION",
+    "longName": "Token Corporation",
     "exchange": "JPX",
     "messageBoardId": "finmb_6458579",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -892,11 +893,8 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "shortName": "TOKEN CORPORATION",
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1016582400000,
-    "regularMarketChange": -90.0,
-    "regularMarketDayRange": "12370.0 - 12670.0",
+    "regularMarketChangePercent": -0.7194245,
+    "regularMarketPrice": 12420.0,
     "fullExchangeName": "Tokyo",
     "averageDailyVolume3Month": 50147,
     "fiftyTwoWeekLowChange": 620.0,
@@ -918,8 +916,10 @@
     "exchangeDataDelayedBy": 20,
     "averageAnalystRating": "0.0 - Strong Buy",
     "cryptoTradeable": false,
-    "marketState": "CLOSED",
-    "longName": "Token Corporation",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1016582400000,
+    "regularMarketChange": -90.0,
+    "regularMarketDayRange": "12370.0 - 12670.0",
     "trailingPegRatio": null
   }
 }

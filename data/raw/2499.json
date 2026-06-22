@@ -1,7 +1,7 @@
 {
   "ticker": "2499",
   "japanese_ticker": "2499.T",
-  "fetch_date": "2026-06-21T00:11:54.249468",
+  "fetch_date": "2026-06-22T00:14:57.165124",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-12-31 00:00:00": 8170565.0,
@@ -970,7 +970,7 @@
     "averageVolume": 16562,
     "averageVolume10days": 19490,
     "averageDailyVolume10Day": 19490,
-    "bid": 268.0,
+    "bid": 0.0,
     "ask": 270.0,
     "bidSize": 0,
     "askSize": 0,
@@ -1036,19 +1036,7 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "longName": "Nihonwasou Holdings, Inc.",
-    "marketState": "CLOSED",
-    "corporateActions": [
-      {
-        "header": "Dividend",
-        "message": "2499.T announced a cash dividend of JPY 3.00 with an ex-date of Jun. 29, 2026",
-        "meta": {
-          "eventType": "DIVIDEND",
-          "dateEpochMs": 1782658800000,
-          "amount": "3.00"
-        }
-      }
-    ],
+    "corporateActions": [],
     "regularMarketTime": 1781850600,
     "exchange": "JPX",
     "messageBoardId": "finmb_28606947",
@@ -1057,12 +1045,6 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "fiftyDayAverageChangePercent": -0.094824664,
-    "twoHundredDayAverageChange": -75.85501,
-    "twoHundredDayAverageChangePercent": -0.21996203,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1266883200000,
     "regularMarketChange": -7.0,
@@ -1079,10 +1061,18 @@
     "earningsTimestampEnd": 1755496800,
     "isEarningsDateEstimate": true,
     "epsTrailingTwelveMonths": 25.5,
-    "fiftyDayAverageChange": -28.179993,
-    "shortName": "NIHONWASOU HOLDINGS INC",
     "regularMarketChangePercent": -2.5362318,
     "regularMarketPrice": 269.0,
+    "fiftyDayAverageChange": -28.179993,
+    "fiftyDayAverageChangePercent": -0.094824664,
+    "twoHundredDayAverageChange": -75.85501,
+    "twoHundredDayAverageChangePercent": -0.21996203,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
+    "marketState": "REGULAR",
+    "shortName": "NIHONWASOU HOLDINGS INC",
+    "longName": "Nihonwasou Holdings, Inc.",
     "trailingPegRatio": null
   }
 }

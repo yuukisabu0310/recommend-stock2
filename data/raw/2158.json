@@ -1,7 +1,7 @@
 {
   "ticker": "2158",
   "japanese_ticker": "2158.T",
-  "fetch_date": "2026-06-21T00:06:46.675572",
+  "fetch_date": "2026-06-22T00:10:18.638081",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": -68997264.0,
@@ -1050,7 +1050,7 @@
     "averageVolume10days": 230880,
     "averageDailyVolume10Day": 230880,
     "bid": 580.0,
-    "ask": 583.0,
+    "ask": 581.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 22725271552,
@@ -1137,12 +1137,19 @@
     "earningsTimestamp": 1778826600,
     "earningsTimestampStart": 1786602600,
     "earningsTimestampEnd": 1786602600,
+    "marketState": "REGULAR",
+    "regularMarketChangePercent": -1.5280136,
+    "regularMarketPrice": 580.0,
     "isEarningsDateEstimate": true,
     "epsTrailingTwelveMonths": 13.86,
     "epsForward": 10.7,
     "fiftyDayAverageChange": -117.44,
     "fiftyDayAverageChangePercent": -0.16838725,
     "twoHundredDayAverageChange": -262.26,
+    "twoHundredDayAverageChangePercent": -0.31137654,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
     "corporateActions": [],
     "regularMarketTime": 1781850600,
     "exchange": "JPX",
@@ -1152,13 +1159,6 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "marketState": "CLOSED",
-    "regularMarketChangePercent": -1.5280136,
-    "regularMarketPrice": 580.0,
-    "twoHundredDayAverageChangePercent": -0.31137654,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
     "trailingPegRatio": null
   }
 }

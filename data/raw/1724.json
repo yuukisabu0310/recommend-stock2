@@ -1,7 +1,7 @@
 {
   "ticker": "1724",
   "japanese_ticker": "1724.T",
-  "fetch_date": "2026-06-21T00:01:49.678228",
+  "fetch_date": "2026-06-22T00:05:45.038416",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-12-31 00:00:00": -2142000.0,
@@ -1119,8 +1119,8 @@
     "averageVolume": 4931,
     "averageVolume10days": 5560,
     "averageDailyVolume10Day": 5560,
-    "bid": 698.0,
-    "ask": 703.0,
+    "bid": 0.0,
+    "ask": 710.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 3121332480,
@@ -1185,12 +1185,6 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1045612800000,
-    "shortName": "SYNCLAYER INC",
-    "longName": "Synclayer Inc.",
-    "corporateActions": [],
-    "regularMarketTime": 1781850600,
     "exchange": "JPX",
     "messageBoardId": "finmb_9237269",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1198,9 +1192,25 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "marketState": "CLOSED",
+    "marketState": "REGULAR",
+    "shortName": "SYNCLAYER INC",
+    "longName": "Synclayer Inc.",
     "regularMarketChangePercent": 0.7215007,
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "1724.T announced a cash dividend of JPY 10.00 with an ex-date of Jun. 29, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1782658800000,
+          "amount": "10.00"
+        }
+      }
+    ],
+    "regularMarketTime": 1781850600,
     "regularMarketPrice": 698.0,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1045612800000,
     "regularMarketChange": 5.0,
     "regularMarketDayRange": "698.0 - 705.0",
     "fullExchangeName": "Tokyo",

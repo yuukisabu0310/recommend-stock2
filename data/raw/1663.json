@@ -1,7 +1,7 @@
 {
   "ticker": "1663",
   "japanese_ticker": "1663.T",
-  "fetch_date": "2026-06-21T00:01:30.371714",
+  "fetch_date": "2026-06-22T00:05:27.950855",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-12-31 00:00:00": 422507616.14623,
@@ -954,15 +954,6 @@
     "companyOfficers": [
       {
         "maxAge": 1,
-        "name": "Akio  Midorikawa",
-        "age": 67,
-        "title": "Executive Officer, President & Chairman",
-        "yearBorn": 1958,
-        "exercisedValue": 0,
-        "unexercisedValue": 0
-      },
-      {
-        "maxAge": 1,
         "name": "Mr. Nobuhiko  Yashiro",
         "age": 60,
         "title": "Executive Officer, GM of Accounting Department & Director",
@@ -1013,8 +1004,8 @@
     "averageVolume": 177731,
     "averageVolume10days": 124540,
     "averageDailyVolume10Day": 124540,
-    "bid": 3890.0,
-    "ask": 3900.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 103873552384,
@@ -1081,6 +1072,7 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "marketState": "REGULAR",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1389052800000,
     "regularMarketChange": 40.0,
@@ -1098,8 +1090,22 @@
     "isEarningsDateEstimate": true,
     "epsTrailingTwelveMonths": 312.76,
     "epsForward": 150.1,
-    "marketState": "CLOSED",
+    "fiftyDayAverageChange": -550.5,
+    "fiftyDayAverageChangePercent": -0.12397253,
+    "twoHundredDayAverageChange": -240.2749,
+    "twoHundredDayAverageChangePercent": -0.05817407,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
     "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "1663.T announced a cash dividend of JPY 30.00 with an ex-date of Jun. 29, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1782658800000,
+          "amount": "30.00"
+        }
+      },
       {
         "header": "Stock split",
         "message": "1663.T announces 2 for 1 split effective Jun. 29, 2026",
@@ -1119,16 +1125,10 @@
     "market": "jp_market",
     "esgPopulated": false,
     "cryptoTradeable": false,
-    "fiftyDayAverageChange": -550.5,
-    "fiftyDayAverageChangePercent": -0.12397253,
-    "twoHundredDayAverageChange": -240.2749,
-    "twoHundredDayAverageChangePercent": -0.05817407,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "regularMarketChangePercent": 1.038961,
-    "regularMarketPrice": 3890.0,
     "shortName": "K&O ENERGY GROUP INC",
     "longName": "K&O Energy Group Inc.",
+    "regularMarketChangePercent": 1.038961,
+    "regularMarketPrice": 3890.0,
     "trailingPegRatio": null
   }
 }

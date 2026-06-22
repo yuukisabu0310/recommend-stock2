@@ -1,7 +1,7 @@
 {
   "ticker": "2201",
   "japanese_ticker": "2201.T",
-  "fetch_date": "2026-06-21T00:07:29.851070",
+  "fetch_date": "2026-06-22T00:10:56.812397",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": null,
@@ -1165,7 +1165,7 @@
     "averageVolume10days": 321040,
     "averageDailyVolume10Day": 321040,
     "bid": 2491.5,
-    "ask": 2499.5,
+    "ask": 2500.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 209293885440,
@@ -1240,10 +1240,13 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "shortName": "MORINAGA & CO",
+    "longName": "Morinaga&Co., Ltd.",
     "regularMarketChangePercent": -0.8749254,
     "regularMarketPrice": 2492.5,
     "corporateActions": [],
     "regularMarketTime": 1781850600,
+    "marketState": "REGULAR",
     "exchange": "JPX",
     "messageBoardId": "finmb_876948",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1251,10 +1254,6 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "shortName": "MORINAGA & CO",
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 978307200000,
-    "regularMarketChange": -22.0,
     "regularMarketDayRange": "2475.0 - 2509.0",
     "fullExchangeName": "Tokyo",
     "averageDailyVolume3Month": 333665,
@@ -1279,10 +1278,11 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "prevName": "Morinaga & Co., Ltd.",
-    "nameChangeDate": "2026-06-20",
+    "nameChangeDate": "2026-06-21",
     "cryptoTradeable": false,
-    "marketState": "CLOSED",
-    "longName": "Morinaga&Co., Ltd.",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 978307200000,
+    "regularMarketChange": -22.0,
     "trailingPegRatio": null
   }
 }
