@@ -1,7 +1,7 @@
 {
   "ticker": "2337",
   "japanese_ticker": "2337.T",
-  "fetch_date": "2026-06-28T00:03:57.923639",
+  "fetch_date": "2026-06-29T00:12:25.079613",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-02-28 00:00:00": 2755440231.362468,
@@ -1122,7 +1122,7 @@
     "averageVolume": 959437,
     "averageVolume10days": 991200,
     "averageDailyVolume10Day": 991200,
-    "bid": 432.0,
+    "bid": 0.0,
     "ask": 436.0,
     "bidSize": 0,
     "askSize": 0,
@@ -1198,8 +1198,9 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "regularMarketChangePercent": 2.3529413,
-    "regularMarketPrice": 435.0,
+    "marketState": "REGULAR",
+    "corporateActions": [],
+    "regularMarketTime": 1782455400,
     "exchange": "JPX",
     "messageBoardId": "finmb_9884895",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1207,8 +1208,8 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "epsTrailingTwelveMonths": 41.37,
-    "epsForward": 35.19,
+    "longName": "Ichigo Inc.",
+    "shortName": "ICHIGO INC",
     "fiftyDayAverageChange": -35.01999,
     "fiftyDayAverageChangePercent": -0.074507445,
     "twoHundredDayAverageChange": -3.869995,
@@ -1216,9 +1217,6 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
-    "marketState": "CLOSED",
-    "corporateActions": [],
-    "regularMarketTime": 1782455400,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1036972800000,
     "regularMarketChange": 10.0,
@@ -1237,8 +1235,10 @@
     "earningsCallTimestampStart": 1744628340,
     "earningsCallTimestampEnd": 1744628340,
     "isEarningsDateEstimate": false,
-    "shortName": "ICHIGO INC",
-    "longName": "Ichigo Inc.",
+    "epsTrailingTwelveMonths": 41.37,
+    "epsForward": 35.19,
+    "regularMarketChangePercent": 2.3529413,
+    "regularMarketPrice": 435.0,
     "trailingPegRatio": null
   }
 }

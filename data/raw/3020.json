@@ -1,7 +1,7 @@
 {
   "ticker": "3020",
   "japanese_ticker": "3020.T",
-  "fetch_date": "2026-06-28T00:11:32.671884",
+  "fetch_date": "2026-06-29T00:21:41.697145",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": 343326.607091,
@@ -139,7 +139,7 @@
     "Basic Average Shares": {
       "2026-03-31 00:00:00": null,
       "2025-03-31 00:00:00": 2702971.0,
-      "2024-03-31 00:00:00": 2703074.0,
+      "2024-03-31 00:00:00": 2702099.0,
       "2023-03-31 00:00:00": 2703078.0,
       "2022-03-31 00:00:00": 2701572.0
     },
@@ -343,7 +343,7 @@
   "balance_sheet": {
     "Treasury Shares Number": {
       "2026-03-31 00:00:00": 355.0,
-      "2025-03-31 00:00:00": 269.0,
+      "2025-03-31 00:00:00": null,
       "2024-03-31 00:00:00": 152.0,
       "2023-03-31 00:00:00": null,
       "2022-03-31 00:00:00": 122.0
@@ -357,7 +357,7 @@
     },
     "Share Issued": {
       "2026-03-31 00:00:00": 2703200.0,
-      "2025-03-31 00:00:00": 2703200.0,
+      "2025-03-31 00:00:00": 2702931.0,
       "2024-03-31 00:00:00": 2703200.0,
       "2023-03-31 00:00:00": 2703078.0,
       "2022-03-31 00:00:00": null
@@ -736,9 +736,9 @@
     "Taxes Receivable": {
       "2026-03-31 00:00:00": 0.0,
       "2025-03-31 00:00:00": 184000000.0,
-      "2024-03-31 00:00:00": 0.0,
+      "2024-03-31 00:00:00": null,
       "2023-03-31 00:00:00": 0.0,
-      "2022-03-31 00:00:00": null
+      "2022-03-31 00:00:00": 506000000.0
     },
     "Accounts Receivable": {
       "2026-03-31 00:00:00": 6592000000.0,
@@ -1073,7 +1073,7 @@
     "sectorKey": "technology",
     "sectorDisp": "Technology",
     "longBusinessSummary": "Applied Co.,Ltd. sells computers, peripherals, and digital products in Japan, Asia, and the United States. It operates in three segments: PC and Game Business; Cosmetics and Miscellaneous Goods Business; and Publishing and Advertising Business. The company engages in planning, development, and wholesale of private brand PCs, games, home appliances, general merchandise, cosmetics, and sundries, as well as provision of PC-related support services and contract software development. It is also involved in the manufacture and sale of HPC for research and development; web services and mail order site management; network system construction and maintenance; remote service business; AI solution and system development; and solutions sale for government agencies and universities. In addition, the company publishes information magazines and project books; plans, procures, and advertises products from manufacturers; and engages in event planning and management. Further, it manages specialty stores; and closed and cultural sites. The company was founded in 1977 and is headquartered in Fukuoka City, Japan.",
-    "fullTimeEmployees": 410,
+    "fullTimeEmployees": 440,
     "companyOfficers": [
       {
         "maxAge": 1,
@@ -1135,12 +1135,12 @@
     "maxAge": 86400,
     "priceHint": 2,
     "previousClose": 4140.0,
-    "open": 4010.0,
-    "dayLow": 4010.0,
+    "open": 4035.0,
+    "dayLow": 4035.0,
     "dayHigh": 4035.0,
     "regularMarketPreviousClose": 4140.0,
-    "regularMarketOpen": 4010.0,
-    "regularMarketDayLow": 4010.0,
+    "regularMarketOpen": 4035.0,
+    "regularMarketDayLow": 4035.0,
     "regularMarketDayHigh": 4035.0,
     "dividendRate": 140.0,
     "dividendYield": 3.47,
@@ -1149,13 +1149,13 @@
     "fiveYearAvgDividendYield": 2.64,
     "beta": 0.431,
     "trailingPE": 4.807692,
-    "volume": 3200,
-    "regularMarketVolume": 3200,
+    "volume": 3900,
+    "regularMarketVolume": 3900,
     "averageVolume": 2832,
     "averageVolume10days": 2140,
     "averageDailyVolume10Day": 2140,
-    "bid": 4035.0,
-    "ask": 4065.0,
+    "bid": 0.0,
+    "ask": 4200.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 10905979904,
@@ -1224,13 +1224,24 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "marketState": "REGULAR",
+    "corporateActions": [],
+    "regularMarketTime": 1782691200,
+    "exchange": "JPX",
+    "messageBoardId": "finmb_5528588",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1140134400000,
     "regularMarketChange": -105.0,
-    "regularMarketDayRange": "4010.0 - 4035.0",
+    "regularMarketDayRange": "4035.0 - 4035.0",
     "fullExchangeName": "Tokyo",
     "averageDailyVolume3Month": 2832,
     "fiftyTwoWeekLowChange": 805.0,
+    "cryptoTradeable": false,
     "fiftyTwoWeekLowChangePercent": 0.249226,
     "fiftyTwoWeekRange": "3230.0 - 4765.0",
     "fiftyTwoWeekHighChange": -730.0,
@@ -1246,21 +1257,10 @@
     "twoHundredDayAverageChangePercent": -0.012982871,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
-    "shortName": "APPLIED CO.LTD",
-    "longName": "Applied Co.,Ltd.",
-    "corporateActions": [],
-    "regularMarketTime": 1782455400,
-    "exchange": "JPX",
-    "messageBoardId": "finmb_5528588",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
     "regularMarketChangePercent": -2.5362318,
     "regularMarketPrice": 4035.0,
-    "marketState": "CLOSED",
+    "shortName": "APPLIED CO.LTD",
+    "longName": "Applied Co.,Ltd.",
     "trailingPegRatio": null
   }
 }

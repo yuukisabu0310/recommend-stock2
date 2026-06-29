@@ -1,7 +1,7 @@
 {
   "ticker": "2296",
   "japanese_ticker": "2296.T",
-  "fetch_date": "2026-06-28T00:03:17.449975",
+  "fetch_date": "2026-06-29T00:11:35.150109",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": -206042019.081129,
@@ -1260,8 +1260,8 @@
     "averageVolume": 200350,
     "averageVolume10days": 150770,
     "averageDailyVolume10Day": 150770,
-    "bid": 4710.0,
-    "ask": 4720.0,
+    "bid": 4730.0,
+    "ask": 4715.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 267578949632,
@@ -1336,7 +1336,7 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "longName": "Itoham Yonekyu Holdings Inc.",
+    "marketState": "REGULAR",
     "corporateActions": [],
     "regularMarketTime": 1782455400,
     "exchange": "JPX",
@@ -1348,8 +1348,8 @@
     "esgPopulated": false,
     "regularMarketChangePercent": 0.9635975,
     "regularMarketPrice": 4715.0,
-    "marketState": "CLOSED",
-    "shortName": "ITOHAM YONEKYU HOLDINGS INC",
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1459468800000,
@@ -1375,8 +1375,8 @@
     "fiftyDayAverageChangePercent": -0.044869848,
     "twoHundredDayAverageChange": -863.7749,
     "twoHundredDayAverageChangePercent": -0.15483236,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
+    "shortName": "ITOHAM YONEKYU HOLDINGS INC",
+    "longName": "Itoham Yonekyu Holdings Inc.",
     "trailingPegRatio": null
   }
 }

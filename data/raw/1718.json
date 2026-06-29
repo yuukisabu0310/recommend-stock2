@@ -1,7 +1,7 @@
 {
   "ticker": "1718",
   "japanese_ticker": "1718.T",
-  "fetch_date": "2026-06-27T23:57:07.414074",
+  "fetch_date": "2026-06-29T00:04:06.824451",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-12-31 00:00:00": 12486210.0,
@@ -138,7 +138,7 @@
     },
     "Diluted EPS": {
       "2025-12-31 00:00:00": null,
-      "2024-12-31 00:00:00": 602.24,
+      "2024-12-31 00:00:00": null,
       "2023-12-31 00:00:00": 767.98,
       "2022-12-31 00:00:00": 672.07,
       "2021-12-31 00:00:00": 669.02
@@ -327,7 +327,7 @@
     },
     "Share Issued": {
       "2025-12-31 00:00:00": 1153263.0,
-      "2024-12-31 00:00:00": 1153263.0,
+      "2024-12-31 00:00:00": 1092961.0,
       "2023-12-31 00:00:00": 1153263.0,
       "2022-12-31 00:00:00": 1153263.0
     },
@@ -1038,8 +1038,8 @@
     "averageVolume": 1731,
     "averageVolume10days": 650,
     "averageDailyVolume10Day": 650,
-    "bid": 6990.0,
-    "ask": 7090.0,
+    "bid": 0.0,
+    "ask": 7010.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 7612313088,
@@ -1106,30 +1106,9 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "regularMarketChangePercent": 0.5673759,
-    "regularMarketPrice": 7090.0,
-    "corporateActions": [
-      {
-        "header": "Dividend",
-        "message": "1718.T announced a cash dividend of JPY 150.00 with an ex-date of Jun. 29, 2026",
-        "meta": {
-          "eventType": "DIVIDEND",
-          "dateEpochMs": 1782658800000,
-          "amount": "150.00"
-        }
-      }
-    ],
-    "regularMarketTime": 1782444735,
-    "exchange": "JPX",
-    "messageBoardId": "finmb_5663631",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
-    "marketState": "CLOSED",
     "shortName": "MIKIKOGYO CO LTD",
     "longName": "Mikikogyo Co., Ltd.",
+    "marketState": "REGULAR",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1067385600000,
     "regularMarketChange": 40.0,
@@ -1152,7 +1131,28 @@
     "twoHundredDayAverageChangePercent": -0.10055059,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
+    "regularMarketChangePercent": 0.5673759,
+    "regularMarketPrice": 7090.0,
     "cryptoTradeable": false,
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "1718.T announced a cash dividend of JPY 150.00 with an ex-date of Jun. 29, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1782658800000,
+          "amount": "150.00"
+        }
+      }
+    ],
+    "regularMarketTime": 1782444735,
+    "exchange": "JPX",
+    "messageBoardId": "finmb_5663631",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
     "trailingPegRatio": null
   }
 }

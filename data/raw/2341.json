@@ -1,7 +1,7 @@
 {
   "ticker": "2341",
   "japanese_ticker": "2341.T",
-  "fetch_date": "2026-06-28T00:04:03.491641",
+  "fetch_date": "2026-06-29T00:12:32.355409",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-02-28 00:00:00": 507078.0,
@@ -836,7 +836,7 @@
     "Sale Of Investment": {
       "2026-02-28 00:00:00": 0.0,
       "2025-02-28 00:00:00": 13375000.0,
-      "2024-02-29 00:00:00": 0.0,
+      "2024-02-29 00:00:00": null,
       "2023-02-28 00:00:00": null,
       "2022-02-28 00:00:00": null
     },
@@ -1085,7 +1085,7 @@
     "averageVolume": 92749,
     "averageVolume10days": 13950,
     "averageDailyVolume10Day": 13950,
-    "bid": 158.0,
+    "bid": 0.0,
     "ask": 159.0,
     "bidSize": 0,
     "askSize": 0,
@@ -1152,7 +1152,9 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "longName": "Arbeit-Times Co., Ltd.",
+    "cryptoTradeable": false,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1038960000000,
     "corporateActions": [],
     "regularMarketTime": 1782455400,
     "exchange": "JPX",
@@ -1165,10 +1167,7 @@
     "regularMarketChangePercent": -0.625,
     "regularMarketPrice": 159.0,
     "shortName": "ARBEIT-TIMES CO LTD",
-    "marketState": "CLOSED",
-    "cryptoTradeable": false,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1038960000000,
+    "longName": "Arbeit-Times Co., Ltd.",
     "regularMarketChange": -1.0,
     "regularMarketDayRange": "158.0 - 160.0",
     "fullExchangeName": "Tokyo",
@@ -1189,6 +1188,7 @@
     "twoHundredDayAverageChangePercent": -0.11637214,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
+    "marketState": "REGULAR",
     "trailingPegRatio": null
   }
 }

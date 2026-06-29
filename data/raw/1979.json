@@ -1,7 +1,7 @@
 {
   "ticker": "1979",
   "japanese_ticker": "1979.T",
-  "fetch_date": "2026-06-28T00:00:24.579206",
+  "fetch_date": "2026-06-29T00:08:07.364817",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": 217445395.305017,
@@ -1259,8 +1259,8 @@
     "averageVolume": 238247,
     "averageVolume10days": 284880,
     "averageDailyVolume10Day": 284880,
-    "bid": 4945.0,
-    "ask": 4970.0,
+    "bid": 5100.0,
+    "ask": 5080.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 311848009728,
@@ -1337,6 +1337,10 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "marketState": "REGULAR",
+    "shortName": "TAIKISHA LTD",
+    "longName": "Taikisha Ltd.",
+    "cryptoTradeable": false,
     "corporateActions": [],
     "regularMarketTime": 1782455400,
     "exchange": "JPX",
@@ -1348,10 +1352,6 @@
     "esgPopulated": false,
     "regularMarketChangePercent": 0.30395138,
     "regularMarketPrice": 4950.0,
-    "longName": "Taikisha Ltd.",
-    "marketState": "CLOSED",
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 978307200000,
     "regularMarketChange": 15.0,
     "regularMarketDayRange": "4895.0 - 5080.0",
     "fullExchangeName": "Tokyo",
@@ -1375,8 +1375,8 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "averageAnalystRating": "2.5 - Buy",
-    "cryptoTradeable": false,
-    "shortName": "TAIKISHA LTD",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 978307200000,
     "trailingPegRatio": null
   }
 }

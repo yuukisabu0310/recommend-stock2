@@ -1,7 +1,7 @@
 {
   "ticker": "2173",
   "japanese_ticker": "2173.T",
-  "fetch_date": "2026-06-28T00:01:55.026344",
+  "fetch_date": "2026-06-29T00:09:51.935524",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-12-31 00:00:00": 4716792.0,
@@ -107,7 +107,7 @@
     },
     "Diluted Average Shares": {
       "2025-12-31 00:00:00": null,
-      "2024-12-31 00:00:00": 15483237.0,
+      "2024-12-31 00:00:00": 15482027.0,
       "2023-03-31 00:00:00": 30571838.0,
       "2022-03-31 00:00:00": 15647324.0
     },
@@ -277,13 +277,13 @@
     },
     "Ordinary Shares Number": {
       "2025-12-31 00:00:00": 15657148.0,
-      "2024-12-31 00:00:00": 15532654.0,
+      "2024-12-31 00:00:00": 15483154.0,
       "2023-03-31 00:00:00": 15284636.0,
       "2022-03-31 00:00:00": 15679836.0
     },
     "Share Issued": {
       "2025-12-31 00:00:00": 16248520.0,
-      "2024-12-31 00:00:00": 16175520.0,
+      "2024-12-31 00:00:00": 15483154.0,
       "2023-03-31 00:00:00": 16024200.0,
       "2022-03-31 00:00:00": 15950200.0
     },
@@ -1081,8 +1081,8 @@
     "averageVolume": 27418,
     "averageVolume10days": 25940,
     "averageDailyVolume10Day": 25940,
-    "bid": 675.0,
-    "ask": 681.0,
+    "bid": 651.0,
+    "ask": 768.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 10662517760,
@@ -1149,9 +1149,37 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "regularMarketChangePercent": 1.1887072,
+    "regularMarketPrice": 681.0,
+    "fiftyDayAverageChange": -103.859985,
+    "fiftyDayAverageChangePercent": -0.13232931,
+    "twoHundredDayAverageChange": -152.46997,
+    "twoHundredDayAverageChangePercent": -0.18293397,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "2173.T announced a cash dividend of JPY 13.00 with an ex-date of Jun. 29, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1782658800000,
+          "amount": "13.00"
+        }
+      }
+    ],
+    "regularMarketTime": 1782455400,
+    "exchange": "JPX",
+    "messageBoardId": "finmb_40371989",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "shortName": "HAKUTEN CORPORATION",
+    "longName": "Hakuten Corporation",
+    "marketState": "REGULAR",
     "cryptoTradeable": false,
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1204502400000,
     "regularMarketChange": 8.0,
@@ -1168,34 +1196,6 @@
     "earningsTimestampEnd": 1754978400,
     "isEarningsDateEstimate": true,
     "epsTrailingTwelveMonths": 122.65,
-    "fiftyDayAverageChange": -103.859985,
-    "fiftyDayAverageChangePercent": -0.13232931,
-    "twoHundredDayAverageChange": -152.46997,
-    "twoHundredDayAverageChangePercent": -0.18293397,
-    "marketState": "CLOSED",
-    "shortName": "HAKUTEN CORPORATION",
-    "longName": "Hakuten Corporation",
-    "corporateActions": [
-      {
-        "header": "Dividend",
-        "message": "2173.T announced a cash dividend of JPY 13.00 with an ex-date of Jun. 29, 2026",
-        "meta": {
-          "eventType": "DIVIDEND",
-          "dateEpochMs": 1782658800000,
-          "amount": "13.00"
-        }
-      }
-    ],
-    "regularMarketTime": 1782455400,
-    "exchange": "JPX",
-    "messageBoardId": "finmb_40371989",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
-    "regularMarketChangePercent": 1.1887072,
-    "regularMarketPrice": 681.0,
     "trailingPegRatio": null
   }
 }

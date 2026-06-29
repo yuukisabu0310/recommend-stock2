@@ -1,7 +1,7 @@
 {
   "ticker": "2156",
   "japanese_ticker": "2156.T",
-  "fetch_date": "2026-06-28T00:01:35.131877",
+  "fetch_date": "2026-06-29T00:09:29.308305",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": -87600.0,
@@ -315,21 +315,21 @@
   "balance_sheet": {
     "Treasury Shares Number": {
       "2026-03-31 00:00:00": 930928.0,
-      "2025-03-31 00:00:00": 1666028.0,
+      "2025-03-31 00:00:00": null,
       "2024-03-31 00:00:00": 1900328.0,
       "2023-03-31 00:00:00": 2300000.0,
-      "2022-03-31 00:00:00": null
+      "2022-03-31 00:00:00": 2300000.0
     },
     "Ordinary Shares Number": {
       "2026-03-31 00:00:00": 5147072.0,
-      "2025-03-31 00:00:00": 4411972.0,
+      "2025-03-31 00:00:00": 4169672.0,
       "2024-03-31 00:00:00": 4177672.0,
       "2023-03-31 00:00:00": 3778000.0,
       "2022-03-31 00:00:00": null
     },
     "Share Issued": {
       "2026-03-31 00:00:00": 6078000.0,
-      "2025-03-31 00:00:00": 6078000.0,
+      "2025-03-31 00:00:00": 4169672.0,
       "2024-03-31 00:00:00": 6078000.0,
       "2023-03-31 00:00:00": 6078000.0,
       "2022-03-31 00:00:00": null
@@ -1116,53 +1116,7 @@
     "sectorDisp": "Communication Services",
     "longBusinessSummary": "Saylor Advertising.Inc. operates as an advertising company in Japan. The company offers TV and radio commercial, newspaper, magazine, outdoor, transportation, poster, pamphlet/catalog, flyer, and other advertising services; and event, digital and sales promotion, and campaign services. Saylor Advertising.Inc. was incorporated in 1951 and is headquartered in Takamatsu, Japan.",
     "fullTimeEmployees": 192,
-    "companyOfficers": [
-      {
-        "maxAge": 1,
-        "name": "Mr. Yuji  Kagawa",
-        "age": 53,
-        "title": "President & Representative Director",
-        "yearBorn": 1972,
-        "exercisedValue": 0,
-        "unexercisedValue": 0
-      },
-      {
-        "maxAge": 1,
-        "name": "Mr. Keizo  Hazama",
-        "age": 62,
-        "title": "Director & CIO",
-        "yearBorn": 1963,
-        "exercisedValue": 0,
-        "unexercisedValue": 0
-      },
-      {
-        "maxAge": 1,
-        "name": "Kazunori  Kayahara",
-        "age": 61,
-        "title": "MD, GM of Corporate Design Department & Director",
-        "yearBorn": 1964,
-        "exercisedValue": 0,
-        "unexercisedValue": 0
-      },
-      {
-        "maxAge": 1,
-        "name": "Mr. Minoru  Morikawa",
-        "age": 58,
-        "title": "MD, Director & Head of the First Sales Department",
-        "yearBorn": 1967,
-        "exercisedValue": 0,
-        "unexercisedValue": 0
-      },
-      {
-        "maxAge": 1,
-        "name": "Mr. Seiji  Takafuji",
-        "age": 62,
-        "title": "MD, GM of the Second Sales Department & Director",
-        "yearBorn": 1963,
-        "exercisedValue": 0,
-        "unexercisedValue": 0
-      }
-    ],
+    "companyOfficers": [],
     "irWebsite": "http://www.saylor.co.jp/ir.html",
     "executiveTeam": [],
     "maxAge": 86400,
@@ -1186,8 +1140,8 @@
     "averageVolume": 9424,
     "averageVolume10days": 3260,
     "averageDailyVolume10Day": 3260,
-    "bid": 261.0,
-    "ask": 263.0,
+    "bid": 262.0,
+    "ask": 262.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 1348532864,
@@ -1254,14 +1208,13 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "epsTrailingTwelveMonths": -1.0,
-    "fiftyDayAverageChange": -13.679993,
-    "fiftyDayAverageChangePercent": -0.049622726,
-    "twoHundredDayAverageChange": -47.174988,
-    "twoHundredDayAverageChangePercent": -0.15258345,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1182384000000,
+    "regularMarketChange": -1.0,
+    "regularMarketDayRange": "255.0 - 264.0",
+    "fullExchangeName": "Tokyo",
+    "averageDailyVolume3Month": 9424,
+    "fiftyTwoWeekLowChange": 11.0,
     "fiftyTwoWeekLowChangePercent": 0.043824703,
     "fiftyTwoWeekRange": "251.0 - 506.0",
     "fiftyTwoWeekHighChange": -244.0,
@@ -1270,6 +1223,19 @@
     "earningsTimestampStart": 1747204200,
     "earningsTimestampEnd": 1747204200,
     "isEarningsDateEstimate": false,
+    "shortName": "SAYLOR ADVERTISING INC.",
+    "epsTrailingTwelveMonths": -1.0,
+    "fiftyDayAverageChange": -13.679993,
+    "fiftyDayAverageChangePercent": -0.049622726,
+    "twoHundredDayAverageChange": -47.174988,
+    "twoHundredDayAverageChangePercent": -0.15258345,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
+    "marketState": "REGULAR",
+    "longName": "Saylor Advertising.Inc.",
+    "corporateActions": [],
+    "regularMarketTime": 1782455400,
     "exchange": "JPX",
     "messageBoardId": "finmb_34509410",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1277,20 +1243,8 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1182384000000,
-    "regularMarketChange": -1.0,
-    "regularMarketDayRange": "255.0 - 264.0",
-    "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 9424,
-    "fiftyTwoWeekLowChange": 11.0,
     "regularMarketChangePercent": -0.38022813,
     "regularMarketPrice": 262.0,
-    "shortName": "SAYLOR ADVERTISING INC.",
-    "longName": "Saylor Advertising.Inc.",
-    "marketState": "CLOSED",
-    "corporateActions": [],
-    "regularMarketTime": 1782455400,
     "trailingPegRatio": null
   }
 }

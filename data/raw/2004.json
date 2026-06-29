@@ -1,7 +1,7 @@
 {
   "ticker": "2004",
   "japanese_ticker": "2004.T",
-  "fetch_date": "2026-06-28T00:00:44.743400",
+  "fetch_date": "2026-06-29T00:08:30.550689",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": 146963000.0,
@@ -1120,8 +1120,8 @@
     "averageVolume": 64416,
     "averageVolume10days": 53140,
     "averageDailyVolume10Day": 53140,
-    "bid": 3395.0,
-    "ask": 3400.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 110489255936,
@@ -1191,10 +1191,7 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "shortName": "SHOWA SANGYO CO",
-    "longName": "Showa Sangyo Co., Ltd.",
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 978307200000,
+    "marketState": "REGULAR",
     "corporateActions": [],
     "regularMarketTime": 1782455400,
     "exchange": "JPX",
@@ -1204,9 +1201,8 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "regularMarketChangePercent": 1.1904762,
-    "regularMarketPrice": 3400.0,
-    "cryptoTradeable": false,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 978307200000,
     "regularMarketChange": 40.0,
     "regularMarketDayRange": "3360.0 - 3405.0",
     "fullExchangeName": "Tokyo",
@@ -1228,7 +1224,11 @@
     "twoHundredDayAverageChangePercent": 0.085674025,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
-    "marketState": "CLOSED",
+    "cryptoTradeable": false,
+    "shortName": "SHOWA SANGYO CO",
+    "longName": "Showa Sangyo Co., Ltd.",
+    "regularMarketChangePercent": 1.1904762,
+    "regularMarketPrice": 3400.0,
     "trailingPegRatio": null
   }
 }

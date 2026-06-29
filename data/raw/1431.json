@@ -1,7 +1,7 @@
 {
   "ticker": "1431",
   "japanese_ticker": "1431.T",
-  "fetch_date": "2026-06-27T23:56:27.796093",
+  "fetch_date": "2026-06-29T00:03:17.210979",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-06-30 00:00:00": -2629952.0,
@@ -1211,8 +1211,8 @@
     "averageVolume": 20634,
     "averageVolume10days": 37300,
     "averageDailyVolume10Day": 37300,
-    "bid": 643.0,
-    "ask": 645.0,
+    "bid": 622.0,
+    "ask": 623.0,
     "marketCap": 15006458880,
     "nonDilutedMarketCap": 15006458415,
     "fiftyTwoWeekLow": 634.0,
@@ -1277,6 +1277,20 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "regularMarketChangePercent": 0.78125,
+    "regularMarketPrice": 645.0,
+    "marketState": "REGULAR",
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "1431.T announced a cash dividend of JPY 1.60 with an ex-date of Jun. 29, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1782658800000,
+          "amount": "1.60"
+        }
+      }
+    ],
     "regularMarketTime": 1782455400,
     "exchange": "JPX",
     "messageBoardId": "finmb_52302883",
@@ -1285,18 +1299,7 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "regularMarketChangePercent": 0.78125,
-    "regularMarketPrice": 645.0,
-    "fiftyDayAverageChange": -0.4199829,
-    "fiftyDayAverageChangePercent": -0.0006507126,
-    "twoHundredDayAverageChange": -31.934998,
-    "twoHundredDayAverageChangePercent": -0.04717587,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
-    "marketState": "CLOSED",
-    "shortName": "LIB WORK CO LTD",
-    "longName": "Lib Work Co.,Ltd.",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1560816000000,
     "regularMarketChange": 5.0,
@@ -1309,21 +1312,18 @@
     "fiftyTwoWeekHighChange": -193.0,
     "fiftyTwoWeekHighChangePercent": -0.23031026,
     "fiftyTwoWeekChangePercent": -4.726738,
+    "shortName": "LIB WORK CO LTD",
+    "longName": "Lib Work Co.,Ltd.",
     "earningsTimestampStart": 1747117800,
     "earningsTimestampEnd": 1747117800,
     "isEarningsDateEstimate": false,
     "epsTrailingTwelveMonths": 9.74,
-    "corporateActions": [
-      {
-        "header": "Dividend",
-        "message": "1431.T announced a cash dividend of JPY 1.60 with an ex-date of Jun. 29, 2026",
-        "meta": {
-          "eventType": "DIVIDEND",
-          "dateEpochMs": 1782658800000,
-          "amount": "1.60"
-        }
-      }
-    ],
+    "fiftyDayAverageChange": -0.4199829,
+    "fiftyDayAverageChangePercent": -0.0006507126,
+    "twoHundredDayAverageChange": -31.934998,
+    "twoHundredDayAverageChangePercent": -0.04717587,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
     "trailingPegRatio": null
   }
 }

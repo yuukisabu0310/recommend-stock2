@@ -1,7 +1,7 @@
 {
   "ticker": "2752",
   "japanese_ticker": "2752.T",
-  "fetch_date": "2026-06-28T00:08:17.666210",
+  "fetch_date": "2026-06-29T00:17:48.092053",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-12-31 00:00:00": -90944000.0,
@@ -152,10 +152,10 @@
     },
     "Basic EPS": {
       "2025-12-31 00:00:00": 1.76,
-      "2024-12-31 00:00:00": 10.03,
+      "2024-12-31 00:00:00": null,
       "2023-12-31 00:00:00": -15.71,
       "2022-12-31 00:00:00": -77.21,
-      "2021-12-31 00:00:00": null
+      "2021-12-31 00:00:00": -11.23
     },
     "Diluted NI Availto Com Stockholders": {
       "2025-12-31 00:00:00": 90000000.0,
@@ -1355,8 +1355,8 @@
     "averageVolume": 95518,
     "averageVolume10days": 89410,
     "averageDailyVolume10Day": 89410,
-    "bid": 1158.0,
-    "ask": 1159.0,
+    "bid": 0.0,
+    "ask": 1081.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 59367723008,
@@ -1424,6 +1424,14 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "corporateActions": [],
+    "fiftyDayAverageChange": 28.640015,
+    "fiftyDayAverageChangePercent": 0.02535951,
+    "twoHundredDayAverageChange": 37.214966,
+    "twoHundredDayAverageChangePercent": 0.033204373,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1040169600000,
     "regularMarketChange": -4.0,
@@ -1441,16 +1449,9 @@
     "isEarningsDateEstimate": true,
     "epsTrailingTwelveMonths": 1.74,
     "epsForward": 22.9,
-    "fiftyDayAverageChange": 28.640015,
-    "fiftyDayAverageChangePercent": 0.02535951,
-    "twoHundredDayAverageChange": 37.214966,
-    "twoHundredDayAverageChangePercent": 0.033204373,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
-    "shortName": "FUJIO FOOD GROUP INC",
+    "marketState": "REGULAR",
     "longName": "Fujio Food Group Inc.",
-    "corporateActions": [],
+    "shortName": "FUJIO FOOD GROUP INC",
     "regularMarketTime": 1782455400,
     "exchange": "JPX",
     "messageBoardId": "finmb_9205330",
@@ -1461,7 +1462,6 @@
     "esgPopulated": false,
     "regularMarketChangePercent": -0.34423408,
     "regularMarketPrice": 1158.0,
-    "marketState": "CLOSED",
     "trailingPegRatio": null
   }
 }

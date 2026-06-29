@@ -1,7 +1,7 @@
 {
   "ticker": "1950",
   "japanese_ticker": "1950.T",
-  "fetch_date": "2026-06-27T23:59:54.416145",
+  "fetch_date": "2026-06-29T00:07:30.910227",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": 550022890.053902,
@@ -971,54 +971,6 @@
         "title": "Managing Executive Officer & Deputy GM of Railway Division",
         "exercisedValue": 0,
         "unexercisedValue": 0
-      },
-      {
-        "maxAge": 1,
-        "name": "Tomoji  Togawa",
-        "age": 64,
-        "title": "MD, GM of Sales Management Headquarters & Director",
-        "yearBorn": 1961,
-        "exercisedValue": 0,
-        "unexercisedValue": 0
-      },
-      {
-        "maxAge": 1,
-        "name": "Mr. Masaaki  Taniyama",
-        "age": 65,
-        "title": "Senior MD, GM of Corporate Planning Headquarters & Representative Director",
-        "yearBorn": 1960,
-        "exercisedValue": 0,
-        "unexercisedValue": 0
-      },
-      {
-        "maxAge": 1,
-        "name": "Mr. Katsuhiko  Matsui",
-        "age": 59,
-        "title": "MD & Director",
-        "yearBorn": 1966,
-        "exercisedValue": 0,
-        "unexercisedValue": 0
-      },
-      {
-        "maxAge": 1,
-        "name": "Kazunari  Fujii",
-        "title": "Managing Executive Officer & GM of Sales Headquarters",
-        "exercisedValue": 0,
-        "unexercisedValue": 0
-      },
-      {
-        "maxAge": 1,
-        "name": "Masamichi  Konishi",
-        "title": "Managing Executive Officer & GM of Corporate Planning Division",
-        "exercisedValue": 0,
-        "unexercisedValue": 0
-      },
-      {
-        "maxAge": 1,
-        "name": "Tetsuto  Hirata",
-        "title": "Executive Officer",
-        "exercisedValue": 0,
-        "unexercisedValue": 0
       }
     ],
     "irWebsite": "http://www.densetsuko.co.jp/ir/index.html",
@@ -1046,8 +998,8 @@
     "averageVolume": 142813,
     "averageVolume10days": 110510,
     "averageDailyVolume10Day": 110510,
-    "bid": 4450.0,
-    "ask": 4490.0,
+    "bid": 4380.0,
+    "ask": 4600.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 261507022848,
@@ -1121,15 +1073,7 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "epsTrailingTwelveMonths": 309.57,
-    "fiftyDayAverageChange": -90.700195,
-    "fiftyDayAverageChangePercent": -0.01984383,
-    "twoHundredDayAverageChange": 562.20996,
-    "twoHundredDayAverageChangePercent": 0.1435018,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "averageAnalystRating": "1.0 - Strong Buy",
-    "cryptoTradeable": false,
+    "marketState": "REGULAR",
     "corporateActions": [],
     "regularMarketTime": 1782455400,
     "exchange": "JPX",
@@ -1139,8 +1083,18 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
+    "regularMarketChangePercent": 2.4,
+    "regularMarketPrice": 4480.0,
     "shortName": "NIPPON DENSETSU KOGYO CO",
     "longName": "Nippon Densetsu Kogyo Co., Ltd.",
+    "fiftyDayAverageChange": -90.700195,
+    "fiftyDayAverageChangePercent": -0.01984383,
+    "twoHundredDayAverageChange": 562.20996,
+    "twoHundredDayAverageChangePercent": 0.1435018,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "averageAnalystRating": "1.0 - Strong Buy",
+    "cryptoTradeable": false,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 978307200000,
     "regularMarketChange": 105.0,
@@ -1154,13 +1108,11 @@
     "fiftyTwoWeekHighChangePercent": -0.16728625,
     "fiftyTwoWeekChangePercent": 74.454834,
     "earningsTimestampStart": 1753768800,
-    "regularMarketChangePercent": 2.4,
-    "regularMarketPrice": 4480.0,
-    "marketState": "CLOSED",
     "earningsTimestampEnd": 1754287200,
     "earningsCallTimestampStart": 1746010740,
     "earningsCallTimestampEnd": 1746010740,
     "isEarningsDateEstimate": true,
+    "epsTrailingTwelveMonths": 309.57,
     "epsForward": 178.1,
     "trailingPegRatio": null
   }

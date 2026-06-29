@@ -1,7 +1,7 @@
 {
   "ticker": "1736",
   "japanese_ticker": "1736.T",
-  "fetch_date": "2026-06-27T23:57:21.136643",
+  "fetch_date": "2026-06-29T00:04:22.744143",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": null,
@@ -340,7 +340,7 @@
       "2022-03-31 00:00:00": 15749367.0
     },
     "Share Issued": {
-      "2025-03-31 00:00:00": 17100000.0,
+      "2025-03-31 00:00:00": 15494382.0,
       "2024-03-31 00:00:00": 17100000.0,
       "2023-03-31 00:00:00": 17100000.0,
       "2022-03-31 00:00:00": 17100000.0
@@ -1106,8 +1106,8 @@
     "averageVolume": 5847,
     "averageVolume10days": 4580,
     "averageDailyVolume10Day": 4580,
-    "bid": 2431.0,
-    "ask": 2446.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 37697757184,
@@ -1178,19 +1178,10 @@
     "customPriceAlertConfidence": "LOW",
     "shortName": "OTEC CORP",
     "longName": "Otec Corporation",
-    "cryptoTradeable": false,
-    "exchange": "JPX",
-    "messageBoardId": "finmb_5645775",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
+    "marketState": "REGULAR",
     "corporateActions": [],
     "regularMarketTime": 1782455400,
-    "regularMarketChangePercent": 2.0553691,
-    "regularMarketPrice": 2433.0,
-    "marketState": "CLOSED",
+    "exchange": "JPX",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 956707200000,
     "regularMarketChange": 49.0,
@@ -1211,8 +1202,17 @@
     "fiftyDayAverageChangePercent": 0.041336782,
     "twoHundredDayAverageChange": 162.53003,
     "twoHundredDayAverageChangePercent": 0.071584314,
+    "messageBoardId": "finmb_5645775",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
+    "regularMarketChangePercent": 2.0553691,
+    "regularMarketPrice": 2433.0,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
     "trailingPegRatio": null
   }
 }

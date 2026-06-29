@@ -1,7 +1,7 @@
 {
   "ticker": "2332",
   "japanese_ticker": "2332.T",
-  "fetch_date": "2026-06-28T00:03:51.824755",
+  "fetch_date": "2026-06-29T00:12:18.354165",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": -7130223.547246,
@@ -132,7 +132,7 @@
     "Basic Average Shares": {
       "2026-03-31 00:00:00": null,
       "2025-03-31 00:00:00": 5357945.0,
-      "2024-03-31 00:00:00": 5352602.0,
+      "2024-03-31 00:00:00": 5352737.0,
       "2023-03-31 00:00:00": 5339057.0,
       "2022-03-31 00:00:00": 5188000.0
     },
@@ -308,7 +308,7 @@
     },
     "Ordinary Shares Number": {
       "2026-03-31 00:00:00": 5127027.0,
-      "2025-03-31 00:00:00": 5354666.0,
+      "2025-03-31 00:00:00": 5359840.0,
       "2024-03-31 00:00:00": 5354189.0,
       "2023-03-31 00:00:00": 5348749.0,
       "2022-03-31 00:00:00": null
@@ -1065,27 +1065,9 @@
     "companyOfficers": [
       {
         "maxAge": 1,
-        "name": "Satoshi  Kamata",
-        "age": 60,
-        "title": "President, CEO & Director",
-        "yearBorn": 1965,
-        "exercisedValue": 0,
-        "unexercisedValue": 0
-      },
-      {
-        "maxAge": 1,
         "name": "Toyoshi  Yamauchi",
         "age": 63,
         "title": "Senior Executive Officer & GM of Financial Systems Business",
-        "yearBorn": 1962,
-        "exercisedValue": 0,
-        "unexercisedValue": 0
-      },
-      {
-        "maxAge": 1,
-        "name": "Mr. Ken  Kojima",
-        "age": 63,
-        "title": "Director & Senior Executive Officer of Public & Energy Business & Digital Transformation Promotion",
         "yearBorn": 1962,
         "exercisedValue": 0,
         "unexercisedValue": 0
@@ -1108,15 +1090,6 @@
       },
       {
         "maxAge": 1,
-        "name": "Jun  Kanai",
-        "age": 66,
-        "title": "Director & Senior Executive Officer",
-        "yearBorn": 1959,
-        "exercisedValue": 0,
-        "unexercisedValue": 0
-      },
-      {
-        "maxAge": 1,
         "name": "Toru  Tanimura",
         "title": "Executive Officer",
         "exercisedValue": 0,
@@ -1131,17 +1104,36 @@
       },
       {
         "maxAge": 1,
-        "name": "Yutaka  Koizumi",
-        "age": 61,
-        "title": "Senior Executive Officer & Director",
-        "yearBorn": 1964,
+        "name": "Kenji  Fujita",
+        "title": "Senior Executive Officer",
         "exercisedValue": 0,
         "unexercisedValue": 0
       },
       {
         "maxAge": 1,
-        "name": "Kenji  Fujita",
-        "title": "Senior Executive Officer",
+        "name": "Tetsuya  Kubo",
+        "title": "Executive Officer",
+        "exercisedValue": 0,
+        "unexercisedValue": 0
+      },
+      {
+        "maxAge": 1,
+        "name": "Michihiro  Kano",
+        "title": "Executive Officer",
+        "exercisedValue": 0,
+        "unexercisedValue": 0
+      },
+      {
+        "maxAge": 1,
+        "name": "Masaru  Tanaka",
+        "title": "Executive Officer",
+        "exercisedValue": 0,
+        "unexercisedValue": 0
+      },
+      {
+        "maxAge": 1,
+        "name": "Shingo  Seki",
+        "title": "Executive Officer",
         "exercisedValue": 0,
         "unexercisedValue": 0
       }
@@ -1170,8 +1162,8 @@
     "averageVolume": 71139,
     "averageVolume10days": 30610,
     "averageDailyVolume10Day": 30610,
-    "bid": 1738.0,
-    "ask": 1749.0,
+    "bid": 0.0,
+    "ask": 1745.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 8941535232,
@@ -1239,6 +1231,9 @@
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
     "corporateActions": [],
+    "marketState": "REGULAR",
+    "shortName": "QUEST CO LTD",
+    "longName": "Quest Co., Ltd.",
     "regularMarketTime": 1782455400,
     "exchange": "JPX",
     "messageBoardId": "finmb_12787025",
@@ -1247,16 +1242,18 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
+    "regularMarketChangePercent": -1.1898017,
+    "regularMarketPrice": 1744.0,
+    "earningsTimestampStart": 1747209600,
+    "earningsTimestampEnd": 1747209600,
+    "isEarningsDateEstimate": false,
+    "epsTrailingTwelveMonths": 152.43,
     "fiftyDayAverageChange": -76.140015,
     "fiftyDayAverageChangePercent": -0.041831955,
     "twoHundredDayAverageChange": 73.41504,
     "twoHundredDayAverageChangePercent": 0.043945707,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
-    "marketState": "CLOSED",
-    "shortName": "QUEST CO LTD",
-    "longName": "Quest Co., Ltd.",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1034294400000,
     "regularMarketChange": -21.0,
@@ -1269,12 +1266,7 @@
     "fiftyTwoWeekHighChange": -476.0,
     "fiftyTwoWeekHighChangePercent": -0.21441442,
     "fiftyTwoWeekChangePercent": 19.370293,
-    "earningsTimestampStart": 1747209600,
-    "earningsTimestampEnd": 1747209600,
-    "isEarningsDateEstimate": false,
-    "epsTrailingTwelveMonths": 152.43,
-    "regularMarketChangePercent": -1.1898017,
-    "regularMarketPrice": 1744.0,
+    "cryptoTradeable": false,
     "trailingPegRatio": null
   }
 }

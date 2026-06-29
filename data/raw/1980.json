@@ -1,7 +1,7 @@
 {
   "ticker": "1980",
   "japanese_ticker": "1980.T",
-  "fetch_date": "2026-06-28T00:00:26.815416",
+  "fetch_date": "2026-06-29T00:08:09.746678",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": 534181000.0,
@@ -1115,8 +1115,8 @@
     "averageVolume": 654109,
     "averageVolume10days": 727850,
     "averageDailyVolume10Day": 727850,
-    "bid": 2932.0,
-    "ask": 2944.0,
+    "bid": 0.0,
+    "ask": 2906.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 379983364096,
@@ -1191,12 +1191,7 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "shortName": "DAI-DAN CO LTD",
-    "longName": "Dai-Dan Co., Ltd.",
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 978566400000,
-    "corporateActions": [],
-    "regularMarketTime": 1782455400,
+    "marketState": "REGULAR",
     "exchange": "JPX",
     "messageBoardId": "finmb_880131",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1204,9 +1199,15 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
+    "shortName": "DAI-DAN CO LTD",
+    "longName": "Dai-Dan Co., Ltd.",
+    "corporateActions": [],
+    "regularMarketTime": 1782455400,
     "regularMarketChangePercent": 1.1363636,
     "regularMarketPrice": 2937.0,
     "cryptoTradeable": false,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 978566400000,
     "regularMarketChange": 33.0,
     "regularMarketDayRange": "2904.0 - 2990.0",
     "fullExchangeName": "Tokyo",
@@ -1229,7 +1230,6 @@
     "twoHundredDayAverageChangePercent": 0.12666363,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
-    "marketState": "CLOSED",
     "trailingPegRatio": null
   }
 }

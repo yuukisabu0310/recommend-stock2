@@ -1,7 +1,7 @@
 {
   "ticker": "2179",
   "japanese_ticker": "2179.T",
-  "fetch_date": "2026-06-28T00:01:58.709833",
+  "fetch_date": "2026-06-29T00:09:56.599725",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": -29366026.6,
@@ -107,13 +107,13 @@
     },
     "Diluted Average Shares": {
       "2025-03-31 00:00:00": 5547898.0,
-      "2024-03-31 00:00:00": 5547993.0,
+      "2024-03-31 00:00:00": 5548139.0,
       "2023-03-31 00:00:00": 5549653.0,
       "2022-03-31 00:00:00": 5551151.0
     },
     "Basic Average Shares": {
       "2025-03-31 00:00:00": 5547898.0,
-      "2024-03-31 00:00:00": 5547993.0,
+      "2024-03-31 00:00:00": 5548139.0,
       "2023-03-31 00:00:00": 5549653.0,
       "2022-03-31 00:00:00": 5551151.0
     },
@@ -264,13 +264,13 @@
   },
   "balance_sheet": {
     "Treasury Shares Number": {
-      "2025-03-31 00:00:00": 328102.0,
+      "2025-03-31 00:00:00": null,
       "2024-03-31 00:00:00": 328102.0,
       "2023-03-31 00:00:00": 327760.0,
       "2022-03-31 00:00:00": 325860.0
     },
     "Ordinary Shares Number": {
-      "2025-03-31 00:00:00": 5547898.0,
+      "2025-03-31 00:00:00": null,
       "2024-03-31 00:00:00": 5547898.0,
       "2023-03-31 00:00:00": 5548240.0,
       "2022-03-31 00:00:00": 5550140.0
@@ -1022,8 +1022,8 @@
     "averageVolume": 1709,
     "averageVolume10days": 920,
     "averageDailyVolume10Day": 920,
-    "bid": 776.0,
-    "ask": 785.0,
+    "bid": 0.0,
+    "ask": 784.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 4349552128,
@@ -1092,8 +1092,14 @@
     "customPriceAlertConfidence": "LOW",
     "regularMarketChangePercent": 1.1612903,
     "regularMarketPrice": 784.0,
+    "shortName": "SEIGAKUSHA CO LTD",
+    "longName": "Seigakusha Co.,Ltd.",
+    "earningsTimestampStart": 1747290600,
+    "earningsTimestampEnd": 1747290600,
+    "isEarningsDateEstimate": false,
     "corporateActions": [],
     "regularMarketTime": 1782455400,
+    "marketState": "REGULAR",
     "exchange": "JPX",
     "messageBoardId": "finmb_46987108",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1101,9 +1107,16 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "marketState": "CLOSED",
-    "shortName": "SEIGAKUSHA CO LTD",
-    "longName": "Seigakusha Co.,Ltd.",
+    "epsTrailingTwelveMonths": 105.21,
+    "fiftyDayAverageChange": 12.099976,
+    "fiftyDayAverageChangePercent": 0.015675573,
+    "twoHundredDayAverageChange": -4.4799805,
+    "twoHundredDayAverageChangePercent": -0.0056817937,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "prevName": "Seigakusya Co., Ltd.",
+    "nameChangeDate": "2026-06-28",
+    "cryptoTradeable": false,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1219363200000,
     "regularMarketChange": 9.0,
@@ -1116,19 +1129,6 @@
     "fiftyTwoWeekHighChange": -42.0,
     "fiftyTwoWeekHighChangePercent": -0.050847456,
     "fiftyTwoWeekChangePercent": 1.8181801,
-    "earningsTimestampStart": 1747290600,
-    "earningsTimestampEnd": 1747290600,
-    "isEarningsDateEstimate": false,
-    "epsTrailingTwelveMonths": 105.21,
-    "fiftyDayAverageChange": 12.099976,
-    "fiftyDayAverageChangePercent": 0.015675573,
-    "twoHundredDayAverageChange": -4.4799805,
-    "twoHundredDayAverageChangePercent": -0.0056817937,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "prevName": "Seigakusya Co., Ltd.",
-    "nameChangeDate": "2026-06-27",
-    "cryptoTradeable": false,
     "trailingPegRatio": null
   }
 }

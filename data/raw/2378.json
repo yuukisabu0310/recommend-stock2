@@ -1,7 +1,7 @@
 {
   "ticker": "2378",
   "japanese_ticker": "2378.T",
-  "fetch_date": "2026-06-28T00:04:31.059962",
+  "fetch_date": "2026-06-29T00:13:08.840292",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": -228470358.13677,
@@ -329,7 +329,7 @@
     },
     "Share Issued": {
       "2026-03-31 00:00:00": 21379000.0,
-      "2025-03-31 00:00:00": 21379000.0,
+      "2025-03-31 00:00:00": 18896013.0,
       "2024-03-31 00:00:00": 21379000.0,
       "2023-03-31 00:00:00": 21379000.0,
       "2022-03-31 00:00:00": null
@@ -1275,8 +1275,8 @@
     "averageVolume": 50800,
     "averageVolume10days": 58970,
     "averageDailyVolume10Day": 58970,
-    "bid": 1006.0,
-    "ask": 1011.0,
+    "bid": 0.0,
+    "ask": 1008.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 19067269120,
@@ -1343,8 +1343,10 @@
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
     "longName": "Renaissance,Incorporated",
-    "corporateActions": [],
-    "regularMarketTime": 1782455400,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1103155200000,
+    "cryptoTradeable": false,
+    "shortName": "RENAISSANCE INC",
     "exchange": "JPX",
     "messageBoardId": "finmb_9794774",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1354,11 +1356,6 @@
     "esgPopulated": false,
     "regularMarketChangePercent": 0.9009009,
     "regularMarketPrice": 1008.0,
-    "shortName": "RENAISSANCE INC",
-    "marketState": "CLOSED",
-    "cryptoTradeable": false,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1103155200000,
     "regularMarketChange": 9.0,
     "regularMarketDayRange": "999.0 - 1011.0",
     "fullExchangeName": "Tokyo",
@@ -1380,6 +1377,9 @@
     "twoHundredDayAverageChangePercent": -0.057256665,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
+    "marketState": "REGULAR",
+    "corporateActions": [],
+    "regularMarketTime": 1782455400,
     "trailingPegRatio": null
   }
 }

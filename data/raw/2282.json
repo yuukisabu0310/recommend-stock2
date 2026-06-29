@@ -1,7 +1,7 @@
 {
   "ticker": "2282",
   "japanese_ticker": "2282.T",
-  "fetch_date": "2026-06-28T00:03:04.474562",
+  "fetch_date": "2026-06-29T00:11:17.941659",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": 0.0,
@@ -13,9 +13,9 @@
     "Tax Rate For Calcs": {
       "2026-03-31 00:00:00": 0.323,
       "2025-03-31 00:00:00": 0.252567,
-      "2024-03-31 00:00:00": 0.277,
-      "2023-03-31 00:00:00": 0.215,
-      "2022-03-31 00:00:00": null
+      "2024-03-31 00:00:00": null,
+      "2023-03-31 00:00:00": null,
+      "2022-03-31 00:00:00": 0.25
     },
     "Normalized EBITDA": {
       "2026-03-31 00:00:00": 103924000000.0,
@@ -1065,8 +1065,8 @@
     "averageVolume": 535593,
     "averageVolume10days": 457990,
     "averageDailyVolume10Day": 457990,
-    "bid": 6084.0,
-    "ask": 6100.0,
+    "bid": 6090.0,
+    "ask": 6031.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 573366075392,
@@ -1141,6 +1141,20 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "marketState": "REGULAR",
+    "corporateActions": [],
+    "regularMarketTime": 1782455400,
+    "exchange": "JPX",
+    "messageBoardId": "finmb_874379",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
+    "shortName": "NH FOODS LTD",
+    "longName": "NH Foods Ltd.",
+    "regularMarketChangePercent": 1.873223,
+    "regularMarketPrice": 6091.0,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 946944000000,
     "regularMarketChange": 112.0,
@@ -1169,20 +1183,6 @@
     "exchangeDataDelayedBy": 20,
     "averageAnalystRating": "2.6 - Hold",
     "cryptoTradeable": false,
-    "shortName": "NH FOODS LTD",
-    "longName": "NH Foods Ltd.",
-    "corporateActions": [],
-    "regularMarketTime": 1782455400,
-    "exchange": "JPX",
-    "messageBoardId": "finmb_874379",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
-    "regularMarketChangePercent": 1.873223,
-    "regularMarketPrice": 6091.0,
-    "marketState": "CLOSED",
     "trailingPegRatio": null
   }
 }

@@ -1,7 +1,7 @@
 {
   "ticker": "1911",
   "japanese_ticker": "1911.T",
-  "fetch_date": "2026-06-27T23:59:20.159311",
+  "fetch_date": "2026-06-29T00:06:48.840664",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-12-31 00:00:00": 2302368000.0,
@@ -1262,8 +1262,8 @@
     "averageVolume": 4102186,
     "averageVolume10days": 4167880,
     "averageDailyVolume10Day": 4167880,
-    "bid": 1374.5,
-    "ask": 1376.0,
+    "bid": 1345.0,
+    "ask": 1352.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 843109498880,
@@ -1338,9 +1338,6 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "marketState": "CLOSED",
-    "shortName": "SUMITOMO FORESTRY CO",
-    "longName": "Sumitomo Forestry Co., Ltd.",
     "corporateActions": [
       {
         "header": "Dividend",
@@ -1353,6 +1350,7 @@
       }
     ],
     "regularMarketTime": 1782455400,
+    "marketState": "REGULAR",
     "exchange": "JPX",
     "messageBoardId": "finmb_877185",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1362,8 +1360,8 @@
     "esgPopulated": false,
     "regularMarketChangePercent": 2.0408163,
     "regularMarketPrice": 1375.0,
-    "averageAnalystRating": "2.2 - Buy",
-    "cryptoTradeable": false,
+    "shortName": "SUMITOMO FORESTRY CO",
+    "longName": "Sumitomo Forestry Co., Ltd.",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 978566400000,
     "regularMarketChange": 27.5,
@@ -1390,6 +1388,8 @@
     "twoHundredDayAverageChangePercent": -0.11468242,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
+    "averageAnalystRating": "2.2 - Buy",
+    "cryptoTradeable": false,
     "trailingPegRatio": null
   }
 }

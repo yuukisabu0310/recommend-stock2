@@ -1,7 +1,7 @@
 {
   "ticker": "1720",
   "japanese_ticker": "1720.T",
-  "fetch_date": "2026-06-27T23:57:11.487369",
+  "fetch_date": "2026-06-29T00:04:11.424756",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": 503377972.790529,
@@ -1115,6 +1115,7 @@
     "sectorKey": "industrials",
     "sectorDisp": "Industrials",
     "longBusinessSummary": "Tokyu Construction Co., Ltd. engages in the civil engineering and building construction businesses in Japan. It constructs railways, roads, tunnels, bridges, and other construction projects; undertakes reconstruction works after earthquakes, etc.; and commercial facilities, hotels, offices, housing, factories, hospitals, and distribution centers, and wooden building, as well as offers renovation services. The company also involved in the real estate properties development and leasing business; revitalization of old properties; and PPP/concession business. Tokyu Construction Co., Ltd. was founded in 1946 and is headquartered in Tokyo, Japan.",
+    "fullTimeEmployees": 2911,
     "companyOfficers": [
       {
         "maxAge": 1,
@@ -1122,73 +1123,6 @@
         "age": 68,
         "title": "President, CEO & Representative Director",
         "yearBorn": 1957,
-        "exercisedValue": 0,
-        "unexercisedValue": 0
-      },
-      {
-        "maxAge": 1,
-        "name": "Mr. Masatoshi  Shimizu",
-        "age": 66,
-        "title": "CFO, Head of Corporate Strategy Division, Management Division & Real Estate Business and Director",
-        "yearBorn": 1959,
-        "exercisedValue": 0,
-        "unexercisedValue": 0
-      },
-      {
-        "maxAge": 1,
-        "name": "Kazunori  Tanioka",
-        "title": "Managing Executive Officer",
-        "exercisedValue": 0,
-        "unexercisedValue": 0
-      },
-      {
-        "maxAge": 1,
-        "name": "Fumiaki  Ikushima",
-        "title": "Managing Executive Officer",
-        "exercisedValue": 0,
-        "unexercisedValue": 0
-      },
-      {
-        "maxAge": 1,
-        "name": "Mr. Yoshihiro  Akada",
-        "age": 64,
-        "title": "Senior Managing Executive Officer of Civil Engineering & International Business and Director",
-        "yearBorn": 1961,
-        "exercisedValue": 0,
-        "unexercisedValue": 0
-      },
-      {
-        "maxAge": 1,
-        "name": "Ryuuta  Tanaka",
-        "title": "Managing Executive Officer of Civil Engineering",
-        "exercisedValue": 0,
-        "unexercisedValue": 0
-      },
-      {
-        "maxAge": 1,
-        "name": "Yoshihisa  Takeuchi",
-        "title": "Managing Executive Officer & Architect Engineering",
-        "exercisedValue": 0,
-        "unexercisedValue": 0
-      },
-      {
-        "maxAge": 1,
-        "name": "Kuwabara  Teturou",
-        "title": "Managing Executive Officer",
-        "exercisedValue": 0,
-        "unexercisedValue": 0
-      },
-      {
-        "maxAge": 1,
-        "name": "Takanori  Nishimura",
-        "title": "Managing Executive Officer",
-        "exercisedValue": 0,
-        "unexercisedValue": 0
-      },
-      {
-        "maxAge": 1,
-        "name": "Kouji  Iijima",
-        "title": "Managing Executive Officer",
         "exercisedValue": 0,
         "unexercisedValue": 0
       }
@@ -1217,8 +1151,8 @@
     "averageVolume": 398983,
     "averageVolume10days": 302890,
     "averageDailyVolume10Day": 302890,
-    "bid": 1172.0,
-    "ask": 1180.0,
+    "bid": 1178.0,
+    "ask": 1179.0,
     "marketCap": 125189832704,
     "nonDilutedMarketCap": 125189828422,
     "fiftyTwoWeekLow": 997.0,
@@ -1272,7 +1206,7 @@
     "currentRatio": 1.31,
     "totalRevenue": 341181005824,
     "debtToEquity": 32.952,
-    "revenuePerShare": 3214.971,
+    "revenuePerShare": 3214.988,
     "returnOnAssets": 0.03483,
     "returnOnEquity": 0.12612,
     "grossProfits": 37643001856,
@@ -1291,21 +1225,8 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "shortName": "TOKYU CONSTRUCTION CO(NEW)",
-    "longName": "Tokyu Construction Co., Ltd.",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1064966400000,
-    "corporateActions": [],
-    "regularMarketTime": 1782455400,
-    "exchange": "JPX",
-    "messageBoardId": "finmb_876114",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
-    "regularMarketChangePercent": 2.2569444,
-    "regularMarketPrice": 1178.0,
     "regularMarketChange": 26.0,
     "regularMarketDayRange": "1145.0 - 1178.0",
     "fullExchangeName": "Tokyo",
@@ -1319,6 +1240,8 @@
     "earningsTimestampStart": 1754377200,
     "earningsTimestampEnd": 1754982000,
     "isEarningsDateEstimate": true,
+    "shortName": "TOKYU CONSTRUCTION CO(NEW)",
+    "longName": "Tokyu Construction Co., Ltd.",
     "epsTrailingTwelveMonths": 126.16,
     "epsForward": 59.7,
     "fiftyDayAverageChange": -85.56006,
@@ -1328,7 +1251,18 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
-    "marketState": "CLOSED",
+    "marketState": "REGULAR",
+    "corporateActions": [],
+    "regularMarketTime": 1782455400,
+    "exchange": "JPX",
+    "messageBoardId": "finmb_876114",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
+    "regularMarketChangePercent": 2.2569444,
+    "regularMarketPrice": 1178.0,
     "trailingPegRatio": null
   }
 }

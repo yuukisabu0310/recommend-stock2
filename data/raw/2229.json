@@ -1,7 +1,7 @@
 {
   "ticker": "2229",
   "japanese_ticker": "2229.T",
-  "fetch_date": "2026-06-28T00:02:48.470093",
+  "fetch_date": "2026-06-29T00:10:58.138050",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": -250140000.0,
@@ -1105,6 +1105,7 @@
     "sectorKey": "consumer-defensive",
     "sectorDisp": "Consumer Defensive",
     "longBusinessSummary": "Calbee, Inc. engages in the production and sale of snacks and other food products in Japan, North America, Greater China, Thailand, Singapore, Australia, rest of Asia, Hong Kong, the United Kingdom, Indonesia, and internationally. It offers potato-based, flour-based, corn-and bean-based, and other food snacks, as well as wheat, cereals, and granola. The company markets its products under the Potato Chips, JagaRico, Harvest Snaps, Honey Butter Chip, Kappa Ebisen, Seabrook, Sapporo Potato, Sayaendo, Jagabee, and the Frugra brands. It sells its products through e-commerce and retail stores. Calbee, Inc. was incorporated in 1949 and is headquartered in Tokyo, Japan.",
+    "fullTimeEmployees": 6974,
     "companyOfficers": [
       {
         "maxAge": 1,
@@ -1114,16 +1115,6 @@
         "yearBorn": 1958,
         "fiscalYear": 2025,
         "totalPay": 94000000,
-        "exercisedValue": 0,
-        "unexercisedValue": 0
-      },
-      {
-        "maxAge": 1,
-        "name": "Mr. Kazuhiro  Tanabe",
-        "age": 53,
-        "title": "Executive Officer, CFO, CDXO, GM of Finance, Accounting, IR Div. and S&OP Promotion Div.",
-        "yearBorn": 1972,
-        "fiscalYear": 2025,
         "exercisedValue": 0,
         "unexercisedValue": 0
       },
@@ -1139,52 +1130,10 @@
       },
       {
         "maxAge": 1,
-        "name": "Mr. Akira  Imoto",
-        "age": 61,
-        "title": "Executive VP, CPO & Director",
-        "yearBorn": 1964,
-        "fiscalYear": 2025,
-        "exercisedValue": 0,
-        "unexercisedValue": 0
-      },
-      {
-        "maxAge": 1,
         "name": "Ms. Chisa  Hayakawa",
         "age": 57,
         "title": "Executive Officer and CFO of Calbee Asia Oceania Region",
         "yearBorn": 1968,
-        "fiscalYear": 2025,
-        "exercisedValue": 0,
-        "unexercisedValue": 0
-      },
-      {
-        "maxAge": 1,
-        "name": "Mr. Ryo  Tsutsumi",
-        "title": "Executive Officer and President of Calbee Europe & America Region",
-        "fiscalYear": 2025,
-        "exercisedValue": 0,
-        "unexercisedValue": 0
-      },
-      {
-        "maxAge": 1,
-        "name": "Rie  Makuuchi",
-        "title": "Officer of IR, Finance & Accounting Division and IR Department",
-        "fiscalYear": 2025,
-        "exercisedValue": 0,
-        "unexercisedValue": 0
-      },
-      {
-        "maxAge": 1,
-        "name": ".  Takeda",
-        "title": "Investor Relations Department",
-        "fiscalYear": 2025,
-        "exercisedValue": 0,
-        "unexercisedValue": 0
-      },
-      {
-        "maxAge": 1,
-        "name": "Atsushi  Wagatsuma",
-        "title": "Manager of IR Department",
         "fiscalYear": 2025,
         "exercisedValue": 0,
         "unexercisedValue": 0
@@ -1222,8 +1171,8 @@
     "averageVolume": 459398,
     "averageVolume10days": 443350,
     "averageDailyVolume10Day": 443350,
-    "bid": 2895.0,
-    "ask": 2900.0,
+    "bid": 2908.5,
+    "ask": 2909.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 352300826624,
@@ -1299,10 +1248,7 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "regularMarketChangePercent": 1.2050297,
-    "regularMarketPrice": 2897.5,
-    "shortName": "CALBEE INC",
-    "marketState": "CLOSED",
+    "marketState": "REGULAR",
     "longName": "Calbee, Inc.",
     "fiftyDayAverageChange": -8.330078,
     "fiftyDayAverageChangePercent": -0.0028666777,
@@ -1311,6 +1257,18 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
+    "corporateActions": [],
+    "regularMarketTime": 1782455400,
+    "exchange": "JPX",
+    "messageBoardId": "finmb_126883551",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
+    "regularMarketChangePercent": 1.2050297,
+    "regularMarketPrice": 2897.5,
+    "shortName": "CALBEE INC",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1299801600000,
     "regularMarketChange": 34.5,
@@ -1331,15 +1289,6 @@
     "isEarningsDateEstimate": false,
     "epsTrailingTwelveMonths": 139.95,
     "epsForward": 165.22,
-    "corporateActions": [],
-    "regularMarketTime": 1782455400,
-    "exchange": "JPX",
-    "messageBoardId": "finmb_126883551",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
     "trailingPegRatio": null
   }
 }

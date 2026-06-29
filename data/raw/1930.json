@@ -1,7 +1,7 @@
 {
   "ticker": "1930",
   "japanese_ticker": "1930.T",
-  "fetch_date": "2026-06-27T23:59:33.786751",
+  "fetch_date": "2026-06-29T00:07:05.218031",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": -3758633.357825,
@@ -230,7 +230,7 @@
     "Write Off": {
       "2026-03-31 00:00:00": null,
       "2025-03-31 00:00:00": 3000000.0,
-      "2024-03-31 00:00:00": 0.0,
+      "2024-03-31 00:00:00": null,
       "2023-03-31 00:00:00": 0.0,
       "2022-03-31 00:00:00": 26000000.0
     },
@@ -301,7 +301,7 @@
   "balance_sheet": {
     "Treasury Shares Number": {
       "2026-03-31 00:00:00": null,
-      "2025-03-31 00:00:00": 1974606.0,
+      "2025-03-31 00:00:00": null,
       "2024-03-31 00:00:00": 1974231.0,
       "2023-03-31 00:00:00": 1973000.0,
       "2022-03-31 00:00:00": 1973000.0
@@ -1054,31 +1054,6 @@
         "yearBorn": 1962,
         "exercisedValue": 0,
         "unexercisedValue": 0
-      },
-      {
-        "maxAge": 1,
-        "name": "Tadashi  Furukawa",
-        "title": "Senior Executive Officer & Sales Manager",
-        "exercisedValue": 0,
-        "unexercisedValue": 0
-      },
-      {
-        "maxAge": 1,
-        "name": "Katsuhiko  Kita",
-        "age": 63,
-        "title": "Senior MD, Senior Managing Executive Officer & Director",
-        "yearBorn": 1962,
-        "exercisedValue": 0,
-        "unexercisedValue": 0
-      },
-      {
-        "maxAge": 1,
-        "name": "Mr. Shoichiro  Hayase",
-        "age": 62,
-        "title": "MD, Managing Executive Officer & Director",
-        "yearBorn": 1963,
-        "exercisedValue": 0,
-        "unexercisedValue": 0
       }
     ],
     "irWebsite": "http://www.rikudenko.co.jp/050601.html",
@@ -1105,8 +1080,8 @@
     "averageVolume": 87388,
     "averageVolume10days": 62260,
     "averageDailyVolume10Day": 62260,
-    "bid": 1700.0,
-    "ask": 1719.0,
+    "bid": 1710.0,
+    "ask": 1715.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 47166853120,
@@ -1175,14 +1150,29 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "marketState": "REGULAR",
+    "longName": "Hokuriku Electrical Construction Co.,Ltd.",
+    "fiftyDayAverageChange": 83.80005,
+    "fiftyDayAverageChangePercent": 0.051373255,
+    "twoHundredDayAverageChange": 185.54504,
+    "twoHundredDayAverageChangePercent": 0.12131449,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
+    "corporateActions": [],
+    "regularMarketTime": 1782455400,
+    "exchange": "JPX",
+    "messageBoardId": "finmb_880605",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
+    "regularMarketChangePercent": 0.3510825,
+    "regularMarketPrice": 1715.0,
     "shortName": "HOKURIKU ELECTRICAL CONSTRUCTIO",
-    "longName": "Hokuriku Electrical Construction Co.,Ltd.",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 978307200000,
-    "marketState": "CLOSED",
     "regularMarketChange": 6.0,
     "regularMarketDayRange": "1695.0 - 1734.0",
     "fullExchangeName": "Tokyo",
@@ -1197,21 +1187,6 @@
     "earningsTimestampEnd": 1754028000,
     "isEarningsDateEstimate": true,
     "epsTrailingTwelveMonths": 139.77,
-    "fiftyDayAverageChange": 83.80005,
-    "fiftyDayAverageChangePercent": 0.051373255,
-    "twoHundredDayAverageChange": 185.54504,
-    "twoHundredDayAverageChangePercent": 0.12131449,
-    "corporateActions": [],
-    "regularMarketTime": 1782455400,
-    "exchange": "JPX",
-    "messageBoardId": "finmb_880605",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
-    "regularMarketChangePercent": 0.3510825,
-    "regularMarketPrice": 1715.0,
     "trailingPegRatio": null
   }
 }

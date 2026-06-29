@@ -1,7 +1,7 @@
 {
   "ticker": "2485",
   "japanese_ticker": "2485.T",
-  "fetch_date": "2026-06-28T00:05:55.255808",
+  "fetch_date": "2026-06-29T00:14:52.662127",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-09-30 00:00:00": -41745000.0,
@@ -124,7 +124,7 @@
     },
     "Diluted Average Shares": {
       "2025-09-30 00:00:00": 22504682.0,
-      "2024-09-30 00:00:00": 22502135.0,
+      "2024-09-30 00:00:00": 22488038.0,
       "2023-09-30 00:00:00": 22462032.0,
       "2022-09-30 00:00:00": 22404630.0,
       "2021-09-30 00:00:00": null
@@ -301,21 +301,21 @@
   "balance_sheet": {
     "Treasury Shares Number": {
       "2025-09-30 00:00:00": 7758.0,
-      "2024-09-30 00:00:00": 5389.0,
+      "2024-09-30 00:00:00": null,
       "2023-09-30 00:00:00": 1556.0,
       "2022-09-30 00:00:00": 1470.0,
-      "2021-09-30 00:00:00": null
+      "2021-09-30 00:00:00": 1470.0
     },
     "Ordinary Shares Number": {
       "2025-09-30 00:00:00": 22502342.0,
-      "2024-09-30 00:00:00": 22504711.0,
+      "2024-09-30 00:00:00": 22508544.0,
       "2023-09-30 00:00:00": 22496544.0,
       "2022-09-30 00:00:00": 22404630.0,
       "2021-09-30 00:00:00": null
     },
     "Share Issued": {
       "2025-09-30 00:00:00": 22510100.0,
-      "2024-09-30 00:00:00": 22510100.0,
+      "2024-09-30 00:00:00": 22508544.0,
       "2023-09-30 00:00:00": 22498100.0,
       "2022-09-30 00:00:00": 22406100.0,
       "2021-09-30 00:00:00": null
@@ -1186,8 +1186,8 @@
     "averageVolume": 37360,
     "averageVolume10days": 34900,
     "averageDailyVolume10Day": 34900,
-    "bid": 472.0,
-    "ask": 478.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 10643607552,
@@ -1205,7 +1205,7 @@
     "tradeable": false,
     "enterpriseValue": 17765607424,
     "profitMargins": 0.01827,
-    "floatShares": 11891363,
+    "floatShares": 11867510,
     "sharesOutstanding": 22502342,
     "heldPercentInsiders": 0.44936,
     "heldPercentInstitutions": 0.03865,
@@ -1256,22 +1256,7 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "regularMarketChange": 0.0,
-    "regularMarketDayRange": "473.0 - 480.0",
-    "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 37360,
-    "fiftyTwoWeekLowChange": 35.0,
-    "fiftyTwoWeekLowChangePercent": 0.07990868,
-    "fiftyTwoWeekRange": "438.0 - 623.0",
-    "fiftyTwoWeekHighChange": -150.0,
-    "fiftyTwoWeekHighChangePercent": -0.24077046,
-    "fiftyTwoWeekChangePercent": -9.03846,
-    "cryptoTradeable": false,
-    "marketState": "CLOSED",
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1371772800000,
-    "earningsTimestampStart": 1754980200,
-    "earningsTimestampEnd": 1755498600,
+    "marketState": "REGULAR",
     "isEarningsDateEstimate": true,
     "epsTrailingTwelveMonths": 17.41,
     "fiftyDayAverageChange": 2.8399963,
@@ -1280,6 +1265,7 @@
     "twoHundredDayAverageChangePercent": -0.053905413,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
     "corporateActions": [],
     "regularMarketTime": 1782455400,
     "exchange": "JPX",
@@ -1290,9 +1276,23 @@
     "market": "jp_market",
     "esgPopulated": false,
     "regularMarketChangePercent": 0.0,
-    "regularMarketPrice": 473.0,
     "shortName": "TEAR CORPORATION",
     "longName": "Tear Corporation",
+    "regularMarketPrice": 473.0,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1371772800000,
+    "regularMarketChange": 0.0,
+    "regularMarketDayRange": "473.0 - 480.0",
+    "fullExchangeName": "Tokyo",
+    "averageDailyVolume3Month": 37360,
+    "fiftyTwoWeekLowChange": 35.0,
+    "fiftyTwoWeekLowChangePercent": 0.07990868,
+    "fiftyTwoWeekRange": "438.0 - 623.0",
+    "fiftyTwoWeekHighChange": -150.0,
+    "fiftyTwoWeekHighChangePercent": -0.24077046,
+    "fiftyTwoWeekChangePercent": -9.03846,
+    "earningsTimestampStart": 1754980200,
+    "earningsTimestampEnd": 1755498600,
     "trailingPegRatio": null
   }
 }

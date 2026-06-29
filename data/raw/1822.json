@@ -1,7 +1,7 @@
 {
   "ticker": "1822",
   "japanese_ticker": "1822.T",
-  "fetch_date": "2026-06-27T23:58:14.640547",
+  "fetch_date": "2026-06-29T00:05:30.844347",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": 41847000.0,
@@ -1035,15 +1035,6 @@
     "companyOfficers": [
       {
         "maxAge": 1,
-        "name": "Mr. Kakue  Morishita",
-        "age": 69,
-        "title": "President, CEO & Representative Director",
-        "yearBorn": 1956,
-        "exercisedValue": 0,
-        "unexercisedValue": 0
-      },
-      {
-        "maxAge": 1,
         "name": "Mr. Minoru  Kugimoto",
         "age": 65,
         "title": "Managing Exe. Off., GM of Admin. Div., Compl., Affi. Comp. & General Affairs and Director",
@@ -1075,13 +1066,6 @@
         "age": 66,
         "title": "Managing Executive Officer, GM of Civil Engineering & Director",
         "yearBorn": 1959,
-        "exercisedValue": 0,
-        "unexercisedValue": 0
-      },
-      {
-        "maxAge": 1,
-        "name": "Jyunichi  Asada",
-        "title": "Sr. Managing Exe. Off. and Dir. of Civil Eng. HQ, Overseas Dept. & Technical Research Institute",
         "exercisedValue": 0,
         "unexercisedValue": 0
       },
@@ -1125,8 +1109,8 @@
     "averageVolume": 162839,
     "averageVolume10days": 144840,
     "averageDailyVolume10Day": 144840,
-    "bid": 749.0,
-    "ask": 752.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 61123485696,
@@ -1196,12 +1180,25 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "cryptoTradeable": false,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 978307200000,
+    "corporateActions": [],
+    "regularMarketTime": 1782455400,
+    "exchange": "JPX",
+    "messageBoardId": "finmb_874910",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
+    "regularMarketChangePercent": 1.6216216,
+    "regularMarketPrice": 752.0,
+    "shortName": "DAIHO CORPORATION",
+    "longName": "Daiho Corporation",
     "regularMarketChange": 12.0,
     "regularMarketDayRange": "741.0 - 752.0",
     "fullExchangeName": "Tokyo",
-    "marketState": "CLOSED",
     "averageDailyVolume3Month": 162839,
     "fiftyTwoWeekLowChange": 46.0,
     "fiftyTwoWeekLowChangePercent": 0.065155804,
@@ -1220,20 +1217,7 @@
     "twoHundredDayAverageChangePercent": -0.04516425,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
-    "exchange": "JPX",
-    "messageBoardId": "finmb_874910",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
-    "regularMarketChangePercent": 1.6216216,
-    "regularMarketPrice": 752.0,
-    "shortName": "DAIHO CORPORATION",
-    "longName": "Daiho Corporation",
-    "corporateActions": [],
-    "regularMarketTime": 1782455400,
+    "marketState": "REGULAR",
     "trailingPegRatio": null
   }
 }

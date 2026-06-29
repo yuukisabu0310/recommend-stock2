@@ -1,7 +1,7 @@
 {
   "ticker": "2331",
   "japanese_ticker": "2331.T",
-  "fetch_date": "2026-06-28T00:03:49.576426",
+  "fetch_date": "2026-06-29T00:12:15.850249",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": 127512000.0,
@@ -1084,6 +1084,7 @@
     "sectorKey": "industrials",
     "sectorDisp": "Industrials",
     "longBusinessSummary": "Alsok Co.,Ltd. engages in the electronic, stationed, and transportation security services in Japan and internationally. The company offers home security systems and services, such as housework contracting and safety confirmation services for senior citizens; stalker countermeasures for women; and long-term care services. It also provides various systems for corporate customers, including online security systems, electronic security systems, condominium complex security systems, and automated management system for ATMs, as well as security systems for supporting schedule management at unmanned stores and other buildings; and damage insurance policies. In addition, the company offers stationed security services, total security and robot systems, transportation security systems, cash management solutions for stores, and total ATM management systems; and general property management and fire protection, building management, and call center services, as well as automated external defibrillator, a device that administrates an electric shock. Further, it provides other products and services for corporate customers, such as guest reception terminals, risk management tools, and security camera systems, as well as information security, specialty security, confidential document collection and recycling, test administration support, career training, telegram, BCP solution, and acquisition support services. The comp any was formerly known as Sohgo Security Services Co.,Ltd. and changed its name to Alsok Co.,Ltd. in July 2025. Alsok Co.,Ltd. was incorporated in 1965 and is headquartered in Tokyo, Japan.",
+    "fullTimeEmployees": 66949,
     "companyOfficers": [
       {
         "maxAge": 1,
@@ -1125,8 +1126,8 @@
     "averageVolume": 1352024,
     "averageVolume10days": 1259930,
     "averageDailyVolume10Day": 1259930,
-    "bid": 1061.5,
-    "ask": 1068.0,
+    "bid": 1093.0,
+    "ask": 1093.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 518637420544,
@@ -1184,7 +1185,7 @@
     "currentRatio": 2.135,
     "totalRevenue": 597026013184,
     "debtToEquity": 22.045,
-    "revenuePerShare": 1229.301,
+    "revenuePerShare": 1229.304,
     "returnOnAssets": 0.047020003,
     "returnOnEquity": 0.08772001,
     "grossProfits": 143056994304,
@@ -1203,8 +1204,7 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "regularMarketChangePercent": 0.42352942,
-    "regularMarketPrice": 1067.0,
+    "marketState": "REGULAR",
     "corporateActions": [],
     "regularMarketTime": 1782455400,
     "exchange": "JPX",
@@ -1214,9 +1214,6 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "marketState": "CLOSED",
-    "shortName": "ALSOK CO LTD",
-    "longName": "Alsok Co.,Ltd.",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1035504000000,
     "regularMarketChange": 4.5,
@@ -1224,6 +1221,7 @@
     "fullExchangeName": "Tokyo",
     "averageDailyVolume3Month": 1352024,
     "fiftyTwoWeekLowChange": 67.29999,
+    "cryptoTradeable": false,
     "fiftyTwoWeekLowChangePercent": 0.06732018,
     "fiftyTwoWeekRange": "999.7 - 1335.0",
     "fiftyTwoWeekHighChange": -268.0,
@@ -1244,7 +1242,10 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "averageAnalystRating": "2.2 - Buy",
-    "cryptoTradeable": false,
+    "regularMarketChangePercent": 0.42352942,
+    "regularMarketPrice": 1067.0,
+    "shortName": "ALSOK CO LTD",
+    "longName": "Alsok Co.,Ltd.",
     "trailingPegRatio": null
   }
 }

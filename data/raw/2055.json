@@ -1,7 +1,7 @@
 {
   "ticker": "2055",
   "japanese_ticker": "2055.T",
-  "fetch_date": "2026-06-28T00:00:53.592837",
+  "fetch_date": "2026-06-29T00:08:37.071923",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": -163728000.0,
@@ -276,7 +276,7 @@
   },
   "balance_sheet": {
     "Treasury Shares Number": {
-      "2025-03-31 00:00:00": 2719032.0,
+      "2025-03-31 00:00:00": null,
       "2024-03-31 00:00:00": 2718972.0,
       "2023-03-31 00:00:00": 2718971.0,
       "2022-03-31 00:00:00": 2718918.0
@@ -950,8 +950,8 @@
     "averageVolume": 25767,
     "averageVolume10days": 9990,
     "averageDailyVolume10Day": 9990,
-    "bid": 315.0,
-    "ask": 319.0,
+    "bid": 0.0,
+    "ask": 316.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 5777661440,
@@ -1016,8 +1016,8 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "regularMarketChangePercent": -0.62305295,
-    "regularMarketPrice": 319.0,
+    "corporateActions": [],
+    "regularMarketTime": 1782455400,
     "exchange": "JPX",
     "messageBoardId": "finmb_5886017",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1025,7 +1025,8 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "epsTrailingTwelveMonths": 20.93,
+    "regularMarketChangePercent": -0.62305295,
+    "regularMarketPrice": 319.0,
     "fiftyDayAverageChange": -22.320007,
     "fiftyDayAverageChangePercent": -0.0653932,
     "twoHundredDayAverageChange": -32.125,
@@ -1033,9 +1034,6 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
-    "marketState": "CLOSED",
-    "corporateActions": [],
-    "regularMarketTime": 1782455400,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 954806400000,
     "regularMarketChange": -2.0,
@@ -1051,8 +1049,10 @@
     "earningsTimestampStart": 1747031400,
     "earningsTimestampEnd": 1747031400,
     "isEarningsDateEstimate": false,
+    "epsTrailingTwelveMonths": 20.93,
     "shortName": "NICHIWA SANGYO CO",
     "longName": "Nichiwa Sangyo Co., Ltd.",
+    "marketState": "REGULAR",
     "trailingPegRatio": null
   }
 }

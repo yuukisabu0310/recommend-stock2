@@ -1,7 +1,7 @@
 {
   "ticker": "2330",
   "japanese_ticker": "2330.T",
-  "fetch_date": "2026-06-28T00:03:48.010749",
+  "fetch_date": "2026-06-29T00:12:13.491070",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-12-31 00:00:00": 2240822.594331,
@@ -132,20 +132,20 @@
     "Basic Average Shares": {
       "2025-12-31 00:00:00": null,
       "2024-12-31 00:00:00": 39442056.0,
-      "2023-12-31 00:00:00": 34350946.0,
+      "2023-12-31 00:00:00": 34312991.0,
       "2022-12-31 00:00:00": 32539103.0,
       "2021-12-31 00:00:00": 32540397.0
     },
     "Diluted EPS": {
       "2025-12-31 00:00:00": null,
-      "2024-12-31 00:00:00": 1.63,
+      "2024-12-31 00:00:00": null,
       "2023-12-31 00:00:00": 3.31,
       "2022-12-31 00:00:00": -3.31,
       "2021-12-31 00:00:00": 2.64
     },
     "Basic EPS": {
       "2025-12-31 00:00:00": null,
-      "2024-12-31 00:00:00": 1.63,
+      "2024-12-31 00:00:00": null,
       "2023-12-31 00:00:00": 3.31,
       "2022-12-31 00:00:00": -3.31,
       "2021-12-31 00:00:00": 2.64
@@ -1168,8 +1168,8 @@
     "averageVolume": 335314,
     "averageVolume10days": 339060,
     "averageDailyVolume10Day": 339060,
-    "bid": 73.0,
-    "ask": 74.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 3182163968,
@@ -1236,12 +1236,13 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "shortName": "FORSIDE CO LTD",
     "longName": "Forside Co.,Ltd.",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1034208000000,
-    "corporateActions": [],
-    "regularMarketTime": 1782455400,
+    "prevName": "Forside Co., Ltd.",
+    "nameChangeDate": "2026-06-28",
+    "cryptoTradeable": false,
+    "shortName": "FORSIDE CO LTD",
     "exchange": "JPX",
     "messageBoardId": "finmb_10444021",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1271,10 +1272,9 @@
     "twoHundredDayAverageChangePercent": -0.5089301,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
-    "prevName": "Forside Co., Ltd.",
-    "nameChangeDate": "2026-06-27",
-    "cryptoTradeable": false,
-    "marketState": "CLOSED",
+    "marketState": "REGULAR",
+    "corporateActions": [],
+    "regularMarketTime": 1782455400,
     "trailingPegRatio": null
   }
 }

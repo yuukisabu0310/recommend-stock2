@@ -1,7 +1,7 @@
 {
   "ticker": "1417",
   "japanese_ticker": "1417.T",
-  "fetch_date": "2026-06-27T23:56:15.887118",
+  "fetch_date": "2026-06-29T00:03:02.748971",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": 136035311.42717,
@@ -13,7 +13,7 @@
     "Tax Rate For Calcs": {
       "2026-03-31 00:00:00": 0.345267,
       "2025-03-31 00:00:00": 0.360681,
-      "2024-03-31 00:00:00": 0.359,
+      "2024-03-31 00:00:00": 0.3586,
       "2023-03-31 00:00:00": 0.346,
       "2022-03-31 00:00:00": null
     },
@@ -1302,8 +1302,8 @@
     "averageVolume": 270429,
     "averageVolume10days": 207770,
     "averageDailyVolume10Day": 207770,
-    "bid": 3875.0,
-    "ask": 3897.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 343853465600,
@@ -1377,6 +1377,7 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "marketState": "REGULAR",
     "corporateActions": [],
     "regularMarketTime": 1782455400,
     "exchange": "JPX",
@@ -1386,7 +1387,10 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "marketState": "CLOSED",
+    "regularMarketChangePercent": 1.1428571,
+    "regularMarketPrice": 3894.0,
+    "shortName": "MIRAIT ONE CORPORATION",
+    "longName": "MIRAIT ONE Corporation",
     "fiftyDayAverageChange": -38.56006,
     "fiftyDayAverageChangePercent": -0.009805333,
     "twoHundredDayAverageChange": 342.9851,
@@ -1394,11 +1398,9 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "prevName": "MIRAIT Holdings Corporation",
-    "nameChangeDate": "2026-06-27",
+    "nameChangeDate": "2026-06-28",
     "averageAnalystRating": "1.0 - Strong Buy",
     "cryptoTradeable": false,
-    "shortName": "MIRAIT ONE CORPORATION",
-    "longName": "MIRAIT ONE Corporation",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 978307200000,
     "regularMarketChange": 44.0,
@@ -1419,8 +1421,6 @@
     "isEarningsDateEstimate": true,
     "epsTrailingTwelveMonths": 261.68,
     "epsForward": 217.55,
-    "regularMarketChangePercent": 1.1428571,
-    "regularMarketPrice": 3894.0,
     "trailingPegRatio": null
   }
 }

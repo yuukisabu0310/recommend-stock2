@@ -1,7 +1,7 @@
 {
   "ticker": "1434",
   "japanese_ticker": "1434.T",
-  "fetch_date": "2026-06-27T23:56:31.590703",
+  "fetch_date": "2026-06-29T00:03:22.200425",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-08-31 00:00:00": 18112211.0,
@@ -1206,8 +1206,8 @@
     "averageVolume": 68967,
     "averageVolume10days": 36750,
     "averageDailyVolume10Day": 36750,
-    "bid": 1830.0,
-    "ask": 1850.0,
+    "bid": 0.0,
+    "ask": 1811.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 12734091264,
@@ -1275,13 +1275,12 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "marketState": "REGULAR",
+    "shortName": "JESCO HOLDINGS INC",
+    "longName": "Jesco Holdings, Inc.",
+    "cryptoTradeable": false,
     "corporateActions": [],
     "regularMarketTime": 1782455400,
-    "marketState": "CLOSED",
-    "shortName": "JESCO HOLDINGS INC",
-    "regularMarketChangePercent": -2.1390374,
-    "regularMarketPrice": 1830.0,
-    "longName": "Jesco Holdings, Inc.",
     "exchange": "JPX",
     "messageBoardId": "finmb_215925093",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1289,6 +1288,8 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
+    "regularMarketChangePercent": -2.1390374,
+    "regularMarketPrice": 1830.0,
     "regularMarketChange": -40.0,
     "regularMarketDayRange": "1818.0 - 1865.0",
     "fullExchangeName": "Tokyo",
@@ -1312,7 +1313,6 @@
     "exchangeDataDelayedBy": 20,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1441670400000,
-    "cryptoTradeable": false,
     "trailingPegRatio": null
   }
 }

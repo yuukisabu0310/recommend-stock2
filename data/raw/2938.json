@@ -1,7 +1,7 @@
 {
   "ticker": "2938",
   "japanese_ticker": "2938.T",
-  "fetch_date": "2026-06-28T00:10:46.493492",
+  "fetch_date": "2026-06-29T00:20:46.532064",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-06-30 00:00:00": 32746800.0,
@@ -1203,8 +1203,8 @@
     "averageVolume": 128339,
     "averageVolume10days": 136220,
     "averageDailyVolume10Day": 136220,
-    "bid": 1438.0,
-    "ask": 1444.0,
+    "bid": 1263.0,
+    "ask": 1265.0,
     "marketCap": 72264359936,
     "nonDilutedMarketCap": 72264360440,
     "fiftyTwoWeekLow": 1019.0,
@@ -1270,7 +1270,6 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "longName": "Okamura Foods Co., Ltd.",
     "corporateActions": [
       {
         "header": "Dividend",
@@ -1292,8 +1291,12 @@
     "esgPopulated": false,
     "regularMarketChangePercent": -4.515272,
     "regularMarketPrice": 1438.0,
-    "shortName": "OKAMURA FOODS CO LTD",
-    "marketState": "CLOSED",
+    "fiftyDayAverageChange": 63.71997,
+    "fiftyDayAverageChangePercent": 0.046366073,
+    "twoHundredDayAverageChange": 220.17505,
+    "twoHundredDayAverageChangePercent": 0.18079367,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
     "averageAnalystRating": "0.0 - Strong Buy",
     "cryptoTradeable": false,
     "hasPrePostMarketData": false,
@@ -1312,12 +1315,9 @@
     "earningsTimestampEnd": 1747198800,
     "isEarningsDateEstimate": false,
     "epsTrailingTwelveMonths": 46.02,
-    "fiftyDayAverageChange": 63.71997,
-    "fiftyDayAverageChangePercent": 0.046366073,
-    "twoHundredDayAverageChange": 220.17505,
-    "twoHundredDayAverageChangePercent": 0.18079367,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
+    "shortName": "OKAMURA FOODS CO LTD",
+    "longName": "Okamura Foods Co., Ltd.",
+    "marketState": "REGULAR",
     "trailingPegRatio": null
   }
 }

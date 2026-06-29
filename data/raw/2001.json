@@ -1,7 +1,7 @@
 {
   "ticker": "2001",
   "japanese_ticker": "2001.T",
-  "fetch_date": "2026-06-28T00:00:39.218707",
+  "fetch_date": "2026-06-29T00:08:23.198105",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": 1968849307.723846,
@@ -132,7 +132,7 @@
     "Basic Average Shares": {
       "2026-03-31 00:00:00": null,
       "2025-03-31 00:00:00": 78031330.0,
-      "2024-03-31 00:00:00": 77962744.0,
+      "2024-03-31 00:00:00": 77964000.0,
       "2023-03-31 00:00:00": 77633189.0,
       "2022-03-31 00:00:00": 76712000.0
     },
@@ -1080,17 +1080,7 @@
     "sectorKey": "consumer-defensive",
     "sectorDisp": "Consumer Defensive",
     "longBusinessSummary": "Nippn Corporation engages in flour milling and food business in Japan and internationally. It offers premixes, corn products, rice flour, wheat flour and bran, olive oil, flax seed products, etc.; dried noodles; bread, noodles, and confectionery; frozen ingredients and food; and ready-made meals. The company also provides premixes, which include tempura flour, okonomiyaki flour, pancake mixes, etc., under the REGALO brand; and frozen pasta and pasta sauce, cooked rice, popular dishes, snacks, desserts, frozen dough, etc. In addition, it is involved in the research and development of machinery and equipment, health care, pet care, biotechnology, and other business. The company was formerly known as Nippon Flour Mills Co., Ltd. and changed its name to Nippn Corporation in January 2021. Nippn Corporation was founded in 1896 and is headquartered in Tokyo, Japan.",
-    "companyOfficers": [
-      {
-        "maxAge": 1,
-        "name": "Mr. Toshiya  Maezuru",
-        "age": 64,
-        "title": "President, CEO, COO & Chairman",
-        "yearBorn": 1961,
-        "exercisedValue": 0,
-        "unexercisedValue": 0
-      }
-    ],
+    "companyOfficers": [],
     "executiveTeam": [],
     "maxAge": 86400,
     "priceHint": 2,
@@ -1115,8 +1105,8 @@
     "averageVolume": 222034,
     "averageVolume10days": 287420,
     "averageDailyVolume10Day": 287420,
-    "bid": 2837.0,
-    "ask": 2838.0,
+    "bid": 2851.0,
+    "ask": 2851.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 234509484032,
@@ -1186,13 +1176,13 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "corporateActions": [],
-    "regularMarketTime": 1782455400,
-    "marketState": "CLOSED",
-    "shortName": "NIPPN CORPORATION",
-    "regularMarketChangePercent": 1.1408199,
-    "regularMarketPrice": 2837.0,
     "longName": "Nippn Corporation",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 978307200000,
+    "prevName": "Nippon Flour Mills Co., Ltd.",
+    "nameChangeDate": "2026-06-28",
+    "cryptoTradeable": false,
+    "shortName": "NIPPN CORPORATION",
     "exchange": "JPX",
     "messageBoardId": "finmb_875692",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1200,6 +1190,8 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
+    "regularMarketChangePercent": 1.1408199,
+    "regularMarketPrice": 2837.0,
     "regularMarketChange": 32.0,
     "regularMarketDayRange": "2787.0 - 2866.0",
     "fullExchangeName": "Tokyo",
@@ -1222,11 +1214,9 @@
     "twoHundredDayAverageChangePercent": 0.11717761,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
-    "prevName": "Nippon Flour Mills Co., Ltd.",
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 978307200000,
-    "nameChangeDate": "2026-06-27",
-    "cryptoTradeable": false,
+    "marketState": "REGULAR",
+    "corporateActions": [],
+    "regularMarketTime": 1782455400,
     "trailingPegRatio": null
   }
 }

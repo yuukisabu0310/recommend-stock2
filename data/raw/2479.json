@@ -1,7 +1,7 @@
 {
   "ticker": "2479",
   "japanese_ticker": "2479.T",
-  "fetch_date": "2026-06-28T00:05:45.451270",
+  "fetch_date": "2026-06-29T00:14:41.575023",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": 133797.0,
@@ -107,7 +107,7 @@
     },
     "Diluted Average Shares": {
       "2025-03-31 00:00:00": 7998415.0,
-      "2024-03-31 00:00:00": 7978440.0,
+      "2024-03-31 00:00:00": 7978568.0,
       "2023-03-31 00:00:00": 7947025.0,
       "2022-03-31 00:00:00": 7906356.0
     },
@@ -264,7 +264,7 @@
   },
   "balance_sheet": {
     "Treasury Shares Number": {
-      "2025-03-31 00:00:00": 565700.0,
+      "2025-03-31 00:00:00": null,
       "2024-03-31 00:00:00": 586700.0,
       "2023-03-31 00:00:00": 604900.0,
       "2022-03-31 00:00:00": 636300.0
@@ -965,8 +965,8 @@
     "averageVolume": 37481,
     "averageVolume10days": 38500,
     "averageDailyVolume10Day": 38500,
-    "bid": 226.0,
-    "ask": 227.0,
+    "bid": 0.0,
+    "ask": 228.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 1822151680,
@@ -1035,7 +1035,9 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "marketState": "CLOSED",
+    "shortName": "JTEC CORP",
+    "marketState": "REGULAR",
+    "longName": "JTEC Corporation",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1144108800000,
     "regularMarketChange": 1.0,
@@ -1059,8 +1061,6 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
-    "regularMarketChangePercent": 0.44247788,
-    "regularMarketPrice": 227.0,
     "corporateActions": [],
     "regularMarketTime": 1782455400,
     "exchange": "JPX",
@@ -1070,8 +1070,8 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "shortName": "JTEC CORP",
-    "longName": "JTEC Corporation",
+    "regularMarketChangePercent": 0.44247788,
+    "regularMarketPrice": 227.0,
     "trailingPegRatio": null
   }
 }

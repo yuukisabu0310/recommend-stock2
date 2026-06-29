@@ -1,7 +1,7 @@
 {
   "ticker": "2432",
   "japanese_ticker": "2432.T",
-  "fetch_date": "2026-06-28T00:05:09.373285",
+  "fetch_date": "2026-06-29T00:13:57.590564",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": 0.0,
@@ -1077,8 +1077,8 @@
     "averageVolume": 1599727,
     "averageVolume10days": 1800480,
     "averageDailyVolume10Day": 1800480,
-    "bid": 2398.0,
-    "ask": 2406.0,
+    "bid": 2420.0,
+    "ask": 2420.5,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 234977705984,
@@ -1096,7 +1096,7 @@
     "tradeable": false,
     "enterpriseValue": 180535541760,
     "profitMargins": 0.12896,
-    "floatShares": 56955722,
+    "floatShares": 58156304,
     "sharesOutstanding": 97683522,
     "heldPercentInsiders": 0.42463002,
     "heldPercentInstitutions": 0.25838,
@@ -1155,10 +1155,10 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "marketState": "REGULAR",
     "shortName": "DENA CO LTD",
     "longName": "DeNA Co., Ltd.",
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1108512000000,
+    "cryptoTradeable": false,
     "corporateActions": [],
     "regularMarketTime": 1782455400,
     "exchange": "JPX",
@@ -1195,8 +1195,8 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "averageAnalystRating": "2.5 - Buy",
-    "cryptoTradeable": false,
-    "marketState": "CLOSED",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1108512000000,
     "trailingPegRatio": null
   }
 }

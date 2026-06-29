@@ -1,7 +1,7 @@
 {
   "ticker": "2438",
   "japanese_ticker": "2438.T",
-  "fetch_date": "2026-06-28T00:05:19.048364",
+  "fetch_date": "2026-06-29T00:14:09.447088",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-04-30 00:00:00": -101508816.0,
@@ -101,13 +101,13 @@
     },
     "Diluted Average Shares": {
       "2025-04-30 00:00:00": 16138920.0,
-      "2024-04-30 00:00:00": 16483598.0,
+      "2024-04-30 00:00:00": 16482782.0,
       "2023-04-30 00:00:00": 16672047.0,
       "2022-04-30 00:00:00": 16841606.0
     },
     "Basic Average Shares": {
       "2025-04-30 00:00:00": 16138920.0,
-      "2024-04-30 00:00:00": 16483598.0,
+      "2024-04-30 00:00:00": 16482782.0,
       "2023-04-30 00:00:00": 16672047.0,
       "2022-04-30 00:00:00": 16841606.0
     },
@@ -912,8 +912,8 @@
     "averageVolume": 70832,
     "averageVolume10days": 64150,
     "averageDailyVolume10Day": 64150,
-    "bid": 311.0,
-    "ask": 312.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 4665390080,
@@ -979,6 +979,19 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "epsTrailingTwelveMonths": 18.94,
+    "fiftyDayAverageChange": -22.920013,
+    "fiftyDayAverageChangePercent": -0.06863923,
+    "twoHundredDayAverageChange": -49.51001,
+    "twoHundredDayAverageChangePercent": -0.13733324,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
+    "marketState": "REGULAR",
+    "shortName": "ASUKANET CO LIMITED",
+    "longName": "Asukanet Co., Ltd.",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1113436800000,
     "regularMarketChange": 2.0,
     "regularMarketDayRange": "309.0 - 315.0",
     "fullExchangeName": "Tokyo",
@@ -992,17 +1005,6 @@
     "earningsTimestampStart": 1749553140,
     "earningsTimestampEnd": 1749553140,
     "isEarningsDateEstimate": false,
-    "epsTrailingTwelveMonths": 18.94,
-    "fiftyDayAverageChange": -22.920013,
-    "fiftyDayAverageChangePercent": -0.06863923,
-    "twoHundredDayAverageChange": -49.51001,
-    "twoHundredDayAverageChangePercent": -0.13733324,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1113436800000,
-    "marketState": "CLOSED",
     "corporateActions": [],
     "regularMarketTime": 1782455400,
     "exchange": "JPX",
@@ -1014,8 +1016,6 @@
     "esgPopulated": false,
     "regularMarketChangePercent": 0.6472492,
     "regularMarketPrice": 311.0,
-    "shortName": "ASUKANET CO LIMITED",
-    "longName": "Asukanet Co., Ltd.",
     "trailingPegRatio": null
   }
 }

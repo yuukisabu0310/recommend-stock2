@@ -1,7 +1,7 @@
 {
   "ticker": "1820",
   "japanese_ticker": "1820.T",
-  "fetch_date": "2026-06-27T23:58:12.958210",
+  "fetch_date": "2026-06-29T00:05:28.283237",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": 1967694000.0,
@@ -1136,6 +1136,7 @@
     "sectorKey": "industrials",
     "sectorDisp": "Industrials",
     "longBusinessSummary": "Nishimatsu Construction Co., Ltd. engages in the construction, development, real estate, and other businesses in Japan and internationally. It's projects include offices, government offices, dams, roads, railroads, airports and harbors, landscaping, energy, agricultural and river, and water supply and sewerage; and educational, cultural and social, medical, lodging, residential, commercial, sports and leisure, industrial, logistics, sports and leisure, industrial, and environmental facilities, as well as welfare facilities for senior citizens. The company was formerly known as Nishimatsu Gumi Co., Ltd. and changed its name to Nishimatsu Construction Co., Ltd. in July 1948. Nishimatsu Construction Co., Ltd. was founded in 1874 and is headquartered in Minato, Japan.",
+    "fullTimeEmployees": 3442,
     "companyOfficers": [
       {
         "maxAge": 1,
@@ -1248,8 +1249,8 @@
     "averageVolume": 128116,
     "averageVolume10days": 100700,
     "averageDailyVolume10Day": 100700,
-    "bid": 5276.0,
-    "ask": 5296.0,
+    "bid": 0.0,
+    "ask": 5291.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 208912121856,
@@ -1304,8 +1305,8 @@
     "quickRatio": 0.899,
     "currentRatio": 1.124,
     "totalRevenue": 396029984768,
-    "debtToEquity": 113.901,
-    "revenuePerShare": 10030.819,
+    "debtToEquity": 113.899,
+    "revenuePerShare": 10030.901,
     "returnOnAssets": 0.027409999,
     "returnOnEquity": 0.12372,
     "grossProfits": 54284001280,
@@ -1324,8 +1325,14 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "longName": "Nishimatsu Construction Co., Ltd.",
+    "regularMarketChangePercent": 0.8962624,
+    "regularMarketPrice": 5291.0,
+    "marketState": "REGULAR",
+    "shortName": "NISHIMATSU CONSTRUCTION CO",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 978307200000,
+    "cryptoTradeable": false,
     "regularMarketChange": 47.0,
     "regularMarketDayRange": "5235.0 - 5312.0",
     "fullExchangeName": "Tokyo",
@@ -1348,13 +1355,8 @@
     "twoHundredDayAverageChangePercent": -0.06871712,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
-    "shortName": "NISHIMATSU CONSTRUCTION CO",
-    "longName": "Nishimatsu Construction Co., Ltd.",
     "corporateActions": [],
     "regularMarketTime": 1782455400,
-    "regularMarketChangePercent": 0.8962624,
-    "regularMarketPrice": 5291.0,
     "exchange": "JPX",
     "messageBoardId": "finmb_874328",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1362,7 +1364,6 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "marketState": "CLOSED",
     "trailingPegRatio": null
   }
 }

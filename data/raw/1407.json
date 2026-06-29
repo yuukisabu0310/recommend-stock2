@@ -1,7 +1,7 @@
 {
   "ticker": "1407",
   "japanese_ticker": "1407.T",
-  "fetch_date": "2026-06-27T23:56:12.147427",
+  "fetch_date": "2026-06-29T00:02:58.561069",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-08-31 00:00:00": 57776000.0,
@@ -1173,8 +1173,8 @@
     "averageVolume": 787547,
     "averageVolume10days": 523520,
     "averageDailyVolume10Day": 523520,
-    "bid": 2340.0,
-    "ask": 2347.0,
+    "bid": 2387.0,
+    "ask": 2388.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 93000712192,
@@ -1249,6 +1249,10 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "marketState": "REGULAR",
+    "shortName": "WEST HOLDINGS CORP",
+    "longName": "West Holdings Corporation",
+    "cryptoTradeable": false,
     "corporateActions": [],
     "regularMarketTime": 1782455400,
     "exchange": "JPX",
@@ -1260,12 +1264,6 @@
     "esgPopulated": false,
     "regularMarketChangePercent": 2.3570492,
     "regularMarketPrice": 2345.0,
-    "cryptoTradeable": false,
-    "shortName": "WEST HOLDINGS CORP",
-    "longName": "West Holdings Corporation",
-    "marketState": "CLOSED",
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1088035200000,
     "regularMarketChange": 54.0,
     "regularMarketDayRange": "2275.0 - 2360.0",
     "fullExchangeName": "Tokyo",
@@ -1287,6 +1285,8 @@
     "twoHundredDayAverageChangePercent": 0.23262112,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1088035200000,
     "trailingPegRatio": null
   }
 }

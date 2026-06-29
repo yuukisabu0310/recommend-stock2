@@ -1,7 +1,7 @@
 {
   "ticker": "2134",
   "japanese_ticker": "2134.T",
-  "fetch_date": "2026-06-28T00:01:17.789195",
+  "fetch_date": "2026-06-29T00:09:07.736090",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": -52369824.0,
@@ -107,13 +107,13 @@
     },
     "Diluted Average Shares": {
       "2025-03-31 00:00:00": 279578437.0,
-      "2024-03-31 00:00:00": 140216502.0,
+      "2024-03-31 00:00:00": 140171060.0,
       "2023-03-31 00:00:00": 115679957.0,
       "2022-03-31 00:00:00": 97901057.0
     },
     "Basic Average Shares": {
       "2025-03-31 00:00:00": 279578437.0,
-      "2024-03-31 00:00:00": 140216502.0,
+      "2024-03-31 00:00:00": 140171060.0,
       "2023-03-31 00:00:00": 115679957.0,
       "2022-03-31 00:00:00": 97901057.0
     },
@@ -276,7 +276,7 @@
       "2022-03-31 00:00:00": 0.0
     },
     "Ordinary Shares Number": {
-      "2025-03-31 00:00:00": 298626993.0,
+      "2025-03-31 00:00:00": 375606993.0,
       "2024-03-31 00:00:00": 141556993.0,
       "2023-03-31 00:00:00": 138232538.0,
       "2022-03-31 00:00:00": 110049844.0
@@ -1100,7 +1100,7 @@
     "tradeable": false,
     "enterpriseValue": 14438821888,
     "profitMargins": -0.66387004,
-    "floatShares": 340820483,
+    "floatShares": 334190926,
     "sharesOutstanding": 547690992,
     "heldPercentInsiders": 0.2574,
     "heldPercentInstitutions": 0.00358,
@@ -1147,20 +1147,21 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "shortName": "KITAHAMA CAPITAL PARTNERS CO LT",
-    "longName": "Kitahama Capital Partners Co.,Ltd.",
-    "regularMarketChangePercent": 0.0,
-    "regularMarketPrice": 26.0,
-    "marketState": "CLOSED",
-    "corporateActions": [],
-    "regularMarketTime": 1782455400,
-    "exchange": "JPX",
-    "messageBoardId": "finmb_30006490",
+    "cryptoTradeable": false,
     "exchangeTimezoneName": "Asia/Tokyo",
     "exchangeTimezoneShortName": "JST",
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
+    "regularMarketChangePercent": 0.0,
+    "regularMarketPrice": 26.0,
+    "shortName": "KITAHAMA CAPITAL PARTNERS CO LT",
+    "marketState": "REGULAR",
+    "longName": "Kitahama Capital Partners Co.,Ltd.",
+    "corporateActions": [],
+    "regularMarketTime": 1782455400,
+    "exchange": "JPX",
+    "messageBoardId": "finmb_30006490",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1165449600000,
     "regularMarketChange": 0.0,
@@ -1184,8 +1185,7 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "prevName": "Sun Capital Management Corp.",
-    "nameChangeDate": "2026-06-27",
-    "cryptoTradeable": false,
+    "nameChangeDate": "2026-06-28",
     "trailingPegRatio": null
   }
 }

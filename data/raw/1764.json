@@ -1,7 +1,7 @@
 {
   "ticker": "1764",
   "japanese_ticker": "1764.T",
-  "fetch_date": "2026-06-27T23:57:26.326403",
+  "fetch_date": "2026-06-29T00:04:30.180682",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-06-30 00:00:00": null,
@@ -132,7 +132,7 @@
     "Diluted Average Shares": {
       "2025-06-30 00:00:00": 1243000.0,
       "2024-06-30 00:00:00": 1245000.0,
-      "2023-06-30 00:00:00": 1256000.0,
+      "2023-06-30 00:00:00": 1256105.0,
       "2022-06-30 00:00:00": 1203000.0,
       "2021-06-30 00:00:00": null
     },
@@ -152,10 +152,10 @@
     },
     "Basic EPS": {
       "2025-06-30 00:00:00": 307.93,
-      "2024-06-30 00:00:00": 165.94,
+      "2024-06-30 00:00:00": null,
       "2023-06-30 00:00:00": 108.19,
       "2022-06-30 00:00:00": 100.58,
-      "2021-06-30 00:00:00": null
+      "2021-06-30 00:00:00": 311.58
     },
     "Diluted NI Availto Com Stockholders": {
       "2025-06-30 00:00:00": null,
@@ -357,14 +357,14 @@
   "balance_sheet": {
     "Treasury Shares Number": {
       "2025-06-30 00:00:00": null,
-      "2024-06-30 00:00:00": 88847.0,
+      "2024-06-30 00:00:00": null,
       "2023-06-30 00:00:00": 80795.0,
       "2022-06-30 00:00:00": 69772.0,
       "2021-06-30 00:00:00": 189662.0
     },
     "Ordinary Shares Number": {
       "2025-06-30 00:00:00": null,
-      "2024-06-30 00:00:00": 1242373.0,
+      "2024-06-30 00:00:00": 1243773.0,
       "2023-06-30 00:00:00": 1250425.0,
       "2022-06-30 00:00:00": 1261448.0,
       "2021-06-30 00:00:00": 1141558.0
@@ -1226,8 +1226,8 @@
     "averageVolume": 1591,
     "averageVolume10days": 2140,
     "averageDailyVolume10Day": 2140,
-    "bid": 2894.0,
-    "ask": 2925.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 3645380608,
@@ -1290,8 +1290,22 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "marketState": "CLOSED",
+    "shortName": "KUDO CORP",
     "longName": "Kudo Corporation",
+    "marketState": "REGULAR",
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "1764.T announced a cash dividend of JPY 117.00 with an ex-date of Jun. 29, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1782658800000,
+          "amount": "117.00"
+        }
+      }
+    ],
+    "regularMarketTime": 1782455400,
+    "exchange": "JPX",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 978307200000,
     "regularMarketChange": 25.0,
@@ -1312,11 +1326,6 @@
     "fiftyDayAverageChangePercent": -0.036446974,
     "twoHundredDayAverageChange": -24.425049,
     "twoHundredDayAverageChangePercent": -0.008281291,
-    "shortName": "KUDO CORP",
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
-    "exchange": "JPX",
     "messageBoardId": "finmb_882969",
     "exchangeTimezoneName": "Asia/Tokyo",
     "exchangeTimezoneShortName": "JST",
@@ -1325,18 +1334,9 @@
     "esgPopulated": false,
     "regularMarketChangePercent": 0.86206895,
     "regularMarketPrice": 2925.0,
-    "corporateActions": [
-      {
-        "header": "Dividend",
-        "message": "1764.T announced a cash dividend of JPY 117.00 with an ex-date of Jun. 29, 2026",
-        "meta": {
-          "eventType": "DIVIDEND",
-          "dateEpochMs": 1782658800000,
-          "amount": "117.00"
-        }
-      }
-    ],
-    "regularMarketTime": 1782455400,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
     "trailingPegRatio": null
   }
 }

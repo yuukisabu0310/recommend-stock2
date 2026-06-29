@@ -1,7 +1,7 @@
 {
   "ticker": "2437",
   "japanese_ticker": "2437.T",
-  "fetch_date": "2026-06-28T00:05:17.056368",
+  "fetch_date": "2026-06-29T00:14:07.227482",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-05-31 00:00:00": -3037647.220409,
@@ -107,7 +107,7 @@
     },
     "Diluted Average Shares": {
       "2025-05-31 00:00:00": 10747408.0,
-      "2024-05-31 00:00:00": 10223768.0,
+      "2024-05-31 00:00:00": 10223695.0,
       "2023-05-31 00:00:00": 10665455.0,
       "2022-05-31 00:00:00": 9015980.0
     },
@@ -270,13 +270,13 @@
       "2022-05-31 00:00:00": 0.0
     },
     "Ordinary Shares Number": {
-      "2025-05-31 00:00:00": 11017818.0,
+      "2025-05-31 00:00:00": 10921318.0,
       "2024-05-31 00:00:00": 10736118.0,
       "2023-05-31 00:00:00": 10066518.0,
       "2022-05-31 00:00:00": 9651518.0
     },
     "Share Issued": {
-      "2025-05-31 00:00:00": 11017818.0,
+      "2025-05-31 00:00:00": 10921318.0,
       "2024-05-31 00:00:00": 10736118.0,
       "2023-05-31 00:00:00": 10066518.0,
       "2022-05-31 00:00:00": 9651518.0
@@ -986,8 +986,8 @@
     "averageVolume": 130416,
     "averageVolume10days": 212170,
     "averageDailyVolume10Day": 212170,
-    "bid": 544.0,
-    "ask": 552.0,
+    "bid": 551.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 6081835520,
@@ -1052,9 +1052,15 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "marketState": "CLOSED",
+    "marketState": "REGULAR",
     "shortName": "SHINWA WISE HLDGS CO LTD",
     "longName": "Shinwa Wise Holdings Co.,Ltd.",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1112659200000,
+    "regularMarketChange": -10.0,
+    "regularMarketDayRange": "544.0 - 571.0",
+    "fullExchangeName": "Tokyo",
+    "averageDailyVolume3Month": 130416,
     "corporateActions": [],
     "regularMarketTime": 1782455400,
     "exchange": "JPX",
@@ -1066,13 +1072,6 @@
     "esgPopulated": false,
     "regularMarketChangePercent": -1.7793593,
     "regularMarketPrice": 552.0,
-    "cryptoTradeable": false,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1112659200000,
-    "regularMarketChange": -10.0,
-    "regularMarketDayRange": "544.0 - 571.0",
-    "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 130416,
     "fiftyTwoWeekLowChange": 316.0,
     "fiftyTwoWeekLowChangePercent": 1.338983,
     "fiftyTwoWeekRange": "236.0 - 794.0",
@@ -1089,6 +1088,7 @@
     "twoHundredDayAverageChangePercent": 0.22887865,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
     "trailingPegRatio": null
   }
 }

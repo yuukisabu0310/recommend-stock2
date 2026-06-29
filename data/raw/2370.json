@@ -1,7 +1,7 @@
 {
   "ticker": "2370",
   "japanese_ticker": "2370.T",
-  "fetch_date": "2026-06-28T00:04:19.882719",
+  "fetch_date": "2026-06-29T00:12:53.171610",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-09-30 00:00:00": 13910024.0,
@@ -131,17 +131,17 @@
     },
     "Basic Average Shares": {
       "2025-09-30 00:00:00": 264647679.0,
-      "2024-09-30 00:00:00": 253282224.0,
+      "2024-09-30 00:00:00": null,
       "2023-09-30 00:00:00": 216084438.0,
       "2022-09-30 00:00:00": 198069652.0,
-      "2021-09-30 00:00:00": null
+      "2021-09-30 00:00:00": 172664409.0
     },
     "Diluted EPS": {
       "2025-09-30 00:00:00": -5.15,
-      "2024-09-30 00:00:00": -5.04,
+      "2024-09-30 00:00:00": null,
       "2023-09-30 00:00:00": -6.65,
       "2022-09-30 00:00:00": -6.33,
-      "2021-09-30 00:00:00": null
+      "2021-09-30 00:00:00": -4.88
     },
     "Basic EPS": {
       "2025-09-30 00:00:00": -5.15,
@@ -1167,8 +1167,16 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "regularMarketChangePercent": 0.0,
+    "regularMarketPrice": 24.0,
+    "shortName": "MEDINET CO LTD",
+    "longName": "MEDINET Co., Ltd.",
+    "earningsTimestampStart": 1754546400,
+    "earningsTimestampEnd": 1754978400,
+    "isEarningsDateEstimate": true,
     "corporateActions": [],
     "regularMarketTime": 1782455400,
+    "marketState": "REGULAR",
     "exchange": "JPX",
     "messageBoardId": "finmb_9830272",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1176,8 +1184,14 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "regularMarketChangePercent": 0.0,
-    "regularMarketPrice": 24.0,
+    "epsTrailingTwelveMonths": -4.47,
+    "fiftyDayAverageChange": -3.2600002,
+    "fiftyDayAverageChangePercent": -0.11958915,
+    "twoHundredDayAverageChange": -6.6100006,
+    "twoHundredDayAverageChangePercent": -0.21594252,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1065571200000,
     "regularMarketChange": 0.0,
@@ -1190,20 +1204,6 @@
     "fiftyTwoWeekHighChange": -19.0,
     "fiftyTwoWeekHighChangePercent": -0.44186047,
     "fiftyTwoWeekChangePercent": -41.463417,
-    "earningsTimestampStart": 1754546400,
-    "earningsTimestampEnd": 1754978400,
-    "isEarningsDateEstimate": true,
-    "marketState": "CLOSED",
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
-    "epsTrailingTwelveMonths": -4.47,
-    "fiftyDayAverageChange": -3.2600002,
-    "fiftyDayAverageChangePercent": -0.11958915,
-    "twoHundredDayAverageChange": -6.6100006,
-    "twoHundredDayAverageChangePercent": -0.21594252,
-    "shortName": "MEDINET CO LTD",
-    "longName": "MEDINET Co., Ltd.",
     "trailingPegRatio": null
   }
 }

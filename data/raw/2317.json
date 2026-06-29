@@ -1,7 +1,7 @@
 {
   "ticker": "2317",
   "japanese_ticker": "2317.T",
-  "fetch_date": "2026-06-28T00:03:35.345636",
+  "fetch_date": "2026-06-29T00:11:56.814989",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": 167230940.456316,
@@ -1187,8 +1187,8 @@
     "averageVolume": 1103070,
     "averageVolume10days": 1132020,
     "averageDailyVolume10Day": 1132020,
-    "bid": 390.0,
-    "ask": 391.0,
+    "bid": 0.0,
+    "ask": 392.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 139765235712,
@@ -1263,9 +1263,11 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "shortName": "SYSTENA CORPORATION",
     "longName": "Systena Corporation",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1100476800000,
     "cryptoTradeable": false,
+    "shortName": "SYSTENA CORPORATION",
     "exchange": "JPX",
     "messageBoardId": "finmb_9429314",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1273,13 +1275,8 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "corporateActions": [],
-    "regularMarketTime": 1782455400,
     "regularMarketChangePercent": 1.2953368,
     "regularMarketPrice": 391.0,
-    "marketState": "CLOSED",
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1100476800000,
     "regularMarketChange": 5.0,
     "regularMarketDayRange": "385.0 - 391.0",
     "fullExchangeName": "Tokyo",
@@ -1302,6 +1299,9 @@
     "twoHundredDayAverageChangePercent": -0.16303663,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
+    "marketState": "REGULAR",
+    "corporateActions": [],
+    "regularMarketTime": 1782455400,
     "trailingPegRatio": null
   }
 }

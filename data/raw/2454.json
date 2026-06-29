@@ -1,7 +1,7 @@
 {
   "ticker": "2454",
   "japanese_ticker": "2454.T",
-  "fetch_date": "2026-06-28T00:05:27.154796",
+  "fetch_date": "2026-06-29T00:14:19.530514",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": -35946400.0,
@@ -125,7 +125,7 @@
     "Basic Average Shares": {
       "2026-03-31 00:00:00": null,
       "2025-03-31 00:00:00": 13956008.0,
-      "2024-03-31 00:00:00": 13835627.0,
+      "2024-03-31 00:00:00": 13835376.0,
       "2023-03-31 00:00:00": 13624192.0,
       "2022-03-31 00:00:00": 13551372.0
     },
@@ -301,10 +301,10 @@
   "balance_sheet": {
     "Treasury Shares Number": {
       "2026-03-31 00:00:00": 134223.0,
-      "2025-03-31 00:00:00": 118216.0,
+      "2025-03-31 00:00:00": null,
       "2024-03-31 00:00:00": 206363.0,
       "2023-03-31 00:00:00": 295979.0,
-      "2022-03-31 00:00:00": null
+      "2022-03-31 00:00:00": 373699.0
     },
     "Ordinary Shares Number": {
       "2026-03-31 00:00:00": 14089693.0,
@@ -315,7 +315,7 @@
     },
     "Share Issued": {
       "2026-03-31 00:00:00": 14223916.0,
-      "2025-03-31 00:00:00": 14103600.0,
+      "2025-03-31 00:00:00": 13985384.0,
       "2024-03-31 00:00:00": 14103600.0,
       "2023-03-31 00:00:00": 13960900.0,
       "2022-03-31 00:00:00": null
@@ -1088,8 +1088,8 @@
     "averageVolume": 8540,
     "averageVolume10days": 7330,
     "averageDailyVolume10Day": 7330,
-    "bid": 336.0,
-    "ask": 338.0,
+    "bid": 0.0,
+    "ask": 339.0,
     "marketCap": 4762316288,
     "nonDilutedMarketCap": 4762316234,
     "fiftyTwoWeekLow": 336.0,
@@ -1153,8 +1153,7 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "regularMarketChangePercent": 0.2967359,
-    "regularMarketPrice": 338.0,
+    "shortName": "ALL ABOUT INC",
     "corporateActions": [],
     "regularMarketTime": 1782455400,
     "exchange": "JPX",
@@ -1164,9 +1163,6 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "marketState": "CLOSED",
-    "shortName": "ALL ABOUT INC",
-    "longName": "All About, Inc.",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1126569600000,
     "regularMarketChange": 1.0,
@@ -1190,6 +1186,10 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
+    "regularMarketChangePercent": 0.2967359,
+    "regularMarketPrice": 338.0,
+    "longName": "All About, Inc.",
+    "marketState": "REGULAR",
     "trailingPegRatio": null
   }
 }

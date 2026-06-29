@@ -1,12 +1,12 @@
 {
   "ticker": "1518",
   "japanese_ticker": "1518.T",
-  "fetch_date": "2026-06-27T23:56:54.624379",
+  "fetch_date": "2026-06-29T00:03:50.546092",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": -35555340.793489,
       "2025-03-31 00:00:00": 946713694.34823,
-      "2024-03-31 00:00:00": -848789600.0,
+      "2024-03-31 00:00:00": -848640862.944162,
       "2023-03-31 00:00:00": -591723900.0,
       "2022-03-31 00:00:00": null
     },
@@ -1243,8 +1243,8 @@
     "averageVolume": 237447,
     "averageVolume10days": 182610,
     "averageDailyVolume10Day": 182610,
-    "bid": 1497.0,
-    "ask": 1498.0,
+    "bid": 0.0,
+    "ask": 1491.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 55467884544,
@@ -1312,10 +1312,7 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "regularMarketChangePercent": -0.39893618,
-    "regularMarketPrice": 1498.0,
-    "corporateActions": [],
-    "regularMarketTime": 1782455400,
+    "marketState": "REGULAR",
     "exchange": "JPX",
     "messageBoardId": "finmb_881022",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1323,9 +1320,9 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "marketState": "CLOSED",
-    "shortName": "MITSUI MATSUSHIMA HOLDINGS CO L",
-    "longName": "Mitsui Matsushima Holdings Co., Ltd.",
+    "corporateActions": [],
+    "regularMarketTime": 1782455400,
+    "cryptoTradeable": false,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 978307200000,
     "regularMarketChange": -6.0,
@@ -1351,7 +1348,10 @@
     "twoHundredDayAverageChangePercent": 0.07613008,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
+    "regularMarketChangePercent": -0.39893618,
+    "regularMarketPrice": 1498.0,
+    "shortName": "MITSUI MATSUSHIMA HOLDINGS CO L",
+    "longName": "Mitsui Matsushima Holdings Co., Ltd.",
     "trailingPegRatio": null
   }
 }

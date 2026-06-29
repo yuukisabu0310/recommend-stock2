@@ -1,7 +1,7 @@
 {
   "ticker": "2221",
   "japanese_ticker": "2221.T",
-  "fetch_date": "2026-06-28T00:02:40.479291",
+  "fetch_date": "2026-06-29T00:10:48.610981",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": 3233328.550089,
@@ -259,10 +259,10 @@
   "balance_sheet": {
     "Treasury Shares Number": {
       "2026-03-31 00:00:00": 1731313.0,
-      "2025-03-31 00:00:00": 1585648.0,
+      "2025-03-31 00:00:00": null,
       "2024-03-31 00:00:00": 1589368.0,
       "2023-03-31 00:00:00": 781568.0,
-      "2022-03-31 00:00:00": null
+      "2022-03-31 00:00:00": 781522.0
     },
     "Ordinary Shares Number": {
       "2026-03-31 00:00:00": 10258687.0,
@@ -1082,8 +1082,8 @@
     "averageVolume": 2868,
     "averageVolume10days": 3560,
     "averageDailyVolume10Day": 3560,
-    "bid": 3020.0,
-    "ask": 3035.0,
+    "bid": 0.0,
+    "ask": 3070.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 31083821056,
@@ -1150,13 +1150,16 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "shortName": "IWATSUKA CONFECTIONERY CO",
-    "longName": "Iwatsuka Confectionery Co., Ltd.",
     "regularMarketChangePercent": 0.33112583,
     "regularMarketPrice": 3030.0,
-    "marketState": "CLOSED",
+    "shortName": "IWATSUKA CONFECTIONERY CO",
+    "longName": "Iwatsuka Confectionery Co., Ltd.",
+    "earningsTimestampStart": 1747204200,
+    "earningsTimestampEnd": 1747204200,
+    "isEarningsDateEstimate": false,
     "corporateActions": [],
     "regularMarketTime": 1782455400,
+    "marketState": "REGULAR",
     "exchange": "JPX",
     "messageBoardId": "finmb_5636761",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1164,6 +1167,14 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
+    "epsTrailingTwelveMonths": 198.16,
+    "fiftyDayAverageChange": -58.399902,
+    "fiftyDayAverageChangePercent": -0.018909438,
+    "twoHundredDayAverageChange": -71.08496,
+    "twoHundredDayAverageChangePercent": -0.02292261,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 947203200000,
     "regularMarketChange": 10.0,
@@ -1176,17 +1187,6 @@
     "fiftyTwoWeekHighChange": -340.0,
     "fiftyTwoWeekHighChangePercent": -0.100890204,
     "fiftyTwoWeekChangePercent": 2.2957444,
-    "earningsTimestampStart": 1747204200,
-    "earningsTimestampEnd": 1747204200,
-    "isEarningsDateEstimate": false,
-    "epsTrailingTwelveMonths": 198.16,
-    "fiftyDayAverageChange": -58.399902,
-    "fiftyDayAverageChangePercent": -0.018909438,
-    "twoHundredDayAverageChange": -71.08496,
-    "twoHundredDayAverageChangePercent": -0.02292261,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
     "trailingPegRatio": null
   }
 }

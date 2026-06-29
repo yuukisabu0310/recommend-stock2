@@ -1,7 +1,7 @@
 {
   "ticker": "1835",
   "japanese_ticker": "1835.T",
-  "fetch_date": "2026-06-27T23:58:24.003838",
+  "fetch_date": "2026-06-29T00:05:41.970845",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": 55310389.088997,
@@ -1015,64 +1015,7 @@
     "sectorDisp": "Industrials",
     "longBusinessSummary": "Totetsu Kogyo Co., Ltd. engages in the railway track maintenance, civil engineering, architectural, and environmental businesses in Japan. The company is involved in the repair and reconstruction of railway tracks, as well as building new railway tracks for the Tohoku Shinkansen, and other public and private sectors. It also engages in the construction, renovation, and reinforcement of elevated and standard bridges, tunnels, motorways, and multilevel crossings; and setting up railway platform edge doors for passenger protection. In addition, the company is involved in the construction and maintenance of station buildings for railway lines, apartment houses, office buildings, hotels, shops, schools, etc. Further, it offers environmental technology and services, such as constructing solar power generation systems, greening of buildings, draining disposal systems, removing asbestos, implementing energy conservation systems for air conditioning, etc. Totetsu Kogyo Co., Ltd. was incorporated in 1943 and is headquartered in Tokyo, Japan.",
     "fullTimeEmployees": 1921,
-    "companyOfficers": [
-      {
-        "maxAge": 1,
-        "name": "Akira  Kato",
-        "title": "Managing Executive Officer of Tokyo Railway Branch Manager",
-        "exercisedValue": 0,
-        "unexercisedValue": 0
-      },
-      {
-        "maxAge": 1,
-        "name": "Kazuo  Tobita",
-        "title": "Managing Executive Officer",
-        "exercisedValue": 0,
-        "unexercisedValue": 0
-      },
-      {
-        "maxAge": 1,
-        "name": "Tetsuhiro  Anami",
-        "title": "Managing Executive Officer & Chief of the Track Department",
-        "exercisedValue": 0,
-        "unexercisedValue": 0
-      },
-      {
-        "maxAge": 1,
-        "name": "Masamitsu  Araki",
-        "title": "Managing Executive Officer & GM of Tokyo Architectural Branch",
-        "exercisedValue": 0,
-        "unexercisedValue": 0
-      },
-      {
-        "maxAge": 1,
-        "name": "Shigeyuki  Kanbe",
-        "title": "Managing Executive Officer & Deputy Head of Civil Engineering Department",
-        "exercisedValue": 0,
-        "unexercisedValue": 0
-      },
-      {
-        "maxAge": 1,
-        "name": "Seiji  Saito",
-        "title": "Managing Executive Officer & Tokyo Railroad Branch Manager",
-        "exercisedValue": 0,
-        "unexercisedValue": 0
-      },
-      {
-        "maxAge": 1,
-        "name": "Taku  Yamaguchi",
-        "title": "Managing Executive Officer & Deputy GM of Construction Division",
-        "exercisedValue": 0,
-        "unexercisedValue": 0
-      },
-      {
-        "maxAge": 1,
-        "name": "Fuminari  Aizawa",
-        "title": "Senior Managing Executive Officer & Chief of Civil Engineering Division",
-        "exercisedValue": 0,
-        "unexercisedValue": 0
-      }
-    ],
+    "companyOfficers": [],
     "auditRisk": 1,
     "boardRisk": 8,
     "compensationRisk": 5,
@@ -1104,8 +1047,8 @@
     "averageVolume": 94560,
     "averageVolume10days": 90570,
     "averageDailyVolume10Day": 90570,
-    "bid": 4195.0,
-    "ask": 4205.0,
+    "bid": 4200.0,
+    "ask": 4200.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 144483188736,
@@ -1179,6 +1122,9 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "shortName": "TOTETSU KOGYO CO",
+    "marketState": "REGULAR",
+    "longName": "Totetsu Kogyo Co., Ltd.",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 978307200000,
     "regularMarketChange": 35.0,
@@ -1201,21 +1147,18 @@
     "fiftyDayAverageChangePercent": -0.10862271,
     "twoHundredDayAverageChange": -538.7749,
     "twoHundredDayAverageChangePercent": -0.11381507,
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "corporateActions": [],
-    "regularMarketTime": 1782455400,
-    "exchange": "JPX",
-    "messageBoardId": "finmb_880832",
-    "market": "jp_market",
-    "shortName": "TOTETSU KOGYO CO",
-    "longName": "Totetsu Kogyo Co., Ltd.",
-    "marketState": "CLOSED",
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "averageAnalystRating": "1.7 - Buy",
     "cryptoTradeable": false,
+    "corporateActions": [],
+    "regularMarketTime": 1782455400,
+    "exchange": "JPX",
+    "messageBoardId": "finmb_880832",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
     "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
     "esgPopulated": false,
     "regularMarketChangePercent": 0.8413462,
     "regularMarketPrice": 4195.0,

@@ -1,7 +1,7 @@
 {
   "ticker": "2353",
   "japanese_ticker": "2353.T",
-  "fetch_date": "2026-06-28T00:04:14.219714",
+  "fetch_date": "2026-06-29T00:12:46.287652",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-07-31 00:00:00": null,
@@ -432,12 +432,6 @@
       "2023-07-31 00:00:00": 699221000.0,
       "2022-07-31 00:00:00": 699221000.0,
       "2021-07-31 00:00:00": 699221000.0
-    },
-    "Total Liabilities Net Minority Interest": {
-      "2024-07-31 00:00:00": 23568907000.0,
-      "2023-07-31 00:00:00": 15056138000.0,
-      "2022-07-31 00:00:00": 15865276000.0,
-      "2021-07-31 00:00:00": 17980977000.0
     },
     "Total Non Current Liabilities Net Minority Interest": {
       "2024-07-31 00:00:00": 15542007000.0,
@@ -1147,8 +1141,8 @@
     "averageVolume": 1508103,
     "averageVolume10days": 1299540,
     "averageDailyVolume10Day": 1299540,
-    "bid": 246.0,
-    "ask": 247.0,
+    "bid": 0.0,
+    "ask": 250.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 76789276672,
@@ -1221,6 +1215,13 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
+    "regularMarketChangePercent": 0.40816325,
+    "regularMarketPrice": 246.0,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1077667200000,
     "regularMarketChange": 1.0,
     "regularMarketDayRange": "245.0 - 249.0",
     "fullExchangeName": "Tokyo",
@@ -1240,12 +1241,6 @@
     "fiftyDayAverageChangePercent": -0.007984498,
     "twoHundredDayAverageChange": -22.01001,
     "twoHundredDayAverageChangePercent": -0.08212384,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1077667200000,
-    "marketState": "CLOSED",
     "corporateActions": [],
     "regularMarketTime": 1782455400,
     "exchange": "JPX",
@@ -1255,10 +1250,9 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "regularMarketChangePercent": 0.40816325,
-    "regularMarketPrice": 246.0,
     "shortName": "NIPPON PARKING DEVELOPMENT CO.L",
     "longName": "NIPPON PARKING DEVELOPMENT Co.,Ltd.",
+    "marketState": "REGULAR",
     "trailingPegRatio": null
   }
 }

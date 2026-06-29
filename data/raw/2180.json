@@ -1,7 +1,7 @@
 {
   "ticker": "2180",
   "japanese_ticker": "2180.T",
-  "fetch_date": "2026-06-28T00:02:00.413180",
+  "fetch_date": "2026-06-29T00:09:58.708400",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-06-30 00:00:00": null,
@@ -138,10 +138,10 @@
     },
     "Diluted EPS": {
       "2025-06-30 00:00:00": 63.58,
-      "2024-06-30 00:00:00": 53.23,
+      "2024-06-30 00:00:00": null,
       "2023-06-30 00:00:00": 59.28,
       "2022-06-30 00:00:00": 38.58,
-      "2021-06-30 00:00:00": null
+      "2021-06-30 00:00:00": 19.83
     },
     "Basic EPS": {
       "2025-06-30 00:00:00": 63.58,
@@ -1143,8 +1143,8 @@
     "averageVolume": 89872,
     "averageVolume10days": 78610,
     "averageDailyVolume10Day": 78610,
-    "bid": 1305.0,
-    "ask": 1308.0,
+    "bid": 0.0,
+    "ask": 1306.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 19328804864,
@@ -1213,8 +1213,14 @@
     "customPriceAlertConfidence": "LOW",
     "regularMarketChangePercent": 0.0,
     "regularMarketPrice": 1305.0,
+    "shortName": "SUNNY SIDE UP GROUP INC",
+    "longName": "SUNNY SIDE UP GROUP Inc.",
+    "earningsTimestampStart": 1754985600,
+    "earningsTimestampEnd": 1755504000,
+    "isEarningsDateEstimate": true,
     "corporateActions": [],
     "regularMarketTime": 1782455400,
+    "marketState": "REGULAR",
     "exchange": "JPX",
     "messageBoardId": "finmb_47318901",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1222,9 +1228,14 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "marketState": "CLOSED",
-    "shortName": "SUNNY SIDE UP GROUP INC",
-    "longName": "SUNNY SIDE UP GROUP Inc.",
+    "epsTrailingTwelveMonths": 102.44,
+    "fiftyDayAverageChange": 112.21997,
+    "fiftyDayAverageChangePercent": 0.094082706,
+    "twoHundredDayAverageChange": 361.95,
+    "twoHundredDayAverageChangePercent": 0.38380787,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1220572800000,
     "regularMarketChange": 0.0,
@@ -1237,17 +1248,6 @@
     "fiftyTwoWeekHighChange": -13.0,
     "fiftyTwoWeekHighChangePercent": -0.00986343,
     "fiftyTwoWeekChangePercent": 140.33148,
-    "earningsTimestampStart": 1754985600,
-    "earningsTimestampEnd": 1755504000,
-    "isEarningsDateEstimate": true,
-    "epsTrailingTwelveMonths": 102.44,
-    "fiftyDayAverageChange": 112.21997,
-    "fiftyDayAverageChangePercent": 0.094082706,
-    "twoHundredDayAverageChange": 361.95,
-    "twoHundredDayAverageChangePercent": 0.38380787,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
     "trailingPegRatio": null
   }
 }

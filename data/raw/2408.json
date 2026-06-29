@@ -1,7 +1,7 @@
 {
   "ticker": "2408",
   "japanese_ticker": "2408.T",
-  "fetch_date": "2026-06-28T00:04:50.451762",
+  "fetch_date": "2026-06-29T00:13:34.171911",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-12-31 00:00:00": -386910.0,
@@ -117,10 +117,10 @@
     },
     "Diluted Average Shares": {
       "2025-12-31 00:00:00": 7320798.0,
-      "2024-12-31 00:00:00": 7310828.0,
+      "2024-12-31 00:00:00": null,
       "2023-12-31 00:00:00": 7232929.0,
       "2022-12-31 00:00:00": 7232929.0,
-      "2021-12-31 00:00:00": null
+      "2021-12-31 00:00:00": 7231138.0
     },
     "Basic Average Shares": {
       "2025-12-31 00:00:00": null,
@@ -131,7 +131,7 @@
     },
     "Diluted EPS": {
       "2025-12-31 00:00:00": null,
-      "2024-12-31 00:00:00": 32.97,
+      "2024-12-31 00:00:00": null,
       "2023-12-31 00:00:00": 51.35,
       "2022-12-31 00:00:00": 46.68,
       "2021-12-31 00:00:00": 10.02
@@ -1094,8 +1094,8 @@
     "averageVolume": 25137,
     "averageVolume10days": 19280,
     "averageDailyVolume10Day": 19280,
-    "bid": 832.0,
-    "ask": 838.0,
+    "bid": 799.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 6039071232,
@@ -1159,7 +1159,14 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "marketState": "CLOSED",
+    "longName": "KG Intelligence CO., LTD.",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1093478400000,
+    "regularMarketChange": 21.0,
+    "regularMarketDayRange": "816.0 - 839.0",
+    "fullExchangeName": "Tokyo",
+    "averageDailyVolume3Month": 25137,
+    "fiftyTwoWeekLowChange": 238.0,
     "fiftyTwoWeekLowChangePercent": 0.39666668,
     "fiftyTwoWeekRange": "600.0 - 949.0",
     "fiftyTwoWeekHighChange": -111.0,
@@ -1175,9 +1182,9 @@
     "twoHundredDayAverageChangePercent": 0.1443163,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
+    "marketState": "REGULAR",
     "shortName": "KG INTELLIGENCE CO LTD",
-    "longName": "KG Intelligence CO., LTD.",
+    "cryptoTradeable": false,
     "corporateActions": [],
     "regularMarketTime": 1782455400,
     "exchange": "JPX",
@@ -1189,13 +1196,6 @@
     "esgPopulated": false,
     "regularMarketChangePercent": 2.5703795,
     "regularMarketPrice": 838.0,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1093478400000,
-    "regularMarketChange": 21.0,
-    "regularMarketDayRange": "816.0 - 839.0",
-    "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 25137,
-    "fiftyTwoWeekLowChange": 238.0,
     "trailingPegRatio": null
   }
 }

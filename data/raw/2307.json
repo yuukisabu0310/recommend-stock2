@@ -1,7 +1,7 @@
 {
   "ticker": "2307",
   "japanese_ticker": "2307.T",
-  "fetch_date": "2026-06-28T00:03:29.751203",
+  "fetch_date": "2026-06-29T00:11:49.488246",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": -7649095.686192,
@@ -264,7 +264,7 @@
   },
   "balance_sheet": {
     "Treasury Shares Number": {
-      "2025-03-31 00:00:00": 2900874.0,
+      "2025-03-31 00:00:00": null,
       "2024-03-31 00:00:00": 2760632.0,
       "2023-03-31 00:00:00": 1978832.0,
       "2022-03-31 00:00:00": 3416246.0
@@ -276,7 +276,7 @@
       "2022-03-31 00:00:00": 15005674.0
     },
     "Share Issued": {
-      "2025-03-31 00:00:00": 17005674.0,
+      "2025-03-31 00:00:00": 14104800.0,
       "2024-03-31 00:00:00": 17005674.0,
       "2023-03-31 00:00:00": 17005674.0,
       "2022-03-31 00:00:00": 18421920.0
@@ -1010,7 +1010,7 @@
     "averageVolume": 30509,
     "averageVolume10days": 23370,
     "averageDailyVolume10Day": 23370,
-    "bid": 933.0,
+    "bid": 0.0,
     "ask": 939.0,
     "bidSize": 0,
     "askSize": 0,
@@ -1080,10 +1080,6 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "shortName": "CROSS CAT CO LTD",
-    "longName": "Cross Cat Co., Ltd.",
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1024358400000,
     "corporateActions": [],
     "regularMarketTime": 1782455400,
     "exchange": "JPX",
@@ -1093,9 +1089,9 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "regularMarketChangePercent": 1.9586507,
-    "regularMarketPrice": 937.0,
     "cryptoTradeable": false,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1024358400000,
     "regularMarketChange": 18.0,
     "regularMarketDayRange": "915.0 - 945.0",
     "fullExchangeName": "Tokyo",
@@ -1109,6 +1105,11 @@
     "earningsTimestampStart": 1754289000,
     "earningsTimestampEnd": 1754634600,
     "isEarningsDateEstimate": true,
+    "marketState": "REGULAR",
+    "regularMarketChangePercent": 1.9586507,
+    "regularMarketPrice": 937.0,
+    "shortName": "CROSS CAT CO LTD",
+    "longName": "Cross Cat Co., Ltd.",
     "epsTrailingTwelveMonths": 107.94,
     "fiftyDayAverageChange": 0.46002197,
     "fiftyDayAverageChangePercent": 0.0004911931,
@@ -1116,7 +1117,6 @@
     "twoHundredDayAverageChangePercent": -0.08298181,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
-    "marketState": "CLOSED",
     "trailingPegRatio": null
   }
 }

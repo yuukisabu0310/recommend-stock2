@@ -1,7 +1,7 @@
 {
   "ticker": "2411",
   "japanese_ticker": "2411.T",
-  "fetch_date": "2026-06-28T00:04:54.189322",
+  "fetch_date": "2026-06-29T00:13:38.884588",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": 359459.459459,
@@ -125,14 +125,14 @@
     "Diluted Average Shares": {
       "2026-03-31 00:00:00": null,
       "2025-03-31 00:00:00": 12300000.0,
-      "2024-03-31 00:00:00": 12377607.0,
+      "2024-03-31 00:00:00": 12291052.0,
       "2023-03-31 00:00:00": 13275437.0,
       "2022-03-31 00:00:00": 14641210.0
     },
     "Basic Average Shares": {
       "2026-03-31 00:00:00": null,
       "2025-03-31 00:00:00": 12300000.0,
-      "2024-03-31 00:00:00": 12377607.0,
+      "2024-03-31 00:00:00": 12291052.0,
       "2023-03-31 00:00:00": 13275437.0,
       "2022-03-31 00:00:00": 14641210.0
     },
@@ -308,10 +308,10 @@
   "balance_sheet": {
     "Treasury Shares Number": {
       "2026-03-31 00:00:00": 1300000.0,
-      "2025-03-31 00:00:00": 0.0,
+      "2025-03-31 00:00:00": null,
       "2024-03-31 00:00:00": 0.0,
       "2023-03-31 00:00:00": 0.0,
-      "2022-03-31 00:00:00": null
+      "2022-03-31 00:00:00": 1350300.0
     },
     "Ordinary Shares Number": {
       "2026-03-31 00:00:00": 11000000.0,
@@ -1112,8 +1112,8 @@
     "averageVolume": 32665,
     "averageVolume10days": 7710,
     "averageDailyVolume10Day": 7710,
-    "bid": 450.0,
-    "ask": 451.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 4950000128,
@@ -1182,7 +1182,8 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "marketState": "CLOSED",
+    "marketState": "REGULAR",
+    "corporateActions": [],
     "regularMarketTime": 1782455400,
     "exchange": "JPX",
     "messageBoardId": "finmb_11353901",
@@ -1191,22 +1192,15 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "regularMarketChangePercent": 0.67114097,
-    "regularMarketPrice": 450.0,
-    "corporateActions": [],
-    "shortName": "GENDAI AGENCY INC",
     "longName": "Gendai Agency Inc.",
-    "cryptoTradeable": false,
-    "earningsTimestampStart": 1744957800,
-    "earningsTimestampEnd": 1744957800,
-    "isEarningsDateEstimate": false,
-    "epsTrailingTwelveMonths": 42.25,
+    "shortName": "GENDAI AGENCY INC",
     "fiftyDayAverageChange": -4.8200073,
     "fiftyDayAverageChangePercent": -0.010597615,
     "twoHundredDayAverageChange": -12.315002,
     "twoHundredDayAverageChangePercent": -0.026637686,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1095292800000,
     "regularMarketChange": 3.0,
@@ -1219,6 +1213,12 @@
     "fiftyTwoWeekHighChange": -64.0,
     "fiftyTwoWeekHighChangePercent": -0.12451362,
     "fiftyTwoWeekChangePercent": 14.503813,
+    "earningsTimestampStart": 1744957800,
+    "earningsTimestampEnd": 1744957800,
+    "isEarningsDateEstimate": false,
+    "epsTrailingTwelveMonths": 42.25,
+    "regularMarketChangePercent": 0.67114097,
+    "regularMarketPrice": 450.0,
     "trailingPegRatio": null
   }
 }
