@@ -1,7 +1,7 @@
 {
   "ticker": "1928",
   "japanese_ticker": "1928.T",
-  "fetch_date": "2026-07-04T23:58:11.003336",
+  "fetch_date": "2026-07-06T00:01:53.918905",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-01-31 00:00:00": 3298101335.254194,
@@ -112,9 +112,9 @@
       "2023-01-31 00:00:00": 667438327.0
     },
     "Basic Average Shares": {
-      "2026-01-31 00:00:00": 648185000.0,
-      "2025-01-31 00:00:00": 648036000.0,
-      "2024-01-31 00:00:00": 654153670.0,
+      "2026-01-31 00:00:00": 648183316.0,
+      "2025-01-31 00:00:00": 648027980.0,
+      "2024-01-31 00:00:00": 654159527.0,
       "2023-01-31 00:00:00": 667154964.0
     },
     "Diluted EPS": {
@@ -1173,12 +1173,12 @@
     "averageVolume": 2666214,
     "averageVolume10days": 2763910,
     "averageDailyVolume10Day": 2763910,
-    "bid": 3445.0,
-    "ask": 3447.0,
+    "bid": 3446.0,
+    "ask": 3448.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 2233180618752,
-    "nonDilutedMarketCap": 2180025096867,
+    "nonDilutedMarketCap": 2233180630005,
     "fiftyTwoWeekLow": 3092.0,
     "fiftyTwoWeekHigh": 3832.0,
     "allTimeHigh": 4134.0,
@@ -1246,16 +1246,15 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "exchange": "JPX",
-    "messageBoardId": "finmb_873695",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
-    "regularMarketChangePercent": 0.6721216,
-    "regularMarketPrice": 3445.0,
+    "shortName": "SEKISUI HOUSE",
     "longName": "Sekisui House, Ltd.",
+    "fiftyDayAverageChange": 99.23999,
+    "fiftyDayAverageChangePercent": 0.029661419,
+    "twoHundredDayAverageChange": -2.715088,
+    "twoHundredDayAverageChangePercent": -0.00078750355,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
     "corporateActions": [
       {
         "header": "Dividend",
@@ -1268,6 +1267,15 @@
       }
     ],
     "regularMarketTime": 1783060200,
+    "exchange": "JPX",
+    "messageBoardId": "finmb_873695",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
+    "regularMarketChangePercent": 0.6721216,
+    "regularMarketPrice": 3445.0,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 946944000000,
     "regularMarketChange": 23.0,
@@ -1286,17 +1294,9 @@
     "earningsCallTimestampStart": 1741258740,
     "earningsCallTimestampEnd": 1741258740,
     "isEarningsDateEstimate": true,
-    "shortName": "SEKISUI HOUSE",
     "epsTrailingTwelveMonths": 396.86,
     "epsForward": 377.46,
-    "fiftyDayAverageChange": 99.23999,
-    "fiftyDayAverageChangePercent": 0.029661419,
-    "twoHundredDayAverageChange": -2.715088,
-    "twoHundredDayAverageChangePercent": -0.00078750355,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
-    "marketState": "CLOSED",
+    "marketState": "REGULAR",
     "trailingPegRatio": null
   }
 }

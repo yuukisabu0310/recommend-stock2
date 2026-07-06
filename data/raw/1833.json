@@ -1,7 +1,7 @@
 {
   "ticker": "1833",
   "japanese_ticker": "1833.T",
-  "fetch_date": "2026-07-04T23:57:03.358449",
+  "fetch_date": "2026-07-06T00:00:50.847505",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": 1735041000.0,
@@ -1191,12 +1191,12 @@
     "averageVolume": 103808,
     "averageVolume10days": 80520,
     "averageDailyVolume10Day": 80520,
-    "bid": 5670.0,
-    "ask": 5690.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 203745394688,
-    "nonDilutedMarketCap": 203027986540,
+    "nonDilutedMarketCap": 203745399920,
     "fiftyTwoWeekLow": 4330.0,
     "fiftyTwoWeekHigh": 7490.0,
     "allTimeHigh": 7490.0,
@@ -1259,12 +1259,6 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "marketState": "CLOSED",
-    "regularMarketChangePercent": 0.3533569,
-    "regularMarketPrice": 5680.0,
-    "shortName": "OKUMURA CORP",
-    "longName": "Okumura Corporation",
-    "epsTrailingTwelveMonths": 511.77,
     "fiftyDayAverageChange": -90.0,
     "fiftyDayAverageChangePercent": -0.01559792,
     "twoHundredDayAverageChange": -270.875,
@@ -1299,6 +1293,12 @@
     "earningsCallTimestampStart": 1747306740,
     "earningsCallTimestampEnd": 1747306740,
     "isEarningsDateEstimate": true,
+    "epsTrailingTwelveMonths": 511.77,
+    "shortName": "OKUMURA CORP",
+    "longName": "Okumura Corporation",
+    "regularMarketChangePercent": 0.3533569,
+    "regularMarketPrice": 5680.0,
+    "marketState": "REGULAR",
     "trailingPegRatio": null
   }
 }

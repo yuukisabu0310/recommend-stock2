@@ -1,7 +1,7 @@
 {
   "ticker": "2997",
   "japanese_ticker": "2997.T",
-  "fetch_date": "2026-07-05T00:09:38.579510",
+  "fetch_date": "2026-07-06T00:13:13.119019",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-01-31 00:00:00": 768913.0,
@@ -1123,8 +1123,8 @@
     "averageVolume": 2534,
     "averageVolume10days": 1830,
     "averageDailyVolume10Day": 1830,
-    "bid": 938.0,
-    "ask": 939.0,
+    "bid": 939.0,
+    "ask": 940.0,
     "marketCap": 1738583040,
     "nonDilutedMarketCap": 1738583000,
     "fiftyTwoWeekLow": 870.0,
@@ -1183,6 +1183,10 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "corporateActions": [],
+    "regularMarketTime": 1783060200,
+    "earningsTimestampStart": 1749812340,
+    "earningsTimestampEnd": 1749812340,
     "earningsCallTimestampStart": 1734087540,
     "earningsCallTimestampEnd": 1734087540,
     "isEarningsDateEstimate": false,
@@ -1193,9 +1197,6 @@
     "twoHundredDayAverageChangePercent": -0.06731167,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
-    "shortName": "STORAGE-OH CO LTD",
-    "marketState": "CLOSED",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1651017600000,
     "regularMarketChange": -1.0,
@@ -1208,10 +1209,10 @@
     "fiftyTwoWeekHighChange": -337.0,
     "fiftyTwoWeekHighChangePercent": -0.26431373,
     "fiftyTwoWeekChangePercent": 7.692313,
-    "earningsTimestampStart": 1749812340,
-    "earningsTimestampEnd": 1749812340,
-    "corporateActions": [],
-    "regularMarketTime": 1783060200,
+    "shortName": "STORAGE-OH CO LTD",
+    "longName": "STORAGE-OH Co.,Ltd.",
+    "marketState": "REGULAR",
+    "cryptoTradeable": false,
     "exchange": "JPX",
     "messageBoardId": "finmb_1775517680",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1221,7 +1222,6 @@
     "esgPopulated": false,
     "regularMarketChangePercent": -0.106496274,
     "regularMarketPrice": 938.0,
-    "longName": "STORAGE-OH Co.,Ltd.",
     "trailingPegRatio": null
   }
 }

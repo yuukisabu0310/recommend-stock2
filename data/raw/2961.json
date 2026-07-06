@@ -1,7 +1,7 @@
 {
   "ticker": "2961",
   "japanese_ticker": "2961.T",
-  "fetch_date": "2026-07-05T00:09:14.581303",
+  "fetch_date": "2026-07-06T00:12:47.144853",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-09-30 00:00:00": 0.0,
@@ -1213,10 +1213,10 @@
     "averageVolume": 404,
     "averageVolume10days": 2030,
     "averageDailyVolume10Day": 2030,
-    "bid": 6000.0,
-    "ask": 0.0,
+    "bid": 0.0,
+    "ask": 6800.0,
     "marketCap": 7582414848,
-    "nonDilutedMarketCap": 7571264190,
+    "nonDilutedMarketCap": 7582414800,
     "fiftyTwoWeekLow": 3905.0,
     "fiftyTwoWeekHigh": 7610.0,
     "allTimeHigh": 7610.0,
@@ -1281,15 +1281,6 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "regularMarketChangePercent": 1.4925373,
-    "regularMarketPrice": 6800.0,
-    "fiftyDayAverageChange": 1555.8999,
-    "fiftyDayAverageChangePercent": 0.29669532,
-    "twoHundredDayAverageChange": 1941.2749,
-    "twoHundredDayAverageChangePercent": 0.3995441,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1636416000000,
     "regularMarketChange": 100.0,
@@ -1306,9 +1297,12 @@
     "earningsTimestampEnd": 1754114400,
     "isEarningsDateEstimate": true,
     "epsTrailingTwelveMonths": 507.96,
-    "marketState": "CLOSED",
-    "shortName": "NITCHO CORPORATION",
-    "longName": "Nitcho Corporation",
+    "fiftyDayAverageChange": 1555.8999,
+    "fiftyDayAverageChangePercent": 0.29669532,
+    "twoHundredDayAverageChange": 1941.2749,
+    "twoHundredDayAverageChangePercent": 0.3995441,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
     "corporateActions": [
       {
         "header": "Stock split",
@@ -1328,6 +1322,12 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
+    "regularMarketChangePercent": 1.4925373,
+    "regularMarketPrice": 6800.0,
+    "shortName": "NITCHO CORPORATION",
+    "longName": "Nitcho Corporation",
+    "marketState": "REGULAR",
+    "cryptoTradeable": false,
     "trailingPegRatio": null
   }
 }

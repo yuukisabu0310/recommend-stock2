@@ -1,7 +1,7 @@
 {
   "ticker": "2883",
   "japanese_ticker": "2883.T",
-  "fetch_date": "2026-07-05T00:08:12.486651",
+  "fetch_date": "2026-07-06T00:11:46.780355",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": 1921237.181812,
@@ -1164,12 +1164,12 @@
     "averageVolume": 1924,
     "averageVolume10days": 1630,
     "averageDailyVolume10Day": 1630,
-    "bid": 1980.0,
-    "ask": 1985.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 11629664256,
-    "nonDilutedMarketCap": 11600370540,
+    "nonDilutedMarketCap": 11629664405,
     "fiftyTwoWeekLow": 1936.0,
     "fiftyTwoWeekHigh": 2079.0,
     "allTimeHigh": 2434.0,
@@ -1230,6 +1230,8 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1418860800000,
     "regularMarketChange": 4.0,
     "regularMarketDayRange": "1980.0 - 1985.0",
     "fullExchangeName": "Tokyo",
@@ -1250,8 +1252,9 @@
     "twoHundredDayAverageChangePercent": 0.0025606693,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
-    "marketState": "CLOSED",
+    "marketState": "REGULAR",
+    "shortName": "DAIREI CO LTD",
+    "longName": "Dairei Co.,Ltd.",
     "corporateActions": [],
     "regularMarketTime": 1783060200,
     "exchange": "JPX",
@@ -1263,10 +1266,7 @@
     "esgPopulated": false,
     "regularMarketChangePercent": 0.20191823,
     "regularMarketPrice": 1985.0,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1418860800000,
-    "longName": "Dairei Co.,Ltd.",
-    "shortName": "DAIREI CO LTD",
+    "cryptoTradeable": false,
     "trailingPegRatio": null
   }
 }

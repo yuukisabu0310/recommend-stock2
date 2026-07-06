@@ -1,7 +1,7 @@
 {
   "ticker": "1828",
   "japanese_ticker": "1828.T",
-  "fetch_date": "2026-07-04T23:57:01.472823",
+  "fetch_date": "2026-07-06T00:00:49.258679",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": -6137764.190224,
@@ -1090,12 +1090,12 @@
     "averageVolume": 18109,
     "averageVolume10days": 11480,
     "averageDailyVolume10Day": 11480,
-    "bid": 2438.0,
+    "bid": 0.0,
     "ask": 2455.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 25773694976,
-    "nonDilutedMarketCap": 25217276900,
+    "nonDilutedMarketCap": 25773694750,
     "fiftyTwoWeekLow": 2175.0,
     "fiftyTwoWeekHigh": 2978.0,
     "allTimeHigh": 2978.0,
@@ -1160,7 +1160,9 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "marketState": "CLOSED",
+    "marketState": "REGULAR",
+    "corporateActions": [],
+    "regularMarketTime": 1783060200,
     "exchange": "JPX",
     "messageBoardId": "finmb_5920057",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1170,6 +1172,7 @@
     "esgPopulated": false,
     "regularMarketChangePercent": 2.0365753,
     "regularMarketPrice": 2455.0,
+    "shortName": "TANABE ENGINEERING CORP",
     "longName": "Tanabe Engineering Corporation",
     "cryptoTradeable": false,
     "hasPrePostMarketData": false,
@@ -1194,9 +1197,6 @@
     "twoHundredDayAverageChangePercent": -0.02212075,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
-    "shortName": "TANABE ENGINEERING CORP",
-    "corporateActions": [],
-    "regularMarketTime": 1783060200,
     "trailingPegRatio": null
   }
 }

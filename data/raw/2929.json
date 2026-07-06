@@ -1,7 +1,7 @@
 {
   "ticker": "2929",
   "japanese_ticker": "2929.T",
-  "fetch_date": "2026-07-05T00:08:54.677503",
+  "fetch_date": "2026-07-06T00:12:28.014940",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-07-31 00:00:00": -39672000.0,
@@ -123,14 +123,14 @@
       "2021-07-31 00:00:00": 5673000000.0
     },
     "Diluted Average Shares": {
-      "2025-07-31 00:00:00": 28742537.0,
+      "2025-07-31 00:00:00": 28682775.0,
       "2024-07-31 00:00:00": 28441034.0,
       "2023-07-31 00:00:00": 28876505.0,
       "2022-07-31 00:00:00": 29013832.0,
       "2021-07-31 00:00:00": null
     },
     "Basic Average Shares": {
-      "2025-07-31 00:00:00": 28742537.0,
+      "2025-07-31 00:00:00": 28682775.0,
       "2024-07-31 00:00:00": 28441034.0,
       "2023-07-31 00:00:00": 28876505.0,
       "2022-07-31 00:00:00": 29013832.0,
@@ -1176,10 +1176,10 @@
     "averageVolume": 192824,
     "averageVolume10days": 154230,
     "averageDailyVolume10Day": 154230,
-    "bid": 584.0,
-    "ask": 586.0,
+    "bid": 583.0,
+    "ask": 584.0,
     "marketCap": 16961331200,
-    "nonDilutedMarketCap": 16583768267,
+    "nonDilutedMarketCap": 16961332168,
     "fiftyTwoWeekLow": 513.0,
     "fiftyTwoWeekHigh": 1064.0,
     "allTimeHigh": 3820.0,
@@ -1243,21 +1243,7 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "corporateActions": [
-      {
-        "header": "Dividend",
-        "message": "2929.T announced a cash dividend of JPY 12.50 with an ex-date of Jul. 30, 2026",
-        "meta": {
-          "eventType": "DIVIDEND",
-          "dateEpochMs": 1785337200000,
-          "amount": "12.50"
-        }
-      }
-    ],
-    "marketState": "CLOSED",
-    "cryptoTradeable": false,
-    "shortName": "PHARMA FOODS INTERNATIONAL CO",
-    "longName": "Pharma Foods International Co., Ltd.",
+    "regularMarketChange": 6.0,
     "regularMarketDayRange": "573.0 - 586.0",
     "fullExchangeName": "Tokyo",
     "averageDailyVolume3Month": 192824,
@@ -1278,12 +1264,20 @@
     "twoHundredDayAverageChangePercent": -0.15425445,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1150070400000,
-    "regularMarketChange": 6.0,
+    "cryptoTradeable": false,
+    "marketState": "REGULAR",
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "2929.T announced a cash dividend of JPY 12.50 with an ex-date of Jul. 30, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1785337200000,
+          "amount": "12.50"
+        }
+      }
+    ],
     "regularMarketTime": 1783060200,
-    "regularMarketChangePercent": 1.0380623,
-    "regularMarketPrice": 584.0,
     "exchange": "JPX",
     "messageBoardId": "finmb_23972721",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1291,6 +1285,12 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
+    "regularMarketChangePercent": 1.0380623,
+    "regularMarketPrice": 584.0,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1150070400000,
+    "longName": "Pharma Foods International Co., Ltd.",
+    "shortName": "PHARMA FOODS INTERNATIONAL CO",
     "trailingPegRatio": null
   }
 }

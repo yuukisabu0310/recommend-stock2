@@ -1,7 +1,7 @@
 {
   "ticker": "1414",
   "japanese_ticker": "1414.T",
-  "fetch_date": "2026-07-04T23:54:55.389044",
+  "fetch_date": "2026-07-05T23:58:44.810226",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-06-30 00:00:00": 231178615.659832,
@@ -901,8 +901,8 @@
     "averageVolume": 865204,
     "averageVolume10days": 815640,
     "averageDailyVolume10Day": 815640,
-    "bid": 1260.0,
-    "ask": 1263.0,
+    "bid": 0.0,
+    "ask": 1280.0,
     "marketCap": 253211656192,
     "nonDilutedMarketCap": 253211666400,
     "fiftyTwoWeekLow": 1161.75,
@@ -974,6 +974,7 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "shortName": "SHO-BOND HOLDINGS CO LTD",
     "corporateActions": [],
     "regularMarketTime": 1783060200,
     "exchange": "JPX",
@@ -985,6 +986,11 @@
     "esgPopulated": false,
     "regularMarketChangePercent": -0.07930214,
     "regularMarketPrice": 1260.0,
+    "longName": "SHO-BOND Holdings Co.,Ltd.",
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "averageAnalystRating": "2.3 - Buy",
+    "cryptoTradeable": false,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 978307200000,
     "regularMarketChange": -1.0,
@@ -1009,13 +1015,7 @@
     "fiftyDayAverageChangePercent": -0.015078707,
     "twoHundredDayAverageChange": -57.808716,
     "twoHundredDayAverageChangePercent": -0.043867305,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "averageAnalystRating": "2.3 - Buy",
-    "cryptoTradeable": false,
-    "marketState": "CLOSED",
-    "longName": "SHO-BOND Holdings Co.,Ltd.",
-    "shortName": "SHO-BOND HOLDINGS CO LTD",
+    "marketState": "PREPRE",
     "trailingPegRatio": null
   }
 }

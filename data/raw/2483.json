@@ -1,7 +1,7 @@
 {
   "ticker": "2483",
   "japanese_ticker": "2483.T",
-  "fetch_date": "2026-07-05T00:04:21.879464",
+  "fetch_date": "2026-07-06T00:08:00.904486",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": -13063737.9,
@@ -946,6 +946,7 @@
     "sectorKey": "industrials",
     "sectorDisp": "Industrials",
     "longBusinessSummary": "Honyaku Center Inc. provides translation services in Japan and internationally. The company offers translation for patent documents comprising application-related, court-related, and others; and medical documents, including basic research/non-clinical development, clinical development, regulatory submission, and post-marketing. It also provides financial and legal translations comprising finance, legal, disclosure and related documents, and corporate and other documents; and translation services for IT related documents and manuals documents. In addition, the company offers translation of industrial documents, such as R&D, planning, and design documents; production, quality assurance, implementation, and maintenance service documents; sales and marketing documents; and non-manufacturing industry related documents. Further, it provides medical writing, grammar check, transcription, staffing, multilingual contact center, proofreading and back translation, and foreign patent application services, as well as services related to computer games, e-learning, and Websites; and prepares drawings. Additionally, the company offers translation services for VISA application documents required to apply for marriage, work, residency, study abroad, and other visas; and DTP, printing, document, and e-book translation related services, as well as pamphlets and catalogues, press releases and newsletters, and presentation documents. The company serves clients in a range of industries, such as auto, mechanical, electronics, pharma, patent, law, finance, R&D, education, and other fields. Honyaku Center Inc. was incorporated in 1986 and is headquartered in Chuo, Japan.",
+    "fullTimeEmployees": 540,
     "companyOfficers": [
       {
         "maxAge": 1,
@@ -1009,12 +1010,12 @@
     "averageVolume": 12747,
     "averageVolume10days": 8650,
     "averageDailyVolume10Day": 8650,
-    "bid": 2237.0,
-    "ask": 2265.0,
+    "bid": 0.0,
+    "ask": 2260.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 7586352128,
-    "nonDilutedMarketCap": 7311095154,
+    "nonDilutedMarketCap": 7586352180,
     "fiftyTwoWeekLow": 1750.0,
     "fiftyTwoWeekHigh": 2299.0,
     "allTimeHigh": 8090.0,
@@ -1080,6 +1081,8 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "corporateActions": [],
+    "regularMarketTime": 1783060200,
     "exchange": "JPX",
     "messageBoardId": "finmb_26523427",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1089,6 +1092,10 @@
     "esgPopulated": false,
     "regularMarketChangePercent": 3.764922,
     "regularMarketPrice": 2260.0,
+    "shortName": "HONYAKU CENTER INC",
+    "longName": "Honyaku Center Inc.",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1146182400000,
     "regularMarketChange": 82.0,
     "regularMarketDayRange": "2181.0 - 2299.0",
     "fullExchangeName": "Tokyo",
@@ -1110,14 +1117,8 @@
     "twoHundredDayAverageChangePercent": 0.16760266,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1146182400000,
-    "marketState": "CLOSED",
     "cryptoTradeable": false,
-    "shortName": "HONYAKU CENTER INC",
-    "longName": "Honyaku Center Inc.",
-    "corporateActions": [],
-    "regularMarketTime": 1783060200,
+    "marketState": "REGULAR",
     "trailingPegRatio": null
   }
 }

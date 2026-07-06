@@ -1,7 +1,7 @@
 {
   "ticker": "1815",
   "japanese_ticker": "1815.T",
-  "fetch_date": "2026-07-04T23:56:52.633628",
+  "fetch_date": "2026-07-06T00:00:40.139855",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": 692250000.0,
@@ -1045,12 +1045,12 @@
     "averageVolume": 84534,
     "averageVolume10days": 50540,
     "averageDailyVolume10Day": 50540,
-    "bid": 4460.0,
-    "ask": 4480.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 62131933184,
-    "nonDilutedMarketCap": 61505042705,
+    "nonDilutedMarketCap": 62131934420,
     "fiftyTwoWeekLow": 2863.0,
     "fiftyTwoWeekHigh": 5840.0,
     "allTimeHigh": 5840.0,
@@ -1116,6 +1116,9 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "cryptoTradeable": false,
+    "regularMarketChangePercent": 1.2485812,
+    "regularMarketPrice": 4460.0,
     "corporateActions": [],
     "regularMarketTime": 1783060200,
     "exchange": "JPX",
@@ -1125,9 +1128,6 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "regularMarketChangePercent": 1.2485812,
-    "regularMarketPrice": 4460.0,
-    "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 978307200000,
     "regularMarketChange": 55.0,
     "regularMarketDayRange": "4425.0 - 4505.0",
@@ -1150,10 +1150,10 @@
     "twoHundredDayAverageChangePercent": 0.006567537,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
-    "marketState": "CLOSED",
-    "longName": "Tekken Corporation",
+    "marketState": "REGULAR",
+    "hasPrePostMarketData": false,
     "shortName": "TEKKEN CORP",
+    "longName": "Tekken Corporation",
     "trailingPegRatio": null
   }
 }

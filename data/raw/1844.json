@@ -1,7 +1,7 @@
 {
   "ticker": "1844",
   "japanese_ticker": "1844.T",
-  "fetch_date": "2026-07-04T23:57:11.398175",
+  "fetch_date": "2026-07-06T00:00:57.732074",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-07-31 00:00:00": null,
@@ -1119,10 +1119,10 @@
     "averageVolume": 132077,
     "averageVolume10days": 81680,
     "averageDailyVolume10Day": 81680,
-    "bid": 510.0,
-    "ask": 513.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "marketCap": 9582618624,
-    "nonDilutedMarketCap": 9245729194,
+    "nonDilutedMarketCap": 9582618112,
     "fiftyTwoWeekLow": 398.0,
     "fiftyTwoWeekHigh": 1450.0,
     "allTimeHigh": 42500.0,
@@ -1185,6 +1185,9 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "regularMarketChangePercent": 2.1956089,
+    "regularMarketPrice": 512.0,
+    "marketState": "REGULAR",
     "exchange": "JPX",
     "messageBoardId": "finmb_883665",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1192,11 +1195,20 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "regularMarketChangePercent": 2.1956089,
-    "regularMarketPrice": 512.0,
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "1844.T announced a cash dividend of JPY 11.50 with an ex-date of Jul. 30, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1785337200000,
+          "amount": "11.50"
+        }
+      }
+    ],
+    "regularMarketTime": 1783060200,
     "shortName": "OHMORI CO LTD",
     "longName": "Ohmori Co.,Ltd.",
-    "marketState": "CLOSED",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 978307200000,
     "regularMarketChange": 11.0,
@@ -1220,18 +1232,6 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
-    "corporateActions": [
-      {
-        "header": "Dividend",
-        "message": "1844.T announced a cash dividend of JPY 11.50 with an ex-date of Jul. 30, 2026",
-        "meta": {
-          "eventType": "DIVIDEND",
-          "dateEpochMs": 1785337200000,
-          "amount": "11.50"
-        }
-      }
-    ],
-    "regularMarketTime": 1783060200,
     "trailingPegRatio": null
   }
 }

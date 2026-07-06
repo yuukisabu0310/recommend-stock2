@@ -1,7 +1,7 @@
 {
   "ticker": "2148",
   "japanese_ticker": "2148.T",
-  "fetch_date": "2026-07-05T00:00:06.082026",
+  "fetch_date": "2026-07-06T00:03:43.641163",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": 0.0,
@@ -960,12 +960,12 @@
     "averageVolume": 74408,
     "averageVolume10days": 45460,
     "averageDailyVolume10Day": 45460,
-    "bid": 1165.0,
-    "ask": 1169.0,
+    "bid": 1138.0,
+    "ask": 1138.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 22778372096,
-    "nonDilutedMarketCap": 22739399949,
+    "nonDilutedMarketCap": 22778370643,
     "fiftyTwoWeekLow": 1117.0,
     "fiftyTwoWeekHigh": 1920.0,
     "allTimeHigh": 3070.0,
@@ -1032,6 +1032,8 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "longName": "ITmedia Inc.",
+    "shortName": "ITMEDIA INC.",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1176940800000,
     "regularMarketChange": 2.0,
@@ -1055,9 +1057,7 @@
     "twoHundredDayAverageChangePercent": -0.24813,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
-    "marketState": "CLOSED",
-    "shortName": "ITMEDIA INC.",
-    "longName": "ITmedia Inc.",
+    "averageAnalystRating": "3.0 - Hold",
     "corporateActions": [],
     "regularMarketTime": 1783060200,
     "exchange": "JPX",
@@ -1069,8 +1069,8 @@
     "esgPopulated": false,
     "regularMarketChangePercent": 0.17137961,
     "regularMarketPrice": 1169.0,
-    "averageAnalystRating": "3.0 - Hold",
     "cryptoTradeable": false,
+    "marketState": "REGULAR",
     "trailingPegRatio": null
   }
 }

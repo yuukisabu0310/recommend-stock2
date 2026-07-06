@@ -1,7 +1,7 @@
 {
   "ticker": "2751",
   "japanese_ticker": "2751.T",
-  "fetch_date": "2026-07-05T00:06:45.389956",
+  "fetch_date": "2026-07-06T00:10:21.204062",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-04-30 00:00:00": -19239500.0,
@@ -1031,12 +1031,12 @@
     "averageVolume": 19240,
     "averageVolume10days": 7600,
     "averageDailyVolume10Day": 7600,
-    "bid": 3670.0,
-    "ask": 3700.0,
+    "bid": 3625.0,
+    "ask": 3625.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 44188827648,
-    "nonDilutedMarketCap": 44550042400,
+    "nonDilutedMarketCap": 44188825840,
     "fiftyTwoWeekLow": 3310.0,
     "fiftyTwoWeekHigh": 4070.0,
     "allTimeHigh": 4070.0,
@@ -1101,6 +1101,8 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1039478400000,
     "regularMarketChange": -20.0,
     "regularMarketDayRange": "3670.0 - 3720.0",
     "fullExchangeName": "Tokyo",
@@ -1121,8 +1123,9 @@
     "twoHundredDayAverageChangePercent": 0.0018905016,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
-    "marketState": "CLOSED",
+    "marketState": "REGULAR",
+    "shortName": "TENPOS HOLDINGS CO LTD",
+    "longName": "TENPOS HOLDINGS Co.,Ltd.",
     "corporateActions": [],
     "regularMarketTime": 1783060200,
     "exchange": "JPX",
@@ -1134,10 +1137,7 @@
     "esgPopulated": false,
     "regularMarketChangePercent": -0.5420054,
     "regularMarketPrice": 3670.0,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1039478400000,
-    "longName": "TENPOS HOLDINGS Co.,Ltd.",
-    "shortName": "TENPOS HOLDINGS CO LTD",
+    "cryptoTradeable": false,
     "trailingPegRatio": null
   }
 }

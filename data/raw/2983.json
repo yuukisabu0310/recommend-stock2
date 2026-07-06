@@ -1,7 +1,7 @@
 {
   "ticker": "2983",
   "japanese_ticker": "2983.T",
-  "fetch_date": "2026-07-05T00:09:29.174274",
+  "fetch_date": "2026-07-06T00:13:03.189206",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-01-31 00:00:00": -11955054.6,
@@ -1011,10 +1011,10 @@
     "averageVolume": 56439,
     "averageVolume10days": 30240,
     "averageDailyVolume10Day": 30240,
-    "bid": 1500.0,
-    "ask": 1515.0,
+    "bid": 1479.0,
+    "ask": 1480.0,
     "marketCap": 16158047232,
-    "nonDilutedMarketCap": 15496356744,
+    "nonDilutedMarketCap": 16158046908,
     "fiftyTwoWeekLow": 868.0,
     "fiftyTwoWeekHigh": 2400.0,
     "allTimeHigh": 2400.0,
@@ -1078,20 +1078,30 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "2983.T announced a cash dividend of JPY 20.00 with an ex-date of Jul. 30, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1785337200000,
+          "amount": "20.00"
+        }
+      }
+    ],
+    "regularMarketTime": 1783060200,
+    "exchange": "JPX",
+    "messageBoardId": "finmb_133899320",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
     "regularMarketChangePercent": 3.6986303,
-    "cryptoTradeable": false,
+    "regularMarketPrice": 1514.0,
+    "marketState": "REGULAR",
     "shortName": "ARR PLANNER CO LTD",
     "longName": "Arr Planner Co., Ltd.",
-    "regularMarketChange": 54.0,
-    "regularMarketDayRange": "1464.0 - 1514.0",
-    "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 56439,
-    "fiftyTwoWeekLowChange": 646.0,
-    "fiftyTwoWeekLowChangePercent": 0.7442396,
-    "fiftyTwoWeekRange": "868.0 - 2400.0",
-    "fiftyTwoWeekHighChange": -886.0,
-    "fiftyTwoWeekHighChangePercent": -0.36916667,
-    "fiftyTwoWeekChangePercent": 66.831955,
     "earningsTimestampStart": 1749725940,
     "earningsTimestampEnd": 1749725940,
     "earningsCallTimestampStart": 1741949940,
@@ -1105,29 +1115,19 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "averageAnalystRating": "0.0 - Strong Buy",
-    "exchange": "JPX",
-    "messageBoardId": "finmb_133899320",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
-    "regularMarketPrice": 1514.0,
+    "cryptoTradeable": false,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1612915200000,
-    "marketState": "CLOSED",
-    "corporateActions": [
-      {
-        "header": "Dividend",
-        "message": "2983.T announced a cash dividend of JPY 20.00 with an ex-date of Jul. 30, 2026",
-        "meta": {
-          "eventType": "DIVIDEND",
-          "dateEpochMs": 1785337200000,
-          "amount": "20.00"
-        }
-      }
-    ],
-    "regularMarketTime": 1783060200,
+    "regularMarketChange": 54.0,
+    "regularMarketDayRange": "1464.0 - 1514.0",
+    "fullExchangeName": "Tokyo",
+    "averageDailyVolume3Month": 56439,
+    "fiftyTwoWeekLowChange": 646.0,
+    "fiftyTwoWeekLowChangePercent": 0.7442396,
+    "fiftyTwoWeekRange": "868.0 - 2400.0",
+    "fiftyTwoWeekHighChange": -886.0,
+    "fiftyTwoWeekHighChangePercent": -0.36916667,
+    "fiftyTwoWeekChangePercent": 66.831955,
     "trailingPegRatio": null
   }
 }

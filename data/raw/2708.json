@@ -1,7 +1,7 @@
 {
   "ticker": "2708",
   "japanese_ticker": "2708.T",
-  "fetch_date": "2026-07-05T00:06:17.127502",
+  "fetch_date": "2026-07-06T00:09:50.994229",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": 9468000.0,
@@ -1225,12 +1225,12 @@
     "averageVolume": 1952,
     "averageVolume10days": 1220,
     "averageDailyVolume10Day": 1220,
-    "bid": 1960.0,
-    "ask": 1980.0,
+    "bid": 0.0,
+    "ask": 1998.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 9113763840,
-    "nonDilutedMarketCap": 8882449920,
+    "nonDilutedMarketCap": 9113763720,
     "fiftyTwoWeekLow": 1611.0,
     "fiftyTwoWeekHigh": 2449.0,
     "allTimeHigh": 2974.0,
@@ -1293,6 +1293,7 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "shortName": "KUZE CO LTD",
     "longName": "Kuze Co., Ltd.",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1000252800000,
@@ -1317,12 +1318,9 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "prevName": "Kuze Co.,Ltd.",
-    "nameChangeDate": "2026-07-04",
+    "nameChangeDate": "2026-07-05",
     "cryptoTradeable": false,
-    "regularMarketChangePercent": 1.5463917,
-    "regularMarketPrice": 1970.0,
-    "shortName": "KUZE CO LTD",
-    "marketState": "CLOSED",
+    "marketState": "REGULAR",
     "corporateActions": [],
     "regularMarketTime": 1783057802,
     "exchange": "JPX",
@@ -1332,6 +1330,8 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
+    "regularMarketChangePercent": 1.5463917,
+    "regularMarketPrice": 1970.0,
     "trailingPegRatio": null
   }
 }

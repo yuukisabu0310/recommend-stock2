@@ -1,7 +1,7 @@
 {
   "ticker": "2978",
   "japanese_ticker": "2978.T",
-  "fetch_date": "2026-07-05T00:09:22.701420",
+  "fetch_date": "2026-07-06T00:12:55.357399",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-07-31 00:00:00": -13062582.44316,
@@ -1159,9 +1159,9 @@
     "averageVolume10days": 9460,
     "averageDailyVolume10Day": 9460,
     "bid": 348.0,
-    "ask": 355.0,
+    "ask": 0.0,
     "marketCap": 4138039296,
-    "nonDilutedMarketCap": 4091149359,
+    "nonDilutedMarketCap": 4138039323,
     "fiftyTwoWeekLow": 329.0,
     "fiftyTwoWeekHigh": 637.0,
     "allTimeHigh": 2427.0,
@@ -1227,9 +1227,9 @@
     "esgPopulated": false,
     "regularMarketChangePercent": 0.56980056,
     "regularMarketPrice": 353.0,
-    "shortName": "TSUKURUBA INC",
     "longName": "TSUKURUBA Inc.",
-    "marketState": "CLOSED",
+    "corporateActions": [],
+    "regularMarketTime": 1783060200,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1564531200000,
     "regularMarketChange": 2.0,
@@ -1245,6 +1245,7 @@
     "earningsTimestampStart": 1749794400,
     "earningsTimestampEnd": 1749794400,
     "isEarningsDateEstimate": false,
+    "shortName": "TSUKURUBA INC",
     "epsTrailingTwelveMonths": 6.0,
     "fiftyDayAverageChange": -33.140015,
     "fiftyDayAverageChangePercent": -0.08582383,
@@ -1253,8 +1254,7 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
-    "corporateActions": [],
-    "regularMarketTime": 1783060200,
+    "marketState": "REGULAR",
     "trailingPegRatio": null
   }
 }

@@ -1,7 +1,7 @@
 {
   "ticker": "2327",
   "japanese_ticker": "2327.T",
-  "fetch_date": "2026-07-05T00:02:18.900348",
+  "fetch_date": "2026-07-06T00:05:57.728442",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": 0.0,
@@ -1237,12 +1237,12 @@
     "averageVolume": 278240,
     "averageVolume10days": 369190,
     "averageDailyVolume10Day": 369190,
-    "bid": 3592.0,
-    "ask": 3620.0,
+    "bid": 3593.0,
+    "ask": 3593.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 657452171264,
-    "nonDilutedMarketCap": 637690196425,
+    "nonDilutedMarketCap": 657452188165,
     "fiftyTwoWeekLow": 3075.0,
     "fiftyTwoWeekHigh": 4655.0,
     "allTimeHigh": 4655.0,
@@ -1314,6 +1314,9 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "shortName": "NS SOLUTIONS CORPORATION",
+    "longName": "NS Solutions Corporation",
+    "marketState": "REGULAR",
     "regularMarketChange": 108.0,
     "regularMarketDayRange": "3571.0 - 3635.0",
     "fullExchangeName": "Tokyo",
@@ -1341,7 +1344,6 @@
     "cryptoTradeable": false,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1034294400000,
-    "marketState": "CLOSED",
     "corporateActions": [],
     "regularMarketTime": 1783060200,
     "exchange": "JPX",
@@ -1353,8 +1355,6 @@
     "esgPopulated": false,
     "regularMarketChangePercent": 3.0989957,
     "regularMarketPrice": 3593.0,
-    "shortName": "NS SOLUTIONS CORPORATION",
-    "longName": "NS Solutions Corporation",
     "trailingPegRatio": null
   }
 }

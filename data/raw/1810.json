@@ -1,7 +1,7 @@
 {
   "ticker": "1810",
   "japanese_ticker": "1810.T",
-  "fetch_date": "2026-07-04T23:56:42.980945",
+  "fetch_date": "2026-07-06T00:00:30.235205",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": 83980000.0,
@@ -975,6 +975,7 @@
     "sectorKey": "industrials",
     "sectorDisp": "Industrials",
     "longBusinessSummary": "Matsui Construction Co., Ltd. engages in the civil engineering, designing, supervising, and construction business in Japan. The company undertakes shrines, temples, and cultural assets works, as well as government building, office building, education, research, culture, commerce, distribution, production, medical care, welfare, living space, and environmental arrangement. It also involved in the lumber and woodworking activities; manufacturing, processing, and selling of civil engineering and construction materials; owing, selling, leasing, trading, and management of real estate properties; property insurance agency; and brokerage services. In addition, the company manages sports, tourism, and leisure facilities; and engages in buying and selling of electricity and power generation business. Matsui Construction Co., Ltd. was founded in 1586 and is headquartered in Tokyo, Japan.",
+    "fullTimeEmployees": 771,
     "companyOfficers": [
       {
         "maxAge": 1,
@@ -1046,12 +1047,12 @@
     "averageVolume": 51260,
     "averageVolume10days": 32280,
     "averageDailyVolume10Day": 32280,
-    "bid": 1376.0,
-    "ask": 1384.0,
+    "bid": 1380.0,
+    "ask": 1402.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 39273226240,
-    "nonDilutedMarketCap": 38873933543,
+    "nonDilutedMarketCap": 39273225597,
     "fiftyTwoWeekLow": 1141.0,
     "fiftyTwoWeekHigh": 1964.0,
     "allTimeHigh": 1964.0,
@@ -1113,6 +1114,7 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "marketState": "REGULAR",
     "corporateActions": [],
     "regularMarketTime": 1783060200,
     "exchange": "JPX",
@@ -1126,6 +1128,7 @@
     "regularMarketPrice": 1377.0,
     "shortName": "MATSUI CONSTRUCTION CO",
     "longName": "Matsui Construction Co., Ltd.",
+    "cryptoTradeable": false,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 978307200000,
     "regularMarketChange": 2.0,
@@ -1148,8 +1151,6 @@
     "twoHundredDayAverageChangePercent": -0.09126908,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
-    "marketState": "CLOSED",
     "trailingPegRatio": null
   }
 }

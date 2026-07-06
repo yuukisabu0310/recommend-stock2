@@ -1,7 +1,7 @@
 {
   "ticker": "2267",
   "japanese_ticker": "2267.T",
-  "fetch_date": "2026-07-05T00:01:31.187050",
+  "fetch_date": "2026-07-06T00:05:07.330029",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": 1428154000.0,
@@ -1094,12 +1094,12 @@
     "averageVolume": 1568993,
     "averageVolume10days": 889760,
     "averageDailyVolume10Day": 889760,
-    "bid": 2837.0,
-    "ask": 2847.0,
+    "bid": 2855.0,
+    "ask": 2855.5,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 821716320256,
-    "nonDilutedMarketCap": 805550456134,
+    "nonDilutedMarketCap": 821716313702,
     "fiftyTwoWeekLow": 2291.0,
     "fiftyTwoWeekHigh": 3092.0,
     "allTimeHigh": 5215.0,
@@ -1172,6 +1172,8 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "corporateActions": [],
+    "regularMarketTime": 1783060200,
     "exchange": "JPX",
     "messageBoardId": "finmb_881065",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1181,9 +1183,8 @@
     "esgPopulated": false,
     "regularMarketChangePercent": 2.0068088,
     "regularMarketPrice": 2846.5,
+    "shortName": "YAKULT HONSHA CO",
     "longName": "Yakult Honsha Co.,Ltd.",
-    "corporateActions": [],
-    "regularMarketTime": 1783060200,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 978307200000,
     "regularMarketChange": 56.0,
@@ -1202,7 +1203,6 @@
     "earningsCallTimestampStart": 1747133940,
     "earningsCallTimestampEnd": 1747133940,
     "isEarningsDateEstimate": false,
-    "shortName": "YAKULT HONSHA CO",
     "epsTrailingTwelveMonths": 150.58,
     "epsForward": 177.16,
     "fiftyDayAverageChange": 86.77002,
@@ -1213,7 +1213,7 @@
     "exchangeDataDelayedBy": 20,
     "averageAnalystRating": "3.7 - Underperform",
     "cryptoTradeable": false,
-    "marketState": "CLOSED",
-    "trailingPegRatio": 4.8198
+    "marketState": "REGULAR",
+    "trailingPegRatio": 4.9165
   }
 }

@@ -1,7 +1,7 @@
 {
   "ticker": "3004",
   "japanese_ticker": "3004.T",
-  "fetch_date": "2026-07-05T00:09:50.581244",
+  "fetch_date": "2026-07-06T00:13:24.383065",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": 124962000.0,
@@ -1181,12 +1181,12 @@
     "averageVolume": 8311,
     "averageVolume10days": 6900,
     "averageDailyVolume10Day": 6900,
-    "bid": 2230.0,
-    "ask": 2238.0,
+    "bid": 0.0,
+    "ask": 2288.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 8767308800,
-    "nonDilutedMarketCap": 8544012975,
+    "nonDilutedMarketCap": 8767309050,
     "fiftyTwoWeekLow": 1834.0,
     "fiftyTwoWeekHigh": 2827.0,
     "allTimeHigh": 5090.0,
@@ -1249,8 +1249,6 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 978307200000,
     "regularMarketChange": 14.0,
     "regularMarketDayRange": "2222.0 - 2239.0",
     "fullExchangeName": "Tokyo",
@@ -1271,9 +1269,10 @@
     "twoHundredDayAverageChangePercent": -0.0448857,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
-    "marketState": "CLOSED",
-    "shortName": "SHINYEI KAISHA",
-    "longName": "Shinyei Kaisha",
+    "cryptoTradeable": false,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 978307200000,
+    "marketState": "REGULAR",
     "corporateActions": [],
     "regularMarketTime": 1783060200,
     "exchange": "JPX",
@@ -1285,7 +1284,8 @@
     "esgPopulated": false,
     "regularMarketChangePercent": 0.6294964,
     "regularMarketPrice": 2238.0,
-    "cryptoTradeable": false,
+    "shortName": "SHINYEI KAISHA",
+    "longName": "Shinyei Kaisha",
     "trailingPegRatio": null
   }
 }

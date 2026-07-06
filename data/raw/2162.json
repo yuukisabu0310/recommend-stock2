@@ -1,7 +1,7 @@
 {
   "ticker": "2162",
   "japanese_ticker": "2162.T",
-  "fetch_date": "2026-07-05T00:00:21.451664",
+  "fetch_date": "2026-07-06T00:03:57.820682",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": -66554800.0,
@@ -1228,6 +1228,7 @@
     "sectorKey": "technology",
     "sectorDisp": "Technology",
     "longBusinessSummary": "nms Holdings Corporation engages in human resource, electronics manufacturing services, and power supply businesses in Japan and internationally. It offers worker dispatch services for manufacturing; engineer dispatch service and contract engineering; third-party logistics and technical distribution processing; and substrate repairs and repair customer services. The company also provides electronics manufacturing services, such as substrate mounting, substrate assembling, simple pressing, resin molding, assembly, etc. services, as well as electronic device repair services; designs, manufactures, repairs, maintains, and sells 3D printers; and designs, developments, manufactures, and sells automotive-related equipment and parts. In addition, it designs, develops, manufactures, and sells switching, high-voltage power supplies, magnet rolls, high-voltage transformers, and battery management system related products used in various fields, such as office automation, industrial medicine, home appliances, and industrial equipment. nms Holdings Corporation was formerly known as Nippon Manufacturing Service Corporation and changed its name to nms Holdings Corporation in April 2017. The company was founded in 1985 and is headquartered in Tokyo, Japan.",
+    "fullTimeEmployees": 13047,
     "companyOfficers": [
       {
         "maxAge": 1,
@@ -1347,6 +1348,13 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "fiftyDayAverageChange": 71.899994,
+    "fiftyDayAverageChangePercent": 0.15392847,
+    "twoHundredDayAverageChange": 86.244995,
+    "twoHundredDayAverageChangePercent": 0.19048932,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
     "corporateActions": [],
     "regularMarketTime": 1783060200,
     "exchange": "JPX",
@@ -1356,10 +1364,6 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "regularMarketChangePercent": 0.0,
-    "regularMarketPrice": 539.0,
-    "shortName": "NMS HOLDINGS CORPORATION",
-    "longName": "nms Holdings Corporation",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1193270400000,
     "regularMarketChange": 0.0,
@@ -1376,14 +1380,11 @@
     "earningsTimestampEnd": 1754965800,
     "isEarningsDateEstimate": true,
     "epsTrailingTwelveMonths": 16.06,
-    "fiftyDayAverageChange": 71.899994,
-    "fiftyDayAverageChangePercent": 0.15392847,
-    "twoHundredDayAverageChange": 86.244995,
-    "twoHundredDayAverageChangePercent": 0.19048932,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
-    "marketState": "CLOSED",
+    "shortName": "NMS HOLDINGS CORPORATION",
+    "longName": "nms Holdings Corporation",
+    "regularMarketChangePercent": 0.0,
+    "regularMarketPrice": 539.0,
+    "marketState": "REGULAR",
     "trailingPegRatio": null
   }
 }

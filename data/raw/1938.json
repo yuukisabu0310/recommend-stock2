@@ -1,7 +1,7 @@
 {
   "ticker": "1938",
   "japanese_ticker": "1938.T",
-  "fetch_date": "2026-07-04T23:58:19.063378",
+  "fetch_date": "2026-07-06T00:02:00.755631",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": -79111710.0,
@@ -979,6 +979,7 @@
     "sectorKey": "industrials",
     "sectorDisp": "Industrials",
     "longBusinessSummary": "Nippon Rietec Co.,Ltd. engages in the railway electrical equipment construction business in Japan. The company's offers signal equipment, train track equipment, power generation and transformation equipment, electric light and power equipment, and information and communication system constructions, as well as transmission line equipment. It also constructs signage and landscape sign, traffic signals, and road information control systems. In addition, the company provides indoor/outdoor electric installation work, and solar power generation systems; and overhead power line and information and communication facilities, as well as leases land and buildings. Nippon Rietec Co.,Ltd. was incorporated in 1945 and is headquartered in Tokyo, Japan.",
+    "fullTimeEmployees": 1434,
     "companyOfficers": [
       {
         "maxAge": 1,
@@ -1074,10 +1075,10 @@
     "averageVolume": 108642,
     "averageVolume10days": 56150,
     "averageDailyVolume10Day": 56150,
-    "bid": 2684.0,
-    "ask": 2698.0,
+    "bid": 2652.0,
+    "ask": 2651.0,
     "marketCap": 66535772160,
-    "nonDilutedMarketCap": 66114504732,
+    "nonDilutedMarketCap": 66535774065,
     "fiftyTwoWeekLow": 1859.0,
     "fiftyTwoWeekHigh": 3245.0,
     "allTimeHigh": 3270.0,
@@ -1140,8 +1141,9 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 978652800000,
+    "shortName": "NIPPON RIETEC CO LTD",
+    "longName": "Nippon Rietec Co.,Ltd.",
+    "marketState": "REGULAR",
     "regularMarketChange": 30.0,
     "regularMarketDayRange": "2653.0 - 2703.0",
     "fullExchangeName": "Tokyo",
@@ -1162,9 +1164,9 @@
     "twoHundredDayAverageChangePercent": 0.09375314,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
-    "marketState": "CLOSED",
-    "shortName": "NIPPON RIETEC CO LTD",
-    "longName": "Nippon Rietec Co.,Ltd.",
+    "cryptoTradeable": false,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 978652800000,
     "corporateActions": [],
     "regularMarketTime": 1783060200,
     "exchange": "JPX",
@@ -1176,7 +1178,6 @@
     "esgPopulated": false,
     "regularMarketChangePercent": 1.1299435,
     "regularMarketPrice": 2685.0,
-    "cryptoTradeable": false,
     "trailingPegRatio": null
   }
 }

@@ -1,7 +1,7 @@
 {
   "ticker": "2503",
   "japanese_ticker": "2503.T",
-  "fetch_date": "2026-07-05T00:04:46.905118",
+  "fetch_date": "2026-07-06T00:08:24.568051",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-12-31 00:00:00": 0.0,
@@ -1132,12 +1132,12 @@
     "averageVolume": 3643332,
     "averageVolume10days": 3033800,
     "averageDailyVolume10Day": 3033800,
-    "bid": 2812.0,
-    "ask": 2814.0,
+    "bid": 2802.0,
+    "ask": 2802.5,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 2248341716992,
-    "nonDilutedMarketCap": 2218774038678,
+    "nonDilutedMarketCap": 2248341710002,
     "fiftyTwoWeekLow": 1966.0,
     "fiftyTwoWeekHigh": 2878.0,
     "allTimeHigh": 3199.0,
@@ -1208,11 +1208,6 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "marketState": "CLOSED",
-    "shortName": "KIRIN HOLDINGS COMPANY LIMITED",
-    "longName": "Kirin Holdings Company, Limited",
-    "epsTrailingTwelveMonths": 182.03,
-    "epsForward": 172.0,
     "fiftyDayAverageChange": 152.66992,
     "fiftyDayAverageChangePercent": 0.057376802,
     "twoHundredDayAverageChange": 344.13745,
@@ -1221,6 +1216,7 @@
     "exchangeDataDelayedBy": 20,
     "averageAnalystRating": "2.4 - Buy",
     "cryptoTradeable": false,
+    "marketState": "REGULAR",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 946944000000,
     "regularMarketChange": 37.0,
@@ -1239,6 +1235,10 @@
     "earningsCallTimestampStart": 1747133940,
     "earningsCallTimestampEnd": 1747133940,
     "isEarningsDateEstimate": false,
+    "epsTrailingTwelveMonths": 182.03,
+    "epsForward": 172.0,
+    "shortName": "KIRIN HOLDINGS COMPANY LIMITED",
+    "longName": "Kirin Holdings Company, Limited",
     "corporateActions": [],
     "regularMarketTime": 1783060200,
     "exchange": "JPX",
@@ -1250,6 +1250,6 @@
     "esgPopulated": false,
     "regularMarketChangePercent": 1.332613,
     "regularMarketPrice": 2813.5,
-    "trailingPegRatio": 1.8535
+    "trailingPegRatio": 1.8782
   }
 }

@@ -1,7 +1,7 @@
 {
   "ticker": "2391",
   "japanese_ticker": "2391.T",
-  "fetch_date": "2026-07-05T00:03:15.798186",
+  "fetch_date": "2026-07-06T00:06:57.004929",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-07-31 00:00:00": null,
@@ -949,12 +949,12 @@
     "averageVolume": 4739,
     "averageVolume10days": 3210,
     "averageDailyVolume10Day": 3210,
-    "bid": 1203.0,
+    "bid": 1207.0,
     "ask": 1207.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 7996708864,
-    "nonDilutedMarketCap": 7956924000,
+    "nonDilutedMarketCap": 7996708620,
     "fiftyTwoWeekLow": 1169.0,
     "fiftyTwoWeekHigh": 1356.0,
     "allTimeHigh": 2449.0,
@@ -1016,10 +1016,7 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "longName": "Planet, Inc.",
-    "hasPrePostMarketData": false,
-    "cryptoTradeable": false,
-    "shortName": "PLANET INC",
+    "marketState": "REGULAR",
     "corporateActions": [
       {
         "header": "Dividend",
@@ -1041,7 +1038,10 @@
     "esgPopulated": false,
     "regularMarketChangePercent": 0.24937657,
     "regularMarketPrice": 1206.0,
-    "marketState": "CLOSED",
+    "shortName": "PLANET INC",
+    "longName": "Planet, Inc.",
+    "cryptoTradeable": false,
+    "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1077580800000,
     "regularMarketChange": 3.0,
     "regularMarketDayRange": "1201.0 - 1209.0",

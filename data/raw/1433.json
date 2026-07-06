@@ -1,7 +1,7 @@
 {
   "ticker": "1433",
   "japanese_ticker": "1433.T",
-  "fetch_date": "2026-07-04T23:55:09.006785",
+  "fetch_date": "2026-07-05T23:58:59.468027",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-01-31 00:00:00": 65652865.2,
@@ -1216,12 +1216,12 @@
     "averageVolume": 87995,
     "averageVolume10days": 31730,
     "averageDailyVolume10Day": 31730,
-    "bid": 1142.0,
-    "ask": 1147.0,
+    "bid": 1122.0,
+    "ask": 1122.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 10154602496,
-    "nonDilutedMarketCap": 9941941020,
+    "nonDilutedMarketCap": 10154602860,
     "fiftyTwoWeekLow": 1003.0,
     "fiftyTwoWeekHigh": 1355.0,
     "allTimeHigh": 2800.0,
@@ -1285,21 +1285,6 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "cryptoTradeable": false,
-    "regularMarketChangePercent": 1.0582011,
-    "regularMarketPrice": 1146.0,
-    "corporateActions": [
-      {
-        "header": "Dividend",
-        "message": "1433.T announced a cash dividend of JPY 15.00 with an ex-date of Jul. 30, 2026",
-        "meta": {
-          "eventType": "DIVIDEND",
-          "dateEpochMs": 1785337200000,
-          "amount": "15.00"
-        }
-      }
-    ],
-    "regularMarketTime": 1783060200,
     "exchange": "JPX",
     "messageBoardId": "finmb_60481582",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1307,7 +1292,8 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "firstTradeDateMilliseconds": 1441152000000,
+    "regularMarketChangePercent": 1.0582011,
+    "regularMarketPrice": 1146.0,
     "regularMarketChange": 12.0,
     "regularMarketDayRange": "1134.0 - 1149.0",
     "fullExchangeName": "Tokyo",
@@ -1329,10 +1315,24 @@
     "twoHundredDayAverageChangePercent": 0.005298466,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
-    "marketState": "CLOSED",
     "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1441152000000,
+    "marketState": "PREPRE",
+    "cryptoTradeable": false,
     "shortName": "BESTERRA CO LTD",
     "longName": "Besterra Co., Ltd.",
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "1433.T announced a cash dividend of JPY 15.00 with an ex-date of Jul. 30, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1785337200000,
+          "amount": "15.00"
+        }
+      }
+    ],
+    "regularMarketTime": 1783060200,
     "trailingPegRatio": null
   }
 }

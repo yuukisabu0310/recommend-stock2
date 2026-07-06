@@ -1,7 +1,7 @@
 {
   "ticker": "2179",
   "japanese_ticker": "2179.T",
-  "fetch_date": "2026-07-05T00:00:36.894636",
+  "fetch_date": "2026-07-06T00:04:13.910881",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": -31256223.2,
@@ -1108,6 +1108,7 @@
     "sectorKey": "consumer-defensive",
     "sectorDisp": "Consumer Defensive",
     "longBusinessSummary": "Seigakusha Co.,Ltd. provides educational services in Japan and internationally. The company operates through Education-Related Business; Real Estate Leasing Business; and Food and Beverage Business segments. It provides video lessons, individual guidance, and learning guidance for elementary school students, junior high school students, high school students, and high school graduates. The company also provides junior high school and high school exam courses, college entrance exam courses, and middle/high school/university courses, as well as operates nursery schools, and language schools. In addition, it offers consulting services; rents real estate properties; and operates a restaurant in Osaka. The company was founded in 1982 and is headquartered in Kita, Japan.",
+    "fullTimeEmployees": 841,
     "companyOfficers": [
       {
         "maxAge": 1,
@@ -1177,12 +1178,12 @@
     "averageVolume": 1550,
     "averageVolume10days": 980,
     "averageDailyVolume10Day": 980,
-    "bid": 777.0,
-    "ask": 789.0,
+    "bid": 0.0,
+    "ask": 782.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 4310716928,
-    "nonDilutedMarketCap": 4294073052,
+    "nonDilutedMarketCap": 4310716746,
     "fiftyTwoWeekLow": 737.0,
     "fiftyTwoWeekHigh": 826.0,
     "allTimeHigh": 7850000.0,
@@ -1245,8 +1246,6 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "regularMarketChangePercent": -0.2567394,
-    "regularMarketPrice": 777.0,
     "fiftyDayAverageChange": 3.5999756,
     "fiftyDayAverageChangePercent": 0.0046547395,
     "twoHundredDayAverageChange": -11.429993,
@@ -1254,8 +1253,9 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "prevName": "Seigakusya Co., Ltd.",
-    "nameChangeDate": "2026-07-04",
+    "nameChangeDate": "2026-07-05",
     "cryptoTradeable": false,
+    "marketState": "REGULAR",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1219363200000,
     "regularMarketChange": -2.0,
@@ -1272,7 +1272,6 @@
     "earningsTimestampEnd": 1747290600,
     "isEarningsDateEstimate": false,
     "epsTrailingTwelveMonths": 105.21,
-    "marketState": "CLOSED",
     "shortName": "SEIGAKUSHA CO LTD",
     "longName": "Seigakusha Co.,Ltd.",
     "corporateActions": [],
@@ -1284,6 +1283,8 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
+    "regularMarketChangePercent": -0.2567394,
+    "regularMarketPrice": 777.0,
     "trailingPegRatio": null
   }
 }
