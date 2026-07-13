@@ -1,7 +1,7 @@
 {
   "ticker": "2471",
   "japanese_ticker": "2471.T",
-  "fetch_date": "2026-07-12T00:00:10.203906",
+  "fetch_date": "2026-07-12T23:54:28.310741",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-11-30 00:00:00": 0.0,
@@ -125,14 +125,14 @@
     "Diluted Average Shares": {
       "2025-11-30 00:00:00": 78308026.0,
       "2024-11-30 00:00:00": 79003645.0,
-      "2023-11-30 00:00:00": 79003645.0,
+      "2023-11-30 00:00:00": 78995434.0,
       "2022-11-30 00:00:00": 79003645.0,
       "2021-11-30 00:00:00": null
     },
     "Basic Average Shares": {
       "2025-11-30 00:00:00": 78308026.0,
       "2024-11-30 00:00:00": 79003645.0,
-      "2023-11-30 00:00:00": 79003645.0,
+      "2023-11-30 00:00:00": 78995434.0,
       "2022-11-30 00:00:00": 79003645.0,
       "2021-11-30 00:00:00": null
     },
@@ -1172,9 +1172,9 @@
     "maxAge": 86400,
     "priceHint": 2,
     "previousClose": 270.0,
-    "open": 271.0,
-    "dayLow": 267.0,
-    "dayHigh": 270.0,
+    "open": 270.0,
+    "dayLow": 266.0,
+    "dayHigh": 271.0,
     "regularMarketPreviousClose": 270.0,
     "regularMarketOpen": 270.0,
     "regularMarketDayLow": 266.0,
@@ -1192,7 +1192,7 @@
     "averageVolume": 382811,
     "averageVolume10days": 310270,
     "averageDailyVolume10Day": 310270,
-    "bid": 268.0,
+    "bid": 0.0,
     "ask": 269.0,
     "bidSize": 0,
     "askSize": 0,
@@ -1263,6 +1263,7 @@
     "customPriceAlertConfidence": "LOW",
     "regularMarketChangePercent": -0.7407407,
     "regularMarketPrice": 268.0,
+    "cryptoTradeable": false,
     "corporateActions": [],
     "regularMarketTime": 1783665000,
     "exchange": "JPX",
@@ -1272,9 +1273,11 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "marketState": "CLOSED",
+    "marketState": "PREPRE",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1139529600000,
+    "shortName": "S-POOL INC",
+    "longName": "S-Pool, Inc.",
     "regularMarketChange": -2.0,
     "regularMarketDayRange": "266.0 - 271.0",
     "fullExchangeName": "Tokyo",
@@ -1290,15 +1293,12 @@
     "isEarningsDateEstimate": true,
     "epsTrailingTwelveMonths": 18.44,
     "epsForward": 24.57,
-    "shortName": "S-POOL INC",
-    "longName": "S-Pool, Inc.",
     "fiftyDayAverageChange": 23.240005,
     "fiftyDayAverageChangePercent": 0.09495018,
     "twoHundredDayAverageChange": 2.5350037,
     "twoHundredDayAverageChangePercent": 0.0095492955,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
     "trailingPegRatio": null
   }
 }

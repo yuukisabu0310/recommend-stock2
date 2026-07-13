@@ -1,7 +1,7 @@
 {
   "ticker": "3024",
   "japanese_ticker": "3024.T",
-  "fetch_date": "2026-07-12T00:07:33.706074",
+  "fetch_date": "2026-07-13T00:00:43.917227",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": -53093600.0,
@@ -357,21 +357,21 @@
   "balance_sheet": {
     "Treasury Shares Number": {
       "2026-03-31 00:00:00": 71880.0,
-      "2025-03-31 00:00:00": null,
+      "2025-03-31 00:00:00": 86880.0,
       "2024-03-31 00:00:00": 68080.0,
       "2023-03-31 00:00:00": 84555.0,
-      "2022-03-31 00:00:00": 37555.0
+      "2022-03-31 00:00:00": null
     },
     "Ordinary Shares Number": {
       "2026-03-31 00:00:00": 3897120.0,
-      "2025-03-31 00:00:00": 3917320.0,
+      "2025-03-31 00:00:00": 3882120.0,
       "2024-03-31 00:00:00": 3900920.0,
       "2023-03-31 00:00:00": 3884445.0,
       "2022-03-31 00:00:00": null
     },
     "Share Issued": {
       "2026-03-31 00:00:00": 3969000.0,
-      "2025-03-31 00:00:00": 3917320.0,
+      "2025-03-31 00:00:00": 3969000.0,
       "2024-03-31 00:00:00": 3969000.0,
       "2023-03-31 00:00:00": 3969000.0,
       "2022-03-31 00:00:00": null
@@ -1210,8 +1210,8 @@
     "averageVolume": 3718,
     "averageVolume10days": 2810,
     "averageDailyVolume10Day": 2810,
-    "bid": 1076.0,
-    "ask": 1088.0,
+    "bid": 1087.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 4240066560,
@@ -1278,12 +1278,14 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "corporateActions": [],
-    "regularMarketTime": 1783665000,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1141344000000,
-    "regularMarketChange": 24.0,
-    "regularMarketDayRange": "1065.0 - 1088.0",
+    "regularMarketChangePercent": 2.255639,
+    "regularMarketPrice": 1088.0,
+    "shortName": "CREATE CORPORATION",
+    "longName": "Create Corporation",
+    "corporateActions": [],
+    "marketState": "REGULAR",
     "fullExchangeName": "Tokyo",
     "averageDailyVolume3Month": 3718,
     "fiftyTwoWeekLowChange": 108.0,
@@ -1296,18 +1298,6 @@
     "earningsTimestampEnd": 1754611200,
     "isEarningsDateEstimate": true,
     "epsTrailingTwelveMonths": 93.57,
-    "marketState": "CLOSED",
-    "shortName": "CREATE CORPORATION",
-    "longName": "Create Corporation",
-    "exchange": "JPX",
-    "messageBoardId": "finmb_6465745",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
-    "regularMarketChangePercent": 2.255639,
-    "regularMarketPrice": 1088.0,
     "fiftyDayAverageChange": 55.02002,
     "fiftyDayAverageChangePercent": 0.053263392,
     "twoHundredDayAverageChange": -61.819946,
@@ -1315,6 +1305,16 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
+    "regularMarketTime": 1783665000,
+    "exchange": "JPX",
+    "messageBoardId": "finmb_6465745",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
+    "regularMarketChange": 24.0,
+    "regularMarketDayRange": "1065.0 - 1088.0",
     "trailingPegRatio": null
   }
 }

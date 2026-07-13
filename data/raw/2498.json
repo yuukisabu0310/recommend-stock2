@@ -1,7 +1,7 @@
 {
   "ticker": "2498",
   "japanese_ticker": "2498.T",
-  "fetch_date": "2026-07-12T00:00:42.886419",
+  "fetch_date": "2026-07-12T23:54:58.875897",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-09-30 00:00:00": -85467513.0,
@@ -138,17 +138,17 @@
     },
     "Diluted EPS": {
       "2025-09-30 00:00:00": 318.41,
-      "2024-09-30 00:00:00": null,
+      "2024-09-30 00:00:00": 428.24,
       "2023-09-30 00:00:00": 474.24,
       "2022-09-30 00:00:00": 470.05,
-      "2021-09-30 00:00:00": 294.62
+      "2021-09-30 00:00:00": null
     },
     "Basic EPS": {
       "2025-09-30 00:00:00": 318.41,
-      "2024-09-30 00:00:00": null,
+      "2024-09-30 00:00:00": 428.24,
       "2023-09-30 00:00:00": 474.24,
       "2022-09-30 00:00:00": 470.05,
-      "2021-09-30 00:00:00": 294.62
+      "2021-09-30 00:00:00": null
     },
     "Diluted NI Availto Com Stockholders": {
       "2025-09-30 00:00:00": 3819096000.0,
@@ -1221,8 +1221,8 @@
     "averageVolume": 8206,
     "averageVolume10days": 3680,
     "averageDailyVolume10Day": 3680,
-    "bid": 3125.0,
-    "ask": 3155.0,
+    "bid": 0.0,
+    "ask": 3245.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 37423423488,
@@ -1291,8 +1291,8 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "regularMarketChangePercent": -0.47468352,
-    "regularMarketPrice": 3145.0,
+    "shortName": "ORIENTAL CONSULTANTS HLDGS CO L",
+    "longName": "Oriental Consultants Holdings Company Limited",
     "corporateActions": [],
     "regularMarketTime": 1783665000,
     "exchange": "JPX",
@@ -1302,7 +1302,9 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "marketState": "CLOSED",
+    "regularMarketChangePercent": -0.47468352,
+    "regularMarketPrice": 3145.0,
+    "marketState": "PREPRE",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 967766400000,
     "regularMarketChange": -15.0,
@@ -1319,8 +1321,6 @@
     "earningsTimestampEnd": 1755497700,
     "isEarningsDateEstimate": true,
     "epsTrailingTwelveMonths": 369.54,
-    "shortName": "ORIENTAL CONSULTANTS HLDGS CO L",
-    "longName": "Oriental Consultants Holdings Company Limited",
     "fiftyDayAverageChange": 135.26001,
     "fiftyDayAverageChangePercent": 0.044940762,
     "twoHundredDayAverageChange": 50.57495,

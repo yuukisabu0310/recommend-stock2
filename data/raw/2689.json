@@ -1,7 +1,7 @@
 {
   "ticker": "2689",
   "japanese_ticker": "2689.T",
-  "fetch_date": "2026-07-12T00:02:47.767100",
+  "fetch_date": "2026-07-12T23:56:23.665859",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-06-30 00:00:00": null,
@@ -107,14 +107,14 @@
     },
     "Diluted Average Shares": {
       "2025-06-30 00:00:00": 5923495.0,
-      "2024-06-30 00:00:00": null,
-      "2023-06-30 00:00:00": 6020596.0,
+      "2024-06-30 00:00:00": 5961397.0,
+      "2023-06-30 00:00:00": 6020520.0,
       "2022-06-30 00:00:00": 6073244.0
     },
     "Basic Average Shares": {
       "2025-06-30 00:00:00": 5923495.0,
-      "2024-06-30 00:00:00": null,
-      "2023-06-30 00:00:00": 6020596.0,
+      "2024-06-30 00:00:00": 5961397.0,
+      "2023-06-30 00:00:00": 6020520.0,
       "2022-06-30 00:00:00": 6073244.0
     },
     "Diluted EPS": {
@@ -125,7 +125,7 @@
     },
     "Basic EPS": {
       "2025-06-30 00:00:00": 241.43,
-      "2024-06-30 00:00:00": null,
+      "2024-06-30 00:00:00": 251.68,
       "2023-06-30 00:00:00": 234.9,
       "2022-06-30 00:00:00": 252.8
     },
@@ -834,7 +834,7 @@
     },
     "Net Foreign Currency Exchange Gain Loss": {
       "2024-06-30 00:00:00": -7062000.0,
-      "2023-06-30 00:00:00": null,
+      "2023-06-30 00:00:00": 0.0,
       "2022-06-30 00:00:00": null
     },
     "Gain Loss On Sale Of PPE": {
@@ -915,7 +915,7 @@
     "maxAge": 86400,
     "priceHint": 2,
     "previousClose": 1969.0,
-    "open": 1967.0,
+    "open": 1962.0,
     "dayLow": 1920.0,
     "dayHigh": 1962.0,
     "regularMarketPreviousClose": 1969.0,
@@ -934,8 +934,8 @@
     "averageVolume": 5832,
     "averageVolume10days": 10000,
     "averageDailyVolume10Day": 10000,
-    "bid": 1922.0,
-    "ask": 1960.0,
+    "bid": 1870.0,
+    "ask": 1901.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 11470734336,
@@ -1000,20 +1000,6 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "regularMarketChangePercent": -1.7267648,
-    "regularMarketPrice": 1935.0,
-    "shortName": "OLBA HEALTHCARE HLDGS INC",
-    "longName": "OLBA HEALTHCARE HOLDINGS, Inc.",
-    "marketState": "CLOSED",
-    "corporateActions": [],
-    "regularMarketTime": 1783664260,
-    "exchange": "JPX",
-    "messageBoardId": "finmb_8789263",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 978566400000,
     "regularMarketChange": -34.0,
@@ -1032,6 +1018,8 @@
     "earningsCallTimestampEnd": 1739876340,
     "isEarningsDateEstimate": true,
     "epsTrailingTwelveMonths": 208.01,
+    "shortName": "OLBA HEALTHCARE HLDGS INC",
+    "longName": "OLBA HEALTHCARE HOLDINGS, Inc.",
     "fiftyDayAverageChange": -88.93994,
     "fiftyDayAverageChangePercent": -0.043943964,
     "twoHundredDayAverageChange": -126.83496,
@@ -1039,8 +1027,20 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "prevName": "Kawanishi Holdings, Inc.",
-    "nameChangeDate": "2026-07-11",
+    "nameChangeDate": "2026-07-12",
     "cryptoTradeable": false,
+    "corporateActions": [],
+    "regularMarketTime": 1783664260,
+    "exchange": "JPX",
+    "messageBoardId": "finmb_8789263",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
+    "regularMarketChangePercent": -1.7267648,
+    "regularMarketPrice": 1935.0,
+    "marketState": "PREPRE",
     "trailingPegRatio": null
   }
 }

@@ -1,7 +1,7 @@
 {
   "ticker": "1786",
   "japanese_ticker": "1786.T",
-  "fetch_date": "2026-07-11T23:48:32.064000",
+  "fetch_date": "2026-07-12T23:46:05.933651",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": -211548000.0,
@@ -1168,6 +1168,40 @@
         "yearBorn": 1963,
         "exercisedValue": 0,
         "unexercisedValue": 0
+      },
+      {
+        "maxAge": 1,
+        "name": "Hidenori  Miyano",
+        "title": "GM of Accounting & Finance Department, Administration Division",
+        "exercisedValue": 0,
+        "unexercisedValue": 0
+      },
+      {
+        "maxAge": 1,
+        "name": "Mr. Yukihiko  Hashimoto",
+        "age": 63,
+        "title": "Managing Executive Officer, GM of Adm. HQ, Safety, Quality, Env., Legal Compliance and Director",
+        "yearBorn": 1962,
+        "exercisedValue": 0,
+        "unexercisedValue": 0
+      },
+      {
+        "maxAge": 1,
+        "name": "Mr. Toshiaki  Mizuno",
+        "age": 64,
+        "title": "Managing Executive Officer, GM of Sales Division & Director",
+        "yearBorn": 1961,
+        "exercisedValue": 0,
+        "unexercisedValue": 0
+      },
+      {
+        "maxAge": 1,
+        "name": "Mr. Akio  Shoji",
+        "age": 63,
+        "title": "Senior Managing Executive Officer & GM of Business Innovation Promotion Div. and Director",
+        "yearBorn": 1962,
+        "exercisedValue": 0,
+        "unexercisedValue": 0
       }
     ],
     "irWebsite": "http://www.orsc.co.jp/ir/index.html",
@@ -1194,8 +1228,8 @@
     "averageVolume": 475726,
     "averageVolume10days": 470320,
     "averageDailyVolume10Day": 470320,
-    "bid": 361.0,
-    "ask": 363.0,
+    "bid": 360.0,
+    "ask": 360.0,
     "marketCap": 46436270080,
     "nonDilutedMarketCap": 46436271491,
     "fiftyTwoWeekLow": 310.0,
@@ -1264,11 +1298,9 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "regularMarketChangePercent": 0.83798885,
-    "regularMarketPrice": 361.0,
-    "shortName": "ORIENTAL SHIRAISHI CORPORATION",
-    "longName": "Oriental Shiraishi Corporation",
-    "marketState": "CLOSED",
+    "marketState": "PREPRE",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1617235200000,
     "corporateActions": [],
     "regularMarketTime": 1783665000,
     "exchange": "JPX",
@@ -1278,8 +1310,6 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1617235200000,
     "regularMarketChange": 3.0,
     "regularMarketDayRange": "358.0 - 365.0",
     "fullExchangeName": "Tokyo",
@@ -1302,6 +1332,10 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
+    "regularMarketChangePercent": 0.83798885,
+    "regularMarketPrice": 361.0,
+    "shortName": "ORIENTAL SHIRAISHI CORPORATION",
+    "longName": "Oriental Shiraishi Corporation",
     "trailingPegRatio": null
   }
 }

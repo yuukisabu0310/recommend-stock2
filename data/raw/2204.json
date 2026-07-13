@@ -1,7 +1,7 @@
 {
   "ticker": "2204",
   "japanese_ticker": "2204.T",
-  "fetch_date": "2026-07-11T23:55:22.946288",
+  "fetch_date": "2026-07-12T23:50:59.891271",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": 111450914.510888,
@@ -1179,8 +1179,8 @@
     "averageVolume": 7383,
     "averageVolume10days": 7070,
     "averageDailyVolume10Day": 7070,
-    "bid": 3215.0,
-    "ask": 3245.0,
+    "bid": 0.0,
+    "ask": 3225.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 18401028096,
@@ -1241,7 +1241,6 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "marketState": "CLOSED",
     "corporateActions": [],
     "regularMarketTime": 1783665000,
     "exchange": "JPX",
@@ -1251,8 +1250,14 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
+    "regularMarketChangePercent": 0.155521,
+    "regularMarketPrice": 3220.0,
+    "shortName": "NAKAMURAYA CO LTD",
+    "longName": "Nakamuraya Co., Ltd.",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 978307200000,
+    "marketState": "PREPRE",
+    "cryptoTradeable": false,
     "regularMarketChange": 5.0,
     "regularMarketDayRange": "3205.0 - 3250.0",
     "fullExchangeName": "Tokyo",
@@ -1273,11 +1278,6 @@
     "twoHundredDayAverageChangePercent": 0.023953175,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
-    "shortName": "NAKAMURAYA CO LTD",
-    "longName": "Nakamuraya Co., Ltd.",
-    "regularMarketChangePercent": 0.155521,
-    "regularMarketPrice": 3220.0,
     "trailingPegRatio": null
   }
 }

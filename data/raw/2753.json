@@ -1,7 +1,7 @@
 {
   "ticker": "2753",
   "japanese_ticker": "2753.T",
-  "fetch_date": "2026-07-12T00:03:44.990501",
+  "fetch_date": "2026-07-12T23:57:16.475171",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": -99568000.0,
@@ -259,10 +259,10 @@
   "balance_sheet": {
     "Treasury Shares Number": {
       "2026-03-31 00:00:00": 630.0,
-      "2025-03-31 00:00:00": null,
+      "2025-03-31 00:00:00": 1530.0,
       "2024-03-31 00:00:00": 1530.0,
       "2023-03-31 00:00:00": 1443.0,
-      "2022-03-31 00:00:00": 1338.0
+      "2022-03-31 00:00:00": null
     },
     "Ordinary Shares Number": {
       "2026-03-31 00:00:00": 20545770.0,
@@ -273,7 +273,7 @@
     },
     "Share Issued": {
       "2026-03-31 00:00:00": 20546400.0,
-      "2025-03-31 00:00:00": 20544870.0,
+      "2025-03-31 00:00:00": 20546400.0,
       "2024-03-31 00:00:00": 20546400.0,
       "2023-03-31 00:00:00": 20546400.0,
       "2022-03-31 00:00:00": null
@@ -1106,15 +1106,42 @@
         "title": "Executive Officer & GM of Sales Division",
         "exercisedValue": 0,
         "unexercisedValue": 0
+      },
+      {
+        "maxAge": 1,
+        "name": "Mr. Takamori  Takeuchi",
+        "age": 67,
+        "title": "Executive Officer & GM of Internal Audit Office",
+        "yearBorn": 1958,
+        "exercisedValue": 0,
+        "unexercisedValue": 0
+      },
+      {
+        "maxAge": 1,
+        "name": "Mr. Yasushi  Chijiwa",
+        "age": 68,
+        "title": "MD & Director",
+        "yearBorn": 1957,
+        "exercisedValue": 0,
+        "unexercisedValue": 0
+      },
+      {
+        "maxAge": 1,
+        "name": "Mr. Hiroshi  Sato",
+        "age": 53,
+        "title": "GM of Kanto Division & Director",
+        "yearBorn": 1972,
+        "exercisedValue": 0,
+        "unexercisedValue": 0
       }
     ],
     "executiveTeam": [],
     "maxAge": 86400,
     "priceHint": 2,
     "previousClose": 1334.0,
-    "open": 1332.0,
+    "open": 1334.0,
     "dayLow": 1326.0,
-    "dayHigh": 1334.0,
+    "dayHigh": 1336.0,
     "regularMarketPreviousClose": 1334.0,
     "regularMarketOpen": 1334.0,
     "regularMarketDayLow": 1326.0,
@@ -1131,8 +1158,8 @@
     "averageVolume": 41403,
     "averageVolume10days": 46190,
     "averageDailyVolume10Day": 46190,
-    "bid": 1329.0,
-    "ask": 1338.0,
+    "bid": 0.0,
+    "ask": 1340.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 27387510784,
@@ -1200,7 +1227,8 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "marketState": "CLOSED",
+    "regularMarketChangePercent": -0.07496252,
+    "regularMarketPrice": 1333.0,
     "corporateActions": [],
     "regularMarketTime": 1783665000,
     "exchange": "JPX",
@@ -1210,8 +1238,10 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1040169600000,
+    "marketState": "PREPRE",
+    "shortName": "AMIYAKI TEI CO LTD",
+    "longName": "Amiyaki Tei Co., Ltd.",
+    "cryptoTradeable": false,
     "regularMarketChange": -1.0,
     "regularMarketDayRange": "1326.0 - 1336.0",
     "fullExchangeName": "Tokyo",
@@ -1233,11 +1263,8 @@
     "twoHundredDayAverageChangePercent": -0.032575294,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
-    "shortName": "AMIYAKI TEI CO LTD",
-    "longName": "Amiyaki Tei Co., Ltd.",
-    "regularMarketChangePercent": -0.07496252,
-    "regularMarketPrice": 1333.0,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1040169600000,
     "trailingPegRatio": null
   }
 }

@@ -1,7 +1,7 @@
 {
   "ticker": "1808",
   "japanese_ticker": "1808.T",
-  "fetch_date": "2026-07-11T23:48:56.491403",
+  "fetch_date": "2026-07-12T23:46:27.897946",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": -1773670000.0,
@@ -1150,8 +1150,58 @@
       },
       {
         "maxAge": 1,
-        "name": "Masahiko  Satake",
-        "title": "Operating Officer",
+        "name": "Toru  Wakabayashi",
+        "title": "Senior Operating Officer & Head of Technology Promotion Department",
+        "fiscalYear": 2025,
+        "exercisedValue": 0,
+        "unexercisedValue": 0
+      },
+      {
+        "maxAge": 1,
+        "name": "Masaru  Naoe",
+        "title": "Senior Operating Officer & Head of Human Resources and Corporate Communications",
+        "fiscalYear": 2025,
+        "exercisedValue": 0,
+        "unexercisedValue": 0
+      },
+      {
+        "maxAge": 1,
+        "name": "Toshifumi  Tomita",
+        "title": "Senior Operating Officer & Head of Sales Department and in charge of Group Real Estate Business",
+        "fiscalYear": 2025,
+        "exercisedValue": 0,
+        "unexercisedValue": 0
+      },
+      {
+        "maxAge": 1,
+        "name": "Sanri  Yamamoto",
+        "title": "Senior Operating Officer",
+        "fiscalYear": 2025,
+        "exercisedValue": 0,
+        "unexercisedValue": 0
+      },
+      {
+        "maxAge": 1,
+        "name": "Katsuhide  Takahashi",
+        "title": "Senior Managing Executive Officer",
+        "fiscalYear": 2025,
+        "exercisedValue": 0,
+        "unexercisedValue": 0
+      },
+      {
+        "maxAge": 1,
+        "name": "Takashi  Tsuruta",
+        "title": "Executive Operating Officer",
+        "fiscalYear": 2025,
+        "exercisedValue": 0,
+        "unexercisedValue": 0
+      },
+      {
+        "maxAge": 1,
+        "name": "Mr. Toru  Yamaguchi",
+        "age": 62,
+        "title": "Executive VP & Director",
+        "yearBorn": 1963,
         "fiscalYear": 2025,
         "exercisedValue": 0,
         "unexercisedValue": 0
@@ -1188,8 +1238,8 @@
     "averageVolume": 1099908,
     "averageVolume10days": 813950,
     "averageDailyVolume10Day": 813950,
-    "bid": 2788.0,
-    "ask": 2797.0,
+    "bid": 3289.0,
+    "ask": 3289.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 737960984576,
@@ -1266,6 +1316,9 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "cryptoTradeable": false,
+    "longName": "HASEKO Corporation",
+    "shortName": "HASEKO CORPORATION",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 978307200000,
     "regularMarketChange": 7.5,
@@ -1293,21 +1346,18 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "averageAnalystRating": "2.3 - Buy",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
     "regularMarketChangePercent": 0.26968715,
     "regularMarketPrice": 2788.5,
-    "shortName": "HASEKO CORPORATION",
-    "longName": "HASEKO Corporation",
-    "marketState": "CLOSED",
-    "corporateActions": [],
     "regularMarketTime": 1783665000,
     "exchange": "JPX",
     "messageBoardId": "finmb_874112",
     "exchangeTimezoneName": "Asia/Tokyo",
-    "cryptoTradeable": false,
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
+    "marketState": "PREPRE",
+    "corporateActions": [],
     "trailingPegRatio": null
   }
 }

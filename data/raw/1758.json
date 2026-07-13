@@ -1,7 +1,7 @@
 {
   "ticker": "1758",
   "japanese_ticker": "1758.T",
-  "fetch_date": "2026-07-11T23:47:42.613416",
+  "fetch_date": "2026-07-12T23:45:47.639694",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-01-31 00:00:00": 5205222.0,
@@ -1234,7 +1234,7 @@
     "sector": "Industrials",
     "sectorKey": "industrials",
     "sectorDisp": "Industrials",
-    "longBusinessSummary": "Taiyo Kisokogyo Co.,Ltd. engages in the civil engineering business in Japan. It operates through six segments: Special Civil Engineering Work, Housing-Related Construction Business, Environmental-Related Construction Business, Construction Business, Machinery Manufacturing and Sales Business, and Renewable Business. The company engages in housing correction work; building construction and renovation business; manufacture and sale of construction machinery; and sale of solar power generation and renewable energy. The company undertakes underground special civil engineering work, such as underground continuous walls, underground obstacle removal, ground improvement and pipeline work in various fields, liquefaction countermeasure work, as well as slope reinforcement work. It is also involved in the soil contamination remediation, geothermal energy utilization, and urban redevelopment activities. Taiyo Kisokogyo Co.,Ltd. was founded in 1958 and is headquartered in Nagoya, Japan.",
+    "longBusinessSummary": "Taiyo Kisokogyo Co.,Ltd. engages in the civil engineering business in Japan. The company operates through six segments: Special Civil Engineering Work, Housing-Related Construction Business, Environmental-Related Construction Business, Construction Business, Machinery Manufacturing and Sales Business, and Renewable Energy Projects. The company engages in housing correction work; building construction and renovation business; manufacture and sale of construction machinery; and sale of solar power generation and renewable energy. The company undertakes underground special civil engineering work, such as underground continuous walls, underground obstacle removal, tunneling work, liquefaction countermeasure work, as well as slope reinforcement work. It is also involved in soil contamination remediation and geothermal energy utilization. Taiyo Kisokogyo Co.,Ltd. was founded in 1958 and is headquartered in Nagoya, Japan.",
     "fullTimeEmployees": 221,
     "companyOfficers": [
       {
@@ -1316,8 +1316,8 @@
     "averageVolume": 1849,
     "averageVolume10days": 650,
     "averageDailyVolume10Day": 650,
-    "bid": 2403.0,
-    "ask": 2427.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 4792400896,
@@ -1384,9 +1384,6 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "corporateActions": [],
-    "regularMarketTime": 1783662264,
-    "marketState": "CLOSED",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 946944000000,
     "regularMarketChange": -26.0,
@@ -1403,15 +1400,6 @@
     "earningsTimestampEnd": 1749812340,
     "isEarningsDateEstimate": false,
     "epsTrailingTwelveMonths": 232.18,
-    "exchange": "JPX",
-    "messageBoardId": "finmb_6109261",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
-    "regularMarketChangePercent": -1.0712814,
-    "regularMarketPrice": 2401.0,
     "shortName": "TAIYO KISOKOGYO CO",
     "longName": "Taiyo Kisokogyo Co.,Ltd.",
     "fiftyDayAverageChange": -85.95996,
@@ -1421,6 +1409,18 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
+    "corporateActions": [],
+    "regularMarketTime": 1783662264,
+    "exchange": "JPX",
+    "messageBoardId": "finmb_6109261",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
+    "regularMarketChangePercent": -1.0712814,
+    "regularMarketPrice": 2401.0,
+    "marketState": "PREPRE",
     "trailingPegRatio": null
   }
 }

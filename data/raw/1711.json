@@ -1,7 +1,7 @@
 {
   "ticker": "1711",
   "japanese_ticker": "1711.T",
-  "fetch_date": "2026-07-11T23:47:17.335532",
+  "fetch_date": "2026-07-12T23:45:25.287314",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": 1872000.0,
@@ -1195,8 +1195,8 @@
     "averageVolume": 93968,
     "averageVolume10days": 26280,
     "averageDailyVolume10Day": 26280,
-    "bid": 237.0,
-    "ask": 239.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 2482973696,
@@ -1261,9 +1261,9 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "marketState": "CLOSED",
     "corporateActions": [],
     "regularMarketTime": 1783665000,
+    "marketState": "PREPRE",
     "exchange": "JPX",
     "messageBoardId": "finmb_13406760",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1271,6 +1271,8 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
+    "regularMarketChangePercent": 0.42194092,
+    "regularMarketPrice": 238.0,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1103155200000,
     "regularMarketChange": 1.0,
@@ -1296,8 +1298,6 @@
     "cryptoTradeable": false,
     "shortName": "SDS HOLDINGS CO LTD",
     "longName": "SDS HOLDINGS Co.,Ltd.",
-    "regularMarketChangePercent": 0.42194092,
-    "regularMarketPrice": 238.0,
     "trailingPegRatio": null
   }
 }

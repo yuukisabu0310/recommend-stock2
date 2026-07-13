@@ -1,7 +1,7 @@
 {
   "ticker": "1724",
   "japanese_ticker": "1724.T",
-  "fetch_date": "2026-07-11T23:47:36.538670",
+  "fetch_date": "2026-07-12T23:45:41.663879",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-12-31 00:00:00": -2142000.0,
@@ -138,7 +138,7 @@
     },
     "Diluted EPS": {
       "2025-12-31 00:00:00": null,
-      "2024-12-31 00:00:00": null,
+      "2024-12-31 00:00:00": 117.66,
       "2023-12-31 00:00:00": 93.41,
       "2022-12-31 00:00:00": 63.67,
       "2021-12-31 00:00:00": 224.36
@@ -1128,8 +1128,8 @@
     "averageVolume": 4636,
     "averageVolume10days": 3640,
     "averageDailyVolume10Day": 3640,
-    "bid": 685.0,
-    "ask": 688.0,
+    "bid": 0.0,
+    "ask": 687.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 3077157376,
@@ -1194,14 +1194,6 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "regularMarketChangePercent": -0.14534883,
-    "regularMarketPrice": 687.0,
-    "shortName": "SYNCLAYER INC",
-    "longName": "Synclayer Inc.",
-    "marketState": "CLOSED",
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1045612800000,
     "regularMarketChange": -1.0,
@@ -1220,10 +1212,15 @@
     "earningsCallTimestampEnd": 1723201140,
     "isEarningsDateEstimate": true,
     "epsTrailingTwelveMonths": 52.07,
+    "shortName": "SYNCLAYER INC",
+    "longName": "Synclayer Inc.",
     "fiftyDayAverageChange": -13.340027,
     "fiftyDayAverageChangePercent": -0.019047929,
     "twoHundredDayAverageChange": -22.924988,
     "twoHundredDayAverageChangePercent": -0.032292128,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
     "corporateActions": [],
     "regularMarketTime": 1783664667,
     "exchange": "JPX",
@@ -1233,6 +1230,9 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
+    "regularMarketChangePercent": -0.14534883,
+    "regularMarketPrice": 687.0,
+    "marketState": "PREPRE",
     "trailingPegRatio": null
   }
 }

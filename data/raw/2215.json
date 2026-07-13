@@ -1,7 +1,7 @@
 {
   "ticker": "2215",
   "japanese_ticker": "2215.T",
-  "fetch_date": "2026-07-11T23:55:36.903451",
+  "fetch_date": "2026-07-12T23:51:14.242855",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-12-31 00:00:00": -16074000.0,
@@ -138,7 +138,7 @@
     },
     "Diluted EPS": {
       "2025-12-31 00:00:00": null,
-      "2024-12-31 00:00:00": null,
+      "2024-12-31 00:00:00": 296.82,
       "2023-12-31 00:00:00": 68.51,
       "2022-12-31 00:00:00": -165.5,
       "2021-12-31 00:00:00": -106.83
@@ -1104,7 +1104,7 @@
     "averageVolume10days": 4310,
     "averageDailyVolume10Day": 4310,
     "bid": 0.0,
-    "ask": 601.0,
+    "ask": 605.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 4154034688,
@@ -1170,6 +1170,16 @@
     "customPriceAlertConfidence": "LOW",
     "corporateActions": [],
     "regularMarketTime": 1783665000,
+    "marketState": "PREPRE",
+    "exchange": "JPX",
+    "messageBoardId": "finmb_880519",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
+    "regularMarketChangePercent": 0.0,
+    "regularMarketPrice": 600.0,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 978307200000,
     "regularMarketChange": 0.0,
@@ -1186,18 +1196,6 @@
     "earningsTimestampEnd": 1755500400,
     "isEarningsDateEstimate": true,
     "epsTrailingTwelveMonths": 46.32,
-    "marketState": "CLOSED",
-    "shortName": "FIRST BAKING CO",
-    "longName": "First Baking Co., Ltd.",
-    "exchange": "JPX",
-    "messageBoardId": "finmb_880519",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
-    "regularMarketChangePercent": 0.0,
-    "regularMarketPrice": 600.0,
     "fiftyDayAverageChange": -0.11999512,
     "fiftyDayAverageChangePercent": -0.00019995187,
     "twoHundredDayAverageChange": -9.844971,
@@ -1205,6 +1203,8 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
+    "shortName": "FIRST BAKING CO",
+    "longName": "First Baking Co., Ltd.",
     "trailingPegRatio": null
   }
 }

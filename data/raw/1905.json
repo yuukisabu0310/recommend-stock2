@@ -1,7 +1,7 @@
 {
   "ticker": "1905",
   "japanese_ticker": "1905.T",
-  "fetch_date": "2026-07-11T23:50:54.108854",
+  "fetch_date": "2026-07-12T23:47:49.104621",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": 6290082.4,
@@ -301,10 +301,10 @@
   "balance_sheet": {
     "Treasury Shares Number": {
       "2026-03-31 00:00:00": 681443.0,
-      "2025-03-31 00:00:00": null,
+      "2025-03-31 00:00:00": 707354.0,
       "2024-03-31 00:00:00": 792750.0,
       "2023-03-31 00:00:00": 818204.0,
-      "2022-03-31 00:00:00": 1004808.0
+      "2022-03-31 00:00:00": null
     },
     "Ordinary Shares Number": {
       "2026-03-31 00:00:00": 6666237.0,
@@ -315,7 +315,7 @@
     },
     "Share Issued": {
       "2026-03-31 00:00:00": 7347680.0,
-      "2025-03-31 00:00:00": 6640327.0,
+      "2025-03-31 00:00:00": 7347680.0,
       "2024-03-31 00:00:00": 7347680.0,
       "2023-03-31 00:00:00": 7347680.0,
       "2022-03-31 00:00:00": null
@@ -1187,7 +1187,7 @@
     "averageVolume": 8180,
     "averageVolume10days": 3910,
     "averageDailyVolume10Day": 3910,
-    "bid": 1521.0,
+    "bid": 0.0,
     "ask": 1528.0,
     "bidSize": 0,
     "askSize": 0,
@@ -1255,8 +1255,6 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 947030400000,
     "corporateActions": [],
     "regularMarketTime": 1783665000,
     "exchange": "JPX",
@@ -1266,11 +1264,20 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "marketState": "CLOSED",
-    "shortName": "TENOX CORP",
-    "longName": "Tenox Corporation",
     "regularMarketChangePercent": 0.5928854,
     "regularMarketPrice": 1527.0,
+    "shortName": "TENOX CORP",
+    "longName": "Tenox Corporation",
+    "epsTrailingTwelveMonths": 141.09,
+    "fiftyDayAverageChange": 26.060059,
+    "fiftyDayAverageChangePercent": 0.017362492,
+    "twoHundredDayAverageChange": 109.15503,
+    "twoHundredDayAverageChangePercent": 0.07698657,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 947030400000,
     "regularMarketChange": 9.0,
     "regularMarketDayRange": "1519.0 - 1541.0",
     "fullExchangeName": "Tokyo",
@@ -1284,14 +1291,7 @@
     "earningsTimestampStart": 1747203300,
     "earningsTimestampEnd": 1747203300,
     "isEarningsDateEstimate": false,
-    "epsTrailingTwelveMonths": 141.09,
-    "fiftyDayAverageChange": 26.060059,
-    "fiftyDayAverageChangePercent": 0.017362492,
-    "twoHundredDayAverageChange": 109.15503,
-    "twoHundredDayAverageChangePercent": 0.07698657,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
+    "marketState": "PREPRE",
     "trailingPegRatio": null
   }
 }

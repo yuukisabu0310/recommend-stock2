@@ -1,7 +1,7 @@
 {
   "ticker": "2698",
   "japanese_ticker": "2698.T",
-  "fetch_date": "2026-07-12T00:02:58.794766",
+  "fetch_date": "2026-07-12T23:56:34.060462",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-02-28 00:00:00": -195200000.0,
@@ -124,7 +124,7 @@
     },
     "Diluted Average Shares": {
       "2026-02-28 00:00:00": 16001234.0,
-      "2025-02-28 00:00:00": 15991589.0,
+      "2025-02-28 00:00:00": 15996274.0,
       "2024-02-29 00:00:00": 15970772.0,
       "2022-11-30 00:00:00": 15971903.0,
       "2021-11-30 00:00:00": null
@@ -132,21 +132,21 @@
     "Basic Average Shares": {
       "2026-02-28 00:00:00": 16001234.0,
       "2025-02-28 00:00:00": 15996274.0,
-      "2024-02-29 00:00:00": 15982804.0,
+      "2024-02-29 00:00:00": 15970772.0,
       "2022-11-30 00:00:00": 15971903.0,
       "2021-11-30 00:00:00": null
     },
     "Diluted EPS": {
       "2026-02-28 00:00:00": 27.89,
       "2025-02-28 00:00:00": -15.83,
-      "2024-02-29 00:00:00": -72.98,
+      "2024-02-29 00:00:00": -28.74,
       "2022-11-30 00:00:00": -10.98,
       "2021-11-30 00:00:00": null
     },
     "Basic EPS": {
       "2026-02-28 00:00:00": 27.89,
       "2025-02-28 00:00:00": -15.83,
-      "2024-02-29 00:00:00": -72.98,
+      "2024-02-29 00:00:00": -28.74,
       "2022-11-30 00:00:00": -10.98,
       "2021-11-30 00:00:00": null
     },
@@ -1106,8 +1106,8 @@
     "averageVolume": 10827,
     "averageVolume10days": 19860,
     "averageDailyVolume10Day": 19860,
-    "bid": 3530.0,
-    "ask": 3565.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 56724373504,
@@ -1174,12 +1174,16 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1070409600000,
+    "regularMarketChangePercent": 1.2857143,
+    "regularMarketPrice": 3545.0,
+    "marketState": "PREPRE",
+    "corporateActions": [],
+    "regularMarketTime": 1783665000,
+    "shortName": "CAN DO CO LTD",
+    "longName": "Can Do Co., Ltd.",
     "regularMarketChange": 45.0,
     "regularMarketDayRange": "3515.0 - 3600.0",
     "fullExchangeName": "Tokyo",
-    "marketState": "CLOSED",
     "averageDailyVolume3Month": 10827,
     "fiftyTwoWeekLowChange": 435.0,
     "fiftyTwoWeekLowChangePercent": 0.13987139,
@@ -1197,9 +1201,8 @@
     "twoHundredDayAverageChangePercent": 0.047174532,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
-    "corporateActions": [],
-    "regularMarketTime": 1783665000,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1070409600000,
     "exchange": "JPX",
     "messageBoardId": "finmb_5537194",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1207,10 +1210,7 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "regularMarketChangePercent": 1.2857143,
-    "regularMarketPrice": 3545.0,
-    "shortName": "CAN DO CO LTD",
-    "longName": "Can Do Co., Ltd.",
+    "cryptoTradeable": false,
     "trailingPegRatio": null
   }
 }

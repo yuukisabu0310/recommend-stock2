@@ -1,19 +1,19 @@
 {
   "ticker": "2491",
   "japanese_ticker": "2491.T",
-  "fetch_date": "2026-07-12T00:00:34.248497",
+  "fetch_date": "2026-07-12T23:54:50.899218",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-12-31 00:00:00": -77952000.0,
       "2024-12-31 00:00:00": 2446280.991736,
-      "2023-12-31 00:00:00": -63765125.96707,
+      "2023-12-31 00:00:00": -63700000.0,
       "2022-12-31 00:00:00": 19937252.073567,
       "2021-12-31 00:00:00": null
     },
     "Tax Rate For Calcs": {
       "2025-12-31 00:00:00": 0.232,
       "2024-12-31 00:00:00": 0.305785,
-      "2023-12-31 00:00:00": 0.325332,
+      "2023-12-31 00:00:00": 0.325,
       "2022-12-31 00:00:00": 0.30208,
       "2021-12-31 00:00:00": null
     },
@@ -76,7 +76,7 @@
     "Normalized Income": {
       "2025-12-31 00:00:00": 745048000.0,
       "2024-12-31 00:00:00": 2849446280.991736,
-      "2023-12-31 00:00:00": 3532234874.03293,
+      "2023-12-31 00:00:00": 3532300000.0,
       "2022-12-31 00:00:00": 5759937252.073567,
       "2021-12-31 00:00:00": null
     },
@@ -104,30 +104,30 @@
     "Diluted Average Shares": {
       "2025-12-31 00:00:00": 21625222.0,
       "2024-12-31 00:00:00": 25211939.0,
-      "2023-12-31 00:00:00": 32334760.0,
+      "2023-12-31 00:00:00": 32337760.0,
       "2022-12-31 00:00:00": 32341800.0,
       "2021-12-31 00:00:00": null
     },
     "Basic Average Shares": {
       "2025-12-31 00:00:00": 21625222.0,
       "2024-12-31 00:00:00": 25211939.0,
-      "2023-12-31 00:00:00": 32331685.0,
+      "2023-12-31 00:00:00": 32337760.0,
       "2022-12-31 00:00:00": 32329328.0,
       "2021-12-31 00:00:00": null
     },
     "Diluted EPS": {
       "2025-12-31 00:00:00": 22.52,
-      "2024-12-31 00:00:00": null,
+      "2024-12-31 00:00:00": 113.24,
       "2023-12-31 00:00:00": 105.15,
       "2022-12-31 00:00:00": 179.52,
-      "2021-12-31 00:00:00": 100.84
+      "2021-12-31 00:00:00": null
     },
     "Basic EPS": {
       "2025-12-31 00:00:00": 22.52,
-      "2024-12-31 00:00:00": null,
+      "2024-12-31 00:00:00": 113.24,
       "2023-12-31 00:00:00": 105.16,
       "2022-12-31 00:00:00": 179.6,
-      "2021-12-31 00:00:00": 100.92
+      "2021-12-31 00:00:00": null
     },
     "Diluted NI Availto Com Stockholders": {
       "2025-12-31 00:00:00": 487000000.0,
@@ -1043,7 +1043,7 @@
     "maxAge": 86400,
     "priceHint": 2,
     "previousClose": 459.0,
-    "open": 453.0,
+    "open": 464.0,
     "dayLow": 459.0,
     "dayHigh": 473.0,
     "regularMarketPreviousClose": 459.0,
@@ -1063,8 +1063,8 @@
     "averageVolume": 279195,
     "averageVolume10days": 184480,
     "averageDailyVolume10Day": 184480,
-    "bid": 466.0,
-    "ask": 469.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 10122845184,
@@ -1131,8 +1131,18 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "shortName": "VALUECOMMERCE CO.LTD.",
-    "longName": "ValueCommerce Co., Ltd.",
+    "earningsTimestamp": 1785306600,
+    "earningsTimestampStart": 1785306600,
+    "earningsTimestampEnd": 1785306600,
+    "isEarningsDateEstimate": false,
+    "epsTrailingTwelveMonths": 22.51,
+    "epsForward": 117.06,
+    "fiftyDayAverageChange": -2.1600037,
+    "fiftyDayAverageChangePercent": -0.004603981,
+    "twoHundredDayAverageChange": -95.45502,
+    "twoHundredDayAverageChangePercent": -0.16971138,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1154304000000,
     "regularMarketChange": 8.0,
@@ -1145,17 +1155,8 @@
     "fiftyTwoWeekHighChange": -391.0,
     "fiftyTwoWeekHighChangePercent": -0.45571095,
     "fiftyTwoWeekChangePercent": -40.960808,
-    "earningsTimestamp": 1785306600,
-    "earningsTimestampStart": 1785306600,
-    "earningsTimestampEnd": 1785306600,
-    "isEarningsDateEstimate": false,
-    "epsTrailingTwelveMonths": 22.51,
-    "epsForward": 117.06,
-    "fiftyDayAverageChange": -2.1600037,
-    "fiftyDayAverageChangePercent": -0.004603981,
-    "twoHundredDayAverageChange": -95.45502,
-    "twoHundredDayAverageChangePercent": -0.16971138,
-    "marketState": "CLOSED",
+    "cryptoTradeable": false,
+    "marketState": "PREPRE",
     "corporateActions": [],
     "regularMarketTime": 1783665000,
     "exchange": "JPX",
@@ -1167,9 +1168,8 @@
     "esgPopulated": false,
     "regularMarketChangePercent": 1.7429193,
     "regularMarketPrice": 467.0,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
+    "shortName": "VALUECOMMERCE CO.LTD.",
+    "longName": "ValueCommerce Co., Ltd.",
     "trailingPegRatio": null
   }
 }

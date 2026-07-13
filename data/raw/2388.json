@@ -1,7 +1,7 @@
 {
   "ticker": "2388",
   "japanese_ticker": "2388.T",
-  "fetch_date": "2026-07-11T23:59:02.032913",
+  "fetch_date": "2026-07-12T23:53:25.318907",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-09-30 00:00:00": 27208960.0,
@@ -124,17 +124,17 @@
     },
     "Diluted Average Shares": {
       "2025-09-30 00:00:00": 42455078.0,
-      "2024-09-30 00:00:00": null,
-      "2023-09-30 00:00:00": 37486998.0,
+      "2024-09-30 00:00:00": 42455078.0,
+      "2023-09-30 00:00:00": 37479872.0,
       "2022-09-30 00:00:00": 35755078.0,
-      "2021-09-30 00:00:00": 35755078.0
+      "2021-09-30 00:00:00": null
     },
     "Basic Average Shares": {
       "2025-09-30 00:00:00": 42455078.0,
-      "2024-09-30 00:00:00": null,
-      "2023-09-30 00:00:00": 37486998.0,
+      "2024-09-30 00:00:00": 42455078.0,
+      "2023-09-30 00:00:00": 37479872.0,
       "2022-09-30 00:00:00": 35755078.0,
-      "2021-09-30 00:00:00": 35755078.0
+      "2021-09-30 00:00:00": null
     },
     "Diluted EPS": {
       "2025-09-30 00:00:00": -5.34,
@@ -145,10 +145,10 @@
     },
     "Basic EPS": {
       "2025-09-30 00:00:00": -5.34,
-      "2024-09-30 00:00:00": null,
+      "2024-09-30 00:00:00": -22.21,
       "2023-09-30 00:00:00": -13.69,
       "2022-09-30 00:00:00": 1.54,
-      "2021-09-30 00:00:00": -33.09
+      "2021-09-30 00:00:00": null
     },
     "Diluted NI Availto Com Stockholders": {
       "2025-09-30 00:00:00": -226643000.0,
@@ -329,7 +329,7 @@
     },
     "Share Issued": {
       "2025-09-30 00:00:00": 42494478.0,
-      "2024-09-30 00:00:00": 42455078.0,
+      "2024-09-30 00:00:00": 42494478.0,
       "2023-09-30 00:00:00": 42494478.0,
       "2022-09-30 00:00:00": 35794478.0,
       "2021-09-30 00:00:00": null
@@ -1060,9 +1060,9 @@
     "maxAge": 86400,
     "priceHint": 2,
     "previousClose": 41.0,
-    "open": 38.0,
+    "open": 40.0,
     "dayLow": 39.0,
-    "dayHigh": 40.0,
+    "dayHigh": 41.0,
     "regularMarketPreviousClose": 41.0,
     "regularMarketOpen": 40.0,
     "regularMarketDayLow": 39.0,
@@ -1074,7 +1074,7 @@
     "averageVolume": 750727,
     "averageVolume10days": 3962730,
     "averageDailyVolume10Day": 3962730,
-    "bid": 40.0,
+    "bid": 0.0,
     "ask": 41.0,
     "bidSize": 0,
     "askSize": 0,
@@ -1138,8 +1138,10 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "shortName": "WEDGE HOLDINGS CO",
-    "longName": "Wedge Holdings CO.,LTD.",
+    "regularMarketChangePercent": 0.0,
+    "regularMarketPrice": 41.0,
+    "corporateActions": [],
+    "regularMarketTime": 1783665000,
     "exchange": "JPX",
     "messageBoardId": "finmb_9262055",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1147,21 +1149,9 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "marketState": "CLOSED",
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1075334400000,
-    "regularMarketChangePercent": 0.0,
-    "regularMarketPrice": 41.0,
-    "corporateActions": [],
-    "regularMarketTime": 1783665000,
-    "fiftyDayAverageChange": -2.0800018,
-    "fiftyDayAverageChangePercent": -0.048282307,
-    "twoHundredDayAverageChange": -17.615002,
-    "twoHundredDayAverageChangePercent": -0.30052036,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "prevName": "Wedge Holdings CO., LTD.",
-    "nameChangeDate": "2026-07-11",
+    "marketState": "PREPRE",
+    "shortName": "WEDGE HOLDINGS CO",
+    "longName": "Wedge Holdings CO.,LTD.",
     "cryptoTradeable": false,
     "regularMarketChange": 0.0,
     "regularMarketDayRange": "39.0 - 41.0",
@@ -1177,6 +1167,16 @@
     "earningsTimestampEnd": 1755504000,
     "isEarningsDateEstimate": true,
     "epsTrailingTwelveMonths": -13.95,
+    "fiftyDayAverageChange": -2.0800018,
+    "fiftyDayAverageChangePercent": -0.048282307,
+    "twoHundredDayAverageChange": -17.615002,
+    "twoHundredDayAverageChangePercent": -0.30052036,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "prevName": "Wedge Holdings CO., LTD.",
+    "nameChangeDate": "2026-07-12",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1075334400000,
     "trailingPegRatio": null
   }
 }

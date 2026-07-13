@@ -1,7 +1,7 @@
 {
   "ticker": "1718",
   "japanese_ticker": "1718.T",
-  "fetch_date": "2026-07-11T23:47:24.534719",
+  "fetch_date": "2026-07-12T23:45:31.327974",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-12-31 00:00:00": 12486210.0,
@@ -138,7 +138,7 @@
     },
     "Diluted EPS": {
       "2025-12-31 00:00:00": null,
-      "2024-12-31 00:00:00": null,
+      "2024-12-31 00:00:00": 602.24,
       "2023-12-31 00:00:00": 767.98,
       "2022-12-31 00:00:00": 672.07,
       "2021-12-31 00:00:00": 669.02
@@ -327,7 +327,7 @@
     },
     "Share Issued": {
       "2025-12-31 00:00:00": 1153263.0,
-      "2024-12-31 00:00:00": 1092961.0,
+      "2024-12-31 00:00:00": 1153263.0,
       "2023-12-31 00:00:00": 1153263.0,
       "2022-12-31 00:00:00": 1153263.0
     },
@@ -1052,7 +1052,7 @@
     "averageVolume": 1486,
     "averageVolume10days": 850,
     "averageDailyVolume10Day": 850,
-    "bid": 6900.0,
+    "bid": 0.0,
     "ask": 6940.0,
     "bidSize": 0,
     "askSize": 0,
@@ -1120,12 +1120,6 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "shortName": "MIKIKOGYO CO LTD",
-    "longName": "Mikikogyo Co., Ltd.",
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1067385600000,
-    "regularMarketChange": 0.0,
-    "regularMarketDayRange": "6940.0 - 6940.0",
     "fullExchangeName": "Tokyo",
     "averageDailyVolume3Month": 1486,
     "fiftyTwoWeekLowChange": 470.0,
@@ -1142,8 +1136,14 @@
     "fiftyDayAverageChangePercent": -0.0075222515,
     "twoHundredDayAverageChange": -906.2998,
     "twoHundredDayAverageChangePercent": -0.11550665,
-    "corporateActions": [],
-    "regularMarketTime": 1783655320,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1067385600000,
+    "regularMarketChange": 0.0,
+    "regularMarketDayRange": "6940.0 - 6940.0",
+    "marketState": "PREPRE",
     "exchange": "JPX",
     "messageBoardId": "finmb_5663631",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1153,10 +1153,10 @@
     "esgPopulated": false,
     "regularMarketChangePercent": 0.0,
     "regularMarketPrice": 6940.0,
-    "marketState": "CLOSED",
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
+    "shortName": "MIKIKOGYO CO LTD",
+    "longName": "Mikikogyo Co., Ltd.",
+    "corporateActions": [],
+    "regularMarketTime": 1783655320,
     "trailingPegRatio": null
   }
 }

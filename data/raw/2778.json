@@ -1,7 +1,7 @@
 {
   "ticker": "2778",
   "japanese_ticker": "2778.T",
-  "fetch_date": "2026-07-12T00:04:04.997902",
+  "fetch_date": "2026-07-12T23:57:33.772617",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-02-28 00:00:00": -51512400.0,
@@ -132,7 +132,7 @@
     "Basic Average Shares": {
       "2026-02-28 00:00:00": 12024157.0,
       "2025-02-28 00:00:00": 12026604.0,
-      "2024-02-29 00:00:00": 12026139.0,
+      "2024-02-29 00:00:00": 12027000.0,
       "2023-02-28 00:00:00": 12004000.0,
       "2022-02-28 00:00:00": null
     },
@@ -301,14 +301,14 @@
   "balance_sheet": {
     "Treasury Shares Number": {
       "2026-02-28 00:00:00": 79286.0,
-      "2025-02-28 00:00:00": null,
+      "2025-02-28 00:00:00": 24914.0,
       "2024-02-29 00:00:00": 24577.0,
       "2023-02-28 00:00:00": 24116.0,
-      "2022-02-28 00:00:00": 122755.0
+      "2022-02-28 00:00:00": null
     },
     "Ordinary Shares Number": {
       "2026-02-28 00:00:00": 11972098.0,
-      "2025-02-28 00:00:00": 12026576.0,
+      "2025-02-28 00:00:00": 12026470.0,
       "2024-02-29 00:00:00": 12026807.0,
       "2023-02-28 00:00:00": 12027268.0,
       "2022-02-28 00:00:00": null
@@ -1081,8 +1081,8 @@
     "maxAge": 86400,
     "priceHint": 2,
     "previousClose": 113.0,
-    "open": 112.0,
-    "dayLow": 112.0,
+    "open": 114.0,
+    "dayLow": 113.0,
     "dayHigh": 114.0,
     "regularMarketPreviousClose": 113.0,
     "regularMarketOpen": 114.0,
@@ -1098,7 +1098,7 @@
     "averageVolume": 58719,
     "averageVolume10days": 64530,
     "averageDailyVolume10Day": 64530,
-    "bid": 113.0,
+    "bid": 0.0,
     "ask": 114.0,
     "bidSize": 0,
     "askSize": 0,
@@ -1162,20 +1162,7 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "regularMarketChangePercent": 0.88495576,
-    "regularMarketPrice": 114.0,
-    "corporateActions": [],
-    "regularMarketTime": 1783665000,
-    "exchange": "JPX",
-    "messageBoardId": "finmb_5554868",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
-    "marketState": "CLOSED",
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1062115200000,
+    "marketState": "PREPRE",
     "regularMarketChange": 1.0,
     "regularMarketDayRange": "113.0 - 114.0",
     "fullExchangeName": "Tokyo",
@@ -1190,8 +1177,6 @@
     "earningsTimestampEnd": 1743143400,
     "isEarningsDateEstimate": false,
     "epsTrailingTwelveMonths": 1.47,
-    "shortName": "PALEMO HOLDINGS CO LTD",
-    "longName": "Palemo Holdings Co.,Ltd.",
     "fiftyDayAverageChange": 1.1200027,
     "fiftyDayAverageChangePercent": 0.009922066,
     "twoHundredDayAverageChange": -16.554993,
@@ -1199,6 +1184,21 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1062115200000,
+    "shortName": "PALEMO HOLDINGS CO LTD",
+    "longName": "Palemo Holdings Co.,Ltd.",
+    "corporateActions": [],
+    "regularMarketTime": 1783665000,
+    "exchange": "JPX",
+    "messageBoardId": "finmb_5554868",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
+    "regularMarketChangePercent": 0.88495576,
+    "regularMarketPrice": 114.0,
     "trailingPegRatio": null
   }
 }

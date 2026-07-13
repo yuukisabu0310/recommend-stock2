@@ -1,7 +1,7 @@
 {
   "ticker": "3010",
   "japanese_ticker": "3010.T",
-  "fetch_date": "2026-07-12T00:07:22.538396",
+  "fetch_date": "2026-07-13T00:00:34.006045",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": -10151600.0,
@@ -1179,6 +1179,33 @@
         "yearBorn": 1970,
         "exercisedValue": 0,
         "unexercisedValue": 0
+      },
+      {
+        "maxAge": 1,
+        "name": "Mr. Ryosuke  Miyamori",
+        "age": 50,
+        "title": "GM of Administrative Division",
+        "yearBorn": 1975,
+        "exercisedValue": 0,
+        "unexercisedValue": 0
+      },
+      {
+        "maxAge": 1,
+        "name": "Mr. Takahiro  Tsujikawa",
+        "age": 48,
+        "title": "Head of Development & Director",
+        "yearBorn": 1977,
+        "exercisedValue": 0,
+        "unexercisedValue": 0
+      },
+      {
+        "maxAge": 1,
+        "name": "Mr. Kentaro  Tawara",
+        "age": 59,
+        "title": "Head of Corporate Planning & Director",
+        "yearBorn": 1966,
+        "exercisedValue": 0,
+        "unexercisedValue": 0
       }
     ],
     "irWebsite": "http://www.kachikaihatsu.co.jp/asp/ir_top.asp",
@@ -1205,8 +1232,8 @@
     "averageVolume": 236072,
     "averageVolume10days": 261250,
     "averageDailyVolume10Day": 261250,
-    "bid": 198.0,
-    "ask": 200.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 46548672512,
@@ -1248,8 +1275,7 @@
     "lastDividendDate": 1806364800,
     "quoteType": "EQUITY",
     "currentPrice": 199.0,
-    "recommendationMean": 0.0,
-    "recommendationKey": "strong_buy",
+    "recommendationKey": "none",
     "totalCash": 7514999808,
     "totalCashPerShare": 32.127,
     "ebitda": 7091999744,
@@ -1277,7 +1303,10 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "marketState": "CLOSED",
+    "shortName": "POLARIS HOLDINGS CO LTD",
+    "longName": "Polaris Holdings Co., Ltd.",
+    "marketState": "REGULAR",
+    "cryptoTradeable": false,
     "corporateActions": [],
     "regularMarketTime": 1783665000,
     "exchange": "JPX",
@@ -1287,8 +1316,11 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "shortName": "POLARIS HOLDINGS CO LTD",
-    "longName": "Polaris Holdings Co., Ltd.",
+    "regularMarketChangePercent": 0.0,
+    "regularMarketPrice": 199.0,
+    "regularMarketChange": 0.0,
+    "regularMarketDayRange": "198.0 - 200.0",
+    "fullExchangeName": "Tokyo",
     "averageDailyVolume3Month": 236072,
     "fiftyTwoWeekLowChange": 38.0,
     "fiftyTwoWeekLowChangePercent": 0.23602484,
@@ -1308,16 +1340,9 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "prevName": "KachikaiHatsu Co., Ltd.",
-    "nameChangeDate": "2026-07-11",
-    "averageAnalystRating": "0.0 - Strong Buy",
-    "cryptoTradeable": false,
+    "nameChangeDate": "2026-07-12",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 978566400000,
-    "regularMarketChange": 0.0,
-    "regularMarketDayRange": "198.0 - 200.0",
-    "fullExchangeName": "Tokyo",
-    "regularMarketChangePercent": 0.0,
-    "regularMarketPrice": 199.0,
     "trailingPegRatio": null
   }
 }

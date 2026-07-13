@@ -1,7 +1,7 @@
 {
   "ticker": "2415",
   "japanese_ticker": "2415.T",
-  "fetch_date": "2026-07-11T23:59:25.019048",
+  "fetch_date": "2026-07-12T23:53:45.788964",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": -160086753.320689,
@@ -125,14 +125,14 @@
     "Diluted Average Shares": {
       "2026-03-31 00:00:00": 10377786.0,
       "2025-03-31 00:00:00": 10377974.0,
-      "2024-03-31 00:00:00": 10670386.0,
+      "2024-03-31 00:00:00": 10670349.0,
       "2023-03-31 00:00:00": 10877999.0,
       "2022-03-31 00:00:00": null
     },
     "Basic Average Shares": {
       "2026-03-31 00:00:00": null,
       "2025-03-31 00:00:00": 10377974.0,
-      "2024-03-31 00:00:00": 10670386.0,
+      "2024-03-31 00:00:00": 10670349.0,
       "2023-03-31 00:00:00": 10877999.0,
       "2022-03-31 00:00:00": 10877999.0
     },
@@ -315,7 +315,7 @@
     },
     "Share Issued": {
       "2026-03-31 00:00:00": 10377999.0,
-      "2025-03-31 00:00:00": 10377962.0,
+      "2025-03-31 00:00:00": 10377999.0,
       "2024-03-31 00:00:00": 10377999.0,
       "2023-03-31 00:00:00": 10987200.0,
       "2022-03-31 00:00:00": null
@@ -1176,7 +1176,7 @@
     "maxAge": 86400,
     "priceHint": 2,
     "previousClose": 1570.0,
-    "open": 1571.0,
+    "open": 1572.0,
     "dayLow": 1568.0,
     "dayHigh": 1578.0,
     "regularMarketPreviousClose": 1570.0,
@@ -1196,7 +1196,7 @@
     "averageVolume": 9072,
     "averageVolume10days": 2230,
     "averageDailyVolume10Day": 2230,
-    "bid": 1567.0,
+    "bid": 0.0,
     "ask": 1576.0,
     "bidSize": 0,
     "askSize": 0,
@@ -1269,12 +1269,6 @@
     "customPriceAlertConfidence": "LOW",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1097107200000,
-    "marketState": "CLOSED",
-    "corporateActions": [],
-    "regularMarketTime": 1783664667,
-    "shortName": "HUMAN HLDGS CO.LTD",
-    "longName": "Human Holdings Co., Ltd.",
-    "cryptoTradeable": false,
     "regularMarketChange": 6.0,
     "regularMarketDayRange": "1568.0 - 1578.0",
     "fullExchangeName": "Tokyo",
@@ -1296,6 +1290,7 @@
     "twoHundredDayAverageChangePercent": -0.12280458,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
+    "marketState": "PREPRE",
     "exchange": "JPX",
     "messageBoardId": "finmb_11518917",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1303,8 +1298,13 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
+    "corporateActions": [],
+    "regularMarketTime": 1783664667,
     "regularMarketChangePercent": 0.3821656,
     "regularMarketPrice": 1576.0,
+    "cryptoTradeable": false,
+    "shortName": "HUMAN HLDGS CO.LTD",
+    "longName": "Human Holdings Co., Ltd.",
     "trailingPegRatio": null
   }
 }

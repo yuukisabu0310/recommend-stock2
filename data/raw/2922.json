@@ -1,7 +1,7 @@
 {
   "ticker": "2922",
   "japanese_ticker": "2922.T",
-  "fetch_date": "2026-07-12T00:06:02.567530",
+  "fetch_date": "2026-07-12T23:59:22.627793",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": 9438546.959351,
@@ -1128,6 +1128,49 @@
       },
       {
         "maxAge": 1,
+        "name": "Atsushi  Yanagisawa",
+        "title": "Executive Officer and GM of Marketing & R&D",
+        "exercisedValue": 0,
+        "unexercisedValue": 0
+      },
+      {
+        "maxAge": 1,
+        "name": "Mr. Katsuomi  Machida",
+        "age": 56,
+        "title": "Executive Officer, General Manager of Human Resources Dep. & Director",
+        "yearBorn": 1969,
+        "exercisedValue": 0,
+        "unexercisedValue": 0
+      },
+      {
+        "maxAge": 1,
+        "name": "Mr. Tadashi  Yamagata",
+        "age": 68,
+        "title": "Executive Officer, GM of Food Safety Division & Director",
+        "yearBorn": 1957,
+        "exercisedValue": 0,
+        "unexercisedValue": 0
+      },
+      {
+        "maxAge": 1,
+        "name": "Mr. Satoru  Abe",
+        "age": 58,
+        "title": "Executive Officer, GM of Production Division & Director",
+        "yearBorn": 1967,
+        "exercisedValue": 0,
+        "unexercisedValue": 0
+      },
+      {
+        "maxAge": 1,
+        "name": "Mr. Koichiro  Natori",
+        "age": 44,
+        "title": "VP & Representative Director",
+        "yearBorn": 1981,
+        "exercisedValue": 0,
+        "unexercisedValue": 0
+      },
+      {
+        "maxAge": 1,
         "name": "Noriyuki  Tanaka",
         "title": "Executive Officer",
         "exercisedValue": 0,
@@ -1139,7 +1182,7 @@
     "maxAge": 86400,
     "priceHint": 2,
     "previousClose": 1971.0,
-    "open": 1986.0,
+    "open": 1971.0,
     "dayLow": 1971.0,
     "dayHigh": 1985.0,
     "regularMarketPreviousClose": 1971.0,
@@ -1159,8 +1202,8 @@
     "averageVolume": 17350,
     "averageVolume10days": 20700,
     "averageDailyVolume10Day": 20700,
-    "bid": 1976.0,
-    "ask": 1985.0,
+    "bid": 0.0,
+    "ask": 1971.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 24913256448,
@@ -1227,8 +1270,6 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "shortName": "NATORI CO LTD",
-    "longName": "Natori Co., Ltd.",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1000684800000,
     "regularMarketChange": 9.0,
@@ -1250,6 +1291,12 @@
     "fiftyDayAverageChangePercent": 0.04157901,
     "twoHundredDayAverageChange": 57.30005,
     "twoHundredDayAverageChangePercent": 0.029801868,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "averageAnalystRating": "0.0 - Strong Buy",
+    "cryptoTradeable": false,
+    "shortName": "NATORI CO LTD",
+    "longName": "Natori Co., Ltd.",
     "corporateActions": [],
     "regularMarketTime": 1783665000,
     "exchange": "JPX",
@@ -1261,11 +1308,7 @@
     "esgPopulated": false,
     "regularMarketChangePercent": 0.456621,
     "regularMarketPrice": 1980.0,
-    "marketState": "CLOSED",
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "averageAnalystRating": "0.0 - Strong Buy",
-    "cryptoTradeable": false,
+    "marketState": "PREPRE",
     "trailingPegRatio": null
   }
 }

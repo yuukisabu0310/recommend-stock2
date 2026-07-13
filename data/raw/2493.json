@@ -1,19 +1,19 @@
 {
   "ticker": "2493",
   "japanese_ticker": "2493.T",
-  "fetch_date": "2026-07-12T00:00:38.659701",
+  "fetch_date": "2026-07-12T23:54:54.678504",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-11-30 00:00:00": -11137392.0,
       "2024-11-30 00:00:00": -2468136.0,
-      "2023-11-30 00:00:00": -6228921.710616,
+      "2023-11-30 00:00:00": -6222040.0,
       "2022-11-30 00:00:00": -23038992.0,
       "2021-11-30 00:00:00": null
     },
     "Tax Rate For Calcs": {
       "2025-11-30 00:00:00": 0.232,
       "2024-11-30 00:00:00": 0.066,
-      "2023-11-30 00:00:00": 0.358396,
+      "2023-11-30 00:00:00": 0.358,
       "2022-11-30 00:00:00": 0.232,
       "2021-11-30 00:00:00": null
     },
@@ -1163,7 +1163,7 @@
     "maxAge": 86400,
     "priceHint": 2,
     "previousClose": 955.0,
-    "open": 954.0,
+    "open": 956.0,
     "dayLow": 947.0,
     "dayHigh": 956.0,
     "regularMarketPreviousClose": 955.0,
@@ -1182,8 +1182,8 @@
     "averageVolume": 13781,
     "averageVolume10days": 17950,
     "averageDailyVolume10Day": 17950,
-    "bid": 948.0,
-    "ask": 954.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "marketCap": 4194386176,
     "nonDilutedMarketCap": 4194386184,
     "fiftyTwoWeekLow": 897.0,
@@ -1250,9 +1250,6 @@
     "customPriceAlertConfidence": "LOW",
     "regularMarketChangePercent": -0.7329843,
     "regularMarketPrice": 948.0,
-    "shortName": "E SUPPORTLINK LTD",
-    "longName": "E-SUPPORTLINK, Ltd.",
-    "marketState": "CLOSED",
     "corporateActions": [],
     "regularMarketTime": 1783665000,
     "exchange": "JPX",
@@ -1262,8 +1259,10 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1155168000000,
+    "marketState": "PREPRE",
+    "shortName": "E SUPPORTLINK LTD",
+    "longName": "E-SUPPORTLINK, Ltd.",
+    "cryptoTradeable": false,
     "regularMarketChange": -7.0,
     "regularMarketDayRange": "947.0 - 956.0",
     "fullExchangeName": "Tokyo",
@@ -1286,7 +1285,8 @@
     "twoHundredDayAverageChangePercent": -0.019212274,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1155168000000,
     "trailingPegRatio": null
   }
 }

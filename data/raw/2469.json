@@ -1,7 +1,7 @@
 {
   "ticker": "2469",
   "japanese_ticker": "2469.T",
-  "fetch_date": "2026-07-12T00:00:08.197629",
+  "fetch_date": "2026-07-12T23:54:26.701959",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": -38455200.0,
@@ -314,7 +314,7 @@
     },
     "Ordinary Shares Number": {
       "2026-03-31 00:00:00": 9915158.0,
-      "2025-03-31 00:00:00": 9934357.0,
+      "2025-03-31 00:00:00": 9934307.0,
       "2024-03-31 00:00:00": 9922759.0,
       "2023-03-31 00:00:00": 9922793.0
     },
@@ -1138,13 +1138,100 @@
     "sectorDisp": "Technology",
     "longBusinessSummary": "Hibino Corporation, together with its subsidiaries, designs, sells, installs, and maintains audio equipment in Japan and internationally. The company also imports, sells, and designs sound system equipment; designs and installs architectural acoustics; develops, manufactures, and sells acoustic products; and provides sound and vibration, survey, and measurement consulting services. In addition, it plans, operates, and rents audio and video systems for concerts and events; dispatches operators and engineers related to audio and video equipment and systems; designs, sells, installs, and maintains lighting equipment for business use; and designs and installs industrial noise countermeasures. Further, the company develops, manufactures, and sells industrial noise control products; operates a live house under the Kennedy House Ginza name and a live music club; and sells LED displays and peripheral equipment. It primarily serves professionals and consumers, as well as movie theaters and halls. Hibino Corporation was formerly known as Hibino Electro Sound Inc. and changed its name to Hibino Corporation. The company was founded in 1964 and is headquartered in Tokyo, Japan.",
     "fullTimeEmployees": 1829,
-    "companyOfficers": [],
+    "companyOfficers": [
+      {
+        "maxAge": 1,
+        "name": "Mr. Teruhisa  Hibino",
+        "age": 63,
+        "title": "Chairman & CEO",
+        "yearBorn": 1962,
+        "exercisedValue": 0,
+        "unexercisedValue": 0
+      },
+      {
+        "maxAge": 1,
+        "name": "Mr. Satoshi  Yoshimatsu",
+        "age": 64,
+        "title": "President, COO & Representative Director",
+        "yearBorn": 1961,
+        "exercisedValue": 0,
+        "unexercisedValue": 0
+      },
+      {
+        "maxAge": 1,
+        "name": "Mr. Hiroaki  Hibino",
+        "age": 91,
+        "title": "Honorary Chairman & Founder",
+        "yearBorn": 1934,
+        "exercisedValue": 0,
+        "unexercisedValue": 0
+      },
+      {
+        "maxAge": 1,
+        "name": "Hirofumi  Mio",
+        "title": "Senior Executive Officer & GM of Sales Division",
+        "exercisedValue": 0,
+        "unexercisedValue": 0
+      },
+      {
+        "maxAge": 1,
+        "name": "Mr. Ryoichi  Hashimoto",
+        "age": 75,
+        "title": "Managing Executive Officer",
+        "yearBorn": 1950,
+        "exercisedValue": 0,
+        "unexercisedValue": 0
+      },
+      {
+        "maxAge": 1,
+        "name": "Mr. Junichi  Imokawa",
+        "age": 56,
+        "title": "Managing Executive Officer & Director",
+        "yearBorn": 1969,
+        "exercisedValue": 0,
+        "unexercisedValue": 0
+      },
+      {
+        "maxAge": 1,
+        "name": "Mr. Chikayuki  Hisano",
+        "age": 61,
+        "title": "Managing Executive Officer & Director",
+        "yearBorn": 1964,
+        "exercisedValue": 0,
+        "unexercisedValue": 0
+      },
+      {
+        "maxAge": 1,
+        "name": "Mr. Takashi  Izawa",
+        "age": 61,
+        "title": "Managing Executive Officer & Director",
+        "yearBorn": 1964,
+        "exercisedValue": 0,
+        "unexercisedValue": 0
+      },
+      {
+        "maxAge": 1,
+        "name": "Mr. Yoshihiro  Takano",
+        "age": 59,
+        "title": "Managing Executive Officer & Director",
+        "yearBorn": 1966,
+        "exercisedValue": 0,
+        "unexercisedValue": 0
+      },
+      {
+        "maxAge": 1,
+        "name": "Toshiki  Yasuda",
+        "title": "Senior Executive Officer",
+        "exercisedValue": 0,
+        "unexercisedValue": 0
+      }
+    ],
     "irWebsite": "http://www.hibino.co.jp/gmc/ir/library.html",
     "executiveTeam": [],
     "maxAge": 86400,
     "priceHint": 2,
     "previousClose": 2700.0,
-    "open": 2728.0,
+    "open": 2710.0,
     "dayLow": 2710.0,
     "dayHigh": 2759.0,
     "regularMarketPreviousClose": 2700.0,
@@ -1164,8 +1251,8 @@
     "averageVolume": 30454,
     "averageVolume10days": 12450,
     "averageDailyVolume10Day": 12450,
-    "bid": 2738.0,
-    "ask": 2745.0,
+    "bid": 0.0,
+    "ask": 2802.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 27157618688,
@@ -1177,8 +1264,8 @@
     "priceToSalesTrailing12Months": 0.40172207,
     "fiftyDayAverage": 2868.98,
     "twoHundredDayAverage": 3085.53,
-    "trailingAnnualDividendRate": 0.0,
-    "trailingAnnualDividendYield": 0.0,
+    "trailingAnnualDividendRate": 85.0,
+    "trailingAnnualDividendYield": 0.031481482,
     "currency": "JPY",
     "tradeable": false,
     "enterpriseValue": 39698436096,
@@ -1237,8 +1324,21 @@
     "customPriceAlertConfidence": "LOW",
     "corporateActions": [],
     "regularMarketTime": 1783665000,
+    "exchange": "JPX",
+    "messageBoardId": "finmb_5777393",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
+    "regularMarketChangePercent": 1.4444444,
+    "regularMarketPrice": 2739.0,
+    "shortName": "HIBINO CORPORATION COM STK",
+    "longName": "Hibino Corporation",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1138838400000,
+    "marketState": "PREPRE",
+    "cryptoTradeable": false,
     "regularMarketChange": 39.0,
     "regularMarketDayRange": "2710.0 - 2759.0",
     "fullExchangeName": "Tokyo",
@@ -1252,18 +1352,6 @@
     "earningsTimestampStart": 1747204200,
     "earningsTimestampEnd": 1747204200,
     "isEarningsDateEstimate": false,
-    "exchange": "JPX",
-    "messageBoardId": "finmb_5777393",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
-    "regularMarketPrice": 2739.0,
-    "regularMarketChangePercent": 1.4444444,
-    "shortName": "HIBINO CORPORATION COM STK",
-    "longName": "Hibino Corporation",
-    "marketState": "CLOSED",
     "epsTrailingTwelveMonths": 307.86,
     "epsForward": 317.1,
     "fiftyDayAverageChange": -129.97998,
@@ -1272,7 +1360,6 @@
     "twoHundredDayAverageChangePercent": -0.11230811,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
     "trailingPegRatio": null
   }
 }

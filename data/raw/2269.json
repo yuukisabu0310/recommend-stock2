@@ -1,7 +1,7 @@
 {
   "ticker": "2269",
   "japanese_ticker": "2269.T",
-  "fetch_date": "2026-07-11T23:56:05.668621",
+  "fetch_date": "2026-07-12T23:51:39.939348",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": -11412000000.0,
@@ -1168,16 +1168,6 @@
       },
       {
         "maxAge": 1,
-        "name": "Mr. Jun  Furuta",
-        "age": 68,
-        "title": "Executive VP, Chief Digital Officer & Director",
-        "yearBorn": 1957,
-        "fiscalYear": 2026,
-        "exercisedValue": 0,
-        "unexercisedValue": 0
-      },
-      {
-        "maxAge": 1,
         "name": "Mr. Shinji  Matsuoka",
         "age": 65,
         "title": "Managing Executive Officer, CSO & Head of Sustainable Promotion Dept.",
@@ -1215,6 +1205,14 @@
         "fiscalYear": 2026,
         "exercisedValue": 0,
         "unexercisedValue": 0
+      },
+      {
+        "maxAge": 1,
+        "name": "Koshi  Sakamoto",
+        "title": "General Manager of Intellectual Property Strategy Dept.",
+        "fiscalYear": 2026,
+        "exercisedValue": 0,
+        "unexercisedValue": 0
       }
     ],
     "auditRisk": 4,
@@ -1229,7 +1227,7 @@
     "maxAge": 86400,
     "priceHint": 2,
     "previousClose": 3844.0,
-    "open": 3896.0,
+    "open": 3844.0,
     "dayLow": 3745.0,
     "dayHigh": 3848.0,
     "regularMarketPreviousClose": 3844.0,
@@ -1249,8 +1247,8 @@
     "averageVolume": 994737,
     "averageVolume10days": 838870,
     "averageDailyVolume10Day": 838870,
-    "bid": 3770.0,
-    "ask": 3772.0,
+    "bid": 0.0,
+    "ask": 3812.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 1022325489664,
@@ -1281,7 +1279,7 @@
     "netIncomeToCommon": 35076001792,
     "trailingEps": 129.35,
     "forwardEps": 209.4,
-    "pegRatio": 0.94,
+    "pegRatio": 0.92,
     "lastSplitFactor": "2:1",
     "lastSplitDate": 1680134400,
     "enterpriseToRevenue": 0.946,
@@ -1325,7 +1323,6 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "marketState": "CLOSED",
     "corporateActions": [],
     "regularMarketTime": 1783665000,
     "exchange": "JPX",
@@ -1335,13 +1332,8 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 946944000000,
-    "regularMarketChange": -73.0,
-    "regularMarketDayRange": "3745.0 - 3848.0",
-    "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 994737,
-    "fiftyTwoWeekLowChange": 864.0,
+    "regularMarketChangePercent": -1.8990633,
+    "regularMarketPrice": 3771.0,
     "fiftyTwoWeekLowChangePercent": 0.2972136,
     "fiftyTwoWeekRange": "2907.0 - 4077.0",
     "fiftyTwoWeekHighChange": -306.0,
@@ -1365,8 +1357,14 @@
     "cryptoTradeable": false,
     "shortName": "MEIJI HOLDINGS CO LTD",
     "longName": "Meiji Holdings Co., Ltd.",
-    "regularMarketChangePercent": -1.8990633,
-    "regularMarketPrice": 3771.0,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 946944000000,
+    "regularMarketChange": -73.0,
+    "regularMarketDayRange": "3745.0 - 3848.0",
+    "fullExchangeName": "Tokyo",
+    "averageDailyVolume3Month": 994737,
+    "fiftyTwoWeekLowChange": 864.0,
+    "marketState": "PREPRE",
     "trailingPegRatio": 0.9173
   }
 }

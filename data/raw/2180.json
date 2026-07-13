@@ -1,7 +1,7 @@
 {
   "ticker": "2180",
   "japanese_ticker": "2180.T",
-  "fetch_date": "2026-07-11T23:55:02.469233",
+  "fetch_date": "2026-07-12T23:50:39.582428",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-06-30 00:00:00": null,
@@ -119,7 +119,7 @@
     },
     "Diluted EPS": {
       "2025-06-30 00:00:00": 63.58,
-      "2024-06-30 00:00:00": null,
+      "2024-06-30 00:00:00": 53.23,
       "2023-06-30 00:00:00": 59.28,
       "2022-06-30 00:00:00": 38.58
     },
@@ -897,6 +897,41 @@
         "yearBorn": 1966,
         "exercisedValue": 0,
         "unexercisedValue": 0
+      },
+      {
+        "maxAge": 1,
+        "name": "Takaya  Otake",
+        "title": "Executive Officer of Group Administration & Management",
+        "exercisedValue": 0,
+        "unexercisedValue": 0
+      },
+      {
+        "maxAge": 1,
+        "name": "Mr. Shinya  Kobayashi",
+        "title": "Senior Managing Executive Officer of Group Management Strategy",
+        "exercisedValue": 0,
+        "unexercisedValue": 0
+      },
+      {
+        "maxAge": 1,
+        "name": "Masato  Kokubo",
+        "title": "Executive Officer of Enhancement of Group Synergies, Food Marketing & Brand Communications",
+        "exercisedValue": 0,
+        "unexercisedValue": 0
+      },
+      {
+        "maxAge": 1,
+        "name": "Hidetoshi  Nakata",
+        "title": "Executive Officer of Regional Revitalization & Business Support for Japanese and Global Companies",
+        "exercisedValue": 0,
+        "unexercisedValue": 0
+      },
+      {
+        "maxAge": 1,
+        "name": "Emi  Tanimura",
+        "title": "Executive Officer of President's Office",
+        "exercisedValue": 0,
+        "unexercisedValue": 0
       }
     ],
     "irWebsite": "http://www.ssu.co.jp/ir/index.html",
@@ -905,8 +940,8 @@
     "priceHint": 2,
     "previousClose": 1307.0,
     "open": 1307.0,
-    "dayLow": 1306.0,
-    "dayHigh": 1308.0,
+    "dayLow": 1307.0,
+    "dayHigh": 1309.0,
     "regularMarketPreviousClose": 1307.0,
     "regularMarketOpen": 1307.0,
     "regularMarketDayLow": 1307.0,
@@ -923,8 +958,8 @@
     "averageVolume": 88981,
     "averageVolume10days": 24820,
     "averageDailyVolume10Day": 24820,
-    "bid": 1307.0,
-    "ask": 1309.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 19388049408,
@@ -991,14 +1026,9 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "regularMarketChangePercent": 0.15302218,
-    "regularMarketPrice": 1309.0,
-    "shortName": "SUNNY SIDE UP GROUP INC",
-    "longName": "SUNNY SIDE UP GROUP Inc.",
-    "marketState": "CLOSED",
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
+    "longName": "SUNNY SIDE UP GROUP Inc.",
+    "shortName": "SUNNY SIDE UP GROUP INC",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1220572800000,
     "regularMarketChange": 2.0,
@@ -1019,7 +1049,10 @@
     "fiftyDayAverageChangePercent": 0.03496258,
     "twoHundredDayAverageChange": 338.69,
     "twoHundredDayAverageChangePercent": 0.3490534,
-    "corporateActions": [],
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "regularMarketChangePercent": 0.15302218,
+    "regularMarketPrice": 1309.0,
     "regularMarketTime": 1783665000,
     "exchange": "JPX",
     "messageBoardId": "finmb_47318901",
@@ -1028,6 +1061,8 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
+    "marketState": "PREPRE",
+    "corporateActions": [],
     "trailingPegRatio": null
   }
 }

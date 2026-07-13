@@ -1,7 +1,7 @@
 {
   "ticker": "1878",
   "japanese_ticker": "1878.T",
-  "fetch_date": "2026-07-11T23:50:30.482437",
+  "fetch_date": "2026-07-12T23:47:25.674641",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": -178980000.0,
@@ -1179,6 +1179,48 @@
         "fiscalYear": 2025,
         "exercisedValue": 0,
         "unexercisedValue": 0
+      },
+      {
+        "maxAge": 1,
+        "name": "Hiroshi  Shiomi",
+        "title": "Sr., Executive Officer, Head of HR Mgmt Div., & GM of Corporate Planning Division",
+        "fiscalYear": 2025,
+        "exercisedValue": 0,
+        "unexercisedValue": 0
+      },
+      {
+        "maxAge": 1,
+        "name": "Takashi  Suzuki",
+        "title": "Senior Executive Officer & General Manager of Real Estate Distribution Headquarter",
+        "fiscalYear": 2025,
+        "exercisedValue": 0,
+        "unexercisedValue": 0
+      },
+      {
+        "maxAge": 1,
+        "name": "Eiji  Okamoto",
+        "title": "Senior Executive Officer & GM of West Japan Construction Business Headquarter",
+        "fiscalYear": 2025,
+        "exercisedValue": 0,
+        "unexercisedValue": 0
+      },
+      {
+        "maxAge": 1,
+        "name": "Eiji  Kawahara",
+        "title": "Senior Executive Officer",
+        "fiscalYear": 2025,
+        "exercisedValue": 0,
+        "unexercisedValue": 0
+      },
+      {
+        "maxAge": 1,
+        "name": "Mr. Masafumi  Tate",
+        "age": 57,
+        "title": "Senior Executive Officer",
+        "yearBorn": 1968,
+        "fiscalYear": 2025,
+        "exercisedValue": 0,
+        "unexercisedValue": 0
       }
     ],
     "auditRisk": 1,
@@ -1213,8 +1255,8 @@
     "averageVolume": 1719986,
     "averageVolume10days": 1630860,
     "averageDailyVolume10Day": 1630860,
-    "bid": 3160.0,
-    "ask": 3161.0,
+    "bid": 3151.0,
+    "ask": 3152.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 1028655022080,
@@ -1291,15 +1333,24 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "shortName": "DAITO TRUST CONSTRUCTION CO",
     "longName": "Daito Trust Construction Co.,Ltd.",
-    "marketState": "CLOSED",
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
     "averageAnalystRating": "2.9 - Hold",
     "cryptoTradeable": false,
+    "shortName": "DAITO TRUST CONSTRUCTION CO",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 978307200000,
+    "marketState": "PREPRE",
+    "corporateActions": [],
+    "regularMarketTime": 1783665000,
+    "exchange": "JPX",
+    "messageBoardId": "finmb_880828",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
+    "regularMarketChangePercent": -0.1263823,
+    "regularMarketPrice": 3161.0,
     "regularMarketChange": -4.0,
     "regularMarketDayRange": "3146.0 - 3179.0",
     "fullExchangeName": "Tokyo",
@@ -1322,17 +1373,8 @@
     "fiftyDayAverageChangePercent": -0.012523886,
     "twoHundredDayAverageChange": -67.42505,
     "twoHundredDayAverageChangePercent": -0.020884812,
-    "corporateActions": [],
-    "regularMarketTime": 1783665000,
-    "exchange": "JPX",
-    "messageBoardId": "finmb_880828",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
-    "regularMarketChangePercent": -0.1263823,
-    "regularMarketPrice": 3161.0,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
     "trailingPegRatio": null
   }
 }

@@ -1,7 +1,7 @@
 {
   "ticker": "2296",
   "japanese_ticker": "2296.T",
-  "fetch_date": "2026-07-11T23:56:57.664672",
+  "fetch_date": "2026-07-12T23:51:58.968699",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": -205670000.0,
@@ -1240,8 +1240,8 @@
     "maxAge": 86400,
     "priceHint": 2,
     "previousClose": 4870.0,
-    "open": 4925.0,
-    "dayLow": 4815.0,
+    "open": 4860.0,
+    "dayLow": 4810.0,
     "dayHigh": 4865.0,
     "regularMarketPreviousClose": 4870.0,
     "regularMarketOpen": 4860.0,
@@ -1260,8 +1260,8 @@
     "averageVolume": 197780,
     "averageVolume10days": 172100,
     "averageDailyVolume10Day": 172100,
-    "bid": 4820.0,
-    "ask": 4835.0,
+    "bid": 0.0,
+    "ask": 4805.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 273537761280,
@@ -1348,9 +1348,10 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "marketState": "CLOSED",
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1459468800000,
+    "marketState": "PREPRE",
+    "shortName": "ITOHAM YONEKYU HOLDINGS INC",
+    "longName": "Itoham Yonekyu Holdings Inc.",
+    "cryptoTradeable": false,
     "regularMarketChange": -50.0,
     "regularMarketDayRange": "4810.0 - 4865.0",
     "fullExchangeName": "Tokyo",
@@ -1369,8 +1370,6 @@
     "isEarningsDateEstimate": false,
     "epsTrailingTwelveMonths": 356.2,
     "epsForward": 281.81,
-    "shortName": "ITOHAM YONEKYU HOLDINGS INC",
-    "longName": "Itoham Yonekyu Holdings Inc.",
     "fiftyDayAverageChange": -13.100098,
     "fiftyDayAverageChangePercent": -0.0027104958,
     "twoHundredDayAverageChange": -708.3252,
@@ -1378,7 +1377,8 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "averageAnalystRating": "3.7 - Underperform",
-    "cryptoTradeable": false,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1459468800000,
     "trailingPegRatio": null
   }
 }

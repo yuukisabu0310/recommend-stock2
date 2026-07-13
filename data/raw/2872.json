@@ -1,7 +1,7 @@
 {
   "ticker": "2872",
   "japanese_ticker": "2872.T",
-  "fetch_date": "2026-07-12T00:05:10.757996",
+  "fetch_date": "2026-07-12T23:58:32.844940",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-02-28 00:00:00": 3818400.0,
@@ -132,14 +132,14 @@
     "Diluted Average Shares": {
       "2026-02-28 00:00:00": 1400043.0,
       "2025-02-28 00:00:00": null,
-      "2024-02-29 00:00:00": 1537222.0,
+      "2024-02-29 00:00:00": 1537182.0,
       "2023-02-28 00:00:00": 1493376.0,
       "2022-02-28 00:00:00": 1226388.0
     },
     "Basic Average Shares": {
       "2026-02-28 00:00:00": null,
       "2025-02-28 00:00:00": null,
-      "2024-02-29 00:00:00": 1537222.0,
+      "2024-02-29 00:00:00": 1537182.0,
       "2023-02-28 00:00:00": 1493376.0,
       "2022-02-28 00:00:00": 1226388.0
     },
@@ -371,14 +371,14 @@
     },
     "Ordinary Shares Number": {
       "2026-02-28 00:00:00": 1403395.0,
-      "2025-02-28 00:00:00": 1395395.0,
+      "2025-02-28 00:00:00": 1394795.0,
       "2024-02-29 00:00:00": 1393918.0,
       "2023-02-28 00:00:00": 1548954.0,
       "2022-02-28 00:00:00": null
     },
     "Share Issued": {
       "2026-02-28 00:00:00": 1620993.0,
-      "2025-02-28 00:00:00": 1395395.0,
+      "2025-02-28 00:00:00": 1620993.0,
       "2024-02-29 00:00:00": 1620993.0,
       "2023-02-28 00:00:00": 1620243.0,
       "2022-02-28 00:00:00": null
@@ -554,7 +554,7 @@
     "Long Term Debt": {
       "2026-02-28 00:00:00": 429990000.0,
       "2025-02-28 00:00:00": 80000000.0,
-      "2024-02-29 00:00:00": null,
+      "2024-02-29 00:00:00": 0.0,
       "2023-02-28 00:00:00": null,
       "2022-02-28 00:00:00": null
     },
@@ -722,9 +722,9 @@
     "Construction In Progress": {
       "2026-02-28 00:00:00": 41140000.0,
       "2025-02-28 00:00:00": 935000.0,
-      "2024-02-29 00:00:00": null,
+      "2024-02-29 00:00:00": 0.0,
       "2023-02-28 00:00:00": 0.0,
-      "2022-02-28 00:00:00": 30184000.0
+      "2022-02-28 00:00:00": null
     },
     "Other Properties": {
       "2026-02-28 00:00:00": 393742000.0,
@@ -871,7 +871,7 @@
     "Issuance Of Debt": {
       "2026-02-28 00:00:00": 500000000.0,
       "2025-02-28 00:00:00": 100000000.0,
-      "2024-02-29 00:00:00": null,
+      "2024-02-29 00:00:00": 0.0,
       "2023-02-28 00:00:00": null,
       "2022-02-28 00:00:00": null
     },
@@ -976,7 +976,7 @@
     "Net Long Term Debt Issuance": {
       "2026-02-28 00:00:00": 449998000.0,
       "2025-02-28 00:00:00": 100000000.0,
-      "2024-02-29 00:00:00": null,
+      "2024-02-29 00:00:00": 0.0,
       "2023-02-28 00:00:00": null,
       "2022-02-28 00:00:00": null
     },
@@ -990,7 +990,7 @@
     "Long Term Debt Issuance": {
       "2026-02-28 00:00:00": 500000000.0,
       "2025-02-28 00:00:00": 100000000.0,
-      "2024-02-29 00:00:00": null,
+      "2024-02-29 00:00:00": 0.0,
       "2023-02-28 00:00:00": null,
       "2022-02-28 00:00:00": null
     },
@@ -1172,7 +1172,7 @@
     "Gain Loss On Sale Of PPE": {
       "2026-02-28 00:00:00": -19075000.0,
       "2025-02-28 00:00:00": -308000.0,
-      "2024-02-29 00:00:00": null,
+      "2024-02-29 00:00:00": 0.0,
       "2023-02-28 00:00:00": null,
       "2022-02-28 00:00:00": null
     },
@@ -1258,9 +1258,9 @@
     "maxAge": 86400,
     "priceHint": 2,
     "previousClose": 2003.0,
-    "open": 2000.0,
-    "dayLow": 2000.0,
-    "dayHigh": 2009.0,
+    "open": 2019.0,
+    "dayLow": 2004.0,
+    "dayHigh": 2019.0,
     "regularMarketPreviousClose": 2003.0,
     "regularMarketOpen": 2019.0,
     "regularMarketDayLow": 2004.0,
@@ -1277,7 +1277,7 @@
     "averageVolume": 2827,
     "averageVolume10days": 3460,
     "averageDailyVolume10Day": 3460,
-    "bid": 2004.0,
+    "bid": 0.0,
     "ask": 2010.0,
     "bidSize": 0,
     "askSize": 0,
@@ -1347,8 +1347,21 @@
     "customPriceAlertConfidence": "LOW",
     "corporateActions": [],
     "regularMarketTime": 1783665000,
+    "exchange": "JPX",
+    "messageBoardId": "finmb_884076",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
+    "regularMarketChangePercent": 0.14977533,
+    "regularMarketPrice": 2006.0,
+    "shortName": "SEIHYO CO LTD",
+    "longName": "Seihyo Co., Ltd.",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 980380800000,
+    "marketState": "PREPRE",
+    "cryptoTradeable": false,
     "regularMarketChange": 3.0,
     "regularMarketDayRange": "2004.0 - 2019.0",
     "fullExchangeName": "Tokyo",
@@ -1363,25 +1376,12 @@
     "earningsTimestampEnd": 1744354800,
     "isEarningsDateEstimate": false,
     "epsTrailingTwelveMonths": 8.22,
-    "marketState": "CLOSED",
-    "shortName": "SEIHYO CO LTD",
-    "longName": "Seihyo Co., Ltd.",
-    "exchange": "JPX",
-    "messageBoardId": "finmb_884076",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
-    "regularMarketChangePercent": 0.14977533,
-    "regularMarketPrice": 2006.0,
     "fiftyDayAverageChange": -103.95996,
     "fiftyDayAverageChangePercent": -0.04927106,
     "twoHundredDayAverageChange": -44.68994,
     "twoHundredDayAverageChangePercent": -0.021792637,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
     "trailingPegRatio": null
   }
 }

@@ -1,7 +1,7 @@
 {
   "ticker": "2705",
   "japanese_ticker": "2705.T",
-  "fetch_date": "2026-07-12T00:03:04.835015",
+  "fetch_date": "2026-07-12T23:56:40.092061",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": -23600000.0,
@@ -271,21 +271,21 @@
   "balance_sheet": {
     "Treasury Shares Number": {
       "2026-03-31 00:00:00": 5007.0,
-      "2025-03-31 00:00:00": null,
+      "2025-03-31 00:00:00": 4947.0,
       "2024-03-31 00:00:00": 4919.0,
       "2023-03-31 00:00:00": 9919.0,
-      "2022-03-31 00:00:00": 14873.0
+      "2022-03-31 00:00:00": null
     },
     "Ordinary Shares Number": {
       "2026-03-31 00:00:00": 7258293.0,
-      "2025-03-31 00:00:00": 7252381.0,
+      "2025-03-31 00:00:00": 7252353.0,
       "2024-03-31 00:00:00": 7246881.0,
       "2023-03-31 00:00:00": 7241881.0,
       "2022-03-31 00:00:00": null
     },
     "Share Issued": {
       "2026-03-31 00:00:00": 7263300.0,
-      "2025-03-31 00:00:00": 7252381.0,
+      "2025-03-31 00:00:00": 7257300.0,
       "2024-03-31 00:00:00": 7251800.0,
       "2023-03-31 00:00:00": 7251800.0,
       "2022-03-31 00:00:00": null
@@ -1100,13 +1100,32 @@
     "sectorDisp": "Consumer Cyclical",
     "longBusinessSummary": "OOTOYA Holdings Co., Ltd., together with its subsidiaries, plans, manages, and operates a chain of restaurants in Japan and internationally. Its restaurants offer set meals and boxed lunches. The company was founded in 1958 and is headquartered in Yokohama, Japan.",
     "fullTimeEmployees": 738,
-    "companyOfficers": [],
+    "companyOfficers": [
+      {
+        "maxAge": 1,
+        "name": "Mr. Tomohito  Mimori",
+        "age": 36,
+        "title": "President CEO & Director",
+        "yearBorn": 1989,
+        "exercisedValue": 0,
+        "unexercisedValue": 0
+      },
+      {
+        "maxAge": 1,
+        "name": "Mr. Jun  Hashizawa",
+        "age": 46,
+        "title": "Head of Business Management Headquarters",
+        "yearBorn": 1979,
+        "exercisedValue": 0,
+        "unexercisedValue": 0
+      }
+    ],
     "irWebsite": "http://www.ootoya.com/ir/index.html",
     "executiveTeam": [],
     "maxAge": 86400,
     "priceHint": 2,
     "previousClose": 8030.0,
-    "open": 7820.0,
+    "open": 7880.0,
     "dayLow": 7880.0,
     "dayHigh": 8040.0,
     "regularMarketPreviousClose": 8030.0,
@@ -1125,8 +1144,8 @@
     "averageVolume": 13034,
     "averageVolume10days": 8120,
     "averageDailyVolume10Day": 8120,
-    "bid": 8010.0,
-    "ask": 8050.0,
+    "bid": 0.0,
+    "ask": 8040.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 58356674560,
@@ -1144,7 +1163,7 @@
     "tradeable": false,
     "enterpriseValue": 55811674112,
     "profitMargins": 0.03331,
-    "floatShares": 3676325,
+    "floatShares": 3603089,
     "sharesOutstanding": 7258293,
     "heldPercentInsiders": 0.48751998,
     "heldPercentInstitutions": 0.00806,
@@ -1193,14 +1212,18 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "marketState": "PREPRE",
+    "exchange": "JPX",
+    "messageBoardId": "finmb_5854221",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
     "regularMarketChangePercent": 0.124533,
     "regularMarketPrice": 8040.0,
     "shortName": "OOTOYA HOLDINGS CO LTD",
     "longName": "OOTOYA Holdings Co., Ltd.",
-    "marketState": "CLOSED",
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 999216000000,
     "regularMarketChange": 10.0,
@@ -1221,15 +1244,11 @@
     "fiftyDayAverageChangePercent": 0.083879344,
     "twoHundredDayAverageChange": 1447.3501,
     "twoHundredDayAverageChangePercent": 0.21953996,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
     "corporateActions": [],
     "regularMarketTime": 1783665000,
-    "exchange": "JPX",
-    "messageBoardId": "finmb_5854221",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
     "trailingPegRatio": null
   }
 }

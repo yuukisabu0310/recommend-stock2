@@ -1,7 +1,7 @@
 {
   "ticker": "2903",
   "japanese_ticker": "2903.T",
-  "fetch_date": "2026-07-12T00:05:37.408024",
+  "fetch_date": "2026-07-12T23:58:58.700879",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": -7878000.0,
@@ -1090,7 +1090,7 @@
     "maxAge": 86400,
     "priceHint": 2,
     "previousClose": 1570.0,
-    "open": 1565.0,
+    "open": 1580.0,
     "dayLow": 1565.0,
     "dayHigh": 1594.0,
     "regularMarketPreviousClose": 1570.0,
@@ -1109,8 +1109,8 @@
     "averageVolume": 4759,
     "averageVolume10days": 2990,
     "averageDailyVolume10Day": 2990,
-    "bid": 1575.0,
-    "ask": 1612.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 16789193728,
@@ -1180,7 +1180,6 @@
     "regularMarketChange": -5.0,
     "regularMarketDayRange": "1565.0 - 1594.0",
     "fullExchangeName": "Tokyo",
-    "marketState": "CLOSED",
     "averageDailyVolume3Month": 4759,
     "fiftyTwoWeekLowChange": 203.0,
     "fiftyTwoWeekLowChangePercent": 0.14904553,
@@ -1192,6 +1191,8 @@
     "earningsTimestampEnd": 1746766800,
     "isEarningsDateEstimate": false,
     "epsTrailingTwelveMonths": 149.61,
+    "shortName": "SHINOBU FOOD PRODUCTS CO",
+    "longName": "Shinobu Foods Products Co., Ltd.",
     "fiftyDayAverageChange": 70.78003,
     "fiftyDayAverageChangePercent": 0.047369216,
     "twoHundredDayAverageChange": -84.765015,
@@ -1210,8 +1211,7 @@
     "esgPopulated": false,
     "regularMarketChangePercent": -0.31847134,
     "regularMarketPrice": 1565.0,
-    "shortName": "SHINOBU FOOD PRODUCTS CO",
-    "longName": "Shinobu Foods Products Co., Ltd.",
+    "marketState": "PREPRE",
     "trailingPegRatio": null
   }
 }

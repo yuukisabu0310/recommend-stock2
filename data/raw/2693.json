@@ -1,7 +1,7 @@
 {
   "ticker": "2693",
   "japanese_ticker": "2693.T",
-  "fetch_date": "2026-07-12T00:02:51.718678",
+  "fetch_date": "2026-07-12T23:56:27.403309",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-12-31 00:00:00": 38445184.0,
@@ -315,7 +315,7 @@
     },
     "Share Issued": {
       "2025-12-31 00:00:00": 11906880.0,
-      "2024-12-31 00:00:00": 11608814.0,
+      "2024-12-31 00:00:00": 11906880.0,
       "2023-12-31 00:00:00": 11906880.0,
       "2022-12-31 00:00:00": 11906880.0,
       "2021-12-31 00:00:00": null
@@ -1125,9 +1125,9 @@
     "maxAge": 86400,
     "priceHint": 2,
     "previousClose": 365.0,
-    "open": 371.0,
+    "open": 366.0,
     "dayLow": 365.0,
-    "dayHigh": 379.0,
+    "dayHigh": 390.0,
     "regularMarketPreviousClose": 365.0,
     "regularMarketOpen": 366.0,
     "regularMarketDayLow": 365.0,
@@ -1145,7 +1145,7 @@
     "averageVolume10days": 180170,
     "averageDailyVolume10Day": 180170,
     "bid": 385.0,
-    "ask": 389.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 4469324288,
@@ -1208,12 +1208,12 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "marketState": "PREPRE",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 984441600000,
     "regularMarketChange": 20.0,
     "regularMarketDayRange": "365.0 - 390.0",
     "fullExchangeName": "Tokyo",
-    "marketState": "CLOSED",
     "averageDailyVolume3Month": 511626,
     "fiftyTwoWeekLowChange": 164.0,
     "fiftyTwoWeekLowChangePercent": 0.74208146,
@@ -1232,6 +1232,10 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
+    "shortName": "YKT CORPORATION",
+    "longName": "YKT Corporation",
+    "regularMarketChangePercent": 5.479452,
+    "regularMarketPrice": 385.0,
     "corporateActions": [],
     "regularMarketTime": 1783665000,
     "exchange": "JPX",
@@ -1241,10 +1245,6 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "regularMarketChangePercent": 5.479452,
-    "regularMarketPrice": 385.0,
-    "shortName": "YKT CORPORATION",
-    "longName": "YKT Corporation",
     "trailingPegRatio": null
   }
 }

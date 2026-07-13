@@ -1,7 +1,7 @@
 {
   "ticker": "1928",
   "japanese_ticker": "1928.T",
-  "fetch_date": "2026-07-11T23:51:09.968277",
+  "fetch_date": "2026-07-12T23:48:03.559075",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-01-31 00:00:00": 3298101335.254194,
@@ -1173,8 +1173,8 @@
     "averageVolume": 2725490,
     "averageVolume10days": 2887370,
     "averageDailyVolume10Day": 2887370,
-    "bid": 3455.0,
-    "ask": 3459.0,
+    "bid": 3479.0,
+    "ask": 3498.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 2239662915584,
@@ -1247,14 +1247,27 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "fiftyDayAverageChange": 102.17993,
-    "fiftyDayAverageChangePercent": 0.030475818,
-    "twoHundredDayAverageChange": 4.8549805,
-    "twoHundredDayAverageChangePercent": 0.0014071816,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "averageAnalystRating": "2.0 - Buy",
-    "cryptoTradeable": false,
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "1928.T announced a cash dividend of JPY 72.00 with an ex-date of Jul. 30, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1785337200000,
+          "amount": "72.00"
+        }
+      }
+    ],
+    "regularMarketTime": 1783665000,
+    "exchange": "JPX",
+    "messageBoardId": "finmb_873695",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
+    "regularMarketChangePercent": -0.5755396,
+    "regularMarketPrice": 3455.0,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 946944000000,
     "regularMarketChange": -20.0,
@@ -1275,30 +1288,17 @@
     "isEarningsDateEstimate": true,
     "epsTrailingTwelveMonths": 396.63,
     "epsForward": 377.46,
+    "fiftyDayAverageChange": 102.17993,
+    "fiftyDayAverageChangePercent": 0.030475818,
+    "twoHundredDayAverageChange": 4.8549805,
+    "twoHundredDayAverageChangePercent": 0.0014071816,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "averageAnalystRating": "2.0 - Buy",
+    "cryptoTradeable": false,
     "shortName": "SEKISUI HOUSE",
     "longName": "Sekisui House, Ltd.",
-    "regularMarketChangePercent": -0.5755396,
-    "regularMarketPrice": 3455.0,
-    "marketState": "CLOSED",
-    "corporateActions": [
-      {
-        "header": "Dividend",
-        "message": "1928.T announced a cash dividend of JPY 72.00 with an ex-date of Jul. 30, 2026",
-        "meta": {
-          "eventType": "DIVIDEND",
-          "dateEpochMs": 1785337200000,
-          "amount": "72.00"
-        }
-      }
-    ],
-    "regularMarketTime": 1783665000,
-    "exchange": "JPX",
-    "messageBoardId": "finmb_873695",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
+    "marketState": "PREPRE",
     "trailingPegRatio": null
   }
 }

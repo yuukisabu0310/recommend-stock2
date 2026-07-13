@@ -1,7 +1,7 @@
 {
   "ticker": "2327",
   "japanese_ticker": "2327.T",
-  "fetch_date": "2026-07-11T23:57:29.328515",
+  "fetch_date": "2026-07-12T23:52:28.430540",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": 0.0,
@@ -1170,6 +1170,15 @@
       },
       {
         "maxAge": 1,
+        "name": "Mr. Akimi  Tojo",
+        "age": 60,
+        "title": "Managing Executive Officer",
+        "yearBorn": 1965,
+        "exercisedValue": 0,
+        "unexercisedValue": 0
+      },
+      {
+        "maxAge": 1,
         "name": "Mr. Tomonori  Tsuda",
         "title": "Managing Director of NS Solutions Asia Pacific Pte.Ltd",
         "exercisedValue": 0,
@@ -1195,13 +1204,6 @@
         "title": "Managing Director of NS Solutions (Shanghai) Co.,Ltd.",
         "exercisedValue": 0,
         "unexercisedValue": 0
-      },
-      {
-        "maxAge": 1,
-        "name": "Kensuke  Suzuki",
-        "title": "Managing Director of Thai NS Solutions Co,. Ltd",
-        "exercisedValue": 0,
-        "unexercisedValue": 0
       }
     ],
     "auditRisk": 1,
@@ -1215,9 +1217,9 @@
     "maxAge": 86400,
     "priceHint": 2,
     "previousClose": 3738.0,
-    "open": 3738.0,
+    "open": 3739.0,
     "dayLow": 3739.0,
-    "dayHigh": 3795.0,
+    "dayHigh": 3797.0,
     "regularMarketPreviousClose": 3738.0,
     "regularMarketOpen": 3739.0,
     "regularMarketDayLow": 3739.0,
@@ -1235,8 +1237,8 @@
     "averageVolume": 281993,
     "averageVolume10days": 328560,
     "averageDailyVolume10Day": 328560,
-    "bid": 3772.0,
-    "ask": 3794.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 690754813952,
@@ -1315,6 +1317,16 @@
     "customPriceAlertConfidence": "LOW",
     "corporateActions": [],
     "regularMarketTime": 1783665000,
+    "marketState": "PREPRE",
+    "exchange": "JPX",
+    "messageBoardId": "finmb_1882296",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
+    "regularMarketChangePercent": 0.98983413,
+    "regularMarketPrice": 3775.0,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1034294400000,
     "regularMarketChange": 37.0,
@@ -1333,18 +1345,6 @@
     "earningsCallTimestampStart": 1745837940,
     "earningsCallTimestampEnd": 1745837940,
     "isEarningsDateEstimate": false,
-    "exchange": "JPX",
-    "messageBoardId": "finmb_1882296",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
-    "regularMarketPrice": 3775.0,
-    "regularMarketChangePercent": 0.98983413,
-    "shortName": "NS SOLUTIONS CORPORATION",
-    "longName": "NS Solutions Corporation",
-    "marketState": "CLOSED",
     "epsTrailingTwelveMonths": 168.37,
     "epsForward": 156.49,
     "fiftyDayAverageChange": 313.58008,
@@ -1355,6 +1355,8 @@
     "exchangeDataDelayedBy": 20,
     "averageAnalystRating": "3.7 - Underperform",
     "cryptoTradeable": false,
+    "shortName": "NS SOLUTIONS CORPORATION",
+    "longName": "NS Solutions Corporation",
     "trailingPegRatio": null
   }
 }

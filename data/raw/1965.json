@@ -1,7 +1,7 @@
 {
   "ticker": "1965",
   "japanese_ticker": "1965.T",
-  "fetch_date": "2026-07-11T23:52:26.939018",
+  "fetch_date": "2026-07-12T23:48:46.238172",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": 56840000.0,
@@ -1155,6 +1155,42 @@
     "companyOfficers": [
       {
         "maxAge": 1,
+        "name": "Mr. Masaya  Kato",
+        "age": 66,
+        "title": "President, CEO & Representative Director",
+        "yearBorn": 1959,
+        "exercisedValue": 0,
+        "unexercisedValue": 0
+      },
+      {
+        "maxAge": 1,
+        "name": "Mr. Tsutomu  Oishi",
+        "age": 64,
+        "title": "Managing Executive Officer, Head of Technology Headquarters & Director",
+        "yearBorn": 1961,
+        "exercisedValue": 0,
+        "unexercisedValue": 0
+      },
+      {
+        "maxAge": 1,
+        "name": "Mr. Takashi  Suzuki",
+        "age": 64,
+        "title": "Managing Executive Officer, GM of Administration HQ & Director",
+        "yearBorn": 1961,
+        "exercisedValue": 0,
+        "unexercisedValue": 0
+      },
+      {
+        "maxAge": 1,
+        "name": "Mr. Kazuhiro  Hakamada",
+        "age": 65,
+        "title": "Senior Managing Executive Officer, GM of Sales Headquarters & Director",
+        "yearBorn": 1960,
+        "exercisedValue": 0,
+        "unexercisedValue": 0
+      },
+      {
+        "maxAge": 1,
         "name": "Mr. Naganori  Kuroda",
         "age": 63,
         "title": "Senior Executive Officer, GM of CSR Promotion Headquarters & GM of Corporate Planning Office",
@@ -1217,8 +1253,8 @@
     "averageVolume": 70557,
     "averageVolume10days": 59890,
     "averageDailyVolume10Day": 59890,
-    "bid": 6240.0,
-    "ask": 6280.0,
+    "bid": 0.0,
+    "ask": 6310.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 128762167296,
@@ -1287,8 +1323,6 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 978307200000,
     "regularMarketChange": 40.0,
     "regularMarketDayRange": "6250.0 - 6510.0",
     "fullExchangeName": "Tokyo",
@@ -1303,13 +1337,7 @@
     "earningsTimestampEnd": 1747112400,
     "isEarningsDateEstimate": false,
     "epsTrailingTwelveMonths": 570.85,
-    "fiftyDayAverageChange": 165.2002,
-    "fiftyDayAverageChangePercent": 0.027016452,
-    "twoHundredDayAverageChange": -154.5249,
-    "twoHundredDayAverageChangePercent": -0.024014967,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
+    "marketState": "PREPRE",
     "corporateActions": [],
     "regularMarketTime": 1783665000,
     "exchange": "JPX",
@@ -1321,9 +1349,17 @@
     "esgPopulated": false,
     "regularMarketChangePercent": 0.64102566,
     "regularMarketPrice": 6280.0,
-    "marketState": "CLOSED",
     "shortName": "TECHNO RYOWA LTD",
     "longName": "Techno Ryowa Ltd.",
+    "fiftyDayAverageChange": 165.2002,
+    "fiftyDayAverageChangePercent": 0.027016452,
+    "twoHundredDayAverageChange": -154.5249,
+    "twoHundredDayAverageChangePercent": -0.024014967,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 978307200000,
     "trailingPegRatio": null
   }
 }

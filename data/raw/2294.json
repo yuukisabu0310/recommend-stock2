@@ -1,7 +1,7 @@
 {
   "ticker": "2294",
   "japanese_ticker": "2294.T",
-  "fetch_date": "2026-07-11T23:56:55.697388",
+  "fetch_date": "2026-07-12T23:51:56.999457",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-04-30 00:00:00": null,
@@ -118,7 +118,7 @@
     "Diluted Average Shares": {
       "2026-04-30 00:00:00": 9580534.0,
       "2025-04-30 00:00:00": 9803374.0,
-      "2024-04-30 00:00:00": 10468072.0,
+      "2024-04-30 00:00:00": 10473879.0,
       "2023-02-28 00:00:00": 10472000.0,
       "2022-02-28 00:00:00": null
     },
@@ -292,13 +292,13 @@
       "2022-02-28 00:00:00": 1978841.0
     },
     "Ordinary Shares Number": {
-      "2025-04-30 00:00:00": 9578391.0,
+      "2025-04-30 00:00:00": 9578083.0,
       "2024-04-30 00:00:00": 10473781.0,
       "2023-02-28 00:00:00": 10467859.0,
       "2022-02-28 00:00:00": 10467859.0
     },
     "Share Issued": {
-      "2025-04-30 00:00:00": 9578391.0,
+      "2025-04-30 00:00:00": 12446700.0,
       "2024-04-30 00:00:00": 12446700.0,
       "2023-02-28 00:00:00": 12446700.0,
       "2022-02-28 00:00:00": 12446700.0
@@ -881,7 +881,7 @@
     "maxAge": 86400,
     "priceHint": 2,
     "previousClose": 2574.0,
-    "open": 2597.0,
+    "open": 2599.0,
     "dayLow": 2555.0,
     "dayHigh": 2599.0,
     "regularMarketPreviousClose": 2574.0,
@@ -900,8 +900,8 @@
     "averageVolume": 34749,
     "averageVolume10days": 16720,
     "averageDailyVolume10Day": 16720,
-    "bid": 2555.0,
-    "ask": 2569.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "marketCap": 24490647552,
     "nonDilutedMarketCap": 24490646831,
     "fiftyTwoWeekLow": 2454.0,
@@ -963,8 +963,10 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 946944000000,
+    "corporateActions": [],
+    "marketState": "PREPRE",
+    "shortName": "KAKIYASU HONTEN",
+    "longName": "Kakiyasu Honten Co., Ltd.",
     "regularMarketChange": -17.0,
     "regularMarketDayRange": "2555.0 - 2599.0",
     "fullExchangeName": "Tokyo",
@@ -986,7 +988,8 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
-    "corporateActions": [],
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 946944000000,
     "regularMarketTime": 1783665000,
     "exchange": "JPX",
     "messageBoardId": "finmb_5602538",
@@ -997,9 +1000,6 @@
     "esgPopulated": false,
     "regularMarketChangePercent": -0.66045064,
     "regularMarketPrice": 2557.0,
-    "shortName": "KAKIYASU HONTEN",
-    "longName": "Kakiyasu Honten Co., Ltd.",
-    "marketState": "CLOSED",
     "trailingPegRatio": null
   }
 }

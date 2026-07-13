@@ -1,7 +1,7 @@
 {
   "ticker": "2721",
   "japanese_ticker": "2721.T",
-  "fetch_date": "2026-07-12T00:03:09.568003",
+  "fetch_date": "2026-07-12T23:56:44.394325",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-12-31 00:00:00": -58000.0,
@@ -131,14 +131,14 @@
     },
     "Basic Average Shares": {
       "2025-12-31 00:00:00": null,
-      "2024-12-31 00:00:00": null,
+      "2024-12-31 00:00:00": 7001089.0,
       "2023-12-31 00:00:00": 6622754.0,
       "2022-12-31 00:00:00": 4990727.0,
       "2021-12-31 00:00:00": 4333480.0
     },
     "Diluted EPS": {
       "2025-12-31 00:00:00": null,
-      "2024-12-31 00:00:00": null,
+      "2024-12-31 00:00:00": -55.38,
       "2023-12-31 00:00:00": -44.81,
       "2022-12-31 00:00:00": -54.14,
       "2021-12-31 00:00:00": -34.83
@@ -308,10 +308,10 @@
   "balance_sheet": {
     "Treasury Shares Number": {
       "2025-12-31 00:00:00": 20.0,
-      "2024-12-31 00:00:00": null,
+      "2024-12-31 00:00:00": 20.0,
       "2023-12-31 00:00:00": 20.0,
       "2022-12-31 00:00:00": 20.0,
-      "2021-12-31 00:00:00": 20.0
+      "2021-12-31 00:00:00": null
     },
     "Ordinary Shares Number": {
       "2025-12-31 00:00:00": 9728480.0,
@@ -1052,7 +1052,7 @@
     "maxAge": 86400,
     "priceHint": 2,
     "previousClose": 126.0,
-    "open": 124.0,
+    "open": 125.0,
     "dayLow": 125.0,
     "dayHigh": 127.0,
     "regularMarketPreviousClose": 126.0,
@@ -1066,8 +1066,8 @@
     "averageVolume": 125336,
     "averageVolume10days": 118810,
     "averageDailyVolume10Day": 118810,
-    "bid": 126.0,
-    "ask": 127.0,
+    "bid": 125.0,
+    "ask": 126.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 1306636928,
@@ -1129,8 +1129,7 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "shortName": "J-HOLDINGS CORP",
-    "longName": "J-Holdings Corp.",
+    "marketState": "PREPRE",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1006905600000,
     "regularMarketChange": 1.0,
@@ -1147,11 +1146,13 @@
     "earningsTimestampEnd": 1755500400,
     "isEarningsDateEstimate": true,
     "epsTrailingTwelveMonths": -29.72,
+    "twoHundredDayAverageChangePercent": -0.2070182,
     "fiftyDayAverageChange": 10.959999,
     "fiftyDayAverageChangePercent": 0.09445018,
     "twoHundredDayAverageChange": -33.155,
-    "twoHundredDayAverageChangePercent": -0.2070182,
-    "marketState": "CLOSED",
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
     "corporateActions": [],
     "regularMarketTime": 1783665000,
     "exchange": "JPX",
@@ -1163,9 +1164,8 @@
     "esgPopulated": false,
     "regularMarketChangePercent": 0.79365087,
     "regularMarketPrice": 127.0,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
+    "shortName": "J-HOLDINGS CORP",
+    "longName": "J-Holdings Corp.",
     "trailingPegRatio": null
   }
 }

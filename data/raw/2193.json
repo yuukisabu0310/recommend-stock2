@@ -1,7 +1,7 @@
 {
   "ticker": "2193",
   "japanese_ticker": "2193.T",
-  "fetch_date": "2026-07-11T23:55:12.947548",
+  "fetch_date": "2026-07-12T23:50:49.771960",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-12-31 00:00:00": 0.0,
@@ -13,7 +13,7 @@
     "Tax Rate For Calcs": {
       "2025-12-31 00:00:00": 0.325033,
       "2024-12-31 00:00:00": 0.232,
-      "2023-12-31 00:00:00": 0.063412,
+      "2023-12-31 00:00:00": 0.063,
       "2022-12-31 00:00:00": 0.232,
       "2021-12-31 00:00:00": null
     },
@@ -111,30 +111,30 @@
     "Diluted Average Shares": {
       "2025-12-31 00:00:00": 77637277.0,
       "2024-12-31 00:00:00": 85523299.0,
-      "2023-12-31 00:00:00": 96036407.0,
+      "2023-12-31 00:00:00": 95998643.0,
       "2022-12-31 00:00:00": 104210339.0,
       "2021-12-31 00:00:00": null
     },
     "Basic Average Shares": {
       "2025-12-31 00:00:00": 77637277.0,
       "2024-12-31 00:00:00": 85523299.0,
-      "2023-12-31 00:00:00": 96036407.0,
+      "2023-12-31 00:00:00": 95998643.0,
       "2022-12-31 00:00:00": 104210339.0,
       "2021-12-31 00:00:00": null
     },
     "Diluted EPS": {
       "2025-12-31 00:00:00": 9.55,
-      "2024-12-31 00:00:00": null,
+      "2024-12-31 00:00:00": 15.58,
       "2023-12-31 00:00:00": -23.21913,
       "2022-12-31 00:00:00": -33.47,
-      "2021-12-31 00:00:00": -22.41
+      "2021-12-31 00:00:00": null
     },
     "Basic EPS": {
       "2025-12-31 00:00:00": 9.55,
-      "2024-12-31 00:00:00": null,
+      "2024-12-31 00:00:00": 15.58,
       "2023-12-31 00:00:00": -23.21,
       "2022-12-31 00:00:00": -33.47,
-      "2021-12-31 00:00:00": -22.41
+      "2021-12-31 00:00:00": null
     },
     "Diluted NI Availto Com Stockholders": {
       "2025-12-31 00:00:00": 741436000.0,
@@ -287,14 +287,14 @@
   "balance_sheet": {
     "Treasury Shares Number": {
       "2025-12-31 00:00:00": 34122703.0,
-      "2024-12-31 00:00:00": null,
+      "2024-12-31 00:00:00": 24923249.0,
       "2023-12-31 00:00:00": 13961961.0,
       "2022-12-31 00:00:00": 3219061.0,
-      "2021-12-31 00:00:00": 3219061.0
+      "2021-12-31 00:00:00": null
     },
     "Ordinary Shares Number": {
       "2025-12-31 00:00:00": 73306697.0,
-      "2024-12-31 00:00:00": 82506239.0,
+      "2024-12-31 00:00:00": 82506151.0,
       "2023-12-31 00:00:00": 93467439.0,
       "2022-12-31 00:00:00": 104210339.0,
       "2021-12-31 00:00:00": null
@@ -903,7 +903,7 @@
     "maxAge": 86400,
     "priceHint": 2,
     "previousClose": 115.0,
-    "open": 117.0,
+    "open": 114.0,
     "dayLow": 114.0,
     "dayHigh": 119.0,
     "regularMarketPreviousClose": 115.0,
@@ -921,8 +921,8 @@
     "averageVolume": 316747,
     "averageVolume10days": 220870,
     "averageDailyVolume10Day": 220870,
-    "bid": 117.0,
-    "ask": 118.0,
+    "bid": 0.0,
+    "ask": 117.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 8410498048,
@@ -988,10 +988,20 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "marketState": "PREPRE",
     "corporateActions": [],
     "regularMarketTime": 1783665000,
+    "exchange": "JPX",
+    "messageBoardId": "finmb_60054436",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1248134400000,
+    "regularMarketChangePercent": 1.7391304,
+    "regularMarketPrice": 117.0,
     "regularMarketChange": 2.0,
     "regularMarketDayRange": "114.0 - 119.0",
     "fullExchangeName": "Tokyo",
@@ -1009,18 +1019,6 @@
     "isEarningsDateEstimate": true,
     "epsTrailingTwelveMonths": 9.55,
     "epsForward": -31.6,
-    "marketState": "CLOSED",
-    "shortName": "COOKPAD INC.",
-    "longName": "Cookpad Inc.",
-    "exchange": "JPX",
-    "messageBoardId": "finmb_60054436",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
-    "regularMarketChangePercent": 1.7391304,
-    "regularMarketPrice": 117.0,
     "fiftyDayAverageChange": -4.1800003,
     "fiftyDayAverageChangePercent": -0.034494143,
     "twoHundredDayAverageChange": -27.104996,
@@ -1028,6 +1026,8 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
+    "shortName": "COOKPAD INC.",
+    "longName": "Cookpad Inc.",
     "trailingPegRatio": null
   }
 }

@@ -1,7 +1,7 @@
 {
   "ticker": "2666",
   "japanese_ticker": "2666.T",
-  "fetch_date": "2026-07-12T00:02:14.871028",
+  "fetch_date": "2026-07-12T23:55:55.644773",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": -772000.0,
@@ -301,10 +301,10 @@
   "balance_sheet": {
     "Treasury Shares Number": {
       "2026-03-31 00:00:00": 211.0,
-      "2025-03-31 00:00:00": null,
+      "2025-03-31 00:00:00": 211.0,
       "2024-03-31 00:00:00": 211.0,
       "2023-03-31 00:00:00": 211.0,
-      "2022-03-31 00:00:00": 211.0
+      "2022-03-31 00:00:00": null
     },
     "Ordinary Shares Number": {
       "2026-03-31 00:00:00": 14450789.0,
@@ -315,7 +315,7 @@
     },
     "Share Issued": {
       "2026-03-31 00:00:00": 14451000.0,
-      "2025-03-31 00:00:00": 14450789.0,
+      "2025-03-31 00:00:00": 14451000.0,
       "2024-03-31 00:00:00": 14451000.0,
       "2023-03-31 00:00:00": 14451000.0,
       "2022-03-31 00:00:00": null
@@ -1015,7 +1015,7 @@
     "averageVolume": 83267,
     "averageVolume10days": 147770,
     "averageDailyVolume10Day": 147770,
-    "bid": 175.0,
+    "bid": 0.0,
     "ask": 176.0,
     "bidSize": 0,
     "askSize": 0,
@@ -1081,6 +1081,18 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "earningsTimestampStart": 1754629200,
+    "earningsTimestampEnd": 1755061200,
+    "isEarningsDateEstimate": true,
+    "epsTrailingTwelveMonths": 30.55,
+    "fiftyDayAverageChange": 12.679993,
+    "fiftyDayAverageChangePercent": 0.07763894,
+    "twoHundredDayAverageChange": 12.975006,
+    "twoHundredDayAverageChangePercent": 0.07958906,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
+    "marketState": "PREPRE",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 969580800000,
     "regularMarketChange": 1.0,
@@ -1093,17 +1105,6 @@
     "fiftyTwoWeekHighChange": -8.0,
     "fiftyTwoWeekHighChangePercent": -0.04347826,
     "fiftyTwoWeekChangePercent": 17.333328,
-    "earningsTimestampStart": 1754629200,
-    "earningsTimestampEnd": 1755061200,
-    "isEarningsDateEstimate": true,
-    "epsTrailingTwelveMonths": 30.55,
-    "fiftyDayAverageChange": 12.679993,
-    "fiftyDayAverageChangePercent": 0.07763894,
-    "twoHundredDayAverageChange": 12.975006,
-    "twoHundredDayAverageChangePercent": 0.07958906,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
     "corporateActions": [],
     "regularMarketTime": 1783665000,
     "exchange": "JPX",
@@ -1113,11 +1114,10 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "shortName": "AUTOWAVE CO LTD",
-    "longName": "AUTOWAVE Co., Ltd.",
     "regularMarketChangePercent": 0.57142854,
     "regularMarketPrice": 176.0,
-    "marketState": "CLOSED",
+    "shortName": "AUTOWAVE CO LTD",
+    "longName": "AUTOWAVE Co., Ltd.",
     "trailingPegRatio": null
   }
 }

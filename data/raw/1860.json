@@ -1,7 +1,7 @@
 {
   "ticker": "1860",
   "japanese_ticker": "1860.T",
-  "fetch_date": "2026-07-11T23:50:14.814167",
+  "fetch_date": "2026-07-12T23:47:11.668952",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": 1598168000.0,
@@ -1251,8 +1251,8 @@
     "averageVolume": 1011132,
     "averageVolume10days": 1040860,
     "averageDailyVolume10Day": 1040860,
-    "bid": 1552.0,
-    "ask": 1562.0,
+    "bid": 1557.5,
+    "ask": 1558.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 461230374912,
@@ -1352,9 +1352,7 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "averageAnalystRating": "2.5 - Buy",
-    "cryptoTradeable": false,
-    "corporateActions": [],
-    "regularMarketTime": 1783665000,
+    "marketState": "PREPRE",
     "exchange": "JPX",
     "messageBoardId": "finmb_876263",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1362,11 +1360,13 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "shortName": "TODA CORP",
-    "longName": "Toda Corporation",
+    "corporateActions": [],
+    "regularMarketTime": 1783665000,
     "regularMarketChangePercent": -1.9200504,
     "regularMarketPrice": 1558.0,
-    "marketState": "CLOSED",
+    "cryptoTradeable": false,
+    "shortName": "TODA CORP",
+    "longName": "Toda Corporation",
     "trailingPegRatio": null
   }
 }

@@ -1,7 +1,7 @@
 {
   "ticker": "2916",
   "japanese_ticker": "2916.T",
-  "fetch_date": "2026-07-12T00:05:55.361058",
+  "fetch_date": "2026-07-12T23:59:16.201230",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": 26330800.0,
@@ -329,10 +329,10 @@
   "balance_sheet": {
     "Treasury Shares Number": {
       "2026-03-31 00:00:00": 16408.0,
-      "2025-03-31 00:00:00": null,
+      "2025-03-31 00:00:00": 16408.0,
       "2024-03-31 00:00:00": 16384.0,
       "2023-03-31 00:00:00": 16000.0,
-      "2022-03-31 00:00:00": 16000.0
+      "2022-03-31 00:00:00": null
     },
     "Ordinary Shares Number": {
       "2026-03-31 00:00:00": 11383592.0,
@@ -343,7 +343,7 @@
     },
     "Share Issued": {
       "2026-03-31 00:00:00": 11400000.0,
-      "2025-03-31 00:00:00": 11383616.0,
+      "2025-03-31 00:00:00": 11400000.0,
       "2024-03-31 00:00:00": 11400000.0,
       "2023-03-31 00:00:00": 11400000.0,
       "2022-03-31 00:00:00": null
@@ -1151,15 +1151,61 @@
     "sectorDisp": "Consumer Defensive",
     "longBusinessSummary": "Semba Tohka Industries Co., Ltd engages in the development, manufacture, and sale of food ingredients primarily in Japan. It offers caramel products, such as caramel color and roasted products; dried products, including powdered tea, powdered soy sauces, powdered yams, and frozen and dried vegetables; assembled products comprising processed wheat flour and frozen yams; and corn soups, powder sauces, and miso soups. The company also provides frozen products, such as Japanese sweets and other purchased products; and processed food materials and food additives. It also sells its products online. The company's products are used in instant noodle powder soup, powdered tea, and pudding caramel sauce. The company serves food manufacturers, as well as commercial and general consumers. The company was incorporated in 1947 and is headquartered in Moka, Japan.",
     "fullTimeEmployees": 491,
-    "companyOfficers": [],
+    "companyOfficers": [
+      {
+        "maxAge": 1,
+        "name": "Mr. Akiko  Tanaka",
+        "age": 62,
+        "title": "Head of Finance & Sales Management Headquarters and Director",
+        "yearBorn": 1963,
+        "exercisedValue": 0,
+        "unexercisedValue": 0
+      },
+      {
+        "maxAge": 1,
+        "name": "Mr. Takehisa  Ichikawa",
+        "age": 55,
+        "title": "GM of Administration Headquarters & General Affairs Department and Director",
+        "yearBorn": 1970,
+        "exercisedValue": 0,
+        "unexercisedValue": 0
+      },
+      {
+        "maxAge": 1,
+        "name": "Mr. Haruhiko  Hosaka",
+        "age": 62,
+        "title": "Senior MD, GM of Sales Headquarters & Director",
+        "yearBorn": 1963,
+        "exercisedValue": 0,
+        "unexercisedValue": 0
+      },
+      {
+        "maxAge": 1,
+        "name": "Mr. Tatsushi  Maeda",
+        "age": 64,
+        "title": "MD, GM of Development HQ, Head of Production HQ & Director",
+        "yearBorn": 1961,
+        "exercisedValue": 0,
+        "unexercisedValue": 0
+      },
+      {
+        "maxAge": 1,
+        "name": "Noriyuki  Ishizuka",
+        "age": 60,
+        "title": "Director of Osaka Branch & Director",
+        "yearBorn": 1965,
+        "exercisedValue": 0,
+        "unexercisedValue": 0
+      }
+    ],
     "irWebsite": "http://www.sembatohka.co.jp/ir/index.html",
     "executiveTeam": [],
     "maxAge": 86400,
     "priceHint": 2,
     "previousClose": 738.0,
-    "open": 743.0,
+    "open": 739.0,
     "dayLow": 735.0,
-    "dayHigh": 739.0,
+    "dayHigh": 744.0,
     "regularMarketPreviousClose": 738.0,
     "regularMarketOpen": 739.0,
     "regularMarketDayLow": 735.0,
@@ -1171,13 +1217,13 @@
     "fiveYearAvgDividendYield": 2.38,
     "beta": 0.131,
     "trailingPE": 15.267802,
-    "volume": 1100,
+    "volume": 1300,
     "regularMarketVolume": 1300,
     "averageVolume": 2368,
     "averageVolume10days": 1700,
     "averageDailyVolume10Day": 1700,
-    "bid": 735.0,
-    "ask": 744.0,
+    "bid": 744.0,
+    "ask": 745.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 8469392384,
@@ -1242,22 +1288,14 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "regularMarketChangePercent": 0.81300807,
-    "regularMarketPrice": 744.0,
-    "corporateActions": [],
-    "regularMarketTime": 1783657416,
-    "exchange": "JPX",
-    "messageBoardId": "finmb_5719917",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
-    "marketState": "CLOSED",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 947030400000,
-    "regularMarketChange": 6.0,
-    "regularMarketDayRange": "735.0 - 744.0",
+    "regularMarketChangePercent": 0.81300807,
+    "regularMarketPrice": 744.0,
+    "shortName": "SEMBA TOHKA INDUSTRIES CO",
+    "longName": "Semba Tohka Industries Co., Ltd",
+    "corporateActions": [],
+    "marketState": "PREPRE",
     "fullExchangeName": "Tokyo",
     "averageDailyVolume3Month": 2368,
     "fiftyTwoWeekLowChange": 49.0,
@@ -1270,8 +1308,6 @@
     "earningsTimestampEnd": 1747116000,
     "isEarningsDateEstimate": false,
     "epsTrailingTwelveMonths": 48.73,
-    "shortName": "SEMBA TOHKA INDUSTRIES CO",
-    "longName": "Semba Tohka Industries Co., Ltd",
     "fiftyDayAverageChange": 26.97998,
     "fiftyDayAverageChangePercent": 0.03762793,
     "twoHundredDayAverageChange": 20.590027,
@@ -1279,6 +1315,16 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
+    "regularMarketTime": 1783657416,
+    "exchange": "JPX",
+    "messageBoardId": "finmb_5719917",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
+    "regularMarketChange": 6.0,
+    "regularMarketDayRange": "735.0 - 744.0",
     "trailingPegRatio": null
   }
 }

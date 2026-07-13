@@ -1,7 +1,7 @@
 {
   "ticker": "2307",
   "japanese_ticker": "2307.T",
-  "fetch_date": "2026-07-11T23:57:11.164259",
+  "fetch_date": "2026-07-12T23:52:11.854063",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": 11503534.0,
@@ -308,10 +308,10 @@
   "balance_sheet": {
     "Treasury Shares Number": {
       "2026-03-31 00:00:00": 3009574.0,
-      "2025-03-31 00:00:00": null,
+      "2025-03-31 00:00:00": 2900874.0,
       "2024-03-31 00:00:00": 2760632.0,
       "2023-03-31 00:00:00": 1978832.0,
-      "2022-03-31 00:00:00": 3416246.0
+      "2022-03-31 00:00:00": null
     },
     "Ordinary Shares Number": {
       "2026-03-31 00:00:00": 13996100.0,
@@ -322,7 +322,7 @@
     },
     "Share Issued": {
       "2026-03-31 00:00:00": 17005674.0,
-      "2025-03-31 00:00:00": 14104800.0,
+      "2025-03-31 00:00:00": 17005674.0,
       "2024-03-31 00:00:00": 17005674.0,
       "2023-03-31 00:00:00": 17005674.0,
       "2022-03-31 00:00:00": null
@@ -1146,9 +1146,9 @@
     "maxAge": 86400,
     "priceHint": 2,
     "previousClose": 994.0,
-    "open": 1000.0,
+    "open": 996.0,
     "dayLow": 996.0,
-    "dayHigh": 1018.0,
+    "dayHigh": 1020.0,
     "regularMarketPreviousClose": 994.0,
     "regularMarketOpen": 996.0,
     "regularMarketDayLow": 996.0,
@@ -1165,8 +1165,8 @@
     "averageVolume": 30559,
     "averageVolume10days": 33240,
     "averageDailyVolume10Day": 33240,
-    "bid": 1010.0,
-    "ask": 1016.0,
+    "bid": 0.0,
+    "ask": 1015.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 14206041088,
@@ -1235,15 +1235,13 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "fiftyDayAverageChange": 75.65997,
-    "fiftyDayAverageChangePercent": 0.08054589,
-    "twoHundredDayAverageChange": 1.6900024,
-    "twoHundredDayAverageChangePercent": 0.001667804,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1024358400000,
+    "regularMarketChangePercent": 2.112676,
+    "regularMarketPrice": 1015.0,
+    "marketState": "PREPRE",
+    "corporateActions": [],
+    "regularMarketTime": 1783665000,
+    "shortName": "CROSS CAT CO LTD",
+    "longName": "Cross Cat Co., Ltd.",
     "regularMarketChange": 21.0,
     "regularMarketDayRange": "996.0 - 1020.0",
     "fullExchangeName": "Tokyo",
@@ -1258,13 +1256,14 @@
     "earningsTimestampEnd": 1754634600,
     "isEarningsDateEstimate": true,
     "epsTrailingTwelveMonths": 107.89,
-    "shortName": "CROSS CAT CO LTD",
-    "longName": "Cross Cat Co., Ltd.",
-    "regularMarketChangePercent": 2.112676,
-    "regularMarketPrice": 1015.0,
-    "marketState": "CLOSED",
-    "corporateActions": [],
-    "regularMarketTime": 1783665000,
+    "fiftyDayAverageChange": 75.65997,
+    "fiftyDayAverageChangePercent": 0.08054589,
+    "twoHundredDayAverageChange": 1.6900024,
+    "twoHundredDayAverageChangePercent": 0.001667804,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1024358400000,
     "exchange": "JPX",
     "messageBoardId": "finmb_20338565",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1272,6 +1271,7 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
+    "cryptoTradeable": false,
     "trailingPegRatio": null
   }
 }

@@ -1,7 +1,7 @@
 {
   "ticker": "2173",
   "japanese_ticker": "2173.T",
-  "fetch_date": "2026-07-11T23:54:55.161222",
+  "fetch_date": "2026-07-12T23:50:33.872086",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-12-31 00:00:00": 4716792.0,
@@ -107,7 +107,7 @@
     },
     "Diluted Average Shares": {
       "2025-12-31 00:00:00": null,
-      "2024-12-31 00:00:00": 15482027.0,
+      "2024-12-31 00:00:00": 15483237.0,
       "2023-03-31 00:00:00": 30571838.0,
       "2022-03-31 00:00:00": 15647324.0
     },
@@ -277,13 +277,13 @@
     },
     "Ordinary Shares Number": {
       "2025-12-31 00:00:00": 15657148.0,
-      "2024-12-31 00:00:00": 15483154.0,
+      "2024-12-31 00:00:00": 15532654.0,
       "2023-03-31 00:00:00": 15284636.0,
       "2022-03-31 00:00:00": 15679836.0
     },
     "Share Issued": {
       "2025-12-31 00:00:00": 16248520.0,
-      "2024-12-31 00:00:00": 15483154.0,
+      "2024-12-31 00:00:00": 16175520.0,
       "2023-03-31 00:00:00": 16024200.0,
       "2022-03-31 00:00:00": 15950200.0
     },
@@ -1022,7 +1022,7 @@
         "maxAge": 1,
         "name": "Yoshiyasu  Fujii",
         "age": 54,
-        "title": "CFO, Executive Officer & Director",
+        "title": "Senior Managing Executive Officer, CFO & Director",
         "yearBorn": 1971,
         "exercisedValue": 0,
         "unexercisedValue": 0
@@ -1062,7 +1062,7 @@
     "maxAge": 86400,
     "priceHint": 2,
     "previousClose": 695.0,
-    "open": 700.0,
+    "open": 699.0,
     "dayLow": 697.0,
     "dayHigh": 712.0,
     "regularMarketPreviousClose": 695.0,
@@ -1081,8 +1081,8 @@
     "averageVolume": 25450,
     "averageVolume10days": 12610,
     "averageDailyVolume10Day": 12610,
-    "bid": 707.0,
-    "ask": 711.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 11116574720,
@@ -1149,9 +1149,12 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "marketState": "CLOSED",
-    "shortName": "HAKUTEN CORPORATION",
-    "longName": "Hakuten Corporation",
+    "fiftyDayAverageChange": -19.820007,
+    "fiftyDayAverageChangePercent": -0.02715739,
+    "twoHundredDayAverageChange": -123.765015,
+    "twoHundredDayAverageChangePercent": -0.14844112,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
     "corporateActions": [],
     "regularMarketTime": 1783665000,
@@ -1162,8 +1165,6 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "regularMarketChangePercent": 2.1582735,
-    "regularMarketPrice": 710.0,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1204502400000,
     "regularMarketChange": 15.0,
@@ -1180,12 +1181,11 @@
     "earningsTimestampEnd": 1754978400,
     "isEarningsDateEstimate": true,
     "epsTrailingTwelveMonths": 122.62,
-    "fiftyDayAverageChange": -19.820007,
-    "fiftyDayAverageChangePercent": -0.02715739,
-    "twoHundredDayAverageChange": -123.765015,
-    "twoHundredDayAverageChangePercent": -0.14844112,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
+    "marketState": "PREPRE",
+    "shortName": "HAKUTEN CORPORATION",
+    "longName": "Hakuten Corporation",
+    "regularMarketChangePercent": 2.1582735,
+    "regularMarketPrice": 710.0,
     "trailingPegRatio": null
   }
 }

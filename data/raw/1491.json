@@ -1,7 +1,7 @@
 {
   "ticker": "1491",
   "japanese_ticker": "1491.T",
-  "fetch_date": "2026-07-11T23:47:00.437713",
+  "fetch_date": "2026-07-12T23:45:09.977229",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": -1622376.373195,
@@ -1068,7 +1068,17 @@
     "sectorDisp": "Basic Materials",
     "longBusinessSummary": "Chugai Mining Co., Ltd. collects, processes, refines, and retails precious metals in Japan and internationally. The company's Precious Metal Business division procures and recycles precious metals, such as gold and platinum; refines, processes, and sells bare metals; and purchases and sells diamond and jewelries. Its Real Estate Business division engages in procuring, brokering, renting, and managing urban real estate properties, including condominiums, single family homes, land, business properties, and investment properties, as well as in the planning and development of properties. The company's Content Business division is involved in the planning, production, and sale of animation, comics, and game characters. Its Machinery Business division procures and sells machine tools comprising mother machinery items, including NC lathes and machining centers; plating machinery, such as punching machines and laser machines; and various pressing machinery for processing and molding. This division also procures and sells pre-owned machine tools and sheet metal processing machinery. Chugai Mining Co., Ltd. was formerly known as Mochikoshi Mine Co., Ltd. and changed its name to Chugai Mining Co., Ltd. in April 1936. The company was incorporated in 1932 and is headquartered in Tokyo, Japan.",
     "fullTimeEmployees": 163,
-    "companyOfficers": [],
+    "companyOfficers": [
+      {
+        "maxAge": 1,
+        "name": "Mr. Yoshiaki  Tanaka",
+        "age": 56,
+        "title": "GM of Finance & Director",
+        "yearBorn": 1969,
+        "exercisedValue": 0,
+        "unexercisedValue": 0
+      }
+    ],
     "irWebsite": "http://www.chugaikogyo.co.jp/eng/ir_index.html",
     "executiveTeam": [],
     "maxAge": 86400,
@@ -1092,7 +1102,7 @@
     "averageVolume": 54309,
     "averageVolume10days": 35540,
     "averageDailyVolume10Day": 35540,
-    "bid": 725.0,
+    "bid": 0.0,
     "ask": 730.0,
     "bidSize": 0,
     "askSize": 0,
@@ -1160,8 +1170,7 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 978307200000,
+    "marketState": "PREPRE",
     "regularMarketChange": 3.0,
     "regularMarketDayRange": "722.0 - 735.0",
     "fullExchangeName": "Tokyo",
@@ -1183,6 +1192,10 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 978307200000,
+    "shortName": "CHUGAI MINING CO",
+    "longName": "Chugai Mining Co., Ltd.",
     "corporateActions": [],
     "regularMarketTime": 1783665000,
     "exchange": "JPX",
@@ -1194,9 +1207,6 @@
     "esgPopulated": false,
     "regularMarketChangePercent": 0.4149378,
     "regularMarketPrice": 726.0,
-    "marketState": "CLOSED",
-    "shortName": "CHUGAI MINING CO",
-    "longName": "Chugai Mining Co., Ltd.",
     "trailingPegRatio": null
   }
 }

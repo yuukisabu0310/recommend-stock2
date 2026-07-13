@@ -1,7 +1,7 @@
 {
   "ticker": "3020",
   "japanese_ticker": "3020.T",
-  "fetch_date": "2026-07-12T00:07:26.821926",
+  "fetch_date": "2026-07-13T00:00:38.205794",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": 343326.607091,
@@ -139,7 +139,7 @@
     "Basic Average Shares": {
       "2026-03-31 00:00:00": null,
       "2025-03-31 00:00:00": 2702971.0,
-      "2024-03-31 00:00:00": 2702099.0,
+      "2024-03-31 00:00:00": 2703074.0,
       "2023-03-31 00:00:00": 2703078.0,
       "2022-03-31 00:00:00": 2701572.0
     },
@@ -343,7 +343,7 @@
   "balance_sheet": {
     "Treasury Shares Number": {
       "2026-03-31 00:00:00": 355.0,
-      "2025-03-31 00:00:00": null,
+      "2025-03-31 00:00:00": 269.0,
       "2024-03-31 00:00:00": 152.0,
       "2023-03-31 00:00:00": null,
       "2022-03-31 00:00:00": 122.0
@@ -357,7 +357,7 @@
     },
     "Share Issued": {
       "2026-03-31 00:00:00": 2703200.0,
-      "2025-03-31 00:00:00": 2702931.0,
+      "2025-03-31 00:00:00": 2703200.0,
       "2024-03-31 00:00:00": 2703200.0,
       "2023-03-31 00:00:00": 2703078.0,
       "2022-03-31 00:00:00": null
@@ -736,9 +736,9 @@
     "Taxes Receivable": {
       "2026-03-31 00:00:00": 0.0,
       "2025-03-31 00:00:00": 184000000.0,
-      "2024-03-31 00:00:00": null,
+      "2024-03-31 00:00:00": 0.0,
       "2023-03-31 00:00:00": 0.0,
-      "2022-03-31 00:00:00": 506000000.0
+      "2022-03-31 00:00:00": null
     },
     "Accounts Receivable": {
       "2026-03-31 00:00:00": 6592000000.0,
@@ -1154,8 +1154,8 @@
     "averageVolume": 2406,
     "averageVolume10days": 660,
     "averageDailyVolume10Day": 660,
-    "bid": 4070.0,
-    "ask": 4125.0,
+    "bid": 4055.0,
+    "ask": 4130.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 11149235200,
@@ -1224,7 +1224,9 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "marketState": "CLOSED",
+    "regularMarketChangePercent": 1.726264,
+    "regularMarketPrice": 4125.0,
+    "cryptoTradeable": false,
     "corporateActions": [],
     "regularMarketTime": 1783641601,
     "exchange": "JPX",
@@ -1234,8 +1236,14 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
+    "marketState": "REGULAR",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1140134400000,
     "shortName": "APPLIED CO.LTD",
     "longName": "Applied Co.,Ltd.",
+    "regularMarketChange": 70.0,
+    "regularMarketDayRange": "4125.0 - 4125.0",
+    "fullExchangeName": "Tokyo",
     "averageDailyVolume3Month": 2406,
     "fiftyTwoWeekLowChange": 895.0,
     "fiftyTwoWeekLowChangePercent": 0.27708977,
@@ -1254,15 +1262,7 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "prevName": "Applied Co., Ltd.",
-    "nameChangeDate": "2026-07-11",
-    "cryptoTradeable": false,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1140134400000,
-    "regularMarketChange": 70.0,
-    "regularMarketDayRange": "4125.0 - 4125.0",
-    "fullExchangeName": "Tokyo",
-    "regularMarketChangePercent": 1.726264,
-    "regularMarketPrice": 4125.0,
+    "nameChangeDate": "2026-07-12",
     "trailingPegRatio": null
   }
 }

@@ -1,7 +1,7 @@
 {
   "ticker": "2722",
   "japanese_ticker": "2722.T",
-  "fetch_date": "2026-07-12T00:03:11.819591",
+  "fetch_date": "2026-07-12T23:56:46.360863",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-05-31 00:00:00": 33703591.057874,
@@ -276,7 +276,7 @@
       "2022-05-31 00:00:00": 7673624.0
     },
     "Share Issued": {
-      "2025-05-31 00:00:00": 7537524.0,
+      "2025-05-31 00:00:00": 8308000.0,
       "2024-05-31 00:00:00": 8308000.0,
       "2023-05-31 00:00:00": 8308000.0,
       "2022-05-31 00:00:00": 8308000.0
@@ -1009,7 +1009,7 @@
     "maxAge": 86400,
     "priceHint": 2,
     "previousClose": 356.0,
-    "open": 356.0,
+    "open": 357.0,
     "dayLow": 355.0,
     "dayHigh": 357.0,
     "regularMarketPreviousClose": 356.0,
@@ -1029,8 +1029,8 @@
     "averageVolume": 15996,
     "averageVolume10days": 5900,
     "averageDailyVolume10Day": 5900,
-    "bid": 356.0,
-    "ask": 357.0,
+    "bid": 0.0,
+    "ask": 356.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 2692077056,
@@ -1098,8 +1098,6 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1007424000000,
     "corporateActions": [],
     "regularMarketTime": 1783665000,
     "exchange": "JPX",
@@ -1109,11 +1107,16 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "marketState": "CLOSED",
-    "shortName": "IK HOLDINGS CO LTD",
-    "longName": "IK HOLDINGS Co.,Ltd.",
     "regularMarketChangePercent": 0.0,
     "regularMarketPrice": 356.0,
+    "shortName": "IK HOLDINGS CO LTD",
+    "longName": "IK HOLDINGS Co.,Ltd.",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1007424000000,
+    "marketState": "PREPRE",
+    "prevName": "I.K Co.,Ltd.",
+    "nameChangeDate": "2026-07-12",
+    "cryptoTradeable": false,
     "regularMarketChange": 0.0,
     "regularMarketDayRange": "355.0 - 357.0",
     "fullExchangeName": "Tokyo",
@@ -1135,9 +1138,6 @@
     "twoHundredDayAverageChangePercent": -0.09345559,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
-    "prevName": "I.K Co.,Ltd.",
-    "nameChangeDate": "2026-07-11",
-    "cryptoTradeable": false,
     "trailingPegRatio": null
   }
 }

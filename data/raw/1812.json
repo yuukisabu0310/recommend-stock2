@@ -1,7 +1,7 @@
 {
   "ticker": "1812",
   "japanese_ticker": "1812.T",
-  "fetch_date": "2026-07-11T23:49:03.102800",
+  "fetch_date": "2026-07-12T23:46:34.334490",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": 3357522485.130643,
@@ -1057,8 +1057,40 @@
     "companyOfficers": [
       {
         "maxAge": 1,
+        "name": "Mr. Keisuke  Koshijima",
+        "age": 69,
+        "title": "Executive VP, GM of Overseas Operations Division & Representative Director",
+        "yearBorn": 1956,
+        "fiscalYear": 2025,
+        "totalPay": 86000000,
+        "exercisedValue": 0,
+        "unexercisedValue": 0
+      },
+      {
+        "maxAge": 1,
+        "name": "Mr. Masafumi  Kiryu",
+        "age": 64,
+        "title": "CEO, President & Director",
+        "yearBorn": 1961,
+        "fiscalYear": 2025,
+        "exercisedValue": 0,
+        "unexercisedValue": 0
+      },
+      {
+        "maxAge": 1,
         "name": "Shinichi  Nagae",
         "title": "General Manager of the Finance Department",
+        "fiscalYear": 2025,
+        "exercisedValue": 0,
+        "unexercisedValue": 0
+      },
+      {
+        "maxAge": 1,
+        "name": "Mr. Takeshi  Katsumi",
+        "age": 69,
+        "title": "EVP, GM of Admin, Overseeing Audit Department, Safety and Environmental affair Dept & Director",
+        "yearBorn": 1956,
+        "fiscalYear": 2025,
         "exercisedValue": 0,
         "unexercisedValue": 0
       },
@@ -1066,6 +1098,7 @@
         "maxAge": 1,
         "name": "Jun  Shimai",
         "title": "Senior Executive Officer & GM of Sales & Marketing Division",
+        "fiscalYear": 2025,
         "exercisedValue": 0,
         "unexercisedValue": 0
       },
@@ -1073,6 +1106,7 @@
         "maxAge": 1,
         "name": "Naoshi  Nishizawa",
         "title": "Executive Officer, Head of IT Solutions & GM of Human Resource Department",
+        "fiscalYear": 2025,
         "exercisedValue": 0,
         "unexercisedValue": 0
       },
@@ -1082,6 +1116,17 @@
         "age": 82,
         "title": "Senior Advisor",
         "yearBorn": 1943,
+        "fiscalYear": 2025,
+        "exercisedValue": 0,
+        "unexercisedValue": 0
+      },
+      {
+        "maxAge": 1,
+        "name": "Mr. Hiroshi  Ishikawa",
+        "age": 66,
+        "title": "Executive VP & Director",
+        "yearBorn": 1959,
+        "fiscalYear": 2025,
         "exercisedValue": 0,
         "unexercisedValue": 0
       },
@@ -1089,6 +1134,7 @@
         "maxAge": 1,
         "name": "Tadashi  Fujimura",
         "title": "Managing Executive Officer & Deputy GM of Architectural Design Division",
+        "fiscalYear": 2025,
         "exercisedValue": 0,
         "unexercisedValue": 0
       },
@@ -1096,34 +1142,7 @@
         "maxAge": 1,
         "name": "Mr. Toshinobu  Nakatani",
         "title": "Advisor",
-        "exercisedValue": 0,
-        "unexercisedValue": 0
-      },
-      {
-        "maxAge": 1,
-        "name": "Yoshihiko  Riho",
-        "title": "Senior Executive Officer",
-        "exercisedValue": 0,
-        "unexercisedValue": 0
-      },
-      {
-        "maxAge": 1,
-        "name": "Takaharu  Fukuda",
-        "title": "Senior Executive Officer",
-        "exercisedValue": 0,
-        "unexercisedValue": 0
-      },
-      {
-        "maxAge": 1,
-        "name": "Yasuhiko  Yamada",
-        "title": "Senior Executive Officer and DGM of Building Mgt Div. & Tokyo Architectural Construction",
-        "exercisedValue": 0,
-        "unexercisedValue": 0
-      },
-      {
-        "maxAge": 1,
-        "name": "Norio  Kita",
-        "title": "Senior Executive Officer & GM of Architectural Design Division",
+        "fiscalYear": 2025,
         "exercisedValue": 0,
         "unexercisedValue": 0
       }
@@ -1134,6 +1153,7 @@
     "shareHolderRightsRisk": 9,
     "overallRisk": 4,
     "governanceEpochDate": 1782864000,
+    "compensationAsOfEpochDate": 1767139200,
     "executiveTeam": [],
     "maxAge": 86400,
     "priceHint": 2,
@@ -1158,8 +1178,8 @@
     "averageVolume": 2270431,
     "averageVolume10days": 1913440,
     "averageDailyVolume10Day": 1913440,
-    "bid": 5760.0,
-    "ask": 5772.0,
+    "bid": 0.0,
+    "ask": 5821.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 2657085554688,
@@ -1177,7 +1197,7 @@
     "tradeable": false,
     "enterpriseValue": 3134506926080,
     "profitMargins": 0.05781,
-    "floatShares": 432320611,
+    "floatShares": 432069001,
     "sharesOutstanding": 461299593,
     "heldPercentInsiders": 0.094969995,
     "heldPercentInstitutions": 0.38073003,
@@ -1206,8 +1226,7 @@
     "targetLowPrice": 5400.0,
     "targetMeanPrice": 7321.4287,
     "targetMedianPrice": 7250.0,
-    "recommendationMean": 1.28571,
-    "recommendationKey": "strong_buy",
+    "recommendationKey": "none",
     "numberOfAnalystOpinions": 7,
     "totalCash": 403662012416,
     "totalCashPerShare": 866.333,
@@ -1236,19 +1255,17 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "corporateActions": [],
+    "regularMarketTime": 1783665000,
+    "exchange": "JPX",
+    "messageBoardId": "finmb_874300",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
     "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
     "esgPopulated": false,
-    "marketState": "CLOSED",
     "regularMarketChangePercent": -0.9458298,
     "regularMarketPrice": 5760.0,
-    "fiftyDayAverageChange": -90.08008,
-    "fiftyDayAverageChangePercent": -0.0153980935,
-    "twoHundredDayAverageChange": -115.430176,
-    "twoHundredDayAverageChangePercent": -0.019646252,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "averageAnalystRating": "1.3 - Strong Buy",
-    "cryptoTradeable": false,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 946944000000,
     "regularMarketChange": -55.0,
@@ -1269,15 +1286,16 @@
     "isEarningsDateEstimate": false,
     "epsTrailingTwelveMonths": 379.58,
     "epsForward": 266.52,
-    "corporateActions": [],
-    "regularMarketTime": 1783665000,
-    "exchange": "JPX",
-    "messageBoardId": "finmb_874300",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "market": "jp_market",
+    "fiftyDayAverageChange": -90.08008,
+    "fiftyDayAverageChangePercent": -0.0153980935,
+    "twoHundredDayAverageChange": -115.430176,
+    "twoHundredDayAverageChangePercent": -0.019646252,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
     "shortName": "KAJIMA CORP",
     "longName": "Kajima Corporation",
+    "marketState": "PREPRE",
     "trailingPegRatio": null
   }
 }

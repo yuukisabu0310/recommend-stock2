@@ -1,7 +1,7 @@
 {
   "ticker": "2445",
   "japanese_ticker": "2445.T",
-  "fetch_date": "2026-07-11T23:59:52.281484",
+  "fetch_date": "2026-07-12T23:54:12.414721",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": 22614200.0,
@@ -1216,9 +1216,9 @@
     "maxAge": 86400,
     "priceHint": 2,
     "previousClose": 402.0,
-    "open": 400.0,
+    "open": 402.0,
     "dayLow": 401.0,
-    "dayHigh": 405.0,
+    "dayHigh": 407.0,
     "regularMarketPreviousClose": 402.0,
     "regularMarketOpen": 402.0,
     "regularMarketDayLow": 401.0,
@@ -1235,8 +1235,8 @@
     "averageVolume": 110249,
     "averageVolume10days": 72140,
     "averageDailyVolume10Day": 72140,
-    "bid": 405.0,
-    "ask": 407.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 18659076096,
@@ -1305,10 +1305,8 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "marketState": "CLOSED",
     "shortName": "TAKAMIYA CO LTD",
     "longName": "Takamiya Co., Ltd.",
-    "cryptoTradeable": false,
     "corporateActions": [],
     "regularMarketTime": 1783665000,
     "exchange": "JPX",
@@ -1320,6 +1318,7 @@
     "esgPopulated": false,
     "regularMarketChangePercent": 1.2437811,
     "regularMarketPrice": 407.0,
+    "marketState": "PREPRE",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1197849600000,
     "regularMarketChange": 5.0,
@@ -1342,6 +1341,7 @@
     "twoHundredDayAverageChangePercent": -0.0033792176,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
     "trailingPegRatio": null
   }
 }

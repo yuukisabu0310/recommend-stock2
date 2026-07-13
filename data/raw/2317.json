@@ -1,7 +1,7 @@
 {
   "ticker": "2317",
   "japanese_ticker": "2317.T",
-  "fetch_date": "2026-07-11T23:57:17.699094",
+  "fetch_date": "2026-07-12T23:52:17.745715",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": 167230940.456316,
@@ -1155,8 +1155,40 @@
       },
       {
         "maxAge": 1,
+        "name": "Mr. Seiichiro  Nishikawa",
+        "age": 52,
+        "title": "Executive Managing Corporate Officer, GM of Digital Integration Group & Director",
+        "yearBorn": 1973,
+        "exercisedValue": 0,
+        "unexercisedValue": 0
+      },
+      {
+        "maxAge": 1,
+        "name": "Mr. Yoichi  Narikawa",
+        "age": 52,
+        "title": "Exe. Managing Corp. Off. & GM of Next Generation Mobility Grp. & Director",
+        "yearBorn": 1973,
+        "exercisedValue": 0,
+        "unexercisedValue": 0
+      },
+      {
+        "maxAge": 1,
         "name": "Mizuta  Jun",
         "title": "Executive Officer & Head of DX Design Division",
+        "exercisedValue": 0,
+        "unexercisedValue": 0
+      },
+      {
+        "maxAge": 1,
+        "name": "Mitsuaki  Tanaka",
+        "title": "Senior Executive Officer, President & Representative Director of Systena America Inc.",
+        "exercisedValue": 0,
+        "unexercisedValue": 0
+      },
+      {
+        "maxAge": 1,
+        "name": "Fumiaki  Nezu",
+        "title": "Executive Officer, President & Representative Director of Tokyoto Business Service Co., Ltd.",
         "exercisedValue": 0,
         "unexercisedValue": 0
       }
@@ -1172,8 +1204,8 @@
     "maxAge": 86400,
     "priceHint": 2,
     "previousClose": 424.0,
-    "open": 419.0,
-    "dayLow": 422.0,
+    "open": 424.0,
+    "dayLow": 421.0,
     "dayHigh": 427.0,
     "regularMarketPreviousClose": 424.0,
     "regularMarketOpen": 424.0,
@@ -1192,8 +1224,8 @@
     "averageVolume": 1133244,
     "averageVolume10days": 1016920,
     "averageDailyVolume10Day": 1016920,
-    "bid": 421.0,
-    "ask": 423.0,
+    "bid": 0.0,
+    "ask": 426.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 150846357504,
@@ -1269,7 +1301,6 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "fiftyTwoWeekChangePercent": 6.8354487,
     "earningsTimestamp": 1785393000,
     "earningsTimestampStart": 1785393000,
     "earningsTimestampEnd": 1785393000,
@@ -1283,8 +1314,8 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "averageAnalystRating": "2.0 - Buy",
-    "regularMarketChangePercent": -0.4716981,
-    "marketState": "CLOSED",
+    "cryptoTradeable": false,
+    "marketState": "PREPRE",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1100476800000,
     "regularMarketChange": -2.0,
@@ -1296,6 +1327,9 @@
     "fiftyTwoWeekRange": "385.0 - 555.0",
     "fiftyTwoWeekHighChange": -133.0,
     "fiftyTwoWeekHighChangePercent": -0.23963964,
+    "fiftyTwoWeekChangePercent": 6.8354487,
+    "corporateActions": [],
+    "regularMarketTime": 1783665000,
     "exchange": "JPX",
     "messageBoardId": "finmb_9429314",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1303,10 +1337,8 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
+    "regularMarketChangePercent": -0.4716981,
     "regularMarketPrice": 422.0,
-    "cryptoTradeable": false,
-    "corporateActions": [],
-    "regularMarketTime": 1783665000,
     "shortName": "SYSTENA CORPORATION",
     "longName": "Systena Corporation",
     "trailingPegRatio": null

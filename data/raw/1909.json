@@ -1,7 +1,7 @@
 {
   "ticker": "1909",
   "japanese_ticker": "1909.T",
-  "fetch_date": "2026-07-11T23:50:56.483329",
+  "fetch_date": "2026-07-12T23:47:51.667231",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": -137620510.251879,
@@ -1110,7 +1110,49 @@
     "sectorDisp": "Industrials",
     "longBusinessSummary": "Nippon Dry-Chemical Co., Ltd. engages in the design, manufacture, and sale of disaster prevention equipment in Japan and internationally. The company provides disaster prevention equipment, including sprinkler systems, fire suppression systems, tunnel disaster prevention systems; foam, carbon dioxide, Halon 1301, and powder fire extinguishing equipment; water sprays and curtains, indoor/outdoor fire hydrants, and monitoring equipment; centralized control systems and equipment; and a range of ship fire extinguishing equipment for buildings, plants, and ships. It also offers automatic fire alarm systems, such as P-type and R-type systems, differential distributed sensor thermocouple type, residential fire alarms, and the VESDA smoke detention system. In addition, the company provides maintenance and inspection services for firefighting equipment, as well as hazardous materials facility inspection services. Further, it offers protective equipment, emergency escape equipment, evacuation kits, emergency bags, preserved food and drinking water, and portable toilets. Nippon Dry-Chemical Co., Ltd. was founded in 1955 and is based in Tokyo, Japan.",
     "fullTimeEmployees": 1195,
-    "companyOfficers": [],
+    "companyOfficers": [
+      {
+        "maxAge": 1,
+        "name": "Masafumi  Kamei",
+        "age": 68,
+        "title": "President & Representative Director",
+        "yearBorn": 1957,
+        "exercisedValue": 0,
+        "unexercisedValue": 0
+      },
+      {
+        "maxAge": 1,
+        "name": "Hideki  Karasawa",
+        "age": 59,
+        "title": "Deputy GM of Business Operations Division & Director",
+        "yearBorn": 1966,
+        "exercisedValue": 0,
+        "unexercisedValue": 0
+      },
+      {
+        "maxAge": 1,
+        "name": "Kenji  Oki",
+        "title": "Head of Technology Headquarters",
+        "exercisedValue": 0,
+        "unexercisedValue": 0
+      },
+      {
+        "maxAge": 1,
+        "name": "Takuhiro  Hiruta",
+        "title": "General Manager of Maintenance for Business Operations Division",
+        "exercisedValue": 0,
+        "unexercisedValue": 0
+      },
+      {
+        "maxAge": 1,
+        "name": "Toshiki  Matsuo",
+        "age": 57,
+        "title": "Head of Management Division & Director",
+        "yearBorn": 1968,
+        "exercisedValue": 0,
+        "unexercisedValue": 0
+      }
+    ],
     "executiveTeam": [],
     "maxAge": 86400,
     "priceHint": 2,
@@ -1206,8 +1248,9 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1309305600000,
+    "shortName": "NIPPON DRY-CHEMICAL CO LTD",
+    "longName": "Nippon Dry-Chemical Co., Ltd.",
+    "marketState": "PREPRE",
     "corporateActions": [],
     "regularMarketTime": 1783665000,
     "exchange": "JPX",
@@ -1217,11 +1260,17 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "marketState": "CLOSED",
-    "shortName": "NIPPON DRY-CHEMICAL CO LTD",
-    "longName": "Nippon Dry-Chemical Co., Ltd.",
     "regularMarketChangePercent": -0.135318,
     "regularMarketPrice": 3690.0,
+    "fiftyDayAverageChange": 57.78003,
+    "fiftyDayAverageChangePercent": 0.015907634,
+    "twoHundredDayAverageChange": 897.2451,
+    "twoHundredDayAverageChangePercent": 0.321276,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1309305600000,
     "regularMarketChange": -5.0,
     "regularMarketDayRange": "3690.0 - 3695.0",
     "fullExchangeName": "Tokyo",
@@ -1237,13 +1286,6 @@
     "isEarningsDateEstimate": true,
     "epsTrailingTwelveMonths": 189.67,
     "epsForward": 492.5,
-    "fiftyDayAverageChange": 57.78003,
-    "fiftyDayAverageChangePercent": 0.015907634,
-    "twoHundredDayAverageChange": 897.2451,
-    "twoHundredDayAverageChangePercent": 0.321276,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
     "trailingPegRatio": null
   }
 }

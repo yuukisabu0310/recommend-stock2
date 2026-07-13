@@ -1,7 +1,7 @@
 {
   "ticker": "1867",
   "japanese_ticker": "1867.T",
-  "fetch_date": "2026-07-11T23:50:21.522906",
+  "fetch_date": "2026-07-12T23:47:17.212078",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": -61845695.0,
@@ -1148,8 +1148,8 @@
     "averageVolume": 11163,
     "averageVolume10days": 9260,
     "averageDailyVolume10Day": 9260,
-    "bid": 2589.0,
-    "ask": 2660.0,
+    "bid": 2636.0,
+    "ask": 2636.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 17253242880,
@@ -1241,6 +1241,8 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
+    "shortName": "UEKI CORP",
+    "longName": "UEKI Corporation",
     "corporateActions": [],
     "regularMarketTime": 1783665000,
     "exchange": "JPX",
@@ -1250,11 +1252,9 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "shortName": "UEKI CORP",
-    "longName": "UEKI Corporation",
     "regularMarketChangePercent": -0.7564297,
     "regularMarketPrice": 2624.0,
-    "marketState": "CLOSED",
+    "marketState": "PREPRE",
     "trailingPegRatio": null
   }
 }

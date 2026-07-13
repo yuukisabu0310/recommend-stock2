@@ -1,7 +1,7 @@
 {
   "ticker": "2186",
   "japanese_ticker": "2186.T",
-  "fetch_date": "2026-07-11T23:55:10.997220",
+  "fetch_date": "2026-07-12T23:50:47.598996",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-02-28 00:00:00": -7107560.455279,
@@ -132,7 +132,7 @@
     "Basic Average Shares": {
       "2026-02-28 00:00:00": 7866838.0,
       "2025-02-28 00:00:00": 7867256.0,
-      "2024-02-29 00:00:00": 7866973.0,
+      "2024-02-29 00:00:00": 7867257.0,
       "2023-02-28 00:00:00": 7867257.0,
       "2022-02-28 00:00:00": null
     },
@@ -308,14 +308,14 @@
     },
     "Ordinary Shares Number": {
       "2026-02-28 00:00:00": 7867235.0,
-      "2025-02-28 00:00:00": 7867257.0,
+      "2025-02-28 00:00:00": 7867235.0,
       "2024-02-29 00:00:00": 7867257.0,
       "2023-02-28 00:00:00": 7867257.0,
       "2022-02-28 00:00:00": null
     },
     "Share Issued": {
       "2026-02-28 00:00:00": 8167498.0,
-      "2025-02-28 00:00:00": 7867257.0,
+      "2025-02-28 00:00:00": 8167498.0,
       "2024-02-29 00:00:00": 8167498.0,
       "2023-02-28 00:00:00": 8167498.0,
       "2022-02-28 00:00:00": null
@@ -710,9 +710,9 @@
     "Repurchase Of Capital Stock": {
       "2026-02-28 00:00:00": 0.0,
       "2025-02-28 00:00:00": -20000.0,
-      "2024-02-29 00:00:00": null,
+      "2024-02-29 00:00:00": 0.0,
       "2023-02-28 00:00:00": 0.0,
-      "2022-02-28 00:00:00": -26000.0
+      "2022-02-28 00:00:00": null
     },
     "Repayment Of Debt": {
       "2026-02-28 00:00:00": null,
@@ -836,7 +836,7 @@
     "Net Investment Purchase And Sale": {
       "2026-02-28 00:00:00": 0.0,
       "2025-02-28 00:00:00": -202240000.0,
-      "2024-02-29 00:00:00": null,
+      "2024-02-29 00:00:00": 0.0,
       "2023-02-28 00:00:00": null,
       "2022-02-28 00:00:00": null
     },
@@ -1115,9 +1115,9 @@
     "maxAge": 86400,
     "priceHint": 2,
     "previousClose": 907.0,
-    "open": 905.0,
+    "open": 908.0,
     "dayLow": 907.0,
-    "dayHigh": 908.0,
+    "dayHigh": 909.0,
     "regularMarketPreviousClose": 907.0,
     "regularMarketOpen": 908.0,
     "regularMarketDayLow": 907.0,
@@ -1134,8 +1134,8 @@
     "averageVolume": 2819,
     "averageVolume10days": 4820,
     "averageDailyVolume10Day": 4820,
-    "bid": 907.0,
-    "ask": 909.0,
+    "bid": 0.0,
+    "ask": 910.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 7143449600,
@@ -1203,8 +1203,6 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1229040000000,
     "corporateActions": [],
     "regularMarketTime": 1783665000,
     "exchange": "JPX",
@@ -1214,11 +1212,14 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "marketState": "CLOSED",
-    "shortName": "SOBAL CORPORATION",
-    "longName": "Sobal Corporation",
     "regularMarketChangePercent": 0.11025359,
     "regularMarketPrice": 908.0,
+    "shortName": "SOBAL CORPORATION",
+    "longName": "Sobal Corporation",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1229040000000,
+    "marketState": "PREPRE",
+    "cryptoTradeable": false,
     "regularMarketChange": 1.0,
     "regularMarketDayRange": "907.0 - 909.0",
     "fullExchangeName": "Tokyo",
@@ -1239,7 +1240,6 @@
     "twoHundredDayAverageChangePercent": 0.00066672225,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
     "trailingPegRatio": null
   }
 }

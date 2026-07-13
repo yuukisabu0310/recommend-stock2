@@ -1,7 +1,7 @@
 {
   "ticker": "2293",
   "japanese_ticker": "2293.T",
-  "fetch_date": "2026-07-11T23:56:53.693532",
+  "fetch_date": "2026-07-12T23:51:55.235670",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": 59060000.0,
@@ -271,7 +271,7 @@
     },
     "Share Issued": {
       "2026-03-31 00:00:00": 2102000.0,
-      "2025-03-31 00:00:00": 2053531.0,
+      "2025-03-31 00:00:00": 2102000.0,
       "2024-03-31 00:00:00": 2102000.0,
       "2023-03-31 00:00:00": 2102000.0
     },
@@ -951,6 +951,15 @@
         "yearBorn": 1954,
         "exercisedValue": 0,
         "unexercisedValue": 0
+      },
+      {
+        "maxAge": 1,
+        "name": "Mr. Takeo  Abe",
+        "age": 66,
+        "title": "Senior MD & General Manager of Production Headquarters",
+        "yearBorn": 1959,
+        "exercisedValue": 0,
+        "unexercisedValue": 0
       }
     ],
     "irWebsite": "http://www.takizawaham.co.jp/details/IR-Stock/IR-tanshin.html",
@@ -976,8 +985,8 @@
     "averageVolume": 583,
     "averageVolume10days": 560,
     "averageDailyVolume10Day": 560,
-    "bid": 2692.0,
-    "ask": 2725.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 5593818624,
@@ -1044,8 +1053,23 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "longName": "Takizawa Ham Co., Ltd.",
+    "cryptoTradeable": false,
+    "shortName": "TAKIZAWA HAM CO",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 948067200000,
+    "marketState": "PREPRE",
+    "corporateActions": [],
+    "regularMarketTime": 1783663099,
+    "exchange": "JPX",
+    "messageBoardId": "finmb_6464951",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
+    "regularMarketChangePercent": 0.3314917,
+    "regularMarketPrice": 2724.0,
     "regularMarketChange": 9.0,
     "regularMarketDayRange": "2704.0 - 2724.0",
     "fullExchangeName": "Tokyo",
@@ -1066,21 +1090,6 @@
     "twoHundredDayAverageChangePercent": -0.010186976,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
-    "regularMarketChangePercent": 0.3314917,
-    "regularMarketPrice": 2724.0,
-    "shortName": "TAKIZAWA HAM CO",
-    "longName": "Takizawa Ham Co., Ltd.",
-    "marketState": "CLOSED",
-    "corporateActions": [],
-    "regularMarketTime": 1783663099,
-    "exchange": "JPX",
-    "messageBoardId": "finmb_6464951",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "cryptoTradeable": false,
     "trailingPegRatio": null
   }
 }

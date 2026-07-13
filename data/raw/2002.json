@@ -1,7 +1,7 @@
 {
   "ticker": "2002",
   "japanese_ticker": "2002.T",
-  "fetch_date": "2026-07-11T23:53:02.168695",
+  "fetch_date": "2026-07-12T23:49:19.307456",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": -70770000.0,
@@ -191,9 +191,9 @@
     },
     "Special Income Charges": {
       "2026-03-31 00:00:00": -10940000000.0,
-      "2025-03-31 00:00:00": null,
-      "2024-03-31 00:00:00": null,
-      "2023-03-31 00:00:00": null
+      "2025-03-31 00:00:00": -3299000000.0,
+      "2024-03-31 00:00:00": -1578000000.0,
+      "2023-03-31 00:00:00": -56564000000.0
     },
     "Other Special Charges": {
       "2026-03-31 00:00:00": 2168000000.0,
@@ -1081,6 +1081,15 @@
       },
       {
         "maxAge": 1,
+        "name": "Mr. Kenji  Sakamoto",
+        "age": 62,
+        "title": "Senior Managing Exe Officer, GM of Human Resources & Labor Affairs Div and Representative Director",
+        "yearBorn": 1963,
+        "exercisedValue": 0,
+        "unexercisedValue": 0
+      },
+      {
+        "maxAge": 1,
         "name": "Mr. Takao  Yamada",
         "age": 65,
         "title": "Senior Managing Executive Officer & Director",
@@ -1108,8 +1117,22 @@
       },
       {
         "maxAge": 1,
+        "name": "Tsuguhiko  Yoshida",
+        "title": "Senior Managing Executive Officer and GM of R&D and Quality Assurance Division",
+        "exercisedValue": 0,
+        "unexercisedValue": 0
+      },
+      {
+        "maxAge": 1,
         "name": "Mr. Shigemitsu  Fujita",
         "title": "Managing Exe Officer, GM of Planning & General Affairs and Board of Directors Secretariat Office",
+        "exercisedValue": 0,
+        "unexercisedValue": 0
+      },
+      {
+        "maxAge": 1,
+        "name": "Hideo  Arai",
+        "title": "Senior Managing Executive Officer",
         "exercisedValue": 0,
         "unexercisedValue": 0
       }
@@ -1125,8 +1148,8 @@
     "maxAge": 86400,
     "priceHint": 2,
     "previousClose": 2035.0,
-    "open": 2048.0,
-    "dayLow": 2004.5,
+    "open": 2044.5,
+    "dayLow": 1998.0,
     "dayHigh": 2044.5,
     "regularMarketPreviousClose": 2035.0,
     "regularMarketOpen": 2044.5,
@@ -1145,17 +1168,17 @@
     "averageVolume": 903539,
     "averageVolume10days": 760760,
     "averageDailyVolume10Day": 760760,
-    "bid": 2002.0,
-    "ask": 2010.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
-    "marketCap": 560207298560,
+    "marketCap": 560482418688,
     "nonDilutedMarketCap": 560207334197,
     "fiftyTwoWeekLow": 1695.5,
     "fiftyTwoWeekHigh": 2198.5,
     "allTimeHigh": 2677.0,
     "allTimeLow": 497.37042,
-    "priceToSalesTrailing12Months": 0.64763546,
+    "priceToSalesTrailing12Months": 0.6479535,
     "fiftyDayAverage": 1970.41,
     "twoHundredDayAverage": 1960.2925,
     "trailingAnnualDividendRate": 60.0,
@@ -1165,10 +1188,10 @@
     "enterpriseValue": 573316071424,
     "profitMargins": 0.03767,
     "floatShares": 252914121,
-    "sharesOutstanding": 279614342,
+    "sharesOutstanding": 279751650,
     "heldPercentInsiders": 0.171,
     "heldPercentInstitutions": 0.45095003,
-    "impliedSharesOutstanding": 279614342,
+    "impliedSharesOutstanding": 279751650,
     "bookValue": 1848.361,
     "priceToBook": 1.0839334,
     "lastFiscalYearEnd": 1774915200,
@@ -1223,18 +1246,6 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "regularMarketChangePercent": -1.5479115,
-    "regularMarketPrice": 2003.5,
-    "corporateActions": [],
-    "regularMarketTime": 1783665000,
-    "exchange": "JPX",
-    "messageBoardId": "finmb_874802",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
-    "marketState": "CLOSED",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 946944000000,
     "regularMarketChange": -31.5,
@@ -1265,6 +1276,18 @@
     "exchangeDataDelayedBy": 20,
     "averageAnalystRating": "3.0 - Hold",
     "cryptoTradeable": false,
+    "marketState": "PREPRE",
+    "corporateActions": [],
+    "regularMarketTime": 1783665000,
+    "exchange": "JPX",
+    "messageBoardId": "finmb_874802",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
+    "regularMarketChangePercent": -1.5479115,
+    "regularMarketPrice": 2003.5,
     "trailingPegRatio": null
   }
 }

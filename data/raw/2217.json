@@ -1,7 +1,7 @@
 {
   "ticker": "2217",
   "japanese_ticker": "2217.T",
-  "fetch_date": "2026-07-11T23:55:40.832451",
+  "fetch_date": "2026-07-12T23:51:17.969491",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-01-31 00:00:00": -79045600.0,
@@ -132,7 +132,7 @@
     "Basic Average Shares": {
       "2026-01-31 00:00:00": null,
       "2025-01-31 00:00:00": 20551802.0,
-      "2024-01-31 00:00:00": 21038492.0,
+      "2024-01-31 00:00:00": 21039516.0,
       "2023-01-31 00:00:00": 21107790.0,
       "2022-01-31 00:00:00": 21099078.0
     },
@@ -301,14 +301,14 @@
   "balance_sheet": {
     "Treasury Shares Number": {
       "2026-01-31 00:00:00": 1204758.0,
-      "2025-01-31 00:00:00": null,
+      "2025-01-31 00:00:00": 1054635.0,
       "2024-01-31 00:00:00": 513351.0,
       "2023-01-31 00:00:00": 154812.0,
-      "2022-01-31 00:00:00": 914964.0
+      "2022-01-31 00:00:00": null
     },
     "Ordinary Shares Number": {
       "2026-01-31 00:00:00": 20060598.0,
-      "2025-01-31 00:00:00": 20211495.0,
+      "2025-01-31 00:00:00": 20210721.0,
       "2024-01-31 00:00:00": 20752005.0,
       "2023-01-31 00:00:00": 21110544.0,
       "2022-01-31 00:00:00": null
@@ -1169,9 +1169,9 @@
     "maxAge": 86400,
     "priceHint": 2,
     "previousClose": 1555.0,
-    "open": 1562.0,
+    "open": 1563.0,
     "dayLow": 1555.0,
-    "dayHigh": 1563.0,
+    "dayHigh": 1564.0,
     "regularMarketPreviousClose": 1555.0,
     "regularMarketOpen": 1563.0,
     "regularMarketDayLow": 1555.0,
@@ -1189,7 +1189,7 @@
     "averageVolume": 23129,
     "averageVolume10days": 25930,
     "averageDailyVolume10Day": 25930,
-    "bid": 1559.0,
+    "bid": 0.0,
     "ask": 1563.0,
     "bidSize": 0,
     "askSize": 0,
@@ -1258,6 +1258,11 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "earningsTimestampStart": 1749708000,
+    "earningsTimestampEnd": 1749708000,
+    "isEarningsDateEstimate": false,
+    "epsTrailingTwelveMonths": 31.82,
+    "epsForward": 227.0,
     "fiftyDayAverageChange": 53.56006,
     "fiftyDayAverageChangePercent": 0.035554063,
     "twoHundredDayAverageChange": 37.78003,
@@ -1265,6 +1270,7 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
+    "marketState": "PREPRE",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 978307200000,
     "regularMarketChange": 5.0,
@@ -1277,16 +1283,6 @@
     "fiftyTwoWeekHighChange": -55.0,
     "fiftyTwoWeekHighChangePercent": -0.03405573,
     "fiftyTwoWeekChangePercent": -2.133,
-    "earningsTimestampStart": 1749708000,
-    "earningsTimestampEnd": 1749708000,
-    "isEarningsDateEstimate": false,
-    "epsTrailingTwelveMonths": 31.82,
-    "epsForward": 227.0,
-    "shortName": "MOROZOFF LIMITED",
-    "longName": "Morozoff Limited",
-    "regularMarketChangePercent": 0.3215434,
-    "regularMarketPrice": 1560.0,
-    "marketState": "CLOSED",
     "corporateActions": [
       {
         "header": "Dividend",
@@ -1306,6 +1302,10 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
+    "regularMarketChangePercent": 0.3215434,
+    "regularMarketPrice": 1560.0,
+    "shortName": "MOROZOFF LIMITED",
+    "longName": "Morozoff Limited",
     "trailingPegRatio": null
   }
 }

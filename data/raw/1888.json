@@ -1,7 +1,7 @@
 {
   "ticker": "1888",
   "japanese_ticker": "1888.T",
-  "fetch_date": "2026-07-11T23:50:40.909500",
+  "fetch_date": "2026-07-12T23:47:36.285432",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": 14617000.0,
@@ -1122,6 +1122,45 @@
         "title": "Executive Officer & GM of Human Resources Department",
         "exercisedValue": 0,
         "unexercisedValue": 0
+      },
+      {
+        "maxAge": 1,
+        "name": "Mr. Makoto  Nakamura",
+        "age": 65,
+        "title": "Managing Executive Officer, GM of Business Management Division & Director",
+        "yearBorn": 1960,
+        "exercisedValue": 0,
+        "unexercisedValue": 0
+      },
+      {
+        "maxAge": 1,
+        "name": "Mr. Hidetaka  Noki",
+        "title": "Managing Executive Officer & Tokyo Branch Manager",
+        "exercisedValue": 0,
+        "unexercisedValue": 0
+      },
+      {
+        "maxAge": 1,
+        "name": "Mr. Hisatoshi  Makihara",
+        "age": 63,
+        "title": "Sr. Managing Executive Officer, GM of Construction Business Division & Representative Director",
+        "yearBorn": 1962,
+        "exercisedValue": 0,
+        "unexercisedValue": 0
+      },
+      {
+        "maxAge": 1,
+        "name": "Hisayuki  Nakayama",
+        "title": "Managing Executive Officer & GM of Corporate Planning Department",
+        "exercisedValue": 0,
+        "unexercisedValue": 0
+      },
+      {
+        "maxAge": 1,
+        "name": "Hiroki  Mizoguchi",
+        "title": "Senior Managing Executive Officer",
+        "exercisedValue": 0,
+        "unexercisedValue": 0
       }
     ],
     "irWebsite": "http://www.wakachiku.co.jp/ir/fir.htm",
@@ -1148,8 +1187,8 @@
     "averageVolume": 15263,
     "averageVolume10days": 13390,
     "averageDailyVolume10Day": 13390,
-    "bid": 3360.0,
-    "ask": 3385.0,
+    "bid": 0.0,
+    "ask": 3460.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 43018461184,
@@ -1167,7 +1206,7 @@
     "tradeable": false,
     "enterpriseValue": 45728460800,
     "profitMargins": 0.041690003,
-    "floatShares": 4740176,
+    "floatShares": 3668915,
     "sharesOutstanding": 12727355,
     "heldPercentInsiders": 0.66606003,
     "heldPercentInstitutions": 0.12122,
@@ -1218,19 +1257,6 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "shortName": "WAKACHIKU CONSTRUCTION CO",
-    "corporateActions": [],
-    "regularMarketTime": 1783665000,
-    "exchange": "JPX",
-    "messageBoardId": "finmb_874521",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
-    "regularMarketChangePercent": 2.269289,
-    "regularMarketPrice": 3380.0,
-    "longName": "Wakachiku Construction Co., Ltd.",
     "fiftyDayAverageChange": -5.199951,
     "fiftyDayAverageChangePercent": -0.0015360839,
     "twoHundredDayAverageChange": -900.3501,
@@ -1238,7 +1264,6 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
-    "marketState": "CLOSED",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 978307200000,
     "regularMarketChange": 75.0,
@@ -1255,6 +1280,20 @@
     "earningsTimestampEnd": 1754982000,
     "isEarningsDateEstimate": true,
     "epsTrailingTwelveMonths": 343.07,
+    "marketState": "PREPRE",
+    "shortName": "WAKACHIKU CONSTRUCTION CO",
+    "longName": "Wakachiku Construction Co., Ltd.",
+    "corporateActions": [],
+    "regularMarketTime": 1783665000,
+    "exchange": "JPX",
+    "messageBoardId": "finmb_874521",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
+    "regularMarketChangePercent": 2.269289,
+    "regularMarketPrice": 3380.0,
     "trailingPegRatio": null
   }
 }

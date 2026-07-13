@@ -1,7 +1,7 @@
 {
   "ticker": "1799",
   "japanese_ticker": "1799.T",
-  "fetch_date": "2026-07-11T23:48:45.056422",
+  "fetch_date": "2026-07-12T23:46:17.702272",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": 14782063.015977,
@@ -132,7 +132,7 @@
     "Basic Average Shares": {
       "2026-03-31 00:00:00": null,
       "2025-03-31 00:00:00": 18858564.0,
-      "2024-03-31 00:00:00": 19496781.0,
+      "2024-03-31 00:00:00": 19495960.0,
       "2023-03-31 00:00:00": 19944038.0,
       "2022-03-31 00:00:00": 20322000.0
     },
@@ -350,21 +350,21 @@
   "balance_sheet": {
     "Treasury Shares Number": {
       "2026-03-31 00:00:00": 3157064.0,
-      "2025-03-31 00:00:00": null,
+      "2025-03-31 00:00:00": 2092427.0,
       "2024-03-31 00:00:00": 1395723.0,
       "2023-03-31 00:00:00": 1270989.0,
-      "2022-03-31 00:00:00": 547177.0
+      "2022-03-31 00:00:00": null
     },
     "Ordinary Shares Number": {
       "2026-03-31 00:00:00": 17701427.0,
-      "2025-03-31 00:00:00": 18761968.0,
+      "2025-03-31 00:00:00": 18766064.0,
       "2024-03-31 00:00:00": 19462768.0,
       "2023-03-31 00:00:00": 19587502.0,
       "2022-03-31 00:00:00": null
     },
     "Share Issued": {
       "2026-03-31 00:00:00": 20858491.0,
-      "2025-03-31 00:00:00": 18761968.0,
+      "2025-03-31 00:00:00": 20858491.0,
       "2024-03-31 00:00:00": 20858491.0,
       "2023-03-31 00:00:00": 20858491.0,
       "2022-03-31 00:00:00": null
@@ -1123,7 +1123,51 @@
     "sectorDisp": "Industrials",
     "longBusinessSummary": "Daiichi Kensetsu Corporation engages civil engineering and construction contracting businesses in Japan. It undertakes civil engineering works related to railways and surrounding areas; public works; construction works; construction of new railway tracks and railroad crossings for conventional lines; and maintenance of railway tracks. Daiichi Kensetsu Corporation was incorporated in 1942 and is headquartered in Niigata, Japan.",
     "fullTimeEmployees": 903,
-    "companyOfficers": [],
+    "companyOfficers": [
+      {
+        "maxAge": 1,
+        "name": "Akihiro  Koide",
+        "title": "Exec. Officer, GM of Accounting and Deputy GM - General Planning Headquarters",
+        "exercisedValue": 0,
+        "unexercisedValue": 0
+      },
+      {
+        "maxAge": 1,
+        "name": "Mr. Isao  Horiyama",
+        "age": 62,
+        "title": "Managing Executive Officer & GM of Track Dept.",
+        "yearBorn": 1963,
+        "exercisedValue": 0,
+        "unexercisedValue": 0
+      },
+      {
+        "maxAge": 1,
+        "name": "Mr. Kenichi  Sasaki",
+        "age": 57,
+        "title": "Managing Executive Officer, GM of Niigata Branch & Director",
+        "yearBorn": 1968,
+        "exercisedValue": 0,
+        "unexercisedValue": 0
+      },
+      {
+        "maxAge": 1,
+        "name": "Mr. Haruhiko  Hayakawa",
+        "age": 56,
+        "title": "Executive Officer, GM of Management Hq. & Director",
+        "yearBorn": 1969,
+        "exercisedValue": 0,
+        "unexercisedValue": 0
+      },
+      {
+        "maxAge": 1,
+        "name": "Mr. Mikio  Ochiai",
+        "age": 64,
+        "title": "Managing Executive Officer, General Affairs & Strategy Division",
+        "yearBorn": 1961,
+        "exercisedValue": 0,
+        "unexercisedValue": 0
+      }
+    ],
     "executiveTeam": [],
     "maxAge": 86400,
     "priceHint": 2,
@@ -1148,8 +1192,8 @@
     "averageVolume": 31888,
     "averageVolume10days": 23090,
     "averageDailyVolume10Day": 23090,
-    "bid": 3410.0,
-    "ask": 3425.0,
+    "bid": 0.0,
+    "ask": 3350.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 60627390464,
@@ -1217,29 +1261,8 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "shortName": "DAIICHI KENSETSU CORP",
-    "longName": "Daiichi Kensetsu Corporation",
-    "exchange": "JPX",
-    "messageBoardId": "finmb_880783",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
-    "marketState": "CLOSED",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 946944000000,
-    "regularMarketChangePercent": 0.88365245,
-    "regularMarketPrice": 3425.0,
-    "corporateActions": [],
-    "regularMarketTime": 1783665000,
-    "fiftyDayAverageChange": 46.19995,
-    "fiftyDayAverageChangePercent": 0.013673479,
-    "twoHundredDayAverageChange": -216.5,
-    "twoHundredDayAverageChangePercent": -0.05945352,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
     "regularMarketChange": 30.0,
     "regularMarketDayRange": "3410.0 - 3470.0",
     "fullExchangeName": "Tokyo",
@@ -1255,6 +1278,27 @@
     "isEarningsDateEstimate": false,
     "epsTrailingTwelveMonths": 293.18,
     "epsForward": 189.4,
+    "corporateActions": [],
+    "regularMarketTime": 1783665000,
+    "marketState": "PREPRE",
+    "exchange": "JPX",
+    "messageBoardId": "finmb_880783",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
+    "regularMarketChangePercent": 0.88365245,
+    "regularMarketPrice": 3425.0,
+    "fiftyDayAverageChange": 46.19995,
+    "fiftyDayAverageChangePercent": 0.013673479,
+    "twoHundredDayAverageChange": -216.5,
+    "twoHundredDayAverageChangePercent": -0.05945352,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
+    "shortName": "DAIICHI KENSETSU CORP",
+    "longName": "Daiichi Kensetsu Corporation",
     "trailingPegRatio": null
   }
 }

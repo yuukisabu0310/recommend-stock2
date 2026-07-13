@@ -1,7 +1,7 @@
 {
   "ticker": "2810",
   "japanese_ticker": "2810.T",
-  "fetch_date": "2026-07-12T00:04:45.564469",
+  "fetch_date": "2026-07-12T23:58:10.959220",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": -744800000.0,
@@ -12,7 +12,7 @@
     "Tax Rate For Calcs": {
       "2026-03-31 00:00:00": 0.4,
       "2025-03-31 00:00:00": 0.2918,
-      "2024-03-31 00:00:00": 0.297258,
+      "2024-03-31 00:00:00": 0.2973,
       "2023-03-31 00:00:00": 0.2724
     },
     "Normalized EBITDA": {
@@ -1253,7 +1253,7 @@
     "maxAge": 86400,
     "priceHint": 2,
     "previousClose": 3881.0,
-    "open": 3945.0,
+    "open": 3860.0,
     "dayLow": 3812.0,
     "dayHigh": 3871.0,
     "regularMarketPreviousClose": 3881.0,
@@ -1273,8 +1273,8 @@
     "averageVolume": 292803,
     "averageVolume10days": 306410,
     "averageDailyVolume10Day": 306410,
-    "bid": 3828.0,
-    "ask": 3840.0,
+    "bid": 0.0,
+    "ask": 3801.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 344226136064,
@@ -1345,8 +1345,9 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "regularMarketChangePercent": -1.3398608,
-    "regularMarketPrice": 3829.0,
+    "marketState": "PREPRE",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 978307200000,
     "corporateActions": [],
     "regularMarketTime": 1783665000,
     "exchange": "JPX",
@@ -1356,9 +1357,6 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "marketState": "CLOSED",
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 978307200000,
     "regularMarketChange": -52.0,
     "regularMarketDayRange": "3812.0 - 3871.0",
     "fullExchangeName": "Tokyo",
@@ -1377,8 +1375,6 @@
     "isEarningsDateEstimate": true,
     "epsTrailingTwelveMonths": 79.64,
     "epsForward": 157.46,
-    "shortName": "HOUSE FOODS GROUP INC",
-    "longName": "House Foods Group Inc.",
     "fiftyDayAverageChange": 326.37012,
     "fiftyDayAverageChangePercent": 0.09317859,
     "twoHundredDayAverageChange": 727.1599,
@@ -1386,6 +1382,10 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
+    "regularMarketChangePercent": -1.3398608,
+    "regularMarketPrice": 3829.0,
+    "shortName": "HOUSE FOODS GROUP INC",
+    "longName": "House Foods Group Inc.",
     "trailingPegRatio": null
   }
 }

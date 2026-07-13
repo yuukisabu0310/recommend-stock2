@@ -1,7 +1,7 @@
 {
   "ticker": "1717",
   "japanese_ticker": "1717.T",
-  "fetch_date": "2026-07-11T23:47:22.295616",
+  "fetch_date": "2026-07-12T23:45:29.254141",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": -367342.2,
@@ -287,10 +287,10 @@
   "balance_sheet": {
     "Treasury Shares Number": {
       "2026-03-31 00:00:00": 1017244.0,
-      "2025-03-31 00:00:00": null,
+      "2025-03-31 00:00:00": 1105228.0,
       "2024-03-31 00:00:00": 1177199.0,
       "2023-03-31 00:00:00": 1247340.0,
-      "2022-03-31 00:00:00": 1281903.0
+      "2022-03-31 00:00:00": null
     },
     "Ordinary Shares Number": {
       "2026-03-31 00:00:00": 11758656.0,
@@ -1052,8 +1052,8 @@
     "averageVolume": 27303,
     "averageVolume10days": 20420,
     "averageDailyVolume10Day": 20420,
-    "bid": 943.0,
-    "ask": 948.0,
+    "bid": 0.0,
+    "ask": 941.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 11100171264,
@@ -1122,7 +1122,6 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "marketState": "CLOSED",
     "corporateActions": [],
     "regularMarketTime": 1783665000,
     "exchange": "JPX",
@@ -1132,10 +1131,8 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "shortName": "MEIHO FACILITY WORKS",
-    "longName": "Meiho Facility Works Ltd.",
-    "averageDailyVolume3Month": 27303,
-    "fiftyTwoWeekLowChange": 64.0,
+    "regularMarketChangePercent": -0.21141648,
+    "regularMarketPrice": 944.0,
     "fiftyTwoWeekLowChangePercent": 0.07272727,
     "fiftyTwoWeekRange": "880.0 - 1155.0",
     "fiftyTwoWeekHighChange": -211.0,
@@ -1153,13 +1150,16 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
+    "shortName": "MEIHO FACILITY WORKS",
+    "longName": "Meiho Facility Works Ltd.",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1077148800000,
     "regularMarketChange": -2.0,
     "regularMarketDayRange": "939.0 - 947.0",
     "fullExchangeName": "Tokyo",
-    "regularMarketChangePercent": -0.21141648,
-    "regularMarketPrice": 944.0,
+    "averageDailyVolume3Month": 27303,
+    "fiftyTwoWeekLowChange": 64.0,
+    "marketState": "PREPRE",
     "trailingPegRatio": null
   }
 }

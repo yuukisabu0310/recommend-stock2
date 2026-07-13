@@ -1,7 +1,7 @@
 {
   "ticker": "1942",
   "japanese_ticker": "1942.T",
-  "fetch_date": "2026-07-11T23:51:56.015821",
+  "fetch_date": "2026-07-12T23:48:18.300581",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": 1897031000.0,
@@ -1072,6 +1072,15 @@
       },
       {
         "maxAge": 1,
+        "name": "Mr. Hirofumi  Tamogami",
+        "age": 62,
+        "title": "President & Representative Director",
+        "yearBorn": 1963,
+        "exercisedValue": 0,
+        "unexercisedValue": 0
+      },
+      {
+        "maxAge": 1,
         "name": "Mr. Hitoshi  Sugizaki",
         "age": 64,
         "title": "Chief Financial Officer",
@@ -1131,13 +1140,6 @@
         "title": "Sr Executive Managing Officer, Division Manager of Strategy & Technology Development",
         "exercisedValue": 0,
         "unexercisedValue": 0
-      },
-      {
-        "maxAge": 1,
-        "name": "Mr. Eisaku  Shimizu",
-        "title": "Executive Managing Officer of Social Infrastructure & Head of Information and Communication Unit",
-        "exercisedValue": 0,
-        "unexercisedValue": 0
       }
     ],
     "auditRisk": 4,
@@ -1152,7 +1154,7 @@
     "previousClose": 6382.0,
     "open": 6282.0,
     "dayLow": 6281.0,
-    "dayHigh": 6419.0,
+    "dayHigh": 6423.0,
     "regularMarketPreviousClose": 6382.0,
     "regularMarketOpen": 6282.0,
     "regularMarketDayLow": 6281.0,
@@ -1170,8 +1172,8 @@
     "averageVolume": 1195873,
     "averageVolume10days": 789560,
     "averageDailyVolume10Day": 789560,
-    "bid": 6338.0,
-    "ask": 6360.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 1263937650688,
@@ -1245,8 +1247,13 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 978307200000,
+    "regularMarketChangePercent": -0.48574117,
+    "regularMarketPrice": 6351.0,
+    "marketState": "PREPRE",
+    "corporateActions": [],
+    "regularMarketTime": 1783665000,
+    "shortName": "KANDENKO CO LTD",
+    "longName": "Kandenko Co.,Ltd.",
     "regularMarketChange": -31.0,
     "regularMarketDayRange": "6281.0 - 6423.0",
     "fullExchangeName": "Tokyo",
@@ -1269,21 +1276,16 @@
     "twoHundredDayAverageChangePercent": 0.11171693,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 978307200000,
+    "exchange": "JPX",
+    "messageBoardId": "finmb_880786",
     "exchangeTimezoneName": "Asia/Tokyo",
     "exchangeTimezoneShortName": "JST",
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "shortName": "KANDENKO CO LTD",
-    "longName": "Kandenko Co.,Ltd.",
-    "marketState": "CLOSED",
-    "corporateActions": [],
-    "regularMarketTime": 1783665000,
-    "exchange": "JPX",
-    "messageBoardId": "finmb_880786",
-    "regularMarketChangePercent": -0.48574117,
-    "regularMarketPrice": 6351.0,
+    "cryptoTradeable": false,
     "trailingPegRatio": null
   }
 }

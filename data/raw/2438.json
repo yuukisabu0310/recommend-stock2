@@ -1,7 +1,7 @@
 {
   "ticker": "2438",
   "japanese_ticker": "2438.T",
-  "fetch_date": "2026-07-11T23:59:47.877065",
+  "fetch_date": "2026-07-12T23:54:08.827830",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-04-30 00:00:00": -101508816.0,
@@ -101,13 +101,13 @@
     },
     "Diluted Average Shares": {
       "2025-04-30 00:00:00": 16138920.0,
-      "2024-04-30 00:00:00": 16482782.0,
+      "2024-04-30 00:00:00": 16483598.0,
       "2023-04-30 00:00:00": 16672047.0,
       "2022-04-30 00:00:00": 16841606.0
     },
     "Basic Average Shares": {
       "2025-04-30 00:00:00": 16138920.0,
-      "2024-04-30 00:00:00": 16482782.0,
+      "2024-04-30 00:00:00": 16483598.0,
       "2023-04-30 00:00:00": 16672047.0,
       "2022-04-30 00:00:00": 16841606.0
     },
@@ -893,7 +893,7 @@
     "maxAge": 86400,
     "priceHint": 2,
     "previousClose": 362.0,
-    "open": 356.0,
+    "open": 361.0,
     "dayLow": 360.0,
     "dayHigh": 380.0,
     "regularMarketPreviousClose": 362.0,
@@ -912,8 +912,8 @@
     "averageVolume": 160234,
     "averageVolume10days": 596590,
     "averageDailyVolume10Day": 596590,
-    "bid": 376.0,
-    "ask": 379.0,
+    "bid": 0.0,
+    "ask": 381.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 5685475328,
@@ -979,6 +979,13 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "fiftyDayAverageChange": 45.440002,
+    "fiftyDayAverageChangePercent": 0.13622737,
+    "twoHundredDayAverageChange": 20.945007,
+    "twoHundredDayAverageChangePercent": 0.05849662,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1113436800000,
     "regularMarketChange": 17.0,
@@ -995,13 +1002,9 @@
     "earningsTimestampEnd": 1749553140,
     "isEarningsDateEstimate": false,
     "epsTrailingTwelveMonths": 18.95,
-    "fiftyDayAverageChange": 45.440002,
-    "fiftyDayAverageChangePercent": 0.13622737,
-    "twoHundredDayAverageChange": 20.945007,
-    "twoHundredDayAverageChangePercent": 0.05849662,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
+    "marketState": "PREPRE",
+    "shortName": "ASUKANET CO LIMITED",
+    "longName": "Asukanet Co., Ltd.",
     "corporateActions": [],
     "regularMarketTime": 1783665000,
     "exchange": "JPX",
@@ -1013,9 +1016,6 @@
     "esgPopulated": false,
     "regularMarketChangePercent": 4.6961327,
     "regularMarketPrice": 379.0,
-    "marketState": "CLOSED",
-    "shortName": "ASUKANET CO LIMITED",
-    "longName": "Asukanet Co., Ltd.",
     "trailingPegRatio": null
   }
 }

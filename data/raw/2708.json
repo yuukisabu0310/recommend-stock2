@@ -1,7 +1,7 @@
 {
   "ticker": "2708",
   "japanese_ticker": "2708.T",
-  "fetch_date": "2026-07-12T00:03:07.296806",
+  "fetch_date": "2026-07-12T23:56:42.075327",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": 9468000.0,
@@ -139,7 +139,7 @@
     "Basic Average Shares": {
       "2026-03-31 00:00:00": null,
       "2025-03-31 00:00:00": 4626276.0,
-      "2024-03-31 00:00:00": 4625875.0,
+      "2024-03-31 00:00:00": 4626300.0,
       "2023-03-31 00:00:00": 4598451.0,
       "2022-03-31 00:00:00": 3701382.0
     },
@@ -350,10 +350,10 @@
   "balance_sheet": {
     "Treasury Shares Number": {
       "2026-03-31 00:00:00": 51.0,
-      "2025-03-31 00:00:00": null,
+      "2025-03-31 00:00:00": 51.0,
       "2024-03-31 00:00:00": 51.0,
       "2023-03-31 00:00:00": 0.0,
-      "2022-03-31 00:00:00": 181118.0
+      "2022-03-31 00:00:00": null
     },
     "Ordinary Shares Number": {
       "2026-03-31 00:00:00": 4626276.0,
@@ -364,7 +364,7 @@
     },
     "Share Issued": {
       "2026-03-31 00:00:00": 4626327.0,
-      "2025-03-31 00:00:00": 4626276.0,
+      "2025-03-31 00:00:00": 4626327.0,
       "2024-03-31 00:00:00": 4626327.0,
       "2023-03-31 00:00:00": 4626327.0,
       "2022-03-31 00:00:00": null
@@ -638,14 +638,14 @@
     "Long Term Equity Investment": {
       "2026-03-31 00:00:00": 149000000.0,
       "2025-03-31 00:00:00": 134000000.0,
-      "2024-03-31 00:00:00": null,
+      "2024-03-31 00:00:00": 0.0,
       "2023-03-31 00:00:00": null,
       "2022-03-31 00:00:00": null
     },
     "Investmentsin Subsidiariesat Cost": {
       "2026-03-31 00:00:00": 149000000.0,
       "2025-03-31 00:00:00": 134000000.0,
-      "2024-03-31 00:00:00": null,
+      "2024-03-31 00:00:00": 0.0,
       "2023-03-31 00:00:00": null,
       "2022-03-31 00:00:00": null
     },
@@ -990,7 +990,7 @@
     "Net Business Purchase And Sale": {
       "2026-03-31 00:00:00": -50000000.0,
       "2025-03-31 00:00:00": 161000000.0,
-      "2024-03-31 00:00:00": null,
+      "2024-03-31 00:00:00": 0.0,
       "2023-03-31 00:00:00": null,
       "2022-03-31 00:00:00": null
     },
@@ -1181,6 +1181,24 @@
         "yearBorn": 1972,
         "exercisedValue": 0,
         "unexercisedValue": 0
+      },
+      {
+        "maxAge": 1,
+        "name": "Mr. Hirotada  Kato",
+        "age": 70,
+        "title": "Managing Director",
+        "yearBorn": 1955,
+        "exercisedValue": 0,
+        "unexercisedValue": 0
+      },
+      {
+        "maxAge": 1,
+        "name": "Mr. Hiroyuki  Yoshida",
+        "age": 58,
+        "title": "Senior MD & Director",
+        "yearBorn": 1967,
+        "exercisedValue": 0,
+        "unexercisedValue": 0
       }
     ],
     "irWebsite": "http://www.kuze.co.jp/",
@@ -1188,7 +1206,7 @@
     "maxAge": 86400,
     "priceHint": 2,
     "previousClose": 1990.0,
-    "open": 1995.0,
+    "open": 1996.0,
     "dayLow": 1990.0,
     "dayHigh": 1996.0,
     "regularMarketPreviousClose": 1990.0,
@@ -1207,8 +1225,8 @@
     "averageVolume": 1886,
     "averageVolume10days": 1460,
     "averageDailyVolume10Day": 1460,
-    "bid": 1990.0,
-    "ask": 1996.0,
+    "bid": 0.0,
+    "ask": 2069.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 9234046976,
@@ -1275,10 +1293,21 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "regularMarketChangePercent": 0.30150753,
+    "regularMarketPrice": 1996.0,
     "corporateActions": [],
     "regularMarketTime": 1783665000,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1000252800000,
+    "exchange": "JPX",
+    "messageBoardId": "finmb_1333955",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
+    "marketState": "PREPRE",
+    "shortName": "KUZE CO LTD",
+    "longName": "Kuze Co., Ltd.",
+    "cryptoTradeable": false,
     "regularMarketChange": 6.0,
     "regularMarketDayRange": "1990.0 - 1996.0",
     "fullExchangeName": "Tokyo",
@@ -1292,18 +1321,6 @@
     "earningsTimestampStart": 1747291200,
     "earningsTimestampEnd": 1747291200,
     "isEarningsDateEstimate": false,
-    "exchange": "JPX",
-    "messageBoardId": "finmb_1333955",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
-    "regularMarketPrice": 1996.0,
-    "regularMarketChangePercent": 0.30150753,
-    "shortName": "KUZE CO LTD",
-    "longName": "Kuze Co., Ltd.",
-    "marketState": "CLOSED",
     "epsTrailingTwelveMonths": 380.24,
     "fiftyDayAverageChange": 118.06006,
     "fiftyDayAverageChangePercent": 0.06286679,
@@ -1312,8 +1329,9 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "prevName": "Kuze Co.,Ltd.",
-    "nameChangeDate": "2026-07-11",
-    "cryptoTradeable": false,
+    "nameChangeDate": "2026-07-12",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1000252800000,
     "trailingPegRatio": null
   }
 }

@@ -1,7 +1,7 @@
 {
   "ticker": "2687",
   "japanese_ticker": "2687.T",
-  "fetch_date": "2026-07-12T00:02:45.231953",
+  "fetch_date": "2026-07-12T23:56:21.588060",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-02-28 00:00:00": -278906400.0,
@@ -132,14 +132,14 @@
     "Diluted Average Shares": {
       "2026-02-28 00:00:00": 4936421.0,
       "2025-02-28 00:00:00": null,
-      "2024-02-29 00:00:00": 4936477.0,
+      "2024-02-29 00:00:00": 4936349.0,
       "2023-02-28 00:00:00": 4936349.0,
       "2022-02-28 00:00:00": 4936302.0
     },
     "Basic Average Shares": {
       "2026-02-28 00:00:00": null,
       "2025-02-28 00:00:00": null,
-      "2024-02-29 00:00:00": 4936477.0,
+      "2024-02-29 00:00:00": 4936349.0,
       "2023-02-28 00:00:00": 4936349.0,
       "2022-02-28 00:00:00": 4936302.0
     },
@@ -357,10 +357,10 @@
   "balance_sheet": {
     "Treasury Shares Number": {
       "2026-02-28 00:00:00": 127651.0,
-      "2025-02-28 00:00:00": null,
+      "2025-02-28 00:00:00": 127651.0,
       "2024-02-29 00:00:00": 127651.0,
       "2023-02-28 00:00:00": 127651.0,
-      "2022-02-28 00:00:00": 127651.0
+      "2022-02-28 00:00:00": null
     },
     "Ordinary Shares Number": {
       "2026-02-28 00:00:00": 4936349.0,
@@ -519,7 +519,7 @@
     "Non Current Deferred Taxes Liabilities": {
       "2026-02-28 00:00:00": 11000.0,
       "2025-02-28 00:00:00": 664000.0,
-      "2024-02-29 00:00:00": null,
+      "2024-02-29 00:00:00": 0.0,
       "2023-02-28 00:00:00": null,
       "2022-02-28 00:00:00": null
     },
@@ -1196,7 +1196,7 @@
     "maxAge": 86400,
     "priceHint": 2,
     "previousClose": 490.0,
-    "open": 489.0,
+    "open": 490.0,
     "dayLow": 490.0,
     "dayHigh": 501.0,
     "regularMarketPreviousClose": 490.0,
@@ -1215,7 +1215,7 @@
     "averageVolume10days": 4590,
     "averageDailyVolume10Day": 4590,
     "bid": 500.0,
-    "ask": 501.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 2473110784,
@@ -1282,6 +1282,16 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "fiftyDayAverageChange": 18.200012,
+    "fiftyDayAverageChangePercent": 0.037696794,
+    "twoHundredDayAverageChange": -12.02002,
+    "twoHundredDayAverageChangePercent": -0.023429923,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
+    "regularMarketChangePercent": 2.2448978,
+    "regularMarketPrice": 501.0,
+    "longName": "CVS Bay Area Inc.",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1033516800000,
     "regularMarketChange": 11.0,
@@ -1298,13 +1308,6 @@
     "earningsTimestampEnd": 1752215400,
     "isEarningsDateEstimate": false,
     "epsTrailingTwelveMonths": -230.91,
-    "fiftyDayAverageChange": 18.200012,
-    "fiftyDayAverageChangePercent": 0.037696794,
-    "twoHundredDayAverageChange": -12.02002,
-    "twoHundredDayAverageChangePercent": -0.023429923,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
     "corporateActions": [],
     "regularMarketTime": 1783665000,
     "exchange": "JPX",
@@ -1314,11 +1317,8 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "regularMarketChangePercent": 2.2448978,
-    "regularMarketPrice": 501.0,
-    "marketState": "CLOSED",
     "shortName": "CVS BAY AREA INC",
-    "longName": "CVS Bay Area Inc.",
+    "marketState": "PREPRE",
     "trailingPegRatio": null
   }
 }

@@ -1,7 +1,7 @@
 {
   "ticker": "1861",
   "japanese_ticker": "1861.T",
-  "fetch_date": "2026-07-11T23:50:16.992172",
+  "fetch_date": "2026-07-12T23:47:13.694690",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": 796620000.0,
@@ -1082,7 +1082,7 @@
         "maxAge": 1,
         "name": "Koji  Okaichi",
         "age": 65,
-        "title": "Executive Officer, Executive VP & Representative Director",
+        "title": "Executive Vice President & Executive Officer",
         "yearBorn": 1960,
         "exercisedValue": 0,
         "unexercisedValue": 0
@@ -1158,8 +1158,8 @@
     "averageVolume": 903655,
     "averageVolume10days": 873280,
     "averageDailyVolume10Day": 873280,
-    "bid": 1483.0,
-    "ask": 1489.0,
+    "bid": 1509.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 252157624320,
@@ -1263,9 +1263,7 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "averageAnalystRating": "1.8 - Buy",
-    "cryptoTradeable": false,
-    "corporateActions": [],
-    "regularMarketTime": 1783665000,
+    "marketState": "PREPRE",
     "exchange": "JPX",
     "messageBoardId": "finmb_874274",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1273,11 +1271,13 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "shortName": "KUMAGAI GUMI CO",
-    "longName": "Kumagai Gumi Co.,Ltd.",
+    "corporateActions": [],
+    "regularMarketTime": 1783665000,
     "regularMarketChangePercent": -0.26881722,
     "regularMarketPrice": 1484.0,
-    "marketState": "CLOSED",
+    "cryptoTradeable": false,
+    "shortName": "KUMAGAI GUMI CO",
+    "longName": "Kumagai Gumi Co.,Ltd.",
     "trailingPegRatio": null
   }
 }

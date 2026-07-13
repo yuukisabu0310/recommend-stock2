@@ -1,7 +1,7 @@
 {
   "ticker": "1826",
   "japanese_ticker": "1826.T",
-  "fetch_date": "2026-07-11T23:49:46.088524",
+  "fetch_date": "2026-07-12T23:46:46.353339",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": -73848000.0,
@@ -1085,10 +1085,55 @@
       },
       {
         "maxAge": 1,
+        "name": "Mr. Kanehiro  Horiuchi",
+        "age": 62,
+        "title": "Executive Officer, GM of Administration Division",
+        "yearBorn": 1963,
+        "exercisedValue": 0,
+        "unexercisedValue": 0
+      },
+      {
+        "maxAge": 1,
+        "name": "Mr. Masataka  Kano",
+        "age": 66,
+        "title": "Managing Executive Officer, GM of Sales Headquarters & Director",
+        "yearBorn": 1959,
+        "exercisedValue": 0,
+        "unexercisedValue": 0
+      },
+      {
+        "maxAge": 1,
         "name": "Mr. Kenji  Yagishita",
         "age": 72,
         "title": "Executive Officer & GM of Construction Division",
         "yearBorn": 1953,
+        "exercisedValue": 0,
+        "unexercisedValue": 0
+      },
+      {
+        "maxAge": 1,
+        "name": "Mr. Kiyohiko  Arai",
+        "age": 68,
+        "title": "Senior Managing Executive Officer, Head of Corporate Management Division & Director",
+        "yearBorn": 1957,
+        "exercisedValue": 0,
+        "unexercisedValue": 0
+      },
+      {
+        "maxAge": 1,
+        "name": "Mr. Nobuyoshi  Nakao",
+        "age": 69,
+        "title": "Managing Executive Officer, Head of Construction Division",
+        "yearBorn": 1956,
+        "exercisedValue": 0,
+        "unexercisedValue": 0
+      },
+      {
+        "maxAge": 1,
+        "name": "Mr. Katsuhito  Nakajima",
+        "age": 66,
+        "title": "Executive Officer, GM of Civil Engineering Division & Director",
+        "yearBorn": 1959,
         "exercisedValue": 0,
         "unexercisedValue": 0
       }
@@ -1117,8 +1162,8 @@
     "averageVolume": 17224,
     "averageVolume10days": 8700,
     "averageDailyVolume10Day": 8700,
-    "bid": 1044.0,
-    "ask": 1047.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 12587633664,
@@ -1187,20 +1232,7 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "regularMarketChangePercent": 0.28790787,
-    "regularMarketPrice": 1045.0,
-    "corporateActions": [],
-    "regularMarketTime": 1783665000,
-    "exchange": "JPX",
-    "messageBoardId": "finmb_880923",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
-    "marketState": "CLOSED",
     "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 978307200000,
     "regularMarketChange": 3.0,
     "regularMarketDayRange": "1041.0 - 1055.0",
     "fullExchangeName": "Tokyo",
@@ -1217,8 +1249,6 @@
     "earningsCallTimestampEnd": 1747652340,
     "isEarningsDateEstimate": false,
     "epsTrailingTwelveMonths": 80.05,
-    "shortName": "SATA CONSTRUCTION CO",
-    "longName": "Sata Construction Co., Ltd.",
     "fiftyDayAverageChange": 36.02002,
     "fiftyDayAverageChangePercent": 0.03569944,
     "twoHundredDayAverageChange": -75.55005,
@@ -1226,6 +1256,21 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
+    "firstTradeDateMilliseconds": 978307200000,
+    "shortName": "SATA CONSTRUCTION CO",
+    "longName": "Sata Construction Co., Ltd.",
+    "marketState": "PREPRE",
+    "corporateActions": [],
+    "regularMarketTime": 1783665000,
+    "exchange": "JPX",
+    "messageBoardId": "finmb_880923",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
+    "regularMarketChangePercent": 0.28790787,
+    "regularMarketPrice": 1045.0,
     "trailingPegRatio": null
   }
 }
