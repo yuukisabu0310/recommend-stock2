@@ -1,17 +1,17 @@
 {
   "ticker": "1992",
   "japanese_ticker": "1992.T",
-  "fetch_date": "2026-07-12T23:49:11.677957",
+  "fetch_date": "2026-07-13T23:49:07.493081",
   "financials": {
     "Tax Effect Of Unusual Items": {
-      "2026-03-31 00:00:00": 28261913.612113,
+      "2026-03-31 00:00:00": 28276125.0,
       "2025-03-31 00:00:00": -29507912.266053,
       "2024-03-31 00:00:00": -966.0,
       "2023-03-31 00:00:00": 10891881.0,
       "2022-03-31 00:00:00": null
     },
     "Tax Rate For Calcs": {
-      "2026-03-31 00:00:00": 0.374812,
+      "2026-03-31 00:00:00": 0.375,
       "2025-03-31 00:00:00": 0.297489,
       "2024-03-31 00:00:00": 0.322,
       "2023-03-31 00:00:00": 0.351,
@@ -88,7 +88,7 @@
       "2022-03-31 00:00:00": null
     },
     "Normalized Income": {
-      "2026-03-31 00:00:00": 325621913.612113,
+      "2026-03-31 00:00:00": 325636125.0,
       "2025-03-31 00:00:00": 501307087.733947,
       "2024-03-31 00:00:00": 545178034.0,
       "2023-03-31 00:00:00": 363662881.0,
@@ -1093,7 +1093,7 @@
     "trailingPE": 17.889175,
     "volume": 200,
     "regularMarketVolume": 200,
-    "averageVolume": 175,
+    "averageVolume": 178,
     "averageVolume10days": 290,
     "averageDailyVolume10Day": 290,
     "bid": 0.0,
@@ -1177,6 +1177,16 @@
     "esgPopulated": false,
     "regularMarketChangePercent": 0.0,
     "regularMarketPrice": 2912.0,
+    "marketState": "PREPRE",
+    "shortName": "KANDA TSUSHINKI CO",
+    "longName": "Kanda Tsushinki Co., Ltd.",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 946944000000,
+    "regularMarketChange": 0.0,
+    "regularMarketDayRange": "2883.0 - 2912.0",
+    "fullExchangeName": "Tokyo",
+    "averageDailyVolume3Month": 178,
+    "fiftyTwoWeekLowChange": 305.0,
     "fiftyTwoWeekLowChangePercent": 0.11699271,
     "fiftyTwoWeekRange": "2607.0 - 3055.0",
     "fiftyTwoWeekHighChange": -143.0,
@@ -1193,16 +1203,6 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
-    "shortName": "KANDA TSUSHINKI CO",
-    "longName": "Kanda Tsushinki Co., Ltd.",
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 946944000000,
-    "regularMarketChange": 0.0,
-    "regularMarketDayRange": "2883.0 - 2912.0",
-    "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 175,
-    "fiftyTwoWeekLowChange": 305.0,
-    "marketState": "PREPRE",
     "trailingPegRatio": null
   }
 }
