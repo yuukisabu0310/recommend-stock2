@@ -1,7 +1,7 @@
 {
   "ticker": "2916",
   "japanese_ticker": "2916.T",
-  "fetch_date": "2026-07-18T23:59:34.664861",
+  "fetch_date": "2026-07-20T00:06:19.140581",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": 26330800.0,
@@ -329,10 +329,10 @@
   "balance_sheet": {
     "Treasury Shares Number": {
       "2026-03-31 00:00:00": 16408.0,
-      "2025-03-31 00:00:00": 16408.0,
+      "2025-03-31 00:00:00": null,
       "2024-03-31 00:00:00": 16384.0,
       "2023-03-31 00:00:00": 16000.0,
-      "2022-03-31 00:00:00": null
+      "2022-03-31 00:00:00": 16000.0
     },
     "Ordinary Shares Number": {
       "2026-03-31 00:00:00": 11383592.0,
@@ -343,7 +343,7 @@
     },
     "Share Issued": {
       "2026-03-31 00:00:00": 11400000.0,
-      "2025-03-31 00:00:00": 11400000.0,
+      "2025-03-31 00:00:00": 11383616.0,
       "2024-03-31 00:00:00": 11400000.0,
       "2023-03-31 00:00:00": 11400000.0,
       "2022-03-31 00:00:00": null
@@ -1288,21 +1288,10 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "cryptoTradeable": false,
     "marketState": "CLOSED",
-    "shortName": "SEMBA TOHKA INDUSTRIES CO",
-    "longName": "Semba Tohka Industries Co., Ltd",
     "regularMarketChangePercent": 2.9931974,
     "regularMarketPrice": 757.0,
-    "corporateActions": [],
-    "regularMarketTime": 1784268216,
-    "exchange": "JPX",
-    "messageBoardId": "finmb_5719917",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
+    "longName": "Semba Tohka Industries Co., Ltd",
     "regularMarketChange": 22.0,
     "regularMarketDayRange": "745.0 - 757.0",
     "fullExchangeName": "Tokyo",
@@ -1325,6 +1314,17 @@
     "exchangeDataDelayedBy": 20,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 947030400000,
+    "corporateActions": [],
+    "regularMarketTime": 1784268216,
+    "exchange": "JPX",
+    "messageBoardId": "finmb_5719917",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
+    "shortName": "SEMBA TOHKA INDUSTRIES CO",
+    "cryptoTradeable": false,
     "trailingPegRatio": null
   }
 }

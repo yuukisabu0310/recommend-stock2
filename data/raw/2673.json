@@ -1,7 +1,7 @@
 {
   "ticker": "2673",
   "japanese_ticker": "2673.T",
-  "fetch_date": "2026-07-18T23:56:19.157380",
+  "fetch_date": "2026-07-20T00:02:47.646109",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": 1210.0,
@@ -1101,8 +1101,8 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "regularMarketChangePercent": -3.125,
-    "regularMarketPrice": 93.0,
+    "shortName": "YUMEMITSUKETAI CO LTD",
+    "longName": "YUMEMITSUKETAI Co.,Ltd.",
     "corporateActions": [],
     "regularMarketTime": 1784269800,
     "exchange": "JPX",
@@ -1112,9 +1112,8 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "marketState": "CLOSED",
-    "shortName": "YUMEMITSUKETAI CO LTD",
-    "longName": "YUMEMITSUKETAI Co.,Ltd.",
+    "regularMarketChangePercent": -3.125,
+    "regularMarketPrice": 93.0,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 972432000000,
     "regularMarketChange": -3.0,
@@ -1138,6 +1137,7 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
+    "marketState": "CLOSED",
     "trailingPegRatio": null
   }
 }

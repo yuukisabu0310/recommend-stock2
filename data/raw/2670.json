@@ -1,7 +1,7 @@
 {
   "ticker": "2670",
   "japanese_ticker": "2670.T",
-  "fetch_date": "2026-07-18T23:56:17.249632",
+  "fetch_date": "2026-07-20T00:02:45.712040",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-02-28 00:00:00": 65393818.544367,
@@ -1127,18 +1127,20 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "regularMarketChangePercent": 0.86841613,
+    "regularMarketPrice": 2671.5,
     "corporateActions": [],
     "regularMarketTime": 1784269800,
+    "shortName": "ABC-MART INC",
+    "marketState": "CLOSED",
     "exchange": "JPX",
     "messageBoardId": "finmb_5685872",
     "exchangeTimezoneName": "Asia/Tokyo",
     "exchangeTimezoneShortName": "JST",
     "gmtOffSetMilliseconds": 32400000,
-    "cryptoTradeable": false,
     "market": "jp_market",
     "esgPopulated": false,
-    "regularMarketChangePercent": 0.86841613,
-    "regularMarketPrice": 2671.5,
+    "cryptoTradeable": false,
     "regularMarketChange": 23.0,
     "regularMarketDayRange": "2660.5 - 2725.0",
     "fullExchangeName": "Tokyo",
@@ -1164,13 +1166,11 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "prevName": "ABC-Mart, Inc.",
-    "nameChangeDate": "2026-07-18",
+    "nameChangeDate": "2026-07-19",
     "averageAnalystRating": "2.3 - Buy",
+    "longName": "ABC-Mart,Inc.",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1037923200000,
-    "marketState": "CLOSED",
-    "shortName": "ABC-MART INC",
-    "longName": "ABC-Mart,Inc.",
     "trailingPegRatio": null
   }
 }

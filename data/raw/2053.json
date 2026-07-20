@@ -1,7 +1,7 @@
 {
   "ticker": "2053",
   "japanese_ticker": "2053.T",
-  "fetch_date": "2026-07-18T23:49:25.583052",
+  "fetch_date": "2026-07-19T23:55:27.102490",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": 134589000.0,
@@ -314,7 +314,7 @@
     },
     "Ordinary Shares Number": {
       "2026-03-31 00:00:00": 28696273.0,
-      "2025-03-31 00:00:00": 29570966.0,
+      "2025-03-31 00:00:00": 29571518.0,
       "2024-03-31 00:00:00": 29561371.0,
       "2023-03-31 00:00:00": 29547478.0
     },
@@ -1197,17 +1197,8 @@
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
     "shortName": "CHUBU SHIRYO CO",
-    "marketState": "CLOSED",
-    "exchange": "JPX",
-    "messageBoardId": "finmb_883315",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
-    "regularMarketChangePercent": 1.2591815,
-    "regularMarketPrice": 1930.0,
     "longName": "Chubu Shiryo Co., Ltd.",
+    "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 978307200000,
     "regularMarketChange": 24.0,
     "regularMarketDayRange": "1908.0 - 1950.0",
@@ -1224,9 +1215,6 @@
     "isEarningsDateEstimate": true,
     "epsTrailingTwelveMonths": 190.68,
     "epsForward": 146.8,
-    "corporateActions": [],
-    "regularMarketTime": 1784269800,
-    "hasPrePostMarketData": false,
     "fiftyDayAverageChange": 124.640015,
     "fiftyDayAverageChangePercent": 0.06903887,
     "twoHundredDayAverageChange": 157.68994,
@@ -1234,6 +1222,18 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
+    "corporateActions": [],
+    "regularMarketTime": 1784269800,
+    "exchange": "JPX",
+    "messageBoardId": "finmb_883315",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
+    "regularMarketChangePercent": 1.2591815,
+    "regularMarketPrice": 1930.0,
+    "marketState": "CLOSED",
     "trailingPegRatio": null
   }
 }

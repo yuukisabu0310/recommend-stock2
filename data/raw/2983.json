@@ -1,7 +1,7 @@
 {
   "ticker": "2983",
   "japanese_ticker": "2983.T",
-  "fetch_date": "2026-07-19T00:00:28.623129",
+  "fetch_date": "2026-07-20T00:07:16.019091",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-01-31 00:00:00": -11955054.6,
@@ -1019,7 +1019,7 @@
     "tradeable": false,
     "enterpriseValue": 30850840576,
     "profitMargins": 0.05314,
-    "floatShares": 6577520,
+    "floatShares": 6551800,
     "sharesOutstanding": 10672422,
     "heldPercentInsiders": 0.69391,
     "heldPercentInstitutions": 0.06712,
@@ -1068,20 +1068,6 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "shortName": "ARR PLANNER CO LTD",
-    "longName": "Arr Planner Co., Ltd.",
-    "corporateActions": [
-      {
-        "header": "Dividend",
-        "message": "2983.T announced a cash dividend of JPY 20.00 with an ex-date of Jul. 30, 2026",
-        "meta": {
-          "eventType": "DIVIDEND",
-          "dateEpochMs": 1785337200000,
-          "amount": "20.00"
-        }
-      }
-    ],
-    "regularMarketTime": 1784269800,
     "exchange": "JPX",
     "messageBoardId": "finmb_133899320",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1092,18 +1078,6 @@
     "regularMarketChangePercent": -3.524804,
     "regularMarketPrice": 1478.0,
     "marketState": "CLOSED",
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1612915200000,
-    "regularMarketChange": -54.0,
-    "regularMarketDayRange": "1450.0 - 1525.0",
-    "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 45040,
-    "fiftyTwoWeekLowChange": 610.0,
-    "fiftyTwoWeekLowChangePercent": 0.702765,
-    "fiftyTwoWeekRange": "868.0 - 2400.0",
-    "fiftyTwoWeekHighChange": -922.0,
-    "fiftyTwoWeekHighChangePercent": -0.38416666,
-    "fiftyTwoWeekChangePercent": 64.77146,
     "earningsTimestampStart": 1749725940,
     "earningsTimestampEnd": 1749725940,
     "earningsCallTimestampStart": 1741949940,
@@ -1117,6 +1091,32 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "2983.T announced a cash dividend of JPY 20.00 with an ex-date of Jul. 30, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1785337200000,
+          "amount": "20.00"
+        }
+      }
+    ],
+    "regularMarketTime": 1784269800,
+    "longName": "Arr Planner Co., Ltd.",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1612915200000,
+    "regularMarketChange": -54.0,
+    "regularMarketDayRange": "1450.0 - 1525.0",
+    "fullExchangeName": "Tokyo",
+    "averageDailyVolume3Month": 45040,
+    "fiftyTwoWeekLowChange": 610.0,
+    "fiftyTwoWeekLowChangePercent": 0.702765,
+    "fiftyTwoWeekRange": "868.0 - 2400.0",
+    "fiftyTwoWeekHighChange": -922.0,
+    "fiftyTwoWeekHighChangePercent": -0.38416666,
+    "fiftyTwoWeekChangePercent": 64.77146,
+    "shortName": "ARR PLANNER CO LTD",
     "trailingPegRatio": null
   }
 }

@@ -1,7 +1,7 @@
 {
   "ticker": "2332",
   "japanese_ticker": "2332.T",
-  "fetch_date": "2026-07-18T23:52:41.169752",
+  "fetch_date": "2026-07-19T23:58:56.821490",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": -7130223.547246,
@@ -132,7 +132,7 @@
     "Basic Average Shares": {
       "2026-03-31 00:00:00": null,
       "2025-03-31 00:00:00": 5357945.0,
-      "2024-03-31 00:00:00": 5352602.0,
+      "2024-03-31 00:00:00": 5352737.0,
       "2023-03-31 00:00:00": 5339057.0,
       "2022-03-31 00:00:00": 5188000.0
     },
@@ -308,7 +308,7 @@
     },
     "Ordinary Shares Number": {
       "2026-03-31 00:00:00": 5127027.0,
-      "2025-03-31 00:00:00": 5354666.0,
+      "2025-03-31 00:00:00": 5359840.0,
       "2024-03-31 00:00:00": 5354189.0,
       "2023-03-31 00:00:00": 5348749.0,
       "2022-03-31 00:00:00": null
@@ -1240,6 +1240,13 @@
     "customPriceAlertConfidence": "LOW",
     "corporateActions": [],
     "regularMarketTime": 1784269800,
+    "cryptoTradeable": false,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1034294400000,
+    "regularMarketChange": -41.0,
+    "regularMarketDayRange": "1650.0 - 1713.0",
+    "fullExchangeName": "Tokyo",
+    "averageDailyVolume3Month": 55883,
     "exchange": "JPX",
     "messageBoardId": "finmb_12787025",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1247,8 +1254,15 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "regularMarketChangePercent": -2.3795705,
-    "regularMarketPrice": 1682.0,
+    "marketState": "CLOSED",
+    "shortName": "QUEST CO LTD",
+    "longName": "Quest Co., Ltd.",
+    "fiftyTwoWeekLowChange": 257.0,
+    "fiftyTwoWeekLowChangePercent": 0.18035087,
+    "fiftyTwoWeekRange": "1425.0 - 2220.0",
+    "fiftyTwoWeekHighChange": -538.0,
+    "fiftyTwoWeekHighChangePercent": -0.24234234,
+    "fiftyTwoWeekChangePercent": 15.284443,
     "earningsTimestampStart": 1747209600,
     "earningsTimestampEnd": 1747209600,
     "isEarningsDateEstimate": false,
@@ -1259,22 +1273,8 @@
     "twoHundredDayAverageChangePercent": -0.0031972476,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
-    "marketState": "CLOSED",
-    "shortName": "QUEST CO LTD",
-    "longName": "Quest Co., Ltd.",
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1034294400000,
-    "regularMarketChange": -41.0,
-    "regularMarketDayRange": "1650.0 - 1713.0",
-    "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 55883,
-    "fiftyTwoWeekLowChange": 257.0,
-    "fiftyTwoWeekLowChangePercent": 0.18035087,
-    "fiftyTwoWeekRange": "1425.0 - 2220.0",
-    "fiftyTwoWeekHighChange": -538.0,
-    "fiftyTwoWeekHighChangePercent": -0.24234234,
-    "fiftyTwoWeekChangePercent": 15.284443,
+    "regularMarketChangePercent": -2.3795705,
+    "regularMarketPrice": 1682.0,
     "trailingPegRatio": null
   }
 }

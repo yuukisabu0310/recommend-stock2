@@ -1,7 +1,7 @@
 {
   "ticker": "1833",
   "japanese_ticker": "1833.T",
-  "fetch_date": "2026-07-18T23:46:46.104186",
+  "fetch_date": "2026-07-19T23:52:35.546225",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": 1735041000.0,
@@ -1259,10 +1259,11 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "shortName": "OKUMURA CORP",
-    "longName": "Okumura Corporation",
-    "regularMarketChangePercent": -1.4084507,
-    "regularMarketPrice": 5600.0,
+    "marketState": "CLOSED",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 978307200000,
+    "regularMarketChange": -80.0,
+    "regularMarketDayRange": "5530.0 - 5690.0",
     "fullExchangeName": "Tokyo",
     "averageDailyVolume3Month": 107729,
     "fiftyTwoWeekLowChange": 1240.0,
@@ -1285,10 +1286,6 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 978307200000,
-    "regularMarketChange": -80.0,
-    "regularMarketDayRange": "5530.0 - 5690.0",
     "corporateActions": [],
     "regularMarketTime": 1784269800,
     "exchange": "JPX",
@@ -1298,7 +1295,10 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "marketState": "CLOSED",
+    "shortName": "OKUMURA CORP",
+    "longName": "Okumura Corporation",
+    "regularMarketChangePercent": -1.4084507,
+    "regularMarketPrice": 5600.0,
     "trailingPegRatio": null
   }
 }

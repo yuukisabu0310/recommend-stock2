@@ -1,7 +1,7 @@
 {
   "ticker": "1921",
   "japanese_ticker": "1921.T",
-  "fetch_date": "2026-07-18T23:47:53.529877",
+  "fetch_date": "2026-07-19T23:53:46.690310",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": 687632949.233418,
@@ -1097,8 +1097,6 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 978307200000,
     "regularMarketChange": -49.0,
     "regularMarketDayRange": "1672.0 - 1739.0",
     "fullExchangeName": "Tokyo",
@@ -1119,6 +1117,13 @@
     "twoHundredDayAverageChangePercent": -0.1277082,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 978307200000,
+    "cryptoTradeable": false,
+    "regularMarketChangePercent": -2.8177114,
+    "regularMarketPrice": 1690.0,
+    "shortName": "TOMOE CORPORATION",
+    "longName": "Tomoe Corporation",
     "corporateActions": [],
     "regularMarketTime": 1784269800,
     "exchange": "JPX",
@@ -1128,11 +1133,6 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "regularMarketChangePercent": -2.8177114,
-    "regularMarketPrice": 1690.0,
-    "cryptoTradeable": false,
-    "shortName": "TOMOE CORPORATION",
-    "longName": "Tomoe Corporation",
     "marketState": "CLOSED",
     "trailingPegRatio": null
   }

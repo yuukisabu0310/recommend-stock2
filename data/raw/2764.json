@@ -1,7 +1,7 @@
 {
   "ticker": "2764",
   "japanese_ticker": "2764.T",
-  "fetch_date": "2026-07-18T23:57:42.103382",
+  "fetch_date": "2026-07-20T00:04:18.110765",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": -16024000.0,
@@ -132,7 +132,7 @@
     "Basic Average Shares": {
       "2026-03-31 00:00:00": 70630560.0,
       "2025-03-31 00:00:00": 70601027.0,
-      "2024-03-31 00:00:00": 70607940.0,
+      "2024-03-31 00:00:00": 70556682.0,
       "2023-03-31 00:00:00": 70678298.0,
       "2022-03-31 00:00:00": null
     },
@@ -329,7 +329,7 @@
     },
     "Share Issued": {
       "2026-03-31 00:00:00": 74740400.0,
-      "2025-03-31 00:00:00": 74740400.0,
+      "2025-03-31 00:00:00": 70621611.0,
       "2024-03-31 00:00:00": 74740400.0,
       "2023-03-31 00:00:00": 74740400.0,
       "2022-03-31 00:00:00": null
@@ -1241,10 +1241,23 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "exchange": "JPX",
+    "messageBoardId": "finmb_4069933",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
     "regularMarketChangePercent": 1.438849,
     "regularMarketPrice": 141.0,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1047513600000,
+    "corporateActions": [],
+    "regularMarketTime": 1784269800,
+    "cryptoTradeable": false,
+    "longName": "Hiramatsu Inc.",
+    "shortName": "HIRAMATSU INC",
+    "marketState": "CLOSED",
     "regularMarketChange": 2.0,
     "regularMarketDayRange": "138.0 - 141.0",
     "fullExchangeName": "Tokyo",
@@ -1265,19 +1278,6 @@
     "twoHundredDayAverageChangePercent": 0.042128578,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
-    "corporateActions": [],
-    "regularMarketTime": 1784269800,
-    "exchange": "JPX",
-    "messageBoardId": "finmb_4069933",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
-    "marketState": "CLOSED",
-    "shortName": "HIRAMATSU INC",
-    "longName": "Hiramatsu Inc.",
     "trailingPegRatio": null
   }
 }

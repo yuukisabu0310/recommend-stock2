@@ -1,7 +1,7 @@
 {
   "ticker": "2747",
   "japanese_ticker": "2747.T",
-  "fetch_date": "2026-07-18T23:57:23.489210",
+  "fetch_date": "2026-07-20T00:03:57.763527",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-02-28 00:00:00": -19124360.0,
@@ -132,7 +132,7 @@
     "Diluted Average Shares": {
       "2026-02-28 00:00:00": 1263840.0,
       "2025-02-28 00:00:00": 1263890.0,
-      "2024-02-29 00:00:00": 1263915.0,
+      "2024-02-29 00:00:00": 1263924.0,
       "2023-02-28 00:00:00": 1263933.0,
       "2022-02-28 00:00:00": null
     },
@@ -364,10 +364,10 @@
   "balance_sheet": {
     "Treasury Shares Number": {
       "2026-02-28 00:00:00": 725.0,
-      "2025-02-28 00:00:00": 725.0,
+      "2025-02-28 00:00:00": null,
       "2024-02-29 00:00:00": 725.0,
       "2023-02-28 00:00:00": 725.0,
-      "2022-02-28 00:00:00": null
+      "2022-02-28 00:00:00": 688.0
     },
     "Ordinary Shares Number": {
       "2026-02-28 00:00:00": 1263915.0,
@@ -1326,10 +1326,23 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "exchange": "JPX",
+    "messageBoardId": "finmb_5522415",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
     "regularMarketChangePercent": 0.1633987,
     "regularMarketPrice": 3065.0,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1033689600000,
+    "corporateActions": [],
+    "regularMarketTime": 1784259000,
+    "cryptoTradeable": false,
+    "longName": "Hokuyu Lucky Co.,Ltd.",
+    "shortName": "HOKUYU LUCKY CO.LTD.",
+    "marketState": "CLOSED",
     "regularMarketChange": 5.0,
     "regularMarketDayRange": "3065.0 - 3085.0",
     "fullExchangeName": "Tokyo",
@@ -1350,19 +1363,6 @@
     "twoHundredDayAverageChangePercent": -0.022889584,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
-    "corporateActions": [],
-    "regularMarketTime": 1784259000,
-    "exchange": "JPX",
-    "messageBoardId": "finmb_5522415",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
-    "marketState": "CLOSED",
-    "shortName": "HOKUYU LUCKY CO.LTD.",
-    "longName": "Hokuyu Lucky Co.,Ltd.",
     "trailingPegRatio": null
   }
 }

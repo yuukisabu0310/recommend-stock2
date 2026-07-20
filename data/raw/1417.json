@@ -1,7 +1,7 @@
 {
   "ticker": "1417",
   "japanese_ticker": "1417.T",
-  "fetch_date": "2026-07-18T23:44:28.037489",
+  "fetch_date": "2026-07-19T23:50:08.574550",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": 135930000.0,
@@ -13,7 +13,7 @@
     "Tax Rate For Calcs": {
       "2026-03-31 00:00:00": 0.345,
       "2025-03-31 00:00:00": 0.360681,
-      "2024-03-31 00:00:00": 0.359,
+      "2024-03-31 00:00:00": 0.3586,
       "2023-03-31 00:00:00": 0.346,
       "2022-03-31 00:00:00": null
     },
@@ -1377,18 +1377,6 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "fiftyDayAverageChange": -251.95996,
-    "fiftyDayAverageChangePercent": -0.065157115,
-    "twoHundredDayAverageChange": -1.9199219,
-    "twoHundredDayAverageChangePercent": -0.0005308168,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "prevName": "MIRAIT Holdings Corporation",
-    "nameChangeDate": "2026-07-18",
-    "cryptoTradeable": false,
-    "shortName": "MIRAIT ONE CORPORATION",
-    "regularMarketChangePercent": -2.2972972,
-    "regularMarketPrice": 3615.0,
     "longName": "MIRAIT ONE Corporation",
     "corporateActions": [],
     "regularMarketTime": 1784269800,
@@ -1398,6 +1386,18 @@
     "exchangeTimezoneShortName": "JST",
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
+    "esgPopulated": false,
+    "marketState": "CLOSED",
+    "shortName": "MIRAIT ONE CORPORATION",
+    "twoHundredDayAverageChange": -1.9199219,
+    "twoHundredDayAverageChangePercent": -0.0005308168,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "prevName": "MIRAIT Holdings Corporation",
+    "nameChangeDate": "2026-07-19",
+    "cryptoTradeable": false,
+    "regularMarketChangePercent": -2.2972972,
+    "regularMarketPrice": 3615.0,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 978307200000,
     "regularMarketChange": -85.0,
@@ -1418,8 +1418,8 @@
     "isEarningsDateEstimate": false,
     "epsTrailingTwelveMonths": 261.73,
     "epsForward": 217.55,
-    "marketState": "CLOSED",
-    "esgPopulated": false,
+    "fiftyDayAverageChange": -251.95996,
+    "fiftyDayAverageChangePercent": -0.065157115,
     "trailingPegRatio": null
   }
 }

@@ -1,7 +1,7 @@
 {
   "ticker": "2163",
   "japanese_ticker": "2163.T",
-  "fetch_date": "2026-07-18T23:50:22.827193",
+  "fetch_date": "2026-07-19T23:56:28.495607",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-01-31 00:00:00": -1497983.372432,
@@ -1188,6 +1188,10 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "marketState": "CLOSED",
+    "regularMarketChangePercent": -0.79286426,
+    "regularMarketPrice": 2002.0,
+    "longName": "Artner Co., Ltd.",
     "regularMarketChange": -16.0,
     "regularMarketDayRange": "2000.0 - 2023.0",
     "fullExchangeName": "Tokyo",
@@ -1210,11 +1214,9 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "prevName": "Artner Co.,Ltd.",
-    "nameChangeDate": "2026-07-18",
-    "cryptoTradeable": false,
-    "marketState": "CLOSED",
-    "regularMarketChangePercent": -0.79286426,
-    "regularMarketPrice": 2002.0,
+    "nameChangeDate": "2026-07-19",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1193356800000,
     "corporateActions": [
       {
         "header": "Dividend",
@@ -1236,10 +1238,6 @@
       }
     ],
     "regularMarketTime": 1784269800,
-    "longName": "Artner Co., Ltd.",
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1193356800000,
-    "shortName": "ARTNER CO LTD",
     "exchange": "JPX",
     "messageBoardId": "finmb_37287727",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1247,6 +1245,8 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
+    "shortName": "ARTNER CO LTD",
+    "cryptoTradeable": false,
     "trailingPegRatio": null
   }
 }

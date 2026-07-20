@@ -1,7 +1,7 @@
 {
   "ticker": "1381",
   "japanese_ticker": "1381.T",
-  "fetch_date": "2026-07-18T23:44:12.078263",
+  "fetch_date": "2026-07-19T23:49:51.562522",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-06-30 00:00:00": 108819000.0,
@@ -107,7 +107,7 @@
     },
     "Diluted Average Shares": {
       "2025-06-30 00:00:00": 5615716.0,
-      "2024-06-30 00:00:00": 5615717.0,
+      "2024-06-30 00:00:00": null,
       "2023-06-30 00:00:00": 5615736.0,
       "2022-06-30 00:00:00": 5615795.0
     },
@@ -119,13 +119,13 @@
     },
     "Diluted EPS": {
       "2025-06-30 00:00:00": 306.43,
-      "2024-06-30 00:00:00": 220.74,
+      "2024-06-30 00:00:00": null,
       "2023-06-30 00:00:00": 251.17,
       "2022-06-30 00:00:00": 346.07
     },
     "Basic EPS": {
       "2025-06-30 00:00:00": 306.43,
-      "2024-06-30 00:00:00": 220.74,
+      "2024-06-30 00:00:00": null,
       "2023-06-30 00:00:00": 251.17,
       "2022-06-30 00:00:00": 346.07
     },
@@ -990,18 +990,7 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "shortName": "AXYZ",
-    "marketState": "CLOSED",
-    "exchange": "JPX",
-    "messageBoardId": "finmb_5722127",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
-    "regularMarketChangePercent": -3.1294453,
-    "regularMarketPrice": 3405.0,
-    "longName": "AXYZ Co., Ltd.",
+    "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 976579200000,
     "regularMarketChange": -110.0,
     "regularMarketDayRange": "3400.0 - 3530.0",
@@ -1017,9 +1006,6 @@
     "earningsTimestampEnd": 1745562600,
     "isEarningsDateEstimate": false,
     "epsTrailingTwelveMonths": 398.39,
-    "corporateActions": [],
-    "regularMarketTime": 1784269800,
-    "hasPrePostMarketData": false,
     "fiftyDayAverageChange": -333.69995,
     "fiftyDayAverageChangePercent": -0.08925561,
     "twoHundredDayAverageChange": -421.7749,
@@ -1027,6 +1013,20 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
+    "marketState": "CLOSED",
+    "exchange": "JPX",
+    "messageBoardId": "finmb_5722127",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
+    "regularMarketChangePercent": -3.1294453,
+    "regularMarketPrice": 3405.0,
+    "shortName": "AXYZ",
+    "longName": "AXYZ Co., Ltd.",
+    "corporateActions": [],
+    "regularMarketTime": 1784269800,
     "trailingPegRatio": null
   }
 }

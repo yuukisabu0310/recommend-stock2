@@ -1,7 +1,7 @@
 {
   "ticker": "1942",
   "japanese_ticker": "1942.T",
-  "fetch_date": "2026-07-18T23:48:14.064620",
+  "fetch_date": "2026-07-19T23:54:09.222049",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": 1897031000.0,
@@ -1248,6 +1248,7 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "longName": "Kandenko Co.,Ltd.",
     "corporateActions": [],
     "regularMarketTime": 1784269800,
     "exchange": "JPX",
@@ -1259,9 +1260,16 @@
     "esgPopulated": false,
     "regularMarketChangePercent": -4.3997383,
     "regularMarketPrice": 5845.0,
-    "marketState": "CLOSED",
     "shortName": "KANDENKO CO LTD",
-    "longName": "Kandenko Co.,Ltd.",
+    "marketState": "CLOSED",
+    "twoHundredDayAverageChange": 81.375,
+    "twoHundredDayAverageChangePercent": 0.014118719,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "averageAnalystRating": "2.0 - Buy",
+    "cryptoTradeable": false,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 978307200000,
     "regularMarketChange": -269.0,
     "regularMarketDayRange": "5712.0 - 6068.0",
     "fullExchangeName": "Tokyo",
@@ -1280,14 +1288,6 @@
     "epsForward": 169.56,
     "fiftyDayAverageChange": -577.7002,
     "fiftyDayAverageChangePercent": -0.08994662,
-    "twoHundredDayAverageChange": 81.375,
-    "twoHundredDayAverageChangePercent": 0.014118719,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "averageAnalystRating": "2.0 - Buy",
-    "cryptoTradeable": false,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 978307200000,
     "trailingPegRatio": null
   }
 }

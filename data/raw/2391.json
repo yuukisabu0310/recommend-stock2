@@ -1,7 +1,7 @@
 {
   "ticker": "2391",
   "japanese_ticker": "2391.T",
-  "fetch_date": "2026-07-18T23:53:36.784839",
+  "fetch_date": "2026-07-19T23:59:56.851661",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-07-31 00:00:00": null,
@@ -124,31 +124,31 @@
     },
     "Diluted Average Shares": {
       "2025-07-31 00:00:00": 6630782.0,
-      "2024-07-31 00:00:00": 6630820.0,
+      "2024-07-31 00:00:00": null,
       "2023-07-31 00:00:00": 6630884.0,
       "2022-07-31 00:00:00": 6630885.0,
-      "2021-07-31 00:00:00": null
+      "2021-07-31 00:00:00": 6630888.0
     },
     "Basic Average Shares": {
       "2025-07-31 00:00:00": 6630782.0,
-      "2024-07-31 00:00:00": 6630820.0,
+      "2024-07-31 00:00:00": null,
       "2023-07-31 00:00:00": 6630884.0,
       "2022-07-31 00:00:00": 6630885.0,
-      "2021-07-31 00:00:00": null
+      "2021-07-31 00:00:00": 6630888.0
     },
     "Diluted EPS": {
       "2025-07-31 00:00:00": 60.44,
-      "2024-07-31 00:00:00": 69.09,
+      "2024-07-31 00:00:00": null,
       "2023-07-31 00:00:00": 66.72,
       "2022-07-31 00:00:00": 79.34,
-      "2021-07-31 00:00:00": null
+      "2021-07-31 00:00:00": 75.12
     },
     "Basic EPS": {
       "2025-07-31 00:00:00": 60.44,
-      "2024-07-31 00:00:00": 69.09,
+      "2024-07-31 00:00:00": null,
       "2023-07-31 00:00:00": 66.72,
       "2022-07-31 00:00:00": 79.34,
-      "2021-07-31 00:00:00": null
+      "2021-07-31 00:00:00": 75.12
     },
     "Diluted NI Availto Com Stockholders": {
       "2025-07-31 00:00:00": null,
@@ -1016,8 +1016,14 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "shortName": "PLANET INC",
-    "longName": "Planet, Inc.",
+    "regularMarketTime": 1784269800,
+    "exchange": "JPX",
+    "messageBoardId": "finmb_8859734",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
     "marketState": "CLOSED",
     "corporateActions": [
       {
@@ -1030,16 +1036,15 @@
         }
       }
     ],
-    "regularMarketTime": 1784269800,
-    "exchange": "JPX",
-    "messageBoardId": "finmb_8859734",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
-    "regularMarketChangePercent": -0.4149378,
-    "regularMarketPrice": 1200.0,
+    "shortName": "PLANET INC",
+    "longName": "Planet, Inc.",
+    "fiftyDayAverageChange": -2.4799805,
+    "fiftyDayAverageChangePercent": -0.0020623882,
+    "twoHundredDayAverageChange": -39.944946,
+    "twoHundredDayAverageChangePercent": -0.032215096,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1077580800000,
     "regularMarketChange": -5.0,
@@ -1056,13 +1061,8 @@
     "earningsTimestampEnd": 1748414400,
     "isEarningsDateEstimate": false,
     "epsTrailingTwelveMonths": 64.32,
-    "fiftyDayAverageChange": -2.4799805,
-    "fiftyDayAverageChangePercent": -0.0020623882,
-    "twoHundredDayAverageChange": -39.944946,
-    "twoHundredDayAverageChangePercent": -0.032215096,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
+    "regularMarketChangePercent": -0.4149378,
+    "regularMarketPrice": 1200.0,
     "trailingPegRatio": null
   }
 }

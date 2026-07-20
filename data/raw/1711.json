@@ -1,7 +1,7 @@
 {
   "ticker": "1711",
   "japanese_ticker": "1711.T",
-  "fetch_date": "2026-07-18T23:45:17.795454",
+  "fetch_date": "2026-07-19T23:51:00.752928",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": 1872000.0,
@@ -1261,18 +1261,8 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "corporateActions": [],
-    "regularMarketTime": 1784269800,
-    "exchange": "JPX",
-    "messageBoardId": "finmb_13406760",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
     "regularMarketChangePercent": -4.149378,
     "regularMarketPrice": 231.0,
-    "shortName": "SDS HOLDINGS CO LTD",
     "longName": "SDS HOLDINGS Co.,Ltd.",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1103155200000,
@@ -1296,8 +1286,18 @@
     "twoHundredDayAverageChangePercent": -0.11421287,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
     "marketState": "CLOSED",
+    "shortName": "SDS HOLDINGS CO LTD",
+    "cryptoTradeable": false,
+    "corporateActions": [],
+    "regularMarketTime": 1784269800,
+    "exchange": "JPX",
+    "messageBoardId": "finmb_13406760",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
     "trailingPegRatio": null
   }
 }

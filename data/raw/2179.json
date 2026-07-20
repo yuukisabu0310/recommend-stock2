@@ -1,7 +1,7 @@
 {
   "ticker": "2179",
   "japanese_ticker": "2179.T",
-  "fetch_date": "2026-07-18T23:50:36.995216",
+  "fetch_date": "2026-07-19T23:56:43.942134",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": -31256223.2,
@@ -125,14 +125,14 @@
     "Diluted Average Shares": {
       "2026-03-31 00:00:00": null,
       "2025-03-31 00:00:00": 5547898.0,
-      "2024-03-31 00:00:00": 5547993.0,
+      "2024-03-31 00:00:00": 5548139.0,
       "2023-03-31 00:00:00": 5549653.0,
       "2022-03-31 00:00:00": 5551151.0
     },
     "Basic Average Shares": {
       "2026-03-31 00:00:00": null,
       "2025-03-31 00:00:00": 5547898.0,
-      "2024-03-31 00:00:00": 5547993.0,
+      "2024-03-31 00:00:00": 5548139.0,
       "2023-03-31 00:00:00": 5549653.0,
       "2022-03-31 00:00:00": 5551151.0
     },
@@ -308,17 +308,17 @@
   "balance_sheet": {
     "Treasury Shares Number": {
       "2026-03-31 00:00:00": 328102.0,
-      "2025-03-31 00:00:00": 328102.0,
+      "2025-03-31 00:00:00": null,
       "2024-03-31 00:00:00": 328102.0,
       "2023-03-31 00:00:00": 327760.0,
-      "2022-03-31 00:00:00": null
+      "2022-03-31 00:00:00": 325860.0
     },
     "Ordinary Shares Number": {
       "2026-03-31 00:00:00": 5547898.0,
-      "2025-03-31 00:00:00": 5547898.0,
+      "2025-03-31 00:00:00": null,
       "2024-03-31 00:00:00": 5547898.0,
       "2023-03-31 00:00:00": 5548240.0,
-      "2022-03-31 00:00:00": null
+      "2022-03-31 00:00:00": 5550140.0
     },
     "Share Issued": {
       "2026-03-31 00:00:00": 5876000.0,
@@ -1246,18 +1246,9 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "marketState": "CLOSED",
-    "corporateActions": [],
-    "regularMarketTime": 1784269800,
-    "exchange": "JPX",
-    "messageBoardId": "finmb_46987108",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
-    "shortName": "SEIGAKUSHA CO LTD",
-    "longName": "Seigakusha Co.,Ltd.",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1219363200000,
+    "regularMarketChange": 6.0,
     "regularMarketDayRange": "798.0 - 798.0",
     "fullExchangeName": "Tokyo",
     "averageDailyVolume3Month": 1544,
@@ -1278,13 +1269,22 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "prevName": "Seigakusya Co., Ltd.",
-    "nameChangeDate": "2026-07-18",
+    "nameChangeDate": "2026-07-19",
     "cryptoTradeable": false,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1219363200000,
-    "regularMarketChange": 6.0,
+    "shortName": "SEIGAKUSHA CO LTD",
+    "longName": "Seigakusha Co.,Ltd.",
+    "corporateActions": [],
+    "regularMarketTime": 1784269800,
+    "exchange": "JPX",
+    "messageBoardId": "finmb_46987108",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
     "regularMarketChangePercent": 0.75757575,
     "regularMarketPrice": 798.0,
+    "marketState": "CLOSED",
     "trailingPegRatio": null
   }
 }

@@ -1,7 +1,7 @@
 {
   "ticker": "3030",
   "japanese_ticker": "3030.T",
-  "fetch_date": "2026-07-19T00:01:10.089337",
+  "fetch_date": "2026-07-20T00:08:00.060645",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-02-28 00:00:00": -10985728.0,
@@ -1304,9 +1304,7 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "marketState": "CLOSED",
-    "shortName": "HUB CO. LTD",
-    "longName": "Hub Co., Ltd.",
+    "corporateActions": [],
     "regularMarketChange": -2.0,
     "regularMarketDayRange": "815.0 - 839.0",
     "fullExchangeName": "Tokyo",
@@ -1338,10 +1336,12 @@
     "esgPopulated": false,
     "regularMarketChangePercent": -0.24301338,
     "regularMarketPrice": 821.0,
+    "cryptoTradeable": false,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1144022400000,
-    "corporateActions": [],
-    "cryptoTradeable": false,
+    "shortName": "HUB CO. LTD",
+    "longName": "Hub Co., Ltd.",
+    "marketState": "CLOSED",
     "trailingPegRatio": null
   }
 }

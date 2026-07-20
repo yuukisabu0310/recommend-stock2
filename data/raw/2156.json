@@ -1,7 +1,7 @@
 {
   "ticker": "2156",
   "japanese_ticker": "2156.T",
-  "fetch_date": "2026-07-18T23:50:12.266490",
+  "fetch_date": "2026-07-19T23:56:17.980566",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": -87600.0,
@@ -315,21 +315,21 @@
   "balance_sheet": {
     "Treasury Shares Number": {
       "2026-03-31 00:00:00": 930928.0,
-      "2025-03-31 00:00:00": 1666028.0,
+      "2025-03-31 00:00:00": null,
       "2024-03-31 00:00:00": 1900328.0,
       "2023-03-31 00:00:00": 2300000.0,
-      "2022-03-31 00:00:00": null
+      "2022-03-31 00:00:00": 2300000.0
     },
     "Ordinary Shares Number": {
       "2026-03-31 00:00:00": 5147072.0,
-      "2025-03-31 00:00:00": 4411972.0,
+      "2025-03-31 00:00:00": 4169672.0,
       "2024-03-31 00:00:00": 4177672.0,
       "2023-03-31 00:00:00": 3778000.0,
       "2022-03-31 00:00:00": null
     },
     "Share Issued": {
       "2026-03-31 00:00:00": 6078000.0,
-      "2025-03-31 00:00:00": 6078000.0,
+      "2025-03-31 00:00:00": 4169672.0,
       "2024-03-31 00:00:00": 6078000.0,
       "2023-03-31 00:00:00": 6078000.0,
       "2022-03-31 00:00:00": null
@@ -1205,7 +1205,7 @@
     "tradeable": false,
     "enterpriseValue": 1110145536,
     "profitMargins": -0.0018000001,
-    "floatShares": 2912781,
+    "floatShares": 2909749,
     "sharesOutstanding": 5147072,
     "heldPercentInsiders": 0.29332,
     "heldPercentInstitutions": 0.06328,
@@ -1254,6 +1254,17 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "corporateActions": [],
+    "regularMarketTime": 1784269366,
+    "exchange": "JPX",
+    "messageBoardId": "finmb_34509410",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
+    "regularMarketChangePercent": -2.5735295,
+    "regularMarketPrice": 265.0,
     "marketState": "CLOSED",
     "regularMarketChange": -7.0,
     "regularMarketDayRange": "257.0 - 272.0",
@@ -1275,21 +1286,10 @@
     "twoHundredDayAverageChangePercent": -0.12133822,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1182384000000,
-    "corporateActions": [],
-    "regularMarketTime": 1784269366,
-    "exchange": "JPX",
-    "messageBoardId": "finmb_34509410",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
-    "regularMarketChangePercent": -2.5735295,
-    "regularMarketPrice": 265.0,
     "shortName": "SAYLOR ADVERTISING INC.",
+    "cryptoTradeable": false,
     "longName": "Saylor Advertising.Inc.",
     "trailingPegRatio": null
   }

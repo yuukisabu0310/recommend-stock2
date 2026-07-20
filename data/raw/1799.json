@@ -1,7 +1,7 @@
 {
   "ticker": "1799",
   "japanese_ticker": "1799.T",
-  "fetch_date": "2026-07-18T23:46:10.838097",
+  "fetch_date": "2026-07-19T23:51:59.386733",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": 14782063.015977,
@@ -132,7 +132,7 @@
     "Basic Average Shares": {
       "2026-03-31 00:00:00": null,
       "2025-03-31 00:00:00": 18858564.0,
-      "2024-03-31 00:00:00": 19495960.0,
+      "2024-03-31 00:00:00": 19496781.0,
       "2023-03-31 00:00:00": 19944038.0,
       "2022-03-31 00:00:00": 20322000.0
     },
@@ -350,21 +350,21 @@
   "balance_sheet": {
     "Treasury Shares Number": {
       "2026-03-31 00:00:00": 3157064.0,
-      "2025-03-31 00:00:00": 2092427.0,
+      "2025-03-31 00:00:00": null,
       "2024-03-31 00:00:00": 1395723.0,
       "2023-03-31 00:00:00": 1270989.0,
-      "2022-03-31 00:00:00": null
+      "2022-03-31 00:00:00": 547177.0
     },
     "Ordinary Shares Number": {
       "2026-03-31 00:00:00": 17701427.0,
-      "2025-03-31 00:00:00": 18766064.0,
+      "2025-03-31 00:00:00": 18761968.0,
       "2024-03-31 00:00:00": 19462768.0,
       "2023-03-31 00:00:00": 19587502.0,
       "2022-03-31 00:00:00": null
     },
     "Share Issued": {
       "2026-03-31 00:00:00": 20858491.0,
-      "2025-03-31 00:00:00": 20858491.0,
+      "2025-03-31 00:00:00": 18761968.0,
       "2024-03-31 00:00:00": 20858491.0,
       "2023-03-31 00:00:00": 20858491.0,
       "2022-03-31 00:00:00": null
@@ -1261,16 +1261,13 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "corporateActions": [],
-    "regularMarketTime": 1784269800,
-    "shortName": "DAIICHI KENSETSU CORP",
-    "longName": "Daiichi Kensetsu Corporation",
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
     "regularMarketChangePercent": -0.9090909,
     "regularMarketPrice": 3270.0,
     "marketState": "CLOSED",
+    "shortName": "DAIICHI KENSETSU CORP",
+    "longName": "Daiichi Kensetsu Corporation",
+    "corporateActions": [],
+    "regularMarketTime": 1784269800,
     "exchange": "JPX",
     "messageBoardId": "finmb_880783",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1278,8 +1275,6 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 946944000000,
     "regularMarketChange": -30.0,
     "regularMarketDayRange": "3225.0 - 3300.0",
     "fullExchangeName": "Tokyo",
@@ -1299,6 +1294,11 @@
     "fiftyDayAverageChangePercent": -0.01901959,
     "twoHundredDayAverageChange": -374.82495,
     "twoHundredDayAverageChangePercent": -0.10283757,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 946944000000,
     "trailingPegRatio": null
   }
 }

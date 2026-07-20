@@ -1,7 +1,7 @@
 {
   "ticker": "2217",
   "japanese_ticker": "2217.T",
-  "fetch_date": "2026-07-18T23:51:18.598148",
+  "fetch_date": "2026-07-19T23:57:28.955140",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-01-31 00:00:00": -79045600.0,
@@ -132,7 +132,7 @@
     "Basic Average Shares": {
       "2026-01-31 00:00:00": null,
       "2025-01-31 00:00:00": 20551802.0,
-      "2024-01-31 00:00:00": 21039516.0,
+      "2024-01-31 00:00:00": 21038492.0,
       "2023-01-31 00:00:00": 21107790.0,
       "2022-01-31 00:00:00": 21099078.0
     },
@@ -301,14 +301,14 @@
   "balance_sheet": {
     "Treasury Shares Number": {
       "2026-01-31 00:00:00": 1204758.0,
-      "2025-01-31 00:00:00": 1054635.0,
+      "2025-01-31 00:00:00": null,
       "2024-01-31 00:00:00": 513351.0,
       "2023-01-31 00:00:00": 154812.0,
-      "2022-01-31 00:00:00": null
+      "2022-01-31 00:00:00": 914964.0
     },
     "Ordinary Shares Number": {
       "2026-01-31 00:00:00": 20060598.0,
-      "2025-01-31 00:00:00": 20210721.0,
+      "2025-01-31 00:00:00": 20211495.0,
       "2024-01-31 00:00:00": 20752005.0,
       "2023-01-31 00:00:00": 21110544.0,
       "2022-01-31 00:00:00": null
@@ -1258,11 +1258,10 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "regularMarketChangePercent": 0.95298606,
-    "regularMarketPrice": 1589.0,
     "shortName": "MOROZOFF LIMITED",
     "longName": "Morozoff Limited",
-    "cryptoTradeable": false,
+    "regularMarketChange": 15.0,
+    "regularMarketDayRange": "1574.0 - 1589.0",
     "fullExchangeName": "Tokyo",
     "averageDailyVolume3Month": 23473,
     "fiftyTwoWeekLowChange": 129.0,
@@ -1282,6 +1281,7 @@
     "twoHundredDayAverageChangePercent": 0.04417537,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
     "corporateActions": [
       {
         "header": "Dividend",
@@ -1301,11 +1301,11 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "marketState": "CLOSED",
+    "regularMarketChangePercent": 0.95298606,
+    "regularMarketPrice": 1589.0,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 978307200000,
-    "regularMarketChange": 15.0,
-    "regularMarketDayRange": "1574.0 - 1589.0",
+    "marketState": "CLOSED",
     "trailingPegRatio": null
   }
 }

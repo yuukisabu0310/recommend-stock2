@@ -1,7 +1,7 @@
 {
   "ticker": "2408",
   "japanese_ticker": "2408.T",
-  "fetch_date": "2026-07-18T23:53:44.932812",
+  "fetch_date": "2026-07-20T00:00:05.157149",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-12-31 00:00:00": -386910.0,
@@ -117,10 +117,10 @@
     },
     "Diluted Average Shares": {
       "2025-12-31 00:00:00": 7320029.0,
-      "2024-12-31 00:00:00": 7310828.0,
+      "2024-12-31 00:00:00": null,
       "2023-12-31 00:00:00": 7232929.0,
       "2022-12-31 00:00:00": 7232929.0,
-      "2021-12-31 00:00:00": null
+      "2021-12-31 00:00:00": 7231138.0
     },
     "Basic Average Shares": {
       "2025-12-31 00:00:00": 7320029.0,
@@ -131,10 +131,10 @@
     },
     "Diluted EPS": {
       "2025-12-31 00:00:00": 45.87,
-      "2024-12-31 00:00:00": 32.97,
+      "2024-12-31 00:00:00": null,
       "2023-12-31 00:00:00": 51.35,
       "2022-12-31 00:00:00": 46.68,
-      "2021-12-31 00:00:00": null
+      "2021-12-31 00:00:00": 10.02
     },
     "Basic EPS": {
       "2025-12-31 00:00:00": 45.87,
@@ -1161,6 +1161,21 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "shortName": "KG INTELLIGENCE CO LTD",
+    "longName": "KG Intelligence CO., LTD.",
+    "exchange": "JPX",
+    "messageBoardId": "finmb_11071985",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
+    "regularMarketChangePercent": -1.4067996,
+    "regularMarketPrice": 841.0,
+    "corporateActions": [],
+    "regularMarketTime": 1784269800,
+    "marketState": "CLOSED",
+    "epsTrailingTwelveMonths": 68.12,
     "fiftyDayAverageChange": 6.619995,
     "fiftyDayAverageChangePercent": 0.007934029,
     "twoHundredDayAverageChange": 95.09003,
@@ -1183,21 +1198,6 @@
     "earningsTimestampStart": 1751869800,
     "earningsTimestampEnd": 1752215400,
     "isEarningsDateEstimate": true,
-    "epsTrailingTwelveMonths": 68.12,
-    "marketState": "CLOSED",
-    "longName": "KG Intelligence CO., LTD.",
-    "regularMarketChangePercent": -1.4067996,
-    "regularMarketPrice": 841.0,
-    "corporateActions": [],
-    "regularMarketTime": 1784269800,
-    "exchange": "JPX",
-    "messageBoardId": "finmb_11071985",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
-    "shortName": "KG INTELLIGENCE CO LTD",
     "trailingPegRatio": null
   }
 }

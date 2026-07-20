@@ -1,7 +1,7 @@
 {
   "ticker": "2811",
   "japanese_ticker": "2811.T",
-  "fetch_date": "2026-07-18T23:58:31.613739",
+  "fetch_date": "2026-07-20T00:05:10.462617",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-12-31 00:00:00": 0.0,
@@ -1118,8 +1118,8 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 978307200000,
+    "shortName": "KAGOME CO LTD",
+    "longName": "Kagome Co., Ltd.",
     "regularMarketChange": 44.0,
     "regularMarketDayRange": "2732.5 - 2765.0",
     "fullExchangeName": "Tokyo",
@@ -1131,7 +1131,6 @@
     "fiftyTwoWeekHighChangePercent": -0.08673978,
     "fiftyTwoWeekChangePercent": -2.0495474,
     "earningsTimestamp": 1785393000,
-    "marketState": "CLOSED",
     "earningsTimestampStart": 1785393000,
     "earningsTimestampEnd": 1785393000,
     "earningsCallTimestampStart": 1738666740,
@@ -1146,8 +1145,6 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
-    "shortName": "KAGOME CO LTD",
-    "longName": "Kagome Co., Ltd.",
     "corporateActions": [],
     "regularMarketTime": 1784269800,
     "exchange": "JPX",
@@ -1159,6 +1156,9 @@
     "esgPopulated": false,
     "regularMarketChangePercent": 1.627219,
     "regularMarketPrice": 2748.0,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 978307200000,
+    "marketState": "CLOSED",
     "trailingPegRatio": null
   }
 }

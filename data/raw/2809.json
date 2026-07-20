@@ -1,7 +1,7 @@
 {
   "ticker": "2809",
   "japanese_ticker": "2809.T",
-  "fetch_date": "2026-07-18T23:58:27.814830",
+  "fetch_date": "2026-07-20T00:05:06.480910",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-11-30 00:00:00": 2869139000.0,
@@ -429,13 +429,6 @@
       "2024-11-30 00:00:00": 15532000000.0,
       "2023-11-30 00:00:00": 12766000000.0,
       "2022-11-30 00:00:00": 9558000000.0,
-      "2021-11-30 00:00:00": null
-    },
-    "Long Term Debt And Capital Lease Obligation": {
-      "2025-11-30 00:00:00": 3592000000.0,
-      "2024-11-30 00:00:00": 19285000000.0,
-      "2023-11-30 00:00:00": 14591000000.0,
-      "2022-11-30 00:00:00": 29407000000.0,
       "2021-11-30 00:00:00": null
     },
     "Long Term Capital Lease Obligation": {
@@ -1293,8 +1286,7 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "regularMarketChangePercent": 2.320442,
-    "regularMarketPrice": 4630.0,
+    "marketState": "CLOSED",
     "corporateActions": [],
     "regularMarketTime": 1784269800,
     "exchange": "JPX",
@@ -1304,11 +1296,9 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "marketState": "CLOSED",
-    "shortName": "KEWPIE CORP",
-    "longName": "Kewpie Corporation",
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 978307200000,
+    "regularMarketChangePercent": 2.320442,
+    "regularMarketPrice": 4630.0,
+    "cryptoTradeable": false,
     "regularMarketChange": 105.0,
     "regularMarketDayRange": "4527.0 - 4688.0",
     "fullExchangeName": "Tokyo",
@@ -1334,7 +1324,10 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "averageAnalystRating": "2.0 - Buy",
-    "cryptoTradeable": false,
+    "longName": "Kewpie Corporation",
+    "shortName": "KEWPIE CORP",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 978307200000,
     "trailingPegRatio": null
   }
 }

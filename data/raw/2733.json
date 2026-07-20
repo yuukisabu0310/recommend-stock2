@@ -1,7 +1,7 @@
 {
   "ticker": "2733",
   "japanese_ticker": "2733.T",
-  "fetch_date": "2026-07-18T23:57:08.210136",
+  "fetch_date": "2026-07-20T00:03:40.829087",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": 442740000.0,
@@ -1265,7 +1265,7 @@
     "tradeable": false,
     "enterpriseValue": 101387812864,
     "profitMargins": 0.01008,
-    "floatShares": 24438654,
+    "floatShares": 24454752,
     "sharesOutstanding": 33476712,
     "heldPercentInsiders": 0.20462,
     "heldPercentInstitutions": 0.29868,
@@ -1329,7 +1329,6 @@
     "fiftyTwoWeekHighChange": -671.0,
     "fiftyTwoWeekHighChangePercent": -0.2048855,
     "fiftyTwoWeekChangePercent": -16.805113,
-    "marketState": "CLOSED",
     "earningsTimestampStart": 1754373600,
     "earningsTimestampEnd": 1754892000,
     "earningsCallTimestampStart": 1747133940,
@@ -1343,11 +1342,6 @@
     "twoHundredDayAverageChangePercent": -0.09962246,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
-    "shortName": "ARATA CORPORATION",
-    "longName": "Arata Corporation",
-    "corporateActions": [],
-    "regularMarketTime": 1784269800,
     "exchange": "JPX",
     "messageBoardId": "finmb_7884402",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1357,6 +1351,12 @@
     "esgPopulated": false,
     "regularMarketChangePercent": 1.3229573,
     "regularMarketPrice": 2604.0,
+    "marketState": "CLOSED",
+    "corporateActions": [],
+    "regularMarketTime": 1784269800,
+    "cryptoTradeable": false,
+    "longName": "Arata Corporation",
+    "shortName": "ARATA CORPORATION",
     "trailingPegRatio": null
   }
 }

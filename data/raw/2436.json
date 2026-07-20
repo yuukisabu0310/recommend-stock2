@@ -1,7 +1,7 @@
 {
   "ticker": "2436",
   "japanese_ticker": "2436.T",
-  "fetch_date": "2026-07-18T23:54:13.172933",
+  "fetch_date": "2026-07-20T00:00:35.285798",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-12-31 00:00:00": 831348.0,
@@ -1239,10 +1239,7 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
-    "corporateActions": [],
-    "regularMarketChangePercent": 0.0,
-    "regularMarketPrice": 601.0,
-    "regularMarketTime": 1784269800,
+    "marketState": "CLOSED",
     "exchange": "JPX",
     "messageBoardId": "finmb_21759071",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1250,9 +1247,12 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "marketState": "CLOSED",
+    "regularMarketChangePercent": 0.0,
+    "regularMarketPrice": 601.0,
     "shortName": "KYODO PUBLIC RELATIONS CO LTD",
     "longName": "Kyodo Public Relations Co., Ltd.",
+    "corporateActions": [],
+    "regularMarketTime": 1784269800,
     "trailingPegRatio": null
   }
 }

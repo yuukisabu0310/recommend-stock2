@@ -1,7 +1,7 @@
 {
   "ticker": "1514",
   "japanese_ticker": "1514.T",
-  "fetch_date": "2026-07-18T23:45:04.760428",
+  "fetch_date": "2026-07-19T23:50:47.498580",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": -1634000.0,
@@ -308,10 +308,10 @@
   "balance_sheet": {
     "Treasury Shares Number": {
       "2026-03-31 00:00:00": 7399704.0,
-      "2025-03-31 00:00:00": 7437429.0,
+      "2025-03-31 00:00:00": null,
       "2024-03-31 00:00:00": 7453978.0,
       "2023-03-31 00:00:00": 5674124.0,
-      "2022-03-31 00:00:00": null
+      "2022-03-31 00:00:00": 3860000.0
     },
     "Ordinary Shares Number": {
       "2026-03-31 00:00:00": 59823149.0,
@@ -1190,8 +1190,7 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 978307200000,
+    "corporateActions": [],
     "regularMarketChange": -24.0,
     "regularMarketDayRange": "551.0 - 583.0",
     "fullExchangeName": "Tokyo",
@@ -1212,7 +1211,6 @@
     "twoHundredDayAverageChangePercent": -0.17956533,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
-    "corporateActions": [],
     "regularMarketTime": 1784269800,
     "exchange": "JPX",
     "messageBoardId": "finmb_47864925",
@@ -1224,6 +1222,8 @@
     "regularMarketChangePercent": -4.109589,
     "regularMarketPrice": 560.0,
     "cryptoTradeable": false,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 978307200000,
     "shortName": "SUMISEKI HOLDINGS INC",
     "longName": "Sumiseki Holdings,Inc.",
     "marketState": "CLOSED",

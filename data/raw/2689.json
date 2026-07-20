@@ -1,7 +1,7 @@
 {
   "ticker": "2689",
   "japanese_ticker": "2689.T",
-  "fetch_date": "2026-07-18T23:56:37.702816",
+  "fetch_date": "2026-07-20T00:03:07.611079",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-06-30 00:00:00": null,
@@ -107,14 +107,14 @@
     },
     "Diluted Average Shares": {
       "2025-06-30 00:00:00": 5923495.0,
-      "2024-06-30 00:00:00": 5961397.0,
-      "2023-06-30 00:00:00": 6020520.0,
+      "2024-06-30 00:00:00": null,
+      "2023-06-30 00:00:00": 6020596.0,
       "2022-06-30 00:00:00": 6073244.0
     },
     "Basic Average Shares": {
       "2025-06-30 00:00:00": 5923495.0,
-      "2024-06-30 00:00:00": 5961397.0,
-      "2023-06-30 00:00:00": 6020520.0,
+      "2024-06-30 00:00:00": null,
+      "2023-06-30 00:00:00": 6020596.0,
       "2022-06-30 00:00:00": 6073244.0
     },
     "Diluted EPS": {
@@ -125,7 +125,7 @@
     },
     "Basic EPS": {
       "2025-06-30 00:00:00": 241.43,
-      "2024-06-30 00:00:00": 251.68,
+      "2024-06-30 00:00:00": null,
       "2023-06-30 00:00:00": 234.9,
       "2022-06-30 00:00:00": 252.8
     },
@@ -834,7 +834,7 @@
     },
     "Net Foreign Currency Exchange Gain Loss": {
       "2024-06-30 00:00:00": -7062000.0,
-      "2023-06-30 00:00:00": 0.0,
+      "2023-06-30 00:00:00": null,
       "2022-06-30 00:00:00": null
     },
     "Gain Loss On Sale Of PPE": {
@@ -1000,16 +1000,8 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "regularMarketChangePercent": 0.2604167,
-    "regularMarketPrice": 1925.0,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 978566400000,
-    "regularMarketChange": 5.0,
-    "regularMarketDayRange": "1902.0 - 1925.0",
-    "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 5931,
-    "fiftyTwoWeekLowChange": 145.0,
-    "fiftyTwoWeekLowChangePercent": 0.08146068,
+    "shortName": "OLBA HEALTHCARE HLDGS INC",
+    "longName": "OLBA HEALTHCARE HOLDINGS, Inc.",
     "fiftyTwoWeekRange": "1780.0 - 2238.0",
     "fiftyTwoWeekHighChange": -313.0,
     "fiftyTwoWeekHighChangePercent": -0.13985701,
@@ -1027,8 +1019,9 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "prevName": "Kawanishi Holdings, Inc.",
-    "nameChangeDate": "2026-07-18",
+    "nameChangeDate": "2026-07-19",
     "cryptoTradeable": false,
+    "marketState": "CLOSED",
     "corporateActions": [],
     "regularMarketTime": 1784269800,
     "exchange": "JPX",
@@ -1038,9 +1031,16 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "marketState": "CLOSED",
-    "shortName": "OLBA HEALTHCARE HLDGS INC",
-    "longName": "OLBA HEALTHCARE HOLDINGS, Inc.",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 978566400000,
+    "regularMarketChange": 5.0,
+    "regularMarketDayRange": "1902.0 - 1925.0",
+    "fullExchangeName": "Tokyo",
+    "averageDailyVolume3Month": 5931,
+    "fiftyTwoWeekLowChange": 145.0,
+    "fiftyTwoWeekLowChangePercent": 0.08146068,
+    "regularMarketChangePercent": 0.2604167,
+    "regularMarketPrice": 1925.0,
     "trailingPegRatio": null
   }
 }

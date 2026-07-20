@@ -1,7 +1,7 @@
 {
   "ticker": "2454",
   "japanese_ticker": "2454.T",
-  "fetch_date": "2026-07-18T23:54:24.921136",
+  "fetch_date": "2026-07-20T00:00:49.025469",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": -35946400.0,
@@ -125,7 +125,7 @@
     "Basic Average Shares": {
       "2026-03-31 00:00:00": null,
       "2025-03-31 00:00:00": 13956008.0,
-      "2024-03-31 00:00:00": 13835627.0,
+      "2024-03-31 00:00:00": 13835376.0,
       "2023-03-31 00:00:00": 13624192.0,
       "2022-03-31 00:00:00": 13551372.0
     },
@@ -301,10 +301,10 @@
   "balance_sheet": {
     "Treasury Shares Number": {
       "2026-03-31 00:00:00": 134223.0,
-      "2025-03-31 00:00:00": 118216.0,
+      "2025-03-31 00:00:00": null,
       "2024-03-31 00:00:00": 206363.0,
       "2023-03-31 00:00:00": 295979.0,
-      "2022-03-31 00:00:00": null
+      "2022-03-31 00:00:00": 373699.0
     },
     "Ordinary Shares Number": {
       "2026-03-31 00:00:00": 14089693.0,
@@ -315,7 +315,7 @@
     },
     "Share Issued": {
       "2026-03-31 00:00:00": 14223916.0,
-      "2025-03-31 00:00:00": 14103600.0,
+      "2025-03-31 00:00:00": 13985384.0,
       "2024-03-31 00:00:00": 14103600.0,
       "2023-03-31 00:00:00": 13960900.0,
       "2022-03-31 00:00:00": null
@@ -1104,9 +1104,9 @@
     "trailingAnnualDividendYield": 0.002967359,
     "currency": "JPY",
     "tradeable": false,
-    "enterpriseValue": 4709832192,
+    "enterpriseValue": 4704406016,
     "profitMargins": -0.03059,
-    "floatShares": 5273698,
+    "floatShares": 5267714,
     "sharesOutstanding": 14089693,
     "heldPercentInsiders": 0.60372,
     "heldPercentInstitutions": 0.02427,
@@ -1120,8 +1120,8 @@
     "trailingEps": -33.66,
     "lastSplitFactor": "100:1",
     "lastSplitDate": 1380153600,
-    "enterpriseToRevenue": 0.305,
-    "enterpriseToEbitda": 14.999,
+    "enterpriseToRevenue": 0.304,
+    "enterpriseToEbitda": 14.982,
     "52WeekChange": -0.09358287,
     "SandP52WeekChange": 0.18270898,
     "lastDividendValue": 1.0,
@@ -1130,7 +1130,7 @@
     "currentPrice": 339.0,
     "recommendationKey": "none",
     "totalCash": 489000000,
-    "totalCashPerShare": 34.667,
+    "totalCashPerShare": 34.706,
     "ebitda": 314000000,
     "totalDebt": 0,
     "quickRatio": 1.248,
@@ -1154,15 +1154,8 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "regularMarketChangePercent": 0.5934718,
-    "regularMarketPrice": 339.0,
     "shortName": "ALL ABOUT INC",
     "longName": "All About, Inc.",
-    "cryptoTradeable": false,
-    "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 8596,
-    "fiftyTwoWeekLowChange": 12.0,
-    "fiftyTwoWeekLowChangePercent": 0.036697246,
     "fiftyTwoWeekRange": "327.0 - 420.0",
     "fiftyTwoWeekHighChange": -81.0,
     "fiftyTwoWeekHighChangePercent": -0.19285715,
@@ -1177,6 +1170,8 @@
     "twoHundredDayAverageChangePercent": -0.099194825,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
+    "marketState": "CLOSED",
     "corporateActions": [],
     "regularMarketTime": 1784269800,
     "exchange": "JPX",
@@ -1186,11 +1181,16 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "marketState": "CLOSED",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1126569600000,
     "regularMarketChange": 2.0,
     "regularMarketDayRange": "335.0 - 340.0",
+    "fullExchangeName": "Tokyo",
+    "averageDailyVolume3Month": 8596,
+    "fiftyTwoWeekLowChange": 12.0,
+    "fiftyTwoWeekLowChangePercent": 0.036697246,
+    "regularMarketChangePercent": 0.5934718,
+    "regularMarketPrice": 339.0,
     "trailingPegRatio": null
   }
 }

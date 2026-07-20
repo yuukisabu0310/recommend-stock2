@@ -1,7 +1,7 @@
 {
   "ticker": "2154",
   "japanese_ticker": "2154.T",
-  "fetch_date": "2026-07-18T23:50:10.318073",
+  "fetch_date": "2026-07-19T23:56:15.540999",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-06-30 00:00:00": 0.0,
@@ -96,7 +96,7 @@
     "Diluted Average Shares": {
       "2025-06-30 00:00:00": 87003810.0,
       "2024-06-30 00:00:00": 86835891.0,
-      "2023-06-30 00:00:00": 87572656.0,
+      "2023-06-30 00:00:00": 87571192.0,
       "2022-06-30 00:00:00": 89386560.0
     },
     "Basic Average Shares": {
@@ -107,13 +107,13 @@
     },
     "Diluted EPS": {
       "2025-06-30 00:00:00": 144.35,
-      "2024-06-30 00:00:00": 135.52,
+      "2024-06-30 00:00:00": null,
       "2023-06-30 00:00:00": 108.86,
       "2022-06-30 00:00:00": 78.03
     },
     "Basic EPS": {
       "2025-06-30 00:00:00": 144.56,
-      "2024-06-30 00:00:00": 135.76,
+      "2024-06-30 00:00:00": null,
       "2023-06-30 00:00:00": 109.13,
       "2022-06-30 00:00:00": 78.3
     },
@@ -645,9 +645,9 @@
     },
     "Common Stock Dividend Paid": {
       "2025-06-30 00:00:00": -6526000000.0,
-      "2024-06-30 00:00:00": -4596000000.0,
-      "2023-06-30 00:00:00": -3968000000.0,
-      "2022-06-30 00:00:00": -3969000000.0
+      "2024-06-30 00:00:00": null,
+      "2023-06-30 00:00:00": null,
+      "2022-06-30 00:00:00": null
     },
     "Net Common Stock Issuance": {
       "2025-06-30 00:00:00": -1000000.0,
@@ -1028,7 +1028,23 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "shortName": "OPEN UP GROUP INC",
     "marketState": "CLOSED",
+    "earningsTimestampEnd": 1786084200,
+    "isEarningsDateEstimate": false,
+    "epsTrailingTwelveMonths": 152.54,
+    "epsForward": 153.09,
+    "fiftyDayAverageChange": 104.640015,
+    "fiftyDayAverageChangePercent": 0.055383842,
+    "twoHundredDayAverageChange": 170.32996,
+    "twoHundredDayAverageChangePercent": 0.09339955,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "prevName": "BeNEXT Group Inc.",
+    "nameChangeDate": "2026-07-19",
+    "cryptoTradeable": false,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1181088000000,
     "regularMarketChange": 22.0,
     "regularMarketDayRange": "1979.0 - 2011.0",
     "fullExchangeName": "Tokyo",
@@ -1041,21 +1057,7 @@
     "fiftyTwoWeekChangePercent": 20.192886,
     "earningsTimestamp": 1786084200,
     "earningsTimestampStart": 1786084200,
-    "earningsTimestampEnd": 1786084200,
-    "isEarningsDateEstimate": false,
-    "epsTrailingTwelveMonths": 152.54,
-    "epsForward": 153.09,
-    "fiftyDayAverageChange": 104.640015,
-    "fiftyDayAverageChangePercent": 0.055383842,
-    "twoHundredDayAverageChange": 170.32996,
-    "twoHundredDayAverageChangePercent": 0.09339955,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "prevName": "BeNEXT Group Inc.",
-    "nameChangeDate": "2026-07-18",
-    "cryptoTradeable": false,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1181088000000,
+    "longName": "Open Up Group Inc.",
     "corporateActions": [],
     "regularMarketTime": 1784269800,
     "exchange": "JPX",
@@ -1067,8 +1069,6 @@
     "esgPopulated": false,
     "regularMarketChangePercent": 1.1156187,
     "regularMarketPrice": 1994.0,
-    "shortName": "OPEN UP GROUP INC",
-    "longName": "Open Up Group Inc.",
     "trailingPegRatio": null
   }
 }

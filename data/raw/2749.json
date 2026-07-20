@@ -1,7 +1,7 @@
 {
   "ticker": "2749",
   "japanese_ticker": "2749.T",
-  "fetch_date": "2026-07-18T23:57:25.418022",
+  "fetch_date": "2026-07-20T00:03:59.850173",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": -6654609.0,
@@ -1238,6 +1238,8 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1266796800000,
     "regularMarketChange": -3.0,
     "regularMarketDayRange": "617.0 - 629.0",
     "fullExchangeName": "Tokyo",
@@ -1260,15 +1262,10 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
-    "marketState": "CLOSED",
-    "regularMarketChangePercent": -0.48309177,
-    "regularMarketPrice": 618.0,
+    "shortName": "JP-HOLDINGS INC",
+    "longName": "Jp-Holdings,Inc.",
     "corporateActions": [],
     "regularMarketTime": 1784269800,
-    "longName": "Jp-Holdings,Inc.",
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1266796800000,
-    "shortName": "JP-HOLDINGS INC",
     "exchange": "JPX",
     "messageBoardId": "finmb_12948488",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1276,6 +1273,9 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
+    "regularMarketChangePercent": -0.48309177,
+    "regularMarketPrice": 618.0,
+    "marketState": "CLOSED",
     "trailingPegRatio": null
   }
 }

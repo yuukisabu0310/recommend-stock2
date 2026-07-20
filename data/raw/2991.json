@@ -1,7 +1,7 @@
 {
   "ticker": "2991",
   "japanese_ticker": "2991.T",
-  "fetch_date": "2026-07-19T00:00:35.500452",
+  "fetch_date": "2026-07-20T00:07:22.517855",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-07-31 00:00:00": null,
@@ -1112,30 +1112,6 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "shortName": "LANDNET INC",
-    "longName": "LANDNET Inc.",
-    "marketState": "CLOSED",
-    "corporateActions": [
-      {
-        "header": "Dividend",
-        "message": "2991.T announced a cash dividend of JPY 11.10 with an ex-date of Jul. 30, 2026",
-        "meta": {
-          "eventType": "DIVIDEND",
-          "dateEpochMs": 1785337200000,
-          "amount": "11.10"
-        }
-      }
-    ],
-    "regularMarketTime": 1784269800,
-    "exchange": "JPX",
-    "messageBoardId": "finmb_228764655",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
-    "regularMarketChangePercent": -4.2372885,
-    "regularMarketPrice": 565.0,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1626825600000,
     "regularMarketChange": -25.0,
@@ -1158,7 +1134,31 @@
     "twoHundredDayAverageChangePercent": -0.110061035,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
+    "exchange": "JPX",
+    "messageBoardId": "finmb_228764655",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
+    "regularMarketChangePercent": -4.2372885,
+    "regularMarketPrice": 565.0,
+    "marketState": "CLOSED",
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "2991.T announced a cash dividend of JPY 11.10 with an ex-date of Jul. 30, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1785337200000,
+          "amount": "11.10"
+        }
+      }
+    ],
+    "regularMarketTime": 1784269800,
     "cryptoTradeable": false,
+    "longName": "LANDNET Inc.",
+    "shortName": "LANDNET INC",
     "trailingPegRatio": null
   }
 }

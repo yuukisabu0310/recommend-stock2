@@ -1,7 +1,7 @@
 {
   "ticker": "2813",
   "japanese_ticker": "2813.T",
-  "fetch_date": "2026-07-18T23:58:34.254861",
+  "fetch_date": "2026-07-20T00:05:12.788171",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": 11380875.0,
@@ -132,7 +132,7 @@
     "Diluted Average Shares": {
       "2026-03-31 00:00:00": 2494255.0,
       "2025-03-31 00:00:00": 2491634.0,
-      "2024-03-31 00:00:00": 2487951.0,
+      "2024-03-31 00:00:00": 2487936.0,
       "2023-03-31 00:00:00": 2478735.0,
       "2022-03-31 00:00:00": null
     },
@@ -364,7 +364,7 @@
     },
     "Share Issued": {
       "2026-03-31 00:00:00": 2847957.0,
-      "2025-03-31 00:00:00": 2847957.0,
+      "2025-03-31 00:00:00": 2492340.0,
       "2024-03-31 00:00:00": 2847957.0,
       "2023-03-31 00:00:00": 2847957.0,
       "2022-03-31 00:00:00": null
@@ -1345,22 +1345,9 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "marketState": "CLOSED",
-    "cryptoTradeable": false,
-    "regularMarketTime": 1784269398,
-    "earningsTimestampStart": 1747281600,
-    "earningsTimestampEnd": 1747281600,
-    "isEarningsDateEstimate": false,
-    "epsTrailingTwelveMonths": 462.4,
-    "fiftyDayAverageChange": 49.899902,
-    "fiftyDayAverageChangePercent": 0.0126325665,
-    "twoHundredDayAverageChange": 458.99,
-    "twoHundredDayAverageChangePercent": 0.12962121,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
     "shortName": "WAKOU SHOKUHIN CO",
     "longName": "Wakou Shokuhin Co., Ltd.",
-    "corporateActions": [],
+    "marketState": "CLOSED",
     "exchange": "JPX",
     "messageBoardId": "finmb_9794139",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1368,8 +1355,8 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "regularMarketChangePercent": -0.12484394,
-    "regularMarketPrice": 4000.0,
+    "corporateActions": [],
+    "regularMarketTime": 1784269398,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 947030400000,
     "regularMarketChange": -5.0,
@@ -1382,6 +1369,19 @@
     "fiftyTwoWeekHighChange": -140.0,
     "fiftyTwoWeekHighChangePercent": -0.033816423,
     "fiftyTwoWeekChangePercent": 5.5408955,
+    "earningsTimestampStart": 1747281600,
+    "earningsTimestampEnd": 1747281600,
+    "isEarningsDateEstimate": false,
+    "epsTrailingTwelveMonths": 462.4,
+    "fiftyDayAverageChange": 49.899902,
+    "fiftyDayAverageChangePercent": 0.0126325665,
+    "twoHundredDayAverageChange": 458.99,
+    "twoHundredDayAverageChangePercent": 0.12962121,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
+    "regularMarketChangePercent": -0.12484394,
+    "regularMarketPrice": 4000.0,
     "trailingPegRatio": null
   }
 }

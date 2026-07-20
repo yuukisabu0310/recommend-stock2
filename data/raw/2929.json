@@ -1,7 +1,7 @@
 {
   "ticker": "2929",
   "japanese_ticker": "2929.T",
-  "fetch_date": "2026-07-18T23:59:50.949517",
+  "fetch_date": "2026-07-20T00:06:36.352022",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-07-31 00:00:00": -39672000.0,
@@ -124,28 +124,28 @@
     },
     "Diluted Average Shares": {
       "2025-07-31 00:00:00": 28682775.0,
-      "2024-07-31 00:00:00": 28441034.0,
-      "2023-07-31 00:00:00": 28876505.0,
+      "2024-07-31 00:00:00": null,
+      "2023-07-31 00:00:00": 28875351.0,
       "2022-07-31 00:00:00": 29013832.0,
-      "2021-07-31 00:00:00": null
+      "2021-07-31 00:00:00": 29067656.0
     },
     "Basic Average Shares": {
       "2025-07-31 00:00:00": 28682775.0,
-      "2024-07-31 00:00:00": 28441034.0,
-      "2023-07-31 00:00:00": 28876505.0,
+      "2024-07-31 00:00:00": null,
+      "2023-07-31 00:00:00": 28875351.0,
       "2022-07-31 00:00:00": 29013832.0,
-      "2021-07-31 00:00:00": null
+      "2021-07-31 00:00:00": 29053368.0
     },
     "Diluted EPS": {
       "2025-07-31 00:00:00": null,
-      "2024-07-31 00:00:00": 112.71,
+      "2024-07-31 00:00:00": null,
       "2023-07-31 00:00:00": 106.7,
       "2022-07-31 00:00:00": -12.89,
       "2021-07-31 00:00:00": 132.14
     },
     "Basic EPS": {
       "2025-07-31 00:00:00": null,
-      "2024-07-31 00:00:00": 112.71,
+      "2024-07-31 00:00:00": null,
       "2023-07-31 00:00:00": 106.7,
       "2022-07-31 00:00:00": -12.89,
       "2021-07-31 00:00:00": 132.21
@@ -1244,9 +1244,6 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "shortName": "PHARMA FOODS INTERNATIONAL CO",
-    "longName": "Pharma Foods International Co., Ltd.",
-    "cryptoTradeable": false,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1150070400000,
     "regularMarketChange": -7.0,
@@ -1271,12 +1268,16 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "averageAnalystRating": "0.0 - Strong Buy",
-    "marketState": "CLOSED",
     "exchange": "JPX",
     "messageBoardId": "finmb_23972721",
     "exchangeTimezoneName": "Asia/Tokyo",
     "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
+    "esgPopulated": false,
+    "regularMarketChangePercent": -1.1764706,
+    "regularMarketPrice": 588.0,
+    "marketState": "CLOSED",
     "corporateActions": [
       {
         "header": "Dividend",
@@ -1289,10 +1290,9 @@
       }
     ],
     "regularMarketTime": 1784269800,
-    "gmtOffSetMilliseconds": 32400000,
-    "esgPopulated": false,
-    "regularMarketChangePercent": -1.1764706,
-    "regularMarketPrice": 588.0,
+    "cryptoTradeable": false,
+    "longName": "Pharma Foods International Co., Ltd.",
+    "shortName": "PHARMA FOODS INTERNATIONAL CO",
     "trailingPegRatio": null
   }
 }

@@ -1,7 +1,7 @@
 {
   "ticker": "1717",
   "japanese_ticker": "1717.T",
-  "fetch_date": "2026-07-18T23:45:21.780451",
+  "fetch_date": "2026-07-19T23:51:04.710770",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": -367342.2,
@@ -287,10 +287,10 @@
   "balance_sheet": {
     "Treasury Shares Number": {
       "2026-03-31 00:00:00": 1017244.0,
-      "2025-03-31 00:00:00": 1105228.0,
+      "2025-03-31 00:00:00": null,
       "2024-03-31 00:00:00": 1177199.0,
       "2023-03-31 00:00:00": 1247340.0,
-      "2022-03-31 00:00:00": null
+      "2022-03-31 00:00:00": 1281903.0
     },
     "Ordinary Shares Number": {
       "2026-03-31 00:00:00": 11758656.0,
@@ -1122,6 +1122,15 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "epsTrailingTwelveMonths": 79.33,
+    "epsForward": 81.8,
+    "fiftyDayAverageChange": 16.859985,
+    "fiftyDayAverageChangePercent": 0.018463746,
+    "twoHundredDayAverageChange": -95.13501,
+    "twoHundredDayAverageChangePercent": -0.09280242,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1077148800000,
     "regularMarketChange": -1.0,
@@ -1134,21 +1143,12 @@
     "fiftyTwoWeekHighChange": -225.0,
     "fiftyTwoWeekHighChangePercent": -0.19480519,
     "fiftyTwoWeekChangePercent": -9.001959,
-    "marketState": "CLOSED",
     "earningsTimestampStart": 1754550000,
     "earningsTimestampEnd": 1754982000,
     "isEarningsDateEstimate": true,
-    "epsTrailingTwelveMonths": 79.33,
-    "epsForward": 81.8,
-    "fiftyDayAverageChange": 16.859985,
-    "fiftyDayAverageChangePercent": 0.018463746,
-    "twoHundredDayAverageChange": -95.13501,
-    "twoHundredDayAverageChangePercent": -0.09280242,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
     "shortName": "MEIHO FACILITY WORKS",
     "longName": "Meiho Facility Works Ltd.",
+    "marketState": "CLOSED",
     "corporateActions": [],
     "regularMarketTime": 1784269800,
     "exchange": "JPX",

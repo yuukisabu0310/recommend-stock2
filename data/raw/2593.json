@@ -1,7 +1,7 @@
 {
   "ticker": "2593",
   "japanese_ticker": "2593.T",
-  "fetch_date": "2026-07-18T23:55:41.650385",
+  "fetch_date": "2026-07-20T00:02:07.660997",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-04-30 00:00:00": null,
@@ -96,8 +96,8 @@
     },
     "Normalized Income": {
       "2026-04-30 00:00:00": null,
-      "2025-04-30 00:00:00": 14640436000.0,
-      "2024-04-30 00:00:00": 17054408000.0,
+      "2025-04-30 00:00:00": 14640682920.246504,
+      "2024-04-30 00:00:00": 17054030336.391438,
       "2023-04-30 00:00:00": 13327505000.0,
       "2022-04-30 00:00:00": 12670157000.0
     },
@@ -1208,6 +1208,11 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "marketState": "CLOSED",
+    "shortName": "ITO EN LTD",
+    "longName": "Ito En, Ltd.",
+    "regularMarketChange": 79.0,
+    "regularMarketDayRange": "3067.0 - 3122.0",
     "corporateActions": [],
     "regularMarketTime": 1784269800,
     "exchange": "JPX",
@@ -1215,13 +1220,12 @@
     "exchangeTimezoneName": "Asia/Tokyo",
     "exchangeTimezoneShortName": "JST",
     "gmtOffSetMilliseconds": 32400000,
-    "cryptoTradeable": false,
     "market": "jp_market",
     "esgPopulated": false,
     "regularMarketChangePercent": 2.6176276,
     "regularMarketPrice": 3097.0,
-    "regularMarketChange": 79.0,
-    "regularMarketDayRange": "3067.0 - 3122.0",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 978307200000,
     "fullExchangeName": "Tokyo",
     "averageDailyVolume3Month": 535640,
     "fiftyTwoWeekLowChange": 467.0,
@@ -1244,11 +1248,7 @@
     "twoHundredDayAverageChangePercent": 0.026999755,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 978307200000,
-    "marketState": "CLOSED",
-    "shortName": "ITO EN LTD",
-    "longName": "Ito En, Ltd.",
+    "cryptoTradeable": false,
     "trailingPegRatio": null
   }
 }

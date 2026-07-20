@@ -1,7 +1,7 @@
 {
   "ticker": "2204",
   "japanese_ticker": "2204.T",
-  "fetch_date": "2026-07-18T23:50:59.922413",
+  "fetch_date": "2026-07-19T23:57:08.785277",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": 111450914.510888,
@@ -1242,11 +1242,6 @@
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
     "marketState": "CLOSED",
-    "cryptoTradeable": false,
-    "regularMarketTime": 1784269800,
-    "earningsTimestampStart": 1754373600,
-    "earningsTimestampEnd": 1754978400,
-    "isEarningsDateEstimate": true,
     "epsTrailingTwelveMonths": 159.24,
     "fiftyDayAverageChange": 98.6001,
     "fiftyDayAverageChangePercent": 0.031487547,
@@ -1254,9 +1249,9 @@
     "twoHundredDayAverageChangePercent": 0.026276475,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
-    "shortName": "NAKAMURAYA CO LTD",
-    "longName": "Nakamuraya Co., Ltd.",
+    "cryptoTradeable": false,
     "corporateActions": [],
+    "regularMarketTime": 1784269800,
     "exchange": "JPX",
     "messageBoardId": "finmb_880981",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1265,6 +1260,8 @@
     "market": "jp_market",
     "esgPopulated": false,
     "regularMarketChangePercent": 0.7800312,
+    "longName": "Nakamuraya Co., Ltd.",
+    "shortName": "NAKAMURAYA CO LTD",
     "regularMarketPrice": 3230.0,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 978307200000,
@@ -1278,6 +1275,9 @@
     "fiftyTwoWeekHighChange": -225.0,
     "fiftyTwoWeekHighChangePercent": -0.06512301,
     "fiftyTwoWeekChangePercent": 4.36188,
+    "earningsTimestampStart": 1754373600,
+    "earningsTimestampEnd": 1754978400,
+    "isEarningsDateEstimate": true,
     "trailingPegRatio": null
   }
 }

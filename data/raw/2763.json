@@ -1,7 +1,7 @@
 {
   "ticker": "2763",
   "japanese_ticker": "2763.T",
-  "fetch_date": "2026-07-18T23:57:39.728322",
+  "fetch_date": "2026-07-20T00:04:16.065142",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": 0.0,
@@ -118,7 +118,7 @@
     "Basic Average Shares": {
       "2026-03-31 00:00:00": null,
       "2025-03-31 00:00:00": 30008530.0,
-      "2024-03-31 00:00:00": 30363192.0,
+      "2024-03-31 00:00:00": 30360837.0,
       "2023-03-31 00:00:00": 30730278.0,
       "2022-03-31 00:00:00": 30942268.0
     },
@@ -294,14 +294,14 @@
     },
     "Ordinary Shares Number": {
       "2026-03-31 00:00:00": 29729075.0,
-      "2025-03-31 00:00:00": 29729245.0,
+      "2025-03-31 00:00:00": 30110545.0,
       "2024-03-31 00:00:00": 30154445.0,
       "2023-03-31 00:00:00": 30345365.0,
       "2022-03-31 00:00:00": null
     },
     "Share Issued": {
       "2026-03-31 00:00:00": 30342268.0,
-      "2025-03-31 00:00:00": 30342268.0,
+      "2025-03-31 00:00:00": 30110545.0,
       "2024-03-31 00:00:00": 30822268.0,
       "2023-03-31 00:00:00": 30822268.0,
       "2022-03-31 00:00:00": null
@@ -1123,7 +1123,10 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "marketState": "CLOSED",
+    "shortName": "FTGROUP CO LTD",
+    "longName": "FTGroup Co., Ltd.",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1047427200000,
     "regularMarketChange": -16.0,
     "regularMarketDayRange": "1102.0 - 1130.0",
     "fullExchangeName": "Tokyo",
@@ -1145,8 +1148,6 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1047427200000,
     "corporateActions": [],
     "regularMarketTime": 1784268747,
     "exchange": "JPX",
@@ -1158,8 +1159,7 @@
     "esgPopulated": false,
     "regularMarketChangePercent": -1.4184396,
     "regularMarketPrice": 1112.0,
-    "shortName": "FTGROUP CO LTD",
-    "longName": "FTGroup Co., Ltd.",
+    "marketState": "CLOSED",
     "trailingPegRatio": null
   }
 }

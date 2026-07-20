@@ -1,7 +1,7 @@
 {
   "ticker": "1992",
   "japanese_ticker": "1992.T",
-  "fetch_date": "2026-07-18T23:49:08.180582",
+  "fetch_date": "2026-07-19T23:55:08.919072",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": 28276125.0,
@@ -118,7 +118,7 @@
     "Diluted Average Shares": {
       "2026-03-31 00:00:00": null,
       "2025-03-31 00:00:00": 2279423.0,
-      "2024-03-31 00:00:00": 2345190.0,
+      "2024-03-31 00:00:00": 2345146.0,
       "2023-03-31 00:00:00": 2376586.0,
       "2022-03-31 00:00:00": 2404888.0
     },
@@ -301,7 +301,7 @@
     },
     "Ordinary Shares Number": {
       "2026-03-31 00:00:00": 2289728.0,
-      "2025-03-31 00:00:00": 2279423.0,
+      "2025-03-31 00:00:00": 2317619.0,
       "2024-03-31 00:00:00": 2342788.0,
       "2023-03-31 00:00:00": 2381038.0,
       "2022-03-31 00:00:00": null
@@ -1115,7 +1115,7 @@
     "tradeable": false,
     "enterpriseValue": 3594469632,
     "profitMargins": 0.05489,
-    "floatShares": 948535,
+    "floatShares": 948489,
     "sharesOutstanding": 2289728,
     "heldPercentInsiders": 0.52677,
     "heldPercentInstitutions": 0.0,
@@ -1166,6 +1166,17 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "exchange": "JPX",
+    "messageBoardId": "finmb_9264357",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
+    "regularMarketChangePercent": 0.0,
+    "regularMarketPrice": 2912.0,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 946944000000,
     "regularMarketChange": 0.0,
     "regularMarketDayRange": "2912.0 - 2912.0",
     "fullExchangeName": "Tokyo",
@@ -1179,6 +1190,11 @@
     "earningsTimestampStart": 1747031400,
     "earningsTimestampEnd": 1747031400,
     "isEarningsDateEstimate": false,
+    "corporateActions": [],
+    "regularMarketTime": 1783999800,
+    "marketState": "CLOSED",
+    "shortName": "KANDA TSUSHINKI CO",
+    "longName": "Kanda Tsushinki Co., Ltd.",
     "epsTrailingTwelveMonths": 162.78,
     "fiftyDayAverageChange": 69.23999,
     "fiftyDayAverageChangePercent": 0.024356607,
@@ -1187,22 +1203,6 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
-    "regularMarketTime": 1783999800,
-    "exchange": "JPX",
-    "messageBoardId": "finmb_9264357",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
-    "marketState": "CLOSED",
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 946944000000,
-    "shortName": "KANDA TSUSHINKI CO",
-    "longName": "Kanda Tsushinki Co., Ltd.",
-    "regularMarketChangePercent": 0.0,
-    "regularMarketPrice": 2912.0,
-    "corporateActions": [],
     "trailingPegRatio": null
   }
 }

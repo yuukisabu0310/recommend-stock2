@@ -1,7 +1,7 @@
 {
   "ticker": "2796",
   "japanese_ticker": "2796.T",
-  "fetch_date": "2026-07-18T23:58:13.688155",
+  "fetch_date": "2026-07-20T00:04:50.689535",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-05-31 00:00:00": null,
@@ -132,7 +132,7 @@
     "Basic Average Shares": {
       "2026-05-31 00:00:00": null,
       "2025-05-31 00:00:00": 11321567.0,
-      "2024-05-31 00:00:00": 10524018.0,
+      "2024-05-31 00:00:00": 10505837.0,
       "2023-05-31 00:00:00": 9400592.0,
       "2022-05-31 00:00:00": 9331334.0
     },
@@ -1139,17 +1139,6 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "shortName": "PHARMARISE HOLDINGS CORPORATION",
-    "longName": "Pharmarise Holdings Corporation",
-    "marketState": "CLOSED",
-    "epsTrailingTwelveMonths": 10.03,
-    "fiftyDayAverageChange": -9.880005,
-    "fiftyDayAverageChangePercent": -0.019607853,
-    "twoHundredDayAverageChange": -23.164978,
-    "twoHundredDayAverageChangePercent": -0.04479224,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1172016000000,
     "regularMarketChange": 1.0,
@@ -1167,7 +1156,17 @@
     "earningsCallTimestampStart": 1737716340,
     "earningsCallTimestampEnd": 1737716340,
     "isEarningsDateEstimate": true,
+    "epsTrailingTwelveMonths": 10.03,
+    "fiftyDayAverageChange": -9.880005,
+    "fiftyDayAverageChangePercent": -0.019607853,
+    "twoHundredDayAverageChange": -23.164978,
+    "twoHundredDayAverageChangePercent": -0.04479224,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
     "corporateActions": [],
+    "marketState": "CLOSED",
+    "shortName": "PHARMARISE HOLDINGS CORPORATION",
     "regularMarketTime": 1784269800,
     "exchange": "JPX",
     "messageBoardId": "finmb_8868721",
@@ -1178,6 +1177,7 @@
     "esgPopulated": false,
     "regularMarketChangePercent": 0.20283975,
     "regularMarketPrice": 494.0,
+    "longName": "Pharmarise Holdings Corporation",
     "trailingPegRatio": null
   }
 }

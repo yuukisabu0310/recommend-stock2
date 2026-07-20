@@ -1,7 +1,7 @@
 {
   "ticker": "2666",
   "japanese_ticker": "2666.T",
-  "fetch_date": "2026-07-18T23:56:09.574056",
+  "fetch_date": "2026-07-20T00:02:36.247529",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": -772000.0,
@@ -301,10 +301,10 @@
   "balance_sheet": {
     "Treasury Shares Number": {
       "2026-03-31 00:00:00": 211.0,
-      "2025-03-31 00:00:00": 211.0,
+      "2025-03-31 00:00:00": null,
       "2024-03-31 00:00:00": 211.0,
       "2023-03-31 00:00:00": 211.0,
-      "2022-03-31 00:00:00": null
+      "2022-03-31 00:00:00": 211.0
     },
     "Ordinary Shares Number": {
       "2026-03-31 00:00:00": 14450789.0,
@@ -315,7 +315,7 @@
     },
     "Share Issued": {
       "2026-03-31 00:00:00": 14451000.0,
-      "2025-03-31 00:00:00": 14451000.0,
+      "2025-03-31 00:00:00": 14450789.0,
       "2024-03-31 00:00:00": 14451000.0,
       "2023-03-31 00:00:00": 14451000.0,
       "2022-03-31 00:00:00": null
@@ -1081,21 +1081,10 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "cryptoTradeable": false,
-    "marketState": "CLOSED",
     "shortName": "AUTOWAVE CO LTD",
     "longName": "AUTOWAVE Co., Ltd.",
-    "regularMarketChangePercent": -0.5681818,
-    "regularMarketPrice": 175.0,
-    "corporateActions": [],
-    "regularMarketTime": 1784269800,
-    "exchange": "JPX",
-    "messageBoardId": "finmb_5554857",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 969580800000,
     "regularMarketChange": -1.0,
     "regularMarketDayRange": "172.0 - 176.0",
     "fullExchangeName": "Tokyo",
@@ -1116,8 +1105,19 @@
     "twoHundredDayAverageChangePercent": 0.0716801,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 969580800000,
+    "cryptoTradeable": false,
+    "corporateActions": [],
+    "regularMarketTime": 1784269800,
+    "exchange": "JPX",
+    "messageBoardId": "finmb_5554857",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
+    "regularMarketChangePercent": -0.5681818,
+    "regularMarketPrice": 175.0,
+    "marketState": "CLOSED",
     "trailingPegRatio": null
   }
 }

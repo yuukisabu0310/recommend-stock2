@@ -1,7 +1,7 @@
 {
   "ticker": "2802",
   "japanese_ticker": "2802.T",
-  "fetch_date": "2026-07-18T23:58:20.059315",
+  "fetch_date": "2026-07-20T00:04:57.762129",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": 0.0,
@@ -315,7 +315,7 @@
     },
     "Share Issued": {
       "2026-03-31 00:00:00": 977735616.0,
-      "2025-03-31 00:00:00": 1005637616.0,
+      "2025-03-31 00:00:00": 1016629508.0,
       "2024-03-31 00:00:00": 1042861708.0,
       "2023-03-31 00:00:00": 1059596308.0,
       "2022-03-31 00:00:00": null
@@ -897,12 +897,6 @@
       "2023-03-31 00:00:00": 40255000000.0,
       "2022-03-31 00:00:00": 17763000000.0
     },
-    "Purchase Of PPE": {
-      "2025-03-31 00:00:00": -88104000000.0,
-      "2024-03-31 00:00:00": -65786000000.0,
-      "2023-03-31 00:00:00": -68383000000.0,
-      "2022-03-31 00:00:00": -73842000000.0
-    },
     "Operating Cash Flow": {
       "2025-03-31 00:00:00": 209898000000.0,
       "2024-03-31 00:00:00": 168074000000.0,
@@ -1226,6 +1220,25 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "longName": "Ajinomoto Co., Inc.",
+    "corporateActions": [],
+    "regularMarketTime": 1784269800,
+    "exchange": "JPX",
+    "messageBoardId": "finmb_873739",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
+    "marketState": "CLOSED",
+    "shortName": "AJINOMOTO CO INC",
+    "twoHundredDayAverageChange": 767.73,
+    "twoHundredDayAverageChangePercent": 0.17344852,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
+    "regularMarketChangePercent": -3.1150906,
+    "regularMarketPrice": 5194.0,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 946944000000,
     "regularMarketChange": -167.0,
@@ -1246,27 +1259,8 @@
     "isEarningsDateEstimate": false,
     "epsTrailingTwelveMonths": 138.16,
     "epsForward": 232.13,
-    "regularMarketTime": 1784269800,
-    "exchange": "JPX",
-    "messageBoardId": "finmb_873739",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
-    "regularMarketChangePercent": -3.1150906,
-    "regularMarketPrice": 5194.0,
-    "longName": "Ajinomoto Co., Inc.",
-    "shortName": "AJINOMOTO CO INC",
-    "marketState": "CLOSED",
-    "corporateActions": [],
     "fiftyDayAverageChange": -255.41992,
     "fiftyDayAverageChangePercent": -0.04687103,
-    "twoHundredDayAverageChange": 767.73,
-    "twoHundredDayAverageChangePercent": 0.17344852,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
     "trailingPegRatio": 4.0475
   }
 }

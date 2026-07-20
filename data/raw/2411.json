@@ -1,7 +1,7 @@
 {
   "ticker": "2411",
   "japanese_ticker": "2411.T",
-  "fetch_date": "2026-07-18T23:53:49.399108",
+  "fetch_date": "2026-07-20T00:00:09.652186",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": 359459.459459,
@@ -125,14 +125,14 @@
     "Diluted Average Shares": {
       "2026-03-31 00:00:00": null,
       "2025-03-31 00:00:00": 12300000.0,
-      "2024-03-31 00:00:00": 12377607.0,
+      "2024-03-31 00:00:00": 12291052.0,
       "2023-03-31 00:00:00": 13275437.0,
       "2022-03-31 00:00:00": 14641210.0
     },
     "Basic Average Shares": {
       "2026-03-31 00:00:00": null,
       "2025-03-31 00:00:00": 12300000.0,
-      "2024-03-31 00:00:00": 12377607.0,
+      "2024-03-31 00:00:00": 12291052.0,
       "2023-03-31 00:00:00": 13275437.0,
       "2022-03-31 00:00:00": 14641210.0
     },
@@ -308,10 +308,10 @@
   "balance_sheet": {
     "Treasury Shares Number": {
       "2026-03-31 00:00:00": 1300000.0,
-      "2025-03-31 00:00:00": 0.0,
+      "2025-03-31 00:00:00": null,
       "2024-03-31 00:00:00": 0.0,
       "2023-03-31 00:00:00": 0.0,
-      "2022-03-31 00:00:00": null
+      "2022-03-31 00:00:00": 1350300.0
     },
     "Ordinary Shares Number": {
       "2026-03-31 00:00:00": 11000000.0,
@@ -1182,6 +1182,7 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "marketState": "CLOSED",
     "corporateActions": [],
     "regularMarketTime": 1784269800,
     "exchange": "JPX",
@@ -1193,9 +1194,7 @@
     "esgPopulated": false,
     "regularMarketChangePercent": -2.5423727,
     "regularMarketPrice": 460.0,
-    "marketState": "CLOSED",
-    "shortName": "GENDAI AGENCY INC",
-    "longName": "Gendai Agency Inc.",
+    "cryptoTradeable": false,
     "regularMarketChange": -12.0,
     "regularMarketDayRange": "460.0 - 474.0",
     "fullExchangeName": "Tokyo",
@@ -1216,7 +1215,8 @@
     "twoHundredDayAverageChangePercent": -0.010082093,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
+    "longName": "Gendai Agency Inc.",
+    "shortName": "GENDAI AGENCY INC",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1095292800000,
     "trailingPegRatio": null

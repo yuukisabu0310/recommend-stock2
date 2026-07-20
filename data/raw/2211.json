@@ -1,7 +1,7 @@
 {
   "ticker": "2211",
   "japanese_ticker": "2211.T",
-  "fetch_date": "2026-07-18T23:51:10.816534",
+  "fetch_date": "2026-07-19T23:57:20.521188",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-12-31 00:00:00": -56683240.713659,
@@ -1266,12 +1266,7 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "cryptoTradeable": false,
     "marketState": "CLOSED",
-    "shortName": "FUJIYA CO LTD",
-    "longName": "Fujiya Co., Ltd.",
-    "regularMarketChangePercent": 0.69049555,
-    "regularMarketPrice": 2479.0,
     "corporateActions": [],
     "regularMarketTime": 1784269800,
     "exchange": "JPX",
@@ -1281,6 +1276,9 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
+    "regularMarketChangePercent": 0.69049555,
+    "regularMarketPrice": 2479.0,
+    "cryptoTradeable": false,
     "regularMarketChange": 17.0,
     "regularMarketDayRange": "2456.0 - 2487.0",
     "fullExchangeName": "Tokyo",
@@ -1302,6 +1300,8 @@
     "twoHundredDayAverageChangePercent": -0.0055519356,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
+    "longName": "Fujiya Co., Ltd.",
+    "shortName": "FUJIYA CO LTD",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 978307200000,
     "trailingPegRatio": null

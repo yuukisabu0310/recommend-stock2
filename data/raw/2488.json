@@ -1,7 +1,7 @@
 {
   "ticker": "2488",
   "japanese_ticker": "2488.T",
-  "fetch_date": "2026-07-18T23:54:56.451388",
+  "fetch_date": "2026-07-20T00:01:22.266843",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": -12867538.0,
@@ -125,7 +125,7 @@
     "Basic Average Shares": {
       "2026-03-31 00:00:00": null,
       "2025-03-31 00:00:00": 5667778.0,
-      "2024-03-31 00:00:00": 5635535.0,
+      "2024-03-31 00:00:00": 5635816.0,
       "2023-03-31 00:00:00": 5601192.0,
       "2022-03-31 00:00:00": 5581143.0
     },
@@ -336,10 +336,10 @@
   "balance_sheet": {
     "Treasury Shares Number": {
       "2026-03-31 00:00:00": 395032.0,
-      "2025-03-31 00:00:00": 338732.0,
+      "2025-03-31 00:00:00": null,
       "2024-03-31 00:00:00": 370032.0,
       "2023-03-31 00:00:00": 404032.0,
-      "2022-03-31 00:00:00": null
+      "2022-03-31 00:00:00": 430127.0
     },
     "Ordinary Shares Number": {
       "2026-03-31 00:00:00": 5620568.0,
@@ -1095,6 +1095,8 @@
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
     "marketState": "CLOSED",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1150934400000,
     "regularMarketChange": -14.0,
     "regularMarketDayRange": "1341.0 - 1387.0",
     "fullExchangeName": "Tokyo",
@@ -1116,10 +1118,8 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "prevName": "Japan Third Party Co., Ltd.",
-    "nameChangeDate": "2026-07-18",
+    "nameChangeDate": "2026-07-19",
     "cryptoTradeable": false,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1150934400000,
     "corporateActions": [],
     "regularMarketTime": 1784269800,
     "exchange": "JPX",
@@ -1129,10 +1129,10 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "regularMarketChangePercent": -1.0122921,
-    "regularMarketPrice": 1369.0,
     "shortName": "JTP CO LTD",
     "longName": "JTP Co.,Ltd.",
+    "regularMarketChangePercent": -1.0122921,
+    "regularMarketPrice": 1369.0,
     "trailingPegRatio": null
   }
 }

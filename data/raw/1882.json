@@ -1,7 +1,7 @@
 {
   "ticker": "1882",
   "japanese_ticker": "1882.T",
-  "fetch_date": "2026-07-18T23:47:26.605890",
+  "fetch_date": "2026-07-19T23:53:18.579897",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": -162890000.0,
@@ -1102,9 +1102,9 @@
     "trailingAnnualDividendYield": 0.056109726,
     "currency": "JPY",
     "tradeable": false,
-    "enterpriseValue": 66027933696,
+    "enterpriseValue": 66027917312,
     "profitMargins": 0.028239999,
-    "floatShares": 41112739,
+    "floatShares": 41112730,
     "sharesOutstanding": 46207588,
     "heldPercentInsiders": 0.12059,
     "heldPercentInstitutions": 0.25108,
@@ -1170,6 +1170,9 @@
     "earningsTimestampStart": 1753943400,
     "earningsTimestampEnd": 1754289000,
     "isEarningsDateEstimate": true,
+    "regularMarketChangePercent": -0.3117207,
+    "regularMarketPrice": 1599.0,
+    "marketState": "CLOSED",
     "epsTrailingTwelveMonths": 74.19,
     "fiftyDayAverageChange": 62.180054,
     "fiftyDayAverageChangePercent": 0.040460207,
@@ -1177,7 +1180,6 @@
     "twoHundredDayAverageChangePercent": -0.031358197,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
-    "marketState": "CLOSED",
     "corporateActions": [],
     "regularMarketTime": 1784269800,
     "exchange": "JPX",
@@ -1187,11 +1189,9 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "regularMarketChangePercent": -0.3117207,
-    "regularMarketPrice": 1599.0,
-    "shortName": "TOA ROAD CORPORATION",
     "longName": "Toa Road Corporation",
     "cryptoTradeable": false,
+    "shortName": "TOA ROAD CORPORATION",
     "trailingPegRatio": null
   }
 }

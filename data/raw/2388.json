@@ -1,7 +1,7 @@
 {
   "ticker": "2388",
   "japanese_ticker": "2388.T",
-  "fetch_date": "2026-07-18T23:53:33.038602",
+  "fetch_date": "2026-07-19T23:59:52.315680",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-09-30 00:00:00": 27208960.0,
@@ -124,17 +124,17 @@
     },
     "Diluted Average Shares": {
       "2025-09-30 00:00:00": 42455078.0,
-      "2024-09-30 00:00:00": 42455078.0,
-      "2023-09-30 00:00:00": 37479872.0,
+      "2024-09-30 00:00:00": null,
+      "2023-09-30 00:00:00": 37486998.0,
       "2022-09-30 00:00:00": 35755078.0,
-      "2021-09-30 00:00:00": null
+      "2021-09-30 00:00:00": 35755078.0
     },
     "Basic Average Shares": {
       "2025-09-30 00:00:00": 42455078.0,
-      "2024-09-30 00:00:00": 42455078.0,
-      "2023-09-30 00:00:00": 37479872.0,
+      "2024-09-30 00:00:00": null,
+      "2023-09-30 00:00:00": 37486998.0,
       "2022-09-30 00:00:00": 35755078.0,
-      "2021-09-30 00:00:00": null
+      "2021-09-30 00:00:00": 35755078.0
     },
     "Diluted EPS": {
       "2025-09-30 00:00:00": -5.34,
@@ -145,10 +145,10 @@
     },
     "Basic EPS": {
       "2025-09-30 00:00:00": -5.34,
-      "2024-09-30 00:00:00": -22.21,
+      "2024-09-30 00:00:00": null,
       "2023-09-30 00:00:00": -13.69,
       "2022-09-30 00:00:00": 1.54,
-      "2021-09-30 00:00:00": null
+      "2021-09-30 00:00:00": -33.09
     },
     "Diluted NI Availto Com Stockholders": {
       "2025-09-30 00:00:00": -226643000.0,
@@ -329,7 +329,7 @@
     },
     "Share Issued": {
       "2025-09-30 00:00:00": 42494478.0,
-      "2024-09-30 00:00:00": 42494478.0,
+      "2024-09-30 00:00:00": 42455078.0,
       "2023-09-30 00:00:00": 42494478.0,
       "2022-09-30 00:00:00": 35794478.0,
       "2021-09-30 00:00:00": null
@@ -1138,6 +1138,9 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "regularMarketChangePercent": -2.5641026,
+    "regularMarketPrice": 38.0,
+    "marketState": "CLOSED",
     "shortName": "WEDGE HOLDINGS CO",
     "longName": "Wedge Holdings CO.,LTD.",
     "corporateActions": [],
@@ -1149,9 +1152,6 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "regularMarketChangePercent": -2.5641026,
-    "regularMarketPrice": 38.0,
-    "marketState": "CLOSED",
     "regularMarketChange": -1.0,
     "regularMarketDayRange": "38.0 - 39.0",
     "fullExchangeName": "Tokyo",
@@ -1173,10 +1173,10 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "prevName": "Wedge Holdings CO., LTD.",
-    "nameChangeDate": "2026-07-18",
+    "nameChangeDate": "2026-07-19",
+    "cryptoTradeable": false,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1075334400000,
-    "cryptoTradeable": false,
     "trailingPegRatio": null
   }
 }

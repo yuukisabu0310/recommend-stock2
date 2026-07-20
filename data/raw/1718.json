@@ -1,7 +1,7 @@
 {
   "ticker": "1718",
   "japanese_ticker": "1718.T",
-  "fetch_date": "2026-07-18T23:45:23.713068",
+  "fetch_date": "2026-07-19T23:51:06.391979",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-12-31 00:00:00": 12486210.0,
@@ -138,7 +138,7 @@
     },
     "Diluted EPS": {
       "2025-12-31 00:00:00": null,
-      "2024-12-31 00:00:00": 602.24,
+      "2024-12-31 00:00:00": null,
       "2023-12-31 00:00:00": 767.98,
       "2022-12-31 00:00:00": 672.07,
       "2021-12-31 00:00:00": 669.02
@@ -327,7 +327,7 @@
     },
     "Share Issued": {
       "2025-12-31 00:00:00": 1153263.0,
-      "2024-12-31 00:00:00": 1153263.0,
+      "2024-12-31 00:00:00": 1092961.0,
       "2023-12-31 00:00:00": 1153263.0,
       "2022-12-31 00:00:00": 1153263.0
     },
@@ -1120,15 +1120,6 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "marketState": "CLOSED",
-    "shortName": "MIKIKOGYO CO LTD",
-    "longName": "Mikikogyo Co., Ltd.",
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1067385600000,
-    "regularMarketChange": -50.0,
-    "regularMarketDayRange": "6700.0 - 6900.0",
-    "corporateActions": [],
-    "regularMarketTime": 1784267800,
     "exchange": "JPX",
     "messageBoardId": "finmb_5663631",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1138,6 +1129,10 @@
     "esgPopulated": false,
     "regularMarketChangePercent": -0.7194245,
     "regularMarketPrice": 6900.0,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1067385600000,
+    "regularMarketChange": -50.0,
+    "regularMarketDayRange": "6700.0 - 6900.0",
     "fullExchangeName": "Tokyo",
     "averageDailyVolume3Month": 1477,
     "fiftyTwoWeekLowChange": 350.0,
@@ -1149,6 +1144,11 @@
     "earningsTimestampStart": 1753684200,
     "earningsTimestampEnd": 1754029800,
     "isEarningsDateEstimate": true,
+    "corporateActions": [],
+    "regularMarketTime": 1784267800,
+    "marketState": "CLOSED",
+    "shortName": "MIKIKOGYO CO LTD",
+    "longName": "Mikikogyo Co., Ltd.",
     "epsTrailingTwelveMonths": 1437.96,
     "fiftyDayAverageChange": -68.0,
     "fiftyDayAverageChangePercent": -0.009758898,

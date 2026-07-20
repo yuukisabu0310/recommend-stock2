@@ -1,7 +1,7 @@
 {
   "ticker": "1801",
   "japanese_ticker": "1801.T",
-  "fetch_date": "2026-07-18T23:46:12.679372",
+  "fetch_date": "2026-07-19T23:52:01.662524",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": 14735949000.0,
@@ -1336,8 +1336,11 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "marketState": "CLOSED",
     "shortName": "TAISEI CORP",
     "longName": "Taisei Corporation",
+    "regularMarketChange": -565.0,
+    "regularMarketDayRange": "13150.0 - 13855.0",
     "corporateActions": [],
     "regularMarketTime": 1784269800,
     "exchange": "JPX",
@@ -1351,8 +1354,6 @@
     "regularMarketPrice": 13340.0,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 946944000000,
-    "regularMarketChange": -565.0,
-    "regularMarketDayRange": "13150.0 - 13855.0",
     "fullExchangeName": "Tokyo",
     "averageDailyVolume3Month": 925431,
     "fiftyTwoWeekLowChange": 4875.0,
@@ -1377,7 +1378,6 @@
     "exchangeDataDelayedBy": 20,
     "averageAnalystRating": "1.7 - Buy",
     "cryptoTradeable": false,
-    "marketState": "CLOSED",
     "trailingPegRatio": null
   }
 }

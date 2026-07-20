@@ -1,7 +1,7 @@
 {
   "ticker": "1605",
   "japanese_ticker": "1605.T",
-  "fetch_date": "2026-07-18T23:45:11.241816",
+  "fetch_date": "2026-07-19T23:50:54.035658",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-12-31 00:00:00": 0.0,
@@ -1308,10 +1308,13 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "shortName": "INPEX CORPORATION",
-    "longName": "Inpex Corporation",
     "regularMarketChangePercent": -0.8165646,
     "regularMarketPrice": 3401.0,
+    "longName": "Inpex Corporation",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 946944000000,
+    "regularMarketChange": -28.0,
+    "regularMarketDayRange": "3375.0 - 3457.0",
     "fullExchangeName": "Tokyo",
     "averageDailyVolume3Month": 5904831,
     "fiftyTwoWeekLowChange": 1387.0,
@@ -1335,11 +1338,9 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "averageAnalystRating": "2.3 - Buy",
+    "marketState": "CLOSED",
+    "shortName": "INPEX CORPORATION",
     "cryptoTradeable": false,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 946944000000,
-    "regularMarketChange": -28.0,
-    "regularMarketDayRange": "3375.0 - 3457.0",
     "corporateActions": [],
     "regularMarketTime": 1784269800,
     "exchange": "JPX",
@@ -1349,7 +1350,6 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "marketState": "CLOSED",
     "trailingPegRatio": null
   }
 }

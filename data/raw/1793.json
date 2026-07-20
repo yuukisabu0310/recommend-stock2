@@ -1,7 +1,7 @@
 {
   "ticker": "1793",
   "japanese_ticker": "1793.T",
-  "fetch_date": "2026-07-18T23:46:05.342926",
+  "fetch_date": "2026-07-19T23:51:51.849002",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": 0.0,
@@ -357,21 +357,21 @@
   "balance_sheet": {
     "Treasury Shares Number": {
       "2026-03-31 00:00:00": 1360194.0,
-      "2025-03-31 00:00:00": 1380466.0,
+      "2025-03-31 00:00:00": null,
       "2024-03-31 00:00:00": 2204844.0,
       "2023-03-31 00:00:00": 2204514.0,
-      "2022-03-31 00:00:00": null
+      "2022-03-31 00:00:00": 1052034.0
     },
     "Ordinary Shares Number": {
       "2026-03-31 00:00:00": 25434086.0,
-      "2025-03-31 00:00:00": 25413814.0,
+      "2025-03-31 00:00:00": 28608128.0,
       "2024-03-31 00:00:00": 28589436.0,
       "2023-03-31 00:00:00": 28589766.0,
       "2022-03-31 00:00:00": null
     },
     "Share Issued": {
       "2026-03-31 00:00:00": 26794280.0,
-      "2025-03-31 00:00:00": 26794280.0,
+      "2025-03-31 00:00:00": 28608128.0,
       "2024-03-31 00:00:00": 30794280.0,
       "2023-03-31 00:00:00": 30794280.0,
       "2022-03-31 00:00:00": null
@@ -1281,9 +1281,6 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "cryptoTradeable": false,
-    "corporateActions": [],
-    "regularMarketTime": 1784269800,
     "exchange": "JPX",
     "messageBoardId": "finmb_883903",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1293,11 +1290,14 @@
     "esgPopulated": false,
     "regularMarketChangePercent": -1.7081503,
     "regularMarketPrice": 2014.0,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 946944000000,
+    "corporateActions": [],
+    "regularMarketTime": 1784269800,
+    "cryptoTradeable": false,
     "longName": "Ohmoto Gumi Co., Ltd.",
     "shortName": "OHMOTO GUMI CO",
     "marketState": "CLOSED",
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 946944000000,
     "regularMarketChange": -35.0,
     "regularMarketDayRange": "2008.0 - 2050.0",
     "fullExchangeName": "Tokyo",

@@ -1,7 +1,7 @@
 {
   "ticker": "1967",
   "japanese_ticker": "1967.T",
-  "fetch_date": "2026-07-18T23:48:46.474268",
+  "fetch_date": "2026-07-19T23:54:46.229458",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": 203159755.199502,
@@ -315,14 +315,14 @@
   "balance_sheet": {
     "Treasury Shares Number": {
       "2026-03-31 00:00:00": 1741363.0,
-      "2025-03-31 00:00:00": 2123282.0,
+      "2025-03-31 00:00:00": 2123261.0,
       "2024-03-31 00:00:00": 1751025.0,
       "2023-03-31 00:00:00": 1612197.0,
       "2022-03-31 00:00:00": null
     },
     "Ordinary Shares Number": {
       "2026-03-31 00:00:00": 22386289.0,
-      "2025-03-31 00:00:00": 24804370.0,
+      "2025-03-31 00:00:00": 24804391.0,
       "2024-03-31 00:00:00": 25176627.0,
       "2023-03-31 00:00:00": 25315455.0,
       "2022-03-31 00:00:00": null
@@ -1309,6 +1309,11 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "marketState": "CLOSED",
+    "shortName": "YAMATO CORPORATION",
+    "longName": "Yamato Corporation",
+    "regularMarketChange": -40.0,
+    "regularMarketDayRange": "1964.0 - 2044.0",
     "corporateActions": [],
     "regularMarketTime": 1784269800,
     "exchange": "JPX",
@@ -1320,11 +1325,8 @@
     "esgPopulated": false,
     "regularMarketChangePercent": -1.9704434,
     "regularMarketPrice": 1990.0,
-    "marketState": "CLOSED",
-    "shortName": "YAMATO CORPORATION",
-    "longName": "Yamato Corporation",
-    "regularMarketChange": -40.0,
-    "regularMarketDayRange": "1964.0 - 2044.0",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 978307200000,
     "fullExchangeName": "Tokyo",
     "averageDailyVolume3Month": 47981,
     "fiftyTwoWeekLowChange": 329.0,
@@ -1344,8 +1346,6 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 978307200000,
     "trailingPegRatio": null
   }
 }

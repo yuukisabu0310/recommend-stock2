@@ -1,7 +1,7 @@
 {
   "ticker": "2693",
   "japanese_ticker": "2693.T",
-  "fetch_date": "2026-07-18T23:56:42.337672",
+  "fetch_date": "2026-07-20T00:03:12.306863",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-12-31 00:00:00": 38445184.0,
@@ -315,7 +315,7 @@
     },
     "Share Issued": {
       "2025-12-31 00:00:00": 11906880.0,
-      "2024-12-31 00:00:00": 11906880.0,
+      "2024-12-31 00:00:00": 11608814.0,
       "2023-12-31 00:00:00": 11906880.0,
       "2022-12-31 00:00:00": 11906880.0,
       "2021-12-31 00:00:00": null
@@ -1208,15 +1208,11 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "fiftyDayAverageChange": 17.880005,
-    "fiftyDayAverageChangePercent": 0.048703436,
-    "twoHundredDayAverageChange": 109.76001,
-    "twoHundredDayAverageChangePercent": 0.3987793,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 984441600000,
+    "cryptoTradeable": false,
+    "regularMarketChangePercent": 0.5221932,
+    "regularMarketPrice": 385.0,
     "regularMarketChange": 2.0,
     "regularMarketDayRange": "371.0 - 387.0",
     "fullExchangeName": "Tokyo",
@@ -1231,10 +1227,15 @@
     "earningsTimestampEnd": 1754287200,
     "isEarningsDateEstimate": true,
     "epsTrailingTwelveMonths": 4.81,
-    "marketState": "CLOSED",
+    "fiftyDayAverageChange": 17.880005,
+    "fiftyDayAverageChangePercent": 0.048703436,
+    "twoHundredDayAverageChange": 109.76001,
+    "twoHundredDayAverageChangePercent": 0.3987793,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "shortName": "YKT CORPORATION",
     "longName": "YKT Corporation",
-    "regularMarketChangePercent": 0.5221932,
-    "regularMarketPrice": 385.0,
+    "marketState": "CLOSED",
     "corporateActions": [],
     "regularMarketTime": 1784269800,
     "exchange": "JPX",
@@ -1244,7 +1245,6 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "shortName": "YKT CORPORATION",
     "trailingPegRatio": null
   }
 }

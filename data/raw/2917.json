@@ -1,7 +1,7 @@
 {
   "ticker": "2917",
   "japanese_ticker": "2917.T",
-  "fetch_date": "2026-07-18T23:59:36.985444",
+  "fetch_date": "2026-07-20T00:06:21.254263",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-09-30 00:00:00": 49476.0,
@@ -108,13 +108,13 @@
     "Diluted Average Shares": {
       "2025-09-30 00:00:00": 4993808.0,
       "2024-09-30 00:00:00": 5024808.0,
-      "2023-09-30 00:00:00": 5031732.0,
+      "2023-09-30 00:00:00": 5032147.0,
       "2022-09-30 00:00:00": 5031732.0
     },
     "Basic Average Shares": {
       "2025-09-30 00:00:00": 4993808.0,
       "2024-09-30 00:00:00": 5024808.0,
-      "2023-09-30 00:00:00": 5031732.0,
+      "2023-09-30 00:00:00": 5032147.0,
       "2022-09-30 00:00:00": 5031732.0
     },
     "Diluted EPS": {
@@ -265,7 +265,7 @@
     },
     "Ordinary Shares Number": {
       "2025-09-30 00:00:00": 4980732.0,
-      "2024-09-30 00:00:00": 5001732.0,
+      "2024-09-30 00:00:00": 5031732.0,
       "2023-09-30 00:00:00": 5031732.0,
       "2022-09-30 00:00:00": 5031732.0
     },
@@ -1085,19 +1085,18 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "corporateActions": [],
-    "regularMarketTime": 1784253123,
-    "exchange": "JPX",
-    "messageBoardId": "finmb_5606843",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
+    "fiftyDayAverageChange": 11.799988,
+    "fiftyDayAverageChangePercent": 0.012837237,
+    "twoHundredDayAverageChange": 25.005005,
+    "twoHundredDayAverageChangePercent": 0.027599495,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
+    "longName": "Ohmoriya Co.,Ltd.",
+    "shortName": "OHMORIYA CO LTD",
+    "marketState": "CLOSED",
     "regularMarketChangePercent": 0.0,
     "regularMarketPrice": 931.0,
-    "shortName": "OHMORIYA CO LTD",
-    "longName": "Ohmoriya Co.,Ltd.",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 946944000000,
     "regularMarketChange": 0.0,
@@ -1114,14 +1113,15 @@
     "earningsTimestampEnd": 1754979300,
     "isEarningsDateEstimate": true,
     "epsTrailingTwelveMonths": 18.15,
-    "fiftyDayAverageChange": 11.799988,
-    "fiftyDayAverageChangePercent": 0.012837237,
-    "twoHundredDayAverageChange": 25.005005,
-    "twoHundredDayAverageChangePercent": 0.027599495,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
-    "marketState": "CLOSED",
+    "corporateActions": [],
+    "regularMarketTime": 1784253123,
+    "exchange": "JPX",
+    "messageBoardId": "finmb_5606843",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
     "trailingPegRatio": null
   }
 }

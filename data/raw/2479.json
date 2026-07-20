@@ -1,7 +1,7 @@
 {
   "ticker": "2479",
   "japanese_ticker": "2479.T",
-  "fetch_date": "2026-07-18T23:54:43.802174",
+  "fetch_date": "2026-07-20T00:01:10.010060",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": -7542683.0,
@@ -125,7 +125,7 @@
     "Diluted Average Shares": {
       "2026-03-31 00:00:00": null,
       "2025-03-31 00:00:00": 7999755.0,
-      "2024-03-31 00:00:00": 7978440.0,
+      "2024-03-31 00:00:00": 7978568.0,
       "2023-03-31 00:00:00": 7947025.0,
       "2022-03-31 00:00:00": 7906356.0
     },
@@ -315,10 +315,10 @@
   "balance_sheet": {
     "Treasury Shares Number": {
       "2026-03-31 00:00:00": 545300.0,
-      "2025-03-31 00:00:00": 565700.0,
+      "2025-03-31 00:00:00": null,
       "2024-03-31 00:00:00": 586700.0,
       "2023-03-31 00:00:00": 604900.0,
-      "2022-03-31 00:00:00": null
+      "2022-03-31 00:00:00": 636300.0
     },
     "Ordinary Shares Number": {
       "2026-03-31 00:00:00": 8027100.0,
@@ -1144,7 +1144,7 @@
     "tradeable": false,
     "enterpriseValue": 444395584,
     "profitMargins": 0.04378,
-    "floatShares": 5336737,
+    "floatShares": 5343640,
     "sharesOutstanding": 8027100,
     "heldPercentInsiders": 0.30492002,
     "heldPercentInstitutions": 0.0,
@@ -1195,16 +1195,8 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "corporateActions": [],
-    "regularMarketTime": 1784269800,
-    "exchange": "JPX",
-    "messageBoardId": "finmb_26201120",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
-    "marketState": "CLOSED",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1144108800000,
     "regularMarketChange": -3.0,
     "regularMarketDayRange": "236.0 - 238.0",
     "fullExchangeName": "Tokyo",
@@ -1225,13 +1217,21 @@
     "twoHundredDayAverageChangePercent": -0.018772215,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
-    "shortName": "JTEC CORP",
+    "cryptoTradeable": false,
+    "marketState": "CLOSED",
+    "exchange": "JPX",
+    "messageBoardId": "finmb_26201120",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
     "regularMarketChangePercent": -1.2552302,
     "regularMarketPrice": 236.0,
+    "shortName": "JTEC CORP",
     "longName": "JTEC Corporation",
-    "cryptoTradeable": false,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1144108800000,
+    "corporateActions": [],
+    "regularMarketTime": 1784269800,
     "trailingPegRatio": null
   }
 }

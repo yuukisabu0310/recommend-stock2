@@ -1,7 +1,7 @@
 {
   "ticker": "2489",
   "japanese_ticker": "2489.T",
-  "fetch_date": "2026-07-18T23:54:58.344283",
+  "fetch_date": "2026-07-20T00:01:24.142738",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-12-31 00:00:00": 17320192.0,
@@ -1048,7 +1048,13 @@
     "customPriceAlertConfidence": "LOW",
     "shortName": "ADWAYS INC",
     "longName": "Adways Inc.",
-    "marketState": "CLOSED",
+    "fiftyDayAverageChange": 25.579987,
+    "fiftyDayAverageChangePercent": 0.090254694,
+    "twoHundredDayAverageChange": 30.209991,
+    "twoHundredDayAverageChangePercent": 0.108361095,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
     "corporateActions": [],
     "regularMarketTime": 1784269800,
     "exchange": "JPX",
@@ -1058,6 +1064,9 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
+    "epsTrailingTwelveMonths": 6.46,
+    "epsForward": 28.1,
+    "marketState": "CLOSED",
     "regularMarketChangePercent": 0.0,
     "regularMarketPrice": 309.0,
     "hasPrePostMarketData": false,
@@ -1075,15 +1084,6 @@
     "earningsTimestampStart": 1753768800,
     "earningsTimestampEnd": 1754287200,
     "isEarningsDateEstimate": true,
-    "epsTrailingTwelveMonths": 6.46,
-    "epsForward": 28.1,
-    "fiftyDayAverageChange": 25.579987,
-    "fiftyDayAverageChangePercent": 0.090254694,
-    "twoHundredDayAverageChange": 30.209991,
-    "twoHundredDayAverageChangePercent": 0.108361095,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
     "trailingPegRatio": null
   }
 }

@@ -1,7 +1,7 @@
 {
   "ticker": "3024",
   "japanese_ticker": "3024.T",
-  "fetch_date": "2026-07-19T00:01:06.429919",
+  "fetch_date": "2026-07-20T00:07:55.603119",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": -53093600.0,
@@ -357,21 +357,21 @@
   "balance_sheet": {
     "Treasury Shares Number": {
       "2026-03-31 00:00:00": 71880.0,
-      "2025-03-31 00:00:00": 86880.0,
+      "2025-03-31 00:00:00": null,
       "2024-03-31 00:00:00": 68080.0,
       "2023-03-31 00:00:00": 84555.0,
-      "2022-03-31 00:00:00": null
+      "2022-03-31 00:00:00": 37555.0
     },
     "Ordinary Shares Number": {
       "2026-03-31 00:00:00": 3897120.0,
-      "2025-03-31 00:00:00": 3882120.0,
+      "2025-03-31 00:00:00": 3917320.0,
       "2024-03-31 00:00:00": 3900920.0,
       "2023-03-31 00:00:00": 3884445.0,
       "2022-03-31 00:00:00": null
     },
     "Share Issued": {
       "2026-03-31 00:00:00": 3969000.0,
-      "2025-03-31 00:00:00": 3969000.0,
+      "2025-03-31 00:00:00": 3917320.0,
       "2024-03-31 00:00:00": 3969000.0,
       "2023-03-31 00:00:00": 3969000.0,
       "2022-03-31 00:00:00": null
@@ -1278,13 +1278,6 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "fiftyDayAverageChange": 102.420044,
-    "fiftyDayAverageChangePercent": 0.09899674,
-    "twoHundredDayAverageChange": -10.85498,
-    "twoHundredDayAverageChangePercent": -0.009456753,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
     "corporateActions": [],
     "regularMarketTime": 1784269800,
     "exchange": "JPX",
@@ -1294,9 +1287,6 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "regularMarketChangePercent": 0.0,
-    "regularMarketPrice": 1137.0,
-    "marketState": "CLOSED",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1141344000000,
     "regularMarketChange": 0.0,
@@ -1314,7 +1304,17 @@
     "isEarningsDateEstimate": true,
     "epsTrailingTwelveMonths": 93.58,
     "shortName": "CREATE CORPORATION",
+    "cryptoTradeable": false,
     "longName": "Create Corporation",
+    "fiftyDayAverageChange": 102.420044,
+    "fiftyDayAverageChangePercent": 0.09899674,
+    "twoHundredDayAverageChange": -10.85498,
+    "twoHundredDayAverageChangePercent": -0.009456753,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "regularMarketChangePercent": 0.0,
+    "regularMarketPrice": 1137.0,
+    "marketState": "CLOSED",
     "trailingPegRatio": null
   }
 }

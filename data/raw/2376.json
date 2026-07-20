@@ -1,7 +1,7 @@
 {
   "ticker": "2376",
   "japanese_ticker": "2376.T",
-  "fetch_date": "2026-07-18T23:53:22.375488",
+  "fetch_date": "2026-07-19T23:59:40.912859",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": -14850400.0,
@@ -322,7 +322,7 @@
     },
     "Share Issued": {
       "2026-03-31 00:00:00": 6470660.0,
-      "2025-03-31 00:00:00": 6470660.0,
+      "2025-03-31 00:00:00": 5607983.0,
       "2024-03-31 00:00:00": 6470660.0,
       "2023-03-31 00:00:00": 6470660.0,
       "2022-03-31 00:00:00": null
@@ -1258,17 +1258,6 @@
     "customPriceAlertConfidence": "LOW",
     "shortName": "SCINEX CORPORATION",
     "longName": "Scinex Corporation",
-    "marketState": "CLOSED",
-    "epsTrailingTwelveMonths": 9.02,
-    "fiftyDayAverageChange": 27.460022,
-    "fiftyDayAverageChangePercent": 0.035637375,
-    "twoHundredDayAverageChange": 53.940002,
-    "twoHundredDayAverageChangePercent": 0.07249416,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1068163200000,
     "regularMarketChange": 0.0,
     "regularMarketDayRange": "796.0 - 799.0",
     "fullExchangeName": "Tokyo",
@@ -1282,6 +1271,14 @@
     "earningsTimestampStart": 1754547600,
     "earningsTimestampEnd": 1754979600,
     "isEarningsDateEstimate": true,
+    "epsTrailingTwelveMonths": 9.02,
+    "fiftyDayAverageChange": 27.460022,
+    "fiftyDayAverageChangePercent": 0.035637375,
+    "twoHundredDayAverageChange": 53.940002,
+    "twoHundredDayAverageChangePercent": 0.07249416,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
     "corporateActions": [],
     "regularMarketTime": 1784183080,
     "exchange": "JPX",
@@ -1293,6 +1290,9 @@
     "esgPopulated": false,
     "regularMarketChangePercent": 0.0,
     "regularMarketPrice": 798.0,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1068163200000,
+    "marketState": "CLOSED",
     "trailingPegRatio": null
   }
 }

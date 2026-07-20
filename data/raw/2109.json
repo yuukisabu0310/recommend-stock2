@@ -1,7 +1,7 @@
 {
   "ticker": "2109",
   "japanese_ticker": "2109.T",
-  "fetch_date": "2026-07-18T23:49:33.412365",
+  "fetch_date": "2026-07-19T23:55:35.655495",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": -2204400000.0,
@@ -1365,9 +1365,8 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "marketState": "CLOSED",
-    "shortName": "MITSUI DM SUGAR CO LTD",
-    "longName": "Mitsui DM Sugar Co.,Ltd.",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 978307200000,
     "regularMarketChange": 25.0,
     "regularMarketDayRange": "3330.0 - 3375.0",
     "fullExchangeName": "Tokyo",
@@ -1389,8 +1388,7 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "prevName": "Mitsui Sugar Co., Ltd.",
-    "nameChangeDate": "2026-07-18",
-    "regularMarketTime": 1784269800,
+    "nameChangeDate": "2026-07-19",
     "exchange": "JPX",
     "messageBoardId": "finmb_880505",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1400,10 +1398,12 @@
     "esgPopulated": false,
     "regularMarketChangePercent": 0.7507508,
     "regularMarketPrice": 3355.0,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 978307200000,
+    "marketState": "CLOSED",
     "corporateActions": [],
+    "regularMarketTime": 1784269800,
     "cryptoTradeable": false,
+    "longName": "Mitsui DM Sugar Co.,Ltd.",
+    "shortName": "MITSUI DM SUGAR CO LTD",
     "trailingPegRatio": null
   }
 }

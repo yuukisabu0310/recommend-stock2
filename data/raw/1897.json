@@ -1,7 +1,7 @@
 {
   "ticker": "1897",
   "japanese_ticker": "1897.T",
-  "fetch_date": "2026-07-18T23:47:36.990446",
+  "fetch_date": "2026-07-19T23:53:29.675329",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-12-31 00:00:00": 3168000.0,
@@ -125,7 +125,7 @@
     "Diluted Average Shares": {
       "2025-12-31 00:00:00": 2109591.0,
       "2024-12-31 00:00:00": 2155619.0,
-      "2023-12-31 00:00:00": 2155784.0,
+      "2023-12-31 00:00:00": 2157584.0,
       "2022-12-31 00:00:00": 2155968.0,
       "2021-12-31 00:00:00": null
     },
@@ -138,14 +138,14 @@
     },
     "Diluted EPS": {
       "2025-12-31 00:00:00": null,
-      "2024-12-31 00:00:00": 148.84,
+      "2024-12-31 00:00:00": null,
       "2023-12-31 00:00:00": 125.14,
       "2022-12-31 00:00:00": 88.35,
       "2021-12-31 00:00:00": 20.82
     },
     "Basic EPS": {
       "2025-12-31 00:00:00": null,
-      "2024-12-31 00:00:00": 148.84,
+      "2024-12-31 00:00:00": null,
       "2023-12-31 00:00:00": 125.14,
       "2022-12-31 00:00:00": 88.35,
       "2021-12-31 00:00:00": 20.82
@@ -308,10 +308,10 @@
   "balance_sheet": {
     "Treasury Shares Number": {
       "2025-12-31 00:00:00": 1701612.0,
-      "2024-12-31 00:00:00": 1651239.0,
+      "2024-12-31 00:00:00": null,
       "2023-12-31 00:00:00": 1650946.0,
       "2022-12-31 00:00:00": 1650779.0,
-      "2021-12-31 00:00:00": null
+      "2021-12-31 00:00:00": 1650630.0
     },
     "Ordinary Shares Number": {
       "2025-12-31 00:00:00": 2105048.0,
@@ -322,7 +322,7 @@
     },
     "Share Issued": {
       "2025-12-31 00:00:00": 3806660.0,
-      "2024-12-31 00:00:00": 3806660.0,
+      "2024-12-31 00:00:00": 2155754.0,
       "2023-12-31 00:00:00": 3806660.0,
       "2022-12-31 00:00:00": 3806660.0,
       "2021-12-31 00:00:00": null
@@ -1162,10 +1162,11 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "corporateActions": [],
-    "shortName": "KANESHITA CONSTRUCTION CO",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 954806400000,
+    "cryptoTradeable": false,
+    "regularMarketChangePercent": -2.388535,
+    "regularMarketPrice": 3065.0,
     "regularMarketChange": -75.0,
     "regularMarketDayRange": "3065.0 - 3110.0",
     "fullExchangeName": "Tokyo",
@@ -1180,8 +1181,16 @@
     "earningsTimestampEnd": 1754965800,
     "isEarningsDateEstimate": true,
     "epsTrailingTwelveMonths": 111.87,
-    "regularMarketChangePercent": -2.388535,
-    "regularMarketPrice": 3065.0,
+    "fiftyDayAverageChange": -99.76001,
+    "fiftyDayAverageChangePercent": -0.03152214,
+    "twoHundredDayAverageChange": -66.89502,
+    "twoHundredDayAverageChangePercent": -0.02135928,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "shortName": "KANESHITA CONSTRUCTION CO",
+    "longName": "The Kaneshita Construction Co.,Ltd.",
+    "marketState": "CLOSED",
+    "corporateActions": [],
     "regularMarketTime": 1784260651,
     "exchange": "JPX",
     "messageBoardId": "finmb_5545275",
@@ -1190,15 +1199,6 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "longName": "The Kaneshita Construction Co.,Ltd.",
-    "marketState": "CLOSED",
-    "fiftyDayAverageChange": -99.76001,
-    "fiftyDayAverageChangePercent": -0.03152214,
-    "twoHundredDayAverageChange": -66.89502,
-    "twoHundredDayAverageChangePercent": -0.02135928,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
     "trailingPegRatio": null
   }
 }

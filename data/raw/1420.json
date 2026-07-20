@@ -1,7 +1,7 @@
 {
   "ticker": "1420",
   "japanese_ticker": "1420.T",
-  "fetch_date": "2026-07-18T23:44:34.040149",
+  "fetch_date": "2026-07-19T23:50:14.846878",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": -1611240.0,
@@ -1073,14 +1073,6 @@
     "customPriceAlertConfidence": "LOW",
     "corporateActions": [],
     "regularMarketTime": 1784269800,
-    "shortName": "SANYO HOMES CORPORATION",
-    "longName": "Sanyo Homes Corporation",
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
-    "regularMarketChangePercent": -1.0819165,
-    "regularMarketPrice": 640.0,
-    "marketState": "CLOSED",
     "exchange": "JPX",
     "messageBoardId": "finmb_5885787",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1089,6 +1081,18 @@
     "market": "jp_market",
     "esgPopulated": false,
     "hasPrePostMarketData": false,
+    "marketState": "CLOSED",
+    "shortName": "SANYO HOMES CORPORATION",
+    "longName": "Sanyo Homes Corporation",
+    "fiftyDayAverageChange": 16.299988,
+    "fiftyDayAverageChangePercent": 0.02613434,
+    "twoHundredDayAverageChange": -37.455017,
+    "twoHundredDayAverageChangePercent": -0.05528783,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
+    "regularMarketChangePercent": -1.0819165,
+    "regularMarketPrice": 640.0,
     "firstTradeDateMilliseconds": 1365465600000,
     "regularMarketChange": -7.0,
     "regularMarketDayRange": "639.0 - 647.0",
@@ -1104,10 +1108,6 @@
     "earningsTimestampEnd": 1754632800,
     "isEarningsDateEstimate": true,
     "epsTrailingTwelveMonths": 122.62,
-    "fiftyDayAverageChange": 16.299988,
-    "fiftyDayAverageChangePercent": 0.02613434,
-    "twoHundredDayAverageChange": -37.455017,
-    "twoHundredDayAverageChangePercent": -0.05528783,
     "trailingPegRatio": null
   }
 }

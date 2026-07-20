@@ -1,7 +1,7 @@
 {
   "ticker": "1787",
   "japanese_ticker": "1787.T",
-  "fetch_date": "2026-07-18T23:46:01.403786",
+  "fetch_date": "2026-07-19T23:51:47.219894",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": 53487268.4,
@@ -357,7 +357,7 @@
     },
     "Share Issued": {
       "2026-03-31 00:00:00": 2602500.0,
-      "2025-03-31 00:00:00": 2602500.0,
+      "2025-03-31 00:00:00": 2460918.0,
       "2024-03-31 00:00:00": 2602500.0,
       "2023-03-31 00:00:00": 2602500.0,
       "2022-03-31 00:00:00": null
@@ -1129,11 +1129,17 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "regularMarketChangePercent": -2.4271843,
-    "regularMarketPrice": 6030.0,
-    "marketState": "CLOSED",
     "shortName": "NAKABOHTEC CORROSION PROTECTING",
-    "longName": "Nakabohtec Corrosion Protecting Co.,Ltd.",
+    "epsTrailingTwelveMonths": 483.61,
+    "fiftyDayAverageChange": 605.0,
+    "fiftyDayAverageChangePercent": 0.11152074,
+    "twoHundredDayAverageChange": 424.0,
+    "twoHundredDayAverageChangePercent": 0.07563325,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 946944000000,
     "regularMarketChange": -150.0,
     "regularMarketDayRange": "6030.0 - 6330.0",
     "fullExchangeName": "Tokyo",
@@ -1147,16 +1153,10 @@
     "earningsTimestampStart": 1746694800,
     "earningsTimestampEnd": 1746694800,
     "isEarningsDateEstimate": false,
-    "epsTrailingTwelveMonths": 483.61,
-    "fiftyDayAverageChange": 605.0,
-    "fiftyDayAverageChangePercent": 0.11152074,
-    "twoHundredDayAverageChange": 424.0,
-    "twoHundredDayAverageChangePercent": 0.07563325,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 946944000000,
+    "longName": "Nakabohtec Corrosion Protecting Co.,Ltd.",
+    "marketState": "CLOSED",
+    "regularMarketChangePercent": -2.4271843,
+    "regularMarketPrice": 6030.0,
     "trailingPegRatio": null
   }
 }

@@ -1,7 +1,7 @@
 {
   "ticker": "2901",
   "japanese_ticker": "2901.T",
-  "fetch_date": "2026-07-18T23:59:15.982321",
+  "fetch_date": "2026-07-20T00:05:57.755526",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": 11896548.667594,
@@ -113,7 +113,7 @@
     },
     "Basic Average Shares": {
       "2025-03-31 00:00:00": null,
-      "2024-03-31 00:00:00": 14307581.0,
+      "2024-03-31 00:00:00": 14304882.0,
       "2023-03-31 00:00:00": 14293921.0,
       "2022-03-31 00:00:00": 11889733.0
     },
@@ -276,7 +276,7 @@
   },
   "balance_sheet": {
     "Treasury Shares Number": {
-      "2025-03-31 00:00:00": 1781.0,
+      "2025-03-31 00:00:00": null,
       "2024-03-31 00:00:00": 1781.0,
       "2023-03-31 00:00:00": 1780.0,
       "2022-03-31 00:00:00": 1779.0
@@ -1072,29 +1072,30 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "fiftyDayAverageChangePercent": -0.059379943,
-    "twoHundredDayAverageChange": -198.20001,
-    "twoHundredDayAverageChangePercent": -0.5254507,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "prevName": "Ishigaki Foods Co.,Ltd.",
-    "nameChangeDate": "2026-07-18",
-    "cryptoTradeable": false,
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
-    "regularMarketChangePercent": -2.1857922,
-    "regularMarketPrice": 179.0,
     "corporateActions": [],
     "regularMarketTime": 1784269800,
     "exchange": "JPX",
     "messageBoardId": "finmb_10203781",
     "exchangeTimezoneName": "Asia/Tokyo",
     "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
+    "hasPrePostMarketData": false,
     "marketState": "CLOSED",
     "shortName": "WEL-DISH INCORPORATED",
     "longName": "Wel-Dish.Incorporated",
-    "hasPrePostMarketData": false,
+    "fiftyDayAverageChange": -11.300003,
+    "fiftyDayAverageChangePercent": -0.059379943,
+    "twoHundredDayAverageChange": -198.20001,
+    "twoHundredDayAverageChangePercent": -0.5254507,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "prevName": "Ishigaki Foods Co.,Ltd.",
+    "nameChangeDate": "2026-07-19",
+    "cryptoTradeable": false,
+    "regularMarketChangePercent": -2.1857922,
+    "regularMarketPrice": 179.0,
     "firstTradeDateMilliseconds": 946944000000,
     "regularMarketChange": -4.0,
     "regularMarketDayRange": "178.0 - 182.0",
@@ -1110,7 +1111,6 @@
     "earningsTimestampEnd": 1747294200,
     "isEarningsDateEstimate": false,
     "epsTrailingTwelveMonths": 21.77,
-    "fiftyDayAverageChange": -11.300003,
     "trailingPegRatio": null
   }
 }

@@ -1,7 +1,7 @@
 {
   "ticker": "2792",
   "japanese_ticker": "2792.T",
-  "fetch_date": "2026-07-18T23:58:09.815127",
+  "fetch_date": "2026-07-20T00:04:45.783298",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-05-31 00:00:00": -115347683.0,
@@ -974,11 +974,6 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "shortName": "HONEYS HOLDINGS CO LTD",
-    "longName": "Honeys Holdings Co., Ltd.",
-    "regularMarketChangePercent": 0.21352313,
-    "regularMarketPrice": 1408.0,
-    "fullExchangeName": "Tokyo",
     "averageDailyVolume3Month": 107678,
     "fiftyTwoWeekLowChange": 93.0,
     "fiftyTwoWeekLowChangePercent": 0.07072243,
@@ -998,10 +993,14 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
+    "marketState": "CLOSED",
+    "shortName": "HONEYS HOLDINGS CO LTD",
+    "longName": "Honeys Holdings Co., Ltd.",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1114560000000,
     "regularMarketChange": 3.0,
     "regularMarketDayRange": "1404.0 - 1420.0",
+    "fullExchangeName": "Tokyo",
     "corporateActions": [],
     "regularMarketTime": 1784269800,
     "exchange": "JPX",
@@ -1011,7 +1010,8 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "marketState": "CLOSED",
+    "regularMarketChangePercent": 0.21352313,
+    "regularMarketPrice": 1408.0,
     "trailingPegRatio": null
   }
 }

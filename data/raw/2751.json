@@ -1,7 +1,7 @@
 {
   "ticker": "2751",
   "japanese_ticker": "2751.T",
-  "fetch_date": "2026-07-18T23:57:29.179689",
+  "fetch_date": "2026-07-20T00:04:04.524081",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-04-30 00:00:00": -19239500.0,
@@ -270,13 +270,13 @@
       "2022-04-30 00:00:00": 2400132.0
     },
     "Ordinary Shares Number": {
-      "2025-04-30 00:00:00": 12029729.0,
+      "2025-04-30 00:00:00": 12016048.0,
       "2024-04-30 00:00:00": 11988693.0,
       "2023-04-30 00:00:00": 11943635.0,
       "2022-04-30 00:00:00": 11914668.0
     },
     "Share Issued": {
-      "2025-04-30 00:00:00": 14314800.0,
+      "2025-04-30 00:00:00": 12016048.0,
       "2024-04-30 00:00:00": 14314800.0,
       "2023-04-30 00:00:00": 14314800.0,
       "2022-04-30 00:00:00": 14314800.0
@@ -1101,7 +1101,11 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "regularMarketChangePercent": 0.0,
+    "regularMarketPrice": 3745.0,
     "marketState": "CLOSED",
+    "shortName": "TENPOS HOLDINGS CO LTD",
+    "longName": "TENPOS HOLDINGS Co.,Ltd.",
     "corporateActions": [],
     "regularMarketTime": 1784269800,
     "exchange": "JPX",
@@ -1111,8 +1115,7 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "shortName": "TENPOS HOLDINGS CO LTD",
-    "longName": "TENPOS HOLDINGS Co.,Ltd.",
+    "regularMarketChange": 0.0,
     "regularMarketDayRange": "3745.0 - 3795.0",
     "fullExchangeName": "Tokyo",
     "averageDailyVolume3Month": 18139,
@@ -1135,9 +1138,6 @@
     "cryptoTradeable": false,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1039478400000,
-    "regularMarketChange": 0.0,
-    "regularMarketChangePercent": 0.0,
-    "regularMarketPrice": 3745.0,
     "trailingPegRatio": null
   }
 }

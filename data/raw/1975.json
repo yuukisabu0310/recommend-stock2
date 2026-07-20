@@ -1,7 +1,7 @@
 {
   "ticker": "1975",
   "japanese_ticker": "1975.T",
-  "fetch_date": "2026-07-18T23:48:55.267807",
+  "fetch_date": "2026-07-19T23:54:54.797352",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": 113701000.0,
@@ -277,10 +277,10 @@
   "balance_sheet": {
     "Treasury Shares Number": {
       "2026-03-31 00:00:00": 1324317.0,
-      "2025-03-31 00:00:00": 1444491.0,
+      "2025-03-31 00:00:00": null,
       "2024-03-31 00:00:00": 1473548.0,
       "2023-03-31 00:00:00": 1500348.0,
-      "2022-03-31 00:00:00": null
+      "2022-03-31 00:00:00": 1541644.0
     },
     "Ordinary Shares Number": {
       "2026-03-31 00:00:00": 25875683.0,
@@ -1217,17 +1217,9 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "shortName": "ASAHI KOGYOSHA CO",
     "longName": "Asahi Kogyosha Co., Ltd.",
+    "shortName": "ASAHI KOGYOSHA CO",
     "marketState": "CLOSED",
-    "epsTrailingTwelveMonths": 358.04,
-    "fiftyDayAverageChange": -148.2998,
-    "fiftyDayAverageChangePercent": -0.036053732,
-    "twoHundredDayAverageChange": 246.45996,
-    "twoHundredDayAverageChangePercent": 0.06627869,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 978307200000,
     "regularMarketChange": -255.0,
@@ -1243,6 +1235,7 @@
     "earningsTimestampStart": 1754463600,
     "earningsTimestampEnd": 1754982000,
     "isEarningsDateEstimate": true,
+    "epsTrailingTwelveMonths": 358.04,
     "corporateActions": [],
     "regularMarketTime": 1784269800,
     "exchange": "JPX",
@@ -1254,6 +1247,13 @@
     "esgPopulated": false,
     "regularMarketChangePercent": -6.042654,
     "regularMarketPrice": 3965.0,
+    "fiftyDayAverageChange": -148.2998,
+    "fiftyDayAverageChangePercent": -0.036053732,
+    "twoHundredDayAverageChange": 246.45996,
+    "twoHundredDayAverageChangePercent": 0.06627869,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
     "trailingPegRatio": null
   }
 }

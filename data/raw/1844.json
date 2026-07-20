@@ -1,7 +1,7 @@
 {
   "ticker": "1844",
   "japanese_ticker": "1844.T",
-  "fetch_date": "2026-07-18T23:46:53.694204",
+  "fetch_date": "2026-07-19T23:52:44.408687",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-07-31 00:00:00": null,
@@ -131,17 +131,17 @@
     },
     "Diluted Average Shares": {
       "2025-07-31 00:00:00": 19051470.0,
-      "2024-07-31 00:00:00": 18671879.0,
+      "2024-07-31 00:00:00": null,
       "2023-07-31 00:00:00": 15997763.0,
       "2022-07-31 00:00:00": 15191299.0,
-      "2021-07-31 00:00:00": null
+      "2021-07-31 00:00:00": 15154891.0
     },
     "Basic Average Shares": {
       "2025-07-31 00:00:00": 18654284.0,
-      "2024-07-31 00:00:00": 18238041.0,
-      "2023-07-31 00:00:00": 15403249.0,
+      "2024-07-31 00:00:00": null,
+      "2023-07-31 00:00:00": 15401208.0,
       "2022-07-31 00:00:00": 14931451.0,
-      "2021-07-31 00:00:00": null
+      "2021-07-31 00:00:00": 14837836.0
     },
     "Diluted EPS": {
       "2025-07-31 00:00:00": 27.22,
@@ -152,10 +152,10 @@
     },
     "Basic EPS": {
       "2025-07-31 00:00:00": 27.8,
-      "2024-07-31 00:00:00": 22.72,
+      "2024-07-31 00:00:00": null,
       "2023-07-31 00:00:00": 19.04,
       "2022-07-31 00:00:00": 17.07,
-      "2021-07-31 00:00:00": null
+      "2021-07-31 00:00:00": 16.39
     },
     "Diluted NI Availto Com Stockholders": {
       "2025-07-31 00:00:00": null,
@@ -355,7 +355,7 @@
       "2021-07-31 00:00:00": 16302.0
     },
     "Ordinary Shares Number": {
-      "2024-07-31 00:00:00": 18654514.0,
+      "2024-07-31 00:00:00": 18654694.0,
       "2023-07-31 00:00:00": 17505284.0,
       "2022-07-31 00:00:00": 14956047.0,
       "2021-07-31 00:00:00": 14857937.0
@@ -1185,9 +1185,32 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "averageDailyVolume3Month": 116663,
+    "fiftyTwoWeekLowChange": 99.0,
+    "fiftyTwoWeekLowChangePercent": 0.24812031,
+    "fiftyTwoWeekRange": "399.0 - 1450.0",
+    "fiftyTwoWeekHighChange": -952.0,
+    "fiftyTwoWeekHighChangePercent": -0.6565517,
+    "fiftyTwoWeekChangePercent": 14.48276,
+    "earningsTimestampStart": 1749434400,
+    "earningsTimestampEnd": 1749434400,
+    "isEarningsDateEstimate": false,
+    "epsTrailingTwelveMonths": 27.84,
+    "fiftyDayAverageChange": -2.5,
+    "fiftyDayAverageChangePercent": -0.004995005,
+    "twoHundredDayAverageChange": -70.32501,
+    "twoHundredDayAverageChangePercent": -0.12374084,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
+    "marketState": "CLOSED",
     "shortName": "OHMORI CO LTD",
     "longName": "Ohmori Co.,Ltd.",
-    "marketState": "CLOSED",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 978307200000,
+    "regularMarketChange": -6.0,
+    "regularMarketDayRange": "497.0 - 504.0",
+    "fullExchangeName": "Tokyo",
     "corporateActions": [
       {
         "header": "Dividend",
@@ -1209,29 +1232,6 @@
     "esgPopulated": false,
     "regularMarketChangePercent": -1.1904762,
     "regularMarketPrice": 498.0,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 978307200000,
-    "regularMarketChange": -6.0,
-    "regularMarketDayRange": "497.0 - 504.0",
-    "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 116663,
-    "fiftyTwoWeekLowChange": 99.0,
-    "fiftyTwoWeekLowChangePercent": 0.24812031,
-    "fiftyTwoWeekRange": "399.0 - 1450.0",
-    "fiftyTwoWeekHighChange": -952.0,
-    "fiftyTwoWeekHighChangePercent": -0.6565517,
-    "fiftyTwoWeekChangePercent": 14.48276,
-    "earningsTimestampStart": 1749434400,
-    "earningsTimestampEnd": 1749434400,
-    "isEarningsDateEstimate": false,
-    "epsTrailingTwelveMonths": 27.84,
-    "fiftyDayAverageChange": -2.5,
-    "fiftyDayAverageChangePercent": -0.004995005,
-    "twoHundredDayAverageChange": -70.32501,
-    "twoHundredDayAverageChangePercent": -0.12374084,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
     "trailingPegRatio": null
   }
 }

@@ -1,7 +1,7 @@
 {
   "ticker": "1433",
   "japanese_ticker": "1433.T",
-  "fetch_date": "2026-07-18T23:44:42.837800",
+  "fetch_date": "2026-07-19T23:50:23.412083",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-01-31 00:00:00": 65652865.2,
@@ -1285,9 +1285,11 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "marketState": "CLOSED",
-    "shortName": "BESTERRA CO LTD",
+    "regularMarketChangePercent": -1.0480349,
+    "regularMarketPrice": 1133.0,
     "longName": "Besterra Co., Ltd.",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1441152000000,
     "regularMarketChange": -12.0,
     "regularMarketDayRange": "1122.0 - 1150.0",
     "fullExchangeName": "Tokyo",
@@ -1309,18 +1311,9 @@
     "twoHundredDayAverageChangePercent": -0.009398907,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
-    "regularMarketTime": 1784269800,
-    "exchange": "JPX",
-    "messageBoardId": "finmb_60481582",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
-    "regularMarketChangePercent": -1.0480349,
-    "regularMarketPrice": 1133.0,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1441152000000,
+    "marketState": "CLOSED",
+    "shortName": "BESTERRA CO LTD",
+    "cryptoTradeable": false,
     "corporateActions": [
       {
         "header": "Dividend",
@@ -1332,7 +1325,14 @@
         }
       }
     ],
-    "cryptoTradeable": false,
+    "regularMarketTime": 1784269800,
+    "exchange": "JPX",
+    "messageBoardId": "finmb_60481582",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
     "trailingPegRatio": null
   }
 }

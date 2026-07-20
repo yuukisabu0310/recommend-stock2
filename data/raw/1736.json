@@ -1,7 +1,7 @@
 {
   "ticker": "1736",
   "japanese_ticker": "1736.T",
-  "fetch_date": "2026-07-18T23:45:38.084401",
+  "fetch_date": "2026-07-19T23:51:22.343065",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": -11325076.051715,
@@ -295,7 +295,7 @@
     },
     "Share Issued": {
       "2026-03-31 00:00:00": 17100000.0,
-      "2025-03-31 00:00:00": 17100000.0,
+      "2025-03-31 00:00:00": 15494382.0,
       "2024-03-31 00:00:00": 17100000.0,
       "2023-03-31 00:00:00": 17100000.0
     },
@@ -1189,15 +1189,12 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 956707200000,
+    "regularMarketChangePercent": -1.8867924,
+    "regularMarketPrice": 2444.0,
+    "marketState": "CLOSED",
     "regularMarketChange": -47.0,
     "regularMarketDayRange": "2444.0 - 2512.0",
     "fullExchangeName": "Tokyo",
-    "regularMarketChangePercent": -1.8867924,
-    "regularMarketPrice": 2444.0,
-    "longName": "Otec Corporation",
-    "marketState": "CLOSED",
     "averageDailyVolume3Month": 7068,
     "fiftyTwoWeekLowChange": 1053.0,
     "fiftyTwoWeekLowChangePercent": 0.7570093,
@@ -1215,8 +1212,11 @@
     "twoHundredDayAverageChangePercent": 0.0506518,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 956707200000,
     "shortName": "OTEC CORP",
+    "cryptoTradeable": false,
+    "longName": "Otec Corporation",
     "trailingPegRatio": null
   }
 }

@@ -1,7 +1,7 @@
 {
   "ticker": "1979",
   "japanese_ticker": "1979.T",
-  "fetch_date": "2026-07-18T23:48:59.728765",
+  "fetch_date": "2026-07-19T23:54:59.241641",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": 217445395.305017,
@@ -1276,9 +1276,9 @@
     "trailingAnnualDividendYield": 0.023939064,
     "currency": "JPY",
     "tradeable": false,
-    "enterpriseValue": 202112188416,
+    "enterpriseValue": 202112057344,
     "profitMargins": 0.0545,
-    "floatShares": 44632693,
+    "floatShares": 44632673,
     "sharesOutstanding": 62999595,
     "heldPercentInsiders": 0.26664,
     "heldPercentInstitutions": 0.27959,
@@ -1311,7 +1311,7 @@
     "recommendationKey": "buy",
     "numberOfAnalystOpinions": 6,
     "totalCash": 90664001536,
-    "totalCashPerShare": 1439.12,
+    "totalCashPerShare": 1439.121,
     "ebitda": 25584001024,
     "totalDebt": 1282000000,
     "quickRatio": 1.979,
@@ -1337,6 +1337,8 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "epsTrailingTwelveMonths": 245.06,
+    "epsForward": 381.67,
     "fiftyDayAverageChange": -13.700195,
     "fiftyDayAverageChangePercent": -0.003048756,
     "twoHundredDayAverageChange": 835.78,
@@ -1361,12 +1363,9 @@
     "earningsTimestampStart": 1786084200,
     "earningsTimestampEnd": 1786084200,
     "isEarningsDateEstimate": false,
-    "epsTrailingTwelveMonths": 245.06,
-    "epsForward": 381.67,
-    "marketState": "CLOSED",
+    "shortName": "TAIKISHA LTD",
     "longName": "Taikisha Ltd.",
-    "regularMarketChangePercent": -2.5027204,
-    "regularMarketPrice": 4480.0,
+    "marketState": "CLOSED",
     "corporateActions": [],
     "regularMarketTime": 1784269800,
     "exchange": "JPX",
@@ -1376,7 +1375,8 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "shortName": "TAIKISHA LTD",
+    "regularMarketChangePercent": -2.5027204,
+    "regularMarketPrice": 4480.0,
     "trailingPegRatio": null
   }
 }

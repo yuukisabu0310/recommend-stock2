@@ -1,7 +1,7 @@
 {
   "ticker": "2462",
   "japanese_ticker": "2462.T",
-  "fetch_date": "2026-07-18T23:54:31.314344",
+  "fetch_date": "2026-07-20T00:00:56.814860",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-05-31 00:00:00": -23727752.0,
@@ -113,13 +113,13 @@
     },
     "Diluted Average Shares": {
       "2025-05-31 00:00:00": 19190064.0,
-      "2024-05-31 00:00:00": 19190086.0,
+      "2024-05-31 00:00:00": 19190466.0,
       "2023-05-31 00:00:00": 19190103.0,
       "2022-05-31 00:00:00": 19177442.0
     },
     "Basic Average Shares": {
       "2025-05-31 00:00:00": 19190064.0,
-      "2024-05-31 00:00:00": 19190086.0,
+      "2024-05-31 00:00:00": 19190466.0,
       "2023-05-31 00:00:00": 19190103.0,
       "2022-05-31 00:00:00": 19130220.0
     },
@@ -1159,7 +1159,6 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "marketState": "CLOSED",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1134000000000,
     "regularMarketChange": 8.0,
@@ -1175,9 +1174,20 @@
     "earningsTimestampStart": 1752127200,
     "earningsTimestampEnd": 1752472800,
     "isEarningsDateEstimate": true,
-    "shortName": "LIKE CO LTD",
-    "longName": "LIKE, Inc.",
+    "epsTrailingTwelveMonths": 121.38,
+    "epsForward": 154.8,
+    "fiftyDayAverageChange": 22.5,
+    "fiftyDayAverageChangePercent": 0.014995001,
+    "twoHundredDayAverageChange": -8.36499,
+    "twoHundredDayAverageChangePercent": -0.0054624407,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "prevName": "LIKE Co., Ltd.",
+    "nameChangeDate": "2026-07-19",
+    "cryptoTradeable": false,
     "corporateActions": [],
+    "marketState": "CLOSED",
+    "shortName": "LIKE CO LTD",
     "regularMarketTime": 1784269800,
     "exchange": "JPX",
     "messageBoardId": "finmb_30942416",
@@ -1188,17 +1198,7 @@
     "esgPopulated": false,
     "regularMarketChangePercent": 0.5280528,
     "regularMarketPrice": 1523.0,
-    "epsTrailingTwelveMonths": 121.38,
-    "epsForward": 154.8,
-    "fiftyDayAverageChange": 22.5,
-    "fiftyDayAverageChangePercent": 0.014995001,
-    "twoHundredDayAverageChange": -8.36499,
-    "twoHundredDayAverageChangePercent": -0.0054624407,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "prevName": "LIKE Co., Ltd.",
-    "nameChangeDate": "2026-07-18",
-    "cryptoTradeable": false,
+    "longName": "LIKE, Inc.",
     "trailingPegRatio": null
   }
 }

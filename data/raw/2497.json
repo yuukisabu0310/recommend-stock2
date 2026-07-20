@@ -1,7 +1,7 @@
 {
   "ticker": "2497",
   "japanese_ticker": "2497.T",
-  "fetch_date": "2026-07-18T23:55:06.649623",
+  "fetch_date": "2026-07-20T00:01:32.475557",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": -24013600.0,
@@ -1252,13 +1252,6 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "shortName": "UNITED INC",
-    "longName": "UNITED, Inc.",
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1156896000000,
-    "regularMarketChange": -4.0,
-    "regularMarketDayRange": "518.0 - 531.0",
-    "fullExchangeName": "Tokyo",
     "averageDailyVolume3Month": 25745,
     "fiftyTwoWeekLowChange": 54.0,
     "fiftyTwoWeekLowChangePercent": 0.11464968,
@@ -1277,10 +1270,15 @@
     "twoHundredDayAverageChangePercent": 0.020229645,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
-    "marketState": "CLOSED",
-    "regularMarketChangePercent": -0.7561437,
-    "regularMarketPrice": 525.0,
     "cryptoTradeable": false,
+    "marketState": "CLOSED",
+    "shortName": "UNITED INC",
+    "longName": "UNITED, Inc.",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1156896000000,
+    "regularMarketChange": -4.0,
+    "regularMarketDayRange": "518.0 - 531.0",
+    "fullExchangeName": "Tokyo",
     "corporateActions": [],
     "regularMarketTime": 1784269800,
     "exchange": "JPX",
@@ -1290,6 +1288,8 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
+    "regularMarketChangePercent": -0.7561437,
+    "regularMarketPrice": 525.0,
     "trailingPegRatio": null
   }
 }

@@ -1,7 +1,7 @@
 {
   "ticker": "1719",
   "japanese_ticker": "1719.T",
-  "fetch_date": "2026-07-18T23:45:25.480557",
+  "fetch_date": "2026-07-19T23:51:08.860811",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": 3013720736.83477,
@@ -1199,7 +1199,6 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "shortName": "HAZAMA ANDO CORP",
     "longName": "Hazama Ando Corporation",
     "corporateActions": [],
     "regularMarketTime": 1784269800,
@@ -1210,9 +1209,18 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
+    "marketState": "CLOSED",
+    "shortName": "HAZAMA ANDO CORP",
+    "twoHundredDayAverageChange": -77.307495,
+    "twoHundredDayAverageChangePercent": -0.04115806,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "averageAnalystRating": "3.0 - Hold",
+    "cryptoTradeable": false,
     "regularMarketChangePercent": -0.7440066,
     "regularMarketPrice": 1801.0,
-    "marketState": "CLOSED",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1064966400000,
     "regularMarketChange": -13.5,
     "regularMarketDayRange": "1777.5 - 1826.0",
     "fullExchangeName": "Tokyo",
@@ -1233,14 +1241,6 @@
     "epsForward": 96.2,
     "fiftyDayAverageChange": 6.699951,
     "fiftyDayAverageChangePercent": 0.0037340194,
-    "twoHundredDayAverageChange": -77.307495,
-    "twoHundredDayAverageChangePercent": -0.04115806,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "averageAnalystRating": "3.0 - Hold",
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1064966400000,
-    "cryptoTradeable": false,
     "trailingPegRatio": null
   }
 }

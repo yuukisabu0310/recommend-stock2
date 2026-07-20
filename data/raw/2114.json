@@ -1,7 +1,7 @@
 {
   "ticker": "2114",
   "japanese_ticker": "2114.T",
-  "fetch_date": "2026-07-18T23:49:37.664765",
+  "fetch_date": "2026-07-19T23:55:40.538844",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": 129500000.0,
@@ -1235,19 +1235,9 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "shortName": "FUJI NIHON CORPORATION",
     "longName": "Fuji Nihon Corporation",
+    "shortName": "FUJI NIHON CORPORATION",
     "marketState": "CLOSED",
-    "epsTrailingTwelveMonths": 62.8,
-    "fiftyDayAverageChange": 10.5,
-    "fiftyDayAverageChangePercent": 0.017004048,
-    "twoHundredDayAverageChange": 23.192505,
-    "twoHundredDayAverageChangePercent": 0.03834692,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "prevName": "Fuji Nihon Seito Corporation",
-    "nameChangeDate": "2026-07-18",
-    "cryptoTradeable": false,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 978652800000,
     "regularMarketChange": -5.0,
@@ -1263,6 +1253,7 @@
     "earningsTimestampStart": 1745994600,
     "earningsTimestampEnd": 1745994600,
     "isEarningsDateEstimate": false,
+    "epsTrailingTwelveMonths": 62.8,
     "corporateActions": [],
     "regularMarketTime": 1784269800,
     "exchange": "JPX",
@@ -1274,6 +1265,15 @@
     "esgPopulated": false,
     "regularMarketChangePercent": -0.7898894,
     "regularMarketPrice": 628.0,
+    "fiftyDayAverageChange": 10.5,
+    "fiftyDayAverageChangePercent": 0.017004048,
+    "twoHundredDayAverageChange": 23.192505,
+    "twoHundredDayAverageChangePercent": 0.03834692,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "prevName": "Fuji Nihon Seito Corporation",
+    "nameChangeDate": "2026-07-19",
+    "cryptoTradeable": false,
     "trailingPegRatio": null
   }
 }

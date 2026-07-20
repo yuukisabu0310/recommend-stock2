@@ -1,7 +1,7 @@
 {
   "ticker": "1885",
   "japanese_ticker": "1885.T",
-  "fetch_date": "2026-07-18T23:47:28.962427",
+  "fetch_date": "2026-07-19T23:53:21.211084",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": 261711000.0,
@@ -1301,7 +1301,7 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "cryptoTradeable": false,
+    "longName": "TOA Corporation",
     "corporateActions": [],
     "regularMarketTime": 1784269800,
     "exchange": "JPX",
@@ -1311,11 +1311,15 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
+    "marketState": "CLOSED",
+    "shortName": "TOA CORPORATION (CONST)",
+    "twoHundredDayAverageChange": -823.54004,
+    "twoHundredDayAverageChangePercent": -0.2932271,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
     "regularMarketChangePercent": -2.4570024,
     "regularMarketPrice": 1985.0,
-    "longName": "TOA Corporation",
-    "shortName": "TOA CORPORATION (CONST)",
-    "marketState": "CLOSED",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 978307200000,
     "regularMarketChange": -50.0,
@@ -1336,10 +1340,6 @@
     "epsForward": 133.7,
     "fiftyDayAverageChange": -261.95996,
     "fiftyDayAverageChangePercent": -0.11658417,
-    "twoHundredDayAverageChange": -823.54004,
-    "twoHundredDayAverageChangePercent": -0.2932271,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
     "trailingPegRatio": null
   }
 }

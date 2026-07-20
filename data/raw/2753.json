@@ -1,7 +1,7 @@
 {
   "ticker": "2753",
   "japanese_ticker": "2753.T",
-  "fetch_date": "2026-07-18T23:57:33.265936",
+  "fetch_date": "2026-07-20T00:04:09.309537",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": -99568000.0,
@@ -259,10 +259,10 @@
   "balance_sheet": {
     "Treasury Shares Number": {
       "2026-03-31 00:00:00": 630.0,
-      "2025-03-31 00:00:00": 1530.0,
+      "2025-03-31 00:00:00": null,
       "2024-03-31 00:00:00": 1530.0,
       "2023-03-31 00:00:00": 1443.0,
-      "2022-03-31 00:00:00": null
+      "2022-03-31 00:00:00": 1338.0
     },
     "Ordinary Shares Number": {
       "2026-03-31 00:00:00": 20545770.0,
@@ -273,7 +273,7 @@
     },
     "Share Issued": {
       "2026-03-31 00:00:00": 20546400.0,
-      "2025-03-31 00:00:00": 20546400.0,
+      "2025-03-31 00:00:00": 20544870.0,
       "2024-03-31 00:00:00": 20546400.0,
       "2023-03-31 00:00:00": 20546400.0,
       "2022-03-31 00:00:00": null
@@ -1229,9 +1229,6 @@
     "customPriceAlertConfidence": "LOW",
     "shortName": "AMIYAKI TEI CO LTD",
     "longName": "Amiyaki Tei Co., Ltd.",
-    "marketState": "CLOSED",
-    "epsTrailingTwelveMonths": 61.82,
-    "epsForward": 93.9,
     "fiftyDayAverageChange": 10.660034,
     "fiftyDayAverageChangePercent": 0.008013015,
     "twoHundredDayAverageChange": -31.619995,
@@ -1239,6 +1236,20 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
+    "corporateActions": [],
+    "regularMarketTime": 1784269800,
+    "exchange": "JPX",
+    "messageBoardId": "finmb_8952906",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
+    "epsTrailingTwelveMonths": 61.82,
+    "epsForward": 93.9,
+    "marketState": "CLOSED",
+    "regularMarketChangePercent": -0.14892033,
+    "regularMarketPrice": 1341.0,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1040169600000,
     "regularMarketChange": -2.0,
@@ -1254,17 +1265,6 @@
     "earningsTimestampStart": 1751367540,
     "earningsTimestampEnd": 1751889600,
     "isEarningsDateEstimate": true,
-    "corporateActions": [],
-    "regularMarketTime": 1784269800,
-    "exchange": "JPX",
-    "messageBoardId": "finmb_8952906",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
-    "regularMarketChangePercent": -0.14892033,
-    "regularMarketPrice": 1341.0,
     "trailingPegRatio": null
   }
 }

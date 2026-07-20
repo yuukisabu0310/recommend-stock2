@@ -1,7 +1,7 @@
 {
   "ticker": "1811",
   "japanese_ticker": "1811.T",
-  "fetch_date": "2026-07-18T23:46:25.110265",
+  "fetch_date": "2026-07-19T23:52:13.857855",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": -100009539.473684,
@@ -1200,12 +1200,6 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "cryptoTradeable": false,
-    "marketState": "CLOSED",
-    "shortName": "ZENITAKA CORP",
-    "longName": "The Zenitaka Corporation",
-    "regularMarketChangePercent": -4.4578314,
-    "regularMarketPrice": 7930.0,
     "corporateActions": [],
     "regularMarketTime": 1784269800,
     "exchange": "JPX",
@@ -1215,6 +1209,8 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
+    "regularMarketChangePercent": -4.4578314,
+    "regularMarketPrice": 7930.0,
     "regularMarketChange": -370.0,
     "regularMarketDayRange": "7880.0 - 8300.0",
     "fullExchangeName": "Tokyo",
@@ -1235,8 +1231,12 @@
     "twoHundredDayAverageChangePercent": -0.02746524,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
+    "shortName": "ZENITAKA CORP",
+    "longName": "The Zenitaka Corporation",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 954806400000,
+    "cryptoTradeable": false,
+    "marketState": "CLOSED",
     "trailingPegRatio": null
   }
 }

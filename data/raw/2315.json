@@ -1,7 +1,7 @@
 {
   "ticker": "2315",
   "japanese_ticker": "2315.T",
-  "fetch_date": "2026-07-18T23:52:19.637511",
+  "fetch_date": "2026-07-19T23:58:34.473028",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-10-31 00:00:00": 7727853.0,
@@ -138,17 +138,17 @@
     },
     "Diluted EPS": {
       "2025-10-31 00:00:00": 1.22,
-      "2024-10-31 00:00:00": 0.22,
+      "2024-10-31 00:00:00": null,
       "2023-10-31 00:00:00": -31.57,
       "2022-10-31 00:00:00": -54.69,
-      "2021-10-31 00:00:00": null
+      "2021-10-31 00:00:00": -10.87
     },
     "Basic EPS": {
       "2025-10-31 00:00:00": 1.22,
-      "2024-10-31 00:00:00": 0.22,
+      "2024-10-31 00:00:00": null,
       "2023-10-31 00:00:00": -31.57,
       "2022-10-31 00:00:00": -54.69,
-      "2021-10-31 00:00:00": null
+      "2021-10-31 00:00:00": -10.87
     },
     "Diluted NI Availto Com Stockholders": {
       "2025-10-31 00:00:00": 166794000.0,
@@ -1274,11 +1274,6 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "marketState": "CLOSED",
-    "regularMarketChangePercent": -4.6875,
-    "regularMarketPrice": 61.0,
-    "shortName": "CAICA DIGITAL INC",
-    "longName": "CAICA DIGITAL Inc.",
     "regularMarketChange": -3.0,
     "regularMarketDayRange": "60.0 - 64.0",
     "fullExchangeName": "Tokyo",
@@ -1300,10 +1295,14 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "prevName": "CAICA Inc.",
-    "nameChangeDate": "2026-07-18",
-    "cryptoTradeable": false,
+    "nameChangeDate": "2026-07-19",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1023753600000,
+    "cryptoTradeable": false,
+    "regularMarketChangePercent": -4.6875,
+    "regularMarketPrice": 61.0,
+    "shortName": "CAICA DIGITAL INC",
+    "longName": "CAICA DIGITAL Inc.",
     "corporateActions": [],
     "regularMarketTime": 1784269800,
     "exchange": "JPX",
@@ -1313,6 +1312,7 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
+    "marketState": "CLOSED",
     "trailingPegRatio": null
   }
 }

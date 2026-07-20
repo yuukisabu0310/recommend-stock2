@@ -1,7 +1,7 @@
 {
   "ticker": "2768",
   "japanese_ticker": "2768.T",
-  "fetch_date": "2026-07-18T23:57:46.826475",
+  "fetch_date": "2026-07-20T00:04:22.405019",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": null,
@@ -1252,8 +1252,12 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "regularMarketChangePercent": -2.74209,
+    "regularMarketPrice": 5072.0,
     "corporateActions": [],
     "regularMarketTime": 1784269800,
+    "shortName": "SOJITZ CORPORATION",
+    "marketState": "CLOSED",
     "exchange": "JPX",
     "messageBoardId": "finmb_873920",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1261,15 +1265,10 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 946944000000,
+    "cryptoTradeable": false,
     "regularMarketChange": -143.0,
     "regularMarketDayRange": "4996.0 - 5213.0",
     "fullExchangeName": "Tokyo",
-    "regularMarketChangePercent": -2.74209,
-    "regularMarketPrice": 5072.0,
-    "longName": "Sojitz Corporation",
-    "marketState": "CLOSED",
     "averageDailyVolume3Month": 1414257,
     "fiftyTwoWeekLowChange": 1533.0,
     "fiftyTwoWeekLowChangePercent": 0.4331732,
@@ -1292,8 +1291,9 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "averageAnalystRating": "2.2 - Buy",
-    "cryptoTradeable": false,
-    "shortName": "SOJITZ CORPORATION",
+    "longName": "Sojitz Corporation",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 946944000000,
     "trailingPegRatio": null
   }
 }

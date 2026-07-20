@@ -1,7 +1,7 @@
 {
   "ticker": "2379",
   "japanese_ticker": "2379.T",
-  "fetch_date": "2026-07-18T23:53:26.930374",
+  "fetch_date": "2026-07-19T23:59:45.385287",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-02-28 00:00:00": 32300280.0,
@@ -1034,12 +1034,6 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "marketState": "CLOSED",
-    "regularMarketChange": -3.0,
-    "regularMarketDayRange": "1799.0 - 1841.0",
-    "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 326795,
-    "fiftyTwoWeekLowChange": 122.0,
     "fiftyTwoWeekLowChangePercent": 0.07236062,
     "fiftyTwoWeekRange": "1686.0 - 2509.0",
     "fiftyTwoWeekHighChange": -701.0,
@@ -1061,10 +1055,10 @@
     "exchangeDataDelayedBy": 20,
     "averageAnalystRating": "3.3 - Hold",
     "cryptoTradeable": false,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1085616000000,
     "corporateActions": [],
     "regularMarketTime": 1784269800,
+    "shortName": "DIP CORPORATION",
+    "longName": "DIP Corporation",
     "exchange": "JPX",
     "messageBoardId": "finmb_1570575",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1074,8 +1068,14 @@
     "esgPopulated": false,
     "regularMarketChangePercent": -0.16565433,
     "regularMarketPrice": 1808.0,
-    "shortName": "DIP CORPORATION",
-    "longName": "DIP Corporation",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1085616000000,
+    "regularMarketChange": -3.0,
+    "regularMarketDayRange": "1799.0 - 1841.0",
+    "fullExchangeName": "Tokyo",
+    "averageDailyVolume3Month": 326795,
+    "fiftyTwoWeekLowChange": 122.0,
+    "marketState": "CLOSED",
     "trailingPegRatio": null
   }
 }

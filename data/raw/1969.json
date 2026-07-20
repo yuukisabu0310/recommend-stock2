@@ -1,7 +1,7 @@
 {
   "ticker": "1969",
   "japanese_ticker": "1969.T",
-  "fetch_date": "2026-07-18T23:48:50.681244",
+  "fetch_date": "2026-07-19T23:54:50.561981",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": 476280000.0,
@@ -1244,6 +1244,7 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "longName": "Takasago Thermal Engineering Co., Ltd.",
     "corporateActions": [],
     "regularMarketTime": 1784269800,
     "exchange": "JPX",
@@ -1253,11 +1254,18 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "regularMarketChangePercent": -4.058962,
-    "regularMarketPrice": 4491.0,
     "marketState": "CLOSED",
     "shortName": "TAKASAGO THERMAL ENGINEERING CO",
-    "longName": "Takasago Thermal Engineering Co., Ltd.",
+    "twoHundredDayAverageChange": -122.365234,
+    "twoHundredDayAverageChangePercent": -0.026524073,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "averageAnalystRating": "1.5 - Strong Buy",
+    "cryptoTradeable": false,
+    "regularMarketChangePercent": -4.058962,
+    "regularMarketPrice": 4491.0,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 978307200000,
     "regularMarketChange": -190.0,
     "regularMarketDayRange": "4434.0 - 4682.0",
     "fullExchangeName": "Tokyo",
@@ -1278,14 +1286,6 @@
     "epsForward": 335.23,
     "fiftyDayAverageChange": -217.7002,
     "fiftyDayAverageChangePercent": -0.046233606,
-    "twoHundredDayAverageChange": -122.365234,
-    "twoHundredDayAverageChangePercent": -0.026524073,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "averageAnalystRating": "1.5 - Strong Buy",
-    "cryptoTradeable": false,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 978307200000,
     "trailingPegRatio": null
   }
 }

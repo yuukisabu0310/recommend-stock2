@@ -1,7 +1,7 @@
 {
   "ticker": "2750",
   "japanese_ticker": "2750.T",
-  "fetch_date": "2026-07-18T23:57:27.189138",
+  "fetch_date": "2026-07-20T00:04:02.241194",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": 64727661.0,
@@ -132,7 +132,7 @@
     "Basic Average Shares": {
       "2026-03-31 00:00:00": null,
       "2025-03-31 00:00:00": 7759578.0,
-      "2024-03-31 00:00:00": 7739263.0,
+      "2024-03-31 00:00:00": 7739058.0,
       "2023-03-31 00:00:00": 7719160.0,
       "2022-03-31 00:00:00": 7707000.0
     },
@@ -1228,6 +1228,17 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "shortName": "S. ISHIMITSU & CO LTD",
+    "longName": "S.Ishimitsu & Co.,Ltd.",
+    "corporateActions": [],
+    "regularMarketTime": 1784269800,
+    "exchange": "JPX",
+    "messageBoardId": "finmb_6463613",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
     "regularMarketChangePercent": -2.6923077,
     "regularMarketPrice": 1265.0,
     "hasPrePostMarketData": false,
@@ -1253,18 +1264,7 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
-    "corporateActions": [],
-    "regularMarketTime": 1784269800,
-    "exchange": "JPX",
-    "messageBoardId": "finmb_6463613",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
     "marketState": "CLOSED",
-    "shortName": "S. ISHIMITSU & CO LTD",
-    "longName": "S.Ishimitsu & Co.,Ltd.",
     "trailingPegRatio": null
   }
 }

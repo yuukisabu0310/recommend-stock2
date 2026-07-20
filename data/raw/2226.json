@@ -1,7 +1,7 @@
 {
   "ticker": "2226",
   "japanese_ticker": "2226.T",
-  "fetch_date": "2026-07-18T23:51:29.115040",
+  "fetch_date": "2026-07-19T23:57:40.369658",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": -51067000.0,
@@ -108,7 +108,7 @@
     "Diluted Average Shares": {
       "2026-03-31 00:00:00": 10667778.0,
       "2025-03-31 00:00:00": 10667778.0,
-      "2024-03-31 00:00:00": 10667908.0,
+      "2024-03-31 00:00:00": 10665636.0,
       "2023-03-31 00:00:00": 10668152.0
     },
     "Basic Average Shares": {
@@ -265,10 +265,10 @@
   "balance_sheet": {
     "Treasury Shares Number": {
       "2026-03-31 00:00:00": 2222.0,
-      "2025-03-31 00:00:00": 2222.0,
+      "2025-03-31 00:00:00": null,
       "2024-03-31 00:00:00": 2222.0,
       "2023-03-31 00:00:00": 1958.0,
-      "2022-03-31 00:00:00": null
+      "2022-03-31 00:00:00": 1808.0
     },
     "Ordinary Shares Number": {
       "2026-03-31 00:00:00": 10667778.0,
@@ -1150,6 +1150,12 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "regularMarketPrice": 4705.0,
+    "longName": "KOIKE-YA Inc.",
+    "marketState": "CLOSED",
+    "shortName": "KOIKE-YA INC",
+    "corporateActions": [],
+    "regularMarketTime": 1784269800,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1087516800000,
     "regularMarketChange": -15.0,
@@ -1162,22 +1168,12 @@
     "fiftyTwoWeekHighChange": -355.0,
     "fiftyTwoWeekHighChangePercent": -0.0701581,
     "fiftyTwoWeekChangePercent": -2.3858905,
-    "marketState": "CLOSED",
     "earningsTimestampStart": 1746677700,
     "earningsTimestampEnd": 1746677700,
     "isEarningsDateEstimate": false,
     "epsTrailingTwelveMonths": 243.25,
     "fiftyDayAverageChange": 17.799805,
-    "fiftyDayAverageChangePercent": 0.0037975346,
-    "twoHundredDayAverageChange": 55.799805,
-    "twoHundredDayAverageChangePercent": 0.012002022,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
-    "shortName": "KOIKE-YA INC",
-    "longName": "KOIKE-YA Inc.",
-    "corporateActions": [],
-    "regularMarketTime": 1784269800,
+    "regularMarketChangePercent": -0.3177966,
     "exchange": "JPX",
     "messageBoardId": "finmb_10062259",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1185,8 +1181,12 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "regularMarketChangePercent": -0.3177966,
-    "regularMarketPrice": 4705.0,
+    "fiftyDayAverageChangePercent": 0.0037975346,
+    "twoHundredDayAverageChange": 55.799805,
+    "twoHundredDayAverageChangePercent": 0.012002022,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
     "trailingPegRatio": null
   }
 }

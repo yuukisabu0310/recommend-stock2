@@ -1,7 +1,7 @@
 {
   "ticker": "2209",
   "japanese_ticker": "2209.T",
-  "fetch_date": "2026-07-18T23:51:08.868568",
+  "fetch_date": "2026-07-19T23:57:18.153860",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": -873180.0,
@@ -1254,7 +1254,11 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "regularMarketChangePercent": 0.5830904,
+    "regularMarketPrice": 2415.0,
     "marketState": "CLOSED",
+    "shortName": "IMURAYA GROUP CO LTD",
+    "longName": "Imuraya Group Co., Ltd.",
     "corporateActions": [],
     "regularMarketTime": 1784269800,
     "exchange": "JPX",
@@ -1264,8 +1268,7 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "shortName": "IMURAYA GROUP CO LTD",
-    "longName": "Imuraya Group Co., Ltd.",
+    "regularMarketChange": 14.0,
     "regularMarketDayRange": "2398.0 - 2434.0",
     "fullExchangeName": "Tokyo",
     "averageDailyVolume3Month": 24088,
@@ -1288,9 +1291,6 @@
     "cryptoTradeable": false,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 978307200000,
-    "regularMarketChange": 14.0,
-    "regularMarketChangePercent": 0.5830904,
-    "regularMarketPrice": 2415.0,
     "trailingPegRatio": null
   }
 }

@@ -1,7 +1,7 @@
 {
   "ticker": "2934",
   "japanese_ticker": "2934.T",
-  "fetch_date": "2026-07-19T00:00:01.628595",
+  "fetch_date": "2026-07-20T00:06:47.641558",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-05-31 00:00:00": 7085048.0,
@@ -1166,7 +1166,6 @@
     "esgPopulated": false,
     "regularMarketChangePercent": -1.6393442,
     "regularMarketPrice": 1740.0,
-    "marketState": "CLOSED",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1630022400000,
     "regularMarketChange": -29.0,
@@ -1191,6 +1190,7 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
+    "marketState": "CLOSED",
     "trailingPegRatio": null
   }
 }

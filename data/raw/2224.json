@@ -1,7 +1,7 @@
 {
   "ticker": "2224",
   "japanese_ticker": "2224.T",
-  "fetch_date": "2026-07-18T23:51:27.030823",
+  "fetch_date": "2026-07-19T23:57:37.796892",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": -22144.0,
@@ -253,10 +253,10 @@
   "balance_sheet": {
     "Treasury Shares Number": {
       "2026-03-31 00:00:00": 155482.0,
-      "2025-03-31 00:00:00": 155482.0,
+      "2025-03-31 00:00:00": null,
       "2024-03-31 00:00:00": 155472.0,
       "2023-03-31 00:00:00": 155422.0,
-      "2022-03-31 00:00:00": null
+      "2022-03-31 00:00:00": 155422.0
     },
     "Ordinary Shares Number": {
       "2026-03-31 00:00:00": 3474518.0,
@@ -1165,10 +1165,7 @@
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
     "marketState": "CLOSED",
-    "regularMarketChangePercent": 0.13605443,
-    "regularMarketPrice": 3680.0,
-    "shortName": "COMO CO LTD",
-    "longName": "Como Co.,Ltd.",
+    "cryptoTradeable": false,
     "regularMarketChange": 5.0,
     "regularMarketDayRange": "3665.0 - 3680.0",
     "fullExchangeName": "Tokyo",
@@ -1189,10 +1186,8 @@
     "twoHundredDayAverageChangePercent": 0.03857984,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 946944000000,
-    "corporateActions": [],
     "regularMarketTime": 1784269482,
     "exchange": "JPX",
     "messageBoardId": "finmb_9193272",
@@ -1201,6 +1196,11 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
+    "regularMarketChangePercent": 0.13605443,
+    "regularMarketPrice": 3680.0,
+    "shortName": "COMO CO LTD",
+    "corporateActions": [],
+    "longName": "Como Co.,Ltd.",
     "trailingPegRatio": null
   }
 }

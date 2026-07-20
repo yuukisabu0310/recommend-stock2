@@ -1,7 +1,7 @@
 {
   "ticker": "1928",
   "japanese_ticker": "1928.T",
-  "fetch_date": "2026-07-18T23:47:59.761065",
+  "fetch_date": "2026-07-19T23:53:53.794678",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-01-31 00:00:00": 3298101335.254194,
@@ -1247,7 +1247,6 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "shortName": "SEKISUI HOUSE",
     "longName": "Sekisui House, Ltd.",
     "corporateActions": [
       {
@@ -1268,9 +1267,16 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
+    "marketState": "CLOSED",
+    "shortName": "SEKISUI HOUSE",
+    "twoHundredDayAverageChange": 92.09009,
+    "twoHundredDayAverageChangePercent": 0.026662562,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "averageAnalystRating": "2.1 - Buy",
+    "cryptoTradeable": false,
     "regularMarketChangePercent": -0.25316456,
     "regularMarketPrice": 3546.0,
-    "marketState": "CLOSED",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 946944000000,
     "regularMarketChange": -9.0,
@@ -1293,12 +1299,6 @@
     "epsForward": 377.46,
     "fiftyDayAverageChange": 183.02002,
     "fiftyDayAverageChangePercent": 0.054421976,
-    "twoHundredDayAverageChange": 92.09009,
-    "twoHundredDayAverageChangePercent": 0.026662562,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "averageAnalystRating": "2.1 - Buy",
-    "cryptoTradeable": false,
     "trailingPegRatio": null
   }
 }

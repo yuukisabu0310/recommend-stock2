@@ -1,7 +1,7 @@
 {
   "ticker": "1807",
   "japanese_ticker": "1807.T",
-  "fetch_date": "2026-07-18T23:46:18.966108",
+  "fetch_date": "2026-07-19T23:52:07.615973",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": -4079376.0,
@@ -336,7 +336,7 @@
     },
     "Ordinary Shares Number": {
       "2026-03-31 00:00:00": 6243957.0,
-      "2025-03-31 00:00:00": 6229673.0,
+      "2025-03-31 00:00:00": 6230573.0,
       "2024-03-31 00:00:00": 6217302.0,
       "2023-03-31 00:00:00": 6096814.0,
       "2022-03-31 00:00:00": null
@@ -1205,7 +1205,7 @@
     "tradeable": false,
     "enterpriseValue": 5107603456,
     "profitMargins": 0.026199998,
-    "floatShares": 1722287,
+    "floatShares": 1721850,
     "sharesOutstanding": 6243957,
     "heldPercentInsiders": 0.64492995,
     "heldPercentInstitutions": 0.00452,
@@ -1267,19 +1267,6 @@
     "esgPopulated": false,
     "regularMarketChangePercent": -2.1470747,
     "regularMarketPrice": 1823.0,
-    "marketState": "CLOSED",
-    "shortName": "WATANABE SATO CO LTD",
-    "longName": "Watanabe Sato Co., Ltd.",
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 946944000000,
-    "epsTrailingTwelveMonths": 141.65,
-    "fiftyDayAverageChange": 1.7399902,
-    "fiftyDayAverageChangePercent": 0.0009553772,
-    "twoHundredDayAverageChange": -42.43506,
-    "twoHundredDayAverageChangePercent": -0.022748075,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
     "regularMarketChange": -40.0,
     "regularMarketDayRange": "1823.0 - 1824.0",
     "fullExchangeName": "Tokyo",
@@ -1293,6 +1280,19 @@
     "earningsTimestampStart": 1747022400,
     "earningsTimestampEnd": 1747022400,
     "isEarningsDateEstimate": false,
+    "epsTrailingTwelveMonths": 141.65,
+    "fiftyDayAverageChange": 1.7399902,
+    "fiftyDayAverageChangePercent": 0.0009553772,
+    "twoHundredDayAverageChange": -42.43506,
+    "twoHundredDayAverageChangePercent": -0.022748075,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "shortName": "WATANABE SATO CO LTD",
+    "longName": "Watanabe Sato Co., Ltd.",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 946944000000,
+    "cryptoTradeable": false,
+    "marketState": "CLOSED",
     "trailingPegRatio": null
   }
 }

@@ -1,7 +1,7 @@
 {
   "ticker": "2393",
   "japanese_ticker": "2393.T",
-  "fetch_date": "2026-07-18T23:53:38.917020",
+  "fetch_date": "2026-07-19T23:59:58.796329",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": -355702.548613,
@@ -13,7 +13,7 @@
     "Tax Rate For Calcs": {
       "2026-03-31 00:00:00": 0.276596,
       "2025-03-31 00:00:00": 0.283538,
-      "2024-03-31 00:00:00": 0.284,
+      "2024-03-31 00:00:00": 0.284168,
       "2023-03-31 00:00:00": 0.288,
       "2022-03-31 00:00:00": null
     },
@@ -125,14 +125,14 @@
     "Diluted Average Shares": {
       "2026-03-31 00:00:00": null,
       "2025-03-31 00:00:00": 15537356.0,
-      "2024-03-31 00:00:00": 15537809.0,
+      "2024-03-31 00:00:00": 15537541.0,
       "2023-03-31 00:00:00": 15537857.0,
       "2022-03-31 00:00:00": 15537879.0
     },
     "Basic Average Shares": {
       "2026-03-31 00:00:00": null,
       "2025-03-31 00:00:00": 15537356.0,
-      "2024-03-31 00:00:00": 15537809.0,
+      "2024-03-31 00:00:00": 15537541.0,
       "2023-03-31 00:00:00": 15537857.0,
       "2022-03-31 00:00:00": 15537879.0
     },
@@ -315,7 +315,7 @@
     },
     "Share Issued": {
       "2026-03-31 00:00:00": 16237693.0,
-      "2025-03-31 00:00:00": 16237693.0,
+      "2025-03-31 00:00:00": 15537683.0,
       "2024-03-31 00:00:00": 16342400.0,
       "2023-03-31 00:00:00": 16342400.0,
       "2022-03-31 00:00:00": null
@@ -1182,8 +1182,12 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "regularMarketChangePercent": 0.0,
+    "regularMarketPrice": 4345.0,
     "corporateActions": [],
     "regularMarketTime": 1784269800,
+    "shortName": "NIPPON CARE SUPPLY CO",
+    "marketState": "CLOSED",
     "exchange": "JPX",
     "messageBoardId": "finmb_9104441",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1191,11 +1195,7 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "regularMarketChangePercent": 0.0,
-    "regularMarketPrice": 4345.0,
-    "marketState": "CLOSED",
-    "shortName": "NIPPON CARE SUPPLY CO",
-    "longName": "Nippon Care Supply Co., Ltd.",
+    "cryptoTradeable": false,
     "regularMarketChange": 0.0,
     "regularMarketDayRange": "4250.0 - 4350.0",
     "fullExchangeName": "Tokyo",
@@ -1216,7 +1216,7 @@
     "twoHundredDayAverageChangePercent": 0.64927864,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
+    "longName": "Nippon Care Supply Co., Ltd.",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1077840000000,
     "trailingPegRatio": null

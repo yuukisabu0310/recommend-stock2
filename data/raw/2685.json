@@ -1,7 +1,7 @@
 {
   "ticker": "2685",
   "japanese_ticker": "2685.T",
-  "fetch_date": "2026-07-18T23:56:31.501913",
+  "fetch_date": "2026-07-20T00:03:01.309043",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-02-28 00:00:00": -500643000.0,
@@ -1339,6 +1339,12 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1039651200000,
+    "regularMarketChange": -90.0,
+    "regularMarketDayRange": "3405.0 - 3545.0",
+    "fullExchangeName": "Tokyo",
+    "averageDailyVolume3Month": 217011,
     "fiftyTwoWeekLowChange": 866.0,
     "fiftyTwoWeekLowChangePercent": 0.33709615,
     "fiftyTwoWeekRange": "2569.0 - 3635.0",
@@ -1353,14 +1359,6 @@
     "isEarningsDateEstimate": false,
     "epsTrailingTwelveMonths": 205.76,
     "epsForward": 304.23,
-    "shortName": "AND ST HD CO LTD",
-    "longName": "and ST HD Co.,Ltd.",
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1039651200000,
-    "regularMarketChange": -90.0,
-    "regularMarketDayRange": "3405.0 - 3545.0",
-    "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 217011,
     "fiftyDayAverageChange": 89.84009,
     "fiftyDayAverageChangePercent": 0.02685674,
     "twoHundredDayAverageChange": 432.33496,
@@ -1368,10 +1366,11 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "prevName": "Adastria Co., Ltd.",
-    "nameChangeDate": "2026-07-18",
+    "nameChangeDate": "2026-07-19",
     "cryptoTradeable": false,
-    "marketState": "CLOSED",
     "corporateActions": [],
+    "marketState": "CLOSED",
+    "shortName": "AND ST HD CO LTD",
     "regularMarketTime": 1784269800,
     "exchange": "JPX",
     "messageBoardId": "finmb_5646303",
@@ -1382,6 +1381,7 @@
     "esgPopulated": false,
     "regularMarketChangePercent": -2.5531914,
     "regularMarketPrice": 3435.0,
+    "longName": "and ST HD Co.,Ltd.",
     "trailingPegRatio": null
   }
 }

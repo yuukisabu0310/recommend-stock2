@@ -1,7 +1,7 @@
 {
   "ticker": "2001",
   "japanese_ticker": "2001.T",
-  "fetch_date": "2026-07-18T23:49:14.560555",
+  "fetch_date": "2026-07-19T23:55:16.201336",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": 1968849307.723846,
@@ -132,7 +132,7 @@
     "Basic Average Shares": {
       "2026-03-31 00:00:00": null,
       "2025-03-31 00:00:00": 78031330.0,
-      "2024-03-31 00:00:00": 77962744.0,
+      "2024-03-31 00:00:00": 77964000.0,
       "2023-03-31 00:00:00": 77633189.0,
       "2022-03-31 00:00:00": 76712000.0
     },
@@ -1250,12 +1250,6 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "cryptoTradeable": false,
-    "marketState": "CLOSED",
-    "shortName": "NIPPN CORPORATION",
-    "longName": "Nippn Corporation",
-    "regularMarketChangePercent": 1.2558306,
-    "regularMarketPrice": 2822.0,
     "corporateActions": [],
     "regularMarketTime": 1784269800,
     "exchange": "JPX",
@@ -1265,6 +1259,8 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 978307200000,
     "regularMarketChange": 35.0,
     "regularMarketDayRange": "2800.0 - 2842.0",
     "fullExchangeName": "Tokyo",
@@ -1281,6 +1277,9 @@
     "isEarningsDateEstimate": true,
     "epsTrailingTwelveMonths": 257.08,
     "epsForward": 230.9,
+    "shortName": "NIPPN CORPORATION",
+    "cryptoTradeable": false,
+    "longName": "Nippn Corporation",
     "fiftyDayAverageChange": 100.04004,
     "fiftyDayAverageChangePercent": 0.036752943,
     "twoHundredDayAverageChange": 249.64502,
@@ -1288,9 +1287,10 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "prevName": "Nippon Flour Mills Co., Ltd.",
-    "nameChangeDate": "2026-07-18",
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 978307200000,
+    "nameChangeDate": "2026-07-19",
+    "regularMarketChangePercent": 1.2558306,
+    "regularMarketPrice": 2822.0,
+    "marketState": "CLOSED",
     "trailingPegRatio": null
   }
 }
