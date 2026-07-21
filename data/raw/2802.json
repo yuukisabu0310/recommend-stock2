@@ -1,7 +1,7 @@
 {
   "ticker": "2802",
   "japanese_ticker": "2802.T",
-  "fetch_date": "2026-07-20T00:04:57.762129",
+  "fetch_date": "2026-07-21T00:03:25.290830",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": 0.0,
@@ -897,6 +897,12 @@
       "2023-03-31 00:00:00": 40255000000.0,
       "2022-03-31 00:00:00": 17763000000.0
     },
+    "Purchase Of PPE": {
+      "2025-03-31 00:00:00": -88104000000.0,
+      "2024-03-31 00:00:00": -65786000000.0,
+      "2023-03-31 00:00:00": -68383000000.0,
+      "2022-03-31 00:00:00": -73842000000.0
+    },
     "Operating Cash Flow": {
       "2025-03-31 00:00:00": 209898000000.0,
       "2024-03-31 00:00:00": 168074000000.0,
@@ -1142,11 +1148,11 @@
     "forwardPE": 22.375393,
     "volume": 4971500,
     "regularMarketVolume": 4971500,
-    "averageVolume": 5133077,
+    "averageVolume": 5177776,
     "averageVolume10days": 3670130,
     "averageDailyVolume10Day": 3670130,
-    "bid": 5190.0,
-    "ask": 5195.0,
+    "bid": 0.0,
+    "ask": 5217.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 4957993435136,
@@ -1220,7 +1226,10 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "cryptoTradeable": false,
+    "shortName": "AJINOMOTO CO INC",
     "longName": "Ajinomoto Co., Inc.",
+    "marketState": "REGULAR",
     "corporateActions": [],
     "regularMarketTime": 1784269800,
     "exchange": "JPX",
@@ -1230,13 +1239,6 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "marketState": "CLOSED",
-    "shortName": "AJINOMOTO CO INC",
-    "twoHundredDayAverageChange": 767.73,
-    "twoHundredDayAverageChangePercent": 0.17344852,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
     "regularMarketChangePercent": -3.1150906,
     "regularMarketPrice": 5194.0,
     "hasPrePostMarketData": false,
@@ -1244,7 +1246,7 @@
     "regularMarketChange": -167.0,
     "regularMarketDayRange": "5114.0 - 5289.0",
     "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 5133077,
+    "averageDailyVolume3Month": 5177776,
     "fiftyTwoWeekLowChange": 1924.0,
     "fiftyTwoWeekLowChangePercent": 0.5883792,
     "fiftyTwoWeekRange": "3270.0 - 6340.0",
@@ -1261,6 +1263,10 @@
     "epsForward": 232.13,
     "fiftyDayAverageChange": -255.41992,
     "fiftyDayAverageChangePercent": -0.04687103,
+    "twoHundredDayAverageChange": 767.73,
+    "twoHundredDayAverageChangePercent": 0.17344852,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
     "trailingPegRatio": 4.0475
   }
 }

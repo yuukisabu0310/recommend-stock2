@@ -1,7 +1,7 @@
 {
   "ticker": "1867",
   "japanese_ticker": "1867.T",
-  "fetch_date": "2026-07-19T23:53:05.040595",
+  "fetch_date": "2026-07-20T23:52:27.970583",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": -61845695.0,
@@ -1145,11 +1145,11 @@
     "trailingPE": 7.2255282,
     "volume": 11000,
     "regularMarketVolume": 11000,
-    "averageVolume": 11106,
+    "averageVolume": 11141,
     "averageVolume10days": 9550,
     "averageDailyVolume10Day": 9550,
-    "bid": 2602.0,
-    "ask": 2675.0,
+    "bid": 0.0,
+    "ask": 2670.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 17404473344,
@@ -1218,12 +1218,10 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 978307200000,
     "regularMarketChange": -21.0,
     "regularMarketDayRange": "2590.0 - 2686.0",
     "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 11106,
+    "averageDailyVolume3Month": 11141,
     "fiftyTwoWeekLowChange": 644.0,
     "fiftyTwoWeekLowChangePercent": 0.32151774,
     "fiftyTwoWeekRange": "2003.0 - 3275.0",
@@ -1242,8 +1240,6 @@
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
     "corporateActions": [],
-    "marketState": "CLOSED",
-    "shortName": "UEKI CORP",
     "regularMarketTime": 1784269800,
     "exchange": "JPX",
     "messageBoardId": "finmb_880952",
@@ -1254,7 +1250,11 @@
     "esgPopulated": false,
     "regularMarketChangePercent": -0.78710645,
     "regularMarketPrice": 2647.0,
+    "marketState": "PREPRE",
+    "shortName": "UEKI CORP",
     "longName": "UEKI Corporation",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 978307200000,
     "trailingPegRatio": null
   }
 }

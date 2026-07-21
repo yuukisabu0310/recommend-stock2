@@ -1,7 +1,7 @@
 {
   "ticker": "1844",
   "japanese_ticker": "1844.T",
-  "fetch_date": "2026-07-19T23:52:44.408687",
+  "fetch_date": "2026-07-20T23:52:09.401135",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-07-31 00:00:00": null,
@@ -1116,11 +1116,11 @@
     "trailingPE": 17.887932,
     "volume": 100300,
     "regularMarketVolume": 100300,
-    "averageVolume": 116663,
+    "averageVolume": 115673,
     "averageVolume10days": 79860,
     "averageDailyVolume10Day": 79860,
-    "bid": 498.0,
-    "ask": 500.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "marketCap": 9320593408,
     "nonDilutedMarketCap": 9320593398,
     "fiftyTwoWeekLow": 399.0,
@@ -1185,7 +1185,10 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "averageDailyVolume3Month": 116663,
+    "regularMarketChange": -6.0,
+    "regularMarketDayRange": "497.0 - 504.0",
+    "fullExchangeName": "Tokyo",
+    "averageDailyVolume3Month": 115673,
     "fiftyTwoWeekLowChange": 99.0,
     "fiftyTwoWeekLowChangePercent": 0.24812031,
     "fiftyTwoWeekRange": "399.0 - 1450.0",
@@ -1202,15 +1205,11 @@
     "twoHundredDayAverageChangePercent": -0.12374084,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
-    "marketState": "CLOSED",
-    "shortName": "OHMORI CO LTD",
-    "longName": "Ohmori Co.,Ltd.",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 978307200000,
-    "regularMarketChange": -6.0,
-    "regularMarketDayRange": "497.0 - 504.0",
-    "fullExchangeName": "Tokyo",
+    "regularMarketChangePercent": -1.1904762,
+    "regularMarketPrice": 498.0,
+    "marketState": "PREPRE",
     "corporateActions": [
       {
         "header": "Dividend",
@@ -1230,8 +1229,9 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "regularMarketChangePercent": -1.1904762,
-    "regularMarketPrice": 498.0,
+    "shortName": "OHMORI CO LTD",
+    "longName": "Ohmori Co.,Ltd.",
+    "cryptoTradeable": false,
     "trailingPegRatio": null
   }
 }

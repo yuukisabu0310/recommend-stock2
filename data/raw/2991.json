@@ -1,7 +1,7 @@
 {
   "ticker": "2991",
   "japanese_ticker": "2991.T",
-  "fetch_date": "2026-07-20T00:07:22.517855",
+  "fetch_date": "2026-07-21T00:05:38.903243",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-07-31 00:00:00": null,
@@ -1043,11 +1043,11 @@
     "trailingPE": 5.952381,
     "volume": 72000,
     "regularMarketVolume": 72000,
-    "averageVolume": 19452,
+    "averageVolume": 19468,
     "averageVolume10days": 13870,
     "averageDailyVolume10Day": 13870,
-    "bid": 564.0,
-    "ask": 571.0,
+    "bid": 0.0,
+    "ask": 566.0,
     "marketCap": 13534522368,
     "nonDilutedMarketCap": 13534521890,
     "fiftyTwoWeekLow": 534.0,
@@ -1112,12 +1112,35 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "2991.T announced a cash dividend of JPY 11.10 with an ex-date of Jul. 30, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1785337200000,
+          "amount": "11.10"
+        }
+      }
+    ],
+    "regularMarketTime": 1784269800,
+    "exchange": "JPX",
+    "messageBoardId": "finmb_228764655",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
+    "regularMarketChangePercent": -4.2372885,
+    "regularMarketPrice": 565.0,
+    "shortName": "LANDNET INC",
+    "longName": "LANDNET Inc.",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1626825600000,
     "regularMarketChange": -25.0,
     "regularMarketDayRange": "565.0 - 579.0",
     "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 19452,
+    "averageDailyVolume3Month": 19468,
     "fiftyTwoWeekLowChange": 31.0,
     "fiftyTwoWeekLowChangePercent": 0.058052436,
     "fiftyTwoWeekRange": "534.0 - 823.5",
@@ -1134,31 +1157,8 @@
     "twoHundredDayAverageChangePercent": -0.110061035,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
-    "exchange": "JPX",
-    "messageBoardId": "finmb_228764655",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
-    "regularMarketChangePercent": -4.2372885,
-    "regularMarketPrice": 565.0,
-    "marketState": "CLOSED",
-    "corporateActions": [
-      {
-        "header": "Dividend",
-        "message": "2991.T announced a cash dividend of JPY 11.10 with an ex-date of Jul. 30, 2026",
-        "meta": {
-          "eventType": "DIVIDEND",
-          "dateEpochMs": 1785337200000,
-          "amount": "11.10"
-        }
-      }
-    ],
-    "regularMarketTime": 1784269800,
     "cryptoTradeable": false,
-    "longName": "LANDNET Inc.",
-    "shortName": "LANDNET INC",
+    "marketState": "REGULAR",
     "trailingPegRatio": null
   }
 }

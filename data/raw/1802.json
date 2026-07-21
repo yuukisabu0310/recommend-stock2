@@ -1,7 +1,7 @@
 {
   "ticker": "1802",
   "japanese_ticker": "1802.T",
-  "fetch_date": "2026-07-19T23:52:03.488243",
+  "fetch_date": "2026-07-20T23:51:31.367819",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": 13022208000.0,
@@ -478,6 +478,13 @@
       "2025-03-31 00:00:00": 1453358000000.0,
       "2024-03-31 00:00:00": 1433517000000.0,
       "2023-03-31 00:00:00": 1226434000000.0,
+      "2022-03-31 00:00:00": null
+    },
+    "Other Current Liabilities": {
+      "2026-03-31 00:00:00": 395089000000.0,
+      "2025-03-31 00:00:00": 402324000000.0,
+      "2024-03-31 00:00:00": 430155000000.0,
+      "2023-03-31 00:00:00": 400931000000.0,
       "2022-03-31 00:00:00": null
     },
     "Current Debt And Capital Lease Obligation": {
@@ -1156,11 +1163,11 @@
     "forwardPE": 23.253117,
     "volume": 3199700,
     "regularMarketVolume": 3199700,
-    "averageVolume": 3036777,
+    "averageVolume": 3061186,
     "averageVolume10days": 2229240,
     "averageDailyVolume10Day": 2229240,
-    "bid": 3189.0,
-    "ask": 3209.0,
+    "bid": 3226.0,
+    "ask": 3227.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 2205248126976,
@@ -1237,11 +1244,7 @@
     "customPriceAlertConfidence": "LOW",
     "regularMarketChangePercent": -1.0182042,
     "regularMarketPrice": 3208.0,
-    "marketState": "CLOSED",
-    "shortName": "OBAYASHI CORP",
-    "longName": "Obayashi Corporation",
-    "corporateActions": [],
-    "regularMarketTime": 1784269800,
+    "marketState": "PREPRE",
     "exchange": "JPX",
     "messageBoardId": "finmb_875655",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1249,10 +1252,17 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
+    "corporateActions": [],
+    "regularMarketTime": 1784269800,
+    "cryptoTradeable": false,
+    "shortName": "OBAYASHI CORP",
+    "longName": "Obayashi Corporation",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 946944000000,
     "regularMarketChange": -33.0,
     "regularMarketDayRange": "3146.0 - 3260.0",
     "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 3036777,
+    "averageDailyVolume3Month": 3061186,
     "fiftyTwoWeekLowChange": 1091.0,
     "fiftyTwoWeekLowChangePercent": 0.5153519,
     "fiftyTwoWeekRange": "2117.0 - 4439.0",
@@ -1274,9 +1284,6 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "averageAnalystRating": "1.6 - Buy",
-    "cryptoTradeable": false,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 946944000000,
     "trailingPegRatio": null
   }
 }

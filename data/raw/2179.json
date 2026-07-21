@@ -1,7 +1,7 @@
 {
   "ticker": "2179",
   "japanese_ticker": "2179.T",
-  "fetch_date": "2026-07-19T23:56:43.942134",
+  "fetch_date": "2026-07-20T23:55:49.292794",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": -31256223.2,
@@ -1175,11 +1175,11 @@
     "trailingPE": 7.5812273,
     "volume": 1500,
     "regularMarketVolume": 1500,
-    "averageVolume": 1544,
+    "averageVolume": 1531,
     "averageVolume10days": 970,
     "averageDailyVolume10Day": 970,
-    "bid": 793.0,
-    "ask": 798.0,
+    "bid": 0.0,
+    "ask": 803.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 4427222528,
@@ -1251,7 +1251,7 @@
     "regularMarketChange": 6.0,
     "regularMarketDayRange": "798.0 - 798.0",
     "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 1544,
+    "averageDailyVolume3Month": 1531,
     "fiftyTwoWeekLowChange": 61.0,
     "fiftyTwoWeekLowChangePercent": 0.08276798,
     "fiftyTwoWeekRange": "737.0 - 826.0",
@@ -1269,8 +1269,9 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "prevName": "Seigakusya Co., Ltd.",
-    "nameChangeDate": "2026-07-19",
+    "nameChangeDate": "2026-07-20",
     "cryptoTradeable": false,
+    "marketState": "PREPRE",
     "shortName": "SEIGAKUSHA CO LTD",
     "longName": "Seigakusha Co.,Ltd.",
     "corporateActions": [],
@@ -1284,7 +1285,6 @@
     "esgPopulated": false,
     "regularMarketChangePercent": 0.75757575,
     "regularMarketPrice": 798.0,
-    "marketState": "CLOSED",
     "trailingPegRatio": null
   }
 }
