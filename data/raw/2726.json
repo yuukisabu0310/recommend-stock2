@@ -1,309 +1,8 @@
 {
   "ticker": "2726",
   "japanese_ticker": "2726.T",
-  "fetch_date": "2026-07-22T00:01:41.945138",
-  "financials": {
-    "Tax Effect Of Unusual Items": {
-      "2026-02-28 00:00:00": -66665000.0,
-      "2025-02-28 00:00:00": -872552000.0,
-      "2024-02-29 00:00:00": -177707111.135479,
-      "2023-02-28 00:00:00": -275100000.0
-    },
-    "Tax Rate For Calcs": {
-      "2026-02-28 00:00:00": 0.335,
-      "2025-02-28 00:00:00": 0.232,
-      "2024-02-29 00:00:00": 0.296179,
-      "2023-02-28 00:00:00": 0.35
-    },
-    "Normalized EBITDA": {
-      "2026-02-28 00:00:00": 30427000000.0,
-      "2025-02-28 00:00:00": 26569000000.0,
-      "2024-02-29 00:00:00": 21188000000.0,
-      "2023-02-28 00:00:00": 18136000000.0
-    },
-    "Total Unusual Items": {
-      "2026-02-28 00:00:00": -199000000.0,
-      "2025-02-28 00:00:00": -3761000000.0,
-      "2024-02-29 00:00:00": -600000000.0,
-      "2023-02-28 00:00:00": -786000000.0
-    },
-    "Total Unusual Items Excluding Goodwill": {
-      "2026-02-28 00:00:00": -199000000.0,
-      "2025-02-28 00:00:00": -3761000000.0,
-      "2024-02-29 00:00:00": -600000000.0,
-      "2023-02-28 00:00:00": -786000000.0
-    },
-    "Net Income From Continuing Operation Net Minority Interest": {
-      "2026-02-28 00:00:00": 17714000000.0,
-      "2025-02-28 00:00:00": 11848000000.0,
-      "2024-02-29 00:00:00": 12845000000.0,
-      "2023-02-28 00:00:00": 9955000000.0
-    },
-    "Reconciled Depreciation": {
-      "2026-02-28 00:00:00": 3163000000.0,
-      "2025-02-28 00:00:00": 2525000000.0,
-      "2024-02-29 00:00:00": 2262000000.0,
-      "2023-02-28 00:00:00": 2032000000.0
-    },
-    "Reconciled Cost Of Revenue": {
-      "2026-02-28 00:00:00": 101652000000.0,
-      "2025-02-28 00:00:00": 91568000000.0,
-      "2024-02-29 00:00:00": 86261000000.0,
-      "2023-02-28 00:00:00": 74260000000.0
-    },
-    "EBITDA": {
-      "2026-02-28 00:00:00": 30228000000.0,
-      "2025-02-28 00:00:00": 22808000000.0,
-      "2024-02-29 00:00:00": 20588000000.0,
-      "2023-02-28 00:00:00": 17350000000.0
-    },
-    "EBIT": {
-      "2026-02-28 00:00:00": 27065000000.0,
-      "2025-02-28 00:00:00": 20283000000.0,
-      "2024-02-29 00:00:00": 18326000000.0,
-      "2023-02-28 00:00:00": 15318000000.0
-    },
-    "Net Interest Income": {
-      "2026-02-28 00:00:00": -136000000.0,
-      "2025-02-28 00:00:00": -111000000.0,
-      "2024-02-29 00:00:00": -86000000.0,
-      "2023-02-28 00:00:00": -88000000.0
-    },
-    "Interest Expense": {
-      "2026-02-28 00:00:00": 158000000.0,
-      "2025-02-28 00:00:00": 117000000.0,
-      "2024-02-29 00:00:00": 87000000.0,
-      "2023-02-28 00:00:00": 89000000.0
-    },
-    "Interest Income": {
-      "2026-02-28 00:00:00": 22000000.0,
-      "2025-02-28 00:00:00": 6000000.0,
-      "2024-02-29 00:00:00": 1000000.0,
-      "2023-02-28 00:00:00": 1000000.0
-    },
-    "Normalized Income": {
-      "2026-02-28 00:00:00": 17846335000.0,
-      "2025-02-28 00:00:00": 14736448000.0,
-      "2024-02-29 00:00:00": 13267292888.864521,
-      "2023-02-28 00:00:00": 10465900000.0
-    },
-    "Net Income From Continuing And Discontinued Operation": {
-      "2026-02-28 00:00:00": 17714000000.0,
-      "2025-02-28 00:00:00": 11848000000.0,
-      "2024-02-29 00:00:00": 12845000000.0,
-      "2023-02-28 00:00:00": 9955000000.0
-    },
-    "Total Expenses": {
-      "2026-02-28 00:00:00": 207552000000.0,
-      "2025-02-28 00:00:00": 184161000000.0,
-      "2024-02-29 00:00:00": 173935000000.0,
-      "2023-02-28 00:00:00": 148653000000.0
-    },
-    "Rent Expense Supplemental": {
-      "2026-02-28 00:00:00": 26436000000.0,
-      "2025-02-28 00:00:00": 23502000000.0,
-      "2024-02-29 00:00:00": 22012000000.0,
-      "2023-02-28 00:00:00": 19769000000.0
-    },
-    "Total Operating Income As Reported": {
-      "2026-02-28 00:00:00": 27144000000.0,
-      "2025-02-28 00:00:00": 23656000000.0,
-      "2024-02-29 00:00:00": 18605000000.0,
-      "2023-02-28 00:00:00": 15822000000.0
-    },
-    "Diluted Average Shares": {
-      "2026-02-28 00:00:00": 173646281.0,
-      "2025-02-28 00:00:00": 173635231.0,
-      "2024-02-29 00:00:00": 174405974.0,
-      "2023-02-28 00:00:00": 175701542.0
-    },
-    "Basic Average Shares": {
-      "2026-02-28 00:00:00": 173646281.0,
-      "2025-02-28 00:00:00": 173635231.0,
-      "2024-02-29 00:00:00": 174405974.0,
-      "2023-02-28 00:00:00": 175701542.0
-    },
-    "Diluted EPS": {
-      "2026-02-28 00:00:00": 102.01,
-      "2025-02-28 00:00:00": 68.235,
-      "2024-02-29 00:00:00": 73.65,
-      "2023-02-28 00:00:00": 56.66
-    },
-    "Basic EPS": {
-      "2026-02-28 00:00:00": 102.01,
-      "2025-02-28 00:00:00": 68.235,
-      "2024-02-29 00:00:00": 73.65,
-      "2023-02-28 00:00:00": 56.66
-    },
-    "Diluted NI Availto Com Stockholders": {
-      "2026-02-28 00:00:00": 17714000000.0,
-      "2025-02-28 00:00:00": 11848000000.0,
-      "2024-02-29 00:00:00": 12845000000.0,
-      "2023-02-28 00:00:00": 9955000000.0
-    },
-    "Net Income Common Stockholders": {
-      "2026-02-28 00:00:00": 17714000000.0,
-      "2025-02-28 00:00:00": 11848000000.0,
-      "2024-02-29 00:00:00": 12845000000.0,
-      "2023-02-28 00:00:00": 9955000000.0
-    },
-    "Otherunder Preferred Stock Dividend": {
-      "2026-02-28 00:00:00": 0.0,
-      "2025-02-28 00:00:00": 0.0,
-      "2024-02-29 00:00:00": 0.0,
-      "2023-02-28 00:00:00": 0.0
-    },
-    "Net Income": {
-      "2026-02-28 00:00:00": 17714000000.0,
-      "2025-02-28 00:00:00": 11848000000.0,
-      "2024-02-29 00:00:00": 12845000000.0,
-      "2023-02-28 00:00:00": 9955000000.0
-    },
-    "Minority Interests": {
-      "2026-02-28 00:00:00": -159000000.0,
-      "2025-02-28 00:00:00": -71000000.0,
-      "2024-02-29 00:00:00": 8000000.0,
-      "2023-02-28 00:00:00": 51000000.0
-    },
-    "Net Income Including Noncontrolling Interests": {
-      "2026-02-28 00:00:00": 17873000000.0,
-      "2025-02-28 00:00:00": 11920000000.0,
-      "2024-02-29 00:00:00": 12836000000.0,
-      "2023-02-28 00:00:00": 9903000000.0
-    },
-    "Net Income Continuous Operations": {
-      "2026-02-28 00:00:00": 17874000000.0,
-      "2025-02-28 00:00:00": 11921000000.0,
-      "2024-02-29 00:00:00": 12837000000.0,
-      "2023-02-28 00:00:00": 9903000000.0
-    },
-    "Tax Provision": {
-      "2026-02-28 00:00:00": 9033000000.0,
-      "2025-02-28 00:00:00": 8245000000.0,
-      "2024-02-29 00:00:00": 5402000000.0,
-      "2023-02-28 00:00:00": 5326000000.0
-    },
-    "Pretax Income": {
-      "2026-02-28 00:00:00": 26907000000.0,
-      "2025-02-28 00:00:00": 20166000000.0,
-      "2024-02-29 00:00:00": 18239000000.0,
-      "2023-02-28 00:00:00": 15229000000.0
-    },
-    "Other Non Operating Income Expenses": {
-      "2026-02-28 00:00:00": 84000000.0,
-      "2025-02-28 00:00:00": 87000000.0,
-      "2024-02-29 00:00:00": 23000000.0,
-      "2023-02-28 00:00:00": 130000000.0
-    },
-    "Special Income Charges": {
-      "2026-02-28 00:00:00": -199000000.0,
-      "2025-02-28 00:00:00": -3761000000.0,
-      "2024-02-29 00:00:00": -600000000.0,
-      "2023-02-28 00:00:00": -786000000.0
-    },
-    "Other Special Charges": {
-      "2026-02-28 00:00:00": -94000000.0,
-      "2025-02-28 00:00:00": 3249000000.0,
-      "2024-02-29 00:00:00": 120000000.0,
-      "2023-02-28 00:00:00": -15000000.0
-    },
-    "Write Off": {
-      "2026-02-28 00:00:00": 293000000.0,
-      "2025-02-28 00:00:00": 551000000.0,
-      "2024-02-29 00:00:00": 480000000.0,
-      "2023-02-28 00:00:00": 801000000.0
-    },
-    "Restructuring And Mergern Acquisition": {
-      "2026-02-28 00:00:00": 0.0,
-      "2025-02-28 00:00:00": -39000000.0,
-      "2024-02-29 00:00:00": 0.0,
-      "2023-02-28 00:00:00": null
-    },
-    "Net Non Operating Interest Income Expense": {
-      "2026-02-28 00:00:00": -136000000.0,
-      "2025-02-28 00:00:00": -111000000.0,
-      "2024-02-29 00:00:00": -86000000.0,
-      "2023-02-28 00:00:00": -88000000.0
-    },
-    "Interest Expense Non Operating": {
-      "2026-02-28 00:00:00": 158000000.0,
-      "2025-02-28 00:00:00": 117000000.0,
-      "2024-02-29 00:00:00": 87000000.0,
-      "2023-02-28 00:00:00": 89000000.0
-    },
-    "Interest Income Non Operating": {
-      "2026-02-28 00:00:00": 22000000.0,
-      "2025-02-28 00:00:00": 6000000.0,
-      "2024-02-29 00:00:00": 1000000.0,
-      "2023-02-28 00:00:00": 1000000.0
-    },
-    "Operating Income": {
-      "2026-02-28 00:00:00": 27152000000.0,
-      "2025-02-28 00:00:00": 23663000000.0,
-      "2024-02-29 00:00:00": 18609000000.0,
-      "2023-02-28 00:00:00": 15828000000.0
-    },
-    "Operating Expense": {
-      "2026-02-28 00:00:00": 105900000000.0,
-      "2025-02-28 00:00:00": 92593000000.0,
-      "2024-02-29 00:00:00": 87674000000.0,
-      "2023-02-28 00:00:00": 74393000000.0
-    },
-    "Other Operating Expenses": {
-      "2026-02-28 00:00:00": 27682000000.0,
-      "2025-02-28 00:00:00": 23938000000.0,
-      "2024-02-29 00:00:00": 21651000000.0,
-      "2023-02-28 00:00:00": 18035000000.0
-    },
-    "Selling General And Administration": {
-      "2026-02-28 00:00:00": 13091000000.0,
-      "2025-02-28 00:00:00": 11673000000.0,
-      "2024-02-29 00:00:00": 11273000000.0,
-      "2023-02-28 00:00:00": 9545000000.0
-    },
-    "Selling And Marketing Expense": {
-      "2026-02-28 00:00:00": 3245000000.0,
-      "2025-02-28 00:00:00": 2732000000.0,
-      "2024-02-29 00:00:00": 2615000000.0,
-      "2023-02-28 00:00:00": 2433000000.0
-    },
-    "General And Administrative Expense": {
-      "2026-02-28 00:00:00": 9846000000.0,
-      "2025-02-28 00:00:00": 8941000000.0,
-      "2024-02-29 00:00:00": 8658000000.0,
-      "2023-02-28 00:00:00": 7112000000.0
-    },
-    "Rent And Landing Fees": {
-      "2026-02-28 00:00:00": 26436000000.0,
-      "2025-02-28 00:00:00": 23502000000.0,
-      "2024-02-29 00:00:00": 22012000000.0,
-      "2023-02-28 00:00:00": 19769000000.0
-    },
-    "Gross Profit": {
-      "2026-02-28 00:00:00": 133052000000.0,
-      "2025-02-28 00:00:00": 116256000000.0,
-      "2024-02-29 00:00:00": 106283000000.0,
-      "2023-02-28 00:00:00": 90221000000.0
-    },
-    "Cost Of Revenue": {
-      "2026-02-28 00:00:00": 101652000000.0,
-      "2025-02-28 00:00:00": 91568000000.0,
-      "2024-02-29 00:00:00": 86261000000.0,
-      "2023-02-28 00:00:00": 74260000000.0
-    },
-    "Total Revenue": {
-      "2026-02-28 00:00:00": 234704000000.0,
-      "2025-02-28 00:00:00": 207825000000.0,
-      "2024-02-29 00:00:00": 192544000000.0,
-      "2023-02-28 00:00:00": 164482000000.0
-    },
-    "Operating Revenue": {
-      "2026-02-28 00:00:00": 234704000000.0,
-      "2025-02-28 00:00:00": 207825000000.0,
-      "2024-02-29 00:00:00": 192544000000.0,
-      "2023-02-28 00:00:00": 164482000000.0
-    }
-  },
+  "fetch_date": "2026-07-23T00:28:50.447265",
+  "financials": {},
   "balance_sheet": {
     "Treasury Shares Number": {
       "2026-02-28 00:00:00": 11441694.0,
@@ -1118,76 +817,75 @@
     "executiveTeam": [],
     "maxAge": 86400,
     "priceHint": 2,
-    "previousClose": 1416.0,
-    "open": 1431.0,
-    "dayLow": 1381.0,
-    "dayHigh": 1445.0,
-    "regularMarketPreviousClose": 1416.0,
-    "regularMarketOpen": 1431.0,
-    "regularMarketDayLow": 1381.0,
-    "regularMarketDayHigh": 1445.0,
+    "previousClose": 1374.0,
+    "open": 1380.0,
+    "dayLow": 1363.0,
+    "dayHigh": 1381.0,
+    "regularMarketPreviousClose": 1374.0,
+    "regularMarketOpen": 1380.0,
+    "regularMarketDayLow": 1363.0,
+    "regularMarketDayHigh": 1381.0,
     "dividendRate": 40.0,
-    "dividendYield": 2.82,
+    "dividendYield": 2.91,
     "exDividendDate": 1803513600,
     "payoutRatio": 0.39209998,
     "fiveYearAvgDividendYield": 2.1,
     "beta": 0.557,
-    "trailingPE": 13.888332,
-    "forwardPE": 7.145431,
-    "volume": 1039900,
-    "regularMarketVolume": 1039900,
-    "averageVolume": 931476,
-    "averageVolume10days": 1062390,
-    "averageDailyVolume10Day": 1062390,
-    "bid": 1388.0,
-    "ask": 0.0,
+    "trailingPE": 13.497354,
+    "forwardPE": 7.0888033,
+    "volume": 92900,
+    "regularMarketVolume": 92900,
+    "averageVolume": 926832,
+    "averageVolume10days": 1091500,
+    "averageDailyVolume10Day": 1091500,
+    "bid": 1377.0,
+    "ask": 1379.0,
     "bidSize": 0,
     "askSize": 0,
-    "marketCap": 240486842368,
-    "nonDilutedMarketCap": 245338150896,
+    "marketCap": 238580957184,
+    "nonDilutedMarketCap": 240486831528,
     "fiftyTwoWeekLow": 1325.0,
     "fiftyTwoWeekHigh": 2948.0,
     "allTimeHigh": 2948.0,
     "allTimeLow": 39.5,
-    "priceToSalesTrailing12Months": 1.0132972,
-    "fiftyDayAverage": 1430.88,
-    "twoHundredDayAverage": 1711.355,
+    "priceToSalesTrailing12Months": 1.0052667,
+    "fiftyDayAverage": 1429.26,
+    "twoHundredDayAverage": 1706.505,
     "trailingAnnualDividendRate": 0.0,
     "trailingAnnualDividendYield": 0.0,
     "currency": "JPY",
     "tradeable": false,
-    "enterpriseValue": 171918065664,
+    "enterpriseValue": 169487024128,
     "profitMargins": 0.0754,
     "floatShares": 99273593,
     "sharesOutstanding": 173261406,
     "heldPercentInsiders": 0.41304,
-    "heldPercentInstitutions": 0.28846002,
+    "heldPercentInstitutions": 0.2883,
     "impliedSharesOutstanding": 173261406,
     "bookValue": 471.366,
-    "priceToBook": 2.9446332,
+    "priceToBook": 2.9212968,
     "lastFiscalYearEnd": 1772236800,
     "nextFiscalYearEnd": 1803772800,
     "mostRecentQuarter": 1780185600,
     "earningsQuarterlyGrowth": 0.034,
     "netIncomeToCommon": 17894000640,
-    "trailingEps": 99.94,
+    "trailingEps": 102.02,
     "forwardEps": 194.25,
     "lastSplitFactor": "2:1",
     "lastSplitDate": 1757376000,
-    "enterpriseToRevenue": 0.724,
-    "enterpriseToEbitda": 5.625,
-    "52WeekChange": -0.405042,
-    "SandP52WeekChange": 0.17967165,
+    "enterpriseToRevenue": 0.714,
+    "enterpriseToEbitda": 5.545,
+    "52WeekChange": -0.4334694,
+    "SandP52WeekChange": 0.18089426,
     "lastDividendValue": 40.0,
     "lastDividendDate": 1803513600,
     "quoteType": "EQUITY",
-    "currentPrice": 1388.0,
+    "currentPrice": 1377.0,
     "targetHighPrice": 2050.0,
     "targetLowPrice": 1800.0,
     "targetMeanPrice": 1937.5,
     "targetMedianPrice": 1950.0,
-    "recommendationMean": 1.0,
-    "recommendationKey": "strong_buy",
+    "recommendationKey": "none",
     "numberOfAnalystOpinions": 4,
     "totalCash": 85080997888,
     "totalCashPerShare": 489.967,
@@ -1214,39 +912,10 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "marketState": "REGULAR",
-    "regularMarketChangePercent": -1.977401,
-    "regularMarketPrice": 1388.0,
-    "cryptoTradeable": false,
     "shortName": "PAL GROUP HOLDINGS CO LTD",
     "longName": "PAL GROUP Holdings CO., LTD.",
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1076630400000,
-    "regularMarketChange": -28.0,
-    "regularMarketDayRange": "1381.0 - 1445.0",
-    "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 931476,
-    "fiftyTwoWeekLowChange": 63.0,
-    "fiftyTwoWeekLowChangePercent": 0.04754717,
-    "fiftyTwoWeekRange": "1325.0 - 2948.0",
-    "fiftyTwoWeekHighChange": -1560.0,
-    "fiftyTwoWeekHighChangePercent": -0.5291723,
-    "fiftyTwoWeekChangePercent": -40.5042,
-    "earningsTimestamp": 1783405800,
-    "earningsTimestampStart": 1791268200,
-    "earningsTimestampEnd": 1791268200,
-    "earningsCallTimestampStart": 1744109940,
-    "earningsCallTimestampEnd": 1744109940,
-    "isEarningsDateEstimate": true,
-    "epsTrailingTwelveMonths": 99.94,
-    "epsForward": 194.25,
-    "fiftyDayAverageChange": -42.880005,
-    "fiftyDayAverageChangePercent": -0.029967576,
-    "twoHundredDayAverageChange": -323.35498,
-    "twoHundredDayAverageChangePercent": -0.18894675,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "averageAnalystRating": "1.0 - Strong Buy",
+    "corporateActions": [],
+    "regularMarketTime": 1784765611,
     "exchange": "JPX",
     "messageBoardId": "finmb_6476346",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1254,8 +923,36 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "corporateActions": [],
-    "regularMarketTime": 1784615400,
+    "cryptoTradeable": false,
+    "regularMarketChangePercent": 0.21849963,
+    "regularMarketPrice": 1377.0,
+    "regularMarketChange": 3.0,
+    "regularMarketDayRange": "1363.0 - 1381.0",
+    "fullExchangeName": "Tokyo",
+    "averageDailyVolume3Month": 926832,
+    "fiftyTwoWeekLowChange": 52.0,
+    "fiftyTwoWeekLowChangePercent": 0.03924528,
+    "fiftyTwoWeekRange": "1325.0 - 2948.0",
+    "fiftyTwoWeekHighChange": -1571.0,
+    "fiftyTwoWeekHighChangePercent": -0.5329037,
+    "fiftyTwoWeekChangePercent": -43.346943,
+    "earningsTimestamp": 1783405800,
+    "earningsTimestampStart": 1791268200,
+    "earningsTimestampEnd": 1791268200,
+    "earningsCallTimestampStart": 1744109940,
+    "earningsCallTimestampEnd": 1744109940,
+    "isEarningsDateEstimate": true,
+    "epsTrailingTwelveMonths": 102.02,
+    "epsForward": 194.25,
+    "fiftyDayAverageChange": -52.26001,
+    "fiftyDayAverageChangePercent": -0.036564384,
+    "twoHundredDayAverageChange": -329.505,
+    "twoHundredDayAverageChangePercent": -0.19308762,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "marketState": "REGULAR",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1076630400000,
     "trailingPegRatio": null
   }
 }
