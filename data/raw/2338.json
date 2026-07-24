@@ -1,7 +1,7 @@
 {
   "ticker": "2338",
   "japanese_ticker": "2338.T",
-  "fetch_date": "2026-07-23T00:18:49.543133",
+  "fetch_date": "2026-07-24T00:03:03.806341",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-02-28 00:00:00": -675260400.0,
@@ -132,7 +132,7 @@
     "Basic Average Shares": {
       "2026-02-28 00:00:00": 47093231.0,
       "2025-02-28 00:00:00": null,
-      "2024-02-29 00:00:00": 41643563.0,
+      "2024-02-29 00:00:00": 41642868.0,
       "2023-02-28 00:00:00": 37555262.0,
       "2022-02-28 00:00:00": 33984306.0
     },
@@ -312,7 +312,400 @@
       "2022-02-28 00:00:00": null
     }
   },
-  "balance_sheet": {},
+  "balance_sheet": {
+    "Treasury Shares Number": {
+      "2026-02-28 00:00:00": 115797.0,
+      "2025-02-28 00:00:00": 115797.0,
+      "2024-02-29 00:00:00": 115797.0,
+      "2023-02-28 00:00:00": 115581.0,
+      "2022-02-28 00:00:00": null
+    },
+    "Ordinary Shares Number": {
+      "2026-02-28 00:00:00": 49132796.0,
+      "2025-02-28 00:00:00": 45598296.0,
+      "2024-02-29 00:00:00": 43493796.0,
+      "2023-02-28 00:00:00": 40495812.0,
+      "2022-02-28 00:00:00": null
+    },
+    "Share Issued": {
+      "2026-02-28 00:00:00": 49248593.0,
+      "2025-02-28 00:00:00": 45714093.0,
+      "2024-02-29 00:00:00": 43609593.0,
+      "2023-02-28 00:00:00": 40611393.0,
+      "2022-02-28 00:00:00": null
+    },
+    "Net Debt": {
+      "2026-02-28 00:00:00": 2651222000.0,
+      "2025-02-28 00:00:00": null,
+      "2024-02-29 00:00:00": null,
+      "2023-02-28 00:00:00": null,
+      "2022-02-28 00:00:00": null
+    },
+    "Total Debt": {
+      "2026-02-28 00:00:00": 2843690000.0,
+      "2025-02-28 00:00:00": 0.0,
+      "2024-02-29 00:00:00": null,
+      "2023-02-28 00:00:00": null,
+      "2022-02-28 00:00:00": null
+    },
+    "Tangible Book Value": {
+      "2026-02-28 00:00:00": -343095000.0,
+      "2025-02-28 00:00:00": 237499000.0,
+      "2024-02-29 00:00:00": 13969000.0,
+      "2023-02-28 00:00:00": 396657000.0,
+      "2022-02-28 00:00:00": null
+    },
+    "Invested Capital": {
+      "2026-02-28 00:00:00": 2500595000.0,
+      "2025-02-28 00:00:00": 237499000.0,
+      "2024-02-29 00:00:00": 16682000.0,
+      "2023-02-28 00:00:00": 396657000.0,
+      "2022-02-28 00:00:00": null
+    },
+    "Working Capital": {
+      "2026-02-28 00:00:00": 1697854000.0,
+      "2025-02-28 00:00:00": 199357000.0,
+      "2024-02-29 00:00:00": -12069000.0,
+      "2023-02-28 00:00:00": 370210000.0,
+      "2022-02-28 00:00:00": null
+    },
+    "Net Tangible Assets": {
+      "2026-02-28 00:00:00": -343095000.0,
+      "2025-02-28 00:00:00": 237499000.0,
+      "2024-02-29 00:00:00": 13969000.0,
+      "2023-02-28 00:00:00": 396657000.0,
+      "2022-02-28 00:00:00": null
+    },
+    "Common Stock Equity": {
+      "2026-02-28 00:00:00": -343095000.0,
+      "2025-02-28 00:00:00": 237499000.0,
+      "2024-02-29 00:00:00": 16682000.0,
+      "2023-02-28 00:00:00": 396657000.0,
+      "2022-02-28 00:00:00": null
+    },
+    "Total Capitalization": {
+      "2026-02-28 00:00:00": 1724105000.0,
+      "2025-02-28 00:00:00": 237499000.0,
+      "2024-02-29 00:00:00": 16682000.0,
+      "2023-02-28 00:00:00": 396657000.0,
+      "2022-02-28 00:00:00": null
+    },
+    "Total Equity Gross Minority Interest": {
+      "2026-02-28 00:00:00": -343095000.0,
+      "2025-02-28 00:00:00": 237499000.0,
+      "2024-02-29 00:00:00": 18109000.0,
+      "2023-02-28 00:00:00": 396657000.0,
+      "2022-02-28 00:00:00": null
+    },
+    "Minority Interest": {
+      "2026-02-28 00:00:00": null,
+      "2025-02-28 00:00:00": 0.0,
+      "2024-02-29 00:00:00": 1427000.0,
+      "2023-02-28 00:00:00": null,
+      "2022-02-28 00:00:00": null
+    },
+    "Stockholders Equity": {
+      "2026-02-28 00:00:00": -343095000.0,
+      "2025-02-28 00:00:00": 237499000.0,
+      "2024-02-29 00:00:00": 16682000.0,
+      "2023-02-28 00:00:00": 396657000.0,
+      "2022-02-28 00:00:00": null
+    },
+    "Other Equity Interest": {
+      "2026-02-28 00:00:00": 258568000.0,
+      "2025-02-28 00:00:00": 124114000.0,
+      "2024-02-29 00:00:00": 168087000.0,
+      "2023-02-28 00:00:00": 112629000.0,
+      "2022-02-28 00:00:00": null
+    },
+    "Treasury Stock": {
+      "2026-02-28 00:00:00": 59198000.0,
+      "2025-02-28 00:00:00": 59198000.0,
+      "2024-02-29 00:00:00": 59198000.0,
+      "2023-02-28 00:00:00": 59086000.0,
+      "2022-02-28 00:00:00": null
+    },
+    "Retained Earnings": {
+      "2026-02-28 00:00:00": -8783805000.0,
+      "2025-02-28 00:00:00": -6237473000.0,
+      "2024-02-29 00:00:00": -5920229000.0,
+      "2023-02-28 00:00:00": -5017813000.0,
+      "2022-02-28 00:00:00": null
+    },
+    "Additional Paid In Capital": {
+      "2026-02-28 00:00:00": 4119091000.0,
+      "2025-02-28 00:00:00": 3140373000.0,
+      "2024-02-29 00:00:00": 2851419000.0,
+      "2023-02-28 00:00:00": 2537386000.0,
+      "2022-02-28 00:00:00": null
+    },
+    "Capital Stock": {
+      "2026-02-28 00:00:00": 4536276000.0,
+      "2025-02-28 00:00:00": 3557558000.0,
+      "2024-02-29 00:00:00": 3268604000.0,
+      "2023-02-28 00:00:00": 2954572000.0,
+      "2022-02-28 00:00:00": null
+    },
+    "Common Stock": {
+      "2026-02-28 00:00:00": 4536276000.0,
+      "2025-02-28 00:00:00": 3557558000.0,
+      "2024-02-29 00:00:00": 3268604000.0,
+      "2023-02-28 00:00:00": 2954572000.0,
+      "2022-02-28 00:00:00": null
+    },
+    "Total Liabilities Net Minority Interest": {
+      "2026-02-28 00:00:00": 3046596000.0,
+      "2025-02-28 00:00:00": 86989000.0,
+      "2024-02-29 00:00:00": 1131822000.0,
+      "2023-02-28 00:00:00": 72044000.0,
+      "2022-02-28 00:00:00": null
+    },
+    "Total Non Current Liabilities Net Minority Interest": {
+      "2026-02-28 00:00:00": 2067201000.0,
+      "2025-02-28 00:00:00": 1000.0,
+      "2024-02-29 00:00:00": 70000.0,
+      "2023-02-28 00:00:00": 0.0,
+      "2022-02-28 00:00:00": null
+    },
+    "Other Non Current Liabilities": {
+      "2026-02-28 00:00:00": 1000.0,
+      "2025-02-28 00:00:00": 1000.0,
+      "2024-02-29 00:00:00": 70000.0,
+      "2023-02-28 00:00:00": null,
+      "2022-02-28 00:00:00": 2068000.0
+    },
+    "Non Current Deferred Taxes Liabilities": {
+      "2026-02-28 00:00:00": null,
+      "2025-02-28 00:00:00": null,
+      "2024-02-29 00:00:00": null,
+      "2023-02-28 00:00:00": 0.0,
+      "2022-02-28 00:00:00": 22423000.0
+    },
+    "Long Term Debt And Capital Lease Obligation": {
+      "2026-02-28 00:00:00": 2067200000.0,
+      "2025-02-28 00:00:00": 0.0,
+      "2024-02-29 00:00:00": null,
+      "2023-02-28 00:00:00": null,
+      "2022-02-28 00:00:00": null
+    },
+    "Long Term Debt": {
+      "2026-02-28 00:00:00": 2067200000.0,
+      "2025-02-28 00:00:00": 0.0,
+      "2024-02-29 00:00:00": null,
+      "2023-02-28 00:00:00": null,
+      "2022-02-28 00:00:00": null
+    },
+    "Current Liabilities": {
+      "2026-02-28 00:00:00": 979395000.0,
+      "2025-02-28 00:00:00": 86988000.0,
+      "2024-02-29 00:00:00": 1131752000.0,
+      "2023-02-28 00:00:00": 72044000.0,
+      "2022-02-28 00:00:00": null
+    },
+    "Other Current Liabilities": {
+      "2026-02-28 00:00:00": 91412000.0,
+      "2025-02-28 00:00:00": 21120000.0,
+      "2024-02-29 00:00:00": 21747000.0,
+      "2023-02-28 00:00:00": 3684000.0,
+      "2022-02-28 00:00:00": null
+    },
+    "Current Debt And Capital Lease Obligation": {
+      "2026-02-28 00:00:00": 776490000.0,
+      "2025-02-28 00:00:00": null,
+      "2024-02-29 00:00:00": null,
+      "2023-02-28 00:00:00": null,
+      "2022-02-28 00:00:00": null
+    },
+    "Current Debt": {
+      "2026-02-28 00:00:00": 776490000.0,
+      "2025-02-28 00:00:00": null,
+      "2024-02-29 00:00:00": null,
+      "2023-02-28 00:00:00": null,
+      "2022-02-28 00:00:00": null
+    },
+    "Payables": {
+      "2026-02-28 00:00:00": 110590000.0,
+      "2025-02-28 00:00:00": 64965000.0,
+      "2024-02-29 00:00:00": 518665000.0,
+      "2023-02-28 00:00:00": 68360000.0,
+      "2022-02-28 00:00:00": null
+    },
+    "Other Payable": {
+      "2026-02-28 00:00:00": 106423000.0,
+      "2025-02-28 00:00:00": 59925000.0,
+      "2024-02-29 00:00:00": 31258000.0,
+      "2023-02-28 00:00:00": 62202000.0,
+      "2022-02-28 00:00:00": null
+    },
+    "Total Tax Payable": {
+      "2026-02-28 00:00:00": 1684000.0,
+      "2025-02-28 00:00:00": 2580000.0,
+      "2024-02-29 00:00:00": 2510000.0,
+      "2023-02-28 00:00:00": 2856000.0,
+      "2022-02-28 00:00:00": null
+    },
+    "Accounts Payable": {
+      "2026-02-28 00:00:00": 2483000.0,
+      "2025-02-28 00:00:00": 2460000.0,
+      "2024-02-29 00:00:00": 484897000.0,
+      "2023-02-28 00:00:00": 3302000.0,
+      "2022-02-28 00:00:00": null
+    },
+    "Total Assets": {
+      "2026-02-28 00:00:00": 2703501000.0,
+      "2025-02-28 00:00:00": 324488000.0,
+      "2024-02-29 00:00:00": 1149931000.0,
+      "2023-02-28 00:00:00": 468701000.0,
+      "2022-02-28 00:00:00": null
+    },
+    "Total Non Current Assets": {
+      "2026-02-28 00:00:00": 26251000.0,
+      "2025-02-28 00:00:00": 38142000.0,
+      "2024-02-29 00:00:00": 30246000.0,
+      "2023-02-28 00:00:00": 26446000.0,
+      "2022-02-28 00:00:00": null
+    },
+    "Other Non Current Assets": {
+      "2026-02-28 00:00:00": -704547000.0,
+      "2025-02-28 00:00:00": -681194000.0,
+      "2024-02-29 00:00:00": -682397000.0,
+      "2023-02-28 00:00:00": -627460000.0,
+      "2022-02-28 00:00:00": null
+    },
+    "Non Current Prepaid Assets": {
+      "2026-02-28 00:00:00": 705798000.0,
+      "2025-02-28 00:00:00": 694132000.0,
+      "2024-02-29 00:00:00": 683294000.0,
+      "2023-02-28 00:00:00": 628906000.0,
+      "2022-02-28 00:00:00": null
+    },
+    "Investmentin Financial Assets": {
+      "2026-02-28 00:00:00": null,
+      "2025-02-28 00:00:00": null,
+      "2024-02-29 00:00:00": null,
+      "2023-02-28 00:00:00": 0.0,
+      "2022-02-28 00:00:00": 268085000.0
+    },
+    "Available For Sale Securities": {
+      "2026-02-28 00:00:00": null,
+      "2025-02-28 00:00:00": null,
+      "2024-02-29 00:00:00": null,
+      "2023-02-28 00:00:00": null,
+      "2022-02-28 00:00:00": 268085000.0
+    },
+    "Goodwill And Other Intangible Assets": {
+      "2026-02-28 00:00:00": null,
+      "2025-02-28 00:00:00": 0.0,
+      "2024-02-29 00:00:00": 2713000.0,
+      "2023-02-28 00:00:00": 0.0,
+      "2022-02-28 00:00:00": 198952000.0
+    },
+    "Other Intangible Assets": {
+      "2026-02-28 00:00:00": null,
+      "2025-02-28 00:00:00": null,
+      "2024-02-29 00:00:00": 2713000.0,
+      "2023-02-28 00:00:00": null,
+      "2022-02-28 00:00:00": 198952000.0
+    },
+    "Net PPE": {
+      "2026-02-28 00:00:00": 0.0,
+      "2025-02-28 00:00:00": 204000.0,
+      "2024-02-29 00:00:00": 1636000.0,
+      "2023-02-28 00:00:00": null,
+      "2022-02-28 00:00:00": null
+    },
+    "Gross PPE": {
+      "2026-02-28 00:00:00": 0.0,
+      "2025-02-28 00:00:00": 204000.0,
+      "2024-02-29 00:00:00": 1636000.0,
+      "2023-02-28 00:00:00": null,
+      "2022-02-28 00:00:00": null
+    },
+    "Machinery Furniture Equipment": {
+      "2026-02-28 00:00:00": 0.0,
+      "2025-02-28 00:00:00": 204000.0,
+      "2024-02-29 00:00:00": 1636000.0,
+      "2023-02-28 00:00:00": null,
+      "2022-02-28 00:00:00": null
+    },
+    "Current Assets": {
+      "2026-02-28 00:00:00": 2677249000.0,
+      "2025-02-28 00:00:00": 286345000.0,
+      "2024-02-29 00:00:00": 1119683000.0,
+      "2023-02-28 00:00:00": 442254000.0,
+      "2022-02-28 00:00:00": null
+    },
+    "Other Current Assets": {
+      "2026-02-28 00:00:00": 2241546000.0,
+      "2025-02-28 00:00:00": 9405000.0,
+      "2024-02-29 00:00:00": 30491000.0,
+      "2023-02-28 00:00:00": 8617000.0,
+      "2022-02-28 00:00:00": null
+    },
+    "Prepaid Assets": {
+      "2026-02-28 00:00:00": 193321000.0,
+      "2025-02-28 00:00:00": 0.0,
+      "2024-02-29 00:00:00": 416830000.0,
+      "2023-02-28 00:00:00": null,
+      "2022-02-28 00:00:00": 8500000.0
+    },
+    "Inventory": {
+      "2026-02-28 00:00:00": 6883000.0,
+      "2025-02-28 00:00:00": 33984000.0,
+      "2024-02-29 00:00:00": 523677000.0,
+      "2023-02-28 00:00:00": 40070000.0,
+      "2022-02-28 00:00:00": null
+    },
+    "Finished Goods": {
+      "2026-02-28 00:00:00": 6883000.0,
+      "2025-02-28 00:00:00": 33984000.0,
+      "2024-02-29 00:00:00": 523677000.0,
+      "2023-02-28 00:00:00": 40070000.0,
+      "2022-02-28 00:00:00": null
+    },
+    "Other Receivables": {
+      "2026-02-28 00:00:00": 900000.0,
+      "2025-02-28 00:00:00": 2283000.0,
+      "2024-02-29 00:00:00": 169000.0,
+      "2023-02-28 00:00:00": 112198000.0,
+      "2022-02-28 00:00:00": null
+    },
+    "Taxes Receivable": {
+      "2026-02-28 00:00:00": 19984000.0,
+      "2025-02-28 00:00:00": 74749000.0,
+      "2024-02-29 00:00:00": 0.0,
+      "2023-02-28 00:00:00": null,
+      "2022-02-28 00:00:00": null
+    },
+    "Accounts Receivable": {
+      "2026-02-28 00:00:00": 22147000.0,
+      "2025-02-28 00:00:00": 29794000.0,
+      "2024-02-29 00:00:00": 11409000.0,
+      "2023-02-28 00:00:00": 45034000.0,
+      "2022-02-28 00:00:00": null
+    },
+    "Gross Accounts Receivable": {
+      "2026-02-28 00:00:00": 22147000.0,
+      "2025-02-28 00:00:00": 29794000.0,
+      "2024-02-29 00:00:00": 11409000.0,
+      "2023-02-28 00:00:00": 45034000.0,
+      "2022-02-28 00:00:00": null
+    },
+    "Cash Cash Equivalents And Short Term Investments": {
+      "2026-02-28 00:00:00": 192468000.0,
+      "2025-02-28 00:00:00": 136130000.0,
+      "2024-02-29 00:00:00": 137107000.0,
+      "2023-02-28 00:00:00": 236335000.0,
+      "2022-02-28 00:00:00": null
+    },
+    "Cash And Cash Equivalents": {
+      "2026-02-28 00:00:00": 192468000.0,
+      "2025-02-28 00:00:00": 136130000.0,
+      "2024-02-29 00:00:00": 137107000.0,
+      "2023-02-28 00:00:00": 236335000.0,
+      "2022-02-28 00:00:00": null
+    }
+  },
   "cashflow": {
     "Free Cash Flow": {
       "2026-02-28 00:00:00": -718354000.0,
@@ -679,7 +1072,7 @@
     "sector": "Technology",
     "sectorKey": "technology",
     "sectorDisp": "Technology",
-    "longBusinessSummary": "Quantum Solutions Co.,Ltd. engages in providing comprehensive hardware and software AI solutions for businesses and individuals. It is involved in provision of ai infrastructure services; development of next-generation game and game content; testing and proposing AI solutions; management of eyelash extension stores; and planning and sale of eyelash-related cosmetics, as well as planning, designing, development, operation, and maintenance activities; and EV business. The company was formerly known as Bit One Group Co.,Ltd. and changed its name to Quantum Solutions Co.,Ltd. in August 2021. The company was incorporated in 1999 and is headquartered in Tokyo, Japan.",
+    "longBusinessSummary": "Quantum Solutions Co.,Ltd. delivers hardware and software AI solutions for businesses and individuals. It is involved in the provision of AI infrastructure services; development of game and game content; testing and proposing for commercializing AI solutions; management of eyelash extension salons; and planning and sale of eyelash-related cosmetics. The company was formerly known as Bit One Group Co.,Ltd. and changed its name to Quantum Solutions Co.,Ltd. in August 2021. The company was incorporated in 1999 and is headquartered in Tokyo, Japan.",
     "fullTimeEmployees": 41,
     "companyOfficers": [
       {
@@ -710,39 +1103,39 @@
     "executiveTeam": [],
     "maxAge": 86400,
     "priceHint": 2,
-    "previousClose": 132.0,
+    "previousClose": 133.0,
     "open": 133.0,
-    "dayLow": 132.0,
+    "dayLow": 125.0,
     "dayHigh": 133.0,
-    "regularMarketPreviousClose": 132.0,
+    "regularMarketPreviousClose": 133.0,
     "regularMarketOpen": 133.0,
-    "regularMarketDayLow": 132.0,
+    "regularMarketDayLow": 125.0,
     "regularMarketDayHigh": 133.0,
     "payoutRatio": 0.0,
     "beta": -1.698,
-    "volume": 171900,
-    "regularMarketVolume": 171900,
-    "averageVolume": 809264,
-    "averageVolume10days": 345780,
-    "averageDailyVolume10Day": 345780,
+    "volume": 148200,
+    "regularMarketVolume": 148200,
+    "averageVolume": 789733,
+    "averageVolume10days": 313470,
+    "averageDailyVolume10Day": 313470,
     "bid": 0.0,
-    "ask": 0.0,
+    "ask": 129.0,
     "bidSize": 0,
     "askSize": 0,
-    "marketCap": 6534661632,
-    "nonDilutedMarketCap": 6485529072,
+    "marketCap": 6288997888,
+    "nonDilutedMarketCap": 6288997888,
     "fiftyTwoWeekLow": 91.0,
     "fiftyTwoWeekHigh": 850.0,
     "allTimeHigh": 1310.0,
     "allTimeLow": 33.333332,
-    "priceToSalesTrailing12Months": 26.563665,
-    "fiftyDayAverage": 119.52,
-    "twoHundredDayAverage": 261.815,
+    "priceToSalesTrailing12Months": 25.565033,
+    "fiftyDayAverage": 120.08,
+    "twoHundredDayAverage": 258.785,
     "trailingAnnualDividendRate": 0.0,
     "trailingAnnualDividendYield": 0.0,
     "currency": "JPY",
     "tradeable": false,
-    "enterpriseValue": 9202661376,
+    "enterpriseValue": 8956997632,
     "profitMargins": 0.0,
     "floatShares": 33719347,
     "sharesOutstanding": 49132796,
@@ -757,11 +1150,11 @@
     "trailingEps": -54.06,
     "lastSplitFactor": "3:1",
     "lastSplitDate": 1709078400,
-    "enterpriseToRevenue": 37.409,
-    "52WeekChange": -0.76216215,
-    "SandP52WeekChange": 0.18089426,
+    "enterpriseToRevenue": 36.411,
+    "52WeekChange": -0.7361111,
+    "SandP52WeekChange": 0.17846107,
     "quoteType": "EQUITY",
-    "currentPrice": 133.0,
+    "currentPrice": 128.0,
     "recommendationKey": "none",
     "totalCash": 304000000,
     "totalCashPerShare": 6.187,
@@ -784,37 +1177,21 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "shortName": "QUANTUM SOLUTIONS CO LTD",
-    "longName": "Quantum Solutions Co.,Ltd.",
-    "marketState": "REGULAR",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1037664000000,
-    "regularMarketChange": 1.0,
-    "regularMarketDayRange": "132.0 - 133.0",
+    "regularMarketChange": -5.0,
+    "regularMarketDayRange": "125.0 - 133.0",
     "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 809264,
-    "fiftyTwoWeekLowChange": 42.0,
-    "fiftyTwoWeekLowChangePercent": 0.46153846,
+    "averageDailyVolume3Month": 789733,
+    "fiftyTwoWeekLowChange": 37.0,
+    "fiftyTwoWeekLowChangePercent": 0.4065934,
     "fiftyTwoWeekRange": "91.0 - 850.0",
-    "fiftyTwoWeekHighChange": -717.0,
-    "fiftyTwoWeekHighChangePercent": -0.8435294,
-    "fiftyTwoWeekChangePercent": -76.21622,
+    "fiftyTwoWeekHighChange": -722.0,
+    "fiftyTwoWeekHighChangePercent": -0.8494118,
+    "fiftyTwoWeekChangePercent": -73.61111,
     "earningsTimestampStart": 1744614000,
     "earningsTimestampEnd": 1744614000,
     "isEarningsDateEstimate": false,
-    "epsTrailingTwelveMonths": -54.06,
-    "fiftyDayAverageChange": 13.480003,
-    "fiftyDayAverageChangePercent": 0.112784505,
-    "twoHundredDayAverageChange": -128.815,
-    "twoHundredDayAverageChangePercent": -0.49200773,
-    "priceToBook": -15.411356,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "prevName": "Bit One Group Co., Ltd.",
-    "nameChangeDate": "2026-07-22",
-    "cryptoTradeable": false,
-    "corporateActions": [],
-    "regularMarketTime": 1784764802,
     "exchange": "JPX",
     "messageBoardId": "finmb_8809291",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -822,8 +1199,24 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "regularMarketChangePercent": 0.75757575,
-    "regularMarketPrice": 133.0,
+    "regularMarketChangePercent": -3.7593982,
+    "regularMarketPrice": 128.0,
+    "shortName": "QUANTUM SOLUTIONS CO LTD",
+    "longName": "Quantum Solutions Co.,Ltd.",
+    "marketState": "REGULAR",
+    "corporateActions": [],
+    "regularMarketTime": 1784788200,
+    "epsTrailingTwelveMonths": -54.06,
+    "fiftyDayAverageChange": 7.919998,
+    "fiftyDayAverageChangePercent": 0.06595601,
+    "twoHundredDayAverageChange": -130.785,
+    "twoHundredDayAverageChangePercent": -0.5053809,
+    "priceToBook": -14.831982,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "prevName": "Bit One Group Co., Ltd.",
+    "nameChangeDate": "2026-07-23",
+    "cryptoTradeable": false,
     "trailingPegRatio": null
   }
 }

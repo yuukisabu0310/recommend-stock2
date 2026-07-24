@@ -1,8 +1,310 @@
 {
   "ticker": "1435",
   "japanese_ticker": "1435.T",
-  "fetch_date": "2026-07-22T23:59:20.711065",
-  "financials": {},
+  "fetch_date": "2026-07-23T23:54:36.992748",
+  "financials": {
+    "Tax Effect Of Unusual Items": {
+      "2025-12-31 00:00:00": 11316060.0,
+      "2024-12-31 00:00:00": -2085864.0,
+      "2023-12-31 00:00:00": 1145872.0,
+      "2022-12-31 00:00:00": -9077000.0,
+      "2021-12-31 00:00:00": null
+    },
+    "Tax Rate For Calcs": {
+      "2025-12-31 00:00:00": 0.147,
+      "2024-12-31 00:00:00": 0.088,
+      "2023-12-31 00:00:00": 0.008,
+      "2022-12-31 00:00:00": 0.232,
+      "2021-12-31 00:00:00": null
+    },
+    "Normalized EBITDA": {
+      "2025-12-31 00:00:00": 1918530000.0,
+      "2024-12-31 00:00:00": 1242647000.0,
+      "2023-12-31 00:00:00": 888371000.0,
+      "2022-12-31 00:00:00": 741299000.0,
+      "2021-12-31 00:00:00": null
+    },
+    "Total Unusual Items": {
+      "2025-12-31 00:00:00": 76980000.0,
+      "2024-12-31 00:00:00": -23703000.0,
+      "2023-12-31 00:00:00": 143234000.0,
+      "2022-12-31 00:00:00": -39125000.0,
+      "2021-12-31 00:00:00": null
+    },
+    "Total Unusual Items Excluding Goodwill": {
+      "2025-12-31 00:00:00": 76980000.0,
+      "2024-12-31 00:00:00": -23703000.0,
+      "2023-12-31 00:00:00": 143234000.0,
+      "2022-12-31 00:00:00": -39125000.0,
+      "2021-12-31 00:00:00": null
+    },
+    "Net Income From Continuing Operation Net Minority Interest": {
+      "2025-12-31 00:00:00": 1989528000.0,
+      "2024-12-31 00:00:00": 912829000.0,
+      "2023-12-31 00:00:00": 886349000.0,
+      "2022-12-31 00:00:00": 719433000.0,
+      "2021-12-31 00:00:00": null
+    },
+    "Reconciled Depreciation": {
+      "2025-12-31 00:00:00": 182509000.0,
+      "2024-12-31 00:00:00": 198640000.0,
+      "2023-12-31 00:00:00": 137053000.0,
+      "2022-12-31 00:00:00": 95687000.0,
+      "2021-12-31 00:00:00": null
+    },
+    "Reconciled Cost Of Revenue": {
+      "2025-12-31 00:00:00": 18421497000.0,
+      "2024-12-31 00:00:00": 8725443000.0,
+      "2023-12-31 00:00:00": 5189242000.0,
+      "2022-12-31 00:00:00": 2471759000.0,
+      "2021-12-31 00:00:00": null
+    },
+    "EBITDA": {
+      "2025-12-31 00:00:00": 1995510000.0,
+      "2024-12-31 00:00:00": 1218944000.0,
+      "2023-12-31 00:00:00": 1031605000.0,
+      "2022-12-31 00:00:00": 702174000.0,
+      "2021-12-31 00:00:00": null
+    },
+    "EBIT": {
+      "2025-12-31 00:00:00": 1813001000.0,
+      "2024-12-31 00:00:00": 1020304000.0,
+      "2023-12-31 00:00:00": 894552000.0,
+      "2022-12-31 00:00:00": 606487000.0,
+      "2021-12-31 00:00:00": null
+    },
+    "Net Interest Income": {
+      "2025-12-31 00:00:00": -80813000.0,
+      "2024-12-31 00:00:00": -20630000.0,
+      "2023-12-31 00:00:00": -13536000.0,
+      "2022-12-31 00:00:00": -6666000.0,
+      "2021-12-31 00:00:00": null
+    },
+    "Interest Expense": {
+      "2025-12-31 00:00:00": 87964000.0,
+      "2024-12-31 00:00:00": 21585000.0,
+      "2023-12-31 00:00:00": 14039000.0,
+      "2022-12-31 00:00:00": 7328000.0,
+      "2021-12-31 00:00:00": null
+    },
+    "Interest Income": {
+      "2025-12-31 00:00:00": 7151000.0,
+      "2024-12-31 00:00:00": 955000.0,
+      "2023-12-31 00:00:00": 503000.0,
+      "2022-12-31 00:00:00": 662000.0,
+      "2021-12-31 00:00:00": null
+    },
+    "Normalized Income": {
+      "2025-12-31 00:00:00": 1923864060.0,
+      "2024-12-31 00:00:00": 934446136.0,
+      "2023-12-31 00:00:00": 744260872.0,
+      "2022-12-31 00:00:00": 749481000.0,
+      "2021-12-31 00:00:00": null
+    },
+    "Net Income From Continuing And Discontinued Operation": {
+      "2025-12-31 00:00:00": 1989528000.0,
+      "2024-12-31 00:00:00": 912829000.0,
+      "2023-12-31 00:00:00": 886349000.0,
+      "2022-12-31 00:00:00": 719433000.0,
+      "2021-12-31 00:00:00": null
+    },
+    "Total Expenses": {
+      "2025-12-31 00:00:00": 22302194000.0,
+      "2024-12-31 00:00:00": 12113760000.0,
+      "2023-12-31 00:00:00": 7876240000.0,
+      "2022-12-31 00:00:00": 4775757000.0,
+      "2021-12-31 00:00:00": null
+    },
+    "Total Operating Income As Reported": {
+      "2025-12-31 00:00:00": 1766011000.0,
+      "2024-12-31 00:00:00": 1043974000.0,
+      "2023-12-31 00:00:00": 748786000.0,
+      "2022-12-31 00:00:00": 645413000.0,
+      "2021-12-31 00:00:00": null
+    },
+    "Diluted Average Shares": {
+      "2025-12-31 00:00:00": 89884150.0,
+      "2024-12-31 00:00:00": 89884200.0,
+      "2023-12-31 00:00:00": 89884200.0,
+      "2022-12-31 00:00:00": 89949947.0,
+      "2021-12-31 00:00:00": null
+    },
+    "Basic Average Shares": {
+      "2025-12-31 00:00:00": 89884150.0,
+      "2024-12-31 00:00:00": 89884200.0,
+      "2023-12-31 00:00:00": 89884200.0,
+      "2022-12-31 00:00:00": 89949947.0,
+      "2021-12-31 00:00:00": null
+    },
+    "Diluted EPS": {
+      "2025-12-31 00:00:00": 22.13,
+      "2024-12-31 00:00:00": 10.16,
+      "2023-12-31 00:00:00": 9.86,
+      "2022-12-31 00:00:00": 8.0,
+      "2021-12-31 00:00:00": null
+    },
+    "Basic EPS": {
+      "2025-12-31 00:00:00": 22.13,
+      "2024-12-31 00:00:00": 10.16,
+      "2023-12-31 00:00:00": 9.86,
+      "2022-12-31 00:00:00": 8.0,
+      "2021-12-31 00:00:00": null
+    },
+    "Diluted NI Availto Com Stockholders": {
+      "2025-12-31 00:00:00": 1989528000.0,
+      "2024-12-31 00:00:00": 912829000.0,
+      "2023-12-31 00:00:00": 886349000.0,
+      "2022-12-31 00:00:00": 719433000.0,
+      "2021-12-31 00:00:00": null
+    },
+    "Net Income Common Stockholders": {
+      "2025-12-31 00:00:00": 1989528000.0,
+      "2024-12-31 00:00:00": 912829000.0,
+      "2023-12-31 00:00:00": 886349000.0,
+      "2022-12-31 00:00:00": 719433000.0,
+      "2021-12-31 00:00:00": null
+    },
+    "Otherunder Preferred Stock Dividend": {
+      "2025-12-31 00:00:00": 0.0,
+      "2024-12-31 00:00:00": 0.0,
+      "2023-12-31 00:00:00": 0.0,
+      "2022-12-31 00:00:00": 0.0,
+      "2021-12-31 00:00:00": null
+    },
+    "Net Income": {
+      "2025-12-31 00:00:00": 1989528000.0,
+      "2024-12-31 00:00:00": 912829000.0,
+      "2023-12-31 00:00:00": 886349000.0,
+      "2022-12-31 00:00:00": 719433000.0,
+      "2021-12-31 00:00:00": null
+    },
+    "Minority Interests": {
+      "2025-12-31 00:00:00": -2295000.0,
+      "2024-12-31 00:00:00": 1622000.0,
+      "2023-12-31 00:00:00": -898000.0,
+      "2022-12-31 00:00:00": 119000.0,
+      "2021-12-31 00:00:00": null
+    },
+    "Net Income Including Noncontrolling Interests": {
+      "2025-12-31 00:00:00": 1991823000.0,
+      "2024-12-31 00:00:00": 911206000.0,
+      "2023-12-31 00:00:00": 887247000.0,
+      "2022-12-31 00:00:00": 719313000.0,
+      "2021-12-31 00:00:00": null
+    },
+    "Net Income Continuous Operations": {
+      "2025-12-31 00:00:00": 1991822000.0,
+      "2024-12-31 00:00:00": 911207000.0,
+      "2023-12-31 00:00:00": 887247000.0,
+      "2022-12-31 00:00:00": 719313000.0,
+      "2021-12-31 00:00:00": null
+    },
+    "Tax Provision": {
+      "2025-12-31 00:00:00": -266785000.0,
+      "2024-12-31 00:00:00": 87512000.0,
+      "2023-12-31 00:00:00": -6734000.0,
+      "2022-12-31 00:00:00": -120154000.0,
+      "2021-12-31 00:00:00": null
+    },
+    "Pretax Income": {
+      "2025-12-31 00:00:00": 1725037000.0,
+      "2024-12-31 00:00:00": 998719000.0,
+      "2023-12-31 00:00:00": 880513000.0,
+      "2022-12-31 00:00:00": 599159000.0,
+      "2021-12-31 00:00:00": null
+    },
+    "Other Non Operating Income Expenses": {
+      "2025-12-31 00:00:00": -46922000.0,
+      "2024-12-31 00:00:00": -9220000.0,
+      "2023-12-31 00:00:00": -7617000.0,
+      "2022-12-31 00:00:00": -10299000.0,
+      "2021-12-31 00:00:00": null
+    },
+    "Special Income Charges": {
+      "2025-12-31 00:00:00": -15331000.0,
+      "2024-12-31 00:00:00": 7362000.0,
+      "2023-12-31 00:00:00": 18203000.0,
+      "2022-12-31 00:00:00": 18621000.0,
+      "2021-12-31 00:00:00": null
+    },
+    "Other Special Charges": {
+      "2025-12-31 00:00:00": 15331000.0,
+      "2024-12-31 00:00:00": -7362000.0,
+      "2023-12-31 00:00:00": -18203000.0,
+      "2022-12-31 00:00:00": -18621000.0,
+      "2021-12-31 00:00:00": null
+    },
+    "Write Off": {
+      "2025-12-31 00:00:00": null,
+      "2024-12-31 00:00:00": null,
+      "2023-12-31 00:00:00": null,
+      "2022-12-31 00:00:00": null,
+      "2021-12-31 00:00:00": 0.0
+    },
+    "Net Non Operating Interest Income Expense": {
+      "2025-12-31 00:00:00": -80813000.0,
+      "2024-12-31 00:00:00": -20630000.0,
+      "2023-12-31 00:00:00": -13536000.0,
+      "2022-12-31 00:00:00": -6666000.0,
+      "2021-12-31 00:00:00": null
+    },
+    "Interest Expense Non Operating": {
+      "2025-12-31 00:00:00": 87964000.0,
+      "2024-12-31 00:00:00": 21585000.0,
+      "2023-12-31 00:00:00": 14039000.0,
+      "2022-12-31 00:00:00": 7328000.0,
+      "2021-12-31 00:00:00": null
+    },
+    "Interest Income Non Operating": {
+      "2025-12-31 00:00:00": 7151000.0,
+      "2024-12-31 00:00:00": 955000.0,
+      "2023-12-31 00:00:00": 503000.0,
+      "2022-12-31 00:00:00": 662000.0,
+      "2021-12-31 00:00:00": null
+    },
+    "Operating Income": {
+      "2025-12-31 00:00:00": 1766011000.0,
+      "2024-12-31 00:00:00": 1043975000.0,
+      "2023-12-31 00:00:00": 748786000.0,
+      "2022-12-31 00:00:00": 645413000.0,
+      "2021-12-31 00:00:00": null
+    },
+    "Operating Expense": {
+      "2025-12-31 00:00:00": 3880697000.0,
+      "2024-12-31 00:00:00": 3388317000.0,
+      "2023-12-31 00:00:00": 2686998000.0,
+      "2022-12-31 00:00:00": 2303998000.0,
+      "2021-12-31 00:00:00": null
+    },
+    "Gross Profit": {
+      "2025-12-31 00:00:00": 5646708000.0,
+      "2024-12-31 00:00:00": 4432292000.0,
+      "2023-12-31 00:00:00": 3435784000.0,
+      "2022-12-31 00:00:00": 2949411000.0,
+      "2021-12-31 00:00:00": null
+    },
+    "Cost Of Revenue": {
+      "2025-12-31 00:00:00": 18421497000.0,
+      "2024-12-31 00:00:00": 8725443000.0,
+      "2023-12-31 00:00:00": 5189242000.0,
+      "2022-12-31 00:00:00": 2471759000.0,
+      "2021-12-31 00:00:00": null
+    },
+    "Total Revenue": {
+      "2025-12-31 00:00:00": 24068206000.0,
+      "2024-12-31 00:00:00": 13157735000.0,
+      "2023-12-31 00:00:00": 8625026000.0,
+      "2022-12-31 00:00:00": 5421170000.0,
+      "2021-12-31 00:00:00": null
+    },
+    "Operating Revenue": {
+      "2025-12-31 00:00:00": 24068206000.0,
+      "2024-12-31 00:00:00": 13157735000.0,
+      "2023-12-31 00:00:00": 8625026000.0,
+      "2022-12-31 00:00:00": 5421170000.0,
+      "2021-12-31 00:00:00": null
+    }
+  },
   "balance_sheet": {
     "Treasury Shares Number": {
       "2025-12-31 00:00:00": 1242900.0,
@@ -913,61 +1215,69 @@
     "executiveTeam": [],
     "maxAge": 86400,
     "priceHint": 2,
-    "previousClose": 169.0,
-    "open": 170.0,
-    "dayLow": 167.0,
-    "dayHigh": 171.0,
-    "regularMarketPreviousClose": 169.0,
-    "regularMarketOpen": 170.0,
-    "regularMarketDayLow": 167.0,
-    "regularMarketDayHigh": 171.0,
+    "previousClose": 168.0,
+    "open": 166.0,
+    "dayLow": 166.0,
+    "dayHigh": 168.0,
+    "regularMarketPreviousClose": 168.0,
+    "regularMarketOpen": 166.0,
+    "regularMarketDayLow": 166.0,
+    "regularMarketDayHigh": 168.0,
     "dividendRate": 2.0,
-    "dividendYield": 1.19,
+    "dividendYield": 1.2,
     "exDividendDate": 1798502400,
     "payoutRatio": 0.0904,
     "beta": 0.661,
-    "trailingPE": 7.591505,
-    "volume": 162200,
-    "regularMarketVolume": 162200,
-    "averageVolume": 458857,
-    "averageVolume10days": 251040,
-    "averageDailyVolume10Day": 251040,
-    "bid": 0.0,
-    "ask": 166.0,
-    "nonDilutedMarketCap": 15016833000,
+    "trailingPE": 7.50113,
+    "forwardPE": 2.854686,
+    "volume": 191000,
+    "regularMarketVolume": 191000,
+    "averageVolume": 449908,
+    "averageVolume10days": 229250,
+    "averageDailyVolume10Day": 229250,
+    "bid": 164.0,
+    "ask": 0.0,
+    "bidSize": 0,
+    "askSize": 0,
+    "marketCap": 14750262272,
+    "nonDilutedMarketCap": 14927976000,
     "fiftyTwoWeekLow": 151.0,
     "fiftyTwoWeekHigh": 277.0,
     "allTimeHigh": 2549.0,
     "allTimeLow": 95.0,
-    "fiftyDayAverage": 164.32,
-    "twoHundredDayAverage": 183.965,
+    "priceToSalesTrailing12Months": 0.5709268,
+    "fiftyDayAverage": 163.76,
+    "twoHundredDayAverage": 183.88,
     "trailingAnnualDividendRate": 2.0,
-    "trailingAnnualDividendYield": 0.01183432,
+    "trailingAnnualDividendYield": 0.011904762,
     "currency": "JPY",
     "tradeable": false,
-    "enterpriseValue": 13039216640,
+    "enterpriseValue": 12861503488,
     "profitMargins": 0.07198,
     "floatShares": 40476141,
+    "sharesOutstanding": 88857000,
     "heldPercentInsiders": 0.53327,
     "heldPercentInstitutions": 0.04241,
+    "impliedSharesOutstanding": 88857000,
     "bookValue": 122.726,
-    "priceToBook": 1.3689032,
+    "priceToBook": 1.3526067,
     "lastFiscalYearEnd": 1767139200,
     "nextFiscalYearEnd": 1798675200,
     "mostRecentQuarter": 1774915200,
     "earningsQuarterlyGrowth": -0.777,
     "netIncomeToCommon": 1859687936,
     "trailingEps": 22.13,
+    "forwardEps": 58.15,
     "lastSplitFactor": "5:1",
     "lastSplitDate": 1514332800,
-    "enterpriseToRevenue": 0.505,
-    "enterpriseToEbitda": 6.523,
-    "52WeekChange": 0.09032261,
-    "SandP52WeekChange": 0.18089426,
+    "enterpriseToRevenue": 0.498,
+    "enterpriseToEbitda": 6.434,
+    "52WeekChange": 0.09090912,
+    "SandP52WeekChange": 0.17846107,
     "lastDividendValue": 1.0,
     "lastDividendDate": 1798502400,
     "quoteType": "EQUITY",
-    "currentPrice": 168.0,
+    "currentPrice": 166.0,
     "recommendationKey": "none",
     "totalCash": 3648291072,
     "totalCashPerShare": 41.058,
@@ -994,30 +1304,12 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "cryptoTradeable": false,
+    "shortName": "ROBOT HOME INC",
+    "longName": "Robot Home, Inc.",
     "marketState": "PREPRE",
-    "regularMarketChangePercent": -0.591716,
-    "regularMarketPrice": 168.0,
     "corporateActions": [],
-    "regularMarketTime": 1784701800,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1449100800000,
-    "regularMarketChange": -1.0,
-    "regularMarketDayRange": "167.0 - 171.0",
-    "bidSize": 0,
-    "askSize": 0,
-    "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 458857,
-    "fiftyTwoWeekLowChange": 17.0,
-    "fiftyTwoWeekLowChangePercent": 0.11258278,
-    "fiftyTwoWeekRange": "151.0 - 277.0",
-    "fiftyTwoWeekHighChange": -109.0,
-    "fiftyTwoWeekHighChangePercent": -0.39350182,
-    "fiftyTwoWeekChangePercent": 9.032261,
-    "earningsTimestampStart": 1754546400,
-    "earningsTimestampEnd": 1754892000,
-    "isEarningsDateEstimate": true,
-    "epsTrailingTwelveMonths": 22.13,
-    "epsForward": 58.15,
+    "regularMarketTime": 1784788200,
     "exchange": "JPX",
     "messageBoardId": "finmb_84605117",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1025,21 +1317,33 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "sharesOutstanding": 88857000,
-    "impliedSharesOutstanding": 88857000,
-    "fiftyDayAverageChange": 3.6799927,
-    "fiftyDayAverageChangePercent": 0.022395281,
-    "twoHundredDayAverageChange": -15.964996,
-    "twoHundredDayAverageChangePercent": -0.08678279,
-    "marketCap": 14927976448,
-    "forwardPE": 2.8890798,
+    "regularMarketChangePercent": -1.1904762,
+    "regularMarketPrice": 166.0,
+    "fiftyTwoWeekRange": "151.0 - 277.0",
+    "fiftyTwoWeekHighChange": -111.0,
+    "fiftyTwoWeekHighChangePercent": -0.40072203,
+    "fiftyTwoWeekChangePercent": 9.090912,
+    "earningsTimestampStart": 1754546400,
+    "earningsTimestampEnd": 1754892000,
+    "isEarningsDateEstimate": true,
+    "epsTrailingTwelveMonths": 22.13,
+    "epsForward": 58.15,
+    "fiftyDayAverageChange": 2.2400055,
+    "fiftyDayAverageChangePercent": 0.013678588,
+    "twoHundredDayAverageChange": -17.880005,
+    "twoHundredDayAverageChangePercent": -0.097237356,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "prevName": "TATERU, Inc.",
-    "nameChangeDate": "2026-07-22",
-    "cryptoTradeable": false,
-    "longName": "Robot Home, Inc.",
-    "shortName": "ROBOT HOME INC",
+    "nameChangeDate": "2026-07-23",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1449100800000,
+    "regularMarketChange": -2.0,
+    "regularMarketDayRange": "166.0 - 168.0",
+    "fullExchangeName": "Tokyo",
+    "averageDailyVolume3Month": 449908,
+    "fiftyTwoWeekLowChange": 15.0,
+    "fiftyTwoWeekLowChangePercent": 0.09933775,
     "trailingPegRatio": null
   }
 }

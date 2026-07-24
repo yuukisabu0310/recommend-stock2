@@ -1,8 +1,273 @@
 {
   "ticker": "2229",
   "japanese_ticker": "2229.T",
-  "fetch_date": "2026-07-23T00:15:52.489465",
-  "financials": {},
+  "fetch_date": "2026-07-24T00:01:41.884654",
+  "financials": {
+    "Tax Effect Of Unusual Items": {
+      "2026-03-31 00:00:00": -250140000.0,
+      "2025-03-31 00:00:00": -807000.0,
+      "2024-03-31 00:00:00": -344218000.0,
+      "2023-03-31 00:00:00": -316626000.0
+    },
+    "Tax Rate For Calcs": {
+      "2026-03-31 00:00:00": 0.33,
+      "2025-03-31 00:00:00": 0.269,
+      "2024-03-31 00:00:00": 0.322,
+      "2023-03-31 00:00:00": 0.339
+    },
+    "Normalized EBITDA": {
+      "2026-03-31 00:00:00": 44428000000.0,
+      "2025-03-31 00:00:00": 44053000000.0,
+      "2024-03-31 00:00:00": 44198000000.0,
+      "2023-03-31 00:00:00": 35763000000.0
+    },
+    "Total Unusual Items": {
+      "2026-03-31 00:00:00": -758000000.0,
+      "2025-03-31 00:00:00": -3000000.0,
+      "2024-03-31 00:00:00": -1069000000.0,
+      "2023-03-31 00:00:00": -934000000.0
+    },
+    "Total Unusual Items Excluding Goodwill": {
+      "2026-03-31 00:00:00": -758000000.0,
+      "2025-03-31 00:00:00": -3000000.0,
+      "2024-03-31 00:00:00": -1069000000.0,
+      "2023-03-31 00:00:00": -934000000.0
+    },
+    "Net Income From Continuing Operation Net Minority Interest": {
+      "2026-03-31 00:00:00": 17329000000.0,
+      "2025-03-31 00:00:00": 20874000000.0,
+      "2024-03-31 00:00:00": 19886000000.0,
+      "2023-03-31 00:00:00": 14772000000.0
+    },
+    "Reconciled Depreciation": {
+      "2026-03-31 00:00:00": 17093000000.0,
+      "2025-03-31 00:00:00": 14296000000.0,
+      "2024-03-31 00:00:00": 12675000000.0,
+      "2023-03-31 00:00:00": 12026000000.0
+    },
+    "Reconciled Cost Of Revenue": {
+      "2026-03-31 00:00:00": 229346000000.0,
+      "2025-03-31 00:00:00": 212686000000.0,
+      "2024-03-31 00:00:00": 201068000000.0,
+      "2023-03-31 00:00:00": 189115000000.0
+    },
+    "EBITDA": {
+      "2026-03-31 00:00:00": 43670000000.0,
+      "2025-03-31 00:00:00": 44050000000.0,
+      "2024-03-31 00:00:00": 43129000000.0,
+      "2023-03-31 00:00:00": 34829000000.0
+    },
+    "EBIT": {
+      "2026-03-31 00:00:00": 26577000000.0,
+      "2025-03-31 00:00:00": 29754000000.0,
+      "2024-03-31 00:00:00": 30454000000.0,
+      "2023-03-31 00:00:00": 22803000000.0
+    },
+    "Net Interest Income": {
+      "2026-03-31 00:00:00": 65000000.0,
+      "2025-03-31 00:00:00": 137000000.0,
+      "2024-03-31 00:00:00": 195000000.0,
+      "2023-03-31 00:00:00": -22000000.0
+    },
+    "Interest Expense": {
+      "2026-03-31 00:00:00": 388000000.0,
+      "2025-03-31 00:00:00": 357000000.0,
+      "2024-03-31 00:00:00": 250000000.0,
+      "2023-03-31 00:00:00": 162000000.0
+    },
+    "Interest Income": {
+      "2026-03-31 00:00:00": 453000000.0,
+      "2025-03-31 00:00:00": 494000000.0,
+      "2024-03-31 00:00:00": 445000000.0,
+      "2023-03-31 00:00:00": 140000000.0
+    },
+    "Normalized Income": {
+      "2026-03-31 00:00:00": 17836860000.0,
+      "2025-03-31 00:00:00": 20876193000.0,
+      "2024-03-31 00:00:00": 20610782000.0,
+      "2023-03-31 00:00:00": 15389374000.0
+    },
+    "Net Income From Continuing And Discontinued Operation": {
+      "2026-03-31 00:00:00": 17329000000.0,
+      "2025-03-31 00:00:00": 20874000000.0,
+      "2024-03-31 00:00:00": 19886000000.0,
+      "2023-03-31 00:00:00": 14772000000.0
+    },
+    "Total Expenses": {
+      "2026-03-31 00:00:00": 313976000000.0,
+      "2025-03-31 00:00:00": 293498000000.0,
+      "2024-03-31 00:00:00": 275722000000.0,
+      "2023-03-31 00:00:00": 257082000000.0
+    },
+    "Total Operating Income As Reported": {
+      "2026-03-31 00:00:00": 26173000000.0,
+      "2025-03-31 00:00:00": 29066000000.0,
+      "2024-03-31 00:00:00": 27304000000.0,
+      "2023-03-31 00:00:00": 22233000000.0
+    },
+    "Diluted Average Shares": {
+      "2026-03-31 00:00:00": 123802134.0,
+      "2025-03-31 00:00:00": 124911735.0,
+      "2024-03-31 00:00:00": 124896370.0,
+      "2023-03-31 00:00:00": 128274133.0
+    },
+    "Basic Average Shares": {
+      "2026-03-31 00:00:00": 123802134.0,
+      "2025-03-31 00:00:00": 124911735.0,
+      "2024-03-31 00:00:00": 124896370.0,
+      "2023-03-31 00:00:00": 128274133.0
+    },
+    "Diluted EPS": {
+      "2026-03-31 00:00:00": 139.98,
+      "2025-03-31 00:00:00": 167.11,
+      "2024-03-31 00:00:00": 159.22,
+      "2023-03-31 00:00:00": 115.16
+    },
+    "Basic EPS": {
+      "2026-03-31 00:00:00": 139.98,
+      "2025-03-31 00:00:00": 167.11,
+      "2024-03-31 00:00:00": 159.22,
+      "2023-03-31 00:00:00": 115.16
+    },
+    "Diluted NI Availto Com Stockholders": {
+      "2026-03-31 00:00:00": 17329000000.0,
+      "2025-03-31 00:00:00": 20874000000.0,
+      "2024-03-31 00:00:00": 19886000000.0,
+      "2023-03-31 00:00:00": 14772000000.0
+    },
+    "Net Income Common Stockholders": {
+      "2026-03-31 00:00:00": 17329000000.0,
+      "2025-03-31 00:00:00": 20874000000.0,
+      "2024-03-31 00:00:00": 19886000000.0,
+      "2023-03-31 00:00:00": 14772000000.0
+    },
+    "Otherunder Preferred Stock Dividend": {
+      "2026-03-31 00:00:00": 0.0,
+      "2025-03-31 00:00:00": 0.0,
+      "2024-03-31 00:00:00": 0.0,
+      "2023-03-31 00:00:00": 0.0
+    },
+    "Net Income": {
+      "2026-03-31 00:00:00": 17329000000.0,
+      "2025-03-31 00:00:00": 20874000000.0,
+      "2024-03-31 00:00:00": 19886000000.0,
+      "2023-03-31 00:00:00": 14772000000.0
+    },
+    "Minority Interests": {
+      "2026-03-31 00:00:00": -245000000.0,
+      "2025-03-31 00:00:00": -631000000.0,
+      "2024-03-31 00:00:00": -579000000.0,
+      "2023-03-31 00:00:00": -201000000.0
+    },
+    "Net Income Including Noncontrolling Interests": {
+      "2026-03-31 00:00:00": 17574000000.0,
+      "2025-03-31 00:00:00": 21505000000.0,
+      "2024-03-31 00:00:00": 20465000000.0,
+      "2023-03-31 00:00:00": 14973000000.0
+    },
+    "Net Income Continuous Operations": {
+      "2026-03-31 00:00:00": 17575000000.0,
+      "2025-03-31 00:00:00": 21505000000.0,
+      "2024-03-31 00:00:00": 20465000000.0,
+      "2023-03-31 00:00:00": 14974000000.0
+    },
+    "Tax Provision": {
+      "2026-03-31 00:00:00": 8614000000.0,
+      "2025-03-31 00:00:00": 7892000000.0,
+      "2024-03-31 00:00:00": 9739000000.0,
+      "2023-03-31 00:00:00": 7667000000.0
+    },
+    "Pretax Income": {
+      "2026-03-31 00:00:00": 26189000000.0,
+      "2025-03-31 00:00:00": 29397000000.0,
+      "2024-03-31 00:00:00": 30204000000.0,
+      "2023-03-31 00:00:00": 22641000000.0
+    },
+    "Other Non Operating Income Expenses": {
+      "2026-03-31 00:00:00": 262000000.0,
+      "2025-03-31 00:00:00": 341000000.0,
+      "2024-03-31 00:00:00": 204000000.0,
+      "2023-03-31 00:00:00": 173000000.0
+    },
+    "Special Income Charges": {
+      "2026-03-31 00:00:00": -1051000000.0,
+      "2025-03-31 00:00:00": -543000000.0,
+      "2024-03-31 00:00:00": -1101000000.0,
+      "2023-03-31 00:00:00": -988000000.0
+    },
+    "Other Special Charges": {
+      "2026-03-31 00:00:00": 978000000.0,
+      "2025-03-31 00:00:00": 454000000.0,
+      "2024-03-31 00:00:00": 578000000.0,
+      "2023-03-31 00:00:00": 334000000.0
+    },
+    "Write Off": {
+      "2026-03-31 00:00:00": 15000000.0,
+      "2025-03-31 00:00:00": 17000000.0,
+      "2024-03-31 00:00:00": 377000000.0,
+      "2023-03-31 00:00:00": 542000000.0
+    },
+    "Impairment Of Capital Assets": {
+      "2026-03-31 00:00:00": 58000000.0,
+      "2025-03-31 00:00:00": 72000000.0,
+      "2024-03-31 00:00:00": 146000000.0,
+      "2023-03-31 00:00:00": 112000000.0
+    },
+    "Net Non Operating Interest Income Expense": {
+      "2026-03-31 00:00:00": 65000000.0,
+      "2025-03-31 00:00:00": 137000000.0,
+      "2024-03-31 00:00:00": 195000000.0,
+      "2023-03-31 00:00:00": -22000000.0
+    },
+    "Interest Expense Non Operating": {
+      "2026-03-31 00:00:00": 388000000.0,
+      "2025-03-31 00:00:00": 357000000.0,
+      "2024-03-31 00:00:00": 250000000.0,
+      "2023-03-31 00:00:00": 162000000.0
+    },
+    "Interest Income Non Operating": {
+      "2026-03-31 00:00:00": 453000000.0,
+      "2025-03-31 00:00:00": 494000000.0,
+      "2024-03-31 00:00:00": 445000000.0,
+      "2023-03-31 00:00:00": 140000000.0
+    },
+    "Operating Income": {
+      "2026-03-31 00:00:00": 26174000000.0,
+      "2025-03-31 00:00:00": 29066000000.0,
+      "2024-03-31 00:00:00": 27305000000.0,
+      "2023-03-31 00:00:00": 22233000000.0
+    },
+    "Operating Expense": {
+      "2026-03-31 00:00:00": 84630000000.0,
+      "2025-03-31 00:00:00": 80812000000.0,
+      "2024-03-31 00:00:00": 74654000000.0,
+      "2023-03-31 00:00:00": 67967000000.0
+    },
+    "Gross Profit": {
+      "2026-03-31 00:00:00": 110804000000.0,
+      "2025-03-31 00:00:00": 109878000000.0,
+      "2024-03-31 00:00:00": 101959000000.0,
+      "2023-03-31 00:00:00": 90200000000.0
+    },
+    "Cost Of Revenue": {
+      "2026-03-31 00:00:00": 229346000000.0,
+      "2025-03-31 00:00:00": 212686000000.0,
+      "2024-03-31 00:00:00": 201068000000.0,
+      "2023-03-31 00:00:00": 189115000000.0
+    },
+    "Total Revenue": {
+      "2026-03-31 00:00:00": 340151000000.0,
+      "2025-03-31 00:00:00": 322564000000.0,
+      "2024-03-31 00:00:00": 303027000000.0,
+      "2023-03-31 00:00:00": 279315000000.0
+    },
+    "Operating Revenue": {
+      "2026-03-31 00:00:00": 340151000000.0,
+      "2025-03-31 00:00:00": 322564000000.0,
+      "2024-03-31 00:00:00": 303027000000.0,
+      "2023-03-31 00:00:00": 279315000000.0
+    }
+  },
   "balance_sheet": {
     "Treasury Shares Number": {
       "2026-03-31 00:00:00": 12341946.0,
@@ -872,48 +1137,6 @@
         "fiscalYear": 2025,
         "exercisedValue": 0,
         "unexercisedValue": 0
-      },
-      {
-        "maxAge": 1,
-        "name": "Ms. Chisa  Hayakawa",
-        "age": 57,
-        "title": "Executive Officer and CFO of Calbee Asia Oceania Region",
-        "yearBorn": 1968,
-        "fiscalYear": 2025,
-        "exercisedValue": 0,
-        "unexercisedValue": 0
-      },
-      {
-        "maxAge": 1,
-        "name": "Mr. Ryo  Tsutsumi",
-        "title": "Executive Officer and President of Calbee Europe & America Region",
-        "fiscalYear": 2025,
-        "exercisedValue": 0,
-        "unexercisedValue": 0
-      },
-      {
-        "maxAge": 1,
-        "name": "Rie  Makuuchi",
-        "title": "Officer of IR, Finance & Accounting Division and IR Department",
-        "fiscalYear": 2025,
-        "exercisedValue": 0,
-        "unexercisedValue": 0
-      },
-      {
-        "maxAge": 1,
-        "name": ".  Takeda",
-        "title": "Investor Relations Department",
-        "fiscalYear": 2025,
-        "exercisedValue": 0,
-        "unexercisedValue": 0
-      },
-      {
-        "maxAge": 1,
-        "name": "Atsushi  Wagatsuma",
-        "title": "Manager of IR Department",
-        "fiscalYear": 2025,
-        "exercisedValue": 0,
-        "unexercisedValue": 0
       }
     ],
     "auditRisk": 1,
@@ -927,53 +1150,53 @@
     "executiveTeam": [],
     "maxAge": 86400,
     "priceHint": 2,
-    "previousClose": 2980.0,
+    "previousClose": 2948.0,
     "open": 2929.0,
-    "dayLow": 2917.0,
-    "dayHigh": 2929.0,
-    "regularMarketPreviousClose": 2980.0,
-    "regularMarketOpen": 2958.0,
-    "regularMarketDayLow": 2908.5,
-    "regularMarketDayHigh": 2958.5,
+    "dayLow": 2912.0,
+    "dayHigh": 2945.0,
+    "regularMarketPreviousClose": 2948.0,
+    "regularMarketOpen": 2929.0,
+    "regularMarketDayLow": 2912.0,
+    "regularMarketDayHigh": 2945.0,
     "dividendRate": 69.0,
-    "dividendYield": 2.34,
+    "dividendYield": 2.36,
     "exDividendDate": 1806364800,
     "payoutRatio": 0.4715,
     "fiveYearAvgDividendYield": 2.07,
     "beta": -0.127,
-    "trailingPE": 21.052631,
-    "forwardPE": 17.842876,
-    "volume": 305100,
-    "regularMarketVolume": 297100,
-    "averageVolume": 452420,
-    "averageVolume10days": 272820,
-    "averageDailyVolume10Day": 272820,
-    "bid": 0.0,
-    "ask": 2948.5,
+    "trailingPE": 20.899094,
+    "forwardPE": 17.712746,
+    "volume": 213600,
+    "regularMarketVolume": 213600,
+    "averageVolume": 450889,
+    "averageVolume10days": 275450,
+    "averageDailyVolume10Day": 275450,
+    "bid": 3099.0,
+    "ask": 3060.0,
     "bidSize": 0,
     "askSize": 0,
-    "marketCap": 358440992768,
+    "marketCap": 355826860032,
     "nonDilutedMarketCap": 358440993592,
     "fiftyTwoWeekLow": 2600.0,
     "fiftyTwoWeekHigh": 3194.0,
     "allTimeHigh": 5700.0,
     "allTimeLow": 500.0,
-    "priceToSalesTrailing12Months": 1.0537702,
-    "fiftyDayAverage": 2908.17,
-    "twoHundredDayAverage": 2976.1924,
+    "priceToSalesTrailing12Months": 1.046085,
+    "fiftyDayAverage": 2910.24,
+    "twoHundredDayAverage": 2976.8325,
     "trailingAnnualDividendRate": 66.0,
-    "trailingAnnualDividendYield": 0.022147652,
+    "trailingAnnualDividendYield": 0.02238806,
     "currency": "JPY",
     "tradeable": false,
-    "enterpriseValue": 356100997120,
+    "enterpriseValue": 353486864384,
     "profitMargins": 0.05095,
     "floatShares": 63695013,
     "sharesOutstanding": 121587854,
     "heldPercentInsiders": 0.36126,
-    "heldPercentInstitutions": 0.2863,
+    "heldPercentInstitutions": 0.28631002,
     "impliedSharesOutstanding": 121587854,
     "bookValue": 1732.097,
-    "priceToBook": 1.7019832,
+    "priceToBook": 1.6895704,
     "lastFiscalYearEnd": 1774915200,
     "nextFiscalYearEnd": 1806451200,
     "mostRecentQuarter": 1774915200,
@@ -984,14 +1207,14 @@
     "pegRatio": 7.87,
     "lastSplitFactor": "4:1",
     "lastSplitDate": 1380153600,
-    "enterpriseToRevenue": 1.047,
-    "enterpriseToEbitda": 8.241,
-    "52WeekChange": 0.07697868,
-    "SandP52WeekChange": 0.18089426,
+    "enterpriseToRevenue": 1.039,
+    "enterpriseToEbitda": 8.181,
+    "52WeekChange": 0.058147907,
+    "SandP52WeekChange": 0.17846107,
     "lastDividendValue": 69.0,
     "lastDividendDate": 1806364800,
     "quoteType": "EQUITY",
-    "currentPrice": 2948.0,
+    "currentPrice": 2926.5,
     "targetHighPrice": 3600.0,
     "targetLowPrice": 2600.0,
     "targetMeanPrice": 2983.3333,
@@ -1026,9 +1249,10 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "shortName": "CALBEE INC",
+    "longName": "Calbee, Inc.",
     "corporateActions": [],
-    "regularMarketTime": 1784701800,
-    "marketState": "REGULAR",
+    "regularMarketTime": 1784788200,
     "exchange": "JPX",
     "messageBoardId": "finmb_126883551",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1036,12 +1260,26 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "fiftyTwoWeekLowChange": 348.0,
-    "fiftyTwoWeekLowChangePercent": 0.13384615,
+    "regularMarketChangePercent": -0.729308,
+    "regularMarketPrice": 2926.5,
+    "twoHundredDayAverageChangePercent": -0.01690808,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "averageAnalystRating": "3.5 - Hold",
+    "cryptoTradeable": false,
+    "marketState": "REGULAR",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1299801600000,
+    "regularMarketChange": -21.5,
+    "regularMarketDayRange": "2912.0 - 2945.0",
+    "fullExchangeName": "Tokyo",
+    "averageDailyVolume3Month": 450889,
+    "fiftyTwoWeekLowChange": 326.5,
+    "fiftyTwoWeekLowChangePercent": 0.12557693,
     "fiftyTwoWeekRange": "2600.0 - 3194.0",
-    "fiftyTwoWeekHighChange": -246.0,
-    "fiftyTwoWeekHighChangePercent": -0.07701941,
-    "fiftyTwoWeekChangePercent": 7.6978683,
+    "fiftyTwoWeekHighChange": -267.5,
+    "fiftyTwoWeekHighChangePercent": -0.083750784,
+    "fiftyTwoWeekChangePercent": 5.8147907,
     "earningsTimestamp": 1785393000,
     "earningsTimestampStart": 1785393000,
     "earningsTimestampEnd": 1785393000,
@@ -1050,24 +1288,9 @@
     "isEarningsDateEstimate": false,
     "epsTrailingTwelveMonths": 140.03,
     "epsForward": 165.22,
-    "fiftyDayAverageChange": 39.83008,
-    "fiftyDayAverageChangePercent": 0.0136959255,
-    "twoHundredDayAverageChange": -28.192383,
-    "twoHundredDayAverageChangePercent": -0.009472635,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "averageAnalystRating": "3.5 - Hold",
-    "cryptoTradeable": false,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1299801600000,
-    "regularMarketChange": -32.0,
-    "regularMarketDayRange": "2908.5 - 2958.5",
-    "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 452420,
-    "regularMarketChangePercent": -1.0738256,
-    "shortName": "CALBEE INC",
-    "longName": "Calbee, Inc.",
-    "regularMarketPrice": 2948.0,
+    "fiftyDayAverageChange": 16.26001,
+    "fiftyDayAverageChangePercent": 0.0055871713,
+    "twoHundredDayAverageChange": -50.33252,
     "trailingPegRatio": null
   }
 }
