@@ -1,7 +1,7 @@
 {
   "ticker": "1981",
   "japanese_ticker": "1981.T",
-  "fetch_date": "2026-07-25T00:01:39.151533",
+  "fetch_date": "2026-07-25T23:57:18.661271",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": 250177.2,
@@ -132,14 +132,14 @@
     "Diluted Average Shares": {
       "2026-03-31 00:00:00": null,
       "2025-03-31 00:00:00": 10527663.0,
-      "2024-03-31 00:00:00": 11143000.0,
+      "2024-03-31 00:00:00": 11142874.0,
       "2023-03-31 00:00:00": 11483000.0,
       "2022-03-31 00:00:00": 11512000.0
     },
     "Basic Average Shares": {
       "2026-03-31 00:00:00": null,
       "2025-03-31 00:00:00": 10527663.0,
-      "2024-03-31 00:00:00": 11143000.0,
+      "2024-03-31 00:00:00": 11142874.0,
       "2023-03-31 00:00:00": 11483000.0,
       "2022-03-31 00:00:00": 11512000.0
     },
@@ -357,14 +357,14 @@
   "balance_sheet": {
     "Treasury Shares Number": {
       "2026-03-31 00:00:00": 622126.0,
-      "2025-03-31 00:00:00": 638637.0,
+      "2025-03-31 00:00:00": null,
       "2024-03-31 00:00:00": 656500.0,
       "2023-03-31 00:00:00": 656600.0,
-      "2022-03-31 00:00:00": null
+      "2022-03-31 00:00:00": 287300.0
     },
     "Ordinary Shares Number": {
       "2026-03-31 00:00:00": 10124174.0,
-      "2025-03-31 00:00:00": 10527663.0,
+      "2025-03-31 00:00:00": 11160843.0,
       "2024-03-31 00:00:00": 11143500.0,
       "2023-03-31 00:00:00": 11143400.0,
       "2022-03-31 00:00:00": null
@@ -1211,15 +1211,6 @@
       },
       {
         "maxAge": 1,
-        "name": "Mr. Fumihiko  Kono",
-        "age": 63,
-        "title": "Executive Officer & Director",
-        "yearBorn": 1962,
-        "exercisedValue": 0,
-        "unexercisedValue": 0
-      },
-      {
-        "maxAge": 1,
         "name": "Mr. Hirotoshi  Masuda",
         "age": 57,
         "title": "Managing Executive Officer of Audit Office, Planning Office & Director",
@@ -1258,9 +1249,9 @@
     "trailingPE": 11.123348,
     "volume": 1400,
     "regularMarketVolume": 1400,
-    "averageVolume": 4013,
-    "averageVolume10days": 4390,
-    "averageDailyVolume10Day": 4390,
+    "averageVolume": 3970,
+    "averageVolume10days": 4470,
+    "averageDailyVolume10Day": 4470,
     "bid": 1312.0,
     "ask": 1315.0,
     "bidSize": 0,
@@ -1272,8 +1263,8 @@
     "allTimeHigh": 1947.0,
     "allTimeLow": 171.0,
     "priceToSalesTrailing12Months": 0.3366575,
-    "fiftyDayAverage": 1314.62,
-    "twoHundredDayAverage": 1480.15,
+    "fiftyDayAverage": 1313.16,
+    "twoHundredDayAverage": 1478.85,
     "trailingAnnualDividendRate": 9.0,
     "trailingAnnualDividendYield": 0.006854532,
     "currency": "JPY",
@@ -1296,7 +1287,7 @@
     "enterpriseToRevenue": 0.278,
     "enterpriseToEbitda": 7.14,
     "52WeekChange": -0.06414825,
-    "SandP52WeekChange": 0.15960515,
+    "SandP52WeekChange": 0.159976,
     "lastDividendValue": 52.0,
     "lastDividendDate": 1806364800,
     "quoteType": "EQUITY",
@@ -1329,12 +1320,10 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 946944000000,
     "regularMarketChange": 0.0,
     "regularMarketDayRange": "1313.0 - 1316.0",
     "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 4013,
+    "averageDailyVolume3Month": 3970,
     "fiftyTwoWeekLowChange": 23.0,
     "fiftyTwoWeekLowChangePercent": 0.017829457,
     "fiftyTwoWeekRange": "1290.0 - 1947.0",
@@ -1345,16 +1334,18 @@
     "earningsTimestampEnd": 1747031400,
     "isEarningsDateEstimate": false,
     "epsTrailingTwelveMonths": 118.04,
-    "fiftyDayAverageChange": -1.6199951,
-    "fiftyDayAverageChangePercent": -0.0012322916,
-    "twoHundredDayAverageChange": -167.15002,
-    "twoHundredDayAverageChangePercent": -0.11292776,
+    "fiftyDayAverageChange": -0.16003418,
+    "fiftyDayAverageChangePercent": -0.00012186952,
+    "twoHundredDayAverageChange": -165.84998,
+    "twoHundredDayAverageChangePercent": -0.112147935,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 946944000000,
     "regularMarketChangePercent": 0.0,
     "regularMarketPrice": 1313.0,
-    "shortName": "KYOWANISSEI CO LTD",
-    "longName": "Kyowanissei Co.,Ltd.",
+    "marketState": "CLOSED",
+    "cryptoTradeable": false,
     "corporateActions": [],
     "regularMarketTime": 1784872995,
     "exchange": "JPX",
@@ -1364,8 +1355,8 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "marketState": "CLOSED",
-    "cryptoTradeable": false,
+    "shortName": "KYOWANISSEI CO LTD",
+    "longName": "Kyowanissei Co.,Ltd.",
     "trailingPegRatio": null
   }
 }
