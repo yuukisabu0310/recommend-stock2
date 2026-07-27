@@ -1,7 +1,7 @@
 {
   "ticker": "2700",
   "japanese_ticker": "2700.T",
-  "fetch_date": "2026-07-26T00:04:13.835347",
+  "fetch_date": "2026-07-27T00:06:16.285248",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-12-31 00:00:00": -59635416.0,
@@ -125,23 +125,23 @@
     "Diluted Average Shares": {
       "2025-12-31 00:00:00": 8173696.0,
       "2024-12-31 00:00:00": 8126395.0,
-      "2023-12-31 00:00:00": 1620194.0,
+      "2023-12-31 00:00:00": 8100965.0,
       "2022-12-31 00:00:00": 8101255.0,
       "2021-12-31 00:00:00": null
     },
     "Basic Average Shares": {
       "2025-12-31 00:00:00": null,
       "2024-12-31 00:00:00": 8126395.0,
-      "2023-12-31 00:00:00": 1620194.0,
+      "2023-12-31 00:00:00": 8100965.0,
       "2022-12-31 00:00:00": 8101255.0,
-      "2021-12-31 00:00:00": 1620439.0
+      "2021-12-31 00:00:00": 8102195.0
     },
     "Diluted EPS": {
       "2025-12-31 00:00:00": null,
       "2024-12-31 00:00:00": 212.14,
-      "2023-12-31 00:00:00": 912.69,
-      "2022-12-31 00:00:00": 641.01,
-      "2021-12-31 00:00:00": 311.72
+      "2023-12-31 00:00:00": 182.538,
+      "2022-12-31 00:00:00": 128.202,
+      "2021-12-31 00:00:00": 62.344
     },
     "Basic EPS": {
       "2025-12-31 00:00:00": null,
@@ -315,10 +315,10 @@
   "balance_sheet": {
     "Treasury Shares Number": {
       "2025-12-31 00:00:00": 351418.0,
-      "2024-12-31 00:00:00": null,
-      "2023-12-31 00:00:00": 85813.0,
+      "2024-12-31 00:00:00": 363530.0,
+      "2023-12-31 00:00:00": 429065.0,
       "2022-12-31 00:00:00": 428985.0,
-      "2021-12-31 00:00:00": 428315.0
+      "2021-12-31 00:00:00": null
     },
     "Ordinary Shares Number": {
       "2025-12-31 00:00:00": 8178582.0,
@@ -329,7 +329,7 @@
     },
     "Share Issued": {
       "2025-12-31 00:00:00": 8530000.0,
-      "2024-12-31 00:00:00": 1624281.0,
+      "2024-12-31 00:00:00": 8530000.0,
       "2023-12-31 00:00:00": 8530000.0,
       "2022-12-31 00:00:00": 8530000.0,
       "2021-12-31 00:00:00": null
@@ -1223,8 +1223,8 @@
     "averageVolume": 22755,
     "averageVolume10days": 19390,
     "averageDailyVolume10Day": 19390,
-    "bid": 1721.0,
-    "ask": 1733.0,
+    "bid": 0.0,
+    "ask": 1722.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 14075339776,
@@ -1291,7 +1291,19 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "marketState": "REGULAR",
+    "shortName": "KITOKU SHINRYO CO",
+    "longName": "Kitoku Shinryo Co., Ltd.",
+    "regularMarketChangePercent": -1.0350776,
+    "regularMarketPrice": 1721.0,
+    "twoHundredDayAverageChange": -754.8301,
+    "twoHundredDayAverageChangePercent": -0.3048796,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
     "regularMarketChange": -18.0,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 995414400000,
     "regularMarketDayRange": "1721.0 - 1750.0",
     "fullExchangeName": "Tokyo",
     "averageDailyVolume3Month": 22755,
@@ -1307,16 +1319,6 @@
     "epsTrailingTwelveMonths": 675.32,
     "fiftyDayAverageChange": -51.52002,
     "fiftyDayAverageChangePercent": -0.029065974,
-    "twoHundredDayAverageChange": -754.8301,
-    "twoHundredDayAverageChangePercent": -0.3048796,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 995414400000,
-    "regularMarketChangePercent": -1.0350776,
-    "regularMarketPrice": 1721.0,
-    "marketState": "CLOSED",
-    "cryptoTradeable": false,
     "corporateActions": [],
     "regularMarketTime": 1784874600,
     "exchange": "JPX",
@@ -1326,8 +1328,6 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "shortName": "KITOKU SHINRYO CO",
-    "longName": "Kitoku Shinryo Co., Ltd.",
     "trailingPegRatio": null
   }
 }

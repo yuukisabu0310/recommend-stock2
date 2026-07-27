@@ -1,7 +1,7 @@
 {
   "ticker": "2354",
   "japanese_ticker": "2354.T",
-  "fetch_date": "2026-07-26T00:00:55.641031",
+  "fetch_date": "2026-07-27T00:02:36.679426",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-02-28 00:00:00": 4647178.0,
@@ -308,14 +308,14 @@
   "balance_sheet": {
     "Treasury Shares Number": {
       "2026-02-28 00:00:00": 500315.0,
-      "2025-02-28 00:00:00": null,
+      "2025-02-28 00:00:00": 315.0,
       "2024-02-29 00:00:00": 355.0,
       "2023-02-28 00:00:00": 355.0,
-      "2022-02-28 00:00:00": 355.0
+      "2022-02-28 00:00:00": null
     },
     "Ordinary Shares Number": {
       "2026-02-28 00:00:00": 17825985.0,
-      "2025-02-28 00:00:00": 18319081.0,
+      "2025-02-28 00:00:00": 18319085.0,
       "2024-02-29 00:00:00": 18135445.0,
       "2023-02-28 00:00:00": 18135445.0,
       "2022-02-28 00:00:00": null
@@ -1097,8 +1097,8 @@
     "averageVolume": 742160,
     "averageVolume10days": 3450010,
     "averageDailyVolume10Day": 3450010,
-    "bid": 1590.0,
-    "ask": 1600.0,
+    "bid": 0.0,
+    "ask": 1651.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 28521574400,
@@ -1162,8 +1162,10 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "regularMarketChangePercent": 11.111112,
-    "regularMarketPrice": 1600.0,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1045785600000,
+    "regularMarketChange": 160.0,
+    "regularMarketDayRange": "1298.0 - 1600.0",
     "fullExchangeName": "Tokyo",
     "averageDailyVolume3Month": 742160,
     "fiftyTwoWeekLowChange": 1004.0,
@@ -1176,18 +1178,18 @@
     "earningsTimestampEnd": 1743404400,
     "isEarningsDateEstimate": false,
     "epsTrailingTwelveMonths": 67.36,
+    "regularMarketChangePercent": 11.111112,
+    "regularMarketPrice": 1600.0,
+    "marketState": "REGULAR",
     "fiftyDayAverageChange": 662.7,
     "fiftyDayAverageChangePercent": 0.70703083,
     "twoHundredDayAverageChange": 780.16,
     "twoHundredDayAverageChangePercent": 0.95160025,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
-    "shortName": "YE DIGITAL CORPORATION",
     "cryptoTradeable": false,
+    "shortName": "YE DIGITAL CORPORATION",
     "longName": "YE DIGITAL Corporation",
-    "marketState": "CLOSED",
-    "corporateActions": [],
-    "regularMarketTime": 1784874600,
     "exchange": "JPX",
     "messageBoardId": "finmb_8378370",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1195,10 +1197,8 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1045785600000,
-    "regularMarketChange": 160.0,
-    "regularMarketDayRange": "1298.0 - 1600.0",
+    "corporateActions": [],
+    "regularMarketTime": 1784874600,
     "trailingPegRatio": null
   }
 }

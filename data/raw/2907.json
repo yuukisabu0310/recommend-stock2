@@ -1,7 +1,7 @@
 {
   "ticker": "2907",
   "japanese_ticker": "2907.T",
-  "fetch_date": "2026-07-26T00:06:30.539013",
+  "fetch_date": "2026-07-27T00:08:43.558591",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": 10336000.0,
@@ -1234,8 +1234,8 @@
     "averageVolume": 4415,
     "averageVolume10days": 9710,
     "averageDailyVolume10Day": 9710,
-    "bid": 1532.0,
-    "ask": 1547.0,
+    "bid": 0.0,
+    "ask": 1501.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 11572501504,
@@ -1300,8 +1300,6 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "regularMarketChangePercent": 1.3770492,
-    "regularMarketPrice": 1546.0,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 979084800000,
     "regularMarketChange": 21.0,
@@ -1324,8 +1322,8 @@
     "twoHundredDayAverageChangePercent": 0.13445407,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
-    "marketState": "CLOSED",
+    "regularMarketChangePercent": 1.3770492,
+    "regularMarketPrice": 1546.0,
     "corporateActions": [],
     "regularMarketTime": 1784874600,
     "exchange": "JPX",
@@ -1335,6 +1333,8 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
+    "marketState": "REGULAR",
+    "cryptoTradeable": false,
     "shortName": "AHJIKAN CO LTD",
     "longName": "Ahjikan Co., Ltd.",
     "trailingPegRatio": null

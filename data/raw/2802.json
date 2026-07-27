@@ -1,7 +1,7 @@
 {
   "ticker": "2802",
   "japanese_ticker": "2802.T",
-  "fetch_date": "2026-07-26T00:05:34.783193",
+  "fetch_date": "2026-07-27T00:07:40.635997",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": 0.0,
@@ -315,7 +315,7 @@
     },
     "Share Issued": {
       "2026-03-31 00:00:00": 977735616.0,
-      "2025-03-31 00:00:00": 1016629508.0,
+      "2025-03-31 00:00:00": 1005637616.0,
       "2024-03-31 00:00:00": 1042861708.0,
       "2023-03-31 00:00:00": 1059596308.0,
       "2022-03-31 00:00:00": null
@@ -897,6 +897,12 @@
       "2023-03-31 00:00:00": 40255000000.0,
       "2022-03-31 00:00:00": 17763000000.0
     },
+    "Purchase Of PPE": {
+      "2025-03-31 00:00:00": -88104000000.0,
+      "2024-03-31 00:00:00": -65786000000.0,
+      "2023-03-31 00:00:00": -68383000000.0,
+      "2022-03-31 00:00:00": -73842000000.0
+    },
     "Operating Cash Flow": {
       "2025-03-31 00:00:00": 209898000000.0,
       "2024-03-31 00:00:00": 168074000000.0,
@@ -1145,8 +1151,8 @@
     "averageVolume": 5196388,
     "averageVolume10days": 3526410,
     "averageDailyVolume10Day": 3526410,
-    "bid": 5095.0,
-    "ask": 5097.0,
+    "bid": 5094.0,
+    "ask": 5095.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 4864446824448,
@@ -1192,7 +1198,8 @@
     "targetLowPrice": 3650.0,
     "targetMeanPrice": 5889.2856,
     "targetMedianPrice": 6150.0,
-    "recommendationKey": "none",
+    "recommendationMean": 1.85714,
+    "recommendationKey": "buy",
     "numberOfAnalystOpinions": 14,
     "totalCash": 106693001216,
     "totalCashPerShare": 111.319,
@@ -1222,6 +1229,8 @@
     "customPriceAlertConfidence": "LOW",
     "shortName": "AJINOMOTO CO INC",
     "longName": "Ajinomoto Co., Inc.",
+    "regularMarketChangePercent": -0.11760094,
+    "regularMarketPrice": 5096.0,
     "corporateActions": [],
     "regularMarketTime": 1784874600,
     "exchange": "JPX",
@@ -1231,11 +1240,6 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "earningsTimestampStart": 1785997800,
-    "earningsTimestampEnd": 1785997800,
-    "earningsCallTimestampStart": 1746694800,
-    "earningsCallTimestampEnd": 1746694800,
-    "isEarningsDateEstimate": false,
     "epsTrailingTwelveMonths": 138.61,
     "epsForward": 232.13,
     "fiftyDayAverageChange": -328.2202,
@@ -1244,7 +1248,9 @@
     "twoHundredDayAverageChangePercent": 0.14640644,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
+    "averageAnalystRating": "1.9 - Buy",
     "cryptoTradeable": false,
+    "marketState": "REGULAR",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 946944000000,
     "regularMarketChange": -6.0,
@@ -1258,9 +1264,11 @@
     "fiftyTwoWeekHighChangePercent": -0.19621451,
     "fiftyTwoWeekChangePercent": 29.636229,
     "earningsTimestamp": 1785997800,
-    "regularMarketChangePercent": -0.11760094,
-    "regularMarketPrice": 5096.0,
-    "marketState": "CLOSED",
+    "earningsTimestampStart": 1785997800,
+    "earningsTimestampEnd": 1785997800,
+    "earningsCallTimestampStart": 1746694800,
+    "earningsCallTimestampEnd": 1746694800,
+    "isEarningsDateEstimate": false,
     "trailingPegRatio": 3.9712
   }
 }

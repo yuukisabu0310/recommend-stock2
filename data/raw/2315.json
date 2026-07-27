@@ -1,7 +1,7 @@
 {
   "ticker": "2315",
   "japanese_ticker": "2315.T",
-  "fetch_date": "2026-07-26T00:00:13.802074",
+  "fetch_date": "2026-07-27T00:01:47.775233",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-10-31 00:00:00": 7727853.0,
@@ -138,17 +138,17 @@
     },
     "Diluted EPS": {
       "2025-10-31 00:00:00": 1.22,
-      "2024-10-31 00:00:00": null,
+      "2024-10-31 00:00:00": 0.22,
       "2023-10-31 00:00:00": -31.57,
       "2022-10-31 00:00:00": -54.69,
-      "2021-10-31 00:00:00": -10.87
+      "2021-10-31 00:00:00": null
     },
     "Basic EPS": {
       "2025-10-31 00:00:00": 1.22,
-      "2024-10-31 00:00:00": null,
+      "2024-10-31 00:00:00": 0.22,
       "2023-10-31 00:00:00": -31.57,
       "2022-10-31 00:00:00": -54.69,
-      "2021-10-31 00:00:00": -10.87
+      "2021-10-31 00:00:00": null
     },
     "Diluted NI Availto Com Stockholders": {
       "2025-10-31 00:00:00": 166794000.0,
@@ -1205,7 +1205,7 @@
     "averageVolume": 3299468,
     "averageVolume10days": 4110650,
     "averageDailyVolume10Day": 4110650,
-    "bid": 59.0,
+    "bid": 0.0,
     "ask": 60.0,
     "bidSize": 0,
     "askSize": 0,
@@ -1274,8 +1274,25 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "marketState": "REGULAR",
+    "corporateActions": [],
+    "regularMarketTime": 1784874600,
+    "exchange": "JPX",
+    "messageBoardId": "finmb_9247968",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
     "regularMarketChangePercent": -3.2258062,
     "regularMarketPrice": 60.0,
+    "shortName": "CAICA DIGITAL INC",
+    "longName": "CAICA DIGITAL Inc.",
+    "cryptoTradeable": false,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1023753600000,
+    "regularMarketChange": -2.0,
+    "regularMarketDayRange": "59.0 - 65.0",
     "fullExchangeName": "Tokyo",
     "averageDailyVolume3Month": 3299468,
     "fiftyTwoWeekLowChange": 7.0,
@@ -1295,24 +1312,7 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "prevName": "CAICA Inc.",
-    "nameChangeDate": "2026-07-25",
-    "shortName": "CAICA DIGITAL INC",
-    "cryptoTradeable": false,
-    "longName": "CAICA DIGITAL Inc.",
-    "marketState": "CLOSED",
-    "corporateActions": [],
-    "regularMarketTime": 1784874600,
-    "exchange": "JPX",
-    "messageBoardId": "finmb_9247968",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1023753600000,
-    "regularMarketChange": -2.0,
-    "regularMarketDayRange": "59.0 - 65.0",
+    "nameChangeDate": "2026-07-26",
     "trailingPegRatio": null
   }
 }

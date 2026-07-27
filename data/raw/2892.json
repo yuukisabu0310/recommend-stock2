@@ -1,7 +1,7 @@
 {
   "ticker": "2892",
   "japanese_ticker": "2892.T",
-  "fetch_date": "2026-07-26T00:06:19.964956",
+  "fetch_date": "2026-07-27T00:08:31.627011",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": -46872000.0,
@@ -1156,8 +1156,8 @@
     "averageVolume": 6188,
     "averageVolume10days": 5760,
     "averageDailyVolume10Day": 5760,
-    "bid": 4535.0,
-    "ask": 4560.0,
+    "bid": 0.0,
+    "ask": 4570.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 21755262976,
@@ -1226,6 +1226,7 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "marketState": "REGULAR",
     "corporateActions": [],
     "regularMarketTime": 1784874600,
     "exchange": "JPX",
@@ -1235,9 +1236,10 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "regularMarketChangePercent": 0.9977827,
     "regularMarketPrice": 4555.0,
-    "marketState": "CLOSED",
+    "regularMarketChangePercent": 0.9977827,
+    "shortName": "NIHON SHOKUHIN KAKO CO",
+    "longName": "Nihon Shokuhin Kako Co., Ltd.",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 978998400000,
     "regularMarketChange": 45.0,
@@ -1261,8 +1263,6 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
-    "shortName": "NIHON SHOKUHIN KAKO CO",
-    "longName": "Nihon Shokuhin Kako Co., Ltd.",
     "trailingPegRatio": null
   }
 }

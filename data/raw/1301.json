@@ -1,7 +1,7 @@
 {
   "ticker": "1301",
   "japanese_ticker": "1301.T",
-  "fetch_date": "2026-07-25T23:52:42.356499",
+  "fetch_date": "2026-07-26T23:53:34.269731",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": 48511000.0,
@@ -1074,6 +1074,15 @@
     "companyOfficers": [
       {
         "maxAge": 1,
+        "name": "Mr. Makoto  Inoue",
+        "age": 68,
+        "title": "Chairman & President",
+        "yearBorn": 1957,
+        "exercisedValue": 0,
+        "unexercisedValue": 0
+      },
+      {
+        "maxAge": 1,
         "name": "Mr. Masahiko  Oda",
         "age": 59,
         "title": "HR Manager & Director",
@@ -1173,8 +1182,8 @@
     "averageVolume": 56130,
     "averageVolume10days": 34450,
     "averageDailyVolume10Day": 34450,
-    "bid": 4500.0,
-    "ask": 4525.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 53625933824,
@@ -1244,6 +1253,14 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "shortName": "KYOKUYO CO LTD",
+    "longName": "Kyokuyo Co., Ltd.",
+    "regularMarketChangePercent": 0.78125,
+    "regularMarketPrice": 4515.0,
+    "marketState": "PREPRE",
+    "cryptoTradeable": false,
+    "corporateActions": [],
+    "regularMarketTime": 1784874600,
     "exchange": "JPX",
     "messageBoardId": "finmb_880050",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1251,13 +1268,10 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "regularMarketChangePercent": 0.78125,
-    "regularMarketPrice": 4515.0,
-    "corporateActions": [],
-    "regularMarketTime": 1784874600,
-    "cryptoTradeable": false,
-    "shortName": "KYOKUYO CO LTD",
-    "longName": "Kyokuyo Co., Ltd.",
+    "regularMarketChange": 35.0,
+    "regularMarketDayRange": "4455.0 - 4525.0",
+    "fullExchangeName": "Tokyo",
+    "averageDailyVolume3Month": 56130,
     "fiftyTwoWeekLowChange": 350.0,
     "fiftyTwoWeekLowChangePercent": 0.084033616,
     "fiftyTwoWeekRange": "4165.0 - 5450.0",
@@ -1275,13 +1289,8 @@
     "twoHundredDayAverageChangePercent": -0.05290321,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
-    "marketState": "CLOSED",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 978307200000,
-    "regularMarketChange": 35.0,
-    "regularMarketDayRange": "4455.0 - 4525.0",
-    "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 56130,
     "trailingPegRatio": null
   }
 }

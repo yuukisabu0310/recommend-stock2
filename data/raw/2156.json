@@ -1,7 +1,7 @@
 {
   "ticker": "2156",
   "japanese_ticker": "2156.T",
-  "fetch_date": "2026-07-25T23:58:19.068173",
+  "fetch_date": "2026-07-26T23:59:42.426362",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": -87600.0,
@@ -315,21 +315,21 @@
   "balance_sheet": {
     "Treasury Shares Number": {
       "2026-03-31 00:00:00": 930928.0,
-      "2025-03-31 00:00:00": null,
+      "2025-03-31 00:00:00": 1666028.0,
       "2024-03-31 00:00:00": 1900328.0,
       "2023-03-31 00:00:00": 2300000.0,
-      "2022-03-31 00:00:00": 2300000.0
+      "2022-03-31 00:00:00": null
     },
     "Ordinary Shares Number": {
       "2026-03-31 00:00:00": 5147072.0,
-      "2025-03-31 00:00:00": 4169672.0,
+      "2025-03-31 00:00:00": 4411972.0,
       "2024-03-31 00:00:00": 4177672.0,
       "2023-03-31 00:00:00": 3778000.0,
       "2022-03-31 00:00:00": null
     },
     "Share Issued": {
       "2026-03-31 00:00:00": 6078000.0,
-      "2025-03-31 00:00:00": 4169672.0,
+      "2025-03-31 00:00:00": 6078000.0,
       "2024-03-31 00:00:00": 6078000.0,
       "2023-03-31 00:00:00": 6078000.0,
       "2022-03-31 00:00:00": null
@@ -1186,8 +1186,8 @@
     "averageVolume": 9973,
     "averageVolume10days": 5730,
     "averageDailyVolume10Day": 5730,
-    "bid": 267.0,
-    "ask": 268.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 1379415296,
@@ -1256,7 +1256,9 @@
     "customPriceAlertConfidence": "LOW",
     "regularMarketChangePercent": -0.3717472,
     "regularMarketPrice": 268.0,
-    "marketState": "CLOSED",
+    "shortName": "SAYLOR ADVERTISING INC.",
+    "longName": "Saylor Advertising.Inc.",
+    "marketState": "PREPRE",
     "corporateActions": [],
     "regularMarketTime": 1784859666,
     "exchange": "JPX",
@@ -1266,8 +1268,17 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "shortName": "SAYLOR ADVERTISING INC.",
-    "longName": "Saylor Advertising.Inc.",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1182384000000,
+    "regularMarketChange": -1.0,
+    "regularMarketDayRange": "268.0 - 268.0",
+    "fullExchangeName": "Tokyo",
+    "averageDailyVolume3Month": 9973,
+    "fiftyTwoWeekLowChange": 17.0,
+    "fiftyTwoWeekLowChangePercent": 0.067729086,
+    "fiftyTwoWeekRange": "251.0 - 506.0",
+    "fiftyTwoWeekHighChange": -238.0,
+    "fiftyTwoWeekHighChangePercent": -0.47035572,
     "fiftyTwoWeekChangePercent": -25.966852,
     "earningsTimestampStart": 1747204200,
     "earningsTimestampEnd": 1747204200,
@@ -1280,17 +1291,6 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1182384000000,
-    "regularMarketChange": -1.0,
-    "regularMarketDayRange": "268.0 - 268.0",
-    "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 9973,
-    "fiftyTwoWeekLowChange": 17.0,
-    "fiftyTwoWeekLowChangePercent": 0.067729086,
-    "fiftyTwoWeekRange": "251.0 - 506.0",
-    "fiftyTwoWeekHighChange": -238.0,
-    "fiftyTwoWeekHighChangePercent": -0.47035572,
     "trailingPegRatio": null
   }
 }

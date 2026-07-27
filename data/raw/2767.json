@@ -1,7 +1,7 @@
 {
   "ticker": "2767",
   "japanese_ticker": "2767.T",
-  "fetch_date": "2026-07-26T00:05:02.086376",
+  "fetch_date": "2026-07-27T00:07:06.390671",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": -142324000.0,
@@ -114,7 +114,7 @@
     "Diluted Average Shares": {
       "2026-03-31 00:00:00": 62401377.0,
       "2025-03-31 00:00:00": 62572903.0,
-      "2024-03-31 00:00:00": 65584343.0,
+      "2024-03-31 00:00:00": 65589688.0,
       "2023-03-31 00:00:00": 65380945.0
     },
     "Basic Average Shares": {
@@ -1147,16 +1147,6 @@
       },
       {
         "maxAge": 1,
-        "name": "Mr. Yusaku  Toyoshima",
-        "age": 56,
-        "title": "Managing Executive Officer",
-        "yearBorn": 1969,
-        "fiscalYear": 2025,
-        "exercisedValue": 0,
-        "unexercisedValue": 0
-      },
-      {
-        "maxAge": 1,
         "name": "Mr. Takashi  Yamamoto",
         "age": 37,
         "title": "Senior Managing Executive Off, Dir. of Grp. Corp. Plan, Dep. GM of Grp Business Mgmt Strategy Div",
@@ -1206,8 +1196,8 @@
     "averageVolume": 444881,
     "averageVolume10days": 385020,
     "averageDailyVolume10Day": 385020,
-    "bid": 1466.0,
-    "ask": 1476.0,
+    "bid": 1473.0,
+    "ask": 1468.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 91822358528,
@@ -1280,10 +1270,6 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "regularMarketChangePercent": 0.6139154,
-    "regularMarketPrice": 1475.0,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1048032000000,
     "regularMarketChange": 9.0,
     "regularMarketDayRange": "1451.0 - 1475.0",
     "fullExchangeName": "Tokyo",
@@ -1306,9 +1292,15 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "prevName": "Fields Corporation",
-    "nameChangeDate": "2026-07-20",
+    "nameChangeDate": "2026-07-21",
     "cryptoTradeable": false,
-    "marketState": "CLOSED",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1048032000000,
+    "regularMarketChangePercent": 0.6139154,
+    "marketState": "REGULAR",
+    "regularMarketPrice": 1475.0,
+    "shortName": "TSUBURAYA FIELDS HOLDINGS INC",
+    "longName": "Tsuburaya Fields Holdings Inc.",
     "corporateActions": [],
     "regularMarketTime": 1784874600,
     "exchange": "JPX",
@@ -1318,8 +1310,6 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "shortName": "TSUBURAYA FIELDS HOLDINGS INC",
-    "longName": "Tsuburaya Fields Holdings Inc.",
     "trailingPegRatio": null
   }
 }

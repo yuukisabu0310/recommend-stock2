@@ -1,7 +1,7 @@
 {
   "ticker": "2055",
   "japanese_ticker": "2055.T",
-  "fetch_date": "2026-07-25T23:57:38.067184",
+  "fetch_date": "2026-07-26T23:58:58.354676",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": -264800000.0,
@@ -277,10 +277,10 @@
   "balance_sheet": {
     "Treasury Shares Number": {
       "2026-03-31 00:00:00": 2719032.0,
-      "2025-03-31 00:00:00": null,
+      "2025-03-31 00:00:00": 2719032.0,
       "2024-03-31 00:00:00": 2718972.0,
       "2023-03-31 00:00:00": 2718971.0,
-      "2022-03-31 00:00:00": 2718918.0
+      "2022-03-31 00:00:00": null
     },
     "Ordinary Shares Number": {
       "2026-03-31 00:00:00": 18111793.0,
@@ -1106,8 +1106,8 @@
     "averageVolume": 22648,
     "averageVolume10days": 4750,
     "averageDailyVolume10Day": 4750,
-    "bid": 329.0,
-    "ask": 333.0,
+    "bid": 0.0,
+    "ask": 331.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 6031226880,
@@ -1172,8 +1172,6 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "regularMarketChangePercent": 1.5243902,
-    "regularMarketPrice": 333.0,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 954806400000,
     "regularMarketChange": 5.0,
@@ -1196,8 +1194,8 @@
     "twoHundredDayAverageChangePercent": -0.05175479,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
-    "marketState": "CLOSED",
+    "regularMarketChangePercent": 1.5243902,
+    "regularMarketPrice": 333.0,
     "corporateActions": [],
     "regularMarketTime": 1784874600,
     "exchange": "JPX",
@@ -1207,6 +1205,8 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
+    "marketState": "PREPRE",
+    "cryptoTradeable": false,
     "shortName": "NICHIWA SANGYO CO",
     "longName": "Nichiwa Sangyo Co., Ltd.",
     "trailingPegRatio": null

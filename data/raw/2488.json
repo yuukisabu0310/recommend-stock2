@@ -1,7 +1,7 @@
 {
   "ticker": "2488",
   "japanese_ticker": "2488.T",
-  "fetch_date": "2026-07-26T00:02:33.028021",
+  "fetch_date": "2026-07-27T00:04:24.781657",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": -12867538.0,
@@ -125,7 +125,7 @@
     "Basic Average Shares": {
       "2026-03-31 00:00:00": null,
       "2025-03-31 00:00:00": 5667778.0,
-      "2024-03-31 00:00:00": 5635816.0,
+      "2024-03-31 00:00:00": 5635535.0,
       "2023-03-31 00:00:00": 5601192.0,
       "2022-03-31 00:00:00": 5581143.0
     },
@@ -336,10 +336,10 @@
   "balance_sheet": {
     "Treasury Shares Number": {
       "2026-03-31 00:00:00": 395032.0,
-      "2025-03-31 00:00:00": null,
+      "2025-03-31 00:00:00": 338732.0,
       "2024-03-31 00:00:00": 370032.0,
       "2023-03-31 00:00:00": 404032.0,
-      "2022-03-31 00:00:00": 430127.0
+      "2022-03-31 00:00:00": null
     },
     "Ordinary Shares Number": {
       "2026-03-31 00:00:00": 5620568.0,
@@ -1027,8 +1027,8 @@
     "averageVolume": 26133,
     "averageVolume10days": 14030,
     "averageDailyVolume10Day": 14030,
-    "bid": 1390.0,
-    "ask": 1408.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "marketCap": 7655405568,
     "nonDilutedMarketCap": 7655405472,
     "fiftyTwoWeekLow": 1117.0,
@@ -1097,6 +1097,17 @@
     "corporateActions": [],
     "regularMarketTime": 1784874600,
     "exchange": "JPX",
+    "messageBoardId": "finmb_27352078",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
+    "regularMarketChangePercent": -0.4255319,
+    "regularMarketPrice": 1404.0,
+    "marketState": "REGULAR",
+    "shortName": "JTP CO LTD",
+    "longName": "JTP Co.,Ltd.",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1150934400000,
     "regularMarketChange": -6.0,
@@ -1113,15 +1124,6 @@
     "earningsTimestampEnd": 1747291200,
     "isEarningsDateEstimate": false,
     "epsTrailingTwelveMonths": 120.6,
-    "messageBoardId": "finmb_27352078",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
-    "marketState": "CLOSED",
-    "shortName": "JTP CO LTD",
-    "longName": "JTP Co.,Ltd.",
     "fiftyDayAverageChange": 51.160034,
     "fiftyDayAverageChangePercent": 0.037816767,
     "twoHundredDayAverageChange": 59.630005,
@@ -1129,10 +1131,8 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "prevName": "Japan Third Party Co., Ltd.",
-    "nameChangeDate": "2026-07-25",
+    "nameChangeDate": "2026-07-26",
     "cryptoTradeable": false,
-    "regularMarketChangePercent": -0.4255319,
-    "regularMarketPrice": 1404.0,
     "trailingPegRatio": null
   }
 }

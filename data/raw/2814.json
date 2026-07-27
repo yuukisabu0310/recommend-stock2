@@ -1,7 +1,7 @@
 {
   "ticker": "2814",
   "japanese_ticker": "2814.T",
-  "fetch_date": "2026-07-26T00:05:49.875446",
+  "fetch_date": "2026-07-27T00:07:57.748548",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": 32260860.0,
@@ -139,7 +139,7 @@
     "Basic Average Shares": {
       "2026-03-31 00:00:00": null,
       "2025-03-31 00:00:00": 3783773.0,
-      "2024-03-31 00:00:00": 4048463.0,
+      "2024-03-31 00:00:00": 4048374.0,
       "2023-03-31 00:00:00": 4160692.0,
       "2022-03-31 00:00:00": 6203173.0
     },
@@ -371,7 +371,7 @@
     },
     "Ordinary Shares Number": {
       "2026-03-31 00:00:00": 3587881.0,
-      "2025-03-31 00:00:00": 3716785.0,
+      "2025-03-31 00:00:00": 3717775.0,
       "2024-03-31 00:00:00": 3908928.0,
       "2023-03-31 00:00:00": 4055048.0,
       "2022-03-31 00:00:00": null
@@ -1193,8 +1193,8 @@
     "averageVolume": 1133,
     "averageVolume10days": 820,
     "averageDailyVolume10Day": 820,
-    "bid": 3080.0,
-    "ask": 3110.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 11086552064,
@@ -1261,17 +1261,9 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "shortName": "SATO FOODS INDUSTRIES CO",
     "longName": "Sato Foods Industries Co., Ltd.",
-    "marketState": "CLOSED",
-    "epsTrailingTwelveMonths": 194.67,
-    "fiftyDayAverageChange": 8.26001,
-    "fiftyDayAverageChangePercent": 0.0026803073,
-    "twoHundredDayAverageChange": -70.33496,
-    "twoHundredDayAverageChangePercent": -0.02225554,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
+    "corporateActions": [],
+    "regularMarketTime": 1784874600,
     "exchange": "JPX",
     "messageBoardId": "finmb_9155770",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1294,10 +1286,18 @@
     "earningsTimestampStart": 1747378800,
     "earningsTimestampEnd": 1747378800,
     "isEarningsDateEstimate": false,
+    "epsTrailingTwelveMonths": 194.67,
     "regularMarketChangePercent": -0.48309177,
     "regularMarketPrice": 3090.0,
-    "corporateActions": [],
-    "regularMarketTime": 1784874600,
+    "cryptoTradeable": false,
+    "shortName": "SATO FOODS INDUSTRIES CO",
+    "marketState": "REGULAR",
+    "fiftyDayAverageChange": 8.26001,
+    "fiftyDayAverageChangePercent": 0.0026803073,
+    "twoHundredDayAverageChange": -70.33496,
+    "twoHundredDayAverageChangePercent": -0.02225554,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
     "trailingPegRatio": null
   }
 }

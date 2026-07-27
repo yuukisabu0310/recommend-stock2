@@ -1,7 +1,7 @@
 {
   "ticker": "2375",
   "japanese_ticker": "2375.T",
-  "fetch_date": "2026-07-26T00:01:06.245319",
+  "fetch_date": "2026-07-27T00:02:49.820091",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-10-31 00:00:00": 120489449.3,
@@ -132,7 +132,7 @@
     "Basic Average Shares": {
       "2025-10-31 00:00:00": 19832104.0,
       "2024-10-31 00:00:00": 19791076.0,
-      "2023-10-31 00:00:00": 19608900.0,
+      "2023-10-31 00:00:00": 19606681.0,
       "2022-10-31 00:00:00": 19687580.0,
       "2021-10-31 00:00:00": null
     },
@@ -315,10 +315,10 @@
   "balance_sheet": {
     "Treasury Shares Number": {
       "2025-10-31 00:00:00": 2281905.0,
-      "2024-10-31 00:00:00": null,
+      "2024-10-31 00:00:00": 2272605.0,
       "2023-10-31 00:00:00": 2280095.0,
       "2022-10-31 00:00:00": 2408495.0,
-      "2021-10-31 00:00:00": 1608495.0
+      "2021-10-31 00:00:00": null
     },
     "Ordinary Shares Number": {
       "2025-10-31 00:00:00": 19846080.0,
@@ -329,7 +329,7 @@
     },
     "Share Issued": {
       "2025-10-31 00:00:00": 22127985.0,
-      "2024-10-31 00:00:00": 19840390.0,
+      "2024-10-31 00:00:00": 22105485.0,
       "2023-10-31 00:00:00": 22015560.0,
       "2022-10-31 00:00:00": 21979560.0,
       "2021-10-31 00:00:00": null
@@ -1242,8 +1242,8 @@
     "averageVolume": 31748,
     "averageVolume10days": 20840,
     "averageDailyVolume10Day": 20840,
-    "bid": 199.0,
-    "ask": 201.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 3978336000,
@@ -1322,13 +1322,7 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "regularMarketChangePercent": -1.9607844,
-    "regularMarketPrice": 200.0,
-    "longName": "GiG Works Inc.",
-    "shortName": "GIG WORKS INC",
-    "marketState": "CLOSED",
-    "epsTrailingTwelveMonths": 8.54,
-    "epsForward": 28.2,
+    "marketState": "REGULAR",
     "fiftyDayAverageChange": -6.4799957,
     "fiftyDayAverageChangePercent": -0.031383164,
     "twoHundredDayAverageChange": -17.054993,
@@ -1336,6 +1330,10 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
+    "regularMarketChangePercent": -1.9607844,
+    "regularMarketPrice": 200.0,
+    "shortName": "GIG WORKS INC",
+    "longName": "GiG Works Inc.",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1067990400000,
     "regularMarketChange": -4.0,
@@ -1351,6 +1349,8 @@
     "earningsTimestampStart": 1749621600,
     "earningsTimestampEnd": 1749621600,
     "isEarningsDateEstimate": false,
+    "epsTrailingTwelveMonths": 8.54,
+    "epsForward": 28.2,
     "trailingPegRatio": null
   }
 }

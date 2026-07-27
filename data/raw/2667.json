@@ -1,7 +1,7 @@
 {
   "ticker": "2667",
   "japanese_ticker": "2667.T",
-  "fetch_date": "2026-07-26T00:03:38.038886",
+  "fetch_date": "2026-07-27T00:05:38.645422",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-09-30 00:00:00": -28712784.0,
@@ -131,24 +131,24 @@
     },
     "Diluted Average Shares": {
       "2025-09-30 00:00:00": 11083752.0,
-      "2024-09-30 00:00:00": null,
-      "2023-09-30 00:00:00": 10729774.0,
+      "2024-09-30 00:00:00": 10729062.0,
+      "2023-09-30 00:00:00": 10729062.0,
       "2022-09-30 00:00:00": 10255089.0,
-      "2021-09-30 00:00:00": 9084157.0
+      "2021-09-30 00:00:00": null
     },
     "Basic Average Shares": {
       "2025-09-30 00:00:00": 11083752.0,
-      "2024-09-30 00:00:00": null,
-      "2023-09-30 00:00:00": 10729774.0,
+      "2024-09-30 00:00:00": 10729062.0,
+      "2023-09-30 00:00:00": 10729062.0,
       "2022-09-30 00:00:00": 10255089.0,
-      "2021-09-30 00:00:00": 9084157.0
+      "2021-09-30 00:00:00": null
     },
     "Diluted EPS": {
       "2025-09-30 00:00:00": -50.46,
-      "2024-09-30 00:00:00": null,
+      "2024-09-30 00:00:00": -82.92,
       "2023-09-30 00:00:00": -61.43,
       "2022-09-30 00:00:00": -49.57,
-      "2021-09-30 00:00:00": -55.44
+      "2021-09-30 00:00:00": null
     },
     "Basic EPS": {
       "2025-09-30 00:00:00": -50.46,
@@ -357,10 +357,10 @@
   "balance_sheet": {
     "Treasury Shares Number": {
       "2025-09-30 00:00:00": 74538.0,
-      "2024-09-30 00:00:00": null,
+      "2024-09-30 00:00:00": 74538.0,
       "2023-09-30 00:00:00": 74538.0,
       "2022-09-30 00:00:00": 74538.0,
-      "2021-09-30 00:00:00": 74538.0
+      "2021-09-30 00:00:00": null
     },
     "Ordinary Shares Number": {
       "2025-09-30 00:00:00": 12961162.0,
@@ -1212,8 +1212,8 @@
     "averageVolume": 618416,
     "averageVolume10days": 149610,
     "averageDailyVolume10Day": 149610,
-    "bid": 117.0,
-    "ask": 118.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 1783848704,
@@ -1276,29 +1276,9 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "longName": "ImageONE Co., Ltd.",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1016496000000,
-    "marketState": "CLOSED",
-    "regularMarketChangePercent": -0.8403362,
-    "regularMarketPrice": 118.0,
-    "market": "jp_market",
-    "esgPopulated": false,
-    "corporateActions": [],
-    "regularMarketTime": 1784874600,
-    "exchange": "JPX",
-    "messageBoardId": "finmb_8847096",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "shortName": "IMAGEONE CO LTD",
-    "longName": "ImageONE Co., Ltd.",
-    "fiftyDayAverageChange": -34.539993,
-    "fiftyDayAverageChangePercent": -0.22643238,
-    "twoHundredDayAverageChange": -89.795,
-    "twoHundredDayAverageChangePercent": -0.43213263,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
     "regularMarketChange": -1.0,
     "regularMarketDayRange": "117.0 - 119.0",
     "fullExchangeName": "Tokyo",
@@ -1313,6 +1293,26 @@
     "earningsTimestampEnd": 1754978400,
     "isEarningsDateEstimate": true,
     "epsTrailingTwelveMonths": -37.36,
+    "fiftyDayAverageChange": -34.539993,
+    "fiftyDayAverageChangePercent": -0.22643238,
+    "twoHundredDayAverageChange": -89.795,
+    "twoHundredDayAverageChangePercent": -0.43213263,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
+    "marketState": "REGULAR",
+    "corporateActions": [],
+    "regularMarketTime": 1784874600,
+    "exchange": "JPX",
+    "messageBoardId": "finmb_8847096",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
+    "regularMarketChangePercent": -0.8403362,
+    "regularMarketPrice": 118.0,
+    "shortName": "IMAGEONE CO LTD",
     "trailingPegRatio": null
   }
 }

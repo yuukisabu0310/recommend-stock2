@@ -1,7 +1,7 @@
 {
   "ticker": "2329",
   "japanese_ticker": "2329.T",
-  "fetch_date": "2026-07-26T00:00:26.327308",
+  "fetch_date": "2026-07-27T00:02:03.065187",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": 1548404000.0,
@@ -108,13 +108,13 @@
     "Diluted Average Shares": {
       "2026-03-31 00:00:00": 137659220.0,
       "2025-03-31 00:00:00": 134974177.0,
-      "2024-03-31 00:00:00": 134842388.0,
+      "2024-03-31 00:00:00": 134845314.0,
       "2023-03-31 00:00:00": 134845461.0
     },
     "Basic Average Shares": {
       "2026-03-31 00:00:00": 137659220.0,
       "2025-03-31 00:00:00": 134974177.0,
-      "2024-03-31 00:00:00": 134842388.0,
+      "2024-03-31 00:00:00": 134845314.0,
       "2023-03-31 00:00:00": 134845461.0
     },
     "Diluted EPS": {
@@ -265,14 +265,14 @@
   "balance_sheet": {
     "Treasury Shares Number": {
       "2026-03-31 00:00:00": 2611039.0,
-      "2025-03-31 00:00:00": null,
+      "2025-03-31 00:00:00": 2551963.0,
       "2024-03-31 00:00:00": 5360787.0,
       "2023-03-31 00:00:00": 5360541.0,
-      "2022-03-31 00:00:00": 5360541.0
+      "2022-03-31 00:00:00": null
     },
     "Ordinary Shares Number": {
       "2026-03-31 00:00:00": 137594963.0,
-      "2025-03-31 00:00:00": 134934039.0,
+      "2025-03-31 00:00:00": 137654039.0,
       "2024-03-31 00:00:00": 134845215.0,
       "2023-03-31 00:00:00": 134845461.0,
       "2022-03-31 00:00:00": null
@@ -1154,7 +1154,7 @@
     "averageVolume10days": 154490,
     "averageDailyVolume10Day": 154490,
     "bid": 0.0,
-    "ask": 501.0,
+    "ask": 500.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 68659884032,
@@ -1223,25 +1223,6 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "regularMarketChangePercent": -0.2,
-    "regularMarketPrice": 499.0,
-    "exchange": "JPX",
-    "messageBoardId": "finmb_5522618",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
-    "corporateActions": [],
-    "regularMarketTime": 1784874600,
-    "fiftyDayAverageChange": -31.840027,
-    "fiftyDayAverageChangePercent": -0.059980456,
-    "twoHundredDayAverageChange": -106.28998,
-    "twoHundredDayAverageChangePercent": -0.17560175,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
-    "marketState": "CLOSED",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1034035200000,
     "regularMarketChange": -1.0,
@@ -1258,6 +1239,25 @@
     "earningsTimestampEnd": 1747377000,
     "isEarningsDateEstimate": false,
     "epsTrailingTwelveMonths": 50.6,
+    "fiftyDayAverageChange": -31.840027,
+    "fiftyDayAverageChangePercent": -0.059980456,
+    "twoHundredDayAverageChange": -106.28998,
+    "twoHundredDayAverageChangePercent": -0.17560175,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "regularMarketChangePercent": -0.2,
+    "regularMarketPrice": 499.0,
+    "corporateActions": [],
+    "regularMarketTime": 1784874600,
+    "exchange": "JPX",
+    "messageBoardId": "finmb_5522618",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
+    "marketState": "REGULAR",
+    "cryptoTradeable": false,
     "shortName": "TOHOKUSHINSHA FILM CORPORATION",
     "longName": "Tohokushinsha Film Corporation",
     "trailingPegRatio": null

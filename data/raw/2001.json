@@ -1,7 +1,7 @@
 {
   "ticker": "2001",
   "japanese_ticker": "2001.T",
-  "fetch_date": "2026-07-25T23:57:27.590590",
+  "fetch_date": "2026-07-26T23:58:46.109670",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": 1968849307.723846,
@@ -132,7 +132,7 @@
     "Basic Average Shares": {
       "2026-03-31 00:00:00": null,
       "2025-03-31 00:00:00": 78031330.0,
-      "2024-03-31 00:00:00": 77964000.0,
+      "2024-03-31 00:00:00": 77962744.0,
       "2023-03-31 00:00:00": 77633189.0,
       "2022-03-31 00:00:00": 76712000.0
     },
@@ -1081,80 +1081,7 @@
     "sectorDisp": "Consumer Defensive",
     "longBusinessSummary": "Nippn Corporation engages in flour milling and food business in Japan and internationally. It offers premixes, corn products, rice flour, wheat flour and bran, olive oil, flax seed products, etc.; dried noodles; bread, noodles, and confectionery; frozen ingredients and food; and ready-made meals. The company also provides premixes, which include tempura flour, okonomiyaki flour, pancake mixes, etc., under the REGALO brand; and frozen pasta and pasta sauce, cooked rice, popular dishes, snacks, desserts, frozen dough, etc. In addition, it is involved in the research and development of machinery and equipment, health care, pet care, biotechnology, and other business. The company was formerly known as Nippon Flour Mills Co., Ltd. and changed its name to Nippn Corporation in January 2021. Nippn Corporation was founded in 1896 and is headquartered in Tokyo, Japan.",
     "fullTimeEmployees": 3935,
-    "companyOfficers": [
-      {
-        "maxAge": 1,
-        "name": "Mr. Toshiya  Maezuru",
-        "age": 64,
-        "title": "Chairman & CEO",
-        "yearBorn": 1961,
-        "exercisedValue": 0,
-        "unexercisedValue": 0
-      },
-      {
-        "maxAge": 1,
-        "name": "Mr. Toru  Otao",
-        "age": 62,
-        "title": "COO, President & Representative Director",
-        "yearBorn": 1963,
-        "exercisedValue": 0,
-        "unexercisedValue": 0
-      },
-      {
-        "maxAge": 1,
-        "name": "Mr. Shizuo  Yamaguchi",
-        "age": 69,
-        "title": "Managing Director",
-        "yearBorn": 1956,
-        "exercisedValue": 0,
-        "unexercisedValue": 0
-      },
-      {
-        "maxAge": 1,
-        "name": "Mr. Katsuhiko  Fujii",
-        "age": 63,
-        "title": "Managing Director",
-        "yearBorn": 1962,
-        "exercisedValue": 0,
-        "unexercisedValue": 0
-      },
-      {
-        "maxAge": 1,
-        "name": "Mr. Hiroaki  Kawasaki",
-        "age": 64,
-        "title": "MD & Director",
-        "yearBorn": 1961,
-        "exercisedValue": 0,
-        "unexercisedValue": 0
-      },
-      {
-        "maxAge": 1,
-        "name": "Mr. Hiroshi  Koura",
-        "age": 62,
-        "title": "MD & Director",
-        "yearBorn": 1963,
-        "exercisedValue": 0,
-        "unexercisedValue": 0
-      },
-      {
-        "maxAge": 1,
-        "name": "Mr. Takahiro  Sato",
-        "age": 61,
-        "title": "Sr. Executive Officer, GM of Wheat Flour Business Dept. & Sales and Marketing Div. & Director",
-        "yearBorn": 1964,
-        "exercisedValue": 0,
-        "unexercisedValue": 0
-      },
-      {
-        "maxAge": 1,
-        "name": "Mr. Naoki  Abe",
-        "age": 61,
-        "title": "MD & Director",
-        "yearBorn": 1964,
-        "exercisedValue": 0,
-        "unexercisedValue": 0
-      }
-    ],
+    "companyOfficers": [],
     "executiveTeam": [],
     "maxAge": 86400,
     "priceHint": 2,
@@ -1179,8 +1106,8 @@
     "averageVolume": 251291,
     "averageVolume10days": 247680,
     "averageDailyVolume10Day": 247680,
-    "bid": 2830.0,
-    "ask": 2833.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 234096181248,
@@ -1252,18 +1179,14 @@
     "customPriceAlertConfidence": "LOW",
     "shortName": "NIPPN CORPORATION",
     "longName": "Nippn Corporation",
-    "marketState": "CLOSED",
-    "epsTrailingTwelveMonths": 257.15,
-    "epsForward": 230.9,
-    "fiftyDayAverageChange": 96.15991,
-    "fiftyDayAverageChangePercent": 0.035148222,
-    "twoHundredDayAverageChange": 248.92505,
-    "twoHundredDayAverageChangePercent": 0.096367724,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
+    "regularMarketChangePercent": 1.396348,
+    "regularMarketPrice": 2832.0,
+    "marketState": "PREPRE",
     "prevName": "Nippon Flour Mills Co., Ltd.",
-    "nameChangeDate": "2026-07-25",
+    "nameChangeDate": "2026-07-26",
     "cryptoTradeable": false,
+    "corporateActions": [],
+    "regularMarketTime": 1784874600,
     "exchange": "JPX",
     "messageBoardId": "finmb_875692",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1271,8 +1194,6 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 978307200000,
     "regularMarketChange": 39.0,
     "regularMarketDayRange": "2786.0 - 2833.0",
     "fullExchangeName": "Tokyo",
@@ -1287,10 +1208,16 @@
     "earningsTimestampStart": 1785997800,
     "earningsTimestampEnd": 1785997800,
     "isEarningsDateEstimate": true,
-    "regularMarketChangePercent": 1.396348,
-    "regularMarketPrice": 2832.0,
-    "corporateActions": [],
-    "regularMarketTime": 1784874600,
+    "epsTrailingTwelveMonths": 257.15,
+    "epsForward": 230.9,
+    "fiftyDayAverageChange": 96.15991,
+    "fiftyDayAverageChangePercent": 0.035148222,
+    "twoHundredDayAverageChange": 248.92505,
+    "twoHundredDayAverageChangePercent": 0.096367724,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 978307200000,
     "trailingPegRatio": null
   }
 }

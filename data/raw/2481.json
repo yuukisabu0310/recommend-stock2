@@ -1,7 +1,7 @@
 {
   "ticker": "2481",
   "japanese_ticker": "2481.T",
-  "fetch_date": "2026-07-26T00:02:25.538648",
+  "fetch_date": "2026-07-27T00:04:16.787110",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-06-30 00:00:00": 12009374.819155,
@@ -119,8 +119,8 @@
     },
     "Basic Average Shares": {
       "2025-06-30 00:00:00": 5520623.0,
-      "2024-06-30 00:00:00": null,
-      "2023-06-30 00:00:00": 5520606.0,
+      "2024-06-30 00:00:00": 5520623.0,
+      "2023-06-30 00:00:00": 5520623.0,
       "2022-06-30 00:00:00": 5520628.0
     },
     "Diluted EPS": {
@@ -957,8 +957,8 @@
     "averageVolume": 2891,
     "averageVolume10days": 1630,
     "averageDailyVolume10Day": 1630,
-    "bid": 633.0,
-    "ask": 637.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 3516636928,
@@ -1022,6 +1022,9 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "corporateActions": [],
+    "regularMarketTime": 1784874600,
+    "marketState": "REGULAR",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1145491200000,
     "regularMarketChange": 2.0,
@@ -1045,10 +1048,6 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
-    "regularMarketChangePercent": 0.31496063,
-    "regularMarketPrice": 637.0,
-    "corporateActions": [],
-    "regularMarketTime": 1784874600,
     "exchange": "JPX",
     "messageBoardId": "finmb_26491821",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1056,9 +1055,10 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
+    "regularMarketChangePercent": 0.31496063,
+    "regularMarketPrice": 637.0,
     "shortName": "TOWNNEWS-SHA CO LTD",
     "longName": "Townnews-Sha Co.,Ltd.",
-    "marketState": "CLOSED",
     "trailingPegRatio": null
   }
 }

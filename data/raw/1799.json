@@ -1,7 +1,7 @@
 {
   "ticker": "1799",
   "japanese_ticker": "1799.T",
-  "fetch_date": "2026-07-25T23:54:44.994370",
+  "fetch_date": "2026-07-26T23:55:47.096392",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": 14782063.015977,
@@ -132,7 +132,7 @@
     "Basic Average Shares": {
       "2026-03-31 00:00:00": null,
       "2025-03-31 00:00:00": 18858564.0,
-      "2024-03-31 00:00:00": 19496781.0,
+      "2024-03-31 00:00:00": 19495960.0,
       "2023-03-31 00:00:00": 19944038.0,
       "2022-03-31 00:00:00": 20322000.0
     },
@@ -350,21 +350,21 @@
   "balance_sheet": {
     "Treasury Shares Number": {
       "2026-03-31 00:00:00": 3157064.0,
-      "2025-03-31 00:00:00": null,
+      "2025-03-31 00:00:00": 2092427.0,
       "2024-03-31 00:00:00": 1395723.0,
       "2023-03-31 00:00:00": 1270989.0,
-      "2022-03-31 00:00:00": 547177.0
+      "2022-03-31 00:00:00": null
     },
     "Ordinary Shares Number": {
       "2026-03-31 00:00:00": 17701427.0,
-      "2025-03-31 00:00:00": 18761968.0,
+      "2025-03-31 00:00:00": 18766064.0,
       "2024-03-31 00:00:00": 19462768.0,
       "2023-03-31 00:00:00": 19587502.0,
       "2022-03-31 00:00:00": null
     },
     "Share Issued": {
       "2026-03-31 00:00:00": 20858491.0,
-      "2025-03-31 00:00:00": 18761968.0,
+      "2025-03-31 00:00:00": 20858491.0,
       "2024-03-31 00:00:00": 20858491.0,
       "2023-03-31 00:00:00": 20858491.0,
       "2022-03-31 00:00:00": null
@@ -1192,8 +1192,8 @@
     "averageVolume": 32876,
     "averageVolume10days": 20310,
     "averageDailyVolume10Day": 20310,
-    "bid": 3365.0,
-    "ask": 3420.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 60204236800,
@@ -1261,6 +1261,7 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "marketState": "PREPRE",
     "corporateActions": [],
     "regularMarketTime": 1784874600,
     "exchange": "JPX",
@@ -1272,7 +1273,9 @@
     "esgPopulated": false,
     "regularMarketChangePercent": 1.1904762,
     "regularMarketPrice": 3400.0,
-    "marketState": "CLOSED",
+    "shortName": "DAIICHI KENSETSU CORP",
+    "longName": "Daiichi Kensetsu Corporation",
+    "cryptoTradeable": false,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 946944000000,
     "regularMarketChange": 40.0,
@@ -1296,9 +1299,6 @@
     "twoHundredDayAverageChangePercent": -0.067886636,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
-    "shortName": "DAIICHI KENSETSU CORP",
-    "longName": "Daiichi Kensetsu Corporation",
     "trailingPegRatio": null
   }
 }

@@ -1,7 +1,7 @@
 {
   "ticker": "1928",
   "japanese_ticker": "1928.T",
-  "fetch_date": "2026-07-25T23:56:22.785608",
+  "fetch_date": "2026-07-26T23:57:32.829692",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-01-31 00:00:00": 3298101335.254194,
@@ -1173,8 +1173,8 @@
     "averageVolume": 2783270,
     "averageVolume10days": 2589350,
     "averageDailyVolume10Day": 2589350,
-    "bid": 3534.0,
-    "ask": 3536.0,
+    "bid": 3536.0,
+    "ask": 3537.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 2292170358784,
@@ -1247,24 +1247,8 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "shortName": "SEKISUI HOUSE",
-    "longName": "Sekisui House, Ltd.",
-    "marketState": "CLOSED",
-    "regularMarketChangePercent": 0.62606716,
-    "regularMarketPrice": 3536.0,
-    "cryptoTradeable": false,
-    "corporateActions": [
-      {
-        "header": "Dividend",
-        "message": "1928.T announced a cash dividend of JPY 72.00 with an ex-date of Jul. 30, 2026",
-        "meta": {
-          "eventType": "DIVIDEND",
-          "dateEpochMs": 1785337200000,
-          "amount": "72.00"
-        }
-      }
-    ],
-    "regularMarketTime": 1784874600,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 946944000000,
     "regularMarketChange": 22.0,
     "regularMarketDayRange": "3483.0 - 3536.0",
     "fullExchangeName": "Tokyo",
@@ -1283,6 +1267,23 @@
     "isEarningsDateEstimate": true,
     "epsTrailingTwelveMonths": 396.74,
     "epsForward": 377.46,
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "1928.T announced a cash dividend of JPY 72.00 with an ex-date of Jul. 30, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1785337200000,
+          "amount": "72.00"
+        }
+      }
+    ],
+    "regularMarketTime": 1784874600,
+    "marketState": "PREPRE",
+    "regularMarketChangePercent": 0.62606716,
+    "regularMarketPrice": 3536.0,
+    "shortName": "SEKISUI HOUSE",
+    "longName": "Sekisui House, Ltd.",
     "fiftyDayAverageChange": 166.73999,
     "fiftyDayAverageChangePercent": 0.049488608,
     "twoHundredDayAverageChange": 77.54004,
@@ -1290,6 +1291,7 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "averageAnalystRating": "2.1 - Buy",
+    "cryptoTradeable": false,
     "exchange": "JPX",
     "messageBoardId": "finmb_873695",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1297,8 +1299,6 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 946944000000,
     "trailingPegRatio": null
   }
 }

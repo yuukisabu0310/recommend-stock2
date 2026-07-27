@@ -1,7 +1,7 @@
 {
   "ticker": "1905",
   "japanese_ticker": "1905.T",
-  "fetch_date": "2026-07-25T23:56:09.952091",
+  "fetch_date": "2026-07-26T23:57:17.767720",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": 6290082.4,
@@ -301,10 +301,10 @@
   "balance_sheet": {
     "Treasury Shares Number": {
       "2026-03-31 00:00:00": 681443.0,
-      "2025-03-31 00:00:00": null,
+      "2025-03-31 00:00:00": 707354.0,
       "2024-03-31 00:00:00": 792750.0,
       "2023-03-31 00:00:00": 818204.0,
-      "2022-03-31 00:00:00": 1004808.0
+      "2022-03-31 00:00:00": null
     },
     "Ordinary Shares Number": {
       "2026-03-31 00:00:00": 6666237.0,
@@ -315,7 +315,7 @@
     },
     "Share Issued": {
       "2026-03-31 00:00:00": 7347680.0,
-      "2025-03-31 00:00:00": 6640327.0,
+      "2025-03-31 00:00:00": 7347680.0,
       "2024-03-31 00:00:00": 7347680.0,
       "2023-03-31 00:00:00": 7347680.0,
       "2022-03-31 00:00:00": null
@@ -1093,29 +1093,6 @@
         "yearBorn": 1969,
         "exercisedValue": 0,
         "unexercisedValue": 0
-      },
-      {
-        "maxAge": 1,
-        "name": "Katsuhisa  Kodama",
-        "age": 65,
-        "title": "Executive Officer & GM of Greater Tokyo Area Business",
-        "yearBorn": 1960,
-        "exercisedValue": 0,
-        "unexercisedValue": 0
-      },
-      {
-        "maxAge": 1,
-        "name": "Kazuyuki  Sakamoto",
-        "title": "Executive Officer, Regional Business GM & Osaka Sales Office Manager",
-        "exercisedValue": 0,
-        "unexercisedValue": 0
-      },
-      {
-        "maxAge": 1,
-        "name": "Yumenari  Shimizu",
-        "title": "Executive Officer & General Director of Tenox Asia Company Limited",
-        "exercisedValue": 0,
-        "unexercisedValue": 0
       }
     ],
     "irWebsite": "http://www.tenox.co.jp/ir/index.html",
@@ -1142,8 +1119,8 @@
     "averageVolume": 7718,
     "averageVolume10days": 4670,
     "averageDailyVolume10Day": 4670,
-    "bid": 1532.0,
-    "ask": 1540.0,
+    "bid": 0.0,
+    "ask": 1534.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 10219341824,
@@ -1210,13 +1187,10 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 947030400000,
-    "marketState": "CLOSED",
+    "shortName": "TENOX CORP",
+    "longName": "Tenox Corporation",
     "regularMarketChangePercent": 1.2549537,
     "regularMarketPrice": 1533.0,
-    "market": "jp_market",
-    "esgPopulated": false,
     "corporateActions": [],
     "regularMarketTime": 1784874600,
     "exchange": "JPX",
@@ -1224,8 +1198,9 @@
     "exchangeTimezoneName": "Asia/Tokyo",
     "exchangeTimezoneShortName": "JST",
     "gmtOffSetMilliseconds": 32400000,
-    "shortName": "TENOX CORP",
-    "longName": "Tenox Corporation",
+    "market": "jp_market",
+    "esgPopulated": false,
+    "epsTrailingTwelveMonths": 141.19,
     "fiftyDayAverageChange": 25.880005,
     "fiftyDayAverageChangePercent": 0.017171828,
     "twoHundredDayAverageChange": 108.32495,
@@ -1233,6 +1208,9 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
+    "marketState": "PREPRE",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 947030400000,
     "regularMarketChange": 19.0,
     "regularMarketDayRange": "1516.0 - 1580.0",
     "fullExchangeName": "Tokyo",
@@ -1246,7 +1224,6 @@
     "earningsTimestampStart": 1747203300,
     "earningsTimestampEnd": 1747203300,
     "isEarningsDateEstimate": false,
-    "epsTrailingTwelveMonths": 141.19,
     "trailingPegRatio": null
   }
 }

@@ -1,7 +1,7 @@
 {
   "ticker": "1850",
   "japanese_ticker": "1850.T",
-  "fetch_date": "2026-07-25T23:55:29.524471",
+  "fetch_date": "2026-07-26T23:56:34.962210",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": 2403000.0,
@@ -132,7 +132,7 @@
     "Basic Average Shares": {
       "2026-03-31 00:00:00": null,
       "2025-03-31 00:00:00": 28827648.0,
-      "2024-03-31 00:00:00": 28818444.0,
+      "2024-03-31 00:00:00": 28827686.0,
       "2023-03-31 00:00:00": 28827748.0,
       "2022-03-31 00:00:00": 28827922.0
     },
@@ -301,7 +301,7 @@
     },
     "Ordinary Shares Number": {
       "2026-03-31 00:00:00": 28827542.0,
-      "2025-03-31 00:00:00": 28827671.0,
+      "2025-03-31 00:00:00": 28827599.0,
       "2024-03-31 00:00:00": 28827684.0,
       "2023-03-31 00:00:00": 28827730.0,
       "2022-03-31 00:00:00": null
@@ -1153,8 +1153,8 @@
     "averageVolume": 65280,
     "averageVolume10days": 38630,
     "averageDailyVolume10Day": 38630,
-    "bid": 429.0,
-    "ask": 434.0,
+    "bid": 445.0,
+    "ask": 446.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 12135925760,
@@ -1225,7 +1225,9 @@
     "customPriceAlertConfidence": "LOW",
     "regularMarketChangePercent": -0.4597701,
     "regularMarketPrice": 433.0,
-    "marketState": "CLOSED",
+    "shortName": "NANKAI TATSUMURA CONSTRUCTION C",
+    "longName": "Nankai Tatsumura Construction Co., Ltd.",
+    "marketState": "PREPRE",
     "corporateActions": [],
     "regularMarketTime": 1784874600,
     "exchange": "JPX",
@@ -1235,8 +1237,6 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "shortName": "NANKAI TATSUMURA CONSTRUCTION C",
-    "longName": "Nankai Tatsumura Construction Co., Ltd.",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 954806400000,
     "regularMarketChange": -2.0,

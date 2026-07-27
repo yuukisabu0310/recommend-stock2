@@ -1,7 +1,7 @@
 {
   "ticker": "2388",
   "japanese_ticker": "2388.T",
-  "fetch_date": "2026-07-26T00:01:17.151678",
+  "fetch_date": "2026-07-27T00:03:02.255094",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-09-30 00:00:00": 27208960.0,
@@ -124,17 +124,17 @@
     },
     "Diluted Average Shares": {
       "2025-09-30 00:00:00": 42455078.0,
-      "2024-09-30 00:00:00": null,
-      "2023-09-30 00:00:00": 37486998.0,
+      "2024-09-30 00:00:00": 42455078.0,
+      "2023-09-30 00:00:00": 37479872.0,
       "2022-09-30 00:00:00": 35755078.0,
-      "2021-09-30 00:00:00": 35755078.0
+      "2021-09-30 00:00:00": null
     },
     "Basic Average Shares": {
       "2025-09-30 00:00:00": 42455078.0,
-      "2024-09-30 00:00:00": null,
-      "2023-09-30 00:00:00": 37486998.0,
+      "2024-09-30 00:00:00": 42455078.0,
+      "2023-09-30 00:00:00": 37479872.0,
       "2022-09-30 00:00:00": 35755078.0,
-      "2021-09-30 00:00:00": 35755078.0
+      "2021-09-30 00:00:00": null
     },
     "Diluted EPS": {
       "2025-09-30 00:00:00": -5.34,
@@ -145,10 +145,10 @@
     },
     "Basic EPS": {
       "2025-09-30 00:00:00": -5.34,
-      "2024-09-30 00:00:00": null,
+      "2024-09-30 00:00:00": -22.21,
       "2023-09-30 00:00:00": -13.69,
       "2022-09-30 00:00:00": 1.54,
-      "2021-09-30 00:00:00": -33.09
+      "2021-09-30 00:00:00": null
     },
     "Diluted NI Availto Com Stockholders": {
       "2025-09-30 00:00:00": -226643000.0,
@@ -329,7 +329,7 @@
     },
     "Share Issued": {
       "2025-09-30 00:00:00": 42494478.0,
-      "2024-09-30 00:00:00": 42455078.0,
+      "2024-09-30 00:00:00": 42494478.0,
       "2023-09-30 00:00:00": 42494478.0,
       "2022-09-30 00:00:00": 35794478.0,
       "2021-09-30 00:00:00": null
@@ -1075,7 +1075,7 @@
     "averageVolume10days": 327670,
     "averageDailyVolume10Day": 327670,
     "bid": 0.0,
-    "ask": 40.0,
+    "ask": 39.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 1613293056,
@@ -1138,12 +1138,25 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "regularMarketChangePercent": -2.5641026,
+    "regularMarketPrice": 38.0,
+    "corporateActions": [],
+    "regularMarketTime": 1784874600,
+    "market": "jp_market",
+    "esgPopulated": false,
+    "cryptoTradeable": false,
+    "marketState": "REGULAR",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1075334400000,
     "regularMarketChange": -1.0,
     "regularMarketDayRange": "38.0 - 39.0",
     "fullExchangeName": "Tokyo",
     "averageDailyVolume3Month": 807788,
+    "exchange": "JPX",
+    "messageBoardId": "finmb_9262055",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
     "fiftyTwoWeekLowChange": 6.0,
     "fiftyTwoWeekLowChangePercent": 0.1875,
     "fiftyTwoWeekRange": "32.0 - 90.0",
@@ -1153,18 +1166,6 @@
     "earningsTimestampStart": 1754985600,
     "earningsTimestampEnd": 1755504000,
     "isEarningsDateEstimate": true,
-    "shortName": "WEDGE HOLDINGS CO",
-    "marketState": "CLOSED",
-    "longName": "Wedge Holdings CO.,LTD.",
-    "corporateActions": [],
-    "regularMarketTime": 1784874600,
-    "exchange": "JPX",
-    "messageBoardId": "finmb_9262055",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
     "epsTrailingTwelveMonths": -13.95,
     "fiftyDayAverageChange": -2.5999985,
     "fiftyDayAverageChangePercent": -0.06403937,
@@ -1173,10 +1174,9 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "prevName": "Wedge Holdings CO., LTD.",
-    "nameChangeDate": "2026-07-25",
-    "cryptoTradeable": false,
-    "regularMarketChangePercent": -2.5641026,
-    "regularMarketPrice": 38.0,
+    "nameChangeDate": "2026-07-26",
+    "shortName": "WEDGE HOLDINGS CO",
+    "longName": "Wedge Holdings CO.,LTD.",
     "trailingPegRatio": null
   }
 }

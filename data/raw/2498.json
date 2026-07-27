@@ -1,7 +1,7 @@
 {
   "ticker": "2498",
   "japanese_ticker": "2498.T",
-  "fetch_date": "2026-07-26T00:02:43.403164",
+  "fetch_date": "2026-07-27T00:04:36.938375",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-09-30 00:00:00": -85467513.0,
@@ -138,17 +138,17 @@
     },
     "Diluted EPS": {
       "2025-09-30 00:00:00": 318.41,
-      "2024-09-30 00:00:00": null,
+      "2024-09-30 00:00:00": 428.24,
       "2023-09-30 00:00:00": 474.24,
       "2022-09-30 00:00:00": 470.05,
-      "2021-09-30 00:00:00": 294.62
+      "2021-09-30 00:00:00": null
     },
     "Basic EPS": {
       "2025-09-30 00:00:00": 318.41,
-      "2024-09-30 00:00:00": null,
+      "2024-09-30 00:00:00": 428.24,
       "2023-09-30 00:00:00": 474.24,
       "2022-09-30 00:00:00": 470.05,
-      "2021-09-30 00:00:00": 294.62
+      "2021-09-30 00:00:00": null
     },
     "Diluted NI Availto Com Stockholders": {
       "2025-09-30 00:00:00": 3819096000.0,
@@ -1221,8 +1221,8 @@
     "averageVolume": 7570,
     "averageVolume10days": 3690,
     "averageDailyVolume10Day": 3690,
-    "bid": 3150.0,
-    "ask": 3175.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 37780406272,
@@ -1291,9 +1291,12 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "shortName": "ORIENTAL CONSULTANTS HLDGS CO L",
+    "longName": "Oriental Consultants Holdings Company Limited",
     "regularMarketChangePercent": 0.0,
     "regularMarketPrice": 3175.0,
-    "marketState": "CLOSED",
+    "marketState": "REGULAR",
+    "cryptoTradeable": false,
     "corporateActions": [],
     "regularMarketTime": 1784874600,
     "exchange": "JPX",
@@ -1303,10 +1306,6 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "shortName": "ORIENTAL CONSULTANTS HLDGS CO L",
-    "longName": "Oriental Consultants Holdings Company Limited",
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 967766400000,
     "regularMarketChange": 0.0,
     "regularMarketDayRange": "3150.0 - 3190.0",
     "fullExchangeName": "Tokyo",
@@ -1327,7 +1326,8 @@
     "twoHundredDayAverageChangePercent": 0.02687671,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 967766400000,
     "trailingPegRatio": null
   }
 }

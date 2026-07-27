@@ -1,7 +1,7 @@
 {
   "ticker": "2408",
   "japanese_ticker": "2408.T",
-  "fetch_date": "2026-07-26T00:01:28.111297",
+  "fetch_date": "2026-07-27T00:03:15.142671",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-12-31 00:00:00": -386910.0,
@@ -117,10 +117,10 @@
     },
     "Diluted Average Shares": {
       "2025-12-31 00:00:00": 7320029.0,
-      "2024-12-31 00:00:00": null,
+      "2024-12-31 00:00:00": 7310828.0,
       "2023-12-31 00:00:00": 7232929.0,
       "2022-12-31 00:00:00": 7232929.0,
-      "2021-12-31 00:00:00": 7231138.0
+      "2021-12-31 00:00:00": null
     },
     "Basic Average Shares": {
       "2025-12-31 00:00:00": 7320029.0,
@@ -131,10 +131,10 @@
     },
     "Diluted EPS": {
       "2025-12-31 00:00:00": 45.87,
-      "2024-12-31 00:00:00": null,
+      "2024-12-31 00:00:00": 32.97,
       "2023-12-31 00:00:00": 51.35,
       "2022-12-31 00:00:00": 46.68,
-      "2021-12-31 00:00:00": 10.02
+      "2021-12-31 00:00:00": null
     },
     "Basic EPS": {
       "2025-12-31 00:00:00": 45.87,
@@ -1094,8 +1094,8 @@
     "averageVolume": 23465,
     "averageVolume10days": 8700,
     "averageDailyVolume10Day": 8700,
-    "bid": 848.0,
-    "ask": 852.0,
+    "bid": 858.0,
+    "ask": 859.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 6101694464,
@@ -1161,11 +1161,11 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "shortName": "KG INTELLIGENCE CO LTD",
-    "longName": "KG Intelligence CO., LTD.",
-    "marketState": "CLOSED",
     "regularMarketChangePercent": 0.11764705,
     "regularMarketPrice": 851.0,
+    "shortName": "KG INTELLIGENCE CO LTD",
+    "longName": "KG Intelligence CO., LTD.",
+    "marketState": "REGULAR",
     "corporateActions": [],
     "regularMarketTime": 1784874600,
     "exchange": "JPX",
@@ -1175,13 +1175,6 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "fiftyDayAverageChange": 9.359985,
-    "fiftyDayAverageChangePercent": 0.011121127,
-    "twoHundredDayAverageChange": 101.71002,
-    "twoHundredDayAverageChangePercent": 0.13574187,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1093478400000,
     "regularMarketChange": 1.0,
@@ -1198,6 +1191,13 @@
     "earningsTimestampEnd": 1752215400,
     "isEarningsDateEstimate": true,
     "epsTrailingTwelveMonths": 68.08,
+    "fiftyDayAverageChange": 9.359985,
+    "fiftyDayAverageChangePercent": 0.011121127,
+    "twoHundredDayAverageChange": 101.71002,
+    "twoHundredDayAverageChangePercent": 0.13574187,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
     "trailingPegRatio": null
   }
 }

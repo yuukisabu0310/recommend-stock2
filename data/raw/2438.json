@@ -1,7 +1,7 @@
 {
   "ticker": "2438",
   "japanese_ticker": "2438.T",
-  "fetch_date": "2026-07-26T00:01:56.100066",
+  "fetch_date": "2026-07-27T00:03:46.177731",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-04-30 00:00:00": -5376228.0,
@@ -118,14 +118,14 @@
     "Diluted Average Shares": {
       "2026-04-30 00:00:00": null,
       "2025-04-30 00:00:00": 16138920.0,
-      "2024-04-30 00:00:00": 16482782.0,
+      "2024-04-30 00:00:00": 16483598.0,
       "2023-04-30 00:00:00": 16672047.0,
       "2022-04-30 00:00:00": 16841606.0
     },
     "Basic Average Shares": {
       "2026-04-30 00:00:00": null,
       "2025-04-30 00:00:00": 16138920.0,
-      "2024-04-30 00:00:00": 16482782.0,
+      "2024-04-30 00:00:00": 16483598.0,
       "2023-04-30 00:00:00": 16672047.0,
       "2022-04-30 00:00:00": 16841606.0
     },
@@ -1056,8 +1056,8 @@
     "averageVolume": 171293,
     "averageVolume10days": 100110,
     "averageDailyVolume10Day": 100110,
-    "bid": 329.0,
-    "ask": 331.0,
+    "bid": 328.0,
+    "ask": 329.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 4950413824,
@@ -1123,9 +1123,6 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "regularMarketChangePercent": -1.1976049,
-    "regularMarketPrice": 330.0,
-    "marketState": "CLOSED",
     "corporateActions": [],
     "regularMarketTime": 1784874600,
     "exchange": "JPX",
@@ -1135,8 +1132,19 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
+    "marketState": "REGULAR",
     "shortName": "ASUKANET CO LIMITED",
     "longName": "Asukanet Co., Ltd.",
+    "epsTrailingTwelveMonths": 18.94,
+    "fiftyDayAverageChange": -4.380005,
+    "fiftyDayAverageChangePercent": -0.013098884,
+    "twoHundredDayAverageChange": -25.954987,
+    "twoHundredDayAverageChangePercent": -0.072916485,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
+    "regularMarketChangePercent": -1.1976049,
+    "regularMarketPrice": 330.0,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1113436800000,
     "regularMarketChange": -4.0,
@@ -1152,14 +1160,6 @@
     "earningsTimestampStart": 1749553140,
     "earningsTimestampEnd": 1749553140,
     "isEarningsDateEstimate": false,
-    "epsTrailingTwelveMonths": 18.94,
-    "fiftyDayAverageChange": -4.380005,
-    "fiftyDayAverageChangePercent": -0.013098884,
-    "twoHundredDayAverageChange": -25.954987,
-    "twoHundredDayAverageChangePercent": -0.072916485,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
     "trailingPegRatio": null
   }
 }

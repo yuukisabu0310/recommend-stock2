@@ -1,7 +1,7 @@
 {
   "ticker": "1960",
   "japanese_ticker": "1960.T",
-  "fetch_date": "2026-07-25T23:56:52.858020",
+  "fetch_date": "2026-07-26T23:58:06.221530",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": 87426261.636453,
@@ -1134,8 +1134,8 @@
     "averageVolume": 49760,
     "averageVolume10days": 17230,
     "averageDailyVolume10Day": 17230,
-    "bid": 1487.0,
-    "ask": 1548.0,
+    "bid": 0.0,
+    "ask": 1556.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 23645822976,
@@ -1205,7 +1205,12 @@
     "customPriceAlertConfidence": "LOW",
     "regularMarketChangePercent": 4.7619047,
     "regularMarketPrice": 1540.0,
-    "marketState": "CLOSED",
+    "shortName": "SANYO ENGINEERING & CONS INC",
+    "longName": "Sanyo Engineering & Construction Inc.",
+    "earningsTimestampStart": 1747119600,
+    "earningsTimestampEnd": 1747119600,
+    "isEarningsDateEstimate": false,
+    "marketState": "PREPRE",
     "corporateActions": [],
     "regularMarketTime": 1784874600,
     "exchange": "JPX",
@@ -1215,12 +1220,6 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "shortName": "SANYO ENGINEERING & CONS INC",
-    "longName": "Sanyo Engineering & Construction Inc.",
-    "fiftyTwoWeekChangePercent": 64.354324,
-    "earningsTimestampStart": 1747119600,
-    "earningsTimestampEnd": 1747119600,
-    "isEarningsDateEstimate": false,
     "epsTrailingTwelveMonths": 180.18,
     "fiftyDayAverageChange": 101.859985,
     "fiftyDayAverageChangePercent": 0.07082759,
@@ -1240,6 +1239,7 @@
     "fiftyTwoWeekRange": "918.0 - 1674.0",
     "fiftyTwoWeekHighChange": -134.0,
     "fiftyTwoWeekHighChangePercent": -0.080047786,
+    "fiftyTwoWeekChangePercent": 64.354324,
     "trailingPegRatio": null
   }
 }

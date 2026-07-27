@@ -1,7 +1,7 @@
 {
   "ticker": "2871",
   "japanese_ticker": "2871.T",
-  "fetch_date": "2026-07-26T00:06:03.486602",
+  "fetch_date": "2026-07-27T00:08:12.694872",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": 419429493.509309,
@@ -319,13 +319,13 @@
     },
     "Ordinary Shares Number": {
       "2026-03-31 00:00:00": 250617484.0,
-      "2025-03-31 00:00:00": 250564380.0,
+      "2025-03-31 00:00:00": 250564076.0,
       "2024-03-31 00:00:00": 255443246.0,
       "2023-03-31 00:00:00": 255382706.0
     },
     "Share Issued": {
       "2026-03-31 00:00:00": 256984963.0,
-      "2025-03-31 00:00:00": 250564380.0,
+      "2025-03-31 00:00:00": 256929738.0,
       "2024-03-31 00:00:00": 268151304.0,
       "2023-03-31 00:00:00": 268085198.0
     },
@@ -1169,8 +1169,8 @@
     "averageVolume": 1651888,
     "averageVolume10days": 2912890,
     "averageDailyVolume10Day": 2912890,
-    "bid": 2143.0,
-    "ask": 2150.5,
+    "bid": 2195.5,
+    "ask": 2194.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 538827227136,
@@ -1188,7 +1188,7 @@
     "tradeable": false,
     "enterpriseValue": 629566210048,
     "profitMargins": 0.03817,
-    "floatShares": 232054082,
+    "floatShares": 229332378,
     "sharesOutstanding": 250617306,
     "heldPercentInsiders": 0.07081,
     "heldPercentInstitutions": 0.6044,
@@ -1249,7 +1249,8 @@
     "customPriceAlertConfidence": "LOW",
     "shortName": "NICHIREI CORP",
     "longName": "Nichirei Corporation",
-    "marketState": "CLOSED",
+    "regularMarketChangePercent": 1.1764706,
+    "regularMarketPrice": 2150.0,
     "epsTrailingTwelveMonths": 109.01,
     "epsForward": 235.63,
     "fiftyDayAverageChange": 120.81006,
@@ -1260,6 +1261,8 @@
     "exchangeDataDelayedBy": 20,
     "averageAnalystRating": "2.0 - Buy",
     "cryptoTradeable": false,
+    "corporateActions": [],
+    "regularMarketTime": 1784874600,
     "exchange": "JPX",
     "messageBoardId": "finmb_876656",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1285,10 +1288,7 @@
     "earningsCallTimestampStart": 1747220340,
     "earningsCallTimestampEnd": 1747220340,
     "isEarningsDateEstimate": false,
-    "regularMarketChangePercent": 1.1764706,
-    "regularMarketPrice": 2150.0,
-    "corporateActions": [],
-    "regularMarketTime": 1784874600,
+    "marketState": "REGULAR",
     "trailingPegRatio": null
   }
 }

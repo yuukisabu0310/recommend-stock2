@@ -1,7 +1,7 @@
 {
   "ticker": "2877",
   "japanese_ticker": "2877.T",
-  "fetch_date": "2026-07-26T00:06:12.121335",
+  "fetch_date": "2026-07-27T00:08:22.866501",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": 26864257.0,
@@ -343,10 +343,10 @@
   "balance_sheet": {
     "Treasury Shares Number": {
       "2026-03-31 00:00:00": 4815.0,
-      "2025-03-31 00:00:00": null,
+      "2025-03-31 00:00:00": 4787.0,
       "2024-03-31 00:00:00": 4787.0,
       "2023-03-31 00:00:00": 4597.0,
-      "2022-03-31 00:00:00": 4545.0
+      "2022-03-31 00:00:00": null
     },
     "Ordinary Shares Number": {
       "2026-03-31 00:00:00": 12097845.0,
@@ -1106,24 +1106,6 @@
       },
       {
         "maxAge": 1,
-        "name": "Mr. Akihide  Watanabe",
-        "age": 64,
-        "title": "Managing Executive Officer, GM of Sales Headquarters & Director",
-        "yearBorn": 1961,
-        "exercisedValue": 0,
-        "unexercisedValue": 0
-      },
-      {
-        "maxAge": 1,
-        "name": "Mr. Masaaki  Endo",
-        "age": 60,
-        "title": "Managing Executive Officer, GM of General Affairs & Human Resources Department and Director",
-        "yearBorn": 1965,
-        "exercisedValue": 0,
-        "unexercisedValue": 0
-      },
-      {
-        "maxAge": 1,
         "name": "Mitsuyoshi  Sato",
         "age": 65,
         "title": "Managing Executive Officer & Director",
@@ -1174,8 +1156,8 @@
     "averageVolume": 4068,
     "averageVolume10days": 10870,
     "averageDailyVolume10Day": 10870,
-    "bid": 745.0,
-    "ask": 750.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 9012894720,
@@ -1242,20 +1224,9 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "regularMarketChangePercent": -0.13404827,
-    "regularMarketPrice": 745.0,
-    "marketState": "CLOSED",
     "corporateActions": [],
     "regularMarketTime": 1784874600,
-    "exchange": "JPX",
-    "messageBoardId": "finmb_883885",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
-    "shortName": "NITTOBEST CORP",
-    "longName": "NittoBest Corporation",
+    "marketState": "REGULAR",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 947548800000,
     "regularMarketChange": -1.0,
@@ -1279,6 +1250,17 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
+    "exchange": "JPX",
+    "messageBoardId": "finmb_883885",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
+    "regularMarketChangePercent": -0.13404827,
+    "regularMarketPrice": 745.0,
+    "shortName": "NITTOBEST CORP",
+    "longName": "NittoBest Corporation",
     "trailingPegRatio": null
   }
 }

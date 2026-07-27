@@ -1,7 +1,7 @@
 {
   "ticker": "2479",
   "japanese_ticker": "2479.T",
-  "fetch_date": "2026-07-26T00:02:21.740915",
+  "fetch_date": "2026-07-27T00:04:12.905808",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": -7542683.0,
@@ -125,7 +125,7 @@
     "Diluted Average Shares": {
       "2026-03-31 00:00:00": null,
       "2025-03-31 00:00:00": 7999755.0,
-      "2024-03-31 00:00:00": 7978568.0,
+      "2024-03-31 00:00:00": 7978440.0,
       "2023-03-31 00:00:00": 7947025.0,
       "2022-03-31 00:00:00": 7906356.0
     },
@@ -315,10 +315,10 @@
   "balance_sheet": {
     "Treasury Shares Number": {
       "2026-03-31 00:00:00": 545300.0,
-      "2025-03-31 00:00:00": null,
+      "2025-03-31 00:00:00": 565700.0,
       "2024-03-31 00:00:00": 586700.0,
       "2023-03-31 00:00:00": 604900.0,
-      "2022-03-31 00:00:00": 636300.0
+      "2022-03-31 00:00:00": null
     },
     "Ordinary Shares Number": {
       "2026-03-31 00:00:00": 8027100.0,
@@ -1125,8 +1125,8 @@
     "averageVolume": 32078,
     "averageVolume10days": 11100,
     "averageDailyVolume10Day": 11100,
-    "bid": 239.0,
-    "ask": 240.0,
+    "bid": 0.0,
+    "ask": 243.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 1926503936,
@@ -1195,9 +1195,6 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "regularMarketChangePercent": 0.41841003,
-    "regularMarketPrice": 240.0,
-    "fullExchangeName": "Tokyo",
     "averageDailyVolume3Month": 32078,
     "fiftyTwoWeekLowChange": 23.0,
     "fiftyTwoWeekLowChangePercent": 0.10599078,
@@ -1215,10 +1212,17 @@
     "twoHundredDayAverageChangePercent": -0.0016015746,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
-    "shortName": "JTEC CORP",
     "cryptoTradeable": false,
+    "shortName": "JTEC CORP",
     "longName": "JTEC Corporation",
-    "marketState": "CLOSED",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1144108800000,
+    "regularMarketChange": 1.0,
+    "regularMarketDayRange": "239.0 - 241.0",
+    "fullExchangeName": "Tokyo",
+    "marketState": "REGULAR",
+    "regularMarketChangePercent": 0.41841003,
+    "regularMarketPrice": 240.0,
     "corporateActions": [],
     "regularMarketTime": 1784874600,
     "exchange": "JPX",
@@ -1228,10 +1232,6 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1144108800000,
-    "regularMarketChange": 1.0,
-    "regularMarketDayRange": "239.0 - 241.0",
     "trailingPegRatio": null
   }
 }

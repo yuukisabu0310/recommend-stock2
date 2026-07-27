@@ -1,7 +1,7 @@
 {
   "ticker": "1948",
   "japanese_ticker": "1948.T",
-  "fetch_date": "2026-07-25T23:56:41.795481",
+  "fetch_date": "2026-07-26T23:57:54.980198",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": 9405000.0,
@@ -628,6 +628,13 @@
       "2023-03-31 00:00:00": null,
       "2022-03-31 00:00:00": null
     },
+    "Other Properties": {
+      "2026-03-31 00:00:00": 25000000.0,
+      "2025-03-31 00:00:00": null,
+      "2024-03-31 00:00:00": null,
+      "2023-03-31 00:00:00": null,
+      "2022-03-31 00:00:00": null
+    },
     "Machinery Furniture Equipment": {
       "2026-03-31 00:00:00": 37000000.0,
       "2025-03-31 00:00:00": 23000000.0,
@@ -1154,9 +1161,6 @@
     "earningsTimestampStart": 1746772200,
     "earningsTimestampEnd": 1746772200,
     "isEarningsDateEstimate": false,
-    "shortName": "KODENSHA CO LTD",
-    "marketState": "CLOSED",
-    "longName": "The Kodensha Co., Ltd.",
     "corporateActions": [],
     "regularMarketTime": 1784874600,
     "exchange": "JPX",
@@ -1166,6 +1170,8 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
+    "regularMarketChangePercent": 0.0,
+    "marketState": "PREPRE",
     "epsTrailingTwelveMonths": 323.76,
     "fiftyDayAverageChange": 656.4004,
     "fiftyDayAverageChangePercent": 0.061096877,
@@ -1174,7 +1180,8 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
-    "regularMarketChangePercent": 0.0,
+    "shortName": "KODENSHA CO LTD",
+    "longName": "The Kodensha Co., Ltd.",
     "regularMarketPrice": 11400.0,
     "trailingPegRatio": null
   }

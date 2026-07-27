@@ -1,7 +1,7 @@
 {
   "ticker": "2998",
   "japanese_ticker": "2998.T",
-  "fetch_date": "2026-07-26T00:07:41.259240",
+  "fetch_date": "2026-07-27T00:10:02.430373",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": -34970538.0,
@@ -1221,13 +1221,6 @@
       },
       {
         "maxAge": 1,
-        "name": "Mr. Koji  Okada",
-        "title": "Executive Officer & CFO",
-        "exercisedValue": 0,
-        "unexercisedValue": 0
-      },
-      {
-        "maxAge": 1,
         "name": "Hitomi  Fujima",
         "title": "Executive Officer & Chief Accounting Officer",
         "exercisedValue": 0,
@@ -1278,6 +1271,13 @@
         "title": "Executive Officer & Head of CREAL PRO Business",
         "exercisedValue": 0,
         "unexercisedValue": 0
+      },
+      {
+        "maxAge": 1,
+        "name": "Mr. Yuta  Sugawara",
+        "title": "Executive Officer & New Business Promotion Manager",
+        "exercisedValue": 0,
+        "unexercisedValue": 0
       }
     ],
     "executiveTeam": [],
@@ -1303,8 +1303,8 @@
     "averageVolume": 201983,
     "averageVolume10days": 105270,
     "averageDailyVolume10Day": 105270,
-    "bid": 495.0,
-    "ask": 497.0,
+    "bid": 0.0,
+    "ask": 501.0,
     "marketCap": 17652719616,
     "nonDilutedMarketCap": 17652719700,
     "fiftyTwoWeekLow": 415.0,
@@ -1372,17 +1372,12 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "shortName": "CREAL INC",
+    "longName": "CREAL Inc.",
     "regularMarketChangePercent": -4.624277,
     "regularMarketPrice": 495.0,
-    "exchange": "JPX",
-    "messageBoardId": "finmb_710699014",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
-    "corporateActions": [],
-    "regularMarketTime": 1784874600,
+    "epsTrailingTwelveMonths": 60.54,
+    "epsForward": 204.9,
     "fiftyDayAverageChange": -2.519989,
     "fiftyDayAverageChangePercent": -0.005065101,
     "twoHundredDayAverageChange": -282.68,
@@ -1390,7 +1385,15 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
-    "marketState": "CLOSED",
+    "corporateActions": [],
+    "regularMarketTime": 1784874600,
+    "exchange": "JPX",
+    "messageBoardId": "finmb_710699014",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1651104000000,
     "regularMarketChange": -24.0,
@@ -1406,10 +1409,7 @@
     "earningsTimestampStart": 1747306740,
     "earningsTimestampEnd": 1747306740,
     "isEarningsDateEstimate": false,
-    "epsTrailingTwelveMonths": 60.54,
-    "epsForward": 204.9,
-    "shortName": "CREAL INC",
-    "longName": "CREAL Inc.",
+    "marketState": "REGULAR",
     "trailingPegRatio": null
   }
 }

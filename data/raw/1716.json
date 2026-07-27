@@ -1,7 +1,7 @@
 {
   "ticker": "1716",
   "japanese_ticker": "1716.T",
-  "fetch_date": "2026-07-25T23:53:57.339469",
+  "fetch_date": "2026-07-26T23:54:55.952779",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-06-30 00:00:00": 23232738.0,
@@ -265,19 +265,19 @@
   "balance_sheet": {
     "Treasury Shares Number": {
       "2025-06-30 00:00:00": 751287.0,
-      "2024-06-30 00:00:00": null,
+      "2024-06-30 00:00:00": 697267.0,
       "2023-06-30 00:00:00": 684307.0,
       "2022-06-30 00:00:00": 643056.0
     },
     "Ordinary Shares Number": {
       "2025-06-30 00:00:00": 11248713.0,
-      "2024-06-30 00:00:00": 11319513.0,
+      "2024-06-30 00:00:00": 11302733.0,
       "2023-06-30 00:00:00": 11315693.0,
       "2022-06-30 00:00:00": 11356944.0
     },
     "Share Issued": {
       "2025-06-30 00:00:00": 12000000.0,
-      "2024-06-30 00:00:00": 11319513.0,
+      "2024-06-30 00:00:00": 12000000.0,
       "2023-06-30 00:00:00": 12000000.0,
       "2022-06-30 00:00:00": 12000000.0
     },
@@ -748,7 +748,7 @@
     "Dividends Received Cfi": {
       "2025-06-30 00:00:00": 0.0,
       "2024-06-30 00:00:00": 133732000.0,
-      "2023-06-30 00:00:00": null,
+      "2023-06-30 00:00:00": 75071000.0,
       "2022-06-30 00:00:00": null
     },
     "Net Investment Purchase And Sale": {
@@ -772,7 +772,7 @@
     "Net Business Purchase And Sale": {
       "2025-06-30 00:00:00": 0.0,
       "2024-06-30 00:00:00": -887517000.0,
-      "2023-06-30 00:00:00": null,
+      "2023-06-30 00:00:00": 0.0,
       "2022-06-30 00:00:00": null
     },
     "Purchase Of Business": {
@@ -972,7 +972,7 @@
     "averageVolume": 27018,
     "averageVolume10days": 13270,
     "averageDailyVolume10Day": 13270,
-    "bid": 1390.0,
+    "bid": 0.0,
     "ask": 1396.0,
     "bidSize": 0,
     "askSize": 0,
@@ -1041,9 +1041,16 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "longName": "Dai-Ichi Cutter Kogyo k.k.",
     "corporateActions": [],
     "regularMarketTime": 1784874600,
     "exchange": "JPX",
+    "messageBoardId": "finmb_11272857",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1086825600000,
     "regularMarketChange": -5.0,
@@ -1061,24 +1068,17 @@
     "isEarningsDateEstimate": true,
     "epsTrailingTwelveMonths": 151.92,
     "epsForward": 238.9,
-    "messageBoardId": "finmb_11272857",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
-    "marketState": "CLOSED",
+    "regularMarketChangePercent": -0.35714287,
+    "regularMarketPrice": 1395.0,
+    "cryptoTradeable": false,
     "shortName": "DAI-ICHI CUTTER KOGYO KK",
-    "longName": "Dai-Ichi Cutter Kogyo k.k.",
+    "marketState": "PREPRE",
     "fiftyDayAverageChange": 2.5200195,
     "fiftyDayAverageChangePercent": 0.0018097349,
     "twoHundredDayAverageChange": -22.454956,
     "twoHundredDayAverageChangePercent": -0.015841743,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
-    "regularMarketChangePercent": -0.35714287,
-    "regularMarketPrice": 1395.0,
     "trailingPegRatio": null
   }
 }

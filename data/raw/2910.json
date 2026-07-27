@@ -1,7 +1,7 @@
 {
   "ticker": "2910",
   "japanese_ticker": "2910.T",
-  "fetch_date": "2026-07-26T00:06:34.199611",
+  "fetch_date": "2026-07-27T00:08:47.627141",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-04-30 00:00:00": -148712000.0,
@@ -22,7 +22,7 @@
       "2022-04-30 00:00:00": 3884000000.0
     },
     "Total Unusual Items": {
-      "2025-04-30 00:00:00": -141000000.0,
+      "2025-04-30 00:00:00": -641000000.0,
       "2024-04-30 00:00:00": 29000000.0,
       "2023-04-30 00:00:00": -7000000.0,
       "2022-04-30 00:00:00": -89000000.0
@@ -76,7 +76,7 @@
       "2022-04-30 00:00:00": 8000000.0
     },
     "Normalized Income": {
-      "2025-04-30 00:00:00": 437288000.0,
+      "2025-04-30 00:00:00": 821288000.0,
       "2024-04-30 00:00:00": 1231857538.802661,
       "2023-04-30 00:00:00": 1082885510.996119,
       "2022-04-30 00:00:00": 1438651000.0
@@ -184,13 +184,13 @@
       "2022-04-30 00:00:00": 22000000.0
     },
     "Special Income Charges": {
-      "2025-04-30 00:00:00": -141000000.0,
+      "2025-04-30 00:00:00": -641000000.0,
       "2024-04-30 00:00:00": -63000000.0,
       "2023-04-30 00:00:00": -7000000.0,
       "2022-04-30 00:00:00": -89000000.0
     },
     "Other Special Charges": {
-      "2025-04-30 00:00:00": -19000000.0,
+      "2025-04-30 00:00:00": 481000000.0,
       "2024-04-30 00:00:00": -10000000.0,
       "2023-04-30 00:00:00": -10000000.0,
       "2022-04-30 00:00:00": 1000000.0
@@ -985,8 +985,8 @@
     "averageVolume": 70833,
     "averageVolume10days": 35050,
     "averageDailyVolume10Day": 35050,
-    "bid": 1352.0,
-    "ask": 1362.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 35499065344,
@@ -1060,6 +1060,10 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 978566400000,
+    "shortName": "ROCK FIELD CO LTD",
+    "longName": "Rock Field Co.,Ltd.",
     "corporateActions": [],
     "regularMarketTime": 1784874600,
     "exchange": "JPX",
@@ -1071,9 +1075,7 @@
     "esgPopulated": false,
     "regularMarketChangePercent": -0.07358351,
     "regularMarketPrice": 1358.0,
-    "marketState": "CLOSED",
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 978566400000,
+    "marketState": "REGULAR",
     "regularMarketChange": -1.0,
     "regularMarketDayRange": "1354.0 - 1364.0",
     "fullExchangeName": "Tokyo",
@@ -1096,11 +1098,9 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "prevName": "Rock Field Co., Ltd.",
-    "nameChangeDate": "2026-07-25",
+    "nameChangeDate": "2026-07-26",
     "averageAnalystRating": "3.0 - Hold",
     "cryptoTradeable": false,
-    "shortName": "ROCK FIELD CO LTD",
-    "longName": "Rock Field Co.,Ltd.",
     "trailingPegRatio": null
   }
 }

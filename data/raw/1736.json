@@ -1,7 +1,7 @@
 {
   "ticker": "1736",
   "japanese_ticker": "1736.T",
-  "fetch_date": "2026-07-25T23:54:14.095362",
+  "fetch_date": "2026-07-26T23:55:14.171718",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": -11325076.051715,
@@ -295,7 +295,7 @@
     },
     "Share Issued": {
       "2026-03-31 00:00:00": 17100000.0,
-      "2025-03-31 00:00:00": 15494382.0,
+      "2025-03-31 00:00:00": 17100000.0,
       "2024-03-31 00:00:00": 17100000.0,
       "2023-03-31 00:00:00": 17100000.0
     },
@@ -1110,8 +1110,8 @@
     "averageVolume": 7770,
     "averageVolume10days": 13910,
     "averageDailyVolume10Day": 13910,
-    "bid": 2602.0,
-    "ask": 2610.0,
+    "bid": 0.0,
+    "ask": 2630.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 40316305408,
@@ -1180,8 +1180,6 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "regularMarketChangePercent": 2.0392158,
-    "regularMarketPrice": 2602.0,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 956707200000,
     "regularMarketChange": 52.0,
@@ -1197,15 +1195,6 @@
     "earningsTimestampStart": 1747031400,
     "earningsTimestampEnd": 1747031400,
     "isEarningsDateEstimate": false,
-    "epsTrailingTwelveMonths": 234.18,
-    "fiftyDayAverageChange": 180.32007,
-    "fiftyDayAverageChangePercent": 0.07446074,
-    "twoHundredDayAverageChange": 260.53003,
-    "twoHundredDayAverageChangePercent": 0.11126772,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
-    "marketState": "CLOSED",
     "corporateActions": [],
     "regularMarketTime": 1784874600,
     "exchange": "JPX",
@@ -1215,8 +1204,19 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
+    "regularMarketChangePercent": 2.0392158,
+    "regularMarketPrice": 2602.0,
     "shortName": "OTEC CORP",
     "longName": "Otec Corporation",
+    "marketState": "PREPRE",
+    "epsTrailingTwelveMonths": 234.18,
+    "fiftyDayAverageChange": 180.32007,
+    "fiftyDayAverageChangePercent": 0.07446074,
+    "twoHundredDayAverageChange": 260.53003,
+    "twoHundredDayAverageChangePercent": 0.11126772,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
     "trailingPegRatio": null
   }
 }

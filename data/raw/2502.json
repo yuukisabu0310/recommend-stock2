@@ -1,7 +1,7 @@
 {
   "ticker": "2502",
   "japanese_ticker": "2502.T",
-  "fetch_date": "2026-07-26T00:02:49.604521",
+  "fetch_date": "2026-07-27T00:04:43.420065",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2024-12-31 00:00:00": 0.0,
@@ -873,7 +873,7 @@
     },
     "Gain Loss On Investment Securities": {
       "2024-12-31 00:00:00": 5165000000.0,
-      "2023-12-31 00:00:00": null,
+      "2023-12-31 00:00:00": 46395000000.0,
       "2022-12-31 00:00:00": null,
       "2021-12-31 00:00:00": null
     },
@@ -885,7 +885,7 @@
     },
     "Gain Loss On Sale Of Business": {
       "2024-12-31 00:00:00": -1604000000.0,
-      "2023-12-31 00:00:00": null,
+      "2023-12-31 00:00:00": 0.0,
       "2022-12-31 00:00:00": null,
       "2021-12-31 00:00:00": null
     },
@@ -1039,8 +1039,8 @@
     "averageVolume": 6667241,
     "averageVolume10days": 7354030,
     "averageDailyVolume10Day": 7354030,
-    "bid": 1647.5,
-    "ask": 1648.5,
+    "bid": 1655.5,
+    "ask": 1657.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 2410804674560,
@@ -1072,7 +1072,7 @@
     "netIncomeToCommon": 121573998592,
     "trailingEps": 81.25,
     "forwardEps": 143.07,
-    "pegRatio": 0.93,
+    "pegRatio": 0.94,
     "lastSplitFactor": "3:1",
     "lastSplitDate": 1727395200,
     "enterpriseToRevenue": 1.349,
@@ -1119,16 +1119,9 @@
     "customPriceAlertConfidence": "LOW",
     "regularMarketChangePercent": 1.0113393,
     "regularMarketPrice": 1648.0,
-    "shortName": "ASAHI GROUP HLDGS",
-    "longName": "Asahi Group Holdings, Ltd.",
-    "marketState": "CLOSED",
-    "exchange": "JPX",
-    "messageBoardId": "finmb_877335",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
+    "marketState": "REGULAR",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 946944000000,
     "regularMarketChange": 16.5,
     "regularMarketDayRange": "1619.0 - 1655.5",
     "fullExchangeName": "Tokyo",
@@ -1155,10 +1148,17 @@
     "exchangeDataDelayedBy": 20,
     "averageAnalystRating": "1.8 - Buy",
     "cryptoTradeable": false,
+    "shortName": "ASAHI GROUP HLDGS",
+    "longName": "Asahi Group Holdings, Ltd.",
     "corporateActions": [],
     "regularMarketTime": 1784874600,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 946944000000,
+    "exchange": "JPX",
+    "messageBoardId": "finmb_877335",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
     "trailingPegRatio": 0.9411
   }
 }

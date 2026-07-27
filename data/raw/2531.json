@@ -1,7 +1,7 @@
 {
   "ticker": "2531",
   "japanese_ticker": "2531.T",
-  "fetch_date": "2026-07-26T00:02:53.749779",
+  "fetch_date": "2026-07-27T00:04:47.324954",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": 563600000.0,
@@ -1196,8 +1196,8 @@
     "averageVolume": 638711,
     "averageVolume10days": 430020,
     "averageDailyVolume10Day": 430020,
-    "bid": 2155.0,
-    "ask": 2169.0,
+    "bid": 2157.0,
+    "ask": 2160.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 413519806464,
@@ -1266,8 +1266,8 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "regularMarketChangePercent": -0.66682,
-    "regularMarketPrice": 2160.0,
+    "regularMarketChange": -14.5,
+    "regularMarketDayRange": "2133.0 - 2169.0",
     "fullExchangeName": "Tokyo",
     "averageDailyVolume3Month": 638711,
     "fiftyTwoWeekLowChange": 901.0,
@@ -1290,10 +1290,9 @@
     "twoHundredDayAverageChangePercent": 0.22846627,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
-    "shortName": "TAKARA HOLDINGS INC",
     "cryptoTradeable": false,
+    "shortName": "TAKARA HOLDINGS INC",
     "longName": "Takara Holdings Inc.",
-    "marketState": "CLOSED",
     "corporateActions": [],
     "regularMarketTime": 1784874600,
     "exchange": "JPX",
@@ -1305,8 +1304,9 @@
     "esgPopulated": false,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 946944000000,
-    "regularMarketChange": -14.5,
-    "regularMarketDayRange": "2133.0 - 2169.0",
+    "regularMarketChangePercent": -0.66682,
+    "regularMarketPrice": 2160.0,
+    "marketState": "REGULAR",
     "trailingPegRatio": null
   }
 }

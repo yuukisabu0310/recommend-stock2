@@ -1,7 +1,7 @@
 {
   "ticker": "2961",
   "japanese_ticker": "2961.T",
-  "fetch_date": "2026-07-26T00:07:16.096179",
+  "fetch_date": "2026-07-27T00:09:32.504634",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-09-30 00:00:00": 0.0,
@@ -1213,8 +1213,8 @@
     "averageVolume": 451,
     "averageVolume10days": 170,
     "averageDailyVolume10Day": 170,
-    "bid": 5940.0,
-    "ask": 6480.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "marketCap": 7180993024,
     "nonDilutedMarketCap": 7180992840,
     "fiftyTwoWeekLow": 3930.0,
@@ -1281,6 +1281,8 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1636416000000,
     "regularMarketChange": 110.0,
     "regularMarketDayRange": "6390.0 - 6440.0",
     "fullExchangeName": "Tokyo",
@@ -1294,19 +1296,6 @@
     "earningsTimestampStart": 1754028000,
     "earningsTimestampEnd": 1754114400,
     "isEarningsDateEstimate": true,
-    "epsTrailingTwelveMonths": 508.12,
-    "fiftyDayAverageChange": 796.6001,
-    "fiftyDayAverageChangePercent": 0.14115606,
-    "twoHundredDayAverageChange": 1427.8999,
-    "twoHundredDayAverageChangePercent": 0.28489053,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1636416000000,
-    "regularMarketChangePercent": 1.7377566,
-    "regularMarketPrice": 6440.0,
-    "marketState": "CLOSED",
-    "cryptoTradeable": false,
     "corporateActions": [
       {
         "header": "Stock split",
@@ -1326,8 +1315,19 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
+    "regularMarketChangePercent": 1.7377566,
+    "marketState": "REGULAR",
+    "epsTrailingTwelveMonths": 508.12,
+    "fiftyDayAverageChange": 796.6001,
+    "fiftyDayAverageChangePercent": 0.14115606,
+    "twoHundredDayAverageChange": 1427.8999,
+    "twoHundredDayAverageChangePercent": 0.28489053,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
     "shortName": "NITCHO CORPORATION",
     "longName": "Nitcho Corporation",
+    "regularMarketPrice": 6440.0,
     "trailingPegRatio": null
   }
 }

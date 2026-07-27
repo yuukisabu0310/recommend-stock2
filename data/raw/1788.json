@@ -1,7 +1,7 @@
 {
   "ticker": "1788",
   "japanese_ticker": "1788.T",
-  "fetch_date": "2026-07-25T23:54:38.223169",
+  "fetch_date": "2026-07-26T23:55:37.873375",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-06-30 00:00:00": null,
@@ -125,13 +125,13 @@
     },
     "Diluted EPS": {
       "2025-06-30 00:00:00": 371.94,
-      "2024-06-30 00:00:00": null,
+      "2024-06-30 00:00:00": 214.43,
       "2023-06-30 00:00:00": 367.59,
       "2022-06-30 00:00:00": 305.28
     },
     "Basic EPS": {
       "2025-06-30 00:00:00": 371.94,
-      "2024-06-30 00:00:00": null,
+      "2024-06-30 00:00:00": 214.43,
       "2023-06-30 00:00:00": 367.59,
       "2022-06-30 00:00:00": 305.28
     },
@@ -322,7 +322,7 @@
       "2022-06-30 00:00:00": 611522.0
     },
     "Share Issued": {
-      "2024-06-30 00:00:00": 618022.0,
+      "2024-06-30 00:00:00": 686000.0,
       "2023-06-30 00:00:00": 686000.0,
       "2022-06-30 00:00:00": 686000.0
     },
@@ -924,8 +924,8 @@
     "averageVolume": 756,
     "averageVolume10days": 330,
     "averageDailyVolume10Day": 330,
-    "bid": 4210.0,
-    "ask": 4260.0,
+    "bid": 0.0,
+    "ask": 4370.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 2635912704,
@@ -992,22 +992,6 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "shortName": "SANTO CORPORATION",
-    "longName": "Santo Corporation",
-    "regularMarketChangePercent": -0.3554502,
-    "regularMarketPrice": 4205.0,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 947116800000,
-    "corporateActions": [],
-    "regularMarketTime": 1784851200,
-    "exchange": "JPX",
-    "messageBoardId": "finmb_5827070",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
-    "marketState": "CLOSED",
     "regularMarketChange": -15.0,
     "regularMarketDayRange": "4205.0 - 4205.0",
     "fullExchangeName": "Tokyo",
@@ -1029,8 +1013,24 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "prevName": "Santo Co.,Ltd.",
-    "nameChangeDate": "2026-07-25",
+    "nameChangeDate": "2026-07-26",
     "cryptoTradeable": false,
+    "shortName": "SANTO CORPORATION",
+    "longName": "Santo Corporation",
+    "corporateActions": [],
+    "regularMarketTime": 1784851200,
+    "exchange": "JPX",
+    "messageBoardId": "finmb_5827070",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 947116800000,
+    "regularMarketChangePercent": -0.3554502,
+    "regularMarketPrice": 4205.0,
+    "marketState": "PREPRE",
     "trailingPegRatio": null
   }
 }

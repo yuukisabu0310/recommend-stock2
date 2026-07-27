@@ -1,7 +1,7 @@
 {
   "ticker": "1860",
   "japanese_ticker": "1860.T",
-  "fetch_date": "2026-07-25T23:55:34.852544",
+  "fetch_date": "2026-07-26T23:56:41.542014",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": 1598168000.0,
@@ -1157,6 +1157,13 @@
       },
       {
         "maxAge": 1,
+        "name": "Shuuichi  Sugahara",
+        "title": "Managing Executive Officer and GM of Administration & General Affairs Department",
+        "exercisedValue": 0,
+        "unexercisedValue": 0
+      },
+      {
+        "maxAge": 1,
         "name": "Mr. Hiroshi  Uekusa",
         "title": "Executive VP & GM of Strategic Business Division",
         "exercisedValue": 0,
@@ -1194,6 +1201,13 @@
       },
       {
         "maxAge": 1,
+        "name": "Makoto  Ukegawa",
+        "title": "Managing Executive Officer & GM of Civil Engineering Technology Division",
+        "exercisedValue": 0,
+        "unexercisedValue": 0
+      },
+      {
+        "maxAge": 1,
         "name": "Shiraishi  Kazutaka",
         "title": "Senior MEO, Deputy GM of Construction Business Div. & GM of Construction Works Management Dept.",
         "exercisedValue": 0,
@@ -1203,20 +1217,6 @@
         "maxAge": 1,
         "name": "Tsutomu  Sonehara",
         "title": "Executive VP & GM of Construction Business Division",
-        "exercisedValue": 0,
-        "unexercisedValue": 0
-      },
-      {
-        "maxAge": 1,
-        "name": "Masaki  Nakahara",
-        "title": "Executive Vice President",
-        "exercisedValue": 0,
-        "unexercisedValue": 0
-      },
-      {
-        "maxAge": 1,
-        "name": "Kenji  Shinohara",
-        "title": "Managing Executive Officer & GM of Civil Engineering Div",
         "exercisedValue": 0,
         "unexercisedValue": 0
       }
@@ -1251,8 +1251,8 @@
     "averageVolume": 1030890,
     "averageVolume10days": 978250,
     "averageDailyVolume10Day": 978250,
-    "bid": 1525.0,
-    "ask": 1530.0,
+    "bid": 1524.5,
+    "ask": 1525.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 451461054464,
@@ -1327,6 +1327,8 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "corporateActions": [],
+    "regularMarketTime": 1784874600,
     "exchange": "JPX",
     "messageBoardId": "finmb_876263",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1334,13 +1336,25 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
+    "marketState": "PREPRE",
+    "fiftyDayAverageChange": -26.640015,
+    "fiftyDayAverageChangePercent": -0.017168941,
+    "twoHundredDayAverageChange": 136.39001,
+    "twoHundredDayAverageChangePercent": 0.098220535,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "averageAnalystRating": "2.5 - Buy",
+    "cryptoTradeable": false,
     "regularMarketChangePercent": -1.1665586,
     "regularMarketPrice": 1525.0,
-    "corporateActions": [],
-    "regularMarketTime": 1784874600,
-    "cryptoTradeable": false,
     "shortName": "TODA CORP",
     "longName": "Toda Corporation",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 978307200000,
+    "regularMarketChange": -18.0,
+    "regularMarketDayRange": "1518.5 - 1539.0",
+    "fullExchangeName": "Tokyo",
+    "averageDailyVolume3Month": 1030890,
     "fiftyTwoWeekLowChange": 582.7,
     "fiftyTwoWeekLowChangePercent": 0.6183806,
     "fiftyTwoWeekRange": "942.3 - 1665.0",
@@ -1353,20 +1367,6 @@
     "isEarningsDateEstimate": false,
     "epsTrailingTwelveMonths": 123.37,
     "epsForward": 91.2,
-    "fiftyDayAverageChange": -26.640015,
-    "fiftyDayAverageChangePercent": -0.017168941,
-    "twoHundredDayAverageChange": 136.39001,
-    "twoHundredDayAverageChangePercent": 0.098220535,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "averageAnalystRating": "2.5 - Buy",
-    "marketState": "CLOSED",
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 978307200000,
-    "regularMarketChange": -18.0,
-    "regularMarketDayRange": "1518.5 - 1539.0",
-    "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 1030890,
     "trailingPegRatio": null
   }
 }

@@ -1,7 +1,7 @@
 {
   "ticker": "1419",
   "japanese_ticker": "1419.T",
-  "fetch_date": "2026-07-25T23:53:14.050654",
+  "fetch_date": "2026-07-26T23:54:08.536302",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-05-31 00:00:00": -231768000.0,
@@ -1035,8 +1035,8 @@
     "averageVolume": 195271,
     "averageVolume10days": 186750,
     "averageDailyVolume10Day": 186750,
-    "bid": 2995.0,
-    "ask": 3000.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "marketCap": 86935486464,
     "nonDilutedMarketCap": 86935485842,
     "fiftyTwoWeekLow": 2701.0,
@@ -1107,6 +1107,7 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "marketState": "PREPRE",
     "corporateActions": [],
     "regularMarketTime": 1784874600,
     "exchange": "JPX",
@@ -1118,7 +1119,9 @@
     "esgPopulated": false,
     "regularMarketChangePercent": 1.3860717,
     "regularMarketPrice": 2999.0,
-    "marketState": "CLOSED",
+    "shortName": "TAMA HOME CO LIMITED",
+    "longName": "Tama Home Co., Ltd.",
+    "cryptoTradeable": false,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1364342400000,
     "regularMarketChange": 41.0,
@@ -1142,9 +1145,6 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "averageAnalystRating": "5.0 - Sell",
-    "cryptoTradeable": false,
-    "shortName": "TAMA HOME CO LIMITED",
-    "longName": "Tama Home Co., Ltd.",
     "trailingPegRatio": null
   }
 }

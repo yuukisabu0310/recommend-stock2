@@ -1,7 +1,7 @@
 {
   "ticker": "2705",
   "japanese_ticker": "2705.T",
-  "fetch_date": "2026-07-26T00:04:17.702244",
+  "fetch_date": "2026-07-27T00:06:20.148788",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": -23600000.0,
@@ -271,21 +271,21 @@
   "balance_sheet": {
     "Treasury Shares Number": {
       "2026-03-31 00:00:00": 5007.0,
-      "2025-03-31 00:00:00": null,
+      "2025-03-31 00:00:00": 4947.0,
       "2024-03-31 00:00:00": 4919.0,
       "2023-03-31 00:00:00": 9919.0,
-      "2022-03-31 00:00:00": 14873.0
+      "2022-03-31 00:00:00": null
     },
     "Ordinary Shares Number": {
       "2026-03-31 00:00:00": 7258293.0,
-      "2025-03-31 00:00:00": 7252381.0,
+      "2025-03-31 00:00:00": 7252353.0,
       "2024-03-31 00:00:00": 7246881.0,
       "2023-03-31 00:00:00": 7241881.0,
       "2022-03-31 00:00:00": null
     },
     "Share Issued": {
       "2026-03-31 00:00:00": 7263300.0,
-      "2025-03-31 00:00:00": 7252381.0,
+      "2025-03-31 00:00:00": 7257300.0,
       "2024-03-31 00:00:00": 7251800.0,
       "2023-03-31 00:00:00": 7251800.0,
       "2022-03-31 00:00:00": null
@@ -1144,8 +1144,8 @@
     "averageVolume": 14400,
     "averageVolume10days": 15250,
     "averageDailyVolume10Day": 15250,
-    "bid": 8020.0,
-    "ask": 8100.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 58792173568,
@@ -1212,8 +1212,8 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "regularMarketChangePercent": 0.24752475,
-    "regularMarketPrice": 8100.0,
+    "corporateActions": [],
+    "regularMarketTime": 1784874600,
     "exchange": "JPX",
     "messageBoardId": "finmb_5854221",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1221,8 +1221,7 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "corporateActions": [],
-    "regularMarketTime": 1784874600,
+    "marketState": "REGULAR",
     "fiftyDayAverageChange": 464.7998,
     "fiftyDayAverageChangePercent": 0.060875915,
     "twoHundredDayAverageChange": 1393.8999,
@@ -1230,7 +1229,10 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
-    "marketState": "CLOSED",
+    "regularMarketChangePercent": 0.24752475,
+    "regularMarketPrice": 8100.0,
+    "shortName": "OOTOYA HOLDINGS CO LTD",
+    "longName": "OOTOYA Holdings Co., Ltd.",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 999216000000,
     "regularMarketChange": 20.0,
@@ -1247,8 +1249,6 @@
     "earningsTimestampEnd": 1754978400,
     "isEarningsDateEstimate": true,
     "epsTrailingTwelveMonths": 170.1,
-    "shortName": "OOTOYA HOLDINGS CO LTD",
-    "longName": "OOTOYA Holdings Co., Ltd.",
     "trailingPegRatio": null
   }
 }

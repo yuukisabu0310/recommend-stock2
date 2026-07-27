@@ -1,7 +1,7 @@
 {
   "ticker": "2429",
   "japanese_ticker": "2429.T",
-  "fetch_date": "2026-07-26T00:01:44.970565",
+  "fetch_date": "2026-07-27T00:03:34.166259",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-12-31 00:00:00": -39788000.0,
@@ -131,7 +131,7 @@
     },
     "Diluted Average Shares": {
       "2025-12-31 00:00:00": null,
-      "2024-12-31 00:00:00": null,
+      "2024-12-31 00:00:00": 17802638.0,
       "2023-12-31 00:00:00": 17617493.0,
       "2022-12-31 00:00:00": 17579488.0,
       "2021-12-31 00:00:00": 17576656.0
@@ -145,14 +145,14 @@
     },
     "Diluted EPS": {
       "2025-12-31 00:00:00": null,
-      "2024-12-31 00:00:00": null,
+      "2024-12-31 00:00:00": 279.79,
       "2023-12-31 00:00:00": 352.15,
       "2022-12-31 00:00:00": 303.82,
       "2021-12-31 00:00:00": 263.19
     },
     "Basic EPS": {
       "2025-12-31 00:00:00": null,
-      "2024-12-31 00:00:00": null,
+      "2024-12-31 00:00:00": 280.39,
       "2023-12-31 00:00:00": 353.61,
       "2022-12-31 00:00:00": 305.5,
       "2021-12-31 00:00:00": 265.02
@@ -1155,8 +1155,8 @@
     "averageVolume": 62261,
     "averageVolume10days": 67080,
     "averageDailyVolume10Day": 67080,
-    "bid": 2701.0,
-    "ask": 2718.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 47762067456,
@@ -1224,7 +1224,14 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "marketState": "CLOSED",
+    "shortName": "WORLD HOLDINGS CO LTD",
+    "longName": "World Holdings Co., Ltd.",
+    "regularMarketChangePercent": -0.7336757,
+    "regularMarketPrice": 2706.0,
+    "marketState": "REGULAR",
+    "cryptoTradeable": false,
+    "corporateActions": [],
+    "regularMarketTime": 1784874600,
     "exchange": "JPX",
     "messageBoardId": "finmb_13616696",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1232,19 +1239,6 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "fiftyDayAverageChange": 244.3601,
-    "fiftyDayAverageChangePercent": 0.0992672,
-    "twoHundredDayAverageChange": 123.56006,
-    "twoHundredDayAverageChangePercent": 0.047846247,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
-    "shortName": "WORLD HOLDINGS CO LTD",
-    "longName": "World Holdings Co., Ltd.",
-    "regularMarketChangePercent": -0.7336757,
-    "regularMarketPrice": 2706.0,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1198801800000,
     "regularMarketChange": -20.0,
     "regularMarketDayRange": "2678.0 - 2718.0",
     "fullExchangeName": "Tokyo",
@@ -1260,8 +1254,14 @@
     "isEarningsDateEstimate": true,
     "epsTrailingTwelveMonths": 369.1,
     "epsForward": 357.7,
-    "corporateActions": [],
-    "regularMarketTime": 1784874600,
+    "fiftyDayAverageChange": 244.3601,
+    "fiftyDayAverageChangePercent": 0.0992672,
+    "twoHundredDayAverageChange": 123.56006,
+    "twoHundredDayAverageChangePercent": 0.047846247,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1198801800000,
     "trailingPegRatio": null
   }
 }

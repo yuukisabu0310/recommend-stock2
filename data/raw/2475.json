@@ -1,7 +1,7 @@
 {
   "ticker": "2475",
   "japanese_ticker": "2475.T",
-  "fetch_date": "2026-07-26T00:02:17.542786",
+  "fetch_date": "2026-07-27T00:04:08.646905",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": -3472403.5,
@@ -1047,8 +1047,8 @@
     "averageVolume": 24366,
     "averageVolume10days": 11760,
     "averageDailyVolume10Day": 11760,
-    "bid": 1802.0,
-    "ask": 1805.0,
+    "bid": 0.0,
+    "ask": 1847.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 34625253376,
@@ -1117,6 +1117,10 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1205798400000,
+    "shortName": "WDB HOLDINGS CO LTD",
+    "longName": "WDB Holdings Co., Ltd.",
     "corporateActions": [],
     "regularMarketTime": 1784874600,
     "exchange": "JPX",
@@ -1128,9 +1132,7 @@
     "esgPopulated": false,
     "regularMarketChangePercent": -0.44125757,
     "regularMarketPrice": 1805.0,
-    "marketState": "CLOSED",
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1205798400000,
+    "marketState": "REGULAR",
     "regularMarketChange": -8.0,
     "regularMarketDayRange": "1802.0 - 1826.0",
     "fullExchangeName": "Tokyo",
@@ -1153,8 +1155,6 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
-    "shortName": "WDB HOLDINGS CO LTD",
-    "longName": "WDB Holdings Co., Ltd.",
     "trailingPegRatio": null
   }
 }

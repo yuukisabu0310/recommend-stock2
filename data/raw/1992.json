@@ -1,7 +1,7 @@
 {
   "ticker": "1992",
   "japanese_ticker": "1992.T",
-  "fetch_date": "2026-07-25T23:57:22.087245",
+  "fetch_date": "2026-07-26T23:58:39.201329",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": 28276125.0,
@@ -118,7 +118,7 @@
     "Diluted Average Shares": {
       "2026-03-31 00:00:00": null,
       "2025-03-31 00:00:00": 2279423.0,
-      "2024-03-31 00:00:00": 2345146.0,
+      "2024-03-31 00:00:00": 2345190.0,
       "2023-03-31 00:00:00": 2376586.0,
       "2022-03-31 00:00:00": 2404888.0
     },
@@ -301,7 +301,7 @@
     },
     "Ordinary Shares Number": {
       "2026-03-31 00:00:00": 2289728.0,
-      "2025-03-31 00:00:00": 2317619.0,
+      "2025-03-31 00:00:00": 2279423.0,
       "2024-03-31 00:00:00": 2342788.0,
       "2023-03-31 00:00:00": 2381038.0,
       "2022-03-31 00:00:00": null
@@ -1096,8 +1096,8 @@
     "averageVolume": 173,
     "averageVolume10days": 88,
     "averageDailyVolume10Day": 88,
-    "bid": 2985.0,
-    "ask": 2999.0,
+    "bid": 0.0,
+    "ask": 3000.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 6866894336,
@@ -1166,14 +1166,8 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "shortName": "KANDA TSUSHINKI CO",
-    "longName": "Kanda Tsushinki Co., Ltd.",
-    "marketState": "CLOSED",
-    "regularMarketChangePercent": 1.249156,
-    "regularMarketPrice": 2999.0,
-    "cryptoTradeable": false,
-    "corporateActions": [],
-    "regularMarketTime": 1784874600,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 946944000000,
     "regularMarketChange": 37.0,
     "regularMarketDayRange": "2999.0 - 2999.0",
     "fullExchangeName": "Tokyo",
@@ -1188,12 +1182,18 @@
     "earningsTimestampEnd": 1747031400,
     "isEarningsDateEstimate": false,
     "epsTrailingTwelveMonths": 162.85,
+    "shortName": "KANDA TSUSHINKI CO",
+    "longName": "Kanda Tsushinki Co., Ltd.",
     "fiftyDayAverageChange": 137.23999,
     "fiftyDayAverageChangePercent": 0.0479565,
     "twoHundredDayAverageChange": 207.76001,
     "twoHundredDayAverageChangePercent": 0.07443287,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
+    "marketState": "PREPRE",
+    "corporateActions": [],
+    "regularMarketTime": 1784874600,
     "exchange": "JPX",
     "messageBoardId": "finmb_9264357",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1201,8 +1201,8 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 946944000000,
+    "regularMarketChangePercent": 1.249156,
+    "regularMarketPrice": 2999.0,
     "trailingPegRatio": null
   }
 }

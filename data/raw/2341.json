@@ -1,7 +1,7 @@
 {
   "ticker": "2341",
   "japanese_ticker": "2341.T",
-  "fetch_date": "2026-07-26T00:00:44.382747",
+  "fetch_date": "2026-07-27T00:02:22.239492",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-02-28 00:00:00": 507078.0,
@@ -836,7 +836,7 @@
     "Sale Of Investment": {
       "2026-02-28 00:00:00": 0.0,
       "2025-02-28 00:00:00": 13375000.0,
-      "2024-02-29 00:00:00": null,
+      "2024-02-29 00:00:00": 0.0,
       "2023-02-28 00:00:00": null,
       "2022-02-28 00:00:00": null
     },
@@ -1085,8 +1085,8 @@
     "averageVolume": 47265,
     "averageVolume10days": 96410,
     "averageDailyVolume10Day": 96410,
-    "bid": 169.0,
-    "ask": 169.0,
+    "bid": 0.0,
+    "ask": 161.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 3072633088,
@@ -1153,8 +1153,6 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "regularMarketChangePercent": 0.0,
-    "regularMarketPrice": 168.0,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1038960000000,
     "regularMarketChange": 0.0,
@@ -1171,6 +1169,12 @@
     "earningsTimestampEnd": 1744266600,
     "isEarningsDateEstimate": false,
     "epsTrailingTwelveMonths": 10.33,
+    "shortName": "ARBEIT-TIMES CO LTD",
+    "marketState": "REGULAR",
+    "regularMarketChangePercent": 0.0,
+    "regularMarketPrice": 168.0,
+    "corporateActions": [],
+    "regularMarketTime": 1784874600,
     "fiftyDayAverageChange": 3.5,
     "fiftyDayAverageChangePercent": 0.021276595,
     "twoHundredDayAverageChange": -12.199997,
@@ -1178,9 +1182,6 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
-    "marketState": "CLOSED",
-    "corporateActions": [],
-    "regularMarketTime": 1784874600,
     "exchange": "JPX",
     "messageBoardId": "finmb_20333147",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1188,7 +1189,6 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "shortName": "ARBEIT-TIMES CO LTD",
     "longName": "Arbeit-Times Co., Ltd.",
     "trailingPegRatio": null
   }

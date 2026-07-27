@@ -1,7 +1,7 @@
 {
   "ticker": "2337",
   "japanese_ticker": "2337.T",
-  "fetch_date": "2026-07-26T00:00:38.501067",
+  "fetch_date": "2026-07-27T00:02:15.773036",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-02-28 00:00:00": 3408197200.0,
@@ -430,6 +430,12 @@
       "2025-02-28 00:00:00": 243542000000.0,
       "2024-02-29 00:00:00": 185614000000.0,
       "2023-02-28 00:00:00": 195875000000.0
+    },
+    "Long Term Provisions": {
+      "2026-02-28 00:00:00": 345000000.0,
+      "2025-02-28 00:00:00": null,
+      "2024-02-29 00:00:00": null,
+      "2023-02-28 00:00:00": null
     },
     "Current Liabilities": {
       "2026-02-28 00:00:00": 62848000000.0,
@@ -1057,7 +1063,7 @@
         "age": 54,
         "title": "President, Representative Statutory Executive Officer & Director",
         "yearBorn": 1971,
-        "fiscalYear": 2024,
+        "fiscalYear": 2026,
         "totalPay": 192000000,
         "exercisedValue": 0,
         "unexercisedValue": 0
@@ -1068,7 +1074,7 @@
         "age": 61,
         "title": "Chairman & Representative Statutory Executive Officer",
         "yearBorn": 1964,
-        "fiscalYear": 2024,
+        "fiscalYear": 2026,
         "exercisedValue": 0,
         "unexercisedValue": 0
       },
@@ -1078,7 +1084,7 @@
         "age": 49,
         "title": "Executive MD & Statutory Executive Officer of Finance",
         "yearBorn": 1976,
-        "fiscalYear": 2024,
+        "fiscalYear": 2026,
         "exercisedValue": 0,
         "unexercisedValue": 0
       },
@@ -1088,7 +1094,7 @@
         "age": 48,
         "title": "Executive Officer, Deputy GM of Finance Division and GM of Planning & Accounting Department",
         "yearBorn": 1977,
-        "fiscalYear": 2024,
+        "fiscalYear": 2026,
         "exercisedValue": 0,
         "unexercisedValue": 0
       },
@@ -1098,7 +1104,7 @@
         "age": 53,
         "title": "Statutory Executive Officer of Administrations, Risk Management & Compliance",
         "yearBorn": 1972,
-        "fiscalYear": 2024,
+        "fiscalYear": 2026,
         "exercisedValue": 0,
         "unexercisedValue": 0
       },
@@ -1108,7 +1114,7 @@
         "age": 55,
         "title": "Executive MD, Statutory Exec Officer of Communications & Deputy Head of Corp Operations",
         "yearBorn": 1970,
-        "fiscalYear": 2024,
+        "fiscalYear": 2026,
         "exercisedValue": 0,
         "unexercisedValue": 0
       },
@@ -1118,7 +1124,7 @@
         "age": 55,
         "title": "Senior Exe MD, Statutory Exe Officer of Corp Operations, President of Ichigo University & Director",
         "yearBorn": 1970,
-        "fiscalYear": 2024,
+        "fiscalYear": 2026,
         "exercisedValue": 0,
         "unexercisedValue": 0
       },
@@ -1128,7 +1134,7 @@
         "age": 69,
         "title": "Statutory Executive Officer of Audit",
         "yearBorn": 1956,
-        "fiscalYear": 2024,
+        "fiscalYear": 2026,
         "exercisedValue": 0,
         "unexercisedValue": 0
       },
@@ -1138,7 +1144,7 @@
         "age": 50,
         "title": "Senior Statutory Executive Officer of Sustainable Engineering",
         "yearBorn": 1975,
-        "fiscalYear": 2024,
+        "fiscalYear": 2026,
         "exercisedValue": 0,
         "unexercisedValue": 0
       },
@@ -1148,7 +1154,7 @@
         "age": 44,
         "title": "Statutory Executive Officer of Sustainable Infrastructure Business & DX Acceleration",
         "yearBorn": 1981,
-        "fiscalYear": 2024,
+        "fiscalYear": 2026,
         "exercisedValue": 0,
         "unexercisedValue": 0
       }
@@ -1159,7 +1165,7 @@
     "shareHolderRightsRisk": 6,
     "overallRisk": 7,
     "governanceEpochDate": 1782864000,
-    "compensationAsOfEpochDate": 1735603200,
+    "compensationAsOfEpochDate": 1798675200,
     "irWebsite": "http://www.ichigo-holdings.co.jp/shareholders_info/english/index.html",
     "executiveTeam": [],
     "maxAge": 86400,
@@ -1185,7 +1191,7 @@
     "averageVolume": 935910,
     "averageVolume10days": 1028480,
     "averageDailyVolume10Day": 1028480,
-    "bid": 424.0,
+    "bid": 425.0,
     "ask": 425.0,
     "bidSize": 0,
     "askSize": 0,
@@ -1262,20 +1268,6 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "regularMarketChangePercent": -0.7025761,
-    "regularMarketPrice": 424.0,
-    "marketState": "CLOSED",
-    "corporateActions": [],
-    "regularMarketTime": 1784874600,
-    "exchange": "JPX",
-    "messageBoardId": "finmb_9884895",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
-    "shortName": "ICHIGO INC",
-    "longName": "Ichigo Inc.",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1036972800000,
     "regularMarketChange": -3.0,
@@ -1296,6 +1288,13 @@
     "isEarningsDateEstimate": true,
     "epsTrailingTwelveMonths": 40.03,
     "epsForward": 35.19,
+    "corporateActions": [],
+    "regularMarketTime": 1784874600,
+    "marketState": "REGULAR",
+    "regularMarketChangePercent": -0.7025761,
+    "regularMarketPrice": 424.0,
+    "shortName": "ICHIGO INC",
+    "longName": "Ichigo Inc.",
     "fiftyDayAverageChange": -21.100006,
     "fiftyDayAverageChangePercent": -0.04740509,
     "twoHundredDayAverageChange": -15.684998,
@@ -1304,6 +1303,13 @@
     "exchangeDataDelayedBy": 20,
     "averageAnalystRating": "3.0 - Hold",
     "cryptoTradeable": false,
+    "exchange": "JPX",
+    "messageBoardId": "finmb_9884895",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
     "trailingPegRatio": null
   }
 }

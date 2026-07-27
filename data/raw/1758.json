@@ -1,7 +1,7 @@
 {
   "ticker": "1758",
   "japanese_ticker": "1758.T",
-  "fetch_date": "2026-07-25T23:54:16.276645",
+  "fetch_date": "2026-07-26T23:55:15.940823",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-01-31 00:00:00": 5205222.0,
@@ -1316,8 +1316,8 @@
     "averageVolume": 1615,
     "averageVolume10days": 610,
     "averageDailyVolume10Day": 610,
-    "bid": 2400.0,
-    "ask": 2455.0,
+    "bid": 0.0,
+    "ask": 2407.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 4802380800,
@@ -1384,6 +1384,8 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 946944000000,
     "regularMarketChange": -54.0,
     "regularMarketDayRange": "2406.0 - 2460.0",
     "fullExchangeName": "Tokyo",
@@ -1404,12 +1406,10 @@
     "twoHundredDayAverageChangePercent": -0.026606452,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 946944000000,
     "regularMarketChangePercent": -2.195122,
     "regularMarketPrice": 2406.0,
-    "marketState": "CLOSED",
-    "cryptoTradeable": false,
+    "shortName": "TAIYO KISOKOGYO CO",
+    "longName": "Taiyo Kisokogyo Co.,Ltd.",
     "corporateActions": [],
     "regularMarketTime": 1784869269,
     "exchange": "JPX",
@@ -1419,8 +1419,8 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "shortName": "TAIYO KISOKOGYO CO",
-    "longName": "Taiyo Kisokogyo Co.,Ltd.",
+    "marketState": "PREPRE",
+    "cryptoTradeable": false,
     "trailingPegRatio": null
   }
 }

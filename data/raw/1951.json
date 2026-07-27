@@ -1,7 +1,7 @@
 {
   "ticker": "1951",
   "japanese_ticker": "1951.T",
-  "fetch_date": "2026-07-25T23:56:47.276885",
+  "fetch_date": "2026-07-26T23:58:00.387716",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": -702690000.0,
@@ -1173,8 +1173,8 @@
     "averageVolume": 651486,
     "averageVolume10days": 515720,
     "averageDailyVolume10Day": 515720,
-    "bid": 2636.5,
-    "ask": 2646.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 536390270976,
@@ -1250,8 +1250,6 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "regularMarketChangePercent": 1.2272292,
-    "regularMarketPrice": 2639.5,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 978307200000,
     "regularMarketChange": 32.0,
@@ -1279,10 +1277,9 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "prevName": "Kyowa Exeo Corporation",
-    "nameChangeDate": "2026-07-25",
+    "nameChangeDate": "2026-07-26",
     "averageAnalystRating": "2.2 - Buy",
     "cryptoTradeable": false,
-    "marketState": "CLOSED",
     "corporateActions": [],
     "regularMarketTime": 1784874600,
     "exchange": "JPX",
@@ -1292,8 +1289,11 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
+    "regularMarketChangePercent": 1.2272292,
+    "regularMarketPrice": 2639.5,
     "shortName": "EXEO GROUP INC",
     "longName": "EXEO Group, Inc.",
+    "marketState": "PREPRE",
     "trailingPegRatio": null
   }
 }

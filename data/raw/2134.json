@@ -1,7 +1,7 @@
 {
   "ticker": "2134",
   "japanese_ticker": "2134.T",
-  "fetch_date": "2026-07-25T23:58:02.266450",
+  "fetch_date": "2026-07-26T23:59:24.338218",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": 1022400.0,
@@ -125,14 +125,14 @@
     "Diluted Average Shares": {
       "2026-03-31 00:00:00": null,
       "2025-03-31 00:00:00": 279578437.0,
-      "2024-03-31 00:00:00": 140171060.0,
+      "2024-03-31 00:00:00": 140216502.0,
       "2023-03-31 00:00:00": 115679957.0,
       "2022-03-31 00:00:00": 97901057.0
     },
     "Basic Average Shares": {
       "2026-03-31 00:00:00": null,
       "2025-03-31 00:00:00": 279578437.0,
-      "2024-03-31 00:00:00": 140171060.0,
+      "2024-03-31 00:00:00": 140216502.0,
       "2023-03-31 00:00:00": 115679957.0,
       "2022-03-31 00:00:00": 97901057.0
     },
@@ -322,7 +322,7 @@
     },
     "Ordinary Shares Number": {
       "2026-03-31 00:00:00": 547690992.0,
-      "2025-03-31 00:00:00": 375606993.0,
+      "2025-03-31 00:00:00": 298626993.0,
       "2024-03-31 00:00:00": 141556993.0,
       "2023-03-31 00:00:00": 138232538.0,
       "2022-03-31 00:00:00": null
@@ -1343,8 +1343,6 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "regularMarketChangePercent": 0.0,
-    "regularMarketPrice": 25.0,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1165449600000,
     "regularMarketChange": 0.0,
@@ -1361,6 +1359,9 @@
     "earningsTimestampEnd": 1747296000,
     "isEarningsDateEstimate": false,
     "epsTrailingTwelveMonths": -2.49,
+    "regularMarketChangePercent": 0.0,
+    "regularMarketPrice": 25.0,
+    "marketState": "PREPRE",
     "fiftyDayAverageChange": -1.7199993,
     "fiftyDayAverageChangePercent": -0.064371236,
     "twoHundredDayAverageChange": -7.494999,
@@ -1368,11 +1369,10 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "prevName": "Sun Capital Management Corp.",
-    "nameChangeDate": "2026-07-25",
+    "nameChangeDate": "2026-07-26",
     "cryptoTradeable": false,
-    "marketState": "CLOSED",
-    "corporateActions": [],
-    "regularMarketTime": 1784874600,
+    "shortName": "KITAHAMA CAPITAL PARTNERS CO LT",
+    "longName": "Kitahama Capital Partners Co.,Ltd.",
     "exchange": "JPX",
     "messageBoardId": "finmb_30006490",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1380,8 +1380,8 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "shortName": "KITAHAMA CAPITAL PARTNERS CO LT",
-    "longName": "Kitahama Capital Partners Co.,Ltd.",
+    "corporateActions": [],
+    "regularMarketTime": 1784874600,
     "trailingPegRatio": null
   }
 }

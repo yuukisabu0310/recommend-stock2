@@ -1,7 +1,7 @@
 {
   "ticker": "2579",
   "japanese_ticker": "2579.T",
-  "fetch_date": "2026-07-26T00:03:00.819560",
+  "fetch_date": "2026-07-27T00:04:56.356155",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-12-31 00:00:00": 0.0,
@@ -1040,14 +1040,6 @@
       },
       {
         "maxAge": 1,
-        "name": "Mr. Tomokazu  Usagawa",
-        "title": "Executive Officer & Head of Legal",
-        "fiscalYear": 2025,
-        "exercisedValue": 0,
-        "unexercisedValue": 0
-      },
-      {
-        "maxAge": 1,
         "name": "Yuki  Higashi",
         "title": "Executive Officer & Chief Human Resources Officer",
         "fiscalYear": 2025,
@@ -1089,6 +1081,14 @@
         "fiscalYear": 2025,
         "exercisedValue": 0,
         "unexercisedValue": 0
+      },
+      {
+        "maxAge": 1,
+        "name": "Kaneko  .",
+        "title": "Investor Relations Team",
+        "fiscalYear": 2025,
+        "exercisedValue": 0,
+        "unexercisedValue": 0
       }
     ],
     "auditRisk": 1,
@@ -1122,8 +1122,8 @@
     "averageVolume": 968335,
     "averageVolume10days": 682330,
     "averageDailyVolume10Day": 682330,
-    "bid": 4254.0,
-    "ask": 4268.0,
+    "bid": 4299.0,
+    "ask": 4256.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 689279205376,
@@ -1195,18 +1195,9 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "regularMarketChangePercent": 0.638147,
-    "regularMarketPrice": 4258.0,
-    "shortName": "COCA-COLA BOTTLERS JAPAN HLDGS ",
-    "longName": "Coca-Cola Bottlers Japan Holdings Inc.",
-    "marketState": "CLOSED",
-    "exchange": "JPX",
-    "messageBoardId": "finmb_882988",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
+    "marketState": "REGULAR",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 978307200000,
     "regularMarketChange": 27.0,
     "regularMarketDayRange": "4127.0 - 4267.0",
     "fullExchangeName": "Tokyo",
@@ -1233,10 +1224,19 @@
     "exchangeDataDelayedBy": 20,
     "averageAnalystRating": "2.3 - Buy",
     "cryptoTradeable": false,
+    "regularMarketChangePercent": 0.638147,
+    "regularMarketPrice": 4258.0,
+    "shortName": "COCA-COLA BOTTLERS JAPAN HLDGS ",
+    "longName": "Coca-Cola Bottlers Japan Holdings Inc.",
     "corporateActions": [],
     "regularMarketTime": 1784874600,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 978307200000,
+    "exchange": "JPX",
+    "messageBoardId": "finmb_882988",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
     "trailingPegRatio": null
   }
 }

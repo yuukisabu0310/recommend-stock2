@@ -1,7 +1,7 @@
 {
   "ticker": "2819",
   "japanese_ticker": "2819.T",
-  "fetch_date": "2026-07-26T00:05:57.899242",
+  "fetch_date": "2026-07-27T00:08:06.426680",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": 2352000.0,
@@ -125,14 +125,14 @@
     "Diluted Average Shares": {
       "2026-03-31 00:00:00": 9762776.0,
       "2025-03-31 00:00:00": 9771110.0,
-      "2024-03-31 00:00:00": 9815349.0,
+      "2024-03-31 00:00:00": 9816344.0,
       "2023-03-31 00:00:00": 9823034.0,
       "2022-03-31 00:00:00": null
     },
     "Basic Average Shares": {
       "2026-03-31 00:00:00": null,
       "2025-03-31 00:00:00": 9771110.0,
-      "2024-03-31 00:00:00": 9815349.0,
+      "2024-03-31 00:00:00": 9816344.0,
       "2023-03-31 00:00:00": 9823034.0,
       "2022-03-31 00:00:00": 9936622.0
     },
@@ -315,7 +315,7 @@
     },
     "Ordinary Shares Number": {
       "2026-03-31 00:00:00": 9739037.0,
-      "2025-03-31 00:00:00": 9772465.0,
+      "2025-03-31 00:00:00": 9772418.0,
       "2024-03-31 00:00:00": 9806790.0,
       "2023-03-31 00:00:00": 9811365.0,
       "2022-03-31 00:00:00": null
@@ -1179,8 +1179,8 @@
     "averageVolume": 11225,
     "averageVolume10days": 6610,
     "averageDailyVolume10Day": 6610,
-    "bid": 2482.0,
-    "ask": 2518.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 24259940352,
@@ -1246,9 +1246,6 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "regularMarketChangePercent": -0.67783093,
-    "regularMarketPrice": 2491.0,
-    "fullExchangeName": "Tokyo",
     "averageDailyVolume3Month": 11225,
     "fiftyTwoWeekLowChange": 183.0,
     "fiftyTwoWeekLowChangePercent": 0.07928943,
@@ -1268,11 +1265,18 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "prevName": "Ebara Foods Industry, Inc.",
-    "nameChangeDate": "2026-07-25",
-    "shortName": "EBARA FOODS INDUSTRY INC",
+    "nameChangeDate": "2026-07-26",
     "cryptoTradeable": false,
+    "shortName": "EBARA FOODS INDUSTRY INC",
     "longName": "EBARA Foods Industry,Inc.",
-    "marketState": "CLOSED",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1068681600000,
+    "regularMarketChange": -17.0,
+    "regularMarketDayRange": "2464.0 - 2508.0",
+    "fullExchangeName": "Tokyo",
+    "marketState": "REGULAR",
+    "regularMarketChangePercent": -0.67783093,
+    "regularMarketPrice": 2491.0,
     "corporateActions": [],
     "regularMarketTime": 1784874600,
     "exchange": "JPX",
@@ -1282,10 +1286,6 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1068681600000,
-    "regularMarketChange": -17.0,
-    "regularMarketDayRange": "2464.0 - 2508.0",
     "trailingPegRatio": null
   }
 }

@@ -1,7 +1,7 @@
 {
   "ticker": "2602",
   "japanese_ticker": "2602.T",
-  "fetch_date": "2026-07-26T00:03:17.984483",
+  "fetch_date": "2026-07-27T00:05:15.005324",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": 5773264000.0,
@@ -1178,8 +1178,8 @@
     "averageVolume": 278135,
     "averageVolume10days": 259550,
     "averageDailyVolume10Day": 259550,
-    "bid": 1945.0,
-    "ask": 1950.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "marketCap": 178368380928,
     "nonDilutedMarketCap": 178368389550,
     "fiftyTwoWeekLow": 1636.6666,
@@ -1252,8 +1252,6 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "regularMarketChangePercent": 1.0362694,
-    "regularMarketPrice": 1950.0,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 978307200000,
     "regularMarketChange": 20.0,
@@ -1279,7 +1277,6 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
-    "marketState": "CLOSED",
     "corporateActions": [],
     "regularMarketTime": 1784874600,
     "exchange": "JPX",
@@ -1289,8 +1286,11 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
+    "regularMarketChangePercent": 1.0362694,
+    "regularMarketPrice": 1950.0,
     "shortName": "NISSHIN OILLIO GROUP LTD",
     "longName": "The Nisshin OilliO Group,Ltd.",
+    "marketState": "REGULAR",
     "trailingPegRatio": null
   }
 }

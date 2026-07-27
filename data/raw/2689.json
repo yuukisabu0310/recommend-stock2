@@ -1,7 +1,7 @@
 {
   "ticker": "2689",
   "japanese_ticker": "2689.T",
-  "fetch_date": "2026-07-26T00:04:02.205760",
+  "fetch_date": "2026-07-27T00:06:04.312488",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-06-30 00:00:00": null,
@@ -107,14 +107,14 @@
     },
     "Diluted Average Shares": {
       "2025-06-30 00:00:00": 5923495.0,
-      "2024-06-30 00:00:00": null,
-      "2023-06-30 00:00:00": 6020596.0,
+      "2024-06-30 00:00:00": 5961397.0,
+      "2023-06-30 00:00:00": 6020520.0,
       "2022-06-30 00:00:00": 6073244.0
     },
     "Basic Average Shares": {
       "2025-06-30 00:00:00": 5923495.0,
-      "2024-06-30 00:00:00": null,
-      "2023-06-30 00:00:00": 6020596.0,
+      "2024-06-30 00:00:00": 5961397.0,
+      "2023-06-30 00:00:00": 6020520.0,
       "2022-06-30 00:00:00": 6073244.0
     },
     "Diluted EPS": {
@@ -125,7 +125,7 @@
     },
     "Basic EPS": {
       "2025-06-30 00:00:00": 241.43,
-      "2024-06-30 00:00:00": null,
+      "2024-06-30 00:00:00": 251.68,
       "2023-06-30 00:00:00": 234.9,
       "2022-06-30 00:00:00": 252.8
     },
@@ -834,7 +834,7 @@
     },
     "Net Foreign Currency Exchange Gain Loss": {
       "2024-06-30 00:00:00": -7062000.0,
-      "2023-06-30 00:00:00": null,
+      "2023-06-30 00:00:00": 0.0,
       "2022-06-30 00:00:00": null
     },
     "Gain Loss On Sale Of PPE": {
@@ -934,8 +934,8 @@
     "averageVolume": 5958,
     "averageVolume10days": 2630,
     "averageDailyVolume10Day": 2630,
-    "bid": 1910.0,
-    "ask": 1926.0,
+    "bid": 1975.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 11411453952,
@@ -1000,10 +1000,6 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "regularMarketChangePercent": 0.1560874,
-    "regularMarketPrice": 1925.0,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 978566400000,
     "regularMarketChange": 3.0,
     "regularMarketDayRange": "1908.0 - 1927.0",
     "fullExchangeName": "Tokyo",
@@ -1027,9 +1023,13 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "prevName": "Kawanishi Holdings, Inc.",
-    "nameChangeDate": "2026-07-25",
+    "nameChangeDate": "2026-07-26",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 978566400000,
     "cryptoTradeable": false,
-    "marketState": "CLOSED",
+    "regularMarketChangePercent": 0.1560874,
+    "regularMarketPrice": 1925.0,
+    "marketState": "REGULAR",
     "corporateActions": [],
     "regularMarketTime": 1784874600,
     "exchange": "JPX",

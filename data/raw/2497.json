@@ -1,7 +1,7 @@
 {
   "ticker": "2497",
   "japanese_ticker": "2497.T",
-  "fetch_date": "2026-07-26T00:02:41.577280",
+  "fetch_date": "2026-07-27T00:04:34.800822",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": -24013600.0,
@@ -1183,8 +1183,8 @@
     "averageVolume": 25485,
     "averageVolume10days": 22730,
     "averageDailyVolume10Day": 22730,
-    "bid": 513.0,
-    "ask": 517.0,
+    "bid": 0.0,
+    "ask": 520.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 19207335936,
@@ -1252,9 +1252,7 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "regularMarketChangePercent": -1.9120458,
-    "regularMarketPrice": 513.0,
-    "marketState": "CLOSED",
+    "longName": "UNITED, Inc.",
     "corporateActions": [],
     "regularMarketTime": 1784874600,
     "exchange": "JPX",
@@ -1264,8 +1262,6 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "shortName": "UNITED INC",
-    "longName": "UNITED, Inc.",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1156896000000,
     "regularMarketChange": -10.0,
@@ -1283,13 +1279,17 @@
     "isEarningsDateEstimate": true,
     "epsTrailingTwelveMonths": -41.35,
     "epsForward": 49.9,
+    "regularMarketChangePercent": -1.9120458,
+    "regularMarketPrice": 513.0,
+    "cryptoTradeable": false,
+    "shortName": "UNITED INC",
+    "marketState": "REGULAR",
     "fiftyDayAverageChange": 10.73999,
     "fiftyDayAverageChangePercent": 0.021383327,
     "twoHundredDayAverageChange": -0.914978,
     "twoHundredDayAverageChangePercent": -0.0017804074,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
     "trailingPegRatio": null
   }
 }

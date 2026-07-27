@@ -1,7 +1,7 @@
 {
   "ticker": "1844",
   "japanese_ticker": "1844.T",
-  "fetch_date": "2026-07-25T23:55:24.431388",
+  "fetch_date": "2026-07-26T23:56:29.209167",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-07-31 00:00:00": null,
@@ -131,17 +131,17 @@
     },
     "Diluted Average Shares": {
       "2025-07-31 00:00:00": 19051470.0,
-      "2024-07-31 00:00:00": null,
+      "2024-07-31 00:00:00": 18671879.0,
       "2023-07-31 00:00:00": 15997763.0,
       "2022-07-31 00:00:00": 15191299.0,
-      "2021-07-31 00:00:00": 15154891.0
+      "2021-07-31 00:00:00": null
     },
     "Basic Average Shares": {
       "2025-07-31 00:00:00": 18654284.0,
-      "2024-07-31 00:00:00": null,
-      "2023-07-31 00:00:00": 15401208.0,
+      "2024-07-31 00:00:00": 18238041.0,
+      "2023-07-31 00:00:00": 15403249.0,
       "2022-07-31 00:00:00": 14931451.0,
-      "2021-07-31 00:00:00": 14837836.0
+      "2021-07-31 00:00:00": null
     },
     "Diluted EPS": {
       "2025-07-31 00:00:00": 27.22,
@@ -152,10 +152,10 @@
     },
     "Basic EPS": {
       "2025-07-31 00:00:00": 27.8,
-      "2024-07-31 00:00:00": null,
+      "2024-07-31 00:00:00": 22.72,
       "2023-07-31 00:00:00": 19.04,
       "2022-07-31 00:00:00": 17.07,
-      "2021-07-31 00:00:00": 16.39
+      "2021-07-31 00:00:00": null
     },
     "Diluted NI Availto Com Stockholders": {
       "2025-07-31 00:00:00": null,
@@ -355,7 +355,7 @@
       "2021-07-31 00:00:00": 16302.0
     },
     "Ordinary Shares Number": {
-      "2024-07-31 00:00:00": 18654694.0,
+      "2024-07-31 00:00:00": 18654514.0,
       "2023-07-31 00:00:00": 17505284.0,
       "2022-07-31 00:00:00": 14956047.0,
       "2021-07-31 00:00:00": 14857937.0
@@ -1119,8 +1119,8 @@
     "averageVolume": 104986,
     "averageVolume10days": 66350,
     "averageDailyVolume10Day": 66350,
-    "bid": 499.0,
-    "ask": 500.0,
+    "bid": 0.0,
+    "ask": 501.0,
     "marketCap": 9339310080,
     "nonDilutedMarketCap": 9339309449,
     "fiftyTwoWeekLow": 399.0,
@@ -1185,13 +1185,33 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "epsTrailingTwelveMonths": 27.84,
+    "fiftyDayAverageChange": 1.9400024,
+    "fiftyDayAverageChangePercent": 0.0039029543,
+    "twoHundredDayAverageChange": -65.46997,
+    "twoHundredDayAverageChangePercent": -0.11598486,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 978307200000,
-    "marketState": "CLOSED",
+    "regularMarketChange": -2.0,
+    "regularMarketDayRange": "498.0 - 502.0",
+    "fullExchangeName": "Tokyo",
+    "averageDailyVolume3Month": 104986,
+    "fiftyTwoWeekLowChange": 100.0,
+    "fiftyTwoWeekLowChangePercent": 0.25062656,
+    "fiftyTwoWeekRange": "399.0 - 1450.0",
+    "fiftyTwoWeekHighChange": -951.0,
+    "fiftyTwoWeekHighChangePercent": -0.6558621,
+    "fiftyTwoWeekChangePercent": 5.9448004,
+    "earningsTimestampStart": 1749434400,
+    "earningsTimestampEnd": 1749434400,
+    "isEarningsDateEstimate": false,
     "regularMarketChangePercent": -0.3992016,
     "regularMarketPrice": 499.0,
-    "market": "jp_market",
-    "esgPopulated": false,
+    "shortName": "OHMORI CO LTD",
+    "longName": "Ohmori Co.,Ltd.",
     "corporateActions": [
       {
         "header": "Dividend",
@@ -1209,29 +1229,9 @@
     "exchangeTimezoneName": "Asia/Tokyo",
     "exchangeTimezoneShortName": "JST",
     "gmtOffSetMilliseconds": 32400000,
-    "shortName": "OHMORI CO LTD",
-    "longName": "Ohmori Co.,Ltd.",
-    "fiftyDayAverageChange": 1.9400024,
-    "fiftyDayAverageChangePercent": 0.0039029543,
-    "twoHundredDayAverageChange": -65.46997,
-    "twoHundredDayAverageChangePercent": -0.11598486,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
-    "regularMarketChange": -2.0,
-    "regularMarketDayRange": "498.0 - 502.0",
-    "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 104986,
-    "fiftyTwoWeekLowChange": 100.0,
-    "fiftyTwoWeekLowChangePercent": 0.25062656,
-    "fiftyTwoWeekRange": "399.0 - 1450.0",
-    "fiftyTwoWeekHighChange": -951.0,
-    "fiftyTwoWeekHighChangePercent": -0.6558621,
-    "fiftyTwoWeekChangePercent": 5.9448004,
-    "earningsTimestampStart": 1749434400,
-    "earningsTimestampEnd": 1749434400,
-    "isEarningsDateEstimate": false,
-    "epsTrailingTwelveMonths": 27.84,
+    "market": "jp_market",
+    "esgPopulated": false,
+    "marketState": "PREPRE",
     "trailingPegRatio": null
   }
 }

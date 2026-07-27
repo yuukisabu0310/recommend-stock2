@@ -1,7 +1,7 @@
 {
   "ticker": "2163",
   "japanese_ticker": "2163.T",
-  "fetch_date": "2026-07-25T23:58:28.136321",
+  "fetch_date": "2026-07-26T23:59:53.319480",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-01-31 00:00:00": -1497983.372432,
@@ -1119,8 +1119,8 @@
     "averageVolume": 19066,
     "averageVolume10days": 18560,
     "averageDailyVolume10Day": 18560,
-    "bid": 1993.0,
-    "ask": 1996.0,
+    "bid": 0.0,
+    "ask": 2005.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 21125128192,
@@ -1188,8 +1188,6 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1193356800000,
     "regularMarketChange": -7.0,
     "regularMarketDayRange": "1992.0 - 2004.0",
     "fullExchangeName": "Tokyo",
@@ -1212,10 +1210,13 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "prevName": "Artner Co.,Ltd.",
-    "nameChangeDate": "2026-07-25",
+    "nameChangeDate": "2026-07-26",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1193356800000,
     "cryptoTradeable": false,
     "regularMarketChangePercent": -0.35000002,
     "regularMarketPrice": 1993.0,
+    "marketState": "PREPRE",
     "corporateActions": [
       {
         "header": "Dividend",
@@ -1246,7 +1247,6 @@
     "esgPopulated": false,
     "shortName": "ARTNER CO LTD",
     "longName": "Artner Co., Ltd.",
-    "marketState": "CLOSED",
     "trailingPegRatio": null
   }
 }

@@ -1,7 +1,7 @@
 {
   "ticker": "1972",
   "japanese_ticker": "1972.T",
-  "fetch_date": "2026-07-25T23:57:09.587643",
+  "fetch_date": "2026-07-26T23:58:25.395885",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": -622000.0,
@@ -1109,8 +1109,8 @@
     "averageVolume": 73366,
     "averageVolume10days": 29950,
     "averageDailyVolume10Day": 29950,
-    "bid": 1271.0,
-    "ask": 1273.0,
+    "bid": 0.0,
+    "ask": 1280.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 24501747712,
@@ -1179,9 +1179,6 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "regularMarketChangePercent": 0.31570637,
-    "regularMarketPrice": 1271.0,
-    "marketState": "CLOSED",
     "corporateActions": [],
     "regularMarketTime": 1784874600,
     "exchange": "JPX",
@@ -1191,12 +1188,9 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
+    "marketState": "PREPRE",
     "shortName": "SANKO METAL INDUSTRIAL CO",
     "longName": "Sanko Metal Industrial Co., Ltd.",
-    "fiftyTwoWeekChangePercent": -9.858155,
-    "earningsTimestampStart": 1753335000,
-    "earningsTimestampEnd": 1753680600,
-    "isEarningsDateEstimate": true,
     "epsTrailingTwelveMonths": 137.27,
     "fiftyDayAverageChange": 33.56006,
     "fiftyDayAverageChangePercent": 0.027120555,
@@ -1205,6 +1199,8 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
+    "regularMarketChangePercent": 0.31570637,
+    "regularMarketPrice": 1271.0,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 978307200000,
     "regularMarketChange": 4.0,
@@ -1216,6 +1212,10 @@
     "fiftyTwoWeekRange": "1164.0 - 1734.0",
     "fiftyTwoWeekHighChange": -463.0,
     "fiftyTwoWeekHighChangePercent": -0.2670127,
+    "fiftyTwoWeekChangePercent": -9.858155,
+    "earningsTimestampStart": 1753335000,
+    "earningsTimestampEnd": 1753680600,
+    "isEarningsDateEstimate": true,
     "trailingPegRatio": null
   }
 }
