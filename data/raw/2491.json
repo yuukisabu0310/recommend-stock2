@@ -1,19 +1,19 @@
 {
   "ticker": "2491",
   "japanese_ticker": "2491.T",
-  "fetch_date": "2026-08-02T00:00:52.156191",
+  "fetch_date": "2026-08-03T00:02:07.603499",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-12-31 00:00:00": -77952000.0,
       "2024-12-31 00:00:00": 2446280.991736,
-      "2023-12-31 00:00:00": -63700000.0,
+      "2023-12-31 00:00:00": -63765125.96707,
       "2022-12-31 00:00:00": 19937252.073567,
       "2021-12-31 00:00:00": null
     },
     "Tax Rate For Calcs": {
       "2025-12-31 00:00:00": 0.232,
       "2024-12-31 00:00:00": 0.305785,
-      "2023-12-31 00:00:00": 0.325,
+      "2023-12-31 00:00:00": 0.325332,
       "2022-12-31 00:00:00": 0.30208,
       "2021-12-31 00:00:00": null
     },
@@ -76,7 +76,7 @@
     "Normalized Income": {
       "2025-12-31 00:00:00": 745048000.0,
       "2024-12-31 00:00:00": 2849446280.991736,
-      "2023-12-31 00:00:00": 3532300000.0,
+      "2023-12-31 00:00:00": 3532234874.03293,
       "2022-12-31 00:00:00": 5759937252.073567,
       "2021-12-31 00:00:00": null
     },
@@ -104,30 +104,30 @@
     "Diluted Average Shares": {
       "2025-12-31 00:00:00": 21625222.0,
       "2024-12-31 00:00:00": 25211939.0,
-      "2023-12-31 00:00:00": 32337760.0,
+      "2023-12-31 00:00:00": 32334760.0,
       "2022-12-31 00:00:00": 32341800.0,
       "2021-12-31 00:00:00": null
     },
     "Basic Average Shares": {
       "2025-12-31 00:00:00": 21625222.0,
       "2024-12-31 00:00:00": 25211939.0,
-      "2023-12-31 00:00:00": 32337760.0,
+      "2023-12-31 00:00:00": 32331685.0,
       "2022-12-31 00:00:00": 32329328.0,
       "2021-12-31 00:00:00": null
     },
     "Diluted EPS": {
       "2025-12-31 00:00:00": 22.52,
-      "2024-12-31 00:00:00": 113.24,
+      "2024-12-31 00:00:00": null,
       "2023-12-31 00:00:00": 105.15,
       "2022-12-31 00:00:00": 179.52,
-      "2021-12-31 00:00:00": null
+      "2021-12-31 00:00:00": 100.84
     },
     "Basic EPS": {
       "2025-12-31 00:00:00": 22.52,
-      "2024-12-31 00:00:00": 113.24,
+      "2024-12-31 00:00:00": null,
       "2023-12-31 00:00:00": 105.16,
       "2022-12-31 00:00:00": 179.6,
-      "2021-12-31 00:00:00": null
+      "2021-12-31 00:00:00": 100.92
     },
     "Diluted NI Availto Com Stockholders": {
       "2025-12-31 00:00:00": 487000000.0,
@@ -1056,8 +1056,8 @@
     "averageVolume": 241783,
     "averageVolume10days": 226990,
     "averageDailyVolume10Day": 226990,
-    "bid": 469.0,
-    "ask": 473.0,
+    "bid": 0.0,
+    "ask": 447.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 10252903424,
@@ -1125,9 +1125,22 @@
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
     "shortName": "VALUECOMMERCE CO.LTD.",
-    "longName": "ValueCommerce Co., Ltd.",
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
+    "regularMarketChangePercent": 2.826087,
+    "regularMarketPrice": 473.0,
     "corporateActions": [],
     "regularMarketTime": 1785479400,
+    "exchange": "JPX",
+    "messageBoardId": "finmb_89806",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
+    "marketState": "REGULAR",
+    "longName": "ValueCommerce Co., Ltd.",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1154304000000,
     "regularMarketChange": 13.0,
@@ -1150,19 +1163,6 @@
     "fiftyDayAverageChangePercent": 0.018474627,
     "twoHundredDayAverageChange": -69.04999,
     "twoHundredDayAverageChangePercent": -0.12738675,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "marketState": "CLOSED",
-    "cryptoTradeable": false,
-    "exchange": "JPX",
-    "messageBoardId": "finmb_89806",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
-    "regularMarketChangePercent": 2.826087,
-    "regularMarketPrice": 473.0,
     "trailingPegRatio": null
   }
 }

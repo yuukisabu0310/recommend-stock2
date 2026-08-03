@@ -1,7 +1,7 @@
 {
   "ticker": "1914",
   "japanese_ticker": "1914.T",
-  "fetch_date": "2026-08-01T23:53:53.293464",
+  "fetch_date": "2026-08-02T23:55:29.011489",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": 39902720.0,
@@ -1215,8 +1215,8 @@
     "averageVolume": 38839,
     "averageVolume10days": 38880,
     "averageDailyVolume10Day": 38880,
-    "bid": 727.0,
-    "ask": 729.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 13334600704,
@@ -1282,8 +1282,8 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "longName": "Japan Foundation Engineering Co., Ltd.",
-    "shortName": "JAPAN FOUNDATION ENGINEERING CO",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 978307200000,
     "regularMarketChange": 2.0,
     "regularMarketDayRange": "724.0 - 735.0",
     "fullExchangeName": "Tokyo",
@@ -1303,8 +1303,12 @@
     "fiftyDayAverageChangePercent": 0.06488647,
     "twoHundredDayAverageChange": 42.825012,
     "twoHundredDayAverageChangePercent": 0.06241121,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 978307200000,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
+    "shortName": "JAPAN FOUNDATION ENGINEERING CO",
+    "longName": "Japan Foundation Engineering Co., Ltd.",
+    "marketState": "PREPRE",
     "corporateActions": [],
     "regularMarketTime": 1785479400,
     "exchange": "JPX",
@@ -1316,10 +1320,6 @@
     "esgPopulated": false,
     "regularMarketChangePercent": 0.27510315,
     "regularMarketPrice": 729.0,
-    "marketState": "CLOSED",
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
     "trailingPegRatio": null
   }
 }

@@ -1,7 +1,7 @@
 {
   "ticker": "2370",
   "japanese_ticker": "2370.T",
-  "fetch_date": "2026-08-01T23:59:05.887689",
+  "fetch_date": "2026-08-03T00:00:27.364199",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-09-30 00:00:00": 13910024.0,
@@ -131,17 +131,17 @@
     },
     "Basic Average Shares": {
       "2025-09-30 00:00:00": 264647679.0,
-      "2024-09-30 00:00:00": 253282224.0,
+      "2024-09-30 00:00:00": null,
       "2023-09-30 00:00:00": 216084438.0,
       "2022-09-30 00:00:00": 198069652.0,
-      "2021-09-30 00:00:00": null
+      "2021-09-30 00:00:00": 172664409.0
     },
     "Diluted EPS": {
       "2025-09-30 00:00:00": -5.15,
-      "2024-09-30 00:00:00": -5.04,
+      "2024-09-30 00:00:00": null,
       "2023-09-30 00:00:00": -6.65,
       "2022-09-30 00:00:00": -6.33,
-      "2021-09-30 00:00:00": null
+      "2021-09-30 00:00:00": -4.88
     },
     "Basic EPS": {
       "2025-09-30 00:00:00": -5.15,
@@ -1167,24 +1167,10 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "corporateActions": [],
-    "regularMarketTime": 1785479400,
-    "exchange": "JPX",
-    "messageBoardId": "finmb_9830272",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
     "shortName": "MEDINET CO LTD",
-    "longName": "MEDINET Co., Ltd.",
     "regularMarketChangePercent": 0.0,
     "regularMarketPrice": 25.0,
-    "twoHundredDayAverageChangePercent": -0.14617488,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
-    "marketState": "CLOSED",
+    "marketState": "REGULAR",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1065571200000,
     "regularMarketChange": 0.0,
@@ -1204,6 +1190,20 @@
     "fiftyDayAverageChange": -0.42000008,
     "fiftyDayAverageChangePercent": -0.016522426,
     "twoHundredDayAverageChange": -4.2800007,
+    "twoHundredDayAverageChangePercent": -0.14617488,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
+    "longName": "MEDINET Co., Ltd.",
+    "corporateActions": [],
+    "regularMarketTime": 1785479400,
+    "exchange": "JPX",
+    "messageBoardId": "finmb_9830272",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
     "trailingPegRatio": null
   }
 }

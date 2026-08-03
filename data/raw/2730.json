@@ -1,7 +1,7 @@
 {
   "ticker": "2730",
   "japanese_ticker": "2730.T",
-  "fetch_date": "2026-08-02T00:02:52.570785",
+  "fetch_date": "2026-08-03T00:04:00.418453",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": -1224300000.0,
@@ -561,13 +561,6 @@
       "2025-03-31 00:00:00": 4964000000.0,
       "2024-03-31 00:00:00": 2675000000.0,
       "2023-03-31 00:00:00": 2070000000.0,
-      "2022-03-31 00:00:00": null
-    },
-    "Defined Pension Benefit": {
-      "2026-03-31 00:00:00": 1119000000.0,
-      "2025-03-31 00:00:00": 0.0,
-      "2024-03-31 00:00:00": null,
-      "2023-03-31 00:00:00": null,
       "2022-03-31 00:00:00": null
     },
     "Non Current Prepaid Assets": {
@@ -1209,8 +1202,8 @@
     "averageVolume": 436263,
     "averageVolume10days": 296000,
     "averageDailyVolume10Day": 296000,
-    "bid": 2419.0,
-    "ask": 2423.0,
+    "bid": 2449.0,
+    "ask": 2450.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 256101580800,
@@ -1283,9 +1276,6 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "marketState": "CLOSED",
-    "shortName": "EDION CORP",
-    "longName": "EDION Corporation",
     "corporateActions": [],
     "regularMarketTime": 1785479400,
     "exchange": "JPX",
@@ -1297,6 +1287,11 @@
     "esgPopulated": false,
     "regularMarketChangePercent": -3.5828023,
     "regularMarketPrice": 2422.0,
+    "marketState": "REGULAR",
+    "longName": "EDION Corporation",
+    "regularMarketChange": -90.0,
+    "regularMarketDayRange": "2417.0 - 2491.0",
+    "fullExchangeName": "Tokyo",
     "averageDailyVolume3Month": 436263,
     "fiftyTwoWeekLowChange": 534.0,
     "fiftyTwoWeekLowChangePercent": 0.28283897,
@@ -1319,11 +1314,9 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
+    "shortName": "EDION CORP",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1017273600000,
-    "regularMarketChange": -90.0,
-    "regularMarketDayRange": "2417.0 - 2491.0",
-    "fullExchangeName": "Tokyo",
     "trailingPegRatio": null
   }
 }

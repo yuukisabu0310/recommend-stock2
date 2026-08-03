@@ -1,7 +1,7 @@
 {
   "ticker": "1811",
   "japanese_ticker": "1811.T",
-  "fetch_date": "2026-08-01T23:52:27.341304",
+  "fetch_date": "2026-08-02T23:54:12.502487",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": -100009539.473684,
@@ -1131,7 +1131,7 @@
     "averageVolume10days": 3920,
     "averageDailyVolume10Day": 3920,
     "bid": 8100.0,
-    "ask": 8380.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 59941990400,
@@ -1200,6 +1200,10 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "cryptoTradeable": false,
+    "regularMarketChange": 340.0,
+    "regularMarketDayRange": "8080.0 - 8450.0",
+    "fullExchangeName": "Tokyo",
     "averageDailyVolume3Month": 2572,
     "fiftyTwoWeekLowChange": 3975.0,
     "fiftyTwoWeekLowChangePercent": 0.9044369,
@@ -1217,13 +1221,6 @@
     "twoHundredDayAverageChangePercent": 0.016516881,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 954806400000,
-    "regularMarketChange": 340.0,
-    "regularMarketDayRange": "8080.0 - 8450.0",
-    "fullExchangeName": "Tokyo",
-    "marketState": "CLOSED",
     "regularMarketChangePercent": 4.2341223,
     "regularMarketPrice": 8370.0,
     "corporateActions": [],
@@ -1236,7 +1233,10 @@
     "market": "jp_market",
     "esgPopulated": false,
     "shortName": "ZENITAKA CORP",
+    "marketState": "PREPRE",
     "longName": "The Zenitaka Corporation",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 954806400000,
     "trailingPegRatio": null
   }
 }

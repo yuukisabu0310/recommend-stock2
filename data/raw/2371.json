@@ -1,7 +1,7 @@
 {
   "ticker": "2371",
   "japanese_ticker": "2371.T",
-  "fetch_date": "2026-08-01T23:59:07.818834",
+  "fetch_date": "2026-08-03T00:00:29.110972",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": -21114000.0,
@@ -287,10 +287,10 @@
   "balance_sheet": {
     "Treasury Shares Number": {
       "2026-03-31 00:00:00": 382033.0,
-      "2025-03-31 00:00:00": 486331.0,
+      "2025-03-31 00:00:00": null,
       "2024-03-31 00:00:00": 651327.0,
       "2023-03-31 00:00:00": 659087.0,
-      "2022-03-31 00:00:00": null
+      "2022-03-31 00:00:00": 675587.0
     },
     "Ordinary Shares Number": {
       "2026-03-31 00:00:00": 197836267.0,
@@ -1090,8 +1090,8 @@
     "averageVolume": 1184008,
     "averageVolume10days": 464250,
     "averageDailyVolume10Day": 464250,
-    "bid": 3688.0,
-    "ask": 3693.0,
+    "bid": 3690.0,
+    "ask": 3691.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 730015858688,
@@ -1168,19 +1168,8 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "epsTrailingTwelveMonths": 95.2,
-    "epsForward": 124.06,
-    "fiftyDayAverageChange": 226.78003,
-    "fiftyDayAverageChangePercent": 0.06548242,
-    "twoHundredDayAverageChange": 1106.6951,
-    "twoHundredDayAverageChangePercent": 0.4284028,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "averageAnalystRating": "2.4 - Buy",
-    "cryptoTradeable": false,
-    "marketState": "CLOSED",
-    "regularMarketChangePercent": -0.21633315,
-    "regularMarketPrice": 3690.0,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1127952000000,
     "regularMarketChange": -8.0,
     "regularMarketDayRange": "3682.0 - 3698.0",
     "fullExchangeName": "Tokyo",
@@ -1197,6 +1186,21 @@
     "earningsCallTimestampStart": 1746701940,
     "earningsCallTimestampEnd": 1746701940,
     "isEarningsDateEstimate": false,
+    "epsTrailingTwelveMonths": 95.2,
+    "epsForward": 124.06,
+    "fiftyDayAverageChange": 226.78003,
+    "fiftyDayAverageChangePercent": 0.06548242,
+    "twoHundredDayAverageChange": 1106.6951,
+    "twoHundredDayAverageChangePercent": 0.4284028,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "averageAnalystRating": "2.4 - Buy",
+    "cryptoTradeable": false,
+    "regularMarketChangePercent": -0.21633315,
+    "regularMarketPrice": 3690.0,
+    "shortName": "KAKAKU.COM. INC",
+    "longName": "Kakaku.com, Inc.",
+    "marketState": "REGULAR",
     "corporateActions": [],
     "regularMarketTime": 1785479400,
     "exchange": "JPX",
@@ -1206,10 +1210,6 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "shortName": "KAKAKU.COM. INC",
-    "longName": "Kakaku.com, Inc.",
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1127952000000,
     "trailingPegRatio": null
   }
 }

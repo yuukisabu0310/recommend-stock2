@@ -1,7 +1,7 @@
 {
   "ticker": "2593",
   "japanese_ticker": "2593.T",
-  "fetch_date": "2026-08-02T00:01:31.450865",
+  "fetch_date": "2026-08-03T00:02:43.640889",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-04-30 00:00:00": -6567200000.0,
@@ -84,7 +84,7 @@
     "Normalized Income": {
       "2026-04-30 00:00:00": 13316800000.0,
       "2025-04-30 00:00:00": 14640030587.917772,
-      "2024-04-30 00:00:00": 17054408000.0,
+      "2024-04-30 00:00:00": 17054030336.391438,
       "2023-04-30 00:00:00": 13327505000.0
     },
     "Net Income From Continuing And Discontinued Operation": {
@@ -1100,8 +1100,8 @@
     "averageVolume": 470934,
     "averageVolume10days": 450370,
     "averageDailyVolume10Day": 450370,
-    "bid": 2984.0,
-    "ask": 2988.5,
+    "bid": 3013.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 343847272448,
@@ -1177,13 +1177,6 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "shortName": "ITO EN LTD",
-    "longName": "Ito En, Ltd.",
-    "marketState": "CLOSED",
-    "regularMarketChangePercent": -5.058861,
-    "regularMarketPrice": 2984.0,
-    "corporateActions": [],
-    "regularMarketTime": 1785479400,
     "exchange": "JPX",
     "messageBoardId": "finmb_4509036",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1191,6 +1184,13 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
+    "marketState": "REGULAR",
+    "regularMarketChangePercent": -5.058861,
+    "regularMarketPrice": 2984.0,
+    "shortName": "ITO EN LTD",
+    "longName": "Ito En, Ltd.",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 978307200000,
     "regularMarketChange": -159.0,
     "regularMarketDayRange": "2984.0 - 3100.0",
     "fullExchangeName": "Tokyo",
@@ -1216,8 +1216,8 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 978307200000,
+    "corporateActions": [],
+    "regularMarketTime": 1785479400,
     "trailingPegRatio": null
   }
 }

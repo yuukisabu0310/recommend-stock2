@@ -1,7 +1,7 @@
 {
   "ticker": "2918",
   "japanese_ticker": "2918.T",
-  "fetch_date": "2026-08-02T00:05:24.546725",
+  "fetch_date": "2026-08-03T00:06:23.875078",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-02-28 00:00:00": -133425000.0,
@@ -1186,8 +1186,8 @@
     "averageVolume": 92855,
     "averageVolume10days": 117510,
     "averageDailyVolume10Day": 117510,
-    "bid": 2784.0,
-    "ask": 2805.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 48224731136,
@@ -1259,17 +1259,6 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "exchange": "JPX",
-    "messageBoardId": "finmb_883960",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
-    "regularMarketChangePercent": -2.108963,
-    "regularMarketPrice": 2785.0,
-    "shortName": "WARABEYA NICHIYO HOLDINGS CO LT",
-    "longName": "Warabeya Nichiyo Holdings Co., Ltd.",
     "corporateActions": [
       {
         "header": "Dividend",
@@ -1282,6 +1271,20 @@
       }
     ],
     "regularMarketTime": 1785479400,
+    "exchange": "JPX",
+    "messageBoardId": "finmb_883960",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
+    "regularMarketChangePercent": -2.108963,
+    "regularMarketPrice": 2785.0,
+    "shortName": "WARABEYA NICHIYO HOLDINGS CO LT",
+    "longName": "Warabeya Nichiyo Holdings Co., Ltd.",
+    "marketState": "REGULAR",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 978566400000,
     "regularMarketChange": -60.0,
     "regularMarketDayRange": "2783.0 - 2839.0",
     "fullExchangeName": "Tokyo",
@@ -1305,9 +1308,6 @@
     "exchangeDataDelayedBy": 20,
     "averageAnalystRating": "2.0 - Buy",
     "cryptoTradeable": false,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 978566400000,
-    "marketState": "CLOSED",
     "trailingPegRatio": null
   }
 }

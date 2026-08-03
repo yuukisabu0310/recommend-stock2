@@ -1,7 +1,7 @@
 {
   "ticker": "2354",
   "japanese_ticker": "2354.T",
-  "fetch_date": "2026-08-01T23:59:01.250120",
+  "fetch_date": "2026-08-03T00:00:23.445510",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-02-28 00:00:00": 4647178.0,
@@ -308,14 +308,14 @@
   "balance_sheet": {
     "Treasury Shares Number": {
       "2026-02-28 00:00:00": 500315.0,
-      "2025-02-28 00:00:00": 315.0,
+      "2025-02-28 00:00:00": null,
       "2024-02-29 00:00:00": 355.0,
       "2023-02-28 00:00:00": 355.0,
-      "2022-02-28 00:00:00": null
+      "2022-02-28 00:00:00": 355.0
     },
     "Ordinary Shares Number": {
       "2026-02-28 00:00:00": 17825985.0,
-      "2025-02-28 00:00:00": 18319085.0,
+      "2025-02-28 00:00:00": 18319081.0,
       "2024-02-29 00:00:00": 18135445.0,
       "2023-02-28 00:00:00": 18135445.0,
       "2022-02-28 00:00:00": null
@@ -1097,8 +1097,8 @@
     "averageVolume": 974173,
     "averageVolume10days": 4898040,
     "averageDailyVolume10Day": 4898040,
-    "bid": 1231.0,
-    "ask": 1245.0,
+    "bid": 1271.0,
+    "ask": 1271.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 22015090688,
@@ -1162,6 +1162,29 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "marketState": "REGULAR",
+    "shortName": "YE DIGITAL CORPORATION",
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "2354.T announced a cash dividend of JPY 15.00 with an ex-date of Aug. 28, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1787842800000,
+          "amount": "15.00"
+        }
+      }
+    ],
+    "regularMarketTime": 1785479400,
+    "exchange": "JPX",
+    "messageBoardId": "finmb_8378370",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
+    "regularMarketChangePercent": 4.3074327,
+    "regularMarketPrice": 1235.0,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1045785600000,
     "regularMarketChange": 51.0,
@@ -1185,29 +1208,6 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
-    "regularMarketChangePercent": 4.3074327,
-    "regularMarketPrice": 1235.0,
-    "corporateActions": [
-      {
-        "header": "Dividend",
-        "message": "2354.T announced a cash dividend of JPY 15.00 with an ex-date of Aug. 28, 2026",
-        "meta": {
-          "eventType": "DIVIDEND",
-          "dateEpochMs": 1787842800000,
-          "amount": "15.00"
-        }
-      }
-    ],
-    "regularMarketTime": 1785479400,
-    "exchange": "JPX",
-    "messageBoardId": "finmb_8378370",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
-    "marketState": "CLOSED",
-    "shortName": "YE DIGITAL CORPORATION",
     "longName": "YE DIGITAL Corporation",
     "trailingPegRatio": null
   }

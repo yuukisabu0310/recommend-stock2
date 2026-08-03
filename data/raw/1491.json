@@ -1,7 +1,7 @@
 {
   "ticker": "1491",
   "japanese_ticker": "1491.T",
-  "fetch_date": "2026-08-01T23:51:03.310306",
+  "fetch_date": "2026-08-02T23:52:56.256118",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": -1622376.373195,
@@ -1102,8 +1102,8 @@
     "averageVolume": 49113,
     "averageVolume10days": 32760,
     "averageDailyVolume10Day": 32760,
-    "bid": 723.0,
-    "ask": 729.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 10475493376,
@@ -1170,10 +1170,8 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "shortName": "CHUGAI MINING CO",
-    "longName": "Chugai Mining Co., Ltd.",
-    "corporateActions": [],
-    "regularMarketTime": 1785479400,
+    "regularMarketChangePercent": 1.5320334,
+    "regularMarketPrice": 729.0,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 978307200000,
     "regularMarketChange": 11.0,
@@ -1196,8 +1194,11 @@
     "twoHundredDayAverageChangePercent": -0.1728551,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
-    "marketState": "CLOSED",
     "cryptoTradeable": false,
+    "marketState": "PREPRE",
+    "shortName": "CHUGAI MINING CO",
+    "corporateActions": [],
+    "regularMarketTime": 1785479400,
     "exchange": "JPX",
     "messageBoardId": "finmb_883724",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1205,8 +1206,7 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "regularMarketChangePercent": 1.5320334,
-    "regularMarketPrice": 729.0,
+    "longName": "Chugai Mining Co., Ltd.",
     "trailingPegRatio": null
   }
 }

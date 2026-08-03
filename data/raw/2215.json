@@ -1,7 +1,7 @@
 {
   "ticker": "2215",
   "japanese_ticker": "2215.T",
-  "fetch_date": "2026-08-01T23:57:13.026161",
+  "fetch_date": "2026-08-02T23:58:38.749624",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-12-31 00:00:00": -16074000.0,
@@ -138,7 +138,7 @@
     },
     "Diluted EPS": {
       "2025-12-31 00:00:00": null,
-      "2024-12-31 00:00:00": 296.82,
+      "2024-12-31 00:00:00": null,
       "2023-12-31 00:00:00": 68.51,
       "2022-12-31 00:00:00": -165.5,
       "2021-12-31 00:00:00": -106.83
@@ -1103,8 +1103,8 @@
     "averageVolume": 8200,
     "averageVolume10days": 6550,
     "averageDailyVolume10Day": 6550,
-    "bid": 607.0,
-    "ask": 608.0,
+    "bid": 0.0,
+    "ask": 610.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 4209421824,
@@ -1168,6 +1168,10 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "longName": "First Baking Co., Ltd.",
+    "marketState": "PREPRE",
+    "corporateActions": [],
+    "regularMarketTime": 1785479400,
     "exchange": "JPX",
     "messageBoardId": "finmb_880519",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1178,18 +1182,6 @@
     "regularMarketChangePercent": 0.330033,
     "regularMarketPrice": 608.0,
     "shortName": "FIRST BAKING CO",
-    "longName": "First Baking Co., Ltd.",
-    "marketState": "CLOSED",
-    "corporateActions": [],
-    "regularMarketTime": 1785479400,
-    "epsTrailingTwelveMonths": 46.33,
-    "fiftyDayAverageChange": 7.380005,
-    "fiftyDayAverageChangePercent": 0.012287311,
-    "twoHundredDayAverageChange": -1.3400269,
-    "twoHundredDayAverageChangePercent": -0.0021991446,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 978307200000,
     "regularMarketChange": 2.0,
@@ -1205,6 +1197,14 @@
     "earningsTimestampStart": 1754982000,
     "earningsTimestampEnd": 1755500400,
     "isEarningsDateEstimate": true,
+    "epsTrailingTwelveMonths": 46.33,
+    "fiftyDayAverageChange": 7.380005,
+    "fiftyDayAverageChangePercent": 0.012287311,
+    "twoHundredDayAverageChange": -1.3400269,
+    "twoHundredDayAverageChangePercent": -0.0021991446,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
     "trailingPegRatio": null
   }
 }

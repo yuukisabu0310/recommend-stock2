@@ -1,7 +1,7 @@
 {
   "ticker": "2337",
   "japanese_ticker": "2337.T",
-  "fetch_date": "2026-08-01T23:58:40.783243",
+  "fetch_date": "2026-08-03T00:00:02.959524",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-02-28 00:00:00": 3408197200.0,
@@ -430,12 +430,6 @@
       "2025-02-28 00:00:00": 243542000000.0,
       "2024-02-29 00:00:00": 185614000000.0,
       "2023-02-28 00:00:00": 195875000000.0
-    },
-    "Long Term Provisions": {
-      "2026-02-28 00:00:00": 345000000.0,
-      "2025-02-28 00:00:00": null,
-      "2024-02-29 00:00:00": null,
-      "2023-02-28 00:00:00": null
     },
     "Current Liabilities": {
       "2026-02-28 00:00:00": 62848000000.0,
@@ -1101,8 +1095,8 @@
     "averageVolume": 936280,
     "averageVolume10days": 1054050,
     "averageDailyVolume10Day": 1054050,
-    "bid": 414.0,
-    "ask": 415.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 162278785024,
@@ -1178,9 +1172,9 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "marketState": "REGULAR",
     "shortName": "ICHIGO INC",
     "longName": "Ichigo Inc.",
-    "marketState": "CLOSED",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1036972800000,
     "regularMarketChange": -14.0,

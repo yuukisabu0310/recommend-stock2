@@ -1,7 +1,7 @@
 {
   "ticker": "2590",
   "japanese_ticker": "2590.T",
-  "fetch_date": "2026-08-02T00:01:29.393241",
+  "fetch_date": "2026-08-03T00:02:42.262271",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-01-31 00:00:00": -11819200000.0,
@@ -1262,8 +1262,8 @@
     "averageVolume": 128881,
     "averageVolume10days": 118320,
     "averageDailyVolume10Day": 118320,
-    "bid": 3010.0,
-    "ask": 3020.0,
+    "bid": 0.0,
+    "ask": 3005.0,
     "marketCap": 95413616640,
     "nonDilutedMarketCap": 95413619770,
     "fiftyTwoWeekLow": 2400.0,
@@ -1332,6 +1332,9 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "marketState": "REGULAR",
+    "corporateActions": [],
+    "regularMarketTime": 1785479400,
     "exchange": "JPX",
     "messageBoardId": "finmb_5478709",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1339,6 +1342,8 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
+    "shortName": "DYDO GROUP HOLDINGS INC",
+    "longName": "DyDo Group Holdings, Inc.",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 997315200000,
     "regularMarketChange": -50.0,
@@ -1363,13 +1368,8 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
-    "shortName": "DYDO GROUP HOLDINGS INC",
-    "longName": "DyDo Group Holdings, Inc.",
-    "marketState": "CLOSED",
     "regularMarketChangePercent": -1.6339871,
     "regularMarketPrice": 3010.0,
-    "corporateActions": [],
-    "regularMarketTime": 1785479400,
     "trailingPegRatio": null
   }
 }

@@ -1,7 +1,7 @@
 {
   "ticker": "2224",
   "japanese_ticker": "2224.T",
-  "fetch_date": "2026-08-01T23:57:25.135807",
+  "fetch_date": "2026-08-02T23:58:50.061606",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": -22144.0,
@@ -253,10 +253,10 @@
   "balance_sheet": {
     "Treasury Shares Number": {
       "2026-03-31 00:00:00": 155482.0,
-      "2025-03-31 00:00:00": 155482.0,
+      "2025-03-31 00:00:00": null,
       "2024-03-31 00:00:00": 155472.0,
       "2023-03-31 00:00:00": 155422.0,
-      "2022-03-31 00:00:00": null
+      "2022-03-31 00:00:00": 155422.0
     },
     "Ordinary Shares Number": {
       "2026-03-31 00:00:00": 3474518.0,
@@ -1098,8 +1098,8 @@
     "averageVolume": 1355,
     "averageVolume10days": 1300,
     "averageDailyVolume10Day": 1300,
-    "bid": 3670.0,
-    "ask": 3690.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 12820971520,
@@ -1164,6 +1164,14 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "fiftyDayAverageChange": 64.80005,
+    "fiftyDayAverageChangePercent": 0.01787489,
+    "twoHundredDayAverageChange": 129.32495,
+    "twoHundredDayAverageChangePercent": 0.036320347,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
+    "regularMarketChangePercent": 0.27173913,
     "regularMarketPrice": 3690.0,
     "corporateActions": [],
     "regularMarketTime": 1785468600,
@@ -1172,13 +1180,15 @@
     "exchangeTimezoneName": "Asia/Tokyo",
     "exchangeTimezoneShortName": "JST",
     "gmtOffSetMilliseconds": 32400000,
-    "regularMarketChangePercent": 0.27173913,
-    "shortName": "COMO CO LTD",
-    "longName": "Como Co.,Ltd.",
     "market": "jp_market",
     "esgPopulated": false,
-    "marketState": "CLOSED",
-    "cryptoTradeable": false,
+    "shortName": "COMO CO LTD",
+    "longName": "Como Co.,Ltd.",
+    "marketState": "PREPRE",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 946944000000,
+    "regularMarketChange": 10.0,
+    "regularMarketDayRange": "3680.0 - 3690.0",
     "fullExchangeName": "Tokyo",
     "averageDailyVolume3Month": 1355,
     "fiftyTwoWeekLowChange": 510.0,
@@ -1191,16 +1201,6 @@
     "earningsTimestampEnd": 1747029600,
     "isEarningsDateEstimate": false,
     "epsTrailingTwelveMonths": 22.14,
-    "fiftyDayAverageChange": 64.80005,
-    "fiftyDayAverageChangePercent": 0.01787489,
-    "twoHundredDayAverageChange": 129.32495,
-    "twoHundredDayAverageChangePercent": 0.036320347,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 946944000000,
-    "regularMarketChange": 10.0,
-    "regularMarketDayRange": "3680.0 - 3690.0",
     "trailingPegRatio": null
   }
 }

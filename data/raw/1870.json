@@ -1,7 +1,7 @@
 {
   "ticker": "1870",
   "japanese_ticker": "1870.T",
-  "fetch_date": "2026-08-01T23:53:17.298940",
+  "fetch_date": "2026-08-02T23:54:57.940671",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": -490941000.0,
@@ -271,10 +271,10 @@
   "balance_sheet": {
     "Treasury Shares Number": {
       "2026-03-31 00:00:00": 1425741.0,
-      "2025-03-31 00:00:00": 1578452.0,
+      "2025-03-31 00:00:00": null,
       "2024-03-31 00:00:00": 1584173.0,
       "2023-03-31 00:00:00": 1598000.0,
-      "2022-03-31 00:00:00": null
+      "2022-03-31 00:00:00": 1612000.0
     },
     "Ordinary Shares Number": {
       "2026-03-31 00:00:00": 43181716.0,
@@ -1153,8 +1153,8 @@
     "averageVolume": 170685,
     "averageVolume10days": 138290,
     "averageDailyVolume10Day": 138290,
-    "bid": 1907.0,
-    "ask": 1908.0,
+    "bid": 0.0,
+    "ask": 1950.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 82390712320,
@@ -1221,8 +1221,6 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "corporateActions": [],
-    "regularMarketTime": 1785479400,
     "exchange": "JPX",
     "messageBoardId": "finmb_881125",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1232,7 +1230,24 @@
     "esgPopulated": false,
     "regularMarketChangePercent": -1.446281,
     "regularMarketPrice": 1908.0,
+    "corporateActions": [],
+    "regularMarketTime": 1785479400,
+    "shortName": "YAHAGI CONSTRUCTION CO",
     "longName": "Yahagi Construction Co.,Ltd.",
+    "marketState": "PREPRE",
+    "earningsTimestampStart": 1754456400,
+    "earningsTimestampEnd": 1754974800,
+    "isEarningsDateEstimate": true,
+    "epsTrailingTwelveMonths": 196.71,
+    "fiftyDayAverageChange": 54.54004,
+    "fiftyDayAverageChangePercent": 0.029426068,
+    "twoHundredDayAverageChange": -230.89502,
+    "twoHundredDayAverageChangePercent": -0.107950605,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 978566400000,
     "regularMarketChange": -28.0,
     "regularMarketDayRange": "1905.0 - 1936.0",
     "fullExchangeName": "Tokyo",
@@ -1243,21 +1258,6 @@
     "fiftyTwoWeekHighChange": -626.0,
     "fiftyTwoWeekHighChangePercent": -0.24704026,
     "fiftyTwoWeekChangePercent": -5.7777762,
-    "earningsTimestampStart": 1754456400,
-    "earningsTimestampEnd": 1754974800,
-    "isEarningsDateEstimate": true,
-    "epsTrailingTwelveMonths": 196.71,
-    "marketState": "CLOSED",
-    "shortName": "YAHAGI CONSTRUCTION CO",
-    "fiftyDayAverageChange": 54.54004,
-    "fiftyDayAverageChangePercent": 0.029426068,
-    "twoHundredDayAverageChange": -230.89502,
-    "twoHundredDayAverageChangePercent": -0.107950605,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 978566400000,
     "trailingPegRatio": null
   }
 }

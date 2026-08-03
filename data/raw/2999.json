@@ -1,7 +1,7 @@
 {
   "ticker": "2999",
   "japanese_ticker": "2999.T",
-  "fetch_date": "2026-08-02T00:06:29.287433",
+  "fetch_date": "2026-08-03T00:07:23.991857",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-08-31 00:00:00": -3923244.0,
@@ -1089,8 +1089,8 @@
     "averageVolume": 11336,
     "averageVolume10days": 15570,
     "averageDailyVolume10Day": 15570,
-    "bid": 641.0,
-    "ask": 649.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "marketCap": 6022451200,
     "nonDilutedMarketCap": 6022451400,
     "fiftyTwoWeekLow": 405.0,
@@ -1153,8 +1153,7 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1655942400000,
+    "cryptoTradeable": false,
     "regularMarketChange": 0.0,
     "regularMarketDayRange": "636.0 - 649.0",
     "fullExchangeName": "Tokyo",
@@ -1169,16 +1168,14 @@
     "earningsTimestampEnd": 1744266600,
     "isEarningsDateEstimate": false,
     "epsTrailingTwelveMonths": 69.16,
-    "longName": "Home Position Co., Ltd.",
-    "shortName": "HOME POSITION CO LTD",
     "fiftyDayAverageChange": 49.080017,
     "fiftyDayAverageChangePercent": 0.08291664,
     "twoHundredDayAverageChange": 132.35999,
     "twoHundredDayAverageChangePercent": 0.2602233,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
-    "marketState": "CLOSED",
+    "regularMarketChangePercent": 0.0,
+    "regularMarketPrice": 641.0,
     "corporateActions": [
       {
         "header": "Dividend",
@@ -1198,8 +1195,11 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "regularMarketChangePercent": 0.0,
-    "regularMarketPrice": 641.0,
+    "shortName": "HOME POSITION CO LTD",
+    "marketState": "REGULAR",
+    "longName": "Home Position Co., Ltd.",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1655942400000,
     "trailingPegRatio": null
   }
 }

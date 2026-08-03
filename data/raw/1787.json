@@ -1,7 +1,7 @@
 {
   "ticker": "1787",
   "japanese_ticker": "1787.T",
-  "fetch_date": "2026-08-01T23:52:01.928915",
+  "fetch_date": "2026-08-02T23:53:49.708590",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": 53487268.4,
@@ -357,7 +357,7 @@
     },
     "Share Issued": {
       "2026-03-31 00:00:00": 2602500.0,
-      "2025-03-31 00:00:00": 2602500.0,
+      "2025-03-31 00:00:00": 2460918.0,
       "2024-03-31 00:00:00": 2602500.0,
       "2023-03-31 00:00:00": 2602500.0,
       "2022-03-31 00:00:00": null
@@ -1051,8 +1051,8 @@
     "averageVolume": 1114,
     "averageVolume10days": 440,
     "averageDailyVolume10Day": 440,
-    "bid": 5590.0,
-    "ask": 5950.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 14221675520,
@@ -1120,6 +1120,10 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "shortName": "NAKABOHTEC CORROSION PROTECTING",
+    "longName": "Nakabohtec Corrosion Protecting Co.,Ltd.",
+    "corporateActions": [],
+    "regularMarketTime": 1785456000,
     "exchange": "JPX",
     "messageBoardId": "finmb_5774228",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1129,11 +1133,6 @@
     "esgPopulated": false,
     "regularMarketChangePercent": 1.754386,
     "regularMarketPrice": 5800.0,
-    "shortName": "NAKABOHTEC CORROSION PROTECTING",
-    "longName": "Nakabohtec Corrosion Protecting Co.,Ltd.",
-    "marketState": "CLOSED",
-    "corporateActions": [],
-    "regularMarketTime": 1785456000,
     "epsTrailingTwelveMonths": 483.72,
     "fiftyDayAverageChange": 274.3999,
     "fiftyDayAverageChangePercent": 0.049659748,
@@ -1157,6 +1156,7 @@
     "earningsTimestampStart": 1746694800,
     "earningsTimestampEnd": 1746694800,
     "isEarningsDateEstimate": false,
+    "marketState": "PREPRE",
     "trailingPegRatio": null
   }
 }

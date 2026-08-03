@@ -1,7 +1,7 @@
 {
   "ticker": "2268",
   "japanese_ticker": "2268.T",
-  "fetch_date": "2026-08-01T23:57:36.957673",
+  "fetch_date": "2026-08-02T23:59:00.834932",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-12-31 00:00:00": -45917796.0,
@@ -139,7 +139,7 @@
     "Basic Average Shares": {
       "2025-12-31 00:00:00": null,
       "2024-12-31 00:00:00": 9635837.0,
-      "2023-12-31 00:00:00": 9635837.0,
+      "2023-12-31 00:00:00": 9635896.0,
       "2022-12-31 00:00:00": 9635850.0,
       "2021-12-31 00:00:00": 9635905.0
     },
@@ -152,7 +152,7 @@
     },
     "Basic EPS": {
       "2025-12-31 00:00:00": null,
-      "2024-12-31 00:00:00": 160.2,
+      "2024-12-31 00:00:00": null,
       "2023-12-31 00:00:00": 124.72,
       "2022-12-31 00:00:00": 127.95,
       "2021-12-31 00:00:00": 80.83
@@ -364,7 +364,7 @@
   "balance_sheet": {
     "Treasury Shares Number": {
       "2025-12-31 00:00:00": 8717.0,
-      "2024-12-31 00:00:00": 8717.0,
+      "2024-12-31 00:00:00": null,
       "2023-12-31 00:00:00": 8717.0,
       "2022-12-31 00:00:00": null,
       "2021-12-31 00:00:00": 8673.0
@@ -378,7 +378,7 @@
     },
     "Share Issued": {
       "2025-12-31 00:00:00": 9644554.0,
-      "2024-12-31 00:00:00": 9644554.0,
+      "2024-12-31 00:00:00": 9635837.0,
       "2023-12-31 00:00:00": 9644554.0,
       "2022-12-31 00:00:00": 9635881.0,
       "2021-12-31 00:00:00": null
@@ -1220,8 +1220,8 @@
     "averageVolume": 7967,
     "averageVolume10days": 12160,
     "averageDailyVolume10Day": 12160,
-    "bid": 4065.0,
-    "ask": 4075.0,
+    "bid": 0.0,
+    "ask": 4090.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 39217856512,
@@ -1288,14 +1288,10 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "marketState": "PREPRE",
+    "shortName": "BR 31 ICE CREAM CO.LTD",
     "corporateActions": [],
     "regularMarketTime": 1785479400,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
-    "marketState": "CLOSED",
-    "shortName": "BR 31 ICE CREAM CO.LTD",
-    "longName": "B-R 31 Ice Cream Co.,Ltd.",
     "exchange": "JPX",
     "messageBoardId": "finmb_12721969",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1305,10 +1301,18 @@
     "esgPopulated": false,
     "regularMarketChangePercent": -0.24509805,
     "regularMarketPrice": 4070.0,
+    "fiftyDayAverageChange": -30.399902,
+    "fiftyDayAverageChangePercent": -0.0074138874,
+    "twoHundredDayAverageChange": 8.800049,
+    "twoHundredDayAverageChangePercent": 0.0021668593,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 946944000000,
     "regularMarketChange": -10.0,
     "regularMarketDayRange": "4065.0 - 4085.0",
+    "longName": "B-R 31 Ice Cream Co.,Ltd.",
     "fullExchangeName": "Tokyo",
     "averageDailyVolume3Month": 7967,
     "fiftyTwoWeekLowChange": 105.0,
@@ -1321,10 +1325,6 @@
     "earningsTimestampEnd": 1753164000,
     "isEarningsDateEstimate": true,
     "epsTrailingTwelveMonths": 172.57,
-    "fiftyDayAverageChange": -30.399902,
-    "fiftyDayAverageChangePercent": -0.0074138874,
-    "twoHundredDayAverageChange": 8.800049,
-    "twoHundredDayAverageChangePercent": 0.0021668593,
     "trailingPegRatio": null
   }
 }

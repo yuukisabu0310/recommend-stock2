@@ -1,7 +1,7 @@
 {
   "ticker": "2961",
   "japanese_ticker": "2961.T",
-  "fetch_date": "2026-08-02T00:05:57.229445",
+  "fetch_date": "2026-08-03T00:06:54.738308",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-09-30 00:00:00": 0.0,
@@ -1213,8 +1213,8 @@
     "averageVolume": 1893,
     "averageVolume10days": 1322,
     "averageDailyVolume10Day": 1322,
-    "bid": 1570.0,
-    "ask": 1599.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "marketCap": 7007043072,
     "nonDilutedMarketCap": 7007043324,
     "fiftyTwoWeekLow": 986.25,
@@ -1281,8 +1281,7 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1636416000000,
+    "cryptoTradeable": false,
     "regularMarketChange": 16.0,
     "regularMarketDayRange": "1515.0 - 1600.0",
     "fullExchangeName": "Tokyo",
@@ -1303,10 +1302,6 @@
     "twoHundredDayAverageChangePercent": 0.23564085,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
-    "marketState": "CLOSED",
-    "shortName": "NITCHO CORPORATION",
-    "longName": "Nitcho Corporation",
     "regularMarketChangePercent": 1.0289389,
     "regularMarketPrice": 1571.0,
     "corporateActions": [],
@@ -1318,6 +1313,11 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
+    "shortName": "NITCHO CORPORATION",
+    "marketState": "REGULAR",
+    "longName": "Nitcho Corporation",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1636416000000,
     "trailingPegRatio": null
   }
 }

@@ -1,7 +1,7 @@
 {
   "ticker": "2929",
   "japanese_ticker": "2929.T",
-  "fetch_date": "2026-08-02T00:05:36.839618",
+  "fetch_date": "2026-08-03T00:06:35.668478",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-07-31 00:00:00": -39672000.0,
@@ -107,25 +107,25 @@
     },
     "Diluted Average Shares": {
       "2025-07-31 00:00:00": 28682775.0,
-      "2024-07-31 00:00:00": 28441034.0,
-      "2023-07-31 00:00:00": 28876505.0,
+      "2024-07-31 00:00:00": null,
+      "2023-07-31 00:00:00": 28875351.0,
       "2022-07-31 00:00:00": 29013832.0
     },
     "Basic Average Shares": {
       "2025-07-31 00:00:00": 28682775.0,
-      "2024-07-31 00:00:00": 28441034.0,
-      "2023-07-31 00:00:00": 28876505.0,
+      "2024-07-31 00:00:00": null,
+      "2023-07-31 00:00:00": 28875351.0,
       "2022-07-31 00:00:00": 29013832.0
     },
     "Diluted EPS": {
       "2025-07-31 00:00:00": null,
-      "2024-07-31 00:00:00": 112.71,
+      "2024-07-31 00:00:00": null,
       "2023-07-31 00:00:00": 106.7,
       "2022-07-31 00:00:00": -12.89
     },
     "Basic EPS": {
       "2025-07-31 00:00:00": null,
-      "2024-07-31 00:00:00": 112.71,
+      "2024-07-31 00:00:00": null,
       "2023-07-31 00:00:00": 106.7,
       "2022-07-31 00:00:00": -12.89
     },
@@ -1009,8 +1009,8 @@
     "averageVolume": 176931,
     "averageVolume10days": 188810,
     "averageDailyVolume10Day": 188810,
-    "bid": 558.0,
-    "ask": 560.0,
+    "bid": 0.0,
+    "ask": 555.0,
     "marketCap": 16206203904,
     "nonDilutedMarketCap": 16206204366,
     "fiftyTwoWeekLow": 513.0,
@@ -1076,8 +1076,9 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "marketState": "REGULAR",
     "shortName": "PHARMA FOODS INTERNATIONAL CO",
-    "marketState": "CLOSED",
+    "longName": "Pharma Foods International Co., Ltd.",
     "corporateActions": [],
     "regularMarketTime": 1785479400,
     "exchange": "JPX",
@@ -1089,6 +1090,18 @@
     "esgPopulated": false,
     "regularMarketChangePercent": -3.4602075,
     "regularMarketPrice": 558.0,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1150070400000,
+    "regularMarketChange": -20.0,
+    "regularMarketDayRange": "555.0 - 578.0",
+    "fullExchangeName": "Tokyo",
+    "averageDailyVolume3Month": 176931,
+    "fiftyTwoWeekLowChange": 45.0,
+    "fiftyTwoWeekLowChangePercent": 0.0877193,
+    "fiftyTwoWeekRange": "513.0 - 1064.0",
+    "fiftyTwoWeekHighChange": -506.0,
+    "fiftyTwoWeekHighChangePercent": -0.4755639,
+    "fiftyTwoWeekChangePercent": -37.232845,
     "earningsTimestampStart": 1749535200,
     "earningsTimestampEnd": 1749535200,
     "isEarningsDateEstimate": false,
@@ -1101,19 +1114,6 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
-    "regularMarketChange": -20.0,
-    "regularMarketDayRange": "555.0 - 578.0",
-    "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 176931,
-    "fiftyTwoWeekLowChange": 45.0,
-    "fiftyTwoWeekLowChangePercent": 0.0877193,
-    "fiftyTwoWeekRange": "513.0 - 1064.0",
-    "fiftyTwoWeekHighChange": -506.0,
-    "fiftyTwoWeekHighChangePercent": -0.4755639,
-    "fiftyTwoWeekChangePercent": -37.232845,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1150070400000,
-    "longName": "Pharma Foods International Co., Ltd.",
     "trailingPegRatio": null
   }
 }

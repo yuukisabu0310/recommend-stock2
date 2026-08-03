@@ -1,7 +1,7 @@
 {
   "ticker": "2325",
   "japanese_ticker": "2325.T",
-  "fetch_date": "2026-08-01T23:58:22.137766",
+  "fetch_date": "2026-08-02T23:59:44.553552",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-12-31 00:00:00": -51995385.0,
@@ -145,14 +145,14 @@
     },
     "Diluted EPS": {
       "2025-12-31 00:00:00": null,
-      "2024-12-31 00:00:00": 222.22,
+      "2024-12-31 00:00:00": null,
       "2023-12-31 00:00:00": 209.33,
       "2022-12-31 00:00:00": 181.03,
       "2021-12-31 00:00:00": 202.4
     },
     "Basic EPS": {
       "2025-12-31 00:00:00": null,
-      "2024-12-31 00:00:00": 222.22,
+      "2024-12-31 00:00:00": null,
       "2023-12-31 00:00:00": 209.33,
       "2022-12-31 00:00:00": 181.03,
       "2021-12-31 00:00:00": 202.4
@@ -1241,8 +1241,8 @@
     "averageVolume": 30524,
     "averageVolume10days": 29050,
     "averageDailyVolume10Day": 29050,
-    "bid": 4430.0,
-    "ask": 4455.0,
+    "bid": 0.0,
+    "ask": 4550.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 42282618880,
@@ -1309,6 +1309,9 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "corporateActions": [],
+    "regularMarketTime": 1785479400,
+    "marketState": "PREPRE",
     "exchange": "JPX",
     "messageBoardId": "finmb_6469603",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1320,18 +1323,6 @@
     "regularMarketPrice": 4440.0,
     "shortName": "NJS CO. LTD",
     "longName": "NJS Co., Ltd.",
-    "marketState": "CLOSED",
-    "corporateActions": [],
-    "regularMarketTime": 1785479400,
-    "epsTrailingTwelveMonths": 229.1,
-    "epsForward": 209.6,
-    "fiftyDayAverageChange": -283.3999,
-    "fiftyDayAverageChangePercent": -0.059999134,
-    "twoHundredDayAverageChange": -440.1748,
-    "twoHundredDayAverageChangePercent": -0.09019653,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1032998400000,
     "regularMarketChange": -125.0,
@@ -1347,6 +1338,15 @@
     "earningsTimestampStart": 1754971200,
     "earningsTimestampEnd": 1755489600,
     "isEarningsDateEstimate": true,
+    "epsTrailingTwelveMonths": 229.1,
+    "epsForward": 209.6,
+    "fiftyDayAverageChange": -283.3999,
+    "fiftyDayAverageChangePercent": -0.059999134,
+    "twoHundredDayAverageChange": -440.1748,
+    "twoHundredDayAverageChangePercent": -0.09019653,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
     "trailingPegRatio": null
   }
 }

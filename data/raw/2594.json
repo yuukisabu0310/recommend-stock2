@@ -1,7 +1,7 @@
 {
   "ticker": "2594",
   "japanese_ticker": "2594.T",
-  "fetch_date": "2026-08-02T00:01:33.313567",
+  "fetch_date": "2026-08-03T00:02:45.504608",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": -1603000.0,
@@ -1261,8 +1261,8 @@
     "averageVolume": 69183,
     "averageVolume10days": 77510,
     "averageDailyVolume10Day": 77510,
-    "bid": 1997.0,
-    "ask": 2011.0,
+    "bid": 2000.0,
+    "ask": 2014.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 42868326400,
@@ -1327,13 +1327,7 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 978307200000,
-    "regularMarketChange": -15.0,
-    "regularMarketDayRange": "1984.0 - 2027.0",
-    "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 69183,
-    "marketState": "CLOSED",
+    "marketState": "REGULAR",
     "corporateActions": [],
     "regularMarketTime": 1785479400,
     "exchange": "JPX",
@@ -1347,7 +1341,6 @@
     "regularMarketPrice": 2001.0,
     "shortName": "KEY COFFEE INC",
     "longName": "Key Coffee Inc.",
-    "fiftyTwoWeekLowChange": 97.0,
     "fiftyTwoWeekLowChangePercent": 0.05094538,
     "fiftyTwoWeekRange": "1904.0 - 2078.0",
     "fiftyTwoWeekHighChange": -77.0,
@@ -1364,6 +1357,13 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 978307200000,
+    "regularMarketChange": -15.0,
+    "regularMarketDayRange": "1984.0 - 2027.0",
+    "fullExchangeName": "Tokyo",
+    "averageDailyVolume3Month": 69183,
+    "fiftyTwoWeekLowChange": 97.0,
     "trailingPegRatio": null
   }
 }

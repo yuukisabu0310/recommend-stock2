@@ -1,7 +1,7 @@
 {
   "ticker": "1605",
   "japanese_ticker": "1605.T",
-  "fetch_date": "2026-08-01T23:51:11.458623",
+  "fetch_date": "2026-08-02T23:53:04.364581",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-12-31 00:00:00": 0.0,
@@ -1232,8 +1232,8 @@
     "averageVolume": 5419239,
     "averageVolume10days": 4694260,
     "averageDailyVolume10Day": 4694260,
-    "bid": 3625.0,
-    "ask": 3627.0,
+    "bid": 3626.0,
+    "ask": 3625.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 4215262412800,
@@ -1307,8 +1307,8 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 946944000000,
+    "cryptoTradeable": false,
+    "marketState": "PREPRE",
     "regularMarketChange": -1.0,
     "regularMarketDayRange": "3588.0 - 3641.0",
     "fullExchangeName": "Tokyo",
@@ -1333,7 +1333,6 @@
     "twoHundredDayAverageChangePercent": 0.017391304,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
     "corporateActions": [],
     "regularMarketTime": 1785479400,
     "exchange": "JPX",
@@ -1345,7 +1344,8 @@
     "esgPopulated": false,
     "shortName": "INPEX CORPORATION",
     "longName": "Inpex Corporation",
-    "marketState": "CLOSED",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 946944000000,
     "regularMarketChangePercent": -0.027563397,
     "regularMarketPrice": 3627.0,
     "trailingPegRatio": null

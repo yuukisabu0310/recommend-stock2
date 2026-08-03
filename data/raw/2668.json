@@ -1,7 +1,7 @@
 {
   "ticker": "2668",
   "japanese_ticker": "2668.T",
-  "fetch_date": "2026-08-02T00:02:01.791794",
+  "fetch_date": "2026-08-03T00:03:14.103569",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-02-28 00:00:00": -35965325.0,
@@ -125,14 +125,14 @@
     "Diluted Average Shares": {
       "2026-02-28 00:00:00": 6792941.0,
       "2025-02-28 00:00:00": 6788000.0,
-      "2024-02-29 00:00:00": 6796825.0,
+      "2024-02-29 00:00:00": 6796351.0,
       "2023-02-28 00:00:00": 6800886.0,
       "2022-02-28 00:00:00": null
     },
     "Basic Average Shares": {
       "2026-02-28 00:00:00": 6792941.0,
       "2025-02-28 00:00:00": 6788000.0,
-      "2024-02-29 00:00:00": 6796825.0,
+      "2024-02-29 00:00:00": 6796351.0,
       "2023-02-28 00:00:00": 6800886.0,
       "2022-02-28 00:00:00": null
     },
@@ -1108,8 +1108,8 @@
     "averageVolume": 1232,
     "averageVolume10days": 1020,
     "averageDailyVolume10Day": 1020,
-    "bid": 1260.0,
-    "ask": 1268.0,
+    "bid": 0.0,
+    "ask": 1260.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 8555666944,
@@ -1174,6 +1174,8 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "cryptoTradeable": false,
+    "marketState": "REGULAR",
     "regularMarketChange": -1.0,
     "regularMarketDayRange": "1259.0 - 1260.0",
     "fullExchangeName": "Tokyo",
@@ -1188,9 +1190,14 @@
     "earningsTimestampEnd": 1744093800,
     "isEarningsDateEstimate": false,
     "epsTrailingTwelveMonths": 83.85,
+    "fiftyDayAverageChange": -1.5,
+    "fiftyDayAverageChangePercent": -0.0011900039,
+    "twoHundredDayAverageChange": -7.755005,
+    "twoHundredDayAverageChangePercent": -0.006121945,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 970790400000,
-    "shortName": "TABIO CORPORATION",
     "longName": "Tabio Corporation",
     "corporateActions": [],
     "regularMarketTime": 1785460175,
@@ -1201,16 +1208,9 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "fiftyDayAverageChange": -1.5,
-    "fiftyDayAverageChangePercent": -0.0011900039,
-    "twoHundredDayAverageChange": -7.755005,
-    "twoHundredDayAverageChangePercent": -0.006121945,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
+    "shortName": "TABIO CORPORATION",
     "regularMarketChangePercent": -0.07936508,
     "regularMarketPrice": 1259.0,
-    "marketState": "CLOSED",
     "trailingPegRatio": null
   }
 }

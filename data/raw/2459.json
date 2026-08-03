@@ -1,7 +1,7 @@
 {
   "ticker": "2459",
   "japanese_ticker": "2459.T",
-  "fetch_date": "2026-08-02T00:00:18.685426",
+  "fetch_date": "2026-08-03T00:01:37.684645",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-05-31 00:00:00": -275616.0,
@@ -113,7 +113,7 @@
     },
     "Basic Average Shares": {
       "2025-05-31 00:00:00": 7502800.0,
-      "2024-05-31 00:00:00": 7502800.0,
+      "2024-05-31 00:00:00": 7502979.0,
       "2023-05-31 00:00:00": 7502800.0,
       "2022-05-31 00:00:00": 7502800.0
     },
@@ -878,8 +878,8 @@
     "averageVolume": 127229,
     "averageVolume10days": 415840,
     "averageDailyVolume10Day": 415840,
-    "bid": 167.0,
-    "ask": 168.0,
+    "bid": 168.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 1252967552,
@@ -957,20 +957,8 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "marketState": "CLOSED",
-    "fiftyDayAverageChange": -4.4600067,
-    "fiftyDayAverageChangePercent": -0.026011936,
-    "twoHundredDayAverageChange": -54.509995,
-    "twoHundredDayAverageChangePercent": -0.24608368,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "prevName": "AUN CONSULTING,Inc.",
-    "nameChangeDate": "2026-08-01",
-    "cryptoTradeable": false,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1131494400000,
-    "shortName": "AUN CONSULTINGS INC",
-    "longName": "AUN CONSULTING, Inc.",
     "regularMarketChange": 0.0,
     "regularMarketDayRange": "166.0 - 171.0",
     "fullExchangeName": "Tokyo",
@@ -987,6 +975,18 @@
     "earningsCallTimestampEnd": 1737525600,
     "isEarningsDateEstimate": false,
     "epsTrailingTwelveMonths": -5.64,
+    "marketState": "REGULAR",
+    "longName": "AUN CONSULTING, Inc.",
+    "shortName": "AUN CONSULTINGS INC",
+    "fiftyDayAverageChange": -4.4600067,
+    "fiftyDayAverageChangePercent": -0.026011936,
+    "twoHundredDayAverageChange": -54.509995,
+    "twoHundredDayAverageChangePercent": -0.24608368,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "prevName": "AUN CONSULTING,Inc.",
+    "nameChangeDate": "2026-08-02",
+    "cryptoTradeable": false,
     "trailingPegRatio": null
   }
 }

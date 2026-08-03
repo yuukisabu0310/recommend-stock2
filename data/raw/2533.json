@@ -1,7 +1,7 @@
 {
   "ticker": "2533",
   "japanese_ticker": "2533.T",
-  "fetch_date": "2026-08-02T00:01:12.291566",
+  "fetch_date": "2026-08-03T00:02:27.144054",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-12-31 00:00:00": -40506000.0,
@@ -1165,7 +1165,7 @@
     "averageVolume": 155459,
     "averageVolume10days": 246260,
     "averageDailyVolume10Day": 246260,
-    "bid": 490.0,
+    "bid": 0.0,
     "ask": 491.0,
     "bidSize": 0,
     "askSize": 0,
@@ -1232,6 +1232,10 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "shortName": "OENON HOLDINGS INC",
+    "regularMarketTime": 1785479400,
+    "corporateActions": [],
+    "marketState": "REGULAR",
     "exchange": "JPX",
     "messageBoardId": "finmb_879668",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1239,12 +1243,8 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "regularMarketChangePercent": -4.483431,
-    "regularMarketPrice": 490.0,
-    "shortName": "OENON HOLDINGS INC",
-    "longName": "Oenon Holdings, Inc.",
-    "corporateActions": [],
-    "regularMarketTime": 1785479400,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 978307200000,
     "regularMarketChange": -23.0,
     "regularMarketDayRange": "489.0 - 511.0",
     "fullExchangeName": "Tokyo",
@@ -1260,6 +1260,9 @@
     "isEarningsDateEstimate": true,
     "epsTrailingTwelveMonths": 54.73,
     "epsForward": 16.5,
+    "regularMarketChangePercent": -4.483431,
+    "regularMarketPrice": 490.0,
+    "longName": "Oenon Holdings, Inc.",
     "fiftyDayAverageChange": -0.980011,
     "fiftyDayAverageChangePercent": -0.0019960303,
     "twoHundredDayAverageChange": 6.200012,
@@ -1267,9 +1270,6 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 978307200000,
-    "marketState": "CLOSED",
     "trailingPegRatio": null
   }
 }

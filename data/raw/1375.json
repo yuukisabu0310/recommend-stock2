@@ -1,7 +1,7 @@
 {
   "ticker": "1375",
   "japanese_ticker": "1375.T",
-  "fetch_date": "2026-08-01T23:50:03.486061",
+  "fetch_date": "2026-08-02T23:52:00.602502",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": 0.0,
@@ -47,8 +47,8 @@
     },
     "EBITDA": {
       "2026-03-31 00:00:00": 4444000000.0,
-      "2025-03-31 00:00:00": 4768000000.0,
-      "2024-03-31 00:00:00": 5045000000.0,
+      "2025-03-31 00:00:00": 2421000000.0,
+      "2024-03-31 00:00:00": 5032000000.0,
       "2023-03-31 00:00:00": 4306000000.0,
       "2022-03-31 00:00:00": null
     },
@@ -892,7 +892,7 @@
       "2022-03-31 00:00:00": 5606000000.0
     },
     "Taxes Refund Paid": {
-      "2025-03-31 00:00:00": -964000000.0,
+      "2025-03-31 00:00:00": null,
       "2024-03-31 00:00:00": -670000000.0,
       "2023-03-31 00:00:00": -1497000000.0,
       "2022-03-31 00:00:00": -2097000000.0
@@ -922,7 +922,7 @@
       "2022-03-31 00:00:00": 13000000.0
     },
     "Change In Payable": {
-      "2025-03-31 00:00:00": -556000000.0,
+      "2025-03-31 00:00:00": null,
       "2024-03-31 00:00:00": 1224000000.0,
       "2023-03-31 00:00:00": 81000000.0,
       "2022-03-31 00:00:00": 115000000.0
@@ -1041,8 +1041,8 @@
     "averageVolume": 47788,
     "averageVolume10days": 48940,
     "averageDailyVolume10Day": 48940,
-    "bid": 1165.0,
-    "ask": 1190.0,
+    "bid": 1166.0,
+    "ask": 0.0,
     "marketCap": 46503370752,
     "nonDilutedMarketCap": 46503370452,
     "fiftyTwoWeekLow": 1000.0,
@@ -1106,8 +1106,8 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "corporateActions": [],
-    "regularMarketTime": 1785479400,
+    "shortName": "YUKIGUNI FACTORY CO LTD",
+    "longName": "Yukiguni Factory Co., Ltd.",
     "exchange": "JPX",
     "messageBoardId": "finmb_5600331",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1115,22 +1115,10 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "earningsTimestampStart": 1754460000,
-    "earningsTimestampEnd": 1754978400,
-    "isEarningsDateEstimate": true,
-    "epsTrailingTwelveMonths": 74.16,
-    "epsForward": 158.0,
-    "fiftyDayAverageChange": 50.73999,
-    "fiftyDayAverageChangePercent": 0.04549611,
-    "twoHundredDayAverageChange": 93.78003,
-    "twoHundredDayAverageChangePercent": 0.08746342,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "prevName": "Yukiguni Maitake Co., Ltd.",
-    "nameChangeDate": "2026-08-01",
-    "cryptoTradeable": false,
-    "shortName": "YUKIGUNI FACTORY CO LTD",
-    "longName": "Yukiguni Factory Co., Ltd.",
+    "corporateActions": [],
+    "regularMarketTime": 1785479400,
+    "regularMarketChangePercent": -2.7522936,
+    "regularMarketPrice": 1166.0,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1600300800000,
     "regularMarketChange": -33.0,
@@ -1143,9 +1131,21 @@
     "fiftyTwoWeekHighChange": -38.0,
     "fiftyTwoWeekHighChangePercent": -0.03156146,
     "fiftyTwoWeekChangePercent": 2.7312756,
-    "regularMarketChangePercent": -2.7522936,
-    "regularMarketPrice": 1166.0,
-    "marketState": "CLOSED",
+    "earningsTimestampStart": 1754460000,
+    "earningsTimestampEnd": 1754978400,
+    "isEarningsDateEstimate": true,
+    "epsTrailingTwelveMonths": 74.16,
+    "epsForward": 158.0,
+    "twoHundredDayAverageChangePercent": 0.08746342,
+    "marketState": "PREPRE",
+    "fiftyDayAverageChange": 50.73999,
+    "fiftyDayAverageChangePercent": 0.04549611,
+    "twoHundredDayAverageChange": 93.78003,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "prevName": "Yukiguni Maitake Co., Ltd.",
+    "nameChangeDate": "2026-08-02",
+    "cryptoTradeable": false,
     "trailingPegRatio": null
   }
 }

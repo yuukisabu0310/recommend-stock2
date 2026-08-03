@@ -1,7 +1,7 @@
 {
   "ticker": "3020",
   "japanese_ticker": "3020.T",
-  "fetch_date": "2026-08-02T00:06:42.582705",
+  "fetch_date": "2026-08-03T00:07:37.996709",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": 343326.607091,
@@ -139,7 +139,7 @@
     "Basic Average Shares": {
       "2026-03-31 00:00:00": null,
       "2025-03-31 00:00:00": 2702971.0,
-      "2024-03-31 00:00:00": 2703074.0,
+      "2024-03-31 00:00:00": 2702099.0,
       "2023-03-31 00:00:00": 2703078.0,
       "2022-03-31 00:00:00": 2701572.0
     },
@@ -343,7 +343,7 @@
   "balance_sheet": {
     "Treasury Shares Number": {
       "2026-03-31 00:00:00": 355.0,
-      "2025-03-31 00:00:00": 269.0,
+      "2025-03-31 00:00:00": null,
       "2024-03-31 00:00:00": 152.0,
       "2023-03-31 00:00:00": null,
       "2022-03-31 00:00:00": 122.0
@@ -357,7 +357,7 @@
     },
     "Share Issued": {
       "2026-03-31 00:00:00": 2703200.0,
-      "2025-03-31 00:00:00": 2703200.0,
+      "2025-03-31 00:00:00": 2702931.0,
       "2024-03-31 00:00:00": 2703200.0,
       "2023-03-31 00:00:00": 2703078.0,
       "2022-03-31 00:00:00": null
@@ -736,9 +736,9 @@
     "Taxes Receivable": {
       "2026-03-31 00:00:00": 0.0,
       "2025-03-31 00:00:00": 184000000.0,
-      "2024-03-31 00:00:00": 0.0,
+      "2024-03-31 00:00:00": null,
       "2023-03-31 00:00:00": 0.0,
-      "2022-03-31 00:00:00": null
+      "2022-03-31 00:00:00": 506000000.0
     },
     "Accounts Receivable": {
       "2026-03-31 00:00:00": 6592000000.0,
@@ -1154,8 +1154,8 @@
     "averageVolume": 2122,
     "averageVolume10days": 1420,
     "averageDailyVolume10Day": 1420,
-    "bid": 4090.0,
-    "ask": 4120.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 11068150784,
@@ -1224,20 +1224,23 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "marketState": "CLOSED",
-    "corporateActions": [],
-    "regularMarketTime": 1785479400,
-    "exchange": "JPX",
-    "messageBoardId": "finmb_5528588",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
-    "regularMarketChangePercent": 0.73800737,
-    "regularMarketPrice": 4095.0,
+    "isEarningsDateEstimate": false,
+    "epsTrailingTwelveMonths": 839.47,
+    "fiftyDayAverageChange": 24.0,
+    "fiftyDayAverageChangePercent": 0.0058953576,
+    "twoHundredDayAverageChange": -15.024902,
+    "twoHundredDayAverageChangePercent": -0.0036556718,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "prevName": "Applied Co., Ltd.",
+    "nameChangeDate": "2026-08-02",
+    "cryptoTradeable": false,
     "shortName": "APPLIED CO.LTD",
     "longName": "Applied Co.,Ltd.",
+    "corporateActions": [],
+    "regularMarketChangePercent": 0.73800737,
+    "regularMarketPrice": 4095.0,
+    "marketState": "REGULAR",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1140134400000,
     "regularMarketChange": 30.0,
@@ -1252,17 +1255,14 @@
     "fiftyTwoWeekChangePercent": 16.833092,
     "earningsTimestampStart": 1747202400,
     "earningsTimestampEnd": 1747202400,
-    "isEarningsDateEstimate": false,
-    "epsTrailingTwelveMonths": 839.47,
-    "fiftyDayAverageChange": 24.0,
-    "fiftyDayAverageChangePercent": 0.0058953576,
-    "twoHundredDayAverageChange": -15.024902,
-    "twoHundredDayAverageChangePercent": -0.0036556718,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "prevName": "Applied Co., Ltd.",
-    "nameChangeDate": "2026-08-01",
-    "cryptoTradeable": false,
+    "regularMarketTime": 1785479400,
+    "exchange": "JPX",
+    "messageBoardId": "finmb_5528588",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
     "trailingPegRatio": null
   }
 }

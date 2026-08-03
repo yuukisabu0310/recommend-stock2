@@ -1,7 +1,7 @@
 {
   "ticker": "2685",
   "japanese_ticker": "2685.T",
-  "fetch_date": "2026-08-02T00:02:20.415414",
+  "fetch_date": "2026-08-03T00:03:31.337820",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-02-28 00:00:00": -500643000.0,
@@ -1265,8 +1265,8 @@
     "averageVolume": 222242,
     "averageVolume10days": 194630,
     "averageDailyVolume10Day": 194630,
-    "bid": 3365.0,
-    "ask": 3385.0,
+    "bid": 0.0,
+    "ask": 3365.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 155913289728,
@@ -1340,6 +1340,18 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "2685.T announced a cash dividend of JPY 45.00 with an ex-date of Aug. 28, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1787842800000,
+          "amount": "45.00"
+        }
+      }
+    ],
+    "regularMarketTime": 1785479400,
     "exchange": "JPX",
     "messageBoardId": "finmb_5646303",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1348,11 +1360,19 @@
     "market": "jp_market",
     "esgPopulated": false,
     "shortName": "AND ST HD CO LTD",
-    "longName": "and ST HD Co.,Ltd.",
     "regularMarketChangePercent": -3.0129125,
     "regularMarketPrice": 3380.0,
+    "longName": "and ST HD Co.,Ltd.",
+    "epsTrailingTwelveMonths": 205.84,
+    "epsForward": 304.23,
+    "fiftyDayAverageChange": -28.100098,
+    "fiftyDayAverageChangePercent": -0.008245092,
+    "twoHundredDayAverageChange": 347.2849,
+    "twoHundredDayAverageChangePercent": 0.11451287,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
     "prevName": "Adastria Co., Ltd.",
-    "nameChangeDate": "2026-08-01",
+    "nameChangeDate": "2026-08-02",
     "cryptoTradeable": false,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1039651200000,
@@ -1372,27 +1392,7 @@
     "earningsCallTimestampStart": 1743764340,
     "earningsCallTimestampEnd": 1743764340,
     "isEarningsDateEstimate": false,
-    "epsTrailingTwelveMonths": 205.84,
-    "epsForward": 304.23,
-    "fiftyDayAverageChange": -28.100098,
-    "fiftyDayAverageChangePercent": -0.008245092,
-    "twoHundredDayAverageChange": 347.2849,
-    "twoHundredDayAverageChangePercent": 0.11451287,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "corporateActions": [
-      {
-        "header": "Dividend",
-        "message": "2685.T announced a cash dividend of JPY 45.00 with an ex-date of Aug. 28, 2026",
-        "meta": {
-          "eventType": "DIVIDEND",
-          "dateEpochMs": 1787842800000,
-          "amount": "45.00"
-        }
-      }
-    ],
-    "regularMarketTime": 1785479400,
-    "marketState": "CLOSED",
+    "marketState": "REGULAR",
     "trailingPegRatio": null
   }
 }

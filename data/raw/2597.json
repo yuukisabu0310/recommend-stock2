@@ -1,7 +1,7 @@
 {
   "ticker": "2597",
   "japanese_ticker": "2597.T",
-  "fetch_date": "2026-08-02T00:01:35.218795",
+  "fetch_date": "2026-08-03T00:02:47.628651",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-12-31 00:00:00": -54548.0,
@@ -138,7 +138,7 @@
     },
     "Diluted EPS": {
       "2025-12-31 00:00:00": null,
-      "2024-12-31 00:00:00": 34.22,
+      "2024-12-31 00:00:00": null,
       "2023-12-31 00:00:00": 33.12,
       "2022-12-31 00:00:00": -14.27,
       "2021-12-31 00:00:00": 22.05
@@ -308,14 +308,14 @@
   "balance_sheet": {
     "Treasury Shares Number": {
       "2025-12-31 00:00:00": 486152.0,
-      "2024-12-31 00:00:00": 488930.0,
+      "2024-12-31 00:00:00": 488870.0,
       "2023-12-31 00:00:00": 494720.0,
       "2022-12-31 00:00:00": 503240.0,
       "2021-12-31 00:00:00": null
     },
     "Ordinary Shares Number": {
       "2025-12-31 00:00:00": 13383048.0,
-      "2024-12-31 00:00:00": 13380270.0,
+      "2024-12-31 00:00:00": 13380330.0,
       "2023-12-31 00:00:00": 13374480.0,
       "2022-12-31 00:00:00": 13365960.0,
       "2021-12-31 00:00:00": null
@@ -1119,8 +1119,8 @@
     "averageVolume": 3957,
     "averageVolume10days": 3090,
     "averageDailyVolume10Day": 3090,
-    "bid": 1154.0,
-    "ask": 1155.0,
+    "bid": 0.0,
+    "ask": 1156.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 15457385472,
@@ -1187,6 +1187,20 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "longName": "Unicafe Inc.",
+    "marketState": "REGULAR",
+    "corporateActions": [],
+    "regularMarketTime": 1785479400,
+    "exchange": "JPX",
+    "messageBoardId": "finmb_5633614",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
+    "regularMarketChangePercent": 0.4347826,
+    "regularMarketPrice": 1155.0,
+    "shortName": "UNICAFE INC",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 978566400000,
     "regularMarketChange": 5.0,
@@ -1203,8 +1217,6 @@
     "earningsTimestampEnd": 1755500400,
     "isEarningsDateEstimate": true,
     "epsTrailingTwelveMonths": 50.36,
-    "longName": "Unicafe Inc.",
-    "shortName": "UNICAFE INC",
     "fiftyDayAverageChange": 47.359985,
     "fiftyDayAverageChangePercent": 0.04275756,
     "twoHundredDayAverageChange": 81.775024,
@@ -1212,18 +1224,6 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
-    "marketState": "CLOSED",
-    "corporateActions": [],
-    "regularMarketTime": 1785479400,
-    "exchange": "JPX",
-    "messageBoardId": "finmb_5633614",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
-    "regularMarketChangePercent": 0.4347826,
-    "regularMarketPrice": 1155.0,
     "trailingPegRatio": null
   }
 }

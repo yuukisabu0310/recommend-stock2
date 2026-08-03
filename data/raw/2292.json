@@ -1,7 +1,7 @@
 {
   "ticker": "2292",
   "japanese_ticker": "2292.T",
-  "fetch_date": "2026-08-01T23:57:52.837638",
+  "fetch_date": "2026-08-02T23:59:16.111301",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-02-28 00:00:00": 1222504000.0,
@@ -1069,8 +1069,8 @@
     "averageVolume": 143568,
     "averageVolume10days": 166940,
     "averageDailyVolume10Day": 166940,
-    "bid": 2749.0,
-    "ask": 2756.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 87069859840,
@@ -1136,6 +1136,7 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "marketState": "PREPRE",
     "corporateActions": [
       {
         "header": "Dividend",
@@ -1148,12 +1149,6 @@
       }
     ],
     "regularMarketTime": 1785479400,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
-    "marketState": "CLOSED",
-    "shortName": "S FOODS INC",
-    "longName": "S Foods Inc.",
     "exchange": "JPX",
     "messageBoardId": "finmb_5503996",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1163,13 +1158,8 @@
     "esgPopulated": false,
     "regularMarketChangePercent": -3.2382965,
     "regularMarketPrice": 2749.0,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 978566400000,
-    "regularMarketChange": -92.0,
-    "regularMarketDayRange": "2746.0 - 2807.0",
-    "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 143568,
-    "fiftyTwoWeekLowChange": 271.0,
+    "shortName": "S FOODS INC",
+    "longName": "S Foods Inc.",
     "fiftyTwoWeekLowChangePercent": 0.109362386,
     "fiftyTwoWeekRange": "2478.0 - 3285.0",
     "fiftyTwoWeekHighChange": -536.0,
@@ -1184,6 +1174,16 @@
     "fiftyDayAverageChangePercent": 0.02295983,
     "twoHundredDayAverageChange": -54.67993,
     "twoHundredDayAverageChangePercent": -0.019502915,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 978566400000,
+    "regularMarketChange": -92.0,
+    "regularMarketDayRange": "2746.0 - 2807.0",
+    "fullExchangeName": "Tokyo",
+    "averageDailyVolume3Month": 143568,
+    "fiftyTwoWeekLowChange": 271.0,
     "trailingPegRatio": null
   }
 }

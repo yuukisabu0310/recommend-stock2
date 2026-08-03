@@ -1,7 +1,7 @@
 {
   "ticker": "1383",
   "japanese_ticker": "1383.T",
-  "fetch_date": "2026-08-01T23:50:17.694692",
+  "fetch_date": "2026-08-02T23:52:14.945905",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-10-31 00:00:00": 41892936.0,
@@ -132,16 +132,16 @@
     "Basic Average Shares": {
       "2025-10-31 00:00:00": 1599338.0,
       "2024-10-31 00:00:00": 1597325.0,
-      "2023-10-31 00:00:00": 1534133.0,
+      "2023-10-31 00:00:00": 1534251.0,
       "2022-10-31 00:00:00": 1420735.0,
       "2021-10-31 00:00:00": null
     },
     "Diluted EPS": {
       "2025-10-31 00:00:00": 30.22,
-      "2024-10-31 00:00:00": 25.0,
+      "2024-10-31 00:00:00": null,
       "2023-10-31 00:00:00": 50.86,
       "2022-10-31 00:00:00": 139.16,
-      "2021-10-31 00:00:00": null
+      "2021-10-31 00:00:00": 93.92
     },
     "Basic EPS": {
       "2025-10-31 00:00:00": 30.22,
@@ -315,10 +315,10 @@
   "balance_sheet": {
     "Treasury Shares Number": {
       "2025-10-31 00:00:00": 13224.0,
-      "2024-10-31 00:00:00": 13174.0,
+      "2024-10-31 00:00:00": null,
       "2023-10-31 00:00:00": 13174.0,
       "2022-10-31 00:00:00": 13126.0,
-      "2021-10-31 00:00:00": null
+      "2021-10-31 00:00:00": 247.0
     },
     "Ordinary Shares Number": {
       "2025-10-31 00:00:00": 1600356.0,
@@ -1205,8 +1205,8 @@
     "averageVolume": 3318,
     "averageVolume10days": 1890,
     "averageDailyVolume10Day": 1890,
-    "bid": 3015.0,
-    "ask": 3020.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 4833075200,
@@ -1273,6 +1273,8 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "corporateActions": [],
+    "regularMarketTime": 1785474447,
     "exchange": "JPX",
     "messageBoardId": "finmb_25336112",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1284,8 +1286,8 @@
     "regularMarketPrice": 3020.0,
     "shortName": "BERG EARTH CO LTD",
     "longName": "Berg Earth Co.,Ltd.",
-    "corporateActions": [],
-    "regularMarketTime": 1785474447,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1322524800000,
     "regularMarketChange": -5.0,
     "regularMarketDayRange": "3010.0 - 3035.0",
     "fullExchangeName": "Tokyo",
@@ -1307,9 +1309,7 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1322524800000,
-    "marketState": "CLOSED",
+    "marketState": "PREPRE",
     "trailingPegRatio": null
   }
 }

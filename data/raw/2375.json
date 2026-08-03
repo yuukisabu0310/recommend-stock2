@@ -1,7 +1,7 @@
 {
   "ticker": "2375",
   "japanese_ticker": "2375.T",
-  "fetch_date": "2026-08-01T23:59:13.505444",
+  "fetch_date": "2026-08-03T00:00:35.520360",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-10-31 00:00:00": 120489449.3,
@@ -132,7 +132,7 @@
     "Basic Average Shares": {
       "2025-10-31 00:00:00": 19832104.0,
       "2024-10-31 00:00:00": 19791076.0,
-      "2023-10-31 00:00:00": 19606681.0,
+      "2023-10-31 00:00:00": 19608900.0,
       "2022-10-31 00:00:00": 19687580.0,
       "2021-10-31 00:00:00": null
     },
@@ -315,10 +315,10 @@
   "balance_sheet": {
     "Treasury Shares Number": {
       "2025-10-31 00:00:00": 2281905.0,
-      "2024-10-31 00:00:00": 2272605.0,
+      "2024-10-31 00:00:00": null,
       "2023-10-31 00:00:00": 2280095.0,
       "2022-10-31 00:00:00": 2408495.0,
-      "2021-10-31 00:00:00": null
+      "2021-10-31 00:00:00": 1608495.0
     },
     "Ordinary Shares Number": {
       "2025-10-31 00:00:00": 19846080.0,
@@ -329,7 +329,7 @@
     },
     "Share Issued": {
       "2025-10-31 00:00:00": 22127985.0,
-      "2024-10-31 00:00:00": 22105485.0,
+      "2024-10-31 00:00:00": 19840390.0,
       "2023-10-31 00:00:00": 22015560.0,
       "2022-10-31 00:00:00": 21979560.0,
       "2021-10-31 00:00:00": null
@@ -1215,8 +1215,8 @@
     "averageVolume": 32118,
     "averageVolume10days": 32130,
     "averageDailyVolume10Day": 32130,
-    "bid": 205.0,
-    "ask": 209.0,
+    "bid": 0.0,
+    "ask": 211.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 4157361152,
@@ -1234,7 +1234,7 @@
     "tradeable": false,
     "enterpriseValue": 3958361088,
     "profitMargins": 0.00751,
-    "floatShares": 10640656,
+    "floatShares": 10992739,
     "sharesOutstanding": 19891680,
     "heldPercentInsiders": 0.38454,
     "heldPercentInstitutions": 0.00011,
@@ -1295,10 +1295,6 @@
     "esgPopulated": false,
     "regularMarketChangePercent": 3.4653466,
     "regularMarketPrice": 209.0,
-    "shortName": "GIG WORKS INC",
-    "longName": "GiG Works Inc.",
-    "corporateActions": [],
-    "regularMarketTime": 1785479400,
     "regularMarketChange": 7.0,
     "regularMarketDayRange": "201.0 - 209.0",
     "fullExchangeName": "Tokyo",
@@ -1321,9 +1317,13 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
+    "marketState": "REGULAR",
+    "corporateActions": [],
+    "regularMarketTime": 1785479400,
+    "shortName": "GIG WORKS INC",
+    "longName": "GiG Works Inc.",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1067990400000,
-    "marketState": "CLOSED",
     "trailingPegRatio": null
   }
 }

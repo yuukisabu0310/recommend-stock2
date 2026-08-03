@@ -1,7 +1,7 @@
 {
   "ticker": "1965",
   "japanese_ticker": "1965.T",
-  "fetch_date": "2026-08-01T23:54:42.683411",
+  "fetch_date": "2026-08-02T23:56:16.715827",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": 56840000.0,
@@ -1253,8 +1253,8 @@
     "averageVolume": 65077,
     "averageVolume10days": 80510,
     "averageDailyVolume10Day": 80510,
-    "bid": 5620.0,
-    "ask": 5700.0,
+    "bid": 0.0,
+    "ask": 5640.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 115434872832,
@@ -1323,6 +1323,8 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "regularMarketChangePercent": 5.0373135,
+    "regularMarketPrice": 5630.0,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 978307200000,
     "regularMarketChange": 270.0,
@@ -1346,6 +1348,8 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
+    "marketState": "PREPRE",
+    "shortName": "TECHNO RYOWA LTD",
     "corporateActions": [],
     "regularMarketTime": 1785479400,
     "exchange": "JPX",
@@ -1355,11 +1359,7 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "shortName": "TECHNO RYOWA LTD",
     "longName": "Techno Ryowa Ltd.",
-    "marketState": "CLOSED",
-    "regularMarketChangePercent": 5.0373135,
-    "regularMarketPrice": 5630.0,
     "trailingPegRatio": null
   }
 }

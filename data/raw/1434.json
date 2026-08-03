@@ -1,7 +1,7 @@
 {
   "ticker": "1434",
   "japanese_ticker": "1434.T",
-  "fetch_date": "2026-08-01T23:50:44.776464",
+  "fetch_date": "2026-08-02T23:52:40.318030",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-08-31 00:00:00": 18112211.0,
@@ -1206,8 +1206,8 @@
     "averageVolume": 61457,
     "averageVolume10days": 75530,
     "averageDailyVolume10Day": 75530,
-    "bid": 1705.0,
-    "ask": 1709.0,
+    "bid": 0.0,
+    "ask": 1765.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 11864276992,
@@ -1271,6 +1271,30 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "longName": "Jesco Holdings, Inc.",
+    "marketState": "PREPRE",
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "1434.T announced a cash dividend of JPY 48.00 with an ex-date of Aug. 28, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1787842800000,
+          "amount": "48.00"
+        }
+      }
+    ],
+    "regularMarketTime": 1785479400,
+    "exchange": "JPX",
+    "messageBoardId": "finmb_215925093",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
+    "regularMarketChangePercent": 0.8279125,
+    "regularMarketPrice": 1705.0,
+    "shortName": "JESCO HOLDINGS INC",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1441670400000,
     "regularMarketChange": 14.0,
@@ -1295,30 +1319,6 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
-    "marketState": "CLOSED",
-    "shortName": "JESCO HOLDINGS INC",
-    "longName": "Jesco Holdings, Inc.",
-    "regularMarketChangePercent": 0.8279125,
-    "regularMarketPrice": 1705.0,
-    "corporateActions": [
-      {
-        "header": "Dividend",
-        "message": "1434.T announced a cash dividend of JPY 48.00 with an ex-date of Aug. 28, 2026",
-        "meta": {
-          "eventType": "DIVIDEND",
-          "dateEpochMs": 1787842800000,
-          "amount": "48.00"
-        }
-      }
-    ],
-    "regularMarketTime": 1785479400,
-    "exchange": "JPX",
-    "messageBoardId": "finmb_215925093",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
     "trailingPegRatio": null
   }
 }

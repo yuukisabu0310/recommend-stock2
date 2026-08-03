@@ -1,7 +1,7 @@
 {
   "ticker": "2726",
   "japanese_ticker": "2726.T",
-  "fetch_date": "2026-08-02T00:02:50.282344",
+  "fetch_date": "2026-08-03T00:03:58.682604",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-02-28 00:00:00": -66665000.0,
@@ -1139,8 +1139,8 @@
     "averageVolume": 902059,
     "averageVolume10days": 1116550,
     "averageDailyVolume10Day": 1116550,
-    "bid": 1495.0,
-    "ask": 1497.0,
+    "bid": 1529.0,
+    "ask": 1530.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 259025797120,
@@ -1214,13 +1214,9 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "marketState": "CLOSED",
-    "regularMarketChangePercent": -2.605863,
-    "regularMarketPrice": 1495.0,
-    "shortName": "PAL GROUP HOLDINGS CO LTD",
-    "longName": "PAL GROUP Holdings CO., LTD.",
     "corporateActions": [],
     "regularMarketTime": 1785479400,
+    "marketState": "REGULAR",
     "exchange": "JPX",
     "messageBoardId": "finmb_6476346",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1228,9 +1224,12 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
+    "regularMarketChangePercent": -2.605863,
+    "regularMarketPrice": 1495.0,
+    "shortName": "PAL GROUP HOLDINGS CO LTD",
+    "longName": "PAL GROUP Holdings CO., LTD.",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1076630400000,
-    "cryptoTradeable": false,
     "regularMarketChange": -40.0,
     "regularMarketDayRange": "1493.0 - 1536.0",
     "fullExchangeName": "Tokyo",
@@ -1256,6 +1255,7 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "averageAnalystRating": "1.0 - Strong Buy",
+    "cryptoTradeable": false,
     "trailingPegRatio": null
   }
 }

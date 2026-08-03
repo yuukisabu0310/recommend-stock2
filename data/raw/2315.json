@@ -1,7 +1,7 @@
 {
   "ticker": "2315",
   "japanese_ticker": "2315.T",
-  "fetch_date": "2026-08-01T23:58:14.443955",
+  "fetch_date": "2026-08-02T23:59:36.413695",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-10-31 00:00:00": 7727853.0,
@@ -138,17 +138,17 @@
     },
     "Diluted EPS": {
       "2025-10-31 00:00:00": 1.22,
-      "2024-10-31 00:00:00": 0.22,
+      "2024-10-31 00:00:00": null,
       "2023-10-31 00:00:00": -31.57,
       "2022-10-31 00:00:00": -54.69,
-      "2021-10-31 00:00:00": null
+      "2021-10-31 00:00:00": -10.87
     },
     "Basic EPS": {
       "2025-10-31 00:00:00": 1.22,
-      "2024-10-31 00:00:00": 0.22,
+      "2024-10-31 00:00:00": null,
       "2023-10-31 00:00:00": -31.57,
       "2022-10-31 00:00:00": -54.69,
-      "2021-10-31 00:00:00": null
+      "2021-10-31 00:00:00": -10.87
     },
     "Diluted NI Availto Com Stockholders": {
       "2025-10-31 00:00:00": 166794000.0,
@@ -1205,7 +1205,7 @@
     "averageVolume": 3453109,
     "averageVolume10days": 3802680,
     "averageDailyVolume10Day": 3802680,
-    "bid": 59.0,
+    "bid": 0.0,
     "ask": 60.0,
     "bidSize": 0,
     "askSize": 0,
@@ -1224,7 +1224,7 @@
     "tradeable": false,
     "enterpriseValue": 9512962048,
     "profitMargins": -0.05903,
-    "floatShares": 112045770,
+    "floatShares": 112994348,
     "sharesOutstanding": 177304443,
     "heldPercentInsiders": 0.35285,
     "heldPercentInstitutions": 0.0,
@@ -1274,8 +1274,8 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1023753600000,
+    "cryptoTradeable": false,
+    "marketState": "PREPRE",
     "regularMarketChange": -1.0,
     "regularMarketDayRange": "59.0 - 62.0",
     "fullExchangeName": "Tokyo",
@@ -1294,6 +1294,13 @@
     "fiftyDayAverageChangePercent": -0.016994342,
     "twoHundredDayAverageChange": -23.214996,
     "twoHundredDayAverageChangePercent": -0.28236938,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "prevName": "CAICA Inc.",
+    "nameChangeDate": "2026-08-02",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1023753600000,
+    "longName": "CAICA DIGITAL Inc.",
     "corporateActions": [],
     "regularMarketTime": 1785479400,
     "exchange": "JPX",
@@ -1303,16 +1310,9 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
+    "shortName": "CAICA DIGITAL INC",
     "regularMarketChangePercent": -1.6666667,
     "regularMarketPrice": 59.0,
-    "marketState": "CLOSED",
-    "shortName": "CAICA DIGITAL INC",
-    "longName": "CAICA DIGITAL Inc.",
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "prevName": "CAICA Inc.",
-    "nameChangeDate": "2026-08-01",
-    "cryptoTradeable": false,
     "trailingPegRatio": null
   }
 }

@@ -1,7 +1,7 @@
 {
   "ticker": "1514",
   "japanese_ticker": "1514.T",
-  "fetch_date": "2026-08-01T23:51:05.040158",
+  "fetch_date": "2026-08-02T23:52:58.207464",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": -1634000.0,
@@ -308,10 +308,10 @@
   "balance_sheet": {
     "Treasury Shares Number": {
       "2026-03-31 00:00:00": 7399704.0,
-      "2025-03-31 00:00:00": 7437429.0,
+      "2025-03-31 00:00:00": null,
       "2024-03-31 00:00:00": 7453978.0,
       "2023-03-31 00:00:00": 5674124.0,
-      "2022-03-31 00:00:00": null
+      "2022-03-31 00:00:00": 3860000.0
     },
     "Ordinary Shares Number": {
       "2026-03-31 00:00:00": 59823149.0,
@@ -1119,8 +1119,8 @@
     "averageVolume": 414465,
     "averageVolume10days": 265280,
     "averageDailyVolume10Day": 265280,
-    "bid": 575.0,
-    "ask": 580.0,
+    "bid": 0.0,
+    "ask": 599.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 34517954560,
@@ -1143,8 +1143,8 @@
     "heldPercentInsiders": 0.54362,
     "heldPercentInstitutions": 0.07397,
     "impliedSharesOutstanding": 59823147,
-    "bookValue": 487.27,
-    "priceToBook": 1.1841484,
+    "bookValue": 468.648,
+    "priceToBook": 1.2312012,
     "lastFiscalYearEnd": 1774915200,
     "nextFiscalYearEnd": 1806451200,
     "mostRecentQuarter": 1782777600,
@@ -1194,10 +1194,7 @@
     "market": "jp_market",
     "esgPopulated": false,
     "regularMarketChangePercent": 1.9434628,
-    "marketState": "CLOSED",
     "regularMarketPrice": 577.0,
-    "regularMarketChange": 11.0,
-    "regularMarketDayRange": "566.0 - 582.0",
     "fullExchangeName": "Tokyo",
     "averageDailyVolume3Month": 414465,
     "fiftyTwoWeekLowChange": 71.0,
@@ -1206,6 +1203,8 @@
     "fiftyTwoWeekHighChange": -980.0,
     "fiftyTwoWeekHighChangePercent": -0.6294156,
     "fiftyTwoWeekChangePercent": -10.542637,
+    "shortName": "SUMISEKI HOLDINGS INC",
+    "longName": "Sumiseki Holdings,Inc.",
     "earningsTimestampStart": 1747290600,
     "earningsTimestampEnd": 1747290600,
     "isEarningsDateEstimate": false,
@@ -1219,8 +1218,9 @@
     "cryptoTradeable": false,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 978307200000,
-    "shortName": "SUMISEKI HOLDINGS INC",
-    "longName": "Sumiseki Holdings,Inc.",
+    "marketState": "PREPRE",
+    "regularMarketChange": 11.0,
+    "regularMarketDayRange": "566.0 - 582.0",
     "trailingPegRatio": null
   }
 }

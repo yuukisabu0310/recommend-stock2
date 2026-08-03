@@ -1,7 +1,7 @@
 {
   "ticker": "2157",
   "japanese_ticker": "2157.T",
-  "fetch_date": "2026-08-01T23:56:13.350696",
+  "fetch_date": "2026-08-02T23:57:43.752252",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-08-31 00:00:00": -1160930925.0,
@@ -1046,8 +1046,8 @@
     "averageVolume": 458363,
     "averageVolume10days": 573440,
     "averageDailyVolume10Day": 573440,
-    "bid": 1046.0,
-    "ask": 1049.0,
+    "bid": 1045.0,
+    "ask": 1046.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 86679928832,
@@ -1115,16 +1115,7 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "exchange": "JPX",
-    "messageBoardId": "finmb_30663334",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
-    "regularMarketChangePercent": -3.237743,
-    "regularMarketPrice": 1046.0,
-    "shortName": "KOSHIDAKA HOLDINGS CO LTD",
+    "marketState": "PREPRE",
     "longName": "Koshidaka Holdings Co., Ltd.",
     "corporateActions": [
       {
@@ -1138,6 +1129,17 @@
       }
     ],
     "regularMarketTime": 1785479400,
+    "exchange": "JPX",
+    "messageBoardId": "finmb_30663334",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
+    "regularMarketChangePercent": -3.237743,
+    "regularMarketPrice": 1046.0,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1182902400000,
     "regularMarketChange": -35.0,
     "regularMarketDayRange": "1046.0 - 1070.0",
     "fullExchangeName": "Tokyo",
@@ -1159,12 +1161,10 @@
     "fiftyDayAverageChangePercent": 0.064739384,
     "twoHundredDayAverageChange": -52.410034,
     "twoHundredDayAverageChangePercent": -0.047714453,
+    "shortName": "KOSHIDAKA HOLDINGS CO LTD",
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1182902400000,
-    "marketState": "CLOSED",
     "trailingPegRatio": null
   }
 }

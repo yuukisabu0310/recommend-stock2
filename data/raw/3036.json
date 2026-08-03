@@ -1,7 +1,7 @@
 {
   "ticker": "3036",
   "japanese_ticker": "3036.T",
-  "fetch_date": "2026-08-02T00:06:59.505972",
+  "fetch_date": "2026-08-03T00:07:56.834145",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": 481200000.0,
@@ -356,13 +356,13 @@
     },
     "Ordinary Shares Number": {
       "2026-03-31 00:00:00": 30061058.0,
-      "2025-03-31 00:00:00": 29932499.0,
+      "2025-03-31 00:00:00": 30232499.0,
       "2024-03-31 00:00:00": 30137893.0,
       "2023-03-31 00:00:00": 30105500.0
     },
     "Share Issued": {
       "2026-03-31 00:00:00": 31125300.0,
-      "2025-03-31 00:00:00": 31070000.0,
+      "2025-03-31 00:00:00": 30232499.0,
       "2024-03-31 00:00:00": 31042900.0,
       "2023-03-31 00:00:00": 31012500.0
     },
@@ -417,8 +417,8 @@
     "Total Equity Gross Minority Interest": {
       "2026-03-31 00:00:00": 79941000000.0,
       "2025-03-31 00:00:00": 70309000000.0,
-      "2024-03-31 00:00:00": 66347000000.0,
-      "2023-03-31 00:00:00": 63045000000.0
+      "2024-03-31 00:00:00": 66350000000.0,
+      "2023-03-31 00:00:00": 63047000000.0
     },
     "Minority Interest": {
       "2026-03-31 00:00:00": 684000000.0,
@@ -471,19 +471,19 @@
     "Total Liabilities Net Minority Interest": {
       "2026-03-31 00:00:00": 142486000000.0,
       "2025-03-31 00:00:00": 126325000000.0,
-      "2024-03-31 00:00:00": 116543000000.0,
+      "2024-03-31 00:00:00": 116540000000.0,
       "2023-03-31 00:00:00": 128845000000.0
     },
     "Total Non Current Liabilities Net Minority Interest": {
       "2026-03-31 00:00:00": 22057000000.0,
-      "2025-03-31 00:00:00": 23129000000.0,
-      "2024-03-31 00:00:00": 26850000000.0,
-      "2023-03-31 00:00:00": 28497000000.0
+      "2025-03-31 00:00:00": 23126000000.0,
+      "2024-03-31 00:00:00": 26847000000.0,
+      "2023-03-31 00:00:00": 28495000000.0
     },
     "Other Non Current Liabilities": {
       "2026-03-31 00:00:00": 753000000.0,
       "2025-03-31 00:00:00": 853000000.0,
-      "2024-03-31 00:00:00": 1174000000.0,
+      "2024-03-31 00:00:00": 1171000000.0,
       "2023-03-31 00:00:00": 1197000000.0
     },
     "Non Current Pension And Other Postretirement Benefit Plans": {
@@ -1239,8 +1239,8 @@
     "averageVolume": 121939,
     "averageVolume10days": 103940,
     "averageDailyVolume10Day": 103940,
-    "bid": 2600.0,
-    "ask": 2612.0,
+    "bid": 2645.0,
+    "ask": 2646.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 78218870784,
@@ -1320,6 +1320,11 @@
     "esgPopulated": false,
     "regularMarketChangePercent": 1.127089,
     "regularMarketPrice": 2602.0,
+    "shortName": "ALCONIX CORPORATION",
+    "longName": "ALCONIX Corporation",
+    "marketState": "REGULAR",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1205452800000,
     "regularMarketChange": 29.0,
     "regularMarketDayRange": "2569.0 - 2657.0",
     "fullExchangeName": "Tokyo",
@@ -1341,11 +1346,6 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1205452800000,
-    "marketState": "CLOSED",
-    "shortName": "ALCONIX CORPORATION",
-    "longName": "ALCONIX Corporation",
     "trailingPegRatio": null
   }
 }

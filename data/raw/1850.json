@@ -1,7 +1,7 @@
 {
   "ticker": "1850",
   "japanese_ticker": "1850.T",
-  "fetch_date": "2026-08-01T23:53:02.655408",
+  "fetch_date": "2026-08-02T23:54:44.475711",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": 2403000.0,
@@ -114,7 +114,7 @@
     "Basic Average Shares": {
       "2026-03-31 00:00:00": 28825231.0,
       "2025-03-31 00:00:00": 28827648.0,
-      "2024-03-31 00:00:00": 28827686.0,
+      "2024-03-31 00:00:00": 28818444.0,
       "2023-03-31 00:00:00": 28827748.0
     },
     "Diluted EPS": {
@@ -260,7 +260,7 @@
     },
     "Ordinary Shares Number": {
       "2026-03-31 00:00:00": 28827542.0,
-      "2025-03-31 00:00:00": 28827599.0,
+      "2025-03-31 00:00:00": 28827671.0,
       "2024-03-31 00:00:00": 28827684.0,
       "2023-03-31 00:00:00": 28827730.0,
       "2022-03-31 00:00:00": null
@@ -1049,8 +1049,8 @@
     "averageVolume": 61580,
     "averageVolume10days": 103520,
     "averageDailyVolume10Day": 103520,
-    "bid": 423.0,
-    "ask": 430.0,
+    "bid": 0.0,
+    "ask": 412.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 11855649792,
@@ -1118,7 +1118,20 @@
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
     "shortName": "NANKAI TATSUMURA CONSTRUCTION C",
-    "marketState": "CLOSED",
+    "longName": "Nankai Tatsumura Construction Co., Ltd.",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 954806400000,
+    "regularMarketChange": 6.0,
+    "regularMarketDayRange": "418.0 - 431.0",
+    "fullExchangeName": "Tokyo",
+    "averageDailyVolume3Month": 61580,
+    "fiftyTwoWeekLowChange": 49.0,
+    "fiftyTwoWeekLowChangePercent": 0.13101605,
+    "fiftyTwoWeekRange": "374.0 - 652.0",
+    "fiftyTwoWeekHighChange": -229.0,
+    "fiftyTwoWeekHighChangePercent": -0.351227,
+    "fiftyTwoWeekChangePercent": 8.4615345,
+    "marketState": "PREPRE",
     "corporateActions": [],
     "regularMarketTime": 1785479400,
     "exchange": "JPX",
@@ -1141,19 +1154,6 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
-    "regularMarketChange": 6.0,
-    "regularMarketDayRange": "418.0 - 431.0",
-    "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 61580,
-    "fiftyTwoWeekLowChange": 49.0,
-    "fiftyTwoWeekLowChangePercent": 0.13101605,
-    "fiftyTwoWeekRange": "374.0 - 652.0",
-    "fiftyTwoWeekHighChange": -229.0,
-    "fiftyTwoWeekHighChangePercent": -0.351227,
-    "fiftyTwoWeekChangePercent": 8.4615345,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 954806400000,
-    "longName": "Nankai Tatsumura Construction Co., Ltd.",
     "trailingPegRatio": null
   }
 }

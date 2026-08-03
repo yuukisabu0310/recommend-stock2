@@ -1,7 +1,7 @@
 {
   "ticker": "1969",
   "japanese_ticker": "1969.T",
-  "fetch_date": "2026-08-01T23:54:50.892019",
+  "fetch_date": "2026-08-02T23:56:24.751014",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": 476280000.0,
@@ -1166,8 +1166,8 @@
     "averageVolume": 719560,
     "averageVolume10days": 619370,
     "averageDailyVolume10Day": 619370,
-    "bid": 4262.0,
-    "ask": 4278.0,
+    "bid": 4264.0,
+    "ask": 4264.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 557999063040,
@@ -1214,8 +1214,7 @@
     "targetLowPrice": 4900.0,
     "targetMeanPrice": 5666.6665,
     "targetMedianPrice": 5725.0,
-    "recommendationMean": 1.5,
-    "recommendationKey": "strong_buy",
+    "recommendationKey": "none",
     "numberOfAnalystOpinions": 6,
     "totalCash": 48227999744,
     "totalCashPerShare": 367.055,
@@ -1244,7 +1243,8 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "marketState": "CLOSED",
+    "longName": "Takasago Thermal Engineering Co., Ltd.",
+    "marketState": "PREPRE",
     "corporateActions": [],
     "regularMarketTime": 1785479400,
     "exchange": "JPX",
@@ -1257,7 +1257,6 @@
     "regularMarketChangePercent": 0.7799575,
     "regularMarketPrice": 4264.0,
     "shortName": "TAKASAGO THERMAL ENGINEERING CO",
-    "longName": "Takasago Thermal Engineering Co., Ltd.",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 978307200000,
     "regularMarketChange": 33.0,
@@ -1284,7 +1283,6 @@
     "twoHundredDayAverageChangePercent": -0.07787658,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
-    "averageAnalystRating": "1.5 - Strong Buy",
     "cryptoTradeable": false,
     "trailingPegRatio": null
   }

@@ -1,7 +1,7 @@
 {
   "ticker": "1793",
   "japanese_ticker": "1793.T",
-  "fetch_date": "2026-08-01T23:52:05.537588",
+  "fetch_date": "2026-08-02T23:53:53.832354",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": 0.0,
@@ -357,21 +357,21 @@
   "balance_sheet": {
     "Treasury Shares Number": {
       "2026-03-31 00:00:00": 1360194.0,
-      "2025-03-31 00:00:00": 1380466.0,
+      "2025-03-31 00:00:00": null,
       "2024-03-31 00:00:00": 2204844.0,
       "2023-03-31 00:00:00": 2204514.0,
-      "2022-03-31 00:00:00": null
+      "2022-03-31 00:00:00": 1052034.0
     },
     "Ordinary Shares Number": {
       "2026-03-31 00:00:00": 25434086.0,
-      "2025-03-31 00:00:00": 25413814.0,
+      "2025-03-31 00:00:00": 28608128.0,
       "2024-03-31 00:00:00": 28589436.0,
       "2023-03-31 00:00:00": 28589766.0,
       "2022-03-31 00:00:00": null
     },
     "Share Issued": {
       "2026-03-31 00:00:00": 26794280.0,
-      "2025-03-31 00:00:00": 26794280.0,
+      "2025-03-31 00:00:00": 28608128.0,
       "2024-03-31 00:00:00": 30794280.0,
       "2023-03-31 00:00:00": 30794280.0,
       "2022-03-31 00:00:00": null
@@ -1214,8 +1214,8 @@
     "averageVolume": 4390,
     "averageVolume10days": 4560,
     "averageDailyVolume10Day": 4560,
-    "bid": 1958.0,
-    "ask": 2019.0,
+    "bid": 0.0,
+    "ask": 1961.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 50105147392,
@@ -1281,7 +1281,17 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "longName": "Ohmoto Gumi Co., Ltd.",
+    "marketState": "PREPRE",
+    "fiftyDayAverageChange": 24.54004,
+    "fiftyDayAverageChangePercent": 0.012614003,
+    "twoHundredDayAverageChange": 265.93005,
+    "twoHundredDayAverageChangePercent": 0.15605584,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 946944000000,
     "regularMarketChange": 20.0,
     "regularMarketDayRange": "1943.0 - 1971.0",
     "fullExchangeName": "Tokyo",
@@ -1296,28 +1306,18 @@
     "earningsTimestampEnd": 1747119600,
     "isEarningsDateEstimate": false,
     "epsTrailingTwelveMonths": 71.31,
-    "fiftyDayAverageChange": 24.54004,
-    "fiftyDayAverageChangePercent": 0.012614003,
-    "twoHundredDayAverageChange": 265.93005,
-    "twoHundredDayAverageChangePercent": 0.15605584,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
+    "shortName": "OHMOTO GUMI CO",
     "corporateActions": [],
     "regularMarketTime": 1785478785,
-    "marketState": "CLOSED",
-    "regularMarketChangePercent": 1.0256411,
-    "regularMarketPrice": 1970.0,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 946944000000,
     "exchange": "JPX",
     "messageBoardId": "finmb_883903",
     "exchangeTimezoneName": "Asia/Tokyo",
     "exchangeTimezoneShortName": "JST",
     "gmtOffSetMilliseconds": 32400000,
+    "regularMarketChangePercent": 1.0256411,
+    "regularMarketPrice": 1970.0,
     "market": "jp_market",
     "esgPopulated": false,
-    "shortName": "OHMOTO GUMI CO",
-    "longName": "Ohmoto Gumi Co., Ltd.",
     "trailingPegRatio": null
   }
 }

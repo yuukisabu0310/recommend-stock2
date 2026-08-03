@@ -1,19 +1,19 @@
 {
   "ticker": "2493",
   "japanese_ticker": "2493.T",
-  "fetch_date": "2026-08-02T00:00:56.108378",
+  "fetch_date": "2026-08-03T00:02:11.076702",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-11-30 00:00:00": -11137392.0,
       "2024-11-30 00:00:00": -2468136.0,
-      "2023-11-30 00:00:00": -6222040.0,
+      "2023-11-30 00:00:00": -6228921.710616,
       "2022-11-30 00:00:00": -23038992.0,
       "2021-11-30 00:00:00": null
     },
     "Tax Rate For Calcs": {
       "2025-11-30 00:00:00": 0.232,
       "2024-11-30 00:00:00": 0.066,
-      "2023-11-30 00:00:00": 0.358,
+      "2023-11-30 00:00:00": 0.358396,
       "2022-11-30 00:00:00": 0.232,
       "2021-11-30 00:00:00": null
     },
@@ -1182,8 +1182,8 @@
     "averageVolume": 12400,
     "averageVolume10days": 3250,
     "averageDailyVolume10Day": 3250,
-    "bid": 940.0,
-    "ask": 945.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "marketCap": 4158990592,
     "nonDilutedMarketCap": 4158990520,
     "fiftyTwoWeekLow": 901.0,
@@ -1248,6 +1248,10 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "longName": "E-SUPPORTLINK, Ltd.",
+    "marketState": "REGULAR",
+    "corporateActions": [],
+    "regularMarketTime": 1785479400,
     "exchange": "JPX",
     "messageBoardId": "finmb_27941528",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1258,9 +1262,8 @@
     "regularMarketChangePercent": -0.106269926,
     "regularMarketPrice": 940.0,
     "shortName": "E SUPPORTLINK LTD",
-    "longName": "E-SUPPORTLINK, Ltd.",
-    "corporateActions": [],
-    "regularMarketTime": 1785479400,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1155168000000,
     "regularMarketChange": -1.0,
     "regularMarketDayRange": "940.0 - 945.0",
     "fullExchangeName": "Tokyo",
@@ -1284,9 +1287,6 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1155168000000,
-    "marketState": "CLOSED",
     "trailingPegRatio": null
   }
 }

@@ -1,7 +1,7 @@
 {
   "ticker": "1844",
   "japanese_ticker": "1844.T",
-  "fetch_date": "2026-08-01T23:52:56.155891",
+  "fetch_date": "2026-08-02T23:54:39.249395",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-07-31 00:00:00": null,
@@ -113,14 +113,14 @@
     },
     "Diluted Average Shares": {
       "2025-07-31 00:00:00": 19051470.0,
-      "2024-07-31 00:00:00": 18671879.0,
+      "2024-07-31 00:00:00": null,
       "2023-07-31 00:00:00": 15997763.0,
       "2022-07-31 00:00:00": 15191299.0
     },
     "Basic Average Shares": {
       "2025-07-31 00:00:00": 18654284.0,
-      "2024-07-31 00:00:00": 18238041.0,
-      "2023-07-31 00:00:00": 15403249.0,
+      "2024-07-31 00:00:00": null,
+      "2023-07-31 00:00:00": 15401208.0,
       "2022-07-31 00:00:00": 14931451.0
     },
     "Diluted EPS": {
@@ -131,7 +131,7 @@
     },
     "Basic EPS": {
       "2025-07-31 00:00:00": 27.8,
-      "2024-07-31 00:00:00": 22.72,
+      "2024-07-31 00:00:00": null,
       "2023-07-31 00:00:00": 19.04,
       "2022-07-31 00:00:00": 17.07
     },
@@ -305,7 +305,7 @@
       "2022-07-31 00:00:00": 16802.0
     },
     "Ordinary Shares Number": {
-      "2024-07-31 00:00:00": 18654514.0,
+      "2024-07-31 00:00:00": 18654694.0,
       "2023-07-31 00:00:00": 17505284.0,
       "2022-07-31 00:00:00": 14956047.0
     },
@@ -953,8 +953,8 @@
     "averageVolume": 103485,
     "averageVolume10days": 76190,
     "averageDailyVolume10Day": 76190,
-    "bid": 473.0,
-    "ask": 476.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "marketCap": 8871408640,
     "nonDilutedMarketCap": 8871408174,
     "fiftyTwoWeekLow": 399.0,
@@ -1019,12 +1019,6 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "marketState": "CLOSED",
-    "regularMarketChangePercent": -0.83682007,
-    "regularMarketPrice": 474.0,
-    "shortName": "OHMORI CO LTD",
-    "longName": "Ohmori Co.,Ltd.",
-    "corporateActions": [],
     "regularMarketTime": 1785479400,
     "exchange": "JPX",
     "messageBoardId": "finmb_883665",
@@ -1033,19 +1027,8 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 978307200000,
-    "cryptoTradeable": false,
-    "regularMarketChange": -4.0,
-    "regularMarketDayRange": "473.0 - 483.0",
-    "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 103485,
-    "fiftyTwoWeekLowChange": 75.0,
-    "fiftyTwoWeekLowChangePercent": 0.18796992,
-    "fiftyTwoWeekRange": "399.0 - 1450.0",
-    "fiftyTwoWeekHighChange": -976.0,
-    "fiftyTwoWeekHighChangePercent": -0.67310345,
-    "fiftyTwoWeekChangePercent": -12.867647,
+    "regularMarketChangePercent": -0.83682007,
+    "regularMarketPrice": 474.0,
     "earningsTimestampStart": 1749434400,
     "earningsTimestampEnd": 1749434400,
     "isEarningsDateEstimate": false,
@@ -1056,6 +1039,23 @@
     "twoHundredDayAverageChangePercent": -0.15233019,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
+    "longName": "Ohmori Co.,Ltd.",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 978307200000,
+    "regularMarketChange": -4.0,
+    "regularMarketDayRange": "473.0 - 483.0",
+    "fullExchangeName": "Tokyo",
+    "averageDailyVolume3Month": 103485,
+    "fiftyTwoWeekLowChange": 75.0,
+    "fiftyTwoWeekLowChangePercent": 0.18796992,
+    "fiftyTwoWeekRange": "399.0 - 1450.0",
+    "fiftyTwoWeekHighChange": -976.0,
+    "fiftyTwoWeekHighChangePercent": -0.67310345,
+    "fiftyTwoWeekChangePercent": -12.867647,
+    "shortName": "OHMORI CO LTD",
+    "corporateActions": [],
+    "marketState": "PREPRE",
     "trailingPegRatio": null
   }
 }

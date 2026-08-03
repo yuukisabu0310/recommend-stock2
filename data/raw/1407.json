@@ -1,7 +1,7 @@
 {
   "ticker": "1407",
   "japanese_ticker": "1407.T",
-  "fetch_date": "2026-08-01T23:50:23.788032",
+  "fetch_date": "2026-08-02T23:52:20.926961",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-08-31 00:00:00": 57776000.0,
@@ -1173,8 +1173,8 @@
     "averageVolume": 676832,
     "averageVolume10days": 742440,
     "averageDailyVolume10Day": 742440,
-    "bid": 2527.0,
-    "ask": 2530.0,
+    "bid": 2520.0,
+    "ask": 2520.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 100297998336,
@@ -1247,11 +1247,7 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "shortName": "WEST HOLDINGS CORP",
-    "longName": "West Holdings Corporation",
-    "marketState": "CLOSED",
-    "regularMarketChangePercent": 2.1818182,
-    "regularMarketPrice": 2529.0,
+    "marketState": "PREPRE",
     "corporateActions": [
       {
         "header": "Dividend",
@@ -1271,11 +1267,10 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "regularMarketChange": 54.0,
-    "regularMarketDayRange": "2514.0 - 2653.0",
-    "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 676832,
-    "fiftyTwoWeekLowChange": 1235.0,
+    "regularMarketChangePercent": 2.1818182,
+    "regularMarketPrice": 2529.0,
+    "shortName": "WEST HOLDINGS CORP",
+    "longName": "West Holdings Corporation",
     "fiftyTwoWeekLowChangePercent": 0.95440495,
     "fiftyTwoWeekRange": "1294.0 - 3270.0",
     "fiftyTwoWeekHighChange": -741.0,
@@ -1295,6 +1290,11 @@
     "cryptoTradeable": false,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1088035200000,
+    "regularMarketChange": 54.0,
+    "regularMarketDayRange": "2514.0 - 2653.0",
+    "fullExchangeName": "Tokyo",
+    "averageDailyVolume3Month": 676832,
+    "fiftyTwoWeekLowChange": 1235.0,
     "trailingPegRatio": null
   }
 }

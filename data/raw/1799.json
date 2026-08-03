@@ -1,7 +1,7 @@
 {
   "ticker": "1799",
   "japanese_ticker": "1799.T",
-  "fetch_date": "2026-08-01T23:52:12.233805",
+  "fetch_date": "2026-08-02T23:53:59.349502",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": 14782063.015977,
@@ -132,7 +132,7 @@
     "Basic Average Shares": {
       "2026-03-31 00:00:00": null,
       "2025-03-31 00:00:00": 18858564.0,
-      "2024-03-31 00:00:00": 19495960.0,
+      "2024-03-31 00:00:00": 19496781.0,
       "2023-03-31 00:00:00": 19944038.0,
       "2022-03-31 00:00:00": 20322000.0
     },
@@ -350,21 +350,21 @@
   "balance_sheet": {
     "Treasury Shares Number": {
       "2026-03-31 00:00:00": 3157064.0,
-      "2025-03-31 00:00:00": 2092427.0,
+      "2025-03-31 00:00:00": null,
       "2024-03-31 00:00:00": 1395723.0,
       "2023-03-31 00:00:00": 1270989.0,
-      "2022-03-31 00:00:00": null
+      "2022-03-31 00:00:00": 547177.0
     },
     "Ordinary Shares Number": {
       "2026-03-31 00:00:00": 17701427.0,
-      "2025-03-31 00:00:00": 18766064.0,
+      "2025-03-31 00:00:00": 18761968.0,
       "2024-03-31 00:00:00": 19462768.0,
       "2023-03-31 00:00:00": 19587502.0,
       "2022-03-31 00:00:00": null
     },
     "Share Issued": {
       "2026-03-31 00:00:00": 20858491.0,
-      "2025-03-31 00:00:00": 20858491.0,
+      "2025-03-31 00:00:00": 18761968.0,
       "2024-03-31 00:00:00": 20858491.0,
       "2023-03-31 00:00:00": 20858491.0,
       "2022-03-31 00:00:00": null
@@ -1192,8 +1192,8 @@
     "averageVolume": 32418,
     "averageVolume10days": 19760,
     "averageDailyVolume10Day": 19760,
-    "bid": 3415.0,
-    "ask": 3460.0,
+    "bid": 0.0,
+    "ask": 3500.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 61089591296,
@@ -1271,8 +1271,9 @@
     "market": "jp_market",
     "esgPopulated": false,
     "regularMarketChangePercent": 1.0248902,
-    "marketState": "CLOSED",
     "regularMarketPrice": 3450.0,
+    "marketState": "PREPRE",
+    "longName": "Daiichi Kensetsu Corporation",
     "regularMarketChange": 35.0,
     "regularMarketDayRange": "3405.0 - 3485.0",
     "fullExchangeName": "Tokyo",
@@ -1295,10 +1296,9 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
+    "shortName": "DAIICHI KENSETSU CORP",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 946944000000,
-    "shortName": "DAIICHI KENSETSU CORP",
-    "longName": "Daiichi Kensetsu Corporation",
     "trailingPegRatio": null
   }
 }

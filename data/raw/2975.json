@@ -1,7 +1,7 @@
 {
   "ticker": "2975",
   "japanese_ticker": "2975.T",
-  "fetch_date": "2026-08-02T00:06:04.083397",
+  "fetch_date": "2026-08-03T00:07:01.027102",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-11-30 00:00:00": 98648371.050528,
@@ -1065,8 +1065,8 @@
     "averageVolume": 185250,
     "averageVolume10days": 162330,
     "averageDailyVolume10Day": 162330,
-    "bid": 1520.0,
-    "ask": 1521.0,
+    "bid": 0.0,
+    "ask": 1514.0,
     "marketCap": 57703784448,
     "nonDilutedMarketCap": 57703784697,
     "fiftyTwoWeekLow": 1001.0,
@@ -1148,12 +1148,6 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "shortName": "STAR MICA HLDGS CO",
-    "longName": "Star Mica Holdings Co., Ltd.",
-    "regularMarketChangePercent": 1.8754187,
-    "regularMarketPrice": 1521.0,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1559520000000,
     "regularMarketChange": 28.0,
     "regularMarketDayRange": "1481.0 - 1530.0",
     "fullExchangeName": "Tokyo",
@@ -1174,9 +1168,15 @@
     "twoHundredDayAverageChangePercent": 0.029849354,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
+    "regularMarketChangePercent": 1.8754187,
+    "regularMarketPrice": 1521.0,
+    "marketState": "REGULAR",
+    "shortName": "STAR MICA HLDGS CO",
+    "longName": "Star Mica Holdings Co., Ltd.",
     "averageAnalystRating": "1.0 - Strong Buy",
     "cryptoTradeable": false,
-    "marketState": "CLOSED",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1559520000000,
     "trailingPegRatio": null
   }
 }

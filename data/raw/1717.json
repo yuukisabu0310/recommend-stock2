@@ -1,7 +1,7 @@
 {
   "ticker": "1717",
   "japanese_ticker": "1717.T",
-  "fetch_date": "2026-08-01T23:51:22.291640",
+  "fetch_date": "2026-08-02T23:53:13.528506",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": -367342.2,
@@ -287,10 +287,10 @@
   "balance_sheet": {
     "Treasury Shares Number": {
       "2026-03-31 00:00:00": 1017244.0,
-      "2025-03-31 00:00:00": 1105228.0,
+      "2025-03-31 00:00:00": null,
       "2024-03-31 00:00:00": 1177199.0,
       "2023-03-31 00:00:00": 1247340.0,
-      "2022-03-31 00:00:00": null
+      "2022-03-31 00:00:00": 1281903.0
     },
     "Ordinary Shares Number": {
       "2026-03-31 00:00:00": 11758656.0,
@@ -1052,8 +1052,8 @@
     "averageVolume": 26452,
     "averageVolume10days": 12920,
     "averageDailyVolume10Day": 12920,
-    "bid": 947.0,
-    "ask": 949.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 11158964224,
@@ -1133,9 +1133,7 @@
     "esgPopulated": false,
     "regularMarketChangePercent": -0.10526315,
     "regularMarketPrice": 949.0,
-    "marketState": "CLOSED",
-    "shortName": "MEIHO FACILITY WORKS",
-    "longName": "Meiho Facility Works Ltd.",
+    "marketState": "PREPRE",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1077148800000,
     "regularMarketChange": -1.0,
@@ -1160,6 +1158,8 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
+    "shortName": "MEIHO FACILITY WORKS",
+    "longName": "Meiho Facility Works Ltd.",
     "trailingPegRatio": null
   }
 }

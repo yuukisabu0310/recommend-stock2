@@ -1,7 +1,7 @@
 {
   "ticker": "2796",
   "japanese_ticker": "2796.T",
-  "fetch_date": "2026-08-02T00:03:58.026151",
+  "fetch_date": "2026-08-03T00:05:02.813477",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-05-31 00:00:00": null,
@@ -132,7 +132,7 @@
     "Basic Average Shares": {
       "2026-05-31 00:00:00": null,
       "2025-05-31 00:00:00": 11321567.0,
-      "2024-05-31 00:00:00": 10524018.0,
+      "2024-05-31 00:00:00": 10505837.0,
       "2023-05-31 00:00:00": 9400592.0,
       "2022-05-31 00:00:00": 9331334.0
     },
@@ -1072,8 +1072,8 @@
     "averageVolume": 11173,
     "averageVolume10days": 5170,
     "averageDailyVolume10Day": 5170,
-    "bid": 489.0,
-    "ask": 490.0,
+    "bid": 0.0,
+    "ask": 489.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 5624734720,
@@ -1139,6 +1139,8 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "marketState": "REGULAR",
+    "shortName": "PHARMARISE HOLDINGS CORPORATION",
     "corporateActions": [],
     "regularMarketTime": 1785479400,
     "exchange": "JPX",
@@ -1150,13 +1152,18 @@
     "esgPopulated": false,
     "regularMarketChangePercent": -0.407332,
     "regularMarketPrice": 489.0,
-    "marketState": "CLOSED",
-    "shortName": "PHARMARISE HOLDINGS CORPORATION",
-    "longName": "Pharmarise Holdings Corporation",
+    "fiftyDayAverageChange": -8.059998,
+    "fiftyDayAverageChangePercent": -0.016215341,
+    "twoHundredDayAverageChange": -26.775024,
+    "twoHundredDayAverageChangePercent": -0.051912215,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1172016000000,
     "regularMarketChange": -2.0,
     "regularMarketDayRange": "489.0 - 491.0",
+    "longName": "Pharmarise Holdings Corporation",
     "fullExchangeName": "Tokyo",
     "averageDailyVolume3Month": 11173,
     "fiftyTwoWeekLowChange": 18.0,
@@ -1171,13 +1178,6 @@
     "earningsCallTimestampEnd": 1737716340,
     "isEarningsDateEstimate": true,
     "epsTrailingTwelveMonths": 10.02,
-    "fiftyDayAverageChange": -8.059998,
-    "fiftyDayAverageChangePercent": -0.016215341,
-    "twoHundredDayAverageChange": -26.775024,
-    "twoHundredDayAverageChangePercent": -0.051912215,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
     "trailingPegRatio": null
   }
 }

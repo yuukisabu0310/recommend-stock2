@@ -1,7 +1,7 @@
 {
   "ticker": "2916",
   "japanese_ticker": "2916.T",
-  "fetch_date": "2026-08-02T00:05:20.523737",
+  "fetch_date": "2026-08-03T00:06:20.152208",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": 26330800.0,
@@ -329,10 +329,10 @@
   "balance_sheet": {
     "Treasury Shares Number": {
       "2026-03-31 00:00:00": 16408.0,
-      "2025-03-31 00:00:00": 16408.0,
+      "2025-03-31 00:00:00": null,
       "2024-03-31 00:00:00": 16384.0,
       "2023-03-31 00:00:00": 16000.0,
-      "2022-03-31 00:00:00": null
+      "2022-03-31 00:00:00": 16000.0
     },
     "Ordinary Shares Number": {
       "2026-03-31 00:00:00": 11383592.0,
@@ -343,7 +343,7 @@
     },
     "Share Issued": {
       "2026-03-31 00:00:00": 11400000.0,
-      "2025-03-31 00:00:00": 11400000.0,
+      "2025-03-31 00:00:00": 11383616.0,
       "2024-03-31 00:00:00": 11400000.0,
       "2023-03-31 00:00:00": 11400000.0,
       "2022-03-31 00:00:00": null
@@ -1222,7 +1222,7 @@
     "averageVolume": 2931,
     "averageVolume10days": 5270,
     "averageDailyVolume10Day": 5270,
-    "bid": 722.0,
+    "bid": 0.0,
     "ask": 726.0,
     "bidSize": 0,
     "askSize": 0,
@@ -1288,7 +1288,9 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "cryptoTradeable": false,
+    "marketState": "REGULAR",
+    "shortName": "SEMBA TOHKA INDUSTRIES CO",
+    "longName": "Semba Tohka Industries Co., Ltd",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 947030400000,
     "regularMarketChange": 1.0,
@@ -1304,13 +1306,6 @@
     "earningsTimestampStart": 1747116000,
     "earningsTimestampEnd": 1747116000,
     "isEarningsDateEstimate": false,
-    "epsTrailingTwelveMonths": 48.73,
-    "fiftyDayAverageChange": -2.6799927,
-    "fiftyDayAverageChangePercent": -0.0036879957,
-    "twoHundredDayAverageChange": 0.35998535,
-    "twoHundredDayAverageChangePercent": 0.0004974647,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
     "corporateActions": [],
     "regularMarketTime": 1785479400,
     "exchange": "JPX",
@@ -1320,11 +1315,16 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "shortName": "SEMBA TOHKA INDUSTRIES CO",
-    "longName": "Semba Tohka Industries Co., Ltd",
-    "marketState": "CLOSED",
     "regularMarketChangePercent": 0.1383126,
     "regularMarketPrice": 724.0,
+    "epsTrailingTwelveMonths": 48.73,
+    "fiftyDayAverageChange": -2.6799927,
+    "fiftyDayAverageChangePercent": -0.0036879957,
+    "twoHundredDayAverageChange": 0.35998535,
+    "twoHundredDayAverageChangePercent": 0.0004974647,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
     "trailingPegRatio": null
   }
 }

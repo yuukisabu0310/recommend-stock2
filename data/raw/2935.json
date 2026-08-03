@@ -1,7 +1,7 @@
 {
   "ticker": "2935",
   "japanese_ticker": "2935.T",
-  "fetch_date": "2026-08-02T00:05:49.013982",
+  "fetch_date": "2026-08-03T00:06:46.876212",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-02-28 00:00:00": -19408895.265423,
@@ -973,7 +973,7 @@
     "averageVolume10days": 19590,
     "averageDailyVolume10Day": 19590,
     "bid": 1150.0,
-    "ask": 1159.0,
+    "ask": 1151.0,
     "marketCap": 14419992576,
     "nonDilutedMarketCap": 14419992730,
     "fiftyTwoWeekLow": 981.0,
@@ -1037,7 +1037,30 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "cryptoTradeable": false,
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "2935.T announced a cash dividend of JPY 15.00 with an ex-date of Aug. 28, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1787842800000,
+          "amount": "15.00"
+        }
+      }
+    ],
+    "regularMarketTime": 1785479400,
+    "marketState": "REGULAR",
+    "exchange": "JPX",
+    "messageBoardId": "finmb_5646333",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
+    "regularMarketChangePercent": -1.2017167,
+    "regularMarketPrice": 1151.0,
+    "shortName": "PICKLES HOLDINGS CO LTD",
+    "longName": "Pickles Holdings Co.,Ltd.",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1661990400000,
     "regularMarketChange": -14.0,
@@ -1062,31 +1085,8 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "prevName": "Pickles Corporation",
-    "nameChangeDate": "2026-08-01",
-    "shortName": "PICKLES HOLDINGS CO LTD",
-    "longName": "Pickles Holdings Co.,Ltd.",
-    "regularMarketChangePercent": -1.2017167,
-    "regularMarketPrice": 1151.0,
-    "marketState": "CLOSED",
-    "corporateActions": [
-      {
-        "header": "Dividend",
-        "message": "2935.T announced a cash dividend of JPY 15.00 with an ex-date of Aug. 28, 2026",
-        "meta": {
-          "eventType": "DIVIDEND",
-          "dateEpochMs": 1787842800000,
-          "amount": "15.00"
-        }
-      }
-    ],
-    "regularMarketTime": 1785479400,
-    "exchange": "JPX",
-    "messageBoardId": "finmb_5646333",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
+    "nameChangeDate": "2026-08-02",
+    "cryptoTradeable": false,
     "trailingPegRatio": null
   }
 }

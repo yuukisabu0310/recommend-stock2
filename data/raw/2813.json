@@ -1,7 +1,7 @@
 {
   "ticker": "2813",
   "japanese_ticker": "2813.T",
-  "fetch_date": "2026-08-02T00:04:20.082646",
+  "fetch_date": "2026-08-03T00:05:22.661689",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": 11380875.0,
@@ -132,7 +132,7 @@
     "Diluted Average Shares": {
       "2026-03-31 00:00:00": 2494255.0,
       "2025-03-31 00:00:00": 2491634.0,
-      "2024-03-31 00:00:00": 2487951.0,
+      "2024-03-31 00:00:00": 2487936.0,
       "2023-03-31 00:00:00": 2478735.0,
       "2022-03-31 00:00:00": null
     },
@@ -364,7 +364,7 @@
     },
     "Share Issued": {
       "2026-03-31 00:00:00": 2847957.0,
-      "2025-03-31 00:00:00": 2847957.0,
+      "2025-03-31 00:00:00": 2492340.0,
       "2024-03-31 00:00:00": 2847957.0,
       "2023-03-31 00:00:00": 2847957.0,
       "2022-03-31 00:00:00": null
@@ -1275,8 +1275,8 @@
     "averageVolume": 1734,
     "averageVolume10days": 1350,
     "averageDailyVolume10Day": 1350,
-    "bid": 3960.0,
-    "ask": 4075.0,
+    "bid": 3965.0,
+    "ask": 3970.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 9905579008,
@@ -1345,18 +1345,8 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "corporateActions": [],
-    "regularMarketTime": 1785479400,
-    "exchange": "JPX",
-    "messageBoardId": "finmb_9794139",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
-    "regularMarketChangePercent": -0.75,
-    "marketState": "CLOSED",
-    "regularMarketPrice": 3970.0,
+    "cryptoTradeable": false,
+    "marketState": "REGULAR",
     "regularMarketChange": -30.0,
     "regularMarketDayRange": "3970.0 - 4030.0",
     "fullExchangeName": "Tokyo",
@@ -1377,11 +1367,21 @@
     "twoHundredDayAverageChangePercent": 0.10936153,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 947030400000,
-    "shortName": "WAKOU SHOKUHIN CO",
     "longName": "Wakou Shokuhin Co., Ltd.",
+    "corporateActions": [],
+    "regularMarketTime": 1785479400,
+    "exchange": "JPX",
+    "messageBoardId": "finmb_9794139",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
+    "shortName": "WAKOU SHOKUHIN CO",
+    "regularMarketChangePercent": -0.75,
+    "regularMarketPrice": 3970.0,
     "trailingPegRatio": null
   }
 }

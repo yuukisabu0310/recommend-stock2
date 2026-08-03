@@ -1,7 +1,7 @@
 {
   "ticker": "2173",
   "japanese_ticker": "2173.T",
-  "fetch_date": "2026-08-01T23:56:31.824704",
+  "fetch_date": "2026-08-02T23:58:00.581553",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-12-31 00:00:00": 4716792.0,
@@ -107,7 +107,7 @@
     },
     "Diluted Average Shares": {
       "2025-12-31 00:00:00": null,
-      "2024-12-31 00:00:00": 15483237.0,
+      "2024-12-31 00:00:00": 15482027.0,
       "2023-03-31 00:00:00": 30571838.0,
       "2022-03-31 00:00:00": 15647324.0
     },
@@ -277,13 +277,13 @@
     },
     "Ordinary Shares Number": {
       "2025-12-31 00:00:00": 15657148.0,
-      "2024-12-31 00:00:00": 15532654.0,
+      "2024-12-31 00:00:00": 15483154.0,
       "2023-03-31 00:00:00": 15284636.0,
       "2022-03-31 00:00:00": 15679836.0
     },
     "Share Issued": {
       "2025-12-31 00:00:00": 16248520.0,
-      "2024-12-31 00:00:00": 16175520.0,
+      "2024-12-31 00:00:00": 15483154.0,
       "2023-03-31 00:00:00": 16024200.0,
       "2022-03-31 00:00:00": 15950200.0
     },
@@ -1081,8 +1081,8 @@
     "averageVolume": 23545,
     "averageVolume10days": 10520,
     "averageDailyVolume10Day": 10520,
-    "bid": 723.0,
-    "ask": 727.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 11351432192,
@@ -1149,26 +1149,14 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "regularMarketChangePercent": 2.9829545,
+    "regularMarketPrice": 725.0,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1204502400000,
     "regularMarketChange": 21.0,
     "regularMarketDayRange": "712.0 - 725.0",
     "fullExchangeName": "Tokyo",
     "averageDailyVolume3Month": 23545,
-    "marketState": "CLOSED",
-    "corporateActions": [],
-    "regularMarketTime": 1785479400,
-    "exchange": "JPX",
-    "messageBoardId": "finmb_40371989",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
-    "regularMarketChangePercent": 2.9829545,
-    "regularMarketPrice": 725.0,
-    "shortName": "HAKUTEN CORPORATION",
-    "longName": "Hakuten Corporation",
     "fiftyTwoWeekLowChange": 183.0,
     "fiftyTwoWeekLowChangePercent": 0.33763838,
     "fiftyTwoWeekRange": "542.0 - 1088.0",
@@ -1186,6 +1174,18 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
+    "marketState": "PREPRE",
+    "shortName": "HAKUTEN CORPORATION",
+    "corporateActions": [],
+    "regularMarketTime": 1785479400,
+    "exchange": "JPX",
+    "messageBoardId": "finmb_40371989",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
+    "longName": "Hakuten Corporation",
     "trailingPegRatio": null
   }
 }

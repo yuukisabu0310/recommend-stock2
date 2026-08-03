@@ -1,7 +1,7 @@
 {
   "ticker": "2753",
   "japanese_ticker": "2753.T",
-  "fetch_date": "2026-08-02T00:03:18.186690",
+  "fetch_date": "2026-08-03T00:04:26.794577",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": -99568000.0,
@@ -259,10 +259,10 @@
   "balance_sheet": {
     "Treasury Shares Number": {
       "2026-03-31 00:00:00": 630.0,
-      "2025-03-31 00:00:00": 1530.0,
+      "2025-03-31 00:00:00": null,
       "2024-03-31 00:00:00": 1530.0,
       "2023-03-31 00:00:00": 1443.0,
-      "2022-03-31 00:00:00": null
+      "2022-03-31 00:00:00": 1338.0
     },
     "Ordinary Shares Number": {
       "2026-03-31 00:00:00": 20545770.0,
@@ -273,7 +273,7 @@
     },
     "Share Issued": {
       "2026-03-31 00:00:00": 20546400.0,
-      "2025-03-31 00:00:00": 20546400.0,
+      "2025-03-31 00:00:00": 20544870.0,
       "2024-03-31 00:00:00": 20546400.0,
       "2023-03-31 00:00:00": 20546400.0,
       "2022-03-31 00:00:00": null
@@ -1158,8 +1158,8 @@
     "averageVolume": 37713,
     "averageVolume10days": 33940,
     "averageDailyVolume10Day": 33940,
-    "bid": 1353.0,
-    "ask": 1385.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 27901155328,
@@ -1227,18 +1227,14 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "exchange": "JPX",
-    "messageBoardId": "finmb_8952906",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
-    "regularMarketChangePercent": -1.5228426,
-    "corporateActions": [],
-    "regularMarketTime": 1785479400,
-    "marketState": "CLOSED",
-    "regularMarketPrice": 1358.0,
+    "longName": "Amiyaki Tei Co., Ltd.",
+    "marketState": "REGULAR",
+    "fiftyDayAverageChange": 26.0,
+    "fiftyDayAverageChangePercent": 0.019519519,
+    "twoHundredDayAverageChange": -12.484985,
+    "twoHundredDayAverageChangePercent": -0.009109903,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1040169600000,
@@ -1246,8 +1242,6 @@
     "regularMarketDayRange": "1353.0 - 1384.0",
     "fullExchangeName": "Tokyo",
     "averageDailyVolume3Month": 37713,
-    "shortName": "AMIYAKI TEI CO LTD",
-    "longName": "Amiyaki Tei Co., Ltd.",
     "fiftyTwoWeekLowChange": 91.0,
     "fiftyTwoWeekLowChangePercent": 0.0718232,
     "fiftyTwoWeekRange": "1267.0 - 1595.0",
@@ -1259,12 +1253,18 @@
     "isEarningsDateEstimate": true,
     "epsTrailingTwelveMonths": 61.79,
     "epsForward": 93.9,
-    "fiftyDayAverageChange": 26.0,
-    "fiftyDayAverageChangePercent": 0.019519519,
-    "twoHundredDayAverageChange": -12.484985,
-    "twoHundredDayAverageChangePercent": -0.009109903,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
+    "shortName": "AMIYAKI TEI CO LTD",
+    "corporateActions": [],
+    "regularMarketTime": 1785479400,
+    "exchange": "JPX",
+    "messageBoardId": "finmb_8952906",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "regularMarketChangePercent": -1.5228426,
+    "regularMarketPrice": 1358.0,
+    "market": "jp_market",
+    "esgPopulated": false,
     "trailingPegRatio": null
   }
 }

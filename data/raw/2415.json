@@ -1,7 +1,7 @@
 {
   "ticker": "2415",
   "japanese_ticker": "2415.T",
-  "fetch_date": "2026-08-01T23:59:46.391230",
+  "fetch_date": "2026-08-03T00:01:07.139379",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": -160017396.0,
@@ -125,14 +125,14 @@
     "Diluted Average Shares": {
       "2026-03-31 00:00:00": 10377786.0,
       "2025-03-31 00:00:00": 10377974.0,
-      "2024-03-31 00:00:00": 10670349.0,
+      "2024-03-31 00:00:00": 10670386.0,
       "2023-03-31 00:00:00": 10877999.0,
       "2022-03-31 00:00:00": null
     },
     "Basic Average Shares": {
       "2026-03-31 00:00:00": null,
       "2025-03-31 00:00:00": 10377974.0,
-      "2024-03-31 00:00:00": 10670349.0,
+      "2024-03-31 00:00:00": 10670386.0,
       "2023-03-31 00:00:00": 10877999.0,
       "2022-03-31 00:00:00": 10877999.0
     },
@@ -315,7 +315,7 @@
     },
     "Share Issued": {
       "2026-03-31 00:00:00": 10377999.0,
-      "2025-03-31 00:00:00": 10377999.0,
+      "2025-03-31 00:00:00": 10377962.0,
       "2024-03-31 00:00:00": 10377999.0,
       "2023-03-31 00:00:00": 10987200.0,
       "2022-03-31 00:00:00": null
@@ -1196,7 +1196,7 @@
     "averageVolume": 8580,
     "averageVolume10days": 7310,
     "averageDailyVolume10Day": 7310,
-    "bid": 1601.0,
+    "bid": 0.0,
     "ask": 1630.0,
     "bidSize": 0,
     "askSize": 0,
@@ -1269,8 +1269,6 @@
     "customPriceAlertConfidence": "LOW",
     "shortName": "HUMAN HLDGS CO.LTD",
     "longName": "Human Holdings Co., Ltd.",
-    "corporateActions": [],
-    "regularMarketTime": 1785479400,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1097107200000,
     "regularMarketChange": 32.0,
@@ -1283,6 +1281,18 @@
     "fiftyTwoWeekHighChange": -481.0,
     "fiftyTwoWeekHighChangePercent": -0.2278541,
     "fiftyTwoWeekChangePercent": -8.836687,
+    "marketState": "REGULAR",
+    "corporateActions": [],
+    "regularMarketTime": 1785479400,
+    "exchange": "JPX",
+    "messageBoardId": "finmb_11518917",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
+    "regularMarketChangePercent": 2.0025032,
+    "regularMarketPrice": 1630.0,
     "earningsTimestampStart": 1747290720,
     "earningsTimestampEnd": 1747290720,
     "isEarningsDateEstimate": false,
@@ -1294,17 +1304,7 @@
     "twoHundredDayAverageChangePercent": -0.077480346,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
-    "marketState": "CLOSED",
     "cryptoTradeable": false,
-    "exchange": "JPX",
-    "messageBoardId": "finmb_11518917",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
-    "regularMarketChangePercent": 2.0025032,
-    "regularMarketPrice": 1630.0,
     "trailingPegRatio": null
   }
 }

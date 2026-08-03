@@ -1,7 +1,7 @@
 {
   "ticker": "2917",
   "japanese_ticker": "2917.T",
-  "fetch_date": "2026-08-02T00:05:22.416843",
+  "fetch_date": "2026-08-03T00:06:21.827835",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-09-30 00:00:00": 49476.0,
@@ -108,13 +108,13 @@
     "Diluted Average Shares": {
       "2025-09-30 00:00:00": 4993808.0,
       "2024-09-30 00:00:00": 5024808.0,
-      "2023-09-30 00:00:00": 5031732.0,
+      "2023-09-30 00:00:00": 5032147.0,
       "2022-09-30 00:00:00": 5031732.0
     },
     "Basic Average Shares": {
       "2025-09-30 00:00:00": 4993808.0,
       "2024-09-30 00:00:00": 5024808.0,
-      "2023-09-30 00:00:00": 5031732.0,
+      "2023-09-30 00:00:00": 5032147.0,
       "2022-09-30 00:00:00": 5031732.0
     },
     "Diluted EPS": {
@@ -265,7 +265,7 @@
     },
     "Ordinary Shares Number": {
       "2025-09-30 00:00:00": 4980732.0,
-      "2024-09-30 00:00:00": 5001732.0,
+      "2024-09-30 00:00:00": 5031732.0,
       "2023-09-30 00:00:00": 5031732.0,
       "2022-09-30 00:00:00": 5031732.0
     },
@@ -1019,8 +1019,8 @@
     "averageVolume": 1639,
     "averageVolume10days": 1830,
     "averageDailyVolume10Day": 1830,
-    "bid": 935.0,
-    "ask": 941.0,
+    "bid": 0.0,
+    "ask": 945.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 4672095232,
@@ -1085,17 +1085,9 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "corporateActions": [],
-    "regularMarketTime": 1785479400,
-    "exchange": "JPX",
-    "messageBoardId": "finmb_5606843",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
-    "regularMarketChangePercent": 0.64171124,
-    "regularMarketPrice": 941.0,
+    "marketState": "REGULAR",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 946944000000,
     "regularMarketChange": 6.0,
     "regularMarketDayRange": "935.0 - 941.0",
     "fullExchangeName": "Tokyo",
@@ -1117,10 +1109,18 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 946944000000,
-    "marketState": "CLOSED",
     "shortName": "OHMORIYA CO LTD",
+    "corporateActions": [],
+    "regularMarketTime": 1785479400,
+    "exchange": "JPX",
+    "messageBoardId": "finmb_5606843",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
+    "regularMarketChangePercent": 0.64171124,
+    "regularMarketPrice": 941.0,
     "longName": "Ohmoriya Co.,Ltd.",
     "trailingPegRatio": null
   }

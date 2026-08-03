@@ -1,7 +1,7 @@
 {
   "ticker": "2904",
   "japanese_ticker": "2904.T",
-  "fetch_date": "2026-08-02T00:05:05.786393",
+  "fetch_date": "2026-08-03T00:06:06.189516",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-06-30 00:00:00": 62160587.167164,
@@ -125,7 +125,7 @@
     },
     "Basic EPS": {
       "2025-06-30 00:00:00": 40.67,
-      "2024-06-30 00:00:00": 52.1,
+      "2024-06-30 00:00:00": null,
       "2023-06-30 00:00:00": 4.58,
       "2022-06-30 00:00:00": 30.73
     },
@@ -1049,8 +1049,8 @@
     "averageVolume": 8634,
     "averageVolume10days": 3460,
     "averageDailyVolume10Day": 3460,
-    "bid": 760.0,
-    "ask": 761.0,
+    "bid": 0.0,
+    "ask": 760.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 13945486336,
@@ -1119,9 +1119,17 @@
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
     "shortName": "ICHIMASA KAMABOKO CO",
-    "longName": "Ichimasa Kamaboko Co., Ltd.",
+    "regularMarketChangePercent": 0.0,
+    "regularMarketPrice": 761.0,
     "corporateActions": [],
     "regularMarketTime": 1785479400,
+    "exchange": "JPX",
+    "messageBoardId": "finmb_4493103",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 947030400000,
     "regularMarketChange": 0.0,
@@ -1145,17 +1153,9 @@
     "twoHundredDayAverageChangePercent": 0.0063874754,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
-    "marketState": "CLOSED",
     "cryptoTradeable": false,
-    "exchange": "JPX",
-    "messageBoardId": "finmb_4493103",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
-    "regularMarketChangePercent": 0.0,
-    "regularMarketPrice": 761.0,
+    "marketState": "REGULAR",
+    "longName": "Ichimasa Kamaboko Co., Ltd.",
     "trailingPegRatio": null
   }
 }

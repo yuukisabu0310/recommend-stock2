@@ -1,7 +1,7 @@
 {
   "ticker": "2673",
   "japanese_ticker": "2673.T",
-  "fetch_date": "2026-08-02T00:02:08.183916",
+  "fetch_date": "2026-08-03T00:03:19.808012",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": 1210.0,
@@ -1035,8 +1035,8 @@
     "averageVolume": 331426,
     "averageVolume10days": 840520,
     "averageDailyVolume10Day": 840520,
-    "bid": 113.0,
-    "ask": 114.0,
+    "bid": 0.0,
+    "ask": 112.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 1153303808,
@@ -1103,6 +1103,7 @@
     "customPriceAlertConfidence": "LOW",
     "corporateActions": [],
     "regularMarketTime": 1785479400,
+    "marketState": "REGULAR",
     "exchange": "JPX",
     "messageBoardId": "finmb_12485839",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1110,10 +1111,10 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "shortName": "YUMEMITSUKETAI CO LTD",
-    "longName": "YUMEMITSUKETAI Co.,Ltd.",
     "regularMarketChangePercent": 4.587156,
     "regularMarketPrice": 114.0,
+    "shortName": "YUMEMITSUKETAI CO LTD",
+    "longName": "YUMEMITSUKETAI Co.,Ltd.",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 972432000000,
     "regularMarketChange": 5.0,
@@ -1137,7 +1138,6 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
-    "marketState": "CLOSED",
     "trailingPegRatio": null
   }
 }

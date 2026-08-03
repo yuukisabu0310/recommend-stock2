@@ -1,7 +1,7 @@
 {
   "ticker": "2055",
   "japanese_ticker": "2055.T",
-  "fetch_date": "2026-08-01T23:55:25.903416",
+  "fetch_date": "2026-08-02T23:56:58.764404",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": -264800000.0,
@@ -277,10 +277,10 @@
   "balance_sheet": {
     "Treasury Shares Number": {
       "2026-03-31 00:00:00": 2719032.0,
-      "2025-03-31 00:00:00": 2719032.0,
+      "2025-03-31 00:00:00": null,
       "2024-03-31 00:00:00": 2718972.0,
       "2023-03-31 00:00:00": 2718971.0,
-      "2022-03-31 00:00:00": null
+      "2022-03-31 00:00:00": 2718918.0
     },
     "Ordinary Shares Number": {
       "2026-03-31 00:00:00": 18111793.0,
@@ -1106,8 +1106,8 @@
     "averageVolume": 22327,
     "averageVolume10days": 5910,
     "averageDailyVolume10Day": 5910,
-    "bid": 332.0,
-    "ask": 337.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 6013114880,
@@ -1172,8 +1172,7 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 954806400000,
+    "cryptoTradeable": false,
     "regularMarketChange": 0.0,
     "regularMarketDayRange": "332.0 - 336.0",
     "fullExchangeName": "Tokyo",
@@ -1188,16 +1187,14 @@
     "earningsTimestampEnd": 1747031400,
     "isEarningsDateEstimate": false,
     "epsTrailingTwelveMonths": 20.92,
-    "longName": "Nichiwa Sangyo Co., Ltd.",
-    "shortName": "NICHIWA SANGYO CO",
     "fiftyDayAverageChange": 5.5,
     "fiftyDayAverageChangePercent": 0.016845329,
     "twoHundredDayAverageChange": -19.214996,
     "twoHundredDayAverageChangePercent": -0.054710068,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
-    "marketState": "CLOSED",
+    "regularMarketChangePercent": 0.0,
+    "regularMarketPrice": 332.0,
     "corporateActions": [],
     "regularMarketTime": 1785479400,
     "exchange": "JPX",
@@ -1207,8 +1204,11 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "regularMarketChangePercent": 0.0,
-    "regularMarketPrice": 332.0,
+    "shortName": "NICHIWA SANGYO CO",
+    "marketState": "PREPRE",
+    "longName": "Nichiwa Sangyo Co., Ltd.",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 954806400000,
     "trailingPegRatio": null
   }
 }

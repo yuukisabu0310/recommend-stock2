@@ -1,7 +1,7 @@
 {
   "ticker": "1967",
   "japanese_ticker": "1967.T",
-  "fetch_date": "2026-08-01T23:54:46.900929",
+  "fetch_date": "2026-08-02T23:56:20.269707",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": 203159755.199502,
@@ -315,14 +315,14 @@
   "balance_sheet": {
     "Treasury Shares Number": {
       "2026-03-31 00:00:00": 1741363.0,
-      "2025-03-31 00:00:00": 2123282.0,
+      "2025-03-31 00:00:00": 2123261.0,
       "2024-03-31 00:00:00": 1751025.0,
       "2023-03-31 00:00:00": 1612197.0,
       "2022-03-31 00:00:00": null
     },
     "Ordinary Shares Number": {
       "2026-03-31 00:00:00": 22386289.0,
-      "2025-03-31 00:00:00": 24804370.0,
+      "2025-03-31 00:00:00": 24804391.0,
       "2024-03-31 00:00:00": 25176627.0,
       "2023-03-31 00:00:00": 25315455.0,
       "2022-03-31 00:00:00": null
@@ -1239,8 +1239,8 @@
     "averageVolume": 45896,
     "averageVolume10days": 37850,
     "averageDailyVolume10Day": 37850,
-    "bid": 1992.0,
-    "ask": 2010.0,
+    "bid": 1981.0,
+    "ask": 1983.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 44884508672,
@@ -1307,6 +1307,15 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "shortName": "YAMATO CORPORATION",
+    "epsTrailingTwelveMonths": 197.49,
+    "fiftyDayAverageChange": -29.95996,
+    "fiftyDayAverageChangePercent": -0.014722629,
+    "twoHundredDayAverageChange": -118.5249,
+    "twoHundredDayAverageChangePercent": -0.055815168,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 978307200000,
     "regularMarketChange": 47.0,
@@ -1322,11 +1331,6 @@
     "earningsTimestampStart": 1754287200,
     "earningsTimestampEnd": 1754632800,
     "isEarningsDateEstimate": true,
-    "epsTrailingTwelveMonths": 197.49,
-    "fiftyDayAverageChange": -29.95996,
-    "fiftyDayAverageChangePercent": -0.014722629,
-    "twoHundredDayAverageChange": -118.5249,
-    "twoHundredDayAverageChangePercent": -0.055815168,
     "corporateActions": [],
     "regularMarketTime": 1785479400,
     "exchange": "JPX",
@@ -1338,12 +1342,8 @@
     "esgPopulated": false,
     "regularMarketChangePercent": 2.4004085,
     "regularMarketPrice": 2005.0,
-    "marketState": "CLOSED",
-    "shortName": "YAMATO CORPORATION",
+    "marketState": "PREPRE",
     "longName": "Yamato Corporation",
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
     "trailingPegRatio": null
   }
 }

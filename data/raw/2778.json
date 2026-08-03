@@ -1,7 +1,7 @@
 {
   "ticker": "2778",
   "japanese_ticker": "2778.T",
-  "fetch_date": "2026-08-02T00:03:37.611015",
+  "fetch_date": "2026-08-03T00:04:43.662331",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-02-28 00:00:00": -51512400.0,
@@ -132,7 +132,7 @@
     "Basic Average Shares": {
       "2026-02-28 00:00:00": 12024157.0,
       "2025-02-28 00:00:00": 12026604.0,
-      "2024-02-29 00:00:00": 12027000.0,
+      "2024-02-29 00:00:00": 12026139.0,
       "2023-02-28 00:00:00": 12004000.0,
       "2022-02-28 00:00:00": null
     },
@@ -301,14 +301,14 @@
   "balance_sheet": {
     "Treasury Shares Number": {
       "2026-02-28 00:00:00": 79286.0,
-      "2025-02-28 00:00:00": 24914.0,
+      "2025-02-28 00:00:00": null,
       "2024-02-29 00:00:00": 24577.0,
       "2023-02-28 00:00:00": 24116.0,
-      "2022-02-28 00:00:00": null
+      "2022-02-28 00:00:00": 122755.0
     },
     "Ordinary Shares Number": {
       "2026-02-28 00:00:00": 11972098.0,
-      "2025-02-28 00:00:00": 12026470.0,
+      "2025-02-28 00:00:00": 12026576.0,
       "2024-02-29 00:00:00": 12026807.0,
       "2023-02-28 00:00:00": 12027268.0,
       "2022-02-28 00:00:00": null
@@ -1162,24 +1162,7 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "regularMarketChange": 0.0,
-    "regularMarketDayRange": "109.0 - 110.0",
-    "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 51686,
-    "fiftyTwoWeekLowChange": 4.0,
-    "fiftyTwoWeekLowChangePercent": 0.03809524,
-    "fiftyTwoWeekRange": "105.0 - 179.0",
-    "fiftyTwoWeekHighChange": -70.0,
-    "fiftyTwoWeekHighChangePercent": -0.39106146,
-    "fiftyTwoWeekChangePercent": -26.84564,
-    "earningsTimestampStart": 1743143400,
-    "earningsTimestampEnd": 1743143400,
-    "isEarningsDateEstimate": false,
-    "epsTrailingTwelveMonths": 1.47,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1062115200000,
-    "shortName": "PALEMO HOLDINGS CO LTD",
-    "longName": "Palemo Holdings Co.,Ltd.",
+    "marketState": "REGULAR",
     "corporateActions": [],
     "regularMarketTime": 1785479400,
     "exchange": "JPX",
@@ -1189,6 +1172,19 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
+    "regularMarketChangePercent": 0.0,
+    "regularMarketPrice": 109.0,
+    "shortName": "PALEMO HOLDINGS CO LTD",
+    "longName": "Palemo Holdings Co.,Ltd.",
+    "fiftyTwoWeekLowChangePercent": 0.03809524,
+    "fiftyTwoWeekRange": "105.0 - 179.0",
+    "fiftyTwoWeekHighChange": -70.0,
+    "fiftyTwoWeekHighChangePercent": -0.39106146,
+    "fiftyTwoWeekChangePercent": -26.84564,
+    "earningsTimestampStart": 1743143400,
+    "earningsTimestampEnd": 1743143400,
+    "isEarningsDateEstimate": false,
+    "epsTrailingTwelveMonths": 1.47,
     "fiftyDayAverageChange": -2.540001,
     "fiftyDayAverageChangePercent": -0.022772107,
     "twoHundredDayAverageChange": -19.380005,
@@ -1196,9 +1192,13 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
-    "regularMarketChangePercent": 0.0,
-    "regularMarketPrice": 109.0,
-    "marketState": "CLOSED",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1062115200000,
+    "regularMarketChange": 0.0,
+    "regularMarketDayRange": "109.0 - 110.0",
+    "fullExchangeName": "Tokyo",
+    "averageDailyVolume3Month": 51686,
+    "fiftyTwoWeekLowChange": 4.0,
     "trailingPegRatio": null
   }
 }

@@ -1,7 +1,7 @@
 {
   "ticker": "2410",
   "japanese_ticker": "2410.T",
-  "fetch_date": "2026-08-01T23:59:40.693546",
+  "fetch_date": "2026-08-03T00:01:00.895963",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-09-30 00:00:00": -53659.8,
@@ -124,15 +124,15 @@
     },
     "Diluted Average Shares": {
       "2025-09-30 00:00:00": 5250002.0,
-      "2024-09-30 00:00:00": 5227921.0,
-      "2023-09-30 00:00:00": 5540856.0,
+      "2024-09-30 00:00:00": 5499475.0,
+      "2023-09-30 00:00:00": 5540926.0,
       "2022-09-30 00:00:00": 5641180.0,
       "2021-09-30 00:00:00": null
     },
     "Basic Average Shares": {
       "2025-09-30 00:00:00": 5250002.0,
-      "2024-09-30 00:00:00": 5227921.0,
-      "2023-09-30 00:00:00": 5540856.0,
+      "2024-09-30 00:00:00": 5499475.0,
+      "2023-09-30 00:00:00": 5540926.0,
       "2022-09-30 00:00:00": 5641180.0,
       "2021-09-30 00:00:00": null
     },
@@ -145,7 +145,7 @@
     },
     "Basic EPS": {
       "2025-09-30 00:00:00": 209.67,
-      "2024-09-30 00:00:00": 708.14,
+      "2024-09-30 00:00:00": 178.99,
       "2023-09-30 00:00:00": 209.94,
       "2022-09-30 00:00:00": 140.68,
       "2021-09-30 00:00:00": null
@@ -1075,8 +1075,8 @@
     "averageVolume": 24888,
     "averageVolume10days": 21820,
     "averageDailyVolume10Day": 21820,
-    "bid": 2912.0,
-    "ask": 2918.0,
+    "bid": 0.0,
+    "ask": 2926.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 15426377728,
@@ -1145,7 +1145,7 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "marketState": "CLOSED",
+    "marketState": "REGULAR",
     "corporateActions": [],
     "regularMarketTime": 1785479400,
     "exchange": "JPX",
@@ -1155,8 +1155,6 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "regularMarketChangePercent": 0.17164436,
-    "regularMarketPrice": 2918.0,
     "shortName": "CAREER DESIGN CENTER CO.LTD.",
     "longName": "Career Design Center Co., Ltd.",
     "hasPrePostMarketData": false,
@@ -1183,6 +1181,8 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
+    "regularMarketChangePercent": 0.17164436,
+    "regularMarketPrice": 2918.0,
     "trailingPegRatio": null
   }
 }

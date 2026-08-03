@@ -1,7 +1,7 @@
 {
   "ticker": "2195",
   "japanese_ticker": "2195.T",
-  "fetch_date": "2026-08-01T23:56:50.336394",
+  "fetch_date": "2026-08-02T23:58:17.415525",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-12-31 00:00:00": 45292.0,
@@ -125,7 +125,7 @@
     "Diluted Average Shares": {
       "2025-12-31 00:00:00": 17549323.0,
       "2024-12-31 00:00:00": 17552470.0,
-      "2023-12-31 00:00:00": 17552085.0,
+      "2023-12-31 00:00:00": 17549516.0,
       "2022-12-31 00:00:00": 17579153.0,
       "2021-12-31 00:00:00": null
     },
@@ -1112,8 +1112,8 @@
     "averageVolume": 96663,
     "averageVolume10days": 21430,
     "averageDailyVolume10Day": 21430,
-    "bid": 324.0,
-    "ask": 329.0,
+    "bid": 0.0,
+    "ask": 331.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 5704552960,
@@ -1180,12 +1180,7 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "fiftyDayAverageChangePercent": -0.053747136,
-    "twoHundredDayAverageChange": -43.23999,
-    "twoHundredDayAverageChangePercent": -0.11742339,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
+    "marketState": "PREPRE",
     "corporateActions": [],
     "regularMarketTime": 1785479400,
     "exchange": "JPX",
@@ -1195,13 +1190,12 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "marketState": "CLOSED",
-    "shortName": "AMITA HOLDINGS CO LTD",
-    "longName": "Amita Holdings Co.,Ltd.",
     "regularMarketChangePercent": 0.61919504,
     "regularMarketPrice": 325.0,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1262563200000,
+    "shortName": "AMITA HOLDINGS CO LTD",
+    "longName": "Amita Holdings Co.,Ltd.",
     "regularMarketChange": 2.0,
     "regularMarketDayRange": "321.0 - 343.0",
     "fullExchangeName": "Tokyo",
@@ -1217,6 +1211,12 @@
     "isEarningsDateEstimate": true,
     "epsTrailingTwelveMonths": 17.71,
     "fiftyDayAverageChange": -18.459991,
+    "fiftyDayAverageChangePercent": -0.053747136,
+    "twoHundredDayAverageChange": -43.23999,
+    "twoHundredDayAverageChangePercent": -0.11742339,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
     "trailingPegRatio": null
   }
 }

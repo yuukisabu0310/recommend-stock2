@@ -1,7 +1,7 @@
 {
   "ticker": "2193",
   "japanese_ticker": "2193.T",
-  "fetch_date": "2026-08-01T23:56:48.341492",
+  "fetch_date": "2026-08-02T23:58:15.521888",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-12-31 00:00:00": 0.0,
@@ -13,7 +13,7 @@
     "Tax Rate For Calcs": {
       "2025-12-31 00:00:00": 0.325033,
       "2024-12-31 00:00:00": 0.232,
-      "2023-12-31 00:00:00": 0.063,
+      "2023-12-31 00:00:00": 0.063412,
       "2022-12-31 00:00:00": 0.232,
       "2021-12-31 00:00:00": null
     },
@@ -111,30 +111,30 @@
     "Diluted Average Shares": {
       "2025-12-31 00:00:00": 77637277.0,
       "2024-12-31 00:00:00": 85523299.0,
-      "2023-12-31 00:00:00": 95998643.0,
+      "2023-12-31 00:00:00": 96036407.0,
       "2022-12-31 00:00:00": 104210339.0,
       "2021-12-31 00:00:00": null
     },
     "Basic Average Shares": {
       "2025-12-31 00:00:00": 77637277.0,
       "2024-12-31 00:00:00": 85523299.0,
-      "2023-12-31 00:00:00": 95998643.0,
+      "2023-12-31 00:00:00": 96036407.0,
       "2022-12-31 00:00:00": 104210339.0,
       "2021-12-31 00:00:00": null
     },
     "Diluted EPS": {
       "2025-12-31 00:00:00": 9.55,
-      "2024-12-31 00:00:00": 15.58,
+      "2024-12-31 00:00:00": null,
       "2023-12-31 00:00:00": -23.21913,
       "2022-12-31 00:00:00": -33.47,
-      "2021-12-31 00:00:00": null
+      "2021-12-31 00:00:00": -22.41
     },
     "Basic EPS": {
       "2025-12-31 00:00:00": 9.55,
-      "2024-12-31 00:00:00": 15.58,
+      "2024-12-31 00:00:00": null,
       "2023-12-31 00:00:00": -23.21,
       "2022-12-31 00:00:00": -33.47,
-      "2021-12-31 00:00:00": null
+      "2021-12-31 00:00:00": -22.41
     },
     "Diluted NI Availto Com Stockholders": {
       "2025-12-31 00:00:00": 741436000.0,
@@ -287,14 +287,14 @@
   "balance_sheet": {
     "Treasury Shares Number": {
       "2025-12-31 00:00:00": 34122703.0,
-      "2024-12-31 00:00:00": 24923249.0,
+      "2024-12-31 00:00:00": null,
       "2023-12-31 00:00:00": 13961961.0,
       "2022-12-31 00:00:00": 3219061.0,
-      "2021-12-31 00:00:00": null
+      "2021-12-31 00:00:00": 3219061.0
     },
     "Ordinary Shares Number": {
       "2025-12-31 00:00:00": 73306697.0,
-      "2024-12-31 00:00:00": 82506151.0,
+      "2024-12-31 00:00:00": 82506239.0,
       "2023-12-31 00:00:00": 93467439.0,
       "2022-12-31 00:00:00": 104210339.0,
       "2021-12-31 00:00:00": null
@@ -921,8 +921,8 @@
     "averageVolume": 292780,
     "averageVolume10days": 245640,
     "averageDailyVolume10Day": 245640,
-    "bid": 122.0,
-    "ask": 124.0,
+    "bid": 0.0,
+    "ask": 122.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 8769921024,
@@ -988,6 +988,8 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "shortName": "COOKPAD INC.",
+    "longName": "Cookpad Inc.",
     "corporateActions": [],
     "regularMarketTime": 1785479400,
     "exchange": "JPX",
@@ -998,8 +1000,18 @@
     "market": "jp_market",
     "esgPopulated": false,
     "regularMarketChangePercent": -2.4,
-    "marketState": "CLOSED",
     "regularMarketPrice": 122.0,
+    "epsTrailingTwelveMonths": 9.55,
+    "epsForward": -31.6,
+    "fiftyDayAverageChange": 4.1800003,
+    "fiftyDayAverageChangePercent": 0.03547785,
+    "twoHundredDayAverageChange": -18.39,
+    "twoHundredDayAverageChangePercent": -0.13099223,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1248134400000,
     "regularMarketChange": -3.0,
     "regularMarketDayRange": "118.0 - 127.0",
     "fullExchangeName": "Tokyo",
@@ -1015,19 +1027,7 @@
     "earningsCallTimestampStart": 1723201140,
     "earningsCallTimestampEnd": 1723201140,
     "isEarningsDateEstimate": true,
-    "epsTrailingTwelveMonths": 9.55,
-    "epsForward": -31.6,
-    "fiftyDayAverageChange": 4.1800003,
-    "fiftyDayAverageChangePercent": 0.03547785,
-    "twoHundredDayAverageChange": -18.39,
-    "twoHundredDayAverageChangePercent": -0.13099223,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1248134400000,
-    "shortName": "COOKPAD INC.",
-    "longName": "Cookpad Inc.",
+    "marketState": "PREPRE",
     "trailingPegRatio": null
   }
 }

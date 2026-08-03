@@ -1,7 +1,7 @@
 {
   "ticker": "2938",
   "japanese_ticker": "2938.T",
-  "fetch_date": "2026-08-02T00:05:55.074709",
+  "fetch_date": "2026-08-03T00:06:52.940558",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-06-30 00:00:00": 32746800.0,
@@ -1037,8 +1037,8 @@
     "averageVolume": 131431,
     "averageVolume10days": 54250,
     "averageDailyVolume10Day": 54250,
-    "bid": 1250.0,
-    "ask": 1257.0,
+    "bid": 0.0,
+    "ask": 1254.0,
     "marketCap": 63017738240,
     "nonDilutedMarketCap": 63017738520,
     "fiftyTwoWeekLow": 1019.0,
@@ -1103,9 +1103,6 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "marketState": "CLOSED",
-    "shortName": "OKAMURA FOODS CO LTD",
-    "longName": "Okamura Foods Co., Ltd.",
     "corporateActions": [],
     "regularMarketTime": 1785479400,
     "exchange": "JPX",
@@ -1117,6 +1114,7 @@
     "esgPopulated": false,
     "regularMarketChangePercent": 1.0475423,
     "regularMarketPrice": 1254.0,
+    "fullExchangeName": "Tokyo",
     "averageDailyVolume3Month": 131431,
     "fiftyTwoWeekLowChange": 235.0,
     "fiftyTwoWeekLowChangePercent": 0.23061825,
@@ -1124,6 +1122,8 @@
     "fiftyTwoWeekHighChange": -428.0,
     "fiftyTwoWeekHighChangePercent": -0.25445896,
     "fiftyTwoWeekChangePercent": 6.723404,
+    "shortName": "OKAMURA FOODS CO LTD",
+    "longName": "Okamura Foods Co., Ltd.",
     "earningsTimestampStart": 1747198800,
     "earningsTimestampEnd": 1747198800,
     "isEarningsDateEstimate": false,
@@ -1137,9 +1137,9 @@
     "cryptoTradeable": false,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1695772800000,
+    "marketState": "REGULAR",
     "regularMarketChange": 13.0,
     "regularMarketDayRange": "1243.0 - 1257.0",
-    "fullExchangeName": "Tokyo",
     "trailingPegRatio": null
   }
 }

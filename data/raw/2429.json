@@ -1,7 +1,7 @@
 {
   "ticker": "2429",
   "japanese_ticker": "2429.T",
-  "fetch_date": "2026-08-01T23:59:55.917419",
+  "fetch_date": "2026-08-03T00:01:16.311163",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-12-31 00:00:00": -39788000.0,
@@ -131,7 +131,7 @@
     },
     "Diluted Average Shares": {
       "2025-12-31 00:00:00": null,
-      "2024-12-31 00:00:00": 17802638.0,
+      "2024-12-31 00:00:00": null,
       "2023-12-31 00:00:00": 17617493.0,
       "2022-12-31 00:00:00": 17579488.0,
       "2021-12-31 00:00:00": 17576656.0
@@ -145,14 +145,14 @@
     },
     "Diluted EPS": {
       "2025-12-31 00:00:00": null,
-      "2024-12-31 00:00:00": 279.79,
+      "2024-12-31 00:00:00": null,
       "2023-12-31 00:00:00": 352.15,
       "2022-12-31 00:00:00": 303.82,
       "2021-12-31 00:00:00": 263.19
     },
     "Basic EPS": {
       "2025-12-31 00:00:00": null,
-      "2024-12-31 00:00:00": 280.39,
+      "2024-12-31 00:00:00": null,
       "2023-12-31 00:00:00": 353.61,
       "2022-12-31 00:00:00": 305.5,
       "2021-12-31 00:00:00": 265.02
@@ -1155,8 +1155,8 @@
     "averageVolume": 62416,
     "averageVolume10days": 71150,
     "averageDailyVolume10Day": 71150,
-    "bid": 2650.0,
-    "ask": 2659.0,
+    "bid": 2700.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 46897197056,
@@ -1224,8 +1224,8 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "corporateActions": [],
-    "regularMarketTime": 1785479400,
+    "shortName": "WORLD HOLDINGS CO LTD",
+    "longName": "World Holdings Co., Ltd.",
     "exchange": "JPX",
     "messageBoardId": "finmb_13616696",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1233,11 +1233,10 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
+    "corporateActions": [],
+    "regularMarketTime": 1785479400,
     "regularMarketChangePercent": -1.7381657,
     "regularMarketPrice": 2657.0,
-    "marketState": "CLOSED",
-    "shortName": "WORLD HOLDINGS CO LTD",
-    "longName": "World Holdings Co., Ltd.",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1198801800000,
     "regularMarketChange": -47.0,
@@ -1255,10 +1254,11 @@
     "isEarningsDateEstimate": true,
     "epsTrailingTwelveMonths": 369.32,
     "epsForward": 357.7,
+    "twoHundredDayAverageChangePercent": 0.026903601,
+    "marketState": "REGULAR",
     "fiftyDayAverageChange": 162.84009,
     "fiftyDayAverageChangePercent": 0.06528855,
     "twoHundredDayAverageChange": 69.61011,
-    "twoHundredDayAverageChangePercent": 0.026903601,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,

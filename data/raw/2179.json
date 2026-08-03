@@ -1,7 +1,7 @@
 {
   "ticker": "2179",
   "japanese_ticker": "2179.T",
-  "fetch_date": "2026-08-01T23:56:36.038893",
+  "fetch_date": "2026-08-02T23:58:04.035729",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": -31256223.2,
@@ -125,14 +125,14 @@
     "Diluted Average Shares": {
       "2026-03-31 00:00:00": null,
       "2025-03-31 00:00:00": 5547898.0,
-      "2024-03-31 00:00:00": 5547993.0,
+      "2024-03-31 00:00:00": 5548139.0,
       "2023-03-31 00:00:00": 5549653.0,
       "2022-03-31 00:00:00": 5551151.0
     },
     "Basic Average Shares": {
       "2026-03-31 00:00:00": null,
       "2025-03-31 00:00:00": 5547898.0,
-      "2024-03-31 00:00:00": 5547993.0,
+      "2024-03-31 00:00:00": 5548139.0,
       "2023-03-31 00:00:00": 5549653.0,
       "2022-03-31 00:00:00": 5551151.0
     },
@@ -308,17 +308,17 @@
   "balance_sheet": {
     "Treasury Shares Number": {
       "2026-03-31 00:00:00": 328102.0,
-      "2025-03-31 00:00:00": 328102.0,
+      "2025-03-31 00:00:00": null,
       "2024-03-31 00:00:00": 328102.0,
       "2023-03-31 00:00:00": 327760.0,
-      "2022-03-31 00:00:00": null
+      "2022-03-31 00:00:00": 325860.0
     },
     "Ordinary Shares Number": {
       "2026-03-31 00:00:00": 5547898.0,
-      "2025-03-31 00:00:00": 5547898.0,
+      "2025-03-31 00:00:00": null,
       "2024-03-31 00:00:00": 5547898.0,
       "2023-03-31 00:00:00": 5548240.0,
-      "2022-03-31 00:00:00": null
+      "2022-03-31 00:00:00": 5550140.0
     },
     "Share Issued": {
       "2026-03-31 00:00:00": 5876000.0,
@@ -1178,7 +1178,7 @@
     "averageVolume": 1631,
     "averageVolume10days": 1840,
     "averageDailyVolume10Day": 1840,
-    "bid": 811.0,
+    "bid": 0.0,
     "ask": 819.0,
     "bidSize": 0,
     "askSize": 0,
@@ -1246,18 +1246,6 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "regularMarketChangePercent": 0.0,
-    "regularMarketPrice": 819.0,
-    "marketState": "CLOSED",
-    "prevName": "Seigakusya Co., Ltd.",
-    "nameChangeDate": "2026-08-01",
-    "cryptoTradeable": false,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1219363200000,
-    "shortName": "SEIGAKUSHA CO LTD",
-    "longName": "Seigakusha Co.,Ltd.",
-    "corporateActions": [],
-    "regularMarketTime": 1785456000,
     "exchange": "JPX",
     "messageBoardId": "finmb_46987108",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1265,6 +1253,27 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
+    "regularMarketChangePercent": 0.0,
+    "regularMarketPrice": 819.0,
+    "shortName": "SEIGAKUSHA CO LTD",
+    "corporateActions": [],
+    "regularMarketTime": 1785456000,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "prevName": "Seigakusya Co., Ltd.",
+    "nameChangeDate": "2026-08-02",
+    "cryptoTradeable": false,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1219363200000,
+    "earningsTimestampStart": 1747290600,
+    "earningsTimestampEnd": 1747290600,
+    "isEarningsDateEstimate": false,
+    "epsTrailingTwelveMonths": 105.24,
+    "fiftyDayAverageChange": 32.659973,
+    "fiftyDayAverageChangePercent": 0.04153416,
+    "twoHundredDayAverageChange": 28.804993,
+    "twoHundredDayAverageChangePercent": 0.036453016,
+    "longName": "Seigakusha Co.,Ltd.",
     "regularMarketChange": 0.0,
     "regularMarketDayRange": "819.0 - 819.0",
     "fullExchangeName": "Tokyo",
@@ -1275,16 +1284,7 @@
     "fiftyTwoWeekHighChange": -7.0,
     "fiftyTwoWeekHighChangePercent": -0.008474576,
     "fiftyTwoWeekChangePercent": 3.6708832,
-    "earningsTimestampStart": 1747290600,
-    "earningsTimestampEnd": 1747290600,
-    "isEarningsDateEstimate": false,
-    "epsTrailingTwelveMonths": 105.24,
-    "fiftyDayAverageChange": 32.659973,
-    "fiftyDayAverageChangePercent": 0.04153416,
-    "twoHundredDayAverageChange": 28.804993,
-    "twoHundredDayAverageChangePercent": 0.036453016,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
+    "marketState": "PREPRE",
     "trailingPegRatio": null
   }
 }
