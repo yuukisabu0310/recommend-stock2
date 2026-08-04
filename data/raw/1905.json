@@ -1,7 +1,7 @@
 {
   "ticker": "1905",
   "japanese_ticker": "1905.T",
-  "fetch_date": "2026-08-02T23:55:23.056990",
+  "fetch_date": "2026-08-04T00:04:20.736561",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": 6290082.4,
@@ -1093,17 +1093,83 @@
         "yearBorn": 1969,
         "exercisedValue": 0,
         "unexercisedValue": 0
+      },
+      {
+        "maxAge": 1,
+        "name": "Yoji  Hirayama",
+        "title": "Executive Officer, GM of Technology, Technology Department Manager and Director",
+        "exercisedValue": 0,
+        "unexercisedValue": 0
+      },
+      {
+        "maxAge": 1,
+        "name": "Katsunori  Takahashi",
+        "age": 66,
+        "title": "Executive Officer, Overseas Manager & Director",
+        "yearBorn": 1959,
+        "exercisedValue": 0,
+        "unexercisedValue": 0
+      },
+      {
+        "maxAge": 1,
+        "name": "Katsuhisa  Kodama",
+        "age": 65,
+        "title": "Executive Officer & GM of Greater Tokyo Area Business",
+        "yearBorn": 1960,
+        "exercisedValue": 0,
+        "unexercisedValue": 0
+      },
+      {
+        "maxAge": 1,
+        "name": "Naoya  Matayoshi",
+        "age": 58,
+        "title": "Executive Officer & Director",
+        "yearBorn": 1967,
+        "exercisedValue": 0,
+        "unexercisedValue": 0
+      },
+      {
+        "maxAge": 1,
+        "name": "Toru  Kurokawa",
+        "age": 52,
+        "title": "Executive Officer, GM of Pile Business & Civil Engineering Sales Manager & Director",
+        "yearBorn": 1973,
+        "exercisedValue": 0,
+        "unexercisedValue": 0
+      },
+      {
+        "maxAge": 1,
+        "name": "Masaya  Sano",
+        "age": 61,
+        "title": "Executive Officer, Planning Manager & Director",
+        "yearBorn": 1964,
+        "exercisedValue": 0,
+        "unexercisedValue": 0
+      },
+      {
+        "maxAge": 1,
+        "name": "Kazuyuki  Sakamoto",
+        "title": "Executive Officer, Regional Business GM & Osaka Sales Office Manager",
+        "exercisedValue": 0,
+        "unexercisedValue": 0
+      },
+      {
+        "maxAge": 1,
+        "name": "Yumenari  Shimizu",
+        "title": "Executive Officer & General Director of Tenox Asia Company Limited",
+        "exercisedValue": 0,
+        "unexercisedValue": 0
       }
     ],
     "irWebsite": "http://www.tenox.co.jp/ir/index.html",
     "executiveTeam": [],
     "maxAge": 86400,
     "priceHint": 2,
-    "previousClose": 1500.0,
+    "previousClose": 1510.0,
     "open": 1520.0,
     "dayLow": 1503.0,
     "dayHigh": 1520.0,
-    "regularMarketPreviousClose": 1500.0,
+    "regularMarketPreviousClose": 1510.0,
     "regularMarketOpen": 1520.0,
     "regularMarketDayLow": 1503.0,
     "regularMarketDayHigh": 1520.0,
@@ -1112,7 +1178,7 @@
     "exDividendDate": 1790640000,
     "payoutRatio": 0.4287,
     "fiveYearAvgDividendYield": 3.34,
-    "beta": 0.121,
+    "beta": 0.12,
     "trailingPE": 10.694808,
     "volume": 1400,
     "regularMarketVolume": 1400,
@@ -1133,7 +1199,7 @@
     "fiftyDayAverage": 1511.44,
     "twoHundredDayAverage": 1429.58,
     "trailingAnnualDividendRate": 60.5,
-    "trailingAnnualDividendYield": 0.040333334,
+    "trailingAnnualDividendYield": 0.040066224,
     "currency": "JPY",
     "tradeable": false,
     "enterpriseValue": 2726448896,
@@ -1187,6 +1253,9 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "market": "jp_market",
+    "shortName": "TENOX CORP",
+    "marketState": "REGULAR",
     "corporateActions": [],
     "regularMarketTime": 1785479400,
     "exchange": "JPX",
@@ -1194,13 +1263,10 @@
     "exchangeTimezoneName": "Asia/Tokyo",
     "exchangeTimezoneShortName": "JST",
     "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
     "esgPopulated": false,
-    "regularMarketChangePercent": 0.6666667,
-    "regularMarketPrice": 1510.0,
-    "marketState": "PREPRE",
     "longName": "Tenox Corporation",
-    "regularMarketChange": 10.0,
+    "cryptoTradeable": false,
+    "regularMarketChange": 0.0,
     "regularMarketDayRange": "1503.0 - 1520.0",
     "fullExchangeName": "Tokyo",
     "averageDailyVolume3Month": 6983,
@@ -1220,10 +1286,10 @@
     "twoHundredDayAverageChangePercent": 0.056254316,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
-    "shortName": "TENOX CORP",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 947030400000,
+    "regularMarketChangePercent": 0.0,
+    "regularMarketPrice": 1510.0,
     "trailingPegRatio": null
   }
 }
