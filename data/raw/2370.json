@@ -1,7 +1,7 @@
 {
   "ticker": "2370",
   "japanese_ticker": "2370.T",
-  "fetch_date": "2026-08-08T23:27:42.077261",
+  "fetch_date": "2026-08-09T23:30:19.928269",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-09-30 00:00:00": 13910024.0,
@@ -1176,9 +1176,10 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "marketState": "CLOSED",
-    "longName": "MEDINET Co., Ltd.",
-    "shortName": "MEDINET CO LTD",
+    "regularMarketChangePercent": -3.846154,
+    "regularMarketPrice": 25.0,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1065571200000,
     "regularMarketChange": -1.0,
     "regularMarketDayRange": "25.0 - 26.0",
     "fullExchangeName": "Tokyo",
@@ -1192,6 +1193,8 @@
     "earningsTimestampStart": 1754546400,
     "earningsTimestampEnd": 1754978400,
     "isEarningsDateEstimate": true,
+    "shortName": "MEDINET CO LTD",
+    "longName": "MEDINET Co., Ltd.",
     "epsTrailingTwelveMonths": -4.47,
     "fiftyDayAverageChange": -0.13999939,
     "fiftyDayAverageChangePercent": -0.0055687907,
@@ -1200,10 +1203,7 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
-    "regularMarketChangePercent": -3.846154,
-    "regularMarketPrice": 25.0,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1065571200000,
+    "marketState": "PREPRE",
     "trailingPegRatio": null
   }
 }

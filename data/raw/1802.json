@@ -1,7 +1,7 @@
 {
   "ticker": "1802",
   "japanese_ticker": "1802.T",
-  "fetch_date": "2026-08-08T23:21:31.763017",
+  "fetch_date": "2026-08-09T23:24:05.526446",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": 13022208000.0,
@@ -482,9 +482,9 @@
     },
     "Other Current Liabilities": {
       "2026-03-31 00:00:00": 395089000000.0,
-      "2025-03-31 00:00:00": null,
-      "2024-03-31 00:00:00": null,
-      "2023-03-31 00:00:00": null,
+      "2025-03-31 00:00:00": 402324000000.0,
+      "2024-03-31 00:00:00": 430155000000.0,
+      "2023-03-31 00:00:00": 400931000000.0,
       "2022-03-31 00:00:00": null
     },
     "Current Debt And Capital Lease Obligation": {
@@ -1166,8 +1166,8 @@
     "averageVolume": 3042604,
     "averageVolume10days": 2839000,
     "averageDailyVolume10Day": 2839000,
-    "bid": 3030.0,
-    "ask": 3033.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 2082887172096,
@@ -1185,7 +1185,7 @@
     "tradeable": false,
     "enterpriseValue": 2026621239296,
     "profitMargins": 0.072519995,
-    "floatShares": 648244461,
+    "floatShares": 647625783,
     "sharesOutstanding": 687421514,
     "heldPercentInsiders": 0.05842,
     "heldPercentInstitutions": 0.506,
@@ -1212,7 +1212,8 @@
     "targetLowPrice": 3000.0,
     "targetMeanPrice": 3887.5,
     "targetMedianPrice": 3850.0,
-    "recommendationKey": "none",
+    "recommendationMean": 1.625,
+    "recommendationKey": "buy",
     "numberOfAnalystOpinions": 8,
     "totalCash": 467229999104,
     "totalCashPerShare": 679.686,
@@ -1239,11 +1240,11 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "corporateActions": [],
-    "regularMarketTime": 1786084200,
     "shortName": "OBAYASHI CORP",
     "longName": "Obayashi Corporation",
-    "marketState": "CLOSED",
+    "marketState": "PREPRE",
+    "regularMarketChangePercent": -4.204869,
+    "regularMarketPrice": 3030.0,
     "exchange": "JPX",
     "messageBoardId": "finmb_875655",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1251,9 +1252,6 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "regularMarketChangePercent": -4.204869,
-    "regularMarketPrice": 3030.0,
-    "cryptoTradeable": false,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 946944000000,
     "regularMarketChange": -133.0,
@@ -1280,6 +1278,10 @@
     "twoHundredDayAverageChangePercent": -0.11788725,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
+    "averageAnalystRating": "1.6 - Buy",
+    "cryptoTradeable": false,
+    "corporateActions": [],
+    "regularMarketTime": 1786084200,
     "trailingPegRatio": null
   }
 }

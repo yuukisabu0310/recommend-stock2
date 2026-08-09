@@ -1,7 +1,7 @@
 {
   "ticker": "2186",
   "japanese_ticker": "2186.T",
-  "fetch_date": "2026-08-08T23:25:33.775863",
+  "fetch_date": "2026-08-09T23:28:09.275032",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-02-28 00:00:00": -7107560.455279,
@@ -308,14 +308,14 @@
     },
     "Ordinary Shares Number": {
       "2026-02-28 00:00:00": 7867235.0,
-      "2025-02-28 00:00:00": 7867235.0,
+      "2025-02-28 00:00:00": 7867257.0,
       "2024-02-29 00:00:00": 7867257.0,
       "2023-02-28 00:00:00": 7867257.0,
       "2022-02-28 00:00:00": null
     },
     "Share Issued": {
       "2026-02-28 00:00:00": 8167498.0,
-      "2025-02-28 00:00:00": 8167498.0,
+      "2025-02-28 00:00:00": 7867257.0,
       "2024-02-29 00:00:00": 8167498.0,
       "2023-02-28 00:00:00": 8167498.0,
       "2022-02-28 00:00:00": null
@@ -1134,8 +1134,8 @@
     "averageVolume": 3654,
     "averageVolume10days": 4040,
     "averageDailyVolume10Day": 4040,
-    "bid": 917.0,
-    "ask": 918.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 7222121984,
@@ -1153,7 +1153,7 @@
     "tradeable": false,
     "enterpriseValue": 3401121792,
     "profitMargins": 0.04859,
-    "floatShares": 2674467,
+    "floatShares": 4414463,
     "sharesOutstanding": 7867235,
     "heldPercentInsiders": 0.63484,
     "heldPercentInstitutions": 0.0,
@@ -1201,6 +1201,29 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "shortName": "SOBAL CORPORATION",
+    "longName": "Sobal Corporation",
+    "marketState": "PREPRE",
+    "regularMarketChangePercent": 0.32786885,
+    "regularMarketPrice": 918.0,
+    "fiftyDayAverageChange": 10.73999,
+    "fiftyDayAverageChangePercent": 0.011837831,
+    "twoHundredDayAverageChange": 10.859985,
+    "twoHundredDayAverageChangePercent": 0.011971675,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "2186.T announced a cash dividend of JPY 16.50 with an ex-date of Aug. 28, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1787842800000,
+          "amount": "16.50"
+        }
+      }
+    ],
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1229040000000,
     "regularMarketChange": 3.0,
@@ -1217,26 +1240,6 @@
     "earningsTimestampEnd": 1744353000,
     "isEarningsDateEstimate": false,
     "epsTrailingTwelveMonths": 58.48,
-    "fiftyDayAverageChange": 10.73999,
-    "fiftyDayAverageChangePercent": 0.011837831,
-    "twoHundredDayAverageChange": 10.859985,
-    "twoHundredDayAverageChangePercent": 0.011971675,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
-    "shortName": "SOBAL CORPORATION",
-    "longName": "Sobal Corporation",
-    "corporateActions": [
-      {
-        "header": "Dividend",
-        "message": "2186.T announced a cash dividend of JPY 16.50 with an ex-date of Aug. 28, 2026",
-        "meta": {
-          "eventType": "DIVIDEND",
-          "dateEpochMs": 1787842800000,
-          "amount": "16.50"
-        }
-      }
-    ],
     "regularMarketTime": 1786084200,
     "exchange": "JPX",
     "messageBoardId": "finmb_48670392",
@@ -1245,9 +1248,6 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "regularMarketChangePercent": 0.32786885,
-    "regularMarketPrice": 918.0,
-    "marketState": "CLOSED",
     "trailingPegRatio": null
   }
 }

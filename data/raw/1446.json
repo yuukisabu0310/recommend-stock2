@@ -1,7 +1,7 @@
 {
   "ticker": "1446",
   "japanese_ticker": "1446.T",
-  "fetch_date": "2026-08-08T23:20:19.992905",
+  "fetch_date": "2026-08-09T23:22:54.870989",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-09-30 00:00:00": 488360.0,
@@ -1099,8 +1099,8 @@
     "averageVolume": 4850,
     "averageVolume10days": 3630,
     "averageDailyVolume10Day": 3630,
-    "bid": 544.0,
-    "ask": 549.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 5107127296,
@@ -1169,8 +1169,8 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "regularMarketChangePercent": 2.0446098,
-    "regularMarketPrice": 549.0,
+    "corporateActions": [],
+    "regularMarketTime": 1786084200,
     "exchange": "JPX",
     "messageBoardId": "finmb_429320911",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1178,13 +1178,9 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "corporateActions": [],
-    "regularMarketTime": 1786084200,
-    "shortName": "CANDEAL CO LTD",
+    "marketState": "PREPRE",
     "longName": "CANDEAL Co.,Ltd",
-    "marketState": "CLOSED",
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1530748800000,
+    "shortName": "CANDEAL CO LTD",
     "regularMarketChange": 11.0,
     "regularMarketDayRange": "537.0 - 550.0",
     "fullExchangeName": "Tokyo",
@@ -1206,6 +1202,10 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
+    "regularMarketChangePercent": 2.0446098,
+    "regularMarketPrice": 549.0,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1530748800000,
     "trailingPegRatio": null
   }
 }

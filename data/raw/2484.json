@@ -1,7 +1,7 @@
 {
   "ticker": "2484",
   "japanese_ticker": "2484.T",
-  "fetch_date": "2026-08-08T23:29:09.502144",
+  "fetch_date": "2026-08-09T23:31:48.986635",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-08-31 00:00:00": 0.0,
@@ -724,7 +724,7 @@
     "Effect Of Exchange Rate Changes": {
       "2025-08-31 00:00:00": 0.0,
       "2024-08-31 00:00:00": 0.0,
-      "2023-08-31 00:00:00": null,
+      "2023-08-31 00:00:00": 0.0,
       "2022-08-31 00:00:00": null,
       "2021-08-31 00:00:00": null
     },
@@ -801,7 +801,7 @@
     "Net Investment Purchase And Sale": {
       "2025-08-31 00:00:00": 3000000.0,
       "2024-08-31 00:00:00": 2461000000.0,
-      "2023-08-31 00:00:00": null,
+      "2023-08-31 00:00:00": 0.0,
       "2022-08-31 00:00:00": null,
       "2021-08-31 00:00:00": 156000.0
     },
@@ -1023,8 +1023,8 @@
     "averageVolume": 362642,
     "averageVolume10days": 531160,
     "averageDailyVolume10Day": 531160,
-    "bid": 144.0,
-    "ask": 145.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 16149086208,
@@ -1042,7 +1042,7 @@
     "tradeable": false,
     "enterpriseValue": -5321488896,
     "profitMargins": -0.21662001,
-    "floatShares": 48839299,
+    "floatShares": 45083286,
     "sharesOutstanding": 111373008,
     "heldPercentInsiders": 0.49694002,
     "heldPercentInstitutions": 0.07477,
@@ -1087,14 +1087,11 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1149465600000,
-    "regularMarketChange": 6.0,
-    "regularMarketDayRange": "138.0 - 146.0",
     "shortName": "DEMAE-CAN CO LTD",
     "longName": "Demae-Can Co.,Ltd",
-    "corporateActions": [],
-    "regularMarketTime": 1786084200,
+    "marketState": "PREPRE",
+    "regularMarketChangePercent": 4.316547,
+    "regularMarketPrice": 145.0,
     "exchange": "JPX",
     "messageBoardId": "finmb_26954432",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1102,10 +1099,10 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "cryptoTradeable": false,
-    "marketState": "CLOSED",
-    "regularMarketChangePercent": 4.316547,
-    "regularMarketPrice": 145.0,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1149465600000,
+    "regularMarketChange": 6.0,
+    "regularMarketDayRange": "138.0 - 146.0",
     "fullExchangeName": "Tokyo",
     "averageDailyVolume3Month": 362642,
     "fiftyTwoWeekLowChange": 33.0,
@@ -1126,6 +1123,9 @@
     "twoHundredDayAverageChangePercent": 0.09865135,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
+    "corporateActions": [],
+    "regularMarketTime": 1786084200,
     "trailingPegRatio": null
   }
 }

@@ -1,7 +1,7 @@
 {
   "ticker": "2798",
   "japanese_ticker": "2798.T",
-  "fetch_date": "2026-08-08T23:32:09.400340",
+  "fetch_date": "2026-08-09T23:34:44.676002",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-02-28 00:00:00": -18052875.0,
@@ -315,10 +315,10 @@
   "balance_sheet": {
     "Treasury Shares Number": {
       "2026-02-28 00:00:00": 332.0,
-      "2025-02-28 00:00:00": null,
+      "2025-02-28 00:00:00": 282.0,
       "2024-02-29 00:00:00": 236.0,
       "2023-02-28 00:00:00": 236.0,
-      "2022-02-28 00:00:00": 236.0
+      "2022-02-28 00:00:00": null
     },
     "Ordinary Shares Number": {
       "2026-02-28 00:00:00": 3298068.0,
@@ -329,7 +329,7 @@
     },
     "Share Issued": {
       "2026-02-28 00:00:00": 3298400.0,
-      "2025-02-28 00:00:00": 3298118.0,
+      "2025-02-28 00:00:00": 3298400.0,
       "2024-02-29 00:00:00": 3298400.0,
       "2023-02-28 00:00:00": 3298400.0,
       "2022-02-28 00:00:00": null
@@ -1105,8 +1105,8 @@
     "averageVolume": 1348,
     "averageVolume10days": 1480,
     "averageDailyVolume10Day": 1480,
-    "bid": 3040.0,
-    "ask": 3045.0,
+    "bid": 0.0,
+    "ask": 3050.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 10042616832,
@@ -1171,6 +1171,18 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "corporateActions": [],
+    "regularMarketTime": 1786082364,
+    "exchange": "JPX",
+    "messageBoardId": "finmb_9124088",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
+    "regularMarketChangePercent": 0.0,
+    "regularMarketPrice": 3045.0,
+    "marketState": "PREPRE",
     "regularMarketChange": 0.0,
     "regularMarketDayRange": "3030.0 - 3045.0",
     "fullExchangeName": "Tokyo",
@@ -1191,23 +1203,11 @@
     "twoHundredDayAverageChangePercent": 0.025862133,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1078099200000,
-    "regularMarketChangePercent": 0.0,
-    "regularMarketPrice": 3045.0,
-    "corporateActions": [],
-    "regularMarketTime": 1786082364,
-    "exchange": "JPX",
-    "messageBoardId": "finmb_9124088",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
-    "marketState": "CLOSED",
     "shortName": "Y'S TABLE CORP",
     "longName": "Y's Table Corporation",
-    "cryptoTradeable": false,
     "trailingPegRatio": null
   }
 }

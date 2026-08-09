@@ -1,7 +1,7 @@
 {
   "ticker": "1379",
   "japanese_ticker": "1379.T",
-  "fetch_date": "2026-08-08T23:19:37.968983",
+  "fetch_date": "2026-08-09T23:22:13.380861",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": 561273522.97593,
@@ -1146,8 +1146,8 @@
     "averageVolume": 92815,
     "averageVolume10days": 103050,
     "averageDailyVolume10Day": 103050,
-    "bid": 1920.0,
-    "ask": 1927.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 60310425600,
@@ -1217,11 +1217,8 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "shortName": "HOKUTO CORP",
-    "longName": "Hokuto Corporation",
-    "marketState": "CLOSED",
-    "regularMarketChangePercent": 1.4767933,
-    "regularMarketPrice": 1924.0,
+    "corporateActions": [],
+    "regularMarketTime": 1786084200,
     "exchange": "JPX",
     "messageBoardId": "finmb_884170",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1229,8 +1226,7 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 978566400000,
+    "marketState": "PREPRE",
     "regularMarketChange": 28.0,
     "regularMarketDayRange": "1895.0 - 1933.0",
     "fullExchangeName": "Tokyo",
@@ -1254,8 +1250,12 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
-    "corporateActions": [],
-    "regularMarketTime": 1786084200,
+    "regularMarketChangePercent": 1.4767933,
+    "regularMarketPrice": 1924.0,
+    "shortName": "HOKUTO CORP",
+    "longName": "Hokuto Corporation",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 978566400000,
     "trailingPegRatio": null
   }
 }

@@ -1,7 +1,7 @@
 {
   "ticker": "1418",
   "japanese_ticker": "1418.T",
-  "fetch_date": "2026-08-08T23:19:54.802962",
+  "fetch_date": "2026-08-09T23:22:31.719558",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-02-28 00:00:00": 20236392.321334,
@@ -955,9 +955,9 @@
     "Sale Of PPE": {
       "2026-02-28 00:00:00": 0.0,
       "2025-02-28 00:00:00": 99000.0,
-      "2024-02-29 00:00:00": 0.0,
+      "2024-02-29 00:00:00": null,
       "2023-02-28 00:00:00": 0.0,
-      "2022-02-28 00:00:00": null
+      "2022-02-28 00:00:00": 523005000.0
     },
     "Purchase Of PPE": {
       "2026-02-28 00:00:00": -35969000.0,
@@ -1157,8 +1157,8 @@
     "averageVolume": 67792,
     "averageVolume10days": 59720,
     "averageDailyVolume10Day": 59720,
-    "bid": 596.0,
-    "ask": 598.0,
+    "bid": 0.0,
+    "ask": 609.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 9106607104,
@@ -1223,11 +1223,34 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "1418.T announced a cash dividend of JPY 15.00 with an ex-date of Aug. 28, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1787842800000,
+          "amount": "15.00"
+        }
+      }
+    ],
     "shortName": "INTERLIFE HLDG CO LTD",
     "longName": "Interlife Holdings Co., Ltd.",
-    "marketState": "CLOSED",
-    "regularMarketChangePercent": 0.33613446,
-    "regularMarketPrice": 597.0,
+    "marketState": "PREPRE",
+    "fiftyDayAverageChange": 54.23999,
+    "fiftyDayAverageChangePercent": 0.099933654,
+    "twoHundredDayAverageChange": 32.015015,
+    "twoHundredDayAverageChangePercent": 0.05666525,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
+    "regularMarketTime": 1786084200,
+    "exchange": "JPX",
+    "messageBoardId": "finmb_9617817",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "market": "jp_market",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 946944000000,
     "regularMarketChange": 2.0,
     "regularMarketDayRange": "593.0 - 599.0",
     "fullExchangeName": "Tokyo",
@@ -1242,34 +1265,11 @@
     "earningsTimestampEnd": 1744614000,
     "isEarningsDateEstimate": false,
     "epsTrailingTwelveMonths": 53.55,
-    "fiftyDayAverageChange": 54.23999,
-    "fiftyDayAverageChangePercent": 0.099933654,
-    "twoHundredDayAverageChange": 32.015015,
-    "twoHundredDayAverageChangePercent": 0.05666525,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
-    "regularMarketTime": 1786084200,
-    "exchange": "JPX",
-    "messageBoardId": "finmb_9617817",
-    "exchangeTimezoneName": "Asia/Tokyo",
     "exchangeTimezoneShortName": "JST",
     "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
     "esgPopulated": false,
-    "corporateActions": [
-      {
-        "header": "Dividend",
-        "message": "1418.T announced a cash dividend of JPY 15.00 with an ex-date of Aug. 28, 2026",
-        "meta": {
-          "eventType": "DIVIDEND",
-          "dateEpochMs": 1787842800000,
-          "amount": "15.00"
-        }
-      }
-    ],
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 946944000000,
+    "regularMarketChangePercent": 0.33613446,
+    "regularMarketPrice": 597.0,
     "trailingPegRatio": null
   }
 }

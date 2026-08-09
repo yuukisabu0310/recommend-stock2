@@ -1,7 +1,7 @@
 {
   "ticker": "2986",
   "japanese_ticker": "2986.T",
-  "fetch_date": "2026-08-08T23:34:12.502659",
+  "fetch_date": "2026-08-09T23:36:46.284207",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-12-31 00:00:00": -18550899.031443,
@@ -1123,8 +1123,8 @@
     "averageVolume": 224171,
     "averageVolume10days": 181890,
     "averageDailyVolume10Day": 181890,
-    "bid": 2653.0,
-    "ask": 2655.0,
+    "bid": 0.0,
+    "ask": 2673.0,
     "marketCap": 60841009152,
     "nonDilutedMarketCap": 60841009926,
     "fiftyTwoWeekLow": 2230.0,
@@ -1189,7 +1189,9 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "marketState": "CLOSED",
+    "shortName": "LA HOLDINGS CO LTD",
+    "longName": "LA Holdings Co., Ltd.",
+    "marketState": "PREPRE",
     "regularMarketChangePercent": -3.174024,
     "regularMarketPrice": 2654.0,
     "exchange": "JPX",
@@ -1199,8 +1201,8 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "corporateActions": [],
-    "regularMarketTime": 1786084200,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1593561600000,
     "regularMarketChange": -87.0,
     "regularMarketDayRange": "2642.0 - 2741.0",
     "fullExchangeName": "Tokyo",
@@ -1222,10 +1224,8 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
-    "shortName": "LA HOLDINGS CO LTD",
-    "longName": "LA Holdings Co., Ltd.",
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1593561600000,
+    "corporateActions": [],
+    "regularMarketTime": 1786084200,
     "trailingPegRatio": null
   }
 }

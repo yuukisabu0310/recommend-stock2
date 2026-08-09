@@ -1,7 +1,7 @@
 {
   "ticker": "1840",
   "japanese_ticker": "1840.T",
-  "fetch_date": "2026-08-08T23:22:03.181293",
+  "fetch_date": "2026-08-09T23:24:36.285906",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-10-31 00:00:00": 33735816.0,
@@ -125,23 +125,23 @@
     "Diluted Average Shares": {
       "2025-10-31 00:00:00": 25475879.0,
       "2024-10-31 00:00:00": 24997314.0,
-      "2023-10-31 00:00:00": 25000428.0,
+      "2023-10-31 00:00:00": 24997372.0,
       "2022-10-31 00:00:00": 24997443.0,
       "2021-10-31 00:00:00": null
     },
     "Basic Average Shares": {
       "2025-10-31 00:00:00": 25475879.0,
       "2024-10-31 00:00:00": 24997314.0,
-      "2023-10-31 00:00:00": 25000428.0,
+      "2023-10-31 00:00:00": 24997372.0,
       "2022-10-31 00:00:00": 24997443.0,
       "2021-10-31 00:00:00": null
     },
     "Diluted EPS": {
       "2025-10-31 00:00:00": -3.66,
-      "2024-10-31 00:00:00": null,
+      "2024-10-31 00:00:00": 30.34,
       "2023-10-31 00:00:00": 9.34,
       "2022-10-31 00:00:00": 9.22,
-      "2021-10-31 00:00:00": 19.12
+      "2021-10-31 00:00:00": null
     },
     "Basic EPS": {
       "2025-10-31 00:00:00": -3.66,
@@ -1159,8 +1159,8 @@
     "averageVolume": 12450,
     "averageVolume10days": 9180,
     "averageDailyVolume10Day": 9180,
-    "bid": 246.0,
-    "ask": 248.0,
+    "bid": 0.0,
+    "ask": 247.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 6366422016,
@@ -1225,6 +1225,8 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "corporateActions": [],
+    "regularMarketTime": 1786084200,
     "exchange": "JPX",
     "messageBoardId": "finmb_883563",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1239,15 +1241,6 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
-    "shortName": "TSUCHIYA HLDG",
-    "longName": "Tsuchiya Holdings Co., Ltd.",
-    "regularMarketChangePercent": 1.2295082,
-    "regularMarketPrice": 247.0,
-    "corporateActions": [],
-    "regularMarketTime": 1786084200,
-    "marketState": "CLOSED",
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 978307200000,
     "regularMarketChange": 3.0,
     "regularMarketDayRange": "245.0 - 249.0",
     "fullExchangeName": "Tokyo",
@@ -1262,6 +1255,13 @@
     "earningsTimestampEnd": 1749796200,
     "isEarningsDateEstimate": false,
     "epsTrailingTwelveMonths": -10.77,
+    "shortName": "TSUCHIYA HLDG",
+    "marketState": "PREPRE",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 978307200000,
+    "regularMarketChangePercent": 1.2295082,
+    "regularMarketPrice": 247.0,
+    "longName": "Tsuchiya Holdings Co., Ltd.",
     "trailingPegRatio": null
   }
 }

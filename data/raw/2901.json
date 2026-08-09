@@ -1,7 +1,7 @@
 {
   "ticker": "2901",
   "japanese_ticker": "2901.T",
-  "fetch_date": "2026-08-08T23:33:03.213184",
+  "fetch_date": "2026-08-09T23:35:37.471536",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": 11896548.667594,
@@ -1010,8 +1010,8 @@
     "averageVolume": 172178,
     "averageVolume10days": 101090,
     "averageDailyVolume10Day": 101090,
-    "bid": 182.0,
-    "ask": 183.0,
+    "bid": 183.0,
+    "ask": 184.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 5234274816,
@@ -1072,6 +1072,15 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "twoHundredDayAverageChange": -158.85,
+    "twoHundredDayAverageChangePercent": -0.4646775,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "prevName": "Ishigaki Foods Co.,Ltd.",
+    "nameChangeDate": "2026-08-09",
+    "cryptoTradeable": false,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 946944000000,
     "regularMarketChange": 0.0,
     "regularMarketDayRange": "181.0 - 184.0",
     "fullExchangeName": "Tokyo",
@@ -1088,16 +1097,6 @@
     "epsTrailingTwelveMonths": 21.78,
     "fiftyDayAverageChange": -5.080002,
     "fiftyDayAverageChangePercent": -0.027009793,
-    "twoHundredDayAverageChange": -158.85,
-    "twoHundredDayAverageChangePercent": -0.4646775,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "prevName": "Ishigaki Foods Co.,Ltd.",
-    "nameChangeDate": "2026-08-08",
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 946944000000,
-    "regularMarketChangePercent": 0.0,
-    "regularMarketPrice": 183.0,
     "corporateActions": [
       {
         "header": "Dividend",
@@ -1109,6 +1108,11 @@
         }
       }
     ],
+    "marketState": "PREPRE",
+    "regularMarketChangePercent": 0.0,
+    "regularMarketPrice": 183.0,
+    "shortName": "WEL-DISH INCORPORATED",
+    "longName": "Wel-Dish.Incorporated",
     "regularMarketTime": 1786084200,
     "exchange": "JPX",
     "messageBoardId": "finmb_10203781",
@@ -1117,10 +1121,6 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "marketState": "CLOSED",
-    "shortName": "WEL-DISH INCORPORATED",
-    "longName": "Wel-Dish.Incorporated",
-    "cryptoTradeable": false,
     "trailingPegRatio": null
   }
 }

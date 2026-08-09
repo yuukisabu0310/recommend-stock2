@@ -1,7 +1,7 @@
 {
   "ticker": "1905",
   "japanese_ticker": "1905.T",
-  "fetch_date": "2026-08-08T23:22:50.616209",
+  "fetch_date": "2026-08-09T23:25:22.351582",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": 6290082.4,
@@ -301,10 +301,10 @@
   "balance_sheet": {
     "Treasury Shares Number": {
       "2026-03-31 00:00:00": 681443.0,
-      "2025-03-31 00:00:00": null,
+      "2025-03-31 00:00:00": 707354.0,
       "2024-03-31 00:00:00": 792750.0,
       "2023-03-31 00:00:00": 818204.0,
-      "2022-03-31 00:00:00": 1004808.0
+      "2022-03-31 00:00:00": null
     },
     "Ordinary Shares Number": {
       "2026-03-31 00:00:00": 6666237.0,
@@ -315,7 +315,7 @@
     },
     "Share Issued": {
       "2026-03-31 00:00:00": 7347680.0,
-      "2025-03-31 00:00:00": 6640327.0,
+      "2025-03-31 00:00:00": 7347680.0,
       "2024-03-31 00:00:00": 7347680.0,
       "2023-03-31 00:00:00": 7347680.0,
       "2022-03-31 00:00:00": null
@@ -1185,8 +1185,8 @@
     "averageVolume": 6685,
     "averageVolume10days": 3800,
     "averageDailyVolume10Day": 3800,
-    "bid": 1430.0,
-    "ask": 1448.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 9646045184,
@@ -1253,11 +1253,28 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "shortName": "TENOX CORP",
+    "fiftyDayAverageChange": -68.06006,
+    "fiftyDayAverageChangePercent": -0.04492235,
+    "twoHundredDayAverageChange": 12.905029,
+    "twoHundredDayAverageChangePercent": 0.008998727,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
+    "marketState": "PREPRE",
     "longName": "Tenox Corporation",
-    "marketState": "CLOSED",
+    "exchange": "JPX",
+    "messageBoardId": "finmb_5577940",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
     "regularMarketChangePercent": -6.0389614,
     "regularMarketPrice": 1447.0,
+    "corporateActions": [],
+    "regularMarketTime": 1786084200,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 947030400000,
     "regularMarketChange": -93.0,
     "regularMarketDayRange": "1436.0 - 1532.0",
     "fullExchangeName": "Tokyo",
@@ -1272,24 +1289,7 @@
     "earningsTimestampEnd": 1747203300,
     "isEarningsDateEstimate": false,
     "epsTrailingTwelveMonths": 141.08,
-    "fiftyDayAverageChange": -68.06006,
-    "fiftyDayAverageChangePercent": -0.04492235,
-    "twoHundredDayAverageChange": 12.905029,
-    "twoHundredDayAverageChangePercent": 0.008998727,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
-    "regularMarketTime": 1786084200,
-    "exchange": "JPX",
-    "messageBoardId": "finmb_5577940",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
-    "corporateActions": [],
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 947030400000,
+    "shortName": "TENOX CORP",
     "trailingPegRatio": null
   }
 }

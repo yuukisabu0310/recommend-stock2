@@ -1,7 +1,7 @@
 {
   "ticker": "1967",
   "japanese_ticker": "1967.T",
-  "fetch_date": "2026-08-08T23:23:45.749038",
+  "fetch_date": "2026-08-09T23:26:19.841826",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": 203159755.199502,
@@ -315,14 +315,14 @@
   "balance_sheet": {
     "Treasury Shares Number": {
       "2026-03-31 00:00:00": 1741363.0,
-      "2025-03-31 00:00:00": 2123261.0,
+      "2025-03-31 00:00:00": 2123282.0,
       "2024-03-31 00:00:00": 1751025.0,
       "2023-03-31 00:00:00": 1612197.0,
       "2022-03-31 00:00:00": null
     },
     "Ordinary Shares Number": {
       "2026-03-31 00:00:00": 22386289.0,
-      "2025-03-31 00:00:00": 24804391.0,
+      "2025-03-31 00:00:00": 24804370.0,
       "2024-03-31 00:00:00": 25176627.0,
       "2023-03-31 00:00:00": 25315455.0,
       "2022-03-31 00:00:00": null
@@ -1241,8 +1241,8 @@
     "averageVolume": 41056,
     "averageVolume10days": 65650,
     "averageDailyVolume10Day": 65650,
-    "bid": 1999.0,
-    "ask": 2005.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 44750188544,
@@ -1307,9 +1307,8 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "marketState": "CLOSED",
-    "regularMarketChangePercent": -1.6240157,
-    "regularMarketPrice": 1999.0,
+    "corporateActions": [],
+    "regularMarketTime": 1786084200,
     "exchange": "JPX",
     "messageBoardId": "finmb_883570",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1317,8 +1316,10 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "corporateActions": [],
-    "regularMarketTime": 1786084200,
+    "regularMarketChangePercent": -1.6240157,
+    "regularMarketPrice": 1999.0,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 978307200000,
     "regularMarketChange": -33.0,
     "regularMarketDayRange": "1995.0 - 2014.0",
     "fullExchangeName": "Tokyo",
@@ -1332,6 +1333,8 @@
     "earningsTimestampStart": 1754287200,
     "earningsTimestampEnd": 1754632800,
     "isEarningsDateEstimate": true,
+    "shortName": "YAMATO CORPORATION",
+    "longName": "Yamato Corporation",
     "epsTrailingTwelveMonths": 197.5,
     "fiftyDayAverageChange": -22.97998,
     "fiftyDayAverageChangePercent": -0.011365088,
@@ -1340,10 +1343,7 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
-    "shortName": "YAMATO CORPORATION",
-    "longName": "Yamato Corporation",
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 978307200000,
+    "marketState": "PREPRE",
     "trailingPegRatio": null
   }
 }

@@ -1,7 +1,7 @@
 {
   "ticker": "2154",
   "japanese_ticker": "2154.T",
-  "fetch_date": "2026-08-08T23:24:59.993138",
+  "fetch_date": "2026-08-09T23:27:35.548526",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-06-30 00:00:00": 0.0,
@@ -96,7 +96,7 @@
     "Diluted Average Shares": {
       "2025-06-30 00:00:00": 87003810.0,
       "2024-06-30 00:00:00": 86835891.0,
-      "2023-06-30 00:00:00": 87571192.0,
+      "2023-06-30 00:00:00": 87572656.0,
       "2022-06-30 00:00:00": 89386560.0
     },
     "Basic Average Shares": {
@@ -107,13 +107,13 @@
     },
     "Diluted EPS": {
       "2025-06-30 00:00:00": 144.35,
-      "2024-06-30 00:00:00": null,
+      "2024-06-30 00:00:00": 135.52,
       "2023-06-30 00:00:00": 108.86,
       "2022-06-30 00:00:00": 78.03
     },
     "Basic EPS": {
       "2025-06-30 00:00:00": 144.56,
-      "2024-06-30 00:00:00": null,
+      "2024-06-30 00:00:00": 135.76,
       "2023-06-30 00:00:00": 109.13,
       "2022-06-30 00:00:00": 78.3
     },
@@ -950,8 +950,8 @@
     "averageVolume": 214271,
     "averageVolume10days": 195930,
     "averageDailyVolume10Day": 195930,
-    "bid": 1965.0,
-    "ask": 1986.0,
+    "bid": 0.0,
+    "ask": 2001.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 167090323456,
@@ -1027,18 +1027,11 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "marketState": "CLOSED",
+    "longName": "Open Up Group Inc.",
     "regularMarketChangePercent": 0.1527495,
     "regularMarketPrice": 1967.0,
-    "exchange": "JPX",
-    "messageBoardId": "finmb_34230747",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
-    "corporateActions": [],
-    "regularMarketTime": 1786084200,
+    "marketState": "PREPRE",
+    "shortName": "OPEN UP GROUP INC",
     "regularMarketChange": 3.0,
     "regularMarketDayRange": "1952.0 - 1993.0",
     "fullExchangeName": "Tokyo",
@@ -1062,13 +1055,20 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "prevName": "BeNEXT Group Inc.",
-    "nameChangeDate": "2026-08-08",
+    "nameChangeDate": "2026-08-09",
     "averageAnalystRating": "1.0 - Strong Buy",
-    "cryptoTradeable": false,
-    "shortName": "OPEN UP GROUP INC",
-    "longName": "Open Up Group Inc.",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1181088000000,
+    "cryptoTradeable": false,
+    "corporateActions": [],
+    "regularMarketTime": 1786084200,
+    "exchange": "JPX",
+    "messageBoardId": "finmb_34230747",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
     "trailingPegRatio": null
   }
 }

@@ -1,7 +1,7 @@
 {
   "ticker": "2767",
   "japanese_ticker": "2767.T",
-  "fetch_date": "2026-08-08T23:31:41.722897",
+  "fetch_date": "2026-08-09T23:34:18.254034",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": -142324000.0,
@@ -114,7 +114,7 @@
     "Diluted Average Shares": {
       "2026-03-31 00:00:00": 62401377.0,
       "2025-03-31 00:00:00": 62572903.0,
-      "2024-03-31 00:00:00": 65584343.0,
+      "2024-03-31 00:00:00": 65589688.0,
       "2023-03-31 00:00:00": 65380945.0
     },
     "Basic Average Shares": {
@@ -1213,8 +1213,8 @@
     "averageVolume": 705290,
     "averageVolume10days": 2057050,
     "averageDailyVolume10Day": 2057050,
-    "bid": 2503.0,
-    "ask": 2509.0,
+    "bid": 2509.0,
+    "ask": 2510.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 156129132544,
@@ -1288,12 +1288,6 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1048032000000,
-    "regularMarketChange": 9.0,
-    "regularMarketDayRange": "2456.0 - 2514.0",
-    "shortName": "TSUBURAYA FIELDS HOLDINGS INC",
-    "longName": "Tsuburaya Fields Holdings Inc.",
     "corporateActions": [],
     "regularMarketTime": 1786084200,
     "exchange": "JPX",
@@ -1303,11 +1297,12 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "averageAnalystRating": "1.0 - Strong Buy",
-    "cryptoTradeable": false,
-    "marketState": "CLOSED",
     "regularMarketChangePercent": 0.36014405,
     "regularMarketPrice": 2508.0,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1048032000000,
+    "regularMarketChange": 9.0,
+    "regularMarketDayRange": "2456.0 - 2514.0",
     "fullExchangeName": "Tokyo",
     "averageDailyVolume3Month": 705290,
     "fiftyTwoWeekLowChange": 1187.0,
@@ -1319,6 +1314,8 @@
     "earningsTimestampStart": 1754546400,
     "earningsTimestampEnd": 1754978400,
     "isEarningsDateEstimate": true,
+    "shortName": "TSUBURAYA FIELDS HOLDINGS INC",
+    "longName": "Tsuburaya Fields Holdings Inc.",
     "epsTrailingTwelveMonths": 209.17,
     "epsForward": 268.5,
     "fiftyDayAverageChange": 930.22,
@@ -1327,6 +1324,9 @@
     "twoHundredDayAverageChangePercent": 0.5114398,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
+    "averageAnalystRating": "1.0 - Strong Buy",
+    "cryptoTradeable": false,
+    "marketState": "PREPRE",
     "trailingPegRatio": null
   }
 }

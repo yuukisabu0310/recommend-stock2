@@ -1,7 +1,7 @@
 {
   "ticker": "1844",
   "japanese_ticker": "1844.T",
-  "fetch_date": "2026-08-08T23:22:06.656293",
+  "fetch_date": "2026-08-09T23:24:39.255790",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-07-31 00:00:00": null,
@@ -305,7 +305,7 @@
       "2022-07-31 00:00:00": 16802.0
     },
     "Ordinary Shares Number": {
-      "2024-07-31 00:00:00": 18654514.0,
+      "2024-07-31 00:00:00": 18654694.0,
       "2023-07-31 00:00:00": 17505284.0,
       "2022-07-31 00:00:00": 14956047.0
     },
@@ -953,8 +953,8 @@
     "averageVolume": 99990,
     "averageVolume10days": 67620,
     "averageDailyVolume10Day": 67620,
-    "bid": 461.0,
-    "ask": 463.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "marketCap": 8665532416,
     "nonDilutedMarketCap": 8665531613,
     "fiftyTwoWeekLow": 399.0,
@@ -1019,6 +1019,10 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "regularMarketChangePercent": 0.21645021,
+    "regularMarketPrice": 463.0,
+    "shortName": "OHMORI CO LTD",
+    "longName": "Ohmori Co.,Ltd.",
     "corporateActions": [],
     "regularMarketTime": 1786084200,
     "exchange": "JPX",
@@ -1028,9 +1032,16 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "marketState": "CLOSED",
-    "shortName": "OHMORI CO LTD",
-    "longName": "Ohmori Co.,Ltd.",
+    "fiftyDayAverageChange": -26.679993,
+    "fiftyDayAverageChangePercent": -0.054484546,
+    "twoHundredDayAverageChange": -89.40997,
+    "twoHundredDayAverageChangePercent": -0.16185439,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
+    "hasPrePostMarketData": false,
+    "marketState": "PREPRE",
+    "firstTradeDateMilliseconds": 978307200000,
     "regularMarketChange": 1.0,
     "regularMarketDayRange": "459.0 - 464.0",
     "fullExchangeName": "Tokyo",
@@ -1045,17 +1056,6 @@
     "earningsTimestampEnd": 1749434400,
     "isEarningsDateEstimate": false,
     "epsTrailingTwelveMonths": 27.83,
-    "fiftyDayAverageChange": -26.679993,
-    "fiftyDayAverageChangePercent": -0.054484546,
-    "twoHundredDayAverageChange": -89.40997,
-    "twoHundredDayAverageChangePercent": -0.16185439,
-    "regularMarketChangePercent": 0.21645021,
-    "regularMarketPrice": 463.0,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 978307200000,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
     "trailingPegRatio": null
   }
 }

@@ -1,7 +1,7 @@
 {
   "ticker": "2666",
   "japanese_ticker": "2666.T",
-  "fetch_date": "2026-08-08T23:30:16.096468",
+  "fetch_date": "2026-08-09T23:32:56.173302",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": -772000.0,
@@ -301,10 +301,10 @@
   "balance_sheet": {
     "Treasury Shares Number": {
       "2026-03-31 00:00:00": 211.0,
-      "2025-03-31 00:00:00": null,
+      "2025-03-31 00:00:00": 211.0,
       "2024-03-31 00:00:00": 211.0,
       "2023-03-31 00:00:00": 211.0,
-      "2022-03-31 00:00:00": 211.0
+      "2022-03-31 00:00:00": null
     },
     "Ordinary Shares Number": {
       "2026-03-31 00:00:00": 14450789.0,
@@ -315,7 +315,7 @@
     },
     "Share Issued": {
       "2026-03-31 00:00:00": 14451000.0,
-      "2025-03-31 00:00:00": 14450789.0,
+      "2025-03-31 00:00:00": 14451000.0,
       "2024-03-31 00:00:00": 14451000.0,
       "2023-03-31 00:00:00": 14451000.0,
       "2022-03-31 00:00:00": null
@@ -1015,7 +1015,7 @@
     "averageVolume": 97368,
     "averageVolume10days": 110440,
     "averageDailyVolume10Day": 110440,
-    "bid": 188.0,
+    "bid": 0.0,
     "ask": 189.0,
     "bidSize": 0,
     "askSize": 0,
@@ -1081,12 +1081,10 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "marketState": "CLOSED",
-    "shortName": "AUTOWAVE CO LTD",
-    "longName": "AUTOWAVE Co., Ltd.",
-    "cryptoTradeable": false,
     "regularMarketChangePercent": -1.5625,
     "regularMarketPrice": 189.0,
+    "shortName": "AUTOWAVE CO LTD",
+    "longName": "AUTOWAVE Co., Ltd.",
     "corporateActions": [],
     "regularMarketTime": 1786084200,
     "exchange": "JPX",
@@ -1096,6 +1094,16 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
+    "fiftyDayAverageChange": 16.440002,
+    "fiftyDayAverageChangePercent": 0.09527122,
+    "twoHundredDayAverageChange": 23.600006,
+    "twoHundredDayAverageChangePercent": 0.14268444,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
+    "hasPrePostMarketData": false,
+    "marketState": "PREPRE",
+    "firstTradeDateMilliseconds": 969580800000,
     "regularMarketChange": -3.0,
     "regularMarketDayRange": "187.0 - 192.0",
     "fullExchangeName": "Tokyo",
@@ -1110,14 +1118,6 @@
     "earningsTimestampEnd": 1755061200,
     "isEarningsDateEstimate": true,
     "epsTrailingTwelveMonths": 30.56,
-    "fiftyDayAverageChange": 16.440002,
-    "fiftyDayAverageChangePercent": 0.09527122,
-    "twoHundredDayAverageChange": 23.600006,
-    "twoHundredDayAverageChangePercent": 0.14268444,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 969580800000,
     "trailingPegRatio": null
   }
 }

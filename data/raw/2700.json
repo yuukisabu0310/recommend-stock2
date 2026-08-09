@@ -1,7 +1,7 @@
 {
   "ticker": "2700",
   "japanese_ticker": "2700.T",
-  "fetch_date": "2026-08-08T23:30:53.648113",
+  "fetch_date": "2026-08-09T23:33:32.887489",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-12-31 00:00:00": -59635416.0,
@@ -315,10 +315,10 @@
   "balance_sheet": {
     "Treasury Shares Number": {
       "2025-12-31 00:00:00": 351418.0,
-      "2024-12-31 00:00:00": 363530.0,
-      "2023-12-31 00:00:00": 429065.0,
+      "2024-12-31 00:00:00": null,
+      "2023-12-31 00:00:00": 85813.0,
       "2022-12-31 00:00:00": 428985.0,
-      "2021-12-31 00:00:00": null
+      "2021-12-31 00:00:00": 428315.0
     },
     "Ordinary Shares Number": {
       "2025-12-31 00:00:00": 8178582.0,
@@ -329,7 +329,7 @@
     },
     "Share Issued": {
       "2025-12-31 00:00:00": 8530000.0,
-      "2024-12-31 00:00:00": 8530000.0,
+      "2024-12-31 00:00:00": 1624281.0,
       "2023-12-31 00:00:00": 8530000.0,
       "2022-12-31 00:00:00": 8530000.0,
       "2021-12-31 00:00:00": null
@@ -1223,7 +1223,7 @@
     "averageVolume10days": 18020,
     "averageDailyVolume10Day": 18020,
     "bid": 1691.0,
-    "ask": 1692.0,
+    "ask": 1691.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 13829982208,
@@ -1290,6 +1290,10 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "shortName": "KITOKU SHINRYO CO",
+    "longName": "Kitoku Shinryo Co., Ltd.",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 995414400000,
     "regularMarketChange": -24.0,
     "regularMarketDayRange": "1659.0 - 1714.0",
     "fullExchangeName": "Tokyo",
@@ -1303,6 +1307,9 @@
     "earningsTimestampStart": 1754287200,
     "earningsTimestampEnd": 1754632800,
     "isEarningsDateEstimate": true,
+    "marketState": "PREPRE",
+    "regularMarketChangePercent": -1.3994169,
+    "regularMarketPrice": 1691.0,
     "epsTrailingTwelveMonths": 675.39,
     "fiftyDayAverageChange": -71.04004,
     "fiftyDayAverageChangePercent": -0.04031693,
@@ -1310,6 +1317,9 @@
     "twoHundredDayAverageChangePercent": -0.2811306,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
+    "corporateActions": [],
+    "regularMarketTime": 1786084200,
     "exchange": "JPX",
     "messageBoardId": "finmb_6452742",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1317,16 +1327,6 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "regularMarketChangePercent": -1.3994169,
-    "regularMarketPrice": 1691.0,
-    "marketState": "CLOSED",
-    "cryptoTradeable": false,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 995414400000,
-    "shortName": "KITOKU SHINRYO CO",
-    "longName": "Kitoku Shinryo Co., Ltd.",
-    "corporateActions": [],
-    "regularMarketTime": 1786084200,
     "trailingPegRatio": null
   }
 }

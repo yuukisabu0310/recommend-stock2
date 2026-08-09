@@ -1,7 +1,7 @@
 {
   "ticker": "2338",
   "japanese_ticker": "2338.T",
-  "fetch_date": "2026-08-08T23:27:21.319839",
+  "fetch_date": "2026-08-09T23:29:58.461518",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-02-28 00:00:00": -675260400.0,
@@ -1118,8 +1118,8 @@
     "averageVolume": 723604,
     "averageVolume10days": 168420,
     "averageDailyVolume10Day": 168420,
-    "bid": 130.0,
-    "ask": 131.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 6387263488,
@@ -1177,8 +1177,6 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1037664000000,
     "regularMarketChange": 2.0,
     "regularMarketDayRange": "129.0 - 137.0",
     "fullExchangeName": "Tokyo",
@@ -1201,10 +1199,11 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "prevName": "Bit One Group Co., Ltd.",
-    "nameChangeDate": "2026-08-08",
-    "cryptoTradeable": false,
-    "shortName": "QUANTUM SOLUTIONS CO LTD",
-    "longName": "Quantum Solutions Co.,Ltd.",
+    "nameChangeDate": "2026-08-09",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1037664000000,
+    "regularMarketChangePercent": 1.5625,
+    "regularMarketPrice": 130.0,
     "corporateActions": [],
     "regularMarketTime": 1786084200,
     "exchange": "JPX",
@@ -1214,9 +1213,10 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "regularMarketChangePercent": 1.5625,
-    "regularMarketPrice": 130.0,
-    "marketState": "CLOSED",
+    "marketState": "PREPRE",
+    "shortName": "QUANTUM SOLUTIONS CO LTD",
+    "longName": "Quantum Solutions Co.,Ltd.",
+    "cryptoTradeable": false,
     "trailingPegRatio": null
   }
 }

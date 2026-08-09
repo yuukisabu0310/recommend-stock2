@@ -1,7 +1,7 @@
 {
   "ticker": "2311",
   "japanese_ticker": "2311.T",
-  "fetch_date": "2026-08-08T23:26:53.972557",
+  "fetch_date": "2026-08-09T23:29:30.856492",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-12-31 00:00:00": 18614880.0,
@@ -1055,8 +1055,8 @@
     "averageVolume": 16426,
     "averageVolume10days": 13770,
     "averageDailyVolume10Day": 13770,
-    "bid": 780.0,
-    "ask": 785.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 7027894784,
@@ -1124,6 +1124,12 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "marketState": "PREPRE",
+    "shortName": "EPCO CO LTD",
+    "longName": "EPCO Co.,Ltd.",
+    "cryptoTradeable": false,
+    "regularMarketChangePercent": 0.38363174,
+    "regularMarketPrice": 785.0,
     "corporateActions": [],
     "regularMarketTime": 1786084200,
     "exchange": "JPX",
@@ -1133,9 +1139,6 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "regularMarketChangePercent": 0.38363174,
-    "regularMarketPrice": 785.0,
-    "marketState": "CLOSED",
     "regularMarketChange": 3.0,
     "regularMarketDayRange": "778.0 - 786.0",
     "fullExchangeName": "Tokyo",
@@ -1157,11 +1160,8 @@
     "twoHundredDayAverageChangePercent": -0.025522616,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1026432000000,
-    "shortName": "EPCO CO LTD",
-    "longName": "EPCO Co.,Ltd.",
     "trailingPegRatio": null
   }
 }

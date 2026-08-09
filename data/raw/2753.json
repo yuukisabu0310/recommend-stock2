@@ -1,7 +1,7 @@
 {
   "ticker": "2753",
   "japanese_ticker": "2753.T",
-  "fetch_date": "2026-08-08T23:31:32.312756",
+  "fetch_date": "2026-08-09T23:34:09.218841",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": -99568000.0,
@@ -259,10 +259,10 @@
   "balance_sheet": {
     "Treasury Shares Number": {
       "2026-03-31 00:00:00": 630.0,
-      "2025-03-31 00:00:00": null,
+      "2025-03-31 00:00:00": 1530.0,
       "2024-03-31 00:00:00": 1530.0,
       "2023-03-31 00:00:00": 1443.0,
-      "2022-03-31 00:00:00": 1338.0
+      "2022-03-31 00:00:00": null
     },
     "Ordinary Shares Number": {
       "2026-03-31 00:00:00": 20545770.0,
@@ -273,7 +273,7 @@
     },
     "Share Issued": {
       "2026-03-31 00:00:00": 20546400.0,
-      "2025-03-31 00:00:00": 20544870.0,
+      "2025-03-31 00:00:00": 20546400.0,
       "2024-03-31 00:00:00": 20546400.0,
       "2023-03-31 00:00:00": 20546400.0,
       "2022-03-31 00:00:00": null
@@ -1158,8 +1158,8 @@
     "averageVolume": 37676,
     "averageVolume10days": 40890,
     "averageDailyVolume10Day": 40890,
-    "bid": 1360.0,
-    "ask": 1368.0,
+    "bid": 1369.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 28044976128,
@@ -1227,11 +1227,6 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "regularMarketChangePercent": 1.8656716,
-    "regularMarketPrice": 1365.0,
-    "marketState": "CLOSED",
-    "corporateActions": [],
-    "regularMarketTime": 1786084200,
     "shortName": "AMIYAKI TEI CO LTD",
     "longName": "Amiyaki Tei Co., Ltd.",
     "exchange": "JPX",
@@ -1241,15 +1236,10 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "epsTrailingTwelveMonths": 61.83,
-    "epsForward": 93.9,
-    "fiftyDayAverageChange": 29.900024,
-    "fiftyDayAverageChangePercent": 0.022395344,
-    "twoHundredDayAverageChange": -5.13501,
-    "twoHundredDayAverageChangePercent": -0.003747813,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
+    "regularMarketChangePercent": 1.8656716,
+    "regularMarketPrice": 1365.0,
+    "corporateActions": [],
+    "regularMarketTime": 1786084200,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1040169600000,
     "regularMarketChange": 25.0,
@@ -1265,6 +1255,16 @@
     "earningsTimestampStart": 1751367540,
     "earningsTimestampEnd": 1751889600,
     "isEarningsDateEstimate": true,
+    "marketState": "PREPRE",
+    "twoHundredDayAverageChange": -5.13501,
+    "twoHundredDayAverageChangePercent": -0.003747813,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
+    "epsTrailingTwelveMonths": 61.83,
+    "epsForward": 93.9,
+    "fiftyDayAverageChange": 29.900024,
+    "fiftyDayAverageChangePercent": 0.022395344,
     "trailingPegRatio": null
   }
 }

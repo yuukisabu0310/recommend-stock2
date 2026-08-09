@@ -1,7 +1,7 @@
 {
   "ticker": "2055",
   "japanese_ticker": "2055.T",
-  "fetch_date": "2026-08-08T23:24:21.444017",
+  "fetch_date": "2026-08-09T23:26:56.292284",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": -264800000.0,
@@ -277,10 +277,10 @@
   "balance_sheet": {
     "Treasury Shares Number": {
       "2026-03-31 00:00:00": 2719032.0,
-      "2025-03-31 00:00:00": null,
+      "2025-03-31 00:00:00": 2719032.0,
       "2024-03-31 00:00:00": 2718972.0,
       "2023-03-31 00:00:00": 2718971.0,
-      "2022-03-31 00:00:00": 2718918.0
+      "2022-03-31 00:00:00": null
     },
     "Ordinary Shares Number": {
       "2026-03-31 00:00:00": 18111793.0,
@@ -1106,8 +1106,8 @@
     "averageVolume": 21170,
     "averageVolume10days": 6640,
     "averageDailyVolume10Day": 6640,
-    "bid": 343.0,
-    "ask": 347.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 6248568320,
@@ -1174,11 +1174,10 @@
     "customPriceAlertConfidence": "LOW",
     "regularMarketChangePercent": 0.877193,
     "regularMarketPrice": 345.0,
-    "marketState": "CLOSED",
-    "corporateActions": [],
-    "regularMarketTime": 1786084200,
     "shortName": "NICHIWA SANGYO CO",
     "longName": "Nichiwa Sangyo Co., Ltd.",
+    "corporateActions": [],
+    "regularMarketTime": 1786084200,
     "exchange": "JPX",
     "messageBoardId": "finmb_5886017",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1186,7 +1185,6 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "epsTrailingTwelveMonths": 20.91,
     "fiftyDayAverageChange": 17.920013,
     "fiftyDayAverageChangePercent": 0.054787863,
     "twoHundredDayAverageChange": -6.4450073,
@@ -1195,6 +1193,7 @@
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
     "hasPrePostMarketData": false,
+    "marketState": "PREPRE",
     "firstTradeDateMilliseconds": 954806400000,
     "regularMarketChange": 3.0,
     "regularMarketDayRange": "341.0 - 346.0",
@@ -1209,6 +1208,7 @@
     "earningsTimestampStart": 1747031400,
     "earningsTimestampEnd": 1747031400,
     "isEarningsDateEstimate": false,
+    "epsTrailingTwelveMonths": 20.91,
     "trailingPegRatio": null
   }
 }

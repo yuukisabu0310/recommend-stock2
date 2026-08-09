@@ -1,7 +1,7 @@
 {
   "ticker": "2437",
   "japanese_ticker": "2437.T",
-  "fetch_date": "2026-08-08T23:28:38.026171",
+  "fetch_date": "2026-08-09T23:31:15.549093",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-05-31 00:00:00": -3037647.220409,
@@ -107,7 +107,7 @@
     },
     "Diluted Average Shares": {
       "2025-05-31 00:00:00": 10747408.0,
-      "2024-05-31 00:00:00": 10223695.0,
+      "2024-05-31 00:00:00": 10223768.0,
       "2023-05-31 00:00:00": 10665455.0,
       "2022-05-31 00:00:00": 9015980.0
     },
@@ -985,8 +985,8 @@
     "averageVolume": 98081,
     "averageVolume10days": 98240,
     "averageDailyVolume10Day": 98240,
-    "bid": 669.0,
-    "ask": 677.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 7426009088,
@@ -1053,11 +1053,6 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "shortName": "SHINWA WISE HLDGS CO LTD",
-    "longName": "Shinwa Wise Holdings Co.,Ltd.",
-    "marketState": "CLOSED",
-    "corporateActions": [],
-    "regularMarketTime": 1786084200,
     "exchange": "JPX",
     "messageBoardId": "finmb_21823395",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1065,9 +1060,6 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "regularMarketChangePercent": 3.058104,
-    "regularMarketPrice": 674.0,
-    "epsTrailingTwelveMonths": -21.5,
     "fiftyDayAverageChange": 129.15997,
     "fiftyDayAverageChangePercent": 0.23706035,
     "twoHundredDayAverageChange": 182.785,
@@ -1075,6 +1067,13 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
+    "shortName": "SHINWA WISE HLDGS CO LTD",
+    "longName": "Shinwa Wise Holdings Co.,Ltd.",
+    "regularMarketChangePercent": 3.058104,
+    "regularMarketPrice": 674.0,
+    "corporateActions": [],
+    "regularMarketTime": 1786084200,
+    "marketState": "PREPRE",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1112659200000,
     "regularMarketChange": 20.0,
@@ -1090,6 +1089,7 @@
     "earningsTimestampStart": 1744093800,
     "earningsTimestampEnd": 1744093800,
     "isEarningsDateEstimate": false,
+    "epsTrailingTwelveMonths": -21.5,
     "trailingPegRatio": null
   }
 }

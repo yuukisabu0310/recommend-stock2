@@ -1,7 +1,7 @@
 {
   "ticker": "2747",
   "japanese_ticker": "2747.T",
-  "fetch_date": "2026-08-08T23:31:22.938998",
+  "fetch_date": "2026-08-09T23:34:00.101570",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-02-28 00:00:00": -19124360.0,
@@ -364,10 +364,10 @@
   "balance_sheet": {
     "Treasury Shares Number": {
       "2026-02-28 00:00:00": 725.0,
-      "2025-02-28 00:00:00": null,
+      "2025-02-28 00:00:00": 725.0,
       "2024-02-29 00:00:00": 725.0,
       "2023-02-28 00:00:00": 725.0,
-      "2022-02-28 00:00:00": 688.0
+      "2022-02-28 00:00:00": null
     },
     "Ordinary Shares Number": {
       "2026-02-28 00:00:00": 1263915.0,
@@ -1256,8 +1256,8 @@
     "averageVolume": 517,
     "averageVolume10days": 630,
     "averageDailyVolume10Day": 630,
-    "bid": 3150.0,
-    "ask": 3180.0,
+    "bid": 0.0,
+    "ask": 3185.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 4025569280,
@@ -1326,18 +1326,8 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "shortName": "HOKUYU LUCKY CO.LTD.",
-    "longName": "Hokuyu Lucky Co.,Ltd.",
-    "marketState": "CLOSED",
-    "regularMarketChangePercent": 0.0,
-    "regularMarketPrice": 3185.0,
-    "exchange": "JPX",
-    "messageBoardId": "finmb_5522415",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
+    "corporateActions": [],
+    "regularMarketTime": 1786074257,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1033689600000,
     "regularMarketChange": 0.0,
@@ -1355,14 +1345,24 @@
     "isEarningsDateEstimate": true,
     "epsTrailingTwelveMonths": 85.68,
     "fiftyDayAverageChange": 110.21997,
+    "shortName": "HOKUYU LUCKY CO.LTD.",
+    "longName": "Hokuyu Lucky Co.,Ltd.",
     "fiftyDayAverageChangePercent": 0.035846457,
     "twoHundredDayAverageChange": 53.225098,
     "twoHundredDayAverageChangePercent": 0.016995186,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
-    "corporateActions": [],
-    "regularMarketTime": 1786074257,
+    "regularMarketChangePercent": 0.0,
+    "regularMarketPrice": 3185.0,
+    "exchange": "JPX",
+    "messageBoardId": "finmb_5522415",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
+    "marketState": "PREPRE",
     "trailingPegRatio": null
   }
 }

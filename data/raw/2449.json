@@ -1,7 +1,7 @@
 {
   "ticker": "2449",
   "japanese_ticker": "2449.T",
-  "fetch_date": "2026-08-08T23:28:45.296700",
+  "fetch_date": "2026-08-09T23:31:23.349968",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-08-31 00:00:00": 0.0,
@@ -343,10 +343,10 @@
   "balance_sheet": {
     "Treasury Shares Number": {
       "2025-08-31 00:00:00": 240078.0,
-      "2024-08-31 00:00:00": null,
+      "2024-08-31 00:00:00": 260528.0,
       "2023-08-31 00:00:00": 296628.0,
       "2022-08-31 00:00:00": 339028.0,
-      "2021-08-31 00:00:00": 718028.0
+      "2021-08-31 00:00:00": null
     },
     "Ordinary Shares Number": {
       "2025-08-31 00:00:00": 4438932.0,
@@ -357,7 +357,7 @@
     },
     "Share Issued": {
       "2025-08-31 00:00:00": 4679010.0,
-      "2024-08-31 00:00:00": 4382382.0,
+      "2024-08-31 00:00:00": 4679010.0,
       "2023-08-31 00:00:00": 4679010.0,
       "2022-08-31 00:00:00": 4679010.0,
       "2021-08-31 00:00:00": null
@@ -1165,8 +1165,8 @@
     "averageVolume": 4529,
     "averageVolume10days": 6400,
     "averageDailyVolume10Day": 6400,
-    "bid": 1080.0,
-    "ask": 1089.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 4815997440,
@@ -1230,6 +1230,16 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "marketState": "PREPRE",
+    "fiftyDayAverageChange": 23.23999,
+    "fiftyDayAverageChangePercent": 0.021970948,
+    "twoHundredDayAverageChange": -6.949951,
+    "twoHundredDayAverageChangePercent": -0.0063881166,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
+    "shortName": "PRAP JAPAN INC",
+    "longName": "PRAP Japan, Inc.",
     "corporateActions": [
       {
         "header": "Dividend",
@@ -1249,13 +1259,10 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "fiftyDayAverageChange": 23.23999,
-    "fiftyDayAverageChangePercent": 0.021970948,
-    "twoHundredDayAverageChange": -6.949951,
-    "twoHundredDayAverageChangePercent": -0.0063881166,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
+    "regularMarketChangePercent": 1.2172284,
+    "regularMarketPrice": 1081.0,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1120780800000,
     "regularMarketChange": 13.0,
     "regularMarketDayRange": "1061.0 - 1100.0",
     "fullExchangeName": "Tokyo",
@@ -1270,13 +1277,6 @@
     "earningsTimestampEnd": 1752474600,
     "isEarningsDateEstimate": true,
     "epsTrailingTwelveMonths": 106.05,
-    "shortName": "PRAP JAPAN INC",
-    "marketState": "CLOSED",
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1120780800000,
-    "regularMarketChangePercent": 1.2172284,
-    "regularMarketPrice": 1081.0,
-    "longName": "PRAP Japan, Inc.",
     "trailingPegRatio": null
   }
 }

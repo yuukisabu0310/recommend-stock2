@@ -1,7 +1,7 @@
 {
   "ticker": "1893",
   "japanese_ticker": "1893.T",
-  "fetch_date": "2026-08-08T23:22:41.871784",
+  "fetch_date": "2026-08-09T23:25:13.297876",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": -239629500.0,
@@ -1065,24 +1065,6 @@
       },
       {
         "maxAge": 1,
-        "name": "Kazuya  Ueda",
-        "age": 67,
-        "title": "Executive VP & Representative Director",
-        "yearBorn": 1958,
-        "exercisedValue": 0,
-        "unexercisedValue": 0
-      },
-      {
-        "maxAge": 1,
-        "name": "Mr. Tetsushi  Noguchi",
-        "age": 65,
-        "title": "Executive Vice President & Director",
-        "yearBorn": 1960,
-        "exercisedValue": 0,
-        "unexercisedValue": 0
-      },
-      {
-        "maxAge": 1,
         "name": "Mr. Kazushi  Yamashita",
         "title": "Senior Managing Executive Officer & Head of International Affairs",
         "exercisedValue": 0,
@@ -1097,15 +1079,6 @@
       },
       {
         "maxAge": 1,
-        "name": "Hiroshi  Watanabe",
-        "age": 65,
-        "title": "Senior Managing Executive Officer, Head of Construction Sales Division & Director",
-        "yearBorn": 1960,
-        "exercisedValue": 0,
-        "unexercisedValue": 0
-      },
-      {
-        "maxAge": 1,
         "name": "Takeshi  Sasaki",
         "title": "Managing Executive Officer & Executive of Building Construction Business Unit",
         "exercisedValue": 0,
@@ -1113,24 +1086,43 @@
       },
       {
         "maxAge": 1,
-        "name": "Yoshito  Otsu",
+        "name": "Kazuhiko  Yamaguchi",
         "title": "Managing Executive Officer",
         "exercisedValue": 0,
         "unexercisedValue": 0
       },
       {
         "maxAge": 1,
-        "name": "Toshitomo  Nakamura",
-        "title": "Senior Managing Executive Officer",
+        "name": "Hiroto  Baba",
+        "title": "Managing Executive Officer",
         "exercisedValue": 0,
         "unexercisedValue": 0
       },
       {
         "maxAge": 1,
-        "name": "Tomoyuki  Yamashita",
-        "age": 63,
-        "title": "Executive VP, Head of Business Management Division & Director",
-        "yearBorn": 1962,
+        "name": "Mr. Satoshi  Taguchi",
+        "title": "Managing Executive Officer",
+        "exercisedValue": 0,
+        "unexercisedValue": 0
+      },
+      {
+        "maxAge": 1,
+        "name": "Mr. Hidetsugu  Matsumoto",
+        "title": "GM and Head of Design & Engineering Division - International Civil Engineering Divisions Group",
+        "exercisedValue": 0,
+        "unexercisedValue": 0
+      },
+      {
+        "maxAge": 1,
+        "name": "Mr. Shigeaki  Ihara",
+        "title": "Managing Executive Officer",
+        "exercisedValue": 0,
+        "unexercisedValue": 0
+      },
+      {
+        "maxAge": 1,
+        "name": "Mr. Masahito  Tsuru",
+        "title": "Managing Executive Officer",
         "exercisedValue": 0,
         "unexercisedValue": 0
       }
@@ -1164,8 +1156,8 @@
     "averageVolume": 2112351,
     "averageVolume10days": 2004320,
     "averageDailyVolume10Day": 2004320,
-    "bid": 1499.5,
-    "ask": 1503.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 405359296512,
@@ -1212,7 +1204,8 @@
     "targetLowPrice": 1400.0,
     "targetMeanPrice": 2108.3333,
     "targetMedianPrice": 2125.0,
-    "recommendationKey": "none",
+    "recommendationMean": 1.5,
+    "recommendationKey": "strong_buy",
     "numberOfAnalystOpinions": 6,
     "totalCash": 49592000512,
     "totalCashPerShare": 182.283,
@@ -1239,18 +1232,6 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "shortName": "PENTA OCEAN CONSTRUCTION",
-    "longName": "Penta-Ocean Construction Co., Ltd.",
-    "corporateActions": [],
-    "regularMarketTime": 1786084200,
-    "fiftyDayAverageChangePercent": -0.08635038,
-    "twoHundredDayAverageChange": -200.63745,
-    "twoHundredDayAverageChangePercent": -0.11801249,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 978307200000,
     "regularMarketChange": -50.0,
     "regularMarketDayRange": "1497.0 - 1553.5",
     "fullExchangeName": "Tokyo",
@@ -1270,8 +1251,12 @@
     "epsTrailingTwelveMonths": 125.51,
     "epsForward": 69.37,
     "fiftyDayAverageChange": -141.71997,
-    "regularMarketChangePercent": -3.2268472,
-    "regularMarketPrice": 1499.5,
+    "fiftyDayAverageChangePercent": -0.08635038,
+    "twoHundredDayAverageChange": -200.63745,
+    "twoHundredDayAverageChangePercent": -0.11801249,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "averageAnalystRating": "1.5 - Strong Buy",
     "exchange": "JPX",
     "messageBoardId": "finmb_874556",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1279,7 +1264,16 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "marketState": "CLOSED",
+    "regularMarketChangePercent": -3.2268472,
+    "regularMarketPrice": 1499.5,
+    "marketState": "PREPRE",
+    "cryptoTradeable": false,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 978307200000,
+    "shortName": "PENTA OCEAN CONSTRUCTION",
+    "longName": "Penta-Ocean Construction Co., Ltd.",
+    "corporateActions": [],
+    "regularMarketTime": 1786084200,
     "trailingPegRatio": null
   }
 }

@@ -1,7 +1,7 @@
 {
   "ticker": "2379",
   "japanese_ticker": "2379.T",
-  "fetch_date": "2026-08-08T23:27:54.828668",
+  "fetch_date": "2026-08-09T23:30:32.118641",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-02-28 00:00:00": 32300280.0,
@@ -958,8 +958,8 @@
     "averageVolume": 309842,
     "averageVolume10days": 355000,
     "averageDailyVolume10Day": 355000,
-    "bid": 1833.0,
-    "ask": 1836.0,
+    "bid": 0.0,
+    "ask": 1839.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 96071294976,
@@ -977,7 +977,7 @@
     "tradeable": false,
     "enterpriseValue": 79950086144,
     "profitMargins": 0.08118,
-    "floatShares": 31348570,
+    "floatShares": 31505935,
     "sharesOutstanding": 52354930,
     "heldPercentInsiders": 0.33821,
     "heldPercentInstitutions": 0.28054002,
@@ -1034,15 +1034,44 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "exchange": "JPX",
+    "messageBoardId": "finmb_1570575",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
+    "fiftyDayAverageChange": 37.579956,
+    "fiftyDayAverageChangePercent": 0.02090772,
+    "twoHundredDayAverageChange": -141.07495,
+    "twoHundredDayAverageChangePercent": -0.0713915,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "averageAnalystRating": "3.3 - Hold",
+    "cryptoTradeable": false,
+    "shortName": "DIP CORPORATION",
+    "longName": "DIP Corporation",
+    "regularMarketChangePercent": 0.76880836,
+    "regularMarketPrice": 1835.0,
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "2379.T announced a cash dividend of JPY 48.00 with an ex-date of Aug. 28, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1787842800000,
+          "amount": "48.00"
+        }
+      }
+    ],
+    "regularMarketTime": 1786084200,
+    "marketState": "PREPRE",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1085616000000,
     "regularMarketChange": 14.0,
     "regularMarketDayRange": "1810.0 - 1851.0",
     "fullExchangeName": "Tokyo",
     "averageDailyVolume3Month": 309842,
-    "longName": "DIP Corporation",
-    "cryptoTradeable": false,
-    "regularMarketTime": 1786084200,
     "fiftyTwoWeekLowChange": 149.0,
     "fiftyTwoWeekLowChangePercent": 0.08837485,
     "fiftyTwoWeekRange": "1686.0 - 2509.0",
@@ -1057,35 +1086,6 @@
     "isEarningsDateEstimate": true,
     "epsTrailingTwelveMonths": 113.77,
     "epsForward": 199.67,
-    "fiftyDayAverageChange": 37.579956,
-    "fiftyDayAverageChangePercent": 0.02090772,
-    "twoHundredDayAverageChange": -141.07495,
-    "twoHundredDayAverageChangePercent": -0.0713915,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "averageAnalystRating": "3.3 - Hold",
-    "corporateActions": [
-      {
-        "header": "Dividend",
-        "message": "2379.T announced a cash dividend of JPY 48.00 with an ex-date of Aug. 28, 2026",
-        "meta": {
-          "eventType": "DIVIDEND",
-          "dateEpochMs": 1787842800000,
-          "amount": "48.00"
-        }
-      }
-    ],
-    "exchange": "JPX",
-    "messageBoardId": "finmb_1570575",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
-    "marketState": "CLOSED",
-    "regularMarketChangePercent": 0.76880836,
-    "regularMarketPrice": 1835.0,
-    "shortName": "DIP CORPORATION",
     "trailingPegRatio": null
   }
 }

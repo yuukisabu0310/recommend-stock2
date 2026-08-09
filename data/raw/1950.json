@@ -1,7 +1,7 @@
 {
   "ticker": "1950",
   "japanese_ticker": "1950.T",
-  "fetch_date": "2026-08-08T23:23:27.922221",
+  "fetch_date": "2026-08-09T23:26:00.960695",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": 550022890.053902,
@@ -1047,8 +1047,8 @@
     "averageVolume": 121720,
     "averageVolume10days": 164130,
     "averageDailyVolume10Day": 164130,
-    "bid": 3850.0,
-    "ask": 3895.0,
+    "bid": 0.0,
+    "ask": 3855.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 225024458752,
@@ -1066,7 +1066,7 @@
     "tradeable": false,
     "enterpriseValue": 206839463936,
     "profitMargins": 0.08084,
-    "floatShares": 26489845,
+    "floatShares": 26616512,
     "sharesOutstanding": 58372105,
     "heldPercentInsiders": 0.42282,
     "heldPercentInstitutions": 0.20608999,
@@ -1129,7 +1129,9 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "marketState": "CLOSED",
+    "regularMarketChangePercent": -2.281369,
+    "regularMarketPrice": 3855.0,
+    "marketState": "PREPRE",
     "regularMarketChange": -90.0,
     "regularMarketDayRange": "3845.0 - 3945.0",
     "fullExchangeName": "Tokyo",
@@ -1155,12 +1157,10 @@
     "exchangeDataDelayedBy": 20,
     "averageAnalystRating": "1.0 - Strong Buy",
     "cryptoTradeable": false,
-    "regularMarketChangePercent": -2.281369,
-    "regularMarketPrice": 3855.0,
-    "shortName": "NIPPON DENSETSU KOGYO CO",
-    "longName": "Nippon Densetsu Kogyo Co., Ltd.",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 978307200000,
+    "shortName": "NIPPON DENSETSU KOGYO CO",
+    "longName": "Nippon Densetsu Kogyo Co., Ltd.",
     "trailingPegRatio": null
   }
 }

@@ -1,7 +1,7 @@
 {
   "ticker": "1850",
   "japanese_ticker": "1850.T",
-  "fetch_date": "2026-08-08T23:22:11.893434",
+  "fetch_date": "2026-08-09T23:24:44.209491",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": 2403000.0,
@@ -114,7 +114,7 @@
     "Basic Average Shares": {
       "2026-03-31 00:00:00": 28825231.0,
       "2025-03-31 00:00:00": 28827648.0,
-      "2024-03-31 00:00:00": 28827686.0,
+      "2024-03-31 00:00:00": 28818444.0,
       "2023-03-31 00:00:00": 28827748.0
     },
     "Diluted EPS": {
@@ -1085,8 +1085,8 @@
     "averageVolume": 59445,
     "averageVolume10days": 106790,
     "averageDailyVolume10Day": 106790,
-    "bid": 412.0,
-    "ask": 414.0,
+    "bid": 0.0,
+    "ask": 425.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 11547346944,
@@ -1153,10 +1153,11 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "shortName": "NANKAI TATSUMURA CONSTRUCTION C",
     "longName": "Nankai Tatsumura Construction Co., Ltd.",
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 954806400000,
+    "regularMarketChangePercent": -0.48309177,
+    "regularMarketPrice": 412.0,
+    "marketState": "PREPRE",
+    "shortName": "NANKAI TATSUMURA CONSTRUCTION C",
     "regularMarketChange": -2.0,
     "regularMarketDayRange": "412.0 - 418.0",
     "fullExchangeName": "Tokyo",
@@ -1170,9 +1171,6 @@
     "earningsTimestampStart": 1745823600,
     "earningsTimestampEnd": 1745823600,
     "isEarningsDateEstimate": false,
-    "marketState": "CLOSED",
-    "regularMarketChangePercent": -0.48309177,
-    "regularMarketPrice": 412.0,
     "epsTrailingTwelveMonths": 72.59,
     "fiftyDayAverageChange": -4.9400024,
     "fiftyDayAverageChangePercent": -0.011848234,
@@ -1180,6 +1178,8 @@
     "twoHundredDayAverageChangePercent": -0.18473154,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 954806400000,
     "cryptoTradeable": false,
     "corporateActions": [],
     "regularMarketTime": 1786084200,

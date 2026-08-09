@@ -1,7 +1,7 @@
 {
   "ticker": "2388",
   "japanese_ticker": "2388.T",
-  "fetch_date": "2026-08-08T23:28:01.020154",
+  "fetch_date": "2026-08-09T23:30:37.666235",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-09-30 00:00:00": 27208960.0,
@@ -329,7 +329,7 @@
     },
     "Share Issued": {
       "2025-09-30 00:00:00": 42494478.0,
-      "2024-09-30 00:00:00": 42455078.0,
+      "2024-09-30 00:00:00": 42494478.0,
       "2023-09-30 00:00:00": 42494478.0,
       "2022-09-30 00:00:00": 35794478.0,
       "2021-09-30 00:00:00": null
@@ -1075,7 +1075,7 @@
     "averageVolume10days": 99580,
     "averageDailyVolume10Day": 99580,
     "bid": 0.0,
-    "ask": 37.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 1570838016,
@@ -1147,9 +1147,7 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "marketState": "CLOSED",
-    "shortName": "WEDGE HOLDINGS CO",
-    "longName": "Wedge Holdings CO.,LTD.",
+    "marketState": "PREPRE",
     "regularMarketChange": 1.0,
     "regularMarketDayRange": "36.0 - 37.0",
     "fullExchangeName": "Tokyo",
@@ -1168,15 +1166,17 @@
     "fiftyDayAverageChangePercent": -0.057084646,
     "twoHundredDayAverageChange": -18.585,
     "twoHundredDayAverageChangePercent": -0.3343528,
-    "regularMarketChangePercent": 2.777778,
-    "regularMarketPrice": 37.0,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1075334400000,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "prevName": "Wedge Holdings CO., LTD.",
-    "nameChangeDate": "2026-08-08",
+    "nameChangeDate": "2026-08-09",
     "cryptoTradeable": false,
+    "regularMarketChangePercent": 2.777778,
+    "regularMarketPrice": 37.0,
+    "shortName": "WEDGE HOLDINGS CO",
+    "longName": "Wedge Holdings CO.,LTD.",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1075334400000,
     "trailingPegRatio": null
   }
 }

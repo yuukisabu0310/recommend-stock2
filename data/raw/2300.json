@@ -1,7 +1,7 @@
 {
   "ticker": "2300",
   "japanese_ticker": "2300.T",
-  "fetch_date": "2026-08-08T23:26:43.350132",
+  "fetch_date": "2026-08-09T23:29:19.793119",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-02-28 00:00:00": -2586800.0,
@@ -1328,8 +1328,8 @@
     "averageVolume": 2864,
     "averageVolume10days": 1430,
     "averageDailyVolume10Day": 1430,
-    "bid": 500.0,
-    "ask": 501.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "marketCap": 2635773952,
     "nonDilutedMarketCap": 2635758996,
     "fiftyTwoWeekLow": 483.0,
@@ -1394,6 +1394,7 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "marketState": "PREPRE",
     "corporateActions": [
       {
         "header": "Dividend",
@@ -1413,13 +1414,8 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "fiftyDayAverageChange": 2.880005,
-    "fiftyDayAverageChangePercent": 0.0057817493,
-    "twoHundredDayAverageChange": -7.5400085,
-    "twoHundredDayAverageChangePercent": -0.0148267755,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1019692800000,
     "regularMarketChange": -1.0,
     "regularMarketDayRange": "500.0 - 501.0",
     "fullExchangeName": "Tokyo",
@@ -1434,13 +1430,17 @@
     "earningsTimestampEnd": 1744693200,
     "isEarningsDateEstimate": false,
     "epsTrailingTwelveMonths": 10.22,
+    "fiftyDayAverageChange": 2.880005,
+    "fiftyDayAverageChangePercent": 0.0057817493,
+    "twoHundredDayAverageChange": -7.5400085,
+    "twoHundredDayAverageChangePercent": -0.0148267755,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
     "shortName": "KYOKUTO CO LTD",
-    "marketState": "CLOSED",
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1019692800000,
+    "longName": "Kyokuto Co., Ltd.",
+    "cryptoTradeable": false,
     "regularMarketChangePercent": -0.1992032,
     "regularMarketPrice": 501.0,
-    "longName": "Kyokuto Co., Ltd.",
     "trailingPegRatio": null
   }
 }

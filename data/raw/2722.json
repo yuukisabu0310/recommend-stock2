@@ -1,7 +1,7 @@
 {
   "ticker": "2722",
   "japanese_ticker": "2722.T",
-  "fetch_date": "2026-08-08T23:31:03.774770",
+  "fetch_date": "2026-08-09T23:33:41.568411",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-05-31 00:00:00": 33684144.0,
@@ -1028,8 +1028,8 @@
     "averageVolume": 12535,
     "averageVolume10days": 4170,
     "averageDailyVolume10Day": 4170,
-    "bid": 357.0,
-    "ask": 358.0,
+    "bid": 0.0,
+    "ask": 359.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 2707201024,
@@ -1106,10 +1106,7 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "regularMarketChangePercent": 0.28011206,
-    "regularMarketPrice": 358.0,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1007424000000,
+    "marketState": "PREPRE",
     "regularMarketChange": 1.0,
     "regularMarketDayRange": "357.0 - 358.0",
     "fullExchangeName": "Tokyo",
@@ -1123,8 +1120,6 @@
     "earningsTimestampStart": 1752127200,
     "earningsTimestampEnd": 1752472800,
     "isEarningsDateEstimate": true,
-    "shortName": "IK HOLDINGS CO LTD",
-    "longName": "IK HOLDINGS Co.,Ltd.",
     "epsTrailingTwelveMonths": 28.35,
     "epsForward": 45.7,
     "fiftyDayAverageChange": 1.0400085,
@@ -1134,9 +1129,14 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "prevName": "I.K Co.,Ltd.",
-    "nameChangeDate": "2026-08-08",
+    "nameChangeDate": "2026-08-09",
     "cryptoTradeable": false,
-    "marketState": "CLOSED",
+    "regularMarketChangePercent": 0.28011206,
+    "regularMarketPrice": 358.0,
+    "shortName": "IK HOLDINGS CO LTD",
+    "longName": "IK HOLDINGS Co.,Ltd.",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1007424000000,
     "trailingPegRatio": null
   }
 }

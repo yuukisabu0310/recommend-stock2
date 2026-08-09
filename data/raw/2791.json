@@ -1,7 +1,7 @@
 {
   "ticker": "2791",
   "japanese_ticker": "2791.T",
-  "fetch_date": "2026-08-08T23:32:02.277320",
+  "fetch_date": "2026-08-09T23:34:38.120430",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-05-31 00:00:00": -6560000.0,
@@ -1055,8 +1055,8 @@
     "averageVolume": 78890,
     "averageVolume10days": 67250,
     "averageDailyVolume10Day": 67250,
-    "bid": 4400.0,
-    "ask": 4420.0,
+    "bid": 0.0,
+    "ask": 4455.0,
     "marketCap": 59144683520,
     "nonDilutedMarketCap": 59144684130,
     "fiftyTwoWeekLow": 3965.0,
@@ -1124,8 +1124,9 @@
     "customPriceAlertConfidence": "LOW",
     "shortName": "DAIKOKUTENBUSSAN CO",
     "longName": "Daikokutenbussan Co.,Ltd.",
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1148428800000,
+    "marketState": "PREPRE",
+    "regularMarketChangePercent": 2.4390242,
+    "regularMarketPrice": 4410.0,
     "regularMarketChange": 105.0,
     "regularMarketDayRange": "4290.0 - 4430.0",
     "fullExchangeName": "Tokyo",
@@ -1139,9 +1140,6 @@
     "earningsTimestampStart": 1752040800,
     "earningsTimestampEnd": 1752472800,
     "isEarningsDateEstimate": true,
-    "marketState": "CLOSED",
-    "regularMarketChangePercent": 2.4390242,
-    "regularMarketPrice": 4410.0,
     "epsTrailingTwelveMonths": 265.48,
     "epsForward": 688.46,
     "fiftyDayAverageChange": 46.100098,
@@ -1151,7 +1149,6 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
-    "corporateActions": [],
     "regularMarketTime": 1786084200,
     "exchange": "JPX",
     "messageBoardId": "finmb_5719971",
@@ -1160,6 +1157,9 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
+    "corporateActions": [],
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1148428800000,
     "trailingPegRatio": null
   }
 }

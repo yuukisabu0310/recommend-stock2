@@ -1,7 +1,7 @@
 {
   "ticker": "2654",
   "japanese_ticker": "2654.T",
-  "fetch_date": "2026-08-08T23:30:09.492383",
+  "fetch_date": "2026-08-09T23:32:48.472522",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": -429436.0,
@@ -1080,7 +1080,7 @@
     "averageVolume": 4379,
     "averageVolume10days": 5370,
     "averageDailyVolume10Day": 5370,
-    "bid": 407.0,
+    "bid": 414.0,
     "ask": 411.0,
     "bidSize": 0,
     "askSize": 0,
@@ -1148,7 +1148,10 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "corporateActions": [],
+    "regularMarketChangePercent": -0.4854369,
+    "regularMarketPrice": 410.0,
+    "shortName": "ASMO CORP",
+    "longName": "Asmo Corporation",
     "regularMarketTime": 1786084200,
     "exchange": "JPX",
     "messageBoardId": "finmb_6562692",
@@ -1157,9 +1160,8 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "marketState": "CLOSED",
-    "shortName": "ASMO CORP",
-    "longName": "Asmo Corporation",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 965692800000,
     "regularMarketChange": -2.0,
     "regularMarketDayRange": "407.0 - 411.0",
     "fullExchangeName": "Tokyo",
@@ -1178,13 +1180,11 @@
     "fiftyDayAverageChangePercent": 0.031083355,
     "twoHundredDayAverageChange": 15.029999,
     "twoHundredDayAverageChangePercent": 0.03805352,
-    "regularMarketChangePercent": -0.4854369,
-    "regularMarketPrice": 410.0,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 965692800000,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
+    "corporateActions": [],
     "cryptoTradeable": false,
+    "marketState": "PREPRE",
     "trailingPegRatio": null
   }
 }

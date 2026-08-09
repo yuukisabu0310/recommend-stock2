@@ -1,19 +1,19 @@
 {
   "ticker": "2491",
   "japanese_ticker": "2491.T",
-  "fetch_date": "2026-08-08T23:29:17.226663",
+  "fetch_date": "2026-08-09T23:31:55.856660",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-12-31 00:00:00": -77952000.0,
       "2024-12-31 00:00:00": 2446280.991736,
-      "2023-12-31 00:00:00": -63765125.96707,
+      "2023-12-31 00:00:00": -63700000.0,
       "2022-12-31 00:00:00": 19937252.073567,
       "2021-12-31 00:00:00": null
     },
     "Tax Rate For Calcs": {
       "2025-12-31 00:00:00": 0.232,
       "2024-12-31 00:00:00": 0.305785,
-      "2023-12-31 00:00:00": 0.325332,
+      "2023-12-31 00:00:00": 0.325,
       "2022-12-31 00:00:00": 0.30208,
       "2021-12-31 00:00:00": null
     },
@@ -76,7 +76,7 @@
     "Normalized Income": {
       "2025-12-31 00:00:00": 745048000.0,
       "2024-12-31 00:00:00": 2849446280.991736,
-      "2023-12-31 00:00:00": 3532234874.03293,
+      "2023-12-31 00:00:00": 3532300000.0,
       "2022-12-31 00:00:00": 5759937252.073567,
       "2021-12-31 00:00:00": null
     },
@@ -104,30 +104,30 @@
     "Diluted Average Shares": {
       "2025-12-31 00:00:00": 21625222.0,
       "2024-12-31 00:00:00": 25211939.0,
-      "2023-12-31 00:00:00": 32334760.0,
+      "2023-12-31 00:00:00": 32337760.0,
       "2022-12-31 00:00:00": 32341800.0,
       "2021-12-31 00:00:00": null
     },
     "Basic Average Shares": {
       "2025-12-31 00:00:00": 21625222.0,
       "2024-12-31 00:00:00": 25211939.0,
-      "2023-12-31 00:00:00": 32331685.0,
+      "2023-12-31 00:00:00": 32337760.0,
       "2022-12-31 00:00:00": 32329328.0,
       "2021-12-31 00:00:00": null
     },
     "Diluted EPS": {
       "2025-12-31 00:00:00": 22.52,
-      "2024-12-31 00:00:00": null,
+      "2024-12-31 00:00:00": 113.24,
       "2023-12-31 00:00:00": 105.15,
       "2022-12-31 00:00:00": 179.52,
-      "2021-12-31 00:00:00": 100.84
+      "2021-12-31 00:00:00": null
     },
     "Basic EPS": {
       "2025-12-31 00:00:00": 22.52,
-      "2024-12-31 00:00:00": null,
+      "2024-12-31 00:00:00": 113.24,
       "2023-12-31 00:00:00": 105.16,
       "2022-12-31 00:00:00": 179.6,
-      "2021-12-31 00:00:00": 100.92
+      "2021-12-31 00:00:00": null
     },
     "Diluted NI Availto Com Stockholders": {
       "2025-12-31 00:00:00": 487000000.0,
@@ -1062,8 +1062,8 @@
     "averageVolume": 229726,
     "averageVolume10days": 238420,
     "averageDailyVolume10Day": 238420,
-    "bid": 463.0,
-    "ask": 465.0,
+    "bid": 462.0,
+    "ask": 466.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 10057816064,
@@ -1132,17 +1132,16 @@
     "customPriceAlertConfidence": "LOW",
     "shortName": "VALUECOMMERCE CO.LTD.",
     "longName": "ValueCommerce Co., Ltd.",
-    "marketState": "CLOSED",
+    "marketState": "PREPRE",
     "regularMarketChangePercent": 1.5317286,
     "regularMarketPrice": 464.0,
-    "fiftyDayAverageChange": 1.7999878,
-    "fiftyDayAverageChangePercent": 0.0038943915,
-    "twoHundredDayAverageChange": -71.72998,
-    "twoHundredDayAverageChangePercent": -0.13389204,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
-    "corporateActions": [],
+    "exchange": "JPX",
+    "messageBoardId": "finmb_89806",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1154304000000,
     "regularMarketChange": 7.0,
@@ -1161,14 +1160,15 @@
     "isEarningsDateEstimate": true,
     "epsTrailingTwelveMonths": -85.7,
     "epsForward": 117.06,
+    "fiftyDayAverageChange": 1.7999878,
+    "fiftyDayAverageChangePercent": 0.0038943915,
+    "twoHundredDayAverageChange": -71.72998,
+    "twoHundredDayAverageChangePercent": -0.13389204,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
+    "corporateActions": [],
     "regularMarketTime": 1786084200,
-    "exchange": "JPX",
-    "messageBoardId": "finmb_89806",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
     "trailingPegRatio": null
   }
 }

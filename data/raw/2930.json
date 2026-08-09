@@ -1,7 +1,7 @@
 {
   "ticker": "2930",
   "japanese_ticker": "2930.T",
-  "fetch_date": "2026-08-08T23:33:35.382269",
+  "fetch_date": "2026-08-09T23:36:11.795935",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-02-28 00:00:00": 2292392.0,
@@ -1115,7 +1115,7 @@
     "averageVolume": 362275,
     "averageVolume10days": 230240,
     "averageDailyVolume10Day": 230240,
-    "bid": 118.0,
+    "bid": 0.0,
     "ask": 119.0,
     "bidSize": 0,
     "askSize": 0,
@@ -1181,38 +1181,11 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "fiftyDayAverageChange": -1.0400009,
-    "fiftyDayAverageChangePercent": -0.008663787,
-    "twoHundredDayAverageChange": -11.255005,
-    "twoHundredDayAverageChangePercent": -0.08640747,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
-    "marketState": "CLOSED",
+    "shortName": "KITANOTATSUJIN CORP",
     "longName": "Kitanotatsujin Corporation",
-    "exchange": "JPX",
-    "messageBoardId": "finmb_118895302",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
+    "marketState": "PREPRE",
     "regularMarketChangePercent": 0.84745765,
     "regularMarketPrice": 119.0,
-    "corporateActions": [
-      {
-        "header": "Dividend",
-        "message": "2930.T announced a cash dividend of JPY 1.70 with an ex-date of Aug. 28, 2026",
-        "meta": {
-          "eventType": "DIVIDEND",
-          "dateEpochMs": 1787842800000,
-          "amount": "1.70"
-        }
-      }
-    ],
-    "regularMarketTime": 1786084200,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1416528000000,
     "regularMarketChange": 1.0,
     "regularMarketDayRange": "117.0 - 119.0",
     "fullExchangeName": "Tokyo",
@@ -1229,7 +1202,34 @@
     "isEarningsDateEstimate": true,
     "epsTrailingTwelveMonths": 4.99,
     "epsForward": 8.7,
-    "shortName": "KITANOTATSUJIN CORP",
+    "fiftyDayAverageChange": -1.0400009,
+    "fiftyDayAverageChangePercent": -0.008663787,
+    "twoHundredDayAverageChange": -11.255005,
+    "twoHundredDayAverageChangePercent": -0.08640747,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
+    "regularMarketTime": 1786084200,
+    "exchange": "JPX",
+    "messageBoardId": "finmb_118895302",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "2930.T announced a cash dividend of JPY 1.70 with an ex-date of Aug. 28, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1787842800000,
+          "amount": "1.70"
+        }
+      }
+    ],
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1416528000000,
     "trailingPegRatio": null
   }
 }

@@ -1,7 +1,7 @@
 {
   "ticker": "2735",
   "japanese_ticker": "2735.T",
-  "fetch_date": "2026-08-08T23:31:13.385017",
+  "fetch_date": "2026-08-09T23:33:51.242213",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-08-31 00:00:00": -21690786.3,
@@ -108,13 +108,13 @@
     "Diluted Average Shares": {
       "2025-08-31 00:00:00": 13192091.0,
       "2024-08-31 00:00:00": 13208882.0,
-      "2023-08-31 00:00:00": 13574106.0,
+      "2023-08-31 00:00:00": 13570974.0,
       "2022-08-31 00:00:00": 13508204.0
     },
     "Basic Average Shares": {
       "2025-08-31 00:00:00": 13192091.0,
       "2024-08-31 00:00:00": 13208882.0,
-      "2023-08-31 00:00:00": 13574106.0,
+      "2023-08-31 00:00:00": 13570974.0,
       "2022-08-31 00:00:00": 13508204.0
     },
     "Diluted EPS": {
@@ -1087,8 +1087,8 @@
     "averageVolume": 28437,
     "averageVolume10days": 36280,
     "averageDailyVolume10Day": 36280,
-    "bid": 676.0,
-    "ask": 678.0,
+    "bid": 681.0,
+    "ask": 682.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 8986737664,
@@ -1156,28 +1156,11 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "marketState": "CLOSED",
-    "corporateActions": [
-      {
-        "header": "Dividend",
-        "message": "2735.T announced a cash dividend of JPY 12.50 with an ex-date of Aug. 28, 2026",
-        "meta": {
-          "eventType": "DIVIDEND",
-          "dateEpochMs": 1787842800000,
-          "amount": "12.50"
-        }
-      }
-    ],
-    "regularMarketTime": 1786084200,
-    "exchange": "JPX",
-    "messageBoardId": "finmb_5774282",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1022198400000,
+    "shortName": "WATTS CO LTD",
+    "longName": "Watts Co., Ltd.",
+    "marketState": "PREPRE",
+    "regularMarketChangePercent": 0.74404764,
+    "regularMarketPrice": 677.0,
     "regularMarketChange": 5.0,
     "regularMarketDayRange": "669.0 - 678.0",
     "fullExchangeName": "Tokyo",
@@ -1199,11 +1182,28 @@
     "twoHundredDayAverageChangePercent": 0.06651959,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
-    "shortName": "WATTS CO LTD",
-    "longName": "Watts Co., Ltd.",
     "cryptoTradeable": false,
-    "regularMarketChangePercent": 0.74404764,
-    "regularMarketPrice": 677.0,
+    "regularMarketTime": 1786084200,
+    "exchange": "JPX",
+    "messageBoardId": "finmb_5774282",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "2735.T announced a cash dividend of JPY 12.50 with an ex-date of Aug. 28, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1787842800000,
+          "amount": "12.50"
+        }
+      }
+    ],
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1022198400000,
     "trailingPegRatio": null
   }
 }

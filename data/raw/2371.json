@@ -1,7 +1,7 @@
 {
   "ticker": "2371",
   "japanese_ticker": "2371.T",
-  "fetch_date": "2026-08-08T23:27:43.661065",
+  "fetch_date": "2026-08-09T23:30:21.511066",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": -21114000.0,
@@ -287,10 +287,10 @@
   "balance_sheet": {
     "Treasury Shares Number": {
       "2026-03-31 00:00:00": 382033.0,
-      "2025-03-31 00:00:00": 486331.0,
+      "2025-03-31 00:00:00": null,
       "2024-03-31 00:00:00": 651327.0,
       "2023-03-31 00:00:00": 659087.0,
-      "2022-03-31 00:00:00": null
+      "2022-03-31 00:00:00": 675587.0
     },
     "Ordinary Shares Number": {
       "2026-03-31 00:00:00": 197836267.0,
@@ -1092,8 +1092,8 @@
     "averageVolume": 1058615,
     "averageVolume10days": 400530,
     "averageDailyVolume10Day": 400530,
-    "bid": 3710.0,
-    "ask": 3720.0,
+    "bid": 3695.0,
+    "ask": 3696.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 734170382336,
@@ -1111,7 +1111,7 @@
     "tradeable": false,
     "enterpriseValue": 694485254144,
     "profitMargins": 0.18889,
-    "floatShares": 82255715,
+    "floatShares": 82208234,
     "sharesOutstanding": 197836267,
     "heldPercentInsiders": 0.38386002,
     "heldPercentInstitutions": 0.44347998,
@@ -1170,11 +1170,13 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "shortName": "KAKAKU.COM. INC",
-    "longName": "Kakaku.com, Inc.",
-    "marketState": "CLOSED",
-    "regularMarketChangePercent": 0.0,
-    "regularMarketPrice": 3711.0,
+    "exchange": "JPX",
+    "messageBoardId": "finmb_20346352",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
     "fiftyDayAverageChange": 215.5,
     "fiftyDayAverageChangePercent": 0.061650693,
     "twoHundredDayAverageChange": 1099.73,
@@ -1183,7 +1185,13 @@
     "exchangeDataDelayedBy": 20,
     "averageAnalystRating": "2.4 - Buy",
     "cryptoTradeable": false,
+    "shortName": "KAKAKU.COM. INC",
+    "longName": "Kakaku.com, Inc.",
+    "regularMarketChangePercent": 0.0,
+    "regularMarketPrice": 3711.0,
     "corporateActions": [],
+    "regularMarketTime": 1786084200,
+    "marketState": "PREPRE",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1127952000000,
     "regularMarketChange": 0.0,
@@ -1204,14 +1212,6 @@
     "isEarningsDateEstimate": true,
     "epsTrailingTwelveMonths": 95.0,
     "epsForward": 124.06,
-    "regularMarketTime": 1786084200,
-    "exchange": "JPX",
-    "messageBoardId": "finmb_20346352",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
     "trailingPegRatio": null
   }
 }

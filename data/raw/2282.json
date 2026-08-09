@@ -1,7 +1,7 @@
 {
   "ticker": "2282",
   "japanese_ticker": "2282.T",
-  "fetch_date": "2026-08-08T23:26:27.442606",
+  "fetch_date": "2026-08-09T23:29:04.655383",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": 0.0,
@@ -13,9 +13,9 @@
     "Tax Rate For Calcs": {
       "2026-03-31 00:00:00": 0.323,
       "2025-03-31 00:00:00": 0.252567,
-      "2024-03-31 00:00:00": null,
-      "2023-03-31 00:00:00": null,
-      "2022-03-31 00:00:00": 0.25
+      "2024-03-31 00:00:00": 0.277,
+      "2023-03-31 00:00:00": 0.215,
+      "2022-03-31 00:00:00": null
     },
     "Normalized EBITDA": {
       "2026-03-31 00:00:00": 103924000000.0,
@@ -1061,8 +1061,8 @@
     "averageVolume": 613775,
     "averageVolume10days": 846220,
     "averageDailyVolume10Day": 846220,
-    "bid": 6110.0,
-    "ask": 6115.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 573953671168,
@@ -1138,7 +1138,10 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "corporateActions": [],
+    "regularMarketChangePercent": 1.8672891,
+    "regularMarketPrice": 6110.0,
+    "shortName": "NH FOODS LTD",
+    "longName": "NH Foods Ltd.",
     "regularMarketTime": 1786084200,
     "exchange": "JPX",
     "messageBoardId": "finmb_874379",
@@ -1147,6 +1150,8 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 946944000000,
     "regularMarketChange": 112.0,
     "regularMarketDayRange": "6014.0 - 6128.0",
     "fullExchangeName": "Tokyo",
@@ -1171,15 +1176,10 @@
     "twoHundredDayAverageChangePercent": -0.067493744,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
+    "corporateActions": [],
     "averageAnalystRating": "2.8 - Hold",
     "cryptoTradeable": false,
-    "shortName": "NH FOODS LTD",
-    "longName": "NH Foods Ltd.",
-    "marketState": "CLOSED",
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 946944000000,
-    "regularMarketChangePercent": 1.8672891,
-    "regularMarketPrice": 6110.0,
+    "marketState": "PREPRE",
     "trailingPegRatio": null
   }
 }

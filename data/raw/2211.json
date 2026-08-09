@@ -1,7 +1,7 @@
 {
   "ticker": "2211",
   "japanese_ticker": "2211.T",
-  "fetch_date": "2026-08-08T23:25:54.243018",
+  "fetch_date": "2026-08-09T23:28:29.954406",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-12-31 00:00:00": -56683240.713659,
@@ -123,28 +123,28 @@
       "2021-12-31 00:00:00": null
     },
     "Diluted Average Shares": {
-      "2025-12-31 00:00:00": 39307141.0,
+      "2025-12-31 00:00:00": 25775000.0,
       "2024-12-31 00:00:00": 25775000.0,
       "2023-12-31 00:00:00": 25775957.0,
       "2022-12-31 00:00:00": 25776110.0,
       "2021-12-31 00:00:00": null
     },
     "Basic Average Shares": {
-      "2025-12-31 00:00:00": 39307141.0,
+      "2025-12-31 00:00:00": 25775000.0,
       "2024-12-31 00:00:00": 25775000.0,
       "2023-12-31 00:00:00": 25775957.0,
       "2022-12-31 00:00:00": 25776110.0,
       "2021-12-31 00:00:00": null
     },
     "Diluted EPS": {
-      "2025-12-31 00:00:00": 51.67,
+      "2025-12-31 00:00:00": 78.82,
       "2024-12-31 00:00:00": 64.9,
       "2023-12-31 00:00:00": 37.62,
       "2022-12-31 00:00:00": 130.99,
       "2021-12-31 00:00:00": null
     },
     "Basic EPS": {
-      "2025-12-31 00:00:00": 51.67,
+      "2025-12-31 00:00:00": 78.82,
       "2024-12-31 00:00:00": 64.9,
       "2023-12-31 00:00:00": 37.62,
       "2022-12-31 00:00:00": 130.99,
@@ -1197,8 +1197,8 @@
     "averageVolume": 36229,
     "averageVolume10days": 40540,
     "averageDailyVolume10Day": 40540,
-    "bid": 2401.0,
-    "ask": 2414.0,
+    "bid": 2440.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 61887229952,
@@ -1216,7 +1216,7 @@
     "tradeable": false,
     "enterpriseValue": 71696982016,
     "profitMargins": 0.0091699995,
-    "floatShares": 10065076,
+    "floatShares": 9967129,
     "sharesOutstanding": 25775606,
     "heldPercentInsiders": 0.6149,
     "heldPercentInstitutions": 0.06058,
@@ -1266,9 +1266,11 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "marketState": "CLOSED",
-    "corporateActions": [],
-    "regularMarketTime": 1786084200,
+    "shortName": "FUJIYA CO LTD",
+    "longName": "Fujiya Co., Ltd.",
+    "marketState": "PREPRE",
+    "regularMarketChangePercent": 0.882353,
+    "regularMarketPrice": 2401.0,
     "exchange": "JPX",
     "messageBoardId": "finmb_876061",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1299,11 +1301,9 @@
     "twoHundredDayAverageChangePercent": -0.033026468,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
-    "shortName": "FUJIYA CO LTD",
-    "longName": "Fujiya Co., Ltd.",
     "cryptoTradeable": false,
-    "regularMarketChangePercent": 0.882353,
-    "regularMarketPrice": 2401.0,
+    "corporateActions": [],
+    "regularMarketTime": 1786084200,
     "trailingPegRatio": null
   }
 }

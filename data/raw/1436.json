@@ -1,7 +1,7 @@
 {
   "ticker": "1436",
   "japanese_ticker": "1436.T",
-  "fetch_date": "2026-08-08T23:20:12.028865",
+  "fetch_date": "2026-08-09T23:22:48.267008",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-04-30 00:00:00": -71464460.8,
@@ -1227,8 +1227,8 @@
     "averageVolume": 151170,
     "averageVolume10days": 64140,
     "averageDailyVolume10Day": 64140,
-    "bid": 1484.0,
-    "ask": 1495.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 18378395648,
@@ -1297,11 +1297,11 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "shortName": "GREENENERGY & CO INC",
     "longName": "GreenEnergy & Company Inc.",
+    "marketState": "PREPRE",
     "regularMarketChangePercent": -2.108037,
     "regularMarketPrice": 1486.0,
-    "marketState": "CLOSED",
-    "shortName": "GREENENERGY & CO INC",
     "regularMarketChange": -32.0,
     "regularMarketDayRange": "1463.0 - 1628.0",
     "fullExchangeName": "Tokyo",
@@ -1323,11 +1323,8 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "prevName": "Fit Corporation",
-    "nameChangeDate": "2026-08-08",
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1457913600000,
+    "nameChangeDate": "2026-08-09",
     "cryptoTradeable": false,
-    "corporateActions": [],
     "regularMarketTime": 1786084200,
     "exchange": "JPX",
     "messageBoardId": "finmb_224161253",
@@ -1336,6 +1333,9 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
+    "corporateActions": [],
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1457913600000,
     "trailingPegRatio": null
   }
 }

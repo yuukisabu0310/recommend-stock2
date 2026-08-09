@@ -1,7 +1,7 @@
 {
   "ticker": "2208",
   "japanese_ticker": "2208.T",
-  "fetch_date": "2026-08-08T23:25:50.761707",
+  "fetch_date": "2026-08-09T23:28:25.701359",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": -11352000.0,
@@ -1172,8 +1172,8 @@
     "averageVolume": 6523,
     "averageVolume10days": 5180,
     "averageDailyVolume10Day": 5180,
-    "bid": 3135.0,
-    "ask": 3150.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 76140126208,
@@ -1241,6 +1241,8 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "corporateActions": [],
+    "regularMarketTime": 1786084200,
     "exchange": "JPX",
     "messageBoardId": "finmb_5490101",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1255,15 +1257,6 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
-    "shortName": "BOURBON CORP",
-    "longName": "Bourbon Corporation",
-    "regularMarketChangePercent": 1.7770598,
-    "regularMarketPrice": 3150.0,
-    "corporateActions": [],
-    "regularMarketTime": 1786084200,
-    "marketState": "CLOSED",
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 978652800000,
     "regularMarketChange": 55.0,
     "regularMarketDayRange": "3110.0 - 3155.0",
     "fullExchangeName": "Tokyo",
@@ -1279,6 +1272,13 @@
     "isEarningsDateEstimate": true,
     "epsTrailingTwelveMonths": 244.76,
     "epsForward": 131.0,
+    "shortName": "BOURBON CORP",
+    "marketState": "PREPRE",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 978652800000,
+    "regularMarketChangePercent": 1.7770598,
+    "regularMarketPrice": 3150.0,
+    "longName": "Bourbon Corporation",
     "trailingPegRatio": null
   }
 }

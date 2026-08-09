@@ -1,7 +1,7 @@
 {
   "ticker": "3030",
   "japanese_ticker": "3030.T",
-  "fetch_date": "2026-08-08T23:34:43.010697",
+  "fetch_date": "2026-08-09T23:37:18.027856",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-02-28 00:00:00": -10985728.0,
@@ -1235,8 +1235,8 @@
     "averageVolume": 36364,
     "averageVolume10days": 15270,
     "averageDailyVolume10Day": 15270,
-    "bid": 830.0,
-    "ask": 838.0,
+    "bid": 0.0,
+    "ask": 835.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 10452249600,
@@ -1306,8 +1306,9 @@
     "customPriceAlertConfidence": "LOW",
     "shortName": "HUB CO. LTD",
     "longName": "Hub Co., Ltd.",
-    "corporateActions": [],
-    "regularMarketTime": 1786084200,
+    "marketState": "PREPRE",
+    "regularMarketChangePercent": 0.48367596,
+    "regularMarketPrice": 831.0,
     "exchange": "JPX",
     "messageBoardId": "finmb_26201835",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1330,9 +1331,6 @@
     "earningsTimestampStart": 1752042600,
     "earningsTimestampEnd": 1752474600,
     "isEarningsDateEstimate": true,
-    "marketState": "CLOSED",
-    "regularMarketChangePercent": 0.48367596,
-    "regularMarketPrice": 831.0,
     "epsTrailingTwelveMonths": 48.2,
     "epsForward": 39.0,
     "fiftyDayAverageChange": -20.320007,
@@ -1342,6 +1340,8 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
+    "corporateActions": [],
+    "regularMarketTime": 1786084200,
     "trailingPegRatio": null
   }
 }

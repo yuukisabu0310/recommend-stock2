@@ -1,7 +1,7 @@
 {
   "ticker": "1383",
   "japanese_ticker": "1383.T",
-  "fetch_date": "2026-08-08T23:19:44.143275",
+  "fetch_date": "2026-08-09T23:22:21.092438",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-10-31 00:00:00": 41892936.0,
@@ -132,16 +132,16 @@
     "Basic Average Shares": {
       "2025-10-31 00:00:00": 1599338.0,
       "2024-10-31 00:00:00": 1597325.0,
-      "2023-10-31 00:00:00": 1534251.0,
+      "2023-10-31 00:00:00": 1534133.0,
       "2022-10-31 00:00:00": 1420735.0,
       "2021-10-31 00:00:00": null
     },
     "Diluted EPS": {
       "2025-10-31 00:00:00": 30.22,
-      "2024-10-31 00:00:00": null,
+      "2024-10-31 00:00:00": 25.0,
       "2023-10-31 00:00:00": 50.86,
       "2022-10-31 00:00:00": 139.16,
-      "2021-10-31 00:00:00": 93.92
+      "2021-10-31 00:00:00": null
     },
     "Basic EPS": {
       "2025-10-31 00:00:00": 30.22,
@@ -1205,8 +1205,8 @@
     "averageVolume": 2815,
     "averageVolume10days": 1470,
     "averageDailyVolume10Day": 1470,
-    "bid": 3010.0,
-    "ask": 3030.0,
+    "bid": 0.0,
+    "ask": 3035.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 4801068032,
@@ -1275,6 +1275,8 @@
     "customPriceAlertConfidence": "LOW",
     "corporateActions": [],
     "regularMarketTime": 1786081249,
+    "regularMarketChangePercent": -0.66225165,
+    "regularMarketPrice": 3000.0,
     "exchange": "JPX",
     "messageBoardId": "finmb_25336112",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1282,12 +1284,9 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "marketState": "CLOSED",
     "shortName": "BERG EARTH CO LTD",
     "longName": "Berg Earth Co.,Ltd.",
-    "regularMarketChange": -20.0,
-    "regularMarketDayRange": "2991.0 - 3030.0",
-    "fullExchangeName": "Tokyo",
+    "marketState": "PREPRE",
     "averageDailyVolume3Month": 2815,
     "fiftyTwoWeekLowChange": 197.0,
     "fiftyTwoWeekLowChangePercent": 0.07028184,
@@ -1299,17 +1298,18 @@
     "earningsTimestampEnd": 1749796200,
     "isEarningsDateEstimate": false,
     "epsTrailingTwelveMonths": 66.0,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1322524800000,
+    "regularMarketChange": -20.0,
+    "regularMarketDayRange": "2991.0 - 3030.0",
+    "fullExchangeName": "Tokyo",
     "fiftyDayAverageChange": 86.1001,
     "fiftyDayAverageChangePercent": 0.029548062,
     "twoHundredDayAverageChange": -65.5,
     "twoHundredDayAverageChangePercent": -0.021366823,
-    "regularMarketChangePercent": -0.66225165,
-    "regularMarketPrice": 3000.0,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1322524800000,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
     "trailingPegRatio": null
   }
 }

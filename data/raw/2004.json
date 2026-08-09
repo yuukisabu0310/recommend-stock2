@@ -1,7 +1,7 @@
 {
   "ticker": "2004",
   "japanese_ticker": "2004.T",
-  "fetch_date": "2026-08-08T23:24:15.201708",
+  "fetch_date": "2026-08-09T23:26:50.114786",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": 146963000.0,
@@ -1120,8 +1120,8 @@
     "averageVolume": 63968,
     "averageVolume10days": 63290,
     "averageDailyVolume10Day": 63290,
-    "bid": 3530.0,
-    "ask": 3550.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 115038814208,
@@ -1130,7 +1130,7 @@
     "fiftyTwoWeekHigh": 3665.0,
     "allTimeHigh": 3665.0,
     "allTimeLow": 885.0,
-    "priceToSalesTrailing12Months": 0.33525607,
+    "priceToSalesTrailing12Months": 0.3352484,
     "fiftyDayAverage": 3390.1,
     "twoHundredDayAverage": 3192.185,
     "trailingAnnualDividendRate": 115.0,
@@ -1198,9 +1198,8 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "regularMarketChangePercent": 1.5781922,
-    "regularMarketPrice": 3540.0,
-    "marketState": "CLOSED",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 978307200000,
     "regularMarketChange": 55.0,
     "regularMarketDayRange": "3470.0 - 3565.0",
     "fullExchangeName": "Tokyo",
@@ -1216,6 +1215,11 @@
     "isEarningsDateEstimate": true,
     "epsTrailingTwelveMonths": 326.74,
     "epsForward": 307.8,
+    "marketState": "PREPRE",
+    "shortName": "SHOWA SANGYO CO",
+    "longName": "Showa Sangyo Co., Ltd.",
+    "regularMarketChangePercent": 1.5781922,
+    "regularMarketPrice": 3540.0,
     "fiftyDayAverageChange": 149.8999,
     "fiftyDayAverageChangePercent": 0.044216953,
     "twoHundredDayAverageChange": 347.81494,
@@ -1223,10 +1227,6 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 978307200000,
-    "shortName": "SHOWA SANGYO CO",
-    "longName": "Showa Sangyo Co., Ltd.",
     "trailingPegRatio": null
   }
 }

@@ -1,7 +1,7 @@
 {
   "ticker": "1810",
   "japanese_ticker": "1810.T",
-  "fetch_date": "2026-08-08T23:21:39.204452",
+  "fetch_date": "2026-08-09T23:24:13.311655",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": 83980000.0,
@@ -1047,8 +1047,8 @@
     "averageVolume": 48728,
     "averageVolume10days": 44810,
     "averageDailyVolume10Day": 44810,
-    "bid": 1460.0,
-    "ask": 1478.0,
+    "bid": 0.0,
+    "ask": 1470.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 41811578880,
@@ -1114,8 +1114,7 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "corporateActions": [],
-    "regularMarketTime": 1786084200,
+    "marketState": "PREPRE",
     "exchange": "JPX",
     "messageBoardId": "finmb_5491026",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1123,6 +1122,12 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
+    "corporateActions": [],
+    "regularMarketTime": 1786084200,
+    "shortName": "MATSUI CONSTRUCTION CO",
+    "longName": "Matsui Construction Co., Ltd.",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 978307200000,
     "regularMarketChange": 25.0,
     "regularMarketDayRange": "1392.0 - 1506.0",
     "fullExchangeName": "Tokyo",
@@ -1143,14 +1148,9 @@
     "twoHundredDayAverageChangePercent": -0.035681747,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
-    "shortName": "MATSUI CONSTRUCTION CO",
-    "longName": "Matsui Construction Co., Ltd.",
-    "marketState": "CLOSED",
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 978307200000,
     "regularMarketChangePercent": 1.7349062,
     "regularMarketPrice": 1466.0,
+    "cryptoTradeable": false,
     "trailingPegRatio": null
   }
 }

@@ -1,7 +1,7 @@
 {
   "ticker": "2698",
   "japanese_ticker": "2698.T",
-  "fetch_date": "2026-08-08T23:30:51.812144",
+  "fetch_date": "2026-08-09T23:33:31.316083",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-02-28 00:00:00": -195200000.0,
@@ -1088,8 +1088,8 @@
     "averageVolume": 11020,
     "averageVolume10days": 13170,
     "averageDailyVolume10Day": 13170,
-    "bid": 3625.0,
-    "ask": 3640.0,
+    "bid": 3605.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 58084478976,
@@ -1156,27 +1156,6 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "corporateActions": [
-      {
-        "header": "Dividend",
-        "message": "2698.T announced a cash dividend of JPY 8.50 with an ex-date of Aug. 28, 2026",
-        "meta": {
-          "eventType": "DIVIDEND",
-          "dateEpochMs": 1787842800000,
-          "amount": "8.50"
-        }
-      }
-    ],
-    "regularMarketTime": 1786084200,
-    "exchange": "JPX",
-    "messageBoardId": "finmb_5537194",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
-    "regularMarketChangePercent": 0.5540166,
-    "regularMarketPrice": 3630.0,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1070409600000,
     "regularMarketChange": 20.0,
@@ -1192,8 +1171,6 @@
     "earningsTimestampStart": 1752040800,
     "earningsTimestampEnd": 1752472800,
     "isEarningsDateEstimate": true,
-    "shortName": "CAN DO CO LTD",
-    "longName": "Can Do Co., Ltd.",
     "epsTrailingTwelveMonths": 27.95,
     "fiftyDayAverageChange": 205.8999,
     "fiftyDayAverageChangePercent": 0.06013256,
@@ -1201,8 +1178,31 @@
     "twoHundredDayAverageChangePercent": 0.07173703,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "2698.T announced a cash dividend of JPY 8.50 with an ex-date of Aug. 28, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1787842800000,
+          "amount": "8.50"
+        }
+      }
+    ],
+    "regularMarketTime": 1786084200,
     "cryptoTradeable": false,
-    "marketState": "CLOSED",
+    "marketState": "PREPRE",
+    "messageBoardId": "finmb_5537194",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
+    "regularMarketChangePercent": 0.5540166,
+    "regularMarketPrice": 3630.0,
+    "exchange": "JPX",
+    "shortName": "CAN DO CO LTD",
+    "longName": "Can Do Co., Ltd.",
     "trailingPegRatio": null
   }
 }

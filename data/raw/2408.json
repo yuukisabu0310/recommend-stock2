@@ -1,7 +1,7 @@
 {
   "ticker": "2408",
   "japanese_ticker": "2408.T",
-  "fetch_date": "2026-08-08T23:28:11.621597",
+  "fetch_date": "2026-08-09T23:30:48.702296",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-12-31 00:00:00": -386910.0,
@@ -117,10 +117,10 @@
     },
     "Diluted Average Shares": {
       "2025-12-31 00:00:00": 7320029.0,
-      "2024-12-31 00:00:00": 7310828.0,
+      "2024-12-31 00:00:00": null,
       "2023-12-31 00:00:00": 7232929.0,
       "2022-12-31 00:00:00": 7232929.0,
-      "2021-12-31 00:00:00": null
+      "2021-12-31 00:00:00": 7231138.0
     },
     "Basic Average Shares": {
       "2025-12-31 00:00:00": 7320029.0,
@@ -131,10 +131,10 @@
     },
     "Diluted EPS": {
       "2025-12-31 00:00:00": 45.87,
-      "2024-12-31 00:00:00": 32.97,
+      "2024-12-31 00:00:00": null,
       "2023-12-31 00:00:00": 51.35,
       "2022-12-31 00:00:00": 46.68,
-      "2021-12-31 00:00:00": null
+      "2021-12-31 00:00:00": 10.02
     },
     "Basic EPS": {
       "2025-12-31 00:00:00": 45.87,
@@ -1094,8 +1094,8 @@
     "averageVolume": 21837,
     "averageVolume10days": 7030,
     "averageDailyVolume10Day": 7030,
-    "bid": 833.0,
-    "ask": 836.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 5972634112,
@@ -1161,13 +1161,8 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "regularMarketChangePercent": -0.23952097,
-    "regularMarketPrice": 833.0,
-    "marketState": "CLOSED",
     "corporateActions": [],
     "regularMarketTime": 1786084200,
-    "shortName": "KG INTELLIGENCE CO LTD",
-    "longName": "KG Intelligence CO., LTD.",
     "exchange": "JPX",
     "messageBoardId": "finmb_11071985",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1175,7 +1170,6 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "epsTrailingTwelveMonths": 68.06,
     "fiftyDayAverageChange": -10.619995,
     "fiftyDayAverageChangePercent": -0.012588601,
     "twoHundredDayAverageChange": 75.94,
@@ -1183,8 +1177,6 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1093478400000,
     "regularMarketChange": -2.0,
     "regularMarketDayRange": "833.0 - 836.0",
     "fullExchangeName": "Tokyo",
@@ -1198,6 +1190,14 @@
     "earningsTimestampStart": 1751869800,
     "earningsTimestampEnd": 1752215400,
     "isEarningsDateEstimate": true,
+    "epsTrailingTwelveMonths": 68.06,
+    "shortName": "KG INTELLIGENCE CO LTD",
+    "marketState": "PREPRE",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1093478400000,
+    "regularMarketChangePercent": -0.23952097,
+    "regularMarketPrice": 833.0,
+    "longName": "KG Intelligence CO., LTD.",
     "trailingPegRatio": null
   }
 }

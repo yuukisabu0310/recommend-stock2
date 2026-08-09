@@ -1,7 +1,7 @@
 {
   "ticker": "1764",
   "japanese_ticker": "1764.T",
-  "fetch_date": "2026-08-08T23:21:03.384042",
+  "fetch_date": "2026-08-09T23:23:38.417168",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-06-30 00:00:00": null,
@@ -114,7 +114,7 @@
     "Diluted Average Shares": {
       "2025-06-30 00:00:00": 1243000.0,
       "2024-06-30 00:00:00": 1245000.0,
-      "2023-06-30 00:00:00": 1256000.0,
+      "2023-06-30 00:00:00": 1256105.0,
       "2022-06-30 00:00:00": 1203000.0
     },
     "Basic Average Shares": {
@@ -131,7 +131,7 @@
     },
     "Basic EPS": {
       "2025-06-30 00:00:00": 307.93,
-      "2024-06-30 00:00:00": 165.94,
+      "2024-06-30 00:00:00": null,
       "2023-06-30 00:00:00": 108.19,
       "2022-06-30 00:00:00": 100.58
     },
@@ -1062,8 +1062,8 @@
     "averageVolume": 1696,
     "averageVolume10days": 760,
     "averageDailyVolume10Day": 760,
-    "bid": 2676.0,
-    "ask": 2690.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 3336302336,
@@ -1126,7 +1126,6 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "marketState": "CLOSED",
     "corporateActions": [],
     "regularMarketTime": 1786083581,
     "exchange": "JPX",
@@ -1136,6 +1135,8 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
+    "regularMarketChangePercent": -0.111940295,
+    "regularMarketPrice": 2677.0,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 978307200000,
     "regularMarketChange": -3.0,
@@ -1151,6 +1152,8 @@
     "earningsTimestampStart": 1747204200,
     "earningsTimestampEnd": 1747204200,
     "isEarningsDateEstimate": false,
+    "shortName": "KUDO CORP",
+    "longName": "Kudo Corporation",
     "epsTrailingTwelveMonths": 393.52,
     "fiftyDayAverageChange": -107.47998,
     "fiftyDayAverageChangePercent": -0.03859966,
@@ -1158,11 +1161,8 @@
     "twoHundredDayAverageChangePercent": -0.09315411,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
-    "shortName": "KUDO CORP",
-    "longName": "Kudo Corporation",
     "cryptoTradeable": false,
-    "regularMarketChangePercent": -0.111940295,
-    "regularMarketPrice": 2677.0,
+    "marketState": "PREPRE",
     "trailingPegRatio": null
   }
 }

@@ -1,7 +1,7 @@
 {
   "ticker": "2788",
   "japanese_ticker": "2788.T",
-  "fetch_date": "2026-08-08T23:31:56.558412",
+  "fetch_date": "2026-08-09T23:34:32.595884",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-12-31 00:00:00": 72784847.9,
@@ -138,7 +138,7 @@
     },
     "Diluted EPS": {
       "2025-12-31 00:00:00": null,
-      "2024-12-31 00:00:00": null,
+      "2024-12-31 00:00:00": 92.75,
       "2023-12-31 00:00:00": 77.82,
       "2022-12-31 00:00:00": 99.31,
       "2021-12-31 00:00:00": 29.11
@@ -1064,8 +1064,8 @@
     "averageVolume": 39209,
     "averageVolume10days": 53600,
     "averageDailyVolume10Day": 53600,
-    "bid": 404.0,
-    "ask": 405.0,
+    "bid": 388.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 5233865216,
@@ -1132,9 +1132,8 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "shortName": "APPLE INTERNATIONAL CO LTD",
-    "longName": "Apple International Co., Ltd.",
-    "marketState": "CLOSED",
+    "regularMarketChange": 0.0,
+    "regularMarketDayRange": "400.0 - 408.0",
     "fullExchangeName": "Tokyo",
     "averageDailyVolume3Month": 39209,
     "fiftyTwoWeekLowChange": 77.0,
@@ -1151,8 +1150,8 @@
     "fiftyDayAverageChangePercent": 0.071882285,
     "twoHundredDayAverageChange": 50.359985,
     "twoHundredDayAverageChangePercent": 0.1420031,
-    "corporateActions": [],
-    "regularMarketTime": 1786084200,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
     "exchange": "JPX",
     "messageBoardId": "finmb_9850062",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1162,13 +1161,14 @@
     "esgPopulated": false,
     "regularMarketChangePercent": 0.0,
     "regularMarketPrice": 405.0,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
+    "marketState": "PREPRE",
     "cryptoTradeable": false,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1070236800000,
-    "regularMarketChange": 0.0,
-    "regularMarketDayRange": "400.0 - 408.0",
+    "shortName": "APPLE INTERNATIONAL CO LTD",
+    "longName": "Apple International Co., Ltd.",
+    "corporateActions": [],
+    "regularMarketTime": 1786084200,
     "trailingPegRatio": null
   }
 }

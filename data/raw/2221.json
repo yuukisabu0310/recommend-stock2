@@ -1,7 +1,7 @@
 {
   "ticker": "2221",
   "japanese_ticker": "2221.T",
-  "fetch_date": "2026-08-08T23:26:04.953947",
+  "fetch_date": "2026-08-09T23:28:41.674326",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": 3233810.2,
@@ -259,10 +259,10 @@
   "balance_sheet": {
     "Treasury Shares Number": {
       "2026-03-31 00:00:00": 1731313.0,
-      "2025-03-31 00:00:00": null,
+      "2025-03-31 00:00:00": 1585648.0,
       "2024-03-31 00:00:00": 1589368.0,
       "2023-03-31 00:00:00": 781568.0,
-      "2022-03-31 00:00:00": 781522.0
+      "2022-03-31 00:00:00": null
     },
     "Ordinary Shares Number": {
       "2026-03-31 00:00:00": 10258687.0,
@@ -1083,8 +1083,8 @@
     "averageVolume": 2712,
     "averageVolume10days": 3920,
     "averageDailyVolume10Day": 3920,
-    "bid": 3075.0,
-    "ask": 3085.0,
+    "bid": 0.0,
+    "ask": 3100.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 31545462784,
@@ -1151,11 +1151,26 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "fiftyDayAverageChange": 21.5,
+    "fiftyDayAverageChangePercent": 0.0070411004,
     "twoHundredDayAverageChange": -21.59497,
     "twoHundredDayAverageChangePercent": -0.0069737798,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
+    "marketState": "PREPRE",
+    "longName": "Iwatsuka Confectionery Co., Ltd.",
+    "exchange": "JPX",
+    "messageBoardId": "finmb_5636761",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
+    "regularMarketChangePercent": -0.16233766,
+    "regularMarketPrice": 3075.0,
+    "corporateActions": [],
+    "regularMarketTime": 1786084200,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 947203200000,
     "regularMarketChange": -5.0,
@@ -1172,22 +1187,7 @@
     "earningsTimestampEnd": 1747204200,
     "isEarningsDateEstimate": false,
     "epsTrailingTwelveMonths": 198.03,
-    "fiftyDayAverageChange": 21.5,
-    "fiftyDayAverageChangePercent": 0.0070411004,
-    "corporateActions": [],
-    "marketState": "CLOSED",
-    "regularMarketChangePercent": -0.16233766,
-    "regularMarketPrice": 3075.0,
     "shortName": "IWATSUKA CONFECTIONERY CO",
-    "longName": "Iwatsuka Confectionery Co., Ltd.",
-    "regularMarketTime": 1786084200,
-    "exchange": "JPX",
-    "messageBoardId": "finmb_5636761",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
     "trailingPegRatio": null
   }
 }

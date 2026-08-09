@@ -1,7 +1,7 @@
 {
   "ticker": "2224",
   "japanese_ticker": "2224.T",
-  "fetch_date": "2026-08-08T23:26:08.553324",
+  "fetch_date": "2026-08-09T23:28:45.933504",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": -22144.0,
@@ -253,10 +253,10 @@
   "balance_sheet": {
     "Treasury Shares Number": {
       "2026-03-31 00:00:00": 155482.0,
-      "2025-03-31 00:00:00": null,
+      "2025-03-31 00:00:00": 155482.0,
       "2024-03-31 00:00:00": 155472.0,
       "2023-03-31 00:00:00": 155422.0,
-      "2022-03-31 00:00:00": 155422.0
+      "2022-03-31 00:00:00": null
     },
     "Ordinary Shares Number": {
       "2026-03-31 00:00:00": 3474518.0,
@@ -1098,8 +1098,8 @@
     "averageVolume": 1303,
     "averageVolume10days": 1000,
     "averageDailyVolume10Day": 1000,
-    "bid": 3670.0,
-    "ask": 0.0,
+    "bid": 0.0,
+    "ask": 3695.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 12838343680,
@@ -1164,14 +1164,11 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "marketState": "CLOSED",
-    "shortName": "COMO CO LTD",
-    "longName": "Como Co.,Ltd.",
-    "cryptoTradeable": false,
-    "regularMarketChangePercent": 0.0,
-    "regularMarketPrice": 3695.0,
     "corporateActions": [],
     "regularMarketTime": 1786080141,
+    "shortName": "COMO CO LTD",
+    "longName": "Como Co.,Ltd.",
+    "marketState": "PREPRE",
     "exchange": "JPX",
     "messageBoardId": "finmb_9193272",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1179,6 +1176,11 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
+    "regularMarketChangePercent": 0.0,
+    "regularMarketPrice": 3695.0,
+    "cryptoTradeable": false,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 946944000000,
     "regularMarketChange": 0.0,
     "regularMarketDayRange": "3670.0 - 3695.0",
     "fullExchangeName": "Tokyo",
@@ -1199,8 +1201,6 @@
     "twoHundredDayAverageChangePercent": 0.03472417,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 946944000000,
     "trailingPegRatio": null
   }
 }

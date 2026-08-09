@@ -1,7 +1,7 @@
 {
   "ticker": "2814",
   "japanese_ticker": "2814.T",
-  "fetch_date": "2026-08-08T23:32:27.964271",
+  "fetch_date": "2026-08-09T23:35:02.789151",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": 32260860.0,
@@ -1193,8 +1193,8 @@
     "averageVolume": 1101,
     "averageVolume10days": 840,
     "averageDailyVolume10Day": 840,
-    "bid": 3120.0,
-    "ask": 3145.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 11283886080,
@@ -1261,11 +1261,11 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "shortName": "SATO FOODS INDUSTRIES CO",
     "longName": "Sato Foods Industries Co., Ltd.",
-    "marketState": "CLOSED",
     "regularMarketChangePercent": 1.1254019,
     "regularMarketPrice": 3145.0,
+    "marketState": "PREPRE",
+    "shortName": "SATO FOODS INDUSTRIES CO",
     "regularMarketChange": 35.0,
     "regularMarketDayRange": "3110.0 - 3145.0",
     "fullExchangeName": "Tokyo",
@@ -1286,7 +1286,10 @@
     "twoHundredDayAverageChangePercent": -0.0042773364,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 947030400000,
     "cryptoTradeable": false,
+    "corporateActions": [],
     "regularMarketTime": 1786078480,
     "exchange": "JPX",
     "messageBoardId": "finmb_9155770",
@@ -1295,9 +1298,6 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "corporateActions": [],
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 947030400000,
     "trailingPegRatio": null
   }
 }

@@ -1,7 +1,7 @@
 {
   "ticker": "2305",
   "japanese_ticker": "2305.T",
-  "fetch_date": "2026-08-08T23:26:50.365466",
+  "fetch_date": "2026-08-09T23:29:27.453641",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-02-28 00:00:00": -116763266.0,
@@ -271,10 +271,10 @@
   "balance_sheet": {
     "Treasury Shares Number": {
       "2026-02-28 00:00:00": 201830.0,
-      "2025-02-28 00:00:00": null,
+      "2025-02-28 00:00:00": 201830.0,
       "2024-02-29 00:00:00": 201706.0,
       "2023-02-28 00:00:00": 201706.0,
-      "2022-02-28 00:00:00": 201657.0
+      "2022-02-28 00:00:00": null
     },
     "Ordinary Shares Number": {
       "2026-02-28 00:00:00": 16983820.0,
@@ -285,7 +285,7 @@
     },
     "Share Issued": {
       "2026-02-28 00:00:00": 17185650.0,
-      "2025-02-28 00:00:00": 16983820.0,
+      "2025-02-28 00:00:00": 17185650.0,
       "2024-02-29 00:00:00": 17185650.0,
       "2023-02-28 00:00:00": 17185650.0,
       "2022-02-28 00:00:00": null
@@ -1068,8 +1068,8 @@
     "averageVolume": 32779,
     "averageVolume10days": 25790,
     "averageDailyVolume10Day": 25790,
-    "bid": 1940.0,
-    "ask": 1945.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 32999563264,
@@ -1140,13 +1140,12 @@
     "longName": "STUDIO ALICE Co.,Ltd.",
     "corporateActions": [],
     "regularMarketTime": 1786084200,
-    "exchange": "JPX",
-    "messageBoardId": "finmb_5705898",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
+    "fiftyDayAverageChangePercent": 0.03563699,
+    "twoHundredDayAverageChange": 1.1800537,
+    "twoHundredDayAverageChangePercent": 0.00060770503,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1059523200000,
     "regularMarketChange": 11.0,
@@ -1162,17 +1161,18 @@
     "earningsTimestampStart": 1752042600,
     "earningsTimestampEnd": 1752474600,
     "isEarningsDateEstimate": true,
-    "marketState": "CLOSED",
-    "regularMarketChangePercent": 0.56935817,
-    "regularMarketPrice": 1943.0,
     "epsTrailingTwelveMonths": 68.39,
     "fiftyDayAverageChange": 66.859985,
-    "fiftyDayAverageChangePercent": 0.03563699,
-    "twoHundredDayAverageChange": 1.1800537,
-    "twoHundredDayAverageChangePercent": 0.00060770503,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
+    "regularMarketChangePercent": 0.56935817,
+    "regularMarketPrice": 1943.0,
+    "exchange": "JPX",
+    "messageBoardId": "finmb_5705898",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
+    "marketState": "PREPRE",
     "trailingPegRatio": null
   }
 }
