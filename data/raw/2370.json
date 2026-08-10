@@ -1,7 +1,7 @@
 {
   "ticker": "2370",
   "japanese_ticker": "2370.T",
-  "fetch_date": "2026-08-09T23:30:19.928269",
+  "fetch_date": "2026-08-10T23:36:03.719587",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-09-30 00:00:00": 13910024.0,
@@ -131,17 +131,17 @@
     },
     "Basic Average Shares": {
       "2025-09-30 00:00:00": 264647679.0,
-      "2024-09-30 00:00:00": 253282224.0,
+      "2024-09-30 00:00:00": null,
       "2023-09-30 00:00:00": 216084438.0,
       "2022-09-30 00:00:00": 198069652.0,
-      "2021-09-30 00:00:00": null
+      "2021-09-30 00:00:00": 172664409.0
     },
     "Diluted EPS": {
       "2025-09-30 00:00:00": -5.15,
-      "2024-09-30 00:00:00": -5.04,
+      "2024-09-30 00:00:00": null,
       "2023-09-30 00:00:00": -6.65,
       "2022-09-30 00:00:00": -6.33,
-      "2021-09-30 00:00:00": null
+      "2021-09-30 00:00:00": -4.88
     },
     "Basic EPS": {
       "2025-09-30 00:00:00": -5.15,
@@ -1086,18 +1086,18 @@
     "executiveTeam": [],
     "maxAge": 86400,
     "priceHint": 2,
-    "previousClose": 26.0,
+    "previousClose": 25.0,
     "open": 25.0,
     "dayLow": 25.0,
     "dayHigh": 26.0,
-    "regularMarketPreviousClose": 26.0,
+    "regularMarketPreviousClose": 25.0,
     "regularMarketOpen": 25.0,
     "regularMarketDayLow": 25.0,
     "regularMarketDayHigh": 26.0,
     "payoutRatio": 0.0,
     "beta": 0.413,
-    "volume": 164200,
-    "regularMarketVolume": 164200,
+    "volume": 128400,
+    "regularMarketVolume": 128400,
     "averageVolume": 758756,
     "averageVolume10days": 421140,
     "averageDailyVolume10Day": 421140,
@@ -1168,7 +1168,7 @@
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
     "corporateActions": [],
-    "regularMarketTime": 1786084200,
+    "regularMarketTime": 1786343400,
     "exchange": "JPX",
     "messageBoardId": "finmb_9830272",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1176,11 +1176,11 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "regularMarketChangePercent": -3.846154,
+    "regularMarketChangePercent": 0.0,
     "regularMarketPrice": 25.0,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1065571200000,
-    "regularMarketChange": -1.0,
+    "regularMarketChange": 0.0,
     "regularMarketDayRange": "25.0 - 26.0",
     "fullExchangeName": "Tokyo",
     "averageDailyVolume3Month": 758756,
@@ -1203,7 +1203,7 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
-    "marketState": "PREPRE",
+    "marketState": "CLOSED",
     "trailingPegRatio": null
   }
 }
