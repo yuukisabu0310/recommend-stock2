@@ -1,7 +1,7 @@
 {
   "ticker": "2170",
   "japanese_ticker": "2170.T",
-  "fetch_date": "2026-08-15T23:18:19.988977",
+  "fetch_date": "2026-08-16T23:17:33.067703",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-12-31 00:00:00": 0.0,
@@ -1132,8 +1132,8 @@
     "averageVolume": 485350,
     "averageVolume10days": 685500,
     "averageDailyVolume10Day": 685500,
-    "bid": 607.0,
-    "ask": 610.0,
+    "bid": 608.0,
+    "ask": 0.0,
     "marketCap": 63942209536,
     "nonDilutedMarketCap": 63942209769,
     "fiftyTwoWeekLow": 476.0,
@@ -1205,6 +1205,11 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "shortName": "LINK AND MOTIVATION INC",
+    "longName": "Link and Motivation Inc.",
+    "regularMarketChangePercent": -0.6546645,
+    "regularMarketPrice": 607.0,
+    "marketState": "PREPRE",
     "corporateActions": [],
     "regularMarketTime": 1786689000,
     "exchange": "JPX",
@@ -1214,12 +1219,8 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "regularMarketChangePercent": -0.6546645,
-    "regularMarketPrice": 607.0,
-    "marketState": "CLOSED",
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1197849600000,
     "regularMarketChange": -4.0,
+    "fulldayPrice": 607.0,
     "regularMarketDayRange": "603.0 - 624.0",
     "fullExchangeName": "Tokyo",
     "averageDailyVolume3Month": 485350,
@@ -1234,8 +1235,6 @@
     "earningsCallTimestampStart": 1747220340,
     "earningsCallTimestampEnd": 1747220340,
     "isEarningsDateEstimate": false,
-    "shortName": "LINK AND MOTIVATION INC",
-    "longName": "Link and Motivation Inc.",
     "epsTrailingTwelveMonths": 14.87,
     "epsForward": 37.65,
     "fiftyDayAverageChange": 25.059998,
@@ -1245,6 +1244,8 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1197849600000,
     "trailingPegRatio": null
   }
 }

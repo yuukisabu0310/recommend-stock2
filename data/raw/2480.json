@@ -1,7 +1,7 @@
 {
   "ticker": "2480",
   "japanese_ticker": "2480.T",
-  "fetch_date": "2026-08-15T23:22:09.964896",
+  "fetch_date": "2026-08-16T23:21:29.463887",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": -47190400.0,
@@ -994,8 +994,8 @@
     "averageVolume": 1084,
     "averageVolume10days": 960,
     "averageDailyVolume10Day": 960,
-    "bid": 1712.0,
-    "ask": 1726.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 6089476608,
@@ -1074,8 +1074,9 @@
     "regularMarketPrice": 1726.0,
     "shortName": "SYSTEM LOCATION",
     "longName": "System Location Co.,Ltd.",
-    "marketState": "CLOSED",
-    "hasPrePostMarketData": false,
+    "cryptoTradeable": false,
+    "earningsTimestampEnd": 1746167400,
+    "isEarningsDateEstimate": false,
     "epsTrailingTwelveMonths": 84.23,
     "fiftyDayAverageChange": 22.839966,
     "fiftyDayAverageChangePercent": 0.013410347,
@@ -1083,9 +1084,11 @@
     "twoHundredDayAverageChangePercent": 0.020160876,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
+    "marketState": "PREPRE",
+    "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1145577600000,
     "regularMarketChange": -3.0,
+    "fulldayPrice": 1726.0,
     "regularMarketDayRange": "1715.0 - 1728.0",
     "fullExchangeName": "Tokyo",
     "averageDailyVolume3Month": 1084,
@@ -1096,8 +1099,6 @@
     "fiftyTwoWeekHighChangePercent": -0.12563322,
     "fiftyTwoWeekChangePercent": 12.077928,
     "earningsTimestampStart": 1746167400,
-    "earningsTimestampEnd": 1746167400,
-    "isEarningsDateEstimate": false,
     "trailingPegRatio": null
   }
 }

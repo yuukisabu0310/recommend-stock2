@@ -1,7 +1,7 @@
 {
   "ticker": "2874",
   "japanese_ticker": "2874.T",
-  "fetch_date": "2026-08-15T23:25:51.778302",
+  "fetch_date": "2026-08-16T23:25:15.396788",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-09-30 00:00:00": 119248000.0,
@@ -1215,8 +1215,8 @@
     "averageVolume": 264326,
     "averageVolume10days": 229970,
     "averageDailyVolume10Day": 229970,
-    "bid": 2105.0,
-    "ask": 2138.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 124804726784,
@@ -1289,8 +1289,6 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "shortName": "YOKOREI CO LTD",
-    "longName": "Yokorei Co.,Ltd.",
     "corporateActions": [],
     "regularMarketTime": 1786689000,
     "exchange": "JPX",
@@ -1302,10 +1300,10 @@
     "esgPopulated": false,
     "regularMarketChangePercent": 1.637765,
     "regularMarketPrice": 2110.0,
-    "marketState": "CLOSED",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 978307200000,
     "regularMarketChange": 34.0,
+    "fulldayPrice": 2110.0,
     "regularMarketDayRange": "2003.0 - 2140.0",
     "fullExchangeName": "Tokyo",
     "averageDailyVolume3Month": 264326,
@@ -1327,8 +1325,11 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "prevName": "Yokohama Reito Co.,Ltd.",
-    "nameChangeDate": "2026-08-15",
+    "nameChangeDate": "2026-08-16",
     "cryptoTradeable": false,
+    "marketState": "PREPRE",
+    "longName": "Yokorei Co.,Ltd.",
+    "shortName": "YOKOREI CO LTD",
     "trailingPegRatio": null
   }
 }

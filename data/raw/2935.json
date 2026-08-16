@@ -1,7 +1,7 @@
 {
   "ticker": "2935",
   "japanese_ticker": "2935.T",
-  "fetch_date": "2026-08-15T23:26:55.350284",
+  "fetch_date": "2026-08-16T23:26:17.148195",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-02-28 00:00:00": -19408895.265423,
@@ -972,8 +972,8 @@
     "averageVolume": 21180,
     "averageVolume10days": 25250,
     "averageDailyVolume10Day": 25250,
-    "bid": 1170.0,
-    "ask": 1175.0,
+    "bid": 0.0,
+    "ask": 1180.0,
     "marketCap": 14658029568,
     "nonDilutedMarketCap": 14658029100,
     "fiftyTwoWeekLow": 981.0,
@@ -1037,12 +1037,7 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "regularMarketChangePercent": 0.86206895,
-    "regularMarketPrice": 1170.0,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1661990400000,
-    "regularMarketChange": 10.0,
-    "regularMarketDayRange": "1152.0 - 1177.0",
+    "longName": "Pickles Holdings Co.,Ltd.",
     "fullExchangeName": "Tokyo",
     "averageDailyVolume3Month": 21180,
     "fiftyTwoWeekLowChange": 189.0,
@@ -1059,7 +1054,11 @@
     "fiftyDayAverageChange": 38.579956,
     "fiftyDayAverageChangePercent": 0.034098703,
     "twoHundredDayAverageChange": -15.280029,
-    "twoHundredDayAverageChangePercent": -0.012891493,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1661990400000,
+    "regularMarketChange": 10.0,
+    "fulldayPrice": 1170.0,
+    "regularMarketDayRange": "1152.0 - 1177.0",
     "corporateActions": [
       {
         "header": "Dividend",
@@ -1080,13 +1079,15 @@
     "market": "jp_market",
     "esgPopulated": false,
     "shortName": "PICKLES HOLDINGS CO LTD",
-    "longName": "Pickles Holdings Co.,Ltd.",
+    "regularMarketChangePercent": 0.86206895,
+    "regularMarketPrice": 1170.0,
+    "marketState": "PREPRE",
+    "twoHundredDayAverageChangePercent": -0.012891493,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "prevName": "Pickles Corporation",
-    "nameChangeDate": "2026-08-15",
+    "nameChangeDate": "2026-08-16",
     "cryptoTradeable": false,
-    "marketState": "CLOSED",
     "trailingPegRatio": null
   }
 }

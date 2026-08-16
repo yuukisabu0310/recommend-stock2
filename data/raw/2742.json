@@ -1,7 +1,7 @@
 {
   "ticker": "2742",
   "japanese_ticker": "2742.T",
-  "fetch_date": "2026-08-15T23:24:25.038710",
+  "fetch_date": "2026-08-16T23:23:48.581199",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-02-28 00:00:00": 12540000.0,
@@ -1285,8 +1285,8 @@
     "averageVolume": 31346,
     "averageVolume10days": 34630,
     "averageDailyVolume10Day": 34630,
-    "bid": 3875.0,
-    "ask": 3890.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 82938077184,
@@ -1354,8 +1354,6 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "shortName": "HALOWS CO LTD",
-    "longName": "Halows Co.,Ltd.",
     "corporateActions": [
       {
         "header": "Dividend",
@@ -1377,14 +1375,10 @@
     "esgPopulated": false,
     "regularMarketChangePercent": 1.968504,
     "regularMarketPrice": 3885.0,
-    "twoHundredDayAverageChange": -372.0,
-    "twoHundredDayAverageChangePercent": -0.08738548,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1031011200000,
     "regularMarketChange": 75.0,
+    "fulldayPrice": 3885.0,
     "regularMarketDayRange": "3765.0 - 3895.0",
     "fullExchangeName": "Tokyo",
     "averageDailyVolume3Month": 31346,
@@ -1401,7 +1395,14 @@
     "epsForward": 360.6,
     "fiftyDayAverageChange": 108.30005,
     "fiftyDayAverageChangePercent": 0.028675841,
-    "marketState": "CLOSED",
+    "twoHundredDayAverageChange": -372.0,
+    "twoHundredDayAverageChangePercent": -0.08738548,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
+    "marketState": "PREPRE",
+    "longName": "Halows Co.,Ltd.",
+    "shortName": "HALOWS CO LTD",
     "trailingPegRatio": null
   }
 }

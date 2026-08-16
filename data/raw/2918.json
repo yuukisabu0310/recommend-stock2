@@ -1,7 +1,7 @@
 {
   "ticker": "2918",
   "japanese_ticker": "2918.T",
-  "fetch_date": "2026-08-15T23:26:31.189541",
+  "fetch_date": "2026-08-16T23:25:55.131583",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-02-28 00:00:00": -133425000.0,
@@ -1186,8 +1186,8 @@
     "averageVolume": 91538,
     "averageVolume10days": 107880,
     "averageDailyVolume10Day": 107880,
-    "bid": 2830.0,
-    "ask": 2836.0,
+    "bid": 0.0,
+    "ask": 2879.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 49090527232,
@@ -1258,8 +1258,6 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "marketState": "CLOSED",
-    "longName": "Warabeya Nichiyo Holdings Co., Ltd.",
     "exchange": "JPX",
     "messageBoardId": "finmb_883960",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1269,21 +1267,13 @@
     "esgPopulated": false,
     "regularMarketChangePercent": 0.07059654,
     "regularMarketPrice": 2835.0,
-    "corporateActions": [
-      {
-        "header": "Dividend",
-        "message": "2918.T announced a cash dividend of JPY 60.00 with an ex-date of Aug. 28, 2026",
-        "meta": {
-          "eventType": "DIVIDEND",
-          "dateEpochMs": 1787842800000,
-          "amount": "60.00"
-        }
-      }
-    ],
-    "regularMarketTime": 1786689000,
+    "shortName": "WARABEYA NICHIYO HOLDINGS CO LT",
+    "longName": "Warabeya Nichiyo Holdings Co., Ltd.",
+    "marketState": "PREPRE",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 978566400000,
     "regularMarketChange": 2.0,
+    "fulldayPrice": 2835.0,
     "regularMarketDayRange": "2814.0 - 2847.0",
     "fullExchangeName": "Tokyo",
     "averageDailyVolume3Month": 91538,
@@ -1296,12 +1286,23 @@
     "earningsTimestampStart": 1751868000,
     "earningsTimestampEnd": 1752213600,
     "isEarningsDateEstimate": true,
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "2918.T announced a cash dividend of JPY 60.00 with an ex-date of Aug. 28, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1787842800000,
+          "amount": "60.00"
+        }
+      }
+    ],
+    "regularMarketTime": 1786689000,
     "epsTrailingTwelveMonths": 307.31,
     "epsForward": 200.4,
     "fiftyDayAverageChange": 166.02002,
     "fiftyDayAverageChangePercent": 0.062203545,
     "twoHundredDayAverageChange": -184.1399,
-    "shortName": "WARABEYA NICHIYO HOLDINGS CO LT",
     "twoHundredDayAverageChangePercent": -0.060990844,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,

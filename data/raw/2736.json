@@ -1,7 +1,7 @@
 {
   "ticker": "2736",
   "japanese_ticker": "2736.T",
-  "fetch_date": "2026-08-15T23:24:21.821025",
+  "fetch_date": "2026-08-16T23:23:44.554330",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-08-31 00:00:00": -6313358.0,
@@ -1081,7 +1081,7 @@
     "regularMarketDayLow": 668.0,
     "regularMarketDayHigh": 674.0,
     "dividendRate": 7.0,
-    "dividendYield": 1.05,
+    "dividendYield": 1.04,
     "exDividendDate": 1787875200,
     "payoutRatio": 0.1874,
     "fiveYearAvgDividendYield": 1.46,
@@ -1092,8 +1092,8 @@
     "averageVolume": 3449,
     "averageVolume10days": 4960,
     "averageDailyVolume10Day": 4960,
-    "bid": 670.0,
-    "ask": 674.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 2414908928,
@@ -1179,8 +1179,9 @@
     "esgPopulated": false,
     "regularMarketChangePercent": 0.8982036,
     "regularMarketPrice": 674.0,
-    "marketState": "CLOSED",
-    "earningsTimestampStart": 1752129000,
+    "shortName": "FESTARIA HOLDINGS CO LTD",
+    "longName": "Festaria Holdings Co., Ltd.",
+    "cryptoTradeable": false,
     "earningsTimestampEnd": 1752474600,
     "isEarningsDateEstimate": true,
     "epsTrailingTwelveMonths": 37.34,
@@ -1190,10 +1191,11 @@
     "twoHundredDayAverageChangePercent": 0.065460995,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
+    "marketState": "PREPRE",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1023321600000,
     "regularMarketChange": 6.0,
+    "fulldayPrice": 674.0,
     "regularMarketDayRange": "668.0 - 674.0",
     "fullExchangeName": "Tokyo",
     "averageDailyVolume3Month": 3449,
@@ -1203,8 +1205,7 @@
     "fiftyTwoWeekHighChange": -25.0,
     "fiftyTwoWeekHighChangePercent": -0.03576538,
     "fiftyTwoWeekChangePercent": 0.89820623,
-    "shortName": "FESTARIA HOLDINGS CO LTD",
-    "longName": "Festaria Holdings Co., Ltd.",
+    "earningsTimestampStart": 1752129000,
     "trailingPegRatio": null
   }
 }

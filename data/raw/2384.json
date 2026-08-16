@@ -1,7 +1,7 @@
 {
   "ticker": "2384",
   "japanese_ticker": "2384.T",
-  "fetch_date": "2026-08-15T23:21:02.029329",
+  "fetch_date": "2026-08-16T23:20:19.564671",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-12-31 00:00:00": -243133000.0,
@@ -1078,8 +1078,8 @@
     "averageVolume": 109609,
     "averageVolume10days": 98680,
     "averageDailyVolume10Day": 98680,
-    "bid": 4860.0,
-    "ask": 4900.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 193224998912,
@@ -1153,6 +1153,7 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "marketState": "PREPRE",
     "shortName": "SBS HOLDINGS INC",
     "longName": "SBS Holdings, Inc.",
     "corporateActions": [],
@@ -1166,7 +1167,6 @@
     "esgPopulated": false,
     "regularMarketChangePercent": 0.4127967,
     "regularMarketPrice": 4865.0,
-    "marketState": "CLOSED",
     "fiftyDayAverageChange": 432.7002,
     "fiftyDayAverageChangePercent": 0.09762431,
     "twoHundredDayAverageChange": 731.5249,
@@ -1178,6 +1178,7 @@
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1266796800000,
     "regularMarketChange": 20.0,
+    "fulldayPrice": 4865.0,
     "regularMarketDayRange": "4800.0 - 4895.0",
     "fullExchangeName": "Tokyo",
     "averageDailyVolume3Month": 109609,

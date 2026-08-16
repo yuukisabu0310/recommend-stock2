@@ -1,7 +1,7 @@
 {
   "ticker": "1866",
   "japanese_ticker": "1866.T",
-  "fetch_date": "2026-08-15T23:15:21.588874",
+  "fetch_date": "2026-08-16T23:14:28.555030",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": -27989298.209508,
@@ -1112,8 +1112,8 @@
     "averageVolume": 26928,
     "averageVolume10days": 22420,
     "averageDailyVolume10Day": 22420,
-    "bid": 1179.0,
-    "ask": 1194.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 28941604864,
@@ -1179,11 +1179,8 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "marketState": "CLOSED",
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 978307200000,
-    "regularMarketChange": 13.0,
-    "regularMarketDayRange": "1174.0 - 1190.0",
+    "corporateActions": [],
+    "regularMarketTime": 1786689000,
     "exchange": "JPX",
     "messageBoardId": "finmb_876074",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1193,6 +1190,11 @@
     "esgPopulated": false,
     "regularMarketChangePercent": 1.1045029,
     "regularMarketPrice": 1190.0,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 978307200000,
+    "regularMarketChange": 13.0,
+    "fulldayPrice": 1190.0,
+    "regularMarketDayRange": "1174.0 - 1190.0",
     "fullExchangeName": "Tokyo",
     "averageDailyVolume3Month": 26928,
     "fiftyTwoWeekLowChange": 265.0,
@@ -1212,10 +1214,9 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
+    "marketState": "PREPRE",
     "shortName": "KITANO CONSTRUCTION CORP",
     "longName": "Kitano Construction Corp.",
-    "corporateActions": [],
-    "regularMarketTime": 1786689000,
     "trailingPegRatio": null
   }
 }

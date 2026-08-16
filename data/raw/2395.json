@@ -1,7 +1,7 @@
 {
   "ticker": "2395",
   "japanese_ticker": "2395.T",
-  "fetch_date": "2026-08-15T23:21:12.516881",
+  "fetch_date": "2026-08-16T23:20:30.522862",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": -105633302.0,
@@ -1109,22 +1109,10 @@
     "companyOfficers": [
       {
         "maxAge": 1,
-        "name": "Dr. Ryoichi  Nagata F.F.P.M., M.D., Ph.D.",
-        "age": 67,
-        "title": "Chairman, CEO, Group CFO, Fisheries Business Officer & Chief Health Officer",
-        "yearBorn": 1958,
-        "fiscalYear": 2010,
-        "totalPay": 144061000,
-        "exercisedValue": 0,
-        "unexercisedValue": 0
-      },
-      {
-        "maxAge": 1,
         "name": "Mr. Ken  Takanashi CPA, MBA.",
         "age": 61,
         "title": "Vice Chairman & Head of U.S. Real Estate Business",
         "yearBorn": 1964,
-        "fiscalYear": 2010,
         "exercisedValue": 0,
         "unexercisedValue": 0
       },
@@ -1134,73 +1122,6 @@
         "age": 48,
         "title": "President & Representative Director",
         "yearBorn": 1977,
-        "fiscalYear": 2010,
-        "exercisedValue": 0,
-        "unexercisedValue": 0
-      },
-      {
-        "maxAge": 1,
-        "name": "Toshiyuki  Iwata",
-        "title": "Managing Executive Officer, R/PR Division Manager & Sustainability Officer",
-        "fiscalYear": 2010,
-        "exercisedValue": 0,
-        "unexercisedValue": 0
-      },
-      {
-        "maxAge": 1,
-        "name": "Kyomi  Nagatoshi",
-        "age": 59,
-        "title": "Senior Managing Executive Officer, Head of General Affairs & Human Resources and Director",
-        "yearBorn": 1966,
-        "fiscalYear": 2010,
-        "exercisedValue": 0,
-        "unexercisedValue": 0
-      },
-      {
-        "maxAge": 1,
-        "name": "Dr. Hideshi  Tsusaki DVM Ph.D.",
-        "age": 58,
-        "title": "EMD, Dir., Hd of Tech. Inf.,Overseas Sales, NHP ARC & Glbl Busi. Dev. and GM of E&A Sales",
-        "yearBorn": 1967,
-        "fiscalYear": 2010,
-        "exercisedValue": 0,
-        "unexercisedValue": 0
-      },
-      {
-        "maxAge": 1,
-        "name": "Mr. Eishi  Tsunozaki",
-        "age": 58,
-        "title": "Senior MD & Director",
-        "yearBorn": 1967,
-        "fiscalYear": 2010,
-        "exercisedValue": 0,
-        "unexercisedValue": 0
-      },
-      {
-        "maxAge": 1,
-        "name": "Mr. Ichiro  Nagata",
-        "age": 40,
-        "title": "Sr. Executive VP, Head of CRO Business, Head of Hospitality Business & Director",
-        "yearBorn": 1985,
-        "fiscalYear": 2010,
-        "exercisedValue": 0,
-        "unexercisedValue": 0
-      },
-      {
-        "maxAge": 1,
-        "name": "Takashi  Iriyama",
-        "age": 57,
-        "title": "SMEO, Head of Financial, Mgmt Acc, Corporate Strategy Div & Deputy NHP ARC Manager",
-        "yearBorn": 1968,
-        "fiscalYear": 2010,
-        "exercisedValue": 0,
-        "unexercisedValue": 0
-      },
-      {
-        "maxAge": 1,
-        "name": "Yukihiro  Kiya",
-        "title": "Senior Executive Officer & Head of IT",
-        "fiscalYear": 2010,
         "exercisedValue": 0,
         "unexercisedValue": 0
       }
@@ -1211,7 +1132,6 @@
     "shareHolderRightsRisk": 10,
     "overallRisk": 9,
     "governanceEpochDate": 1785542400,
-    "compensationAsOfEpochDate": 1293753600,
     "executiveTeam": [],
     "maxAge": 86400,
     "priceHint": 2,
@@ -1236,8 +1156,8 @@
     "averageVolume": 240687,
     "averageVolume10days": 344930,
     "averageDailyVolume10Day": 344930,
-    "bid": 1484.0,
-    "ask": 1486.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 61823246336,
@@ -1311,8 +1231,20 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1078704000000,
     "regularMarketChange": -12.0,
+    "fulldayPrice": 1485.0,
     "regularMarketDayRange": "1450.0 - 1499.0",
+    "marketState": "PREPRE",
+    "regularMarketChangePercent": -0.8016032,
+    "regularMarketPrice": 1485.0,
+    "shortName": "SHIN NIPPON BIOMEDICAL LABORATO",
+    "longName": "Shin Nippon Biomedical Laboratories, Ltd.",
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "averageAnalystRating": "2.0 - Buy",
+    "cryptoTradeable": false,
     "fullExchangeName": "Tokyo",
     "averageDailyVolume3Month": 240687,
     "fiftyTwoWeekLowChange": 418.0,
@@ -1330,10 +1262,6 @@
     "fiftyDayAverageChangePercent": 0.20916523,
     "twoHundredDayAverageChange": 6.839966,
     "twoHundredDayAverageChangePercent": 0.004627351,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "averageAnalystRating": "2.0 - Buy",
-    "cryptoTradeable": false,
     "corporateActions": [],
     "regularMarketTime": 1786689000,
     "exchange": "JPX",
@@ -1343,13 +1271,6 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "regularMarketChangePercent": -0.8016032,
-    "regularMarketPrice": 1485.0,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1078704000000,
-    "marketState": "CLOSED",
-    "shortName": "SHIN NIPPON BIOMEDICAL LABORATO",
-    "longName": "Shin Nippon Biomedical Laboratories, Ltd.",
     "trailingPegRatio": null
   }
 }

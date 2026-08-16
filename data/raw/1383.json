@@ -1,7 +1,7 @@
 {
   "ticker": "1383",
   "japanese_ticker": "1383.T",
-  "fetch_date": "2026-08-15T23:12:43.149129",
+  "fetch_date": "2026-08-16T23:11:48.314188",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-10-31 00:00:00": 41892936.0,
@@ -1205,8 +1205,8 @@
     "averageVolume": 2342,
     "averageVolume10days": 1110,
     "averageDailyVolume10Day": 1110,
-    "bid": 3010.0,
-    "ask": 3015.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 4825073152,
@@ -1273,9 +1273,8 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1322524800000,
     "regularMarketChange": -5.0,
+    "fulldayPrice": 3015.0,
     "regularMarketDayRange": "2997.0 - 3015.0",
     "fullExchangeName": "Tokyo",
     "averageDailyVolume3Month": 2342,
@@ -1288,8 +1287,8 @@
     "earningsTimestampStart": 1749796200,
     "earningsTimestampEnd": 1749796200,
     "isEarningsDateEstimate": false,
+    "marketState": "PREPRE",
     "epsTrailingTwelveMonths": 65.73,
-    "marketState": "CLOSED",
     "fiftyDayAverageChange": 89.82007,
     "fiftyDayAverageChangePercent": 0.030705826,
     "twoHundredDayAverageChange": -51.48999,
@@ -1306,9 +1305,11 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "shortName": "BERG EARTH CO LTD",
     "regularMarketChangePercent": -0.16556291,
     "regularMarketPrice": 3015.0,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1322524800000,
+    "shortName": "BERG EARTH CO LTD",
     "longName": "Berg Earth Co.,Ltd.",
     "trailingPegRatio": null
   }

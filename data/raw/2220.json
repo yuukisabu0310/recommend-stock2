@@ -1,7 +1,7 @@
 {
   "ticker": "2220",
   "japanese_ticker": "2220.T",
-  "fetch_date": "2026-08-15T23:19:05.533212",
+  "fetch_date": "2026-08-16T23:18:20.356806",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": 1575760000.0,
@@ -1129,43 +1129,6 @@
         "yearBorn": 1965,
         "exercisedValue": 0,
         "unexercisedValue": 0
-      },
-      {
-        "maxAge": 1,
-        "name": "Hiroyuki  Kaneko",
-        "title": "Managing Executive Officer and GM of Human Resources & General Affairs Division",
-        "exercisedValue": 0,
-        "unexercisedValue": 0
-      },
-      {
-        "maxAge": 1,
-        "name": "Naoko  Koizumi",
-        "age": 55,
-        "title": "MD & Director",
-        "yearBorn": 1970,
-        "exercisedValue": 0,
-        "unexercisedValue": 0
-      },
-      {
-        "maxAge": 1,
-        "name": "Shinichi  Furusawa",
-        "title": "Managing Executive Officer & GM of Food Business Division",
-        "exercisedValue": 0,
-        "unexercisedValue": 0
-      },
-      {
-        "maxAge": 1,
-        "name": "Mayama  Yasuhiro",
-        "title": "Senior Managing Executive Officer & GM of Domestic Rice Cracker Business",
-        "exercisedValue": 0,
-        "unexercisedValue": 0
-      },
-      {
-        "maxAge": 1,
-        "name": "Satoshi  Torigoe",
-        "title": "Managing Executive Officer & GM of Corporate Planning Department",
-        "exercisedValue": 0,
-        "unexercisedValue": 0
       }
     ],
     "irWebsite": "http://www.kamedaseika.co.jp/en/investor/investorIndex.html",
@@ -1192,8 +1155,8 @@
     "averageVolume": 206709,
     "averageVolume10days": 245960,
     "averageDailyVolume10Day": 245960,
-    "bid": 1340.0,
-    "ask": 1345.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "marketCap": 85070110720,
     "nonDilutedMarketCap": 85070106750,
     "fiftyTwoWeekLow": 1165.0,
@@ -1258,13 +1221,7 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 206709,
-    "fiftyTwoWeekLowChange": 180.0,
-    "fiftyTwoWeekLowChangePercent": 0.15450644,
-    "fiftyTwoWeekRange": "1165.0 - 1538.0",
-    "fiftyTwoWeekHighChange": -193.0,
-    "fiftyTwoWeekHighChangePercent": -0.12548764,
+    "marketState": "PREPRE",
     "fiftyTwoWeekChangePercent": -3.928572,
     "earningsTimestampStart": 1753941600,
     "earningsTimestampEnd": 1754287200,
@@ -1277,8 +1234,22 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
-    "regularMarketChangePercent": 2.281369,
-    "regularMarketPrice": 1345.0,
+    "shortName": "KAMEDA SEIKA CO",
+    "longName": "Kameda Seika Co.,Ltd.",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 978307200000,
+    "regularMarketChange": 30.0,
+    "fulldayPrice": 1345.0,
+    "regularMarketDayRange": "1310.0 - 1345.0",
+    "fullExchangeName": "Tokyo",
+    "averageDailyVolume3Month": 206709,
+    "fiftyTwoWeekLowChange": 180.0,
+    "fiftyTwoWeekLowChangePercent": 0.15450644,
+    "fiftyTwoWeekRange": "1165.0 - 1538.0",
+    "fiftyTwoWeekHighChange": -193.0,
+    "fiftyTwoWeekHighChangePercent": -0.12548764,
+    "corporateActions": [],
+    "regularMarketTime": 1786689000,
     "exchange": "JPX",
     "messageBoardId": "finmb_5496016",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1286,15 +1257,8 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 978307200000,
-    "regularMarketChange": 30.0,
-    "regularMarketDayRange": "1310.0 - 1345.0",
-    "marketState": "CLOSED",
-    "corporateActions": [],
-    "regularMarketTime": 1786689000,
-    "shortName": "KAMEDA SEIKA CO",
-    "longName": "Kameda Seika Co.,Ltd.",
+    "regularMarketChangePercent": 2.281369,
+    "regularMarketPrice": 1345.0,
     "trailingPegRatio": null
   }
 }

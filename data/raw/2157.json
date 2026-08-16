@@ -1,7 +1,7 @@
 {
   "ticker": "2157",
   "japanese_ticker": "2157.T",
-  "fetch_date": "2026-08-15T23:18:04.446555",
+  "fetch_date": "2026-08-16T23:17:17.587814",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-08-31 00:00:00": -1160930925.0,
@@ -1046,8 +1046,8 @@
     "averageVolume": 514423,
     "averageVolume10days": 745850,
     "averageDailyVolume10Day": 745850,
-    "bid": 1036.0,
-    "ask": 1038.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 85934112768,
@@ -1067,7 +1067,7 @@
     "profitMargins": 0.06955,
     "floatShares": 73072967,
     "sharesOutstanding": 82868004,
-    "heldPercentInsiders": 0.38164002,
+    "heldPercentInsiders": 0.38181,
     "heldPercentInstitutions": 0.35449,
     "impliedSharesOutstanding": 82868004,
     "bookValue": 470.71,
@@ -1115,37 +1115,10 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "corporateActions": [
-      {
-        "header": "Dividend",
-        "message": "2157.T announced a cash dividend of JPY 15.00 with an ex-date of Aug. 28, 2026",
-        "meta": {
-          "eventType": "DIVIDEND",
-          "dateEpochMs": 1787842800000,
-          "amount": "15.00"
-        }
-      }
-    ],
-    "regularMarketTime": 1786689000,
-    "exchange": "JPX",
-    "messageBoardId": "finmb_30663334",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
-    "regularMarketChangePercent": 1.4677104,
-    "regularMarketPrice": 1037.0,
-    "marketState": "CLOSED",
-    "shortName": "KOSHIDAKA HOLDINGS CO LTD",
-    "longName": "Koshidaka Holdings Co., Ltd.",
-    "twoHundredDayAverageChangePercent": -0.047662802,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1182902400000,
     "regularMarketChange": 15.0,
+    "fulldayPrice": 1037.0,
     "regularMarketDayRange": "1021.0 - 1039.0",
     "fullExchangeName": "Tokyo",
     "averageDailyVolume3Month": 514423,
@@ -1162,9 +1135,37 @@
     "isEarningsDateEstimate": false,
     "epsTrailingTwelveMonths": 66.99,
     "epsForward": 63.68,
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
+    "regularMarketChangePercent": 1.4677104,
+    "regularMarketPrice": 1037.0,
+    "marketState": "PREPRE",
     "fiftyDayAverageChange": 40.820007,
     "fiftyDayAverageChangePercent": 0.04097654,
     "twoHundredDayAverageChange": -51.900024,
+    "twoHundredDayAverageChangePercent": -0.047662802,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "2157.T announced a cash dividend of JPY 15.00 with an ex-date of Aug. 28, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1787842800000,
+          "amount": "15.00"
+        }
+      }
+    ],
+    "regularMarketTime": 1786689000,
+    "exchange": "JPX",
+    "messageBoardId": "finmb_30663334",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "shortName": "KOSHIDAKA HOLDINGS CO LTD",
+    "longName": "Koshidaka Holdings Co., Ltd.",
     "trailingPegRatio": null
   }
 }

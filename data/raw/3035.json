@@ -1,7 +1,7 @@
 {
   "ticker": "3035",
   "japanese_ticker": "3035.T",
-  "fetch_date": "2026-08-15T23:28:00.202844",
+  "fetch_date": "2026-08-16T23:27:22.147061",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-08-31 00:00:00": 13746348.0,
@@ -1100,8 +1100,8 @@
     "averageVolume": 16173,
     "averageVolume10days": 53170,
     "averageDailyVolume10Day": 53170,
-    "bid": 813.0,
-    "ask": 814.0,
+    "bid": 0.0,
+    "ask": 803.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 4455186432,
@@ -1166,9 +1166,19 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "exchange": "JPX",
+    "messageBoardId": "finmb_26446893",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
+    "regularMarketChangePercent": 0.123001225,
+    "regularMarketPrice": 814.0,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1145318400000,
     "regularMarketChange": 1.0,
+    "fulldayPrice": 814.0,
     "regularMarketDayRange": "810.0 - 815.0",
     "fullExchangeName": "Tokyo",
     "averageDailyVolume3Month": 16173,
@@ -1189,8 +1199,6 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
-    "shortName": "KTK INC",
-    "longName": "ktk Inc.",
     "corporateActions": [
       {
         "header": "Dividend",
@@ -1203,16 +1211,9 @@
       }
     ],
     "regularMarketTime": 1786689000,
-    "exchange": "JPX",
-    "messageBoardId": "finmb_26446893",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
-    "regularMarketChangePercent": 0.123001225,
-    "regularMarketPrice": 814.0,
-    "marketState": "CLOSED",
+    "marketState": "PREPRE",
+    "shortName": "KTK INC",
+    "longName": "ktk Inc.",
     "trailingPegRatio": null
   }
 }

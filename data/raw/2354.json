@@ -1,7 +1,7 @@
 {
   "ticker": "2354",
   "japanese_ticker": "2354.T",
-  "fetch_date": "2026-08-15T23:20:42.580030",
+  "fetch_date": "2026-08-16T23:19:59.236921",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-02-28 00:00:00": 4647178.0,
@@ -1097,8 +1097,8 @@
     "averageVolume": 1085900,
     "averageVolume10days": 1238080,
     "averageDailyVolume10Day": 1238080,
-    "bid": 1380.0,
-    "ask": 1385.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 24635510784,
@@ -1162,7 +1162,6 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "marketState": "CLOSED",
     "corporateActions": [
       {
         "header": "Dividend",
@@ -1187,9 +1186,9 @@
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1045785600000,
     "regularMarketChange": 14.0,
+    "fulldayPrice": 1382.0,
     "regularMarketDayRange": "1350.0 - 1476.0",
     "fullExchangeName": "Tokyo",
-    "shortName": "YE DIGITAL CORPORATION",
     "averageDailyVolume3Month": 1085900,
     "fiftyTwoWeekLowChange": 786.0,
     "fiftyTwoWeekLowChangePercent": 1.318792,
@@ -1208,6 +1207,8 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
+    "marketState": "PREPRE",
+    "shortName": "YE DIGITAL CORPORATION",
     "longName": "YE DIGITAL Corporation",
     "trailingPegRatio": null
   }

@@ -1,7 +1,7 @@
 {
   "ticker": "2376",
   "japanese_ticker": "2376.T",
-  "fetch_date": "2026-08-15T23:20:56.264066",
+  "fetch_date": "2026-08-16T23:20:12.951658",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": -14850400.0,
@@ -1188,8 +1188,8 @@
     "averageVolume": 3123,
     "averageVolume10days": 2540,
     "averageDailyVolume10Day": 2540,
-    "bid": 762.0,
-    "ask": 769.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 4306930688,
@@ -1252,7 +1252,10 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "marketState": "CLOSED",
+    "cryptoTradeable": false,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1068163200000,
+    "marketState": "PREPRE",
     "corporateActions": [],
     "regularMarketTime": 1786689000,
     "exchange": "JPX",
@@ -1266,9 +1269,8 @@
     "regularMarketPrice": 768.0,
     "shortName": "SCINEX CORPORATION",
     "longName": "Scinex Corporation",
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1068163200000,
     "regularMarketChange": -1.0,
+    "fulldayPrice": 768.0,
     "regularMarketDayRange": "768.0 - 783.0",
     "fullExchangeName": "Tokyo",
     "averageDailyVolume3Month": 3123,
@@ -1288,7 +1290,6 @@
     "twoHundredDayAverageChangePercent": 0.029104317,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
     "trailingPegRatio": null
   }
 }

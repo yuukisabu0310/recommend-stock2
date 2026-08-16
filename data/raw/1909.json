@@ -1,7 +1,7 @@
 {
   "ticker": "1909",
   "japanese_ticker": "1909.T",
-  "fetch_date": "2026-08-15T23:15:52.832914",
+  "fetch_date": "2026-08-16T23:15:01.234211",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": -137620510.251879,
@@ -1113,15 +1113,6 @@
     "companyOfficers": [
       {
         "maxAge": 1,
-        "name": "Masafumi  Kamei",
-        "age": 68,
-        "title": "President & Representative Director",
-        "yearBorn": 1957,
-        "exercisedValue": 0,
-        "unexercisedValue": 0
-      },
-      {
-        "maxAge": 1,
         "name": "Hideki  Karasawa",
         "age": 59,
         "title": "Deputy GM of Business Operations Division & Director",
@@ -1133,22 +1124,6 @@
         "maxAge": 1,
         "name": "Kenji  Oki",
         "title": "Head of Technology Headquarters",
-        "exercisedValue": 0,
-        "unexercisedValue": 0
-      },
-      {
-        "maxAge": 1,
-        "name": "Takuhiro  Hiruta",
-        "title": "General Manager of Maintenance for Business Operations Division",
-        "exercisedValue": 0,
-        "unexercisedValue": 0
-      },
-      {
-        "maxAge": 1,
-        "name": "Toshiki  Matsuo",
-        "age": 57,
-        "title": "Head of Management Division & Director",
-        "yearBorn": 1968,
         "exercisedValue": 0,
         "unexercisedValue": 0
       }
@@ -1177,8 +1152,8 @@
     "averageVolume": 328620,
     "averageVolume10days": 118180,
     "averageDailyVolume10Day": 118180,
-    "bid": 3700.0,
-    "ask": 3705.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 99214401536,
@@ -1194,7 +1169,7 @@
     "trailingAnnualDividendYield": 0.0060728746,
     "currency": "JPY",
     "tradeable": false,
-    "enterpriseValue": 97612480512,
+    "enterpriseValue": 97478402048,
     "profitMargins": 0.090220004,
     "sharesOutstanding": 26814704,
     "heldPercentInsiders": 0.64615,
@@ -1211,8 +1186,8 @@
     "forwardEps": 492.5,
     "lastSplitFactor": "1:4400000",
     "lastSplitDate": 1789344000,
-    "enterpriseToRevenue": 1.602,
-    "enterpriseToEbitda": 10.329,
+    "enterpriseToRevenue": 1.599,
+    "enterpriseToEbitda": 10.315,
     "52WeekChange": 1.4503312,
     "SandP52WeekChange": 0.2072537,
     "lastDividendValue": 13.75,
@@ -1245,12 +1220,9 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "fiftyTwoWeekLowChange": 2220.0,
-    "fiftyTwoWeekLowChangePercent": 1.5,
-    "fiftyTwoWeekRange": "1480.0 - 3850.0",
-    "fiftyTwoWeekHighChange": -150.0,
-    "fiftyTwoWeekHighChangePercent": -0.038961038,
-    "fiftyTwoWeekChangePercent": 145.03313,
+    "shortName": "NIPPON DRY-CHEMICAL CO LTD",
+    "longName": "Nippon Dry-Chemical Co., Ltd.",
+    "marketState": "PREPRE",
     "earningsTimestampStart": 1754550000,
     "earningsTimestampEnd": 1754895600,
     "isEarningsDateEstimate": true,
@@ -1266,9 +1238,16 @@
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1309305600000,
     "regularMarketChange": -5.0,
+    "fulldayPrice": 3700.0,
     "regularMarketDayRange": "3700.0 - 3710.0",
     "fullExchangeName": "Tokyo",
     "averageDailyVolume3Month": 328620,
+    "fiftyTwoWeekLowChange": 2220.0,
+    "fiftyTwoWeekLowChangePercent": 1.5,
+    "fiftyTwoWeekRange": "1480.0 - 3850.0",
+    "fiftyTwoWeekHighChange": -150.0,
+    "fiftyTwoWeekHighChangePercent": -0.038961038,
+    "fiftyTwoWeekChangePercent": 145.03313,
     "corporateActions": [
       {
         "header": "Reverse stock split",
@@ -1288,11 +1267,8 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "marketState": "CLOSED",
     "regularMarketChangePercent": -0.13495277,
     "regularMarketPrice": 3700.0,
-    "shortName": "NIPPON DRY-CHEMICAL CO LTD",
-    "longName": "Nippon Dry-Chemical Co., Ltd.",
     "trailingPegRatio": null
   }
 }

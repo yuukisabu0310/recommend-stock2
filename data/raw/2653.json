@@ -1,7 +1,7 @@
 {
   "ticker": "2653",
   "japanese_ticker": "2653.T",
-  "fetch_date": "2026-08-15T23:23:14.384541",
+  "fetch_date": "2026-08-16T23:22:34.627185",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-02-28 00:00:00": -999936000.0,
@@ -1297,8 +1297,8 @@
     "averageVolume": 18719,
     "averageVolume10days": 19970,
     "averageDailyVolume10Day": 19970,
-    "bid": 2845.0,
-    "ask": 2848.0,
+    "bid": 0.0,
+    "ask": 2849.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 97347559424,
@@ -1363,11 +1363,31 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "marketState": "CLOSED",
+    "shortName": "AEON KYUSHU CO LTD",
+    "longName": "Aeon Kyushu Co., Ltd.",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 965606400000,
     "regularMarketChange": -1.0,
-    "regularMarketDayRange": "2841.0 - 2848.0",
+    "fulldayPrice": 2848.0,
+    "fiftyDayAverageChange": 28.100098,
+    "fiftyDayAverageChangePercent": 0.009964927,
+    "twoHundredDayAverageChange": -0.60498047,
+    "twoHundredDayAverageChangePercent": -0.00021237781,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "2653.T announced a cash dividend of JPY 25.00 with an ex-date of Aug. 28, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1787842800000,
+          "amount": "25.00"
+        }
+      }
+    ],
+    "regularMarketTime": 1786689000,
     "exchange": "JPX",
     "messageBoardId": "finmb_9220820",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1375,8 +1395,10 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
+    "marketState": "PREPRE",
     "regularMarketChangePercent": -0.035100035,
     "regularMarketPrice": 2848.0,
+    "regularMarketDayRange": "2841.0 - 2848.0",
     "fullExchangeName": "Tokyo",
     "averageDailyVolume3Month": 18719,
     "fiftyTwoWeekLowChange": 103.0,
@@ -1391,27 +1413,6 @@
     "earningsCallTimestampEnd": 1744369140,
     "isEarningsDateEstimate": true,
     "epsTrailingTwelveMonths": 174.87,
-    "fiftyDayAverageChange": 28.100098,
-    "fiftyDayAverageChangePercent": 0.009964927,
-    "twoHundredDayAverageChange": -0.60498047,
-    "twoHundredDayAverageChangePercent": -0.00021237781,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
-    "shortName": "AEON KYUSHU CO LTD",
-    "longName": "Aeon Kyushu Co., Ltd.",
-    "corporateActions": [
-      {
-        "header": "Dividend",
-        "message": "2653.T announced a cash dividend of JPY 25.00 with an ex-date of Aug. 28, 2026",
-        "meta": {
-          "eventType": "DIVIDEND",
-          "dateEpochMs": 1787842800000,
-          "amount": "25.00"
-        }
-      }
-    ],
-    "regularMarketTime": 1786689000,
     "trailingPegRatio": null
   }
 }

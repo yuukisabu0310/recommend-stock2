@@ -1,7 +1,7 @@
 {
   "ticker": "1926",
   "japanese_ticker": "1926.T",
-  "fetch_date": "2026-08-15T23:16:01.480538",
+  "fetch_date": "2026-08-16T23:15:10.263534",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": -89748000.0,
@@ -1314,8 +1314,8 @@
     "averageVolume": 154855,
     "averageVolume10days": 203460,
     "averageDailyVolume10Day": 203460,
-    "bid": 3750.0,
-    "ask": 3755.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 153947996160,
@@ -1389,8 +1389,6 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "shortName": "RAITO KOGYO CO LTD",
-    "longName": "Raito Kogyo Co., Ltd.",
     "corporateActions": [],
     "regularMarketTime": 1786689000,
     "exchange": "JPX",
@@ -1400,6 +1398,10 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
+    "regularMarketChangePercent": 0.13351135,
+    "regularMarketPrice": 3750.0,
+    "marketState": "PREPRE",
+    "cryptoTradeable": false,
     "epsTrailingTwelveMonths": 288.38,
     "epsForward": 210.72,
     "fiftyDayAverageChange": -183.80005,
@@ -1409,12 +1411,12 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "averageAnalystRating": "3.3 - Hold",
-    "cryptoTradeable": false,
-    "regularMarketChangePercent": 0.13351135,
-    "regularMarketPrice": 3750.0,
+    "shortName": "RAITO KOGYO CO LTD",
+    "longName": "Raito Kogyo Co., Ltd.",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 978307200000,
     "regularMarketChange": 5.0,
+    "fulldayPrice": 3750.0,
     "regularMarketDayRange": "3735.0 - 3775.0",
     "fullExchangeName": "Tokyo",
     "averageDailyVolume3Month": 154855,
@@ -1427,7 +1429,6 @@
     "earningsTimestampStart": 1754377200,
     "earningsTimestampEnd": 1754982000,
     "isEarningsDateEstimate": true,
-    "marketState": "CLOSED",
     "trailingPegRatio": null
   }
 }

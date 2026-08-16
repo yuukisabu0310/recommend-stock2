@@ -1,7 +1,7 @@
 {
   "ticker": "1852",
   "japanese_ticker": "1852.T",
-  "fetch_date": "2026-08-15T23:15:14.122695",
+  "fetch_date": "2026-08-16T23:14:21.524607",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": -8010000.0,
@@ -1001,65 +1001,10 @@
       },
       {
         "maxAge": 1,
-        "name": "Marika  Asanuma",
-        "title": "Executive Officer and GM of the Corporate Communications & Strategic Planning Division",
-        "exercisedValue": 0,
-        "unexercisedValue": 0
-      },
-      {
-        "maxAge": 1,
-        "name": "Jinichi  Nakamura",
-        "title": "Senior Executive Officer",
-        "exercisedValue": 0,
-        "unexercisedValue": 0
-      },
-      {
-        "maxAge": 1,
-        "name": "Mr. Akihiro  Toyota",
-        "age": 66,
-        "title": "Senior Managing Officer, Head of Strategic Planning Division & Representative Director",
-        "yearBorn": 1959,
-        "exercisedValue": 0,
-        "unexercisedValue": 0
-      },
-      {
-        "maxAge": 1,
         "name": "Mr. Masahiro  Fujisawa",
         "age": 66,
         "title": "Senior Managing Executive Officer, GM of Construction Business Division & Director",
         "yearBorn": 1959,
-        "exercisedValue": 0,
-        "unexercisedValue": 0
-      },
-      {
-        "maxAge": 1,
-        "name": "Mr. Yoshimichi  Yagi",
-        "age": 65,
-        "title": "Former Managing Executive Officer & Director",
-        "yearBorn": 1960,
-        "exercisedValue": 0,
-        "unexercisedValue": 0
-      },
-      {
-        "maxAge": 1,
-        "name": "Mr. Itaru  Terai",
-        "age": 65,
-        "title": "Managing Executive Officer, GM Civil Engineering Division & Director",
-        "yearBorn": 1960,
-        "exercisedValue": 0,
-        "unexercisedValue": 0
-      },
-      {
-        "maxAge": 1,
-        "name": "Katsutoshi  Odajima",
-        "title": "Managing Executive Officer",
-        "exercisedValue": 0,
-        "unexercisedValue": 0
-      },
-      {
-        "maxAge": 1,
-        "name": "Kiyoshi  Hasegawa",
-        "title": "Managing Executive Officer",
         "exercisedValue": 0,
         "unexercisedValue": 0
       }
@@ -1087,8 +1032,8 @@
     "averageVolume": 537109,
     "averageVolume10days": 614890,
     "averageDailyVolume10Day": 614890,
-    "bid": 924.0,
-    "ask": 925.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 74401071104,
@@ -1108,7 +1053,7 @@
     "profitMargins": 0.03299,
     "floatShares": 65574393,
     "sharesOutstanding": 80520639,
-    "heldPercentInsiders": 0.13114999,
+    "heldPercentInsiders": 0.14253001,
     "heldPercentInstitutions": 0.16360001,
     "impliedSharesOutstanding": 80520639,
     "bookValue": 600.816,
@@ -1163,6 +1108,21 @@
     "fiftyTwoWeekHighChange": -309.0,
     "fiftyTwoWeekHighChangePercent": -0.25060827,
     "fiftyTwoWeekChangePercent": 6.944442,
+    "shortName": "ASANUMA CORP",
+    "longName": "Asanuma Corporation",
+    "marketState": "PREPRE",
+    "exchange": "JPX",
+    "messageBoardId": "finmb_880661",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
+    "corporateActions": [],
+    "regularMarketTime": 1786689000,
+    "regularMarketChange": -2.0,
+    "fulldayPrice": 924.0,
+    "regularMarketDayRange": "917.0 - 928.0",
     "earningsTimestampStart": 1754460000,
     "earningsTimestampEnd": 1754978400,
     "isEarningsDateEstimate": true,
@@ -1174,24 +1134,10 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
-    "shortName": "ASANUMA CORP",
-    "longName": "Asanuma Corporation",
-    "marketState": "CLOSED",
-    "corporateActions": [],
-    "regularMarketTime": 1786689000,
-    "exchange": "JPX",
-    "messageBoardId": "finmb_880661",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
-    "regularMarketChangePercent": -0.21598272,
-    "regularMarketPrice": 924.0,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 978307200000,
-    "regularMarketChange": -2.0,
-    "regularMarketDayRange": "917.0 - 928.0",
+    "regularMarketChangePercent": -0.21598272,
+    "regularMarketPrice": 924.0,
     "trailingPegRatio": null
   }
 }
