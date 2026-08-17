@@ -1,7 +1,7 @@
 {
   "ticker": "1992",
   "japanese_ticker": "1992.T",
-  "fetch_date": "2026-08-16T23:16:13.326166",
+  "fetch_date": "2026-08-17T23:20:44.238311",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": 28276125.0,
@@ -116,32 +116,32 @@
       "2022-03-31 00:00:00": null
     },
     "Diluted Average Shares": {
-      "2026-03-31 00:00:00": null,
+      "2026-03-31 00:00:00": 2285424.0,
       "2025-03-31 00:00:00": 2279423.0,
       "2024-03-31 00:00:00": 2345146.0,
       "2023-03-31 00:00:00": 2376586.0,
-      "2022-03-31 00:00:00": 2404888.0
+      "2022-03-31 00:00:00": null
     },
     "Basic Average Shares": {
-      "2026-03-31 00:00:00": null,
+      "2026-03-31 00:00:00": 2285424.0,
       "2025-03-31 00:00:00": 2279423.0,
       "2024-03-31 00:00:00": 2345190.0,
       "2023-03-31 00:00:00": 2376586.0,
-      "2022-03-31 00:00:00": 2404888.0
+      "2022-03-31 00:00:00": null
     },
     "Diluted EPS": {
-      "2026-03-31 00:00:00": null,
+      "2026-03-31 00:00:00": 163.1,
       "2025-03-31 00:00:00": 189.357131,
       "2024-03-31 00:00:00": 232.47,
       "2023-03-31 00:00:00": 161.49,
-      "2022-03-31 00:00:00": 234.12
+      "2022-03-31 00:00:00": null
     },
     "Basic EPS": {
-      "2026-03-31 00:00:00": null,
+      "2026-03-31 00:00:00": 163.1,
       "2025-03-31 00:00:00": 189.357131,
       "2024-03-31 00:00:00": 232.47,
       "2023-03-31 00:00:00": 161.49,
-      "2022-03-31 00:00:00": 234.12
+      "2022-03-31 00:00:00": null
     },
     "Diluted NI Availto Com Stockholders": {
       "2026-03-31 00:00:00": 372763000.0,
@@ -1097,7 +1097,7 @@
     "averageVolume10days": 150,
     "averageDailyVolume10Day": 150,
     "bid": 0.0,
-    "ask": 0.0,
+    "ask": 3100.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 6756987392,
@@ -1162,20 +1162,6 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "corporateActions": [],
-    "marketState": "PREPRE",
-    "shortName": "KANDA TSUSHINKI CO",
-    "longName": "Kanda Tsushinki Co., Ltd.",
-    "regularMarketTime": 1786511331,
-    "exchange": "JPX",
-    "messageBoardId": "finmb_9264357",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
-    "regularMarketChangePercent": 0.0,
-    "regularMarketPrice": 2951.0,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 946944000000,
     "regularMarketChange": 0.0,
@@ -1200,6 +1186,20 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
+    "shortName": "KANDA TSUSHINKI CO",
+    "longName": "Kanda Tsushinki Co., Ltd.",
+    "marketState": "PREPRE",
+    "corporateActions": [],
+    "regularMarketTime": 1786511331,
+    "exchange": "JPX",
+    "messageBoardId": "finmb_9264357",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
+    "regularMarketChangePercent": 0.0,
+    "regularMarketPrice": 2951.0,
     "trailingPegRatio": null
   }
 }
