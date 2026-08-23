@@ -1,7 +1,7 @@
 {
   "ticker": "2903",
   "japanese_ticker": "2903.T",
-  "fetch_date": "2026-08-22T23:26:17.261733",
+  "fetch_date": "2026-08-23T23:27:19.282774",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": -7878000.0,
@@ -1109,8 +1109,8 @@
     "averageVolume": 3880,
     "averageVolume10days": 3280,
     "averageDailyVolume10Day": 3280,
-    "bid": 1583.0,
-    "ask": 1603.0,
+    "bid": 1582.0,
+    "ask": 1582.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 16875918336,
@@ -1176,11 +1176,8 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 954806400000,
-    "cryptoTradeable": false,
-    "regularMarketChange": -1.0,
-    "regularMarketDayRange": "1583.0 - 1584.0",
+    "shortName": "SHINOBU FOOD PRODUCTS CO",
+    "longName": "Shinobu Foods Products Co., Ltd.",
     "fullExchangeName": "Tokyo",
     "averageDailyVolume3Month": 3880,
     "fiftyTwoWeekLowChange": 192.0,
@@ -1199,9 +1196,11 @@
     "twoHundredDayAverageChangePercent": -0.048163056,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
-    "shortName": "SHINOBU FOOD PRODUCTS CO",
-    "longName": "Shinobu Foods Products Co., Ltd.",
-    "marketState": "CLOSED",
+    "cryptoTradeable": false,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 954806400000,
+    "regularMarketChange": -1.0,
+    "regularMarketDayRange": "1583.0 - 1584.0",
     "corporateActions": [],
     "regularMarketTime": 1787286049,
     "exchange": "JPX",
@@ -1213,6 +1212,7 @@
     "esgPopulated": false,
     "regularMarketChangePercent": -0.06313131,
     "regularMarketPrice": 1583.0,
+    "marketState": "PREPRE",
     "trailingPegRatio": null
   }
 }

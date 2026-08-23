@@ -1,7 +1,7 @@
 {
   "ticker": "1803",
   "japanese_ticker": "1803.T",
-  "fetch_date": "2026-08-22T23:14:38.212296",
+  "fetch_date": "2026-08-23T23:14:40.003410",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": 23575984000.0,
@@ -64,13 +64,6 @@
       "2025-03-31 00:00:00": 147850000000.0,
       "2024-03-31 00:00:00": 69451000000.0,
       "2023-03-31 00:00:00": 105139000000.0,
-      "2022-03-31 00:00:00": null
-    },
-    "EBIT": {
-      "2026-03-31 00:00:00": 200905000000.0,
-      "2025-03-31 00:00:00": null,
-      "2024-03-31 00:00:00": null,
-      "2023-03-31 00:00:00": null,
       "2022-03-31 00:00:00": null
     },
     "Net Interest Income": {
@@ -468,12 +461,6 @@
       "2025-03-31 00:00:00": 288959000000.0,
       "2024-03-31 00:00:00": 310086000000.0,
       "2023-03-31 00:00:00": 343184000000.0
-    },
-    "Long Term Debt": {
-      "2026-03-31 00:00:00": 316408000000.0,
-      "2025-03-31 00:00:00": null,
-      "2024-03-31 00:00:00": null,
-      "2023-03-31 00:00:00": null
     },
     "Current Liabilities": {
       "2026-03-31 00:00:00": 1240276000000.0,
@@ -1146,18 +1133,18 @@
     "averageVolume": 3311649,
     "averageVolume10days": 2765940,
     "averageDailyVolume10Day": 2765940,
-    "bid": 2335.0,
-    "ask": 2337.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
-    "marketCap": 1586953846784,
+    "marketCap": 1586925273088,
     "nonDilutedMarketCap": 1586925234017,
     "fiftyTwoWeekLow": 1875.0,
     "fiftyTwoWeekHigh": 3618.0,
     "allTimeHigh": 3618.0,
     "allTimeLow": 223.0,
     "fulldayPrice": 2336.5,
-    "priceToSalesTrailing12Months": 0.7561129,
+    "priceToSalesTrailing12Months": 0.7560993,
     "fiftyDayAverage": 2475.23,
     "twoHundredDayAverage": 2756.1025,
     "trailingAnnualDividendRate": 72.0,
@@ -1167,10 +1154,10 @@
     "enterpriseValue": 1740352126976,
     "profitMargins": 0.08135,
     "floatShares": 567874408,
-    "sharesOutstanding": 679201277,
+    "sharesOutstanding": 679189058,
     "heldPercentInsiders": 0.24257,
     "heldPercentInstitutions": 0.3171,
-    "impliedSharesOutstanding": 679201277,
+    "impliedSharesOutstanding": 679189058,
     "bookValue": 1494.424,
     "priceToBook": 1.5634787,
     "lastFiscalYearEnd": 1774915200,
@@ -1221,6 +1208,7 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "marketState": "PREPRE",
     "shortName": "SHIMIZU CORP",
     "longName": "Shimizu Corporation",
     "corporateActions": [],
@@ -1234,6 +1222,12 @@
     "esgPopulated": false,
     "regularMarketChangePercent": -0.23484202,
     "regularMarketPrice": 2336.5,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 946944000000,
+    "regularMarketChange": -5.5,
+    "regularMarketDayRange": "2306.5 - 2339.0",
+    "fullExchangeName": "Tokyo",
+    "averageDailyVolume3Month": 3311649,
     "fiftyTwoWeekLowChange": 461.5,
     "fiftyTwoWeekLowChangePercent": 0.24613333,
     "fiftyTwoWeekRange": "1875.0 - 3618.0",
@@ -1256,13 +1250,6 @@
     "exchangeDataDelayedBy": 20,
     "averageAnalystRating": "2.3 - Buy",
     "cryptoTradeable": false,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 946944000000,
-    "regularMarketChange": -5.5,
-    "regularMarketDayRange": "2306.5 - 2339.0",
-    "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 3311649,
-    "marketState": "CLOSED",
     "trailingPegRatio": null
   }
 }

@@ -1,7 +1,7 @@
 {
   "ticker": "2882",
   "japanese_ticker": "2882.T",
-  "fetch_date": "2026-08-22T23:26:04.371154",
+  "fetch_date": "2026-08-23T23:27:05.631883",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-02-28 00:00:00": -125600000.0,
@@ -1204,8 +1204,8 @@
     "averageVolume": 18341,
     "averageVolume10days": 20000,
     "averageDailyVolume10Day": 20000,
-    "bid": 2056.0,
-    "ask": 2062.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 23362572288,
@@ -1274,10 +1274,9 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "marketState": "PREPRE",
     "shortName": "EAT&HOLDINGS CO LTD",
-    "cryptoTradeable": false,
     "longName": "Eat & Holdings Co., Ltd.",
-    "marketState": "CLOSED",
     "corporateActions": [
       {
         "header": "Dividend",
@@ -1297,6 +1296,8 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
+    "regularMarketChangePercent": -0.048590865,
+    "regularMarketPrice": 2057.0,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1308873600000,
     "regularMarketChange": -1.0,
@@ -1321,9 +1322,8 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "prevName": "Eat&Co.,Ltd",
-    "nameChangeDate": "2026-08-22",
-    "regularMarketChangePercent": -0.048590865,
-    "regularMarketPrice": 2057.0,
+    "nameChangeDate": "2026-08-23",
+    "cryptoTradeable": false,
     "trailingPegRatio": null
   }
 }

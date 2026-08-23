@@ -1,7 +1,7 @@
 {
   "ticker": "2157",
   "japanese_ticker": "2157.T",
-  "fetch_date": "2026-08-22T23:18:10.265933",
+  "fetch_date": "2026-08-23T23:18:35.156868",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-08-31 00:00:00": -1160930925.0,
@@ -1046,8 +1046,8 @@
     "averageVolume": 539339,
     "averageVolume10days": 672280,
     "averageDailyVolume10Day": 672280,
-    "bid": 1054.0,
-    "ask": 1060.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 87425736704,
@@ -1116,8 +1116,8 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "regularMarketChangePercent": -0.09469697,
-    "regularMarketPrice": 1055.0,
+    "shortName": "KOSHIDAKA HOLDINGS CO LTD",
+    "longName": "Koshidaka Holdings Co., Ltd.",
     "corporateActions": [
       {
         "header": "Dividend",
@@ -1137,6 +1137,9 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
+    "regularMarketChangePercent": -0.09469697,
+    "regularMarketPrice": 1055.0,
+    "marketState": "PREPRE",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1182902400000,
     "regularMarketChange": -1.0,
@@ -1163,9 +1166,6 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
-    "shortName": "KOSHIDAKA HOLDINGS CO LTD",
-    "longName": "Koshidaka Holdings Co., Ltd.",
-    "marketState": "CLOSED",
     "trailingPegRatio": null
   }
 }

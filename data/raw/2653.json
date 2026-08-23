@@ -1,7 +1,7 @@
 {
   "ticker": "2653",
   "japanese_ticker": "2653.T",
-  "fetch_date": "2026-08-22T23:23:19.676057",
+  "fetch_date": "2026-08-23T23:24:07.277827",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-02-28 00:00:00": -999936000.0,
@@ -1297,8 +1297,8 @@
     "averageVolume": 19690,
     "averageVolume10days": 23180,
     "averageDailyVolume10Day": 23180,
-    "bid": 2823.0,
-    "ask": 2828.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 96493027328,
@@ -1366,9 +1366,7 @@
     "customPriceAlertConfidence": "LOW",
     "shortName": "AEON KYUSHU CO LTD",
     "longName": "Aeon Kyushu Co., Ltd.",
-    "regularMarketChangePercent": 0.07089684,
-    "regularMarketPrice": 2823.0,
-    "marketState": "CLOSED",
+    "marketState": "PREPRE",
     "corporateActions": [
       {
         "header": "Dividend",
@@ -1381,13 +1379,8 @@
       }
     ],
     "regularMarketTime": 1787293800,
-    "exchange": "JPX",
-    "messageBoardId": "finmb_9220820",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
+    "regularMarketChangePercent": 0.07089684,
+    "regularMarketPrice": 2823.0,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 965606400000,
     "regularMarketChange": 2.0,
@@ -1413,6 +1406,13 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
+    "exchange": "JPX",
+    "messageBoardId": "finmb_9220820",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
     "trailingPegRatio": null
   }
 }

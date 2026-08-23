@@ -1,7 +1,7 @@
 {
   "ticker": "2652",
   "japanese_ticker": "2652.T",
-  "fetch_date": "2026-08-22T23:23:17.892727",
+  "fetch_date": "2026-08-23T23:24:05.402079",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-09-30 00:00:00": -359074.0,
@@ -1014,8 +1014,8 @@
     "averageVolume": 176030,
     "averageVolume10days": 274190,
     "averageDailyVolume10Day": 274190,
-    "bid": 427.0,
-    "ask": 429.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 13865286656,
@@ -1085,16 +1085,10 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "marketState": "CLOSED",
     "shortName": "MANDARAKE INC",
     "longName": "Mandarake Inc.",
-    "regularMarketChangePercent": -0.23310024,
-    "regularMarketPrice": 428.0,
     "corporateActions": [],
     "regularMarketTime": 1787293800,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
     "exchange": "JPX",
     "messageBoardId": "finmb_1436987",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1102,6 +1096,9 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
+    "regularMarketChangePercent": -0.23310024,
+    "regularMarketPrice": 428.0,
+    "marketState": "PREPRE",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1127952000000,
     "regularMarketChange": -1.0,
@@ -1122,6 +1119,9 @@
     "fiftyDayAverageChangePercent": -0.0010735926,
     "twoHundredDayAverageChange": 63.005005,
     "twoHundredDayAverageChangePercent": 0.17261882,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
     "trailingPegRatio": null
   }
 }

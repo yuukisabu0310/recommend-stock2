@@ -1,7 +1,7 @@
 {
   "ticker": "1813",
   "japanese_ticker": "1813.T",
-  "fetch_date": "2026-08-22T23:14:49.041128",
+  "fetch_date": "2026-08-23T23:14:52.856448",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": 17080000.0,
@@ -1205,8 +1205,8 @@
     "averageVolume": 86512,
     "averageVolume10days": 67200,
     "averageDailyVolume10Day": 67200,
-    "bid": 2819.0,
-    "ask": 2825.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 42740109312,
@@ -1289,6 +1289,13 @@
     "esgPopulated": false,
     "regularMarketChangePercent": -0.42357925,
     "regularMarketPrice": 2821.0,
+    "marketState": "PREPRE",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 978566400000,
+    "regularMarketChange": -12.0,
+    "regularMarketDayRange": "2784.0 - 2838.0",
+    "fullExchangeName": "Tokyo",
+    "averageDailyVolume3Month": 86512,
     "fiftyTwoWeekLowChange": 438.0,
     "fiftyTwoWeekLowChangePercent": 0.18380193,
     "fiftyTwoWeekRange": "2383.0 - 4015.0",
@@ -1310,13 +1317,6 @@
     "exchangeDataDelayedBy": 20,
     "averageAnalystRating": "1.0 - Strong Buy",
     "cryptoTradeable": false,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 978566400000,
-    "regularMarketChange": -12.0,
-    "regularMarketDayRange": "2784.0 - 2838.0",
-    "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 86512,
-    "marketState": "CLOSED",
     "trailingPegRatio": null
   }
 }

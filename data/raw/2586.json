@@ -1,7 +1,7 @@
 {
   "ticker": "2586",
   "japanese_ticker": "2586.T",
-  "fetch_date": "2026-08-22T23:22:57.480214",
+  "fetch_date": "2026-08-23T23:23:43.681522",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": 0.0,
@@ -1091,8 +1091,8 @@
     "averageVolume": 2223938,
     "averageVolume10days": 1319540,
     "averageDailyVolume10Day": 1319540,
-    "bid": 79.0,
-    "ask": 80.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 9061164032,
@@ -1155,7 +1155,9 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "marketState": "CLOSED",
+    "marketState": "PREPRE",
+    "shortName": "FRUTA FRUTA INC",
+    "longName": "Fruta Fruta Inc.",
     "corporateActions": [],
     "regularMarketTime": 1787293800,
     "exchange": "JPX",
@@ -1165,10 +1167,11 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "shortName": "FRUTA FRUTA INC",
-    "longName": "Fruta Fruta Inc.",
     "regularMarketChangePercent": 0.0,
     "regularMarketPrice": 80.0,
+    "earningsTimestampStart": 1747290600,
+    "earningsTimestampEnd": 1747290600,
+    "isEarningsDateEstimate": false,
     "epsTrailingTwelveMonths": 0.78,
     "fiftyDayAverageChange": -16.620003,
     "fiftyDayAverageChangePercent": -0.1720141,
@@ -1189,9 +1192,6 @@
     "fiftyTwoWeekHighChange": -228.0,
     "fiftyTwoWeekHighChangePercent": -0.74025977,
     "fiftyTwoWeekChangePercent": -71.830986,
-    "earningsTimestampStart": 1747290600,
-    "earningsTimestampEnd": 1747290600,
-    "isEarningsDateEstimate": false,
     "trailingPegRatio": null
   }
 }

@@ -1,7 +1,7 @@
 {
   "ticker": "1770",
   "japanese_ticker": "1770.T",
-  "fetch_date": "2026-08-22T23:14:13.150927",
+  "fetch_date": "2026-08-23T23:14:13.467768",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": -26977324.0,
@@ -1167,8 +1167,8 @@
     "averageVolume": 3309,
     "averageVolume10days": 2310,
     "averageDailyVolume10Day": 2310,
-    "bid": 2091.0,
-    "ask": 2120.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 19212955648,
@@ -1236,6 +1236,7 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "marketState": "PREPRE",
     "fullExchangeName": "Tokyo",
     "averageDailyVolume3Month": 3309,
     "fiftyTwoWeekLowChange": 558.0,
@@ -1266,13 +1267,12 @@
     "esgPopulated": false,
     "regularMarketChangePercent": -0.14319809,
     "regularMarketPrice": 2092.0,
-    "marketState": "CLOSED",
+    "shortName": "FUJITA ENGINEERING CO",
+    "longName": "Fujita Engineering Co., Ltd.",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 946944000000,
     "regularMarketChange": -3.0,
     "regularMarketDayRange": "2087.0 - 2095.0",
-    "shortName": "FUJITA ENGINEERING CO",
-    "longName": "Fujita Engineering Co., Ltd.",
     "trailingPegRatio": null
   }
 }

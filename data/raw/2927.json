@@ -1,7 +1,7 @@
 {
   "ticker": "2927",
   "japanese_ticker": "2927.T",
-  "fetch_date": "2026-08-22T23:26:44.925252",
+  "fetch_date": "2026-08-23T23:27:50.463599",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-08-31 00:00:00": -53785494.0,
@@ -1181,8 +1181,8 @@
     "averageVolume": 27219,
     "averageVolume10days": 41990,
     "averageDailyVolume10Day": 41990,
-    "bid": 898.0,
-    "ask": 901.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 13118203904,
@@ -1250,11 +1250,34 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "cryptoTradeable": false,
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "2927.T announced a cash dividend of JPY 22.00 with an ex-date of Aug. 28, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1787842800000,
+          "amount": "22.00"
+        }
+      }
+    ],
+    "regularMarketTime": 1787293800,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1109808000000,
     "regularMarketChange": 5.0,
     "regularMarketDayRange": "893.0 - 901.0",
+    "regularMarketChangePercent": 0.55803573,
+    "regularMarketPrice": 901.0,
+    "marketState": "PREPRE",
+    "shortName": "AFC-HD AMS LIFE SCIENCE CO LTD",
+    "longName": "AFC-HD AMS Life Science Co., Ltd.",
+    "exchange": "JPX",
+    "messageBoardId": "finmb_20702650",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
     "fullExchangeName": "Tokyo",
     "averageDailyVolume3Month": 27219,
     "fiftyTwoWeekLowChange": 91.0,
@@ -1273,30 +1296,7 @@
     "twoHundredDayAverageChangePercent": 0.035858408,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
-    "corporateActions": [
-      {
-        "header": "Dividend",
-        "message": "2927.T announced a cash dividend of JPY 22.00 with an ex-date of Aug. 28, 2026",
-        "meta": {
-          "eventType": "DIVIDEND",
-          "dateEpochMs": 1787842800000,
-          "amount": "22.00"
-        }
-      }
-    ],
-    "regularMarketTime": 1787293800,
-    "exchange": "JPX",
-    "messageBoardId": "finmb_20702650",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
-    "regularMarketChangePercent": 0.55803573,
-    "regularMarketPrice": 901.0,
-    "shortName": "AFC-HD AMS LIFE SCIENCE CO LTD",
-    "longName": "AFC-HD AMS Life Science Co., Ltd.",
-    "marketState": "CLOSED",
+    "cryptoTradeable": false,
     "trailingPegRatio": null
   }
 }

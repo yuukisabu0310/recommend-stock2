@@ -1,7 +1,7 @@
 {
   "ticker": "2493",
   "japanese_ticker": "2493.T",
-  "fetch_date": "2026-08-22T23:22:32.508352",
+  "fetch_date": "2026-08-23T23:23:17.860742",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-11-30 00:00:00": -11137392.0,
@@ -1182,8 +1182,8 @@
     "averageVolume": 10007,
     "averageVolume10days": 2580,
     "averageDailyVolume10Day": 2580,
-    "bid": 948.0,
-    "ask": 949.0,
+    "bid": 0.0,
+    "ask": 950.0,
     "marketCap": 4198810624,
     "nonDilutedMarketCap": 4198810642,
     "fiftyTwoWeekLow": 901.0,
@@ -1249,13 +1249,7 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "shortName": "E SUPPORTLINK LTD",
-    "longName": "E-SUPPORTLINK, Ltd.",
-    "marketState": "CLOSED",
-    "regularMarketChangePercent": 0.31712475,
-    "regularMarketPrice": 949.0,
-    "corporateActions": [],
-    "regularMarketTime": 1787293800,
+    "marketState": "PREPRE",
     "exchange": "JPX",
     "messageBoardId": "finmb_27941528",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1263,8 +1257,11 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1155168000000,
+    "regularMarketChangePercent": 0.31712475,
+    "regularMarketPrice": 949.0,
+    "shortName": "E SUPPORTLINK LTD",
+    "corporateActions": [],
+    "regularMarketTime": 1787293800,
     "regularMarketChange": 3.0,
     "regularMarketDayRange": "945.0 - 949.0",
     "fullExchangeName": "Tokyo",
@@ -1288,6 +1285,9 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1155168000000,
+    "longName": "E-SUPPORTLINK, Ltd.",
     "trailingPegRatio": null
   }
 }

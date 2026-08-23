@@ -1,7 +1,7 @@
 {
   "ticker": "2373",
   "japanese_ticker": "2373.T",
-  "fetch_date": "2026-08-22T23:20:55.668878",
+  "fetch_date": "2026-08-23T23:21:31.614644",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-10-31 00:00:00": 41197200.0,
@@ -1231,8 +1231,8 @@
     "averageVolume": 10922,
     "averageVolume10days": 8190,
     "averageDailyVolume10Day": 8190,
-    "bid": 408.0,
-    "ask": 409.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 5531611136,
@@ -1300,6 +1300,10 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1066348800000,
+    "regularMarketChange": 1.0,
+    "regularMarketDayRange": "406.0 - 410.0",
     "fullExchangeName": "Tokyo",
     "averageDailyVolume3Month": 10922,
     "fiftyTwoWeekLowChange": 19.0,
@@ -1330,13 +1334,9 @@
     "esgPopulated": false,
     "regularMarketChangePercent": 0.24509805,
     "regularMarketPrice": 409.0,
-    "marketState": "CLOSED",
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1066348800000,
-    "regularMarketChange": 1.0,
-    "regularMarketDayRange": "406.0 - 410.0",
-    "shortName": "CARE TWENTYONE CORP",
     "longName": "Care Twentyone Corporation",
+    "marketState": "PREPRE",
+    "shortName": "CARE TWENTYONE CORP",
     "trailingPegRatio": null
   }
 }

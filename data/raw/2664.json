@@ -1,7 +1,7 @@
 {
   "ticker": "2664",
   "japanese_ticker": "2664.T",
-  "fetch_date": "2026-08-22T23:23:27.476991",
+  "fetch_date": "2026-08-23T23:24:15.373344",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": -973600000.0,
@@ -1062,8 +1062,8 @@
     "averageVolume": 79698,
     "averageVolume10days": 103040,
     "averageDailyVolume10Day": 103040,
-    "bid": 3780.0,
-    "ask": 3800.0,
+    "bid": 0.0,
+    "ask": 3790.0,
     "marketCap": 84535132160,
     "nonDilutedMarketCap": 84535124895,
     "fiftyTwoWeekLow": 2788.0,
@@ -1129,31 +1129,6 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "shortName": "CAWACHI LIMITED",
-    "cryptoTradeable": false,
-    "longName": "Cawachi Limited",
-    "marketState": "CLOSED",
-    "corporateActions": [
-      {
-        "header": "Dividend",
-        "message": "2664.T announced a cash dividend of JPY 50.00 with an ex-date of Sep. 14, 2026",
-        "meta": {
-          "eventType": "DIVIDEND",
-          "dateEpochMs": 1789311600000,
-          "amount": "50.00"
-        }
-      }
-    ],
-    "regularMarketTime": 1787293800,
-    "exchange": "JPX",
-    "messageBoardId": "finmb_5478544",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1038960000000,
     "regularMarketChange": -15.0,
     "regularMarketDayRange": "3755.0 - 3850.0",
     "fullExchangeName": "Tokyo",
@@ -1167,6 +1142,31 @@
     "earningsTimestampStart": 1753336800,
     "earningsTimestampEnd": 1753682400,
     "isEarningsDateEstimate": true,
+    "exchange": "JPX",
+    "messageBoardId": "finmb_5478544",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
+    "regularMarketChangePercent": -0.39473683,
+    "regularMarketPrice": 3785.0,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1038960000000,
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "2664.T announced a cash dividend of JPY 50.00 with an ex-date of Sep. 14, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1789311600000,
+          "amount": "50.00"
+        }
+      }
+    ],
+    "regularMarketTime": 1787293800,
+    "shortName": "CAWACHI LIMITED",
+    "longName": "Cawachi Limited",
     "epsTrailingTwelveMonths": 143.07,
     "fiftyDayAverageChange": 285.30005,
     "fiftyDayAverageChangePercent": 0.08152129,
@@ -1174,8 +1174,8 @@
     "twoHundredDayAverageChangePercent": 0.19751382,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
-    "regularMarketChangePercent": -0.39473683,
-    "regularMarketPrice": 3785.0,
+    "cryptoTradeable": false,
+    "marketState": "PREPRE",
     "trailingPegRatio": null
   }
 }

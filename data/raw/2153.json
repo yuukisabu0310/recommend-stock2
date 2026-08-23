@@ -1,7 +1,7 @@
 {
   "ticker": "2153",
   "japanese_ticker": "2153.T",
-  "fetch_date": "2026-08-22T23:18:04.928713",
+  "fetch_date": "2026-08-23T23:18:28.937052",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-05-31 00:00:00": 98069000.0,
@@ -1079,8 +1079,8 @@
     "averageVolume": 66688,
     "averageVolume10days": 64410,
     "averageDailyVolume10Day": 64410,
-    "bid": 1823.0,
-    "ask": 1827.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 32824489984,
@@ -1150,6 +1150,7 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "fullExchangeName": "Tokyo",
     "averageDailyVolume3Month": 66688,
     "fiftyTwoWeekLowChange": 276.0,
     "fiftyTwoWeekLowChangePercent": 0.17806451,
@@ -1168,14 +1169,6 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1180656000000,
-    "regularMarketChange": 49.0,
-    "regularMarketDayRange": "1792.0 - 1835.0",
-    "fullExchangeName": "Tokyo",
-    "shortName": "E J HOLDINGS INC",
-    "longName": "E J Holdings Inc.",
-    "marketState": "CLOSED",
     "corporateActions": [],
     "regularMarketTime": 1787293800,
     "exchange": "JPX",
@@ -1187,6 +1180,13 @@
     "esgPopulated": false,
     "regularMarketChangePercent": 2.7574563,
     "regularMarketPrice": 1826.0,
+    "shortName": "E J HOLDINGS INC",
+    "longName": "E J Holdings Inc.",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1180656000000,
+    "regularMarketChange": 49.0,
+    "regularMarketDayRange": "1792.0 - 1835.0",
+    "marketState": "PREPRE",
     "trailingPegRatio": null
   }
 }

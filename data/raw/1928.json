@@ -1,7 +1,7 @@
 {
   "ticker": "1928",
   "japanese_ticker": "1928.T",
-  "fetch_date": "2026-08-22T23:16:09.031148",
+  "fetch_date": "2026-08-23T23:16:21.131990",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-01-31 00:00:00": 3298101335.254194,
@@ -1173,8 +1173,8 @@
     "averageVolume": 2864430,
     "averageVolume10days": 1998840,
     "averageDailyVolume10Day": 1998840,
-    "bid": 3464.0,
-    "ask": 3472.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 2250034905088,
@@ -1249,9 +1249,6 @@
     "customPriceAlertConfidence": "LOW",
     "shortName": "SEKISUI HOUSE",
     "longName": "Sekisui House, Ltd.",
-    "regularMarketChangePercent": 0.9892348,
-    "regularMarketPrice": 3471.0,
-    "marketState": "CLOSED",
     "corporateActions": [],
     "regularMarketTime": 1787293800,
     "exchange": "JPX",
@@ -1261,6 +1258,11 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
+    "marketState": "PREPRE",
+    "regularMarketChangePercent": 0.9892348,
+    "regularMarketPrice": 3471.0,
+    "nameChangeDate": "2026-08-23",
+    "cryptoTradeable": false,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 946944000000,
     "regularMarketChange": 34.0,
@@ -1288,8 +1290,6 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "prevName": "TraDAO",
-    "nameChangeDate": "2026-08-22",
-    "cryptoTradeable": false,
     "trailingPegRatio": null
   }
 }

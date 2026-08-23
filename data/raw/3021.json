@@ -1,7 +1,7 @@
 {
   "ticker": "3021",
   "japanese_ticker": "3021.T",
-  "fetch_date": "2026-08-22T23:27:49.936589",
+  "fetch_date": "2026-08-23T23:29:00.527212",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-05-31 00:00:00": 46782.8,
@@ -1018,8 +1018,8 @@
     "averageVolume": 22239,
     "averageVolume10days": 12200,
     "averageDailyVolume10Day": 12200,
-    "bid": 1628.0,
-    "ask": 1634.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 8555390464,
@@ -1089,8 +1089,12 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "longName": "Pacific Net Co.,Ltd.",
-    "shortName": "PACIFIC NET CO. LTD",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1140393600000,
+    "regularMarketChange": -5.0,
+    "regularMarketDayRange": "1615.0 - 1643.0",
+    "fullExchangeName": "Tokyo",
+    "averageDailyVolume3Month": 22239,
     "corporateActions": [],
     "regularMarketTime": 1787293800,
     "exchange": "JPX",
@@ -1102,13 +1106,7 @@
     "esgPopulated": false,
     "regularMarketChangePercent": -0.30618495,
     "regularMarketPrice": 1628.0,
-    "marketState": "CLOSED",
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1140393600000,
-    "regularMarketChange": -5.0,
-    "regularMarketDayRange": "1615.0 - 1643.0",
-    "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 22239,
+    "marketState": "PREPRE",
     "fiftyTwoWeekLowChange": 353.0,
     "fiftyTwoWeekLowChangePercent": 0.27686274,
     "fiftyTwoWeekRange": "1275.0 - 2550.0",
@@ -1126,6 +1124,8 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
+    "shortName": "PACIFIC NET CO. LTD",
+    "longName": "Pacific Net Co.,Ltd.",
     "trailingPegRatio": null
   }
 }

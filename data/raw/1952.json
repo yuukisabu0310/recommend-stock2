@@ -1,7 +1,7 @@
 {
   "ticker": "1952",
   "japanese_ticker": "1952.T",
-  "fetch_date": "2026-08-22T23:16:37.427312",
+  "fetch_date": "2026-08-23T23:16:52.356835",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": 275240000.0,
@@ -1148,8 +1148,8 @@
     "averageVolume": 196317,
     "averageVolume10days": 284430,
     "averageDailyVolume10Day": 284430,
-    "bid": 3010.0,
-    "ask": 3015.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 136874475520,
@@ -1217,11 +1217,9 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "shortName": "SHIN NIPPON AIR TECHNOLOGIES CO",
-    "longName": "Shin Nippon Air Technologies Co., Ltd.",
-    "marketState": "CLOSED",
     "regularMarketChangePercent": -1.7944535,
     "regularMarketPrice": 3010.0,
+    "marketState": "PREPRE",
     "corporateActions": [],
     "regularMarketTime": 1787293800,
     "exchange": "JPX",
@@ -1231,6 +1229,8 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
+    "shortName": "SHIN NIPPON AIR TECHNOLOGIES CO",
+    "longName": "Shin Nippon Air Technologies Co., Ltd.",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 978307200000,
     "regularMarketChange": -55.0,
@@ -1254,7 +1254,7 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "prevName": "Shin Nippon Air Technologies Co. Ltd.",
-    "nameChangeDate": "2026-08-22",
+    "nameChangeDate": "2026-08-23",
     "cryptoTradeable": false,
     "trailingPegRatio": null
   }

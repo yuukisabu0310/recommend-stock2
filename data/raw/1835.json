@@ -1,7 +1,7 @@
 {
   "ticker": "1835",
   "japanese_ticker": "1835.T",
-  "fetch_date": "2026-08-22T23:15:05.347680",
+  "fetch_date": "2026-08-23T23:15:10.997099",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": 55310389.088997,
@@ -1124,8 +1124,8 @@
     "averageVolume": 92553,
     "averageVolume10days": 102610,
     "averageDailyVolume10Day": 102610,
-    "bid": 3935.0,
-    "ask": 3960.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 136044650496,
@@ -1197,11 +1197,6 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 978307200000,
-    "cryptoTradeable": false,
-    "regularMarketChange": -20.0,
-    "regularMarketDayRange": "3905.0 - 3955.0",
     "fullExchangeName": "Tokyo",
     "averageDailyVolume3Month": 92553,
     "fiftyTwoWeekLowChange": 80.0,
@@ -1223,9 +1218,7 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "averageAnalystRating": "2.0 - Buy",
-    "shortName": "TOTETSU KOGYO CO",
-    "longName": "Totetsu Kogyo Co., Ltd.",
-    "marketState": "CLOSED",
+    "cryptoTradeable": false,
     "corporateActions": [],
     "regularMarketTime": 1787293800,
     "exchange": "JPX",
@@ -1237,6 +1230,13 @@
     "esgPopulated": false,
     "regularMarketChangePercent": -0.50377834,
     "regularMarketPrice": 3950.0,
+    "shortName": "TOTETSU KOGYO CO",
+    "longName": "Totetsu Kogyo Co., Ltd.",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 978307200000,
+    "regularMarketChange": -20.0,
+    "regularMarketDayRange": "3905.0 - 3955.0",
+    "marketState": "PREPRE",
     "trailingPegRatio": null
   }
 }

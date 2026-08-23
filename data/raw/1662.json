@@ -1,7 +1,7 @@
 {
   "ticker": "1662",
   "japanese_ticker": "1662.T",
-  "fetch_date": "2026-08-22T23:13:41.339832",
+  "fetch_date": "2026-08-23T23:13:37.728161",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": 1200568000.0,
@@ -1302,8 +1302,8 @@
     "averageVolume": 1465360,
     "averageVolume10days": 1290850,
     "averageDailyVolume10Day": 1290850,
-    "bid": 1875.0,
-    "ask": 1883.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 480510672896,
@@ -1377,8 +1377,7 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "corporateActions": [],
-    "regularMarketTime": 1787293800,
+    "marketState": "PREPRE",
     "exchange": "JPX",
     "messageBoardId": "finmb_5490756",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1386,13 +1385,11 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "shortName": "JAPAN PETROLEUM EXPLORATION CO ",
-    "longName": "Japan Petroleum Exploration Co., Ltd.",
-    "marketState": "CLOSED",
     "regularMarketChangePercent": 1.789588,
     "regularMarketPrice": 1877.0,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1071014400000,
+    "shortName": "JAPAN PETROLEUM EXPLORATION CO ",
+    "corporateActions": [],
+    "regularMarketTime": 1787293800,
     "regularMarketChange": 33.0,
     "regularMarketDayRange": "1849.0 - 1886.0",
     "fullExchangeName": "Tokyo",
@@ -1418,6 +1415,9 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1071014400000,
+    "longName": "Japan Petroleum Exploration Co., Ltd.",
     "trailingPegRatio": null
   }
 }

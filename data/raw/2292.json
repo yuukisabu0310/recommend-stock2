@@ -1,7 +1,7 @@
 {
   "ticker": "2292",
   "japanese_ticker": "2292.T",
-  "fetch_date": "2026-08-22T23:19:44.121846",
+  "fetch_date": "2026-08-23T23:20:15.269840",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-02-28 00:00:00": 1222504000.0,
@@ -1069,8 +1069,8 @@
     "averageVolume": 178806,
     "averageVolume10days": 260570,
     "averageDailyVolume10Day": 260570,
-    "bid": 2885.0,
-    "ask": 2890.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 91472445440,
@@ -1111,8 +1111,7 @@
     "lastDividendDate": 1803513600,
     "quoteType": "EQUITY",
     "currentPrice": 2888.0,
-    "recommendationMean": 0.0,
-    "recommendationKey": "strong_buy",
+    "recommendationKey": "none",
     "totalCash": 30257999872,
     "totalCashPerShare": 955.316,
     "ebitda": 16006500352,
@@ -1140,9 +1139,6 @@
     "customPriceAlertConfidence": "LOW",
     "shortName": "S FOODS INC",
     "longName": "S Foods Inc.",
-    "regularMarketChangePercent": 1.3689014,
-    "regularMarketPrice": 2888.0,
-    "marketState": "CLOSED",
     "corporateActions": [
       {
         "header": "Dividend",
@@ -1162,6 +1158,10 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
+    "marketState": "PREPRE",
+    "regularMarketChangePercent": 1.3689014,
+    "regularMarketPrice": 2888.0,
+    "cryptoTradeable": false,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 978566400000,
     "regularMarketChange": 39.0,
@@ -1185,8 +1185,6 @@
     "twoHundredDayAverageChangePercent": 0.024218816,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
-    "averageAnalystRating": "0.0 - Strong Buy",
-    "cryptoTradeable": false,
     "trailingPegRatio": null
   }
 }

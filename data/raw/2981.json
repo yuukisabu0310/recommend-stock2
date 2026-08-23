@@ -1,7 +1,7 @@
 {
   "ticker": "2981",
   "japanese_ticker": "2981.T",
-  "fetch_date": "2026-08-22T23:27:16.411627",
+  "fetch_date": "2026-08-23T23:28:26.428092",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": 4101888.0,
@@ -961,7 +961,7 @@
     "sector": "Real Estate",
     "sectorKey": "real-estate",
     "sectorDisp": "Real Estate",
-    "longBusinessSummary": "Landix Inc. engages in the real estate development business in Japan. The company purchases, develops, and sells real estate properties. It also offers real estate matching and consulting services; matches construction companyfor custom-built homes; and develops vacation homes on sites, as well as operates a real estate platform. In addition, the company is involved in the real estate sales and brokerage; building contract matching for custom-built houses; and rents buildings and condominiums. Landix Inc. was incorporated in 2001 and is headquartered in Tokyo, Japan.",
+    "longBusinessSummary": "Landix Inc. engages in the real estate development business in Japan. The company purchases, develops, and sells real estate properties. It also offers real estate matching and consulting services; matches construction company for custom-built homes; and develops vacation homes on sites, as well as architectural firm matching services. In addition, the company is involved in real estate sales and brokerage; development of condominiums; and rental business. Landix Inc. was incorporated in 2001 and is headquartered in Tokyo, Japan.",
     "fullTimeEmployees": 104,
     "companyOfficers": [
       {
@@ -1006,8 +1006,8 @@
     "averageVolume": 5874,
     "averageVolume10days": 9580,
     "averageDailyVolume10Day": 9580,
-    "bid": 2143.0,
-    "ask": 2175.0,
+    "bid": 0.0,
+    "ask": 2158.0,
     "marketCap": 12292376576,
     "nonDilutedMarketCap": 12292376310,
     "fiftyTwoWeekLow": 1844.0,
@@ -1075,10 +1075,7 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "regularMarketChangePercent": -0.092635475,
-    "regularMarketPrice": 2157.0,
-    "corporateActions": [],
-    "regularMarketTime": 1787293800,
+    "marketState": "PREPRE",
     "exchange": "JPX",
     "messageBoardId": "finmb_404309826",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1086,8 +1083,11 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1576713600000,
+    "regularMarketChangePercent": -0.092635475,
+    "regularMarketPrice": 2157.0,
+    "shortName": "LANDIX INC",
+    "corporateActions": [],
+    "regularMarketTime": 1787293800,
     "regularMarketChange": -2.0,
     "regularMarketDayRange": "2140.0 - 2184.0",
     "fullExchangeName": "Tokyo",
@@ -1109,9 +1109,9 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
-    "shortName": "LANDIX INC",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1576713600000,
     "longName": "Landix Inc.",
-    "marketState": "CLOSED",
     "trailingPegRatio": null
   }
 }

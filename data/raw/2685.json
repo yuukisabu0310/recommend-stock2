@@ -1,7 +1,7 @@
 {
   "ticker": "2685",
   "japanese_ticker": "2685.T",
-  "fetch_date": "2026-08-22T23:23:50.102386",
+  "fetch_date": "2026-08-23T23:24:40.037472",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-02-28 00:00:00": -500643000.0,
@@ -1267,8 +1267,8 @@
     "averageVolume": 241096,
     "averageVolume10days": 326230,
     "averageDailyVolume10Day": 326230,
-    "bid": 3525.0,
-    "ask": 3535.0,
+    "bid": 0.0,
+    "ask": 2835.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 163063152640,
@@ -1343,13 +1343,46 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "marketState": "PREPRE",
     "shortName": "AND ST HD CO LTD",
     "longName": "and ST HD Co.,Ltd.",
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1039651200000,
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "2685.T announced a cash dividend of JPY 45.00 with an ex-date of Aug. 28, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1787842800000,
+          "amount": "45.00"
+        }
+      }
+    ],
+    "regularMarketTime": 1787293800,
+    "exchange": "JPX",
+    "messageBoardId": "finmb_5646303",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
+    "regularMarketChangePercent": 1.2893983,
+    "regularMarketPrice": 3535.0,
     "regularMarketChange": 45.0,
     "regularMarketDayRange": "3475.0 - 3535.0",
     "fullExchangeName": "Tokyo",
+    "epsTrailingTwelveMonths": 205.74,
+    "epsForward": 304.23,
+    "fiftyDayAverageChange": 87.80005,
+    "fiftyDayAverageChangePercent": 0.02546996,
+    "twoHundredDayAverageChange": 449.79492,
+    "twoHundredDayAverageChangePercent": 0.14579093,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "prevName": "Adastria Co., Ltd.",
+    "nameChangeDate": "2026-08-23",
+    "cryptoTradeable": false,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1039651200000,
     "averageDailyVolume3Month": 241096,
     "fiftyTwoWeekLowChange": 966.0,
     "fiftyTwoWeekLowChangePercent": 0.3760218,
@@ -1363,39 +1396,6 @@
     "earningsCallTimestampStart": 1743764340,
     "earningsCallTimestampEnd": 1743764340,
     "isEarningsDateEstimate": false,
-    "epsTrailingTwelveMonths": 205.74,
-    "epsForward": 304.23,
-    "fiftyDayAverageChange": 87.80005,
-    "fiftyDayAverageChangePercent": 0.02546996,
-    "corporateActions": [
-      {
-        "header": "Dividend",
-        "message": "2685.T announced a cash dividend of JPY 45.00 with an ex-date of Aug. 28, 2026",
-        "meta": {
-          "eventType": "DIVIDEND",
-          "dateEpochMs": 1787842800000,
-          "amount": "45.00"
-        }
-      }
-    ],
-    "regularMarketTime": 1787293800,
-    "twoHundredDayAverageChange": 449.79492,
-    "twoHundredDayAverageChangePercent": 0.14579093,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "prevName": "Adastria Co., Ltd.",
-    "nameChangeDate": "2026-08-22",
-    "cryptoTradeable": false,
-    "exchange": "JPX",
-    "messageBoardId": "finmb_5646303",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
-    "regularMarketChangePercent": 1.2893983,
-    "regularMarketPrice": 3535.0,
-    "marketState": "CLOSED",
     "trailingPegRatio": null
   }
 }

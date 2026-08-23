@@ -1,7 +1,7 @@
 {
   "ticker": "1301",
   "japanese_ticker": "1301.T",
-  "fetch_date": "2026-08-22T23:12:32.128332",
+  "fetch_date": "2026-08-23T23:12:21.974252",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": 48511000.0,
@@ -1122,8 +1122,8 @@
     "averageVolume": 51273,
     "averageVolume10days": 47170,
     "averageDailyVolume10Day": 47170,
-    "bid": 4775.0,
-    "ask": 4795.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 56845209600,
@@ -1192,6 +1192,8 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 978307200000,
     "regularMarketChange": 55.0,
     "regularMarketDayRange": "4720.0 - 4795.0",
     "fullExchangeName": "Tokyo",
@@ -1214,9 +1216,6 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 978307200000,
-    "marketState": "CLOSED",
     "corporateActions": [],
     "regularMarketTime": 1787293800,
     "exchange": "JPX",
@@ -1226,10 +1225,11 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "shortName": "KYOKUYO CO LTD",
-    "longName": "Kyokuyo Co., Ltd.",
     "regularMarketChangePercent": 1.1627907,
     "regularMarketPrice": 4785.0,
+    "longName": "Kyokuyo Co., Ltd.",
+    "marketState": "PREPRE",
+    "shortName": "KYOKUYO CO LTD",
     "trailingPegRatio": null
   }
 }

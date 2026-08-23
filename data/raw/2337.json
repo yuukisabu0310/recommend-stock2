@@ -1,7 +1,7 @@
 {
   "ticker": "2337",
   "japanese_ticker": "2337.T",
-  "fetch_date": "2026-08-22T23:20:28.216012",
+  "fetch_date": "2026-08-23T23:21:03.135776",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-02-28 00:00:00": 3408197200.0,
@@ -430,12 +430,6 @@
       "2025-02-28 00:00:00": 243542000000.0,
       "2024-02-29 00:00:00": 185614000000.0,
       "2023-02-28 00:00:00": 195875000000.0
-    },
-    "Long Term Provisions": {
-      "2026-02-28 00:00:00": 345000000.0,
-      "2025-02-28 00:00:00": null,
-      "2024-02-29 00:00:00": null,
-      "2023-02-28 00:00:00": null
     },
     "Current Liabilities": {
       "2026-02-28 00:00:00": 62848000000.0,
@@ -1192,8 +1186,8 @@
     "averageVolume": 884134,
     "averageVolume10days": 580050,
     "averageDailyVolume10Day": 580050,
-    "bid": 413.0,
-    "ask": 415.0,
+    "bid": 0.0,
+    "ask": 414.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 161890287616,
@@ -1269,15 +1263,7 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "marketState": "CLOSED",
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1036972800000,
-    "regularMarketChangePercent": 1.4742014,
-    "regularMarketPrice": 413.0,
-    "shortName": "ICHIGO INC",
-    "longName": "Ichigo Inc.",
-    "corporateActions": [],
-    "regularMarketTime": 1787293800,
+    "marketState": "PREPRE",
     "exchange": "JPX",
     "messageBoardId": "finmb_9884895",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1285,6 +1271,11 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
+    "regularMarketChangePercent": 1.4742014,
+    "regularMarketPrice": 413.0,
+    "shortName": "ICHIGO INC",
+    "corporateActions": [],
+    "regularMarketTime": 1787293800,
     "regularMarketChange": 6.0,
     "regularMarketDayRange": "407.0 - 416.0",
     "fullExchangeName": "Tokyo",
@@ -1310,6 +1301,9 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1036972800000,
+    "longName": "Ichigo Inc.",
     "trailingPegRatio": null
   }
 }

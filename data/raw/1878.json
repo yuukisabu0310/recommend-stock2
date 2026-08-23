@@ -1,7 +1,7 @@
 {
   "ticker": "1878",
   "japanese_ticker": "1878.T",
-  "fetch_date": "2026-08-22T23:15:35.580072",
+  "fetch_date": "2026-08-23T23:15:44.668472",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": -178980000.0,
@@ -1256,8 +1256,8 @@
     "averageVolume": 1772882,
     "averageVolume10days": 1577240,
     "averageDailyVolume10Day": 1577240,
-    "bid": 3315.0,
-    "ask": 3325.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 1080241815552,
@@ -1334,6 +1334,9 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "marketState": "PREPRE",
+    "cryptoTradeable": false,
+    "exchange": "JPX",
     "messageBoardId": "finmb_880828",
     "exchangeTimezoneName": "Asia/Tokyo",
     "exchangeTimezoneShortName": "JST",
@@ -1342,11 +1345,8 @@
     "esgPopulated": false,
     "regularMarketChangePercent": 1.1897498,
     "regularMarketPrice": 3317.0,
-    "shortName": "DAITO TRUST CONSTRUCTION CO",
-    "longName": "Daito Trust Construction Co.,Ltd.",
     "corporateActions": [],
     "regularMarketTime": 1787293800,
-    "exchange": "JPX",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 978307200000,
     "regularMarketChange": 39.0,
@@ -1373,8 +1373,8 @@
     "twoHundredDayAverageChangePercent": 0.01880034,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
-    "marketState": "CLOSED",
+    "shortName": "DAITO TRUST CONSTRUCTION CO",
+    "longName": "Daito Trust Construction Co.,Ltd.",
     "trailingPegRatio": null
   }
 }

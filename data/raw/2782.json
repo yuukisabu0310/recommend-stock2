@@ -1,7 +1,7 @@
 {
   "ticker": "2782",
   "japanese_ticker": "2782.T",
-  "fetch_date": "2026-08-22T23:25:04.869616",
+  "fetch_date": "2026-08-23T23:26:00.648834",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": -134358000.0,
@@ -1166,7 +1166,7 @@
     "averageVolume": 280990,
     "averageVolume10days": 310500,
     "averageDailyVolume10Day": 310500,
-    "bid": 4240.0,
+    "bid": 0.0,
     "ask": 4250.0,
     "bidSize": 0,
     "askSize": 0,
@@ -1241,11 +1241,7 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "shortName": "SERIA CO LTD",
-    "longName": "Seria Co., Ltd.",
-    "marketState": "CLOSED",
-    "corporateActions": [],
-    "regularMarketTime": 1787293800,
+    "marketState": "PREPRE",
     "exchange": "JPX",
     "messageBoardId": "finmb_9221386",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1253,13 +1249,13 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "regularMarketChangePercent": -1.2775842,
-    "regularMarketPrice": 4250.0,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1063843200000,
     "regularMarketChange": -55.0,
     "regularMarketDayRange": "4215.0 - 4365.0",
     "fullExchangeName": "Tokyo",
+    "shortName": "SERIA CO LTD",
+    "longName": "Seria Co., Ltd.",
     "averageDailyVolume3Month": 280990,
     "fiftyTwoWeekLowChange": 1359.0,
     "fiftyTwoWeekLowChangePercent": 0.47007957,
@@ -1281,6 +1277,10 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
+    "corporateActions": [],
+    "regularMarketTime": 1787293800,
+    "regularMarketChangePercent": -1.2775842,
+    "regularMarketPrice": 4250.0,
     "trailingPegRatio": null
   }
 }

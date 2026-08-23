@@ -1,7 +1,7 @@
 {
   "ticker": "3038",
   "japanese_ticker": "3038.T",
-  "fetch_date": "2026-08-22T23:28:06.535885",
+  "fetch_date": "2026-08-23T23:29:18.878405",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-10-31 00:00:00": 1203463094.44647,
@@ -1325,8 +1325,8 @@
     "averageVolume": 1635820,
     "averageVolume10days": 1486100,
     "averageDailyVolume10Day": 1486100,
-    "bid": 2797.0,
-    "ask": 2798.5,
+    "bid": 0.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 620405719040,
@@ -1403,6 +1403,9 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "marketState": "PREPRE",
+    "shortName": "KOBE BUSSAN CO LTD",
+    "longName": "Kobe Bussan Co., Ltd.",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1149724800000,
     "regularMarketChange": -5.0,
@@ -1429,6 +1432,8 @@
     "exchangeDataDelayedBy": 20,
     "averageAnalystRating": "2.6 - Hold",
     "cryptoTradeable": false,
+    "corporateActions": [],
+    "regularMarketTime": 1787293800,
     "exchange": "JPX",
     "messageBoardId": "finmb_6477336",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1436,13 +1441,8 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "marketState": "CLOSED",
-    "corporateActions": [],
-    "regularMarketTime": 1787293800,
     "regularMarketChangePercent": -0.17844397,
     "regularMarketPrice": 2797.0,
-    "shortName": "KOBE BUSSAN CO LTD",
-    "longName": "Kobe Bussan Co., Ltd.",
     "trailingPegRatio": null
   }
 }
