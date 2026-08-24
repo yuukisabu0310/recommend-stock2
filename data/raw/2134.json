@@ -1,7 +1,7 @@
 {
   "ticker": "2134",
   "japanese_ticker": "2134.T",
-  "fetch_date": "2026-08-23T23:18:14.528834",
+  "fetch_date": "2026-08-24T23:22:19.542684",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": 1022400.0,
@@ -123,32 +123,32 @@
       "2022-03-31 00:00:00": null
     },
     "Diluted Average Shares": {
-      "2026-03-31 00:00:00": null,
+      "2026-03-31 00:00:00": 509308900.0,
       "2025-03-31 00:00:00": 279578437.0,
       "2024-03-31 00:00:00": 140171060.0,
       "2023-03-31 00:00:00": 115679957.0,
-      "2022-03-31 00:00:00": 97901057.0
+      "2022-03-31 00:00:00": null
     },
     "Basic Average Shares": {
-      "2026-03-31 00:00:00": null,
+      "2026-03-31 00:00:00": 509308900.0,
       "2025-03-31 00:00:00": 279578437.0,
       "2024-03-31 00:00:00": 140171060.0,
       "2023-03-31 00:00:00": 115679957.0,
-      "2022-03-31 00:00:00": 97901057.0
+      "2022-03-31 00:00:00": null
     },
     "Diluted EPS": {
-      "2026-03-31 00:00:00": null,
+      "2026-03-31 00:00:00": -2.43,
       "2025-03-31 00:00:00": -2.99,
       "2024-03-31 00:00:00": -3.49,
       "2023-03-31 00:00:00": -7.82,
-      "2022-03-31 00:00:00": -12.73
+      "2022-03-31 00:00:00": null
     },
     "Basic EPS": {
-      "2026-03-31 00:00:00": null,
+      "2026-03-31 00:00:00": -2.43,
       "2025-03-31 00:00:00": -2.99,
       "2024-03-31 00:00:00": -3.49,
       "2023-03-31 00:00:00": -7.82,
-      "2022-03-31 00:00:00": -12.73
+      "2022-03-31 00:00:00": null
     },
     "Diluted NI Availto Com Stockholders": {
       "2026-03-31 00:00:00": -1268397000.0,
@@ -1282,16 +1282,16 @@
     "priceHint": 2,
     "previousClose": 21.0,
     "open": 21.0,
-    "dayLow": 20.0,
+    "dayLow": 21.0,
     "dayHigh": 22.0,
     "regularMarketPreviousClose": 21.0,
     "regularMarketOpen": 21.0,
-    "regularMarketDayLow": 20.0,
+    "regularMarketDayLow": 21.0,
     "regularMarketDayHigh": 22.0,
     "payoutRatio": 0.0,
     "beta": 0.575,
-    "volume": 2374900,
-    "regularMarketVolume": 2374900,
+    "volume": 1304400,
+    "regularMarketVolume": 1304400,
     "averageVolume": 1839293,
     "averageVolume10days": 1958460,
     "averageDailyVolume10Day": 1958460,
@@ -1361,11 +1361,10 @@
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
     "marketState": "PREPRE",
-    "cryptoTradeable": false,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1165449600000,
     "regularMarketChange": 0.0,
-    "regularMarketDayRange": "20.0 - 22.0",
+    "regularMarketDayRange": "21.0 - 22.0",
     "fullExchangeName": "Tokyo",
     "averageDailyVolume3Month": 1839293,
     "fiftyTwoWeekLowChange": 1.0,
@@ -1373,8 +1372,11 @@
     "fiftyTwoWeekRange": "20.0 - 77.0",
     "fiftyTwoWeekHighChange": -56.0,
     "fiftyTwoWeekHighChangePercent": -0.72727275,
-    "corporateActions": [],
-    "regularMarketTime": 1787293800,
+    "fiftyTwoWeekChangePercent": -70.42254,
+    "earningsTimestampStart": 1747296000,
+    "earningsTimestampEnd": 1747296000,
+    "isEarningsDateEstimate": false,
+    "epsTrailingTwelveMonths": -2.49,
     "exchange": "JPX",
     "messageBoardId": "finmb_30006490",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1382,15 +1384,12 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "longName": "Kitahama Capital Partners Co.,Ltd.",
     "shortName": "KITAHAMA CAPITAL PARTNERS CO LT",
+    "longName": "Kitahama Capital Partners Co.,Ltd.",
+    "corporateActions": [],
+    "regularMarketTime": 1787553000,
     "regularMarketChangePercent": 0.0,
     "regularMarketPrice": 21.0,
-    "fiftyTwoWeekChangePercent": -70.42254,
-    "earningsTimestampStart": 1747296000,
-    "earningsTimestampEnd": 1747296000,
-    "isEarningsDateEstimate": false,
-    "epsTrailingTwelveMonths": -2.49,
     "fiftyDayAverageChange": -4.200001,
     "fiftyDayAverageChangePercent": -0.16666669,
     "twoHundredDayAverageChange": -9.955,
@@ -1398,7 +1397,8 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "prevName": "Sun Capital Management Corp.",
-    "nameChangeDate": "2026-08-23",
+    "nameChangeDate": "2026-08-24",
+    "cryptoTradeable": false,
     "trailingPegRatio": null
   }
 }

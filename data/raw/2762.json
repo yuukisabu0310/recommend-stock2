@@ -1,7 +1,7 @@
 {
   "ticker": "2762",
   "japanese_ticker": "2762.T",
-  "fetch_date": "2026-08-23T23:25:42.017781",
+  "fetch_date": "2026-08-24T23:31:04.533189",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-06-30 00:00:00": -34336000.0,
@@ -16,10 +16,10 @@
       "2022-06-30 00:00:00": 0.232
     },
     "Normalized EBITDA": {
-      "2025-06-30 00:00:00": -551000000.0,
-      "2024-06-30 00:00:00": -598000000.0,
-      "2023-06-30 00:00:00": -707000000.0,
-      "2022-06-30 00:00:00": -213000000.0
+      "2025-06-30 00:00:00": -561000000.0,
+      "2024-06-30 00:00:00": -608000000.0,
+      "2023-06-30 00:00:00": -711000000.0,
+      "2022-06-30 00:00:00": -296000000.0
     },
     "Total Unusual Items": {
       "2025-06-30 00:00:00": -148000000.0,
@@ -40,10 +40,10 @@
       "2022-06-30 00:00:00": -439000000.0
     },
     "Reconciled Depreciation": {
-      "2025-06-30 00:00:00": 90000000.0,
-      "2024-06-30 00:00:00": 81000000.0,
-      "2023-06-30 00:00:00": 39000000.0,
-      "2022-06-30 00:00:00": 92000000.0
+      "2025-06-30 00:00:00": 80000000.0,
+      "2024-06-30 00:00:00": 71000000.0,
+      "2023-06-30 00:00:00": 35000000.0,
+      "2022-06-30 00:00:00": 9000000.0
     },
     "Reconciled Cost Of Revenue": {
       "2025-06-30 00:00:00": 6391000000.0,
@@ -52,10 +52,10 @@
       "2022-06-30 00:00:00": 1011000000.0
     },
     "EBITDA": {
-      "2025-06-30 00:00:00": -699000000.0,
-      "2024-06-30 00:00:00": -607000000.0,
-      "2023-06-30 00:00:00": -729000000.0,
-      "2022-06-30 00:00:00": -315000000.0
+      "2025-06-30 00:00:00": -709000000.0,
+      "2024-06-30 00:00:00": -617000000.0,
+      "2023-06-30 00:00:00": -733000000.0,
+      "2022-06-30 00:00:00": -398000000.0
     },
     "EBIT": {
       "2025-06-30 00:00:00": -789000000.0,
@@ -902,10 +902,10 @@
       "2022-06-30 00:00:00": -770000000.0
     },
     "Depreciation And Amortization": {
-      "2025-06-30 00:00:00": 90000000.0,
-      "2024-06-30 00:00:00": 81000000.0,
-      "2023-06-30 00:00:00": 39000000.0,
-      "2022-06-30 00:00:00": 92000000.0
+      "2025-06-30 00:00:00": 80000000.0,
+      "2024-06-30 00:00:00": 71000000.0,
+      "2023-06-30 00:00:00": 35000000.0,
+      "2022-06-30 00:00:00": 9000000.0
     },
     "Amortization Cash Flow": {
       "2025-06-30 00:00:00": 10000000.0,
@@ -1028,19 +1028,19 @@
     "maxAge": 86400,
     "priceHint": 2,
     "previousClose": 71.0,
-    "open": 71.0,
+    "open": 70.0,
     "dayLow": 70.0,
     "dayHigh": 71.0,
     "regularMarketPreviousClose": 71.0,
-    "regularMarketOpen": 71.0,
+    "regularMarketOpen": 70.0,
     "regularMarketDayLow": 70.0,
     "regularMarketDayHigh": 71.0,
     "exDividendDate": 1561507200,
     "payoutRatio": 0.0,
     "fiveYearAvgDividendYield": 1.64,
     "beta": 0.145,
-    "volume": 635400,
-    "regularMarketVolume": 635400,
+    "volume": 140900,
+    "regularMarketVolume": 140900,
     "averageVolume": 140804,
     "averageVolume10days": 315970,
     "averageDailyVolume10Day": 315970,
@@ -1064,7 +1064,7 @@
     "tradeable": false,
     "enterpriseValue": 2871030528,
     "profitMargins": -0.07502,
-    "floatShares": 25549786,
+    "floatShares": 27735514,
     "sharesOutstanding": 40550249,
     "heldPercentInsiders": 0.30673,
     "heldPercentInstitutions": 0.06779,
@@ -1113,10 +1113,18 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "corporateActions": [],
-    "shortName": "SANKO MARKETING FOODS CO",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1095206400000,
+    "regularMarketChangePercent": 0.0,
+    "regularMarketPrice": 71.0,
+    "regularMarketTime": 1787553000,
+    "exchange": "JPX",
+    "messageBoardId": "finmb_5746724",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
     "regularMarketChange": 0.0,
     "regularMarketDayRange": "70.0 - 71.0",
     "fullExchangeName": "Tokyo",
@@ -1131,17 +1139,6 @@
     "earningsTimestampEnd": 1747290600,
     "isEarningsDateEstimate": false,
     "epsTrailingTwelveMonths": -23.42,
-    "regularMarketTime": 1787293800,
-    "exchange": "JPX",
-    "messageBoardId": "finmb_5746724",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
-    "regularMarketChangePercent": 0.0,
-    "regularMarketPrice": 71.0,
-    "longName": "Sanko Marketing Foods Co., Ltd.",
     "fiftyDayAverageChange": -13.440002,
     "fiftyDayAverageChangePercent": -0.15916629,
     "twoHundredDayAverageChange": -24.559998,
@@ -1149,6 +1146,9 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
+    "corporateActions": [],
+    "shortName": "SANKO MARKETING FOODS CO",
+    "longName": "Sanko Marketing Foods Co., Ltd.",
     "marketState": "PREPRE",
     "trailingPegRatio": null
   }
