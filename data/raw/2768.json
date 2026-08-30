@@ -1,7 +1,7 @@
 {
   "ticker": "2768",
   "japanese_ticker": "2768.T",
-  "fetch_date": "2026-08-29T04:11:24.472332",
+  "fetch_date": "2026-08-30T01:08:09.635563",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": 827172000.0,
@@ -1162,12 +1162,12 @@
     "regularMarketDayLow": 5556.0,
     "regularMarketDayHigh": 5684.0,
     "dividendRate": 180.0,
-    "dividendYield": 3.22,
+    "dividendYield": 3.2,
     "exDividendDate": 1790640000,
     "payoutRatio": 0.3334,
     "fiveYearAvgDividendYield": 4.01,
     "beta": 0.675,
-    "trailingPE": 11.382245,
+    "trailingPE": 11.376495,
     "forwardPE": 10.650171,
     "volume": 870000,
     "regularMarketVolume": 870000,
@@ -1206,7 +1206,7 @@
     "mostRecentQuarter": 1782777600,
     "earningsQuarterlyGrowth": 0.434,
     "netIncomeToCommon": 112753999872,
-    "trailingEps": 494.63,
+    "trailingEps": 494.88,
     "forwardEps": 528.63,
     "pegRatio": 0.16,
     "lastSplitFactor": "1:5",
@@ -1253,6 +1253,17 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "2768.T announced a cash dividend of JPY 90.00 with an ex-date of Sep. 29, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1790607600000,
+          "amount": "90.00"
+        }
+      }
+    ],
     "regularMarketTime": 1787898600,
     "exchange": "JPX",
     "messageBoardId": "finmb_873920",
@@ -1260,12 +1271,10 @@
     "exchangeTimezoneShortName": "JST",
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
-    "esgPopulated": false,
+    "marketState": "CLOSED",
     "regularMarketChangePercent": 0.73358387,
     "regularMarketPrice": 5630.0,
-    "marketState": "CLOSED",
     "regularMarketChange": 41.0,
-    "fulldayChange": 41.0,
     "fulldayChangePercent": 0.73358387,
     "regularMarketDayRange": "5556.0 - 5684.0",
     "fullExchangeName": "Tokyo",
@@ -1282,7 +1291,7 @@
     "earningsCallTimestampStart": 1746097140,
     "earningsCallTimestampEnd": 1746097140,
     "isEarningsDateEstimate": true,
-    "epsTrailingTwelveMonths": 494.63,
+    "epsTrailingTwelveMonths": 494.88,
     "epsForward": 528.63,
     "fiftyDayAverageChange": 259.18018,
     "fiftyDayAverageChangePercent": 0.048257098,
@@ -1292,11 +1301,12 @@
     "exchangeDataDelayedBy": 20,
     "averageAnalystRating": "2.6 - Hold",
     "cryptoTradeable": false,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 946944000000,
+    "esgPopulated": false,
     "shortName": "SOJITZ CORPORATION",
     "longName": "Sojitz Corporation",
-    "corporateActions": [],
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 946944000000,
+    "fulldayChange": 41.0,
     "trailingPegRatio": null
   }
 }

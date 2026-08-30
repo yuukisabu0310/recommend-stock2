@@ -1,7 +1,7 @@
 {
   "ticker": "2204",
   "japanese_ticker": "2204.T",
-  "fetch_date": "2026-08-29T04:05:18.001772",
+  "fetch_date": "2026-08-30T01:02:03.427179",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": 111338484.0,
@@ -1158,12 +1158,12 @@
     "regularMarketDayLow": 3160.0,
     "regularMarketDayHigh": 3180.0,
     "dividendRate": 75.0,
-    "dividendYield": 2.36,
+    "dividendYield": 2.37,
     "exDividendDate": 1806364800,
     "payoutRatio": 0.4714,
     "fiveYearAvgDividendYield": 1.82,
     "beta": 0.06,
-    "trailingPE": 19.874214,
+    "trailingPE": 19.841768,
     "volume": 11900,
     "regularMarketVolume": 11900,
     "averageVolume": 7846,
@@ -1200,7 +1200,7 @@
     "nextFiscalYearEnd": 1711843200,
     "mostRecentQuarter": 1688083200,
     "netIncomeToCommon": 355799008,
-    "trailingEps": 159.0,
+    "trailingEps": 159.26,
     "lastSplitFactor": "1:10",
     "lastSplitDate": 1475020800,
     "enterpriseToRevenue": 0.714,
@@ -1232,8 +1232,7 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 978307200000,
+    "marketState": "CLOSED",
     "regularMarketChange": -20.0,
     "fulldayChange": -20.0,
     "fulldayChangePercent": -0.6289308,
@@ -1249,7 +1248,7 @@
     "earningsTimestampStart": 1754373600,
     "earningsTimestampEnd": 1754978400,
     "isEarningsDateEstimate": true,
-    "epsTrailingTwelveMonths": 159.0,
+    "epsTrailingTwelveMonths": 159.26,
     "fiftyDayAverageChange": -42.899902,
     "fiftyDayAverageChangePercent": -0.013394082,
     "twoHundredDayAverageChange": -9.800049,
@@ -1270,7 +1269,8 @@
     "longName": "Nakamuraya Co., Ltd.",
     "regularMarketChangePercent": -0.6289308,
     "regularMarketPrice": 3160.0,
-    "marketState": "CLOSED",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 978307200000,
     "trailingPegRatio": null
   }
 }

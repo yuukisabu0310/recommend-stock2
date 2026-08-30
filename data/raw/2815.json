@@ -1,7 +1,7 @@
 {
   "ticker": "2815",
   "japanese_ticker": "2815.T",
-  "fetch_date": "2026-08-29T04:12:11.988440",
+  "fetch_date": "2026-08-30T01:09:00.712715",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": -36447236.341098,
@@ -1150,12 +1150,12 @@
     "regularMarketDayLow": 5400.0,
     "regularMarketDayHigh": 5500.0,
     "dividendRate": 240.0,
-    "dividendYield": 4.4,
+    "dividendYield": 4.36,
     "exDividendDate": 1790640000,
     "payoutRatio": 0.6061,
     "fiveYearAvgDividendYield": 2.14,
     "beta": -0.048,
-    "trailingPE": 18.516647,
+    "trailingPE": 18.518518,
     "forwardPE": 19.682222,
     "volume": 61800,
     "regularMarketVolume": 61800,
@@ -1194,7 +1194,7 @@
     "mostRecentQuarter": 1782777600,
     "earningsQuarterlyGrowth": -0.113,
     "netIncomeToCommon": 9192266752,
-    "trailingEps": 297.03,
+    "trailingEps": 297.0,
     "forwardEps": 279.44,
     "lastSplitFactor": "125:100",
     "lastSplitDate": 1001376000,
@@ -1237,8 +1237,18 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "marketState": "CLOSED",
-    "corporateActions": [],
+    "longName": "ARIAKE JAPAN Co., Ltd.",
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "2815.T announced a cash dividend of JPY 60.00 with an ex-date of Sep. 29, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1790607600000,
+          "amount": "60.00"
+        }
+      }
+    ],
     "regularMarketTime": 1787898600,
     "exchange": "JPX",
     "messageBoardId": "finmb_883773",
@@ -1247,6 +1257,14 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
+    "regularMarketChangePercent": 0.9174312,
+    "regularMarketPrice": 5500.0,
+    "shortName": "ARIAKE JAPAN CO",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 978307200000,
+    "regularMarketChange": 50.0,
+    "fulldayChange": 50.0,
+    "fulldayChangePercent": 0.9174312,
     "regularMarketDayRange": "5400.0 - 5500.0",
     "fullExchangeName": "Tokyo",
     "averageDailyVolume3Month": 89312,
@@ -1262,7 +1280,7 @@
     "earningsCallTimestampStart": 1746788340,
     "earningsCallTimestampEnd": 1746788340,
     "isEarningsDateEstimate": true,
-    "epsTrailingTwelveMonths": 297.03,
+    "epsTrailingTwelveMonths": 297.0,
     "epsForward": 279.44,
     "fiftyDayAverageChange": 250.5,
     "fiftyDayAverageChangePercent": 0.04771883,
@@ -1271,15 +1289,7 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
-    "regularMarketChangePercent": 0.9174312,
-    "regularMarketPrice": 5500.0,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 978307200000,
-    "regularMarketChange": 50.0,
-    "fulldayChange": 50.0,
-    "fulldayChangePercent": 0.9174312,
-    "shortName": "ARIAKE JAPAN CO",
-    "longName": "ARIAKE JAPAN Co., Ltd.",
+    "marketState": "CLOSED",
     "trailingPegRatio": null
   }
 }

@@ -1,7 +1,7 @@
 {
   "ticker": "1803",
   "japanese_ticker": "1803.T",
-  "fetch_date": "2026-08-29T04:00:58.650490",
+  "fetch_date": "2026-08-30T00:57:41.232011",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": 23575984000.0,
@@ -1121,7 +1121,7 @@
     "regularMarketDayLow": 2375.5,
     "regularMarketDayHigh": 2408.0,
     "dividendRate": 77.0,
-    "dividendYield": 3.18,
+    "dividendYield": 3.23,
     "exDividendDate": 1790640000,
     "payoutRatio": 0.3857,
     "fiveYearAvgDividendYield": 2.39,
@@ -1208,19 +1208,26 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "regularMarketChangePercent": -1.5301902,
-    "regularMarketPrice": 2381.0,
     "marketState": "CLOSED",
-    "shortName": "SHIMIZU CORP",
-    "longName": "Shimizu Corporation",
-    "corporateActions": [],
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "1803.T announced a cash dividend of JPY 38.50 with an ex-date of Sep. 29, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1790607600000,
+          "amount": "38.50"
+        }
+      }
+    ],
     "regularMarketTime": 1787898600,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 946944000000,
-    "regularMarketChange": -37.0,
-    "fulldayChange": -37.0,
-    "fulldayChangePercent": -1.5301902,
-    "regularMarketDayRange": "2375.5 - 2408.0",
+    "exchange": "JPX",
+    "messageBoardId": "finmb_875399",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
     "fullExchangeName": "Tokyo",
     "averageDailyVolume3Month": 3220068,
     "fiftyTwoWeekLowChange": 439.5,
@@ -1245,13 +1252,16 @@
     "exchangeDataDelayedBy": 20,
     "averageAnalystRating": "2.3 - Buy",
     "cryptoTradeable": false,
-    "exchange": "JPX",
-    "messageBoardId": "finmb_875399",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
+    "shortName": "SHIMIZU CORP",
+    "longName": "Shimizu Corporation",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 946944000000,
+    "regularMarketChange": -37.0,
+    "fulldayChange": -37.0,
+    "fulldayChangePercent": -1.5301902,
+    "regularMarketDayRange": "2375.5 - 2408.0",
+    "regularMarketChangePercent": -1.5301902,
+    "regularMarketPrice": 2381.0,
     "trailingPegRatio": null
   }
 }

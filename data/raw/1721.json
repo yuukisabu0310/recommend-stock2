@@ -1,7 +1,7 @@
 {
   "ticker": "1721",
   "japanese_ticker": "1721.T",
-  "fetch_date": "2026-08-29T04:00:15.021719",
+  "fetch_date": "2026-08-30T00:56:57.192322",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": 90898820.300738,
@@ -1161,12 +1161,12 @@
     "regularMarketDayLow": 5330.0,
     "regularMarketDayHigh": 5433.0,
     "dividendRate": 135.0,
-    "dividendYield": 2.49,
+    "dividendYield": 2.48,
     "exDividendDate": 1790640000,
     "payoutRatio": 0.41970003,
     "fiveYearAvgDividendYield": 3.31,
     "beta": 0.352,
-    "trailingPE": 17.547316,
+    "trailingPE": 17.543917,
     "forwardPE": 21.485348,
     "volume": 359900,
     "regularMarketVolume": 359900,
@@ -1205,7 +1205,7 @@
     "mostRecentQuarter": 1782777600,
     "earningsQuarterlyGrowth": 0.474,
     "netIncomeToCommon": 39052001280,
-    "trailingEps": 309.62,
+    "trailingEps": 309.68,
     "forwardEps": 252.87,
     "pegRatio": 1.67,
     "enterpriseToRevenue": 0.879,
@@ -1248,8 +1248,6 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "corporateActions": [],
-    "regularMarketTime": 1787898600,
     "exchange": "JPX",
     "messageBoardId": "finmb_876636",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1257,13 +1255,19 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "earningsTimestamp": 1786084200,
-    "earningsTimestampStart": 1793946600,
-    "earningsTimestampEnd": 1793946600,
-    "earningsCallTimestampStart": 1747133940,
-    "earningsCallTimestampEnd": 1747133940,
-    "isEarningsDateEstimate": true,
-    "epsTrailingTwelveMonths": 309.62,
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "1721.T announced a cash dividend of JPY 65.00 with an ex-date of Sep. 29, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1790607600000,
+          "amount": "65.00"
+        }
+      }
+    ],
+    "regularMarketTime": 1787898600,
+    "epsTrailingTwelveMonths": 309.68,
     "epsForward": 252.87,
     "fiftyDayAverageChange": 101.279785,
     "fiftyDayAverageChangePercent": 0.018995706,
@@ -1273,10 +1277,6 @@
     "exchangeDataDelayedBy": 20,
     "averageAnalystRating": "2.8 - Hold",
     "cryptoTradeable": false,
-    "shortName": "COMSYS HOLDINGS CORP",
-    "longName": "COMSYS Holdings Corporation",
-    "regularMarketChangePercent": 0.018409425,
-    "regularMarketPrice": 5433.0,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1064793600000,
     "regularMarketChange": 1.0,
@@ -1291,7 +1291,17 @@
     "fiftyTwoWeekHighChange": -778.0,
     "fiftyTwoWeekHighChangePercent": -0.12526163,
     "fiftyTwoWeekChangePercent": 46.442043,
+    "earningsTimestamp": 1786084200,
+    "earningsTimestampStart": 1793946600,
+    "earningsTimestampEnd": 1793946600,
+    "earningsCallTimestampStart": 1747133940,
+    "earningsCallTimestampEnd": 1747133940,
+    "isEarningsDateEstimate": true,
+    "shortName": "COMSYS HOLDINGS CORP",
+    "longName": "COMSYS Holdings Corporation",
     "marketState": "CLOSED",
+    "regularMarketChangePercent": 0.018409425,
+    "regularMarketPrice": 5433.0,
     "trailingPegRatio": null
   }
 }

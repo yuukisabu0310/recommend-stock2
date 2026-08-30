@@ -1,7 +1,7 @@
 {
   "ticker": "2329",
   "japanese_ticker": "2329.T",
-  "fetch_date": "2026-08-29T04:06:44.212219",
+  "fetch_date": "2026-08-30T01:03:25.786163",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": 1548404000.0,
@@ -1220,14 +1220,36 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "shortName": "TOHOKUSHINSHA FILM CORPORATION",
-    "longName": "Tohokushinsha Film Corporation",
+    "regularMarketChangePercent": 0.0,
+    "regularMarketPrice": 513.0,
+    "exchange": "JPX",
+    "messageBoardId": "finmb_5522618",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1034035200000,
     "regularMarketChange": 0.0,
     "fulldayChange": 0.0,
     "fulldayChangePercent": 0.0,
     "regularMarketDayRange": "512.0 - 522.0",
+    "shortName": "TOHOKUSHINSHA FILM CORPORATION",
+    "longName": "Tohokushinsha Film Corporation",
+    "marketState": "CLOSED",
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "2329.T announced a cash dividend of JPY 6.77 with an ex-date of Sep. 29, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1790607600000,
+          "amount": "6.77"
+        }
+      }
+    ],
+    "regularMarketTime": 1787898600,
     "fullExchangeName": "Tokyo",
     "averageDailyVolume3Month": 119690,
     "fiftyTwoWeekLowChange": 44.0,
@@ -1247,18 +1269,6 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
-    "regularMarketChangePercent": 0.0,
-    "regularMarketPrice": 513.0,
-    "corporateActions": [],
-    "regularMarketTime": 1787898600,
-    "exchange": "JPX",
-    "messageBoardId": "finmb_5522618",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
-    "marketState": "CLOSED",
     "trailingPegRatio": null
   }
 }

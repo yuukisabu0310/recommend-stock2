@@ -1,7 +1,7 @@
 {
   "ticker": "2997",
   "japanese_ticker": "2997.T",
-  "fetch_date": "2026-08-29T04:14:03.506676",
+  "fetch_date": "2026-08-30T01:10:52.635878",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-01-31 00:00:00": 768913.0,
@@ -1117,7 +1117,7 @@
     "regularMarketDayHigh": 1325.0,
     "payoutRatio": 0.0,
     "beta": 0.097,
-    "trailingPE": 20.893167,
+    "trailingPE": 20.919577,
     "volume": 1600,
     "regularMarketVolume": 1600,
     "averageVolume": 34890,
@@ -1152,7 +1152,7 @@
     "nextFiscalYearEnd": 1801353600,
     "mostRecentQuarter": 1777507200,
     "netIncomeToCommon": 62000000,
-    "trailingEps": 63.37,
+    "trailingEps": 63.29,
     "enterpriseToRevenue": 1.309,
     "enterpriseToEbitda": 30.049,
     "52WeekChange": 0.34143865,
@@ -1203,8 +1203,7 @@
     "earningsCallTimestampStart": 1734087540,
     "earningsCallTimestampEnd": 1734087540,
     "isEarningsDateEstimate": false,
-    "epsTrailingTwelveMonths": 63.37,
-    "marketState": "CLOSED",
+    "epsTrailingTwelveMonths": 63.29,
     "fiftyDayAverageChange": 113.30005,
     "fiftyDayAverageChangePercent": 0.09358227,
     "twoHundredDayAverageChange": 265.135,
@@ -1212,6 +1211,10 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
+    "shortName": "STORAGE-OH CO LTD",
+    "longName": "STORAGE-OH Co.,Ltd.",
+    "corporateActions": [],
+    "regularMarketTime": 1787897618,
     "exchange": "JPX",
     "messageBoardId": "finmb_1775517680",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1219,12 +1222,9 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "corporateActions": [],
-    "regularMarketTime": 1787897618,
-    "shortName": "STORAGE-OH CO LTD",
     "regularMarketChangePercent": 0.07558579,
     "regularMarketPrice": 1324.0,
-    "longName": "STORAGE-OH Co.,Ltd.",
+    "marketState": "CLOSED",
     "trailingPegRatio": null
   }
 }

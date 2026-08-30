@@ -1,7 +1,7 @@
 {
   "ticker": "2469",
   "japanese_ticker": "2469.T",
-  "fetch_date": "2026-08-29T04:08:32.920808",
+  "fetch_date": "2026-08-30T01:05:20.557160",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": -38455200.0,
@@ -1244,7 +1244,7 @@
     "payoutRatio": 0.276,
     "fiveYearAvgDividendYield": 2.02,
     "beta": 0.775,
-    "trailingPE": 9.190962,
+    "trailingPE": 9.191259,
     "forwardPE": 8.927783,
     "volume": 14500,
     "regularMarketVolume": 14500,
@@ -1283,7 +1283,7 @@
     "mostRecentQuarter": 1782777600,
     "earningsQuarterlyGrowth": -0.562,
     "netIncomeToCommon": 2771000064,
-    "trailingEps": 308.02,
+    "trailingEps": 308.01,
     "forwardEps": 317.1,
     "lastSplitFactor": "2:1",
     "lastSplitDate": 1790640000,
@@ -1321,12 +1321,9 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1138838400000,
-    "regularMarketChange": -37.0,
-    "fulldayChange": -37.0,
-    "fulldayChangePercent": -1.2900976,
-    "regularMarketDayRange": "2801.0 - 2865.0",
+    "marketState": "CLOSED",
+    "shortName": "HIBINO CORPORATION COM STK",
+    "longName": "Hibino Corporation",
     "fullExchangeName": "Tokyo",
     "averageDailyVolume3Month": 20877,
     "fiftyTwoWeekLowChange": 390.0,
@@ -1335,10 +1332,46 @@
     "fiftyTwoWeekHighChange": -1539.0,
     "fiftyTwoWeekHighChangePercent": -0.35217392,
     "fiftyTwoWeekChangePercent": 6.8301916,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1138838400000,
+    "regularMarketChange": -37.0,
+    "fulldayChange": -37.0,
+    "fulldayChangePercent": -1.2900976,
+    "regularMarketDayRange": "2801.0 - 2865.0",
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "2469.T announced a cash dividend of JPY 45.00 with an ex-date of Sep. 29, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1790607600000,
+          "amount": "45.00"
+        }
+      },
+      {
+        "header": "Stock split",
+        "message": "2469.T announces 2 for 1 split effective Sep. 29, 2026",
+        "meta": {
+          "eventType": "SPLIT",
+          "dateEpochMs": 1790607600000,
+          "splitRatio": "2:1"
+        }
+      }
+    ],
+    "regularMarketTime": 1787898600,
+    "regularMarketChangePercent": -1.2900976,
+    "regularMarketPrice": 2831.0,
+    "exchange": "JPX",
+    "messageBoardId": "finmb_5777393",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
     "earningsTimestampStart": 1747204200,
     "earningsTimestampEnd": 1747204200,
     "isEarningsDateEstimate": false,
-    "epsTrailingTwelveMonths": 308.02,
+    "epsTrailingTwelveMonths": 308.01,
     "epsForward": 317.1,
     "fiftyDayAverageChange": 71.13989,
     "fiftyDayAverageChangePercent": 0.02577663,
@@ -1347,20 +1380,6 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
-    "corporateActions": [],
-    "regularMarketTime": 1787898600,
-    "exchange": "JPX",
-    "messageBoardId": "finmb_5777393",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
-    "shortName": "HIBINO CORPORATION COM STK",
-    "longName": "Hibino Corporation",
-    "regularMarketChangePercent": -1.2900976,
-    "regularMarketPrice": 2831.0,
-    "marketState": "CLOSED",
     "trailingPegRatio": null
   }
 }

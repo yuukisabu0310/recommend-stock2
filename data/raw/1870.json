@@ -1,7 +1,7 @@
 {
   "ticker": "1870",
   "japanese_ticker": "1870.T",
-  "fetch_date": "2026-08-29T04:01:50.947105",
+  "fetch_date": "2026-08-30T00:58:37.182479",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": -490941000.0,
@@ -1156,11 +1156,11 @@
     "regularMarketDayLow": 2172.0,
     "regularMarketDayHigh": 2197.0,
     "dividendRate": 110.0,
-    "dividendYield": 5.04,
+    "dividendYield": 5.01,
     "exDividendDate": 1790640000,
     "payoutRatio": 0.5083,
     "fiveYearAvgDividendYield": 4.22,
-    "trailingPE": 11.147241,
+    "trailingPE": 11.148374,
     "volume": 167900,
     "regularMarketVolume": 167900,
     "averageVolume": 149423,
@@ -1198,7 +1198,7 @@
     "mostRecentQuarter": 1782777600,
     "earningsQuarterlyGrowth": 0.154,
     "netIncomeToCommon": 8860999680,
-    "trailingEps": 196.82,
+    "trailingEps": 196.8,
     "enterpriseToRevenue": 0.582,
     "enterpriseToEbitda": 7.381,
     "52WeekChange": 0.006422043,
@@ -1234,18 +1234,9 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "shortName": "YAHAGI CONSTRUCTION CO",
-    "longName": "Yahagi Construction Co.,Ltd.",
+    "regularMarketChangePercent": 0.5499542,
+    "regularMarketPrice": 2194.0,
     "marketState": "CLOSED",
-    "epsTrailingTwelveMonths": 196.82,
-    "fiftyDayAverageChange": 253.83997,
-    "fiftyDayAverageChangePercent": 0.13083455,
-    "twoHundredDayAverageChange": 66.82007,
-    "twoHundredDayAverageChangePercent": 0.031412512,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "averageAnalystRating": "0.0 - Strong Buy",
-    "cryptoTradeable": false,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 978566400000,
     "regularMarketChange": 12.0,
@@ -1263,7 +1254,26 @@
     "earningsTimestampStart": 1754456400,
     "earningsTimestampEnd": 1754974800,
     "isEarningsDateEstimate": true,
-    "corporateActions": [],
+    "epsTrailingTwelveMonths": 196.8,
+    "fiftyDayAverageChange": 253.83997,
+    "fiftyDayAverageChangePercent": 0.13083455,
+    "twoHundredDayAverageChange": 66.82007,
+    "twoHundredDayAverageChangePercent": 0.031412512,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "averageAnalystRating": "0.0 - Strong Buy",
+    "cryptoTradeable": false,
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "1870.T announced a cash dividend of JPY 55.00 with an ex-date of Sep. 29, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1790607600000,
+          "amount": "55.00"
+        }
+      }
+    ],
     "regularMarketTime": 1787898600,
     "exchange": "JPX",
     "messageBoardId": "finmb_881125",
@@ -1272,8 +1282,8 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "regularMarketChangePercent": 0.5499542,
-    "regularMarketPrice": 2194.0,
+    "shortName": "YAHAGI CONSTRUCTION CO",
+    "longName": "Yahagi Construction Co.,Ltd.",
     "trailingPegRatio": null
   }
 }

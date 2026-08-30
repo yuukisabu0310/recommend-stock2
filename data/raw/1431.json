@@ -1,7 +1,7 @@
 {
   "ticker": "1431",
   "japanese_ticker": "1431.T",
-  "fetch_date": "2026-08-29T03:59:30.065919",
+  "fetch_date": "2026-08-30T00:56:11.613141",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-06-30 00:00:00": -2629952.0,
@@ -1038,7 +1038,7 @@
     "payoutRatio": 1.4447,
     "fiveYearAvgDividendYield": 0.83,
     "beta": 0.774,
-    "trailingPE": 146.51686,
+    "trailingPE": 147.17833,
     "volume": 21400,
     "regularMarketVolume": 21400,
     "averageVolume": 22153,
@@ -1074,7 +1074,7 @@
     "mostRecentQuarter": 1782777600,
     "earningsQuarterlyGrowth": 0.713,
     "netIncomeToCommon": 90000000,
-    "trailingEps": 4.45,
+    "trailingEps": 4.43,
     "lastSplitFactor": "2:1",
     "lastSplitDate": 1617062400,
     "enterpriseToRevenue": 2.61,
@@ -1113,7 +1113,18 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "longName": "Lib Work Co.,Ltd.",
+    "marketState": "CLOSED",
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "1431.T announced a cash dividend of JPY 1.60 with an ex-date of Sep. 29, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1790607600000,
+          "amount": "1.60"
+        }
+      }
+    ],
     "regularMarketTime": 1787898600,
     "exchange": "JPX",
     "messageBoardId": "finmb_52302883",
@@ -1139,7 +1150,9 @@
     "earningsTimestampStart": 1747117800,
     "earningsTimestampEnd": 1747117800,
     "isEarningsDateEstimate": false,
-    "epsTrailingTwelveMonths": 4.45,
+    "epsTrailingTwelveMonths": 4.43,
+    "shortName": "LIB WORK CO LTD",
+    "longName": "Lib Work Co.,Ltd.",
     "fiftyDayAverageChange": 4.5999756,
     "fiftyDayAverageChangePercent": 0.0071053063,
     "twoHundredDayAverageChange": -3.4450073,
@@ -1149,9 +1162,6 @@
     "cryptoTradeable": false,
     "regularMarketChangePercent": -0.30581042,
     "regularMarketPrice": 652.0,
-    "shortName": "LIB WORK CO LTD",
-    "corporateActions": [],
-    "marketState": "CLOSED",
     "trailingPegRatio": null
   }
 }

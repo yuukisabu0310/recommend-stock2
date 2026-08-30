@@ -1,7 +1,7 @@
 {
   "ticker": "2762",
   "japanese_ticker": "2762.T",
-  "fetch_date": "2026-08-29T04:11:17.104377",
+  "fetch_date": "2026-08-30T01:08:02.760225",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-06-30 00:00:00": -34336000.0,
@@ -1113,6 +1113,7 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "exchange": "JPX",
     "marketState": "CLOSED",
     "regularMarketChange": 0.0,
     "fulldayChange": 0.0,
@@ -1129,8 +1130,6 @@
     "earningsTimestampStart": 1747290600,
     "earningsTimestampEnd": 1747290600,
     "isEarningsDateEstimate": false,
-    "shortName": "SANKO MARKETING FOODS CO",
-    "longName": "Sanko Marketing Foods Co., Ltd.",
     "regularMarketChangePercent": 0.0,
     "regularMarketPrice": 70.0,
     "epsTrailingTwelveMonths": -20.32,
@@ -1141,17 +1140,18 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1095206400000,
     "corporateActions": [],
     "regularMarketTime": 1787898600,
-    "exchange": "JPX",
     "messageBoardId": "finmb_5746724",
     "exchangeTimezoneName": "Asia/Tokyo",
     "exchangeTimezoneShortName": "JST",
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1095206400000,
+    "shortName": "SANKO MARKETING FOODS CO",
+    "longName": "Sanko Marketing Foods Co., Ltd.",
     "trailingPegRatio": null
   }
 }

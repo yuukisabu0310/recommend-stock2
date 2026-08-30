@@ -1,7 +1,7 @@
 {
   "ticker": "1878",
   "japanese_ticker": "1878.T",
-  "fetch_date": "2026-08-29T04:01:56.366726",
+  "fetch_date": "2026-08-30T00:58:42.701371",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": -178980000.0,
@@ -1244,12 +1244,12 @@
     "regularMarketDayLow": 3311.0,
     "regularMarketDayHigh": 3353.0,
     "dividendRate": 163.0,
-    "dividendYield": 4.9,
+    "dividendYield": 4.86,
     "exDividendDate": 1790640000,
     "payoutRatio": 0.50310004,
     "fiveYearAvgDividendYield": 3.86,
     "beta": 0.168,
-    "trailingPE": 11.219675,
+    "trailingPE": 11.210672,
     "forwardPE": 2.4034636,
     "volume": 931100,
     "regularMarketVolume": 931100,
@@ -1288,7 +1288,7 @@
     "mostRecentQuarter": 1782777600,
     "earningsQuarterlyGrowth": -0.018,
     "netIncomeToCommon": 98604998656,
-    "trailingEps": 298.85,
+    "trailingEps": 299.09,
     "forwardEps": 1395.07,
     "pegRatio": 1.12,
     "lastSplitFactor": "5:1",
@@ -1336,7 +1336,17 @@
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
     "marketState": "CLOSED",
-    "corporateActions": [],
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "1878.T announced a cash dividend of JPY 81.00 with an ex-date of Sep. 29, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1790607600000,
+          "amount": "81.00"
+        }
+      }
+    ],
     "regularMarketTime": 1787898600,
     "exchange": "JPX",
     "messageBoardId": "finmb_880828",
@@ -1345,8 +1355,18 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
+    "shortName": "DAITO TRUST CONSTRUCTION CO",
+    "longName": "Daito Trust Construction Co.,Ltd.",
     "regularMarketChangePercent": 0.7512019,
     "regularMarketPrice": 3353.0,
+    "fiftyDayAverageChange": 140.87012,
+    "fiftyDayAverageChangePercent": 0.043855675,
+    "twoHundredDayAverageChange": 86.86743,
+    "twoHundredDayAverageChangePercent": 0.02659642,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "averageAnalystRating": "3.1 - Hold",
+    "cryptoTradeable": false,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 978307200000,
     "regularMarketChange": 25.0,
@@ -1367,18 +1387,8 @@
     "earningsCallTimestampStart": 1746183540,
     "earningsCallTimestampEnd": 1746183540,
     "isEarningsDateEstimate": false,
-    "epsTrailingTwelveMonths": 298.85,
+    "epsTrailingTwelveMonths": 299.09,
     "epsForward": 1395.07,
-    "shortName": "DAITO TRUST CONSTRUCTION CO",
-    "longName": "Daito Trust Construction Co.,Ltd.",
-    "fiftyDayAverageChange": 140.87012,
-    "fiftyDayAverageChangePercent": 0.043855675,
-    "twoHundredDayAverageChange": 86.86743,
-    "twoHundredDayAverageChangePercent": 0.02659642,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "averageAnalystRating": "3.1 - Hold",
-    "cryptoTradeable": false,
     "trailingPegRatio": null
   }
 }

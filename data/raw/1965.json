@@ -1,7 +1,7 @@
 {
   "ticker": "1965",
   "japanese_ticker": "1965.T",
-  "fetch_date": "2026-08-29T04:03:11.194734",
+  "fetch_date": "2026-08-30T00:59:55.345160",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": 56840000.0,
@@ -1194,12 +1194,12 @@
     "regularMarketDayLow": 6760.0,
     "regularMarketDayHigh": 6980.0,
     "dividendRate": 60.0,
-    "dividendYield": 0.86,
+    "dividendYield": 0.87,
     "exDividendDate": 1790640000,
     "payoutRatio": 0.2978,
     "fiveYearAvgDividendYield": 3.05,
     "beta": 0.456,
-    "trailingPE": 12.089993,
+    "trailingPE": 12.091898,
     "volume": 102600,
     "regularMarketVolume": 102600,
     "averageVolume": 68085,
@@ -1237,7 +1237,7 @@
     "mostRecentQuarter": 1782777600,
     "earningsQuarterlyGrowth": 0.223,
     "netIncomeToCommon": 12174000128,
-    "trailingEps": 570.72,
+    "trailingEps": 570.63,
     "lastSplitFactor": "3:1",
     "lastSplitDate": 1790640000,
     "enterpriseToRevenue": 1.147,
@@ -1274,15 +1274,26 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "fiftyDayAverageChange": 816.2002,
-    "fiftyDayAverageChangePercent": 0.13415961,
-    "twoHundredDayAverageChange": 326.6499,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
-    "shortName": "TECHNO RYOWA LTD",
-    "longName": "Techno Ryowa Ltd.",
-    "corporateActions": [],
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "1965.T announced a cash dividend of JPY 88.00 with an ex-date of Sep. 29, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1790607600000,
+          "amount": "88.00"
+        }
+      },
+      {
+        "header": "Stock split",
+        "message": "1965.T announces 3 for 1 split effective Sep. 29, 2026",
+        "meta": {
+          "eventType": "SPLIT",
+          "dateEpochMs": 1790607600000,
+          "splitRatio": "3:1"
+        }
+      }
+    ],
     "regularMarketTime": 1787898600,
     "exchange": "JPX",
     "messageBoardId": "finmb_883433",
@@ -1291,11 +1302,17 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "marketState": "CLOSED",
+    "fiftyDayAverageChange": 816.2002,
+    "fiftyDayAverageChangePercent": 0.13415961,
+    "twoHundredDayAverageChange": 326.6499,
+    "twoHundredDayAverageChangePercent": 0.049693063,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
+    "shortName": "TECHNO RYOWA LTD",
+    "longName": "Techno Ryowa Ltd.",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 978307200000,
-    "regularMarketChangePercent": -0.86206895,
-    "regularMarketPrice": 6900.0,
     "regularMarketChange": -60.0,
     "fulldayChange": -60.0,
     "fulldayChangePercent": -0.86206895,
@@ -1311,8 +1328,10 @@
     "earningsTimestampStart": 1747112400,
     "earningsTimestampEnd": 1747112400,
     "isEarningsDateEstimate": false,
-    "epsTrailingTwelveMonths": 570.72,
-    "twoHundredDayAverageChangePercent": 0.049693063,
+    "epsTrailingTwelveMonths": 570.63,
+    "marketState": "CLOSED",
+    "regularMarketChangePercent": -0.86206895,
+    "regularMarketPrice": 6900.0,
     "trailingPegRatio": null
   }
 }

@@ -1,7 +1,7 @@
 {
   "ticker": "2924",
   "japanese_ticker": "2924.T",
-  "fetch_date": "2026-08-29T04:13:14.232497",
+  "fetch_date": "2026-08-30T01:10:02.694648",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": 11059852.99265,
@@ -1237,26 +1237,21 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "marketState": "CLOSED",
-    "shortName": "IFUJI SANGYO CO LTD",
-    "longName": "Ifuji Sangyo Co., Ltd.",
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1266796800000,
-    "regularMarketChange": 0.0,
-    "fulldayChange": 0.0,
-    "fulldayChangePercent": 0.0,
-    "regularMarketDayRange": "1920.0 - 1930.0",
-    "fullExchangeName": "Tokyo",
-    "corporateActions": [],
-    "regularMarketTime": 1787898600,
-    "exchange": "JPX",
-    "messageBoardId": "finmb_1340601",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
     "regularMarketChangePercent": 0.0,
+    "regularMarketPrice": 1930.0,
+    "marketState": "CLOSED",
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "2924.T announced a cash dividend of JPY 33.00 with an ex-date of Sep. 29, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1790607600000,
+          "amount": "33.00"
+        }
+      }
+    ],
+    "fullExchangeName": "Tokyo",
     "averageDailyVolume3Month": 6288,
     "fiftyTwoWeekLowChange": 147.0,
     "fiftyTwoWeekLowChangePercent": 0.082445316,
@@ -1275,7 +1270,22 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
-    "regularMarketPrice": 1930.0,
+    "regularMarketTime": 1787898600,
+    "exchange": "JPX",
+    "messageBoardId": "finmb_1340601",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1266796800000,
+    "regularMarketChange": 0.0,
+    "fulldayChange": 0.0,
+    "fulldayChangePercent": 0.0,
+    "regularMarketDayRange": "1920.0 - 1930.0",
+    "shortName": "IFUJI SANGYO CO LTD",
+    "longName": "Ifuji Sangyo Co., Ltd.",
     "trailingPegRatio": null
   }
 }

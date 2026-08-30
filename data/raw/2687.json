@@ -1,7 +1,7 @@
 {
   "ticker": "2687",
   "japanese_ticker": "2687.T",
-  "fetch_date": "2026-08-29T04:10:23.153324",
+  "fetch_date": "2026-08-30T01:07:07.709163",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-02-28 00:00:00": -278906400.0,
@@ -1204,8 +1204,8 @@
     "regularMarketDayLow": 482.0,
     "regularMarketDayHigh": 500.0,
     "dividendRate": 20.0,
-    "dividendYield": 3.99,
-    "exDividendDate": 1787875200,
+    "dividendYield": 4.09,
+    "exDividendDate": 1803513600,
     "payoutRatio": 0.4711,
     "fiveYearAvgDividendYield": 3.43,
     "beta": 0.277,
@@ -1284,10 +1284,6 @@
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
     "marketState": "CLOSED",
-    "shortName": "CVS BAY AREA INC",
-    "longName": "CVS Bay Area Inc.",
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1033516800000,
     "regularMarketChange": -2.0,
     "fulldayChange": -2.0,
     "fulldayChangePercent": -0.407332,
@@ -1311,8 +1307,8 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
-    "regularMarketChangePercent": -0.407332,
-    "regularMarketPrice": 489.0,
+    "corporateActions": [],
+    "regularMarketTime": 1787898600,
     "exchange": "JPX",
     "messageBoardId": "finmb_1347494",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1320,18 +1316,12 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "corporateActions": [
-      {
-        "header": "Dividend",
-        "message": "2687.T announced a cash dividend of JPY 10.00 with an ex-date of Aug. 28, 2026",
-        "meta": {
-          "eventType": "DIVIDEND",
-          "dateEpochMs": 1787842800000,
-          "amount": "10.00"
-        }
-      }
-    ],
-    "regularMarketTime": 1787898600,
+    "shortName": "CVS BAY AREA INC",
+    "longName": "CVS Bay Area Inc.",
+    "regularMarketChangePercent": -0.407332,
+    "regularMarketPrice": 489.0,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1033516800000,
     "trailingPegRatio": null
   }
 }

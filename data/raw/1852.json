@@ -1,7 +1,7 @@
 {
   "ticker": "1852",
   "japanese_ticker": "1852.T",
-  "fetch_date": "2026-08-29T04:01:39.866234",
+  "fetch_date": "2026-08-30T00:58:24.807555",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": -8010000.0,
@@ -1022,11 +1022,11 @@
     "regularMarketDayLow": 915.0,
     "regularMarketDayHigh": 924.0,
     "dividendRate": 56.0,
-    "dividendYield": 6.07,
+    "dividendYield": 6.1,
     "exDividendDate": 1790640000,
     "payoutRatio": 0.7005,
     "fiveYearAvgDividendYield": 5.73,
-    "trailingPE": 14.290162,
+    "trailingPE": 14.285714,
     "volume": 452600,
     "regularMarketVolume": 452600,
     "averageVolume": 541477,
@@ -1064,7 +1064,7 @@
     "mostRecentQuarter": 1782777600,
     "earningsQuarterlyGrowth": 0.598,
     "netIncomeToCommon": 5607000064,
-    "trailingEps": 64.24,
+    "trailingEps": 64.26,
     "lastSplitFactor": "5:1",
     "lastSplitDate": 1722297600,
     "enterpriseToRevenue": 0.361,
@@ -1101,8 +1101,8 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "regularMarketChangePercent": -0.5417118,
-    "regularMarketPrice": 918.0,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 978307200000,
     "regularMarketChange": -5.0,
     "fulldayChange": -5.0,
     "fulldayChangePercent": -0.5417118,
@@ -1118,19 +1118,30 @@
     "earningsTimestampStart": 1754460000,
     "earningsTimestampEnd": 1754978400,
     "isEarningsDateEstimate": true,
-    "epsTrailingTwelveMonths": 64.24,
+    "epsTrailingTwelveMonths": 64.26,
     "fiftyDayAverageChange": 44.23999,
     "fiftyDayAverageChangePercent": 0.05063174,
     "twoHundredDayAverageChange": -44.684998,
     "twoHundredDayAverageChangePercent": -0.04641705,
+    "regularMarketChangePercent": -0.5417118,
+    "regularMarketPrice": 918.0,
+    "shortName": "ASANUMA CORP",
+    "longName": "Asanuma Corporation",
+    "marketState": "CLOSED",
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 978307200000,
-    "shortName": "ASANUMA CORP",
-    "longName": "Asanuma Corporation",
-    "corporateActions": [],
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "1852.T announced a cash dividend of JPY 17.00 with an ex-date of Sep. 29, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1790607600000,
+          "amount": "17.00"
+        }
+      }
+    ],
     "regularMarketTime": 1787898600,
     "exchange": "JPX",
     "messageBoardId": "finmb_880661",
@@ -1139,7 +1150,6 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "marketState": "CLOSED",
     "trailingPegRatio": null
   }
 }

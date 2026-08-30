@@ -1,7 +1,7 @@
 {
   "ticker": "2918",
   "japanese_ticker": "2918.T",
-  "fetch_date": "2026-08-29T04:13:08.416181",
+  "fetch_date": "2026-08-30T01:09:56.859412",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-02-28 00:00:00": -133425000.0,
@@ -1174,12 +1174,12 @@
     "regularMarketDayLow": 2774.0,
     "regularMarketDayHigh": 2816.0,
     "dividendRate": 120.0,
-    "dividendYield": 4.17,
-    "exDividendDate": 1787875200,
+    "dividendYield": 4.27,
+    "exDividendDate": 1803513600,
     "payoutRatio": 0.39040002,
     "fiveYearAvgDividendYield": 3.47,
     "beta": 0.433,
-    "trailingPE": 9.13884,
+    "trailingPE": 9.132301,
     "forwardPE": 14.011976,
     "volume": 204000,
     "regularMarketVolume": 204000,
@@ -1218,7 +1218,7 @@
     "mostRecentQuarter": 1780185600,
     "earningsQuarterlyGrowth": -0.366,
     "netIncomeToCommon": 4782000128,
-    "trailingEps": 307.26,
+    "trailingEps": 307.48,
     "forwardEps": 200.4,
     "enterpriseToRevenue": 0.331,
     "enterpriseToEbitda": 5.574,
@@ -1259,21 +1259,9 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "shortName": "WARABEYA NICHIYO HOLDINGS CO LT",
     "longName": "Warabeya Nichiyo Holdings Co., Ltd.",
-    "corporateActions": [
-      {
-        "header": "Dividend",
-        "message": "2918.T announced a cash dividend of JPY 60.00 with an ex-date of Aug. 28, 2026",
-        "meta": {
-          "eventType": "DIVIDEND",
-          "dateEpochMs": 1787842800000,
-          "amount": "60.00"
-        }
-      }
-    ],
+    "corporateActions": [],
     "regularMarketTime": 1787898600,
-    "marketState": "CLOSED",
     "exchange": "JPX",
     "messageBoardId": "finmb_883960",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1281,9 +1269,9 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "cryptoTradeable": false,
     "regularMarketChangePercent": -0.31948882,
     "regularMarketPrice": 2808.0,
+    "shortName": "WARABEYA NICHIYO HOLDINGS CO LT",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 978566400000,
     "regularMarketChange": -9.0,
@@ -1301,7 +1289,7 @@
     "earningsTimestampStart": 1751868000,
     "earningsTimestampEnd": 1752213600,
     "isEarningsDateEstimate": true,
-    "epsTrailingTwelveMonths": 307.26,
+    "epsTrailingTwelveMonths": 307.48,
     "epsForward": 200.4,
     "fiftyDayAverageChange": 86.32007,
     "fiftyDayAverageChangePercent": 0.031715732,
@@ -1309,6 +1297,8 @@
     "twoHundredDayAverageChangePercent": -0.06563202,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
+    "marketState": "CLOSED",
     "trailingPegRatio": null
   }
 }

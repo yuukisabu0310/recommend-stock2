@@ -1,7 +1,7 @@
 {
   "ticker": "2749",
   "japanese_ticker": "2749.T",
-  "fetch_date": "2026-08-29T04:11:06.049823",
+  "fetch_date": "2026-08-30T01:07:52.023795",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": -6654609.0,
@@ -1102,7 +1102,7 @@
     "regularMarketDayLow": 657.0,
     "regularMarketDayHigh": 669.0,
     "dividendRate": 13.5,
-    "dividendYield": 2.05,
+    "dividendYield": 2.03,
     "exDividendDate": 1806364800,
     "payoutRatio": 0.2497,
     "fiveYearAvgDividendYield": 1.68,
@@ -1180,6 +1180,7 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "marketState": "CLOSED",
     "fiftyTwoWeekLowChange": 102.0,
     "fiftyTwoWeekLowChangePercent": 0.1811723,
     "fiftyTwoWeekRange": "563.0 - 797.0",
@@ -1197,6 +1198,8 @@
     "twoHundredDayAverageChangePercent": -0.0024974733,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
+    "shortName": "JP-HOLDINGS INC",
+    "longName": "Jp-Holdings,Inc.",
     "cryptoTradeable": false,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1266796800000,
@@ -1217,9 +1220,6 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "marketState": "CLOSED",
-    "shortName": "JP-HOLDINGS INC",
-    "longName": "Jp-Holdings,Inc.",
     "trailingPegRatio": null
   }
 }

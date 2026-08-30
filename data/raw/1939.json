@@ -1,7 +1,7 @@
 {
   "ticker": "1939",
   "japanese_ticker": "1939.T",
-  "fetch_date": "2026-08-29T04:02:40.761830",
+  "fetch_date": "2026-08-30T00:59:24.462572",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": 295596000.0,
@@ -1177,7 +1177,7 @@
     "payoutRatio": 0.48580003,
     "fiveYearAvgDividendYield": 4.2,
     "beta": 0.293,
-    "trailingPE": 13.748501,
+    "trailingPE": 13.755445,
     "volume": 76800,
     "regularMarketVolume": 76800,
     "averageVolume": 83003,
@@ -1215,7 +1215,7 @@
     "mostRecentQuarter": 1782777600,
     "earningsQuarterlyGrowth": 0.864,
     "netIncomeToCommon": 8408000000,
-    "trailingEps": 158.49,
+    "trailingEps": 158.41,
     "lastSplitFactor": "3:1",
     "lastSplitDate": 1727395200,
     "enterpriseToRevenue": 0.885,
@@ -1253,6 +1253,8 @@
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
     "marketState": "CLOSED",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 978307200000,
     "regularMarketChange": -4.0,
     "fulldayChange": -4.0,
     "fulldayChangePercent": -0.18323408,
@@ -1264,12 +1266,11 @@
     "fiftyTwoWeekRange": "1303.0 - 2205.0",
     "fiftyTwoWeekHighChange": -26.0,
     "fiftyTwoWeekHighChangePercent": -0.011791383,
-    "longName": "Yondenko Corporation",
     "fiftyTwoWeekChangePercent": 52.912285,
     "earningsTimestampStart": 1753687800,
     "earningsTimestampEnd": 1754033400,
     "isEarningsDateEstimate": true,
-    "epsTrailingTwelveMonths": 158.49,
+    "epsTrailingTwelveMonths": 158.41,
     "fiftyDayAverageChange": 132.12,
     "fiftyDayAverageChangePercent": 0.06454702,
     "twoHundredDayAverageChange": 309.82996,
@@ -1277,13 +1278,21 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
-    "shortName": "YONDENKO CORP",
-    "regularMarketChangePercent": -0.18323408,
-    "regularMarketPrice": 2179.0,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 978307200000,
-    "corporateActions": [],
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "1939.T announced a cash dividend of JPY 42.00 with an ex-date of Sep. 29, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1790607600000,
+          "amount": "42.00"
+        }
+      }
+    ],
     "regularMarketTime": 1787898600,
+    "shortName": "YONDENKO CORP",
+    "longName": "Yondenko Corporation",
+    "regularMarketChangePercent": -0.18323408,
     "exchange": "JPX",
     "messageBoardId": "finmb_880757",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1291,6 +1300,7 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
+    "regularMarketPrice": 2179.0,
     "trailingPegRatio": null
   }
 }

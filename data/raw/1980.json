@@ -1,7 +1,7 @@
 {
   "ticker": "1980",
   "japanese_ticker": "1980.T",
-  "fetch_date": "2026-08-29T04:03:28.098649",
+  "fetch_date": "2026-08-30T01:00:13.899809",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": 534181000.0,
@@ -1013,12 +1013,12 @@
     "regularMarketDayLow": 2742.0,
     "regularMarketDayHigh": 2795.0,
     "dividendRate": 86.0,
-    "dividendYield": 3.08,
+    "dividendYield": 3.12,
     "exDividendDate": 1790640000,
     "payoutRatio": 0.4019,
     "fiveYearAvgDividendYield": 3.38,
     "beta": 0.727,
-    "trailingPE": 13.3133955,
+    "trailingPE": 13.315322,
     "forwardPE": 9.368635,
     "volume": 1040500,
     "regularMarketVolume": 1040500,
@@ -1057,7 +1057,7 @@
     "mostRecentQuarter": 1782777600,
     "earningsQuarterlyGrowth": -0.046,
     "netIncomeToCommon": 26457999360,
-    "trailingEps": 207.31,
+    "trailingEps": 207.28,
     "forwardEps": 294.6,
     "lastSplitFactor": "3:1",
     "lastSplitDate": 1766966400,
@@ -1100,9 +1100,17 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "regularMarketChangePercent": -1.2168933,
-    "regularMarketPrice": 2760.0,
-    "corporateActions": [],
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "1980.T announced a cash dividend of JPY 42.00 with an ex-date of Sep. 29, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1790607600000,
+          "amount": "42.00"
+        }
+      }
+    ],
     "regularMarketTime": 1787898600,
     "exchange": "JPX",
     "messageBoardId": "finmb_880131",
@@ -1112,14 +1120,10 @@
     "market": "jp_market",
     "esgPopulated": false,
     "marketState": "CLOSED",
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 978566400000,
-    "regularMarketChange": -34.0,
-    "fulldayChange": -34.0,
-    "fulldayChangePercent": -1.2168933,
-    "regularMarketDayRange": "2742.0 - 2795.0",
     "shortName": "DAI-DAN CO LTD",
     "longName": "Dai-Dan Co., Ltd.",
+    "regularMarketChangePercent": -1.2168933,
+    "regularMarketPrice": 2760.0,
     "fullExchangeName": "Tokyo",
     "averageDailyVolume3Month": 693152,
     "fiftyTwoWeekLowChange": 800.0,
@@ -1132,7 +1136,7 @@
     "earningsTimestampStart": 1793946600,
     "earningsTimestampEnd": 1793946600,
     "isEarningsDateEstimate": true,
-    "epsTrailingTwelveMonths": 207.31,
+    "epsTrailingTwelveMonths": 207.28,
     "epsForward": 294.6,
     "fiftyDayAverageChange": 48.45996,
     "fiftyDayAverageChangePercent": 0.017871749,
@@ -1141,6 +1145,12 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 978566400000,
+    "regularMarketChange": -34.0,
+    "fulldayChange": -34.0,
+    "fulldayChangePercent": -1.2168933,
+    "regularMarketDayRange": "2742.0 - 2795.0",
     "trailingPegRatio": null
   }
 }

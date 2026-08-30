@@ -1,7 +1,7 @@
 {
   "ticker": "1444",
   "japanese_ticker": "1444.T",
-  "fetch_date": "2026-08-29T03:59:43.168223",
+  "fetch_date": "2026-08-30T00:56:25.254036",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-07-31 00:00:00": null,
@@ -993,7 +993,7 @@
     "mostRecentQuarter": 1777507200,
     "earningsQuarterlyGrowth": -0.634,
     "netIncomeToCommon": -70000000,
-    "trailingEps": -40.18,
+    "trailingEps": -40.21,
     "enterpriseToRevenue": 0.47,
     "enterpriseToEbitda": 68.973,
     "52WeekChange": -0.01915288,
@@ -1030,7 +1030,6 @@
     "longName": "Nissou Co.,Ltd.",
     "corporateActions": [],
     "regularMarketTime": 1787898600,
-    "marketState": "CLOSED",
     "exchange": "JPX",
     "messageBoardId": "finmb_550200643",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1038,11 +1037,10 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "cryptoTradeable": false,
+    "marketState": "CLOSED",
     "regularMarketChangePercent": 1.408987,
     "regularMarketPrice": 2663.0,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1674518400000,
+    "cryptoTradeable": false,
     "regularMarketChange": 37.0,
     "fulldayChange": 37.0,
     "fulldayChangePercent": 1.408987,
@@ -1058,13 +1056,15 @@
     "earningsTimestampStart": 1757572200,
     "earningsTimestampEnd": 1757917800,
     "isEarningsDateEstimate": true,
-    "epsTrailingTwelveMonths": -40.18,
+    "epsTrailingTwelveMonths": -40.21,
     "fiftyDayAverageChange": -100.73999,
     "fiftyDayAverageChangePercent": -0.036450602,
     "twoHundredDayAverageChange": -116.2749,
     "twoHundredDayAverageChangePercent": -0.04183642,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1674518400000,
     "trailingPegRatio": null
   }
 }

@@ -1,7 +1,7 @@
 {
   "ticker": "1909",
   "japanese_ticker": "1909.T",
-  "fetch_date": "2026-08-29T04:02:19.734894",
+  "fetch_date": "2026-08-30T00:59:04.605158",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": -137620510.251879,
@@ -1221,20 +1221,6 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "earningsTimestampStart": 1754550000,
-    "earningsTimestampEnd": 1754895600,
-    "isEarningsDateEstimate": true,
-    "epsTrailingTwelveMonths": 189.44,
-    "epsForward": 492.5,
-    "fiftyDayAverageChange": -1.3999023,
-    "fiftyDayAverageChangePercent": -0.00037820888,
-    "twoHundredDayAverageChange": 628.2324,
-    "twoHundredDayAverageChangePercent": 0.20451821,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
-    "regularMarketChangePercent": 0.0,
-    "regularMarketPrice": 3700.0,
     "corporateActions": [
       {
         "header": "Reverse stock split",
@@ -1254,6 +1240,13 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
+    "fiftyDayAverageChange": -1.3999023,
+    "fiftyDayAverageChangePercent": -0.00037820888,
+    "twoHundredDayAverageChange": 628.2324,
+    "twoHundredDayAverageChangePercent": 0.20451821,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
     "shortName": "NIPPON DRY-CHEMICAL CO LTD",
     "longName": "Nippon Dry-Chemical Co., Ltd.",
     "hasPrePostMarketData": false,
@@ -1270,7 +1263,14 @@
     "fiftyTwoWeekHighChange": -150.0,
     "fiftyTwoWeekHighChangePercent": -0.038961038,
     "fiftyTwoWeekChangePercent": 128.39505,
+    "earningsTimestampStart": 1754550000,
+    "earningsTimestampEnd": 1754895600,
+    "isEarningsDateEstimate": true,
+    "epsTrailingTwelveMonths": 189.44,
+    "epsForward": 492.5,
     "marketState": "CLOSED",
+    "regularMarketChangePercent": 0.0,
+    "regularMarketPrice": 3700.0,
     "trailingPegRatio": null
   }
 }

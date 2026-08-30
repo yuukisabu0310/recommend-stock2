@@ -1,7 +1,7 @@
 {
   "ticker": "1810",
   "japanese_ticker": "1810.T",
-  "fetch_date": "2026-08-29T04:01:04.299010",
+  "fetch_date": "2026-08-30T00:57:46.736719",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": 83980000.0,
@@ -1036,12 +1036,12 @@
     "regularMarketDayLow": 1490.0,
     "regularMarketDayHigh": 1505.0,
     "dividendRate": 70.0,
-    "dividendYield": 4.65,
+    "dividendYield": 4.68,
     "exDividendDate": 1790640000,
     "payoutRatio": 0.4938,
     "fiveYearAvgDividendYield": 3.41,
     "beta": 0.555,
-    "trailingPE": 9.851827,
+    "trailingPE": 9.852476,
     "volume": 30600,
     "regularMarketVolume": 30600,
     "averageVolume": 40674,
@@ -1079,7 +1079,7 @@
     "mostRecentQuarter": 1782777600,
     "earningsQuarterlyGrowth": 0.239,
     "netIncomeToCommon": 4574000128,
-    "trailingEps": 151.85,
+    "trailingEps": 151.84,
     "enterpriseToRevenue": 0.222,
     "enterpriseToEbitda": 3.272,
     "52WeekChange": 0.061745882,
@@ -1113,7 +1113,9 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "epsTrailingTwelveMonths": 151.85,
+    "marketState": "CLOSED",
+    "shortName": "MATSUI CONSTRUCTION CO",
+    "longName": "Matsui Construction Co., Ltd.",
     "fiftyDayAverageChange": 65.119995,
     "fiftyDayAverageChangePercent": 0.045510452,
     "twoHundredDayAverageChange": -25.435059,
@@ -1121,11 +1123,6 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
-    "corporateActions": [],
-    "regularMarketTime": 1787898600,
-    "exchange": "JPX",
-    "messageBoardId": "finmb_5491026",
-    "exchangeTimezoneName": "Asia/Tokyo",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 978307200000,
     "regularMarketChange": -9.0,
@@ -1143,15 +1140,28 @@
     "earningsTimestampStart": 1754541000,
     "earningsTimestampEnd": 1754973000,
     "isEarningsDateEstimate": true,
-    "marketState": "CLOSED",
+    "epsTrailingTwelveMonths": 151.84,
+    "exchange": "JPX",
+    "messageBoardId": "finmb_5491026",
+    "exchangeTimezoneName": "Asia/Tokyo",
     "exchangeTimezoneShortName": "JST",
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "shortName": "MATSUI CONSTRUCTION CO",
-    "longName": "Matsui Construction Co., Ltd.",
     "regularMarketChangePercent": -0.59800667,
     "regularMarketPrice": 1496.0,
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "1810.T announced a cash dividend of JPY 35.00 with an ex-date of Sep. 29, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1790607600000,
+          "amount": "35.00"
+        }
+      }
+    ],
+    "regularMarketTime": 1787898600,
     "trailingPegRatio": null
   }
 }

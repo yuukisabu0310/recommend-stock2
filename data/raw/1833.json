@@ -1,7 +1,7 @@
 {
   "ticker": "1833",
   "japanese_ticker": "1833.T",
-  "fetch_date": "2026-08-29T04:01:24.522353",
+  "fetch_date": "2026-08-30T00:58:08.964154",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": 1735041000.0,
@@ -1180,7 +1180,7 @@
     "regularMarketDayLow": 5800.0,
     "regularMarketDayHigh": 5860.0,
     "dividendRate": 300.0,
-    "dividendYield": 5.12,
+    "dividendYield": 5.15,
     "exDividendDate": 1790640000,
     "payoutRatio": 0.5803,
     "fiveYearAvgDividendYield": 5.12,
@@ -1201,6 +1201,8 @@
     "allTimeHigh": 7490.0,
     "allTimeLow": 1170.0,
     "fulldayPrice": 5820.0,
+    "fulldayChange": -40.0,
+    "fulldayChangePercent": -0.6825938,
     "priceToSalesTrailing12Months": 0.69018173,
     "fiftyDayAverage": 5713.2,
     "twoHundredDayAverage": 6119.8,
@@ -1256,26 +1258,8 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "regularMarketChangePercent": -0.6825938,
-    "regularMarketPrice": 5820.0,
-    "corporateActions": [],
-    "regularMarketTime": 1787898600,
-    "exchange": "JPX",
-    "messageBoardId": "finmb_875869",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
-    "marketState": "CLOSED",
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 978307200000,
     "regularMarketChange": -40.0,
-    "fulldayChange": -40.0,
-    "fulldayChangePercent": -0.6825938,
     "regularMarketDayRange": "5800.0 - 5860.0",
-    "shortName": "OKUMURA CORP",
-    "longName": "Okumura Corporation",
     "fullExchangeName": "Tokyo",
     "averageDailyVolume3Month": 107960,
     "fiftyTwoWeekLowChange": 1270.0,
@@ -1298,6 +1282,32 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
+    "shortName": "OKUMURA CORP",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 978307200000,
+    "marketState": "CLOSED",
+    "longName": "Okumura Corporation",
+    "regularMarketChangePercent": -0.6825938,
+    "regularMarketPrice": 5820.0,
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "1833.T announced a cash dividend of JPY 150.00 with an ex-date of Sep. 29, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1790607600000,
+          "amount": "150.00"
+        }
+      }
+    ],
+    "regularMarketTime": 1787898600,
+    "exchange": "JPX",
+    "messageBoardId": "finmb_875869",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
     "trailingPegRatio": null
   }
 }

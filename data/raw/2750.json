@@ -1,7 +1,7 @@
 {
   "ticker": "2750",
   "japanese_ticker": "2750.T",
-  "fetch_date": "2026-08-29T04:11:07.959330",
+  "fetch_date": "2026-08-30T01:07:53.744683",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": 64727661.0,
@@ -1105,7 +1105,7 @@
     "payoutRatio": 0.2759,
     "fiveYearAvgDividendYield": 3.06,
     "beta": 0.253,
-    "trailingPE": 8.334867,
+    "trailingPE": 8.333333,
     "volume": 3900,
     "regularMarketVolume": 3900,
     "averageVolume": 11426,
@@ -1143,7 +1143,7 @@
     "mostRecentQuarter": 1782777600,
     "earningsQuarterlyGrowth": 1.164,
     "netIncomeToCommon": 1700280960,
-    "trailingEps": 163.05,
+    "trailingEps": 163.08,
     "enterpriseToRevenue": 0.226,
     "enterpriseToEbitda": 5.141,
     "52WeekChange": -0.013071895,
@@ -1178,23 +1178,20 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "2750.T announced a cash dividend of JPY 20.00 with an ex-date of Sep. 29, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1790607600000,
+          "amount": "20.00"
+        }
+      }
+    ],
     "regularMarketTime": 1787898600,
-    "exchange": "JPX",
-    "messageBoardId": "finmb_6463613",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
-    "marketState": "CLOSED",
-    "shortName": "S. ISHIMITSU & CO LTD",
-    "longName": "S.Ishimitsu & Co.,Ltd.",
-    "regularMarketChangePercent": 0.51775146,
-    "regularMarketPrice": 1359.0,
-    "earningsTimestampStart": 1747278000,
-    "earningsTimestampEnd": 1747278000,
     "isEarningsDateEstimate": false,
-    "epsTrailingTwelveMonths": 163.05,
+    "epsTrailingTwelveMonths": 163.08,
     "fiftyDayAverageChange": 72.859985,
     "fiftyDayAverageChangePercent": 0.05665012,
     "twoHundredDayAverageChange": 67.859985,
@@ -1202,6 +1199,15 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
+    "exchange": "JPX",
+    "messageBoardId": "finmb_6463613",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
+    "shortName": "S. ISHIMITSU & CO LTD",
+    "longName": "S.Ishimitsu & Co.,Ltd.",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1037059200000,
     "regularMarketChange": 7.0,
@@ -1216,7 +1222,11 @@
     "fiftyTwoWeekHighChange": -135.0,
     "fiftyTwoWeekHighChangePercent": -0.090361446,
     "fiftyTwoWeekChangePercent": -1.3071895,
-    "corporateActions": [],
+    "earningsTimestampStart": 1747278000,
+    "earningsTimestampEnd": 1747278000,
+    "marketState": "CLOSED",
+    "regularMarketChangePercent": 0.51775146,
+    "regularMarketPrice": 1359.0,
     "trailingPegRatio": null
   }
 }

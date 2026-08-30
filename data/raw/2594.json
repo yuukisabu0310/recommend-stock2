@@ -1,7 +1,7 @@
 {
   "ticker": "2594",
   "japanese_ticker": "2594.T",
-  "fetch_date": "2026-08-29T04:09:35.004800",
+  "fetch_date": "2026-08-30T01:06:20.481352",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": -1603000.0,
@@ -1256,7 +1256,7 @@
     "payoutRatio": 0.2601,
     "fiveYearAvgDividendYield": 0.54,
     "beta": 0.119,
-    "trailingPE": 44.360252,
+    "trailingPE": 44.446857,
     "volume": 122200,
     "regularMarketVolume": 122200,
     "averageVolume": 66976,
@@ -1294,7 +1294,7 @@
     "mostRecentQuarter": 1782777600,
     "earningsQuarterlyGrowth": 0.953,
     "netIncomeToCommon": 1294000000,
-    "trailingEps": 46.19,
+    "trailingEps": 46.1,
     "enterpriseToRevenue": 0.594,
     "enterpriseToEbitda": 21.501,
     "52WeekChange": 0.026039004,
@@ -1329,12 +1329,20 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "regularMarketChangePercent": 0.6879607,
-    "regularMarketPrice": 2049.0,
     "marketState": "CLOSED",
     "shortName": "KEY COFFEE INC",
     "longName": "Key Coffee Inc.",
-    "corporateActions": [],
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "2594.T announced a cash dividend of JPY 6.00 with an ex-date of Sep. 29, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1790607600000,
+          "amount": "6.00"
+        }
+      }
+    ],
     "regularMarketTime": 1787898600,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 978307200000,
@@ -1353,13 +1361,7 @@
     "earningsTimestampStart": 1753678800,
     "earningsTimestampEnd": 1754024400,
     "isEarningsDateEstimate": true,
-    "epsTrailingTwelveMonths": 46.19,
-    "exchange": "JPX",
-    "messageBoardId": "finmb_882237",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
+    "epsTrailingTwelveMonths": 46.1,
     "fiftyDayAverageChange": 56.54004,
     "fiftyDayAverageChangePercent": 0.028377002,
     "twoHundredDayAverageChange": 65.31006,
@@ -1367,6 +1369,14 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
+    "regularMarketChangePercent": 0.6879607,
+    "regularMarketPrice": 2049.0,
+    "exchange": "JPX",
+    "messageBoardId": "finmb_882237",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
     "esgPopulated": false,
     "trailingPegRatio": null
   }

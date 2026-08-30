@@ -1,7 +1,7 @@
 {
   "ticker": "1795",
   "japanese_ticker": "1795.T",
-  "fetch_date": "2026-08-29T04:00:49.042318",
+  "fetch_date": "2026-08-30T00:57:30.918279",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-09-30 00:00:00": 2066205.0,
@@ -1132,7 +1132,7 @@
     "regularMarketDayLow": 5530.0,
     "regularMarketDayHigh": 5640.0,
     "dividendRate": 110.0,
-    "dividendYield": 1.95,
+    "dividendYield": 1.96,
     "exDividendDate": 1790640000,
     "payoutRatio": 0.3388,
     "fiveYearAvgDividendYield": 3.5,
@@ -1210,13 +1210,28 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "regularMarketChangePercent": -0.3552398,
-    "regularMarketPrice": 5610.0,
     "marketState": "CLOSED",
     "shortName": "MASARU CORPORATION",
     "longName": "Masaru Corporation",
-    "corporateActions": [],
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "1795.T announced a cash dividend of JPY 110.00 with an ex-date of Sep. 29, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1790607600000,
+          "amount": "110.00"
+        }
+      }
+    ],
     "regularMarketTime": 1787888257,
+    "exchange": "JPX",
+    "messageBoardId": "finmb_5864375",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 947030400000,
     "regularMarketChange": -20.0,
@@ -1235,20 +1250,15 @@
     "earningsTimestampEnd": 1754958900,
     "isEarningsDateEstimate": true,
     "epsTrailingTwelveMonths": 472.36,
-    "exchange": "JPX",
-    "messageBoardId": "finmb_5864375",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
     "fiftyDayAverageChange": 332.8999,
     "fiftyDayAverageChangePercent": 0.06308387,
     "twoHundredDayAverageChange": 821.3252,
     "twoHundredDayAverageChangePercent": 0.1715141,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
+    "regularMarketChangePercent": -0.3552398,
+    "regularMarketPrice": 5610.0,
     "cryptoTradeable": false,
-    "esgPopulated": false,
     "trailingPegRatio": null
   }
 }

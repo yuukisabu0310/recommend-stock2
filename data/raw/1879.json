@@ -1,7 +1,7 @@
 {
   "ticker": "1879",
   "japanese_ticker": "1879.T",
-  "fetch_date": "2026-08-29T04:01:58.162685",
+  "fetch_date": "2026-08-30T00:58:44.716128",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": 0.0,
@@ -934,7 +934,7 @@
     "payoutRatio": 0.2574,
     "fiveYearAvgDividendYield": 2.98,
     "beta": 0.567,
-    "trailingPE": 8.989282,
+    "trailingPE": 8.992737,
     "volume": 213200,
     "regularMarketVolume": 213200,
     "averageVolume": 122646,
@@ -972,7 +972,7 @@
     "mostRecentQuarter": 1782777600,
     "earningsQuarterlyGrowth": 0.044,
     "netIncomeToCommon": 15342000128,
-    "trailingEps": 260.31,
+    "trailingEps": 260.21,
     "lastSplitFactor": "2:1",
     "lastSplitDate": 1143504000,
     "enterpriseToRevenue": 0.438,
@@ -1009,17 +1009,6 @@
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
     "marketState": "CLOSED",
-    "corporateActions": [],
-    "regularMarketTime": 1787898600,
-    "exchange": "JPX",
-    "messageBoardId": "finmb_881105",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
-    "regularMarketChangePercent": -0.12804097,
-    "regularMarketPrice": 2340.0,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 978566400000,
     "regularMarketChange": -3.0,
@@ -1028,6 +1017,9 @@
     "regularMarketDayRange": "2312.0 - 2356.0",
     "fullExchangeName": "Tokyo",
     "averageDailyVolume3Month": 122646,
+    "regularMarketChangePercent": -0.12804097,
+    "regularMarketPrice": 2340.0,
+    "cryptoTradeable": false,
     "fiftyTwoWeekLowChange": 603.0,
     "fiftyTwoWeekLowChangePercent": 0.34715027,
     "fiftyTwoWeekRange": "1737.0 - 2374.0",
@@ -1037,16 +1029,34 @@
     "earningsTimestampStart": 1754542800,
     "earningsTimestampEnd": 1754974800,
     "isEarningsDateEstimate": true,
-    "epsTrailingTwelveMonths": 260.31,
-    "shortName": "SHINNIHON CORP",
-    "longName": "Shinnihon Corporation",
+    "epsTrailingTwelveMonths": 260.21,
     "fiftyDayAverageChange": 170.08008,
     "fiftyDayAverageChangePercent": 0.07838081,
     "twoHundredDayAverageChange": 267.67505,
     "twoHundredDayAverageChangePercent": 0.12916654,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "1879.T announced a cash dividend of JPY 41.00 with an ex-date of Sep. 29, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1790607600000,
+          "amount": "41.00"
+        }
+      }
+    ],
+    "regularMarketTime": 1787898600,
+    "exchange": "JPX",
+    "messageBoardId": "finmb_881105",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
+    "shortName": "SHINNIHON CORP",
+    "longName": "Shinnihon Corporation",
     "trailingPegRatio": null
   }
 }

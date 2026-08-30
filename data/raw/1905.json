@@ -1,7 +1,7 @@
 {
   "ticker": "1905",
   "japanese_ticker": "1905.T",
-  "fetch_date": "2026-08-29T04:02:17.669043",
+  "fetch_date": "2026-08-30T00:59:03.004519",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": 6290082.4,
@@ -1132,12 +1132,12 @@
     "regularMarketDayLow": 1470.0,
     "regularMarketDayHigh": 1477.0,
     "dividendRate": 62.0,
-    "dividendYield": 4.21,
+    "dividendYield": 4.22,
     "exDividendDate": 1790640000,
     "payoutRatio": 0.4287,
     "fiveYearAvgDividendYield": 3.34,
     "beta": 0.12,
-    "trailingPE": 10.420358,
+    "trailingPE": 10.416667,
     "volume": 1100,
     "regularMarketVolume": 1100,
     "averageVolume": 5384,
@@ -1175,7 +1175,7 @@
     "mostRecentQuarter": 1782777600,
     "earningsQuarterlyGrowth": -0.942,
     "netIncomeToCommon": 679000000,
-    "trailingEps": 141.07,
+    "trailingEps": 141.12,
     "enterpriseToRevenue": 0.174,
     "enterpriseToEbitda": 2.466,
     "52WeekChange": 0.061371803,
@@ -1209,6 +1209,28 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "regularMarketChangePercent": -0.06798097,
+    "regularMarketPrice": 1470.0,
+    "marketState": "CLOSED",
+    "exchange": "JPX",
+    "messageBoardId": "finmb_5577940",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "1905.T announced a cash dividend of JPY 31.00 with an ex-date of Sep. 29, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1790607600000,
+          "amount": "31.00"
+        }
+      }
+    ],
+    "regularMarketTime": 1787898600,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 947030400000,
     "regularMarketChange": -1.0,
@@ -1226,7 +1248,9 @@
     "earningsTimestampStart": 1747203300,
     "earningsTimestampEnd": 1747203300,
     "isEarningsDateEstimate": false,
-    "epsTrailingTwelveMonths": 141.07,
+    "epsTrailingTwelveMonths": 141.12,
+    "shortName": "TENOX CORP",
+    "longName": "Tenox Corporation",
     "fiftyDayAverageChange": -32.76001,
     "fiftyDayAverageChangePercent": -0.021799894,
     "twoHundredDayAverageChange": 27.515015,
@@ -1234,20 +1258,6 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
-    "shortName": "TENOX CORP",
-    "longName": "Tenox Corporation",
-    "regularMarketPrice": 1470.0,
-    "corporateActions": [],
-    "regularMarketTime": 1787898600,
-    "exchange": "JPX",
-    "messageBoardId": "finmb_5577940",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
-    "regularMarketChangePercent": -0.06798097,
-    "marketState": "CLOSED",
     "trailingPegRatio": null
   }
 }

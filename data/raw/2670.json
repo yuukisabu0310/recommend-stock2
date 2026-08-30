@@ -1,7 +1,7 @@
 {
   "ticker": "2670",
   "japanese_ticker": "2670.T",
-  "fetch_date": "2026-08-29T04:10:05.723275",
+  "fetch_date": "2026-08-30T01:06:50.796866",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-02-28 00:00:00": 65393818.544367,
@@ -1039,12 +1039,12 @@
     "regularMarketDayLow": 2699.5,
     "regularMarketDayHigh": 2741.0,
     "dividendRate": 80.0,
-    "dividendYield": 2.88,
-    "exDividendDate": 1787875200,
+    "dividendYield": 2.93,
+    "exDividendDate": 1803513600,
     "payoutRatio": 0.4007,
     "fiveYearAvgDividendYield": 2.59,
     "beta": -0.144,
-    "trailingPE": 14.588009,
+    "trailingPE": 14.577104,
     "forwardPE": 14.976958,
     "volume": 761600,
     "regularMarketVolume": 761600,
@@ -1083,7 +1083,7 @@
     "mostRecentQuarter": 1780185600,
     "earningsQuarterlyGrowth": 0.104,
     "netIncomeToCommon": 47688998912,
-    "trailingEps": 187.14,
+    "trailingEps": 187.28,
     "forwardEps": 182.28,
     "pegRatio": 1.79,
     "lastSplitFactor": "3:1",
@@ -1128,10 +1128,7 @@
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
     "marketState": "CLOSED",
-    "shortName": "ABC-MART INC",
-    "longName": "ABC-Mart,Inc.",
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1037923200000,
+    "corporateActions": [],
     "regularMarketTime": 1787898600,
     "exchange": "JPX",
     "messageBoardId": "finmb_5685872",
@@ -1140,17 +1137,6 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "corporateActions": [
-      {
-        "header": "Dividend",
-        "message": "2670.T announced a cash dividend of JPY 40.00 with an ex-date of Aug. 28, 2026",
-        "meta": {
-          "eventType": "DIVIDEND",
-          "dateEpochMs": 1787842800000,
-          "amount": "40.00"
-        }
-      }
-    ],
     "cryptoTradeable": false,
     "regularMarketChange": -6.5,
     "fulldayChange": -6.5,
@@ -1170,7 +1156,7 @@
     "earningsCallTimestampStart": 1744196340,
     "earningsCallTimestampEnd": 1744196340,
     "isEarningsDateEstimate": false,
-    "epsTrailingTwelveMonths": 187.14,
+    "epsTrailingTwelveMonths": 187.28,
     "epsForward": 182.28,
     "fiftyDayAverageChange": -26.5,
     "fiftyDayAverageChangePercent": -0.009613641,
@@ -1178,8 +1164,12 @@
     "twoHundredDayAverageChangePercent": 0.023873515,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1037923200000,
     "regularMarketChangePercent": -0.2375297,
     "regularMarketPrice": 2730.0,
+    "shortName": "ABC-MART INC",
+    "longName": "ABC-Mart,Inc.",
     "trailingPegRatio": null
   }
 }

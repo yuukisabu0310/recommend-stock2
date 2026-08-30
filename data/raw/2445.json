@@ -1,7 +1,7 @@
 {
   "ticker": "2445",
   "japanese_ticker": "2445.T",
-  "fetch_date": "2026-08-29T04:08:19.473880",
+  "fetch_date": "2026-08-30T01:05:05.591690",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": 22614200.0,
@@ -1224,11 +1224,11 @@
     "regularMarketDayLow": 402.0,
     "regularMarketDayHigh": 407.0,
     "dividendRate": 20.0,
-    "dividendYield": 4.93,
+    "dividendYield": 4.98,
     "exDividendDate": 1790640000,
     "payoutRatio": 0.42270002,
     "fiveYearAvgDividendYield": 3.35,
-    "trailingPE": 10.623678,
+    "trailingPE": 10.615263,
     "volume": 147200,
     "regularMarketVolume": 147200,
     "averageVolume": 79385,
@@ -1266,7 +1266,7 @@
     "mostRecentQuarter": 1782777600,
     "earningsQuarterlyGrowth": 58.75,
     "netIncomeToCommon": 1964000000,
-    "trailingEps": 37.84,
+    "trailingEps": 37.87,
     "lastSplitFactor": "2:1",
     "lastSplitDate": 1419552000,
     "enterpriseToRevenue": 1.033,
@@ -1306,8 +1306,6 @@
     "marketState": "CLOSED",
     "shortName": "TAKAMIYA CO LTD",
     "longName": "Takamiya Co., Ltd.",
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1197849600000,
     "regularMarketChange": -4.0,
     "fulldayChange": -4.0,
     "fulldayChangePercent": -0.9852217,
@@ -1323,7 +1321,7 @@
     "earningsTimestampStart": 1754287200,
     "earningsTimestampEnd": 1754632800,
     "isEarningsDateEstimate": true,
-    "epsTrailingTwelveMonths": 37.84,
+    "epsTrailingTwelveMonths": 37.87,
     "fiftyDayAverageChange": -5.9599915,
     "fiftyDayAverageChangePercent": -0.014609255,
     "twoHundredDayAverageChange": -13.01001,
@@ -1331,8 +1329,22 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1197849600000,
     "regularMarketChangePercent": -0.9852217,
     "regularMarketPrice": 402.0,
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "2445.T announced a cash dividend of JPY 6.00 with an ex-date of Sep. 29, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1790607600000,
+          "amount": "6.00"
+        }
+      }
+    ],
+    "regularMarketTime": 1787898600,
     "exchange": "JPX",
     "messageBoardId": "finmb_5718541",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1340,8 +1352,6 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "corporateActions": [],
-    "regularMarketTime": 1787898600,
     "trailingPegRatio": null
   }
 }

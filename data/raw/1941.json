@@ -1,7 +1,7 @@
 {
   "ticker": "1941",
   "japanese_ticker": "1941.T",
-  "fetch_date": "2026-08-29T04:02:42.959893",
+  "fetch_date": "2026-08-30T00:59:26.463841",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": -201370094.015819,
@@ -1192,12 +1192,12 @@
     "regularMarketDayLow": 5060.0,
     "regularMarketDayHigh": 5120.0,
     "dividendRate": 140.0,
-    "dividendYield": 2.73,
+    "dividendYield": 2.76,
     "exDividendDate": 1790640000,
     "payoutRatio": 0.39490002,
     "fiveYearAvgDividendYield": 3.93,
     "beta": 0.27,
-    "trailingPE": 14.852933,
+    "trailingPE": 14.8590145,
     "volume": 76800,
     "regularMarketVolume": 76800,
     "averageVolume": 87768,
@@ -1235,7 +1235,7 @@
     "mostRecentQuarter": 1782777600,
     "earningsQuarterlyGrowth": 0.037,
     "netIncomeToCommon": 18606999552,
-    "trailingEps": 342.02,
+    "trailingEps": 341.88,
     "enterpriseToRevenue": 0.919,
     "enterpriseToEbitda": 6.778,
     "52WeekChange": 0.29426754,
@@ -1269,11 +1269,32 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "marketState": "CLOSED",
     "regularMarketChangePercent": -0.78125,
     "regularMarketPrice": 5080.0,
+    "marketState": "CLOSED",
+    "shortName": "CHUDENKO CORP",
+    "longName": "Chudenko Corporation",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 978307200000,
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "1941.T announced a cash dividend of JPY 70.00 with an ex-date of Sep. 29, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1790607600000,
+          "amount": "70.00"
+        }
+      }
+    ],
+    "regularMarketTime": 1787898600,
+    "exchange": "JPX",
+    "messageBoardId": "finmb_880879",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
     "regularMarketChange": -40.0,
     "fulldayChange": -40.0,
     "fulldayChangePercent": -0.78125,
@@ -1292,7 +1313,7 @@
     "earningsCallTimestampStart": 1733309940,
     "earningsCallTimestampEnd": 1733309940,
     "isEarningsDateEstimate": true,
-    "epsTrailingTwelveMonths": 342.02,
+    "epsTrailingTwelveMonths": 341.88,
     "fiftyDayAverageChange": -116.200195,
     "fiftyDayAverageChangePercent": -0.022362532,
     "twoHundredDayAverageChange": 275.1748,
@@ -1300,17 +1321,6 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
-    "corporateActions": [],
-    "regularMarketTime": 1787898600,
-    "exchange": "JPX",
-    "messageBoardId": "finmb_880879",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
-    "shortName": "CHUDENKO CORP",
-    "longName": "Chudenko Corporation",
     "trailingPegRatio": null
   }
 }

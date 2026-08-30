@@ -1,7 +1,7 @@
 {
   "ticker": "2927",
   "japanese_ticker": "2927.T",
-  "fetch_date": "2026-08-29T04:13:18.496937",
+  "fetch_date": "2026-08-30T01:10:06.160964",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-08-31 00:00:00": -53785494.0,
@@ -1170,7 +1170,7 @@
     "regularMarketDayLow": 861.0,
     "regularMarketDayHigh": 871.0,
     "dividendRate": 44.0,
-    "dividendYield": 4.88,
+    "dividendYield": 5.1,
     "exDividendDate": 1787875200,
     "payoutRatio": 0.3746,
     "fiveYearAvgDividendYield": 3.63,
@@ -1192,8 +1192,6 @@
     "allTimeHigh": 3285.0,
     "allTimeLow": 517.0,
     "fulldayPrice": 863.0,
-    "fulldayChange": -16.0,
-    "fulldayChangePercent": -1.8202503,
     "priceToSalesTrailing12Months": 0.3784962,
     "fiftyDayAverage": 862.96,
     "twoHundredDayAverage": 870.85,
@@ -1252,21 +1250,12 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "regularMarketChangePercent": -1.8202503,
-    "regularMarketPrice": 863.0,
     "marketState": "CLOSED",
-    "market": "jp_market",
-    "esgPopulated": false,
-    "exchange": "JPX",
-    "messageBoardId": "finmb_20702650",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "longName": "AFC-HD AMS Life Science Co., Ltd.",
-    "shortName": "AFC-HD AMS LIFE SCIENCE CO LTD",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1109808000000,
     "regularMarketChange": -16.0,
+    "fulldayChange": -16.0,
+    "fulldayChangePercent": -1.8202503,
     "regularMarketDayRange": "861.0 - 871.0",
     "fullExchangeName": "Tokyo",
     "averageDailyVolume3Month": 28450,
@@ -1287,18 +1276,19 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
-    "corporateActions": [
-      {
-        "header": "Dividend",
-        "message": "2927.T announced a cash dividend of JPY 22.00 with an ex-date of Aug. 28, 2026",
-        "meta": {
-          "eventType": "DIVIDEND",
-          "dateEpochMs": 1787842800000,
-          "amount": "22.00"
-        }
-      }
-    ],
+    "corporateActions": [],
     "regularMarketTime": 1787898600,
+    "shortName": "AFC-HD AMS LIFE SCIENCE CO LTD",
+    "longName": "AFC-HD AMS Life Science Co., Ltd.",
+    "regularMarketChangePercent": -1.8202503,
+    "exchange": "JPX",
+    "messageBoardId": "finmb_20702650",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
+    "regularMarketPrice": 863.0,
     "trailingPegRatio": null
   }
 }

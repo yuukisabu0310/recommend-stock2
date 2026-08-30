@@ -1,7 +1,7 @@
 {
   "ticker": "1736",
   "japanese_ticker": "1736.T",
-  "fetch_date": "2026-08-29T04:00:22.385103",
+  "fetch_date": "2026-08-30T00:57:04.324522",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": -11325076.051715,
@@ -1104,7 +1104,7 @@
     "payoutRatio": 0.35029998,
     "fiveYearAvgDividendYield": 3.95,
     "beta": 0.107,
-    "trailingPE": 10.374012,
+    "trailingPE": 10.373568,
     "volume": 1900,
     "regularMarketVolume": 1900,
     "averageVolume": 7031,
@@ -1142,7 +1142,7 @@
     "mostRecentQuarter": 1782777600,
     "earningsQuarterlyGrowth": -0.121,
     "netIncomeToCommon": 3579000064,
-    "trailingEps": 233.95,
+    "trailingEps": 233.96,
     "lastSplitFactor": "3:1",
     "lastSplitDate": 1743120000,
     "enterpriseToRevenue": 0.821,
@@ -1179,20 +1179,11 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "marketState": "CLOSED",
-    "shortName": "OTEC CORP",
-    "longName": "Otec Corporation",
     "regularMarketChangePercent": 1.2515645,
     "regularMarketPrice": 2427.0,
-    "corporateActions": [],
-    "regularMarketTime": 1787898216,
-    "exchange": "JPX",
-    "messageBoardId": "finmb_5645775",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
+    "marketState": "CLOSED",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 956707200000,
     "regularMarketChange": 30.0,
     "fulldayChange": 30.0,
     "fulldayChangePercent": 1.2515645,
@@ -1208,7 +1199,7 @@
     "earningsTimestampStart": 1747031400,
     "earningsTimestampEnd": 1747031400,
     "isEarningsDateEstimate": false,
-    "epsTrailingTwelveMonths": 233.95,
+    "epsTrailingTwelveMonths": 233.96,
     "fiftyDayAverageChange": -32.04004,
     "fiftyDayAverageChangePercent": -0.013029491,
     "twoHundredDayAverageChange": 21.425049,
@@ -1216,8 +1207,27 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 956707200000,
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "1736.T announced a cash dividend of JPY 49.00 with an ex-date of Sep. 29, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1790607600000,
+          "amount": "49.00"
+        }
+      }
+    ],
+    "regularMarketTime": 1787898216,
+    "exchange": "JPX",
+    "messageBoardId": "finmb_5645775",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
+    "shortName": "OTEC CORP",
+    "longName": "Otec Corporation",
     "trailingPegRatio": null
   }
 }

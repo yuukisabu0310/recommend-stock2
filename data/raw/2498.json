@@ -1,7 +1,7 @@
 {
   "ticker": "2498",
   "japanese_ticker": "2498.T",
-  "fetch_date": "2026-08-29T04:09:03.378056",
+  "fetch_date": "2026-08-30T01:05:51.461420",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-09-30 00:00:00": -85467513.0,
@@ -1210,12 +1210,12 @@
     "regularMarketDayLow": 3190.0,
     "regularMarketDayHigh": 3285.0,
     "dividendRate": 260.0,
-    "dividendYield": 8.13,
+    "dividendYield": 8.04,
     "exDividendDate": 1790640000,
     "payoutRatio": 0.32479998,
     "fiveYearAvgDividendYield": 3.11,
     "beta": 0.566,
-    "trailingPE": 8.752706,
+    "trailingPE": 8.756496,
     "volume": 12500,
     "regularMarketVolume": 12500,
     "averageVolume": 7692,
@@ -1253,7 +1253,7 @@
     "mostRecentQuarter": 1782777600,
     "earningsQuarterlyGrowth": 0.0,
     "netIncomeToCommon": 4453000192,
-    "trailingEps": 369.6,
+    "trailingEps": 369.44,
     "lastSplitFactor": "2:1",
     "lastSplitDate": 1759104000,
     "enterpriseToRevenue": 0.469,
@@ -1290,6 +1290,17 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "2498.T announced a cash dividend of JPY 130.00 with an ex-date of Sep. 29, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1790607600000,
+          "amount": "130.00"
+        }
+      }
+    ],
     "regularMarketTime": 1787898600,
     "exchange": "JPX",
     "messageBoardId": "finmb_28561070",
@@ -1298,9 +1309,20 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
+    "marketState": "CLOSED",
     "regularMarketChangePercent": 1.09375,
     "regularMarketPrice": 3235.0,
-    "marketState": "CLOSED",
+    "epsTrailingTwelveMonths": 369.44,
+    "fiftyDayAverageChange": 97.86011,
+    "fiftyDayAverageChangePercent": 0.031194054,
+    "twoHundredDayAverageChange": 125.27002,
+    "twoHundredDayAverageChangePercent": 0.040283248,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
+    "longName": "Oriental Consultants Holdings Company Limited",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 967766400000,
     "regularMarketChange": 35.0,
     "fulldayChange": 35.0,
     "fulldayChangePercent": 1.09375,
@@ -1316,19 +1338,7 @@
     "earningsTimestampStart": 1754979300,
     "earningsTimestampEnd": 1755497700,
     "isEarningsDateEstimate": true,
-    "epsTrailingTwelveMonths": 369.6,
-    "fiftyDayAverageChange": 97.86011,
-    "fiftyDayAverageChangePercent": 0.031194054,
-    "twoHundredDayAverageChange": 125.27002,
-    "twoHundredDayAverageChangePercent": 0.040283248,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 967766400000,
     "shortName": "ORIENTAL CONSULTANTS HLDGS CO L",
-    "longName": "Oriental Consultants Holdings Company Limited",
-    "corporateActions": [],
     "trailingPegRatio": null
   }
 }

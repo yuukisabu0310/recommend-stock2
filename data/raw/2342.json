@@ -1,7 +1,7 @@
 {
   "ticker": "2342",
   "japanese_ticker": "2342.T",
-  "fetch_date": "2026-08-29T04:07:02.769774",
+  "fetch_date": "2026-08-30T01:03:44.735670",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": -128351600.0,
@@ -1225,7 +1225,7 @@
     "mostRecentQuarter": 1782777600,
     "earningsQuarterlyGrowth": 4.231,
     "netIncomeToCommon": 33000000,
-    "trailingEps": -4.63,
+    "trailingEps": -4.65,
     "lastSplitFactor": "100:1",
     "lastSplitDate": 1364342400,
     "enterpriseToRevenue": 0.343,
@@ -1262,6 +1262,8 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "marketState": "CLOSED",
+    "cryptoTradeable": false,
     "corporateActions": [],
     "regularMarketTime": 1787898600,
     "exchange": "JPX",
@@ -1271,9 +1273,8 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "marketState": "CLOSED",
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1039478400000,
+    "regularMarketChangePercent": 0.390625,
+    "regularMarketPrice": 257.0,
     "regularMarketChange": 1.0,
     "fulldayChange": 1.0,
     "fulldayChangePercent": 0.390625,
@@ -1289,7 +1290,7 @@
     "earningsTimestampStart": 1747133940,
     "earningsTimestampEnd": 1747133940,
     "isEarningsDateEstimate": false,
-    "epsTrailingTwelveMonths": -4.63,
+    "epsTrailingTwelveMonths": -4.65,
     "fiftyDayAverageChange": 32.42,
     "fiftyDayAverageChangePercent": 0.14435835,
     "twoHundredDayAverageChange": -4.86499,
@@ -1297,12 +1298,11 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "prevName": "Trans Genic Inc.",
-    "nameChangeDate": "2026-08-28",
-    "cryptoTradeable": false,
+    "nameChangeDate": "2026-08-29",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1039478400000,
     "shortName": "TRANSGENIC GROUP INC",
     "longName": "Transgenic Group Inc.",
-    "regularMarketChangePercent": 0.390625,
-    "regularMarketPrice": 257.0,
     "trailingPegRatio": null
   }
 }

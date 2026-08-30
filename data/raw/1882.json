@@ -1,7 +1,7 @@
 {
   "ticker": "1882",
   "japanese_ticker": "1882.T",
-  "fetch_date": "2026-08-29T04:01:59.890372",
+  "fetch_date": "2026-08-30T00:58:46.382531",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": -162890000.0,
@@ -1076,12 +1076,12 @@
     "regularMarketDayLow": 1621.0,
     "regularMarketDayHigh": 1634.0,
     "dividendRate": 90.0,
-    "dividendYield": 5.52,
+    "dividendYield": 5.53,
     "exDividendDate": 1790640000,
     "payoutRatio": 1.2123001,
     "fiveYearAvgDividendYield": 3.77,
     "beta": 0.327,
-    "trailingPE": 21.937744,
+    "trailingPE": 21.92888,
     "volume": 319800,
     "regularMarketVolume": 319800,
     "averageVolume": 305633,
@@ -1116,7 +1116,7 @@
     "nextFiscalYearEnd": 1806451200,
     "mostRecentQuarter": 1782777600,
     "netIncomeToCommon": 3456000000,
-    "trailingEps": 74.21,
+    "trailingEps": 74.24,
     "lastSplitFactor": "5:1",
     "lastSplitDate": 1711584000,
     "enterpriseToRevenue": 0.528,
@@ -1152,7 +1152,19 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "shortName": "TOA ROAD CORPORATION",
     "longName": "Toa Road Corporation",
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "1882.T announced a cash dividend of JPY 45.00 with an ex-date of Sep. 29, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1790607600000,
+          "amount": "45.00"
+        }
+      }
+    ],
     "regularMarketTime": 1787898600,
     "exchange": "JPX",
     "messageBoardId": "finmb_880724",
@@ -1161,8 +1173,10 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 978307200000,
+    "marketState": "CLOSED",
+    "regularMarketChangePercent": -0.18393624,
+    "regularMarketPrice": 1628.0,
+    "cryptoTradeable": false,
     "regularMarketChange": -3.0,
     "fulldayChange": -3.0,
     "fulldayChangePercent": -0.18393624,
@@ -1178,19 +1192,15 @@
     "earningsTimestampStart": 1753943400,
     "earningsTimestampEnd": 1754289000,
     "isEarningsDateEstimate": true,
-    "epsTrailingTwelveMonths": 74.21,
+    "epsTrailingTwelveMonths": 74.24,
     "fiftyDayAverageChange": 38.819946,
     "fiftyDayAverageChangePercent": 0.024427658,
     "twoHundredDayAverageChange": -34.125,
     "twoHundredDayAverageChangePercent": -0.020530947,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
-    "regularMarketChangePercent": -0.18393624,
-    "regularMarketPrice": 1628.0,
-    "shortName": "TOA ROAD CORPORATION",
-    "corporateActions": [],
-    "marketState": "CLOSED",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 978307200000,
     "trailingPegRatio": null
   }
 }

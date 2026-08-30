@@ -1,7 +1,7 @@
 {
   "ticker": "2926",
   "japanese_ticker": "2926.T",
-  "fetch_date": "2026-08-29T04:13:16.461514",
+  "fetch_date": "2026-08-30T01:10:04.645696",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-09-30 00:00:00": -3366144.0,
@@ -1022,7 +1022,7 @@
     "payoutRatio": 0.0,
     "fiveYearAvgDividendYield": 1.63,
     "beta": 0.292,
-    "trailingPE": 27.88671,
+    "trailingPE": 27.826088,
     "volume": 220700,
     "regularMarketVolume": 220700,
     "averageVolume": 220298,
@@ -1059,7 +1059,7 @@
     "nextFiscalYearEnd": 1317340800,
     "mostRecentQuarter": 1293753600,
     "netIncomeToCommon": 129821000,
-    "trailingEps": 4.59,
+    "trailingEps": 4.6,
     "lastSplitFactor": "100:1",
     "lastSplitDate": 1395878400,
     "enterpriseToRevenue": 0.294,
@@ -1099,13 +1099,27 @@
     "customPriceAlertConfidence": "LOW",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1069977600000,
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "2926.T announced a cash dividend of JPY 4.00 with an ex-date of Sep. 29, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1790607600000,
+          "amount": "4.00"
+        }
+      }
+    ],
+    "regularMarketTime": 1787898600,
+    "regularMarketChangePercent": 1.5873017,
+    "regularMarketPrice": 128.0,
     "regularMarketChange": 2.0,
     "fulldayChange": 2.0,
     "fulldayChangePercent": 1.5873017,
     "regularMarketDayRange": "127.0 - 133.0",
     "fullExchangeName": "Tokyo",
     "averageDailyVolume3Month": 220298,
-    "shortName": "SHINOZAKIYA INC",
+    "fiftyTwoWeekLowChange": 39.0,
     "exchange": "JPX",
     "messageBoardId": "finmb_10159852",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1113,7 +1127,6 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "fiftyTwoWeekLowChange": 39.0,
     "fiftyTwoWeekLowChangePercent": 0.43820226,
     "fiftyTwoWeekRange": "89.0 - 144.0",
     "fiftyTwoWeekHighChange": -16.0,
@@ -1122,7 +1135,7 @@
     "earningsTimestampStart": 1753768800,
     "earningsTimestampEnd": 1754287200,
     "isEarningsDateEstimate": true,
-    "epsTrailingTwelveMonths": 4.59,
+    "epsTrailingTwelveMonths": 4.6,
     "fiftyDayAverageChange": 16.599998,
     "fiftyDayAverageChangePercent": 0.14901255,
     "twoHundredDayAverageChange": 26.964996,
@@ -1130,12 +1143,9 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
-    "corporateActions": [],
-    "regularMarketTime": 1787898600,
-    "regularMarketChangePercent": 1.5873017,
-    "regularMarketPrice": 128.0,
-    "marketState": "CLOSED",
+    "shortName": "SHINOZAKIYA INC",
     "longName": "Shinozakiya, Inc.",
+    "marketState": "CLOSED",
     "trailingPegRatio": null
   }
 }

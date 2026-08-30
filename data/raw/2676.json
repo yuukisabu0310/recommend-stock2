@@ -1,7 +1,7 @@
 {
   "ticker": "2676",
   "japanese_ticker": "2676.T",
-  "fetch_date": "2026-08-29T04:10:11.677979",
+  "fetch_date": "2026-08-30T01:06:56.468445",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": -92036048.0,
@@ -1188,7 +1188,7 @@
     "regularMarketDayLow": 2086.0,
     "regularMarketDayHigh": 2105.0,
     "dividendRate": 76.0,
-    "dividendYield": 3.62,
+    "dividendYield": 3.64,
     "exDividendDate": 1790640000,
     "payoutRatio": 0.96169996,
     "fiveYearAvgDividendYield": 3.54,
@@ -1210,6 +1210,8 @@
     "allTimeHigh": 2252.0,
     "allTimeLow": 376.5,
     "fulldayPrice": 2086.0,
+    "fulldayChange": -16.0,
+    "fulldayChangePercent": -0.7611798,
     "priceToSalesTrailing12Months": 1.2802861,
     "fiftyDayAverage": 2098.02,
     "twoHundredDayAverage": 2070.635,
@@ -1270,16 +1272,28 @@
     "customPriceAlertConfidence": "LOW",
     "regularMarketChangePercent": -0.7611798,
     "regularMarketPrice": 2086.0,
+    "cryptoTradeable": false,
     "marketState": "CLOSED",
-    "shortName": "TAKACHIHO KOHEKI CO",
-    "longName": "Takachiho Koheki Co.,Ltd.",
-    "corporateActions": [],
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "2676.T announced a cash dividend of JPY 34.00 with an ex-date of Sep. 29, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1790607600000,
+          "amount": "34.00"
+        }
+      }
+    ],
     "regularMarketTime": 1787898600,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1079568000000,
+    "exchange": "JPX",
+    "messageBoardId": "finmb_5569923",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
     "regularMarketChange": -16.0,
-    "fulldayChange": -16.0,
-    "fulldayChangePercent": -0.7611798,
     "regularMarketDayRange": "2086.0 - 2105.0",
     "fullExchangeName": "Tokyo",
     "averageDailyVolume3Month": 22153,
@@ -1299,14 +1313,10 @@
     "twoHundredDayAverageChangePercent": 0.0074204244,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
-    "exchange": "JPX",
-    "messageBoardId": "finmb_5569923",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1079568000000,
+    "shortName": "TAKACHIHO KOHEKI CO",
+    "longName": "Takachiho Koheki Co.,Ltd.",
     "trailingPegRatio": null
   }
 }

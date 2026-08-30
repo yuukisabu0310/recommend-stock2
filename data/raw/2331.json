@@ -1,7 +1,7 @@
 {
   "ticker": "2331",
   "japanese_ticker": "2331.T",
-  "fetch_date": "2026-08-29T04:06:48.156321",
+  "fetch_date": "2026-08-30T01:03:29.502662",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": 127512000.0,
@@ -1185,11 +1185,11 @@
     "regularMarketDayLow": 1185.5,
     "regularMarketDayHigh": 1209.5,
     "dividendRate": 33.0,
-    "dividendYield": 2.77,
+    "dividendYield": 2.74,
     "exDividendDate": 1790640000,
     "payoutRatio": 0.42630002,
     "fiveYearAvgDividendYield": 2.24,
-    "trailingPE": 17.552181,
+    "trailingPE": 17.544498,
     "forwardPE": 21.50009,
     "volume": 2820300,
     "regularMarketVolume": 2820300,
@@ -1207,8 +1207,6 @@
     "allTimeHigh": 1335.0,
     "allTimeLow": 146.6,
     "fulldayPrice": 1202.5,
-    "fulldayChange": 11.0,
-    "fulldayChangePercent": 0.92320603,
     "priceToSalesTrailing12Months": 0.97128445,
     "fiftyDayAverage": 1133.38,
     "twoHundredDayAverage": 1184.6,
@@ -1228,7 +1226,7 @@
     "nextFiscalYearEnd": 1806451200,
     "mostRecentQuarter": 1782777600,
     "netIncomeToCommon": 34921000960,
-    "trailingEps": 68.51,
+    "trailingEps": 68.54,
     "forwardEps": 55.93,
     "pegRatio": 0.59,
     "lastSplitFactor": "5:1",
@@ -1270,9 +1268,20 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "regularMarketChangePercent": 0.92320603,
+    "regularMarketPrice": 1202.5,
     "marketState": "CLOSED",
-    "regularMarketChange": 11.0,
-    "regularMarketDayRange": "1185.5 - 1209.5",
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "2331.T announced a cash dividend of JPY 16.50 with an ex-date of Sep. 29, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1790607600000,
+          "amount": "16.50"
+        }
+      }
+    ],
     "fullExchangeName": "Tokyo",
     "averageDailyVolume3Month": 1336190,
     "fiftyTwoWeekLowChange": 157.5,
@@ -1280,7 +1289,6 @@
     "fiftyTwoWeekRange": "1045.0 - 1335.0",
     "fiftyTwoWeekHighChange": -132.5,
     "fiftyTwoWeekHighChangePercent": -0.099250935,
-    "longName": "Alsok Co.,Ltd.",
     "fiftyTwoWeekChangePercent": 4.4743657,
     "earningsTimestamp": 1785825000,
     "earningsTimestampStart": 1794292200,
@@ -1288,7 +1296,7 @@
     "earningsCallTimestampStart": 1747125000,
     "earningsCallTimestampEnd": 1747125000,
     "isEarningsDateEstimate": true,
-    "epsTrailingTwelveMonths": 68.51,
+    "epsTrailingTwelveMonths": 68.54,
     "epsForward": 55.93,
     "fiftyDayAverageChange": 69.119995,
     "fiftyDayAverageChangePercent": 0.060985718,
@@ -1297,12 +1305,6 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
-    "shortName": "ALSOK CO LTD",
-    "regularMarketChangePercent": 0.92320603,
-    "regularMarketPrice": 1202.5,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1035504000000,
-    "corporateActions": [],
     "regularMarketTime": 1787898600,
     "exchange": "JPX",
     "messageBoardId": "finmb_6439839",
@@ -1311,6 +1313,14 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1035504000000,
+    "regularMarketChange": 11.0,
+    "fulldayChange": 11.0,
+    "fulldayChangePercent": 0.92320603,
+    "regularMarketDayRange": "1185.5 - 1209.5",
+    "shortName": "ALSOK CO LTD",
+    "longName": "Alsok Co.,Ltd.",
     "trailingPegRatio": null
   }
 }

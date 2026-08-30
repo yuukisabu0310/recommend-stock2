@@ -1,7 +1,7 @@
 {
   "ticker": "2003",
   "japanese_ticker": "2003.T",
-  "fetch_date": "2026-08-29T04:03:43.206342",
+  "fetch_date": "2026-08-30T01:00:29.566516",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": 161226000.0,
@@ -1248,12 +1248,12 @@
     "regularMarketDayLow": 1795.0,
     "regularMarketDayHigh": 1812.0,
     "dividendRate": 70.0,
-    "dividendYield": 3.87,
+    "dividendYield": 3.88,
     "exDividendDate": 1790640000,
     "payoutRatio": 0.768,
     "fiveYearAvgDividendYield": 3.66,
     "beta": -0.093,
-    "trailingPE": 19.808939,
+    "trailingPE": 19.802416,
     "volume": 17300,
     "regularMarketVolume": 17300,
     "averageVolume": 23496,
@@ -1291,7 +1291,7 @@
     "mostRecentQuarter": 1782777600,
     "earningsQuarterlyGrowth": -0.035,
     "netIncomeToCommon": 3288999936,
-    "trailingEps": 91.07,
+    "trailingEps": 91.1,
     "lastSplitFactor": "4:1",
     "lastSplitDate": 1774828800,
     "enterpriseToRevenue": 0.89,
@@ -1328,6 +1328,18 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "marketState": "CLOSED",
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "2003.T announced a cash dividend of JPY 35.00 with an ex-date of Sep. 29, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1790607600000,
+          "amount": "35.00"
+        }
+      }
+    ],
     "regularMarketTime": 1787898600,
     "exchange": "JPX",
     "messageBoardId": "finmb_880844",
@@ -1338,11 +1350,8 @@
     "esgPopulated": false,
     "regularMarketChangePercent": -0.16602103,
     "regularMarketPrice": 1804.0,
-    "marketState": "CLOSED",
-    "regularMarketChange": -3.0,
-    "fulldayChange": -3.0,
-    "fulldayChangePercent": -0.16602103,
-    "regularMarketDayRange": "1795.0 - 1812.0",
+    "shortName": "NITTO FUJI FLOUR MILLING CO",
+    "longName": "Nitto Fuji Flour Milling Co.,Ltd.",
     "fullExchangeName": "Tokyo",
     "averageDailyVolume3Month": 23496,
     "fiftyTwoWeekLowChange": 156.0,
@@ -1354,7 +1363,7 @@
     "earningsTimestampStart": 1753776000,
     "earningsTimestampEnd": 1754294400,
     "isEarningsDateEstimate": true,
-    "epsTrailingTwelveMonths": 91.07,
+    "epsTrailingTwelveMonths": 91.1,
     "fiftyDayAverageChange": 29.099976,
     "fiftyDayAverageChangePercent": 0.016395276,
     "twoHundredDayAverageChange": 31.22754,
@@ -1364,9 +1373,10 @@
     "cryptoTradeable": false,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 978307200000,
-    "shortName": "NITTO FUJI FLOUR MILLING CO",
-    "longName": "Nitto Fuji Flour Milling Co.,Ltd.",
-    "corporateActions": [],
+    "regularMarketChange": -3.0,
+    "fulldayChange": -3.0,
+    "fulldayChangePercent": -0.16602103,
+    "regularMarketDayRange": "1795.0 - 1812.0",
     "trailingPegRatio": null
   }
 }

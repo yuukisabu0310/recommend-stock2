@@ -1,7 +1,7 @@
 {
   "ticker": "2207",
   "japanese_ticker": "2207.T",
-  "fetch_date": "2026-08-29T04:05:21.646904",
+  "fetch_date": "2026-08-30T01:02:07.070442",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": 460600000.0,
@@ -1175,7 +1175,7 @@
     "payoutRatio": 0.30020002,
     "fiveYearAvgDividendYield": 1.59,
     "beta": 0.123,
-    "trailingPE": 18.70739,
+    "trailingPE": 18.726795,
     "volume": 63000,
     "regularMarketVolume": 63000,
     "averageVolume": 42377,
@@ -1213,7 +1213,7 @@
     "mostRecentQuarter": 1782777600,
     "earningsQuarterlyGrowth": 0.016,
     "netIncomeToCommon": 3083000064,
-    "trailingEps": 183.35,
+    "trailingEps": 183.16,
     "enterpriseToRevenue": 2.376,
     "enterpriseToEbitda": 20.205,
     "52WeekChange": 0.60655737,
@@ -1248,16 +1248,32 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "regularMarketChangePercent": -0.29069766,
+    "regularMarketPrice": 3430.0,
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "2207.T announced a cash dividend of JPY 40.00 with an ex-date of Sep. 29, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1790607600000,
+          "amount": "40.00"
+        }
+      }
+    ],
+    "regularMarketTime": 1787898600,
+    "exchange": "JPX",
     "messageBoardId": "finmb_880913",
     "exchangeTimezoneName": "Asia/Tokyo",
     "exchangeTimezoneShortName": "JST",
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "exchange": "JPX",
     "shortName": "MEITO CO LTD",
     "longName": "Meito Co., Ltd.",
-    "cryptoTradeable": false,
+    "marketState": "CLOSED",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 978307200000,
     "regularMarketChange": -10.0,
     "fulldayChange": -10.0,
     "fulldayChangePercent": -0.29069766,
@@ -1273,7 +1289,7 @@
     "earningsTimestampStart": 1754550000,
     "earningsTimestampEnd": 1754982000,
     "isEarningsDateEstimate": true,
-    "epsTrailingTwelveMonths": 183.35,
+    "epsTrailingTwelveMonths": 183.16,
     "fiftyDayAverageChange": 162.28003,
     "fiftyDayAverageChangePercent": 0.049661547,
     "twoHundredDayAverageChange": 549.6499,
@@ -1281,14 +1297,8 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "prevName": "Meito Sangyo Co., Ltd.",
-    "nameChangeDate": "2026-08-28",
-    "corporateActions": [],
-    "regularMarketTime": 1787898600,
-    "marketState": "CLOSED",
-    "regularMarketChangePercent": -0.29069766,
-    "regularMarketPrice": 3430.0,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 978307200000,
+    "nameChangeDate": "2026-08-29",
+    "cryptoTradeable": false,
     "trailingPegRatio": null
   }
 }

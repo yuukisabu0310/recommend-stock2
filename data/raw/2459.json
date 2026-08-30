@@ -1,7 +1,7 @@
 {
   "ticker": "2459",
   "japanese_ticker": "2459.T",
-  "fetch_date": "2026-08-29T04:08:25.563976",
+  "fetch_date": "2026-08-30T01:05:12.435776",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-05-31 00:00:00": -275616.0,
@@ -919,7 +919,7 @@
     "nextFiscalYearEnd": 1811721600,
     "mostRecentQuarter": 1780185600,
     "netIncomeToCommon": -42000000,
-    "trailingEps": -5.64,
+    "trailingEps": -5.65,
     "lastSplitFactor": "100:1",
     "lastSplitDate": 1354060800,
     "enterpriseToRevenue": 4.394,
@@ -963,9 +963,15 @@
     "messageBoardId": "finmb_24247319",
     "exchangeTimezoneName": "Asia/Tokyo",
     "exchangeTimezoneShortName": "JST",
-    "marketState": "CLOSED",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
     "regularMarketChangePercent": -0.56179774,
     "regularMarketPrice": 177.0,
+    "marketState": "CLOSED",
+    "shortName": "AUN CONSULTINGS INC",
+    "longName": "AUN CONSULTING, Inc.",
+    "cryptoTradeable": false,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1131494400000,
     "regularMarketChange": -1.0,
@@ -985,7 +991,7 @@
     "earningsCallTimestampStart": 1737525600,
     "earningsCallTimestampEnd": 1737525600,
     "isEarningsDateEstimate": false,
-    "epsTrailingTwelveMonths": -5.64,
+    "epsTrailingTwelveMonths": -5.65,
     "fiftyDayAverageChange": 8.419998,
     "fiftyDayAverageChangePercent": 0.049946602,
     "twoHundredDayAverageChange": -31.975006,
@@ -993,13 +999,7 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "prevName": "AUN CONSULTING,Inc.",
-    "nameChangeDate": "2026-08-28",
-    "cryptoTradeable": false,
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
-    "shortName": "AUN CONSULTINGS INC",
-    "longName": "AUN CONSULTING, Inc.",
+    "nameChangeDate": "2026-08-29",
     "trailingPegRatio": null
   }
 }

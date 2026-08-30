@@ -1,7 +1,7 @@
 {
   "ticker": "1976",
   "japanese_ticker": "1976.T",
-  "fetch_date": "2026-08-29T04:03:24.624992",
+  "fetch_date": "2026-08-30T01:00:09.888821",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": -227445000.0,
@@ -1128,12 +1128,12 @@
     "regularMarketDayLow": 1721.0,
     "regularMarketDayHigh": 1746.0,
     "dividendRate": 80.0,
-    "dividendYield": 4.6,
+    "dividendYield": 4.61,
     "exDividendDate": 1790640000,
     "payoutRatio": 0.5559,
     "fiveYearAvgDividendYield": 3.78,
     "beta": 0.512,
-    "trailingPE": 14.837937,
+    "trailingPE": 14.836668,
     "volume": 92000,
     "regularMarketVolume": 92000,
     "averageVolume": 92128,
@@ -1171,7 +1171,7 @@
     "mostRecentQuarter": 1782777600,
     "earningsQuarterlyGrowth": 0.067,
     "netIncomeToCommon": 5548000256,
-    "trailingEps": 116.93,
+    "trailingEps": 116.94,
     "enterpriseToRevenue": 0.731,
     "enterpriseToEbitda": 4.981,
     "52WeekChange": 0.064417124,
@@ -1206,13 +1206,25 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "regularMarketChangePercent": -0.28735632,
-    "regularMarketPrice": 1735.0,
-    "marketState": "CLOSED",
-    "shortName": "MEISEI INDUSTRIAL CO",
-    "longName": "MEISEI INDUSTRIAL Co.,Ltd.",
-    "corporateActions": [],
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "1976.T announced a cash dividend of JPY 25.00 with an ex-date of Sep. 29, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1790607600000,
+          "amount": "25.00"
+        }
+      }
+    ],
     "regularMarketTime": 1787898600,
+    "exchange": "JPX",
+    "messageBoardId": "finmb_880939",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 954806400000,
     "regularMarketChange": -5.0,
@@ -1230,13 +1242,7 @@
     "earningsTimestampStart": 1753770600,
     "earningsTimestampEnd": 1754289000,
     "isEarningsDateEstimate": true,
-    "epsTrailingTwelveMonths": 116.93,
-    "exchange": "JPX",
-    "messageBoardId": "finmb_880939",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
+    "epsTrailingTwelveMonths": 116.94,
     "fiftyDayAverageChange": -112.78003,
     "fiftyDayAverageChangePercent": -0.06103542,
     "twoHundredDayAverageChange": -56.255005,
@@ -1244,7 +1250,11 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
-    "esgPopulated": false,
+    "longName": "MEISEI INDUSTRIAL Co.,Ltd.",
+    "marketState": "CLOSED",
+    "shortName": "MEISEI INDUSTRIAL CO",
+    "regularMarketPrice": 1735.0,
+    "regularMarketChangePercent": -0.28735632,
     "trailingPegRatio": null
   }
 }

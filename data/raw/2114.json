@@ -1,7 +1,7 @@
 {
   "ticker": "2114",
   "japanese_ticker": "2114.T",
-  "fetch_date": "2026-08-29T04:03:59.815505",
+  "fetch_date": "2026-08-30T01:00:46.724520",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": 129500000.0,
@@ -1156,7 +1156,7 @@
     "regularMarketDayLow": 664.0,
     "regularMarketDayHigh": 670.0,
     "dividendRate": 19.0,
-    "dividendYield": 2.86,
+    "dividendYield": 2.84,
     "exDividendDate": 1790640000,
     "payoutRatio": 0.2868,
     "fiveYearAvgDividendYield": 2.8,
@@ -1176,6 +1176,8 @@
     "allTimeHigh": 678.0,
     "allTimeLow": 66.0,
     "fulldayPrice": 669.0,
+    "fulldayChange": 5.0,
+    "fulldayChangePercent": 0.75301206,
     "priceToSalesTrailing12Months": 1.199574,
     "fiftyDayAverage": 633.5,
     "twoHundredDayAverage": 620.45,
@@ -1234,21 +1236,19 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "2114.T announced a cash dividend of JPY 8.00 with an ex-date of Sep. 29, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1790607600000,
+          "amount": "8.00"
+        }
+      }
+    ],
     "regularMarketTime": 1787898600,
-    "exchange": "JPX",
-    "messageBoardId": "finmb_5843590",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
-    "regularMarketChangePercent": 0.75301206,
-    "regularMarketPrice": 669.0,
-    "marketState": "CLOSED",
-    "regularMarketChange": 5.0,
-    "fulldayChange": 5.0,
-    "fulldayChangePercent": 0.75301206,
-    "regularMarketDayRange": "664.0 - 670.0",
+    "cryptoTradeable": false,
     "fullExchangeName": "Tokyo",
     "averageDailyVolume3Month": 10963,
     "fiftyTwoWeekLowChange": 144.0,
@@ -1267,12 +1267,22 @@
     "twoHundredDayAverageChangePercent": 0.07824963,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 978652800000,
     "shortName": "FUJI NIHON CORPORATION",
     "longName": "Fuji Nihon Corporation",
-    "corporateActions": [],
+    "regularMarketChangePercent": 0.75301206,
+    "regularMarketPrice": 669.0,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 978652800000,
+    "regularMarketChange": 5.0,
+    "regularMarketDayRange": "664.0 - 670.0",
+    "exchange": "JPX",
+    "messageBoardId": "finmb_5843590",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
+    "marketState": "CLOSED",
     "trailingPegRatio": null
   }
 }

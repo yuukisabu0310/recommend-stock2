@@ -1,7 +1,7 @@
 {
   "ticker": "1898",
   "japanese_ticker": "1898.T",
-  "fetch_date": "2026-08-29T04:02:11.850739",
+  "fetch_date": "2026-08-30T00:58:57.484223",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": 31050000.0,
@@ -1226,16 +1226,18 @@
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
     "marketState": "CLOSED",
-    "corporateActions": [],
-    "regularMarketTime": 1787898600,
-    "shortName": "SEIKITOKYU KOGYO CO",
-    "longName": "Seikitokyu Kogyo Co., Ltd.",
-    "regularMarketChangePercent": 0.0,
-    "regularMarketPrice": 1501.0,
+    "fiftyTwoWeekLowChange": 106.0,
+    "fiftyTwoWeekLowChangePercent": 0.07598566,
+    "fiftyTwoWeekRange": "1395.0 - 1729.0",
+    "fiftyTwoWeekHighChange": -228.0,
+    "fiftyTwoWeekHighChangePercent": -0.13186814,
+    "fiftyTwoWeekChangePercent": -3.410554,
     "earningsTimestampStart": 1754292600,
     "earningsTimestampEnd": 1754638200,
     "isEarningsDateEstimate": true,
     "epsTrailingTwelveMonths": 127.43,
+    "longName": "Seikitokyu Kogyo Co., Ltd.",
+    "shortName": "SEIKITOKYU KOGYO CO",
     "fiftyDayAverageChange": 31.939941,
     "fiftyDayAverageChangePercent": 0.021741753,
     "twoHundredDayAverageChange": -43.91504,
@@ -1243,20 +1245,23 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
+    "regularMarketChangePercent": 0.0,
+    "regularMarketPrice": 1501.0,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 978307200000,
     "regularMarketChange": 0.0,
-    "fulldayChange": 0.0,
-    "fulldayChangePercent": 0.0,
-    "regularMarketDayRange": "1493.0 - 1507.0",
-    "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 155785,
-    "fiftyTwoWeekLowChange": 106.0,
-    "fiftyTwoWeekLowChangePercent": 0.07598566,
-    "fiftyTwoWeekRange": "1395.0 - 1729.0",
-    "fiftyTwoWeekHighChange": -228.0,
-    "fiftyTwoWeekHighChangePercent": -0.13186814,
-    "fiftyTwoWeekChangePercent": -3.410554,
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "1898.T announced a cash dividend of JPY 37.00 with an ex-date of Sep. 29, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1790607600000,
+          "amount": "37.00"
+        }
+      }
+    ],
+    "regularMarketTime": 1787898600,
     "exchange": "JPX",
     "messageBoardId": "finmb_881013",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1264,6 +1269,11 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
+    "fulldayChange": 0.0,
+    "fulldayChangePercent": 0.0,
+    "regularMarketDayRange": "1493.0 - 1507.0",
+    "fullExchangeName": "Tokyo",
+    "averageDailyVolume3Month": 155785,
     "trailingPegRatio": null
   }
 }

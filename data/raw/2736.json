@@ -1,7 +1,7 @@
 {
   "ticker": "2736",
   "japanese_ticker": "2736.T",
-  "fetch_date": "2026-08-29T04:10:56.749742",
+  "fetch_date": "2026-08-30T01:07:42.258447",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-08-31 00:00:00": -6313358.0,
@@ -1081,12 +1081,12 @@
     "regularMarketDayLow": 629.0,
     "regularMarketDayHigh": 639.0,
     "dividendRate": 7.0,
-    "dividendYield": 1.05,
+    "dividendYield": 1.11,
     "exDividendDate": 1787875200,
     "payoutRatio": 0.1874,
     "fiveYearAvgDividendYield": 1.46,
     "beta": 0.217,
-    "trailingPE": 16.885202,
+    "trailingPE": 16.88972,
     "volume": 29400,
     "regularMarketVolume": 29400,
     "averageVolume": 4622,
@@ -1123,7 +1123,7 @@
     "nextFiscalYearEnd": 1788134400,
     "mostRecentQuarter": 1780185600,
     "netIncomeToCommon": 80000000,
-    "trailingEps": 37.37,
+    "trailingEps": 37.36,
     "lastSplitFactor": "3:1",
     "lastSplitDate": 1740614400,
     "enterpriseToRevenue": 0.549,
@@ -1159,18 +1159,7 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "marketState": "CLOSED",
-    "corporateActions": [
-      {
-        "header": "Dividend",
-        "message": "2736.T announced a cash dividend of JPY 7.00 with an ex-date of Aug. 28, 2026",
-        "meta": {
-          "eventType": "DIVIDEND",
-          "dateEpochMs": 1787842800000,
-          "amount": "7.00"
-        }
-      }
-    ],
+    "corporateActions": [],
     "regularMarketTime": 1787898600,
     "exchange": "JPX",
     "messageBoardId": "finmb_9768834",
@@ -1179,10 +1168,6 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "shortName": "FESTARIA HOLDINGS CO LTD",
-    "longName": "Festaria Holdings Co., Ltd.",
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1023321600000,
     "regularMarketChange": -27.0,
     "fulldayChange": -27.0,
     "fulldayChangePercent": -4.1033435,
@@ -1198,9 +1183,7 @@
     "earningsTimestampStart": 1752129000,
     "earningsTimestampEnd": 1752474600,
     "isEarningsDateEstimate": true,
-    "epsTrailingTwelveMonths": 37.37,
-    "regularMarketChangePercent": -4.1033435,
-    "regularMarketPrice": 631.0,
+    "epsTrailingTwelveMonths": 37.36,
     "fiftyDayAverageChange": -39.23999,
     "fiftyDayAverageChangePercent": -0.058546178,
     "twoHundredDayAverageChange": -6.1400146,
@@ -1208,6 +1191,13 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1023321600000,
+    "regularMarketChangePercent": -4.1033435,
+    "regularMarketPrice": 631.0,
+    "marketState": "CLOSED",
+    "shortName": "FESTARIA HOLDINGS CO LTD",
+    "longName": "Festaria Holdings Co., Ltd.",
     "trailingPegRatio": null
   }
 }

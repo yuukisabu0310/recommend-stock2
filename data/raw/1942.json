@@ -1,7 +1,7 @@
 {
   "ticker": "1942",
   "japanese_ticker": "1942.T",
-  "fetch_date": "2026-08-29T04:02:45.276117",
+  "fetch_date": "2026-08-30T00:59:28.469438",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": 1897031000.0,
@@ -1165,7 +1165,7 @@
     "payoutRatio": 0.3977,
     "fiveYearAvgDividendYield": 2.62,
     "beta": 0.576,
-    "trailingPE": 17.545996,
+    "trailingPE": 17.543747,
     "forwardPE": 32.283558,
     "volume": 612700,
     "regularMarketVolume": 612700,
@@ -1204,7 +1204,7 @@
     "mostRecentQuarter": 1782777600,
     "earningsQuarterlyGrowth": 0.042,
     "netIncomeToCommon": 64048001024,
-    "trailingEps": 311.98,
+    "trailingEps": 312.02,
     "forwardEps": 169.56,
     "pegRatio": 0.69,
     "enterpriseToRevenue": 1.385,
@@ -1247,7 +1247,22 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "corporateActions": [],
+    "marketState": "CLOSED",
+    "shortName": "KANDENKO CO LTD",
+    "longName": "Kandenko Co.,Ltd.",
+    "regularMarketChangePercent": -0.16414371,
+    "regularMarketPrice": 5474.0,
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "1942.T announced a cash dividend of JPY 65.00 with an ex-date of Sep. 29, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1790607600000,
+          "amount": "65.00"
+        }
+      }
+    ],
     "regularMarketTime": 1787898600,
     "exchange": "JPX",
     "messageBoardId": "finmb_880786",
@@ -1256,11 +1271,16 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
+    "fiftyTwoWeekLowChangePercent": 0.40973476,
+    "fiftyTwoWeekRange": "3883.0 - 7460.0",
+    "fiftyTwoWeekHighChange": -1986.0,
+    "fiftyTwoWeekHighChangePercent": -0.26621982,
+    "fiftyTwoWeekChangePercent": 33.93687,
     "earningsTimestamp": 1785479400,
     "earningsTimestampStart": 1793341800,
     "earningsTimestampEnd": 1793341800,
     "isEarningsDateEstimate": true,
-    "epsTrailingTwelveMonths": 311.98,
+    "epsTrailingTwelveMonths": 312.02,
     "epsForward": 169.56,
     "fiftyDayAverageChange": -532.43994,
     "fiftyDayAverageChangePercent": -0.08864485,
@@ -1269,13 +1289,9 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "prevName": "VaporFi",
-    "nameChangeDate": "2026-08-28",
+    "nameChangeDate": "2026-08-29",
     "averageAnalystRating": "2.0 - Buy",
     "cryptoTradeable": false,
-    "shortName": "KANDENKO CO LTD",
-    "longName": "Kandenko Co.,Ltd.",
-    "regularMarketChangePercent": -0.16414371,
-    "regularMarketPrice": 5474.0,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 978307200000,
     "regularMarketChange": -9.0,
@@ -1285,12 +1301,6 @@
     "fullExchangeName": "Tokyo",
     "averageDailyVolume3Month": 1096928,
     "fiftyTwoWeekLowChange": 1591.0,
-    "fiftyTwoWeekLowChangePercent": 0.40973476,
-    "fiftyTwoWeekRange": "3883.0 - 7460.0",
-    "fiftyTwoWeekHighChange": -1986.0,
-    "fiftyTwoWeekHighChangePercent": -0.26621982,
-    "fiftyTwoWeekChangePercent": 33.93687,
-    "marketState": "CLOSED",
     "trailingPegRatio": null
   }
 }

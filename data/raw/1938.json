@@ -1,7 +1,7 @@
 {
   "ticker": "1938",
   "japanese_ticker": "1938.T",
-  "fetch_date": "2026-08-29T04:02:38.671928",
+  "fetch_date": "2026-08-30T00:59:22.254184",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": -79111710.0,
@@ -1057,11 +1057,11 @@
     "regularMarketDayLow": 2526.0,
     "regularMarketDayHigh": 2569.0,
     "dividendRate": 97.0,
-    "dividendYield": 3.78,
+    "dividendYield": 3.82,
     "exDividendDate": 1790640000,
     "payoutRatio": 0.3659,
     "fiveYearAvgDividendYield": 2.85,
-    "trailingPE": 11.320417,
+    "trailingPE": 11.312339,
     "volume": 94600,
     "regularMarketVolume": 94600,
     "averageVolume": 92995,
@@ -1097,7 +1097,7 @@
     "mostRecentQuarter": 1782777600,
     "earningsQuarterlyGrowth": 21.283,
     "netIncomeToCommon": 5938984960,
-    "trailingEps": 224.02,
+    "trailingEps": 224.18,
     "enterpriseToRevenue": 0.711,
     "enterpriseToEbitda": 5.907,
     "52WeekChange": 0.27373183,
@@ -1133,8 +1133,27 @@
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
     "marketState": "CLOSED",
-    "corporateActions": [],
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "1938.T announced a cash dividend of JPY 47.00 with an ex-date of Sep. 29, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1790607600000,
+          "amount": "47.00"
+        }
+      }
+    ],
     "regularMarketTime": 1787898600,
+    "exchange": "JPX",
+    "messageBoardId": "finmb_883561",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 978652800000,
     "regularMarketChange": -33.0,
     "fulldayChange": -33.0,
     "fulldayChangePercent": -1.2845465,
@@ -1150,7 +1169,9 @@
     "earningsTimestampStart": 1754550000,
     "earningsTimestampEnd": 1754982000,
     "isEarningsDateEstimate": true,
-    "epsTrailingTwelveMonths": 224.02,
+    "epsTrailingTwelveMonths": 224.18,
+    "shortName": "NIPPON RIETEC CO LTD",
+    "longName": "Nippon Rietec Co.,Ltd.",
     "fiftyDayAverageChange": -22.080078,
     "fiftyDayAverageChangePercent": -0.008631504,
     "twoHundredDayAverageChange": -11.379883,
@@ -1160,17 +1181,6 @@
     "cryptoTradeable": false,
     "regularMarketChangePercent": -1.2845465,
     "regularMarketPrice": 2536.0,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 978652800000,
-    "exchange": "JPX",
-    "messageBoardId": "finmb_883561",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
-    "shortName": "NIPPON RIETEC CO LTD",
-    "longName": "Nippon Rietec Co.,Ltd.",
     "trailingPegRatio": null
   }
 }
