@@ -1,7 +1,7 @@
 {
   "ticker": "2926",
   "japanese_ticker": "2926.T",
-  "fetch_date": "2026-08-30T01:10:04.645696",
+  "fetch_date": "2026-08-31T01:16:55.498599",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-09-30 00:00:00": -3366144.0,
@@ -1008,14 +1008,14 @@
     "executiveTeam": [],
     "maxAge": 86400,
     "priceHint": 2,
-    "previousClose": 126.0,
-    "open": 127.0,
+    "previousClose": 128.0,
+    "open": 129.0,
     "dayLow": 127.0,
-    "dayHigh": 133.0,
-    "regularMarketPreviousClose": 126.0,
-    "regularMarketOpen": 127.0,
+    "dayHigh": 129.0,
+    "regularMarketPreviousClose": 128.0,
+    "regularMarketOpen": 129.0,
     "regularMarketDayLow": 127.0,
-    "regularMarketDayHigh": 133.0,
+    "regularMarketDayHigh": 129.0,
     "dividendRate": 6.0,
     "dividendYield": 4.69,
     "exDividendDate": 1790640000,
@@ -1023,8 +1023,8 @@
     "fiveYearAvgDividendYield": 1.63,
     "beta": 0.292,
     "trailingPE": 27.826088,
-    "volume": 220700,
-    "regularMarketVolume": 220700,
+    "volume": 133400,
+    "regularMarketVolume": 133400,
     "averageVolume": 220298,
     "averageVolume10days": 353870,
     "averageDailyVolume10Day": 353870,
@@ -1065,7 +1065,7 @@
     "enterpriseToRevenue": 0.294,
     "enterpriseToEbitda": 6.587,
     "52WeekChange": 0.04918027,
-    "SandP52WeekChange": 0.20504117,
+    "SandP52WeekChange": 0.20204377,
     "lastDividendValue": 4.0,
     "lastDividendDate": 1790640000,
     "quoteType": "EQUITY",
@@ -1099,34 +1099,11 @@
     "customPriceAlertConfidence": "LOW",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1069977600000,
-    "corporateActions": [
-      {
-        "header": "Dividend",
-        "message": "2926.T announced a cash dividend of JPY 4.00 with an ex-date of Sep. 29, 2026",
-        "meta": {
-          "eventType": "DIVIDEND",
-          "dateEpochMs": 1790607600000,
-          "amount": "4.00"
-        }
-      }
-    ],
-    "regularMarketTime": 1787898600,
-    "regularMarketChangePercent": 1.5873017,
-    "regularMarketPrice": 128.0,
-    "regularMarketChange": 2.0,
-    "fulldayChange": 2.0,
-    "fulldayChangePercent": 1.5873017,
-    "regularMarketDayRange": "127.0 - 133.0",
+    "regularMarketChange": 0.0,
+    "regularMarketDayRange": "127.0 - 129.0",
     "fullExchangeName": "Tokyo",
     "averageDailyVolume3Month": 220298,
     "fiftyTwoWeekLowChange": 39.0,
-    "exchange": "JPX",
-    "messageBoardId": "finmb_10159852",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
     "fiftyTwoWeekLowChangePercent": 0.43820226,
     "fiftyTwoWeekRange": "89.0 - 144.0",
     "fiftyTwoWeekHighChange": -16.0,
@@ -1143,9 +1120,30 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "2926.T announced a cash dividend of JPY 4.00 with an ex-date of Sep. 29, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1790607600000,
+          "amount": "4.00"
+        }
+      }
+    ],
+    "regularMarketTime": 1788137600,
+    "exchange": "JPX",
+    "messageBoardId": "finmb_10159852",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
+    "regularMarketChangePercent": 0.0,
+    "regularMarketPrice": 128.0,
     "shortName": "SHINOZAKIYA INC",
     "longName": "Shinozakiya, Inc.",
-    "marketState": "CLOSED",
+    "marketState": "REGULAR",
     "trailingPegRatio": null
   }
 }
