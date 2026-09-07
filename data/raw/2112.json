@@ -1,7 +1,7 @@
 {
   "ticker": "2112",
   "japanese_ticker": "2112.T",
-  "fetch_date": "2026-09-06T00:29:25.377537",
+  "fetch_date": "2026-09-07T00:36:57.243435",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": 179396000.0,
@@ -1094,13 +1094,13 @@
     "maxAge": 86400,
     "priceHint": 2,
     "previousClose": 468.0,
-    "open": 468.0,
-    "dayLow": 466.0,
-    "dayHigh": 471.0,
+    "open": 467.0,
+    "dayLow": 467.0,
+    "dayHigh": 470.0,
     "regularMarketPreviousClose": 468.0,
-    "regularMarketOpen": 468.0,
-    "regularMarketDayLow": 466.0,
-    "regularMarketDayHigh": 471.0,
+    "regularMarketOpen": 467.0,
+    "regularMarketDayLow": 467.0,
+    "regularMarketDayHigh": 470.0,
     "dividendRate": 16.0,
     "dividendYield": 3.42,
     "exDividendDate": 1790640000,
@@ -1108,8 +1108,8 @@
     "fiveYearAvgDividendYield": 2.82,
     "beta": 0.179,
     "trailingPE": 4.6576433,
-    "volume": 32600,
-    "regularMarketVolume": 32600,
+    "volume": 2700,
+    "regularMarketVolume": 2700,
     "averageVolume": 50333,
     "averageVolume10days": 42100,
     "averageDailyVolume10Day": 42100,
@@ -1149,7 +1149,7 @@
     "enterpriseToRevenue": 0.53,
     "enterpriseToEbitda": 4.588,
     "52WeekChange": 0.17293239,
-    "SandP52WeekChange": 0.19284546,
+    "SandP52WeekChange": 0.18836367,
     "lastDividendValue": 8.0,
     "lastDividendDate": 1806364800,
     "quoteType": "EQUITY",
@@ -1180,29 +1180,13 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "corporateActions": [
-      {
-        "header": "Dividend",
-        "message": "2112.T announced a cash dividend of JPY 8.00 with an ex-date of Sep. 29, 2026",
-        "meta": {
-          "eventType": "DIVIDEND",
-          "dateEpochMs": 1790607600000,
-          "amount": "8.00"
-        }
-      }
-    ],
-    "regularMarketTime": 1788503400,
-    "exchange": "JPX",
-    "messageBoardId": "finmb_883579",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
+    "shortName": "ENSUIKO SUGAR REFINING CO",
+    "longName": "Ensuiko Sugar Refining Co., Ltd.",
+    "marketState": "REGULAR",
     "regularMarketChange": 0.0,
     "fulldayChange": 0.0,
     "fulldayChangePercent": 0.0,
-    "regularMarketDayRange": "466.0 - 471.0",
+    "regularMarketDayRange": "467.0 - 470.0",
     "fullExchangeName": "Tokyo",
     "averageDailyVolume3Month": 50333,
     "fiftyTwoWeekLowChange": 72.0,
@@ -1221,14 +1205,30 @@
     "twoHundredDayAverageChangePercent": -0.06312872,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
-    "marketState": "CLOSED",
-    "regularMarketChangePercent": 0.0,
-    "regularMarketPrice": 468.0,
-    "shortName": "ENSUIKO SUGAR REFINING CO",
-    "longName": "Ensuiko Sugar Refining Co., Ltd.",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 978307200000,
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "2112.T announced a cash dividend of JPY 8.00 with an ex-date of Sep. 29, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1790607600000,
+          "amount": "8.00"
+        }
+      }
+    ],
+    "regularMarketTime": 1788740321,
+    "exchange": "JPX",
+    "messageBoardId": "finmb_883579",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
+    "regularMarketChangePercent": 0.0,
+    "regularMarketPrice": 468.0,
+    "cryptoTradeable": false,
     "trailingPegRatio": null
   }
 }

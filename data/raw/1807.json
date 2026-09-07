@@ -1,7 +1,7 @@
 {
   "ticker": "1807",
   "japanese_ticker": "1807.T",
-  "fetch_date": "2026-09-06T00:26:41.065547",
+  "fetch_date": "2026-09-07T00:33:46.896877",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": -4079376.0,
@@ -1119,11 +1119,11 @@
     "executiveTeam": [],
     "maxAge": 86400,
     "priceHint": 2,
-    "previousClose": 1949.0,
+    "previousClose": 1948.0,
     "open": 1948.0,
     "dayLow": 1948.0,
     "dayHigh": 1948.0,
-    "regularMarketPreviousClose": 1949.0,
+    "regularMarketPreviousClose": 1948.0,
     "regularMarketOpen": 1948.0,
     "regularMarketDayLow": 1948.0,
     "regularMarketDayHigh": 1948.0,
@@ -1139,8 +1139,8 @@
     "averageVolume": 1312,
     "averageVolume10days": 800,
     "averageDailyVolume10Day": 800,
-    "bid": 1924.0,
-    "ask": 1948.0,
+    "bid": 1925.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 12162253824,
@@ -1154,7 +1154,7 @@
     "fiftyDayAverage": 1872.18,
     "twoHundredDayAverage": 1894.95,
     "trailingAnnualDividendRate": 80.0,
-    "trailingAnnualDividendYield": 0.04104669,
+    "trailingAnnualDividendYield": 0.04106776,
     "currency": "JPY",
     "tradeable": false,
     "enterpriseValue": 4854254080,
@@ -1176,7 +1176,7 @@
     "enterpriseToRevenue": 0.151,
     "enterpriseToEbitda": 3.146,
     "52WeekChange": 0.084632516,
-    "SandP52WeekChange": 0.19284546,
+    "SandP52WeekChange": 0.18836367,
     "lastDividendValue": 40.0,
     "lastDividendDate": 1806364800,
     "quoteType": "EQUITY",
@@ -1205,14 +1205,23 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "longName": "Watanabe Sato Co., Ltd.",
-    "regularMarketChangePercent": -0.051308364,
-    "regularMarketPrice": 1948.0,
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "1807.T announced a cash dividend of JPY 40.00 with an ex-date of Sep. 29, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1790607600000,
+          "amount": "40.00"
+        }
+      }
+    ],
+    "regularMarketTime": 1788497584,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 946944000000,
-    "regularMarketChange": -1.0,
-    "fulldayChange": -1.0,
-    "fulldayChangePercent": -0.051308364,
+    "regularMarketChange": 0.0,
+    "fulldayChange": 0.0,
+    "fulldayChangePercent": 0.0,
     "regularMarketDayRange": "1948.0 - 1948.0",
     "fullExchangeName": "Tokyo",
     "averageDailyVolume3Month": 1312,
@@ -1229,31 +1238,22 @@
     "fiftyDayAverageChange": 75.81995,
     "fiftyDayAverageChangePercent": 0.040498212,
     "twoHundredDayAverageChange": 53.05005,
-    "twoHundredDayAverageChangePercent": 0.027995488,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
-    "corporateActions": [
-      {
-        "header": "Dividend",
-        "message": "1807.T announced a cash dividend of JPY 40.00 with an ex-date of Sep. 29, 2026",
-        "meta": {
-          "eventType": "DIVIDEND",
-          "dateEpochMs": 1790607600000,
-          "amount": "40.00"
-        }
-      }
-    ],
-    "regularMarketTime": 1788497584,
+    "marketState": "REGULAR",
+    "messageBoardId": "finmb_884096",
     "exchangeTimezoneName": "Asia/Tokyo",
     "exchangeTimezoneShortName": "JST",
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "exchange": "JPX",
-    "messageBoardId": "finmb_884096",
     "shortName": "WATANABE SATO CO LTD",
-    "marketState": "CLOSED",
+    "longName": "Watanabe Sato Co., Ltd.",
+    "exchange": "JPX",
+    "regularMarketChangePercent": 0.0,
+    "regularMarketPrice": 1948.0,
+    "twoHundredDayAverageChangePercent": 0.027995488,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
     "trailingPegRatio": null
   }
 }

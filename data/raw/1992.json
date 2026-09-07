@@ -1,7 +1,7 @@
 {
   "ticker": "1992",
   "japanese_ticker": "1992.T",
-  "fetch_date": "2026-09-06T00:29:03.212946",
+  "fetch_date": "2026-09-07T00:36:29.199735",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": 28276125.0,
@@ -1096,8 +1096,8 @@
     "averageVolume": 266,
     "averageVolume10days": 170,
     "averageDailyVolume10Day": 170,
-    "bid": 2932.0,
-    "ask": 2986.0,
+    "bid": 0.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 6722421248,
@@ -1133,7 +1133,7 @@
     "enterpriseToRevenue": 0.51,
     "enterpriseToEbitda": 8.086,
     "52WeekChange": 0.09880245,
-    "SandP52WeekChange": 0.19284546,
+    "SandP52WeekChange": 0.18836367,
     "lastDividendValue": 85.0,
     "lastDividendDate": 1806364800,
     "quoteType": "EQUITY",
@@ -1163,6 +1163,8 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "shortName": "KANDA TSUSHINKI CO",
+    "longName": "Kanda Tsushinki Co., Ltd.",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 946944000000,
     "regularMarketChange": 0.0,
@@ -1190,9 +1192,8 @@
     "cryptoTradeable": false,
     "corporateActions": [],
     "regularMarketTime": 1788409425,
-    "messageBoardId": "finmb_9264357",
-    "marketState": "CLOSED",
     "exchange": "JPX",
+    "messageBoardId": "finmb_9264357",
     "exchangeTimezoneName": "Asia/Tokyo",
     "exchangeTimezoneShortName": "JST",
     "gmtOffSetMilliseconds": 32400000,
@@ -1200,8 +1201,7 @@
     "esgPopulated": false,
     "regularMarketChangePercent": 0.0,
     "regularMarketPrice": 2936.0,
-    "shortName": "KANDA TSUSHINKI CO",
-    "longName": "Kanda Tsushinki Co., Ltd.",
+    "marketState": "REGULAR",
     "trailingPegRatio": null
   }
 }

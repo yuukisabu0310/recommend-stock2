@@ -1,7 +1,7 @@
 {
   "ticker": "2329",
   "japanese_ticker": "2329.T",
-  "fetch_date": "2026-09-06T00:31:53.138580",
+  "fetch_date": "2026-09-07T00:39:50.062675",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": 1548404000.0,
@@ -1133,14 +1133,14 @@
     "executiveTeam": [],
     "maxAge": 86400,
     "priceHint": 2,
-    "previousClose": 502.0,
-    "open": 502.0,
-    "dayLow": 501.0,
-    "dayHigh": 503.0,
-    "regularMarketPreviousClose": 502.0,
-    "regularMarketOpen": 502.0,
-    "regularMarketDayLow": 501.0,
-    "regularMarketDayHigh": 503.0,
+    "previousClose": 501.0,
+    "open": 500.0,
+    "dayLow": 500.0,
+    "dayHigh": 501.0,
+    "regularMarketPreviousClose": 501.0,
+    "regularMarketOpen": 500.0,
+    "regularMarketDayLow": 500.0,
+    "regularMarketDayHigh": 501.0,
     "dividendRate": 27.08,
     "dividendYield": 5.41,
     "exDividendDate": 1790640000,
@@ -1148,13 +1148,13 @@
     "fiveYearAvgDividendYield": 3.81,
     "beta": 0.049,
     "trailingPE": 9.901186,
-    "volume": 32600,
-    "regularMarketVolume": 32600,
+    "volume": 12700,
+    "regularMarketVolume": 12700,
     "averageVolume": 123174,
     "averageVolume10days": 130890,
     "averageDailyVolume10Day": 130890,
-    "bid": 501.0,
-    "ask": 502.0,
+    "bid": 500.0,
+    "ask": 501.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 68935073792,
@@ -1168,7 +1168,7 @@
     "fiftyDayAverage": 502.88,
     "twoHundredDayAverage": 588.15,
     "trailingAnnualDividendRate": 27.06,
-    "trailingAnnualDividendYield": 0.05390438,
+    "trailingAnnualDividendYield": 0.054011974,
     "currency": "JPY",
     "tradeable": false,
     "enterpriseValue": 28794949632,
@@ -1190,7 +1190,7 @@
     "lastSplitDate": 1719446400,
     "enterpriseToRevenue": 0.597,
     "52WeekChange": -0.25777775,
-    "SandP52WeekChange": 0.19284546,
+    "SandP52WeekChange": 0.18836367,
     "lastDividendValue": 6.77,
     "lastDividendDate": 1806364800,
     "quoteType": "EQUITY",
@@ -1220,27 +1220,15 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "shortName": "TOHOKUSHINSHA FILM CORPORATION",
-    "longName": "Tohokushinsha Film Corporation",
-    "corporateActions": [
-      {
-        "header": "Dividend",
-        "message": "2329.T announced a cash dividend of JPY 6.77 with an ex-date of Sep. 29, 2026",
-        "meta": {
-          "eventType": "DIVIDEND",
-          "dateEpochMs": 1790607600000,
-          "amount": "6.77"
-        }
-      }
-    ],
-    "regularMarketTime": 1788503400,
-    "marketState": "CLOSED",
+    "marketState": "REGULAR",
+    "regularMarketChangePercent": 0.0,
+    "regularMarketPrice": 501.0,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1034035200000,
-    "regularMarketChange": -1.0,
-    "fulldayChange": -1.0,
-    "fulldayChangePercent": -0.1992032,
-    "regularMarketDayRange": "501.0 - 503.0",
+    "regularMarketChange": 0.0,
+    "fulldayChange": 0.0,
+    "fulldayChangePercent": 0.0,
+    "regularMarketDayRange": "500.0 - 501.0",
     "fullExchangeName": "Tokyo",
     "averageDailyVolume3Month": 123174,
     "fiftyTwoWeekLowChange": 32.0,
@@ -1260,6 +1248,18 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "2329.T announced a cash dividend of JPY 6.77 with an ex-date of Sep. 29, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1790607600000,
+          "amount": "6.77"
+        }
+      }
+    ],
+    "regularMarketTime": 1788740553,
     "exchange": "JPX",
     "messageBoardId": "finmb_5522618",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1267,8 +1267,8 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "regularMarketChangePercent": -0.1992032,
-    "regularMarketPrice": 501.0,
+    "shortName": "TOHOKUSHINSHA FILM CORPORATION",
+    "longName": "Tohokushinsha Film Corporation",
     "trailingPegRatio": null
   }
 }

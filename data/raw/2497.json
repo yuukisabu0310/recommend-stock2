@@ -1,7 +1,7 @@
 {
   "ticker": "2497",
   "japanese_ticker": "2497.T",
-  "fetch_date": "2026-09-06T00:33:56.176606",
+  "fetch_date": "2026-09-07T00:42:17.998585",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": -24013600.0,
@@ -1163,14 +1163,14 @@
     "executiveTeam": [],
     "maxAge": 86400,
     "priceHint": 2,
-    "previousClose": 534.0,
-    "open": 534.0,
-    "dayLow": 533.0,
-    "dayHigh": 537.0,
-    "regularMarketPreviousClose": 534.0,
-    "regularMarketOpen": 534.0,
-    "regularMarketDayLow": 533.0,
-    "regularMarketDayHigh": 537.0,
+    "previousClose": 536.0,
+    "open": 538.0,
+    "dayLow": 534.0,
+    "dayHigh": 542.0,
+    "regularMarketPreviousClose": 536.0,
+    "regularMarketOpen": 538.0,
+    "regularMarketDayLow": 534.0,
+    "regularMarketDayHigh": 542.0,
     "dividendRate": 22.0,
     "dividendYield": 4.1,
     "exDividendDate": 1790640000,
@@ -1178,13 +1178,13 @@
     "fiveYearAvgDividendYield": 3.08,
     "beta": 0.279,
     "forwardPE": 10.741483,
-    "volume": 23700,
-    "regularMarketVolume": 23700,
+    "volume": 14200,
+    "regularMarketVolume": 14200,
     "averageVolume": 24458,
     "averageVolume10days": 25470,
     "averageDailyVolume10Day": 25470,
-    "bid": 534.0,
-    "ask": 536.0,
+    "bid": 535.0,
+    "ask": 540.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 20068483072,
@@ -1198,7 +1198,7 @@
     "fiftyDayAverage": 520.88,
     "twoHundredDayAverage": 514.57,
     "trailingAnnualDividendRate": 23.0,
-    "trailingAnnualDividendYield": 0.043071162,
+    "trailingAnnualDividendYield": 0.04291045,
     "currency": "JPY",
     "tradeable": false,
     "enterpriseValue": 15106196480,
@@ -1221,7 +1221,7 @@
     "enterpriseToRevenue": 1.687,
     "enterpriseToEbitda": -47.994,
     "52WeekChange": -0.15855575,
-    "SandP52WeekChange": 0.19284546,
+    "SandP52WeekChange": 0.18836367,
     "lastDividendValue": 11.0,
     "lastDividendDate": 1806364800,
     "quoteType": "EQUITY",
@@ -1251,8 +1251,19 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "shortName": "UNITED INC",
-    "longName": "UNITED, Inc.",
+    "marketState": "REGULAR",
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "2497.T announced a cash dividend of JPY 11.00 with an ex-date of Sep. 29, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1790607600000,
+          "amount": "11.00"
+        }
+      }
+    ],
+    "regularMarketTime": 1788740626,
     "exchange": "JPX",
     "messageBoardId": "finmb_28462301",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1260,12 +1271,16 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
+    "regularMarketChangePercent": 0.0,
+    "regularMarketPrice": 536.0,
+    "longName": "UNITED, Inc.",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1156896000000,
-    "regularMarketChange": 2.0,
-    "fulldayChange": 2.0,
-    "fulldayChangePercent": 0.37453184,
-    "regularMarketDayRange": "533.0 - 537.0",
+    "shortName": "UNITED INC",
+    "regularMarketChange": 0.0,
+    "fulldayChange": 0.0,
+    "fulldayChangePercent": 0.0,
+    "regularMarketDayRange": "534.0 - 542.0",
     "fullExchangeName": "Tokyo",
     "averageDailyVolume3Month": 24458,
     "fiftyTwoWeekLowChange": 65.0,
@@ -1286,21 +1301,6 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
-    "marketState": "CLOSED",
-    "regularMarketChangePercent": 0.37453184,
-    "regularMarketPrice": 536.0,
-    "corporateActions": [
-      {
-        "header": "Dividend",
-        "message": "2497.T announced a cash dividend of JPY 11.00 with an ex-date of Sep. 29, 2026",
-        "meta": {
-          "eventType": "DIVIDEND",
-          "dateEpochMs": 1790607600000,
-          "amount": "11.00"
-        }
-      }
-    ],
-    "regularMarketTime": 1788503400,
     "trailingPegRatio": null
   }
 }
