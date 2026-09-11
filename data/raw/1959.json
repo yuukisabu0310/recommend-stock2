@@ -1,7 +1,7 @@
 {
   "ticker": "1959",
   "japanese_ticker": "1959.T",
-  "fetch_date": "2026-09-10T00:48:19.118661",
+  "fetch_date": "2026-09-11T00:46:57.741180",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": 103967827.198096,
@@ -712,7 +712,302 @@
       "2022-03-31 00:00:00": null
     }
   },
-  "cashflow": {},
+  "cashflow": {
+    "Free Cash Flow": {
+      "2026-03-31 00:00:00": 7213000000.0,
+      "2025-03-31 00:00:00": 4804000000.0,
+      "2024-03-31 00:00:00": 41951000000.0,
+      "2023-03-31 00:00:00": 14320000000.0
+    },
+    "Repurchase Of Capital Stock": {
+      "2026-03-31 00:00:00": -3000000.0,
+      "2025-03-31 00:00:00": -3000000.0,
+      "2024-03-31 00:00:00": -482000000.0,
+      "2023-03-31 00:00:00": -2000000.0
+    },
+    "Repayment Of Debt": {
+      "2026-03-31 00:00:00": -975000000.0,
+      "2025-03-31 00:00:00": -27599000000.0,
+      "2024-03-31 00:00:00": -1231000000.0,
+      "2023-03-31 00:00:00": -7057000000.0
+    },
+    "Issuance Of Debt": {
+      "2026-03-31 00:00:00": 0.0,
+      "2025-03-31 00:00:00": 14000000000.0,
+      "2024-03-31 00:00:00": 0.0,
+      "2023-03-31 00:00:00": 27000000000.0
+    },
+    "Issuance Of Capital Stock": {
+      "2026-03-31 00:00:00": 8000000.0,
+      "2025-03-31 00:00:00": 5000000.0,
+      "2024-03-31 00:00:00": null,
+      "2023-03-31 00:00:00": null
+    },
+    "Capital Expenditure": {
+      "2026-03-31 00:00:00": -5119000000.0,
+      "2025-03-31 00:00:00": -3852000000.0,
+      "2024-03-31 00:00:00": -2018000000.0,
+      "2023-03-31 00:00:00": -3066000000.0
+    },
+    "End Cash Position": {
+      "2026-03-31 00:00:00": 50548000000.0,
+      "2025-03-31 00:00:00": 70437000000.0,
+      "2024-03-31 00:00:00": 94588000000.0,
+      "2023-03-31 00:00:00": 63851000000.0
+    },
+    "Other Cash Adjustment Outside Changein Cash": {
+      "2026-03-31 00:00:00": 86000000.0,
+      "2025-03-31 00:00:00": 329000000.0,
+      "2024-03-31 00:00:00": 1000000.0,
+      "2023-03-31 00:00:00": 1000000.0
+    },
+    "Beginning Cash Position": {
+      "2026-03-31 00:00:00": 70437000000.0,
+      "2025-03-31 00:00:00": 94588000000.0,
+      "2024-03-31 00:00:00": 63851000000.0,
+      "2023-03-31 00:00:00": 37791000000.0
+    },
+    "Effect Of Exchange Rate Changes": {
+      "2026-03-31 00:00:00": 143000000.0,
+      "2025-03-31 00:00:00": 326000000.0,
+      "2024-03-31 00:00:00": 113000000.0,
+      "2023-03-31 00:00:00": 171000000.0
+    },
+    "Changes In Cash": {
+      "2026-03-31 00:00:00": -20118000000.0,
+      "2025-03-31 00:00:00": -24806000000.0,
+      "2024-03-31 00:00:00": 30623000000.0,
+      "2023-03-31 00:00:00": 25888000000.0
+    },
+    "Financing Cash Flow": {
+      "2026-03-31 00:00:00": -14307000000.0,
+      "2025-03-31 00:00:00": -24552000000.0,
+      "2024-03-31 00:00:00": -11032000000.0,
+      "2023-03-31 00:00:00": 11615000000.0
+    },
+    "Net Other Financing Charges": {
+      "2026-03-31 00:00:00": -1544000000.0,
+      "2025-03-31 00:00:00": -1675000000.0,
+      "2024-03-31 00:00:00": -1289000000.0,
+      "2023-03-31 00:00:00": -1219000000.0
+    },
+    "Cash Dividends Paid": {
+      "2026-03-31 00:00:00": -11679000000.0,
+      "2025-03-31 00:00:00": -9204000000.0,
+      "2024-03-31 00:00:00": -8148000000.0,
+      "2023-03-31 00:00:00": -7087000000.0
+    },
+    "Net Common Stock Issuance": {
+      "2026-03-31 00:00:00": 5000000.0,
+      "2025-03-31 00:00:00": 2000000.0,
+      "2024-03-31 00:00:00": -482000000.0,
+      "2023-03-31 00:00:00": -2000000.0
+    },
+    "Common Stock Payments": {
+      "2026-03-31 00:00:00": -3000000.0,
+      "2025-03-31 00:00:00": -3000000.0,
+      "2024-03-31 00:00:00": -482000000.0,
+      "2023-03-31 00:00:00": -2000000.0
+    },
+    "Common Stock Issuance": {
+      "2026-03-31 00:00:00": 8000000.0,
+      "2025-03-31 00:00:00": 5000000.0,
+      "2024-03-31 00:00:00": null,
+      "2023-03-31 00:00:00": null
+    },
+    "Net Issuance Payments Of Debt": {
+      "2026-03-31 00:00:00": -1085000000.0,
+      "2025-03-31 00:00:00": -13671000000.0,
+      "2024-03-31 00:00:00": -1109000000.0,
+      "2023-03-31 00:00:00": 19925000000.0
+    },
+    "Net Short Term Debt Issuance": {
+      "2026-03-31 00:00:00": -110000000.0,
+      "2025-03-31 00:00:00": -72000000.0,
+      "2024-03-31 00:00:00": 122000000.0,
+      "2023-03-31 00:00:00": -18000000.0
+    },
+    "Net Long Term Debt Issuance": {
+      "2026-03-31 00:00:00": -975000000.0,
+      "2025-03-31 00:00:00": -13599000000.0,
+      "2024-03-31 00:00:00": -1231000000.0,
+      "2023-03-31 00:00:00": 19943000000.0
+    },
+    "Long Term Debt Payments": {
+      "2026-03-31 00:00:00": -975000000.0,
+      "2025-03-31 00:00:00": -27599000000.0,
+      "2024-03-31 00:00:00": -1231000000.0,
+      "2023-03-31 00:00:00": -7057000000.0
+    },
+    "Long Term Debt Issuance": {
+      "2026-03-31 00:00:00": 0.0,
+      "2025-03-31 00:00:00": 14000000000.0,
+      "2024-03-31 00:00:00": 0.0,
+      "2023-03-31 00:00:00": 27000000000.0
+    },
+    "Investing Cash Flow": {
+      "2026-03-31 00:00:00": -18143000000.0,
+      "2025-03-31 00:00:00": -8910000000.0,
+      "2024-03-31 00:00:00": -2314000000.0,
+      "2023-03-31 00:00:00": -3113000000.0
+    },
+    "Net Other Investing Changes": {
+      "2026-03-31 00:00:00": -5305000000.0,
+      "2025-03-31 00:00:00": -3617000000.0,
+      "2024-03-31 00:00:00": -1462000000.0,
+      "2023-03-31 00:00:00": -831000000.0
+    },
+    "Net Investment Purchase And Sale": {
+      "2026-03-31 00:00:00": -8208000000.0,
+      "2025-03-31 00:00:00": -1523000000.0,
+      "2024-03-31 00:00:00": 1203000000.0,
+      "2023-03-31 00:00:00": 104000000.0
+    },
+    "Sale Of Investment": {
+      "2026-03-31 00:00:00": 3261000000.0,
+      "2025-03-31 00:00:00": 7525000000.0,
+      "2024-03-31 00:00:00": 10392000000.0,
+      "2023-03-31 00:00:00": 7257000000.0
+    },
+    "Purchase Of Investment": {
+      "2026-03-31 00:00:00": -11469000000.0,
+      "2025-03-31 00:00:00": -9048000000.0,
+      "2024-03-31 00:00:00": -9189000000.0,
+      "2023-03-31 00:00:00": -7153000000.0
+    },
+    "Net Business Purchase And Sale": {
+      "2026-03-31 00:00:00": 373000000.0,
+      "2025-03-31 00:00:00": -504000000.0,
+      "2024-03-31 00:00:00": -361000000.0,
+      "2023-03-31 00:00:00": -97000000.0
+    },
+    "Sale Of Business": {
+      "2026-03-31 00:00:00": 373000000.0,
+      "2025-03-31 00:00:00": 0.0,
+      "2024-03-31 00:00:00": null,
+      "2023-03-31 00:00:00": null
+    },
+    "Purchase Of Business": {
+      "2026-03-31 00:00:00": 0.0,
+      "2025-03-31 00:00:00": -504000000.0,
+      "2024-03-31 00:00:00": -361000000.0,
+      "2023-03-31 00:00:00": -97000000.0
+    },
+    "Net PPE Purchase And Sale": {
+      "2026-03-31 00:00:00": -5012000000.0,
+      "2025-03-31 00:00:00": -3340000000.0,
+      "2024-03-31 00:00:00": -1729000000.0,
+      "2023-03-31 00:00:00": -2621000000.0
+    },
+    "Sale Of PPE": {
+      "2026-03-31 00:00:00": 107000000.0,
+      "2025-03-31 00:00:00": 512000000.0,
+      "2024-03-31 00:00:00": 289000000.0,
+      "2023-03-31 00:00:00": 445000000.0
+    },
+    "Purchase Of PPE": {
+      "2026-03-31 00:00:00": -5119000000.0,
+      "2025-03-31 00:00:00": -3852000000.0,
+      "2024-03-31 00:00:00": -2018000000.0,
+      "2023-03-31 00:00:00": -3066000000.0
+    },
+    "Operating Cash Flow": {
+      "2026-03-31 00:00:00": 12332000000.0,
+      "2025-03-31 00:00:00": 8656000000.0,
+      "2024-03-31 00:00:00": 43969000000.0,
+      "2023-03-31 00:00:00": 17386000000.0
+    },
+    "Taxes Refund Paid": {
+      "2026-03-31 00:00:00": -15226000000.0,
+      "2025-03-31 00:00:00": -18355000000.0,
+      "2024-03-31 00:00:00": -11103000000.0,
+      "2023-03-31 00:00:00": -12474000000.0
+    },
+    "Interest Received Cfo": {
+      "2026-03-31 00:00:00": 1150000000.0,
+      "2025-03-31 00:00:00": 1327000000.0,
+      "2024-03-31 00:00:00": 1626000000.0,
+      "2023-03-31 00:00:00": 763000000.0
+    },
+    "Interest Paid Cfo": {
+      "2026-03-31 00:00:00": -649000000.0,
+      "2025-03-31 00:00:00": -515000000.0,
+      "2024-03-31 00:00:00": -466000000.0,
+      "2023-03-31 00:00:00": -424000000.0
+    },
+    "Change In Working Capital": {
+      "2026-03-31 00:00:00": -35464000000.0,
+      "2025-03-31 00:00:00": -25477000000.0,
+      "2024-03-31 00:00:00": 7880000000.0,
+      "2023-03-31 00:00:00": -3114000000.0
+    },
+    "Change In Other Current Assets": {
+      "2026-03-31 00:00:00": -7596000000.0,
+      "2025-03-31 00:00:00": 3585000000.0,
+      "2024-03-31 00:00:00": 4106000000.0,
+      "2023-03-31 00:00:00": 9466000000.0
+    },
+    "Change In Payable": {
+      "2026-03-31 00:00:00": -16721000000.0,
+      "2025-03-31 00:00:00": -29549000000.0,
+      "2024-03-31 00:00:00": 20732000000.0,
+      "2023-03-31 00:00:00": 9639000000.0
+    },
+    "Change In Inventory": {
+      "2026-03-31 00:00:00": 62000000.0,
+      "2025-03-31 00:00:00": -2802000000.0,
+      "2024-03-31 00:00:00": -3879000000.0,
+      "2023-03-31 00:00:00": -10234000000.0
+    },
+    "Change In Receivables": {
+      "2026-03-31 00:00:00": -13559000000.0,
+      "2025-03-31 00:00:00": 2530000000.0,
+      "2024-03-31 00:00:00": -15594000000.0,
+      "2023-03-31 00:00:00": -11791000000.0
+    },
+    "Other Non Cash Items": {
+      "2026-03-31 00:00:00": -1316000000.0,
+      "2025-03-31 00:00:00": 2218000000.0,
+      "2024-03-31 00:00:00": 2077000000.0,
+      "2023-03-31 00:00:00": -6742000000.0
+    },
+    "Depreciation And Amortization": {
+      "2026-03-31 00:00:00": 6922000000.0,
+      "2025-03-31 00:00:00": 6454000000.0,
+      "2024-03-31 00:00:00": 6016000000.0,
+      "2023-03-31 00:00:00": 6018000000.0
+    },
+    "Depreciation": {
+      "2026-03-31 00:00:00": 6922000000.0,
+      "2025-03-31 00:00:00": 6454000000.0,
+      "2024-03-31 00:00:00": 6016000000.0,
+      "2023-03-31 00:00:00": 6018000000.0
+    },
+    "Gain Loss On Investment Securities": {
+      "2026-03-31 00:00:00": -1775000000.0,
+      "2025-03-31 00:00:00": -1400000000.0,
+      "2024-03-31 00:00:00": -3637000000.0,
+      "2023-03-31 00:00:00": -5072000000.0
+    },
+    "Net Foreign Currency Exchange Gain Loss": {
+      "2026-03-31 00:00:00": -440000000.0,
+      "2025-03-31 00:00:00": -114000000.0,
+      "2024-03-31 00:00:00": -89000000.0,
+      "2023-03-31 00:00:00": -168000000.0
+    },
+    "Gain Loss On Sale Of PPE": {
+      "2026-03-31 00:00:00": 330000000.0,
+      "2025-03-31 00:00:00": 86000000.0,
+      "2024-03-31 00:00:00": 326000000.0,
+      "2023-03-31 00:00:00": -102000000.0
+    },
+    "Net Income From Continuing Operations": {
+      "2026-03-31 00:00:00": 57129000000.0,
+      "2025-03-31 00:00:00": 44293000000.0,
+      "2024-03-31 00:00:00": 41158000000.0,
+      "2023-03-31 00:00:00": 38793000000.0
+    }
+  },
   "info": {
     "address1": "ONE FUKUOKA BLDG",
     "address2": "14th Floor 11-1,Tenjin 1-chome Chuo-ku",
@@ -817,69 +1112,69 @@
     "executiveTeam": [],
     "maxAge": 86400,
     "priceHint": 2,
-    "previousClose": 8192.0,
-    "open": 8051.0,
-    "dayLow": 7939.0,
-    "dayHigh": 8115.0,
-    "regularMarketPreviousClose": 8192.0,
-    "regularMarketOpen": 8051.0,
-    "regularMarketDayLow": 7939.0,
-    "regularMarketDayHigh": 8115.0,
+    "previousClose": 7954.0,
+    "open": 7744.0,
+    "dayLow": 7724.0,
+    "dayHigh": 7873.0,
+    "regularMarketPreviousClose": 7954.0,
+    "regularMarketOpen": 7744.0,
+    "regularMarketDayLow": 7724.0,
+    "regularMarketDayHigh": 7873.0,
     "dividendRate": 220.0,
-    "dividendYield": 2.69,
+    "dividendYield": 2.77,
     "exDividendDate": 1790640000,
     "payoutRatio": 0.38849998,
     "fiveYearAvgDividendYield": 2.61,
     "beta": 0.73,
-    "trailingPE": 14.079531,
-    "forwardPE": 16.042673,
-    "volume": 45700,
-    "regularMarketVolume": 45700,
-    "averageVolume": 212880,
-    "averageVolume10days": 150670,
-    "averageDailyVolume10Day": 150670,
-    "bid": 7960.0,
-    "ask": 7968.0,
-    "marketCap": 563756531712,
-    "nonDilutedMarketCap": 569415341250,
+    "trailingPE": 13.891439,
+    "forwardPE": 15.835346,
+    "volume": 49000,
+    "regularMarketVolume": 49000,
+    "averageVolume": 212255,
+    "averageVolume10days": 157570,
+    "averageDailyVolume10Day": 157570,
+    "bid": 7861.0,
+    "ask": 7873.0,
+    "marketCap": 556470829056,
+    "nonDilutedMarketCap": 579459686400,
     "fiftyTwoWeekLow": 6867.0,
     "fiftyTwoWeekHigh": 10580.0,
     "allTimeHigh": 10580.0,
     "allTimeLow": 313.0,
-    "fulldayPrice": 7970.0,
-    "fulldayChange": -222.0,
-    "fulldayChangePercent": -2.7106228,
-    "priceToSalesTrailing12Months": 1.1887302,
-    "fiftyDayAverage": 8552.0,
-    "twoHundredDayAverage": 8827.025,
+    "fulldayPrice": 7867.0,
+    "fulldayChange": -87.0,
+    "fulldayChangePercent": -0.010937894,
+    "priceToSalesTrailing12Months": 1.1733677,
+    "fiftyDayAverage": 8528.7,
+    "twoHundredDayAverage": 8829.015,
     "trailingAnnualDividendRate": 220.0,
-    "trailingAnnualDividendYield": 0.026855469,
+    "trailingAnnualDividendYield": 0.02765904,
     "currency": "JPY",
     "tradeable": false,
-    "enterpriseValue": 558500478976,
+    "enterpriseValue": 541664903168,
     "profitMargins": 0.08592,
     "floatShares": 47446624,
     "sharesOutstanding": 70734825,
     "heldPercentInsiders": 0.31258,
-    "heldPercentInstitutions": 0.33396,
+    "heldPercentInstitutions": 0.33393002,
     "impliedSharesOutstanding": 70734825,
     "bookValue": 4914.662,
-    "priceToBook": 1.6216781,
+    "priceToBook": 1.6007204,
     "lastFiscalYearEnd": 1774915200,
     "nextFiscalYearEnd": 1806451200,
     "mostRecentQuarter": 1782777600,
     "earningsQuarterlyGrowth": 0.09,
     "netIncomeToCommon": 40748998656,
-    "trailingEps": 566.07,
+    "trailingEps": 566.32,
     "forwardEps": 496.8,
-    "enterpriseToRevenue": 1.178,
-    "enterpriseToEbitda": 9.166,
-    "52WeekChange": 0.099877,
-    "SandP52WeekChange": 0.17475092,
+    "enterpriseToRevenue": 1.142,
+    "enterpriseToEbitda": 8.889,
+    "52WeekChange": 0.11213684,
+    "SandP52WeekChange": 0.15922499,
     "lastDividendValue": 110.0,
     "lastDividendDate": 1806364800,
     "quoteType": "EQUITY",
-    "currentPrice": 7970.0,
+    "currentPrice": 7867.0,
     "targetHighPrice": 13600.0,
     "targetLowPrice": 7700.0,
     "targetMeanPrice": 11250.0,
@@ -912,6 +1207,7 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "marketState": "REGULAR",
     "corporateActions": [
       {
         "header": "Dividend",
@@ -923,47 +1219,46 @@
         }
       }
     ],
-    "regularMarketTime": 1789000397,
-    "marketState": "REGULAR",
+    "regularMarketTime": 1789086675,
+    "exchange": "JPX",
     "messageBoardId": "finmb_880331",
     "exchangeTimezoneName": "Asia/Tokyo",
     "exchangeTimezoneShortName": "JST",
     "gmtOffSetMilliseconds": 32400000,
-    "esgPopulated": false,
-    "regularMarketChangePercent": -2.7106228,
-    "regularMarketPrice": 7970.0,
-    "cryptoTradeable": false,
-    "exchange": "JPX",
     "market": "jp_market",
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 978307200000,
-    "regularMarketChange": -222.0,
-    "regularMarketDayRange": "7939.0 - 8115.0",
-    "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 212880,
-    "fiftyTwoWeekLowChange": 1103.0,
-    "fiftyTwoWeekLowChangePercent": 0.16062327,
+    "esgPopulated": false,
+    "regularMarketChangePercent": -1.0937893,
+    "regularMarketPrice": 7867.0,
+    "shortName": "KRAFTIA CORPORATION",
+    "longName": "Kraftia Corporation",
+    "averageDailyVolume3Month": 212255,
+    "fiftyTwoWeekLowChange": 1000.0,
+    "fiftyTwoWeekLowChangePercent": 0.145624,
     "fiftyTwoWeekRange": "6867.0 - 10580.0",
-    "fiftyTwoWeekHighChange": -2610.0,
-    "fiftyTwoWeekHighChangePercent": -0.24669187,
-    "fiftyTwoWeekChangePercent": 9.9876995,
+    "fiftyTwoWeekHighChange": -2713.0,
+    "fiftyTwoWeekHighChangePercent": -0.25642723,
+    "fiftyTwoWeekChangePercent": 11.213684,
     "earningsTimestamp": 1793255400,
     "earningsTimestampStart": 1793255400,
     "earningsTimestampEnd": 1793255400,
     "isEarningsDateEstimate": false,
-    "epsTrailingTwelveMonths": 566.07,
+    "epsTrailingTwelveMonths": 566.32,
     "epsForward": 496.8,
-    "fiftyDayAverageChange": -582.0,
-    "fiftyDayAverageChangePercent": -0.06805426,
-    "twoHundredDayAverageChange": -857.0254,
-    "twoHundredDayAverageChangePercent": -0.09709108,
+    "fiftyDayAverageChange": -661.7002,
+    "fiftyDayAverageChangePercent": -0.077585116,
+    "twoHundredDayAverageChange": -962.01465,
+    "twoHundredDayAverageChangePercent": -0.10896059,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "prevName": "Kyudenko Corporation",
-    "nameChangeDate": "2026-09-09",
+    "nameChangeDate": "2026-09-10",
     "averageAnalystRating": "1.8 - Buy",
-    "shortName": "KRAFTIA CORPORATION",
-    "longName": "Kraftia Corporation",
+    "cryptoTradeable": false,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 978307200000,
+    "regularMarketChange": -87.0,
+    "regularMarketDayRange": "7724.0 - 7873.0",
+    "fullExchangeName": "Tokyo",
     "trailingPegRatio": null
   }
 }
