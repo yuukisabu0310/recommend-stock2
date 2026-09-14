@@ -1,7 +1,7 @@
 {
   "ticker": "1795",
   "japanese_ticker": "1795.T",
-  "fetch_date": "2026-09-13T00:32:53.981873",
+  "fetch_date": "2026-09-14T00:35:34.537928",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-09-30 00:00:00": 2066205.0,
@@ -1123,13 +1123,13 @@
     "executiveTeam": [],
     "maxAge": 86400,
     "priceHint": 2,
-    "previousClose": 5700.0,
-    "open": 5700.0,
-    "dayLow": 5700.0,
+    "previousClose": 5800.0,
+    "open": 5800.0,
+    "dayLow": 5800.0,
     "dayHigh": 5800.0,
-    "regularMarketPreviousClose": 5700.0,
-    "regularMarketOpen": 5700.0,
-    "regularMarketDayLow": 5700.0,
+    "regularMarketPreviousClose": 5800.0,
+    "regularMarketOpen": 5800.0,
+    "regularMarketDayLow": 5800.0,
     "regularMarketDayHigh": 5800.0,
     "dividendRate": 110.0,
     "dividendYield": 1.9,
@@ -1138,13 +1138,13 @@
     "fiveYearAvgDividendYield": 3.47,
     "beta": 0.231,
     "trailingPE": 12.285012,
-    "volume": 400,
-    "regularMarketVolume": 400,
+    "volume": 300,
+    "regularMarketVolume": 300,
     "averageVolume": 446,
     "averageVolume10days": 280,
     "averageDailyVolume10Day": 280,
-    "bid": 5700.0,
-    "ask": 5960.0,
+    "bid": 0.0,
+    "ask": 5850.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 5090613760,
@@ -1154,8 +1154,8 @@
     "allTimeHigh": 6000.0,
     "allTimeLow": 770.0,
     "fulldayPrice": 5800.0,
-    "fulldayChange": 100.0,
-    "fulldayChangePercent": 0.01754386,
+    "fulldayChange": 0.0,
+    "fulldayChangePercent": 0.0,
     "priceToSalesTrailing12Months": 0.5153487,
     "fiftyDayAverage": 5442.9,
     "twoHundredDayAverage": 4852.9,
@@ -1212,18 +1212,6 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "corporateActions": [
-      {
-        "header": "Dividend",
-        "message": "1795.T announced a cash dividend of JPY 110.00 with an ex-date of Sep. 29, 2026",
-        "meta": {
-          "eventType": "DIVIDEND",
-          "dateEpochMs": 1790607600000,
-          "amount": "110.00"
-        }
-      }
-    ],
-    "regularMarketTime": 1789106464,
     "exchange": "JPX",
     "messageBoardId": "finmb_5864375",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1231,15 +1219,12 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "marketState": "CLOSED",
+    "regularMarketChangePercent": 0.0,
+    "regularMarketPrice": 5800.0,
     "shortName": "MASARU CORPORATION",
     "longName": "Masaru Corporation",
-    "regularMarketChangePercent": 1.754386,
-    "regularMarketPrice": 5800.0,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 947030400000,
-    "regularMarketChange": 100.0,
-    "regularMarketDayRange": "5700.0 - 5800.0",
+    "regularMarketChange": 0.0,
+    "regularMarketDayRange": "5800.0 - 5800.0",
     "fullExchangeName": "Tokyo",
     "averageDailyVolume3Month": 446,
     "fiftyTwoWeekLowChange": 1620.0,
@@ -1259,6 +1244,21 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 947030400000,
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "1795.T announced a cash dividend of JPY 110.00 with an ex-date of Sep. 29, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1790607600000,
+          "amount": "110.00"
+        }
+      }
+    ],
+    "regularMarketTime": 1789344000,
+    "marketState": "REGULAR",
     "trailingPegRatio": null
   }
 }

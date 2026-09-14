@@ -1,7 +1,7 @@
 {
   "ticker": "1992",
   "japanese_ticker": "1992.T",
-  "fetch_date": "2026-09-13T00:35:39.324067",
+  "fetch_date": "2026-09-14T00:38:31.090996",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": 28276125.0,
@@ -1165,9 +1165,11 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "marketState": "CLOSED",
-    "shortName": "KANDA TSUSHINKI CO",
-    "longName": "Kanda Tsushinki Co., Ltd.",
+    "marketState": "REGULAR",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 946944000000,
+    "regularMarketChange": 0.0,
+    "regularMarketDayRange": "2986.0 - 2986.0",
     "fullExchangeName": "Tokyo",
     "averageDailyVolume3Month": 231,
     "fiftyTwoWeekLowChange": 379.0,
@@ -1176,6 +1178,8 @@
     "fiftyTwoWeekHighChange": -164.0,
     "fiftyTwoWeekHighChangePercent": -0.05206349,
     "fiftyTwoWeekChangePercent": 10.225177,
+    "shortName": "KANDA TSUSHINKI CO",
+    "longName": "Kanda Tsushinki Co., Ltd.",
     "earningsTimestampStart": 1747031400,
     "earningsTimestampEnd": 1747031400,
     "isEarningsDateEstimate": false,
@@ -1187,10 +1191,8 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 946944000000,
-    "regularMarketChange": 0.0,
-    "regularMarketDayRange": "2986.0 - 2986.0",
+    "corporateActions": [],
+    "regularMarketTime": 1788998569,
     "exchange": "JPX",
     "messageBoardId": "finmb_9264357",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1200,8 +1202,6 @@
     "esgPopulated": false,
     "regularMarketChangePercent": 0.0,
     "regularMarketPrice": 2986.0,
-    "corporateActions": [],
-    "regularMarketTime": 1788998569,
     "trailingPegRatio": null
   }
 }
