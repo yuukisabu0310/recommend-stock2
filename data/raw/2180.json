@@ -1,7 +1,7 @@
 {
   "ticker": "2180",
   "japanese_ticker": "2180.T",
-  "fetch_date": "2026-09-14T00:40:02.003553",
+  "fetch_date": "2026-09-15T01:11:31.975609",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-06-30 00:00:00": null,
@@ -951,8 +951,8 @@
     "payoutRatio": 0.2538,
     "fiveYearAvgDividendYield": 2.49,
     "beta": 0.469,
-    "volume": 1300,
-    "regularMarketVolume": 1300,
+    "volume": 3600,
+    "regularMarketVolume": 3600,
     "averageVolume": 22877,
     "averageVolume10days": 11930,
     "averageDailyVolume10Day": 11930,
@@ -1026,40 +1026,7 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "shortName": "SUNNY SIDE UP GROUP INC",
-    "longName": "SUNNY SIDE UP GROUP Inc.",
-    "regularMarketChangePercent": 0.0,
-    "regularMarketPrice": 1309.0,
-    "epsTrailingTwelveMonths": -25.0,
-    "fiftyDayAverageChange": 1.6800537,
-    "fiftyDayAverageChangePercent": 0.0012851129,
-    "twoHundredDayAverageChange": 223.91003,
-    "twoHundredDayAverageChangePercent": 0.20635158,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
-    "regularMarketTime": 1789344000,
-    "exchange": "JPX",
-    "messageBoardId": "finmb_47318901",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
     "marketState": "REGULAR",
-    "corporateActions": [
-      {
-        "header": "Reverse stock split",
-        "message": "2180.T announces 1 for 1440960 split effective Sep. 16, 2026",
-        "meta": {
-          "eventType": "SPLIT",
-          "dateEpochMs": 1789484400000,
-          "splitRatio": "1:1440960"
-        }
-      }
-    ],
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1220572800000,
     "regularMarketChange": 0.0,
     "regularMarketDayRange": "1309.0 - 1309.0",
     "fullExchangeName": "Tokyo",
@@ -1073,6 +1040,39 @@
     "earningsTimestampStart": 1754985600,
     "earningsTimestampEnd": 1755504000,
     "isEarningsDateEstimate": true,
+    "epsTrailingTwelveMonths": -25.0,
+    "fiftyDayAverageChange": 1.6800537,
+    "fiftyDayAverageChangePercent": 0.0012851129,
+    "twoHundredDayAverageChange": 223.91003,
+    "twoHundredDayAverageChangePercent": 0.20635158,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1220572800000,
+    "corporateActions": [
+      {
+        "header": "Reverse stock split",
+        "message": "2180.T announces 1 for 1440960 split effective Sep. 16, 2026",
+        "meta": {
+          "eventType": "SPLIT",
+          "dateEpochMs": 1789484400000,
+          "splitRatio": "1:1440960"
+        }
+      }
+    ],
+    "regularMarketTime": 1789433350,
+    "exchange": "JPX",
+    "messageBoardId": "finmb_47318901",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
+    "regularMarketChangePercent": 0.0,
+    "regularMarketPrice": 1309.0,
+    "shortName": "SUNNY SIDE UP GROUP INC",
+    "longName": "SUNNY SIDE UP GROUP Inc.",
+    "cryptoTradeable": false,
     "trailingPegRatio": null
   }
 }
