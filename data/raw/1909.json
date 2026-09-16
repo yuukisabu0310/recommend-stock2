@@ -1,7 +1,7 @@
 {
   "ticker": "1909",
   "japanese_ticker": "1909.T",
-  "fetch_date": "2026-09-15T01:08:47.609174",
+  "fetch_date": "2026-09-16T00:58:20.963532",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": -137620510.251879,
@@ -1191,8 +1191,8 @@
     "fulldayChange": 0.0,
     "fulldayChangePercent": 0.0,
     "priceToSalesTrailing12Months": 3.6423896e-07,
-    "fiftyDayAverage": 16266607600.0,
-    "twoHundredDayAverage": 13893829600.0,
+    "fiftyDayAverage": 16267086800.0,
+    "twoHundredDayAverage": 13925900300.0,
     "trailingAnnualDividendRate": 22.5,
     "trailingAnnualDividendYield": 0.006081081,
     "currency": "JPY",
@@ -1216,8 +1216,8 @@
     "lastSplitDate": 1789344000,
     "enterpriseToRevenue": 1.599,
     "enterpriseToEbitda": 10.315,
-    "52WeekChange": 1.0246239,
-    "SandP52WeekChange": 0.1574688,
+    "52WeekChange": 0.9841523,
+    "SandP52WeekChange": 0.15336108,
     "lastDividendValue": 60492740.0,
     "lastDividendDate": 1774828800,
     "quoteType": "EQUITY",
@@ -1248,18 +1248,20 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "marketState": "REGULAR",
-    "corporateActions": [
-      {
-        "header": "Reverse stock split",
-        "message": "1909.T announces 1 for 4400000 split effective Sep. 14, 2026",
-        "meta": {
-          "eventType": "SPLIT",
-          "dateEpochMs": 1789311600000,
-          "splitRatio": "1:4400000"
-        }
-      }
-    ],
+    "cryptoTradeable": false,
+    "fiftyTwoWeekChangePercent": 98.41523,
+    "earningsTimestampStart": 1754550000,
+    "earningsTimestampEnd": 1754895600,
+    "isEarningsDateEstimate": true,
+    "epsTrailingTwelveMonths": 846560000.0,
+    "epsForward": 492.5,
+    "fiftyDayAverageChange": -16267082800.0,
+    "fiftyDayAverageChangePercent": -0.99999976,
+    "twoHundredDayAverageChange": -13925896200.0,
+    "twoHundredDayAverageChangePercent": -0.9999997,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "corporateActions": [],
     "regularMarketTime": 1789108200,
     "exchange": "JPX",
     "messageBoardId": "finmb_880640",
@@ -1272,15 +1274,6 @@
     "regularMarketPrice": 3700.0,
     "shortName": "NIPPON DRY-CHEMICAL CO LTD",
     "longName": "Nippon Dry-Chemical Co., Ltd.",
-    "epsTrailingTwelveMonths": 846560000.0,
-    "epsForward": 492.5,
-    "fiftyDayAverageChange": -16266603500.0,
-    "fiftyDayAverageChangePercent": -0.99999976,
-    "twoHundredDayAverageChange": -13893825500.0,
-    "twoHundredDayAverageChangePercent": -0.9999997,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1309305600000,
     "regularMarketChange": 0.0,
@@ -1292,10 +1285,7 @@
     "fiftyTwoWeekRange": "3700.0 - 1.69379676E10",
     "fiftyTwoWeekHighChange": -16937963500.0,
     "fiftyTwoWeekHighChangePercent": -0.99999976,
-    "fiftyTwoWeekChangePercent": 102.46239,
-    "earningsTimestampStart": 1754550000,
-    "earningsTimestampEnd": 1754895600,
-    "isEarningsDateEstimate": true,
+    "marketState": "REGULAR",
     "trailingPegRatio": null
   }
 }
