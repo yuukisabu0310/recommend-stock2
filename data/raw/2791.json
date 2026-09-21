@@ -1,7 +1,7 @@
 {
   "ticker": "2791",
   "japanese_ticker": "2791.T",
-  "fetch_date": "2026-09-20T00:44:14.269380",
+  "fetch_date": "2026-09-21T00:55:32.068529",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-05-31 00:00:00": 67799139.167862,
@@ -1197,7 +1197,7 @@
     "allTimeLow": 486.0,
     "fulldayPrice": 4560.0,
     "fulldayChange": -10.0,
-    "fulldayChangePercent": -0.21881838,
+    "fulldayChangePercent": -0.0021881838,
     "priceToSalesTrailing12Months": 0.19158733,
     "fiftyDayAverage": 4555.2,
     "twoHundredDayAverage": 4863.475,
@@ -1257,6 +1257,10 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "shortName": "DAIKOKUTENBUSSAN CO",
+    "longName": "Daikokutenbussan Co.,Ltd.",
+    "marketState": "CLOSED",
+    "cryptoTradeable": false,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1148428800000,
     "regularMarketChange": -10.0,
@@ -1274,15 +1278,12 @@
     "isEarningsDateEstimate": true,
     "epsTrailingTwelveMonths": 265.39,
     "epsForward": 688.46,
-    "shortName": "DAIKOKUTENBUSSAN CO",
-    "longName": "Daikokutenbussan Co.,Ltd.",
     "fiftyDayAverageChange": 4.7998047,
     "fiftyDayAverageChangePercent": 0.0010536979,
     "twoHundredDayAverageChange": -303.4751,
     "twoHundredDayAverageChangePercent": -0.062398817,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
     "corporateActions": [],
     "regularMarketTime": 1789713000,
     "exchange": "JPX",
@@ -1294,7 +1295,6 @@
     "esgPopulated": false,
     "regularMarketChangePercent": -0.21881838,
     "regularMarketPrice": 4560.0,
-    "marketState": "CLOSED",
     "trailingPegRatio": null
   }
 }

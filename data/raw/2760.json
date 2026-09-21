@@ -1,7 +1,7 @@
 {
   "ticker": "2760",
   "japanese_ticker": "2760.T",
-  "fetch_date": "2026-09-20T00:43:45.968671",
+  "fetch_date": "2026-09-21T00:55:01.928405",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": 312432000.0,
@@ -1039,6 +1039,7 @@
   "info": {
     "address1": "Shibuya Sakura Stage SHIBUYA Tower",
     "address2": "1-1 Sakuragaokacho Shibuya-ku",
+    "city": "Tokyo",
     "country": "Japan",
     "phone": "81 3 6635 6000",
     "website": "https://www.teldevice.co.jp",
@@ -1131,7 +1132,7 @@
     "allTimeLow": 323.33334,
     "fulldayPrice": 4240.0,
     "fulldayChange": 60.0,
-    "fulldayChangePercent": 1.4354067,
+    "fulldayChangePercent": 0.014354067,
     "priceToSalesTrailing12Months": 0.5703353,
     "fiftyDayAverage": 4050.4,
     "twoHundredDayAverage": 3701.02,
@@ -1193,17 +1194,11 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "regularMarketChangePercent": 1.4354067,
-    "regularMarketPrice": 4240.0,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1046995200000,
+    "regularMarketChange": 60.0,
+    "marketState": "CLOSED",
     "shortName": "TOKYO ELECTRON DEVICE",
-    "exchange": "JPX",
-    "messageBoardId": "finmb_5875019",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
-    "longName": "Tokyo Electron Device Limited",
     "corporateActions": [
       {
         "header": "Dividend",
@@ -1216,8 +1211,7 @@
       }
     ],
     "regularMarketTime": 1789713000,
-    "marketState": "CLOSED",
-    "regularMarketChange": 60.0,
+    "cryptoTradeable": false,
     "regularMarketDayRange": "4165.0 - 4240.0",
     "fullExchangeName": "Tokyo",
     "averageDailyVolume3Month": 167066,
@@ -1238,9 +1232,16 @@
     "twoHundredDayAverageChangePercent": 0.14563012,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1046995200000,
-    "cryptoTradeable": false,
+    "exchange": "JPX",
+    "messageBoardId": "finmb_5875019",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
+    "regularMarketChangePercent": 1.4354067,
+    "regularMarketPrice": 4240.0,
+    "longName": "Tokyo Electron Device Limited",
     "trailingPegRatio": null
   }
 }

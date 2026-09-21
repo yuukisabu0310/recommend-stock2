@@ -1,7 +1,7 @@
 {
   "ticker": "3002",
   "japanese_ticker": "3002.T",
-  "fetch_date": "2026-09-20T00:46:36.196595",
+  "fetch_date": "2026-09-21T00:58:13.049534",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": -1510000000.0,
@@ -1205,7 +1205,7 @@
     "allTimeLow": 955.0,
     "fulldayPrice": 4075.0,
     "fulldayChange": -35.0,
-    "fulldayChangePercent": -0.8515815,
+    "fulldayChangePercent": -0.008515815,
     "priceToSalesTrailing12Months": 0.9822038,
     "fiftyDayAverage": 4092.1,
     "twoHundredDayAverage": 4100.575,
@@ -1268,11 +1268,8 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "cryptoTradeable": false,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 978307200000,
-    "regularMarketChange": -35.0,
-    "regularMarketDayRange": "4070.0 - 4110.0",
+    "corporateActions": [],
+    "regularMarketTime": 1789713000,
     "fullExchangeName": "Tokyo",
     "averageDailyVolume3Month": 165998,
     "fiftyTwoWeekLowChange": 530.0,
@@ -1281,7 +1278,6 @@
     "fiftyTwoWeekHighChange": -690.0,
     "fiftyTwoWeekHighChangePercent": -0.14480588,
     "fiftyTwoWeekChangePercent": 6.6753983,
-    "marketState": "CLOSED",
     "earningsTimestamp": 1785911400,
     "earningsTimestampStart": 1793860200,
     "earningsTimestampEnd": 1793860200,
@@ -1294,10 +1290,9 @@
     "twoHundredDayAverageChangePercent": -0.0062369774,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
     "shortName": "GUNZE LTD",
     "longName": "Gunze Limited",
-    "corporateActions": [],
-    "regularMarketTime": 1789713000,
     "exchange": "JPX",
     "messageBoardId": "finmb_874632",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1307,6 +1302,11 @@
     "esgPopulated": false,
     "regularMarketChangePercent": -0.8515815,
     "regularMarketPrice": 4075.0,
+    "marketState": "CLOSED",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 978307200000,
+    "regularMarketChange": -35.0,
+    "regularMarketDayRange": "4070.0 - 4110.0",
     "trailingPegRatio": null
   }
 }

@@ -1,7 +1,7 @@
 {
   "ticker": "2752",
   "japanese_ticker": "2752.T",
-  "fetch_date": "2026-09-20T00:43:42.129729",
+  "fetch_date": "2026-09-21T00:54:57.640721",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-12-31 00:00:00": -90944000.0,
@@ -1376,7 +1376,7 @@
     "allTimeLow": 45.3125,
     "fulldayPrice": 1166.0,
     "fulldayChange": 13.0,
-    "fulldayChangePercent": 1.1274935,
+    "fulldayChangePercent": 0.011274935,
     "priceToSalesTrailing12Months": 1.8583586,
     "fiftyDayAverage": 1123.3,
     "twoHundredDayAverage": 1112.715,
@@ -1450,6 +1450,9 @@
     "regularMarketChangePercent": 1.1274935,
     "regularMarketPrice": 1166.0,
     "marketState": "CLOSED",
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1040169600000,
     "regularMarketChange": 13.0,
@@ -1471,9 +1474,6 @@
     "fiftyDayAverageChangePercent": 0.03801295,
     "twoHundredDayAverageChange": 53.285034,
     "twoHundredDayAverageChangePercent": 0.047887407,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
     "trailingPegRatio": null
   }
 }

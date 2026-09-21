@@ -1,7 +1,7 @@
 {
   "ticker": "2195",
   "japanese_ticker": "2195.T",
-  "fetch_date": "2026-09-20T00:37:47.208727",
+  "fetch_date": "2026-09-21T00:48:20.725042",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-12-31 00:00:00": 45292.0,
@@ -1141,11 +1141,8 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "shortName": "AMITA HOLDINGS CO LTD",
-    "longName": "Amita Holdings Co.,Ltd.",
     "corporateActions": [],
     "regularMarketTime": 1789713000,
-    "marketState": "CLOSED",
     "exchange": "JPX",
     "messageBoardId": "finmb_27340251",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1154,7 +1151,8 @@
     "market": "jp_market",
     "esgPopulated": false,
     "regularMarketChangePercent": 0.0,
-    "regularMarketPrice": 380.0,
+    "shortName": "AMITA HOLDINGS CO LTD",
+    "longName": "Amita Holdings Co.,Ltd.",
     "regularMarketChange": 0.0,
     "regularMarketDayRange": "374.0 - 386.0",
     "fullExchangeName": "Tokyo",
@@ -1175,9 +1173,11 @@
     "twoHundredDayAverageChangePercent": 0.014821705,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
+    "marketState": "CLOSED",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1262563200000,
-    "cryptoTradeable": false,
+    "regularMarketPrice": 380.0,
     "trailingPegRatio": null
   }
 }

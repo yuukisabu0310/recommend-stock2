@@ -1,7 +1,7 @@
 {
   "ticker": "2267",
   "japanese_ticker": "2267.T",
-  "fetch_date": "2026-09-20T00:38:28.497190",
+  "fetch_date": "2026-09-21T00:49:06.071032",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": 2565856000.0,
@@ -1261,7 +1261,7 @@
     "allTimeLow": 430.0,
     "fulldayPrice": 2815.5,
     "fulldayChange": -54.5,
-    "fulldayChangePercent": -1.8989546,
+    "fulldayChangePercent": -0.018989546,
     "priceToSalesTrailing12Months": 1.6349882,
     "fiftyDayAverage": 2842.12,
     "twoHundredDayAverage": 2688.1125,
@@ -1328,8 +1328,30 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 978307200000,
+    "regularMarketChange": -54.5,
+    "regularMarketDayRange": "2803.0 - 2861.5",
+    "fullExchangeName": "Tokyo",
+    "averageDailyVolume3Month": 1156528,
+    "fiftyTwoWeekLowChange": 524.5,
+    "fiftyTwoWeekLowChangePercent": 0.22893932,
+    "fiftyTwoWeekRange": "2291.0 - 3092.0",
+    "fiftyTwoWeekHighChange": -276.5,
+    "fiftyTwoWeekHighChangePercent": -0.08942432,
+    "fiftyTwoWeekChangePercent": 13.987851,
     "marketState": "CLOSED",
-    "regularMarketTime": 1789713000,
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "2267.T announced a cash dividend of JPY 36.00 with an ex-date of Sep. 29, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1790607600000,
+          "amount": "36.00"
+        }
+      }
+    ],
     "exchange": "JPX",
     "messageBoardId": "finmb_881065",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1337,22 +1359,8 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "regularMarketChangePercent": -1.8989546,
-    "regularMarketPrice": 2815.5,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 978307200000,
-    "regularMarketChange": -54.5,
-    "regularMarketDayRange": "2803.0 - 2861.5",
-    "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 1156528,
     "shortName": "YAKULT HONSHA CO",
     "longName": "Yakult Honsha Co.,Ltd.",
-    "fiftyTwoWeekLowChange": 524.5,
-    "fiftyTwoWeekLowChangePercent": 0.22893932,
-    "fiftyTwoWeekRange": "2291.0 - 3092.0",
-    "fiftyTwoWeekHighChange": -276.5,
-    "fiftyTwoWeekHighChangePercent": -0.08942432,
-    "fiftyTwoWeekChangePercent": 13.987851,
     "earningsTimestamp": 1794551400,
     "earningsTimestampStart": 1794551400,
     "earningsTimestampEnd": 1794551400,
@@ -1369,17 +1377,9 @@
     "exchangeDataDelayedBy": 20,
     "averageAnalystRating": "3.7 - Underperform",
     "cryptoTradeable": false,
-    "corporateActions": [
-      {
-        "header": "Dividend",
-        "message": "2267.T announced a cash dividend of JPY 36.00 with an ex-date of Sep. 29, 2026",
-        "meta": {
-          "eventType": "DIVIDEND",
-          "dateEpochMs": 1790607600000,
-          "amount": "36.00"
-        }
-      }
-    ],
+    "regularMarketChangePercent": -1.8989546,
+    "regularMarketPrice": 2815.5,
+    "regularMarketTime": 1789713000,
     "trailingPegRatio": 2.8237
   }
 }

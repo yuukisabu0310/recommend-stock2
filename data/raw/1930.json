@@ -1,7 +1,7 @@
 {
   "ticker": "1930",
   "japanese_ticker": "1930.T",
-  "fetch_date": "2026-09-20T00:35:15.310259",
+  "fetch_date": "2026-09-21T00:45:29.005143",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": -3758633.357825,
@@ -1125,7 +1125,7 @@
     "allTimeLow": 150.0,
     "fulldayPrice": 1608.0,
     "fulldayChange": -10.0,
-    "fulldayChangePercent": -0.618047,
+    "fulldayChangePercent": -0.00618047,
     "priceToSalesTrailing12Months": 0.6988856,
     "fiftyDayAverage": 1552.84,
     "twoHundredDayAverage": 1569.59,
@@ -1184,20 +1184,6 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "shortName": "HOKURIKU ELECTRICAL CONSTRUCTIO",
-    "longName": "Hokuriku Electrical Construction Co.,Ltd.",
-    "corporateActions": [
-      {
-        "header": "Dividend",
-        "message": "1930.T announced a cash dividend of JPY 24.00 with an ex-date of Sep. 29, 2026",
-        "meta": {
-          "eventType": "DIVIDEND",
-          "dateEpochMs": 1790607600000,
-          "amount": "24.00"
-        }
-      }
-    ],
-    "regularMarketTime": 1789713000,
     "exchange": "JPX",
     "messageBoardId": "finmb_880605",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1207,7 +1193,6 @@
     "esgPopulated": false,
     "regularMarketChangePercent": -0.618047,
     "regularMarketPrice": 1608.0,
-    "marketState": "CLOSED",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 978307200000,
     "regularMarketChange": -10.0,
@@ -1231,6 +1216,21 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "1930.T announced a cash dividend of JPY 24.00 with an ex-date of Sep. 29, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1790607600000,
+          "amount": "24.00"
+        }
+      }
+    ],
+    "regularMarketTime": 1789713000,
+    "shortName": "HOKURIKU ELECTRICAL CONSTRUCTIO",
+    "longName": "Hokuriku Electrical Construction Co.,Ltd.",
+    "marketState": "CLOSED",
     "trailingPegRatio": null
   }
 }

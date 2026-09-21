@@ -1,7 +1,7 @@
 {
   "ticker": "2892",
   "japanese_ticker": "2892.T",
-  "fetch_date": "2026-09-20T00:45:08.423398",
+  "fetch_date": "2026-09-21T00:56:34.565535",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": -46872000.0,
@@ -1103,7 +1103,7 @@
     "regularMarketDayLow": 4760.0,
     "regularMarketDayHigh": 4870.0,
     "dividendRate": 150.0,
-    "dividendYield": 3.08,
+    "dividendYield": 3.15,
     "exDividendDate": 1790640000,
     "payoutRatio": 0.6078,
     "fiveYearAvgDividendYield": 4.76,
@@ -1126,7 +1126,7 @@
     "allTimeLow": 600.0,
     "fulldayPrice": 4870.0,
     "fulldayChange": 110.0,
-    "fulldayChangePercent": 2.3109245,
+    "fulldayChangePercent": 0.023109246,
     "priceToSalesTrailing12Months": 0.3636616,
     "fiftyDayAverage": 4504.5,
     "twoHundredDayAverage": 4079.25,
@@ -1185,14 +1185,38 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 978998400000,
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "2892.T announced a cash dividend of JPY 75.00 with an ex-date of Sep. 29, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1790607600000,
+          "amount": "75.00"
+        }
+      }
+    ],
+    "marketState": "CLOSED",
+    "regularMarketTime": 1789713000,
+    "exchange": "JPX",
+    "messageBoardId": "finmb_883366",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
+    "shortName": "NIHON SHOKUHIN KAKO CO",
+    "longName": "Nihon Shokuhin Kako Co., Ltd.",
+    "regularMarketChangePercent": 2.3109245,
+    "regularMarketPrice": 4870.0,
     "regularMarketChange": 110.0,
     "regularMarketDayRange": "4760.0 - 4870.0",
     "fullExchangeName": "Tokyo",
     "averageDailyVolume3Month": 5058,
     "fiftyTwoWeekLowChange": 1525.0,
     "fiftyTwoWeekLowChangePercent": 0.45590433,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 978998400000,
     "fiftyTwoWeekRange": "3345.0 - 4870.0",
     "fiftyTwoWeekHighChange": 0.0,
     "fiftyTwoWeekHighChangePercent": 0.0,
@@ -1207,31 +1231,7 @@
     "twoHundredDayAverageChangePercent": 0.19384691,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
-    "corporateActions": [
-      {
-        "header": "Dividend",
-        "message": "2892.T announced a cash dividend of JPY 75.00 with an ex-date of Sep. 29, 2026",
-        "meta": {
-          "eventType": "DIVIDEND",
-          "dateEpochMs": 1790607600000,
-          "amount": "75.00"
-        }
-      }
-    ],
-    "regularMarketTime": 1789713000,
-    "exchange": "JPX",
-    "messageBoardId": "finmb_883366",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
-    "shortName": "NIHON SHOKUHIN KAKO CO",
-    "longName": "Nihon Shokuhin Kako Co., Ltd.",
     "cryptoTradeable": false,
-    "marketState": "CLOSED",
-    "regularMarketChangePercent": 2.3109245,
-    "regularMarketPrice": 4870.0,
     "trailingPegRatio": null
   }
 }

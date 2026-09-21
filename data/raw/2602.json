@@ -1,7 +1,7 @@
 {
   "ticker": "2602",
   "japanese_ticker": "2602.T",
-  "fetch_date": "2026-09-20T00:42:08.985558",
+  "fetch_date": "2026-09-21T00:53:14.749704",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": 5773264000.0,
@@ -1181,7 +1181,7 @@
     "allTimeLow": 365.0,
     "fulldayPrice": 2107.0,
     "fulldayChange": -14.0,
-    "fulldayChangePercent": -0.660066,
+    "fulldayChangePercent": -0.0066006603,
     "priceToSalesTrailing12Months": 0.3355419,
     "fiftyDayAverage": 1995.1,
     "twoHundredDayAverage": 1884.57,
@@ -1248,19 +1248,10 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "corporateActions": [
-      {
-        "header": "Dividend",
-        "message": "2602.T announced a cash dividend of JPY 30.00 with an ex-date of Sep. 29, 2026",
-        "meta": {
-          "eventType": "DIVIDEND",
-          "dateEpochMs": 1790607600000,
-          "amount": "30.00"
-        }
-      }
-    ],
-    "regularMarketTime": 1789713000,
+    "shortName": "NISSHIN OILLIO GROUP LTD",
+    "longName": "The Nisshin OilliO Group,Ltd.",
     "marketState": "CLOSED",
+    "cryptoTradeable": false,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 978307200000,
     "regularMarketChange": -14.0,
@@ -1286,7 +1277,18 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "averageAnalystRating": "3.0 - Hold",
-    "cryptoTradeable": false,
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "2602.T announced a cash dividend of JPY 30.00 with an ex-date of Sep. 29, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1790607600000,
+          "amount": "30.00"
+        }
+      }
+    ],
+    "regularMarketTime": 1789713000,
     "exchange": "JPX",
     "messageBoardId": "finmb_877077",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1296,8 +1298,6 @@
     "esgPopulated": false,
     "regularMarketChangePercent": -0.660066,
     "regularMarketPrice": 2107.0,
-    "shortName": "NISSHIN OILLIO GROUP LTD",
-    "longName": "The Nisshin OilliO Group,Ltd.",
     "trailingPegRatio": null
   }
 }

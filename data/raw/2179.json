@@ -1,7 +1,7 @@
 {
   "ticker": "2179",
   "japanese_ticker": "2179.T",
-  "fetch_date": "2026-09-20T00:37:34.085513",
+  "fetch_date": "2026-09-21T00:48:05.811438",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": -31256223.2,
@@ -1117,7 +1117,7 @@
     "priceHint": 2,
     "previousClose": 821.0,
     "open": 821.0,
-    "dayLow": 811.0,
+    "dayLow": 810.0,
     "dayHigh": 822.0,
     "regularMarketPreviousClose": 821.0,
     "regularMarketOpen": 821.0,
@@ -1204,6 +1204,8 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "shortName": "SEIGAKUSHA CO LTD",
+    "longName": "Seigakusha Co.,Ltd.",
     "epsTrailingTwelveMonths": 105.25,
     "fiftyDayAverageChange": -3.880005,
     "fiftyDayAverageChangePercent": -0.0047037206,
@@ -1212,23 +1214,8 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "prevName": "Seigakusya Co., Ltd.",
-    "nameChangeDate": "2026-09-19",
+    "nameChangeDate": "2026-09-20",
     "cryptoTradeable": false,
-    "corporateActions": [
-      {
-        "header": "Dividend",
-        "message": "2179.T announced a cash dividend of JPY 16.50 with an ex-date of Sep. 29, 2026",
-        "meta": {
-          "eventType": "DIVIDEND",
-          "dateEpochMs": 1790607600000,
-          "amount": "16.50"
-        }
-      }
-    ],
-    "regularMarketTime": 1789712624,
-    "exchange": "JPX",
-    "messageBoardId": "finmb_46987108",
-    "marketState": "CLOSED",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1219363200000,
     "regularMarketChange": 0.0,
@@ -1244,6 +1231,8 @@
     "earningsTimestampStart": 1747290600,
     "earningsTimestampEnd": 1747290600,
     "isEarningsDateEstimate": false,
+    "exchange": "JPX",
+    "messageBoardId": "finmb_46987108",
     "exchangeTimezoneName": "Asia/Tokyo",
     "exchangeTimezoneShortName": "JST",
     "gmtOffSetMilliseconds": 32400000,
@@ -1251,8 +1240,19 @@
     "esgPopulated": false,
     "regularMarketChangePercent": 0.0,
     "regularMarketPrice": 821.0,
-    "shortName": "SEIGAKUSHA CO LTD",
-    "longName": "Seigakusha Co.,Ltd.",
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "2179.T announced a cash dividend of JPY 16.50 with an ex-date of Sep. 29, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1790607600000,
+          "amount": "16.50"
+        }
+      }
+    ],
+    "regularMarketTime": 1789712624,
+    "marketState": "CLOSED",
     "trailingPegRatio": null
   }
 }

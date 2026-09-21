@@ -1,7 +1,7 @@
 {
   "ticker": "2373",
   "japanese_ticker": "2373.T",
-  "fetch_date": "2026-09-20T00:39:54.802217",
+  "fetch_date": "2026-09-21T00:50:46.779251",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-10-31 00:00:00": 41197200.0,
@@ -1243,7 +1243,7 @@
     "allTimeLow": 40.016666,
     "fulldayPrice": 446.0,
     "fulldayChange": 2.0,
-    "fulldayChangePercent": 0.45045045,
+    "fulldayChangePercent": 0.0045045046,
     "priceToSalesTrailing12Months": 0.12068395,
     "fiftyDayAverage": 410.06,
     "twoHundredDayAverage": 422.23,
@@ -1302,8 +1302,7 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "corporateActions": [],
-    "regularMarketTime": 1789713000,
+    "marketState": "CLOSED",
     "exchange": "JPX",
     "messageBoardId": "finmb_9476191",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1313,11 +1312,10 @@
     "esgPopulated": false,
     "regularMarketChangePercent": 0.45045045,
     "regularMarketPrice": 446.0,
+    "corporateActions": [],
+    "regularMarketTime": 1789713000,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1066348800000,
-    "marketState": "CLOSED",
-    "shortName": "CARE TWENTYONE CORP",
-    "longName": "Care Twentyone Corporation",
     "regularMarketChange": 2.0,
     "regularMarketDayRange": "440.0 - 447.0",
     "fullExchangeName": "Tokyo",
@@ -1338,6 +1336,8 @@
     "twoHundredDayAverageChangePercent": 0.056296304,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
+    "shortName": "CARE TWENTYONE CORP",
+    "longName": "Care Twentyone Corporation",
     "cryptoTradeable": false,
     "trailingPegRatio": null
   }

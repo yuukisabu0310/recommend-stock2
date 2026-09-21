@@ -1,7 +1,7 @@
 {
   "ticker": "1939",
   "japanese_ticker": "1939.T",
-  "fetch_date": "2026-09-20T00:35:21.110209",
+  "fetch_date": "2026-09-21T00:45:35.443906",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": 295596000.0,
@@ -1167,7 +1167,7 @@
     "priceHint": 2,
     "previousClose": 2298.0,
     "open": 2305.0,
-    "dayLow": 2273.0,
+    "dayLow": 2268.0,
     "dayHigh": 2316.0,
     "regularMarketPreviousClose": 2298.0,
     "regularMarketOpen": 2305.0,
@@ -1197,7 +1197,7 @@
     "allTimeLow": 226.66667,
     "fulldayPrice": 2303.0,
     "fulldayChange": 5.0,
-    "fulldayChangePercent": 0.21758051,
+    "fulldayChangePercent": 0.0021758052,
     "priceToSalesTrailing12Months": 1.0555571,
     "fiftyDayAverage": 2124.18,
     "twoHundredDayAverage": 1930.965,
@@ -1256,6 +1256,10 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "shortName": "YONDENKO CORP",
+    "regularMarketChangePercent": 0.21758051,
+    "regularMarketPrice": 2303.0,
+    "longName": "Yondenko Corporation",
     "corporateActions": [
       {
         "header": "Dividend",
@@ -1275,13 +1279,8 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "regularMarketChangePercent": 0.21758051,
-    "regularMarketPrice": 2303.0,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 978307200000,
-    "marketState": "CLOSED",
-    "shortName": "YONDENKO CORP",
-    "longName": "Yondenko Corporation",
     "regularMarketChange": 5.0,
     "regularMarketDayRange": "2268.0 - 2316.0",
     "fullExchangeName": "Tokyo",
@@ -1303,6 +1302,7 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
+    "marketState": "CLOSED",
     "trailingPegRatio": null
   }
 }

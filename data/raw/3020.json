@@ -1,7 +1,7 @@
 {
   "ticker": "3020",
   "japanese_ticker": "3020.T",
-  "fetch_date": "2026-09-20T00:46:45.570701",
+  "fetch_date": "2026-09-21T00:58:23.179900",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": 343326.607091,
@@ -1118,7 +1118,7 @@
     "allTimeLow": 365.0,
     "fulldayPrice": 4760.0,
     "fulldayChange": 60.0,
-    "fulldayChangePercent": 1.2765957,
+    "fulldayChangePercent": 0.012765957,
     "priceToSalesTrailing12Months": 0.26096433,
     "fiftyDayAverage": 4312.1,
     "twoHundredDayAverage": 4182.175,
@@ -1188,6 +1188,16 @@
       }
     ],
     "regularMarketTime": 1789709103,
+    "exchange": "JPX",
+    "messageBoardId": "finmb_5528588",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
+    "regularMarketChangePercent": 1.2765957,
+    "regularMarketPrice": 4760.0,
+    "cryptoTradeable": false,
     "marketState": "CLOSED",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1140134400000,
@@ -1201,6 +1211,7 @@
     "fiftyTwoWeekHighChange": -140.0,
     "fiftyTwoWeekHighChangePercent": -0.028571429,
     "fiftyTwoWeekChangePercent": 20.050442,
+    "longName": "Applied Co.,Ltd.",
     "earningsTimestampStart": 1747202400,
     "earningsTimestampEnd": 1747202400,
     "isEarningsDateEstimate": false,
@@ -1212,19 +1223,8 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "prevName": "Applied Co., Ltd.",
-    "nameChangeDate": "2026-09-19",
-    "cryptoTradeable": false,
-    "exchange": "JPX",
-    "messageBoardId": "finmb_5528588",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
-    "regularMarketChangePercent": 1.2765957,
-    "regularMarketPrice": 4760.0,
+    "nameChangeDate": "2026-09-20",
     "shortName": "APPLIED CO.LTD",
-    "longName": "Applied Co.,Ltd.",
     "trailingPegRatio": null
   }
 }

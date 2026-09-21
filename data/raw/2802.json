@@ -1,7 +1,7 @@
 {
   "ticker": "2802",
   "japanese_ticker": "2802.T",
-  "fetch_date": "2026-09-20T00:44:24.433516",
+  "fetch_date": "2026-09-21T00:55:44.311246",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": 0.0,
@@ -1157,7 +1157,7 @@
     "allTimeLow": 314.0,
     "fulldayPrice": 4904.0,
     "fulldayChange": -49.0,
-    "fulldayChangePercent": -0.9892995,
+    "fulldayChangePercent": -0.009892995,
     "priceToSalesTrailing12Months": 2.8632638,
     "fiftyDayAverage": 5247.34,
     "twoHundredDayAverage": 4688.49,
@@ -1226,10 +1226,6 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 946944000000,
-    "regularMarketChange": -49.0,
-    "regularMarketDayRange": "4890.0 - 4994.0",
     "corporateActions": [
       {
         "header": "Dividend",
@@ -1242,7 +1238,6 @@
       }
     ],
     "regularMarketTime": 1789713000,
-    "marketState": "CLOSED",
     "exchange": "JPX",
     "messageBoardId": "finmb_873739",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1250,7 +1245,13 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "fullExchangeName": "Tokyo",
+    "regularMarketChangePercent": -0.9892995,
+    "regularMarketPrice": 4904.0,
+    "shortName": "AJINOMOTO CO INC",
+    "longName": "Ajinomoto Co., Inc.",
+    "marketState": "CLOSED",
+    "averageAnalystRating": "1.8 - Buy",
+    "cryptoTradeable": false,
     "averageDailyVolume3Month": 3732498,
     "fiftyTwoWeekLowChange": 1634.0,
     "fiftyTwoWeekLowChangePercent": 0.4996942,
@@ -1272,12 +1273,11 @@
     "twoHundredDayAverageChangePercent": 0.045965705,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
-    "averageAnalystRating": "1.8 - Buy",
-    "cryptoTradeable": false,
-    "regularMarketChangePercent": -0.9892995,
-    "regularMarketPrice": 4904.0,
-    "shortName": "AJINOMOTO CO INC",
-    "longName": "Ajinomoto Co., Inc.",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 946944000000,
+    "regularMarketChange": -49.0,
+    "regularMarketDayRange": "4890.0 - 4994.0",
+    "fullExchangeName": "Tokyo",
     "trailingPegRatio": 2.7064
   }
 }

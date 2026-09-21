@@ -1,7 +1,7 @@
 {
   "ticker": "2053",
   "japanese_ticker": "2053.T",
-  "fetch_date": "2026-09-20T00:36:29.891630",
+  "fetch_date": "2026-09-21T00:46:50.760436",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": 134589000.0,
@@ -1147,7 +1147,7 @@
     "allTimeLow": 410.0,
     "fulldayPrice": 2058.0,
     "fulldayChange": -20.0,
-    "fulldayChangePercent": -0.962464,
+    "fulldayChangePercent": -0.0096246395,
     "priceToSalesTrailing12Months": 0.2736321,
     "fiftyDayAverage": 1977.0,
     "twoHundredDayAverage": 1833.945,
@@ -1207,36 +1207,6 @@
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
     "marketState": "CLOSED",
-    "regularMarketChangePercent": -0.962464,
-    "regularMarketPrice": 2058.0,
-    "corporateActions": [
-      {
-        "header": "Dividend",
-        "message": "2053.T announced a cash dividend of JPY 38.00 with an ex-date of Sep. 29, 2026",
-        "meta": {
-          "eventType": "DIVIDEND",
-          "dateEpochMs": 1790607600000,
-          "amount": "38.00"
-        }
-      }
-    ],
-    "regularMarketTime": 1789713000,
-    "exchange": "JPX",
-    "messageBoardId": "finmb_883315",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
-    "epsTrailingTwelveMonths": 190.57,
-    "epsForward": 146.8,
-    "fiftyDayAverageChange": 81.0,
-    "fiftyDayAverageChangePercent": 0.040971167,
-    "twoHundredDayAverageChange": 224.05505,
-    "twoHundredDayAverageChangePercent": 0.12217109,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 978307200000,
     "regularMarketChange": -20.0,
@@ -1252,8 +1222,38 @@
     "earningsTimestampStart": 1753765200,
     "earningsTimestampEnd": 1754283600,
     "isEarningsDateEstimate": true,
+    "epsTrailingTwelveMonths": 190.57,
+    "epsForward": 146.8,
+    "regularMarketChangePercent": -0.962464,
+    "regularMarketPrice": 2058.0,
+    "exchange": "JPX",
+    "messageBoardId": "finmb_883315",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
+    "fiftyDayAverageChange": 81.0,
+    "fiftyDayAverageChangePercent": 0.040971167,
+    "twoHundredDayAverageChange": 224.05505,
+    "twoHundredDayAverageChangePercent": 0.12217109,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
     "shortName": "CHUBU SHIRYO CO",
     "longName": "Chubu Shiryo Co., Ltd.",
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "2053.T announced a cash dividend of JPY 38.00 with an ex-date of Sep. 29, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1790607600000,
+          "amount": "38.00"
+        }
+      }
+    ],
+    "regularMarketTime": 1789713000,
     "trailingPegRatio": null
   }
 }

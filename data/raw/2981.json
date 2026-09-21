@@ -1,7 +1,7 @@
 {
   "ticker": "2981",
   "japanese_ticker": "2981.T",
-  "fetch_date": "2026-09-20T00:46:14.962131",
+  "fetch_date": "2026-09-21T00:57:48.691679",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": 4101888.0,
@@ -995,7 +995,7 @@
     "regularMarketDayLow": 2298.0,
     "regularMarketDayHigh": 2334.0,
     "dividendRate": 56.0,
-    "dividendYield": 2.45,
+    "dividendYield": 2.41,
     "exDividendDate": 1790640000,
     "payoutRatio": 0.1453,
     "fiveYearAvgDividendYield": 2.63,
@@ -1016,7 +1016,7 @@
     "allTimeLow": 585.0,
     "fulldayPrice": 2320.0,
     "fulldayChange": 34.0,
-    "fulldayChangePercent": 1.4873141,
+    "fulldayChangePercent": 0.014873141,
     "priceToSalesTrailing12Months": 0.52929604,
     "fiftyDayAverage": 2146.94,
     "twoHundredDayAverage": 2213.4,
@@ -1075,6 +1075,7 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "marketState": "CLOSED",
     "corporateActions": [
       {
         "header": "Dividend",
@@ -1086,9 +1087,7 @@
         }
       }
     ],
-    "shortName": "LANDIX INC",
-    "longName": "Landix Inc.",
-    "marketState": "CLOSED",
+    "regularMarketTime": 1789713000,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1576713600000,
     "regularMarketChange": 34.0,
@@ -1111,7 +1110,7 @@
     "twoHundredDayAverageChangePercent": 0.048161246,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
-    "regularMarketTime": 1789713000,
+    "cryptoTradeable": false,
     "exchange": "JPX",
     "messageBoardId": "finmb_404309826",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1119,9 +1118,10 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "cryptoTradeable": false,
     "regularMarketChangePercent": 1.4873141,
     "regularMarketPrice": 2320.0,
+    "shortName": "LANDIX INC",
+    "longName": "Landix Inc.",
     "trailingPegRatio": null
   }
 }

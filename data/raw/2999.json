@@ -1,7 +1,7 @@
 {
   "ticker": "2999",
   "japanese_ticker": "2999.T",
-  "fetch_date": "2026-09-20T00:46:32.223288",
+  "fetch_date": "2026-09-21T00:58:08.569968",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-08-31 00:00:00": -3923244.0,
@@ -936,7 +936,7 @@
     "regularMarketDayLow": 507.0,
     "regularMarketDayHigh": 516.0,
     "dividendRate": 10.0,
-    "dividendYield": 1.97,
+    "dividendYield": 1.96,
     "exDividendDate": 1787875200,
     "payoutRatio": 0.1445,
     "beta": -0.146,
@@ -956,7 +956,7 @@
     "allTimeLow": 281.0,
     "fulldayPrice": 507.0,
     "fulldayChange": -4.0,
-    "fulldayChangePercent": -0.78277886,
+    "fulldayChangePercent": -0.007827789,
     "priceToSalesTrailing12Months": 0.255688,
     "fiftyDayAverage": 592.8,
     "twoHundredDayAverage": 533.78,
@@ -1013,8 +1013,11 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1655942400000,
+    "marketState": "CLOSED",
+    "shortName": "HOME POSITION CO LTD",
+    "longName": "Home Position Co., Ltd.",
+    "regularMarketChangePercent": -0.78277886,
+    "regularMarketPrice": 507.0,
     "regularMarketChange": -4.0,
     "regularMarketDayRange": "507.0 - 516.0",
     "fullExchangeName": "Tokyo",
@@ -1029,8 +1032,6 @@
     "earningsTimestampEnd": 1744266600,
     "isEarningsDateEstimate": false,
     "epsTrailingTwelveMonths": 69.21,
-    "shortName": "HOME POSITION CO LTD",
-    "longName": "Home Position Co., Ltd.",
     "fiftyDayAverageChange": -85.79999,
     "fiftyDayAverageChangePercent": -0.14473683,
     "twoHundredDayAverageChange": -26.78003,
@@ -1038,6 +1039,8 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1655942400000,
     "corporateActions": [],
     "regularMarketTime": 1789713000,
     "exchange": "JPX",
@@ -1047,9 +1050,6 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "regularMarketChangePercent": -0.78277886,
-    "regularMarketPrice": 507.0,
-    "marketState": "CLOSED",
     "trailingPegRatio": null
   }
 }

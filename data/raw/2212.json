@@ -1,7 +1,7 @@
 {
   "ticker": "2212",
   "japanese_ticker": "2212.T",
-  "fetch_date": "2026-09-20T00:38:06.102667",
+  "fetch_date": "2026-09-21T00:48:40.788863",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-12-31 00:00:00": -807030000.0,
@@ -1192,7 +1192,7 @@
     "allTimeLow": 607.0,
     "fulldayPrice": 3647.0,
     "fulldayChange": -128.0,
-    "fulldayChangePercent": -3.3907282,
+    "fulldayChangePercent": -0.033907283,
     "priceToSalesTrailing12Months": 0.53693295,
     "fiftyDayAverage": 3562.92,
     "twoHundredDayAverage": 3358.215,
@@ -1259,10 +1259,6 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "cryptoTradeable": false,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 978307200000,
-    "regularMarketChange": -128.0,
     "regularMarketDayRange": "3642.0 - 3754.0",
     "fullExchangeName": "Tokyo",
     "averageDailyVolume3Month": 627573,
@@ -1272,7 +1268,6 @@
     "fiftyTwoWeekHighChange": -316.0,
     "fiftyTwoWeekHighChangePercent": -0.079737574,
     "fiftyTwoWeekChangePercent": 9.388124,
-    "marketState": "CLOSED",
     "earningsTimestamp": 1793082600,
     "earningsTimestampStart": 1793082600,
     "earningsTimestampEnd": 1793082600,
@@ -1288,8 +1283,7 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "averageAnalystRating": "2.4 - Buy",
-    "shortName": "YAMAZAKI BAKING LTD",
-    "longName": "Yamazaki Baking Co., Ltd.",
+    "cryptoTradeable": false,
     "corporateActions": [],
     "regularMarketTime": 1789713000,
     "exchange": "JPX",
@@ -1299,8 +1293,14 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
+    "longName": "Yamazaki Baking Co., Ltd.",
     "regularMarketChangePercent": -3.3907282,
     "regularMarketPrice": 3647.0,
+    "marketState": "CLOSED",
+    "shortName": "YAMAZAKI BAKING LTD",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 978307200000,
+    "regularMarketChange": -128.0,
     "trailingPegRatio": null
   }
 }

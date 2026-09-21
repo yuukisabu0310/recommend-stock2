@@ -1,7 +1,7 @@
 {
   "ticker": "1812",
   "japanese_ticker": "1812.T",
-  "fetch_date": "2026-09-20T00:33:48.898719",
+  "fetch_date": "2026-09-21T00:43:48.110564",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": 3357522485.130643,
@@ -1192,7 +1192,7 @@
     "allTimeLow": 304.0,
     "fulldayPrice": 4979.0,
     "fulldayChange": -90.0,
-    "fulldayChangePercent": -1.7754982,
+    "fulldayChangePercent": -0.017754981,
     "priceToSalesTrailing12Months": 0.7524732,
     "fiftyDayAverage": 5157.56,
     "twoHundredDayAverage": 5899.46,
@@ -1257,33 +1257,7 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "epsTrailingTwelveMonths": 379.9,
-    "epsForward": 266.52,
-    "fiftyDayAverageChange": -178.56006,
-    "fiftyDayAverageChangePercent": -0.034621034,
-    "twoHundredDayAverageChange": -920.45996,
-    "twoHundredDayAverageChangePercent": -0.15602444,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "averageAnalystRating": "1.4 - Strong Buy",
-    "cryptoTradeable": false,
-    "corporateActions": [
-      {
-        "header": "Dividend",
-        "message": "1812.T announced a cash dividend of JPY 73.00 with an ex-date of Sep. 29, 2026",
-        "meta": {
-          "eventType": "DIVIDEND",
-          "dateEpochMs": 1790607600000,
-          "amount": "73.00"
-        }
-      }
-    ],
-    "regularMarketTime": 1789713000,
-    "exchange": "JPX",
-    "messageBoardId": "finmb_874300",
     "marketState": "CLOSED",
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 946944000000,
     "regularMarketChange": -90.0,
     "regularMarketDayRange": "4979.0 - 5096.0",
     "fullExchangeName": "Tokyo",
@@ -1300,13 +1274,39 @@
     "earningsCallTimestampStart": 1747220340,
     "earningsCallTimestampEnd": 1747220340,
     "isEarningsDateEstimate": false,
+    "epsTrailingTwelveMonths": 379.9,
+    "epsForward": 266.52,
+    "fiftyDayAverageChange": -178.56006,
+    "fiftyDayAverageChangePercent": -0.034621034,
+    "twoHundredDayAverageChange": -920.45996,
+    "twoHundredDayAverageChangePercent": -0.15602444,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "averageAnalystRating": "1.4 - Strong Buy",
+    "cryptoTradeable": false,
+    "regularMarketChangePercent": -1.7754982,
+    "regularMarketPrice": 4979.0,
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "1812.T announced a cash dividend of JPY 73.00 with an ex-date of Sep. 29, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1790607600000,
+          "amount": "73.00"
+        }
+      }
+    ],
+    "regularMarketTime": 1789713000,
+    "exchange": "JPX",
+    "messageBoardId": "finmb_874300",
     "exchangeTimezoneName": "Asia/Tokyo",
     "exchangeTimezoneShortName": "JST",
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "regularMarketChangePercent": -1.7754982,
-    "regularMarketPrice": 4979.0,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 946944000000,
     "shortName": "KAJIMA CORP",
     "longName": "Kajima Corporation",
     "trailingPegRatio": null

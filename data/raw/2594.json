@@ -1,7 +1,7 @@
 {
   "ticker": "2594",
   "japanese_ticker": "2594.T",
-  "fetch_date": "2026-09-20T00:42:05.033301",
+  "fetch_date": "2026-09-21T00:53:10.421983",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": -1603000.0,
@@ -1274,7 +1274,7 @@
     "allTimeLow": 1165.0,
     "fulldayPrice": 2008.0,
     "fulldayChange": -7.0,
-    "fulldayChangePercent": -0.34739456,
+    "fulldayChangePercent": -0.0034739457,
     "priceToSalesTrailing12Months": 0.44571152,
     "fiftyDayAverage": 2006.16,
     "twoHundredDayAverage": 1985.615,
@@ -1331,7 +1331,6 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "marketState": "CLOSED",
     "regularMarketChangePercent": -0.34739456,
     "regularMarketPrice": 2008.0,
     "corporateActions": [
@@ -1353,8 +1352,17 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
+    "longName": "Key Coffee Inc.",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 978307200000,
+    "regularMarketChange": -7.0,
+    "regularMarketDayRange": "2008.0 - 2022.0",
+    "marketState": "CLOSED",
+    "shortName": "KEY COFFEE INC",
+    "fullExchangeName": "Tokyo",
+    "averageDailyVolume3Month": 69965,
+    "fiftyTwoWeekLowChange": 104.0,
+    "fiftyTwoWeekLowChangePercent": 0.05462185,
     "fiftyTwoWeekRange": "1904.0 - 2078.0",
     "fiftyTwoWeekHighChange": -70.0,
     "fiftyTwoWeekHighChangePercent": -0.033686236,
@@ -1363,8 +1371,6 @@
     "earningsTimestampEnd": 1754024400,
     "isEarningsDateEstimate": true,
     "epsTrailingTwelveMonths": 46.18,
-    "shortName": "KEY COFFEE INC",
-    "longName": "Key Coffee Inc.",
     "fiftyDayAverageChange": 1.8399658,
     "fiftyDayAverageChangePercent": 0.00091715803,
     "twoHundredDayAverageChange": 22.38501,
@@ -1372,12 +1378,6 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
-    "regularMarketChange": -7.0,
-    "regularMarketDayRange": "2008.0 - 2022.0",
-    "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 69965,
-    "fiftyTwoWeekLowChange": 104.0,
-    "fiftyTwoWeekLowChangePercent": 0.05462185,
     "trailingPegRatio": null
   }
 }

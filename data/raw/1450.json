@@ -1,7 +1,7 @@
 {
   "ticker": "1450",
   "japanese_ticker": "1450.T",
-  "fetch_date": "2026-09-20T00:32:31.186940",
+  "fetch_date": "2026-09-21T00:42:19.429130",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": -145413.0,
@@ -1139,7 +1139,7 @@
     "allTimeLow": 550.25,
     "fulldayPrice": 1495.0,
     "fulldayChange": 10.0,
-    "fulldayChangePercent": 0.67340064,
+    "fulldayChangePercent": 0.0067340066,
     "priceToSalesTrailing12Months": 0.8399297,
     "fiftyDayAverage": 1452.02,
     "twoHundredDayAverage": 1453.085,
@@ -1199,7 +1199,14 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1545091200000,
     "regularMarketChange": 10.0,
+    "marketState": "CLOSED",
+    "shortName": "TANAKEN INC",
+    "corporateActions": [],
+    "regularMarketTime": 1789712329,
+    "cryptoTradeable": false,
     "regularMarketDayRange": "1459.0 - 1495.0",
     "fullExchangeName": "Tokyo",
     "averageDailyVolume3Month": 3665,
@@ -1212,9 +1219,6 @@
     "earningsTimestampStart": 1746772800,
     "earningsTimestampEnd": 1746772800,
     "isEarningsDateEstimate": false,
-    "marketState": "CLOSED",
-    "shortName": "TANAKEN INC",
-    "longName": "TANAKEN Inc.",
     "epsTrailingTwelveMonths": 172.67,
     "epsForward": 257.0,
     "fiftyDayAverageChange": 42.97998,
@@ -1223,11 +1227,6 @@
     "twoHundredDayAverageChangePercent": 0.028845552,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1545091200000,
-    "corporateActions": [],
-    "regularMarketTime": 1789712329,
     "exchange": "JPX",
     "messageBoardId": "finmb_591098983",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1237,6 +1236,7 @@
     "esgPopulated": false,
     "regularMarketChangePercent": 0.67340064,
     "regularMarketPrice": 1495.0,
+    "longName": "TANAKEN Inc.",
     "trailingPegRatio": null
   }
 }

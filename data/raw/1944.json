@@ -1,7 +1,7 @@
 {
   "ticker": "1944",
   "japanese_ticker": "1944.T",
-  "fetch_date": "2026-09-20T00:35:27.124901",
+  "fetch_date": "2026-09-21T00:45:41.802606",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": 916526659.702165,
@@ -1154,7 +1154,7 @@
     "allTimeLow": 338.0,
     "fulldayPrice": 6929.0,
     "fulldayChange": -71.0,
-    "fulldayChangePercent": -1.0142857,
+    "fulldayChangePercent": -0.010142857,
     "priceToSalesTrailing12Months": 1.4768633,
     "fiftyDayAverage": 7093.52,
     "twoHundredDayAverage": 7331.33,
@@ -1233,13 +1233,6 @@
     "earningsTimestamp": 1785306600,
     "earningsTimestampStart": 1793255400,
     "earningsTimestampEnd": 1793255400,
-    "messageBoardId": "finmb_880745",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "esgPopulated": false,
-    "regularMarketChangePercent": -1.0142857,
-    "regularMarketPrice": 6929.0,
     "corporateActions": [
       {
         "header": "Dividend",
@@ -1253,9 +1246,14 @@
     ],
     "regularMarketTime": 1789713000,
     "exchange": "JPX",
+    "messageBoardId": "finmb_880745",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
-    "shortName": "KINDEN CORPORATION",
-    "longName": "Kinden Corporation",
+    "esgPopulated": false,
+    "regularMarketChangePercent": -1.0142857,
+    "regularMarketPrice": 6929.0,
     "isEarningsDateEstimate": true,
     "epsTrailingTwelveMonths": 350.61,
     "epsForward": 198.76,
@@ -1266,6 +1264,8 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
+    "shortName": "KINDEN CORPORATION",
+    "longName": "Kinden Corporation",
     "marketState": "CLOSED",
     "trailingPegRatio": null
   }

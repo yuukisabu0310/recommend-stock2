@@ -1,7 +1,7 @@
 {
   "ticker": "2831",
   "japanese_ticker": "2831.T",
-  "fetch_date": "2026-09-20T00:44:50.061203",
+  "fetch_date": "2026-09-21T00:56:14.003800",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": 11384680.316492,
@@ -1173,7 +1173,7 @@
     "allTimeLow": 1610.0,
     "fulldayPrice": 3685.0,
     "fulldayChange": 5.0,
-    "fulldayChangePercent": 0.13586956,
+    "fulldayChangePercent": 0.0013586957,
     "priceToSalesTrailing12Months": 0.4564385,
     "fiftyDayAverage": 3634.9,
     "twoHundredDayAverage": 3489.25,
@@ -1232,19 +1232,26 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "corporateActions": [
-      {
-        "header": "Dividend",
-        "message": "2831.T announced a cash dividend of JPY 35.00 with an ex-date of Sep. 29, 2026",
-        "meta": {
-          "eventType": "DIVIDEND",
-          "dateEpochMs": 1790607600000,
-          "amount": "35.00"
-        }
-      }
-    ],
-    "regularMarketTime": 1789712334,
-    "marketState": "CLOSED",
+    "exchange": "JPX",
+    "messageBoardId": "finmb_5490649",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
+    "regularMarketChangePercent": 0.13586956,
+    "regularMarketPrice": 3685.0,
+    "earningsTimestampStart": 1747117800,
+    "earningsTimestampEnd": 1747117800,
+    "isEarningsDateEstimate": false,
+    "epsTrailingTwelveMonths": 280.06,
+    "fiftyDayAverageChange": 50.100098,
+    "fiftyDayAverageChangePercent": 0.013783075,
+    "twoHundredDayAverageChange": 195.75,
+    "twoHundredDayAverageChangePercent": 0.056100883,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 978652800000,
     "regularMarketChange": 5.0,
@@ -1257,28 +1264,21 @@
     "fiftyTwoWeekHighChange": -15.0,
     "fiftyTwoWeekHighChangePercent": -0.004054054,
     "fiftyTwoWeekChangePercent": 8.382357,
-    "earningsTimestampStart": 1747117800,
-    "earningsTimestampEnd": 1747117800,
-    "isEarningsDateEstimate": false,
-    "epsTrailingTwelveMonths": 280.06,
-    "fiftyDayAverageChange": 50.100098,
-    "fiftyDayAverageChangePercent": 0.013783075,
-    "twoHundredDayAverageChange": 195.75,
-    "twoHundredDayAverageChangePercent": 0.056100883,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
-    "exchange": "JPX",
-    "messageBoardId": "finmb_5490649",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
-    "regularMarketChangePercent": 0.13586956,
-    "regularMarketPrice": 3685.0,
+    "marketState": "CLOSED",
     "shortName": "HAGOROMO FOODS",
     "longName": "Hagoromo Foods Corporation",
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "2831.T announced a cash dividend of JPY 35.00 with an ex-date of Sep. 29, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1790607600000,
+          "amount": "35.00"
+        }
+      }
+    ],
+    "regularMarketTime": 1789712334,
     "trailingPegRatio": null
   }
 }

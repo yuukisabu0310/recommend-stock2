@@ -1,7 +1,7 @@
 {
   "ticker": "2991",
   "japanese_ticker": "2991.T",
-  "fetch_date": "2026-09-20T00:46:24.297822",
+  "fetch_date": "2026-09-21T00:58:00.297436",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-07-31 00:00:00": null,
@@ -892,7 +892,7 @@
     "allTimeLow": 202.5,
     "fulldayPrice": 527.0,
     "fulldayChange": 5.0,
-    "fulldayChangePercent": 0.9578544,
+    "fulldayChangePercent": 0.009578544,
     "priceToSalesTrailing12Months": 0.11489536,
     "fiftyDayAverage": 554.6,
     "twoHundredDayAverage": 603.25,
@@ -953,11 +953,6 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1626825600000,
-    "regularMarketChange": 5.0,
-    "regularMarketDayRange": "517.0 - 529.0",
-    "marketState": "CLOSED",
     "exchange": "JPX",
     "messageBoardId": "finmb_228764655",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -965,10 +960,17 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "shortName": "LANDNET INC",
-    "longName": "LANDNET Inc.",
     "regularMarketChangePercent": 0.9578544,
     "regularMarketPrice": 527.0,
+    "corporateActions": [],
+    "regularMarketTime": 1789713000,
+    "shortName": "LANDNET INC",
+    "longName": "LANDNET Inc.",
+    "marketState": "CLOSED",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1626825600000,
+    "regularMarketChange": 5.0,
+    "regularMarketDayRange": "517.0 - 529.0",
     "fullExchangeName": "Tokyo",
     "averageDailyVolume3Month": 21431,
     "fiftyTwoWeekLowChange": 27.0,
@@ -988,8 +990,6 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
-    "corporateActions": [],
-    "regularMarketTime": 1789713000,
     "trailingPegRatio": null
   }
 }

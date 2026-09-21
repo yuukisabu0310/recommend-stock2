@@ -1,7 +1,7 @@
 {
   "ticker": "2784",
   "japanese_ticker": "2784.T",
-  "fetch_date": "2026-09-20T00:44:06.940332",
+  "fetch_date": "2026-09-21T00:55:24.107452",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": 7550400000.0,
@@ -1261,7 +1261,7 @@
     "allTimeLow": 611.25,
     "fulldayPrice": 2353.0,
     "fulldayChange": -29.5,
-    "fulldayChangePercent": -1.2381952,
+    "fulldayChangePercent": -0.012381952,
     "priceToSalesTrailing12Months": 0.1316594,
     "fiftyDayAverage": 2298.73,
     "twoHundredDayAverage": 2378.165,
@@ -1328,8 +1328,30 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "marketState": "CLOSED",
     "shortName": "ALFRESA HOLDINGS CORP",
     "longName": "Alfresa Holdings Corporation",
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "2784.T announced a cash dividend of JPY 35.00 with an ex-date of Sep. 29, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1790607600000,
+          "amount": "35.00"
+        }
+      }
+    ],
+    "regularMarketTime": 1789713000,
+    "exchange": "JPX",
+    "messageBoardId": "finmb_9248638",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
+    "regularMarketChangePercent": -1.2381952,
+    "regularMarketPrice": 2353.0,
     "earningsTimestamp": 1794205800,
     "earningsTimestampStart": 1794205800,
     "earningsTimestampEnd": 1794205800,
@@ -1358,28 +1380,6 @@
     "fiftyTwoWeekHighChange": -332.5,
     "fiftyTwoWeekHighChangePercent": -0.12381307,
     "fiftyTwoWeekChangePercent": 7.4429274,
-    "marketState": "CLOSED",
-    "exchange": "JPX",
-    "messageBoardId": "finmb_9248638",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
-    "regularMarketChangePercent": -1.2381952,
-    "regularMarketPrice": 2353.0,
-    "corporateActions": [
-      {
-        "header": "Dividend",
-        "message": "2784.T announced a cash dividend of JPY 35.00 with an ex-date of Sep. 29, 2026",
-        "meta": {
-          "eventType": "DIVIDEND",
-          "dateEpochMs": 1790607600000,
-          "amount": "35.00"
-        }
-      }
-    ],
-    "regularMarketTime": 1789713000,
     "trailingPegRatio": null
   }
 }

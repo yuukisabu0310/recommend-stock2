@@ -1,7 +1,7 @@
 {
   "ticker": "2685",
   "japanese_ticker": "2685.T",
-  "fetch_date": "2026-09-20T00:42:48.304575",
+  "fetch_date": "2026-09-21T00:53:58.206067",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-02-28 00:00:00": -500643000.0,
@@ -1279,7 +1279,7 @@
     "allTimeLow": 375.55554,
     "fulldayPrice": 3130.0,
     "fulldayChange": -45.0,
-    "fulldayChangePercent": -1.4173229,
+    "fulldayChangePercent": -0.014173228,
     "priceToSalesTrailing12Months": 0.46998337,
     "fiftyDayAverage": 3395.6,
     "twoHundredDayAverage": 3132.285,
@@ -1346,7 +1346,11 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "cryptoTradeable": false,
+    "regularMarketChangePercent": -1.4173229,
+    "regularMarketPrice": 3130.0,
+    "shortName": "AND ST HD CO LTD",
+    "longName": "and ST HD Co.,Ltd.",
+    "marketState": "CLOSED",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1039651200000,
     "regularMarketChange": -45.0,
@@ -1359,7 +1363,6 @@
     "fiftyTwoWeekHighChange": -505.0,
     "fiftyTwoWeekHighChangePercent": -0.1389271,
     "fiftyTwoWeekChangePercent": 2.1207213,
-    "marketState": "CLOSED",
     "earningsTimestamp": 1790749800,
     "earningsTimestampStart": 1790749800,
     "earningsTimestampEnd": 1790749800,
@@ -1375,8 +1378,7 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "averageAnalystRating": "2.5 - Buy",
-    "shortName": "AND ST HD CO LTD",
-    "longName": "and ST HD Co.,Ltd.",
+    "cryptoTradeable": false,
     "corporateActions": [],
     "regularMarketTime": 1789713000,
     "exchange": "JPX",
@@ -1386,8 +1388,6 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "regularMarketChangePercent": -1.4173229,
-    "regularMarketPrice": 3130.0,
     "trailingPegRatio": null
   }
 }

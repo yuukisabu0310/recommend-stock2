@@ -1,7 +1,7 @@
 {
   "ticker": "2264",
   "japanese_ticker": "2264.T",
-  "fetch_date": "2026-09-20T00:38:24.478949",
+  "fetch_date": "2026-09-21T00:49:02.221932",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": -1589232000.0,
@@ -1132,7 +1132,7 @@
     "allTimeLow": 146.25,
     "fulldayPrice": 1142.0,
     "fulldayChange": -16.0,
-    "fulldayChangePercent": -1.3816925,
+    "fulldayChangePercent": -0.013816926,
     "priceToSalesTrailing12Months": 0.6412344,
     "fiftyDayAverage": 1184.89,
     "twoHundredDayAverage": 1145.625,
@@ -1198,25 +1198,17 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "marketState": "CLOSED",
-    "regularMarketTime": 1789713000,
-    "exchange": "JPX",
-    "messageBoardId": "finmb_878406",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
     "regularMarketChangePercent": -1.3816925,
     "regularMarketPrice": 1142.0,
+    "shortName": "MORINAGA MILK INDUSTRY CO",
+    "longName": "Morinaga Milk Industry Co., Ltd.",
+    "marketState": "CLOSED",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 978307200000,
     "regularMarketChange": -16.0,
     "regularMarketDayRange": "1133.0 - 1147.0",
     "fullExchangeName": "Tokyo",
     "averageDailyVolume3Month": 1888780,
-    "shortName": "MORINAGA MILK INDUSTRY CO",
-    "longName": "Morinaga Milk Industry Co., Ltd.",
     "fiftyTwoWeekLowChange": 326.25,
     "fiftyTwoWeekLowChangePercent": 0.3999387,
     "fiftyTwoWeekRange": "815.75 - 1368.25",
@@ -1250,6 +1242,14 @@
         }
       }
     ],
+    "regularMarketTime": 1789713000,
+    "exchange": "JPX",
+    "messageBoardId": "finmb_878406",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
     "trailingPegRatio": null
   }
 }

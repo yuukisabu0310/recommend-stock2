@@ -1,7 +1,7 @@
 {
   "ticker": "2768",
   "japanese_ticker": "2768.T",
-  "fetch_date": "2026-09-20T00:43:55.696774",
+  "fetch_date": "2026-09-21T00:55:11.490133",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": 827172000.0,
@@ -1186,7 +1186,7 @@
     "allTimeLow": 475.0,
     "fulldayPrice": 5872.0,
     "fulldayChange": -16.0,
-    "fulldayChangePercent": -0.27173913,
+    "fulldayChangePercent": -0.0027173914,
     "priceToSalesTrailing12Months": 0.4082369,
     "fiftyDayAverage": 5532.4,
     "twoHundredDayAverage": 5677.885,
@@ -1255,33 +1255,23 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "corporateActions": [
-      {
-        "header": "Dividend",
-        "message": "2768.T announced a cash dividend of JPY 90.00 with an ex-date of Sep. 29, 2026",
-        "meta": {
-          "eventType": "DIVIDEND",
-          "dateEpochMs": 1790607600000,
-          "amount": "90.00"
-        }
-      }
-    ],
-    "regularMarketTime": 1789713000,
-    "marketState": "CLOSED",
-    "cryptoTradeable": false,
-    "exchange": "JPX",
-    "messageBoardId": "finmb_873920",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
-    "regularMarketChangePercent": -0.27173913,
-    "regularMarketPrice": 5872.0,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 946944000000,
     "regularMarketChange": -16.0,
     "regularMarketDayRange": "5851.0 - 5949.0",
     "fullExchangeName": "Tokyo",
     "averageDailyVolume3Month": 1175685,
+    "marketState": "CLOSED",
+    "shortName": "SOJITZ CORPORATION",
+    "longName": "Sojitz Corporation",
+    "fiftyDayAverageChange": 339.6001,
+    "fiftyDayAverageChangePercent": 0.061383866,
+    "twoHundredDayAverageChange": 194.11523,
+    "twoHundredDayAverageChangePercent": 0.03418795,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "averageAnalystRating": "2.4 - Buy",
+    "cryptoTradeable": false,
     "fiftyTwoWeekLowChange": 2034.0,
     "fiftyTwoWeekLowChangePercent": 0.5299635,
     "fiftyTwoWeekRange": "3838.0 - 7257.0",
@@ -1296,17 +1286,27 @@
     "isEarningsDateEstimate": true,
     "epsTrailingTwelveMonths": 495.01,
     "epsForward": 528.63,
-    "fiftyDayAverageChange": 339.6001,
-    "fiftyDayAverageChangePercent": 0.061383866,
-    "twoHundredDayAverageChange": 194.11523,
-    "twoHundredDayAverageChangePercent": 0.03418795,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "averageAnalystRating": "2.4 - Buy",
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 946944000000,
-    "shortName": "SOJITZ CORPORATION",
-    "longName": "Sojitz Corporation",
+    "regularMarketPrice": 5872.0,
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "2768.T announced a cash dividend of JPY 90.00 with an ex-date of Sep. 29, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1790607600000,
+          "amount": "90.00"
+        }
+      }
+    ],
+    "regularMarketTime": 1789713000,
+    "exchange": "JPX",
+    "messageBoardId": "finmb_873920",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
+    "regularMarketChangePercent": -0.27173913,
     "trailingPegRatio": null
   }
 }

@@ -1,7 +1,7 @@
 {
   "ticker": "1786",
   "japanese_ticker": "1786.T",
-  "fetch_date": "2026-09-20T00:33:23.046083",
+  "fetch_date": "2026-09-21T00:43:18.301629",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": -211548000.0,
@@ -1258,9 +1258,12 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "marketState": "CLOSED",
-    "longName": "Oriental Shiraishi Corporation",
     "shortName": "ORIENTAL SHIRAISHI CORPORATION",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1617235200000,
+    "regularMarketChange": 0.0,
+    "regularMarketDayRange": "354.0 - 358.0",
+    "fullExchangeName": "Tokyo",
     "averageDailyVolume3Month": 539636,
     "fiftyTwoWeekLowChange": 46.0,
     "fiftyTwoWeekLowChangePercent": 0.14838709,
@@ -1280,11 +1283,7 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1617235200000,
-    "regularMarketChange": 0.0,
-    "regularMarketDayRange": "354.0 - 358.0",
-    "fullExchangeName": "Tokyo",
+    "longName": "Oriental Shiraishi Corporation",
     "corporateActions": [
       {
         "header": "Dividend",
@@ -1306,6 +1305,7 @@
     "esgPopulated": false,
     "regularMarketChangePercent": 0.0,
     "regularMarketPrice": 356.0,
+    "marketState": "CLOSED",
     "trailingPegRatio": null
   }
 }

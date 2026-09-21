@@ -1,7 +1,7 @@
 {
   "ticker": "2108",
   "japanese_ticker": "2108.T",
-  "fetch_date": "2026-09-20T00:36:35.964423",
+  "fetch_date": "2026-09-21T00:46:56.478408",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": 1773373000.0,
@@ -1231,7 +1231,7 @@
     "allTimeLow": 1300.0,
     "fulldayPrice": 5230.0,
     "fulldayChange": -60.0,
-    "fulldayChangePercent": -1.1342155,
+    "fulldayChangePercent": -0.011342155,
     "priceToSalesTrailing12Months": 0.9025479,
     "fiftyDayAverage": 5204.8,
     "twoHundredDayAverage": 4427.425,
@@ -1290,6 +1290,30 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "marketState": "CLOSED",
+    "corporateActions": [
+      {
+        "header": "Stock split",
+        "message": "2108.T announces 3 for 1 split effective Sep. 29, 2026",
+        "meta": {
+          "eventType": "SPLIT",
+          "dateEpochMs": 1790607600000,
+          "splitRatio": "3:1"
+        }
+      }
+    ],
+    "regularMarketTime": 1789713000,
+    "exchange": "JPX",
+    "messageBoardId": "finmb_879758",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
+    "regularMarketChangePercent": -1.1342155,
+    "regularMarketPrice": 5230.0,
+    "shortName": "NIPPON BEET SUGAR MANUFACTURING",
+    "longName": "Nippon Beet Sugar Manufacturing Co.,Ltd.",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 978307200000,
     "regularMarketChange": -60.0,
@@ -1304,29 +1328,6 @@
     "fiftyTwoWeekChangePercent": 80.718735,
     "earningsTimestampStart": 1754542800,
     "earningsTimestampEnd": 1754974800,
-    "messageBoardId": "finmb_879758",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "esgPopulated": false,
-    "regularMarketChangePercent": -1.1342155,
-    "regularMarketPrice": 5230.0,
-    "corporateActions": [
-      {
-        "header": "Stock split",
-        "message": "2108.T announces 3 for 1 split effective Sep. 29, 2026",
-        "meta": {
-          "eventType": "SPLIT",
-          "dateEpochMs": 1790607600000,
-          "splitRatio": "3:1"
-        }
-      }
-    ],
-    "regularMarketTime": 1789713000,
-    "exchange": "JPX",
-    "market": "jp_market",
-    "shortName": "NIPPON BEET SUGAR MANUFACTURING",
-    "longName": "Nippon Beet Sugar Manufacturing Co.,Ltd.",
     "isEarningsDateEstimate": true,
     "epsTrailingTwelveMonths": 411.08,
     "fiftyDayAverageChange": 25.200195,
@@ -1336,9 +1337,8 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "prevName": "Nippon Beet Sugar Manufacturing Co., Ltd.",
-    "nameChangeDate": "2026-09-19",
+    "nameChangeDate": "2026-09-20",
     "cryptoTradeable": false,
-    "marketState": "CLOSED",
     "trailingPegRatio": null
   }
 }

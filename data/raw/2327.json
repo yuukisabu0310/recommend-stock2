@@ -1,7 +1,7 @@
 {
   "ticker": "2327",
   "japanese_ticker": "2327.T",
-  "fetch_date": "2026-09-20T00:39:15.271290",
+  "fetch_date": "2026-09-21T00:50:01.957052",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": 0.0,
@@ -1245,7 +1245,7 @@
     "allTimeLow": 230.72067,
     "fulldayPrice": 3757.0,
     "fulldayChange": -168.0,
-    "fulldayChangePercent": -4.280255,
+    "fulldayChangePercent": -0.04280255,
     "priceToSalesTrailing12Months": 1.7523149,
     "fiftyDayAverage": 3853.46,
     "twoHundredDayAverage": 3849.11,
@@ -1314,8 +1314,31 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1034294400000,
+    "regularMarketChangePercent": -4.280255,
+    "regularMarketPrice": 3757.0,
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "2327.T announced a cash dividend of JPY 43.50 with an ex-date of Sep. 29, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1790607600000,
+          "amount": "43.50"
+        }
+      }
+    ],
+    "regularMarketTime": 1789713000,
+    "exchange": "JPX",
+    "messageBoardId": "finmb_1882296",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
+    "cryptoTradeable": false,
+    "marketState": "CLOSED",
+    "shortName": "NS SOLUTIONS CORPORATION",
+    "longName": "NS Solutions Corporation",
     "regularMarketChange": -168.0,
     "regularMarketDayRange": "3694.0 - 3925.0",
     "fullExchangeName": "Tokyo",
@@ -1341,31 +1364,8 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "averageAnalystRating": "3.7 - Underperform",
-    "cryptoTradeable": false,
-    "corporateActions": [
-      {
-        "header": "Dividend",
-        "message": "2327.T announced a cash dividend of JPY 43.50 with an ex-date of Sep. 29, 2026",
-        "meta": {
-          "eventType": "DIVIDEND",
-          "dateEpochMs": 1790607600000,
-          "amount": "43.50"
-        }
-      }
-    ],
-    "regularMarketTime": 1789713000,
-    "shortName": "NS SOLUTIONS CORPORATION",
-    "longName": "NS Solutions Corporation",
-    "exchange": "JPX",
-    "messageBoardId": "finmb_1882296",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
-    "regularMarketChangePercent": -4.280255,
-    "regularMarketPrice": 3757.0,
-    "marketState": "CLOSED",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1034294400000,
     "trailingPegRatio": null
   }
 }

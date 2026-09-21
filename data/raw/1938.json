@@ -1,7 +1,7 @@
 {
   "ticker": "1938",
   "japanese_ticker": "1938.T",
-  "fetch_date": "2026-09-20T00:35:19.138385",
+  "fetch_date": "2026-09-21T00:45:33.100981",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": -79111710.0,
@@ -1077,7 +1077,7 @@
     "allTimeLow": 202.0,
     "fulldayPrice": 2615.0,
     "fulldayChange": -11.0,
-    "fulldayChangePercent": -0.41888803,
+    "fulldayChangePercent": -0.0041888803,
     "priceToSalesTrailing12Months": 0.8538964,
     "fiftyDayAverage": 2512.22,
     "twoHundredDayAverage": 2582.84,
@@ -1141,8 +1141,6 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "shortName": "NIPPON RIETEC CO LTD",
-    "longName": "Nippon Rietec Co.,Ltd.",
     "regularMarketChangePercent": -0.41888803,
     "regularMarketPrice": 2615.0,
     "corporateActions": [
@@ -1157,15 +1155,9 @@
       }
     ],
     "regularMarketTime": 1789713000,
+    "shortName": "NIPPON RIETEC CO LTD",
+    "longName": "Nippon Rietec Co.,Ltd.",
     "marketState": "CLOSED",
-    "epsTrailingTwelveMonths": 224.11,
-    "fiftyDayAverageChange": 102.78003,
-    "fiftyDayAverageChangePercent": 0.040912036,
-    "twoHundredDayAverageChange": 32.159912,
-    "twoHundredDayAverageChangePercent": 0.012451376,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 978652800000,
     "regularMarketChange": -11.0,
@@ -1181,6 +1173,14 @@
     "earningsTimestampStart": 1754550000,
     "earningsTimestampEnd": 1754982000,
     "isEarningsDateEstimate": true,
+    "epsTrailingTwelveMonths": 224.11,
+    "fiftyDayAverageChange": 102.78003,
+    "fiftyDayAverageChangePercent": 0.040912036,
+    "twoHundredDayAverageChange": 32.159912,
+    "twoHundredDayAverageChangePercent": 0.012451376,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
     "trailingPegRatio": null
   }
 }

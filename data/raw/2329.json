@@ -1,7 +1,7 @@
 {
   "ticker": "2329",
   "japanese_ticker": "2329.T",
-  "fetch_date": "2026-09-20T00:39:17.279554",
+  "fetch_date": "2026-09-21T00:50:04.197192",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": 1548404000.0,
@@ -1157,7 +1157,7 @@
     "ask": 505.0,
     "bidSize": 0,
     "askSize": 0,
-    "marketCap": 69347860480,
+    "marketCap": 59754631168,
     "nonDilutedMarketCap": 59754632112,
     "fiftyTwoWeekLow": 469.0,
     "fiftyTwoWeekHigh": 699.0,
@@ -1166,7 +1166,7 @@
     "fulldayPrice": 504.0,
     "fulldayChange": 2.0,
     "fulldayChangePercent": 0.3984064,
-    "priceToSalesTrailing12Months": 1.437917,
+    "priceToSalesTrailing12Months": 1.239003,
     "fiftyDayAverage": 498.8,
     "twoHundredDayAverage": 580.755,
     "trailingAnnualDividendRate": 27.06,
@@ -1176,10 +1176,10 @@
     "enterpriseValue": 29207631872,
     "profitMargins": 0.1146,
     "floatShares": 37256961,
-    "sharesOutstanding": 137594963,
+    "sharesOutstanding": 118560778,
     "heldPercentInsiders": 0.53034,
     "heldPercentInstitutions": 0.19745001,
-    "impliedSharesOutstanding": 137594963,
+    "impliedSharesOutstanding": 118560778,
     "bookValue": 617.284,
     "priceToBook": 0.8164799,
     "lastFiscalYearEnd": 1774915200,
@@ -1223,36 +1223,6 @@
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
     "shortName": "TOHOKUSHINSHA FILM CORPORATION",
-    "longName": "Tohokushinsha Film Corporation",
-    "marketState": "CLOSED",
-    "corporateActions": [
-      {
-        "header": "Dividend",
-        "message": "2329.T announced a cash dividend of JPY 6.77 with an ex-date of Sep. 29, 2026",
-        "meta": {
-          "eventType": "DIVIDEND",
-          "dateEpochMs": 1790607600000,
-          "amount": "6.77"
-        }
-      }
-    ],
-    "regularMarketTime": 1789713000,
-    "regularMarketChangePercent": 0.3984064,
-    "regularMarketPrice": 504.0,
-    "exchange": "JPX",
-    "messageBoardId": "finmb_5522618",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
-    "fiftyDayAverageChange": 5.200012,
-    "fiftyDayAverageChangePercent": 0.010425045,
-    "twoHundredDayAverageChange": -76.755005,
-    "twoHundredDayAverageChangePercent": -0.13216418,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1034035200000,
     "regularMarketChange": 2.0,
@@ -1269,6 +1239,36 @@
     "earningsTimestampEnd": 1747377000,
     "isEarningsDateEstimate": false,
     "epsTrailingTwelveMonths": 50.6,
+    "fiftyDayAverageChange": 5.200012,
+    "fiftyDayAverageChangePercent": 0.010425045,
+    "twoHundredDayAverageChange": -76.755005,
+    "twoHundredDayAverageChangePercent": -0.13216418,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
+    "longName": "Tohokushinsha Film Corporation",
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "2329.T announced a cash dividend of JPY 6.77 with an ex-date of Sep. 29, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1790607600000,
+          "amount": "6.77"
+        }
+      }
+    ],
+    "regularMarketTime": 1789713000,
+    "exchange": "JPX",
+    "messageBoardId": "finmb_5522618",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
+    "regularMarketChangePercent": 0.3984064,
+    "regularMarketPrice": 504.0,
+    "marketState": "CLOSED",
     "trailingPegRatio": null
   }
 }

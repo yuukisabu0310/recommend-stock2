@@ -1,7 +1,7 @@
 {
   "ticker": "2185",
   "japanese_ticker": "2185.T",
-  "fetch_date": "2026-09-20T00:37:41.245864",
+  "fetch_date": "2026-09-21T00:48:14.297802",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-09-30 00:00:00": 63461581.772823,
@@ -1146,7 +1146,7 @@
     "allTimeLow": 212.16667,
     "fulldayPrice": 2009.0,
     "fulldayChange": 7.0,
-    "fulldayChangePercent": 0.34965035,
+    "fulldayChangePercent": 0.0034965035,
     "priceToSalesTrailing12Months": 1.2880505,
     "fiftyDayAverage": 1936.98,
     "twoHundredDayAverage": 1853.68,
@@ -1204,7 +1204,19 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "marketState": "CLOSED",
+    "regularMarketChangePercent": 0.34965035,
+    "regularMarketPrice": 2009.0,
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "2185.T announced a cash dividend of JPY 30.00 with an ex-date of Sep. 29, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1790607600000,
+          "amount": "30.00"
+        }
+      }
+    ],
     "regularMarketTime": 1789713000,
     "exchange": "JPX",
     "messageBoardId": "finmb_5458104",
@@ -1213,16 +1225,13 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "regularMarketChangePercent": 0.34965035,
-    "regularMarketPrice": 2009.0,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1228348800000,
+    "shortName": "CMC CORPORATION",
+    "longName": "CMC Corporation",
+    "cryptoTradeable": false,
     "regularMarketChange": 7.0,
     "regularMarketDayRange": "2001.0 - 2009.0",
     "fullExchangeName": "Tokyo",
     "averageDailyVolume3Month": 2034,
-    "shortName": "CMC CORPORATION",
-    "longName": "CMC Corporation",
     "fiftyTwoWeekLowChange": 463.0,
     "fiftyTwoWeekLowChangePercent": 0.29948252,
     "fiftyTwoWeekRange": "1546.0 - 2140.0",
@@ -1239,18 +1248,9 @@
     "twoHundredDayAverageChangePercent": 0.08379005,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
-    "corporateActions": [
-      {
-        "header": "Dividend",
-        "message": "2185.T announced a cash dividend of JPY 30.00 with an ex-date of Sep. 29, 2026",
-        "meta": {
-          "eventType": "DIVIDEND",
-          "dateEpochMs": 1790607600000,
-          "amount": "30.00"
-        }
-      }
-    ],
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1228348800000,
+    "marketState": "CLOSED",
     "trailingPegRatio": null
   }
 }

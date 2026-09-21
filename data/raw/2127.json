@@ -1,7 +1,7 @@
 {
   "ticker": "2127",
   "japanese_ticker": "2127.T",
-  "fetch_date": "2026-09-20T00:36:52.541125",
+  "fetch_date": "2026-09-21T00:47:15.290623",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": 20473000.0,
@@ -1206,7 +1206,7 @@
     "ask": 656.7,
     "bidSize": 0,
     "askSize": 0,
-    "marketCap": 208386637824,
+    "marketCap": 208211542016,
     "nonDilutedMarketCap": 208211528910,
     "fiftyTwoWeekLow": 607.7,
     "fiftyTwoWeekHigh": 813.0,
@@ -1214,8 +1214,8 @@
     "allTimeLow": 0.440972,
     "fulldayPrice": 656.7,
     "fulldayChange": -0.2999878,
-    "fulldayChangePercent": -0.045660242,
-    "priceToSalesTrailing12Months": 4.139337,
+    "fulldayChangePercent": -0.00045660243,
+    "priceToSalesTrailing12Months": 4.135859,
     "fiftyDayAverage": 662.99,
     "twoHundredDayAverage": 675.1705,
     "trailingAnnualDividendRate": 23.0,
@@ -1225,10 +1225,10 @@
     "enterpriseValue": 178444615680,
     "profitMargins": 0.25821,
     "floatShares": 276055936,
-    "sharesOutstanding": 317323937,
+    "sharesOutstanding": 317057300,
     "heldPercentInsiders": 0.08758,
     "heldPercentInstitutions": 0.38401002,
-    "impliedSharesOutstanding": 317323937,
+    "impliedSharesOutstanding": 317057300,
     "bookValue": 149.834,
     "priceToBook": 4.3828506,
     "lastFiscalYearEnd": 1774915200,
@@ -1280,6 +1280,33 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "2127.T announced a cash dividend of JPY 14.00 with an ex-date of Sep. 29, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1790607600000,
+          "amount": "14.00"
+        }
+      }
+    ],
+    "regularMarketTime": 1789713000,
+    "exchange": "JPX",
+    "messageBoardId": "finmb_28946658",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
+    "regularMarketChangePercent": -0.045660242,
+    "regularMarketPrice": 656.7,
+    "shortName": "NIHON M&A CENTER HOLDINGS INC",
+    "longName": "Nihon M&A Center Holdings Inc.",
+    "fiftyTwoWeekLowChange": 49.0,
+    "fiftyTwoWeekLowChangePercent": 0.08063189,
+    "fiftyTwoWeekRange": "607.7 - 813.0",
+    "fiftyTwoWeekHighChange": -156.29999,
     "fiftyTwoWeekHighChangePercent": -0.1922509,
     "fiftyTwoWeekChangePercent": -15.155041,
     "earningsTimestamp": 1793341800,
@@ -1297,43 +1324,16 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "prevName": "Nihon M&A Center Inc.",
-    "nameChangeDate": "2026-09-19",
+    "nameChangeDate": "2026-09-20",
     "averageAnalystRating": "2.2 - Buy",
     "cryptoTradeable": false,
-    "regularMarketTime": 1789713000,
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
-    "regularMarketChangePercent": -0.045660242,
-    "regularMarketPrice": 656.7,
-    "corporateActions": [
-      {
-        "header": "Dividend",
-        "message": "2127.T announced a cash dividend of JPY 14.00 with an ex-date of Sep. 29, 2026",
-        "meta": {
-          "eventType": "DIVIDEND",
-          "dateEpochMs": 1790607600000,
-          "amount": "14.00"
-        }
-      }
-    ],
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1160438400000,
     "regularMarketChange": -0.2999878,
     "regularMarketDayRange": "654.3 - 660.8",
     "fullExchangeName": "Tokyo",
     "averageDailyVolume3Month": 2538414,
-    "fiftyTwoWeekLowChange": 49.0,
-    "fiftyTwoWeekLowChangePercent": 0.08063189,
-    "fiftyTwoWeekRange": "607.7 - 813.0",
-    "fiftyTwoWeekHighChange": -156.29999,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1160438400000,
     "marketState": "CLOSED",
-    "exchange": "JPX",
-    "messageBoardId": "finmb_28946658",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "shortName": "NIHON M&A CENTER HOLDINGS INC",
-    "longName": "Nihon M&A Center Holdings Inc.",
     "trailingPegRatio": null
   }
 }

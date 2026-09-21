@@ -1,7 +1,7 @@
 {
   "ticker": "2652",
   "japanese_ticker": "2652.T",
-  "fetch_date": "2026-09-20T00:42:17.262733",
+  "fetch_date": "2026-09-21T00:53:22.681609",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-09-30 00:00:00": -359074.0,
@@ -1026,7 +1026,7 @@
     "allTimeLow": 21.566666,
     "fulldayPrice": 435.0,
     "fulldayChange": -7.0,
-    "fulldayChangePercent": -1.5837106,
+    "fulldayChangePercent": -0.015837105,
     "priceToSalesTrailing12Months": 1.7183189,
     "fiftyDayAverage": 441.8,
     "twoHundredDayAverage": 374.175,
@@ -1087,19 +1087,11 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "corporateActions": [
-      {
-        "header": "Dividend",
-        "message": "2652.T announced a cash dividend of JPY 1.00 with an ex-date of Sep. 29, 2026",
-        "meta": {
-          "eventType": "DIVIDEND",
-          "dateEpochMs": 1790607600000,
-          "amount": "1.00"
-        }
-      }
-    ],
-    "regularMarketTime": 1789713000,
+    "regularMarketChangePercent": -1.5837106,
+    "regularMarketPrice": 435.0,
     "marketState": "CLOSED",
+    "shortName": "MANDARAKE INC",
+    "longName": "Mandarake Inc.",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1127952000000,
     "regularMarketChange": -7.0,
@@ -1123,6 +1115,18 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "2652.T announced a cash dividend of JPY 1.00 with an ex-date of Sep. 29, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1790607600000,
+          "amount": "1.00"
+        }
+      }
+    ],
+    "regularMarketTime": 1789713000,
     "exchange": "JPX",
     "messageBoardId": "finmb_1436987",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1130,10 +1134,6 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "regularMarketChangePercent": -1.5837106,
-    "regularMarketPrice": 435.0,
-    "shortName": "MANDARAKE INC",
-    "longName": "Mandarake Inc.",
     "trailingPegRatio": null
   }
 }

@@ -1,7 +1,7 @@
 {
   "ticker": "1878",
   "japanese_ticker": "1878.T",
-  "fetch_date": "2026-09-20T00:34:37.818868",
+  "fetch_date": "2026-09-21T00:44:44.914938",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": -178980000.0,
@@ -1268,7 +1268,7 @@
     "allTimeLow": 319.6,
     "fulldayPrice": 3352.0,
     "fulldayChange": -40.0,
-    "fulldayChangePercent": -1.1792454,
+    "fulldayChangePercent": -0.011792454,
     "priceToSalesTrailing12Months": 0.5496072,
     "fiftyDayAverage": 3287.3,
     "twoHundredDayAverage": 3294.6526,
@@ -1336,22 +1336,15 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "shortName": "DAITO TRUST CONSTRUCTION CO",
-    "longName": "Daito Trust Construction Co.,Ltd.",
+    "marketState": "CLOSED",
+    "regularMarketChangePercent": -1.1792454,
+    "regularMarketPrice": 3352.0,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 978307200000,
     "regularMarketChange": -40.0,
     "regularMarketDayRange": "3352.0 - 3391.0",
     "fullExchangeName": "Tokyo",
     "averageDailyVolume3Month": 1581523,
-    "exchange": "JPX",
-    "messageBoardId": "finmb_880828",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
-    "cryptoTradeable": false,
     "fiftyTwoWeekLowChange": 507.5,
     "fiftyTwoWeekLowChangePercent": 0.17841448,
     "fiftyTwoWeekRange": "2844.5 - 3848.0",
@@ -1372,9 +1365,7 @@
     "twoHundredDayAverageChangePercent": 0.017406208,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
-    "regularMarketChangePercent": -1.1792454,
-    "regularMarketPrice": 3352.0,
-    "marketState": "CLOSED",
+    "cryptoTradeable": false,
     "corporateActions": [
       {
         "header": "Dividend",
@@ -1387,6 +1378,15 @@
       }
     ],
     "regularMarketTime": 1789713000,
+    "exchange": "JPX",
+    "messageBoardId": "finmb_880828",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
+    "shortName": "DAITO TRUST CONSTRUCTION CO",
+    "longName": "Daito Trust Construction Co.,Ltd.",
     "trailingPegRatio": null
   }
 }

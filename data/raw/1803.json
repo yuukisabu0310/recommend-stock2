@@ -1,7 +1,7 @@
 {
   "ticker": "1803",
   "japanese_ticker": "1803.T",
-  "fetch_date": "2026-09-20T00:33:38.383147",
+  "fetch_date": "2026-09-21T00:43:37.287381",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": 23575984000.0,
@@ -64,13 +64,6 @@
       "2025-03-31 00:00:00": 147850000000.0,
       "2024-03-31 00:00:00": 69451000000.0,
       "2023-03-31 00:00:00": 105139000000.0,
-      "2022-03-31 00:00:00": null
-    },
-    "EBIT": {
-      "2026-03-31 00:00:00": 200905000000.0,
-      "2025-03-31 00:00:00": null,
-      "2024-03-31 00:00:00": null,
-      "2023-03-31 00:00:00": null,
       "2022-03-31 00:00:00": null
     },
     "Net Interest Income": {
@@ -468,12 +461,6 @@
       "2025-03-31 00:00:00": 288959000000.0,
       "2024-03-31 00:00:00": 310086000000.0,
       "2023-03-31 00:00:00": 343184000000.0
-    },
-    "Long Term Debt": {
-      "2026-03-31 00:00:00": 316408000000.0,
-      "2025-03-31 00:00:00": null,
-      "2024-03-31 00:00:00": null,
-      "2023-03-31 00:00:00": null
     },
     "Current Liabilities": {
       "2026-03-31 00:00:00": 1240276000000.0,
@@ -1158,7 +1145,7 @@
     "allTimeLow": 223.0,
     "fulldayPrice": 2358.0,
     "fulldayChange": -55.0,
-    "fulldayChangePercent": -2.2793202,
+    "fulldayChangePercent": -0.022793202,
     "priceToSalesTrailing12Months": 0.76256454,
     "fiftyDayAverage": 2410.81,
     "twoHundredDayAverage": 2743.475,
@@ -1223,8 +1210,7 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "shortName": "SHIMIZU CORP",
-    "longName": "Shimizu Corporation",
+    "marketState": "CLOSED",
     "corporateActions": [
       {
         "header": "Dividend",
@@ -1246,7 +1232,6 @@
     "esgPopulated": false,
     "regularMarketChangePercent": -2.2793202,
     "regularMarketPrice": 2358.0,
-    "marketState": "CLOSED",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 946944000000,
     "regularMarketChange": -55.0,
@@ -1275,6 +1260,8 @@
     "exchangeDataDelayedBy": 20,
     "averageAnalystRating": "2.4 - Buy",
     "cryptoTradeable": false,
+    "shortName": "SHIMIZU CORP",
+    "longName": "Shimizu Corporation",
     "trailingPegRatio": null
   }
 }

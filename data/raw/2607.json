@@ -1,7 +1,7 @@
 {
   "ticker": "2607",
   "japanese_ticker": "2607.T",
-  "fetch_date": "2026-09-20T00:42:11.176711",
+  "fetch_date": "2026-09-21T00:53:16.836130",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": 0.0,
@@ -1252,7 +1252,7 @@
     "allTimeLow": 742.0,
     "fulldayPrice": 4453.0,
     "fulldayChange": -82.0,
-    "fulldayChangePercent": -1.8081586,
+    "fulldayChangePercent": -0.018081587,
     "priceToSalesTrailing12Months": 0.49707636,
     "fiftyDayAverage": 4289.8,
     "twoHundredDayAverage": 3836.765,
@@ -1318,20 +1318,6 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "corporateActions": [
-      {
-        "header": "Dividend",
-        "message": "2607.T announced a cash dividend of JPY 31.00 with an ex-date of Sep. 29, 2026",
-        "meta": {
-          "eventType": "DIVIDEND",
-          "dateEpochMs": 1790607600000,
-          "amount": "31.00"
-        }
-      }
-    ],
-    "shortName": "FUJI OIL CO LTD",
-    "longName": "Fuji Oil Co., Ltd.",
-    "marketState": "CLOSED",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 978307200000,
     "regularMarketChange": -82.0,
@@ -1358,6 +1344,21 @@
     "twoHundredDayAverageChangePercent": 0.16061321,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
+    "prevName": "Fuji Oil Holdings Inc.",
+    "nameChangeDate": "2026-09-20",
+    "averageAnalystRating": "1.7 - Buy",
+    "cryptoTradeable": false,
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "2607.T announced a cash dividend of JPY 31.00 with an ex-date of Sep. 29, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1790607600000,
+          "amount": "31.00"
+        }
+      }
+    ],
     "regularMarketTime": 1789713000,
     "exchange": "JPX",
     "messageBoardId": "finmb_874126",
@@ -1366,12 +1367,11 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "prevName": "Fuji Oil Holdings Inc.",
-    "nameChangeDate": "2026-09-19",
-    "averageAnalystRating": "1.7 - Buy",
-    "cryptoTradeable": false,
     "regularMarketChangePercent": -1.8081586,
     "regularMarketPrice": 4453.0,
+    "marketState": "CLOSED",
+    "shortName": "FUJI OIL CO LTD",
+    "longName": "Fuji Oil Co., Ltd.",
     "trailingPegRatio": null
   }
 }

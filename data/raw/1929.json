@@ -1,7 +1,7 @@
 {
   "ticker": "1929",
   "japanese_ticker": "1929.T",
-  "fetch_date": "2026-09-20T00:35:13.243569",
+  "fetch_date": "2026-09-21T00:45:27.018580",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": -20383906.119028,
@@ -1178,7 +1178,7 @@
     "allTimeLow": 108.0,
     "fulldayPrice": 1241.0,
     "fulldayChange": -4.0,
-    "fulldayChangePercent": -0.32128516,
+    "fulldayChangePercent": -0.0032128515,
     "priceToSalesTrailing12Months": 0.60962117,
     "fiftyDayAverage": 1167.76,
     "twoHundredDayAverage": 1222.215,
@@ -1242,31 +1242,15 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "corporateActions": [
-      {
-        "header": "Dividend",
-        "message": "1929.T announced a cash dividend of JPY 22.00 with an ex-date of Sep. 29, 2026",
-        "meta": {
-          "eventType": "DIVIDEND",
-          "dateEpochMs": 1790607600000,
-          "amount": "22.00"
-        }
-      }
-    ],
-    "regularMarketTime": 1789713000,
-    "marketState": "CLOSED",
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 978307200000,
-    "regularMarketChange": -4.0,
-    "regularMarketDayRange": "1238.0 - 1251.0",
-    "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 86931,
-    "fiftyTwoWeekLowChange": 167.0,
-    "fiftyTwoWeekLowChangePercent": 0.15549348,
-    "fiftyTwoWeekRange": "1074.0 - 1465.0",
-    "fiftyTwoWeekHighChange": -224.0,
-    "fiftyTwoWeekHighChangePercent": -0.15290102,
-    "fiftyTwoWeekChangePercent": -1.9747257,
+    "exchange": "JPX",
+    "messageBoardId": "finmb_880945",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
+    "regularMarketChangePercent": -0.32128516,
+    "regularMarketPrice": 1241.0,
     "earningsTimestampStart": 1754546400,
     "earningsTimestampEnd": 1754978400,
     "isEarningsDateEstimate": true,
@@ -1280,17 +1264,33 @@
     "exchangeDataDelayedBy": 20,
     "averageAnalystRating": "3.0 - Hold",
     "cryptoTradeable": false,
-    "exchange": "JPX",
-    "messageBoardId": "finmb_880945",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
-    "regularMarketChangePercent": -0.32128516,
-    "regularMarketPrice": 1241.0,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 978307200000,
+    "regularMarketChange": -4.0,
+    "regularMarketDayRange": "1238.0 - 1251.0",
+    "fullExchangeName": "Tokyo",
+    "averageDailyVolume3Month": 86931,
+    "fiftyTwoWeekLowChange": 167.0,
+    "fiftyTwoWeekLowChangePercent": 0.15549348,
+    "fiftyTwoWeekRange": "1074.0 - 1465.0",
+    "fiftyTwoWeekHighChange": -224.0,
+    "fiftyTwoWeekHighChangePercent": -0.15290102,
+    "fiftyTwoWeekChangePercent": -1.9747257,
+    "marketState": "CLOSED",
     "shortName": "NITTOC CONSTRUCTION CO",
     "longName": "Nittoc Construction Co., Ltd.",
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "1929.T announced a cash dividend of JPY 22.00 with an ex-date of Sep. 29, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1790607600000,
+          "amount": "22.00"
+        }
+      }
+    ],
+    "regularMarketTime": 1789713000,
     "trailingPegRatio": null
   }
 }

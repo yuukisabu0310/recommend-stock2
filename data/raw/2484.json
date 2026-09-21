@@ -1,7 +1,7 @@
 {
   "ticker": "2484",
   "japanese_ticker": "2484.T",
-  "fetch_date": "2026-09-20T00:41:19.764758",
+  "fetch_date": "2026-09-21T00:52:19.884147",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-08-31 00:00:00": 0.0,
@@ -880,7 +880,7 @@
     "allTimeLow": 39.375,
     "fulldayPrice": 152.0,
     "fulldayChange": -6.0,
-    "fulldayChangePercent": -3.7974682,
+    "fulldayChangePercent": -0.03797468,
     "priceToSalesTrailing12Months": 0.4473639,
     "fiftyDayAverage": 147.36,
     "twoHundredDayAverage": 133.7,
@@ -935,9 +935,16 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "marketState": "CLOSED",
-    "longName": "Demae-Can Co.,Ltd",
+    "regularMarketChangePercent": -3.7974682,
+    "regularMarketPrice": 152.0,
     "shortName": "DEMAE-CAN CO LTD",
+    "longName": "Demae-Can Co.,Ltd",
+    "marketState": "CLOSED",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1149465600000,
+    "regularMarketChange": -6.0,
+    "regularMarketDayRange": "151.0 - 158.0",
+    "fullExchangeName": "Tokyo",
     "averageDailyVolume3Month": 651522,
     "fiftyTwoWeekLowChange": 40.0,
     "fiftyTwoWeekLowChangePercent": 0.35714287,
@@ -958,11 +965,6 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1149465600000,
-    "regularMarketChange": -6.0,
-    "regularMarketDayRange": "151.0 - 158.0",
-    "fullExchangeName": "Tokyo",
     "corporateActions": [],
     "regularMarketTime": 1789713000,
     "exchange": "JPX",
@@ -972,8 +974,6 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "regularMarketChangePercent": -3.7974682,
-    "regularMarketPrice": 152.0,
     "trailingPegRatio": null
   }
 }

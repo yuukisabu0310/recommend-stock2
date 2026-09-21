@@ -1,7 +1,7 @@
 {
   "ticker": "1662",
   "japanese_ticker": "1662.T",
-  "fetch_date": "2026-09-20T00:32:42.592922",
+  "fetch_date": "2026-09-21T00:42:32.228984",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": 1200568000.0,
@@ -1306,7 +1306,7 @@
     "ask": 1930.0,
     "bidSize": 0,
     "askSize": 0,
-    "marketCap": 493822640128,
+    "marketCap": 492360073216,
     "nonDilutedMarketCap": 492360064539,
     "fiftyTwoWeekLow": 1195.0,
     "fiftyTwoWeekHigh": 2819.0,
@@ -1314,8 +1314,8 @@
     "allTimeLow": 308.2,
     "fulldayPrice": 1929.0,
     "fulldayChange": -10.0,
-    "fulldayChangePercent": -0.5157297,
-    "priceToSalesTrailing12Months": 1.5307299,
+    "fulldayChangePercent": -0.0051572975,
+    "priceToSalesTrailing12Months": 1.5261962,
     "fiftyDayAverage": 1813.88,
     "twoHundredDayAverage": 1953.705,
     "trailingAnnualDividendRate": 65.0,
@@ -1325,10 +1325,10 @@
     "enterpriseValue": 484511645696,
     "profitMargins": 0.12694,
     "floatShares": 132960912,
-    "sharesOutstanding": 255999291,
+    "sharesOutstanding": 255241091,
     "heldPercentInsiders": 0.4309,
     "heldPercentInstitutions": 0.19256,
-    "impliedSharesOutstanding": 255999291,
+    "impliedSharesOutstanding": 255241091,
     "bookValue": 2310.249,
     "priceToBook": 0.83497494,
     "lastFiscalYearEnd": 1774915200,
@@ -1380,6 +1380,7 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "marketState": "CLOSED",
     "corporateActions": [
       {
         "header": "Dividend",
@@ -1391,9 +1392,18 @@
         }
       }
     ],
+    "regularMarketTime": 1789713000,
+    "exchange": "JPX",
+    "messageBoardId": "finmb_5490756",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
+    "regularMarketChangePercent": -0.5157297,
+    "regularMarketPrice": 1929.0,
     "shortName": "JAPAN PETROLEUM EXPLORATION CO ",
     "longName": "Japan Petroleum Exploration Co., Ltd.",
-    "marketState": "CLOSED",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1071014400000,
     "regularMarketChange": -10.0,
@@ -1420,18 +1430,8 @@
     "twoHundredDayAverageChangePercent": -0.012645183,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
-    "regularMarketTime": 1789713000,
-    "exchange": "JPX",
-    "messageBoardId": "finmb_5490756",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
     "averageAnalystRating": "3.0 - Hold",
     "cryptoTradeable": false,
-    "regularMarketChangePercent": -0.5157297,
-    "regularMarketPrice": 1929.0,
     "trailingPegRatio": null
   }
 }

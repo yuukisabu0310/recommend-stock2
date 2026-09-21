@@ -1,7 +1,7 @@
 {
   "ticker": "1860",
   "japanese_ticker": "1860.T",
-  "fetch_date": "2026-09-20T00:34:24.650287",
+  "fetch_date": "2026-09-21T00:44:28.858162",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": 1598168000.0,
@@ -1274,7 +1274,7 @@
     "allTimeLow": 164.0,
     "fulldayPrice": 1518.5,
     "fulldayChange": -7.5,
-    "fulldayChangePercent": -0.491481,
+    "fulldayChangePercent": -0.00491481,
     "priceToSalesTrailing12Months": 0.67119336,
     "fiftyDayAverage": 1509.1,
     "twoHundredDayAverage": 1468.885,
@@ -1338,9 +1338,6 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "marketState": "CLOSED",
-    "regularMarketChangePercent": -0.491481,
-    "regularMarketPrice": 1518.5,
     "corporateActions": [
       {
         "header": "Dividend",
@@ -1353,6 +1350,8 @@
       }
     ],
     "regularMarketTime": 1789713000,
+    "shortName": "TODA CORP",
+    "longName": "Toda Corporation",
     "exchange": "JPX",
     "messageBoardId": "finmb_876263",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1360,6 +1359,12 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
+    "regularMarketChangePercent": -0.491481,
+    "regularMarketPrice": 1518.5,
+    "earningsTimestamp": 1794551400,
+    "earningsTimestampStart": 1794551400,
+    "earningsTimestampEnd": 1794551400,
+    "isEarningsDateEstimate": false,
     "epsTrailingTwelveMonths": 123.3,
     "epsForward": 91.2,
     "fiftyDayAverageChange": 9.400024,
@@ -1381,12 +1386,7 @@
     "fiftyTwoWeekHighChange": -146.5,
     "fiftyTwoWeekHighChangePercent": -0.08798799,
     "fiftyTwoWeekChangePercent": 44.550217,
-    "earningsTimestamp": 1794551400,
-    "earningsTimestampStart": 1794551400,
-    "earningsTimestampEnd": 1794551400,
-    "isEarningsDateEstimate": false,
-    "shortName": "TODA CORP",
-    "longName": "Toda Corporation",
+    "marketState": "CLOSED",
     "trailingPegRatio": null
   }
 }

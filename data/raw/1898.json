@@ -1,7 +1,7 @@
 {
   "ticker": "1898",
   "japanese_ticker": "1898.T",
-  "fetch_date": "2026-09-20T00:34:52.681568",
+  "fetch_date": "2026-09-21T00:45:02.116749",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": 31050000.0,
@@ -1170,7 +1170,7 @@
     "allTimeLow": 125.0,
     "fulldayPrice": 1491.0,
     "fulldayChange": -11.0,
-    "fulldayChangePercent": -0.73235685,
+    "fulldayChangePercent": -0.0073235687,
     "priceToSalesTrailing12Months": 0.5773018,
     "fiftyDayAverage": 1482.32,
     "twoHundredDayAverage": 1537.57,
@@ -1227,10 +1227,18 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "marketState": "CLOSED",
-    "longName": "Seikitokyu Kogyo Co., Ltd.",
-    "shortName": "SEIKITOKYU KOGYO CO",
-    "averageDailyVolume3Month": 154895,
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "1898.T announced a cash dividend of JPY 37.00 with an ex-date of Sep. 29, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1790607600000,
+          "amount": "37.00"
+        }
+      }
+    ],
+    "regularMarketTime": 1789713000,
     "fiftyTwoWeekLowChange": 96.0,
     "fiftyTwoWeekLowChangePercent": 0.068817206,
     "fiftyTwoWeekRange": "1395.0 - 1729.0",
@@ -1250,21 +1258,13 @@
     "cryptoTradeable": false,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 978307200000,
+    "longName": "Seikitokyu Kogyo Co., Ltd.",
+    "regularMarketPrice": 1491.0,
+    "marketState": "CLOSED",
     "regularMarketChange": -11.0,
     "regularMarketDayRange": "1491.0 - 1502.0",
     "fullExchangeName": "Tokyo",
-    "corporateActions": [
-      {
-        "header": "Dividend",
-        "message": "1898.T announced a cash dividend of JPY 37.00 with an ex-date of Sep. 29, 2026",
-        "meta": {
-          "eventType": "DIVIDEND",
-          "dateEpochMs": 1790607600000,
-          "amount": "37.00"
-        }
-      }
-    ],
-    "regularMarketTime": 1789713000,
+    "averageDailyVolume3Month": 154895,
     "exchange": "JPX",
     "messageBoardId": "finmb_881013",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1273,7 +1273,7 @@
     "market": "jp_market",
     "esgPopulated": false,
     "regularMarketChangePercent": -0.73235685,
-    "regularMarketPrice": 1491.0,
+    "shortName": "SEIKITOKYU KOGYO CO",
     "trailingPegRatio": null
   }
 }

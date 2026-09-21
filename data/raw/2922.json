@@ -1,7 +1,7 @@
 {
   "ticker": "2922",
   "japanese_ticker": "2922.T",
-  "fetch_date": "2026-09-20T00:45:36.889710",
+  "fetch_date": "2026-09-21T00:57:05.798039",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": 9438546.959351,
@@ -1213,7 +1213,7 @@
     "allTimeLow": 633.0,
     "fulldayPrice": 1992.0,
     "fulldayChange": -12.0,
-    "fulldayChangePercent": -0.59880245,
+    "fulldayChangePercent": -0.0059880246,
     "priceToSalesTrailing12Months": 0.5180891,
     "fiftyDayAverage": 1987.6,
     "twoHundredDayAverage": 1927.87,
@@ -1269,8 +1269,10 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1000684800000,
+    "shortName": "NATORI CO LTD",
+    "longName": "Natori Co., Ltd.",
+    "regularMarketChangePercent": -0.59880245,
+    "regularMarketPrice": 1992.0,
     "regularMarketChange": -12.0,
     "regularMarketDayRange": "1990.0 - 2010.0",
     "fullExchangeName": "Tokyo",
@@ -1286,15 +1288,10 @@
     "isEarningsDateEstimate": true,
     "epsTrailingTwelveMonths": 106.77,
     "epsForward": 122.2,
-    "shortName": "NATORI CO LTD",
-    "longName": "Natori Co., Ltd.",
     "fiftyDayAverageChange": 4.4000244,
     "fiftyDayAverageChangePercent": 0.0022137375,
     "twoHundredDayAverageChange": 64.130005,
     "twoHundredDayAverageChangePercent": 0.033264693,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
     "corporateActions": [
       {
         "header": "Dividend",
@@ -1314,9 +1311,12 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "regularMarketChangePercent": -0.59880245,
-    "regularMarketPrice": 1992.0,
     "marketState": "CLOSED",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1000684800000,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
     "trailingPegRatio": null
   }
 }

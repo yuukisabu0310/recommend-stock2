@@ -1,7 +1,7 @@
 {
   "ticker": "2351",
   "japanese_ticker": "2351.T",
-  "fetch_date": "2026-09-20T00:39:43.855590",
+  "fetch_date": "2026-09-21T00:50:34.368181",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": 0.0,
@@ -998,7 +998,7 @@
     "allTimeLow": 165.0,
     "fulldayPrice": 331.0,
     "fulldayChange": -6.0,
-    "fulldayChangePercent": -1.7804155,
+    "fulldayChangePercent": -0.017804155,
     "priceToSalesTrailing12Months": 0.93430644,
     "fiftyDayAverage": 331.78,
     "twoHundredDayAverage": 339.46,
@@ -1055,7 +1055,7 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "marketState": "CLOSED",
+    "corporateActions": [],
     "regularMarketTime": 1789713000,
     "exchange": "JPX",
     "messageBoardId": "finmb_8839417",
@@ -1066,14 +1066,10 @@
     "esgPopulated": false,
     "regularMarketChangePercent": -1.7804155,
     "regularMarketPrice": 331.0,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1043971200000,
-    "regularMarketChange": -6.0,
-    "regularMarketDayRange": "330.0 - 342.0",
-    "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 14047,
     "shortName": "ASJ INC",
     "longName": "ASJ Inc.",
+    "fullExchangeName": "Tokyo",
+    "averageDailyVolume3Month": 14047,
     "fiftyTwoWeekLowChange": 46.0,
     "fiftyTwoWeekLowChangePercent": 0.1614035,
     "fiftyTwoWeekRange": "285.0 - 466.0",
@@ -1091,7 +1087,11 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
-    "corporateActions": [],
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1043971200000,
+    "marketState": "CLOSED",
+    "regularMarketChange": -6.0,
+    "regularMarketDayRange": "330.0 - 342.0",
     "trailingPegRatio": null
   }
 }

@@ -1,7 +1,7 @@
 {
   "ticker": "2413",
   "japanese_ticker": "2413.T",
-  "fetch_date": "2026-09-20T00:40:27.346377",
+  "fetch_date": "2026-09-21T00:51:21.327468",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": 0.0,
@@ -961,7 +961,7 @@
     "priceHint": 2,
     "previousClose": 1797.5,
     "open": 1790.5,
-    "dayLow": 1754.0,
+    "dayLow": 1753.0,
     "dayHigh": 1794.5,
     "regularMarketPreviousClose": 1797.5,
     "regularMarketOpen": 1790.5,
@@ -991,7 +991,7 @@
     "allTimeLow": 48.47222,
     "fulldayPrice": 1773.0,
     "fulldayChange": -24.5,
-    "fulldayChangePercent": -1.3630042,
+    "fulldayChangePercent": -0.013630042,
     "priceToSalesTrailing12Months": 3.3253171,
     "fiftyDayAverage": 1782.08,
     "twoHundredDayAverage": 1742.04,
@@ -1042,10 +1042,6 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "regularMarketChangePercent": -1.3630042,
-    "regularMarketPrice": 1773.0,
-    "shortName": "M3 INC",
-    "marketState": "CLOSED",
     "corporateActions": [],
     "regularMarketTime": 1789713000,
     "exchange": "JPX",
@@ -1055,7 +1051,6 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "longName": "M3, Inc.",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1095292800000,
     "regularMarketChange": -24.5,
@@ -1076,6 +1071,8 @@
     "isEarningsDateEstimate": false,
     "epsTrailingTwelveMonths": 72.52,
     "epsForward": 71.65,
+    "regularMarketChangePercent": -1.3630042,
+    "regularMarketPrice": 1773.0,
     "fiftyDayAverageChange": -9.079956,
     "fiftyDayAverageChangePercent": -0.005095145,
     "twoHundredDayAverageChange": 30.95996,
@@ -1084,6 +1081,9 @@
     "exchangeDataDelayedBy": 20,
     "averageAnalystRating": "2.2 - Buy",
     "cryptoTradeable": false,
+    "shortName": "M3 INC",
+    "longName": "M3, Inc.",
+    "marketState": "CLOSED",
     "trailingPegRatio": null
   }
 }

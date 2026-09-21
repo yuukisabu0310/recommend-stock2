@@ -1,7 +1,7 @@
 {
   "ticker": "2445",
   "japanese_ticker": "2445.T",
-  "fetch_date": "2026-09-20T00:40:51.924303",
+  "fetch_date": "2026-09-21T00:51:50.408961",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": 22614200.0,
@@ -1305,8 +1305,7 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1197849600000,
+    "marketState": "CLOSED",
     "regularMarketChange": 0.0,
     "regularMarketDayRange": "400.0 - 405.0",
     "fullExchangeName": "Tokyo",
@@ -1328,8 +1327,8 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
-    "shortName": "TAKAMIYA CO LTD",
-    "longName": "Takamiya Co., Ltd.",
+    "regularMarketChangePercent": 0.0,
+    "regularMarketPrice": 404.0,
     "corporateActions": [
       {
         "header": "Dividend",
@@ -1349,9 +1348,10 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "regularMarketChangePercent": 0.0,
-    "regularMarketPrice": 404.0,
-    "marketState": "CLOSED",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1197849600000,
+    "shortName": "TAKAMIYA CO LTD",
+    "longName": "Takamiya Co., Ltd.",
     "trailingPegRatio": null
   }
 }

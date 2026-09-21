@@ -1,7 +1,7 @@
 {
   "ticker": "2153",
   "japanese_ticker": "2153.T",
-  "fetch_date": "2026-09-20T00:37:09.237022",
+  "fetch_date": "2026-09-21T00:47:35.390642",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-05-31 00:00:00": 62320000.0,
@@ -1327,11 +1327,10 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "shortName": "E J HOLDINGS INC",
-    "longName": "E J Holdings Inc.",
-    "corporateActions": [],
-    "regularMarketTime": 1789713000,
-    "exchange": "JPX",
+    "marketState": "CLOSED",
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
     "messageBoardId": "finmb_34160292",
     "exchangeTimezoneName": "Asia/Tokyo",
     "exchangeTimezoneShortName": "JST",
@@ -1340,7 +1339,11 @@
     "esgPopulated": false,
     "regularMarketChangePercent": -0.05285412,
     "regularMarketPrice": 1891.0,
-    "marketState": "CLOSED",
+    "corporateActions": [],
+    "regularMarketTime": 1789713000,
+    "exchange": "JPX",
+    "shortName": "E J HOLDINGS INC",
+    "longName": "E J Holdings Inc.",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1180656000000,
     "regularMarketChange": -1.0,
@@ -1361,9 +1364,6 @@
     "fiftyDayAverageChangePercent": 0.055316202,
     "twoHundredDayAverageChange": 146.33997,
     "twoHundredDayAverageChangePercent": 0.083878785,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
     "trailingPegRatio": null
   }
 }

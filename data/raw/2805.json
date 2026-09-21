@@ -1,7 +1,7 @@
 {
   "ticker": "2805",
   "japanese_ticker": "2805.T",
-  "fetch_date": "2026-09-20T00:44:27.442325",
+  "fetch_date": "2026-09-21T00:55:48.614544",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": 211165000.0,
@@ -1231,7 +1231,7 @@
     "allTimeLow": 637.5,
     "fulldayPrice": 7930.0,
     "fulldayChange": 160.0,
-    "fulldayChangePercent": 2.0592022,
+    "fulldayChangePercent": 0.020592023,
     "priceToSalesTrailing12Months": 1.4540545,
     "fiftyDayAverage": 6747.4,
     "twoHundredDayAverage": 5158.55,
@@ -1292,8 +1292,27 @@
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
     "marketState": "CLOSED",
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 978307200000,
+    "exchange": "JPX",
+    "messageBoardId": "finmb_883479",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "2805.T announced a cash dividend of JPY 30.00 with an ex-date of Sep. 29, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1790607600000,
+          "amount": "30.00"
+        }
+      }
+    ],
+    "regularMarketTime": 1789713000,
+    "regularMarketChangePercent": 2.0592022,
+    "regularMarketPrice": 7930.0,
     "regularMarketChange": 160.0,
     "regularMarketDayRange": "7640.0 - 7930.0",
     "fullExchangeName": "Tokyo",
@@ -1315,30 +1334,11 @@
     "twoHundredDayAverageChangePercent": 0.53725374,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
-    "corporateActions": [
-      {
-        "header": "Dividend",
-        "message": "2805.T announced a cash dividend of JPY 30.00 with an ex-date of Sep. 29, 2026",
-        "meta": {
-          "eventType": "DIVIDEND",
-          "dateEpochMs": 1790607600000,
-          "amount": "30.00"
-        }
-      }
-    ],
-    "regularMarketTime": 1789713000,
-    "exchange": "JPX",
-    "messageBoardId": "finmb_883479",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
-    "regularMarketChangePercent": 2.0592022,
-    "regularMarketPrice": 7930.0,
+    "cryptoTradeable": false,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 978307200000,
     "shortName": "S & B FOODS INC",
     "longName": "S&B Foods Inc.",
-    "cryptoTradeable": false,
     "trailingPegRatio": null
   }
 }

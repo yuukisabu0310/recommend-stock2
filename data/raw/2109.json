@@ -1,7 +1,7 @@
 {
   "ticker": "2109",
   "japanese_ticker": "2109.T",
-  "fetch_date": "2026-09-20T00:36:37.793484",
+  "fetch_date": "2026-09-21T00:46:58.479179",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": -2204400000.0,
@@ -1301,7 +1301,7 @@
     "ask": 3860.0,
     "bidSize": 0,
     "askSize": 0,
-    "marketCap": 119954677760,
+    "marketCap": 119954522112,
     "nonDilutedMarketCap": 119954519985,
     "fiftyTwoWeekLow": 3000.0,
     "fiftyTwoWeekHigh": 3885.0,
@@ -1309,8 +1309,8 @@
     "allTimeLow": 810.0,
     "fulldayPrice": 3855.0,
     "fulldayChange": -25.0,
-    "fulldayChangePercent": -0.6443299,
-    "priceToSalesTrailing12Months": 0.67178917,
+    "fulldayChangePercent": -0.006443299,
+    "priceToSalesTrailing12Months": 0.6717883,
     "fiftyDayAverage": 3576.5,
     "twoHundredDayAverage": 3405.925,
     "trailingAnnualDividendRate": 130.0,
@@ -1320,10 +1320,10 @@
     "enterpriseValue": 126113521664,
     "profitMargins": 0.023640001,
     "floatShares": 14110448,
-    "sharesOutstanding": 31116649,
+    "sharesOutstanding": 31116607,
     "heldPercentInsiders": 0.52064997,
     "heldPercentInstitutions": 0.08672,
-    "impliedSharesOutstanding": 31116649,
+    "impliedSharesOutstanding": 31116607,
     "bookValue": 3633.558,
     "priceToBook": 1.0609435,
     "lastFiscalYearEnd": 1774915200,
@@ -1368,9 +1368,6 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "regularMarketChangePercent": -0.6443299,
-    "regularMarketPrice": 3855.0,
-    "shortName": "MITSUI DM SUGAR CO LTD",
     "exchange": "JPX",
     "messageBoardId": "finmb_880505",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1378,20 +1375,10 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "longName": "Mitsui DM Sugar Co.,Ltd.",
-    "corporateActions": [
-      {
-        "header": "Dividend",
-        "message": "2109.T announced a cash dividend of JPY 70.00 with an ex-date of Sep. 29, 2026",
-        "meta": {
-          "eventType": "DIVIDEND",
-          "dateEpochMs": 1790607600000,
-          "amount": "70.00"
-        }
-      }
-    ],
-    "regularMarketTime": 1789713000,
-    "marketState": "CLOSED",
+    "regularMarketChangePercent": -0.6443299,
+    "regularMarketPrice": 3855.0,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 978307200000,
     "regularMarketChange": -25.0,
     "regularMarketDayRange": "3850.0 - 3885.0",
     "fullExchangeName": "Tokyo",
@@ -1413,10 +1400,23 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "prevName": "Mitsui Sugar Co., Ltd.",
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 978307200000,
-    "nameChangeDate": "2026-09-19",
+    "nameChangeDate": "2026-09-20",
     "cryptoTradeable": false,
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "2109.T announced a cash dividend of JPY 70.00 with an ex-date of Sep. 29, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1790607600000,
+          "amount": "70.00"
+        }
+      }
+    ],
+    "regularMarketTime": 1789713000,
+    "shortName": "MITSUI DM SUGAR CO LTD",
+    "longName": "Mitsui DM Sugar Co.,Ltd.",
+    "marketState": "CLOSED",
     "trailingPegRatio": null
   }
 }

@@ -1,7 +1,7 @@
 {
   "ticker": "1431",
   "japanese_ticker": "1431.T",
-  "fetch_date": "2026-09-20T00:32:12.619343",
+  "fetch_date": "2026-09-21T00:41:58.434861",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-06-30 00:00:00": -2629952.0,
@@ -1053,7 +1053,7 @@
     "allTimeLow": 133.875,
     "fulldayPrice": 657.0,
     "fulldayChange": -1.0,
-    "fulldayChangePercent": -0.15197569,
+    "fulldayChangePercent": -0.0015197569,
     "priceToSalesTrailing12Months": 0.9749411,
     "fiftyDayAverage": 650.44,
     "twoHundredDayAverage": 652.0,
@@ -1115,6 +1115,9 @@
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
     "marketState": "CLOSED",
+    "shortName": "LIB WORK CO LTD",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1560816000000,
     "regularMarketChange": -1.0,
     "regularMarketDayRange": "656.0 - 661.0",
     "fullExchangeName": "Tokyo",
@@ -1127,6 +1130,15 @@
     "fiftyTwoWeekChangePercent": -13.552629,
     "earningsTimestampStart": 1747117800,
     "earningsTimestampEnd": 1747117800,
+    "isEarningsDateEstimate": false,
+    "epsTrailingTwelveMonths": 4.4,
+    "fiftyDayAverageChange": 6.5599976,
+    "fiftyDayAverageChangePercent": 0.010085477,
+    "twoHundredDayAverageChange": 5.0,
+    "twoHundredDayAverageChangePercent": 0.0076687117,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
     "corporateActions": [
       {
         "header": "Dividend",
@@ -1139,21 +1151,6 @@
       }
     ],
     "regularMarketTime": 1789713000,
-    "regularMarketChangePercent": -0.15197569,
-    "regularMarketPrice": 657.0,
-    "isEarningsDateEstimate": false,
-    "epsTrailingTwelveMonths": 4.4,
-    "fiftyDayAverageChange": 6.5599976,
-    "fiftyDayAverageChangePercent": 0.010085477,
-    "twoHundredDayAverageChange": 5.0,
-    "twoHundredDayAverageChangePercent": 0.0076687117,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1560816000000,
-    "shortName": "LIB WORK CO LTD",
-    "longName": "Lib Work Co.,Ltd.",
     "exchange": "JPX",
     "messageBoardId": "finmb_52302883",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1161,6 +1158,9 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
+    "regularMarketChangePercent": -0.15197569,
+    "regularMarketPrice": 657.0,
+    "longName": "Lib Work Co.,Ltd.",
     "trailingPegRatio": null
   }
 }

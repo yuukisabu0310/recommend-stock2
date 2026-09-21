@@ -1,7 +1,7 @@
 {
   "ticker": "2060",
   "japanese_ticker": "2060.T",
-  "fetch_date": "2026-09-20T00:36:34.088395",
+  "fetch_date": "2026-09-21T00:46:54.414173",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": -2040000.0,
@@ -1093,7 +1093,7 @@
     "allTimeLow": 515.0,
     "fulldayPrice": 1473.0,
     "fulldayChange": -15.0,
-    "fulldayChangePercent": -1.0080645,
+    "fulldayChangePercent": -0.010080645,
     "priceToSalesTrailing12Months": 0.18970688,
     "fiftyDayAverage": 1367.46,
     "twoHundredDayAverage": 1212.06,
@@ -1153,6 +1153,7 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "marketState": "CLOSED",
     "corporateActions": [
       {
         "header": "Dividend",
@@ -1164,15 +1165,24 @@
         }
       }
     ],
-    "shortName": "FEED ONE CO LTD",
-    "longName": "Feed One Co.,Ltd.",
-    "marketState": "CLOSED",
+    "regularMarketTime": 1789713000,
+    "exchange": "JPX",
+    "messageBoardId": "finmb_265815469",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
+    "regularMarketChangePercent": -1.0080645,
+    "regularMarketPrice": 1473.0,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1412726400000,
     "regularMarketChange": -15.0,
     "regularMarketDayRange": "1462.0 - 1486.0",
     "fullExchangeName": "Tokyo",
     "averageDailyVolume3Month": 96212,
+    "shortName": "FEED ONE CO LTD",
+    "longName": "Feed One Co.,Ltd.",
     "fiftyTwoWeekLowChange": 508.0,
     "fiftyTwoWeekLowChangePercent": 0.5264249,
     "fiftyTwoWeekRange": "965.0 - 1489.0",
@@ -1190,19 +1200,9 @@
     "twoHundredDayAverageChangePercent": 0.21528631,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
-    "regularMarketTime": 1789713000,
-    "exchange": "JPX",
-    "messageBoardId": "finmb_265815469",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
     "prevName": "Feedone Co., Ltd.",
-    "nameChangeDate": "2026-09-19",
+    "nameChangeDate": "2026-09-20",
     "cryptoTradeable": false,
-    "regularMarketChangePercent": -1.0080645,
-    "regularMarketPrice": 1473.0,
     "trailingPegRatio": null
   }
 }

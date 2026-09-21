@@ -1,7 +1,7 @@
 {
   "ticker": "2497",
   "japanese_ticker": "2497.T",
-  "fetch_date": "2026-09-20T00:41:32.323167",
+  "fetch_date": "2026-09-21T00:52:34.918655",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": -24013600.0,
@@ -1253,10 +1253,8 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "regularMarketChangePercent": 0.0,
-    "regularMarketPrice": 526.0,
     "shortName": "UNITED INC",
-    "marketState": "CLOSED",
+    "longName": "UNITED, Inc.",
     "corporateActions": [
       {
         "header": "Dividend",
@@ -1276,7 +1274,12 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "longName": "UNITED, Inc.",
+    "regularMarketChangePercent": 0.0,
+    "regularMarketPrice": 526.0,
+    "marketState": "CLOSED",
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1156896000000,
     "regularMarketChange": 0.0,
@@ -1298,9 +1301,6 @@
     "fiftyDayAverageChangePercent": 0.00034230854,
     "twoHundredDayAverageChange": 9.799988,
     "twoHundredDayAverageChangePercent": 0.018984865,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
     "trailingPegRatio": null
   }
 }

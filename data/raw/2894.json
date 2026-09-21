@@ -1,7 +1,7 @@
 {
   "ticker": "2894",
   "japanese_ticker": "2894.T",
-  "fetch_date": "2026-09-20T00:45:10.714713",
+  "fetch_date": "2026-09-21T00:56:36.897033",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": -37870000.0,
@@ -1123,7 +1123,7 @@
     "regularMarketDayLow": 358.0,
     "regularMarketDayHigh": 364.0,
     "dividendRate": 4.0,
-    "dividendYield": 1.12,
+    "dividendYield": 1.1,
     "exDividendDate": 1806364800,
     "payoutRatio": 0.16450001,
     "fiveYearAvgDividendYield": 1.28,
@@ -1145,7 +1145,7 @@
     "allTimeLow": 181.0,
     "fulldayPrice": 363.0,
     "fulldayChange": 5.0,
-    "fulldayChangePercent": 1.396648,
+    "fulldayChangePercent": 0.01396648,
     "priceToSalesTrailing12Months": 0.5433159,
     "fiftyDayAverage": 346.78,
     "twoHundredDayAverage": 340.26,
@@ -1202,10 +1202,6 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "shortName": "ISHII FOOD CO LTD",
-    "longName": "Ishii Food Co., Ltd.",
-    "corporateActions": [],
-    "regularMarketTime": 1789713000,
     "marketState": "CLOSED",
     "exchange": "JPX",
     "messageBoardId": "finmb_879083",
@@ -1232,13 +1228,17 @@
     "epsTrailingTwelveMonths": -7.51,
     "fiftyDayAverageChange": 16.220001,
     "fiftyDayAverageChangePercent": 0.046773173,
+    "shortName": "ISHII FOOD CO LTD",
+    "longName": "Ishii Food Co., Ltd.",
     "twoHundredDayAverageChange": 22.73999,
     "twoHundredDayAverageChangePercent": 0.066831216,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
+    "corporateActions": [],
+    "regularMarketTime": 1789713000,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 978307200000,
-    "cryptoTradeable": false,
     "trailingPegRatio": null
   }
 }

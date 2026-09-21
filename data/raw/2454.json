@@ -1,7 +1,7 @@
 {
   "ticker": "2454",
   "japanese_ticker": "2454.T",
-  "fetch_date": "2026-09-20T00:40:55.624763",
+  "fetch_date": "2026-09-21T00:51:54.598331",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": -35946400.0,
@@ -1099,7 +1099,7 @@
     "allTimeLow": 198.0,
     "fulldayPrice": 348.0,
     "fulldayChange": -3.0,
-    "fulldayChangePercent": -0.8547009,
+    "fulldayChangePercent": -0.008547009,
     "priceToSalesTrailing12Months": 0.32454416,
     "fiftyDayAverage": 346.04,
     "twoHundredDayAverage": 368.48,
@@ -1155,6 +1155,9 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "marketState": "CLOSED",
+    "regularMarketChangePercent": -0.8547009,
+    "regularMarketPrice": 348.0,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1126569600000,
     "regularMarketChange": -3.0,
@@ -1177,6 +1180,7 @@
     "twoHundredDayAverageChangePercent": -0.055579707,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
     "corporateActions": [],
     "regularMarketTime": 1789713000,
     "exchange": "JPX",
@@ -1188,10 +1192,6 @@
     "esgPopulated": false,
     "shortName": "ALL ABOUT INC",
     "longName": "All About, Inc.",
-    "cryptoTradeable": false,
-    "marketState": "CLOSED",
-    "regularMarketChangePercent": -0.8547009,
-    "regularMarketPrice": 348.0,
     "trailingPegRatio": null
   }
 }

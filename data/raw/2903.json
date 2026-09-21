@@ -1,7 +1,7 @@
 {
   "ticker": "2903",
   "japanese_ticker": "2903.T",
-  "fetch_date": "2026-09-20T00:45:16.148265",
+  "fetch_date": "2026-09-21T00:56:43.824666",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": -7878000.0,
@@ -1077,7 +1077,7 @@
     "allTimeLow": 119.0,
     "fulldayPrice": 1608.0,
     "fulldayChange": -2.0,
-    "fulldayChangePercent": -0.1242236,
+    "fulldayChangePercent": -0.001242236,
     "priceToSalesTrailing12Months": 0.27450484,
     "fiftyDayAverage": 1626.42,
     "twoHundredDayAverage": 1657.995,
@@ -1134,16 +1134,8 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "regularMarketChangePercent": -0.1242236,
-    "regularMarketPrice": 1608.0,
-    "epsTrailingTwelveMonths": 149.54,
-    "fiftyDayAverageChange": -18.420044,
-    "fiftyDayAverageChangePercent": -0.011325515,
-    "twoHundredDayAverageChange": -49.994995,
-    "twoHundredDayAverageChangePercent": -0.030153887,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
+    "longName": "Shinobu Foods Products Co., Ltd.",
+    "marketState": "CLOSED",
     "corporateActions": [
       {
         "header": "Dividend",
@@ -1163,6 +1155,9 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
+    "regularMarketChangePercent": -0.1242236,
+    "regularMarketPrice": 1608.0,
+    "shortName": "SHINOBU FOOD PRODUCTS CO",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 954806400000,
     "regularMarketChange": -2.0,
@@ -1178,9 +1173,14 @@
     "earningsTimestampStart": 1746766800,
     "earningsTimestampEnd": 1746766800,
     "isEarningsDateEstimate": false,
-    "shortName": "SHINOBU FOOD PRODUCTS CO",
-    "longName": "Shinobu Foods Products Co., Ltd.",
-    "marketState": "CLOSED",
+    "epsTrailingTwelveMonths": 149.54,
+    "fiftyDayAverageChange": -18.420044,
+    "fiftyDayAverageChangePercent": -0.011325515,
+    "twoHundredDayAverageChange": -49.994995,
+    "twoHundredDayAverageChangePercent": -0.030153887,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
     "trailingPegRatio": null
   }
 }

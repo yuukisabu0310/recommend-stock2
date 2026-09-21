@@ -1,7 +1,7 @@
 {
   "ticker": "1801",
   "japanese_ticker": "1801.T",
-  "fetch_date": "2026-09-20T00:33:34.539333",
+  "fetch_date": "2026-09-21T00:43:32.969298",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": 14735949000.0,
@@ -1270,8 +1270,8 @@
     "allTimeLow": 695.0,
     "fulldayPrice": 12620.0,
     "fulldayChange": -110.0,
-    "fulldayChangePercent": -0.8641006,
-    "priceToSalesTrailing12Months": 0.94802856,
+    "fulldayChangePercent": -0.0086410055,
+    "priceToSalesTrailing12Months": 0.94802135,
     "fiftyDayAverage": 13035.0,
     "twoHundredDayAverage": 15137.375,
     "trailingAnnualDividendRate": 310.0,
@@ -1335,8 +1335,30 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "firstTradeDateMilliseconds": 946944000000,
+    "marketState": "CLOSED",
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "1801.T announced a cash dividend of JPY 190.00 with an ex-date of Sep. 29, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1790607600000,
+          "amount": "190.00"
+        }
+      }
+    ],
+    "regularMarketTime": 1789713000,
+    "exchange": "JPX",
+    "messageBoardId": "finmb_874554",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
+    "regularMarketChangePercent": -0.8641006,
+    "regularMarketPrice": 12620.0,
     "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 946944000000,
     "regularMarketChange": -110.0,
     "regularMarketDayRange": "12595.0 - 12900.0",
     "fullExchangeName": "Tokyo",
@@ -1363,30 +1385,8 @@
     "exchangeDataDelayedBy": 20,
     "averageAnalystRating": "1.6 - Buy",
     "cryptoTradeable": false,
-    "marketState": "CLOSED",
     "shortName": "TAISEI CORP",
     "longName": "Taisei Corporation",
-    "corporateActions": [
-      {
-        "header": "Dividend",
-        "message": "1801.T announced a cash dividend of JPY 190.00 with an ex-date of Sep. 29, 2026",
-        "meta": {
-          "eventType": "DIVIDEND",
-          "dateEpochMs": 1790607600000,
-          "amount": "190.00"
-        }
-      }
-    ],
-    "regularMarketTime": 1789713000,
-    "exchange": "JPX",
-    "messageBoardId": "finmb_874554",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
-    "regularMarketChangePercent": -0.8641006,
-    "regularMarketPrice": 12620.0,
     "trailingPegRatio": null
   }
 }

@@ -1,7 +1,7 @@
 {
   "ticker": "2806",
   "japanese_ticker": "2806.T",
-  "fetch_date": "2026-09-20T00:44:29.399602",
+  "fetch_date": "2026-09-21T00:55:50.811094",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": -875000.0,
@@ -979,7 +979,7 @@
     "regularMarketDayLow": 1894.0,
     "regularMarketDayHigh": 1922.0,
     "dividendRate": 40.0,
-    "dividendYield": 2.08,
+    "dividendYield": 2.09,
     "exDividendDate": 1790640000,
     "payoutRatio": 1.3622999,
     "fiveYearAvgDividendYield": 2.03,
@@ -1002,7 +1002,7 @@
     "allTimeLow": 692.0,
     "fulldayPrice": 1917.0,
     "fulldayChange": -8.0,
-    "fulldayChangePercent": -0.4155844,
+    "fulldayChangePercent": -0.004155844,
     "priceToSalesTrailing12Months": 0.8506897,
     "fiftyDayAverage": 1896.02,
     "twoHundredDayAverage": 2031.12,
@@ -1058,8 +1058,28 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 978998400000,
+    "marketState": "CLOSED",
+    "exchange": "JPX",
+    "messageBoardId": "finmb_9262020",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "2806.T announced a cash dividend of JPY 20.00 with an ex-date of Sep. 29, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1790607600000,
+          "amount": "20.00"
+        }
+      }
+    ],
+    "regularMarketTime": 1789713000,
+    "regularMarketChangePercent": -0.4155844,
+    "regularMarketPrice": 1917.0,
     "regularMarketChange": -8.0,
     "regularMarketDayRange": "1894.0 - 1922.0",
     "fullExchangeName": "Tokyo",
@@ -1080,31 +1100,11 @@
     "twoHundredDayAverageChangePercent": -0.05618575,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
-    "corporateActions": [
-      {
-        "header": "Dividend",
-        "message": "2806.T announced a cash dividend of JPY 20.00 with an ex-date of Sep. 29, 2026",
-        "meta": {
-          "eventType": "DIVIDEND",
-          "dateEpochMs": 1790607600000,
-          "amount": "20.00"
-        }
-      }
-    ],
-    "regularMarketTime": 1789713000,
-    "exchange": "JPX",
-    "messageBoardId": "finmb_9262020",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
+    "cryptoTradeable": false,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 978998400000,
     "shortName": "YUTAKA FOODS CORP",
     "longName": "Yutaka Foods Corporation",
-    "cryptoTradeable": false,
-    "marketState": "CLOSED",
-    "regularMarketChangePercent": -0.4155844,
-    "regularMarketPrice": 1917.0,
     "trailingPegRatio": null
   }
 }

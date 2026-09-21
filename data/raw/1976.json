@@ -1,7 +1,7 @@
 {
   "ticker": "1976",
   "japanese_ticker": "1976.T",
-  "fetch_date": "2026-09-20T00:36:05.533602",
+  "fetch_date": "2026-09-21T00:46:23.488034",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": -227445000.0,
@@ -1151,7 +1151,7 @@
     "allTimeLow": 105.0,
     "fulldayPrice": 1713.0,
     "fulldayChange": -29.0,
-    "fulldayChangePercent": -1.6647531,
+    "fulldayChangePercent": -0.01664753,
     "priceToSalesTrailing12Months": 1.3199867,
     "fiftyDayAverage": 1812.58,
     "twoHundredDayAverage": 1797.42,
@@ -1208,19 +1208,6 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "marketState": "CLOSED",
-    "corporateActions": [
-      {
-        "header": "Dividend",
-        "message": "1976.T announced a cash dividend of JPY 25.00 with an ex-date of Sep. 29, 2026",
-        "meta": {
-          "eventType": "DIVIDEND",
-          "dateEpochMs": 1790607600000,
-          "amount": "25.00"
-        }
-      }
-    ],
-    "regularMarketTime": 1789713000,
     "exchange": "JPX",
     "messageBoardId": "finmb_880939",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1230,8 +1217,6 @@
     "esgPopulated": false,
     "regularMarketChangePercent": -1.6647531,
     "regularMarketPrice": 1713.0,
-    "shortName": "MEISEI INDUSTRIAL CO",
-    "longName": "MEISEI INDUSTRIAL Co.,Ltd.",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 954806400000,
     "regularMarketChange": -29.0,
@@ -1255,6 +1240,21 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "1976.T announced a cash dividend of JPY 25.00 with an ex-date of Sep. 29, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1790607600000,
+          "amount": "25.00"
+        }
+      }
+    ],
+    "regularMarketTime": 1789713000,
+    "shortName": "MEISEI INDUSTRIAL CO",
+    "longName": "MEISEI INDUSTRIAL Co.,Ltd.",
+    "marketState": "CLOSED",
     "trailingPegRatio": null
   }
 }

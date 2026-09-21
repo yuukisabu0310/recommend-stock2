@@ -1,7 +1,7 @@
 {
   "ticker": "2226",
   "japanese_ticker": "2226.T",
-  "fetch_date": "2026-09-20T00:38:20.501576",
+  "fetch_date": "2026-09-21T00:48:57.949291",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": -51067000.0,
@@ -1099,7 +1099,7 @@
     "allTimeLow": 653.0,
     "fulldayPrice": 4895.0,
     "fulldayChange": -10.0,
-    "fulldayChangePercent": -0.20387359,
+    "fulldayChangePercent": -0.002038736,
     "priceToSalesTrailing12Months": 0.8495969,
     "fiftyDayAverage": 4832.8,
     "twoHundredDayAverage": 4703.675,
@@ -1158,6 +1158,8 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "shortName": "KOIKE-YA INC",
+    "longName": "KOIKE-YA Inc.",
     "marketState": "CLOSED",
     "corporateActions": [],
     "regularMarketTime": 1789713000,
@@ -1170,12 +1172,6 @@
     "esgPopulated": false,
     "regularMarketChangePercent": -0.20387359,
     "regularMarketPrice": 4895.0,
-    "shortName": "KOIKE-YA INC",
-    "longName": "KOIKE-YA Inc.",
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1087516800000,
-    "regularMarketChange": -10.0,
-    "regularMarketDayRange": "4895.0 - 4910.0",
     "fullExchangeName": "Tokyo",
     "averageDailyVolume3Month": 2441,
     "fiftyTwoWeekLowChange": 490.0,
@@ -1195,6 +1191,10 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1087516800000,
+    "regularMarketChange": -10.0,
+    "regularMarketDayRange": "4895.0 - 4910.0",
     "trailingPegRatio": null
   }
 }

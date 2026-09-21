@@ -1,7 +1,7 @@
 {
   "ticker": "2395",
   "japanese_ticker": "2395.T",
-  "fetch_date": "2026-09-20T00:40:17.677015",
+  "fetch_date": "2026-09-21T00:51:11.562127",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": -105633302.0,
@@ -1248,7 +1248,7 @@
     "allTimeLow": 185.0,
     "fulldayPrice": 1348.0,
     "fulldayChange": -1.0,
-    "fulldayChangePercent": -0.074128985,
+    "fulldayChangePercent": -0.00074128987,
     "priceToSalesTrailing12Months": 1.6546595,
     "fiftyDayAverage": 1355.14,
     "twoHundredDayAverage": 1447.975,
@@ -1313,8 +1313,7 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "shortName": "SHIN NIPPON BIOMEDICAL LABORATO",
-    "longName": "Shin Nippon Biomedical Laboratories, Ltd.",
+    "marketState": "CLOSED",
     "corporateActions": [
       {
         "header": "Dividend",
@@ -1327,7 +1326,6 @@
       }
     ],
     "regularMarketTime": 1789713000,
-    "marketState": "CLOSED",
     "exchange": "JPX",
     "messageBoardId": "finmb_5877815",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1337,10 +1335,14 @@
     "esgPopulated": false,
     "regularMarketChangePercent": -0.074128985,
     "regularMarketPrice": 1348.0,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1078704000000,
     "regularMarketChange": -1.0,
     "regularMarketDayRange": "1344.0 - 1362.0",
     "fullExchangeName": "Tokyo",
     "averageDailyVolume3Month": 212469,
+    "shortName": "SHIN NIPPON BIOMEDICAL LABORATO",
+    "longName": "Shin Nippon Biomedical Laboratories, Ltd.",
     "fiftyTwoWeekLowChange": 281.0,
     "fiftyTwoWeekLowChangePercent": 0.2633552,
     "fiftyTwoWeekRange": "1067.0 - 2005.0",
@@ -1358,8 +1360,6 @@
     "twoHundredDayAverageChangePercent": -0.06904469,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1078704000000,
     "cryptoTradeable": false,
     "trailingPegRatio": null
   }

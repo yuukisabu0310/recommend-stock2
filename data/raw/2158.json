@@ -1,7 +1,7 @@
 {
   "ticker": "2158",
   "japanese_ticker": "2158.T",
-  "fetch_date": "2026-09-20T00:37:16.479606",
+  "fetch_date": "2026-09-21T00:47:44.706502",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": -9374533.0,
@@ -1277,7 +1277,7 @@
     "allTimeLow": 10.1,
     "fulldayPrice": 641.0,
     "fulldayChange": 14.0,
-    "fulldayChangePercent": 2.2328548,
+    "fulldayChangePercent": 0.022328548,
     "priceToSalesTrailing12Months": 3.2494948,
     "fiftyDayAverage": 632.96,
     "twoHundredDayAverage": 746.43,
@@ -1335,10 +1335,6 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "regularMarketChangePercent": 2.2328548,
-    "regularMarketPrice": 641.0,
-    "shortName": "FRONTEO INC",
-    "marketState": "CLOSED",
     "corporateActions": [],
     "regularMarketTime": 1789713000,
     "exchange": "JPX",
@@ -1348,7 +1344,9 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "longName": "FRONTEO, Inc.",
+    "regularMarketPrice": 641.0,
+    "marketState": "CLOSED",
+    "regularMarketChangePercent": 2.2328548,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1182816000000,
     "regularMarketChange": 14.0,
@@ -1374,6 +1372,8 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
+    "shortName": "FRONTEO INC",
+    "longName": "FRONTEO, Inc.",
     "trailingPegRatio": null
   }
 }

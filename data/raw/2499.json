@@ -1,7 +1,7 @@
 {
   "ticker": "2499",
   "japanese_ticker": "2499.T",
-  "fetch_date": "2026-09-20T00:41:35.993765",
+  "fetch_date": "2026-09-21T00:52:38.838115",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-12-31 00:00:00": 8170565.0,
@@ -992,7 +992,7 @@
     "allTimeLow": 210.0,
     "fulldayPrice": 310.0,
     "fulldayChange": 1.0,
-    "fulldayChangePercent": 0.3236246,
+    "fulldayChangePercent": 0.003236246,
     "priceToSalesTrailing12Months": 0.61188626,
     "fiftyDayAverage": 297.14,
     "twoHundredDayAverage": 321.46,
@@ -1053,6 +1053,30 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "exchange": "JPX",
+    "messageBoardId": "finmb_28606947",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
+    "regularMarketChangePercent": 0.3236246,
+    "regularMarketPrice": 310.0,
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "2499.T announced a cash dividend of JPY 3.00 with an ex-date of Sep. 29, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1790607600000,
+          "amount": "3.00"
+        }
+      }
+    ],
+    "regularMarketTime": 1789713000,
+    "shortName": "NIHONWASOU HOLDINGS INC",
+    "longName": "Nihonwasou Holdings, Inc.",
+    "marketState": "CLOSED",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1266883200000,
     "regularMarketChange": 1.0,
@@ -1075,31 +1099,7 @@
     "twoHundredDayAverageChangePercent": -0.03564982,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
-    "corporateActions": [
-      {
-        "header": "Dividend",
-        "message": "2499.T announced a cash dividend of JPY 3.00 with an ex-date of Sep. 29, 2026",
-        "meta": {
-          "eventType": "DIVIDEND",
-          "dateEpochMs": 1790607600000,
-          "amount": "3.00"
-        }
-      }
-    ],
-    "regularMarketTime": 1789713000,
-    "exchange": "JPX",
-    "messageBoardId": "finmb_28606947",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
-    "shortName": "NIHONWASOU HOLDINGS INC",
-    "longName": "Nihonwasou Holdings, Inc.",
     "cryptoTradeable": false,
-    "marketState": "CLOSED",
-    "regularMarketChangePercent": 0.3236246,
-    "regularMarketPrice": 310.0,
     "trailingPegRatio": null
   }
 }

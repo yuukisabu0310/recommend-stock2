@@ -1,7 +1,7 @@
 {
   "ticker": "2485",
   "japanese_ticker": "2485.T",
-  "fetch_date": "2026-09-20T00:41:21.274635",
+  "fetch_date": "2026-09-21T00:52:22.260111",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-09-30 00:00:00": -41745000.0,
@@ -1255,37 +1255,7 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "shortName": "TEAR CORPORATION",
     "longName": "Tear Corporation",
-    "marketState": "CLOSED",
-    "corporateActions": [
-      {
-        "header": "Dividend",
-        "message": "2485.T announced a cash dividend of JPY 13.00 with an ex-date of Sep. 29, 2026",
-        "meta": {
-          "eventType": "DIVIDEND",
-          "dateEpochMs": 1790607600000,
-          "amount": "13.00"
-        }
-      }
-    ],
-    "regularMarketTime": 1789713000,
-    "regularMarketChangePercent": 0.0,
-    "regularMarketPrice": 451.0,
-    "exchange": "JPX",
-    "messageBoardId": "finmb_26991660",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
-    "fiftyDayAverageChange": -8.579987,
-    "fiftyDayAverageChangePercent": -0.018669192,
-    "twoHundredDayAverageChange": -37.640015,
-    "twoHundredDayAverageChangePercent": -0.07703015,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1371772800000,
     "regularMarketChange": 0.0,
@@ -1301,7 +1271,37 @@
     "earningsTimestampStart": 1754980200,
     "earningsTimestampEnd": 1755498600,
     "isEarningsDateEstimate": true,
+    "regularMarketChangePercent": 0.0,
+    "regularMarketPrice": 451.0,
+    "marketState": "CLOSED",
     "epsTrailingTwelveMonths": 17.41,
+    "fiftyDayAverageChange": -8.579987,
+    "fiftyDayAverageChangePercent": -0.018669192,
+    "twoHundredDayAverageChange": -37.640015,
+    "twoHundredDayAverageChangePercent": -0.07703015,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
+    "shortName": "TEAR CORPORATION",
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "2485.T announced a cash dividend of JPY 13.00 with an ex-date of Sep. 29, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1790607600000,
+          "amount": "13.00"
+        }
+      }
+    ],
+    "regularMarketTime": 1789713000,
+    "exchange": "JPX",
+    "messageBoardId": "finmb_26991660",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
     "trailingPegRatio": null
   }
 }

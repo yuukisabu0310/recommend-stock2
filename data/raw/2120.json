@@ -1,7 +1,7 @@
 {
   "ticker": "2120",
   "japanese_ticker": "2120.T",
-  "fetch_date": "2026-09-20T00:36:45.319756",
+  "fetch_date": "2026-09-21T00:47:07.520516",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-09-30 00:00:00": 11465440.21025,
@@ -1109,7 +1109,7 @@
     "allTimeLow": 23.016666,
     "fulldayPrice": 232.0,
     "fulldayChange": -5.0,
-    "fulldayChangePercent": -2.1097047,
+    "fulldayChangePercent": -0.021097047,
     "priceToSalesTrailing12Months": 1.0249223,
     "fiftyDayAverage": 219.9,
     "twoHundredDayAverage": 198.355,
@@ -1171,10 +1171,7 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1162252800000,
-    "regularMarketChange": -5.0,
-    "regularMarketDayRange": "232.0 - 240.0",
+    "marketState": "CLOSED",
     "fullExchangeName": "Tokyo",
     "averageDailyVolume3Month": 816293,
     "fiftyTwoWeekLowChange": 75.0,
@@ -1196,7 +1193,8 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "prevName": "LIFULL Co., Ltd.",
-    "nameChangeDate": "2026-09-19",
+    "nameChangeDate": "2026-09-20",
+    "cryptoTradeable": false,
     "corporateActions": [
       {
         "header": "Dividend",
@@ -1216,12 +1214,14 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "shortName": "LIFULL CO LTD",
-    "longName": "LIFULL Co.,Ltd.",
-    "cryptoTradeable": false,
-    "marketState": "CLOSED",
     "regularMarketChangePercent": -2.1097047,
     "regularMarketPrice": 232.0,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1162252800000,
+    "regularMarketChange": -5.0,
+    "regularMarketDayRange": "232.0 - 240.0",
+    "shortName": "LIFULL CO LTD",
+    "longName": "LIFULL Co.,Ltd.",
     "trailingPegRatio": null
   }
 }

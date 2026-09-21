@@ -1,7 +1,7 @@
 {
   "ticker": "2493",
   "japanese_ticker": "2493.T",
-  "fetch_date": "2026-09-20T00:41:30.621756",
+  "fetch_date": "2026-09-21T00:52:33.113609",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-11-30 00:00:00": -11137392.0,
@@ -1192,7 +1192,7 @@
     "allTimeLow": 278.0,
     "fulldayPrice": 956.0,
     "fulldayChange": 6.0,
-    "fulldayChangePercent": 0.631579,
+    "fulldayChangePercent": 0.0063157897,
     "priceToSalesTrailing12Months": 0.6237696,
     "fiftyDayAverage": 945.24,
     "twoHundredDayAverage": 969.955,
@@ -1251,6 +1251,8 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "marketState": "CLOSED",
+    "corporateActions": [],
     "regularMarketTime": 1789713000,
     "exchange": "JPX",
     "messageBoardId": "finmb_27941528",
@@ -1259,6 +1261,8 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
+    "regularMarketChangePercent": 0.631579,
+    "regularMarketPrice": 956.0,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1155168000000,
     "regularMarketChange": 6.0,
@@ -1267,8 +1271,6 @@
     "averageDailyVolume3Month": 5530,
     "shortName": "E SUPPORTLINK LTD",
     "longName": "E-SUPPORTLINK, Ltd.",
-    "regularMarketChangePercent": 0.631579,
-    "regularMarketPrice": 956.0,
     "fiftyTwoWeekLowChange": 55.0,
     "fiftyTwoWeekLowChangePercent": 0.061043285,
     "fiftyTwoWeekRange": "901.0 - 1027.0",
@@ -1288,8 +1290,6 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
-    "marketState": "CLOSED",
-    "corporateActions": [],
     "trailingPegRatio": null
   }
 }

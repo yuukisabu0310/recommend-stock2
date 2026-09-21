@@ -1,7 +1,7 @@
 {
   "ticker": "2281",
   "japanese_ticker": "2281.T",
-  "fetch_date": "2026-09-20T00:38:34.977311",
+  "fetch_date": "2026-09-21T00:49:14.306220",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": -1004400000.0,
@@ -1315,7 +1315,7 @@
     "allTimeLow": 140.0,
     "fulldayPrice": 2407.0,
     "fulldayChange": -41.0,
-    "fulldayChangePercent": -1.6748366,
+    "fulldayChangePercent": -0.016748367,
     "priceToSalesTrailing12Months": 0.25090468,
     "fiftyDayAverage": 2423.54,
     "twoHundredDayAverage": 2571.93,
@@ -1382,27 +1382,9 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "marketState": "CLOSED",
-    "regularMarketTime": 1789713000,
-    "exchange": "JPX",
-    "messageBoardId": "finmb_874463",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
-    "regularMarketChangePercent": -1.6748366,
-    "regularMarketPrice": 2407.0,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 978307200000,
-    "regularMarketChange": -41.0,
-    "regularMarketDayRange": "2407.0 - 2437.0",
-    "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 132858,
     "shortName": "PRIMA MEAT PACKERS",
     "longName": "Prima Meat Packers, Ltd.",
-    "fiftyTwoWeekLowChange": 194.0,
-    "fiftyTwoWeekLowChangePercent": 0.08766381,
+    "marketState": "CLOSED",
     "fiftyTwoWeekRange": "2213.0 - 2929.0",
     "fiftyTwoWeekHighChange": -522.0,
     "fiftyTwoWeekHighChangePercent": -0.17821783,
@@ -1421,6 +1403,12 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
+    "regularMarketChange": -41.0,
+    "regularMarketDayRange": "2407.0 - 2437.0",
+    "fullExchangeName": "Tokyo",
+    "averageDailyVolume3Month": 132858,
+    "fiftyTwoWeekLowChange": 194.0,
+    "fiftyTwoWeekLowChangePercent": 0.08766381,
     "corporateActions": [
       {
         "header": "Dividend",
@@ -1432,6 +1420,18 @@
         }
       }
     ],
+    "regularMarketTime": 1789713000,
+    "exchange": "JPX",
+    "messageBoardId": "finmb_874463",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
+    "regularMarketChangePercent": -1.6748366,
+    "regularMarketPrice": 2407.0,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 978307200000,
     "trailingPegRatio": null
   }
 }

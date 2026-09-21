@@ -1,7 +1,7 @@
 {
   "ticker": "2871",
   "japanese_ticker": "2871.T",
-  "fetch_date": "2026-09-20T00:44:52.024405",
+  "fetch_date": "2026-09-21T00:56:16.237570",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": 419429493.509309,
@@ -1181,7 +1181,7 @@
     "allTimeLow": 245.0,
     "fulldayPrice": 2210.0,
     "fulldayChange": -18.0,
-    "fulldayChangePercent": -0.8078994,
+    "fulldayChangePercent": -0.008078994,
     "priceToSalesTrailing12Months": 0.7152024,
     "fiftyDayAverage": 2163.63,
     "twoHundredDayAverage": 2006.3275,
@@ -1247,6 +1247,8 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "regularMarketChangePercent": -0.8078994,
+    "regularMarketPrice": 2210.0,
     "corporateActions": [
       {
         "header": "Dividend",
@@ -1259,9 +1261,16 @@
       }
     ],
     "regularMarketTime": 1789713000,
-    "marketState": "CLOSED",
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 946944000000,
+    "exchange": "JPX",
+    "messageBoardId": "finmb_876656",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
+    "shortName": "NICHIREI CORP",
+    "longName": "Nichirei Corporation",
+    "cryptoTradeable": false,
     "regularMarketChange": -18.0,
     "regularMarketDayRange": "2191.5 - 2227.5",
     "fullExchangeName": "Tokyo",
@@ -1287,19 +1296,10 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "prevName": "Orbcity",
-    "nameChangeDate": "2026-09-19",
-    "cryptoTradeable": false,
-    "exchange": "JPX",
-    "messageBoardId": "finmb_876656",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
-    "regularMarketChangePercent": -0.8078994,
-    "regularMarketPrice": 2210.0,
-    "shortName": "NICHIREI CORP",
-    "longName": "Nichirei Corporation",
+    "nameChangeDate": "2026-09-20",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 946944000000,
+    "marketState": "CLOSED",
     "trailingPegRatio": null
   }
 }

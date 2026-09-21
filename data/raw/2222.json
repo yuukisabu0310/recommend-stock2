@@ -1,7 +1,7 @@
 {
   "ticker": "2222",
   "japanese_ticker": "2222.T",
-  "fetch_date": "2026-09-20T00:38:16.858918",
+  "fetch_date": "2026-09-21T00:48:54.076192",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": 13860000.0,
@@ -1151,7 +1151,7 @@
     "allTimeLow": 44.733334,
     "fulldayPrice": 2597.0,
     "fulldayChange": 12.0,
-    "fulldayChangePercent": 0.46421662,
+    "fulldayChangePercent": 0.004642166,
     "priceToSalesTrailing12Months": 4.9838157,
     "fiftyDayAverage": 2605.76,
     "twoHundredDayAverage": 2153.6575,
@@ -1229,7 +1229,6 @@
       }
     ],
     "regularMarketTime": 1789713000,
-    "marketState": "CLOSED",
     "exchange": "JPX",
     "messageBoardId": "finmb_5382199",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1239,6 +1238,12 @@
     "esgPopulated": false,
     "regularMarketChangePercent": 0.46421662,
     "regularMarketPrice": 2597.0,
+    "marketState": "CLOSED",
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1266796800000,
     "regularMarketChange": 12.0,
     "regularMarketDayRange": "2545.0 - 2597.0",
     "fullExchangeName": "Tokyo",
@@ -1259,11 +1264,6 @@
     "fiftyDayAverageChangePercent": -0.003361787,
     "twoHundredDayAverageChange": 443.34253,
     "twoHundredDayAverageChangePercent": 0.20585564,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1266796800000,
-    "cryptoTradeable": false,
     "trailingPegRatio": null
   }
 }

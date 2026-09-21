@@ -1,7 +1,7 @@
 {
   "ticker": "2801",
   "japanese_ticker": "2801.T",
-  "fetch_date": "2026-09-20T00:44:22.763068",
+  "fetch_date": "2026-09-21T00:55:42.602209",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": 0.0,
@@ -1185,7 +1185,7 @@
     "allTimeLow": 123.6,
     "fulldayPrice": 1655.0,
     "fulldayChange": -29.0,
-    "fulldayChangePercent": -1.7220904,
+    "fulldayChangePercent": -0.017220903,
     "priceToSalesTrailing12Months": 1.9891007,
     "fiftyDayAverage": 1717.93,
     "twoHundredDayAverage": 1524.0525,
@@ -1252,18 +1252,6 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "corporateActions": [
-      {
-        "header": "Dividend",
-        "message": "2801.T announced a cash dividend of JPY 10.00 with an ex-date of Sep. 29, 2026",
-        "meta": {
-          "eventType": "DIVIDEND",
-          "dateEpochMs": 1790607600000,
-          "amount": "10.00"
-        }
-      }
-    ],
-    "regularMarketTime": 1789713000,
     "exchange": "JPX",
     "messageBoardId": "finmb_810173",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1273,21 +1261,6 @@
     "esgPopulated": false,
     "regularMarketChangePercent": -1.7220904,
     "regularMarketPrice": 1655.0,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 946944000000,
-    "marketState": "CLOSED",
-    "shortName": "KIKKOMAN CORP",
-    "longName": "Kikkoman Corporation",
-    "regularMarketChange": -29.0,
-    "regularMarketDayRange": "1642.5 - 1675.5",
-    "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 3768592,
-    "fiftyTwoWeekLowChange": 453.0,
-    "fiftyTwoWeekLowChangePercent": 0.37687188,
-    "fiftyTwoWeekRange": "1202.0 - 1867.5",
-    "fiftyTwoWeekHighChange": -212.5,
-    "fiftyTwoWeekHighChangePercent": -0.113788486,
-    "fiftyTwoWeekChangePercent": 28.145563,
     "earningsTimestamp": 1794205800,
     "earningsTimestampStart": 1794205800,
     "earningsTimestampEnd": 1794205800,
@@ -1304,6 +1277,33 @@
     "exchangeDataDelayedBy": 20,
     "averageAnalystRating": "2.2 - Buy",
     "cryptoTradeable": false,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 946944000000,
+    "regularMarketChange": -29.0,
+    "regularMarketDayRange": "1642.5 - 1675.5",
+    "fullExchangeName": "Tokyo",
+    "averageDailyVolume3Month": 3768592,
+    "fiftyTwoWeekLowChange": 453.0,
+    "fiftyTwoWeekLowChangePercent": 0.37687188,
+    "fiftyTwoWeekRange": "1202.0 - 1867.5",
+    "fiftyTwoWeekHighChange": -212.5,
+    "fiftyTwoWeekHighChangePercent": -0.113788486,
+    "fiftyTwoWeekChangePercent": 28.145563,
+    "marketState": "CLOSED",
+    "shortName": "KIKKOMAN CORP",
+    "longName": "Kikkoman Corporation",
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "2801.T announced a cash dividend of JPY 10.00 with an ex-date of Sep. 29, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1790607600000,
+          "amount": "10.00"
+        }
+      }
+    ],
+    "regularMarketTime": 1789713000,
     "trailingPegRatio": 4.4918
   }
 }

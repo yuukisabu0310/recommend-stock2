@@ -1,7 +1,7 @@
 {
   "ticker": "2207",
   "japanese_ticker": "2207.T",
-  "fetch_date": "2026-09-20T00:37:58.782261",
+  "fetch_date": "2026-09-21T00:48:32.619971",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": 460600000.0,
@@ -1211,7 +1211,7 @@
     "allTimeLow": 870.0,
     "fulldayPrice": 3450.0,
     "fulldayChange": -20.0,
-    "fulldayChangePercent": -0.57636887,
+    "fulldayChangePercent": -0.0057636886,
     "priceToSalesTrailing12Months": 1.9059745,
     "fiftyDayAverage": 3358.8,
     "twoHundredDayAverage": 2971.39,
@@ -1268,16 +1268,7 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "regularMarketChangePercent": -0.57636887,
-    "regularMarketPrice": 3450.0,
     "shortName": "MEITO CO LTD",
-    "exchange": "JPX",
-    "messageBoardId": "finmb_880913",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
     "longName": "Meito Co., Ltd.",
     "corporateActions": [
       {
@@ -1291,7 +1282,23 @@
       }
     ],
     "regularMarketTime": 1789713000,
+    "exchange": "JPX",
+    "messageBoardId": "finmb_880913",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
+    "regularMarketChangePercent": -0.57636887,
+    "regularMarketPrice": 3450.0,
     "marketState": "CLOSED",
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "prevName": "Meito Sangyo Co., Ltd.",
+    "nameChangeDate": "2026-09-20",
+    "cryptoTradeable": false,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 978307200000,
     "regularMarketChange": -20.0,
     "regularMarketDayRange": "3435.0 - 3470.0",
     "fullExchangeName": "Tokyo",
@@ -1310,13 +1317,6 @@
     "fiftyDayAverageChangePercent": 0.02715254,
     "twoHundredDayAverageChange": 478.6101,
     "twoHundredDayAverageChangePercent": 0.1610728,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "prevName": "Meito Sangyo Co., Ltd.",
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 978307200000,
-    "nameChangeDate": "2026-09-19",
-    "cryptoTradeable": false,
     "trailingPegRatio": null
   }
 }

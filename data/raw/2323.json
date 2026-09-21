@@ -1,7 +1,7 @@
 {
   "ticker": "2323",
   "japanese_ticker": "2323.T",
-  "fetch_date": "2026-09-20T00:39:10.078984",
+  "fetch_date": "2026-09-21T00:49:55.242285",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": 5717600.0,
@@ -1327,7 +1327,7 @@
     "allTimeLow": 16.666666,
     "fulldayPrice": 356.0,
     "fulldayChange": -10.0,
-    "fulldayChangePercent": -2.7322404,
+    "fulldayChangePercent": -0.027322404,
     "priceToSalesTrailing12Months": 3.5417678,
     "fiftyDayAverage": 306.66,
     "twoHundredDayAverage": 337.55,
@@ -1382,9 +1382,8 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "corporateActions": [],
-    "regularMarketTime": 1789713000,
-    "marketState": "CLOSED",
+    "shortName": "FONFUN CORPORATION",
+    "longName": "fonfun corporation",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1032480000000,
     "regularMarketChange": -10.0,
@@ -1397,6 +1396,7 @@
     "fiftyTwoWeekHighChange": -117.0,
     "fiftyTwoWeekHighChangePercent": -0.2473573,
     "fiftyTwoWeekChangePercent": 39.0625,
+    "marketState": "CLOSED",
     "earningsTimestampStart": 1755068400,
     "earningsTimestampEnd": 1755500400,
     "isEarningsDateEstimate": true,
@@ -1408,6 +1408,8 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
+    "corporateActions": [],
+    "regularMarketTime": 1789713000,
     "exchange": "JPX",
     "messageBoardId": "finmb_1570908",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1417,8 +1419,6 @@
     "esgPopulated": false,
     "regularMarketChangePercent": -2.7322404,
     "regularMarketPrice": 356.0,
-    "shortName": "FONFUN CORPORATION",
-    "longName": "fonfun corporation",
     "trailingPegRatio": null
   }
 }

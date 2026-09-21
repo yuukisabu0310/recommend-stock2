@@ -1,7 +1,7 @@
 {
   "ticker": "3034",
   "japanese_ticker": "3034.T",
-  "fetch_date": "2026-09-20T00:46:58.816168",
+  "fetch_date": "2026-09-21T00:58:38.529578",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": -198400000.0,
@@ -1240,7 +1240,7 @@
     "fulldayPrice": 2349.0,
     "fulldayChange": -34.0,
     "fulldayChangePercent": -1.426773,
-    "priceToSalesTrailing12Months": 0.30083194,
+    "priceToSalesTrailing12Months": 0.3013091,
     "fiftyDayAverage": 2274.26,
     "twoHundredDayAverage": 2029.045,
     "trailingAnnualDividendRate": 50.0,
@@ -1305,29 +1305,6 @@
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
     "shortName": "QOL HOLDINGS CO LTD",
-    "longName": "Qol Holdings Co., Ltd.",
-    "corporateActions": [
-      {
-        "header": "Dividend",
-        "message": "3034.T announced a cash dividend of JPY 27.00 with an ex-date of Sep. 29, 2026",
-        "meta": {
-          "eventType": "DIVIDEND",
-          "dateEpochMs": 1790607600000,
-          "amount": "27.00"
-        }
-      }
-    ],
-    "regularMarketTime": 1789713000,
-    "exchange": "JPX",
-    "messageBoardId": "finmb_5639104",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
-    "regularMarketChangePercent": -1.426773,
-    "regularMarketPrice": 2349.0,
-    "marketState": "CLOSED",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1220572800000,
     "regularMarketChange": -34.0,
@@ -1352,6 +1329,29 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
+    "exchange": "JPX",
+    "messageBoardId": "finmb_5639104",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
+    "regularMarketChangePercent": -1.426773,
+    "regularMarketPrice": 2349.0,
+    "marketState": "CLOSED",
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "3034.T announced a cash dividend of JPY 27.00 with an ex-date of Sep. 29, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1790607600000,
+          "amount": "27.00"
+        }
+      }
+    ],
+    "regularMarketTime": 1789713000,
+    "longName": "Qol Holdings Co., Ltd.",
     "trailingPegRatio": null
   }
 }

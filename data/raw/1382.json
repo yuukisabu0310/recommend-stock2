@@ -1,7 +1,7 @@
 {
   "ticker": "1382",
   "japanese_ticker": "1382.T",
-  "fetch_date": "2026-09-20T00:31:49.423449",
+  "fetch_date": "2026-09-21T00:41:33.674235",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-06-30 00:00:00": 556950.0,
@@ -910,7 +910,7 @@
     "allTimeLow": 570.0,
     "fulldayPrice": 885.0,
     "fulldayChange": -2.0,
-    "fulldayChangePercent": -0.22547913,
+    "fulldayChangePercent": -0.0022547913,
     "priceToSalesTrailing12Months": 0.2841626,
     "fiftyDayAverage": 938.54,
     "twoHundredDayAverage": 1498.02,
@@ -968,13 +968,6 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "shortName": "HOB CO.LTD",
-    "longName": "HOB Co.,Ltd.",
-    "marketState": "CLOSED",
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1122854400000,
-    "corporateActions": [],
-    "regularMarketTime": 1789713000,
     "regularMarketChange": -2.0,
     "regularMarketDayRange": "884.0 - 894.0",
     "fullExchangeName": "Tokyo",
@@ -996,6 +989,10 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
+    "shortName": "HOB CO.LTD",
+    "longName": "HOB Co.,Ltd.",
+    "corporateActions": [],
+    "regularMarketTime": 1789713000,
     "exchange": "JPX",
     "messageBoardId": "finmb_22829189",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1005,6 +1002,9 @@
     "esgPopulated": false,
     "regularMarketChangePercent": -0.22547913,
     "regularMarketPrice": 885.0,
+    "marketState": "CLOSED",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1122854400000,
     "trailingPegRatio": null
   }
 }

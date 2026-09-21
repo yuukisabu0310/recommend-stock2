@@ -1,7 +1,7 @@
 {
   "ticker": "1333",
   "japanese_ticker": "1333.T",
-  "fetch_date": "2026-09-20T00:31:36.766580",
+  "fetch_date": "2026-09-21T00:41:18.767831",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": 2350965000.0,
@@ -1235,7 +1235,7 @@
     "allTimeLow": 499.33334,
     "fulldayPrice": 1292.5,
     "fulldayChange": -13.5,
-    "fulldayChangePercent": -1.0336907,
+    "fulldayChangePercent": -0.010336907,
     "priceToSalesTrailing12Months": 0.17448568,
     "fiftyDayAverage": 1301.49,
     "twoHundredDayAverage": 1347.1559,
@@ -1294,22 +1294,10 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1396310400000,
-    "regularMarketChange": -13.5,
-    "regularMarketDayRange": "1290.5 - 1310.5",
-    "marketState": "CLOSED",
-    "exchange": "JPX",
-    "messageBoardId": "finmb_874365",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
     "shortName": "UMIOS CORP",
     "longName": "Umios Corporation",
-    "regularMarketChangePercent": -1.0336907,
-    "regularMarketPrice": 1292.5,
+    "regularMarketChange": -13.5,
+    "regularMarketDayRange": "1290.5 - 1310.5",
     "fullExchangeName": "Tokyo",
     "averageDailyVolume3Month": 499336,
     "fiftyTwoWeekLowChange": 186.83337,
@@ -1333,8 +1321,10 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "prevName": "Maruha Nichiro Corporation",
-    "nameChangeDate": "2026-09-19",
+    "nameChangeDate": "2026-09-20",
     "cryptoTradeable": false,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1396310400000,
     "corporateActions": [
       {
         "header": "Dividend",
@@ -1347,6 +1337,16 @@
       }
     ],
     "regularMarketTime": 1789713000,
+    "exchange": "JPX",
+    "messageBoardId": "finmb_874365",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
+    "regularMarketChangePercent": -1.0336907,
+    "regularMarketPrice": 1292.5,
+    "marketState": "CLOSED",
     "trailingPegRatio": null
   }
 }

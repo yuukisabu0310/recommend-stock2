@@ -1,7 +1,7 @@
 {
   "ticker": "1764",
   "japanese_ticker": "1764.T",
-  "fetch_date": "2026-09-20T00:33:10.474492",
+  "fetch_date": "2026-09-21T00:43:03.936391",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-06-30 00:00:00": null,
@@ -1073,7 +1073,7 @@
     "allTimeLow": 235.0,
     "fulldayPrice": 2681.0,
     "fulldayChange": 16.0,
-    "fulldayChangePercent": 0.60037524,
+    "fulldayChangePercent": 0.0060037524,
     "priceToSalesTrailing12Months": 0.13571987,
     "fiftyDayAverage": 2712.28,
     "twoHundredDayAverage": 2952.975,
@@ -1134,9 +1134,11 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "marketState": "CLOSED",
     "corporateActions": [],
     "regularMarketTime": 1789702830,
-    "marketState": "CLOSED",
+    "shortName": "KUDO CORP",
+    "longName": "Kudo Corporation",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 978307200000,
     "regularMarketChange": 16.0,
@@ -1169,8 +1171,6 @@
     "esgPopulated": false,
     "regularMarketChangePercent": 0.60037524,
     "regularMarketPrice": 2681.0,
-    "shortName": "KUDO CORP",
-    "longName": "Kudo Corporation",
     "trailingPegRatio": null
   }
 }

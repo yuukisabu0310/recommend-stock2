@@ -1,7 +1,7 @@
 {
   "ticker": "1964",
   "japanese_ticker": "1964.T",
-  "fetch_date": "2026-09-20T00:35:50.737852",
+  "fetch_date": "2026-09-21T00:46:07.159801",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": 914940000.0,
@@ -1087,7 +1087,7 @@
     "allTimeLow": 810.0,
     "fulldayPrice": 3930.0,
     "fulldayChange": -30.0,
-    "fulldayChangePercent": -0.75757575,
+    "fulldayChangePercent": -0.0075757573,
     "priceToSalesTrailing12Months": 0.73945725,
     "fiftyDayAverage": 3988.8,
     "twoHundredDayAverage": 4312.35,
@@ -1147,8 +1147,6 @@
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
     "marketState": "CLOSED",
-    "corporateActions": [],
-    "regularMarketTime": 1789713000,
     "exchange": "JPX",
     "messageBoardId": "finmb_875341",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1158,8 +1156,8 @@
     "esgPopulated": false,
     "regularMarketChangePercent": -0.75757575,
     "regularMarketPrice": 3930.0,
-    "shortName": "CHUGAI RO CO LTD",
-    "longName": "Chugai Ro Co., Ltd.",
+    "corporateActions": [],
+    "regularMarketTime": 1789713000,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 978566400000,
     "regularMarketChange": -30.0,
@@ -1183,6 +1181,8 @@
     "twoHundredDayAverageChangePercent": -0.08866397,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
+    "shortName": "CHUGAI RO CO LTD",
+    "longName": "Chugai Ro Co., Ltd.",
     "cryptoTradeable": false,
     "trailingPegRatio": null
   }

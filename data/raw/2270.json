@@ -1,7 +1,7 @@
 {
   "ticker": "2270",
   "japanese_ticker": "2270.T",
-  "fetch_date": "2026-09-20T00:38:33.239451",
+  "fetch_date": "2026-09-21T00:49:12.519416",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": 7196820000.0,
@@ -1120,7 +1120,7 @@
     "allTimeLow": 150.0,
     "fulldayPrice": 3750.0,
     "fulldayChange": -70.0,
-    "fulldayChangePercent": -1.8324608,
+    "fulldayChangePercent": -0.018324608,
     "priceToSalesTrailing12Months": 0.36121032,
     "fiftyDayAverage": 3719.8,
     "twoHundredDayAverage": 3451.255,
@@ -1185,13 +1185,13 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "regularMarketChangePercent": -1.8324608,
+    "regularMarketPrice": 3750.0,
     "shortName": "MEGMILK SNOW BRAND CO.LTD",
     "longName": "MEGMILK SNOW BRAND Co.,Ltd.",
     "marketState": "CLOSED",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 978307200000,
-    "corporateActions": [],
-    "regularMarketTime": 1789713000,
     "regularMarketChange": -70.0,
     "regularMarketDayRange": "3730.0 - 3795.0",
     "fullExchangeName": "Tokyo",
@@ -1215,8 +1215,10 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "prevName": "Megmilk Snow Brand Co., Ltd.",
-    "nameChangeDate": "2026-09-19",
+    "nameChangeDate": "2026-09-20",
     "cryptoTradeable": false,
+    "corporateActions": [],
+    "regularMarketTime": 1789713000,
     "exchange": "JPX",
     "messageBoardId": "finmb_109230640",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1224,8 +1226,6 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "regularMarketChangePercent": -1.8324608,
-    "regularMarketPrice": 3750.0,
     "trailingPegRatio": null
   }
 }

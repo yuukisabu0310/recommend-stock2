@@ -1,7 +1,7 @@
 {
   "ticker": "1802",
   "japanese_ticker": "1802.T",
-  "fetch_date": "2026-09-20T00:33:36.153970",
+  "fetch_date": "2026-09-21T00:43:34.833337",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": 13022208000.0,
@@ -478,13 +478,6 @@
       "2025-03-31 00:00:00": 1453358000000.0,
       "2024-03-31 00:00:00": 1433517000000.0,
       "2023-03-31 00:00:00": 1226434000000.0,
-      "2022-03-31 00:00:00": null
-    },
-    "Other Current Liabilities": {
-      "2026-03-31 00:00:00": 395089000000.0,
-      "2025-03-31 00:00:00": null,
-      "2024-03-31 00:00:00": null,
-      "2023-03-31 00:00:00": null,
       "2022-03-31 00:00:00": null
     },
     "Current Debt And Capital Lease Obligation": {
@@ -1178,7 +1171,7 @@
     "allTimeLow": 190.0,
     "fulldayPrice": 3083.0,
     "fulldayChange": -46.0,
-    "fulldayChangePercent": -1.4701182,
+    "fulldayChangePercent": -0.014701182,
     "priceToSalesTrailing12Months": 0.78904706,
     "fiftyDayAverage": 3101.97,
     "twoHundredDayAverage": 3455.9524,
@@ -1243,10 +1236,34 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "firstTradeDateMilliseconds": 946944000000,
+    "regularMarketChangePercent": -1.4701182,
+    "regularMarketPrice": 3083.0,
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "1802.T announced a cash dividend of JPY 47.00 with an ex-date of Sep. 29, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1790607600000,
+          "amount": "47.00"
+        }
+      }
+    ],
+    "regularMarketTime": 1789713000,
+    "exchange": "JPX",
+    "messageBoardId": "finmb_875655",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
+    "longName": "Obayashi Corporation",
     "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 946944000000,
     "regularMarketChange": -46.0,
     "regularMarketDayRange": "3083.0 - 3144.0",
+    "marketState": "CLOSED",
+    "shortName": "OBAYASHI CORP",
     "fullExchangeName": "Tokyo",
     "averageDailyVolume3Month": 2526847,
     "fiftyTwoWeekLowChange": 783.0,
@@ -1271,30 +1288,6 @@
     "exchangeDataDelayedBy": 20,
     "averageAnalystRating": "1.6 - Buy",
     "cryptoTradeable": false,
-    "marketState": "CLOSED",
-    "shortName": "OBAYASHI CORP",
-    "longName": "Obayashi Corporation",
-    "corporateActions": [
-      {
-        "header": "Dividend",
-        "message": "1802.T announced a cash dividend of JPY 47.00 with an ex-date of Sep. 29, 2026",
-        "meta": {
-          "eventType": "DIVIDEND",
-          "dateEpochMs": 1790607600000,
-          "amount": "47.00"
-        }
-      }
-    ],
-    "regularMarketTime": 1789713000,
-    "exchange": "JPX",
-    "messageBoardId": "finmb_875655",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
-    "regularMarketChangePercent": -1.4701182,
-    "regularMarketPrice": 3083.0,
     "trailingPegRatio": null
   }
 }
