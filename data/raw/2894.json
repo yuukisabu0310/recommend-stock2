@@ -1,7 +1,7 @@
 {
   "ticker": "2894",
   "japanese_ticker": "2894.T",
-  "fetch_date": "2026-09-21T00:56:36.897033",
+  "fetch_date": "2026-09-22T01:36:09.547243",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": -37870000.0,
@@ -1202,7 +1202,6 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "marketState": "CLOSED",
     "exchange": "JPX",
     "messageBoardId": "finmb_879083",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1212,6 +1211,8 @@
     "esgPopulated": false,
     "regularMarketChangePercent": 1.396648,
     "regularMarketPrice": 363.0,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 978307200000,
     "regularMarketChange": 5.0,
     "regularMarketDayRange": "358.0 - 364.0",
     "fullExchangeName": "Tokyo",
@@ -1228,17 +1229,16 @@
     "epsTrailingTwelveMonths": -7.51,
     "fiftyDayAverageChange": 16.220001,
     "fiftyDayAverageChangePercent": 0.046773173,
-    "shortName": "ISHII FOOD CO LTD",
-    "longName": "Ishii Food Co., Ltd.",
     "twoHundredDayAverageChange": 22.73999,
     "twoHundredDayAverageChangePercent": 0.066831216,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
+    "shortName": "ISHII FOOD CO LTD",
+    "longName": "Ishii Food Co., Ltd.",
     "corporateActions": [],
     "regularMarketTime": 1789713000,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 978307200000,
+    "marketState": "CLOSED",
     "trailingPegRatio": null
   }
 }

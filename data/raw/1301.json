@@ -1,7 +1,7 @@
 {
   "ticker": "1301",
   "japanese_ticker": "1301.T",
-  "fetch_date": "2026-09-21T00:41:14.419912",
+  "fetch_date": "2026-09-22T01:22:08.875074",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": 48511000.0,
@@ -1260,6 +1260,16 @@
     "customPriceAlertConfidence": "LOW",
     "shortName": "KYOKUYO CO LTD",
     "longName": "Kyokuyo Co., Ltd.",
+    "marketState": "CLOSED",
+    "exchange": "JPX",
+    "messageBoardId": "finmb_880050",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
+    "regularMarketChangePercent": -1.0548524,
+    "regularMarketPrice": 4690.0,
     "regularMarketChange": -50.0,
     "regularMarketDayRange": "4690.0 - 4735.0",
     "fullExchangeName": "Tokyo",
@@ -1286,16 +1296,6 @@
     "firstTradeDateMilliseconds": 978307200000,
     "corporateActions": [],
     "regularMarketTime": 1789713000,
-    "exchange": "JPX",
-    "messageBoardId": "finmb_880050",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
-    "regularMarketChangePercent": -1.0548524,
-    "regularMarketPrice": 4690.0,
-    "marketState": "CLOSED",
     "trailingPegRatio": null
   }
 }

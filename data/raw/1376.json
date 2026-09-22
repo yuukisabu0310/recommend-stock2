@@ -1,7 +1,7 @@
 {
   "ticker": "1376",
   "japanese_ticker": "1376.T",
-  "fetch_date": "2026-09-21T00:41:22.293172",
+  "fetch_date": "2026-09-22T01:22:16.677262",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-05-31 00:00:00": -10449312.0,
@@ -123,32 +123,32 @@
       "2022-05-31 00:00:00": null
     },
     "Diluted Average Shares": {
-      "2026-05-31 00:00:00": null,
+      "2026-05-31 00:00:00": 11036396.0,
       "2025-05-31 00:00:00": 11216000.0,
       "2024-05-31 00:00:00": 11402000.0,
       "2023-05-31 00:00:00": 11536857.0,
-      "2022-05-31 00:00:00": 11647000.0
+      "2022-05-31 00:00:00": null
     },
     "Basic Average Shares": {
-      "2026-05-31 00:00:00": null,
+      "2026-05-31 00:00:00": 11036396.0,
       "2025-05-31 00:00:00": 11216000.0,
       "2024-05-31 00:00:00": 11402000.0,
       "2023-05-31 00:00:00": 11536857.0,
-      "2022-05-31 00:00:00": 11647000.0
+      "2022-05-31 00:00:00": null
     },
     "Diluted EPS": {
-      "2026-05-31 00:00:00": null,
+      "2026-05-31 00:00:00": 120.07,
       "2025-05-31 00:00:00": 107.01,
       "2024-05-31 00:00:00": 103.28,
       "2023-05-31 00:00:00": 123.63,
-      "2022-05-31 00:00:00": 111.83
+      "2022-05-31 00:00:00": null
     },
     "Basic EPS": {
-      "2026-05-31 00:00:00": null,
+      "2026-05-31 00:00:00": 120.07,
       "2025-05-31 00:00:00": 107.01,
       "2024-05-31 00:00:00": 103.28,
       "2023-05-31 00:00:00": 123.63,
-      "2022-05-31 00:00:00": 111.83
+      "2022-05-31 00:00:00": null
     },
     "Diluted NI Availto Com Stockholders": {
       "2026-05-31 00:00:00": 1325187000.0,
@@ -1139,28 +1139,6 @@
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
     "marketState": "CLOSED",
-    "corporateActions": [],
-    "regularMarketTime": 1789713000,
-    "longName": "Kaneko Seeds Co., Ltd.",
-    "exchange": "JPX",
-    "messageBoardId": "finmb_4493094",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
-    "regularMarketChangePercent": -0.86580086,
-    "regularMarketPrice": 1603.0,
-    "shortName": "KANEKO SEEDS CO",
-    "isEarningsDateEstimate": true,
-    "epsTrailingTwelveMonths": 120.06,
-    "fiftyDayAverageChange": 26.920044,
-    "fiftyDayAverageChangePercent": 0.01708038,
-    "twoHundredDayAverageChange": 97.41504,
-    "twoHundredDayAverageChangePercent": 0.06470245,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 947030400000,
     "regularMarketChange": -14.0,
@@ -1175,6 +1153,28 @@
     "fiftyTwoWeekChangePercent": 9.794521,
     "earningsTimestampStart": 1751954400,
     "earningsTimestampEnd": 1752472800,
+    "isEarningsDateEstimate": true,
+    "longName": "Kaneko Seeds Co., Ltd.",
+    "epsTrailingTwelveMonths": 120.06,
+    "fiftyDayAverageChange": 26.920044,
+    "fiftyDayAverageChangePercent": 0.01708038,
+    "twoHundredDayAverageChange": 97.41504,
+    "twoHundredDayAverageChangePercent": 0.06470245,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
+    "corporateActions": [],
+    "regularMarketTime": 1789713000,
+    "exchange": "JPX",
+    "messageBoardId": "finmb_4493094",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
+    "regularMarketChangePercent": -0.86580086,
+    "regularMarketPrice": 1603.0,
+    "shortName": "KANEKO SEEDS CO",
     "trailingPegRatio": null
   }
 }

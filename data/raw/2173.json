@@ -1,7 +1,7 @@
 {
   "ticker": "2173",
   "japanese_ticker": "2173.T",
-  "fetch_date": "2026-09-21T00:48:01.342916",
+  "fetch_date": "2026-09-22T01:28:16.455191",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-12-31 00:00:00": 4716792.0,
@@ -1154,8 +1154,6 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "shortName": "HAKUTEN CORPORATION",
-    "longName": "Hakuten Corporation",
     "corporateActions": [],
     "regularMarketTime": 1789713000,
     "exchange": "JPX",
@@ -1165,12 +1163,11 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
+    "shortName": "HAKUTEN CORPORATION",
+    "longName": "Hakuten Corporation",
     "regularMarketChangePercent": 0.9589041,
     "regularMarketPrice": 737.0,
     "marketState": "CLOSED",
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1204502400000,
     "regularMarketChange": 7.0,
@@ -1191,6 +1188,9 @@
     "fiftyDayAverageChangePercent": 0.03621845,
     "twoHundredDayAverageChange": -99.025024,
     "twoHundredDayAverageChangePercent": -0.11844744,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
     "trailingPegRatio": null
   }
 }

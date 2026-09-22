@@ -1,7 +1,7 @@
 {
   "ticker": "2201",
   "japanese_ticker": "2201.T",
-  "fetch_date": "2026-09-21T00:48:26.583346",
+  "fetch_date": "2026-09-22T01:28:40.913646",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": 779086232.084337,
@@ -1369,12 +1369,6 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "shortName": "MORINAGA & CO",
-    "longName": "Morinaga&Co., Ltd.",
-    "prevName": "Morinaga & Co., Ltd.",
-    "nameChangeDate": "2026-09-20",
-    "averageAnalystRating": "2.3 - Buy",
-    "cryptoTradeable": false,
     "marketState": "CLOSED",
     "corporateActions": [
       {
@@ -1388,15 +1382,6 @@
       }
     ],
     "regularMarketTime": 1789713000,
-    "exchange": "JPX",
-    "messageBoardId": "finmb_876948",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
-    "regularMarketChangePercent": -1.6065054,
-    "regularMarketPrice": 2480.5,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 978307200000,
     "regularMarketChange": -40.5,
@@ -1423,6 +1408,21 @@
     "twoHundredDayAverageChangePercent": -0.06418031,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
+    "prevName": "Morinaga & Co., Ltd.",
+    "nameChangeDate": "2026-09-21",
+    "averageAnalystRating": "2.3 - Buy",
+    "cryptoTradeable": false,
+    "exchange": "JPX",
+    "messageBoardId": "finmb_876948",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
+    "regularMarketChangePercent": -1.6065054,
+    "regularMarketPrice": 2480.5,
+    "shortName": "MORINAGA & CO",
+    "longName": "Morinaga&Co., Ltd.",
     "trailingPegRatio": null
   }
 }

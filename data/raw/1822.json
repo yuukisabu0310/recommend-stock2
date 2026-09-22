@@ -1,7 +1,7 @@
 {
   "ticker": "1822",
   "japanese_ticker": "1822.T",
-  "fetch_date": "2026-09-21T00:43:59.238128",
+  "fetch_date": "2026-09-22T01:24:40.750312",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": 41847000.0,
@@ -1169,6 +1169,9 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "marketState": "CLOSED",
+    "regularMarketChangePercent": -1.6568048,
+    "regularMarketPrice": 831.0,
     "corporateActions": [],
     "regularMarketTime": 1789713000,
     "exchange": "JPX",
@@ -1178,12 +1181,13 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "regularMarketChangePercent": -1.6568048,
-    "regularMarketPrice": 831.0,
     "shortName": "DAIHO CORPORATION",
     "longName": "Daiho Corporation",
-    "marketState": "CLOSED",
-    "cryptoTradeable": false,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 978307200000,
+    "regularMarketChange": -14.0,
+    "regularMarketDayRange": "831.0 - 847.0",
+    "fullExchangeName": "Tokyo",
     "averageDailyVolume3Month": 175107,
     "fiftyTwoWeekLowChange": 125.0,
     "fiftyTwoWeekLowChangePercent": 0.17705382,
@@ -1202,11 +1206,7 @@
     "twoHundredDayAverageChangePercent": 0.056304436,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 978307200000,
-    "regularMarketChange": -14.0,
-    "regularMarketDayRange": "831.0 - 847.0",
-    "fullExchangeName": "Tokyo",
+    "cryptoTradeable": false,
     "trailingPegRatio": null
   }
 }

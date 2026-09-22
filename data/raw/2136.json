@@ -1,7 +1,7 @@
 {
   "ticker": "2136",
   "japanese_ticker": "2136.T",
-  "fetch_date": "2026-09-21T00:47:22.117329",
+  "fetch_date": "2026-09-22T01:27:43.753253",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": 0.0,
@@ -1224,11 +1224,6 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "marketState": "CLOSED",
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1166572800000,
-    "shortName": "HIP CORPORATION",
-    "longName": "HIP Corporation",
     "corporateActions": [],
     "regularMarketTime": 1789711414,
     "exchange": "JPX",
@@ -1240,8 +1235,6 @@
     "esgPopulated": false,
     "regularMarketChangePercent": 0.7840342,
     "regularMarketPrice": 1414.0,
-    "earningsTimestampStart": 1746687600,
-    "earningsTimestampEnd": 1746687600,
     "isEarningsDateEstimate": false,
     "epsTrailingTwelveMonths": 111.99,
     "fiftyDayAverageChange": -17.04004,
@@ -1251,6 +1244,9 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
+    "shortName": "HIP CORPORATION",
+    "longName": "HIP Corporation",
+    "marketState": "CLOSED",
     "regularMarketChange": 11.0,
     "regularMarketDayRange": "1400.0 - 1436.0",
     "fullExchangeName": "Tokyo",
@@ -1261,6 +1257,10 @@
     "fiftyTwoWeekHighChange": -247.0,
     "fiftyTwoWeekHighChangePercent": -0.1487056,
     "fiftyTwoWeekChangePercent": 1.3620019,
+    "earningsTimestampStart": 1746687600,
+    "earningsTimestampEnd": 1746687600,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1166572800000,
     "trailingPegRatio": null
   }
 }

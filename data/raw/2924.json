@@ -1,7 +1,7 @@
 {
   "ticker": "2924",
   "japanese_ticker": "2924.T",
-  "fetch_date": "2026-09-21T00:57:09.830901",
+  "fetch_date": "2026-09-22T01:36:38.929358",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": 11059852.99265,
@@ -1239,10 +1239,6 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "shortName": "IFUJI SANGYO CO LTD",
-    "longName": "Ifuji Sangyo Co., Ltd.",
-    "marketState": "CLOSED",
-    "cryptoTradeable": false,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1266796800000,
     "regularMarketChange": 10.0,
@@ -1265,6 +1261,10 @@
     "twoHundredDayAverageChangePercent": -0.046505228,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
+    "marketState": "CLOSED",
+    "shortName": "IFUJI SANGYO CO LTD",
+    "longName": "Ifuji Sangyo Co., Ltd.",
     "corporateActions": [
       {
         "header": "Dividend",

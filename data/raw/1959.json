@@ -1,7 +1,7 @@
 {
   "ticker": "1959",
   "japanese_ticker": "1959.T",
-  "fetch_date": "2026-09-21T00:45:59.414631",
+  "fetch_date": "2026-09-22T01:26:27.703600",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": 103967827.198096,
@@ -1207,42 +1207,6 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "marketState": "CLOSED",
-    "corporateActions": [
-      {
-        "header": "Dividend",
-        "message": "1959.T announced a cash dividend of JPY 110.00 with an ex-date of Sep. 29, 2026",
-        "meta": {
-          "eventType": "DIVIDEND",
-          "dateEpochMs": 1790607600000,
-          "amount": "110.00"
-        }
-      }
-    ],
-    "regularMarketTime": 1789713000,
-    "exchange": "JPX",
-    "messageBoardId": "finmb_880331",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
-    "regularMarketChangePercent": -0.024724934,
-    "regularMarketPrice": 8087.0,
-    "shortName": "KRAFTIA CORPORATION",
-    "longName": "Kraftia Corporation",
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 978307200000,
-    "regularMarketChange": -2.0,
-    "regularMarketDayRange": "8033.0 - 8140.0",
-    "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 205284,
-    "fiftyTwoWeekLowChange": 1220.0,
-    "fiftyTwoWeekLowChangePercent": 0.17766128,
-    "fiftyTwoWeekRange": "6867.0 - 10580.0",
-    "fiftyTwoWeekHighChange": -2493.0,
-    "fiftyTwoWeekHighChangePercent": -0.23563327,
-    "fiftyTwoWeekChangePercent": 12.319446,
     "earningsTimestamp": 1793255400,
     "earningsTimestampStart": 1793255400,
     "earningsTimestampEnd": 1793255400,
@@ -1256,9 +1220,45 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "prevName": "Kyudenko Corporation",
-    "nameChangeDate": "2026-09-20",
+    "nameChangeDate": "2026-09-21",
     "averageAnalystRating": "1.8 - Buy",
     "cryptoTradeable": false,
+    "exchange": "JPX",
+    "messageBoardId": "finmb_880331",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "1959.T announced a cash dividend of JPY 110.00 with an ex-date of Sep. 29, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1790607600000,
+          "amount": "110.00"
+        }
+      }
+    ],
+    "regularMarketTime": 1789713000,
+    "shortName": "KRAFTIA CORPORATION",
+    "longName": "Kraftia Corporation",
+    "marketState": "CLOSED",
+    "regularMarketChangePercent": -0.024724934,
+    "regularMarketPrice": 8087.0,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 978307200000,
+    "regularMarketChange": -2.0,
+    "regularMarketDayRange": "8033.0 - 8140.0",
+    "fullExchangeName": "Tokyo",
+    "averageDailyVolume3Month": 205284,
+    "fiftyTwoWeekLowChange": 1220.0,
+    "fiftyTwoWeekLowChangePercent": 0.17766128,
+    "fiftyTwoWeekRange": "6867.0 - 10580.0",
+    "fiftyTwoWeekHighChange": -2493.0,
+    "fiftyTwoWeekHighChangePercent": -0.23563327,
+    "fiftyTwoWeekChangePercent": 12.319446,
     "trailingPegRatio": null
   }
 }

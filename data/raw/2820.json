@@ -1,7 +1,7 @@
 {
   "ticker": "2820",
   "japanese_ticker": "2820.T",
-  "fetch_date": "2026-09-21T00:56:11.960651",
+  "fetch_date": "2026-09-22T01:35:47.625370",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-06-30 00:00:00": 137055555.452803,
@@ -1040,6 +1040,9 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "marketState": "CLOSED",
+    "shortName": "YAMAMI COMPANY",
+    "longName": "Yamami Company",
     "corporateActions": [],
     "regularMarketTime": 1789713000,
     "exchange": "JPX",
@@ -1049,8 +1052,8 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1466121600000,
+    "regularMarketChangePercent": 1.2461059,
+    "regularMarketPrice": 6500.0,
     "regularMarketChange": 80.0,
     "regularMarketDayRange": "6410.0 - 6560.0",
     "fullExchangeName": "Tokyo",
@@ -1066,8 +1069,6 @@
     "isEarningsDateEstimate": true,
     "epsTrailingTwelveMonths": 275.6,
     "epsForward": 306.7,
-    "regularMarketChangePercent": 1.2461059,
-    "regularMarketPrice": 6500.0,
     "fiftyDayAverageChange": 871.5,
     "fiftyDayAverageChangePercent": 0.154837,
     "twoHundredDayAverageChange": 1640.125,
@@ -1075,9 +1076,8 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
-    "shortName": "YAMAMI COMPANY",
-    "longName": "Yamami Company",
-    "marketState": "CLOSED",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1466121600000,
     "trailingPegRatio": null
   }
 }

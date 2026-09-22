@@ -1,17 +1,17 @@
 {
   "ticker": "2168",
   "japanese_ticker": "2168.T",
-  "fetch_date": "2026-09-21T00:47:55.462797",
+  "fetch_date": "2026-09-22T01:28:10.898439",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-05-31 00:00:00": -461200000.0,
-      "2025-05-31 00:00:00": -127832000.0,
+      "2025-05-31 00:00:00": -1597632800.0,
       "2024-05-31 00:00:00": 6353375299.997176,
       "2023-05-31 00:00:00": 428620400.0
     },
     "Tax Rate For Calcs": {
       "2026-05-31 00:00:00": 0.4,
-      "2025-05-31 00:00:00": 0.232,
+      "2025-05-31 00:00:00": 0.2974,
       "2024-05-31 00:00:00": 0.064122,
       "2023-05-31 00:00:00": 0.3614
     },
@@ -83,7 +83,7 @@
     },
     "Normalized Income": {
       "2026-05-31 00:00:00": -2696200000.0,
-      "2025-05-31 00:00:00": -8234832000.0,
+      "2025-05-31 00:00:00": -4883632800.0,
       "2024-05-31 00:00:00": 3161375299.997176,
       "2023-05-31 00:00:00": 5341620400.0
     },
@@ -108,19 +108,19 @@
     "Diluted Average Shares": {
       "2026-05-31 00:00:00": 39036161.0,
       "2025-05-31 00:00:00": 37626790.0,
-      "2024-05-31 00:00:00": 39191012.0,
+      "2024-05-31 00:00:00": 39190371.0,
       "2023-05-31 00:00:00": 39292617.0
     },
     "Basic Average Shares": {
       "2026-05-31 00:00:00": 39036161.0,
       "2025-05-31 00:00:00": 37626790.0,
-      "2024-05-31 00:00:00": 39178202.0,
+      "2024-05-31 00:00:00": 39178295.0,
       "2023-05-31 00:00:00": 39174636.0
     },
     "Diluted EPS": {
       "2026-05-31 00:00:00": -90.07,
       "2025-05-31 00:00:00": -221.8,
-      "2024-05-31 00:00:00": 2446.76,
+      "2024-05-31 00:00:00": 2446.8,
       "2023-05-31 00:00:00": 155.22
     },
     "Basic EPS": {
@@ -1329,13 +1329,14 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "shortName": "PASONA GROUP INC",
-    "longName": "Pasona Group Inc.",
-    "marketState": "CLOSED",
-    "cryptoTradeable": false,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1067299200000,
     "regularMarketChange": -39.0,
+    "marketState": "CLOSED",
+    "shortName": "PASONA GROUP INC",
+    "corporateActions": [],
+    "regularMarketTime": 1789713000,
+    "cryptoTradeable": false,
     "regularMarketDayRange": "1556.0 - 1603.0",
     "fullExchangeName": "Tokyo",
     "averageDailyVolume3Month": 197050,
@@ -1356,8 +1357,6 @@
     "twoHundredDayAverageChangePercent": -0.120242916,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
-    "corporateActions": [],
-    "regularMarketTime": 1789713000,
     "exchange": "JPX",
     "messageBoardId": "finmb_6442783",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1367,6 +1366,7 @@
     "esgPopulated": false,
     "regularMarketChangePercent": -2.445141,
     "regularMarketPrice": 1556.0,
+    "longName": "Pasona Group Inc.",
     "trailingPegRatio": null
   }
 }

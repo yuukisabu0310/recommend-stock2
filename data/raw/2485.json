@@ -1,7 +1,7 @@
 {
   "ticker": "2485",
   "japanese_ticker": "2485.T",
-  "fetch_date": "2026-09-21T00:52:22.260111",
+  "fetch_date": "2026-09-22T01:32:16.708273",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-09-30 00:00:00": -41745000.0,
@@ -1255,9 +1255,6 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "longName": "Tear Corporation",
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1371772800000,
     "regularMarketChange": 0.0,
     "regularMarketDayRange": "450.0 - 453.0",
     "fullExchangeName": "Tokyo",
@@ -1271,9 +1268,6 @@
     "earningsTimestampStart": 1754980200,
     "earningsTimestampEnd": 1755498600,
     "isEarningsDateEstimate": true,
-    "regularMarketChangePercent": 0.0,
-    "regularMarketPrice": 451.0,
-    "marketState": "CLOSED",
     "epsTrailingTwelveMonths": 17.41,
     "fiftyDayAverageChange": -8.579987,
     "fiftyDayAverageChangePercent": -0.018669192,
@@ -1281,8 +1275,14 @@
     "twoHundredDayAverageChangePercent": -0.07703015,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
+    "marketState": "CLOSED",
     "shortName": "TEAR CORPORATION",
+    "longName": "Tear Corporation",
+    "regularMarketChangePercent": 0.0,
+    "regularMarketPrice": 451.0,
+    "cryptoTradeable": false,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1371772800000,
     "corporateActions": [
       {
         "header": "Dividend",

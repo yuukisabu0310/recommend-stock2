@@ -1,7 +1,7 @@
 {
   "ticker": "2395",
   "japanese_ticker": "2395.T",
-  "fetch_date": "2026-09-21T00:51:11.562127",
+  "fetch_date": "2026-09-22T01:31:07.759529",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": -105633302.0,
@@ -1313,7 +1313,13 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "marketState": "CLOSED",
+    "exchange": "JPX",
+    "messageBoardId": "finmb_5877815",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
     "corporateActions": [
       {
         "header": "Dividend",
@@ -1326,23 +1332,12 @@
       }
     ],
     "regularMarketTime": 1789713000,
-    "exchange": "JPX",
-    "messageBoardId": "finmb_5877815",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
-    "regularMarketChangePercent": -0.074128985,
-    "regularMarketPrice": 1348.0,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1078704000000,
     "regularMarketChange": -1.0,
     "regularMarketDayRange": "1344.0 - 1362.0",
     "fullExchangeName": "Tokyo",
     "averageDailyVolume3Month": 212469,
-    "shortName": "SHIN NIPPON BIOMEDICAL LABORATO",
-    "longName": "Shin Nippon Biomedical Laboratories, Ltd.",
     "fiftyTwoWeekLowChange": 281.0,
     "fiftyTwoWeekLowChangePercent": 0.2633552,
     "fiftyTwoWeekRange": "1067.0 - 2005.0",
@@ -1361,6 +1356,11 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
+    "shortName": "SHIN NIPPON BIOMEDICAL LABORATO",
+    "regularMarketChangePercent": -0.074128985,
+    "regularMarketPrice": 1348.0,
+    "marketState": "CLOSED",
+    "longName": "Shin Nippon Biomedical Laboratories, Ltd.",
     "trailingPegRatio": null
   }
 }

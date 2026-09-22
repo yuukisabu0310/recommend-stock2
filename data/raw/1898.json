@@ -1,7 +1,7 @@
 {
   "ticker": "1898",
   "japanese_ticker": "1898.T",
-  "fetch_date": "2026-09-21T00:45:02.116749",
+  "fetch_date": "2026-09-22T01:25:37.240862",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": 31050000.0,
@@ -1227,6 +1227,10 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "shortName": "SEIKITOKYU KOGYO CO",
+    "marketState": "CLOSED",
+    "regularMarketChangePercent": -0.73235685,
+    "regularMarketPrice": 1491.0,
     "corporateActions": [
       {
         "header": "Dividend",
@@ -1239,6 +1243,20 @@
       }
     ],
     "regularMarketTime": 1789713000,
+    "exchange": "JPX",
+    "messageBoardId": "finmb_881013",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
+    "longName": "Seikitokyu Kogyo Co., Ltd.",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 978307200000,
+    "regularMarketChange": -11.0,
+    "regularMarketDayRange": "1491.0 - 1502.0",
+    "fullExchangeName": "Tokyo",
+    "averageDailyVolume3Month": 154895,
     "fiftyTwoWeekLowChange": 96.0,
     "fiftyTwoWeekLowChangePercent": 0.068817206,
     "fiftyTwoWeekRange": "1395.0 - 1729.0",
@@ -1256,24 +1274,6 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 978307200000,
-    "longName": "Seikitokyu Kogyo Co., Ltd.",
-    "regularMarketPrice": 1491.0,
-    "marketState": "CLOSED",
-    "regularMarketChange": -11.0,
-    "regularMarketDayRange": "1491.0 - 1502.0",
-    "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 154895,
-    "exchange": "JPX",
-    "messageBoardId": "finmb_881013",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
-    "regularMarketChangePercent": -0.73235685,
-    "shortName": "SEIKITOKYU KOGYO CO",
     "trailingPegRatio": null
   }
 }

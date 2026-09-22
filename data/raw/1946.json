@@ -1,7 +1,7 @@
 {
   "ticker": "1946",
   "japanese_ticker": "1946.T",
-  "fetch_date": "2026-09-21T00:45:46.459187",
+  "fetch_date": "2026-09-22T01:26:16.789988",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": 851900400.0,
@@ -1267,8 +1267,9 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "shortName": "TOENEC CORP",
-    "longName": "Toenec Corporation",
+    "marketState": "CLOSED",
+    "regularMarketChangePercent": 0.35650623,
+    "regularMarketPrice": 2252.0,
     "corporateActions": [
       {
         "header": "Dividend",
@@ -1288,13 +1289,8 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "regularMarketChangePercent": 0.35650623,
-    "regularMarketPrice": 2252.0,
-    "marketState": "CLOSED",
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "averageAnalystRating": "0.0 - Strong Buy",
-    "cryptoTradeable": false,
+    "shortName": "TOENEC CORP",
+    "longName": "Toenec Corporation",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 978307200000,
     "regularMarketChange": 8.0,
@@ -1315,6 +1311,10 @@
     "fiftyDayAverageChangePercent": 0.051972687,
     "twoHundredDayAverageChange": 123.75,
     "twoHundredDayAverageChangePercent": 0.058146365,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "averageAnalystRating": "0.0 - Strong Buy",
+    "cryptoTradeable": false,
     "trailingPegRatio": null
   }
 }

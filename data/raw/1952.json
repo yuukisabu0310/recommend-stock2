@@ -1,7 +1,7 @@
 {
   "ticker": "1952",
   "japanese_ticker": "1952.T",
-  "fetch_date": "2026-09-21T00:45:57.719538",
+  "fetch_date": "2026-09-22T01:26:26.153280",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": 275240000.0,
@@ -1229,13 +1229,7 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "shortName": "SHIN NIPPON AIR TECHNOLOGIES CO",
-    "longName": "Shin Nippon Air Technologies Co., Ltd.",
     "marketState": "CLOSED",
-    "fiftyTwoWeekRange": "2761.0 - 4400.0",
-    "fiftyTwoWeekHighChange": -1160.0,
-    "fiftyTwoWeekHighChangePercent": -0.26363635,
-    "fiftyTwoWeekChangePercent": 5.024314,
     "earningsTimestampStart": 1754541000,
     "earningsTimestampEnd": 1754973000,
     "isEarningsDateEstimate": true,
@@ -1247,15 +1241,19 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "prevName": "Shin Nippon Air Technologies Co. Ltd.",
-    "nameChangeDate": "2026-09-20",
+    "nameChangeDate": "2026-09-21",
     "averageAnalystRating": "1.0 - Strong Buy",
     "cryptoTradeable": false,
-    "regularMarketChange": -30.0,
-    "regularMarketDayRange": "3230.0 - 3280.0",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 978307200000,
     "fullExchangeName": "Tokyo",
     "averageDailyVolume3Month": 183749,
     "fiftyTwoWeekLowChange": 479.0,
     "fiftyTwoWeekLowChangePercent": 0.17348787,
+    "fiftyTwoWeekRange": "2761.0 - 4400.0",
+    "fiftyTwoWeekHighChange": -1160.0,
+    "fiftyTwoWeekHighChangePercent": -0.26363635,
+    "fiftyTwoWeekChangePercent": 5.024314,
     "corporateActions": [
       {
         "header": "Dividend",
@@ -1277,8 +1275,10 @@
     "esgPopulated": false,
     "regularMarketChangePercent": -0.9174312,
     "regularMarketPrice": 3240.0,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 978307200000,
+    "regularMarketChange": -30.0,
+    "regularMarketDayRange": "3230.0 - 3280.0",
+    "shortName": "SHIN NIPPON AIR TECHNOLOGIES CO",
+    "longName": "Shin Nippon Air Technologies Co., Ltd.",
     "trailingPegRatio": null
   }
 }

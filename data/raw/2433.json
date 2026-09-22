@@ -1,7 +1,7 @@
 {
   "ticker": "2433",
   "japanese_ticker": "2433.T",
-  "fetch_date": "2026-09-21T00:51:38.051589",
+  "fetch_date": "2026-09-22T01:31:33.887420",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": -3438800000.0,
@@ -1235,6 +1235,19 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "longName": "Hakuhodo DY Holdings Inc",
+    "shortName": "HAKUHODO DY HLDGS INC",
+    "marketState": "CLOSED",
+    "twoHundredDayAverageChange": 130.48999,
+    "twoHundredDayAverageChangePercent": 0.11200761,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "averageAnalystRating": "3.4 - Hold",
+    "cryptoTradeable": false,
+    "regularMarketChangePercent": -3.4649777,
+    "regularMarketPrice": 1295.5,
+    "regularMarketChange": -46.5,
+    "regularMarketDayRange": "1295.5 - 1340.0",
     "corporateActions": [
       {
         "header": "Dividend",
@@ -1247,8 +1260,6 @@
       }
     ],
     "regularMarketTime": 1789713000,
-    "longName": "Hakuhodo DY Holdings Inc",
-    "marketState": "CLOSED",
     "exchange": "JPX",
     "messageBoardId": "finmb_13698805",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1256,13 +1267,8 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "shortName": "HAKUHODO DY HLDGS INC",
-    "regularMarketChangePercent": -3.4649777,
-    "regularMarketPrice": 1295.5,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1108512000000,
-    "regularMarketChange": -46.5,
-    "regularMarketDayRange": "1295.5 - 1340.0",
     "fullExchangeName": "Tokyo",
     "averageDailyVolume3Month": 883011,
     "fiftyTwoWeekLowChange": 322.0,
@@ -1281,12 +1287,6 @@
     "epsForward": 56.14,
     "fiftyDayAverageChange": 4.619995,
     "fiftyDayAverageChangePercent": 0.0035789502,
-    "twoHundredDayAverageChange": 130.48999,
-    "twoHundredDayAverageChangePercent": 0.11200761,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "averageAnalystRating": "3.4 - Hold",
-    "cryptoTradeable": false,
     "trailingPegRatio": 1.0459
   }
 }

@@ -1,7 +1,7 @@
 {
   "ticker": "2321",
   "japanese_ticker": "2321.T",
-  "fetch_date": "2026-09-21T00:49:52.882841",
+  "fetch_date": "2026-09-22T01:29:56.576283",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": 10496400.0,
@@ -1157,8 +1157,6 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "regularMarketChangePercent": -2.0689654,
-    "regularMarketPrice": 142.0,
     "corporateActions": [],
     "regularMarketTime": 1789713000,
     "exchange": "JPX",
@@ -1168,10 +1166,12 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
+    "regularMarketChangePercent": -2.0689654,
+    "regularMarketPrice": 142.0,
     "cryptoTradeable": false,
     "marketState": "CLOSED",
-    "shortName": "SOFTFRONT HOLDINGS",
-    "longName": "Softfront Holdings",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1031702400000,
     "regularMarketChange": -3.0,
     "regularMarketDayRange": "142.0 - 146.0",
     "fullExchangeName": "Tokyo",
@@ -1182,6 +1182,7 @@
     "fiftyTwoWeekHighChange": -307.0,
     "fiftyTwoWeekHighChangePercent": -0.6837416,
     "fiftyTwoWeekChangePercent": -28.282827,
+    "longName": "Softfront Holdings",
     "earningsTimestampStart": 1747202400,
     "earningsTimestampEnd": 1747202400,
     "isEarningsDateEstimate": false,
@@ -1193,9 +1194,8 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "prevName": "Softfront Holdings Co., Ltd.",
-    "nameChangeDate": "2026-09-20",
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1031702400000,
+    "nameChangeDate": "2026-09-21",
+    "shortName": "SOFTFRONT HOLDINGS",
     "trailingPegRatio": null
   }
 }

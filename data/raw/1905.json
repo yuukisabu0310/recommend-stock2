@@ -1,7 +1,7 @@
 {
   "ticker": "1905",
   "japanese_ticker": "1905.T",
-  "fetch_date": "2026-09-21T00:45:08.959948",
+  "fetch_date": "2026-09-22T01:25:43.853099",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": 6290082.4,
@@ -1212,8 +1212,29 @@
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
     "marketState": "CLOSED",
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "1905.T announced a cash dividend of JPY 31.00 with an ex-date of Sep. 29, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1790607600000,
+          "amount": "31.00"
+        }
+      }
+    ],
+    "regularMarketTime": 1789712670,
+    "exchange": "JPX",
+    "messageBoardId": "finmb_5577940",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
     "regularMarketChangePercent": -0.5502063,
     "regularMarketPrice": 1446.0,
+    "shortName": "TENOX CORP",
+    "longName": "Tenox Corporation",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 947030400000,
     "regularMarketChange": -8.0,
@@ -1237,27 +1258,6 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
-    "corporateActions": [
-      {
-        "header": "Dividend",
-        "message": "1905.T announced a cash dividend of JPY 31.00 with an ex-date of Sep. 29, 2026",
-        "meta": {
-          "eventType": "DIVIDEND",
-          "dateEpochMs": 1790607600000,
-          "amount": "31.00"
-        }
-      }
-    ],
-    "regularMarketTime": 1789712670,
-    "exchange": "JPX",
-    "messageBoardId": "finmb_5577940",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
-    "shortName": "TENOX CORP",
-    "longName": "Tenox Corporation",
     "trailingPegRatio": null
   }
 }

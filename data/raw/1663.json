@@ -1,7 +1,7 @@
 {
   "ticker": "1663",
   "japanese_ticker": "1663.T",
-  "fetch_date": "2026-09-21T00:42:34.088210",
+  "fetch_date": "2026-09-22T01:23:23.142630",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-12-31 00:00:00": 422507616.14623,
@@ -1093,12 +1093,16 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "corporateActions": [],
+    "regularMarketTime": 1789713000,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1389052800000,
     "regularMarketChange": -35.0,
     "regularMarketDayRange": "1936.0 - 1981.0",
     "fullExchangeName": "Tokyo",
     "averageDailyVolume3Month": 219182,
+    "shortName": "K&O ENERGY GROUP INC",
+    "longName": "K&O Energy Group Inc.",
     "fiftyTwoWeekLowChange": 408.5,
     "fiftyTwoWeekLowChangePercent": 0.26743045,
     "fiftyTwoWeekRange": "1527.5 - 2845.0",
@@ -1117,8 +1121,7 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
-    "corporateActions": [],
-    "regularMarketTime": 1789713000,
+    "marketState": "CLOSED",
     "exchange": "JPX",
     "messageBoardId": "finmb_876517",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1128,9 +1131,6 @@
     "esgPopulated": false,
     "regularMarketChangePercent": -1.7757483,
     "regularMarketPrice": 1936.0,
-    "marketState": "CLOSED",
-    "shortName": "K&O ENERGY GROUP INC",
-    "longName": "K&O Energy Group Inc.",
     "trailingPegRatio": null
   }
 }

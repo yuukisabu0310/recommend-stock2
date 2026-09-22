@@ -1,7 +1,7 @@
 {
   "ticker": "2733",
   "japanese_ticker": "2733.T",
-  "fetch_date": "2026-09-21T00:54:34.128151",
+  "fetch_date": "2026-09-22T01:34:15.174285",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": 442740000.0,
@@ -1318,7 +1318,6 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "marketState": "CLOSED",
     "exchange": "JPX",
     "messageBoardId": "finmb_7884402",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1328,27 +1327,6 @@
     "esgPopulated": false,
     "regularMarketChangePercent": -1.241329,
     "regularMarketPrice": 2705.0,
-    "corporateActions": [
-      {
-        "header": "Dividend",
-        "message": "2733.T announced a cash dividend of JPY 56.00 with an ex-date of Sep. 29, 2026",
-        "meta": {
-          "eventType": "DIVIDEND",
-          "dateEpochMs": 1790607600000,
-          "amount": "56.00"
-        }
-      }
-    ],
-    "regularMarketTime": 1789713000,
-    "shortName": "ARATA CORPORATION",
-    "longName": "Arata Corporation",
-    "fiftyDayAverageChange": 71.5,
-    "fiftyDayAverageChangePercent": 0.02715018,
-    "twoHundredDayAverageChange": -103.96509,
-    "twoHundredDayAverageChangePercent": -0.037011884,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1266796800000,
     "regularMarketChange": -34.0,
@@ -1368,6 +1346,28 @@
     "isEarningsDateEstimate": true,
     "epsTrailingTwelveMonths": 302.69,
     "epsForward": 366.8,
+    "fiftyDayAverageChange": 71.5,
+    "fiftyDayAverageChangePercent": 0.02715018,
+    "twoHundredDayAverageChange": -103.96509,
+    "twoHundredDayAverageChangePercent": -0.037011884,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
+    "shortName": "ARATA CORPORATION",
+    "longName": "Arata Corporation",
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "2733.T announced a cash dividend of JPY 56.00 with an ex-date of Sep. 29, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1790607600000,
+          "amount": "56.00"
+        }
+      }
+    ],
+    "regularMarketTime": 1789713000,
+    "marketState": "CLOSED",
     "trailingPegRatio": null
   }
 }

@@ -1,7 +1,7 @@
 {
   "ticker": "1833",
   "japanese_ticker": "1833.T",
-  "fetch_date": "2026-09-21T00:44:07.743335",
+  "fetch_date": "2026-09-22T01:24:48.777149",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": 1735041000.0,
@@ -1196,7 +1196,7 @@
     "allTimeLow": 1170.0,
     "fulldayPrice": 5770.0,
     "fulldayChange": -70.0,
-    "fulldayChangePercent": -0.011986301,
+    "fulldayChangePercent": -1.1986301,
     "priceToSalesTrailing12Months": 0.6842523,
     "fiftyDayAverage": 5738.4,
     "twoHundredDayAverage": 6116.8,
@@ -1265,15 +1265,6 @@
       }
     ],
     "regularMarketTime": 1789713000,
-    "exchange": "JPX",
-    "messageBoardId": "finmb_875869",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
-    "regularMarketChangePercent": -1.1986301,
-    "regularMarketPrice": 5770.0,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 978307200000,
     "regularMarketChange": -70.0,
@@ -1300,8 +1291,17 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
-    "longName": "Okumura Corporation",
     "shortName": "OKUMURA CORP",
+    "longName": "Okumura Corporation",
+    "regularMarketPrice": 5770.0,
+    "exchange": "JPX",
+    "messageBoardId": "finmb_875869",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
+    "regularMarketChangePercent": -1.1986301,
     "trailingPegRatio": null
   }
 }

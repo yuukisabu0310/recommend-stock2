@@ -1,7 +1,7 @@
 {
   "ticker": "2573",
   "japanese_ticker": "2573.T",
-  "fetch_date": "2026-09-21T00:52:53.876886",
+  "fetch_date": "2026-09-22T01:32:44.009841",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-12-31 00:00:00": -40135000.0,
@@ -1136,6 +1136,11 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "marketState": "CLOSED",
+    "shortName": "HOKKAIDO COCA-COLA BOTTLING CO",
+    "longName": "Hokkaido Coca-Cola Bottling Co.,Ltd.",
+    "corporateActions": [],
+    "regularMarketTime": 1789713000,
     "exchange": "JPX",
     "messageBoardId": "finmb_879639",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1145,13 +1150,6 @@
     "esgPopulated": false,
     "regularMarketChangePercent": -0.122399025,
     "regularMarketPrice": 4080.0,
-    "corporateActions": [],
-    "regularMarketTime": 1789713000,
-    "shortName": "HOKKAIDO COCA-COLA BOTTLING CO",
-    "longName": "Hokkaido Coca-Cola Bottling Co.,Ltd.",
-    "marketState": "CLOSED",
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 978307200000,
     "regularMarketChange": -5.0,
     "regularMarketDayRange": "4070.0 - 4090.0",
     "fullExchangeName": "Tokyo",
@@ -1173,8 +1171,10 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "prevName": "Hokkaido Coca-Cola Bottling Co., Ltd.",
-    "nameChangeDate": "2026-09-20",
+    "nameChangeDate": "2026-09-21",
     "cryptoTradeable": false,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 978307200000,
     "trailingPegRatio": null
   }
 }

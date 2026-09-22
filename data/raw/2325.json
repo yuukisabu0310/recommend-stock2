@@ -1,7 +1,7 @@
 {
   "ticker": "2325",
   "japanese_ticker": "2325.T",
-  "fetch_date": "2026-09-21T00:49:57.539564",
+  "fetch_date": "2026-09-22T01:29:59.932558",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-12-31 00:00:00": -51995385.0,
@@ -1315,8 +1315,12 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "marketState": "CLOSED",
-    "corporateActions": [],
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1032998400000,
+    "regularMarketChange": -20.0,
+    "regularMarketDayRange": "4510.0 - 4560.0",
+    "fullExchangeName": "Tokyo",
+    "averageDailyVolume3Month": 29652,
     "regularMarketTime": 1789713000,
     "exchange": "JPX",
     "messageBoardId": "finmb_6469603",
@@ -1327,14 +1331,9 @@
     "esgPopulated": false,
     "regularMarketChangePercent": -0.43811613,
     "regularMarketPrice": 4545.0,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1032998400000,
-    "regularMarketChange": -20.0,
-    "regularMarketDayRange": "4510.0 - 4560.0",
-    "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 29652,
-    "shortName": "NJS CO. LTD",
     "longName": "NJS Co., Ltd.",
+    "shortName": "NJS CO. LTD",
+    "marketState": "CLOSED",
     "fiftyTwoWeekLowChange": 270.0,
     "fiftyTwoWeekLowChangePercent": 0.06315789,
     "fiftyTwoWeekRange": "4275.0 - 6110.0",
@@ -1354,6 +1353,7 @@
     "exchangeDataDelayedBy": 20,
     "averageAnalystRating": "0.0 - Strong Buy",
     "cryptoTradeable": false,
+    "corporateActions": [],
     "trailingPegRatio": null
   }
 }

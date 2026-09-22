@@ -1,7 +1,7 @@
 {
   "ticker": "2469",
   "japanese_ticker": "2469.T",
-  "fetch_date": "2026-09-21T00:52:04.578286",
+  "fetch_date": "2026-09-22T01:31:59.033065",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": -38455200.0,
@@ -1323,6 +1323,18 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "epsTrailingTwelveMonths": 307.98,
+    "epsForward": 317.1,
+    "fiftyDayAverageChange": -21.320068,
+    "fiftyDayAverageChangePercent": -0.0077209696,
+    "twoHundredDayAverageChange": -370.92505,
+    "twoHundredDayAverageChangePercent": -0.11923304,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1138838400000,
+    "regularMarketChange": -21.0,
     "regularMarketDayRange": "2740.0 - 2776.0",
     "fullExchangeName": "Tokyo",
     "averageDailyVolume3Month": 15417,
@@ -1335,15 +1347,6 @@
     "earningsTimestampStart": 1747204200,
     "earningsTimestampEnd": 1747204200,
     "isEarningsDateEstimate": false,
-    "epsTrailingTwelveMonths": 307.98,
-    "epsForward": 317.1,
-    "fiftyDayAverageChange": -21.320068,
-    "fiftyDayAverageChangePercent": -0.0077209696,
-    "twoHundredDayAverageChange": -370.92505,
-    "twoHundredDayAverageChangePercent": -0.11923304,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
     "corporateActions": [
       {
         "header": "Dividend",
@@ -1372,14 +1375,11 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "longName": "Hibino Corporation",
     "regularMarketChangePercent": -0.760594,
     "regularMarketPrice": 2740.0,
     "marketState": "CLOSED",
     "shortName": "HIBINO CORPORATION COM STK",
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1138838400000,
-    "regularMarketChange": -21.0,
+    "longName": "Hibino Corporation",
     "trailingPegRatio": null
   }
 }

@@ -1,10 +1,10 @@
 {
   "ticker": "2331",
   "japanese_ticker": "2331.T",
-  "fetch_date": "2026-09-21T00:50:08.586204",
+  "fetch_date": "2026-09-22T01:30:09.832686",
   "financials": {
     "Tax Effect Of Unusual Items": {
-      "2026-03-31 00:00:00": 127512000.0,
+      "2026-03-31 00:00:00": 141680000.0,
       "2025-03-31 00:00:00": 112895000.0,
       "2024-03-31 00:00:00": 146055000.0,
       "2023-03-31 00:00:00": 116883000.0
@@ -16,19 +16,19 @@
       "2023-03-31 00:00:00": 0.351
     },
     "Normalized EBITDA": {
-      "2026-03-31 00:00:00": 77196000000.0,
+      "2026-03-31 00:00:00": 77150000000.0,
       "2025-03-31 00:00:00": 68605000000.0,
       "2024-03-31 00:00:00": 65080000000.0,
       "2023-03-31 00:00:00": 62060000000.0
     },
     "Total Unusual Items": {
-      "2026-03-31 00:00:00": 414000000.0,
+      "2026-03-31 00:00:00": 460000000.0,
       "2025-03-31 00:00:00": 335000000.0,
       "2024-03-31 00:00:00": 455000000.0,
       "2023-03-31 00:00:00": 333000000.0
     },
     "Total Unusual Items Excluding Goodwill": {
-      "2026-03-31 00:00:00": 414000000.0,
+      "2026-03-31 00:00:00": 460000000.0,
       "2025-03-31 00:00:00": 335000000.0,
       "2024-03-31 00:00:00": 455000000.0,
       "2023-03-31 00:00:00": 333000000.0
@@ -82,7 +82,7 @@
       "2023-03-31 00:00:00": 191000000.0
     },
     "Normalized Income": {
-      "2026-03-31 00:00:00": 32975512000.0,
+      "2026-03-31 00:00:00": 32943680000.0,
       "2025-03-31 00:00:00": 26882895000.0,
       "2024-03-31 00:00:00": 26321055000.0,
       "2023-03-31 00:00:00": 23733883000.0
@@ -108,25 +108,25 @@
     "Diluted Average Shares": {
       "2026-03-31 00:00:00": 485647540.0,
       "2025-03-31 00:00:00": 489214000.0,
-      "2024-03-31 00:00:00": 502894770.0,
+      "2024-03-31 00:00:00": 502889216.0,
       "2023-03-31 00:00:00": 506173945.0
     },
     "Basic Average Shares": {
       "2026-03-31 00:00:00": 485647540.0,
       "2025-03-31 00:00:00": 489214000.0,
-      "2024-03-31 00:00:00": 502894770.0,
+      "2024-03-31 00:00:00": 502889216.0,
       "2023-03-31 00:00:00": 506173945.0
     },
     "Diluted EPS": {
       "2026-03-31 00:00:00": 68.49,
       "2025-03-31 00:00:00": 55.41,
-      "2024-03-31 00:00:00": 52.95,
+      "2024-03-31 00:00:00": 54.34,
       "2023-03-31 00:00:00": 47.32
     },
     "Basic EPS": {
       "2026-03-31 00:00:00": 68.49,
       "2025-03-31 00:00:00": 55.41,
-      "2024-03-31 00:00:00": 52.95,
+      "2024-03-31 00:00:00": 54.34,
       "2023-03-31 00:00:00": 47.32
     },
     "Diluted NI Availto Com Stockholders": {
@@ -190,13 +190,13 @@
       "2023-03-31 00:00:00": 1982000000.0
     },
     "Special Income Charges": {
-      "2026-03-31 00:00:00": 846000000.0,
+      "2026-03-31 00:00:00": 892000000.0,
       "2025-03-31 00:00:00": 298000000.0,
       "2024-03-31 00:00:00": 103000000.0,
       "2023-03-31 00:00:00": 26000000.0
     },
     "Other Special Charges": {
-      "2026-03-31 00:00:00": 120000000.0,
+      "2026-03-31 00:00:00": 74000000.0,
       "2025-03-31 00:00:00": 245000000.0,
       "2024-03-31 00:00:00": 152000000.0,
       "2023-03-31 00:00:00": -396000000.0
@@ -1271,6 +1271,8 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "marketState": "CLOSED",
+    "longName": "Alsok Co.,Ltd.",
     "corporateActions": [
       {
         "header": "Dividend",
@@ -1283,9 +1285,6 @@
       }
     ],
     "regularMarketTime": 1789713000,
-    "marketState": "CLOSED",
-    "shortName": "ALSOK CO LTD",
-    "longName": "Alsok Co.,Ltd.",
     "exchange": "JPX",
     "messageBoardId": "finmb_6439839",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1293,22 +1292,6 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "regularMarketChangePercent": -3.1877213,
-    "regularMarketPrice": 1230.0,
-    "earningsTimestampEnd": 1794292200,
-    "earningsCallTimestampStart": 1747125000,
-    "earningsCallTimestampEnd": 1747125000,
-    "isEarningsDateEstimate": true,
-    "epsTrailingTwelveMonths": 68.51,
-    "epsForward": 55.93,
-    "fiftyDayAverageChange": 54.03003,
-    "fiftyDayAverageChangePercent": 0.045945074,
-    "twoHundredDayAverageChange": 44.287476,
-    "twoHundredDayAverageChangePercent": 0.037350938,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "averageAnalystRating": "2.2 - Buy",
-    "cryptoTradeable": false,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1035504000000,
     "regularMarketChange": -40.5,
@@ -1323,6 +1306,23 @@
     "fiftyTwoWeekChangePercent": 7.283032,
     "earningsTimestamp": 1785825000,
     "earningsTimestampStart": 1794292200,
+    "earningsTimestampEnd": 1794292200,
+    "earningsCallTimestampStart": 1747125000,
+    "earningsCallTimestampEnd": 1747125000,
+    "isEarningsDateEstimate": true,
+    "epsTrailingTwelveMonths": 68.51,
+    "epsForward": 55.93,
+    "fiftyDayAverageChange": 54.03003,
+    "fiftyDayAverageChangePercent": 0.045945074,
+    "twoHundredDayAverageChange": 44.287476,
+    "twoHundredDayAverageChangePercent": 0.037350938,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "averageAnalystRating": "2.2 - Buy",
+    "cryptoTradeable": false,
+    "shortName": "ALSOK CO LTD",
+    "regularMarketChangePercent": -3.1877213,
+    "regularMarketPrice": 1230.0,
     "trailingPegRatio": null
   }
 }

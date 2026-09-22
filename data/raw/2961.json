@@ -1,7 +1,7 @@
 {
   "ticker": "2961",
   "japanese_ticker": "2961.T",
-  "fetch_date": "2026-09-21T00:57:36.617540",
+  "fetch_date": "2026-09-22T01:37:03.515617",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-09-30 00:00:00": 0.0,
@@ -1284,6 +1284,32 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "marketState": "CLOSED",
+    "regularMarketChangePercent": 2.035278,
+    "regularMarketPrice": 1504.0,
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "2961.T announced a cash dividend of JPY 45.00 with an ex-date of Sep. 29, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1790607600000,
+          "amount": "45.00"
+        }
+      }
+    ],
+    "regularMarketTime": 1789710903,
+    "exchange": "JPX",
+    "messageBoardId": "finmb_1684490902",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
+    "shortName": "NITCHO CORPORATION",
+    "longName": "Nitcho Corporation",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1636416000000,
     "regularMarketChange": 30.0,
     "regularMarketDayRange": "1503.0 - 1505.0",
     "fullExchangeName": "Tokyo",
@@ -1304,33 +1330,7 @@
     "twoHundredDayAverageChangePercent": 0.12406782,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1636416000000,
-    "exchange": "JPX",
-    "messageBoardId": "finmb_1684490902",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
-    "shortName": "NITCHO CORPORATION",
-    "longName": "Nitcho Corporation",
     "cryptoTradeable": false,
-    "corporateActions": [
-      {
-        "header": "Dividend",
-        "message": "2961.T announced a cash dividend of JPY 45.00 with an ex-date of Sep. 29, 2026",
-        "meta": {
-          "eventType": "DIVIDEND",
-          "dateEpochMs": 1790607600000,
-          "amount": "45.00"
-        }
-      }
-    ],
-    "regularMarketTime": 1789710903,
-    "regularMarketChangePercent": 2.035278,
-    "regularMarketPrice": 1504.0,
-    "marketState": "CLOSED",
     "trailingPegRatio": null
   }
 }

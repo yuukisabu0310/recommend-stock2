@@ -1,7 +1,7 @@
 {
   "ticker": "1717",
   "japanese_ticker": "1717.T",
-  "fetch_date": "2026-09-21T00:42:40.239965",
+  "fetch_date": "2026-09-22T01:23:29.435372",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": -367342.2,
@@ -1124,10 +1124,8 @@
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
     "marketState": "CLOSED",
-    "shortName": "MEIHO FACILITY WORKS",
-    "longName": "Meiho Facility Works Ltd.",
-    "regularMarketChangePercent": 0.6423983,
-    "regularMarketPrice": 940.0,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1077148800000,
     "regularMarketChange": 6.0,
     "regularMarketDayRange": "934.0 - 940.0",
     "fullExchangeName": "Tokyo",
@@ -1141,6 +1139,7 @@
     "earningsTimestampStart": 1754550000,
     "earningsTimestampEnd": 1754982000,
     "isEarningsDateEstimate": true,
+    "longName": "Meiho Facility Works Ltd.",
     "epsTrailingTwelveMonths": 79.34,
     "epsForward": 81.8,
     "fiftyDayAverageChange": -5.580017,
@@ -1150,8 +1149,6 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1077148800000,
     "corporateActions": [],
     "regularMarketTime": 1789713000,
     "exchange": "JPX",
@@ -1161,6 +1158,9 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
+    "regularMarketChangePercent": 0.6423983,
+    "regularMarketPrice": 940.0,
+    "shortName": "MEIHO FACILITY WORKS",
     "trailingPegRatio": null
   }
 }

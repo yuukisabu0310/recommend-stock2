@@ -1,7 +1,7 @@
 {
   "ticker": "1847",
   "japanese_ticker": "1847.T",
-  "fetch_date": "2026-09-21T00:44:18.606657",
+  "fetch_date": "2026-09-22T01:24:58.498255",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": 45960588.429026,
@@ -1349,6 +1349,7 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "marketState": "CLOSED",
     "corporateActions": [
       {
         "header": "Dividend",
@@ -1360,8 +1361,6 @@
         }
       }
     ],
-    "shortName": "ICHIKEN CO LTD",
-    "longName": "Ichiken Co., Ltd.",
     "regularMarketTime": 1789713000,
     "exchange": "JPX",
     "messageBoardId": "finmb_880805",
@@ -1370,12 +1369,13 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "regularMarketChangePercent": 1.1799409,
-    "regularMarketPrice": 3430.0,
-    "marketState": "CLOSED",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 978307200000,
     "regularMarketChange": 40.0,
     "regularMarketDayRange": "3390.0 - 3430.0",
     "fullExchangeName": "Tokyo",
+    "longName": "Ichiken Co., Ltd.",
+    "shortName": "ICHIKEN CO LTD",
     "averageDailyVolume3Month": 35523,
     "fiftyTwoWeekLowChange": 1675.0,
     "fiftyTwoWeekLowChangePercent": 0.954416,
@@ -1394,8 +1394,8 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 978307200000,
+    "regularMarketChangePercent": 1.1799409,
+    "regularMarketPrice": 3430.0,
     "trailingPegRatio": null
   }
 }

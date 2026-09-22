@@ -1,7 +1,7 @@
 {
   "ticker": "2296",
   "japanese_ticker": "2296.T",
-  "fetch_date": "2026-09-21T00:49:30.948524",
+  "fetch_date": "2026-09-22T01:29:39.646866",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": -205670000.0,
@@ -1359,8 +1359,6 @@
       }
     ],
     "regularMarketTime": 1789713000,
-    "shortName": "ITOHAM YONEKYU HOLDINGS INC",
-    "longName": "Itoham Yonekyu Holdings Inc.",
     "exchange": "JPX",
     "messageBoardId": "finmb_320586924",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1370,6 +1368,18 @@
     "esgPopulated": false,
     "regularMarketChangePercent": -1.679842,
     "regularMarketPrice": 4975.0,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1459468800000,
+    "regularMarketChange": -85.0,
+    "regularMarketDayRange": "4975.0 - 5090.0",
+    "fullExchangeName": "Tokyo",
+    "averageDailyVolume3Month": 136930,
+    "fiftyTwoWeekLowChange": 370.0,
+    "fiftyTwoWeekLowChangePercent": 0.08034745,
+    "fiftyTwoWeekRange": "4605.0 - 6480.0",
+    "fiftyTwoWeekHighChange": -1505.0,
+    "fiftyTwoWeekHighChangePercent": -0.23225309,
+    "fiftyTwoWeekChangePercent": -13.478261,
     "earningsTimestamp": 1785738600,
     "earningsTimestampStart": 1793773800,
     "earningsTimestampEnd": 1793773800,
@@ -1386,19 +1396,9 @@
     "exchangeDataDelayedBy": 20,
     "averageAnalystRating": "3.0 - Hold",
     "cryptoTradeable": false,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1459468800000,
-    "regularMarketChange": -85.0,
-    "regularMarketDayRange": "4975.0 - 5090.0",
-    "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 136930,
-    "fiftyTwoWeekLowChange": 370.0,
-    "fiftyTwoWeekLowChangePercent": 0.08034745,
-    "fiftyTwoWeekRange": "4605.0 - 6480.0",
-    "fiftyTwoWeekHighChange": -1505.0,
-    "fiftyTwoWeekHighChangePercent": -0.23225309,
-    "fiftyTwoWeekChangePercent": -13.478261,
     "marketState": "CLOSED",
+    "shortName": "ITOHAM YONEKYU HOLDINGS INC",
+    "longName": "Itoham Yonekyu Holdings Inc.",
     "trailingPegRatio": null
   }
 }

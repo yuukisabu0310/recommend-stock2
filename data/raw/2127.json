@@ -1,7 +1,7 @@
 {
   "ticker": "2127",
   "japanese_ticker": "2127.T",
-  "fetch_date": "2026-09-21T00:47:15.290623",
+  "fetch_date": "2026-09-22T01:27:38.224831",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": 20473000.0,
@@ -1299,10 +1299,14 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "regularMarketChangePercent": -0.045660242,
-    "regularMarketPrice": 656.7,
     "shortName": "NIHON M&A CENTER HOLDINGS INC",
     "longName": "Nihon M&A Center Holdings Inc.",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1160438400000,
+    "regularMarketChange": -0.2999878,
+    "regularMarketDayRange": "654.3 - 660.8",
+    "fullExchangeName": "Tokyo",
+    "averageDailyVolume3Month": 2538414,
     "fiftyTwoWeekLowChange": 49.0,
     "fiftyTwoWeekLowChangePercent": 0.08063189,
     "fiftyTwoWeekRange": "607.7 - 813.0",
@@ -1324,16 +1328,12 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "prevName": "Nihon M&A Center Inc.",
-    "nameChangeDate": "2026-09-20",
+    "nameChangeDate": "2026-09-21",
     "averageAnalystRating": "2.2 - Buy",
     "cryptoTradeable": false,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1160438400000,
-    "regularMarketChange": -0.2999878,
-    "regularMarketDayRange": "654.3 - 660.8",
-    "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 2538414,
     "marketState": "CLOSED",
+    "regularMarketChangePercent": -0.045660242,
+    "regularMarketPrice": 656.7,
     "trailingPegRatio": null
   }
 }

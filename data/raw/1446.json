@@ -1,7 +1,7 @@
 {
   "ticker": "1446",
   "japanese_ticker": "1446.T",
-  "fetch_date": "2026-09-21T00:42:14.933644",
+  "fetch_date": "2026-09-22T01:23:05.362405",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-09-30 00:00:00": 488360.0,
@@ -1168,21 +1168,7 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "corporateActions": [
-      {
-        "header": "Dividend",
-        "message": "1446.T announced a cash dividend of JPY 10.00 with an ex-date of Sep. 29, 2026",
-        "meta": {
-          "eventType": "DIVIDEND",
-          "dateEpochMs": 1790607600000,
-          "amount": "10.00"
-        }
-      }
-    ],
     "regularMarketTime": 1789713000,
-    "marketState": "CLOSED",
-    "shortName": "CANDEAL CO LTD",
-    "longName": "CANDEAL Co.,Ltd",
     "exchange": "JPX",
     "messageBoardId": "finmb_429320911",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1190,20 +1176,6 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "regularMarketChangePercent": 0.18552876,
-    "regularMarketPrice": 540.0,
-    "earningsTimestampEnd": 1754978400,
-    "isEarningsDateEstimate": true,
-    "epsTrailingTwelveMonths": 27.59,
-    "fiftyDayAverageChange": 0.44000244,
-    "fiftyDayAverageChangePercent": 0.0008154838,
-    "twoHundredDayAverageChange": -7.380005,
-    "twoHundredDayAverageChangePercent": -0.013482416,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1530748800000,
     "regularMarketChange": 1.0,
     "regularMarketDayRange": "538.0 - 541.0",
     "fullExchangeName": "Tokyo",
@@ -1215,6 +1187,34 @@
     "fiftyTwoWeekHighChangePercent": -0.09698997,
     "fiftyTwoWeekChangePercent": -1.8181801,
     "earningsTimestampStart": 1754546400,
+    "earningsTimestampEnd": 1754978400,
+    "isEarningsDateEstimate": true,
+    "epsTrailingTwelveMonths": 27.59,
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "1446.T announced a cash dividend of JPY 10.00 with an ex-date of Sep. 29, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1790607600000,
+          "amount": "10.00"
+        }
+      }
+    ],
+    "marketState": "CLOSED",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1530748800000,
+    "fiftyDayAverageChange": 0.44000244,
+    "fiftyDayAverageChangePercent": 0.0008154838,
+    "twoHundredDayAverageChange": -7.380005,
+    "twoHundredDayAverageChangePercent": -0.013482416,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
+    "regularMarketChangePercent": 0.18552876,
+    "regularMarketPrice": 540.0,
+    "shortName": "CANDEAL CO LTD",
+    "longName": "CANDEAL Co.,Ltd",
     "trailingPegRatio": null
   }
 }

@@ -1,7 +1,7 @@
 {
   "ticker": "1930",
   "japanese_ticker": "1930.T",
-  "fetch_date": "2026-09-21T00:45:29.005143",
+  "fetch_date": "2026-09-22T01:26:01.245155",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": -3758633.357825,
@@ -1184,6 +1184,8 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "shortName": "HOKURIKU ELECTRICAL CONSTRUCTIO",
+    "longName": "Hokuriku Electrical Construction Co.,Ltd.",
     "exchange": "JPX",
     "messageBoardId": "finmb_880605",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1193,8 +1195,7 @@
     "esgPopulated": false,
     "regularMarketChangePercent": -0.618047,
     "regularMarketPrice": 1608.0,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 978307200000,
+    "marketState": "CLOSED",
     "regularMarketChange": -10.0,
     "regularMarketDayRange": "1602.0 - 1619.0",
     "fullExchangeName": "Tokyo",
@@ -1207,15 +1208,6 @@
     "fiftyTwoWeekChangePercent": 3.2092452,
     "earningsTimestampStart": 1753682400,
     "earningsTimestampEnd": 1754028000,
-    "isEarningsDateEstimate": true,
-    "epsTrailingTwelveMonths": 139.74,
-    "fiftyDayAverageChange": 55.160034,
-    "fiftyDayAverageChangePercent": 0.035522033,
-    "twoHundredDayAverageChange": 38.410034,
-    "twoHundredDayAverageChangePercent": 0.024471382,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
     "corporateActions": [
       {
         "header": "Dividend",
@@ -1228,9 +1220,17 @@
       }
     ],
     "regularMarketTime": 1789713000,
-    "shortName": "HOKURIKU ELECTRICAL CONSTRUCTIO",
-    "longName": "Hokuriku Electrical Construction Co.,Ltd.",
-    "marketState": "CLOSED",
+    "isEarningsDateEstimate": true,
+    "epsTrailingTwelveMonths": 139.74,
+    "fiftyDayAverageChange": 55.160034,
+    "fiftyDayAverageChangePercent": 0.035522033,
+    "twoHundredDayAverageChange": 38.410034,
+    "twoHundredDayAverageChangePercent": 0.024471382,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 978307200000,
     "trailingPegRatio": null
   }
 }

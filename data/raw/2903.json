@@ -1,7 +1,7 @@
 {
   "ticker": "2903",
   "japanese_ticker": "2903.T",
-  "fetch_date": "2026-09-21T00:56:43.824666",
+  "fetch_date": "2026-09-22T01:36:14.747466",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": -7878000.0,
@@ -1134,8 +1134,8 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "shortName": "SHINOBU FOOD PRODUCTS CO",
     "longName": "Shinobu Foods Products Co., Ltd.",
-    "marketState": "CLOSED",
     "corporateActions": [
       {
         "header": "Dividend",
@@ -1155,9 +1155,20 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
+    "marketState": "CLOSED",
     "regularMarketChangePercent": -0.1242236,
     "regularMarketPrice": 1608.0,
-    "shortName": "SHINOBU FOOD PRODUCTS CO",
+    "earningsTimestampStart": 1746766800,
+    "earningsTimestampEnd": 1746766800,
+    "isEarningsDateEstimate": false,
+    "epsTrailingTwelveMonths": 149.54,
+    "fiftyDayAverageChange": -18.420044,
+    "fiftyDayAverageChangePercent": -0.011325515,
+    "twoHundredDayAverageChange": -49.994995,
+    "twoHundredDayAverageChangePercent": -0.030153887,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 954806400000,
     "regularMarketChange": -2.0,
@@ -1170,17 +1181,6 @@
     "fiftyTwoWeekHighChange": -511.0,
     "fiftyTwoWeekHighChangePercent": -0.24115148,
     "fiftyTwoWeekChangePercent": 2.3551822,
-    "earningsTimestampStart": 1746766800,
-    "earningsTimestampEnd": 1746766800,
-    "isEarningsDateEstimate": false,
-    "epsTrailingTwelveMonths": 149.54,
-    "fiftyDayAverageChange": -18.420044,
-    "fiftyDayAverageChangePercent": -0.011325515,
-    "twoHundredDayAverageChange": -49.994995,
-    "twoHundredDayAverageChangePercent": -0.030153887,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
     "trailingPegRatio": null
   }
 }

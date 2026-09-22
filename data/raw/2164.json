@@ -1,7 +1,7 @@
 {
   "ticker": "2164",
   "japanese_ticker": "2164.T",
-  "fetch_date": "2026-09-21T00:47:53.673924",
+  "fetch_date": "2026-09-22T01:28:09.189843",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-08-31 00:00:00": 960700.0,
@@ -1039,10 +1039,10 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "regularMarketChangePercent": 2.7272727,
-    "regularMarketPrice": 113.0,
     "shortName": "CHIIKISHINBUNSHA CO LTD",
     "longName": "Chiikishinbunsha Co.,Ltd.",
+    "regularMarketChange": 3.0,
+    "regularMarketDayRange": "110.0 - 114.0",
     "fullExchangeName": "Tokyo",
     "averageDailyVolume3Month": 119020,
     "fiftyTwoWeekLowChange": 6.0,
@@ -1066,9 +1066,9 @@
     "cryptoTradeable": false,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1198801800000,
-    "regularMarketChange": 3.0,
-    "regularMarketDayRange": "110.0 - 114.0",
     "marketState": "CLOSED",
+    "corporateActions": [],
+    "regularMarketTime": 1789713000,
     "exchange": "JPX",
     "messageBoardId": "finmb_38010842",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1076,8 +1076,8 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "corporateActions": [],
-    "regularMarketTime": 1789713000,
+    "regularMarketChangePercent": 2.7272727,
+    "regularMarketPrice": 113.0,
     "trailingPegRatio": null
   }
 }

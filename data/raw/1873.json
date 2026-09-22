@@ -1,18 +1,18 @@
 {
   "ticker": "1873",
   "japanese_ticker": "1873.T",
-  "fetch_date": "2026-09-21T00:44:42.502945",
+  "fetch_date": "2026-09-22T01:25:19.697388",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-04-30 00:00:00": -6516000.0,
       "2025-04-30 00:00:00": -105547796.222095,
-      "2023-10-31 00:00:00": -5568000.0,
+      "2023-10-31 00:00:00": -7137600.0,
       "2022-10-31 00:00:00": -3905000.0
     },
     "Tax Rate For Calcs": {
       "2026-04-30 00:00:00": 0.362,
       "2025-04-30 00:00:00": 0.338294,
-      "2023-10-31 00:00:00": 0.232,
+      "2023-10-31 00:00:00": 0.2974,
       "2022-10-31 00:00:00": 0.355
     },
     "Normalized EBITDA": {
@@ -84,7 +84,7 @@
     "Normalized Income": {
       "2026-04-30 00:00:00": 1351484000.0,
       "2025-04-30 00:00:00": 1341452203.777905,
-      "2023-10-31 00:00:00": -28568000.0,
+      "2023-10-31 00:00:00": -30137600.0,
       "2022-10-31 00:00:00": 1481095000.0
     },
     "Net Income From Continuing And Discontinued Operation": {
@@ -1202,6 +1202,18 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "earningsTimestampStart": 1749772800,
+    "earningsTimestampEnd": 1749772800,
+    "isEarningsDateEstimate": false,
+    "epsTrailingTwelveMonths": 33.51,
+    "fiftyDayAverageChange": -2.5599976,
+    "fiftyDayAverageChangePercent": -0.008138345,
+    "twoHundredDayAverageChange": -1.4899902,
+    "twoHundredDayAverageChangePercent": -0.0047529116,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
+    "corporateActions": [],
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 946944000000,
     "regularMarketChange": 1.0,
@@ -1214,19 +1226,6 @@
     "fiftyTwoWeekHighChange": -22.0,
     "fiftyTwoWeekHighChangePercent": -0.065868266,
     "fiftyTwoWeekChangePercent": -0.31948686,
-    "earningsTimestampStart": 1749772800,
-    "earningsTimestampEnd": 1749772800,
-    "isEarningsDateEstimate": false,
-    "epsTrailingTwelveMonths": 33.51,
-    "fiftyDayAverageChange": -2.5599976,
-    "fiftyDayAverageChangePercent": -0.008138345,
-    "twoHundredDayAverageChange": -1.4899902,
-    "twoHundredDayAverageChangePercent": -0.0047529116,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
-    "shortName": "NIHON HOUSE HOLDINGS CO LTD",
-    "corporateActions": [],
     "regularMarketTime": 1789713000,
     "exchange": "JPX",
     "messageBoardId": "finmb_2914326",
@@ -1236,9 +1235,10 @@
     "market": "jp_market",
     "esgPopulated": false,
     "regularMarketChangePercent": 0.3215434,
-    "regularMarketPrice": 312.0,
     "marketState": "CLOSED",
+    "shortName": "NIHON HOUSE HOLDINGS CO LTD",
     "longName": "Nihon House Holdings Co., Ltd.",
+    "regularMarketPrice": 312.0,
     "trailingPegRatio": null
   }
 }

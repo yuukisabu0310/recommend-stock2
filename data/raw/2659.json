@@ -1,7 +1,7 @@
 {
   "ticker": "2659",
   "japanese_ticker": "2659.T",
-  "fetch_date": "2026-09-21T00:53:31.039482",
+  "fetch_date": "2026-09-22T01:33:18.645551",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-02-28 00:00:00": -338608397.084513,
@@ -1150,6 +1150,18 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "marketState": "CLOSED",
+    "shortName": "SAN-A CO LTD",
+    "longName": "SAN-A CO.,LTD.",
+    "fiftyDayAverageChange": 79.69995,
+    "fiftyDayAverageChangePercent": 0.024076352,
+    "twoHundredDayAverageChange": 236.07007,
+    "twoHundredDayAverageChangePercent": 0.074849494,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
+    "corporateActions": [],
+    "regularMarketTime": 1789713000,
     "exchange": "JPX",
     "messageBoardId": "finmb_5490309",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1159,11 +1171,6 @@
     "esgPopulated": false,
     "regularMarketChangePercent": -0.7320644,
     "regularMarketPrice": 3390.0,
-    "corporateActions": [],
-    "regularMarketTime": 1789713000,
-    "shortName": "SAN-A CO LTD",
-    "longName": "SAN-A CO.,LTD.",
-    "marketState": "CLOSED",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1107475200000,
     "regularMarketChange": -25.0,
@@ -1184,13 +1191,6 @@
     "isEarningsDateEstimate": false,
     "epsTrailingTwelveMonths": 172.55,
     "epsForward": 195.7,
-    "fiftyDayAverageChange": 79.69995,
-    "fiftyDayAverageChangePercent": 0.024076352,
-    "twoHundredDayAverageChange": 236.07007,
-    "twoHundredDayAverageChangePercent": 0.074849494,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
     "trailingPegRatio": null
   }
 }

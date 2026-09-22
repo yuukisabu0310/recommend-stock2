@@ -1,7 +1,7 @@
 {
   "ticker": "2222",
   "japanese_ticker": "2222.T",
-  "fetch_date": "2026-09-21T00:48:54.076192",
+  "fetch_date": "2026-09-22T01:29:04.944657",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": 13860000.0,
@@ -1215,8 +1215,7 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "shortName": "KOTOBUKI SPIRITS",
-    "longName": "Kotobuki Spirits Co., Ltd.",
+    "marketState": "CLOSED",
     "corporateActions": [
       {
         "header": "Dividend",
@@ -1238,7 +1237,12 @@
     "esgPopulated": false,
     "regularMarketChangePercent": 0.46421662,
     "regularMarketPrice": 2597.0,
-    "marketState": "CLOSED",
+    "shortName": "KOTOBUKI SPIRITS",
+    "longName": "Kotobuki Spirits Co., Ltd.",
+    "fiftyDayAverageChange": -8.76001,
+    "fiftyDayAverageChangePercent": -0.003361787,
+    "twoHundredDayAverageChange": 443.34253,
+    "twoHundredDayAverageChangePercent": 0.20585564,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
@@ -1260,10 +1264,6 @@
     "isEarningsDateEstimate": false,
     "epsTrailingTwelveMonths": 81.29,
     "epsForward": 92.02,
-    "fiftyDayAverageChange": -8.76001,
-    "fiftyDayAverageChangePercent": -0.003361787,
-    "twoHundredDayAverageChange": 443.34253,
-    "twoHundredDayAverageChangePercent": 0.20585564,
     "trailingPegRatio": null
   }
 }

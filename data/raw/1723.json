@@ -1,7 +1,7 @@
 {
   "ticker": "1723",
   "japanese_ticker": "1723.T",
-  "fetch_date": "2026-09-21T00:42:51.216205",
+  "fetch_date": "2026-09-22T01:23:38.908142",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": 5789343.654781,
@@ -1136,19 +1136,9 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "shortName": "NIHON DENGI CO",
+    "longName": "Nihon Dengi Co., Ltd.",
     "marketState": "CLOSED",
-    "corporateActions": [
-      {
-        "header": "Dividend",
-        "message": "1723.T announced a cash dividend of JPY 20.00 with an ex-date of Sep. 29, 2026",
-        "meta": {
-          "eventType": "DIVIDEND",
-          "dateEpochMs": 1790607600000,
-          "amount": "20.00"
-        }
-      }
-    ],
-    "regularMarketTime": 1789713000,
     "exchange": "JPX",
     "messageBoardId": "finmb_5567433",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1158,10 +1148,6 @@
     "esgPopulated": false,
     "regularMarketChangePercent": 1.5,
     "regularMarketPrice": 2639.0,
-    "shortName": "NIHON DENGI CO",
-    "longName": "Nihon Dengi Co., Ltd.",
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1047513600000,
     "regularMarketChange": 39.0,
     "regularMarketDayRange": "2580.0 - 2670.0",
     "fullExchangeName": "Tokyo",
@@ -1183,6 +1169,20 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1047513600000,
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "1723.T announced a cash dividend of JPY 20.00 with an ex-date of Sep. 29, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1790607600000,
+          "amount": "20.00"
+        }
+      }
+    ],
+    "regularMarketTime": 1789713000,
     "trailingPegRatio": null
   }
 }

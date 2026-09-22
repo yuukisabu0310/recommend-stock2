@@ -1,7 +1,7 @@
 {
   "ticker": "1861",
   "japanese_ticker": "1861.T",
-  "fetch_date": "2026-09-21T00:44:30.924137",
+  "fetch_date": "2026-09-22T01:25:09.899576",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": 796620000.0,
@@ -1236,6 +1236,7 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "marketState": "CLOSED",
     "corporateActions": [
       {
         "header": "Dividend",
@@ -1257,14 +1258,6 @@
     "esgPopulated": false,
     "regularMarketChangePercent": 0.2265861,
     "regularMarketPrice": 1327.0,
-    "shortName": "KUMAGAI GUMI CO",
-    "longName": "Kumagai Gumi Co.,Ltd.",
-    "fiftyTwoWeekLowChange": 118.0,
-    "fiftyTwoWeekLowChangePercent": 0.097601324,
-    "fiftyTwoWeekRange": "1209.0 - 2043.0",
-    "fiftyTwoWeekHighChange": -716.0,
-    "fiftyTwoWeekHighChangePercent": -0.350465,
-    "fiftyTwoWeekChangePercent": 7.8861833,
     "earningsTimestamp": 1794465000,
     "earningsTimestampStart": 1794465000,
     "earningsTimestampEnd": 1794465000,
@@ -1286,7 +1279,14 @@
     "regularMarketDayRange": "1311.0 - 1328.0",
     "fullExchangeName": "Tokyo",
     "averageDailyVolume3Month": 916668,
-    "marketState": "CLOSED",
+    "fiftyTwoWeekLowChange": 118.0,
+    "fiftyTwoWeekLowChangePercent": 0.097601324,
+    "fiftyTwoWeekRange": "1209.0 - 2043.0",
+    "fiftyTwoWeekHighChange": -716.0,
+    "fiftyTwoWeekHighChangePercent": -0.350465,
+    "fiftyTwoWeekChangePercent": 7.8861833,
+    "shortName": "KUMAGAI GUMI CO",
+    "longName": "Kumagai Gumi Co.,Ltd.",
     "trailingPegRatio": null
   }
 }

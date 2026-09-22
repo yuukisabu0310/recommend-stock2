@@ -1,7 +1,7 @@
 {
   "ticker": "1878",
   "japanese_ticker": "1878.T",
-  "fetch_date": "2026-09-21T00:44:44.914938",
+  "fetch_date": "2026-09-22T01:25:21.914291",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": -178980000.0,
@@ -1336,13 +1336,10 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "marketState": "CLOSED",
     "regularMarketChangePercent": -1.1792454,
     "regularMarketPrice": 3352.0,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 978307200000,
-    "regularMarketChange": -40.0,
-    "regularMarketDayRange": "3352.0 - 3391.0",
+    "shortName": "DAITO TRUST CONSTRUCTION CO",
+    "longName": "Daito Trust Construction Co.,Ltd.",
     "fullExchangeName": "Tokyo",
     "averageDailyVolume3Month": 1581523,
     "fiftyTwoWeekLowChange": 507.5,
@@ -1366,6 +1363,18 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 978307200000,
+    "regularMarketChange": -40.0,
+    "regularMarketDayRange": "3352.0 - 3391.0",
+    "marketState": "CLOSED",
+    "exchange": "JPX",
+    "messageBoardId": "finmb_880828",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
     "corporateActions": [
       {
         "header": "Dividend",
@@ -1378,15 +1387,6 @@
       }
     ],
     "regularMarketTime": 1789713000,
-    "exchange": "JPX",
-    "messageBoardId": "finmb_880828",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
-    "shortName": "DAITO TRUST CONSTRUCTION CO",
-    "longName": "Daito Trust Construction Co.,Ltd.",
     "trailingPegRatio": null
   }
 }

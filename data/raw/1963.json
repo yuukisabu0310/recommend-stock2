@@ -1,7 +1,7 @@
 {
   "ticker": "1963",
   "japanese_ticker": "1963.T",
-  "fetch_date": "2026-09-21T00:46:05.399578",
+  "fetch_date": "2026-09-22T01:26:34.071161",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": 803313000.0,
@@ -1222,7 +1222,10 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "shortName": "JGC HOLDINGS CORPORATION",
     "marketState": "CLOSED",
+    "regularMarketChangePercent": -1.0595465,
+    "regularMarketPrice": 2334.5,
     "corporateActions": [],
     "regularMarketTime": 1789713000,
     "exchange": "JPX",
@@ -1232,8 +1235,13 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "regularMarketChangePercent": -1.0595465,
-    "regularMarketPrice": 2334.5,
+    "longName": "JGC Holdings Corporation",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 946944000000,
+    "regularMarketChange": -25.0,
+    "regularMarketDayRange": "2328.5 - 2377.5",
+    "fullExchangeName": "Tokyo",
+    "averageDailyVolume3Month": 1556930,
     "fiftyTwoWeekLowChange": 912.0,
     "fiftyTwoWeekLowChangePercent": 0.6411248,
     "fiftyTwoWeekRange": "1422.5 - 2927.5",
@@ -1256,14 +1264,6 @@
     "exchangeDataDelayedBy": 20,
     "averageAnalystRating": "2.6 - Hold",
     "cryptoTradeable": false,
-    "regularMarketChange": -25.0,
-    "regularMarketDayRange": "2328.5 - 2377.5",
-    "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 1556930,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 946944000000,
-    "shortName": "JGC HOLDINGS CORPORATION",
-    "longName": "JGC Holdings Corporation",
     "trailingPegRatio": null
   }
 }

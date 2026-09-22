@@ -1,7 +1,7 @@
 {
   "ticker": "3011",
   "japanese_ticker": "3011.T",
-  "fetch_date": "2026-09-21T00:58:21.066451",
+  "fetch_date": "2026-09-22T01:37:44.974356",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": 0.0,
@@ -1171,10 +1171,6 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "regularMarketChangePercent": 0.0,
-    "regularMarketPrice": 142.0,
-    "corporateActions": [],
-    "regularMarketTime": 1789713000,
     "exchange": "JPX",
     "messageBoardId": "finmb_2377149",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1182,12 +1178,16 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "cryptoTradeable": false,
+    "regularMarketChangePercent": 0.0,
+    "regularMarketPrice": 142.0,
     "marketState": "CLOSED",
-    "shortName": "BANNERS CO LTD",
-    "longName": "Banners Co., Ltd.",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 978307200000,
     "regularMarketChange": 0.0,
     "regularMarketDayRange": "142.0 - 142.0",
+    "corporateActions": [],
+    "regularMarketTime": 1789713000,
+    "cryptoTradeable": false,
     "fullExchangeName": "Tokyo",
     "averageDailyVolume3Month": 16457,
     "fiftyTwoWeekLowChange": 8.0,
@@ -1206,8 +1206,8 @@
     "twoHundredDayAverageChangePercent": -0.07690308,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 978307200000,
+    "shortName": "BANNERS CO LTD",
+    "longName": "Banners Co., Ltd.",
     "trailingPegRatio": null
   }
 }

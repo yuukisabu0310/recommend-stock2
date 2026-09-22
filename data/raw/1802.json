@@ -1,7 +1,7 @@
 {
   "ticker": "1802",
   "japanese_ticker": "1802.T",
-  "fetch_date": "2026-09-21T00:43:34.833337",
+  "fetch_date": "2026-09-22T01:24:19.690074",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": 13022208000.0,
@@ -1236,8 +1236,8 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "regularMarketChangePercent": -1.4701182,
-    "regularMarketPrice": 3083.0,
+    "longName": "Obayashi Corporation",
+    "marketState": "CLOSED",
     "corporateActions": [
       {
         "header": "Dividend",
@@ -1257,13 +1257,20 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "longName": "Obayashi Corporation",
+    "epsTrailingTwelveMonths": 249.41,
+    "epsForward": 137.96,
+    "fiftyDayAverageChange": -18.96997,
+    "fiftyDayAverageChangePercent": -0.0061154594,
+    "twoHundredDayAverageChange": -372.9524,
+    "twoHundredDayAverageChangePercent": -0.10791595,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "averageAnalystRating": "1.6 - Buy",
+    "cryptoTradeable": false,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 946944000000,
     "regularMarketChange": -46.0,
     "regularMarketDayRange": "3083.0 - 3144.0",
-    "marketState": "CLOSED",
-    "shortName": "OBAYASHI CORP",
     "fullExchangeName": "Tokyo",
     "averageDailyVolume3Month": 2526847,
     "fiftyTwoWeekLowChange": 783.0,
@@ -1278,16 +1285,9 @@
     "earningsCallTimestampStart": 1747133940,
     "earningsCallTimestampEnd": 1747133940,
     "isEarningsDateEstimate": false,
-    "epsTrailingTwelveMonths": 249.41,
-    "epsForward": 137.96,
-    "fiftyDayAverageChange": -18.96997,
-    "fiftyDayAverageChangePercent": -0.0061154594,
-    "twoHundredDayAverageChange": -372.9524,
-    "twoHundredDayAverageChangePercent": -0.10791595,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "averageAnalystRating": "1.6 - Buy",
-    "cryptoTradeable": false,
+    "shortName": "OBAYASHI CORP",
+    "regularMarketChangePercent": -1.4701182,
+    "regularMarketPrice": 3083.0,
     "trailingPegRatio": null
   }
 }

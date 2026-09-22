@@ -1,7 +1,7 @@
 {
   "ticker": "2918",
   "japanese_ticker": "2918.T",
-  "fetch_date": "2026-09-21T00:57:03.861873",
+  "fetch_date": "2026-09-22T01:36:33.816861",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-02-28 00:00:00": -133425000.0,
@@ -1261,7 +1261,6 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "marketState": "CLOSED",
     "corporateActions": [],
     "regularMarketTime": 1789713000,
     "exchange": "JPX",
@@ -1275,6 +1274,7 @@
     "regularMarketPrice": 2717.0,
     "shortName": "WARABEYA NICHIYO HOLDINGS CO LT",
     "longName": "Warabeya Nichiyo Holdings Co., Ltd.",
+    "marketState": "CLOSED",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 978566400000,
     "regularMarketChange": -49.0,

@@ -1,7 +1,7 @@
 {
   "ticker": "1808",
   "japanese_ticker": "1808.T",
-  "fetch_date": "2026-09-21T00:43:41.836597",
+  "fetch_date": "2026-09-22T01:24:25.729449",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": -1773670000.0,
@@ -1323,14 +1323,9 @@
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
     "marketState": "CLOSED",
-    "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 902200,
-    "fiftyTwoWeekLowChange": 341.0,
-    "fiftyTwoWeekLowChangePercent": 0.14255853,
-    "fiftyTwoWeekRange": "2392.0 - 3531.0",
-    "fiftyTwoWeekHighChange": -798.0,
-    "fiftyTwoWeekHighChangePercent": -0.2259983,
-    "fiftyTwoWeekChangePercent": 9.101796,
+    "shortName": "HASEKO CORPORATION",
+    "longName": "HASEKO Corporation",
+    "cryptoTradeable": false,
     "earningsTimestamp": 1794465000,
     "earningsTimestampStart": 1794465000,
     "earningsTimestampEnd": 1794465000,
@@ -1345,7 +1340,6 @@
     "twoHundredDayAverageChangePercent": -0.06605769,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
     "corporateActions": [
       {
         "header": "Dividend",
@@ -1371,8 +1365,14 @@
     "firstTradeDateMilliseconds": 978307200000,
     "regularMarketChange": -52.5,
     "regularMarketDayRange": "2729.5 - 2784.5",
-    "shortName": "HASEKO CORPORATION",
-    "longName": "HASEKO Corporation",
+    "fullExchangeName": "Tokyo",
+    "averageDailyVolume3Month": 902200,
+    "fiftyTwoWeekLowChange": 341.0,
+    "fiftyTwoWeekLowChangePercent": 0.14255853,
+    "fiftyTwoWeekRange": "2392.0 - 3531.0",
+    "fiftyTwoWeekHighChange": -798.0,
+    "fiftyTwoWeekHighChangePercent": -0.2259983,
+    "fiftyTwoWeekChangePercent": 9.101796,
     "trailingPegRatio": null
   }
 }

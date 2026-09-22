@@ -1,7 +1,7 @@
 {
   "ticker": "1944",
   "japanese_ticker": "1944.T",
-  "fetch_date": "2026-09-21T00:45:41.802606",
+  "fetch_date": "2026-09-22T01:26:12.830649",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": 916526659.702165,
@@ -1218,8 +1218,8 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 978566400000,
+    "shortName": "KINDEN CORPORATION",
+    "longName": "Kinden Corporation",
     "regularMarketChange": -71.0,
     "regularMarketDayRange": "6897.0 - 7008.0",
     "fullExchangeName": "Tokyo",
@@ -1233,6 +1233,19 @@
     "earningsTimestamp": 1785306600,
     "earningsTimestampStart": 1793255400,
     "earningsTimestampEnd": 1793255400,
+    "isEarningsDateEstimate": true,
+    "epsTrailingTwelveMonths": 350.61,
+    "epsForward": 198.76,
+    "fiftyDayAverageChange": -164.52002,
+    "fiftyDayAverageChangePercent": -0.023193002,
+    "twoHundredDayAverageChange": -402.33008,
+    "twoHundredDayAverageChangePercent": -0.054878183,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 978566400000,
+    "marketState": "CLOSED",
     "corporateActions": [
       {
         "header": "Dividend",
@@ -1254,19 +1267,6 @@
     "esgPopulated": false,
     "regularMarketChangePercent": -1.0142857,
     "regularMarketPrice": 6929.0,
-    "isEarningsDateEstimate": true,
-    "epsTrailingTwelveMonths": 350.61,
-    "epsForward": 198.76,
-    "fiftyDayAverageChange": -164.52002,
-    "fiftyDayAverageChangePercent": -0.023193002,
-    "twoHundredDayAverageChange": -402.33008,
-    "twoHundredDayAverageChangePercent": -0.054878183,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
-    "shortName": "KINDEN CORPORATION",
-    "longName": "Kinden Corporation",
-    "marketState": "CLOSED",
     "trailingPegRatio": null
   }
 }

@@ -1,7 +1,7 @@
 {
   "ticker": "2999",
   "japanese_ticker": "2999.T",
-  "fetch_date": "2026-09-21T00:58:08.569968",
+  "fetch_date": "2026-09-22T01:37:33.757088",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-08-31 00:00:00": -3923244.0,
@@ -1014,10 +1014,10 @@
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
     "marketState": "CLOSED",
-    "shortName": "HOME POSITION CO LTD",
-    "longName": "Home Position Co., Ltd.",
-    "regularMarketChangePercent": -0.78277886,
-    "regularMarketPrice": 507.0,
+    "corporateActions": [],
+    "regularMarketTime": 1789713000,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1655942400000,
     "regularMarketChange": -4.0,
     "regularMarketDayRange": "507.0 - 516.0",
     "fullExchangeName": "Tokyo",
@@ -1039,10 +1039,6 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1655942400000,
-    "corporateActions": [],
-    "regularMarketTime": 1789713000,
     "exchange": "JPX",
     "messageBoardId": "finmb_107133819",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1050,6 +1046,10 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
+    "regularMarketChangePercent": -0.78277886,
+    "regularMarketPrice": 507.0,
+    "shortName": "HOME POSITION CO LTD",
+    "longName": "Home Position Co., Ltd.",
     "trailingPegRatio": null
   }
 }

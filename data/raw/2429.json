@@ -1,7 +1,7 @@
 {
   "ticker": "2429",
   "japanese_ticker": "2429.T",
-  "fetch_date": "2026-09-21T00:51:33.159656",
+  "fetch_date": "2026-09-22T01:31:29.543421",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-12-31 00:00:00": -39788000.0,
@@ -1230,7 +1230,7 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "marketState": "CLOSED",
+    "regularMarketTime": 1789713000,
     "exchange": "JPX",
     "messageBoardId": "finmb_13616696",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1238,12 +1238,6 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "regularMarketChangePercent": -1.8113467,
-    "regularMarketPrice": 2873.0,
-    "corporateActions": [],
-    "regularMarketTime": 1789713000,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1198801800000,
     "regularMarketChange": -53.0,
     "regularMarketDayRange": "2873.0 - 2926.0",
     "fullExchangeName": "Tokyo",
@@ -1259,6 +1253,10 @@
     "isEarningsDateEstimate": true,
     "epsTrailingTwelveMonths": 327.81,
     "epsForward": 357.7,
+    "corporateActions": [],
+    "marketState": "CLOSED",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1198801800000,
     "fiftyDayAverageChange": 125.58008,
     "fiftyDayAverageChangePercent": 0.045708366,
     "twoHundredDayAverageChange": 249.08008,
@@ -1266,11 +1264,13 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "prevName": "The Web3 Project (new)",
-    "nameChangeDate": "2026-09-20",
+    "nameChangeDate": "2026-09-21",
     "averageAnalystRating": "0.0 - Strong Buy",
+    "cryptoTradeable": false,
+    "regularMarketChangePercent": -1.8113467,
+    "regularMarketPrice": 2873.0,
     "shortName": "WORLD HOLDINGS CO LTD",
     "longName": "World Holdings Co., Ltd.",
-    "cryptoTradeable": false,
     "trailingPegRatio": null
   }
 }

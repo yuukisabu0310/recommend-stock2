@@ -1,7 +1,7 @@
 {
   "ticker": "2268",
   "japanese_ticker": "2268.T",
-  "fetch_date": "2026-09-21T00:49:08.103793",
+  "fetch_date": "2026-09-22T01:29:17.676521",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-12-31 00:00:00": -45917796.0,
@@ -1292,6 +1292,9 @@
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
     "marketState": "CLOSED",
+    "cryptoTradeable": false,
+    "corporateActions": [],
+    "regularMarketTime": 1789713000,
     "exchange": "JPX",
     "messageBoardId": "finmb_12721969",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1303,9 +1306,6 @@
     "regularMarketPrice": 4045.0,
     "shortName": "BR 31 ICE CREAM CO.LTD",
     "longName": "B-R 31 Ice Cream Co.,Ltd.",
-    "corporateActions": [],
-    "regularMarketTime": 1789713000,
-    "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 946944000000,
     "regularMarketChange": 0.0,
     "regularMarketDayRange": "4045.0 - 4055.0",
@@ -1327,7 +1327,7 @@
     "twoHundredDayAverageChangePercent": -0.002595201,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
+    "hasPrePostMarketData": false,
     "trailingPegRatio": null
   }
 }

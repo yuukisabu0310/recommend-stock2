@@ -1,7 +1,7 @@
 {
   "ticker": "1979",
   "japanese_ticker": "1979.T",
-  "fetch_date": "2026-09-21T00:46:25.698880",
+  "fetch_date": "2026-09-22T01:26:52.262491",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": 217445395.305017,
@@ -1332,8 +1332,6 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "shortName": "TAIKISHA LTD",
-    "longName": "Taikisha Ltd.",
     "corporateActions": [
       {
         "header": "Dividend",
@@ -1353,16 +1351,10 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "fiftyDayAverageChange": -289.0,
-    "fiftyDayAverageChangePercent": -0.06990808,
-    "twoHundredDayAverageChange": -19.975098,
-    "twoHundredDayAverageChangePercent": -0.0051682345,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "averageAnalystRating": "2.3 - Buy",
-    "cryptoTradeable": false,
     "regularMarketChangePercent": -0.64599484,
     "regularMarketPrice": 3845.0,
+    "cryptoTradeable": false,
+    "marketState": "CLOSED",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 978307200000,
     "regularMarketChange": -25.0,
@@ -1375,13 +1367,21 @@
     "fiftyTwoWeekHighChange": -1235.0,
     "fiftyTwoWeekHighChangePercent": -0.24311024,
     "fiftyTwoWeekChangePercent": 33.599724,
+    "longName": "Taikisha Ltd.",
     "earningsTimestamp": 1794292200,
     "earningsTimestampStart": 1794292200,
     "earningsTimestampEnd": 1794292200,
     "isEarningsDateEstimate": false,
     "epsTrailingTwelveMonths": 245.31,
     "epsForward": 381.67,
-    "marketState": "CLOSED",
+    "fiftyDayAverageChange": -289.0,
+    "fiftyDayAverageChangePercent": -0.06990808,
+    "twoHundredDayAverageChange": -19.975098,
+    "twoHundredDayAverageChangePercent": -0.0051682345,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "averageAnalystRating": "2.3 - Buy",
+    "shortName": "TAIKISHA LTD",
     "trailingPegRatio": null
   }
 }

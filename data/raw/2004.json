@@ -1,7 +1,7 @@
 {
   "ticker": "2004",
   "japanese_ticker": "2004.T",
-  "fetch_date": "2026-09-21T00:46:46.834928",
+  "fetch_date": "2026-09-22T01:27:11.268194",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": 146963000.0,
@@ -1186,10 +1186,33 @@
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
     "marketState": "CLOSED",
-    "shortName": "SHOWA SANGYO CO",
-    "longName": "Showa Sangyo Co., Ltd.",
     "regularMarketChangePercent": -0.879397,
     "regularMarketPrice": 3945.0,
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "2004.T announced a cash dividend of JPY 70.00 with an ex-date of Sep. 29, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1790607600000,
+          "amount": "70.00"
+        }
+      }
+    ],
+    "regularMarketTime": 1789713000,
+    "exchange": "JPX",
+    "messageBoardId": "finmb_874505",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
+    "shortName": "SHOWA SANGYO CO",
+    "longName": "Showa Sangyo Co., Ltd.",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 978307200000,
+    "regularMarketChange": -35.0,
+    "regularMarketDayRange": "3935.0 - 3965.0",
     "fullExchangeName": "Tokyo",
     "averageDailyVolume3Month": 56492,
     "fiftyTwoWeekLowChange": 1120.0,
@@ -1210,29 +1233,6 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 978307200000,
-    "regularMarketChange": -35.0,
-    "regularMarketDayRange": "3935.0 - 3965.0",
-    "corporateActions": [
-      {
-        "header": "Dividend",
-        "message": "2004.T announced a cash dividend of JPY 70.00 with an ex-date of Sep. 29, 2026",
-        "meta": {
-          "eventType": "DIVIDEND",
-          "dateEpochMs": 1790607600000,
-          "amount": "70.00"
-        }
-      }
-    ],
-    "regularMarketTime": 1789713000,
-    "exchange": "JPX",
-    "messageBoardId": "finmb_874505",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
     "trailingPegRatio": null
   }
 }

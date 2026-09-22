@@ -1,7 +1,7 @@
 {
   "ticker": "1941",
   "japanese_ticker": "1941.T",
-  "fetch_date": "2026-09-21T00:45:37.487260",
+  "fetch_date": "2026-09-22T01:26:08.949197",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": -201370094.015819,
@@ -1280,6 +1280,11 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "regularMarketChangePercent": -0.9615385,
+    "regularMarketPrice": 5150.0,
+    "shortName": "CHUDENKO CORP",
+    "longName": "Chudenko Corporation",
+    "marketState": "CLOSED",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 978307200000,
     "regularMarketChange": -50.0,
@@ -1325,11 +1330,6 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "regularMarketChangePercent": -0.9615385,
-    "regularMarketPrice": 5150.0,
-    "marketState": "CLOSED",
-    "shortName": "CHUDENKO CORP",
-    "longName": "Chudenko Corporation",
     "trailingPegRatio": null
   }
 }

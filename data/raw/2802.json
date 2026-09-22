@@ -1,7 +1,7 @@
 {
   "ticker": "2802",
   "japanese_ticker": "2802.T",
-  "fetch_date": "2026-09-21T00:55:44.311246",
+  "fetch_date": "2026-09-22T01:35:21.943539",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": 0.0,
@@ -1226,6 +1226,7 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "marketState": "CLOSED",
     "corporateActions": [
       {
         "header": "Dividend",
@@ -1245,14 +1246,8 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "regularMarketChangePercent": -0.9892995,
-    "regularMarketPrice": 4904.0,
     "shortName": "AJINOMOTO CO INC",
     "longName": "Ajinomoto Co., Inc.",
-    "marketState": "CLOSED",
-    "averageAnalystRating": "1.8 - Buy",
-    "cryptoTradeable": false,
-    "averageDailyVolume3Month": 3732498,
     "fiftyTwoWeekLowChange": 1634.0,
     "fiftyTwoWeekLowChangePercent": 0.4996942,
     "fiftyTwoWeekRange": "3270.0 - 6340.0",
@@ -1273,11 +1268,16 @@
     "twoHundredDayAverageChangePercent": 0.045965705,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
+    "averageAnalystRating": "1.8 - Buy",
+    "cryptoTradeable": false,
+    "regularMarketChangePercent": -0.9892995,
+    "regularMarketPrice": 4904.0,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 946944000000,
     "regularMarketChange": -49.0,
     "regularMarketDayRange": "4890.0 - 4994.0",
     "fullExchangeName": "Tokyo",
+    "averageDailyVolume3Month": 3732498,
     "trailingPegRatio": 2.7064
   }
 }

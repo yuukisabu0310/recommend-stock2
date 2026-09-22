@@ -1,7 +1,7 @@
 {
   "ticker": "2342",
   "japanese_ticker": "2342.T",
-  "fetch_date": "2026-09-21T00:50:25.319601",
+  "fetch_date": "2026-09-22T01:30:25.243634",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": -128351600.0,
@@ -1264,6 +1264,11 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "marketState": "CLOSED",
+    "shortName": "TRANSGENIC GROUP INC",
+    "longName": "Transgenic Group Inc.",
+    "corporateActions": [],
+    "regularMarketTime": 1789713000,
     "exchange": "JPX",
     "messageBoardId": "finmb_9104372",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1273,8 +1278,6 @@
     "esgPopulated": false,
     "regularMarketChangePercent": 0.0,
     "regularMarketPrice": 256.0,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1039478400000,
     "regularMarketChange": 0.0,
     "regularMarketDayRange": "253.0 - 258.0",
     "fullExchangeName": "Tokyo",
@@ -1296,13 +1299,10 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "prevName": "Trans Genic Inc.",
-    "nameChangeDate": "2026-09-20",
+    "nameChangeDate": "2026-09-21",
     "cryptoTradeable": false,
-    "corporateActions": [],
-    "regularMarketTime": 1789713000,
-    "shortName": "TRANSGENIC GROUP INC",
-    "longName": "Transgenic Group Inc.",
-    "marketState": "CLOSED",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1039478400000,
     "trailingPegRatio": null
   }
 }

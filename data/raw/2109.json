@@ -1,7 +1,7 @@
 {
   "ticker": "2109",
   "japanese_ticker": "2109.T",
-  "fetch_date": "2026-09-21T00:46:58.479179",
+  "fetch_date": "2026-09-22T01:27:22.561457",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": -2204400000.0,
@@ -1368,6 +1368,18 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "2109.T announced a cash dividend of JPY 70.00 with an ex-date of Sep. 29, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1790607600000,
+          "amount": "70.00"
+        }
+      }
+    ],
+    "regularMarketTime": 1789713000,
     "exchange": "JPX",
     "messageBoardId": "finmb_880505",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1377,8 +1389,10 @@
     "esgPopulated": false,
     "regularMarketChangePercent": -0.6443299,
     "regularMarketPrice": 3855.0,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 978307200000,
+    "shortName": "MITSUI DM SUGAR CO LTD",
+    "longName": "Mitsui DM Sugar Co.,Ltd.",
+    "marketState": "CLOSED",
+    "cryptoTradeable": false,
     "regularMarketChange": -25.0,
     "regularMarketDayRange": "3850.0 - 3885.0",
     "fullExchangeName": "Tokyo",
@@ -1400,23 +1414,9 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "prevName": "Mitsui Sugar Co., Ltd.",
-    "nameChangeDate": "2026-09-20",
-    "cryptoTradeable": false,
-    "corporateActions": [
-      {
-        "header": "Dividend",
-        "message": "2109.T announced a cash dividend of JPY 70.00 with an ex-date of Sep. 29, 2026",
-        "meta": {
-          "eventType": "DIVIDEND",
-          "dateEpochMs": 1790607600000,
-          "amount": "70.00"
-        }
-      }
-    ],
-    "regularMarketTime": 1789713000,
-    "shortName": "MITSUI DM SUGAR CO LTD",
-    "longName": "Mitsui DM Sugar Co.,Ltd.",
-    "marketState": "CLOSED",
+    "nameChangeDate": "2026-09-21",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 978307200000,
     "trailingPegRatio": null
   }
 }

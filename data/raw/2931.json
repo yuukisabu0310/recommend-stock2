@@ -1,7 +1,7 @@
 {
   "ticker": "2931",
   "japanese_ticker": "2931.T",
-  "fetch_date": "2026-09-21T00:57:20.201936",
+  "fetch_date": "2026-09-22T01:36:48.147789",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-12-31 00:00:00": -110432000.0,
@@ -1415,7 +1415,10 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "marketState": "CLOSED",
+    "shortName": "EUGLENA CO LTD",
+    "longName": "Euglena Co., Ltd.",
+    "corporateActions": [],
+    "regularMarketTime": 1789713000,
     "exchange": "JPX",
     "messageBoardId": "finmb_61899053",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1425,8 +1428,7 @@
     "esgPopulated": false,
     "regularMarketChangePercent": -0.5681818,
     "regularMarketPrice": 350.0,
-    "corporateActions": [],
-    "regularMarketTime": 1789713000,
+    "marketState": "CLOSED",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1356048000000,
     "regularMarketChange": -2.0,
@@ -1452,8 +1454,6 @@
     "twoHundredDayAverageChangePercent": -0.06848005,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
-    "shortName": "EUGLENA CO LTD",
-    "longName": "Euglena Co., Ltd.",
     "cryptoTradeable": false,
     "trailingPegRatio": null
   }

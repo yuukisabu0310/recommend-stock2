@@ -1,20 +1,20 @@
 {
   "ticker": "2769",
   "japanese_ticker": "2769.T",
-  "fetch_date": "2026-09-21T00:55:13.931998",
+  "fetch_date": "2026-09-22T01:34:53.023038",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-05-31 00:00:00": -2008800.0,
-      "2025-05-31 00:00:00": -732888000.0,
-      "2024-05-31 00:00:00": -36888000.0,
-      "2023-05-31 00:00:00": -14384000.0,
+      "2025-05-31 00:00:00": -939486600.0,
+      "2024-05-31 00:00:00": -47286600.0,
+      "2023-05-31 00:00:00": -18438800.0,
       "2022-05-31 00:00:00": null
     },
     "Tax Rate For Calcs": {
       "2026-05-31 00:00:00": 0.0648,
-      "2025-05-31 00:00:00": 0.232,
-      "2024-05-31 00:00:00": 0.232,
-      "2023-05-31 00:00:00": 0.232,
+      "2025-05-31 00:00:00": 0.2974,
+      "2024-05-31 00:00:00": 0.2974,
+      "2023-05-31 00:00:00": 0.2974,
       "2022-05-31 00:00:00": null
     },
     "Normalized EBITDA": {
@@ -89,9 +89,9 @@
     },
     "Normalized Income": {
       "2026-05-31 00:00:00": 764991200.0,
-      "2025-05-31 00:00:00": -1820888000.0,
-      "2024-05-31 00:00:00": -1021888000.0,
-      "2023-05-31 00:00:00": 70616000.0,
+      "2025-05-31 00:00:00": -2027486600.0,
+      "2024-05-31 00:00:00": -1032286600.0,
+      "2023-05-31 00:00:00": 66561200.0,
       "2022-05-31 00:00:00": null
     },
     "Net Income From Continuing And Discontinued Operation": {
@@ -1077,21 +1077,7 @@
     "esgPopulated": false,
     "regularMarketChangePercent": 0.54347825,
     "regularMarketPrice": 925.0,
-    "cryptoTradeable": false,
     "marketState": "CLOSED",
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1049932800000,
-    "regularMarketChange": 5.0,
-    "regularMarketDayRange": "921.0 - 925.0",
-    "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 4344,
-    "fiftyTwoWeekLowChange": 117.0,
-    "fiftyTwoWeekLowChangePercent": 0.14480197,
-    "fiftyTwoWeekRange": "808.0 - 1033.0",
-    "fiftyTwoWeekHighChange": -108.0,
-    "fiftyTwoWeekHighChangePercent": -0.104549855,
-    "fiftyTwoWeekChangePercent": -9.2247305,
-    "longName": "Village Vanguard CO.,LTD.",
     "earningsTimestampStart": 1752214200,
     "earningsTimestampEnd": 1752214200,
     "earningsCallTimestampStart": 1712919540,
@@ -1104,7 +1090,21 @@
     "twoHundredDayAverageChangePercent": 0.0024383636,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1049932800000,
+    "regularMarketChange": 5.0,
+    "regularMarketDayRange": "921.0 - 925.0",
+    "fullExchangeName": "Tokyo",
+    "averageDailyVolume3Month": 4344,
+    "fiftyTwoWeekLowChange": 117.0,
+    "fiftyTwoWeekLowChangePercent": 0.14480197,
+    "fiftyTwoWeekRange": "808.0 - 1033.0",
+    "fiftyTwoWeekHighChange": -108.0,
+    "fiftyTwoWeekHighChangePercent": -0.104549855,
+    "fiftyTwoWeekChangePercent": -9.2247305,
     "shortName": "VILLAGE VANGUARD CO LTD",
+    "longName": "Village Vanguard CO.,LTD.",
     "trailingPegRatio": null
   }
 }

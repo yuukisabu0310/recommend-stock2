@@ -1,7 +1,7 @@
 {
   "ticker": "2997",
   "japanese_ticker": "2997.T",
-  "fetch_date": "2026-09-21T00:58:04.535637",
+  "fetch_date": "2026-09-22T01:37:29.567987",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-01-31 00:00:00": 768913.0,
@@ -1186,7 +1186,8 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "exchange": "JPX",
+    "shortName": "STORAGE-OH CO LTD",
+    "marketState": "CLOSED",
     "messageBoardId": "finmb_1775517680",
     "exchangeTimezoneName": "Asia/Tokyo",
     "exchangeTimezoneShortName": "JST",
@@ -1195,11 +1196,7 @@
     "esgPopulated": false,
     "regularMarketChangePercent": -0.075642966,
     "regularMarketPrice": 1321.0,
-    "corporateActions": [],
-    "regularMarketTime": 1789713000,
-    "shortName": "STORAGE-OH CO LTD",
     "longName": "STORAGE-OH Co.,Ltd.",
-    "marketState": "CLOSED",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1651017600000,
     "regularMarketChange": -1.0,
@@ -1225,6 +1222,9 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
+    "corporateActions": [],
+    "regularMarketTime": 1789713000,
+    "exchange": "JPX",
     "trailingPegRatio": null
   }
 }

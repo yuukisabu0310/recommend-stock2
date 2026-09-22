@@ -1,7 +1,7 @@
 {
   "ticker": "2683",
   "japanese_ticker": "2683.T",
-  "fetch_date": "2026-09-21T00:53:56.482846",
+  "fetch_date": "2026-09-22T01:33:41.043520",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-02-28 00:00:00": -15286144.0,
@@ -1134,13 +1134,6 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "regularMarketChangePercent": -0.20120724,
-    "regularMarketPrice": 992.0,
-    "shortName": "UOGROUP CO LTD",
-    "longName": "UOGroup CO.,LTD.",
-    "marketState": "CLOSED",
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1018828800000,
     "regularMarketChange": -2.0,
     "regularMarketDayRange": "992.0 - 994.0",
     "fullExchangeName": "Tokyo",
@@ -1162,8 +1155,10 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "prevName": "Uoki Co.,Ltd.",
-    "nameChangeDate": "2026-09-20",
+    "nameChangeDate": "2026-09-21",
     "cryptoTradeable": false,
+    "shortName": "UOGROUP CO LTD",
+    "longName": "UOGroup CO.,LTD.",
     "corporateActions": [],
     "regularMarketTime": 1789709730,
     "exchange": "JPX",
@@ -1173,6 +1168,11 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
+    "regularMarketChangePercent": -0.20120724,
+    "regularMarketPrice": 992.0,
+    "marketState": "CLOSED",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1018828800000,
     "trailingPegRatio": null
   }
 }

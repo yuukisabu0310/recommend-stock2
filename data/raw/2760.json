@@ -1,7 +1,7 @@
 {
   "ticker": "2760",
   "japanese_ticker": "2760.T",
-  "fetch_date": "2026-09-21T00:55:01.928405",
+  "fetch_date": "2026-09-22T01:34:40.760929",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": 312432000.0,
@@ -1049,7 +1049,7 @@
     "sector": "Technology",
     "sectorKey": "technology",
     "sectorDisp": "Technology",
-    "longBusinessSummary": "Tokyo Electron Device Limited, a technology trading company, engages in the sale of semiconductor products, boards and electronic components, software, and services worldwide. It offers semiconductors, such as microprocessors, DSPs, memory ICs, ASICs, FPGAs, PLDs, security applications, peripheral LSIs, image processors, telecom applications, wireless ICs, sensor ICs, AD/DAs logic ICs, clock/timing ICs, analog ICs/power supply ICs, inductors/discrete devices, telecom/network applications, RF/microwave applications, and optical devices. The company also provides software solutions and electronic components, including operating systems, BIOSs, development tools, RTOSs, CPU boards, media processor boards, interface boards, high-speed communication boards, evaluation boards, panel PCs, LCDs/plasma panels, power supplies, connectors, IC sockets, storage devices, measuring instruments, and energy harvesting. In addition, it offers network solutions comprising data center and campus switches, load balancer, DHCP/DNS appliances, and VPN appliances; storage solutions consisting of SAN fabric switches, data protection, data storage, and hyper-converged infrastructure; and security solutions, which include firewalls, DNSSEC, SSL, and CASB. Tokyo Electron Device Limited was incorporated in 1986 and is headquartered in Yokohama, Japan.",
+    "longBusinessSummary": "Tokyo Electron Device Limited, a technology trading company, engages in the sale of semiconductor products, boards and electronic components, software, and services worldwide. It offers semiconductors, such as microprocessors, DSPs, memory ICs, ASICs, FPGAs, PLDs, security applications, peripheral LSIs, image processors, telecom applications, wireless ICs, sensor ICs, AD/DAs logic ICs, clock/timing ICs, analog ICs/power supply ICs, inductors/discrete devices, telecom/network applications, RF/microwave applications, and optical devices. The company also provides software solutions and electronic components, including operating systems, BIOSs, development tools, RTOSs, CPU boards, media processor boards, interface boards, high-speed communication boards, evaluation boards, panel PCs, LCDs/plasma panels, power supplies, connectors, IC sockets, storage devices, measuring instruments, and energy harvesting. In addition, it offers network solutions comprising data center and campus switches, load balancer, DHCP/DNS appliances, and VPN appliances; storage solutions consisting of SAN fabric switches, data protection, data storage, and hyper-converged infrastructure; and security solutions, which include firewalls, DNSSEC, SSL, and CASB. Tokyo Electron Device Limited was incorporated in 1986 and is headquartered in Tokyo, Japan.",
     "fullTimeEmployees": 1408,
     "companyOfficers": [
       {
@@ -1194,11 +1194,8 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1046995200000,
-    "regularMarketChange": 60.0,
-    "marketState": "CLOSED",
     "shortName": "TOKYO ELECTRON DEVICE",
+    "longName": "Tokyo Electron Device Limited",
     "corporateActions": [
       {
         "header": "Dividend",
@@ -1211,7 +1208,19 @@
       }
     ],
     "regularMarketTime": 1789713000,
-    "cryptoTradeable": false,
+    "exchange": "JPX",
+    "messageBoardId": "finmb_5875019",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
+    "regularMarketChangePercent": 1.4354067,
+    "regularMarketPrice": 4240.0,
+    "marketState": "CLOSED",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1046995200000,
+    "regularMarketChange": 60.0,
     "regularMarketDayRange": "4165.0 - 4240.0",
     "fullExchangeName": "Tokyo",
     "averageDailyVolume3Month": 167066,
@@ -1232,16 +1241,7 @@
     "twoHundredDayAverageChangePercent": 0.14563012,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
-    "exchange": "JPX",
-    "messageBoardId": "finmb_5875019",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
-    "regularMarketChangePercent": 1.4354067,
-    "regularMarketPrice": 4240.0,
-    "longName": "Tokyo Electron Device Limited",
+    "cryptoTradeable": false,
     "trailingPegRatio": null
   }
 }

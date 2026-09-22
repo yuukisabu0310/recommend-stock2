@@ -1,7 +1,7 @@
 {
   "ticker": "2475",
   "japanese_ticker": "2475.T",
-  "fetch_date": "2026-09-21T00:52:08.687422",
+  "fetch_date": "2026-09-22T01:32:02.619147",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": -3472403.5,
@@ -1118,30 +1118,11 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "exchange": "JPX",
-    "messageBoardId": "finmb_23317032",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
+    "marketState": "CLOSED",
+    "shortName": "WDB HOLDINGS CO LTD",
+    "longName": "WDB Holdings Co., Ltd.",
     "regularMarketChangePercent": 0.28121486,
     "regularMarketPrice": 1783.0,
-    "marketState": "CLOSED",
-    "longName": "WDB Holdings Co., Ltd.",
-    "shortName": "WDB HOLDINGS CO LTD",
-    "corporateActions": [
-      {
-        "header": "Dividend",
-        "message": "2475.T announced a cash dividend of JPY 37.50 with an ex-date of Sep. 29, 2026",
-        "meta": {
-          "eventType": "DIVIDEND",
-          "dateEpochMs": 1790607600000,
-          "amount": "37.50"
-        }
-      }
-    ],
-    "regularMarketTime": 1789713000,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1205798400000,
     "regularMarketChange": 5.0,
@@ -1166,6 +1147,25 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "2475.T announced a cash dividend of JPY 37.50 with an ex-date of Sep. 29, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1790607600000,
+          "amount": "37.50"
+        }
+      }
+    ],
+    "regularMarketTime": 1789713000,
+    "exchange": "JPX",
+    "messageBoardId": "finmb_23317032",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
     "trailingPegRatio": null
   }
 }

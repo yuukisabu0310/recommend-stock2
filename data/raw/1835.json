@@ -1,7 +1,7 @@
 {
   "ticker": "1835",
   "japanese_ticker": "1835.T",
-  "fetch_date": "2026-09-21T00:44:10.154414",
+  "fetch_date": "2026-09-22T01:24:50.690334",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": 55310389.088997,
@@ -1193,38 +1193,11 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "marketState": "CLOSED",
-    "exchange": "JPX",
-    "messageBoardId": "finmb_880832",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
     "regularMarketChangePercent": -0.25188917,
     "regularMarketPrice": 3960.0,
-    "corporateActions": [
-      {
-        "header": "Dividend",
-        "message": "1835.T announced a cash dividend of JPY 76.00 with an ex-date of Sep. 29, 2026",
-        "meta": {
-          "eventType": "DIVIDEND",
-          "dateEpochMs": 1790607600000,
-          "amount": "76.00"
-        }
-      }
-    ],
-    "regularMarketTime": 1789713000,
     "shortName": "TOTETSU KOGYO CO",
     "longName": "Totetsu Kogyo Co., Ltd.",
-    "fiftyDayAverageChange": -78.19995,
-    "fiftyDayAverageChangePercent": -0.019365052,
-    "twoHundredDayAverageChange": -701.6499,
-    "twoHundredDayAverageChangePercent": -0.15051536,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "averageAnalystRating": "2.0 - Buy",
-    "cryptoTradeable": false,
+    "marketState": "CLOSED",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 978307200000,
     "regularMarketChange": -10.0,
@@ -1243,6 +1216,33 @@
     "isEarningsDateEstimate": false,
     "epsTrailingTwelveMonths": 373.03,
     "epsForward": 257.53,
+    "fiftyDayAverageChange": -78.19995,
+    "fiftyDayAverageChangePercent": -0.019365052,
+    "twoHundredDayAverageChange": -701.6499,
+    "twoHundredDayAverageChangePercent": -0.15051536,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "averageAnalystRating": "2.0 - Buy",
+    "cryptoTradeable": false,
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "1835.T announced a cash dividend of JPY 76.00 with an ex-date of Sep. 29, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1790607600000,
+          "amount": "76.00"
+        }
+      }
+    ],
+    "regularMarketTime": 1789713000,
+    "exchange": "JPX",
+    "messageBoardId": "finmb_880832",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
     "trailingPegRatio": null
   }
 }

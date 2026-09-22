@@ -1,7 +1,7 @@
 {
   "ticker": "1972",
   "japanese_ticker": "1972.T",
-  "fetch_date": "2026-09-21T00:46:19.343114",
+  "fetch_date": "2026-09-22T01:26:46.864840",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": -622000.0,
@@ -1182,14 +1182,7 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "marketState": "CLOSED",
-    "exchange": "JPX",
-    "messageBoardId": "finmb_880901",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
+    "shortName": "SANKO METAL INDUSTRIAL CO",
     "corporateActions": [
       {
         "header": "Dividend",
@@ -1202,8 +1195,9 @@
       }
     ],
     "regularMarketTime": 1789713000,
-    "regularMarketChangePercent": -0.5307051,
-    "regularMarketPrice": 1312.0,
+    "longName": "Sanko Metal Industrial Co., Ltd.",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 978307200000,
     "regularMarketChange": -7.0,
     "regularMarketDayRange": "1309.0 - 1320.0",
     "fullExchangeName": "Tokyo",
@@ -1225,10 +1219,16 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 978307200000,
-    "shortName": "SANKO METAL INDUSTRIAL CO",
-    "longName": "Sanko Metal Industrial Co., Ltd.",
+    "marketState": "CLOSED",
+    "exchange": "JPX",
+    "messageBoardId": "finmb_880901",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
+    "regularMarketChangePercent": -0.5307051,
+    "regularMarketPrice": 1312.0,
     "trailingPegRatio": null
   }
 }

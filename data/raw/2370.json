@@ -1,20 +1,20 @@
 {
   "ticker": "2370",
   "japanese_ticker": "2370.T",
-  "fetch_date": "2026-09-21T00:50:42.499611",
+  "fetch_date": "2026-09-22T01:30:40.875860",
   "financials": {
     "Tax Effect Of Unusual Items": {
-      "2025-09-30 00:00:00": 13910024.0,
-      "2024-09-30 00:00:00": 22921600.0,
-      "2023-09-30 00:00:00": -4272512.0,
-      "2022-09-30 00:00:00": 17037848.0,
+      "2025-09-30 00:00:00": 17831211.8,
+      "2024-09-30 00:00:00": 29383120.0,
+      "2023-09-30 00:00:00": -5476918.4,
+      "2022-09-30 00:00:00": 21840758.6,
       "2021-09-30 00:00:00": null
     },
     "Tax Rate For Calcs": {
-      "2025-09-30 00:00:00": 0.232,
-      "2024-09-30 00:00:00": 0.232,
-      "2023-09-30 00:00:00": 0.232,
-      "2022-09-30 00:00:00": 0.232,
+      "2025-09-30 00:00:00": 0.2974,
+      "2024-09-30 00:00:00": 0.2974,
+      "2023-09-30 00:00:00": 0.2974,
+      "2022-09-30 00:00:00": 0.2974,
       "2021-09-30 00:00:00": null
     },
     "Normalized EBITDA": {
@@ -95,10 +95,10 @@
       "2021-09-30 00:00:00": null
     },
     "Normalized Income": {
-      "2025-09-30 00:00:00": -1408184976.0,
-      "2024-09-30 00:00:00": -1352872400.0,
-      "2023-09-30 00:00:00": -1423806512.0,
-      "2022-09-30 00:00:00": -1310493152.0,
+      "2025-09-30 00:00:00": -1404263788.2,
+      "2024-09-30 00:00:00": -1346410880.0,
+      "2023-09-30 00:00:00": -1425010918.4,
+      "2022-09-30 00:00:00": -1305690241.4,
       "2021-09-30 00:00:00": null
     },
     "Net Income From Continuing And Discontinued Operation": {
@@ -1170,7 +1170,17 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "marketState": "CLOSED",
+    "earningsTimestampStart": 1754546400,
+    "earningsTimestampEnd": 1754978400,
+    "isEarningsDateEstimate": true,
+    "epsTrailingTwelveMonths": -4.47,
+    "fiftyDayAverageChange": 0.15999985,
+    "fiftyDayAverageChangePercent": 0.006441218,
+    "twoHundredDayAverageChange": -2.8799992,
+    "twoHundredDayAverageChangePercent": -0.10329983,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
     "corporateActions": [],
     "regularMarketTime": 1789713000,
     "exchange": "JPX",
@@ -1182,8 +1192,7 @@
     "esgPopulated": false,
     "regularMarketChangePercent": 4.166667,
     "regularMarketPrice": 25.0,
-    "shortName": "MEDINET CO LTD",
-    "longName": "MEDINET Co., Ltd.",
+    "marketState": "CLOSED",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1065571200000,
     "regularMarketChange": 1.0,
@@ -1196,17 +1205,8 @@
     "fiftyTwoWeekHighChange": -18.0,
     "fiftyTwoWeekHighChangePercent": -0.41860464,
     "fiftyTwoWeekChangePercent": -30.555557,
-    "earningsTimestampStart": 1754546400,
-    "earningsTimestampEnd": 1754978400,
-    "isEarningsDateEstimate": true,
-    "epsTrailingTwelveMonths": -4.47,
-    "fiftyDayAverageChange": 0.15999985,
-    "fiftyDayAverageChangePercent": 0.006441218,
-    "twoHundredDayAverageChange": -2.8799992,
-    "twoHundredDayAverageChangePercent": -0.10329983,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
+    "shortName": "MEDINET CO LTD",
+    "longName": "MEDINET Co., Ltd.",
     "trailingPegRatio": null
   }
 }

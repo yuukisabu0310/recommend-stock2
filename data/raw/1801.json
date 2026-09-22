@@ -1,7 +1,7 @@
 {
   "ticker": "1801",
   "japanese_ticker": "1801.T",
-  "fetch_date": "2026-09-21T00:43:32.969298",
+  "fetch_date": "2026-09-22T01:24:17.773431",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": 14735949000.0,
@@ -1335,40 +1335,6 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "marketState": "CLOSED",
-    "corporateActions": [
-      {
-        "header": "Dividend",
-        "message": "1801.T announced a cash dividend of JPY 190.00 with an ex-date of Sep. 29, 2026",
-        "meta": {
-          "eventType": "DIVIDEND",
-          "dateEpochMs": 1790607600000,
-          "amount": "190.00"
-        }
-      }
-    ],
-    "regularMarketTime": 1789713000,
-    "exchange": "JPX",
-    "messageBoardId": "finmb_874554",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
-    "regularMarketChangePercent": -0.8641006,
-    "regularMarketPrice": 12620.0,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 946944000000,
-    "regularMarketChange": -110.0,
-    "regularMarketDayRange": "12595.0 - 12900.0",
-    "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 702096,
-    "fiftyTwoWeekLowChange": 2798.0,
-    "fiftyTwoWeekLowChangePercent": 0.28487068,
-    "fiftyTwoWeekRange": "9822.0 - 20680.0",
-    "fiftyTwoWeekHighChange": -8060.0,
-    "fiftyTwoWeekHighChangePercent": -0.38974854,
-    "fiftyTwoWeekChangePercent": 26.389587,
     "earningsTimestamp": 1794378600,
     "earningsTimestampStart": 1794378600,
     "earningsTimestampEnd": 1794378600,
@@ -1385,8 +1351,42 @@
     "exchangeDataDelayedBy": 20,
     "averageAnalystRating": "1.6 - Buy",
     "cryptoTradeable": false,
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "1801.T announced a cash dividend of JPY 190.00 with an ex-date of Sep. 29, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1790607600000,
+          "amount": "190.00"
+        }
+      }
+    ],
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 946944000000,
+    "regularMarketChange": -110.0,
+    "regularMarketDayRange": "12595.0 - 12900.0",
+    "fullExchangeName": "Tokyo",
+    "averageDailyVolume3Month": 702096,
+    "fiftyTwoWeekLowChange": 2798.0,
+    "fiftyTwoWeekLowChangePercent": 0.28487068,
+    "fiftyTwoWeekRange": "9822.0 - 20680.0",
+    "fiftyTwoWeekHighChange": -8060.0,
+    "fiftyTwoWeekHighChangePercent": -0.38974854,
+    "fiftyTwoWeekChangePercent": 26.389587,
+    "regularMarketTime": 1789713000,
+    "exchange": "JPX",
+    "messageBoardId": "finmb_874554",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
+    "regularMarketChangePercent": -0.8641006,
+    "marketState": "CLOSED",
     "shortName": "TAISEI CORP",
     "longName": "Taisei Corporation",
+    "regularMarketPrice": 12620.0,
     "trailingPegRatio": null
   }
 }

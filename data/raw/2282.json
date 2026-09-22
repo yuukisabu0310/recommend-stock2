@@ -1,7 +1,7 @@
 {
   "ticker": "2282",
   "japanese_ticker": "2282.T",
-  "fetch_date": "2026-09-21T00:49:16.432995",
+  "fetch_date": "2026-09-22T01:29:24.910441",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": 0.0,
@@ -1141,23 +1141,13 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 946944000000,
-    "regularMarketChange": -214.0,
-    "regularMarketDayRange": "6078.0 - 6250.0",
-    "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 572619,
     "marketState": "CLOSED",
     "shortName": "NH FOODS LTD",
     "longName": "NH Foods Ltd.",
-    "fiftyDayAverageChange": -166.41992,
-    "fiftyDayAverageChangePercent": -0.026650982,
-    "twoHundredDayAverageChange": -443.14014,
-    "twoHundredDayAverageChangePercent": -0.0679544,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "averageAnalystRating": "3.0 - Hold",
-    "cryptoTradeable": false,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 946944000000,
+    "fullExchangeName": "Tokyo",
+    "averageDailyVolume3Month": 572619,
     "fiftyTwoWeekLowChange": 531.0,
     "fiftyTwoWeekLowChangePercent": 0.09572742,
     "fiftyTwoWeekRange": "5547.0 - 7420.0",
@@ -1172,7 +1162,14 @@
     "isEarningsDateEstimate": true,
     "epsTrailingTwelveMonths": 361.03,
     "epsForward": 343.99,
-    "regularMarketPrice": 6078.0,
+    "fiftyDayAverageChange": -166.41992,
+    "fiftyDayAverageChangePercent": -0.026650982,
+    "twoHundredDayAverageChange": -443.14014,
+    "twoHundredDayAverageChangePercent": -0.0679544,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "averageAnalystRating": "3.0 - Hold",
+    "cryptoTradeable": false,
     "corporateActions": [
       {
         "header": "Stock split",
@@ -1193,6 +1190,9 @@
     "market": "jp_market",
     "esgPopulated": false,
     "regularMarketChangePercent": -3.4011443,
+    "regularMarketPrice": 6078.0,
+    "regularMarketChange": -214.0,
+    "regularMarketDayRange": "6078.0 - 6250.0",
     "trailingPegRatio": null
   }
 }

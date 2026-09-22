@@ -1,7 +1,7 @@
 {
   "ticker": "2288",
   "japanese_ticker": "2288.T",
-  "fetch_date": "2026-09-21T00:49:20.317735",
+  "fetch_date": "2026-09-22T01:29:29.424265",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": 1241916000.0,
@@ -1198,6 +1198,8 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "shortName": "MARUDAI FOOD CO",
+    "longName": "Marudai Food Co., Ltd.",
     "corporateActions": [
       {
         "header": "Dividend",
@@ -1217,16 +1219,6 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "marketState": "CLOSED",
-    "regularMarketChangePercent": -0.30198446,
-    "regularMarketPrice": 2311.0,
-    "shortName": "MARUDAI FOOD CO",
-    "longName": "Marudai Food Co., Ltd.",
-    "fiftyTwoWeekChangePercent": 11.642515,
-    "earningsTimestampStart": 1754373600,
-    "earningsTimestampEnd": 1754978400,
-    "isEarningsDateEstimate": true,
-    "epsTrailingTwelveMonths": 399.8,
     "fiftyDayAverageChange": 53.120117,
     "fiftyDayAverageChangePercent": 0.023526547,
     "twoHundredDayAverageChange": 53.35498,
@@ -1245,6 +1237,14 @@
     "fiftyTwoWeekRange": "1833.0 - 2478.0",
     "fiftyTwoWeekHighChange": -167.0,
     "fiftyTwoWeekHighChangePercent": -0.06739306,
+    "fiftyTwoWeekChangePercent": 11.642515,
+    "earningsTimestampStart": 1754373600,
+    "earningsTimestampEnd": 1754978400,
+    "isEarningsDateEstimate": true,
+    "epsTrailingTwelveMonths": 399.8,
+    "regularMarketChangePercent": -0.30198446,
+    "regularMarketPrice": 2311.0,
+    "marketState": "CLOSED",
     "trailingPegRatio": null
   }
 }

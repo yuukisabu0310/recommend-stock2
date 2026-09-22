@@ -1,7 +1,7 @@
 {
   "ticker": "2871",
   "japanese_ticker": "2871.T",
-  "fetch_date": "2026-09-21T00:56:16.237570",
+  "fetch_date": "2026-09-22T01:35:51.403201",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": 419429493.509309,
@@ -1247,8 +1247,6 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "regularMarketChangePercent": -0.8078994,
-    "regularMarketPrice": 2210.0,
     "corporateActions": [
       {
         "header": "Dividend",
@@ -1268,9 +1266,12 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "shortName": "NICHIREI CORP",
-    "longName": "Nichirei Corporation",
+    "regularMarketChangePercent": -0.8078994,
+    "regularMarketPrice": 2210.0,
     "cryptoTradeable": false,
+    "marketState": "CLOSED",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 946944000000,
     "regularMarketChange": -18.0,
     "regularMarketDayRange": "2191.5 - 2227.5",
     "fullExchangeName": "Tokyo",
@@ -1281,6 +1282,7 @@
     "fiftyTwoWeekHighChange": -159.0,
     "fiftyTwoWeekHighChangePercent": -0.06711692,
     "fiftyTwoWeekChangePercent": 26.647568,
+    "longName": "Nichirei Corporation",
     "earningsTimestamp": 1794292200,
     "earningsTimestampStart": 1794292200,
     "earningsTimestampEnd": 1794292200,
@@ -1296,10 +1298,8 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "prevName": "Orbcity",
-    "nameChangeDate": "2026-09-20",
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 946944000000,
-    "marketState": "CLOSED",
+    "nameChangeDate": "2026-09-21",
+    "shortName": "NICHIREI CORP",
     "trailingPegRatio": null
   }
 }

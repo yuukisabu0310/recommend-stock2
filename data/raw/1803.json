@@ -1,7 +1,7 @@
 {
   "ticker": "1803",
   "japanese_ticker": "1803.T",
-  "fetch_date": "2026-09-21T00:43:37.287381",
+  "fetch_date": "2026-09-22T01:24:21.571184",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": 23575984000.0,
@@ -1210,7 +1210,6 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "marketState": "CLOSED",
     "corporateActions": [
       {
         "header": "Dividend",
@@ -1230,8 +1229,8 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "regularMarketChangePercent": -2.2793202,
-    "regularMarketPrice": 2358.0,
+    "shortName": "SHIMIZU CORP",
+    "longName": "Shimizu Corporation",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 946944000000,
     "regularMarketChange": -55.0,
@@ -1260,8 +1259,9 @@
     "exchangeDataDelayedBy": 20,
     "averageAnalystRating": "2.4 - Buy",
     "cryptoTradeable": false,
-    "shortName": "SHIMIZU CORP",
-    "longName": "Shimizu Corporation",
+    "marketState": "CLOSED",
+    "regularMarketChangePercent": -2.2793202,
+    "regularMarketPrice": 2358.0,
     "trailingPegRatio": null
   }
 }

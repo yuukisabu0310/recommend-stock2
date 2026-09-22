@@ -1,7 +1,7 @@
 {
   "ticker": "2908",
   "japanese_ticker": "2908.T",
-  "fetch_date": "2026-09-21T00:56:50.090771",
+  "fetch_date": "2026-09-22T01:36:19.989242",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": -31556000.0,
@@ -1203,42 +1203,7 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "corporateActions": [
-      {
-        "header": "Dividend",
-        "message": "2908.T announced a cash dividend of JPY 23.00 with an ex-date of Sep. 29, 2026",
-        "meta": {
-          "eventType": "DIVIDEND",
-          "dateEpochMs": 1790607600000,
-          "amount": "23.00"
-        }
-      }
-    ],
-    "regularMarketTime": 1789713000,
-    "longName": "Fujicco Co., Ltd.",
     "marketState": "CLOSED",
-    "exchange": "JPX",
-    "messageBoardId": "finmb_882425",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
-    "shortName": "FUJICCO CO LTD",
-    "regularMarketChangePercent": 0.122249395,
-    "regularMarketPrice": 1638.0,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 978307200000,
-    "regularMarketChange": 2.0,
-    "regularMarketDayRange": "1626.0 - 1639.0",
-    "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 57207,
-    "fiftyTwoWeekLowChange": 183.0,
-    "fiftyTwoWeekLowChangePercent": 0.12577319,
-    "fiftyTwoWeekRange": "1455.0 - 1687.0",
-    "fiftyTwoWeekHighChange": -49.0,
-    "fiftyTwoWeekHighChangePercent": -0.029045643,
-    "fiftyTwoWeekChangePercent": -2.208954,
     "earningsTimestampStart": 1753768800,
     "earningsTimestampEnd": 1754287200,
     "isEarningsDateEstimate": true,
@@ -1251,6 +1216,41 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
+    "shortName": "FUJICCO CO LTD",
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "2908.T announced a cash dividend of JPY 23.00 with an ex-date of Sep. 29, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1790607600000,
+          "amount": "23.00"
+        }
+      }
+    ],
+    "regularMarketTime": 1789713000,
+    "exchange": "JPX",
+    "messageBoardId": "finmb_882425",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "longName": "Fujicco Co., Ltd.",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 978307200000,
+    "regularMarketChange": 2.0,
+    "regularMarketDayRange": "1626.0 - 1639.0",
+    "fullExchangeName": "Tokyo",
+    "averageDailyVolume3Month": 57207,
+    "fiftyTwoWeekLowChange": 183.0,
+    "fiftyTwoWeekLowChangePercent": 0.12577319,
+    "fiftyTwoWeekRange": "1455.0 - 1687.0",
+    "fiftyTwoWeekHighChange": -49.0,
+    "fiftyTwoWeekHighChangePercent": -0.029045643,
+    "fiftyTwoWeekChangePercent": -2.208954,
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
+    "regularMarketChangePercent": 0.122249395,
+    "regularMarketPrice": 1638.0,
     "trailingPegRatio": null
   }
 }

@@ -1,7 +1,7 @@
 {
   "ticker": "1515",
   "japanese_ticker": "1515.T",
-  "fetch_date": "2026-09-21T00:42:25.497753",
+  "fetch_date": "2026-09-22T01:23:15.340597",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": 345611160.084626,
@@ -1186,8 +1186,7 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "longName": "Nittetsu Mining Co., Ltd.",
-    "shortName": "NITTETSU MINING CO",
+    "marketState": "CLOSED",
     "corporateActions": [
       {
         "header": "Dividend",
@@ -1207,12 +1206,13 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "marketState": "CLOSED",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 978307200000,
     "regularMarketChange": 210.0,
     "regularMarketDayRange": "3295.0 - 3490.0",
     "fullExchangeName": "Tokyo",
+    "longName": "Nittetsu Mining Co., Ltd.",
+    "shortName": "NITTETSU MINING CO",
     "averageDailyVolume3Month": 669165,
     "fiftyTwoWeekLowChange": 1916.0,
     "fiftyTwoWeekLowChangePercent": 1.2211599,

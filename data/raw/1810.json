@@ -1,7 +1,7 @@
 {
   "ticker": "1810",
   "japanese_ticker": "1810.T",
-  "fetch_date": "2026-09-21T00:43:44.042213",
+  "fetch_date": "2026-09-22T01:24:27.655861",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": 83980000.0,
@@ -1115,6 +1115,9 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "marketState": "CLOSED",
+    "shortName": "MATSUI CONSTRUCTION CO",
+    "longName": "Matsui Construction Co., Ltd.",
     "corporateActions": [
       {
         "header": "Dividend",
@@ -1136,6 +1139,8 @@
     "esgPopulated": false,
     "regularMarketChangePercent": -0.47489825,
     "regularMarketPrice": 1467.0,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 978307200000,
     "regularMarketChange": -7.0,
     "regularMarketDayRange": "1460.0 - 1485.0",
     "fullExchangeName": "Tokyo",
@@ -1157,11 +1162,6 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
-    "marketState": "CLOSED",
-    "shortName": "MATSUI CONSTRUCTION CO",
-    "longName": "Matsui Construction Co., Ltd.",
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 978307200000,
     "trailingPegRatio": null
   }
 }

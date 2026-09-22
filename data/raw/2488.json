@@ -1,7 +1,7 @@
 {
   "ticker": "2488",
   "japanese_ticker": "2488.T",
-  "fetch_date": "2026-09-21T00:52:24.488390",
+  "fetch_date": "2026-09-22T01:32:18.420188",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": -12867538.0,
@@ -1097,6 +1097,19 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "earningsTimestampStart": 1747291200,
+    "earningsTimestampEnd": 1747291200,
+    "isEarningsDateEstimate": false,
+    "epsTrailingTwelveMonths": 120.7,
+    "fiftyDayAverageChange": 17.699951,
+    "fiftyDayAverageChangePercent": 0.012427122,
+    "twoHundredDayAverageChange": 109.224976,
+    "twoHundredDayAverageChangePercent": 0.08195305,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "prevName": "Japan Third Party Co., Ltd.",
+    "nameChangeDate": "2026-09-21",
+    "cryptoTradeable": false,
     "exchange": "JPX",
     "messageBoardId": "finmb_27352078",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1104,11 +1117,6 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "regularMarketChangePercent": 0.27816412,
-    "regularMarketPrice": 1442.0,
-    "marketState": "CLOSED",
-    "longName": "JTP Co.,Ltd.",
-    "shortName": "JTP CO LTD",
     "corporateActions": [
       {
         "header": "Dividend",
@@ -1121,6 +1129,11 @@
       }
     ],
     "regularMarketTime": 1789713000,
+    "shortName": "JTP CO LTD",
+    "longName": "JTP Co.,Ltd.",
+    "marketState": "CLOSED",
+    "regularMarketChangePercent": 0.27816412,
+    "regularMarketPrice": 1442.0,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1150934400000,
     "regularMarketChange": 4.0,
@@ -1133,19 +1146,6 @@
     "fiftyTwoWeekHighChange": -145.0,
     "fiftyTwoWeekHighChangePercent": -0.09136736,
     "fiftyTwoWeekChangePercent": -7.266879,
-    "earningsTimestampStart": 1747291200,
-    "earningsTimestampEnd": 1747291200,
-    "isEarningsDateEstimate": false,
-    "epsTrailingTwelveMonths": 120.7,
-    "fiftyDayAverageChange": 17.699951,
-    "fiftyDayAverageChangePercent": 0.012427122,
-    "twoHundredDayAverageChange": 109.224976,
-    "twoHundredDayAverageChangePercent": 0.08195305,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "prevName": "Japan Third Party Co., Ltd.",
-    "nameChangeDate": "2026-09-20",
-    "cryptoTradeable": false,
     "trailingPegRatio": null
   }
 }

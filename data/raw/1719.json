@@ -1,7 +1,7 @@
 {
   "ticker": "1719",
   "japanese_ticker": "1719.T",
-  "fetch_date": "2026-09-21T00:42:44.458308",
+  "fetch_date": "2026-09-22T01:23:33.418342",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": 3013720736.83477,
@@ -1212,6 +1212,8 @@
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
     "marketState": "CLOSED",
+    "regularMarketChangePercent": -1.0844307,
+    "regularMarketPrice": 1915.5,
     "corporateActions": [
       {
         "header": "Dividend",
@@ -1231,8 +1233,8 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "regularMarketChangePercent": -1.0844307,
-    "regularMarketPrice": 1915.5,
+    "shortName": "HAZAMA ANDO CORP",
+    "longName": "Hazama Ando Corporation",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1064966400000,
     "regularMarketChange": -21.0,
@@ -1260,8 +1262,6 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
-    "shortName": "HAZAMA ANDO CORP",
-    "longName": "Hazama Ando Corporation",
     "trailingPegRatio": null
   }
 }

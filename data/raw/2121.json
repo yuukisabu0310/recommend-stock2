@@ -1,7 +1,7 @@
 {
   "ticker": "2121",
   "japanese_ticker": "2121.T",
-  "fetch_date": "2026-09-21T00:47:09.724623",
+  "fetch_date": "2026-09-22T01:27:32.158104",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": 62124000.0,
@@ -1332,8 +1332,6 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "regularMarketChangePercent": -0.78125,
-    "regularMarketPrice": 3810.0,
     "corporateActions": [
       {
         "header": "Dividend",
@@ -1353,13 +1351,14 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "longName": "MIXI, Inc.",
+    "regularMarketChangePercent": -0.78125,
+    "regularMarketPrice": 3810.0,
+    "cryptoTradeable": false,
+    "marketState": "CLOSED",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1158192000000,
     "regularMarketChange": -30.0,
     "regularMarketDayRange": "3770.0 - 3825.0",
-    "marketState": "CLOSED",
-    "shortName": "MIXI. INC",
     "fullExchangeName": "Tokyo",
     "averageDailyVolume3Month": 381441,
     "fiftyTwoWeekLowChange": 1361.0,
@@ -1368,6 +1367,7 @@
     "fiftyTwoWeekHighChange": -75.0,
     "fiftyTwoWeekHighChangePercent": -0.019305019,
     "fiftyTwoWeekChangePercent": 15.805471,
+    "longName": "MIXI, Inc.",
     "earningsTimestamp": 1793341800,
     "earningsTimestampStart": 1793341800,
     "earningsTimestampEnd": 1793341800,
@@ -1382,7 +1382,7 @@
     "twoHundredDayAverageChangePercent": 0.34656334,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
+    "shortName": "MIXI. INC",
     "trailingPegRatio": null
   }
 }

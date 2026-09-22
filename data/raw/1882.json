@@ -1,7 +1,7 @@
 {
   "ticker": "1882",
   "japanese_ticker": "1882.T",
-  "fetch_date": "2026-09-21T00:44:48.738973",
+  "fetch_date": "2026-09-22T01:25:25.602122",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": -162890000.0,
@@ -1153,11 +1153,9 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "regularMarketChangePercent": -0.61728394,
-    "regularMarketPrice": 1610.0,
     "marketState": "CLOSED",
-    "shortName": "TOA ROAD CORPORATION",
-    "longName": "Toa Road Corporation",
+    "esgPopulated": false,
+    "market": "jp_market",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 978307200000,
     "regularMarketChange": -10.0,
@@ -1181,6 +1179,8 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
+    "shortName": "TOA ROAD CORPORATION",
+    "longName": "Toa Road Corporation",
     "corporateActions": [
       {
         "header": "Dividend",
@@ -1198,8 +1198,8 @@
     "exchangeTimezoneName": "Asia/Tokyo",
     "exchangeTimezoneShortName": "JST",
     "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
+    "regularMarketChangePercent": -0.61728394,
+    "regularMarketPrice": 1610.0,
     "trailingPegRatio": null
   }
 }

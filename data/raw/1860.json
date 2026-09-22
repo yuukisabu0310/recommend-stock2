@@ -1,7 +1,7 @@
 {
   "ticker": "1860",
   "japanese_ticker": "1860.T",
-  "fetch_date": "2026-09-21T00:44:28.858162",
+  "fetch_date": "2026-09-22T01:25:07.738371",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": 1598168000.0,
@@ -1338,6 +1338,7 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "marketState": "CLOSED",
     "corporateActions": [
       {
         "header": "Dividend",
@@ -1350,8 +1351,6 @@
       }
     ],
     "regularMarketTime": 1789713000,
-    "shortName": "TODA CORP",
-    "longName": "Toda Corporation",
     "exchange": "JPX",
     "messageBoardId": "finmb_876263",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1359,8 +1358,8 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "regularMarketChangePercent": -0.491481,
-    "regularMarketPrice": 1518.5,
+    "shortName": "TODA CORP",
+    "longName": "Toda Corporation",
     "earningsTimestamp": 1794551400,
     "earningsTimestampStart": 1794551400,
     "earningsTimestampEnd": 1794551400,
@@ -1386,7 +1385,8 @@
     "fiftyTwoWeekHighChange": -146.5,
     "fiftyTwoWeekHighChangePercent": -0.08798799,
     "fiftyTwoWeekChangePercent": 44.550217,
-    "marketState": "CLOSED",
+    "regularMarketChangePercent": -0.491481,
+    "regularMarketPrice": 1518.5,
     "trailingPegRatio": null
   }
 }

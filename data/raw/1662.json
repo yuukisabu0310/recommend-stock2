@@ -1,7 +1,7 @@
 {
   "ticker": "1662",
   "japanese_ticker": "1662.T",
-  "fetch_date": "2026-09-21T00:42:32.228984",
+  "fetch_date": "2026-09-22T01:23:21.183179",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": 1200568000.0,
@@ -1314,7 +1314,7 @@
     "allTimeLow": 308.2,
     "fulldayPrice": 1929.0,
     "fulldayChange": -10.0,
-    "fulldayChangePercent": -0.0051572975,
+    "fulldayChangePercent": -0.5157297,
     "priceToSalesTrailing12Months": 1.5261962,
     "fiftyDayAverage": 1813.88,
     "twoHundredDayAverage": 1953.705,
@@ -1381,29 +1381,16 @@
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
     "marketState": "CLOSED",
-    "corporateActions": [
-      {
-        "header": "Dividend",
-        "message": "1662.T announced a cash dividend of JPY 22.50 with an ex-date of Sep. 29, 2026",
-        "meta": {
-          "eventType": "DIVIDEND",
-          "dateEpochMs": 1790607600000,
-          "amount": "22.50"
-        }
-      }
-    ],
-    "regularMarketTime": 1789713000,
-    "exchange": "JPX",
-    "messageBoardId": "finmb_5490756",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
     "regularMarketChangePercent": -0.5157297,
     "regularMarketPrice": 1929.0,
-    "shortName": "JAPAN PETROLEUM EXPLORATION CO ",
-    "longName": "Japan Petroleum Exploration Co., Ltd.",
+    "fiftyDayAverageChange": 115.119995,
+    "fiftyDayAverageChangePercent": 0.06346616,
+    "twoHundredDayAverageChange": -24.704956,
+    "twoHundredDayAverageChangePercent": -0.012645183,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "averageAnalystRating": "3.0 - Hold",
+    "cryptoTradeable": false,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1071014400000,
     "regularMarketChange": -10.0,
@@ -1424,14 +1411,27 @@
     "isEarningsDateEstimate": false,
     "epsTrailingTwelveMonths": 208.72,
     "epsForward": 150.78,
-    "fiftyDayAverageChange": 115.119995,
-    "fiftyDayAverageChangePercent": 0.06346616,
-    "twoHundredDayAverageChange": -24.704956,
-    "twoHundredDayAverageChangePercent": -0.012645183,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "averageAnalystRating": "3.0 - Hold",
-    "cryptoTradeable": false,
+    "shortName": "JAPAN PETROLEUM EXPLORATION CO ",
+    "longName": "Japan Petroleum Exploration Co., Ltd.",
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "1662.T announced a cash dividend of JPY 22.50 with an ex-date of Sep. 29, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1790607600000,
+          "amount": "22.50"
+        }
+      }
+    ],
+    "regularMarketTime": 1789713000,
+    "exchange": "JPX",
+    "messageBoardId": "finmb_5490756",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
     "trailingPegRatio": null
   }
 }

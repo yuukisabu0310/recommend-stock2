@@ -1,7 +1,7 @@
 {
   "ticker": "1871",
   "japanese_ticker": "1871.T",
-  "fetch_date": "2026-09-21T00:44:40.175508",
+  "fetch_date": "2026-09-22T01:25:17.805883",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": 34816000.0,
@@ -1170,30 +1170,17 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "marketState": "CLOSED",
     "shortName": "PS CONSTRUCTION CO LTD",
     "longName": "PS Construction Co., Ltd.",
-    "exchange": "JPX",
-    "messageBoardId": "finmb_6562086",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
-    "regularMarketChangePercent": -0.8636364,
-    "regularMarketPrice": 2181.0,
-    "corporateActions": [
-      {
-        "header": "Dividend",
-        "message": "1871.T announced a cash dividend of JPY 50.50 with an ex-date of Sep. 29, 2026",
-        "meta": {
-          "eventType": "DIVIDEND",
-          "dateEpochMs": 1790607600000,
-          "amount": "50.50"
-        }
-      }
-    ],
-    "regularMarketTime": 1789713000,
+    "fiftyTwoWeekLowChange": 459.0,
+    "fiftyTwoWeekLowChangePercent": 0.2665505,
+    "fiftyTwoWeekRange": "1722.0 - 3550.0",
+    "fiftyTwoWeekHighChange": -1369.0,
+    "fiftyTwoWeekHighChangePercent": -0.3856338,
+    "fiftyTwoWeekChangePercent": 19.835163,
+    "earningsTimestampStart": 1754546400,
+    "earningsTimestampEnd": 1754978400,
+    "isEarningsDateEstimate": true,
     "epsTrailingTwelveMonths": 199.34,
     "epsForward": 87.6,
     "fiftyDayAverageChange": -67.58008,
@@ -1209,15 +1196,28 @@
     "regularMarketDayRange": "2170.0 - 2191.0",
     "fullExchangeName": "Tokyo",
     "averageDailyVolume3Month": 88080,
-    "fiftyTwoWeekLowChange": 459.0,
-    "fiftyTwoWeekLowChangePercent": 0.2665505,
-    "fiftyTwoWeekRange": "1722.0 - 3550.0",
-    "fiftyTwoWeekHighChange": -1369.0,
-    "fiftyTwoWeekHighChangePercent": -0.3856338,
-    "fiftyTwoWeekChangePercent": 19.835163,
-    "earningsTimestampStart": 1754546400,
-    "earningsTimestampEnd": 1754978400,
-    "isEarningsDateEstimate": true,
+    "marketState": "CLOSED",
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "1871.T announced a cash dividend of JPY 50.50 with an ex-date of Sep. 29, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1790607600000,
+          "amount": "50.50"
+        }
+      }
+    ],
+    "regularMarketTime": 1789713000,
+    "exchange": "JPX",
+    "messageBoardId": "finmb_6562086",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
+    "regularMarketChangePercent": -0.8636364,
+    "regularMarketPrice": 2181.0,
     "trailingPegRatio": null
   }
 }

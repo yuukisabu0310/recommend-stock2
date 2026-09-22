@@ -1,7 +1,7 @@
 {
   "ticker": "2384",
   "japanese_ticker": "2384.T",
-  "fetch_date": "2026-09-21T00:50:59.794686",
+  "fetch_date": "2026-09-22T01:30:56.554840",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-12-31 00:00:00": -243133000.0,
@@ -1161,6 +1161,10 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
+    "regularMarketChangePercent": 1.5444015,
+    "regularMarketPrice": 5260.0,
+    "cryptoTradeable": false,
+    "marketState": "CLOSED",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1266796800000,
     "regularMarketChange": 80.0,
@@ -1173,23 +1177,19 @@
     "fiftyTwoWeekHighChange": -90.0,
     "fiftyTwoWeekHighChangePercent": -0.01682243,
     "fiftyTwoWeekChangePercent": 44.704258,
+    "longName": "SBS Holdings, Inc.",
     "earningsTimestampStart": 1754452800,
     "earningsTimestampEnd": 1754971200,
     "isEarningsDateEstimate": true,
     "epsTrailingTwelveMonths": 501.8,
     "epsForward": 282.0,
-    "regularMarketChangePercent": 1.5444015,
-    "regularMarketPrice": 5260.0,
     "fiftyDayAverageChange": 502.2002,
     "fiftyDayAverageChangePercent": 0.10555303,
     "twoHundredDayAverageChange": 942.8501,
     "twoHundredDayAverageChangePercent": 0.21839643,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
     "shortName": "SBS HOLDINGS INC",
-    "longName": "SBS Holdings, Inc.",
-    "marketState": "CLOSED",
     "trailingPegRatio": null
   }
 }

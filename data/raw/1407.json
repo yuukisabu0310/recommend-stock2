@@ -1,7 +1,7 @@
 {
   "ticker": "1407",
   "japanese_ticker": "1407.T",
-  "fetch_date": "2026-09-21T00:41:41.118538",
+  "fetch_date": "2026-09-22T01:22:34.402261",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-08-31 00:00:00": 57776000.0,
@@ -1101,10 +1101,8 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "marketState": "CLOSED",
-    "fiftyTwoWeekChangePercent": 26.015806,
-    "earningsTimestampStart": 1752109200,
-    "earningsTimestampEnd": 1752454800,
+    "regularMarketChangePercent": -0.3125,
+    "regularMarketPrice": 2233.0,
     "isEarningsDateEstimate": true,
     "epsTrailingTwelveMonths": 130.41,
     "epsForward": 264.51,
@@ -1115,12 +1113,9 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
-    "regularMarketChangePercent": -0.3125,
-    "regularMarketPrice": 2233.0,
     "shortName": "WEST HOLDINGS CORP",
     "longName": "West Holdings Corporation",
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1088035200000,
+    "marketState": "CLOSED",
     "regularMarketChange": -7.0,
     "regularMarketDayRange": "2193.0 - 2258.0",
     "fullExchangeName": "Tokyo",
@@ -1130,6 +1125,11 @@
     "fiftyTwoWeekRange": "1294.0 - 3270.0",
     "fiftyTwoWeekHighChange": -1037.0,
     "fiftyTwoWeekHighChangePercent": -0.31712538,
+    "fiftyTwoWeekChangePercent": 26.015806,
+    "earningsTimestampStart": 1752109200,
+    "earningsTimestampEnd": 1752454800,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1088035200000,
     "trailingPegRatio": null
   }
 }

@@ -1,7 +1,7 @@
 {
   "ticker": "2002",
   "japanese_ticker": "2002.T",
-  "fetch_date": "2026-09-21T00:46:42.650551",
+  "fetch_date": "2026-09-22T01:27:07.494969",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": -70770000.0,
@@ -1184,7 +1184,7 @@
     "tradeable": false,
     "enterpriseValue": 574089461760,
     "profitMargins": 0.03496,
-    "floatShares": 251932522,
+    "floatShares": 251764754,
     "sharesOutstanding": 279614342,
     "heldPercentInsiders": 0.16871001,
     "heldPercentInstitutions": 0.43734002,
@@ -1240,20 +1240,9 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "regularMarketChangePercent": -4.1496763,
-    "regularMarketPrice": 1998.0,
-    "corporateActions": [
-      {
-        "header": "Dividend",
-        "message": "2002.T announced a cash dividend of JPY 32.00 with an ex-date of Sep. 29, 2026",
-        "meta": {
-          "eventType": "DIVIDEND",
-          "dateEpochMs": 1790607600000,
-          "amount": "32.00"
-        }
-      }
-    ],
-    "regularMarketTime": 1789713000,
+    "shortName": "NISSHIN SEIFUN GROUP INC",
+    "longName": "Nisshin Seifun Group Inc.",
+    "marketState": "CLOSED",
     "exchange": "JPX",
     "messageBoardId": "finmb_874802",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1261,13 +1250,10 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "longName": "Nisshin Seifun Group Inc.",
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 946944000000,
+    "regularMarketChangePercent": -4.1496763,
+    "regularMarketPrice": 1998.0,
     "regularMarketChange": -86.5,
     "regularMarketDayRange": "1998.0 - 2072.0",
-    "marketState": "CLOSED",
-    "shortName": "NISSHIN SEIFUN GROUP INC",
     "fullExchangeName": "Tokyo",
     "averageDailyVolume3Month": 867152,
     "fiftyTwoWeekLowChange": 274.0,
@@ -1291,6 +1277,20 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 946944000000,
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "2002.T announced a cash dividend of JPY 32.00 with an ex-date of Sep. 29, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1790607600000,
+          "amount": "32.00"
+        }
+      }
+    ],
+    "regularMarketTime": 1789713000,
     "trailingPegRatio": null
   }
 }

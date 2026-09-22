@@ -1,7 +1,7 @@
 {
   "ticker": "2730",
   "japanese_ticker": "2730.T",
-  "fetch_date": "2026-09-21T00:54:32.230546",
+  "fetch_date": "2026-09-22T01:34:13.644882",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": -1224300000.0,
@@ -1278,15 +1278,13 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "marketState": "CLOSED",
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1017273600000,
-    "regularMarketChange": -8.0,
-    "regularMarketDayRange": "2492.0 - 2520.0",
-    "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 284568,
-    "shortName": "EDION CORP",
-    "longName": "EDION Corporation",
+    "exchange": "JPX",
+    "messageBoardId": "finmb_9262023",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
     "corporateActions": [
       {
         "header": "Dividend",
@@ -1299,15 +1297,12 @@
       }
     ],
     "regularMarketTime": 1789713000,
-    "exchange": "JPX",
-    "messageBoardId": "finmb_9262023",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
-    "regularMarketChangePercent": -0.31695724,
-    "regularMarketPrice": 2516.0,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1017273600000,
+    "regularMarketChange": -8.0,
+    "regularMarketDayRange": "2492.0 - 2520.0",
+    "fullExchangeName": "Tokyo",
+    "averageDailyVolume3Month": 284568,
     "fiftyTwoWeekLowChange": 628.0,
     "fiftyTwoWeekLowChangePercent": 0.33262712,
     "fiftyTwoWeekRange": "1888.0 - 2699.0",
@@ -1329,6 +1324,11 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
+    "shortName": "EDION CORP",
+    "regularMarketChangePercent": -0.31695724,
+    "regularMarketPrice": 2516.0,
+    "marketState": "CLOSED",
+    "longName": "EDION Corporation",
     "trailingPegRatio": null
   }
 }

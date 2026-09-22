@@ -1,7 +1,7 @@
 {
   "ticker": "2588",
   "japanese_ticker": "2588.T",
-  "fetch_date": "2026-09-21T00:53:04.187379",
+  "fetch_date": "2026-09-22T01:32:53.605354",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": 1200000.0,
@@ -1132,32 +1132,6 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "marketState": "CLOSED",
-    "exchange": "JPX",
-    "messageBoardId": "finmb_58100677",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
-    "regularMarketChangePercent": 0.0,
-    "regularMarketPrice": 3720.0,
-    "corporateActions": [
-      {
-        "header": "Dividend",
-        "message": "2588.T announced a cash dividend of JPY 60.00 with an ex-date of Sep. 29, 2026",
-        "meta": {
-          "eventType": "DIVIDEND",
-          "dateEpochMs": 1790607600000,
-          "amount": "60.00"
-        }
-      }
-    ],
-    "regularMarketTime": 1789713000,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1363564800000,
-    "regularMarketChange": 0.0,
-    "regularMarketDayRange": "3720.0 - 3770.0",
     "fullExchangeName": "Tokyo",
     "averageDailyVolume3Month": 5349,
     "fiftyTwoWeekLowChange": 555.0,
@@ -1176,9 +1150,35 @@
     "twoHundredDayAverageChangePercent": 0.030485202,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
+    "regularMarketChangePercent": 0.0,
+    "regularMarketPrice": 3720.0,
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "2588.T announced a cash dividend of JPY 60.00 with an ex-date of Sep. 29, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1790607600000,
+          "amount": "60.00"
+        }
+      }
+    ],
+    "regularMarketTime": 1789713000,
+    "exchange": "JPX",
+    "messageBoardId": "finmb_58100677",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
+    "marketState": "CLOSED",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1363564800000,
+    "regularMarketChange": 0.0,
+    "regularMarketDayRange": "3720.0 - 3770.0",
     "shortName": "PREMIUM WATER HLDGS INC",
     "longName": "Premium Water Holdings,Inc.",
-    "cryptoTradeable": false,
     "trailingPegRatio": null
   }
 }

@@ -1,7 +1,7 @@
 {
   "ticker": "2160",
   "japanese_ticker": "2160.T",
-  "fetch_date": "2026-09-21T00:47:46.940834",
+  "fetch_date": "2026-09-22T01:28:03.802661",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-12-31 00:00:00": 0.0,
@@ -1184,6 +1184,13 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "marketState": "CLOSED",
+    "shortName": "GNI GROUP LTD",
+    "longName": "GNI Group Ltd.",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1188518400000,
+    "regularMarketChange": 257.0,
+    "regularMarketDayRange": "3015.0 - 3260.0",
     "fullExchangeName": "Tokyo",
     "averageDailyVolume3Month": 993188,
     "fiftyTwoWeekLowChange": 1138.0,
@@ -1204,14 +1211,8 @@
     "twoHundredDayAverageChangePercent": 0.16899535,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
-    "regularMarketChangePercent": 8.586702,
-    "regularMarketPrice": 3250.0,
-    "marketState": "CLOSED",
-    "longName": "GNI Group Ltd.",
     "averageAnalystRating": "1.0 - Strong Buy",
     "cryptoTradeable": false,
-    "regularMarketChange": 257.0,
-    "regularMarketDayRange": "3015.0 - 3260.0",
     "corporateActions": [],
     "regularMarketTime": 1789713000,
     "exchange": "JPX",
@@ -1221,9 +1222,8 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1188518400000,
-    "shortName": "GNI GROUP LTD",
+    "regularMarketChangePercent": 8.586702,
+    "regularMarketPrice": 3250.0,
     "trailingPegRatio": null
   }
 }

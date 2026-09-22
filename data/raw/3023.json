@@ -1,7 +1,7 @@
 {
   "ticker": "3023",
   "japanese_ticker": "3023.T",
-  "fetch_date": "2026-09-21T00:58:27.580453",
+  "fetch_date": "2026-09-22T01:37:53.618729",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": -2200000.0,
@@ -1256,7 +1256,7 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "marketState": "CLOSED",
+    "regularMarketTime": 1789713000,
     "exchange": "JPX",
     "messageBoardId": "finmb_6465787",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1264,31 +1264,6 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "regularMarketChangePercent": -0.38277513,
-    "regularMarketPrice": 2082.0,
-    "corporateActions": [
-      {
-        "header": "Dividend",
-        "message": "3023.T announced a cash dividend of JPY 40.00 with an ex-date of Sep. 29, 2026",
-        "meta": {
-          "eventType": "DIVIDEND",
-          "dateEpochMs": 1790607600000,
-          "amount": "40.00"
-        }
-      }
-    ],
-    "regularMarketTime": 1789713000,
-    "shortName": "RASA CORPORATION",
-    "longName": "Rasa Corporation",
-    "fiftyDayAverageChange": 98.47998,
-    "fiftyDayAverageChangePercent": 0.049649097,
-    "twoHundredDayAverageChange": 138.47998,
-    "twoHundredDayAverageChangePercent": 0.07125215,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1141084800000,
     "regularMarketChange": -8.0,
     "regularMarketDayRange": "2071.0 - 2089.0",
     "fullExchangeName": "Tokyo",
@@ -1303,6 +1278,31 @@
     "earningsTimestampEnd": 1754978400,
     "isEarningsDateEstimate": true,
     "epsTrailingTwelveMonths": 222.98,
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "3023.T announced a cash dividend of JPY 40.00 with an ex-date of Sep. 29, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1790607600000,
+          "amount": "40.00"
+        }
+      }
+    ],
+    "marketState": "CLOSED",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1141084800000,
+    "fiftyDayAverageChange": 98.47998,
+    "fiftyDayAverageChangePercent": 0.049649097,
+    "twoHundredDayAverageChange": 138.47998,
+    "twoHundredDayAverageChangePercent": 0.07125215,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
+    "regularMarketChangePercent": -0.38277513,
+    "regularMarketPrice": 2082.0,
+    "shortName": "RASA CORPORATION",
+    "longName": "Rasa Corporation",
     "trailingPegRatio": null
   }
 }

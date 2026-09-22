@@ -1,7 +1,7 @@
 {
   "ticker": "1976",
   "japanese_ticker": "1976.T",
-  "fetch_date": "2026-09-21T00:46:23.488034",
+  "fetch_date": "2026-09-22T01:26:50.454802",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": -227445000.0,
@@ -1208,6 +1208,32 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "marketState": "CLOSED",
+    "shortName": "MEISEI INDUSTRIAL CO",
+    "longName": "MEISEI INDUSTRIAL Co.,Ltd.",
+    "cryptoTradeable": false,
+    "earningsTimestampStart": 1753770600,
+    "earningsTimestampEnd": 1754289000,
+    "isEarningsDateEstimate": true,
+    "epsTrailingTwelveMonths": 117.0,
+    "fiftyDayAverageChange": -99.579956,
+    "fiftyDayAverageChangePercent": -0.05493824,
+    "twoHundredDayAverageChange": -84.420044,
+    "twoHundredDayAverageChangePercent": -0.046967342,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "1976.T announced a cash dividend of JPY 25.00 with an ex-date of Sep. 29, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1790607600000,
+          "amount": "25.00"
+        }
+      }
+    ],
+    "regularMarketTime": 1789713000,
     "exchange": "JPX",
     "messageBoardId": "finmb_880939",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1229,32 +1255,6 @@
     "fiftyTwoWeekHighChange": -397.0,
     "fiftyTwoWeekHighChangePercent": -0.18815166,
     "fiftyTwoWeekChangePercent": 4.7065973,
-    "earningsTimestampStart": 1753770600,
-    "earningsTimestampEnd": 1754289000,
-    "isEarningsDateEstimate": true,
-    "epsTrailingTwelveMonths": 117.0,
-    "fiftyDayAverageChange": -99.579956,
-    "fiftyDayAverageChangePercent": -0.05493824,
-    "twoHundredDayAverageChange": -84.420044,
-    "twoHundredDayAverageChangePercent": -0.046967342,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
-    "corporateActions": [
-      {
-        "header": "Dividend",
-        "message": "1976.T announced a cash dividend of JPY 25.00 with an ex-date of Sep. 29, 2026",
-        "meta": {
-          "eventType": "DIVIDEND",
-          "dateEpochMs": 1790607600000,
-          "amount": "25.00"
-        }
-      }
-    ],
-    "regularMarketTime": 1789713000,
-    "shortName": "MEISEI INDUSTRIAL CO",
-    "longName": "MEISEI INDUSTRIAL Co.,Ltd.",
-    "marketState": "CLOSED",
     "trailingPegRatio": null
   }
 }

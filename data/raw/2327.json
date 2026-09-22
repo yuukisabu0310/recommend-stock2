@@ -1,7 +1,7 @@
 {
   "ticker": "2327",
   "japanese_ticker": "2327.T",
-  "fetch_date": "2026-09-21T00:50:01.957052",
+  "fetch_date": "2026-09-22T01:30:03.723419",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": 0.0,
@@ -1314,8 +1314,9 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "regularMarketChangePercent": -4.280255,
-    "regularMarketPrice": 3757.0,
+    "marketState": "CLOSED",
+    "shortName": "NS SOLUTIONS CORPORATION",
+    "longName": "NS Solutions Corporation",
     "corporateActions": [
       {
         "header": "Dividend",
@@ -1335,10 +1336,10 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "cryptoTradeable": false,
-    "marketState": "CLOSED",
-    "shortName": "NS SOLUTIONS CORPORATION",
-    "longName": "NS Solutions Corporation",
+    "regularMarketChangePercent": -4.280255,
+    "regularMarketPrice": 3757.0,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1034294400000,
     "regularMarketChange": -168.0,
     "regularMarketDayRange": "3694.0 - 3925.0",
     "fullExchangeName": "Tokyo",
@@ -1364,8 +1365,7 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "averageAnalystRating": "3.7 - Underperform",
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1034294400000,
+    "cryptoTradeable": false,
     "trailingPegRatio": null
   }
 }

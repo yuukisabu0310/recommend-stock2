@@ -1,7 +1,7 @@
 {
   "ticker": "2498",
   "japanese_ticker": "2498.T",
-  "fetch_date": "2026-09-21T00:52:36.619504",
+  "fetch_date": "2026-09-22T01:32:29.250976",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-09-30 00:00:00": -85467513.0,
@@ -1292,28 +1292,8 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "marketState": "CLOSED",
-    "exchange": "JPX",
-    "messageBoardId": "finmb_28561070",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
-    "corporateActions": [
-      {
-        "header": "Dividend",
-        "message": "2498.T announced a cash dividend of JPY 130.00 with an ex-date of Sep. 29, 2026",
-        "meta": {
-          "eventType": "DIVIDEND",
-          "dateEpochMs": 1790607600000,
-          "amount": "130.00"
-        }
-      }
-    ],
-    "regularMarketTime": 1789713000,
-    "regularMarketChangePercent": 0.0,
-    "regularMarketPrice": 3140.0,
+    "shortName": "ORIENTAL CONSULTANTS HLDGS CO L",
+    "longName": "Oriental Consultants Holdings Company Limited",
     "regularMarketChange": 0.0,
     "regularMarketDayRange": "3115.0 - 3165.0",
     "fullExchangeName": "Tokyo",
@@ -1337,8 +1317,28 @@
     "cryptoTradeable": false,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 967766400000,
-    "shortName": "ORIENTAL CONSULTANTS HLDGS CO L",
-    "longName": "Oriental Consultants Holdings Company Limited",
+    "regularMarketChangePercent": 0.0,
+    "regularMarketPrice": 3140.0,
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "2498.T announced a cash dividend of JPY 130.00 with an ex-date of Sep. 29, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1790607600000,
+          "amount": "130.00"
+        }
+      }
+    ],
+    "marketState": "CLOSED",
+    "regularMarketTime": 1789713000,
+    "exchange": "JPX",
+    "messageBoardId": "finmb_28561070",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
     "trailingPegRatio": null
   }
 }

@@ -1,7 +1,7 @@
 {
   "ticker": "1951",
   "japanese_ticker": "1951.T",
-  "fetch_date": "2026-09-21T00:45:55.350317",
+  "fetch_date": "2026-09-22T01:26:24.339728",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": -702690000.0,
@@ -1225,11 +1225,11 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "marketState": "CLOSED",
+    "regularMarketChangePercent": -0.45575386,
+    "regularMarketPrice": 2621.0,
     "shortName": "EXEO GROUP INC",
     "longName": "EXEO Group, Inc.",
-    "marketState": "CLOSED",
-    "fiftyTwoWeekRange": "2092.0 - 3058.0",
-    "fiftyTwoWeekHighChange": -437.0,
     "fiftyTwoWeekHighChangePercent": -0.14290386,
     "fiftyTwoWeekChangePercent": 20.312141,
     "earningsTimestamp": 1793946600,
@@ -1247,15 +1247,19 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "prevName": "Kyowa Exeo Corporation",
-    "nameChangeDate": "2026-09-20",
+    "nameChangeDate": "2026-09-21",
     "averageAnalystRating": "2.2 - Buy",
     "cryptoTradeable": false,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 978307200000,
     "regularMarketChange": -12.0,
     "regularMarketDayRange": "2607.5 - 2645.0",
     "fullExchangeName": "Tokyo",
     "averageDailyVolume3Month": 572979,
     "fiftyTwoWeekLowChange": 529.0,
     "fiftyTwoWeekLowChangePercent": 0.25286806,
+    "fiftyTwoWeekRange": "2092.0 - 3058.0",
+    "fiftyTwoWeekHighChange": -437.0,
     "corporateActions": [
       {
         "header": "Dividend",
@@ -1275,10 +1279,6 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "regularMarketChangePercent": -0.45575386,
-    "regularMarketPrice": 2621.0,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 978307200000,
     "trailingPegRatio": null
   }
 }

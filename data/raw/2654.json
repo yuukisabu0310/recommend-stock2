@@ -1,7 +1,7 @@
 {
   "ticker": "2654",
   "japanese_ticker": "2654.T",
-  "fetch_date": "2026-09-21T00:53:26.789107",
+  "fetch_date": "2026-09-22T01:33:15.177776",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": -429436.0,
@@ -1151,6 +1151,7 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "marketState": "CLOSED",
     "corporateActions": [],
     "regularMarketTime": 1789713000,
     "exchange": "JPX",
@@ -1160,9 +1161,8 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "regularMarketChangePercent": 1.3986014,
-    "regularMarketPrice": 435.0,
-    "marketState": "CLOSED",
+    "shortName": "ASMO CORP",
+    "longName": "Asmo Corporation",
     "earningsTimestampStart": 1747206000,
     "earningsTimestampEnd": 1747206000,
     "isEarningsDateEstimate": false,
@@ -1174,6 +1174,8 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
+    "regularMarketChangePercent": 1.3986014,
+    "regularMarketPrice": 435.0,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 965692800000,
     "regularMarketChange": 6.0,
@@ -1186,8 +1188,6 @@
     "fiftyTwoWeekHighChange": -15.0,
     "fiftyTwoWeekHighChangePercent": -0.033333335,
     "fiftyTwoWeekChangePercent": 6.3569665,
-    "shortName": "ASMO CORP",
-    "longName": "Asmo Corporation",
     "trailingPegRatio": null
   }
 }

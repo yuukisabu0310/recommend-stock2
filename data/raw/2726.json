@@ -1,7 +1,7 @@
 {
   "ticker": "2726",
   "japanese_ticker": "2726.T",
-  "fetch_date": "2026-09-21T00:54:29.733518",
+  "fetch_date": "2026-09-22T01:34:11.563614",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-02-28 00:00:00": -66665000.0,
@@ -1288,6 +1288,10 @@
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
     "marketState": "CLOSED",
+    "shortName": "PAL GROUP HOLDINGS CO LTD",
+    "longName": "PAL GROUP Holdings CO., LTD.",
+    "corporateActions": [],
+    "regularMarketTime": 1789713000,
     "exchange": "JPX",
     "messageBoardId": "finmb_6476346",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1297,18 +1301,6 @@
     "esgPopulated": false,
     "regularMarketChangePercent": -0.40214476,
     "regularMarketPrice": 1486.0,
-    "corporateActions": [],
-    "regularMarketTime": 1789713000,
-    "shortName": "PAL GROUP HOLDINGS CO LTD",
-    "longName": "PAL GROUP Holdings CO., LTD.",
-    "fiftyDayAverageChange": 1.1400146,
-    "fiftyDayAverageChangePercent": 0.00076775905,
-    "twoHundredDayAverageChange": -94.58496,
-    "twoHundredDayAverageChangePercent": -0.059841745,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "averageAnalystRating": "1.0 - Strong Buy",
-    "cryptoTradeable": false,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1076630400000,
     "regularMarketChange": -6.0,
@@ -1329,6 +1321,14 @@
     "isEarningsDateEstimate": false,
     "epsTrailingTwelveMonths": 101.94,
     "epsForward": 194.25,
+    "fiftyDayAverageChange": 1.1400146,
+    "fiftyDayAverageChangePercent": 0.00076775905,
+    "twoHundredDayAverageChange": -94.58496,
+    "twoHundredDayAverageChangePercent": -0.059841745,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "averageAnalystRating": "1.0 - Strong Buy",
+    "cryptoTradeable": false,
     "trailingPegRatio": null
   }
 }

@@ -1,7 +1,7 @@
 {
   "ticker": "1961",
   "japanese_ticker": "1961.T",
-  "fetch_date": "2026-09-21T00:46:03.498356",
+  "fetch_date": "2026-09-22T01:26:31.688465",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": 1027675000.0,
@@ -1390,6 +1390,7 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "marketState": "CLOSED",
     "corporateActions": [
       {
         "header": "Dividend",
@@ -1402,8 +1403,6 @@
       }
     ],
     "regularMarketTime": 1789713000,
-    "shortName": "SANKI ENGINEERING CO",
-    "longName": "Sanki Engineering Co., Ltd.",
     "exchange": "JPX",
     "messageBoardId": "finmb_877394",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1411,8 +1410,8 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "regularMarketChangePercent": 0.396668,
-    "regularMarketPrice": 2531.0,
+    "shortName": "SANKI ENGINEERING CO",
+    "longName": "Sanki Engineering Co., Ltd.",
     "earningsTimestampStart": 1754546400,
     "earningsTimestampEnd": 1754978400,
     "isEarningsDateEstimate": true,
@@ -1438,7 +1437,8 @@
     "fiftyTwoWeekHighChange": -744.0,
     "fiftyTwoWeekHighChangePercent": -0.22717558,
     "fiftyTwoWeekChangePercent": 48.300777,
-    "marketState": "CLOSED",
+    "regularMarketChangePercent": 0.396668,
+    "regularMarketPrice": 2531.0,
     "trailingPegRatio": null
   }
 }

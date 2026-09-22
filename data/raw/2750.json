@@ -1,7 +1,7 @@
 {
   "ticker": "2750",
   "japanese_ticker": "2750.T",
-  "fetch_date": "2026-09-21T00:54:53.051792",
+  "fetch_date": "2026-09-22T01:34:33.690726",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": 64727661.0,
@@ -1181,15 +1181,6 @@
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
     "marketState": "CLOSED",
-    "exchange": "JPX",
-    "messageBoardId": "finmb_6463613",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
-    "regularMarketChangePercent": -0.22075056,
-    "regularMarketPrice": 1356.0,
     "regularMarketChange": -3.0,
     "regularMarketDayRange": "1356.0 - 1364.0",
     "fullExchangeName": "Tokyo",
@@ -1206,13 +1197,12 @@
     "epsTrailingTwelveMonths": 163.13,
     "fiftyDayAverageChange": 34.93994,
     "fiftyDayAverageChangePercent": 0.026448412,
-    "shortName": "S. ISHIMITSU & CO LTD",
-    "longName": "S.Ishimitsu & Co.,Ltd.",
     "twoHundredDayAverageChange": 57.5,
     "twoHundredDayAverageChangePercent": 0.044281863,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1037059200000,
     "corporateActions": [
       {
         "header": "Dividend",
@@ -1225,8 +1215,18 @@
       }
     ],
     "regularMarketTime": 1789713000,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1037059200000,
+    "exchange": "JPX",
+    "messageBoardId": "finmb_6463613",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
+    "regularMarketChangePercent": -0.22075056,
+    "regularMarketPrice": 1356.0,
+    "cryptoTradeable": false,
+    "shortName": "S. ISHIMITSU & CO LTD",
+    "longName": "S.Ishimitsu & Co.,Ltd.",
     "trailingPegRatio": null
   }
 }

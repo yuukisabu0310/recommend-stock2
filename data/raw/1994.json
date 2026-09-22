@@ -1,18 +1,18 @@
 {
   "ticker": "1994",
   "japanese_ticker": "1994.T",
-  "fetch_date": "2026-09-21T00:46:36.140850",
+  "fetch_date": "2026-09-22T01:27:01.428595",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-12-31 00:00:00": 141856.0,
-      "2024-12-31 00:00:00": -1268112.0,
+      "2024-12-31 00:00:00": -1625588.4,
       "2023-12-31 00:00:00": -123175.0,
       "2022-12-31 00:00:00": -6779703.0,
       "2021-12-31 00:00:00": null
     },
     "Tax Rate For Calcs": {
       "2025-12-31 00:00:00": 0.026,
-      "2024-12-31 00:00:00": 0.232,
+      "2024-12-31 00:00:00": 0.2974,
       "2023-12-31 00:00:00": 0.325,
       "2022-12-31 00:00:00": 0.329,
       "2021-12-31 00:00:00": null
@@ -96,7 +96,7 @@
     },
     "Normalized Income": {
       "2025-12-31 00:00:00": 185205856.0,
-      "2024-12-31 00:00:00": 376899888.0,
+      "2024-12-31 00:00:00": 376542411.6,
       "2023-12-31 00:00:00": 302255825.0,
       "2022-12-31 00:00:00": 165471297.0,
       "2021-12-31 00:00:00": null
@@ -1117,8 +1117,6 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "marketState": "CLOSED",
-    "shortName": "TAKAHASHI CURTAIN WALL CORP",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 946944000000,
     "regularMarketChange": 2.0,
@@ -1142,6 +1140,9 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
+    "marketState": "CLOSED",
+    "shortName": "TAKAHASHI CURTAIN WALL CORP",
+    "longName": "Takahashi Curtain Wall Corporation",
     "corporateActions": [],
     "regularMarketTime": 1789713000,
     "exchange": "JPX",
@@ -1153,7 +1154,6 @@
     "esgPopulated": false,
     "regularMarketChangePercent": 0.3231018,
     "regularMarketPrice": 621.0,
-    "longName": "Takahashi Curtain Wall Corporation",
     "trailingPegRatio": null
   }
 }

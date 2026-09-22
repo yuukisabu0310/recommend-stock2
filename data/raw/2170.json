@@ -1,7 +1,7 @@
 {
   "ticker": "2170",
   "japanese_ticker": "2170.T",
-  "fetch_date": "2026-09-21T00:47:59.497293",
+  "fetch_date": "2026-09-22T01:28:14.398358",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-12-31 00:00:00": 0.0,
@@ -1210,14 +1210,6 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "shortName": "LINK AND MOTIVATION INC",
-    "longName": "Link and Motivation Inc.",
-    "regularMarketChangePercent": 2.8315947,
-    "regularMarketPrice": 690.0,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1197849600000,
-    "regularMarketChange": 19.0,
-    "regularMarketDayRange": "664.0 - 690.0",
     "fullExchangeName": "Tokyo",
     "averageDailyVolume3Month": 560000,
     "fiftyTwoWeekLowChange": 214.0,
@@ -1241,7 +1233,8 @@
     "exchangeDataDelayedBy": 20,
     "averageAnalystRating": "1.0 - Strong Buy",
     "cryptoTradeable": false,
-    "marketState": "CLOSED",
+    "regularMarketChangePercent": 2.8315947,
+    "regularMarketPrice": 690.0,
     "corporateActions": [
       {
         "header": "Dividend",
@@ -1261,6 +1254,13 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
+    "marketState": "CLOSED",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1197849600000,
+    "regularMarketChange": 19.0,
+    "regularMarketDayRange": "664.0 - 690.0",
+    "shortName": "LINK AND MOTIVATION INC",
+    "longName": "Link and Motivation Inc.",
     "trailingPegRatio": null
   }
 }

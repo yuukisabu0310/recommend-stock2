@@ -1,20 +1,20 @@
 {
   "ticker": "2926",
   "japanese_ticker": "2926.T",
-  "fetch_date": "2026-09-21T00:57:11.777536",
+  "fetch_date": "2026-09-22T01:36:40.576467",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-09-30 00:00:00": -3366144.0,
-      "2024-09-30 00:00:00": -2167344.0,
-      "2023-09-30 00:00:00": 15028032.0,
-      "2022-09-30 00:00:00": -3851200.0,
+      "2024-09-30 00:00:00": -2778310.8,
+      "2023-09-30 00:00:00": 19264382.4,
+      "2022-09-30 00:00:00": -4936840.0,
       "2021-09-30 00:00:00": null
     },
     "Tax Rate For Calcs": {
       "2025-09-30 00:00:00": 0.256,
-      "2024-09-30 00:00:00": 0.232,
-      "2023-09-30 00:00:00": 0.232,
-      "2022-09-30 00:00:00": 0.232,
+      "2024-09-30 00:00:00": 0.2974,
+      "2023-09-30 00:00:00": 0.2974,
+      "2022-09-30 00:00:00": 0.2974,
       "2021-09-30 00:00:00": null
     },
     "Normalized EBITDA": {
@@ -96,9 +96,9 @@
     },
     "Normalized Income": {
       "2025-09-30 00:00:00": 47822856.0,
-      "2024-09-30 00:00:00": -21200344.0,
-      "2023-09-30 00:00:00": -72553968.0,
-      "2022-09-30 00:00:00": -81646200.0,
+      "2024-09-30 00:00:00": -21811310.8,
+      "2023-09-30 00:00:00": -68317617.6,
+      "2022-09-30 00:00:00": -82731840.0,
       "2021-09-30 00:00:00": null
     },
     "Net Income From Continuing And Discontinued Operation": {
@@ -123,14 +123,14 @@
       "2021-09-30 00:00:00": null
     },
     "Diluted Average Shares": {
-      "2025-09-30 00:00:00": 14157782.0,
+      "2025-09-30 00:00:00": 14157800.0,
       "2024-09-30 00:00:00": 14157800.0,
       "2023-09-30 00:00:00": 14157800.0,
       "2022-09-30 00:00:00": 14157800.0,
       "2021-09-30 00:00:00": null
     },
     "Basic Average Shares": {
-      "2025-09-30 00:00:00": 14157782.0,
+      "2025-09-30 00:00:00": 14157800.0,
       "2024-09-30 00:00:00": null,
       "2023-09-30 00:00:00": 14157800.0,
       "2022-09-30 00:00:00": 14157800.0,
@@ -1099,9 +1099,10 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "marketState": "CLOSED",
     "shortName": "SHINOZAKIYA INC",
-    "longName": "Shinozakiya, Inc.",
+    "marketState": "CLOSED",
+    "regularMarketChangePercent": 0.8196721,
+    "regularMarketPrice": 123.0,
     "corporateActions": [
       {
         "header": "Dividend",
@@ -1121,19 +1122,7 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "regularMarketChangePercent": 0.8196721,
-    "regularMarketPrice": 123.0,
-    "earningsTimestampStart": 1753768800,
-    "earningsTimestampEnd": 1754287200,
-    "isEarningsDateEstimate": true,
-    "epsTrailingTwelveMonths": 4.59,
-    "fiftyDayAverageChange": 4.040001,
-    "fiftyDayAverageChangePercent": 0.033961,
-    "twoHundredDayAverageChange": 20.04,
-    "twoHundredDayAverageChangePercent": 0.1946387,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
+    "longName": "Shinozakiya, Inc.",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1069977600000,
     "regularMarketChange": 1.0,
@@ -1146,6 +1135,17 @@
     "fiftyTwoWeekHighChange": -14.0,
     "fiftyTwoWeekHighChangePercent": -0.10218978,
     "fiftyTwoWeekChangePercent": 9.821426,
+    "earningsTimestampStart": 1753768800,
+    "earningsTimestampEnd": 1754287200,
+    "isEarningsDateEstimate": true,
+    "epsTrailingTwelveMonths": 4.59,
+    "fiftyDayAverageChange": 4.040001,
+    "fiftyDayAverageChangePercent": 0.033961,
+    "twoHundredDayAverageChange": 20.04,
+    "twoHundredDayAverageChangePercent": 0.1946387,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
     "trailingPegRatio": null
   }
 }

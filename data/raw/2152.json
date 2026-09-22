@@ -1,7 +1,7 @@
 {
   "ticker": "2152",
   "japanese_ticker": "2152.T",
-  "fetch_date": "2026-09-21T00:47:33.334045",
+  "fetch_date": "2026-09-22T01:27:51.792851",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": 64268317.0,
@@ -1020,11 +1020,13 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "marketState": "CLOSED",
     "shortName": "YOUJI CORPORATION",
     "longName": "Youji Corporation",
-    "marketState": "CLOSED",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1180310400000,
+    "fullExchangeName": "Tokyo",
+    "averageDailyVolume3Month": 1063,
     "fiftyTwoWeekLowChange": 197.0,
     "fiftyTwoWeekLowChangePercent": 0.1458179,
     "fiftyTwoWeekRange": "1351.0 - 1628.0",
@@ -1042,11 +1044,6 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
-    "regularMarketPrice": 1548.0,
-    "regularMarketChange": 1.0,
-    "regularMarketDayRange": "1547.0 - 1548.0",
-    "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 1063,
     "corporateActions": [],
     "regularMarketTime": 1789702200,
     "exchange": "JPX",
@@ -1057,6 +1054,9 @@
     "market": "jp_market",
     "esgPopulated": false,
     "regularMarketChangePercent": 0.064641245,
+    "regularMarketPrice": 1548.0,
+    "regularMarketChange": 1.0,
+    "regularMarketDayRange": "1547.0 - 1548.0",
     "trailingPegRatio": null
   }
 }

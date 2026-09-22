@@ -1,7 +1,7 @@
 {
   "ticker": "2831",
   "japanese_ticker": "2831.T",
-  "fetch_date": "2026-09-21T00:56:14.003800",
+  "fetch_date": "2026-09-22T01:35:49.572287",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": 11384680.316492,
@@ -1232,6 +1232,20 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "2831.T announced a cash dividend of JPY 35.00 with an ex-date of Sep. 29, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1790607600000,
+          "amount": "35.00"
+        }
+      }
+    ],
+    "shortName": "HAGOROMO FOODS",
+    "longName": "Hagoromo Foods Corporation",
+    "regularMarketTime": 1789712334,
     "exchange": "JPX",
     "messageBoardId": "finmb_5490649",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1241,6 +1255,17 @@
     "esgPopulated": false,
     "regularMarketChangePercent": 0.13586956,
     "regularMarketPrice": 3685.0,
+    "marketState": "CLOSED",
+    "regularMarketChange": 5.0,
+    "regularMarketDayRange": "3685.0 - 3700.0",
+    "fullExchangeName": "Tokyo",
+    "averageDailyVolume3Month": 1874,
+    "fiftyTwoWeekLowChange": 480.0,
+    "fiftyTwoWeekLowChangePercent": 0.14976598,
+    "fiftyTwoWeekRange": "3205.0 - 3700.0",
+    "fiftyTwoWeekHighChange": -15.0,
+    "fiftyTwoWeekHighChangePercent": -0.004054054,
+    "fiftyTwoWeekChangePercent": 8.382357,
     "earningsTimestampStart": 1747117800,
     "earningsTimestampEnd": 1747117800,
     "isEarningsDateEstimate": false,
@@ -1254,31 +1279,6 @@
     "cryptoTradeable": false,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 978652800000,
-    "regularMarketChange": 5.0,
-    "regularMarketDayRange": "3685.0 - 3700.0",
-    "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 1874,
-    "fiftyTwoWeekLowChange": 480.0,
-    "fiftyTwoWeekLowChangePercent": 0.14976598,
-    "fiftyTwoWeekRange": "3205.0 - 3700.0",
-    "fiftyTwoWeekHighChange": -15.0,
-    "fiftyTwoWeekHighChangePercent": -0.004054054,
-    "fiftyTwoWeekChangePercent": 8.382357,
-    "marketState": "CLOSED",
-    "shortName": "HAGOROMO FOODS",
-    "longName": "Hagoromo Foods Corporation",
-    "corporateActions": [
-      {
-        "header": "Dividend",
-        "message": "2831.T announced a cash dividend of JPY 35.00 with an ex-date of Sep. 29, 2026",
-        "meta": {
-          "eventType": "DIVIDEND",
-          "dateEpochMs": 1790607600000,
-          "amount": "35.00"
-        }
-      }
-    ],
-    "regularMarketTime": 1789712334,
     "trailingPegRatio": null
   }
 }

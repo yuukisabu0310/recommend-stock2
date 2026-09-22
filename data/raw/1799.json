@@ -1,7 +1,7 @@
 {
   "ticker": "1799",
   "japanese_ticker": "1799.T",
-  "fetch_date": "2026-09-21T00:43:30.725572",
+  "fetch_date": "2026-09-22T01:24:16.105279",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": 14782063.015977,
@@ -1264,6 +1264,9 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "marketState": "CLOSED",
+    "corporateActions": [],
+    "regularMarketTime": 1789713000,
     "exchange": "JPX",
     "messageBoardId": "finmb_880783",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1297,11 +1300,8 @@
     "fiftyTwoWeekHighChange": -1200.0,
     "fiftyTwoWeekHighChangePercent": -0.2660754,
     "fiftyTwoWeekChangePercent": 4.416406,
-    "marketState": "CLOSED",
     "shortName": "DAIICHI KENSETSU CORP",
     "longName": "Daiichi Kensetsu Corporation",
-    "corporateActions": [],
-    "regularMarketTime": 1789713000,
     "trailingPegRatio": null
   }
 }

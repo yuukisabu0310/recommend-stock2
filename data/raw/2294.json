@@ -1,7 +1,7 @@
 {
   "ticker": "2294",
   "japanese_ticker": "2294.T",
-  "fetch_date": "2026-09-21T00:49:28.484319",
+  "fetch_date": "2026-09-22T01:29:37.674798",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-04-30 00:00:00": -43600000.0,
@@ -1017,7 +1017,6 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "marketState": "CLOSED",
     "corporateActions": [],
     "regularMarketTime": 1789713000,
     "exchange": "JPX",
@@ -1027,8 +1026,8 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "regularMarketChangePercent": -0.1198083,
-    "regularMarketPrice": 2501.0,
+    "shortName": "KAKIYASU HONTEN",
+    "longName": "Kakiyasu Honten Co., Ltd.",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 946944000000,
     "regularMarketChange": -3.0,
@@ -1052,8 +1051,9 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
-    "shortName": "KAKIYASU HONTEN",
-    "longName": "Kakiyasu Honten Co., Ltd.",
+    "marketState": "CLOSED",
+    "regularMarketChangePercent": -0.1198083,
+    "regularMarketPrice": 2501.0,
     "trailingPegRatio": null
   }
 }

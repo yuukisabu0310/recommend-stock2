@@ -1,7 +1,7 @@
 {
   "ticker": "1718",
   "japanese_ticker": "1718.T",
-  "fetch_date": "2026-09-21T00:42:42.123418",
+  "fetch_date": "2026-09-22T01:23:31.532160",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-12-31 00:00:00": 12486210.0,
@@ -1125,7 +1125,6 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "marketState": "CLOSED",
     "corporateActions": [
       {
         "header": "Stock split",
@@ -1138,17 +1137,6 @@
       }
     ],
     "regularMarketTime": 1789710759,
-    "exchange": "JPX",
-    "messageBoardId": "finmb_5663631",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
-    "regularMarketChangePercent": 1.1347518,
-    "regularMarketPrice": 7130.0,
-    "shortName": "MIKIKOGYO CO LTD",
-    "longName": "Mikikogyo Co., Ltd.",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1067385600000,
     "regularMarketChange": 80.0,
@@ -1161,6 +1149,9 @@
     "fiftyTwoWeekHighChange": -2840.0,
     "fiftyTwoWeekHighChangePercent": -0.28485456,
     "fiftyTwoWeekChangePercent": -10.314465,
+    "marketState": "CLOSED",
+    "regularMarketChangePercent": 1.1347518,
+    "regularMarketPrice": 7130.0,
     "earningsTimestampStart": 1753684200,
     "earningsTimestampEnd": 1754029800,
     "isEarningsDateEstimate": true,
@@ -1172,6 +1163,15 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
+    "exchange": "JPX",
+    "messageBoardId": "finmb_5663631",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
+    "shortName": "MIKIKOGYO CO LTD",
+    "longName": "Mikikogyo Co., Ltd.",
     "trailingPegRatio": null
   }
 }

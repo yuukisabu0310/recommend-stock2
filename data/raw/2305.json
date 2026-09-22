@@ -1,7 +1,7 @@
 {
   "ticker": "2305",
   "japanese_ticker": "2305.T",
-  "fetch_date": "2026-09-21T00:49:42.119795",
+  "fetch_date": "2026-09-22T01:29:48.243263",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-02-28 00:00:00": -116763266.0,
@@ -1140,19 +1140,16 @@
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
     "marketState": "CLOSED",
+    "longName": "STUDIO ALICE Co.,Ltd.",
     "corporateActions": [],
     "regularMarketTime": 1789713000,
     "exchange": "JPX",
     "messageBoardId": "finmb_5705898",
     "exchangeTimezoneName": "Asia/Tokyo",
     "exchangeTimezoneShortName": "JST",
-    "shortName": "STUDIO ALICE",
-    "longName": "STUDIO ALICE Co.,Ltd.",
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "regularMarketChangePercent": 0.10689472,
-    "regularMarketPrice": 1873.0,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1059523200000,
     "regularMarketChange": 2.0,
@@ -1176,6 +1173,9 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
+    "shortName": "STUDIO ALICE",
+    "regularMarketChangePercent": 0.10689472,
+    "regularMarketPrice": 1873.0,
     "trailingPegRatio": null
   }
 }

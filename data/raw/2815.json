@@ -1,7 +1,7 @@
 {
   "ticker": "2815",
   "japanese_ticker": "2815.T",
-  "fetch_date": "2026-09-21T00:56:02.778574",
+  "fetch_date": "2026-09-22T01:35:39.744601",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": -36447236.341098,
@@ -1240,14 +1240,33 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 978307200000,
-    "regularMarketChange": -10.0,
-    "regularMarketDayRange": "5230.0 - 5280.0",
-    "fullExchangeName": "Tokyo",
     "marketState": "CLOSED",
     "shortName": "ARIAKE JAPAN CO",
     "longName": "ARIAKE JAPAN Co., Ltd.",
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "2815.T announced a cash dividend of JPY 60.00 with an ex-date of Sep. 29, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1790607600000,
+          "amount": "60.00"
+        }
+      }
+    ],
+    "regularMarketTime": 1789713000,
+    "exchange": "JPX",
+    "messageBoardId": "finmb_883773",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
+    "regularMarketChangePercent": -0.19011407,
+    "regularMarketPrice": 5250.0,
+    "regularMarketChange": -10.0,
+    "regularMarketDayRange": "5230.0 - 5280.0",
+    "fullExchangeName": "Tokyo",
     "averageDailyVolume3Month": 89134,
     "fiftyTwoWeekLowChange": 310.0,
     "fiftyTwoWeekLowChangePercent": 0.06275304,
@@ -1271,27 +1290,8 @@
     "exchangeDataDelayedBy": 20,
     "averageAnalystRating": "2.0 - Buy",
     "cryptoTradeable": false,
-    "corporateActions": [
-      {
-        "header": "Dividend",
-        "message": "2815.T announced a cash dividend of JPY 60.00 with an ex-date of Sep. 29, 2026",
-        "meta": {
-          "eventType": "DIVIDEND",
-          "dateEpochMs": 1790607600000,
-          "amount": "60.00"
-        }
-      }
-    ],
-    "regularMarketTime": 1789713000,
-    "exchange": "JPX",
-    "messageBoardId": "finmb_883773",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
-    "regularMarketChangePercent": -0.19011407,
-    "regularMarketPrice": 5250.0,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 978307200000,
     "trailingPegRatio": null
   }
 }

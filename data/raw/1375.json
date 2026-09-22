@@ -1,7 +1,7 @@
 {
   "ticker": "1375",
   "japanese_ticker": "1375.T",
-  "fetch_date": "2026-09-21T00:41:20.534800",
+  "fetch_date": "2026-09-22T01:22:14.667863",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": 0.0,
@@ -1109,8 +1109,32 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "marketState": "CLOSED",
+    "regularMarketChangePercent": 0.08488964,
+    "regularMarketPrice": 1179.0,
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "1375.T announced a cash dividend of JPY 5.00 with an ex-date of Sep. 29, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1790607600000,
+          "amount": "5.00"
+        }
+      }
+    ],
+    "regularMarketTime": 1789713000,
+    "exchange": "JPX",
+    "messageBoardId": "finmb_5600331",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
     "shortName": "YUKIGUNI FACTORY CO LTD",
     "longName": "Yukiguni Factory Co., Ltd.",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1600300800000,
     "regularMarketChange": 1.0,
     "regularMarketDayRange": "1172.0 - 1179.0",
     "fullExchangeName": "Tokyo",
@@ -1133,30 +1157,6 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1600300800000,
-    "corporateActions": [
-      {
-        "header": "Dividend",
-        "message": "1375.T announced a cash dividend of JPY 5.00 with an ex-date of Sep. 29, 2026",
-        "meta": {
-          "eventType": "DIVIDEND",
-          "dateEpochMs": 1790607600000,
-          "amount": "5.00"
-        }
-      }
-    ],
-    "regularMarketTime": 1789713000,
-    "exchange": "JPX",
-    "messageBoardId": "finmb_5600331",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
-    "regularMarketChangePercent": 0.08488964,
-    "regularMarketPrice": 1179.0,
-    "marketState": "CLOSED",
     "trailingPegRatio": null
   }
 }

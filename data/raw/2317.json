@@ -1,7 +1,7 @@
 {
   "ticker": "2317",
   "japanese_ticker": "2317.T",
-  "fetch_date": "2026-09-21T00:49:50.659097",
+  "fetch_date": "2026-09-22T01:29:55.000080",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": 167230940.456316,
@@ -1298,11 +1298,11 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "exchange": "JPX",
-    "marketState": "CLOSED",
     "shortName": "SYSTENA CORPORATION",
     "longName": "Systena Corporation",
-    "cryptoTradeable": false,
+    "marketState": "CLOSED",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1100476800000,
     "regularMarketChange": -1.0,
     "regularMarketDayRange": "438.0 - 442.0",
     "fullExchangeName": "Tokyo",
@@ -1314,28 +1314,6 @@
     "fiftyTwoWeekHighChangePercent": -0.2072072,
     "fiftyTwoWeekChangePercent": -14.728683,
     "earningsTimestamp": 1793255400,
-    "corporateActions": [
-      {
-        "header": "Dividend",
-        "message": "2317.T announced a cash dividend of JPY 9.00 with an ex-date of Sep. 29, 2026",
-        "meta": {
-          "eventType": "DIVIDEND",
-          "dateEpochMs": 1790607600000,
-          "amount": "9.00"
-        }
-      }
-    ],
-    "regularMarketTime": 1789713000,
-    "messageBoardId": "finmb_9429314",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
-    "regularMarketChangePercent": -0.22675738,
-    "regularMarketPrice": 440.0,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1100476800000,
     "earningsTimestampStart": 1793255400,
     "earningsTimestampEnd": 1793255400,
     "isEarningsDateEstimate": false,
@@ -1348,6 +1326,28 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "averageAnalystRating": "2.0 - Buy",
+    "cryptoTradeable": false,
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "2317.T announced a cash dividend of JPY 9.00 with an ex-date of Sep. 29, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1790607600000,
+          "amount": "9.00"
+        }
+      }
+    ],
+    "regularMarketTime": 1789713000,
+    "exchange": "JPX",
+    "messageBoardId": "finmb_9429314",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
+    "regularMarketChangePercent": -0.22675738,
+    "regularMarketPrice": 440.0,
     "trailingPegRatio": null
   }
 }

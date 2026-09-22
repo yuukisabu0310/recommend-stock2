@@ -1,7 +1,7 @@
 {
   "ticker": "1762",
   "japanese_ticker": "1762.T",
-  "fetch_date": "2026-09-21T00:43:01.694841",
+  "fetch_date": "2026-09-22T01:23:49.130512",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": 78455000.0,
@@ -1234,18 +1234,6 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "marketState": "CLOSED",
-    "shortName": "TAKAMATSU CONSTRUCTION GROUP CO",
-    "longName": "Takamatsu Construction Group Co., Ltd.",
-    "exchange": "JPX",
-    "messageBoardId": "finmb_5531731",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
-    "regularMarketChangePercent": -0.46728972,
-    "regularMarketPrice": 4260.0,
     "corporateActions": [
       {
         "header": "Dividend",
@@ -1258,6 +1246,18 @@
       }
     ],
     "regularMarketTime": 1789713000,
+    "exchange": "JPX",
+    "messageBoardId": "finmb_5531731",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
+    "marketState": "CLOSED",
+    "fiftyTwoWeekChangePercent": 25.110138,
+    "earningsTimestampStart": 1754377200,
+    "earningsTimestampEnd": 1754982000,
+    "isEarningsDateEstimate": true,
     "epsTrailingTwelveMonths": 328.02,
     "epsForward": 272.85,
     "fiftyDayAverageChange": 329.6001,
@@ -1268,6 +1268,10 @@
     "exchangeDataDelayedBy": 20,
     "averageAnalystRating": "1.0 - Strong Buy",
     "cryptoTradeable": false,
+    "regularMarketChangePercent": -0.46728972,
+    "regularMarketPrice": 4260.0,
+    "shortName": "TAKAMATSU CONSTRUCTION GROUP CO",
+    "longName": "Takamatsu Construction Group Co., Ltd.",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 978652800000,
     "regularMarketChange": -20.0,
@@ -1279,10 +1283,6 @@
     "fiftyTwoWeekRange": "3215.0 - 4420.0",
     "fiftyTwoWeekHighChange": -160.0,
     "fiftyTwoWeekHighChangePercent": -0.036199097,
-    "fiftyTwoWeekChangePercent": 25.110138,
-    "earningsTimestampStart": 1754377200,
-    "earningsTimestampEnd": 1754982000,
-    "isEarningsDateEstimate": true,
     "trailingPegRatio": null
   }
 }

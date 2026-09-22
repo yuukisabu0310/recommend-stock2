@@ -1,7 +1,7 @@
 {
   "ticker": "2424",
   "japanese_ticker": "2424.T",
-  "fetch_date": "2026-09-21T00:51:27.179097",
+  "fetch_date": "2026-09-22T01:31:23.632100",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2024-07-31 00:00:00": -2737567.0,
@@ -915,6 +915,9 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "marketState": "CLOSED",
+    "corporateActions": [],
+    "regularMarketTime": 1789713000,
     "exchange": "JPX",
     "messageBoardId": "finmb_275998445",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -924,11 +927,15 @@
     "esgPopulated": false,
     "regularMarketChangePercent": -1.2861736,
     "regularMarketPrice": 614.0,
-    "corporateActions": [],
-    "regularMarketTime": 1789713000,
     "shortName": "BRASS CORPORATION",
     "longName": "Brass Corporation",
-    "marketState": "CLOSED",
+    "fiftyDayAverageChange": 4.7800293,
+    "fiftyDayAverageChangePercent": 0.007846147,
+    "twoHundredDayAverageChange": -4.7349854,
+    "twoHundredDayAverageChangePercent": -0.0076526874,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1457481600000,
     "regularMarketChange": -8.0,
@@ -945,13 +952,6 @@
     "earningsTimestampEnd": 1757917800,
     "isEarningsDateEstimate": true,
     "epsTrailingTwelveMonths": 49.98,
-    "fiftyDayAverageChange": 4.7800293,
-    "fiftyDayAverageChangePercent": 0.007846147,
-    "twoHundredDayAverageChange": -4.7349854,
-    "twoHundredDayAverageChangePercent": -0.0076526874,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
     "trailingPegRatio": null
   }
 }

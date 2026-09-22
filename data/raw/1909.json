@@ -1,7 +1,7 @@
 {
   "ticker": "1909",
   "japanese_ticker": "1909.T",
-  "fetch_date": "2026-09-21T00:45:11.497895",
+  "fetch_date": "2026-09-22T01:25:45.604341",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": -137620510.251879,
@@ -1249,6 +1249,10 @@
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
     "marketState": "CLOSED",
+    "regularMarketChangePercent": 0.0,
+    "regularMarketPrice": 3700.0,
+    "corporateActions": [],
+    "regularMarketTime": 1789108200,
     "exchange": "JPX",
     "messageBoardId": "finmb_880640",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1256,8 +1260,10 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "regularMarketChangePercent": 0.0,
-    "regularMarketPrice": 3700.0,
+    "shortName": "NIPPON DRY-CHEMICAL CO LTD",
+    "longName": "Nippon Dry-Chemical Co., Ltd.",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1309305600000,
     "regularMarketChange": 0.0,
     "regularMarketDayRange": "3700.0 - 3705.0",
     "fullExchangeName": "Tokyo",
@@ -1275,17 +1281,11 @@
     "epsForward": 492.5,
     "fiftyDayAverageChange": -16267082800.0,
     "fiftyDayAverageChangePercent": -0.99999976,
-    "shortName": "NIPPON DRY-CHEMICAL CO LTD",
-    "longName": "Nippon Dry-Chemical Co., Ltd.",
     "twoHundredDayAverageChange": -13925896200.0,
     "twoHundredDayAverageChangePercent": -0.9999997,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
-    "corporateActions": [],
-    "regularMarketTime": 1789108200,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1309305600000,
     "trailingPegRatio": null
   }
 }

@@ -1,7 +1,7 @@
 {
   "ticker": "2326",
   "japanese_ticker": "2326.T",
-  "fetch_date": "2026-09-21T00:49:59.836003",
+  "fetch_date": "2026-09-22T01:30:01.669232",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": 0.0,
@@ -1104,7 +1104,9 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "marketState": "CLOSED",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1198801800000,
+    "regularMarketTime": 1789713000,
     "corporateActions": [
       {
         "header": "Dividend",
@@ -1116,7 +1118,7 @@
         }
       }
     ],
-    "regularMarketTime": 1789713000,
+    "regularMarketPrice": 4945.0,
     "exchange": "JPX",
     "messageBoardId": "finmb_9816389",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1124,16 +1126,14 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
+    "shortName": "DIGITAL ARTS INC",
+    "longName": "Digital Arts Inc.",
     "regularMarketChangePercent": 0.0,
-    "regularMarketPrice": 4945.0,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1198801800000,
+    "marketState": "CLOSED",
     "regularMarketChange": 0.0,
     "regularMarketDayRange": "4910.0 - 4990.0",
     "fullExchangeName": "Tokyo",
     "averageDailyVolume3Month": 151482,
-    "shortName": "DIGITAL ARTS INC",
-    "longName": "Digital Arts Inc.",
     "fiftyTwoWeekLowChange": 1445.0,
     "fiftyTwoWeekLowChangePercent": 0.41285715,
     "fiftyTwoWeekRange": "3500.0 - 8100.0",

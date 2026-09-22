@@ -1,7 +1,7 @@
 {
   "ticker": "1870",
   "japanese_ticker": "1870.T",
-  "fetch_date": "2026-09-21T00:44:37.880134",
+  "fetch_date": "2026-09-22T01:25:15.592656",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": -490941000.0,
@@ -1235,9 +1235,10 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "marketState": "CLOSED",
     "shortName": "YAHAGI CONSTRUCTION CO",
-    "longName": "Yahagi Construction Co.,Ltd.",
+    "marketState": "CLOSED",
+    "regularMarketChangePercent": 0.0,
+    "regularMarketPrice": 2193.0,
     "corporateActions": [
       {
         "header": "Dividend",
@@ -1257,19 +1258,7 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "regularMarketChangePercent": 0.0,
-    "regularMarketPrice": 2193.0,
-    "earningsTimestampStart": 1754456400,
-    "earningsTimestampEnd": 1754974800,
-    "isEarningsDateEstimate": true,
-    "epsTrailingTwelveMonths": 196.71,
-    "fiftyDayAverageChange": 155.43994,
-    "fiftyDayAverageChangePercent": 0.07628729,
-    "twoHundredDayAverageChange": 69.13501,
-    "twoHundredDayAverageChangePercent": 0.03255151,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
+    "longName": "Yahagi Construction Co.,Ltd.",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 978566400000,
     "regularMarketChange": 0.0,
@@ -1282,6 +1271,17 @@
     "fiftyTwoWeekHighChange": -341.0,
     "fiftyTwoWeekHighChangePercent": -0.13456985,
     "fiftyTwoWeekChangePercent": -4.1520953,
+    "earningsTimestampStart": 1754456400,
+    "earningsTimestampEnd": 1754974800,
+    "isEarningsDateEstimate": true,
+    "epsTrailingTwelveMonths": 196.71,
+    "fiftyDayAverageChange": 155.43994,
+    "fiftyDayAverageChangePercent": 0.07628729,
+    "twoHundredDayAverageChange": 69.13501,
+    "twoHundredDayAverageChangePercent": 0.03255151,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
     "trailingPegRatio": null
   }
 }

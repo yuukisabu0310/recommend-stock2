@@ -1,7 +1,7 @@
 {
   "ticker": "1925",
   "japanese_ticker": "1925.T",
-  "fetch_date": "2026-09-21T00:45:20.170559",
+  "fetch_date": "2026-09-22T01:25:53.760981",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": -8981050000.0,
@@ -1319,7 +1319,6 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "marketState": "CLOSED",
     "shortName": "DAIWA HOUSE INDUSTRY CO",
     "longName": "Daiwa House Industry Co., Ltd.",
     "corporateActions": [
@@ -1350,6 +1349,7 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
+    "marketState": "CLOSED",
     "regularMarketChangePercent": -1.4699525,
     "regularMarketPrice": 4558.0,
     "earningsTimestamp": 1794378600,
@@ -1367,7 +1367,7 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "prevName": "Daiwa House Industry Co.,Ltd.",
-    "nameChangeDate": "2026-09-20",
+    "nameChangeDate": "2026-09-21",
     "averageAnalystRating": "2.6 - Hold",
     "cryptoTradeable": false,
     "hasPrePostMarketData": false,

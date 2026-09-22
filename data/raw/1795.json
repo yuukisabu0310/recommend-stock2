@@ -1,7 +1,7 @@
 {
   "ticker": "1795",
   "japanese_ticker": "1795.T",
-  "fetch_date": "2026-09-21T00:43:26.290460",
+  "fetch_date": "2026-09-22T01:24:12.097671",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-09-30 00:00:00": 2066205.0,
@@ -1212,7 +1212,28 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "regularMarketDayRange": "5630.0 - 5630.0",
+    "longName": "Masaru Corporation",
+    "messageBoardId": "finmb_5864375",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
+    "regularMarketChangePercent": -3.4305315,
+    "regularMarketPrice": 5630.0,
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "1795.T announced a cash dividend of JPY 110.00 with an ex-date of Sep. 29, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1790607600000,
+          "amount": "110.00"
+        }
+      }
+    ],
+    "regularMarketTime": 1789689780,
+    "exchange": "JPX",
     "fullExchangeName": "Tokyo",
     "averageDailyVolume3Month": 453,
     "fiftyTwoWeekLowChange": 1450.0,
@@ -1235,30 +1256,9 @@
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 947030400000,
     "regularMarketChange": -200.0,
-    "marketState": "CLOSED",
+    "regularMarketDayRange": "5630.0 - 5630.0",
     "shortName": "MASARU CORPORATION",
-    "longName": "Masaru Corporation",
-    "corporateActions": [
-      {
-        "header": "Dividend",
-        "message": "1795.T announced a cash dividend of JPY 110.00 with an ex-date of Sep. 29, 2026",
-        "meta": {
-          "eventType": "DIVIDEND",
-          "dateEpochMs": 1790607600000,
-          "amount": "110.00"
-        }
-      }
-    ],
-    "regularMarketTime": 1789689780,
-    "exchange": "JPX",
-    "messageBoardId": "finmb_5864375",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
-    "regularMarketChangePercent": -3.4305315,
-    "regularMarketPrice": 5630.0,
+    "marketState": "CLOSED",
     "trailingPegRatio": null
   }
 }

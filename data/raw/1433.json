@@ -1,19 +1,19 @@
 {
   "ticker": "1433",
   "japanese_ticker": "1433.T",
-  "fetch_date": "2026-09-21T00:42:00.704057",
+  "fetch_date": "2026-09-22T01:22:51.195661",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-01-31 00:00:00": 65652865.2,
       "2025-01-31 00:00:00": 58232700.6,
-      "2024-01-31 00:00:00": 11996024.0,
+      "2024-01-31 00:00:00": 15377661.8,
       "2023-01-31 00:00:00": 0.0,
       "2022-01-31 00:00:00": null
     },
     "Tax Rate For Calcs": {
       "2026-01-31 00:00:00": 0.2691,
       "2025-01-31 00:00:00": 0.3823,
-      "2024-01-31 00:00:00": 0.232,
+      "2024-01-31 00:00:00": 0.2974,
       "2023-01-31 00:00:00": 0.330004,
       "2022-01-31 00:00:00": null
     },
@@ -90,7 +90,7 @@
     "Normalized Income": {
       "2026-01-31 00:00:00": 554297865.2,
       "2025-01-31 00:00:00": 315716700.6,
-      "2024-01-31 00:00:00": 191411024.0,
+      "2024-01-31 00:00:00": 194792661.8,
       "2023-01-31 00:00:00": -64357000.0,
       "2022-01-31 00:00:00": null
     },
@@ -1121,9 +1121,16 @@
       "2022-01-31 00:00:00": null
     },
     "Gain Loss On Investment Securities": {
-      "2026-01-31 00:00:00": -140167000.0,
-      "2025-01-31 00:00:00": -164914000.0,
+      "2026-01-31 00:00:00": -140214000.0,
+      "2025-01-31 00:00:00": -167669000.0,
       "2024-01-31 00:00:00": -4016000.0,
+      "2023-01-31 00:00:00": null,
+      "2022-01-31 00:00:00": null
+    },
+    "Gain Loss On Sale Of PPE": {
+      "2026-01-31 00:00:00": 47000.0,
+      "2025-01-31 00:00:00": 2755000.0,
+      "2024-01-31 00:00:00": 0.0,
       "2023-01-31 00:00:00": null,
       "2022-01-31 00:00:00": null
     },
@@ -1290,8 +1297,20 @@
     "customPriceAlertConfidence": "LOW",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1441152000000,
-    "regularMarketChangePercent": -0.9876544,
+    "regularMarketTime": 1789713000,
+    "corporateActions": [],
     "regularMarketPrice": 1203.0,
+    "exchange": "JPX",
+    "messageBoardId": "finmb_60481582",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
+    "shortName": "BESTERRA CO LTD",
+    "longName": "Besterra Co., Ltd.",
+    "regularMarketChangePercent": -0.9876544,
+    "marketState": "CLOSED",
     "regularMarketChange": -12.0,
     "regularMarketDayRange": "1193.0 - 1209.0",
     "fullExchangeName": "Tokyo",
@@ -1314,18 +1333,6 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
-    "shortName": "BESTERRA CO LTD",
-    "longName": "Besterra Co., Ltd.",
-    "exchange": "JPX",
-    "messageBoardId": "finmb_60481582",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
-    "corporateActions": [],
-    "regularMarketTime": 1789713000,
-    "marketState": "CLOSED",
     "trailingPegRatio": null
   }
 }

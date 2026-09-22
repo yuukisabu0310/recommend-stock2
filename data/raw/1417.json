@@ -1,7 +1,7 @@
 {
   "ticker": "1417",
   "japanese_ticker": "1417.T",
-  "fetch_date": "2026-09-21T00:41:45.357719",
+  "fetch_date": "2026-09-22T01:22:38.382981",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": 135930000.0,
@@ -1375,27 +1375,11 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "corporateActions": [
-      {
-        "header": "Dividend",
-        "message": "1417.T announced a cash dividend of JPY 45.00 with an ex-date of Sep. 29, 2026",
-        "meta": {
-          "eventType": "DIVIDEND",
-          "dateEpochMs": 1790607600000,
-          "amount": "45.00"
-        }
-      }
-    ],
-    "regularMarketTime": 1789713000,
-    "exchange": "JPX",
-    "messageBoardId": "finmb_881336",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
+    "marketState": "CLOSED",
     "esgPopulated": false,
-    "regularMarketChangePercent": -0.7188278,
-    "regularMarketPrice": 3591.0,
+    "market": "jp_market",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 978307200000,
     "regularMarketChange": -26.0,
     "regularMarketDayRange": "3580.0 - 3624.0",
     "fullExchangeName": "Tokyo",
@@ -1421,14 +1405,30 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "prevName": "MIRAIT Holdings Corporation",
-    "nameChangeDate": "2026-09-20",
+    "nameChangeDate": "2026-09-21",
     "averageAnalystRating": "1.0 - Strong Buy",
     "cryptoTradeable": false,
-    "marketState": "CLOSED",
     "shortName": "MIRAIT ONE CORPORATION",
     "longName": "MIRAIT ONE Corporation",
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 978307200000,
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "1417.T announced a cash dividend of JPY 45.00 with an ex-date of Sep. 29, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1790607600000,
+          "amount": "45.00"
+        }
+      }
+    ],
+    "regularMarketTime": 1789713000,
+    "exchange": "JPX",
+    "messageBoardId": "finmb_881336",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "regularMarketChangePercent": -0.7188278,
+    "regularMarketPrice": 3591.0,
     "trailingPegRatio": null
   }
 }

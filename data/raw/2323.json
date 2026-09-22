@@ -1,7 +1,7 @@
 {
   "ticker": "2323",
   "japanese_ticker": "2323.T",
-  "fetch_date": "2026-09-21T00:49:55.242285",
+  "fetch_date": "2026-09-22T01:29:58.222441",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": 5717600.0,
@@ -1382,13 +1382,14 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "shortName": "FONFUN CORPORATION",
-    "longName": "fonfun corporation",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1032480000000,
     "regularMarketChange": -10.0,
     "regularMarketDayRange": "354.0 - 363.0",
     "fullExchangeName": "Tokyo",
+    "marketState": "CLOSED",
+    "shortName": "FONFUN CORPORATION",
+    "longName": "fonfun corporation",
     "averageDailyVolume3Month": 77936,
     "fiftyTwoWeekLowChange": 122.66667,
     "fiftyTwoWeekLowChangePercent": 0.52571434,
@@ -1396,7 +1397,6 @@
     "fiftyTwoWeekHighChange": -117.0,
     "fiftyTwoWeekHighChangePercent": -0.2473573,
     "fiftyTwoWeekChangePercent": 39.0625,
-    "marketState": "CLOSED",
     "earningsTimestampStart": 1755068400,
     "earningsTimestampEnd": 1755500400,
     "isEarningsDateEstimate": true,

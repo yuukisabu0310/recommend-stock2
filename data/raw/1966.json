@@ -1,7 +1,7 @@
 {
   "ticker": "1966",
   "japanese_ticker": "1966.T",
-  "fetch_date": "2026-09-21T00:46:11.265834",
+  "fetch_date": "2026-09-22T01:26:39.354714",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": 17875788.0,
@@ -1232,6 +1232,7 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "marketState": "CLOSED",
     "shortName": "TAKADA CORPORATION",
     "longName": "Takada Corporation",
     "corporateActions": [],
@@ -1243,17 +1244,8 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "fiftyDayAverageChange": 3.920044,
-    "fiftyDayAverageChangePercent": 0.0022566859,
-    "twoHundredDayAverageChange": -24.275024,
-    "twoHundredDayAverageChangePercent": -0.013751412,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
     "regularMarketChangePercent": 0.057471264,
     "regularMarketPrice": 1741.0,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 955411200000,
     "regularMarketChange": 1.0,
     "regularMarketDayRange": "1731.0 - 1756.0",
     "fullExchangeName": "Tokyo",
@@ -1269,7 +1261,15 @@
     "isEarningsDateEstimate": false,
     "epsTrailingTwelveMonths": 171.31,
     "epsForward": 260.7,
-    "marketState": "CLOSED",
+    "fiftyDayAverageChange": 3.920044,
+    "fiftyDayAverageChangePercent": 0.0022566859,
+    "twoHundredDayAverageChange": -24.275024,
+    "twoHundredDayAverageChangePercent": -0.013751412,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 955411200000,
     "trailingPegRatio": null
   }
 }

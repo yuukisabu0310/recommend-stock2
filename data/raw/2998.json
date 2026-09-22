@@ -1,7 +1,7 @@
 {
   "ticker": "2998",
   "japanese_ticker": "2998.T",
-  "fetch_date": "2026-09-21T00:58:06.638093",
+  "fetch_date": "2026-09-22T01:37:31.909377",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": -34970538.0,
@@ -1377,15 +1377,10 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "marketState": "CLOSED",
-    "corporateActions": [],
-    "regularMarketTime": 1789713000,
     "exchange": "JPX",
     "messageBoardId": "finmb_710699014",
     "exchangeTimezoneName": "Asia/Tokyo",
     "exchangeTimezoneShortName": "JST",
-    "shortName": "CREAL INC",
-    "longName": "CREAL Inc.",
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
@@ -1415,6 +1410,11 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
+    "shortName": "CREAL INC",
+    "longName": "CREAL Inc.",
+    "corporateActions": [],
+    "regularMarketTime": 1789713000,
+    "marketState": "CLOSED",
     "trailingPegRatio": null
   }
 }

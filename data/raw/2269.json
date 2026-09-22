@@ -1,7 +1,7 @@
 {
   "ticker": "2269",
   "japanese_ticker": "2269.T",
-  "fetch_date": "2026-09-21T00:49:10.429790",
+  "fetch_date": "2026-09-22T01:29:19.247602",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": -11412000000.0,
@@ -1328,9 +1328,15 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "marketState": "CLOSED",
     "shortName": "MEIJI HOLDINGS CO LTD",
     "longName": "Meiji Holdings Co., Ltd.",
-    "marketState": "CLOSED",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 946944000000,
+    "fullExchangeName": "Tokyo",
+    "averageDailyVolume3Month": 1093569,
+    "fiftyTwoWeekLowChange": 1449.0,
+    "fiftyTwoWeekLowChangePercent": 0.498452,
     "fiftyTwoWeekRange": "2907.0 - 4608.0",
     "fiftyTwoWeekHighChange": -252.0,
     "fiftyTwoWeekHighChangePercent": -0.0546875,
@@ -1351,12 +1357,6 @@
     "exchangeDataDelayedBy": 20,
     "averageAnalystRating": "2.1 - Buy",
     "cryptoTradeable": false,
-    "regularMarketChange": -14.0,
-    "regularMarketDayRange": "4307.0 - 4379.0",
-    "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 1093569,
-    "fiftyTwoWeekLowChange": 1449.0,
-    "fiftyTwoWeekLowChangePercent": 0.498452,
     "corporateActions": [
       {
         "header": "Dividend",
@@ -1378,8 +1378,8 @@
     "esgPopulated": false,
     "regularMarketChangePercent": -0.32036614,
     "regularMarketPrice": 4356.0,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 946944000000,
+    "regularMarketChange": -14.0,
+    "regularMarketDayRange": "4307.0 - 4379.0",
     "trailingPegRatio": 0.9693
   }
 }

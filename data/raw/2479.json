@@ -1,7 +1,7 @@
 {
   "ticker": "2479",
   "japanese_ticker": "2479.T",
-  "fetch_date": "2026-09-21T00:52:12.657107",
+  "fetch_date": "2026-09-22T01:32:06.801192",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": -7542683.0,
@@ -1194,7 +1194,6 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "longName": "JTEC Corporation",
     "marketState": "CLOSED",
     "corporateActions": [],
     "regularMarketTime": 1789713000,
@@ -1205,15 +1204,8 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "regularMarketChangePercent": 3.0769231,
-    "regularMarketPrice": 268.0,
     "shortName": "JTEC CORP",
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1144108800000,
-    "regularMarketChange": 8.0,
-    "regularMarketDayRange": "260.0 - 268.0",
-    "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 47033,
+    "longName": "JTEC Corporation",
     "fiftyTwoWeekLowChange": 51.0,
     "fiftyTwoWeekLowChangePercent": 0.23502304,
     "fiftyTwoWeekRange": "217.0 - 269.0",
@@ -1231,6 +1223,14 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
+    "regularMarketChangePercent": 3.0769231,
+    "regularMarketPrice": 268.0,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1144108800000,
+    "regularMarketChange": 8.0,
+    "regularMarketDayRange": "260.0 - 268.0",
+    "fullExchangeName": "Tokyo",
+    "averageDailyVolume3Month": 47033,
     "trailingPegRatio": null
   }
 }

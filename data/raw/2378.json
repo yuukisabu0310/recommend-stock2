@@ -1,7 +1,7 @@
 {
   "ticker": "2378",
   "japanese_ticker": "2378.T",
-  "fetch_date": "2026-09-21T00:50:55.432998",
+  "fetch_date": "2026-09-22T01:30:53.130487",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": -228470358.13677,
@@ -1337,6 +1337,20 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "shortName": "RENAISSANCE INC",
+    "longName": "Renaissance,Incorporated",
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "2378.T announced a cash dividend of JPY 4.00 with an ex-date of Sep. 29, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1790607600000,
+          "amount": "4.00"
+        }
+      }
+    ],
+    "regularMarketTime": 1789713000,
     "exchange": "JPX",
     "messageBoardId": "finmb_9794774",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1344,6 +1358,7 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
+    "marketState": "CLOSED",
     "regularMarketChangePercent": -0.09496676,
     "regularMarketPrice": 1052.0,
     "earningsTimestampStart": 1754461800,
@@ -1370,21 +1385,6 @@
     "fiftyTwoWeekHighChange": -243.0,
     "fiftyTwoWeekHighChangePercent": -0.1876448,
     "fiftyTwoWeekChangePercent": -15.907276,
-    "marketState": "CLOSED",
-    "shortName": "RENAISSANCE INC",
-    "longName": "Renaissance,Incorporated",
-    "corporateActions": [
-      {
-        "header": "Dividend",
-        "message": "2378.T announced a cash dividend of JPY 4.00 with an ex-date of Sep. 29, 2026",
-        "meta": {
-          "eventType": "DIVIDEND",
-          "dateEpochMs": 1790607600000,
-          "amount": "4.00"
-        }
-      }
-    ],
-    "regularMarketTime": 1789713000,
     "trailingPegRatio": null
   }
 }

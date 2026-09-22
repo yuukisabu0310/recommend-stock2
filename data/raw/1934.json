@@ -1,7 +1,7 @@
 {
   "ticker": "1934",
   "japanese_ticker": "1934.T",
-  "fetch_date": "2026-09-21T00:45:31.350132",
+  "fetch_date": "2026-09-22T01:26:03.282694",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": -1066272000.0,
@@ -1274,8 +1274,8 @@
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
     "marketState": "CLOSED",
-    "regularMarketChangePercent": -1.196709,
-    "regularMarketPrice": 2642.0,
+    "longName": "Yurtec Corporation",
+    "shortName": "YURTEC CORPORATION",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 978307200000,
     "regularMarketChange": -32.0,
@@ -1293,13 +1293,6 @@
     "isEarningsDateEstimate": true,
     "epsTrailingTwelveMonths": 150.33,
     "epsForward": 107.6,
-    "fiftyDayAverageChange": 157.28003,
-    "fiftyDayAverageChangePercent": 0.063298896,
-    "twoHundredDayAverageChange": 27.804932,
-    "twoHundredDayAverageChangePercent": 0.010636135,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
     "corporateActions": [
       {
         "header": "Dividend",
@@ -1319,8 +1312,15 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "shortName": "YURTEC CORPORATION",
-    "longName": "Yurtec Corporation",
+    "regularMarketChangePercent": -1.196709,
+    "regularMarketPrice": 2642.0,
+    "fiftyDayAverageChange": 157.28003,
+    "fiftyDayAverageChangePercent": 0.063298896,
+    "twoHundredDayAverageChange": 27.804932,
+    "twoHundredDayAverageChangePercent": 0.010636135,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
     "trailingPegRatio": null
   }
 }

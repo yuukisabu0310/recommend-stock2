@@ -1,7 +1,7 @@
 {
   "ticker": "2791",
   "japanese_ticker": "2791.T",
-  "fetch_date": "2026-09-21T00:55:32.068529",
+  "fetch_date": "2026-09-22T01:35:09.335192",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-05-31 00:00:00": 67799139.167862,
@@ -306,11 +306,11 @@
   },
   "balance_sheet": {
     "Treasury Shares Number": {
-      "2026-05-31 00:00:00": null,
+      "2026-05-31 00:00:00": 1090907.0,
       "2025-05-31 00:00:00": 653507.0,
       "2024-05-31 00:00:00": 545471.0,
       "2023-05-31 00:00:00": 545471.0,
-      "2022-05-31 00:00:00": 545354.0
+      "2022-05-31 00:00:00": null
     },
     "Ordinary Shares Number": {
       "2026-05-31 00:00:00": 13411493.0,
@@ -320,7 +320,7 @@
       "2022-05-31 00:00:00": null
     },
     "Share Issued": {
-      "2026-05-31 00:00:00": 13411493.0,
+      "2026-05-31 00:00:00": 14502400.0,
       "2025-05-31 00:00:00": 14502400.0,
       "2024-05-31 00:00:00": 14489800.0,
       "2023-05-31 00:00:00": 14474200.0,
@@ -1257,10 +1257,11 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "marketState": "CLOSED",
     "shortName": "DAIKOKUTENBUSSAN CO",
     "longName": "Daikokutenbussan Co.,Ltd.",
-    "marketState": "CLOSED",
-    "cryptoTradeable": false,
+    "regularMarketChangePercent": -0.21881838,
+    "regularMarketPrice": 4560.0,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1148428800000,
     "regularMarketChange": -10.0,
@@ -1284,6 +1285,7 @@
     "twoHundredDayAverageChangePercent": -0.062398817,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
     "corporateActions": [],
     "regularMarketTime": 1789713000,
     "exchange": "JPX",
@@ -1293,8 +1295,6 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "regularMarketChangePercent": -0.21881838,
-    "regularMarketPrice": 4560.0,
     "trailingPegRatio": null
   }
 }

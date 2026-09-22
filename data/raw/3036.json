@@ -1,7 +1,7 @@
 {
   "ticker": "3036",
   "japanese_ticker": "3036.T",
-  "fetch_date": "2026-09-21T00:58:42.705184",
+  "fetch_date": "2026-09-22T01:38:08.412491",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": 481200000.0,
@@ -1263,7 +1263,7 @@
     "allTimeLow": 114.375,
     "fulldayPrice": 3380.0,
     "fulldayChange": 20.0,
-    "fulldayChangePercent": 0.5952381,
+    "fulldayChangePercent": 0.005952381,
     "priceToSalesTrailing12Months": 0.42384377,
     "fiftyDayAverage": 3108.24,
     "twoHundredDayAverage": 2759.66,
@@ -1322,8 +1322,17 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "marketState": "CLOSED",
-    "regularMarketTime": 1789713000,
+    "earningsTimestampStart": 1754278200,
+    "earningsTimestampEnd": 1754623800,
+    "isEarningsDateEstimate": true,
+    "epsTrailingTwelveMonths": 186.24,
+    "fiftyDayAverageChange": 271.76,
+    "fiftyDayAverageChangePercent": 0.087432116,
+    "twoHundredDayAverageChange": 620.3401,
+    "twoHundredDayAverageChangePercent": 0.2247886,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
     "exchange": "JPX",
     "messageBoardId": "finmb_5478733",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1331,6 +1340,21 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "3036.T announced a cash dividend of JPY 47.00 with an ex-date of Sep. 29, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1790607600000,
+          "amount": "47.00"
+        }
+      }
+    ],
+    "regularMarketTime": 1789713000,
+    "shortName": "ALCONIX CORPORATION",
+    "longName": "ALCONIX Corporation",
+    "marketState": "CLOSED",
     "regularMarketChangePercent": 0.5952381,
     "regularMarketPrice": 3380.0,
     "hasPrePostMarketData": false,
@@ -1345,30 +1369,6 @@
     "fiftyTwoWeekHighChange": -405.0,
     "fiftyTwoWeekHighChangePercent": -0.10700132,
     "fiftyTwoWeekChangePercent": 61.18264,
-    "earningsTimestampStart": 1754278200,
-    "earningsTimestampEnd": 1754623800,
-    "isEarningsDateEstimate": true,
-    "corporateActions": [
-      {
-        "header": "Dividend",
-        "message": "3036.T announced a cash dividend of JPY 47.00 with an ex-date of Sep. 29, 2026",
-        "meta": {
-          "eventType": "DIVIDEND",
-          "dateEpochMs": 1790607600000,
-          "amount": "47.00"
-        }
-      }
-    ],
-    "shortName": "ALCONIX CORPORATION",
-    "longName": "ALCONIX Corporation",
-    "epsTrailingTwelveMonths": 186.24,
-    "fiftyDayAverageChange": 271.76,
-    "fiftyDayAverageChangePercent": 0.087432116,
-    "twoHundredDayAverageChange": 620.3401,
-    "twoHundredDayAverageChangePercent": 0.2247886,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
     "trailingPegRatio": null
   }
 }

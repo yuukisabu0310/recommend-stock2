@@ -1,7 +1,7 @@
 {
   "ticker": "2667",
   "japanese_ticker": "2667.T",
-  "fetch_date": "2026-09-21T00:53:37.469628",
+  "fetch_date": "2026-09-22T01:33:23.775271",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-09-30 00:00:00": -28712784.0,
@@ -1279,10 +1279,19 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "shortName": "IMAGEONE CO LTD",
     "marketState": "CLOSED",
+    "regularMarketChangePercent": -2.7027028,
+    "regularMarketPrice": 108.0,
     "corporateActions": [],
     "regularMarketTime": 1789713000,
-    "shortName": "IMAGEONE CO LTD",
+    "exchange": "JPX",
+    "messageBoardId": "finmb_8847096",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
     "longName": "ImageONE Co., Ltd.",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1016496000000,
@@ -1307,15 +1316,6 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
-    "exchange": "JPX",
-    "messageBoardId": "finmb_8847096",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
-    "regularMarketChangePercent": -2.7027028,
-    "regularMarketPrice": 108.0,
     "trailingPegRatio": null
   }
 }

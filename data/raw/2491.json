@@ -1,7 +1,7 @@
 {
   "ticker": "2491",
   "japanese_ticker": "2491.T",
-  "fetch_date": "2026-09-21T00:52:28.955749",
+  "fetch_date": "2026-09-22T01:32:21.636220",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-12-31 00:00:00": -77952000.0,
@@ -1133,6 +1133,7 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "marketState": "CLOSED",
     "corporateActions": [],
     "regularMarketTime": 1789713000,
     "exchange": "JPX",
@@ -1142,9 +1143,12 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "regularMarketChangePercent": -0.6276151,
     "shortName": "VALUECOMMERCE CO.LTD.",
+    "regularMarketChangePercent": -0.6276151,
+    "regularMarketPrice": 475.0,
     "longName": "ValueCommerce Co., Ltd.",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1154304000000,
     "regularMarketChange": -3.0,
     "regularMarketDayRange": "473.0 - 480.0",
     "fullExchangeName": "Tokyo",
@@ -1154,6 +1158,7 @@
     "fiftyTwoWeekRange": "408.0 - 815.0",
     "fiftyTwoWeekHighChange": -340.0,
     "fiftyTwoWeekHighChangePercent": -0.41717792,
+    "cryptoTradeable": false,
     "fiftyTwoWeekChangePercent": -41.43033,
     "earningsTimestamp": 1793255400,
     "earningsTimestampStart": 1793255400,
@@ -1167,11 +1172,6 @@
     "twoHundredDayAverageChangePercent": -0.05974107,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
-    "marketState": "CLOSED",
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1154304000000,
-    "regularMarketPrice": 475.0,
     "trailingPegRatio": null
   }
 }

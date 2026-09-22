@@ -1,7 +1,7 @@
 {
   "ticker": "2938",
   "japanese_ticker": "2938.T",
-  "fetch_date": "2026-09-21T00:57:34.413190",
+  "fetch_date": "2026-09-22T01:37:01.978186",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-06-30 00:00:00": 32746800.0,
@@ -1108,14 +1108,16 @@
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
     "marketState": "CLOSED",
+    "shortName": "OKAMURA FOODS CO LTD",
+    "longName": "Okamura Foods Co., Ltd.",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
     "corporateActions": [],
     "regularMarketTime": 1789713000,
     "exchange": "JPX",
     "messageBoardId": "finmb_5396072",
     "exchangeTimezoneName": "Asia/Tokyo",
     "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
     "esgPopulated": false,
     "regularMarketChangePercent": 1.0085338,
     "regularMarketPrice": 1302.0,
@@ -1142,8 +1144,6 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
-    "shortName": "OKAMURA FOODS CO LTD",
-    "longName": "Okamura Foods Co., Ltd.",
     "trailingPegRatio": null
   }
 }

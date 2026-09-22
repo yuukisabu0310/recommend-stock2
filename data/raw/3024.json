@@ -1,7 +1,7 @@
 {
   "ticker": "3024",
   "japanese_ticker": "3024.T",
-  "fetch_date": "2026-09-21T00:58:29.779130",
+  "fetch_date": "2026-09-22T01:37:55.854327",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": -53093600.0,
@@ -1231,16 +1231,6 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "marketState": "CLOSED",
-    "exchange": "JPX",
-    "messageBoardId": "finmb_6465745",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
-    "regularMarketChangePercent": -0.08361204,
-    "regularMarketPrice": 1195.0,
     "corporateActions": [
       {
         "header": "Dividend",
@@ -1253,15 +1243,18 @@
       }
     ],
     "regularMarketTime": 1789713000,
+    "exchange": "JPX",
+    "messageBoardId": "finmb_6465745",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
+    "regularMarketChangePercent": -0.08361204,
+    "regularMarketPrice": 1195.0,
+    "marketState": "CLOSED",
     "shortName": "CREATE CORPORATION",
     "longName": "Create Corporation",
-    "fiftyDayAverageChange": 45.640015,
-    "fiftyDayAverageChangePercent": 0.03970907,
-    "twoHundredDayAverageChange": 44.06494,
-    "twoHundredDayAverageChangePercent": 0.03828621,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1141344000000,
     "regularMarketChange": -1.0,
@@ -1278,6 +1271,13 @@
     "earningsTimestampEnd": 1754611200,
     "isEarningsDateEstimate": true,
     "epsTrailingTwelveMonths": 93.57,
+    "fiftyDayAverageChange": 45.640015,
+    "fiftyDayAverageChangePercent": 0.03970907,
+    "twoHundredDayAverageChange": 44.06494,
+    "twoHundredDayAverageChangePercent": 0.03828621,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
     "trailingPegRatio": null
   }
 }

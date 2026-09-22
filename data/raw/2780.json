@@ -1,7 +1,7 @@
 {
   "ticker": "2780",
   "japanese_ticker": "2780.T",
-  "fetch_date": "2026-09-21T00:55:20.194973",
+  "fetch_date": "2026-09-22T01:34:58.097354",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": -22834985.8,
@@ -1161,7 +1161,6 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "marketState": "CLOSED",
     "exchange": "JPX",
     "messageBoardId": "finmb_8819427",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1169,8 +1168,6 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "regularMarketChangePercent": -1.2168142,
-    "regularMarketPrice": 4465.0,
     "corporateActions": [
       {
         "header": "Dividend",
@@ -1183,6 +1180,9 @@
       }
     ],
     "regularMarketTime": 1789713000,
+    "regularMarketChangePercent": -1.2168142,
+    "regularMarketPrice": 4465.0,
+    "cryptoTradeable": false,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1103587200000,
     "regularMarketChange": -55.0,
@@ -1207,10 +1207,10 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "prevName": "Komehyo Co.,Ltd.",
-    "nameChangeDate": "2026-09-20",
+    "nameChangeDate": "2026-09-21",
+    "marketState": "CLOSED",
     "shortName": "KOMEHYO HOLDINGS CO LTD",
     "longName": "Komehyo Holdings Co.,Ltd.",
-    "cryptoTradeable": false,
     "trailingPegRatio": null
   }
 }
