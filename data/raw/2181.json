@@ -1,7 +1,7 @@
 {
   "ticker": "2181",
   "japanese_ticker": "2181.T",
-  "fetch_date": "2026-09-22T01:28:24.416895",
+  "fetch_date": "2026-09-23T01:11:27.585070",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": 0.0,
@@ -1312,7 +1312,7 @@
     "forwardPE": 16.35294,
     "volume": 20214400,
     "regularMarketVolume": 20214400,
-    "averageVolume": 9244206,
+    "averageVolume": 9322708,
     "averageVolume10days": 10626550,
     "averageDailyVolume10Day": 10626550,
     "bid": 291.7,
@@ -1340,7 +1340,7 @@
     "floatShares": 1802254873,
     "sharesOutstanding": 2230651492,
     "heldPercentInsiders": 0.21226999,
-    "heldPercentInstitutions": 0.39956,
+    "heldPercentInstitutions": 0.39955002,
     "impliedSharesOutstanding": 2230651492,
     "bookValue": 99.262,
     "priceToBook": 2.9407022,
@@ -1356,8 +1356,8 @@
     "lastSplitDate": 1695859200,
     "enterpriseToRevenue": 0.418,
     "enterpriseToEbitda": 6.3,
-    "52WeekChange": 0.046987057,
-    "SandP52WeekChange": 0.14293182,
+    "52WeekChange": 0.070014715,
+    "SandP52WeekChange": 0.16641033,
     "lastDividendValue": 6.5,
     "lastDividendDate": 1806364800,
     "quoteType": "EQUITY",
@@ -1396,6 +1396,21 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "marketState": "CLOSED",
+    "shortName": "PERSOL HOLDINGS CO LTD",
+    "longName": "Persol Holdings Co.,Ltd.",
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "2181.T announced a cash dividend of JPY 6.50 with an ex-date of Sep. 29, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1790607600000,
+          "amount": "6.50"
+        }
+      }
+    ],
+    "regularMarketTime": 1789713000,
     "exchange": "JPX",
     "messageBoardId": "finmb_53336883",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1410,13 +1425,13 @@
     "regularMarketChange": -9.0,
     "regularMarketDayRange": "291.9 - 301.3",
     "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 9244206,
+    "averageDailyVolume3Month": 9322708,
     "fiftyTwoWeekLowChange": 73.899994,
     "fiftyTwoWeekLowChangePercent": 0.3389908,
     "fiftyTwoWeekRange": "218.0 - 304.3",
     "fiftyTwoWeekHighChange": -12.399994,
     "fiftyTwoWeekHighChangePercent": -0.04074924,
-    "fiftyTwoWeekChangePercent": 4.6987057,
+    "fiftyTwoWeekChangePercent": 7.0014715,
     "earningsTimestamp": 1794378600,
     "earningsTimestampStart": 1794378600,
     "earningsTimestampEnd": 1794378600,
@@ -1433,21 +1448,6 @@
     "exchangeDataDelayedBy": 20,
     "averageAnalystRating": "2.3 - Buy",
     "cryptoTradeable": false,
-    "shortName": "PERSOL HOLDINGS CO LTD",
-    "longName": "Persol Holdings Co.,Ltd.",
-    "corporateActions": [
-      {
-        "header": "Dividend",
-        "message": "2181.T announced a cash dividend of JPY 6.50 with an ex-date of Sep. 29, 2026",
-        "meta": {
-          "eventType": "DIVIDEND",
-          "dateEpochMs": 1790607600000,
-          "amount": "6.50"
-        }
-      }
-    ],
-    "regularMarketTime": 1789713000,
-    "marketState": "CLOSED",
     "trailingPegRatio": null
   }
 }

@@ -1,7 +1,7 @@
 {
   "ticker": "2784",
   "japanese_ticker": "2784.T",
-  "fetch_date": "2026-09-22T01:35:02.123412",
+  "fetch_date": "2026-09-23T01:18:10.051109",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": 7550400000.0,
@@ -1246,7 +1246,7 @@
     "forwardPE": 14.654044,
     "volume": 1003300,
     "regularMarketVolume": 1003300,
-    "averageVolume": 478849,
+    "averageVolume": 480204,
     "averageVolume10days": 445850,
     "averageDailyVolume10Day": 445850,
     "bid": 2351.0,
@@ -1274,7 +1274,7 @@
     "floatShares": 166960297,
     "sharesOutstanding": 175410054,
     "heldPercentInsiders": 0.060100004,
-    "heldPercentInstitutions": 0.38676998,
+    "heldPercentInstitutions": 0.38673002,
     "impliedSharesOutstanding": 175410054,
     "bookValue": 2768.51,
     "priceToBook": 0.8499157,
@@ -1290,8 +1290,8 @@
     "lastSplitDate": 1411689600,
     "enterpriseToRevenue": 0.08,
     "enterpriseToEbitda": 5.055,
-    "52WeekChange": 0.07442927,
-    "SandP52WeekChange": 0.14293182,
+    "52WeekChange": 0.08084524,
+    "SandP52WeekChange": 0.16641033,
     "lastDividendValue": 36.0,
     "lastDividendDate": 1806364800,
     "quoteType": "EQUITY",
@@ -1328,9 +1328,28 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "regularMarketChangePercent": -1.2381952,
+    "regularMarketPrice": 2353.0,
+    "exchange": "JPX",
+    "messageBoardId": "finmb_9248638",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
     "marketState": "CLOSED",
-    "earningsTimestamp": 1794205800,
-    "earningsTimestampStart": 1794205800,
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "2784.T announced a cash dividend of JPY 35.00 with an ex-date of Sep. 29, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1790607600000,
+          "amount": "35.00"
+        }
+      }
+    ],
+    "regularMarketTime": 1789713000,
     "earningsTimestampEnd": 1794205800,
     "earningsCallTimestampStart": 1731063540,
     "earningsCallTimestampEnd": 1731063540,
@@ -1344,42 +1363,23 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "averageAnalystRating": "3.3 - Hold",
-    "shortName": "ALFRESA HOLDINGS CORP",
-    "longName": "Alfresa Holdings Corporation",
+    "cryptoTradeable": false,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1127952000000,
     "regularMarketChange": -29.5,
     "regularMarketDayRange": "2342.5 - 2384.5",
     "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 478849,
+    "averageDailyVolume3Month": 480204,
     "fiftyTwoWeekLowChange": 298.0,
     "fiftyTwoWeekLowChangePercent": 0.14501217,
     "fiftyTwoWeekRange": "2055.0 - 2685.5",
     "fiftyTwoWeekHighChange": -332.5,
     "fiftyTwoWeekHighChangePercent": -0.12381307,
-    "fiftyTwoWeekChangePercent": 7.4429274,
-    "corporateActions": [
-      {
-        "header": "Dividend",
-        "message": "2784.T announced a cash dividend of JPY 35.00 with an ex-date of Sep. 29, 2026",
-        "meta": {
-          "eventType": "DIVIDEND",
-          "dateEpochMs": 1790607600000,
-          "amount": "35.00"
-        }
-      }
-    ],
-    "regularMarketTime": 1789713000,
-    "exchange": "JPX",
-    "messageBoardId": "finmb_9248638",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
-    "regularMarketChangePercent": -1.2381952,
-    "regularMarketPrice": 2353.0,
-    "cryptoTradeable": false,
+    "fiftyTwoWeekChangePercent": 8.084524,
+    "earningsTimestamp": 1794205800,
+    "earningsTimestampStart": 1794205800,
+    "shortName": "ALFRESA HOLDINGS CORP",
+    "longName": "Alfresa Holdings Corporation",
     "trailingPegRatio": null
   }
 }

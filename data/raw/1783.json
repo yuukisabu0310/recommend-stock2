@@ -1,19 +1,19 @@
 {
   "ticker": "1783",
   "japanese_ticker": "1783.T",
-  "fetch_date": "2026-09-22T01:24:03.277798",
+  "fetch_date": "2026-09-23T01:07:00.316160",
   "financials": {
     "Tax Effect Of Unusual Items": {
-      "2025-09-30 00:00:00": -38644008.0,
-      "2024-09-30 00:00:00": 18244944.0,
+      "2025-09-30 00:00:00": -49537620.6,
+      "2024-09-30 00:00:00": 23388130.8,
       "2023-09-30 00:00:00": -17220.0,
-      "2022-09-30 00:00:00": -178066496.0
+      "2022-09-30 00:00:00": -228262827.2
     },
     "Tax Rate For Calcs": {
-      "2025-09-30 00:00:00": 0.232,
-      "2024-09-30 00:00:00": 0.232,
+      "2025-09-30 00:00:00": 0.2974,
+      "2024-09-30 00:00:00": 0.2974,
       "2023-09-30 00:00:00": 0.287,
-      "2022-09-30 00:00:00": 0.232
+      "2022-09-30 00:00:00": 0.2974
     },
     "Normalized EBITDA": {
       "2025-09-30 00:00:00": 604678000.0,
@@ -82,10 +82,10 @@
       "2022-09-30 00:00:00": 4882000.0
     },
     "Normalized Income": {
-      "2025-09-30 00:00:00": -111674008.0,
-      "2024-09-30 00:00:00": 230161944.0,
+      "2025-09-30 00:00:00": -122567620.6,
+      "2024-09-30 00:00:00": 235305130.8,
       "2023-09-30 00:00:00": 1053198780.0,
-      "2022-09-30 00:00:00": -214178496.0
+      "2022-09-30 00:00:00": -264374827.2
     },
     "Net Income From Continuing And Discontinued Operation": {
       "2025-09-30 00:00:00": -239599000.0,
@@ -107,25 +107,25 @@
     },
     "Diluted Average Shares": {
       "2025-09-30 00:00:00": 170042568.0,
-      "2024-09-30 00:00:00": 170042569.0,
+      "2024-09-30 00:00:00": 170042648.0,
       "2023-09-30 00:00:00": 169590338.0,
       "2022-09-30 00:00:00": 139772429.0
     },
     "Basic Average Shares": {
       "2025-09-30 00:00:00": 170042568.0,
-      "2024-09-30 00:00:00": 170042569.0,
+      "2024-09-30 00:00:00": 170042648.0,
       "2023-09-30 00:00:00": 169590338.0,
       "2022-09-30 00:00:00": 139772429.0
     },
     "Diluted EPS": {
-      "2025-09-30 00:00:00": -1.409053,
-      "2024-09-30 00:00:00": 1.708743,
+      "2025-09-30 00:00:00": -1.56,
+      "2024-09-30 00:00:00": 1.71,
       "2023-09-30 00:00:00": 6.21,
       "2022-09-30 00:00:00": -5.75
     },
     "Basic EPS": {
-      "2025-09-30 00:00:00": -1.409053,
-      "2024-09-30 00:00:00": 1.708743,
+      "2025-09-30 00:00:00": -1.56,
+      "2024-09-30 00:00:00": 1.71,
       "2023-09-30 00:00:00": 6.21,
       "2022-09-30 00:00:00": -5.75
     },
@@ -1128,7 +1128,7 @@
     "beta": 0.344,
     "volume": 3823300,
     "regularMarketVolume": 3823300,
-    "averageVolume": 1341834,
+    "averageVolume": 1351787,
     "averageVolume10days": 6691890,
     "averageDailyVolume10Day": 6691890,
     "bid": 70.0,
@@ -1167,8 +1167,8 @@
     "trailingEps": -0.28,
     "enterpriseToRevenue": 3.463,
     "enterpriseToEbitda": 18.586,
-    "52WeekChange": 0.20338988,
-    "SandP52WeekChange": 0.14293182,
+    "52WeekChange": 0.18333328,
+    "SandP52WeekChange": 0.16641033,
     "quoteType": "EQUITY",
     "currentPrice": 71.0,
     "recommendationKey": "none",
@@ -1197,24 +1197,6 @@
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
     "marketState": "CLOSED",
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 946944000000,
-    "regularMarketChange": 3.0,
-    "regularMarketDayRange": "68.0 - 74.0",
-    "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 1341834,
-    "fiftyTwoWeekLowChange": 25.0,
-    "fiftyTwoWeekLowChangePercent": 0.54347825,
-    "fiftyTwoWeekRange": "46.0 - 80.0",
-    "fiftyTwoWeekHighChange": -9.0,
-    "fiftyTwoWeekHighChangePercent": -0.1125,
-    "fiftyTwoWeekChangePercent": 20.33899,
-    "earningsTimestampStart": 1754546400,
-    "earningsTimestampEnd": 1754978400,
-    "isEarningsDateEstimate": true,
-    "epsTrailingTwelveMonths": -0.28,
-    "regularMarketChangePercent": 4.4117646,
-    "regularMarketPrice": 71.0,
     "exchange": "JPX",
     "messageBoardId": "finmb_5388763",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1222,6 +1204,12 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
+    "regularMarketChangePercent": 4.4117646,
+    "regularMarketPrice": 71.0,
+    "corporateActions": [],
+    "regularMarketTime": 1789713000,
+    "shortName": "FANTASISTA CO LTD",
+    "longName": "Fantasista Co., Ltd.",
     "fiftyDayAverageChange": 17.919998,
     "fiftyDayAverageChangePercent": 0.33760357,
     "twoHundredDayAverageChange": 12.035,
@@ -1229,12 +1217,24 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "prevName": "Asia Gate Holdings Co., Ltd.",
-    "nameChangeDate": "2026-09-21",
+    "nameChangeDate": "2026-09-22",
     "cryptoTradeable": false,
-    "shortName": "FANTASISTA CO LTD",
-    "longName": "Fantasista Co., Ltd.",
-    "corporateActions": [],
-    "regularMarketTime": 1789713000,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 946944000000,
+    "regularMarketChange": 3.0,
+    "regularMarketDayRange": "68.0 - 74.0",
+    "fullExchangeName": "Tokyo",
+    "averageDailyVolume3Month": 1351787,
+    "fiftyTwoWeekLowChange": 25.0,
+    "fiftyTwoWeekLowChangePercent": 0.54347825,
+    "fiftyTwoWeekRange": "46.0 - 80.0",
+    "fiftyTwoWeekHighChange": -9.0,
+    "fiftyTwoWeekHighChangePercent": -0.1125,
+    "fiftyTwoWeekChangePercent": 18.333328,
+    "earningsTimestampStart": 1754546400,
+    "earningsTimestampEnd": 1754978400,
+    "isEarningsDateEstimate": true,
+    "epsTrailingTwelveMonths": -0.28,
     "trailingPegRatio": null
   }
 }

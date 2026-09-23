@@ -1,7 +1,7 @@
 {
   "ticker": "2788",
   "japanese_ticker": "2788.T",
-  "fetch_date": "2026-09-22T01:35:04.352515",
+  "fetch_date": "2026-09-23T01:18:11.777018",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-12-31 00:00:00": 72784847.9,
@@ -1061,7 +1061,7 @@
     "trailingPE": 4.34238,
     "volume": 774100,
     "regularMarketVolume": 774100,
-    "averageVolume": 60393,
+    "averageVolume": 60600,
     "averageVolume10days": 131270,
     "averageDailyVolume10Day": 131270,
     "bid": 415.0,
@@ -1103,8 +1103,8 @@
     "lastSplitDate": 1395878400,
     "enterpriseToRevenue": 0.23,
     "enterpriseToEbitda": 11.932,
-    "52WeekChange": 0.18857145,
-    "SandP52WeekChange": 0.14293182,
+    "52WeekChange": 0.17847025,
+    "SandP52WeekChange": 0.16641033,
     "lastDividendValue": 15.0,
     "lastDividendDate": 1798502400,
     "quoteType": "EQUITY",
@@ -1146,8 +1146,9 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
+    "regularMarketChangePercent": 6.122449,
+    "regularMarketPrice": 416.0,
     "marketState": "CLOSED",
-    "fiftyTwoWeekChangePercent": 18.857145,
     "earningsTimestampStart": 1754546400,
     "earningsTimestampEnd": 1754978400,
     "isEarningsDateEstimate": true,
@@ -1159,8 +1160,6 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
-    "regularMarketChangePercent": 6.122449,
-    "regularMarketPrice": 416.0,
     "shortName": "APPLE INTERNATIONAL CO LTD",
     "longName": "Apple International Co., Ltd.",
     "hasPrePostMarketData": false,
@@ -1168,12 +1167,13 @@
     "regularMarketChange": 24.0,
     "regularMarketDayRange": "412.0 - 443.0",
     "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 60393,
+    "averageDailyVolume3Month": 60600,
     "fiftyTwoWeekLowChange": 88.0,
     "fiftyTwoWeekLowChangePercent": 0.2682927,
     "fiftyTwoWeekRange": "328.0 - 445.0",
     "fiftyTwoWeekHighChange": -29.0,
     "fiftyTwoWeekHighChangePercent": -0.06516854,
+    "fiftyTwoWeekChangePercent": 17.847025,
     "trailingPegRatio": null
   }
 }

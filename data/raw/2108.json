@@ -1,7 +1,7 @@
 {
   "ticker": "2108",
   "japanese_ticker": "2108.T",
-  "fetch_date": "2026-09-22T01:27:20.892098",
+  "fetch_date": "2026-09-23T01:10:19.282246",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": 1773373000.0,
@@ -1216,7 +1216,7 @@
     "trailingPE": 12.722585,
     "volume": 88600,
     "regularMarketVolume": 88600,
-    "averageVolume": 33403,
+    "averageVolume": 33725,
     "averageVolume10days": 35310,
     "averageDailyVolume10Day": 35310,
     "bid": 5200.0,
@@ -1258,8 +1258,8 @@
     "lastSplitDate": 1790640000,
     "enterpriseToRevenue": 0.837,
     "enterpriseToEbitda": 21.251,
-    "52WeekChange": 0.8071873,
-    "SandP52WeekChange": 0.14293182,
+    "52WeekChange": 0.8109418,
+    "SandP52WeekChange": 0.16641033,
     "lastDividendValue": 90.0,
     "lastDividendDate": 1806364800,
     "quoteType": "EQUITY",
@@ -1290,6 +1290,7 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "marketState": "CLOSED",
     "corporateActions": [
       {
         "header": "Stock split",
@@ -1316,13 +1317,16 @@
     "regularMarketChange": -60.0,
     "regularMarketDayRange": "5160.0 - 5300.0",
     "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 33403,
+    "averageDailyVolume3Month": 33725,
     "fiftyTwoWeekLowChange": 2434.0,
     "fiftyTwoWeekLowChangePercent": 0.87052935,
     "fiftyTwoWeekRange": "2796.0 - 5980.0",
     "fiftyTwoWeekHighChange": -750.0,
     "fiftyTwoWeekHighChangePercent": -0.12541807,
-    "fiftyTwoWeekChangePercent": 80.718735,
+    "fiftyTwoWeekChangePercent": 81.094185,
+    "shortName": "NIPPON BEET SUGAR MANUFACTURING",
+    "longName": "Nippon Beet Sugar Manufacturing Co.,Ltd.",
+    "cryptoTradeable": false,
     "earningsTimestampStart": 1754542800,
     "earningsTimestampEnd": 1754974800,
     "isEarningsDateEstimate": true,
@@ -1334,11 +1338,7 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "prevName": "Nippon Beet Sugar Manufacturing Co., Ltd.",
-    "nameChangeDate": "2026-09-21",
-    "cryptoTradeable": false,
-    "marketState": "CLOSED",
-    "shortName": "NIPPON BEET SUGAR MANUFACTURING",
-    "longName": "Nippon Beet Sugar Manufacturing Co.,Ltd.",
+    "nameChangeDate": "2026-09-22",
     "trailingPegRatio": null
   }
 }

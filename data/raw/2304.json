@@ -1,7 +1,7 @@
 {
   "ticker": "2304",
   "japanese_ticker": "2304.T",
-  "fetch_date": "2026-09-22T01:29:46.621823",
+  "fetch_date": "2026-09-23T01:12:52.259079",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-09-30 00:00:00": 1953918.0,
@@ -1163,7 +1163,7 @@
     "trailingPE": 6.7478285,
     "volume": 2300,
     "regularMarketVolume": 2300,
-    "averageVolume": 5033,
+    "averageVolume": 5050,
     "averageVolume10days": 4240,
     "averageDailyVolume10Day": 4240,
     "bid": 908.0,
@@ -1205,8 +1205,8 @@
     "lastSplitDate": 1380153600,
     "enterpriseToRevenue": 0.186,
     "enterpriseToEbitda": 4.723,
-    "52WeekChange": -0.12847555,
-    "SandP52WeekChange": 0.14293182,
+    "52WeekChange": -0.123432994,
+    "SandP52WeekChange": 0.16641033,
     "lastDividendValue": 20.0,
     "lastDividendDate": 1790640000,
     "quoteType": "EQUITY",
@@ -1237,6 +1237,9 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "shortName": "CSS HOLDINGS LTD",
+    "regularMarketChangePercent": 0.11013216,
+    "regularMarketPrice": 909.0,
     "marketState": "CLOSED",
     "longName": "CSS Holdings,Ltd.",
     "corporateActions": [
@@ -1263,13 +1266,13 @@
     "regularMarketChange": 1.0,
     "regularMarketDayRange": "909.0 - 910.0",
     "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 5033,
+    "averageDailyVolume3Month": 5050,
     "fiftyTwoWeekLowChange": 17.0,
     "fiftyTwoWeekLowChangePercent": 0.019058296,
     "fiftyTwoWeekRange": "892.0 - 1097.0",
     "fiftyTwoWeekHighChange": -188.0,
     "fiftyTwoWeekHighChangePercent": -0.17137648,
-    "fiftyTwoWeekChangePercent": -12.847555,
+    "fiftyTwoWeekChangePercent": -12.3433,
     "earningsTimestampStart": 1754982000,
     "earningsTimestampEnd": 1755500400,
     "isEarningsDateEstimate": true,
@@ -1281,9 +1284,6 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
-    "shortName": "CSS HOLDINGS LTD",
-    "regularMarketChangePercent": 0.11013216,
-    "regularMarketPrice": 909.0,
     "trailingPegRatio": null
   }
 }

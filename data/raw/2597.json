@@ -1,20 +1,20 @@
 {
   "ticker": "2597",
   "japanese_ticker": "2597.T",
-  "fetch_date": "2026-09-22T01:33:01.168502",
+  "fetch_date": "2026-09-23T01:16:07.362194",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-12-31 00:00:00": -54548.0,
       "2024-12-31 00:00:00": -1642284.0,
       "2023-12-31 00:00:00": 6971760.0,
-      "2022-12-31 00:00:00": -5743160.0,
+      "2022-12-31 00:00:00": -7362137.0,
       "2021-12-31 00:00:00": null
     },
     "Tax Rate For Calcs": {
       "2025-12-31 00:00:00": 0.052,
       "2024-12-31 00:00:00": 0.126,
       "2023-12-31 00:00:00": 0.069,
-      "2022-12-31 00:00:00": 0.232,
+      "2022-12-31 00:00:00": 0.2974,
       "2021-12-31 00:00:00": null
     },
     "Normalized EBITDA": {
@@ -98,7 +98,7 @@
       "2025-12-31 00:00:00": 675331452.0,
       "2024-12-31 00:00:00": 469166716.0,
       "2023-12-31 00:00:00": 348825760.0,
-      "2022-12-31 00:00:00": -171733160.0,
+      "2022-12-31 00:00:00": -173352137.0,
       "2021-12-31 00:00:00": null
     },
     "Net Income From Continuing And Discontinued Operation": {
@@ -1116,7 +1116,7 @@
     "trailingPE": 20.921461,
     "volume": 4900,
     "regularMarketVolume": 4900,
-    "averageVolume": 6712,
+    "averageVolume": 6740,
     "averageVolume10days": 10610,
     "averageDailyVolume10Day": 10610,
     "bid": 1275.0,
@@ -1125,7 +1125,7 @@
     "askSize": 0,
     "marketCap": 17084345344,
     "nonDilutedMarketCap": 17084344860,
-    "fiftyTwoWeekLow": 980.0,
+    "fiftyTwoWeekLow": 985.0,
     "fiftyTwoWeekHigh": 1332.0,
     "allTimeHigh": 1775.0,
     "allTimeLow": 297.0,
@@ -1158,8 +1158,8 @@
     "lastSplitDate": 1064448000,
     "enterpriseToRevenue": 0.719,
     "enterpriseToEbitda": 10.31,
-    "52WeekChange": 0.2954315,
-    "SandP52WeekChange": 0.14293182,
+    "52WeekChange": 0.28888893,
+    "SandP52WeekChange": 0.16641033,
     "lastDividendValue": 10.0,
     "lastDividendDate": 1766966400,
     "quoteType": "EQUITY",
@@ -1192,7 +1192,6 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "marketState": "CLOSED",
     "shortName": "UNICAFE INC",
     "longName": "Unicafe Inc.",
     "corporateActions": [],
@@ -1206,18 +1205,17 @@
     "esgPopulated": false,
     "regularMarketChangePercent": 1.2698413,
     "regularMarketPrice": 1276.0,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 978566400000,
+    "marketState": "CLOSED",
     "regularMarketChange": 16.0,
     "regularMarketDayRange": "1262.0 - 1276.0",
     "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 6712,
-    "fiftyTwoWeekLowChange": 296.0,
-    "fiftyTwoWeekLowChangePercent": 0.30204082,
-    "fiftyTwoWeekRange": "980.0 - 1332.0",
+    "averageDailyVolume3Month": 6740,
+    "fiftyTwoWeekLowChange": 291.0,
+    "fiftyTwoWeekLowChangePercent": 0.29543146,
+    "fiftyTwoWeekRange": "985.0 - 1332.0",
     "fiftyTwoWeekHighChange": -56.0,
     "fiftyTwoWeekHighChangePercent": -0.042042043,
-    "fiftyTwoWeekChangePercent": 29.54315,
+    "fiftyTwoWeekChangePercent": 28.888893,
     "earningsTimestampStart": 1754982000,
     "earningsTimestampEnd": 1755500400,
     "isEarningsDateEstimate": true,
@@ -1229,6 +1227,8 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 978566400000,
     "trailingPegRatio": null
   }
 }

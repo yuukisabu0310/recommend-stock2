@@ -1,7 +1,7 @@
 {
   "ticker": "2497",
   "japanese_ticker": "2497.T",
-  "fetch_date": "2026-09-22T01:32:27.188638",
+  "fetch_date": "2026-09-23T01:15:33.289966",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": -24013600.0,
@@ -1180,7 +1180,7 @@
     "forwardPE": 10.541081,
     "volume": 10500,
     "regularMarketVolume": 10500,
-    "averageVolume": 22874,
+    "averageVolume": 22741,
     "averageVolume10days": 15870,
     "averageDailyVolume10Day": 15870,
     "bid": 526.0,
@@ -1223,7 +1223,7 @@
     "enterpriseToRevenue": 1.645,
     "enterpriseToEbitda": -46.805,
     "52WeekChange": -0.1405229,
-    "SandP52WeekChange": 0.14293182,
+    "SandP52WeekChange": 0.16641033,
     "lastDividendValue": 11.0,
     "lastDividendDate": 1806364800,
     "quoteType": "EQUITY",
@@ -1253,6 +1253,7 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "marketState": "CLOSED",
     "corporateActions": [
       {
         "header": "Dividend",
@@ -1272,12 +1273,6 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "regularMarketChangePercent": 0.0,
-    "regularMarketPrice": 526.0,
-    "marketState": "CLOSED",
-    "earningsTimestampStart": 1754375400,
-    "earningsTimestampEnd": 1754980200,
-    "isEarningsDateEstimate": true,
     "epsTrailingTwelveMonths": -41.34,
     "epsForward": 49.9,
     "fiftyDayAverageChange": 0.17999268,
@@ -1292,15 +1287,20 @@
     "regularMarketChange": 0.0,
     "regularMarketDayRange": "526.0 - 529.0",
     "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 22874,
+    "averageDailyVolume3Month": 22741,
     "fiftyTwoWeekLowChange": 55.0,
     "fiftyTwoWeekLowChangePercent": 0.11677282,
     "fiftyTwoWeekRange": "471.0 - 616.0",
     "fiftyTwoWeekHighChange": -90.0,
     "fiftyTwoWeekHighChangePercent": -0.14610389,
     "fiftyTwoWeekChangePercent": -14.05229,
+    "earningsTimestampStart": 1754375400,
+    "earningsTimestampEnd": 1754980200,
+    "isEarningsDateEstimate": true,
     "shortName": "UNITED INC",
     "longName": "UNITED, Inc.",
+    "regularMarketChangePercent": 0.0,
+    "regularMarketPrice": 526.0,
     "trailingPegRatio": null
   }
 }

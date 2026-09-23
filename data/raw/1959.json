@@ -1,7 +1,7 @@
 {
   "ticker": "1959",
   "japanese_ticker": "1959.T",
-  "fetch_date": "2026-09-22T01:26:27.703600",
+  "fetch_date": "2026-09-23T01:09:26.177083",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": 103967827.198096,
@@ -1130,7 +1130,7 @@
     "forwardPE": 16.278181,
     "volume": 288100,
     "regularMarketVolume": 288100,
-    "averageVolume": 205284,
+    "averageVolume": 205658,
     "averageVolume10days": 171400,
     "averageDailyVolume10Day": 171400,
     "bid": 8046.0,
@@ -1156,7 +1156,7 @@
     "floatShares": 47446624,
     "sharesOutstanding": 70734825,
     "heldPercentInsiders": 0.31258,
-    "heldPercentInstitutions": 0.33366,
+    "heldPercentInstitutions": 0.33199,
     "impliedSharesOutstanding": 70734825,
     "bookValue": 4914.662,
     "priceToBook": 1.6454844,
@@ -1169,8 +1169,8 @@
     "forwardEps": 496.8,
     "enterpriseToRevenue": 1.162,
     "enterpriseToEbitda": 9.044,
-    "52WeekChange": 0.123194456,
-    "SandP52WeekChange": 0.14293182,
+    "52WeekChange": 0.12210345,
+    "SandP52WeekChange": 0.16641033,
     "lastDividendValue": 110.0,
     "lastDividendDate": 1806364800,
     "quoteType": "EQUITY",
@@ -1207,6 +1207,32 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "marketState": "CLOSED",
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "1959.T announced a cash dividend of JPY 110.00 with an ex-date of Sep. 29, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1790607600000,
+          "amount": "110.00"
+        }
+      }
+    ],
+    "regularMarketTime": 1789713000,
+    "exchange": "JPX",
+    "messageBoardId": "finmb_880331",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
+    "regularMarketChangePercent": -0.024724934,
+    "regularMarketPrice": 8087.0,
+    "shortName": "KRAFTIA CORPORATION",
+    "longName": "Kraftia Corporation",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 978307200000,
     "earningsTimestamp": 1793255400,
     "earningsTimestampStart": 1793255400,
     "earningsTimestampEnd": 1793255400,
@@ -1220,45 +1246,19 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "prevName": "Kyudenko Corporation",
-    "nameChangeDate": "2026-09-21",
+    "nameChangeDate": "2026-09-22",
     "averageAnalystRating": "1.8 - Buy",
     "cryptoTradeable": false,
-    "exchange": "JPX",
-    "messageBoardId": "finmb_880331",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
-    "corporateActions": [
-      {
-        "header": "Dividend",
-        "message": "1959.T announced a cash dividend of JPY 110.00 with an ex-date of Sep. 29, 2026",
-        "meta": {
-          "eventType": "DIVIDEND",
-          "dateEpochMs": 1790607600000,
-          "amount": "110.00"
-        }
-      }
-    ],
-    "regularMarketTime": 1789713000,
-    "shortName": "KRAFTIA CORPORATION",
-    "longName": "Kraftia Corporation",
-    "marketState": "CLOSED",
-    "regularMarketChangePercent": -0.024724934,
-    "regularMarketPrice": 8087.0,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 978307200000,
     "regularMarketChange": -2.0,
     "regularMarketDayRange": "8033.0 - 8140.0",
     "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 205284,
+    "averageDailyVolume3Month": 205658,
     "fiftyTwoWeekLowChange": 1220.0,
     "fiftyTwoWeekLowChangePercent": 0.17766128,
     "fiftyTwoWeekRange": "6867.0 - 10580.0",
     "fiftyTwoWeekHighChange": -2493.0,
     "fiftyTwoWeekHighChangePercent": -0.23563327,
-    "fiftyTwoWeekChangePercent": 12.319446,
+    "fiftyTwoWeekChangePercent": 12.210345,
     "trailingPegRatio": null
   }
 }

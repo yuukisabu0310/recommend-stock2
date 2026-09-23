@@ -1,7 +1,7 @@
 {
   "ticker": "1662",
   "japanese_ticker": "1662.T",
-  "fetch_date": "2026-09-22T01:23:21.183179",
+  "fetch_date": "2026-09-23T01:06:21.096918",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": 1200568000.0,
@@ -1299,7 +1299,7 @@
     "forwardPE": 12.793474,
     "volume": 1089100,
     "regularMarketVolume": 1089100,
-    "averageVolume": 1350769,
+    "averageVolume": 1357959,
     "averageVolume10days": 1443770,
     "averageDailyVolume10Day": 1443770,
     "bid": 1926.0,
@@ -1314,7 +1314,7 @@
     "allTimeLow": 308.2,
     "fulldayPrice": 1929.0,
     "fulldayChange": -10.0,
-    "fulldayChangePercent": -0.5157297,
+    "fulldayChangePercent": -0.0051572975,
     "priceToSalesTrailing12Months": 1.5261962,
     "fiftyDayAverage": 1813.88,
     "twoHundredDayAverage": 1953.705,
@@ -1327,7 +1327,7 @@
     "floatShares": 132960912,
     "sharesOutstanding": 255241091,
     "heldPercentInsiders": 0.4309,
-    "heldPercentInstitutions": 0.19256,
+    "heldPercentInstitutions": 0.19114,
     "impliedSharesOutstanding": 255241091,
     "bookValue": 2310.249,
     "priceToBook": 0.83497494,
@@ -1342,8 +1342,8 @@
     "lastSplitDate": 1727395200,
     "enterpriseToRevenue": 1.502,
     "enterpriseToEbitda": 6.482,
-    "52WeekChange": 0.46580553,
-    "SandP52WeekChange": 0.14293182,
+    "52WeekChange": 0.4580499,
+    "SandP52WeekChange": 0.16641033,
     "lastDividendValue": 22.5,
     "lastDividendDate": 1806364800,
     "quoteType": "EQUITY",
@@ -1381,8 +1381,29 @@
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
     "marketState": "CLOSED",
+    "exchange": "JPX",
+    "messageBoardId": "finmb_5490756",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
     "regularMarketChangePercent": -0.5157297,
     "regularMarketPrice": 1929.0,
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "1662.T announced a cash dividend of JPY 22.50 with an ex-date of Sep. 29, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1790607600000,
+          "amount": "22.50"
+        }
+      }
+    ],
+    "regularMarketTime": 1789713000,
+    "shortName": "JAPAN PETROLEUM EXPLORATION CO ",
+    "longName": "Japan Petroleum Exploration Co., Ltd.",
     "fiftyDayAverageChange": 115.119995,
     "fiftyDayAverageChangePercent": 0.06346616,
     "twoHundredDayAverageChange": -24.704956,
@@ -1396,13 +1417,13 @@
     "regularMarketChange": -10.0,
     "regularMarketDayRange": "1922.0 - 1944.0",
     "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 1350769,
+    "averageDailyVolume3Month": 1357959,
     "fiftyTwoWeekLowChange": 734.0,
     "fiftyTwoWeekLowChangePercent": 0.6142259,
     "fiftyTwoWeekRange": "1195.0 - 2819.0",
     "fiftyTwoWeekHighChange": -890.0,
     "fiftyTwoWeekHighChangePercent": -0.3157148,
-    "fiftyTwoWeekChangePercent": 46.58055,
+    "fiftyTwoWeekChangePercent": 45.80499,
     "earningsTimestamp": 1794465000,
     "earningsTimestampStart": 1794465000,
     "earningsTimestampEnd": 1794465000,
@@ -1411,27 +1432,6 @@
     "isEarningsDateEstimate": false,
     "epsTrailingTwelveMonths": 208.72,
     "epsForward": 150.78,
-    "shortName": "JAPAN PETROLEUM EXPLORATION CO ",
-    "longName": "Japan Petroleum Exploration Co., Ltd.",
-    "corporateActions": [
-      {
-        "header": "Dividend",
-        "message": "1662.T announced a cash dividend of JPY 22.50 with an ex-date of Sep. 29, 2026",
-        "meta": {
-          "eventType": "DIVIDEND",
-          "dateEpochMs": 1790607600000,
-          "amount": "22.50"
-        }
-      }
-    ],
-    "regularMarketTime": 1789713000,
-    "exchange": "JPX",
-    "messageBoardId": "finmb_5490756",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
     "trailingPegRatio": null
   }
 }

@@ -1,7 +1,7 @@
 {
   "ticker": "1961",
   "japanese_ticker": "1961.T",
-  "fetch_date": "2026-09-22T01:26:31.688465",
+  "fetch_date": "2026-09-23T01:09:29.891440",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": 1027675000.0,
@@ -1306,7 +1306,7 @@
     "forwardPE": 11.037941,
     "volume": 739000,
     "regularMarketVolume": 739000,
-    "averageVolume": 644338,
+    "averageVolume": 647117,
     "averageVolume10days": 456020,
     "averageDailyVolume10Day": 456020,
     "bid": 2520.0,
@@ -1334,7 +1334,7 @@
     "floatShares": 137797591,
     "sharesOutstanding": 152928254,
     "heldPercentInsiders": 0.10901,
-    "heldPercentInstitutions": 0.55155,
+    "heldPercentInstitutions": 0.55154,
     "impliedSharesOutstanding": 152928254,
     "bookValue": 776.259,
     "priceToBook": 3.2605097,
@@ -1351,7 +1351,7 @@
     "enterpriseToRevenue": 1.313,
     "enterpriseToEbitda": 10.497,
     "52WeekChange": 0.4830078,
-    "SandP52WeekChange": 0.14293182,
+    "SandP52WeekChange": 0.16641033,
     "lastDividendValue": 32.5,
     "lastDividendDate": 1806364800,
     "quoteType": "EQUITY",
@@ -1390,6 +1390,9 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "shortName": "SANKI ENGINEERING CO",
+    "longName": "Sanki Engineering Co., Ltd.",
+    "regularMarketPrice": 2531.0,
     "marketState": "CLOSED",
     "corporateActions": [
       {
@@ -1410,11 +1413,7 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "shortName": "SANKI ENGINEERING CO",
-    "longName": "Sanki Engineering Co., Ltd.",
-    "earningsTimestampStart": 1754546400,
-    "earningsTimestampEnd": 1754978400,
-    "isEarningsDateEstimate": true,
+    "regularMarketChangePercent": 0.396668,
     "epsTrailingTwelveMonths": 51.13,
     "epsForward": 229.3,
     "fiftyDayAverageChange": 98.67993,
@@ -1430,15 +1429,16 @@
     "regularMarketChange": 10.0,
     "regularMarketDayRange": "2509.0 - 2550.0",
     "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 644338,
+    "averageDailyVolume3Month": 647117,
     "fiftyTwoWeekLowChange": 964.3334,
     "fiftyTwoWeekLowChangePercent": 0.615532,
     "fiftyTwoWeekRange": "1566.6666 - 3275.0",
     "fiftyTwoWeekHighChange": -744.0,
     "fiftyTwoWeekHighChangePercent": -0.22717558,
     "fiftyTwoWeekChangePercent": 48.300777,
-    "regularMarketChangePercent": 0.396668,
-    "regularMarketPrice": 2531.0,
+    "earningsTimestampStart": 1754546400,
+    "earningsTimestampEnd": 1754978400,
+    "isEarningsDateEstimate": true,
     "trailingPegRatio": null
   }
 }

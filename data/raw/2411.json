@@ -1,7 +1,7 @@
 {
   "ticker": "2411",
   "japanese_ticker": "2411.T",
-  "fetch_date": "2026-09-22T01:31:15.482244",
+  "fetch_date": "2026-09-23T01:14:23.222550",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": 359459.459459,
@@ -1110,7 +1110,7 @@
     "trailingPE": 11.12426,
     "volume": 27100,
     "regularMarketVolume": 27100,
-    "averageVolume": 13615,
+    "averageVolume": 13653,
     "averageVolume10days": 13990,
     "averageDailyVolume10Day": 13990,
     "bid": 470.0,
@@ -1152,8 +1152,8 @@
     "lastSplitDate": 1364342400,
     "enterpriseToRevenue": 0.371,
     "enterpriseToEbitda": 4.117,
-    "52WeekChange": 0.09048724,
-    "SandP52WeekChange": 0.14293182,
+    "52WeekChange": 0.07798171,
+    "SandP52WeekChange": 0.16641033,
     "lastDividendValue": 13.0,
     "lastDividendDate": 1806364800,
     "quoteType": "EQUITY",
@@ -1185,8 +1185,6 @@
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
     "marketState": "CLOSED",
-    "shortName": "GENDAI AGENCY INC",
-    "longName": "Gendai Agency Inc.",
     "corporateActions": [
       {
         "header": "Dividend",
@@ -1208,16 +1206,21 @@
     "esgPopulated": false,
     "regularMarketChangePercent": 0.42735046,
     "regularMarketPrice": 470.0,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1095292800000,
     "regularMarketChange": 2.0,
     "regularMarketDayRange": "466.0 - 473.0",
     "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 13615,
+    "averageDailyVolume3Month": 13653,
     "fiftyTwoWeekLowChange": 66.0,
     "fiftyTwoWeekLowChangePercent": 0.16336633,
     "fiftyTwoWeekRange": "404.0 - 514.0",
     "fiftyTwoWeekHighChange": -44.0,
     "fiftyTwoWeekHighChangePercent": -0.08560311,
-    "fiftyTwoWeekChangePercent": 9.048724,
+    "fiftyTwoWeekChangePercent": 7.798171,
+    "shortName": "GENDAI AGENCY INC",
+    "longName": "Gendai Agency Inc.",
+    "cryptoTradeable": false,
     "earningsTimestampStart": 1744957800,
     "earningsTimestampEnd": 1744957800,
     "isEarningsDateEstimate": false,
@@ -1228,9 +1231,6 @@
     "twoHundredDayAverageChangePercent": 0.0048747086,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1095292800000,
     "trailingPegRatio": null
   }
 }

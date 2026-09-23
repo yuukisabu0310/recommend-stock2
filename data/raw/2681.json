@@ -1,20 +1,20 @@
 {
   "ticker": "2681",
   "japanese_ticker": "2681.T",
-  "fetch_date": "2026-09-22T01:33:39.149641",
+  "fetch_date": "2026-09-23T01:16:46.086896",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": -843880000.0,
-      "2025-03-31 00:00:00": -768152000.0,
+      "2025-03-31 00:00:00": -984691400.0,
       "2024-03-31 00:00:00": -529581000.0,
-      "2023-03-31 00:00:00": -290000000.0,
+      "2023-03-31 00:00:00": -371750000.0,
       "2022-03-31 00:00:00": null
     },
     "Tax Rate For Calcs": {
       "2026-03-31 00:00:00": 0.289,
-      "2025-03-31 00:00:00": 0.232,
+      "2025-03-31 00:00:00": 0.2974,
       "2024-03-31 00:00:00": 0.367,
-      "2023-03-31 00:00:00": 0.232,
+      "2023-03-31 00:00:00": 0.2974,
       "2022-03-31 00:00:00": null
     },
     "Normalized EBITDA": {
@@ -96,9 +96,9 @@
     },
     "Normalized Income": {
       "2026-03-31 00:00:00": 10814120000.0,
-      "2025-03-31 00:00:00": 7079848000.0,
+      "2025-03-31 00:00:00": 6863308600.0,
       "2024-03-31 00:00:00": 11815419000.0,
-      "2023-03-31 00:00:00": 6641000000.0,
+      "2023-03-31 00:00:00": 6559250000.0,
       "2022-03-31 00:00:00": null
     },
     "Net Income From Continuing And Discontinued Operation": {
@@ -124,28 +124,28 @@
     },
     "Diluted Average Shares": {
       "2026-03-31 00:00:00": 39834063.0,
-      "2025-03-31 00:00:00": 39718011.0,
-      "2024-03-31 00:00:00": 39874922.0,
+      "2025-03-31 00:00:00": 39864687.0,
+      "2024-03-31 00:00:00": 39871265.0,
       "2023-03-31 00:00:00": 41972663.0,
       "2022-03-31 00:00:00": null
     },
     "Basic Average Shares": {
       "2026-03-31 00:00:00": 39759749.0,
-      "2025-03-31 00:00:00": 39718011.0,
-      "2024-03-31 00:00:00": 39602630.0,
+      "2025-03-31 00:00:00": 39709801.0,
+      "2024-03-31 00:00:00": 39601555.0,
       "2023-03-31 00:00:00": 41794267.0,
       "2022-03-31 00:00:00": null
     },
     "Diluted EPS": {
       "2026-03-31 00:00:00": 219.36,
-      "2025-03-31 00:00:00": 114.230292,
+      "2025-03-31 00:00:00": 113.81,
       "2024-03-31 00:00:00": 273.43,
       "2023-03-31 00:00:00": 135.35,
       "2022-03-31 00:00:00": null
     },
     "Basic EPS": {
       "2026-03-31 00:00:00": 219.77,
-      "2025-03-31 00:00:00": 114.230292,
+      "2025-03-31 00:00:00": 114.27,
       "2024-03-31 00:00:00": 275.31,
       "2023-03-31 00:00:00": 135.93,
       "2022-03-31 00:00:00": null
@@ -1143,7 +1143,7 @@
     "forwardPE": 8.765341,
     "volume": 118900,
     "regularMarketVolume": 118900,
-    "averageVolume": 171996,
+    "averageVolume": 172864,
     "averageVolume10days": 167340,
     "averageDailyVolume10Day": 167340,
     "bid": 2355.0,
@@ -1186,8 +1186,8 @@
     "lastSplitDate": 1380153600,
     "enterpriseToRevenue": 0.309,
     "enterpriseToEbitda": 5.865,
-    "52WeekChange": 0.3955003,
-    "SandP52WeekChange": 0.14293182,
+    "52WeekChange": 0.38159442,
+    "SandP52WeekChange": 0.16641033,
     "lastDividendValue": 17.0,
     "lastDividendDate": 1806364800,
     "quoteType": "EQUITY",
@@ -1219,6 +1219,8 @@
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
     "marketState": "CLOSED",
+    "shortName": "GEO HOLDINGS CORP",
+    "longName": "Geo Holdings Corporation",
     "corporateActions": [
       {
         "header": "Dividend",
@@ -1231,18 +1233,13 @@
       }
     ],
     "regularMarketTime": 1789713000,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1073952000000,
-    "regularMarketChange": 1.0,
-    "regularMarketDayRange": "2316.0 - 2376.0",
-    "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 171996,
+    "averageDailyVolume3Month": 172864,
     "fiftyTwoWeekLowChange": 764.0,
     "fiftyTwoWeekLowChangePercent": 0.47959825,
     "fiftyTwoWeekRange": "1593.0 - 2484.0",
     "fiftyTwoWeekHighChange": -127.0,
     "fiftyTwoWeekHighChangePercent": -0.051127214,
-    "fiftyTwoWeekChangePercent": 39.55003,
+    "fiftyTwoWeekChangePercent": 38.159443,
     "earningsTimestampStart": 1754287200,
     "earningsTimestampEnd": 1754632800,
     "isEarningsDateEstimate": true,
@@ -1255,6 +1252,11 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
+    "regularMarketChange": 1.0,
+    "regularMarketDayRange": "2316.0 - 2376.0",
+    "fullExchangeName": "Tokyo",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1073952000000,
     "exchange": "JPX",
     "messageBoardId": "finmb_20343547",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1264,8 +1266,6 @@
     "esgPopulated": false,
     "regularMarketChangePercent": 0.04244482,
     "regularMarketPrice": 2357.0,
-    "shortName": "GEO HOLDINGS CORP",
-    "longName": "Geo Holdings Corporation",
     "trailingPegRatio": null
   }
 }

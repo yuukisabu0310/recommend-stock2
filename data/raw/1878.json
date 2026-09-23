@@ -1,7 +1,7 @@
 {
   "ticker": "1878",
   "japanese_ticker": "1878.T",
-  "fetch_date": "2026-09-22T01:25:21.914291",
+  "fetch_date": "2026-09-23T01:08:21.143310",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": -178980000.0,
@@ -1253,7 +1253,7 @@
     "forwardPE": 2.402747,
     "volume": 2113800,
     "regularMarketVolume": 2113800,
-    "averageVolume": 1581523,
+    "averageVolume": 1576511,
     "averageVolume10days": 1277080,
     "averageDailyVolume10Day": 1277080,
     "bid": 3350.0,
@@ -1281,7 +1281,7 @@
     "floatShares": 291983120,
     "sharesOutstanding": 325732280,
     "heldPercentInsiders": 0.10481,
-    "heldPercentInstitutions": 0.52334,
+    "heldPercentInstitutions": 0.52326,
     "impliedSharesOutstanding": 325732280,
     "bookValue": 1516.948,
     "priceToBook": 2.2097,
@@ -1298,7 +1298,7 @@
     "enterpriseToRevenue": 0.576,
     "enterpriseToEbitda": 7.044,
     "52WeekChange": 0.019464731,
-    "SandP52WeekChange": 0.14293182,
+    "SandP52WeekChange": 0.16641033,
     "lastDividendValue": 82.0,
     "lastDividendDate": 1806364800,
     "quoteType": "EQUITY",
@@ -1336,12 +1336,36 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "exchange": "JPX",
+    "messageBoardId": "finmb_880828",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
     "regularMarketChangePercent": -1.1792454,
     "regularMarketPrice": 3352.0,
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "1878.T announced a cash dividend of JPY 81.00 with an ex-date of Sep. 29, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1790607600000,
+          "amount": "81.00"
+        }
+      }
+    ],
+    "regularMarketTime": 1789713000,
+    "marketState": "CLOSED",
     "shortName": "DAITO TRUST CONSTRUCTION CO",
     "longName": "Daito Trust Construction Co.,Ltd.",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 978307200000,
+    "regularMarketChange": -40.0,
+    "regularMarketDayRange": "3352.0 - 3391.0",
     "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 1581523,
+    "averageDailyVolume3Month": 1576511,
     "fiftyTwoWeekLowChange": 507.5,
     "fiftyTwoWeekLowChangePercent": 0.17841448,
     "fiftyTwoWeekRange": "2844.5 - 3848.0",
@@ -1363,30 +1387,6 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 978307200000,
-    "regularMarketChange": -40.0,
-    "regularMarketDayRange": "3352.0 - 3391.0",
-    "marketState": "CLOSED",
-    "exchange": "JPX",
-    "messageBoardId": "finmb_880828",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
-    "corporateActions": [
-      {
-        "header": "Dividend",
-        "message": "1878.T announced a cash dividend of JPY 81.00 with an ex-date of Sep. 29, 2026",
-        "meta": {
-          "eventType": "DIVIDEND",
-          "dateEpochMs": 1790607600000,
-          "amount": "81.00"
-        }
-      }
-    ],
-    "regularMarketTime": 1789713000,
     "trailingPegRatio": null
   }
 }

@@ -1,7 +1,7 @@
 {
   "ticker": "2001",
   "japanese_ticker": "2001.T",
-  "fetch_date": "2026-09-22T01:27:05.432574",
+  "fetch_date": "2026-09-23T01:10:03.698366",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": 1968849307.723846,
@@ -1166,7 +1166,7 @@
     "forwardPE": 12.90169,
     "volume": 233700,
     "regularMarketVolume": 233700,
-    "averageVolume": 211739,
+    "averageVolume": 211525,
     "averageVolume10days": 150850,
     "averageDailyVolume10Day": 150850,
     "bid": 2967.0,
@@ -1209,8 +1209,8 @@
     "lastSplitDate": 1475020800,
     "enterpriseToRevenue": 0.641,
     "enterpriseToEbitda": 8.372,
-    "52WeekChange": 0.25855517,
-    "SandP52WeekChange": 0.14293182,
+    "52WeekChange": 0.25696206,
+    "SandP52WeekChange": 0.16641033,
     "lastDividendValue": 34.0,
     "lastDividendDate": 1806364800,
     "quoteType": "EQUITY",
@@ -1241,6 +1241,25 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "shortName": "NIPPN CORPORATION",
+    "longName": "Nippn Corporation",
+    "regularMarketChangePercent": -1.357616,
+    "regularMarketPrice": 2979.0,
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "2001.T announced a cash dividend of JPY 34.00 with an ex-date of Sep. 29, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1790607600000,
+          "amount": "34.00"
+        }
+      }
+    ],
+    "regularMarketTime": 1789713000,
+    "marketState": "CLOSED",
+    "fiftyTwoWeekHighChangePercent": -0.02487725,
+    "fiftyTwoWeekChangePercent": 25.696205,
     "earningsTimestamp": 1793946600,
     "earningsTimestampStart": 1793946600,
     "earningsTimestampEnd": 1793946600,
@@ -1254,32 +1273,18 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "prevName": "Nippon Flour Mills Co., Ltd.",
-    "nameChangeDate": "2026-09-21",
+    "nameChangeDate": "2026-09-22",
     "cryptoTradeable": false,
-    "corporateActions": [
-      {
-        "header": "Dividend",
-        "message": "2001.T announced a cash dividend of JPY 34.00 with an ex-date of Sep. 29, 2026",
-        "meta": {
-          "eventType": "DIVIDEND",
-          "dateEpochMs": 1790607600000,
-          "amount": "34.00"
-        }
-      }
-    ],
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 978307200000,
     "regularMarketChange": -41.0,
     "regularMarketDayRange": "2963.0 - 3020.0",
     "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 211739,
+    "averageDailyVolume3Month": 211525,
     "fiftyTwoWeekLowChange": 802.0,
     "fiftyTwoWeekLowChangePercent": 0.36839688,
     "fiftyTwoWeekRange": "2177.0 - 3055.0",
     "fiftyTwoWeekHighChange": -76.0,
-    "fiftyTwoWeekHighChangePercent": -0.02487725,
-    "fiftyTwoWeekChangePercent": 25.855518,
-    "regularMarketTime": 1789713000,
     "exchange": "JPX",
     "messageBoardId": "finmb_875692",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1287,11 +1292,6 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "regularMarketChangePercent": -1.357616,
-    "marketState": "CLOSED",
-    "shortName": "NIPPN CORPORATION",
-    "longName": "Nippn Corporation",
-    "regularMarketPrice": 2979.0,
     "trailingPegRatio": null
   }
 }

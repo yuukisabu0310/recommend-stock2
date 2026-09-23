@@ -1,7 +1,7 @@
 {
   "ticker": "1979",
   "japanese_ticker": "1979.T",
-  "fetch_date": "2026-09-22T01:26:52.262491",
+  "fetch_date": "2026-09-23T01:09:51.113556",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": 217445395.305017,
@@ -1250,7 +1250,7 @@
     "forwardPE": 10.074147,
     "volume": 306900,
     "regularMarketVolume": 306900,
-    "averageVolume": 266415,
+    "averageVolume": 267861,
     "averageVolume10days": 183040,
     "averageDailyVolume10Day": 183040,
     "bid": 3840.0,
@@ -1294,8 +1294,8 @@
     "lastSplitDate": 1743120000,
     "enterpriseToRevenue": 0.622,
     "enterpriseToEbitda": 7.013,
-    "52WeekChange": 0.33599722,
-    "SandP52WeekChange": 0.14293182,
+    "52WeekChange": 0.33368015,
+    "SandP52WeekChange": 0.16641033,
     "lastDividendValue": 69.0,
     "lastDividendDate": 1806364800,
     "quoteType": "EQUITY",
@@ -1332,6 +1332,7 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "marketState": "CLOSED",
     "corporateActions": [
       {
         "header": "Dividend",
@@ -1353,21 +1354,21 @@
     "esgPopulated": false,
     "regularMarketChangePercent": -0.64599484,
     "regularMarketPrice": 3845.0,
-    "cryptoTradeable": false,
-    "marketState": "CLOSED",
+    "longName": "Taikisha Ltd.",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 978307200000,
+    "cryptoTradeable": false,
+    "shortName": "TAIKISHA LTD",
     "regularMarketChange": -25.0,
     "regularMarketDayRange": "3830.0 - 3900.0",
     "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 266415,
+    "averageDailyVolume3Month": 267861,
     "fiftyTwoWeekLowChange": 1092.0,
     "fiftyTwoWeekLowChangePercent": 0.39665818,
     "fiftyTwoWeekRange": "2753.0 - 5080.0",
     "fiftyTwoWeekHighChange": -1235.0,
     "fiftyTwoWeekHighChangePercent": -0.24311024,
-    "fiftyTwoWeekChangePercent": 33.599724,
-    "longName": "Taikisha Ltd.",
+    "fiftyTwoWeekChangePercent": 33.368015,
     "earningsTimestamp": 1794292200,
     "earningsTimestampStart": 1794292200,
     "earningsTimestampEnd": 1794292200,
@@ -1381,7 +1382,6 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "averageAnalystRating": "2.3 - Buy",
-    "shortName": "TAIKISHA LTD",
     "trailingPegRatio": null
   }
 }

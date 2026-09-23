@@ -1,7 +1,7 @@
 {
   "ticker": "2602",
   "japanese_ticker": "2602.T",
-  "fetch_date": "2026-09-22T01:33:02.762245",
+  "fetch_date": "2026-09-23T01:16:09.269562",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": 5773264000.0,
@@ -1168,7 +1168,7 @@
     "forwardPE": 4.005627,
     "volume": 845100,
     "regularMarketVolume": 845100,
-    "averageVolume": 259052,
+    "averageVolume": 260832,
     "averageVolume10days": 320050,
     "averageDailyVolume10Day": 320050,
     "bid": 2105.0,
@@ -1210,7 +1210,7 @@
     "enterpriseToRevenue": 0.532,
     "enterpriseToEbitda": 9.694,
     "52WeekChange": 0.1994307,
-    "SandP52WeekChange": 0.14293182,
+    "SandP52WeekChange": 0.16641033,
     "lastDividendValue": 30.0,
     "lastDividendDate": 1806364800,
     "quoteType": "EQUITY",
@@ -1248,28 +1248,6 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "corporateActions": [
-      {
-        "header": "Dividend",
-        "message": "2602.T announced a cash dividend of JPY 30.00 with an ex-date of Sep. 29, 2026",
-        "meta": {
-          "eventType": "DIVIDEND",
-          "dateEpochMs": 1790607600000,
-          "amount": "30.00"
-        }
-      }
-    ],
-    "regularMarketTime": 1789713000,
-    "exchange": "JPX",
-    "messageBoardId": "finmb_877077",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
-    "marketState": "CLOSED",
-    "fiftyTwoWeekChangePercent": 19.94307,
-    "earningsTimestamp": 1794205800,
     "earningsTimestampStart": 1794205800,
     "earningsTimestampEnd": 1794205800,
     "isEarningsDateEstimate": false,
@@ -1283,21 +1261,43 @@
     "exchangeDataDelayedBy": 20,
     "averageAnalystRating": "3.0 - Hold",
     "cryptoTradeable": false,
-    "regularMarketChangePercent": -0.660066,
-    "regularMarketPrice": 2107.0,
-    "shortName": "NISSHIN OILLIO GROUP LTD",
-    "longName": "The Nisshin OilliO Group,Ltd.",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 978307200000,
     "regularMarketChange": -14.0,
     "regularMarketDayRange": "2094.0 - 2132.0",
     "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 259052,
+    "averageDailyVolume3Month": 260832,
     "fiftyTwoWeekLowChange": 470.33337,
     "fiftyTwoWeekLowChangePercent": 0.28737274,
     "fiftyTwoWeekRange": "1636.6666 - 2133.0",
     "fiftyTwoWeekHighChange": -26.0,
     "fiftyTwoWeekHighChangePercent": -0.012189405,
+    "fiftyTwoWeekChangePercent": 19.94307,
+    "earningsTimestamp": 1794205800,
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "2602.T announced a cash dividend of JPY 30.00 with an ex-date of Sep. 29, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1790607600000,
+          "amount": "30.00"
+        }
+      }
+    ],
+    "regularMarketTime": 1789713000,
+    "marketState": "CLOSED",
+    "exchange": "JPX",
+    "messageBoardId": "finmb_877077",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "shortName": "NISSHIN OILLIO GROUP LTD",
+    "longName": "The Nisshin OilliO Group,Ltd.",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
+    "regularMarketChangePercent": -0.660066,
+    "regularMarketPrice": 2107.0,
     "trailingPegRatio": null
   }
 }
