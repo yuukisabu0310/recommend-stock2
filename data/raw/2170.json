@@ -1,7 +1,7 @@
 {
   "ticker": "2170",
   "japanese_ticker": "2170.T",
-  "fetch_date": "2026-09-26T01:10:47.909379",
+  "fetch_date": "2026-09-27T01:08:14.257216",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-12-31 00:00:00": 0.0,
@@ -1129,7 +1129,7 @@
     "forwardPE": 17.928286,
     "volume": 226800,
     "regularMarketVolume": 226800,
-    "averageVolume": 558098,
+    "averageVolume": 538110,
     "averageVolume10days": 258485,
     "averageDailyVolume10Day": 258485,
     "bid": 674.0,
@@ -1170,8 +1170,8 @@
     "lastSplitDate": 1395878400,
     "enterpriseToRevenue": 1.957,
     "enterpriseToEbitda": 11.133,
-    "52WeekChange": 0.2683823,
-    "SandP52WeekChange": 0.15961432,
+    "52WeekChange": 0.29699254,
+    "SandP52WeekChange": 0.15656614,
     "lastDividendValue": 4.1,
     "lastDividendDate": 1798502400,
     "quoteType": "EQUITY",
@@ -1211,20 +1211,33 @@
     "customPriceAlertConfidence": "LOW",
     "shortName": "LINK AND MOTIVATION INC",
     "longName": "Link and Motivation Inc.",
-    "market": "jp_market",
-    "esgPopulated": false,
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "2170.T announced a cash dividend of JPY 4.10 with an ex-date of Sep. 29, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1790607600000,
+          "amount": "4.10"
+        }
+      }
+    ],
+    "regularMarketTime": 1790317800,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1197849600000,
     "regularMarketChange": -15.0,
     "regularMarketChangePercent": -2.173913,
+    "marketState": "CLOSED",
     "regularMarketPrice": 675.0,
     "regularMarketDayRange": "670.0 - 697.0",
     "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 558098,
+    "averageDailyVolume3Month": 538110,
     "fiftyTwoWeekLowChange": 199.0,
     "fiftyTwoWeekLowChangePercent": 0.41806722,
     "fiftyTwoWeekRange": "476.0 - 749.0",
     "fiftyTwoWeekHighChange": -74.0,
     "fiftyTwoWeekHighChangePercent": -0.098798394,
-    "fiftyTwoWeekChangePercent": 26.83823,
+    "fiftyTwoWeekChangePercent": 29.699253,
     "earningsTimestampStart": 1754548200,
     "earningsTimestampEnd": 1754893800,
     "earningsCallTimestampStart": 1747220340,
@@ -1239,26 +1252,13 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
-    "marketState": "CLOSED",
-    "corporateActions": [
-      {
-        "header": "Dividend",
-        "message": "2170.T announced a cash dividend of JPY 4.10 with an ex-date of Sep. 29, 2026",
-        "meta": {
-          "eventType": "DIVIDEND",
-          "dateEpochMs": 1790607600000,
-          "amount": "4.10"
-        }
-      }
-    ],
-    "regularMarketTime": 1790317800,
     "exchange": "JPX",
     "messageBoardId": "finmb_38981574",
     "exchangeTimezoneName": "Asia/Tokyo",
     "exchangeTimezoneShortName": "JST",
     "gmtOffSetMilliseconds": 32400000,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1197849600000,
+    "market": "jp_market",
+    "esgPopulated": false,
     "trailingPegRatio": null
   }
 }

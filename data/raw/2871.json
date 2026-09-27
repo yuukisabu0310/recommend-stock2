@@ -1,7 +1,7 @@
 {
   "ticker": "2871",
   "japanese_ticker": "2871.T",
-  "fetch_date": "2026-09-26T01:18:10.555866",
+  "fetch_date": "2026-09-27T01:15:50.796181",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": 419429493.509309,
@@ -1166,7 +1166,7 @@
     "forwardPE": 9.419429,
     "volume": 999600,
     "regularMarketVolume": 999600,
-    "averageVolume": 1603155,
+    "averageVolume": 1609549,
     "averageVolume10days": 1285428,
     "averageDailyVolume10Day": 1285428,
     "bid": 2212.0,
@@ -1210,8 +1210,8 @@
     "lastSplitDate": 1743120000,
     "enterpriseToRevenue": 0.865,
     "enterpriseToEbitda": 11.15,
-    "52WeekChange": 0.2512777,
-    "SandP52WeekChange": 0.15961432,
+    "52WeekChange": 0.26022303,
+    "SandP52WeekChange": 0.15656614,
     "lastDividendValue": 25.0,
     "lastDividendDate": 1798588800,
     "quoteType": "EQUITY",
@@ -1220,7 +1220,8 @@
     "targetLowPrice": 2100.0,
     "targetMeanPrice": 2308.3333,
     "targetMedianPrice": 2325.0,
-    "recommendationKey": "none",
+    "recommendationMean": 2.16667,
+    "recommendationKey": "buy",
     "numberOfAnalystOpinions": 6,
     "totalCash": 59989999616,
     "totalCashPerShare": 239.369,
@@ -1247,29 +1248,42 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 946944000000,
-    "regularMarketChange": 16.0,
-    "regularMarketChangePercent": 0.7261175,
-    "regularMarketPrice": 2219.5,
-    "regularMarketDayRange": "2200.0 - 2230.0",
-    "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 1603155,
-    "fiftyTwoWeekLowChange": 511.5,
-    "fiftyTwoWeekLowChangePercent": 0.29947308,
-    "fiftyTwoWeekRange": "1708.0 - 2369.0",
-    "fiftyTwoWeekHighChange": -149.5,
-    "fiftyTwoWeekHighChangePercent": -0.0631068,
-    "fiftyTwoWeekChangePercent": 25.12777,
-    "shortName": "NICHIREI CORP",
-    "longName": "Nichirei Corporation",
-    "exchange": "JPX",
+    "marketState": "CLOSED",
     "messageBoardId": "finmb_876656",
     "exchangeTimezoneName": "Asia/Tokyo",
     "exchangeTimezoneShortName": "JST",
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
+    "shortName": "NICHIREI CORP",
+    "longName": "Nichirei Corporation",
+    "regularMarketChange": 16.0,
+    "regularMarketChangePercent": 0.7261175,
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "2871.T announced a cash dividend of JPY 25.00 with an ex-date of Sep. 29, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1790607600000,
+          "amount": "25.00"
+        }
+      }
+    ],
+    "regularMarketTime": 1790317800,
+    "exchange": "JPX",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 946944000000,
+    "regularMarketPrice": 2219.5,
+    "regularMarketDayRange": "2200.0 - 2230.0",
+    "fullExchangeName": "Tokyo",
+    "averageDailyVolume3Month": 1609549,
+    "fiftyTwoWeekLowChange": 511.5,
+    "fiftyTwoWeekLowChangePercent": 0.29947308,
+    "fiftyTwoWeekRange": "1708.0 - 2369.0",
+    "fiftyTwoWeekHighChange": -149.5,
+    "fiftyTwoWeekHighChangePercent": -0.0631068,
+    "fiftyTwoWeekChangePercent": 26.022303,
     "earningsTimestamp": 1794292200,
     "earningsTimestampStart": 1794292200,
     "earningsTimestampEnd": 1794292200,
@@ -1285,21 +1299,9 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "prevName": "Orbcity",
-    "nameChangeDate": "2026-09-25",
+    "nameChangeDate": "2026-09-26",
+    "averageAnalystRating": "2.2 - Buy",
     "cryptoTradeable": false,
-    "corporateActions": [
-      {
-        "header": "Dividend",
-        "message": "2871.T announced a cash dividend of JPY 25.00 with an ex-date of Sep. 29, 2026",
-        "meta": {
-          "eventType": "DIVIDEND",
-          "dateEpochMs": 1790607600000,
-          "amount": "25.00"
-        }
-      }
-    ],
-    "regularMarketTime": 1790317800,
-    "marketState": "CLOSED",
     "trailingPegRatio": null
   }
 }

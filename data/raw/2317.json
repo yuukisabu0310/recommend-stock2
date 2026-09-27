@@ -1,7 +1,7 @@
 {
   "ticker": "2317",
   "japanese_ticker": "2317.T",
-  "fetch_date": "2026-09-26T01:12:27.059025",
+  "fetch_date": "2026-09-27T01:09:56.227054",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": 167230940.456316,
@@ -1215,7 +1215,7 @@
     "forwardPE": 17.301586,
     "volume": 682900,
     "regularMarketVolume": 682900,
-    "averageVolume": 1081548,
+    "averageVolume": 1084764,
     "averageVolume10days": 804528,
     "averageDailyVolume10Day": 804528,
     "bid": 436.0,
@@ -1258,8 +1258,8 @@
     "lastSplitDate": 1638144000,
     "enterpriseToRevenue": 1.352,
     "enterpriseToEbitda": 8.02,
-    "52WeekChange": -0.17547172,
-    "SandP52WeekChange": 0.15961432,
+    "52WeekChange": -0.15799612,
+    "SandP52WeekChange": 0.15656614,
     "lastDividendValue": 9.0,
     "lastDividendDate": 1806364800,
     "quoteType": "EQUITY",
@@ -1298,6 +1298,7 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "marketState": "CLOSED",
     "corporateActions": [
       {
         "header": "Dividend",
@@ -1309,8 +1310,9 @@
         }
       }
     ],
-    "shortName": "SYSTENA CORPORATION",
-    "longName": "Systena Corporation",
+    "regularMarketTime": 1790317800,
+    "exchange": "JPX",
+    "messageBoardId": "finmb_9429314",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1100476800000,
     "regularMarketChange": -1.0,
@@ -1318,13 +1320,13 @@
     "regularMarketPrice": 436.0,
     "regularMarketDayRange": "435.0 - 441.0",
     "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 1081548,
+    "averageDailyVolume3Month": 1084764,
     "fiftyTwoWeekLowChange": 51.0,
     "fiftyTwoWeekLowChangePercent": 0.13246754,
     "fiftyTwoWeekRange": "385.0 - 555.0",
     "fiftyTwoWeekHighChange": -119.0,
     "fiftyTwoWeekHighChangePercent": -0.21441442,
-    "fiftyTwoWeekChangePercent": -17.547173,
+    "fiftyTwoWeekChangePercent": -15.799612,
     "earningsTimestamp": 1793255400,
     "earningsTimestampStart": 1793255400,
     "earningsTimestampEnd": 1793255400,
@@ -1339,15 +1341,13 @@
     "exchangeDataDelayedBy": 20,
     "averageAnalystRating": "2.0 - Buy",
     "cryptoTradeable": false,
-    "regularMarketTime": 1790317800,
-    "exchange": "JPX",
-    "messageBoardId": "finmb_9429314",
     "exchangeTimezoneName": "Asia/Tokyo",
     "exchangeTimezoneShortName": "JST",
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "marketState": "CLOSED",
+    "shortName": "SYSTENA CORPORATION",
+    "longName": "Systena Corporation",
     "trailingPegRatio": null
   }
 }

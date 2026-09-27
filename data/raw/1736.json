@@ -1,7 +1,7 @@
 {
   "ticker": "1736",
   "japanese_ticker": "1736.T",
-  "fetch_date": "2026-09-26T01:06:26.011240",
+  "fetch_date": "2026-09-27T01:03:37.404889",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": -11325076.051715,
@@ -1106,7 +1106,7 @@
     "trailingPE": 10.722372,
     "volume": 4900,
     "regularMarketVolume": 4900,
-    "averageVolume": 6785,
+    "averageVolume": 6864,
     "averageVolume10days": 4014,
     "averageDailyVolume10Day": 4014,
     "bid": 2477.0,
@@ -1148,8 +1148,8 @@
     "lastSplitDate": 1743120000,
     "enterpriseToRevenue": 0.859,
     "enterpriseToEbitda": 5.288,
-    "52WeekChange": 0.38790238,
-    "SandP52WeekChange": 0.15961432,
+    "52WeekChange": 0.3374331,
+    "SandP52WeekChange": 0.15656614,
     "lastDividendValue": 49.0,
     "lastDividendDate": 1806364800,
     "quoteType": "EQUITY",
@@ -1180,15 +1180,9 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "exchange": "JPX",
-    "messageBoardId": "finmb_5645775",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
     "shortName": "OTEC CORP",
     "longName": "Otec Corporation",
+    "cryptoTradeable": false,
     "corporateActions": [
       {
         "header": "Dividend",
@@ -1201,6 +1195,13 @@
       }
     ],
     "regularMarketTime": 1790317800,
+    "exchange": "JPX",
+    "messageBoardId": "finmb_5645775",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
     "marketState": "CLOSED",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 956707200000,
@@ -1209,13 +1210,13 @@
     "regularMarketPrice": 2510.0,
     "regularMarketDayRange": "2476.0 - 2527.0",
     "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 6785,
+    "averageDailyVolume3Month": 6864,
     "fiftyTwoWeekLowChange": 910.0,
     "fiftyTwoWeekLowChangePercent": 0.56875,
     "fiftyTwoWeekRange": "1600.0 - 2792.0",
     "fiftyTwoWeekHighChange": -282.0,
     "fiftyTwoWeekHighChangePercent": -0.101002865,
-    "fiftyTwoWeekChangePercent": 38.790237,
+    "fiftyTwoWeekChangePercent": 33.74331,
     "earningsTimestampStart": 1747031400,
     "earningsTimestampEnd": 1747031400,
     "isEarningsDateEstimate": false,
@@ -1226,7 +1227,6 @@
     "twoHundredDayAverageChangePercent": 0.03355555,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
     "trailingPegRatio": null
   }
 }

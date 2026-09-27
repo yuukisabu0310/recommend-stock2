@@ -1,7 +1,7 @@
 {
   "ticker": "2805",
   "japanese_ticker": "2805.T",
-  "fetch_date": "2026-09-26T01:17:46.169156",
+  "fetch_date": "2026-09-27T01:15:25.507031",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": 211165000.0,
@@ -1216,7 +1216,7 @@
     "forwardPE": 13.204904,
     "volume": 49500,
     "regularMarketVolume": 49500,
-    "averageVolume": 69410,
+    "averageVolume": 70150,
     "averageVolume10days": 96042,
     "averageDailyVolume10Day": 96042,
     "bid": 7530.0,
@@ -1259,8 +1259,8 @@
     "lastSplitDate": 1743120000,
     "enterpriseToRevenue": 1.353,
     "enterpriseToEbitda": 11.498,
-    "52WeekChange": 1.1810346,
-    "SandP52WeekChange": 0.15961432,
+    "52WeekChange": 1.203193,
+    "SandP52WeekChange": 0.15656614,
     "lastDividendValue": 30.0,
     "lastDividendDate": 1806364800,
     "quoteType": "EQUITY",
@@ -1291,40 +1291,14 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "corporateActions": [
-      {
-        "header": "Dividend",
-        "message": "2805.T announced a cash dividend of JPY 30.00 with an ex-date of Sep. 29, 2026",
-        "meta": {
-          "eventType": "DIVIDEND",
-          "dateEpochMs": 1790607600000,
-          "amount": "30.00"
-        }
-      }
-    ],
-    "regularMarketTime": 1790317800,
     "exchange": "JPX",
-    "messageBoardId": "finmb_883479",
     "exchangeTimezoneName": "Asia/Tokyo",
     "exchangeTimezoneShortName": "JST",
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "marketState": "CLOSED",
-    "averageDailyVolume3Month": 69410,
-    "fiftyTwoWeekLowChange": 4385.0,
-    "fiftyTwoWeekLowChangePercent": 1.3898574,
-    "fiftyTwoWeekRange": "3155.0 - 7990.0",
-    "fiftyTwoWeekHighChange": -450.0,
-    "fiftyTwoWeekHighChangePercent": -0.0563204,
-    "fiftyTwoWeekChangePercent": 118.103455,
-    "earningsTimestampStart": 1753768800,
-    "earningsTimestampEnd": 1754287200,
-    "isEarningsDateEstimate": true,
-    "epsTrailingTwelveMonths": 347.59,
     "shortName": "S & B FOODS INC",
-    "longName": "S&B Foods Inc.",
-    "epsForward": 571.0,
+    "marketState": "CLOSED",
     "fiftyDayAverageChange": 629.7998,
     "fiftyDayAverageChangePercent": 0.091140606,
     "twoHundredDayAverageChange": 2296.0752,
@@ -1339,6 +1313,32 @@
     "regularMarketPrice": 7540.0,
     "regularMarketDayRange": "7540.0 - 7770.0",
     "fullExchangeName": "Tokyo",
+    "averageDailyVolume3Month": 70150,
+    "fiftyTwoWeekLowChange": 4385.0,
+    "fiftyTwoWeekLowChangePercent": 1.3898574,
+    "fiftyTwoWeekRange": "3155.0 - 7990.0",
+    "fiftyTwoWeekHighChange": -450.0,
+    "fiftyTwoWeekHighChangePercent": -0.0563204,
+    "fiftyTwoWeekChangePercent": 120.3193,
+    "earningsTimestampStart": 1753768800,
+    "earningsTimestampEnd": 1754287200,
+    "isEarningsDateEstimate": true,
+    "epsTrailingTwelveMonths": 347.59,
+    "epsForward": 571.0,
+    "longName": "S&B Foods Inc.",
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "2805.T announced a cash dividend of JPY 30.00 with an ex-date of Sep. 29, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1790607600000,
+          "amount": "30.00"
+        }
+      }
+    ],
+    "regularMarketTime": 1790317800,
+    "messageBoardId": "finmb_883479",
     "trailingPegRatio": null
   }
 }

@@ -1,7 +1,7 @@
 {
   "ticker": "2602",
   "japanese_ticker": "2602.T",
-  "fetch_date": "2026-09-26T01:15:28.561133",
+  "fetch_date": "2026-09-27T01:13:01.899983",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": 5773264000.0,
@@ -1168,7 +1168,7 @@
     "forwardPE": 3.9714074,
     "volume": 186000,
     "regularMarketVolume": 186000,
-    "averageVolume": 261393,
+    "averageVolume": 262100,
     "averageVolume10days": 341671,
     "averageDailyVolume10Day": 341671,
     "bid": 2085.0,
@@ -1209,8 +1209,8 @@
     "lastSplitDate": 1774828800,
     "enterpriseToRevenue": 0.529,
     "enterpriseToEbitda": 9.642,
-    "52WeekChange": 0.16454029,
-    "SandP52WeekChange": 0.15961432,
+    "52WeekChange": 0.19365382,
+    "SandP52WeekChange": 0.15656614,
     "lastDividendValue": 30.0,
     "lastDividendDate": 1806364800,
     "quoteType": "EQUITY",
@@ -1248,18 +1248,21 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "marketState": "CLOSED",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 978307200000,
     "regularMarketChange": 20.0,
     "regularMarketChangePercent": 0.96665055,
     "regularMarketPrice": 2089.0,
     "regularMarketDayRange": "2071.0 - 2097.0",
     "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 261393,
+    "averageDailyVolume3Month": 262100,
     "fiftyTwoWeekLowChange": 452.33337,
     "fiftyTwoWeekLowChangePercent": 0.2763748,
     "fiftyTwoWeekRange": "1636.6666 - 2133.0",
     "fiftyTwoWeekHighChange": -44.0,
     "fiftyTwoWeekHighChangePercent": -0.020628223,
-    "fiftyTwoWeekChangePercent": 16.45403,
+    "fiftyTwoWeekChangePercent": 19.365383,
     "earningsTimestamp": 1794205800,
     "earningsTimestampStart": 1794205800,
     "earningsTimestampEnd": 1794205800,
@@ -1274,11 +1277,6 @@
     "exchangeDataDelayedBy": 20,
     "averageAnalystRating": "3.0 - Hold",
     "cryptoTradeable": false,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 978307200000,
-    "shortName": "NISSHIN OILLIO GROUP LTD",
-    "longName": "The Nisshin OilliO Group,Ltd.",
-    "marketState": "CLOSED",
     "corporateActions": [
       {
         "header": "Dividend",
@@ -1298,6 +1296,8 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
+    "shortName": "NISSHIN OILLIO GROUP LTD",
+    "longName": "The Nisshin OilliO Group,Ltd.",
     "trailingPegRatio": null
   }
 }

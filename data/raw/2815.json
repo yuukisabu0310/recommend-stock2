@@ -1,7 +1,7 @@
 {
   "ticker": "2815",
   "japanese_ticker": "2815.T",
-  "fetch_date": "2026-09-26T01:17:58.676052",
+  "fetch_date": "2026-09-27T01:15:39.602570",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": -36447236.341098,
@@ -1159,7 +1159,7 @@
     "forwardPE": 18.787575,
     "volume": 72300,
     "regularMarketVolume": 72300,
-    "averageVolume": 86633,
+    "averageVolume": 85708,
     "averageVolume10days": 100285,
     "averageDailyVolume10Day": 100285,
     "bid": 5250.0,
@@ -1169,7 +1169,7 @@
     "marketCap": 164530896896,
     "nonDilutedMarketCap": 164530894500,
     "fiftyTwoWeekLow": 4940.0,
-    "fiftyTwoWeekHigh": 6360.0,
+    "fiftyTwoWeekHigh": 6310.0,
     "allTimeHigh": 11500.0,
     "allTimeLow": 1200.0,
     "fulldayPrice": 5250.0,
@@ -1187,7 +1187,7 @@
     "floatShares": 20316477,
     "sharesOutstanding": 31339218,
     "heldPercentInsiders": 0.42075002,
-    "heldPercentInstitutions": 0.26173002,
+    "heldPercentInstitutions": 0.2607,
     "impliedSharesOutstanding": 31339218,
     "bookValue": 4138.783,
     "priceToBook": 1.2684888,
@@ -1202,8 +1202,8 @@
     "lastSplitDate": 1001376000,
     "enterpriseToRevenue": 1.734,
     "enterpriseToEbitda": 8.399,
-    "52WeekChange": -0.17061609,
-    "SandP52WeekChange": 0.15961432,
+    "52WeekChange": -0.1307947,
+    "SandP52WeekChange": 0.15656614,
     "lastDividendValue": 240.0,
     "lastDividendDate": 1806364800,
     "quoteType": "EQUITY",
@@ -1240,18 +1240,35 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "shortName": "ARIAKE JAPAN CO",
+    "longName": "ARIAKE JAPAN Co., Ltd.",
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "2815.T announced a cash dividend of JPY 60.00 with an ex-date of Sep. 29, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1790607600000,
+          "amount": "60.00"
+        }
+      }
+    ],
+    "regularMarketTime": 1790317800,
+    "marketState": "CLOSED",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 978307200000,
     "regularMarketChange": 0.0,
     "regularMarketChangePercent": 0.0,
     "regularMarketPrice": 5250.0,
     "regularMarketDayRange": "5240.0 - 5280.0",
     "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 86633,
+    "averageDailyVolume3Month": 85708,
     "fiftyTwoWeekLowChange": 310.0,
     "fiftyTwoWeekLowChangePercent": 0.06275304,
-    "fiftyTwoWeekRange": "4940.0 - 6360.0",
-    "fiftyTwoWeekHighChange": -1110.0,
-    "fiftyTwoWeekHighChangePercent": -0.1745283,
-    "fiftyTwoWeekChangePercent": -17.06161,
+    "fiftyTwoWeekRange": "4940.0 - 6310.0",
+    "fiftyTwoWeekHighChange": -1060.0,
+    "fiftyTwoWeekHighChangePercent": -0.16798732,
+    "fiftyTwoWeekChangePercent": -13.079471,
     "earningsTimestamp": 1786084200,
     "earningsTimestampStart": 1793946600,
     "earningsTimestampEnd": 1793946600,
@@ -1268,20 +1285,6 @@
     "exchangeDataDelayedBy": 20,
     "averageAnalystRating": "2.0 - Buy",
     "cryptoTradeable": false,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 978307200000,
-    "regularMarketTime": 1790317800,
-    "corporateActions": [
-      {
-        "header": "Dividend",
-        "message": "2815.T announced a cash dividend of JPY 60.00 with an ex-date of Sep. 29, 2026",
-        "meta": {
-          "eventType": "DIVIDEND",
-          "dateEpochMs": 1790607600000,
-          "amount": "60.00"
-        }
-      }
-    ],
     "exchange": "JPX",
     "messageBoardId": "finmb_883773",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1289,9 +1292,6 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "marketState": "CLOSED",
-    "shortName": "ARIAKE JAPAN CO",
-    "longName": "ARIAKE JAPAN Co., Ltd.",
     "trailingPegRatio": null
   }
 }

@@ -1,7 +1,7 @@
 {
   "ticker": "2469",
   "japanese_ticker": "2469.T",
-  "fetch_date": "2026-09-26T01:14:24.351368",
+  "fetch_date": "2026-09-27T01:11:55.404437",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": -38455200.0,
@@ -1248,7 +1248,7 @@
     "forwardPE": 8.656575,
     "volume": 11600,
     "regularMarketVolume": 11600,
-    "averageVolume": 15215,
+    "averageVolume": 15311,
     "averageVolume10days": 11800,
     "averageDailyVolume10Day": 11800,
     "bid": 2745.0,
@@ -1291,8 +1291,8 @@
     "lastSplitDate": 1790640000,
     "enterpriseToRevenue": 0.591,
     "enterpriseToEbitda": 4.497,
-    "52WeekChange": -0.020028591,
-    "SandP52WeekChange": 0.15961432,
+    "52WeekChange": -0.017216623,
+    "SandP52WeekChange": 0.15656614,
     "lastDividendValue": 22.5,
     "lastDividendDate": 1806364800,
     "quoteType": "EQUITY",
@@ -1323,15 +1323,9 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "exchange": "JPX",
-    "messageBoardId": "finmb_5777393",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
     "shortName": "HIBINO CORPORATION COM STK",
     "longName": "Hibino Corporation",
+    "cryptoTradeable": false,
     "corporateActions": [
       {
         "header": "Dividend",
@@ -1353,6 +1347,13 @@
       }
     ],
     "regularMarketTime": 1790317800,
+    "exchange": "JPX",
+    "messageBoardId": "finmb_5777393",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
     "marketState": "CLOSED",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1138838400000,
@@ -1361,13 +1362,13 @@
     "regularMarketPrice": 2745.0,
     "regularMarketDayRange": "2740.0 - 2770.0",
     "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 15215,
+    "averageDailyVolume3Month": 15311,
     "fiftyTwoWeekLowChange": 304.0,
     "fiftyTwoWeekLowChangePercent": 0.12453912,
     "fiftyTwoWeekRange": "2441.0 - 4370.0",
     "fiftyTwoWeekHighChange": -1625.0,
     "fiftyTwoWeekHighChangePercent": -0.37185356,
-    "fiftyTwoWeekChangePercent": -2.002859,
+    "fiftyTwoWeekChangePercent": -1.7216623,
     "earningsTimestampStart": 1747204200,
     "earningsTimestampEnd": 1747204200,
     "isEarningsDateEstimate": false,
@@ -1379,7 +1380,6 @@
     "twoHundredDayAverageChangePercent": -0.11764422,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
     "trailingPegRatio": null
   }
 }
