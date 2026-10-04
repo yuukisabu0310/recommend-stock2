@@ -1,7 +1,7 @@
 {
   "ticker": "3023",
   "japanese_ticker": "3023.T",
-  "fetch_date": "2026-10-03T01:51:03.994215",
+  "fetch_date": "2026-10-04T02:30:37.923485",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": -2200000.0,
@@ -1182,7 +1182,7 @@
     "payoutRatio": 0.35869998,
     "fiveYearAvgDividendYield": 4.52,
     "beta": 0.345,
-    "trailingPE": 9.319461,
+    "trailingPE": 9.354549,
     "volume": 32500,
     "regularMarketVolume": 32500,
     "averageVolume": 27958,
@@ -1221,11 +1221,11 @@
     "mostRecentQuarter": 1782777600,
     "earningsQuarterlyGrowth": 0.264,
     "netIncomeToCommon": 2432999936,
-    "trailingEps": 223.94,
+    "trailingEps": 223.1,
     "enterpriseToRevenue": 0.65,
     "enterpriseToEbitda": 5.837,
     "52WeekChange": 0.27256095,
-    "SandP52WeekChange": 0.1415559,
+    "SandP52WeekChange": 0.1457566,
     "lastDividendValue": 40.0,
     "lastDividendDate": 1806364800,
     "quoteType": "EQUITY",
@@ -1256,6 +1256,7 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "marketState": "CLOSED",
     "corporateActions": [],
     "regularMarketTime": 1790922600,
     "exchange": "JPX",
@@ -1267,7 +1268,10 @@
     "esgPopulated": false,
     "shortName": "RASA CORPORATION",
     "longName": "Rasa Corporation",
-    "marketState": "CLOSED",
+    "earningsTimestampStart": 1754546400,
+    "earningsTimestampEnd": 1754978400,
+    "isEarningsDateEstimate": true,
+    "epsTrailingTwelveMonths": 223.1,
     "fiftyDayAverageChange": 54.30005,
     "fiftyDayAverageChangePercent": 0.026713263,
     "twoHundredDayAverageChange": 127.54004,
@@ -1289,10 +1293,6 @@
     "fiftyTwoWeekHighChange": -415.0,
     "fiftyTwoWeekHighChangePercent": -0.1658673,
     "fiftyTwoWeekChangePercent": 27.256096,
-    "earningsTimestampStart": 1754546400,
-    "earningsTimestampEnd": 1754978400,
-    "isEarningsDateEstimate": true,
-    "epsTrailingTwelveMonths": 223.94,
     "trailingPegRatio": null
   }
 }

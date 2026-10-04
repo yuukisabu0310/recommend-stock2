@@ -1,7 +1,7 @@
 {
   "ticker": "2776",
   "japanese_ticker": "2776.T",
-  "fetch_date": "2026-10-03T01:48:08.933561",
+  "fetch_date": "2026-10-04T02:28:05.241259",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-01-31 00:00:00": -23818000.0,
@@ -1007,7 +1007,17 @@
     "sectorDisp": "Consumer Cyclical",
     "longBusinessSummary": "SHINTO Holdings, Inc. engages in trading business in Japan, China, and internationally. The company offers casual wear, and cut-and-sew products, including T-shirts and sweatshirts products; real estate properties and brokerage business services; and import and export transaction services, which include polyethylene terephthalate, etc.; and recycled plastic products. The company is also involved in metal recycling business; real estate related services business; domestic sales and leasing of GPU equipment; operation and management of AI data centers; sales, import, and export of daily necessities, alcoholic beverages, etc.; and industrial waste disposal business. The company was formerly known as Crymson Co.,Ltd. and changed its name to Shinto Holdings, Inc. in October 2017. Shinto Holdings, Inc. was incorporated in 1984 and is headquartered in Tokyo, Japan.",
     "fullTimeEmployees": 121,
-    "companyOfficers": [],
+    "companyOfficers": [
+      {
+        "maxAge": 1,
+        "name": "Akira  Tsukamoto",
+        "age": 62,
+        "title": "President & Representative Director",
+        "yearBorn": 1963,
+        "exercisedValue": 0,
+        "unexercisedValue": 0
+      }
+    ],
     "irWebsite": "http://www.crymson.co.jp/ir/index.html",
     "executiveTeam": [],
     "maxAge": 86400,
@@ -1050,7 +1060,7 @@
     "tradeable": false,
     "enterpriseValue": 10671775744,
     "profitMargins": 0.0055400003,
-    "floatShares": 35295832,
+    "floatShares": 34225619,
     "sharesOutstanding": 55769300,
     "heldPercentInsiders": 0.43857,
     "heldPercentInstitutions": 0.0154,
@@ -1067,7 +1077,7 @@
     "enterpriseToRevenue": 0.217,
     "enterpriseToEbitda": 7.021,
     "52WeekChange": -0.31851852,
-    "SandP52WeekChange": 0.1415559,
+    "SandP52WeekChange": 0.1457566,
     "quoteType": "EQUITY",
     "currentPrice": 92.0,
     "recommendationKey": "none",
@@ -1106,6 +1116,11 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
+    "marketState": "CLOSED",
+    "twoHundredDayAverageChangePercent": -0.18341988,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
     "shortName": "SHINTO HOLDINGS INC",
     "longName": "SHINTO Holdings, Inc.",
     "hasPrePostMarketData": false,
@@ -1126,14 +1141,9 @@
     "earningsTimestampEnd": 1749725940,
     "isEarningsDateEstimate": false,
     "epsTrailingTwelveMonths": 6.31,
-    "marketState": "CLOSED",
     "fiftyDayAverageChange": -4.3199997,
     "fiftyDayAverageChangePercent": -0.044850495,
     "twoHundredDayAverageChange": -20.665,
-    "twoHundredDayAverageChangePercent": -0.18341988,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
     "trailingPegRatio": null
   }
 }

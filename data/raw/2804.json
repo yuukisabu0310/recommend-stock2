@@ -1,7 +1,7 @@
 {
   "ticker": "2804",
   "japanese_ticker": "2804.T",
-  "fetch_date": "2026-10-03T01:48:37.764158",
+  "fetch_date": "2026-10-04T02:28:29.716013",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": 793214566.750303,
@@ -1114,8 +1114,54 @@
       },
       {
         "maxAge": 1,
+        "name": "Mr. Tsuyoshi  Shibazaki",
+        "title": "Gen. Affairs/HR/Accounting Dept Manager, Systems Dev. Manager and Gen. Affairs & HR Manager",
+        "exercisedValue": 0,
+        "unexercisedValue": 0
+      },
+      {
+        "maxAge": 1,
         "name": "Junta  Hagiwara",
         "title": "Executive Officer of Sales Supervisor & Sales Strategy Office Manager",
+        "exercisedValue": 0,
+        "unexercisedValue": 0
+      },
+      {
+        "maxAge": 1,
+        "name": "Mr. Takashi  Asakura",
+        "title": "Exe. Offr of Raw Materials Procurement Dept, Tatebayashi Factory & Dir TATEBAYASHI Creation Center",
+        "exercisedValue": 0,
+        "unexercisedValue": 0
+      },
+      {
+        "maxAge": 1,
+        "name": "Mr. Masayuki  Takeichi",
+        "age": 60,
+        "title": "Managing Executive Officer & Director",
+        "yearBorn": 1965,
+        "exercisedValue": 0,
+        "unexercisedValue": 0
+      },
+      {
+        "maxAge": 1,
+        "name": "Ms. Mai  Saeki",
+        "age": 54,
+        "title": "Senior Managing Executive Officer & Director",
+        "yearBorn": 1971,
+        "exercisedValue": 0,
+        "unexercisedValue": 0
+      },
+      {
+        "maxAge": 1,
+        "name": "Susumu  Sekine",
+        "title": "Sales GM, Head of Overseas Business Promo, Head of Business Promo Office & Head of Sales Strategy",
+        "exercisedValue": 0,
+        "unexercisedValue": 0
+      },
+      {
+        "maxAge": 1,
+        "name": "Ms. Minako  Suzuki",
+        "title": "Managing Executive Officer of Product Planning & R and D Department and Product Planning Dept",
         "exercisedValue": 0,
         "unexercisedValue": 0
       }
@@ -1184,7 +1230,7 @@
     "enterpriseToRevenue": 1.545,
     "enterpriseToEbitda": 12.652,
     "52WeekChange": -0.108527124,
-    "SandP52WeekChange": 0.1415559,
+    "SandP52WeekChange": 0.1457566,
     "lastDividendValue": 25.0,
     "lastDividendDate": 1806364800,
     "quoteType": "EQUITY",
@@ -1215,6 +1261,19 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "marketState": "CLOSED",
+    "shortName": "BULL DOG SAUCE CO",
+    "longName": "Bull-Dog Sauce Co., Ltd.",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 978307200000,
+    "regularMarketChange": -33.0,
+    "regularMarketChangePercent": -1.7618794,
+    "regularMarketPrice": 1840.0,
+    "regularMarketDayRange": "1839.0 - 1853.0",
+    "fullExchangeName": "Tokyo",
+    "averageDailyVolume3Month": 20663,
+    "fiftyTwoWeekLowChange": 152.0,
+    "fiftyTwoWeekLowChangePercent": 0.0900474,
     "fiftyTwoWeekRange": "1688.0 - 2173.0",
     "fiftyTwoWeekHighChange": -333.0,
     "fiftyTwoWeekHighChangePercent": -0.15324436,
@@ -1229,8 +1288,6 @@
     "twoHundredDayAverageChangePercent": 0.00074239325,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
-    "marketState": "CLOSED",
     "corporateActions": [],
     "regularMarketTime": 1790922600,
     "exchange": "JPX",
@@ -1240,18 +1297,7 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "shortName": "BULL DOG SAUCE CO",
-    "longName": "Bull-Dog Sauce Co., Ltd.",
-    "regularMarketChange": -33.0,
-    "regularMarketChangePercent": -1.7618794,
-    "regularMarketPrice": 1840.0,
-    "regularMarketDayRange": "1839.0 - 1853.0",
-    "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 20663,
-    "fiftyTwoWeekLowChange": 152.0,
-    "fiftyTwoWeekLowChangePercent": 0.0900474,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 978307200000,
+    "cryptoTradeable": false,
     "trailingPegRatio": null
   }
 }

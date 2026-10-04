@@ -1,7 +1,7 @@
 {
   "ticker": "2903",
   "japanese_ticker": "2903.T",
-  "fetch_date": "2026-10-03T01:49:28.229887",
+  "fetch_date": "2026-10-04T02:29:12.682216",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": -7878000.0,
@@ -1015,28 +1015,10 @@
       },
       {
         "maxAge": 1,
-        "name": "Mr. Hideki  Shimizu",
-        "age": 61,
-        "title": "Managing Executive Officer, GM of Administration Division & Director",
-        "yearBorn": 1964,
-        "exercisedValue": 0,
-        "unexercisedValue": 0
-      },
-      {
-        "maxAge": 1,
         "name": "Mr. Toshikiyo  Nishimura",
         "age": 70,
         "title": "Executive VP, GM of CVS Sales & Representative Director",
         "yearBorn": 1955,
-        "exercisedValue": 0,
-        "unexercisedValue": 0
-      },
-      {
-        "maxAge": 1,
-        "name": "Mr. Seishi  Nagao",
-        "age": 61,
-        "title": "Executive Officer, GM of Corporate Finance Division & Director",
-        "yearBorn": 1964,
         "exercisedValue": 0,
         "unexercisedValue": 0
       }
@@ -1087,7 +1069,7 @@
     "tradeable": false,
     "enterpriseValue": 16559078400,
     "profitMargins": 0.026029998,
-    "floatShares": 5419803,
+    "floatShares": 5967764,
     "sharesOutstanding": 10616919,
     "heldPercentInsiders": 0.37592,
     "heldPercentInstitutions": 0.01881,
@@ -1103,7 +1085,7 @@
     "enterpriseToRevenue": 0.266,
     "enterpriseToEbitda": 4.36,
     "52WeekChange": -0.016393423,
-    "SandP52WeekChange": 0.1415559,
+    "SandP52WeekChange": 0.1457566,
     "lastDividendValue": 17.0,
     "lastDividendDate": 1806364800,
     "quoteType": "EQUITY",
@@ -1134,6 +1116,14 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "epsTrailingTwelveMonths": 149.55,
+    "fiftyDayAverageChange": -106.76001,
+    "fiftyDayAverageChangePercent": -0.06644428,
+    "twoHundredDayAverageChange": -150.70496,
+    "twoHundredDayAverageChangePercent": -0.09129733,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
     "corporateActions": [],
     "regularMarketTime": 1790922600,
     "exchange": "JPX",
@@ -1143,9 +1133,6 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "marketState": "CLOSED",
-    "shortName": "SHINOBU FOOD PRODUCTS CO",
-    "longName": "Shinobu Foods Products Co., Ltd.",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 954806400000,
     "regularMarketChange": -17.0,
@@ -1163,14 +1150,9 @@
     "earningsTimestampStart": 1746766800,
     "earningsTimestampEnd": 1746766800,
     "isEarningsDateEstimate": false,
-    "epsTrailingTwelveMonths": 149.55,
-    "fiftyDayAverageChange": -106.76001,
-    "fiftyDayAverageChangePercent": -0.06644428,
-    "twoHundredDayAverageChange": -150.70496,
-    "twoHundredDayAverageChangePercent": -0.09129733,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
+    "shortName": "SHINOBU FOOD PRODUCTS CO",
+    "longName": "Shinobu Foods Products Co., Ltd.",
+    "marketState": "CLOSED",
     "trailingPegRatio": null
   }
 }

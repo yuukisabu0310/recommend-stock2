@@ -1,7 +1,7 @@
 {
   "ticker": "2212",
   "japanese_ticker": "2212.T",
-  "fetch_date": "2026-10-03T01:42:07.936378",
+  "fetch_date": "2026-10-04T02:22:46.153486",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-12-31 00:00:00": -807030000.0,
@@ -1205,7 +1205,7 @@
     "floatShares": 145177908,
     "sharesOutstanding": 196904799,
     "heldPercentInsiders": 0.30345,
-    "heldPercentInstitutions": 0.29245,
+    "heldPercentInstitutions": 0.29259002,
     "impliedSharesOutstanding": 196904799,
     "bookValue": 2394.832,
     "priceToBook": 1.4723371,
@@ -1220,7 +1220,7 @@
     "enterpriseToRevenue": 0.5,
     "enterpriseToEbitda": 6.139,
     "52WeekChange": 0.11335647,
-    "SandP52WeekChange": 0.1415559,
+    "SandP52WeekChange": 0.1457566,
     "lastDividendValue": 60.0,
     "lastDividendDate": 1798502400,
     "quoteType": "EQUITY",
@@ -1258,11 +1258,11 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "marketState": "CLOSED",
+    "corporateActions": [],
+    "regularMarketTime": 1790922600,
     "shortName": "YAMAZAKI BAKING LTD",
     "longName": "Yamazaki Baking Co., Ltd.",
-    "corporateActions": [],
-    "marketState": "CLOSED",
-    "regularMarketTime": 1790922600,
     "exchange": "JPX",
     "messageBoardId": "finmb_875679",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1270,6 +1270,8 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
+    "epsTrailingTwelveMonths": 213.32,
+    "epsForward": 193.76,
     "fiftyDayAverageChange": -97.76001,
     "fiftyDayAverageChangePercent": -0.026977507,
     "twoHundredDayAverageChange": 151.0149,
@@ -1297,8 +1299,6 @@
     "earningsCallTimestampStart": 1740049140,
     "earningsCallTimestampEnd": 1740049140,
     "isEarningsDateEstimate": false,
-    "epsTrailingTwelveMonths": 213.32,
-    "epsForward": 193.76,
     "trailingPegRatio": null
   }
 }

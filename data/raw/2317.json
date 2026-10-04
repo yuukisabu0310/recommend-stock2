@@ -1,7 +1,7 @@
 {
   "ticker": "2317",
   "japanese_ticker": "2317.T",
-  "fetch_date": "2026-10-03T01:43:12.298152",
+  "fetch_date": "2026-10-04T02:23:43.230495",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": 167230940.456316,
@@ -1249,7 +1249,7 @@
     "floatShares": 237311346,
     "sharesOutstanding": 357455827,
     "heldPercentInsiders": 0.28067,
-    "heldPercentInstitutions": 0.18035999,
+    "heldPercentInstitutions": 0.18043,
     "impliedSharesOutstanding": 357455827,
     "bookValue": 111.018,
     "priceToBook": 3.8192005,
@@ -1265,7 +1265,7 @@
     "enterpriseToRevenue": 1.307,
     "enterpriseToEbitda": 7.754,
     "52WeekChange": -0.17988396,
-    "SandP52WeekChange": 0.1415559,
+    "SandP52WeekChange": 0.1457566,
     "lastDividendValue": 9.0,
     "lastDividendDate": 1806364800,
     "quoteType": "EQUITY",
@@ -1303,9 +1303,13 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "longName": "Systena Corporation",
-    "corporateActions": [],
     "regularMarketTime": 1790922600,
+    "marketState": "CLOSED",
+    "corporateActions": [],
+    "shortName": "SYSTENA CORPORATION",
+    "longName": "Systena Corporation",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1100476800000,
     "exchange": "JPX",
     "messageBoardId": "finmb_9429314",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1313,8 +1317,6 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1100476800000,
     "regularMarketChange": 1.0,
     "regularMarketChangePercent": 0.23640662,
     "regularMarketPrice": 424.0,
@@ -1337,11 +1339,9 @@
     "fiftyDayAverageChangePercent": -0.02850335,
     "twoHundredDayAverageChange": -15.720001,
     "twoHundredDayAverageChangePercent": -0.035750024,
-    "shortName": "SYSTENA CORPORATION",
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
-    "marketState": "CLOSED",
     "trailingPegRatio": null
   }
 }

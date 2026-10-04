@@ -1,7 +1,7 @@
 {
   "ticker": "2819",
   "japanese_ticker": "2819.T",
-  "fetch_date": "2026-10-03T01:48:58.121879",
+  "fetch_date": "2026-10-04T02:28:46.941868",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": 2352000.0,
@@ -1029,7 +1029,7 @@
     "sector": "Consumer Defensive",
     "sectorKey": "consumer-defensive",
     "sectorDisp": "Consumer Defensive",
-    "longBusinessSummary": "Ebara Foods Industry,Inc. produces and sells food condiments in Japan. It offers sauces, ketchup, and seasoning. The company sells its products under the Ohgon no aji and Sukiyaki no tare. EBARA Foods Industry,Inc. was founded in 1958 and is headquartered in Yokohama, Japan.",
+    "longBusinessSummary": "Ebara Foods Industry,Inc. produces and sells food condiments in Japan. It offers sauces, and seasoning. The company sells its products under the Golden Taste, Barbecue, Extremely delicious yakiniku, Enjoying yakiniku, Momi, Grated radish, Yakiniku Zaku, Trae Plus, Towada bara-yaki, Pickling mix, Pop-up, Kimchi hot pot base, Sukiyaki, Nabeshabu, Dan Dan Sesame Hot Pot Base, Chinese food, and Yokohana Hakuraitei brand names. EBARA Foods Industry,Inc. was founded in 1958 and is headquartered in Yokohama, Japan.",
     "fullTimeEmployees": 861,
     "companyOfficers": [
       {
@@ -1175,7 +1175,7 @@
     "enterpriseToRevenue": 0.16,
     "enterpriseToEbitda": 1.91,
     "52WeekChange": -0.03351736,
-    "SandP52WeekChange": 0.1415559,
+    "SandP52WeekChange": 0.1457566,
     "lastDividendValue": 25.0,
     "lastDividendDate": 1806364800,
     "quoteType": "EQUITY",
@@ -1208,9 +1208,8 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "marketState": "CLOSED",
-    "shortName": "EBARA FOODS INDUSTRY INC",
-    "longName": "EBARA Foods Industry,Inc.",
+    "corporateActions": [],
+    "regularMarketTime": 1790922600,
     "exchange": "JPX",
     "messageBoardId": "finmb_9261940",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1218,8 +1217,10 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "corporateActions": [],
-    "regularMarketTime": 1790922600,
+    "shortName": "EBARA FOODS INDUSTRY INC",
+    "longName": "EBARA Foods Industry,Inc.",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1068681600000,
     "regularMarketChange": -25.0,
     "regularMarketChangePercent": -1.0096931,
     "regularMarketPrice": 2451.0,
@@ -1237,6 +1238,7 @@
     "isEarningsDateEstimate": true,
     "epsTrailingTwelveMonths": 182.6,
     "epsForward": 193.5,
+    "marketState": "CLOSED",
     "fiftyDayAverageChange": -63.860107,
     "fiftyDayAverageChangePercent": -0.025393106,
     "twoHundredDayAverageChange": -74.67993,
@@ -1244,10 +1246,8 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "prevName": "Ebara Foods Industry, Inc.",
-    "nameChangeDate": "2026-10-02",
+    "nameChangeDate": "2026-10-03",
     "cryptoTradeable": false,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1068681600000,
     "trailingPegRatio": null
   }
 }

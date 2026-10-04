@@ -1,7 +1,7 @@
 {
   "ticker": "2999",
   "japanese_ticker": "2999.T",
-  "fetch_date": "2026-10-03T01:50:46.863332",
+  "fetch_date": "2026-10-04T02:30:23.226966",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-08-31 00:00:00": -3923244.0,
@@ -982,7 +982,7 @@
     "enterpriseToRevenue": 0.605,
     "enterpriseToEbitda": 12.686,
     "52WeekChange": 0.17155755,
-    "SandP52WeekChange": 0.1415559,
+    "SandP52WeekChange": 0.1457566,
     "lastDividendValue": 10.0,
     "lastDividendDate": 1787875200,
     "quoteType": "EQUITY",
@@ -1016,6 +1016,8 @@
     "marketState": "CLOSED",
     "corporateActions": [],
     "regularMarketTime": 1790922600,
+    "shortName": "HOME POSITION CO LTD",
+    "longName": "Home Position Co., Ltd.",
     "exchange": "JPX",
     "messageBoardId": "finmb_107133819",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1023,9 +1025,6 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "earningsTimestampStart": 1744266600,
-    "earningsTimestampEnd": 1744266600,
-    "isEarningsDateEstimate": false,
     "epsTrailingTwelveMonths": 69.18,
     "fiftyDayAverageChange": -52.799988,
     "fiftyDayAverageChangePercent": -0.09233996,
@@ -1034,8 +1033,6 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
-    "shortName": "HOME POSITION CO LTD",
-    "longName": "Home Position Co., Ltd.",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1655942400000,
     "regularMarketChange": -3.0,
@@ -1050,6 +1047,9 @@
     "fiftyTwoWeekHighChange": -141.0,
     "fiftyTwoWeekHighChangePercent": -0.21363637,
     "fiftyTwoWeekChangePercent": 17.155754,
+    "earningsTimestampStart": 1744266600,
+    "earningsTimestampEnd": 1744266600,
+    "isEarningsDateEstimate": false,
     "trailingPegRatio": null
   }
 }

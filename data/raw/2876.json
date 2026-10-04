@@ -1,7 +1,7 @@
 {
   "ticker": "2876",
   "japanese_ticker": "2876.T",
-  "fetch_date": "2026-10-03T01:49:11.244297",
+  "fetch_date": "2026-10-04T02:28:57.280305",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": -52305544.0,
@@ -1044,10 +1044,44 @@
       },
       {
         "maxAge": 1,
+        "name": "Mr. Eiji  Takenaga",
+        "age": 47,
+        "title": "President, Head of the Production Technology Team & Representative Director",
+        "yearBorn": 1978,
+        "exercisedValue": 0,
+        "unexercisedValue": 0
+      },
+      {
+        "maxAge": 1,
         "name": "Mr. Shuichi  Imbe",
         "age": 58,
         "title": "Director of Strategic Planning Office, Head of accounting and Finance & Director",
         "yearBorn": 1967,
+        "exercisedValue": 0,
+        "unexercisedValue": 0
+      },
+      {
+        "maxAge": 1,
+        "name": "Mr. Hiroyuki  Saegusa",
+        "age": 62,
+        "title": "Director of Administration Department, Head of General Affairs & HR and Director",
+        "yearBorn": 1963,
+        "exercisedValue": 0,
+        "unexercisedValue": 0
+      },
+      {
+        "maxAge": 1,
+        "name": "Toshiyuki  Kato",
+        "age": 58,
+        "title": "Head of Food Service Business, In charge of Sales Unit & Director",
+        "yearBorn": 1967,
+        "exercisedValue": 0,
+        "unexercisedValue": 0
+      },
+      {
+        "maxAge": 1,
+        "name": "Shin  Tanaka",
+        "title": "Executive Officer",
         "exercisedValue": 0,
         "unexercisedValue": 0
       }
@@ -1114,7 +1148,7 @@
     "enterpriseToRevenue": 0.238,
     "enterpriseToEbitda": 3.947,
     "52WeekChange": 0.0869565,
-    "SandP52WeekChange": 0.1415559,
+    "SandP52WeekChange": 0.1457566,
     "lastDividendValue": 12.0,
     "lastDividendDate": 1806364800,
     "quoteType": "EQUITY",
@@ -1147,6 +1181,7 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "marketState": "CLOSED",
     "corporateActions": [],
     "regularMarketTime": 1790920968,
     "exchange": "JPX",
@@ -1156,9 +1191,6 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "marketState": "CLOSED",
-    "shortName": "DELSOLE CORPORATION",
-    "longName": "Delsole Corporation",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 947030400000,
     "regularMarketChange": 5.0,
@@ -1184,6 +1216,8 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
+    "shortName": "DELSOLE CORPORATION",
+    "longName": "Delsole Corporation",
     "trailingPegRatio": null
   }
 }

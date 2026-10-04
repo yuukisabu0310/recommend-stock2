@@ -1,7 +1,7 @@
 {
   "ticker": "2454",
   "japanese_ticker": "2454.T",
-  "fetch_date": "2026-10-03T01:45:02.640325",
+  "fetch_date": "2026-10-04T02:25:21.427346",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": -35946400.0,
@@ -1126,7 +1126,7 @@
     "enterpriseToRevenue": 0.286,
     "enterpriseToEbitda": 19.092,
     "52WeekChange": -0.11528152,
-    "SandP52WeekChange": 0.1415559,
+    "SandP52WeekChange": 0.1457566,
     "lastDividendValue": 1.0,
     "lastDividendDate": 1774828800,
     "quoteType": "EQUITY",
@@ -1155,8 +1155,6 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "marketState": "CLOSED",
-    "isEarningsDateEstimate": false,
     "epsTrailingTwelveMonths": -33.66,
     "fiftyDayAverageChange": -16.720001,
     "fiftyDayAverageChangePercent": -0.048223354,
@@ -1181,8 +1179,7 @@
     "fiftyTwoWeekChangePercent": -11.528152,
     "earningsTimestampStart": 1747035000,
     "earningsTimestampEnd": 1747035000,
-    "shortName": "ALL ABOUT INC",
-    "longName": "All About, Inc.",
+    "isEarningsDateEstimate": false,
     "corporateActions": [],
     "regularMarketTime": 1790922600,
     "exchange": "JPX",
@@ -1192,6 +1189,9 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
+    "shortName": "ALL ABOUT INC",
+    "longName": "All About, Inc.",
+    "marketState": "CLOSED",
     "trailingPegRatio": null
   }
 }

@@ -1,7 +1,7 @@
 {
   "ticker": "2375",
   "japanese_ticker": "2375.T",
-  "fetch_date": "2026-10-03T01:44:06.422382",
+  "fetch_date": "2026-10-04T02:24:29.566247",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-10-31 00:00:00": 120489449.3,
@@ -1283,7 +1283,7 @@
     "enterpriseToRevenue": 0.193,
     "enterpriseToEbitda": 4.413,
     "52WeekChange": -0.1640625,
-    "SandP52WeekChange": 0.1415559,
+    "SandP52WeekChange": 0.1457566,
     "lastDividendValue": 2.0,
     "lastDividendDate": 1793232000,
     "quoteType": "EQUITY",
@@ -1313,28 +1313,14 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "corporateActions": [
-      {
-        "header": "Dividend",
-        "message": "2375.T announced a cash dividend of JPY 2.00 with an ex-date of Oct. 29, 2026",
-        "meta": {
-          "eventType": "DIVIDEND",
-          "dateEpochMs": 1793199600000,
-          "amount": "2.00"
-        }
-      }
-    ],
-    "regularMarketTime": 1790922600,
-    "exchange": "JPX",
-    "messageBoardId": "finmb_9405921",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
     "shortName": "GIG WORKS INC",
-    "longName": "GiG Works Inc.",
     "marketState": "CLOSED",
+    "longName": "GiG Works Inc.",
+    "earningsTimestampStart": 1749621600,
+    "earningsTimestampEnd": 1749621600,
+    "isEarningsDateEstimate": false,
+    "epsTrailingTwelveMonths": 8.54,
+    "epsForward": 28.2,
     "fiftyDayAverageChange": 7.0,
     "fiftyDayAverageChangePercent": 0.033816423,
     "twoHundredDayAverageChange": 1.8200073,
@@ -1356,11 +1342,25 @@
     "fiftyTwoWeekHighChange": -59.0,
     "fiftyTwoWeekHighChangePercent": -0.21611722,
     "fiftyTwoWeekChangePercent": -16.40625,
-    "earningsTimestampStart": 1749621600,
-    "earningsTimestampEnd": 1749621600,
-    "isEarningsDateEstimate": false,
-    "epsTrailingTwelveMonths": 8.54,
-    "epsForward": 28.2,
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "2375.T announced a cash dividend of JPY 2.00 with an ex-date of Oct. 29, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1793199600000,
+          "amount": "2.00"
+        }
+      }
+    ],
+    "regularMarketTime": 1790922600,
+    "exchange": "JPX",
+    "messageBoardId": "finmb_9405921",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
     "trailingPegRatio": null
   }
 }

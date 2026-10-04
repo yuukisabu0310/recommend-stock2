@@ -1,7 +1,7 @@
 {
   "ticker": "2594",
   "japanese_ticker": "2594.T",
-  "fetch_date": "2026-10-03T01:46:11.883985",
+  "fetch_date": "2026-10-04T02:26:23.063284",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": -1603000.0,
@@ -1196,6 +1196,22 @@
     "companyOfficers": [
       {
         "maxAge": 1,
+        "name": "Mr. Yutaka  Shibata",
+        "age": 61,
+        "title": "President, Head of Coffee Futures Department & Representative Director",
+        "yearBorn": 1964,
+        "exercisedValue": 0,
+        "unexercisedValue": 0
+      },
+      {
+        "maxAge": 1,
+        "name": "Masatoshi  Tanaka",
+        "title": "Executive Officer & Head of Marketing",
+        "exercisedValue": 0,
+        "unexercisedValue": 0
+      },
+      {
+        "maxAge": 1,
         "name": "Mr. Nobuhiro  Ozawa",
         "age": 65,
         "title": "Executive VP & Director",
@@ -1218,6 +1234,13 @@
         "age": 52,
         "title": "Managing Executive Officer & Director",
         "yearBorn": 1973,
+        "exercisedValue": 0,
+        "unexercisedValue": 0
+      },
+      {
+        "maxAge": 1,
+        "name": "Atsushi  Fukuda",
+        "title": "Executive Officer & Head of Business Planning",
         "exercisedValue": 0,
         "unexercisedValue": 0
       }
@@ -1284,7 +1307,7 @@
     "enterpriseToRevenue": 0.57,
     "enterpriseToEbitda": 20.625,
     "52WeekChange": -0.0035952926,
-    "SandP52WeekChange": 0.1415559,
+    "SandP52WeekChange": 0.1457566,
     "lastDividendValue": 6.0,
     "lastDividendDate": 1806364800,
     "quoteType": "EQUITY",
@@ -1315,7 +1338,10 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "marketState": "CLOSED",
+    "earningsTimestampStart": 1753678800,
+    "earningsTimestampEnd": 1754024400,
+    "isEarningsDateEstimate": true,
+    "epsTrailingTwelveMonths": 46.17,
     "fiftyDayAverageChange": -66.599976,
     "fiftyDayAverageChangePercent": -0.03319046,
     "twoHundredDayAverageChange": -45.96997,
@@ -1323,8 +1349,16 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
-    "shortName": "KEY COFFEE INC",
-    "longName": "Key Coffee Inc.",
+    "corporateActions": [],
+    "regularMarketTime": 1790922600,
+    "exchange": "JPX",
+    "messageBoardId": "finmb_882237",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
+    "marketState": "CLOSED",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 978307200000,
     "regularMarketChange": -23.0,
@@ -1339,19 +1373,8 @@
     "fiftyTwoWeekHighChange": -120.0,
     "fiftyTwoWeekHighChangePercent": -0.058252428,
     "fiftyTwoWeekChangePercent": -0.35952926,
-    "earningsTimestampStart": 1753678800,
-    "earningsTimestampEnd": 1754024400,
-    "isEarningsDateEstimate": true,
-    "epsTrailingTwelveMonths": 46.17,
-    "corporateActions": [],
-    "regularMarketTime": 1790922600,
-    "exchange": "JPX",
-    "messageBoardId": "finmb_882237",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
+    "shortName": "KEY COFFEE INC",
+    "longName": "Key Coffee Inc.",
     "trailingPegRatio": null
   }
 }

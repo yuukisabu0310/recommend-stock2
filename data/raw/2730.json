@@ -1,7 +1,7 @@
 {
   "ticker": "2730",
   "japanese_ticker": "2730.T",
-  "fetch_date": "2026-10-03T01:47:28.629795",
+  "fetch_date": "2026-10-04T02:27:31.855073",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": -1224300000.0,
@@ -561,6 +561,13 @@
       "2025-03-31 00:00:00": 4964000000.0,
       "2024-03-31 00:00:00": 2675000000.0,
       "2023-03-31 00:00:00": 2070000000.0,
+      "2022-03-31 00:00:00": null
+    },
+    "Defined Pension Benefit": {
+      "2026-03-31 00:00:00": 1119000000.0,
+      "2025-03-31 00:00:00": 0.0,
+      "2024-03-31 00:00:00": null,
+      "2023-03-31 00:00:00": null,
       "2022-03-31 00:00:00": null
     },
     "Non Current Prepaid Assets": {
@@ -1195,7 +1202,7 @@
     "payoutRatio": 0.32889998,
     "fiveYearAvgDividendYield": 2.83,
     "beta": 0.19,
-    "trailingPE": 16.160854,
+    "trailingPE": 16.159748,
     "forwardPE": 18.993559,
     "volume": 355100,
     "regularMarketVolume": 355100,
@@ -1227,7 +1234,7 @@
     "floatShares": 80482522,
     "sharesOutstanding": 105739714,
     "heldPercentInsiders": 0.23245001,
-    "heldPercentInstitutions": 0.22076,
+    "heldPercentInstitutions": 0.22103001,
     "impliedSharesOutstanding": 105739714,
     "bookValue": 2268.293,
     "priceToBook": 1.0399891,
@@ -1236,12 +1243,12 @@
     "mostRecentQuarter": 1782777600,
     "earningsQuarterlyGrowth": 1.365,
     "netIncomeToCommon": 19824001024,
-    "trailingEps": 145.97,
+    "trailingEps": 145.98,
     "forwardEps": 124.2,
     "enterpriseToRevenue": 0.37,
     "enterpriseToEbitda": 6.879,
     "52WeekChange": 0.114839315,
-    "SandP52WeekChange": 0.1415559,
+    "SandP52WeekChange": 0.1457566,
     "lastDividendValue": 25.0,
     "lastDividendDate": 1806364800,
     "quoteType": "EQUITY",
@@ -1278,9 +1285,13 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "regularMarketTime": 1790922600,
     "marketState": "CLOSED",
     "corporateActions": [],
-    "regularMarketTime": 1790922600,
+    "shortName": "EDION CORP",
+    "longName": "EDION Corporation",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1017273600000,
     "exchange": "JPX",
     "messageBoardId": "finmb_9262023",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1306,7 +1317,7 @@
     "earningsCallTimestampStart": 1746788340,
     "earningsCallTimestampEnd": 1746788340,
     "isEarningsDateEstimate": false,
-    "epsTrailingTwelveMonths": 145.97,
+    "epsTrailingTwelveMonths": 145.98,
     "epsForward": 124.2,
     "fiftyDayAverageChange": -140.65991,
     "fiftyDayAverageChangePercent": -0.05627162,
@@ -1315,10 +1326,6 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
-    "shortName": "EDION CORP",
-    "longName": "EDION Corporation",
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1017273600000,
     "trailingPegRatio": null
   }
 }

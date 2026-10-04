@@ -1,7 +1,7 @@
 {
   "ticker": "1383",
   "japanese_ticker": "1383.T",
-  "fetch_date": "2026-10-03T01:35:47.682690",
+  "fetch_date": "2026-10-04T02:17:09.130504",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-10-31 00:00:00": 53702410.2,
@@ -1242,7 +1242,7 @@
     "enterpriseToRevenue": 0.836,
     "enterpriseToEbitda": 11.956,
     "52WeekChange": 0.009901047,
-    "SandP52WeekChange": 0.1415559,
+    "SandP52WeekChange": 0.1457566,
     "lastDividendValue": 10.0,
     "lastDividendDate": 1793232000,
     "quoteType": "EQUITY",
@@ -1272,26 +1272,6 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "corporateActions": [
-      {
-        "header": "Dividend",
-        "message": "1383.T announced a cash dividend of JPY 10.00 with an ex-date of Oct. 29, 2026",
-        "meta": {
-          "eventType": "DIVIDEND",
-          "dateEpochMs": 1793199600000,
-          "amount": "10.00"
-        }
-      }
-    ],
-    "regularMarketTime": 1790907688,
-    "exchange": "JPX",
-    "messageBoardId": "finmb_25336112",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
-    "marketState": "CLOSED",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1322524800000,
     "regularMarketChange": 0.0,
@@ -1319,6 +1299,26 @@
     "cryptoTradeable": false,
     "shortName": "BERG EARTH CO LTD",
     "longName": "Berg Earth Co.,Ltd.",
+    "marketState": "CLOSED",
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "1383.T announced a cash dividend of JPY 10.00 with an ex-date of Oct. 29, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1793199600000,
+          "amount": "10.00"
+        }
+      }
+    ],
+    "regularMarketTime": 1790907688,
+    "exchange": "JPX",
+    "messageBoardId": "finmb_25336112",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
     "trailingPegRatio": null
   }
 }

@@ -1,7 +1,7 @@
 {
   "ticker": "2762",
   "japanese_ticker": "2762.T",
-  "fetch_date": "2026-10-03T01:47:56.664639",
+  "fetch_date": "2026-10-04T02:27:55.776705",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-06-30 00:00:00": -44015200.0,
@@ -953,6 +953,7 @@
     "sectorKey": "consumer-cyclical",
     "sectorDisp": "Consumer Cyclical",
     "longBusinessSummary": "Sanko Marketing Foods Co., Ltd. engages in the operation and management of restaurant and fishery business in Japan. The company operates dining and specialty restaurants, staff cafeterias, and cafes under the Akamaruya, Kin no Kura, Mamettai Shoten, Afu Shokudo, Uotomeshi, Tezolina, Tokyo Chikara Meshi Shokudo, Sushi-an, Hizume, Yugikagura, and Golden Potato, and other brands. It is also involved in fisheries distribution business; and offers tuna croquette, tuna minced meat, tuna dumplings, and Fiiiiimo seafood rice bowl toppings through its online shop and other e-commerce sites. In addition, the company provides daily and periodic cleaning services for office buildings, commercial facilities, and restaurants; inspections and maintenance for building facilities; support for bed making, room cleaning, and linen management; and hotel-related services, equipment inspection, and maintenance services. The company was formerly known as Sanko Foods Co., Ltd. and changed its name to Sanko Marketing Foods Co., Ltd. in October 2002. Sanko Marketing Foods Co., Ltd. was founded in 1975 and is headquartered in Shinjuku, Japan.",
+    "fullTimeEmployees": 282,
     "companyOfficers": [
       {
         "maxAge": 1,
@@ -962,6 +963,46 @@
         "yearBorn": 1974,
         "fiscalYear": 2012,
         "totalPay": 124700000,
+        "exercisedValue": 0,
+        "unexercisedValue": 0
+      },
+      {
+        "maxAge": 1,
+        "name": "Mr. Nagasawa  Shigehiro",
+        "age": 58,
+        "title": "Representative Director & CEO",
+        "yearBorn": 1967,
+        "fiscalYear": 2012,
+        "exercisedValue": 0,
+        "unexercisedValue": 0
+      },
+      {
+        "maxAge": 1,
+        "name": "Mr. Naruhiro  Nagasawa",
+        "age": 58,
+        "title": "President & Representative Director",
+        "yearBorn": 1967,
+        "fiscalYear": 2012,
+        "exercisedValue": 0,
+        "unexercisedValue": 0
+      },
+      {
+        "maxAge": 1,
+        "name": "Mr. Kentaro  Tomikawa",
+        "age": 47,
+        "title": "Senior MD, Executive Officer, GM of Business Dev. & Group Business Management Div. and Director",
+        "yearBorn": 1978,
+        "fiscalYear": 2012,
+        "exercisedValue": 0,
+        "unexercisedValue": 0
+      },
+      {
+        "maxAge": 1,
+        "name": "Mr. Takaya  Tsuchiya",
+        "age": 61,
+        "title": "Senior MD, Executive Officer & Head of Group Fisheries and Director",
+        "yearBorn": 1964,
+        "fiscalYear": 2012,
         "exercisedValue": 0,
         "unexercisedValue": 0
       },
@@ -1026,7 +1067,7 @@
     "tradeable": false,
     "enterpriseValue": 2829600000,
     "profitMargins": -0.07502,
-    "floatShares": 28738677,
+    "floatShares": 29115225,
     "sharesOutstanding": 42548609,
     "heldPercentInsiders": 0.30150998,
     "heldPercentInstitutions": 0.0669,
@@ -1043,7 +1084,7 @@
     "enterpriseToRevenue": 0.268,
     "enterpriseToEbitda": -5.145,
     "52WeekChange": -0.2842105,
-    "SandP52WeekChange": 0.1415559,
+    "SandP52WeekChange": 0.1457566,
     "lastDividendValue": 2.0,
     "lastDividendDate": 1561507200,
     "quoteType": "EQUITY",
@@ -1075,7 +1116,7 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "marketState": "CLOSED",
+    "epsTrailingTwelveMonths": -20.32,
     "fiftyDayAverageChange": -4.720001,
     "fiftyDayAverageChangePercent": -0.06490651,
     "twoHundredDayAverageChange": -22.660004,
@@ -1083,6 +1124,15 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
+    "corporateActions": [],
+    "regularMarketTime": 1790922600,
+    "exchange": "JPX",
+    "messageBoardId": "finmb_5746724",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1095206400000,
     "regularMarketChange": 0.0,
@@ -1100,18 +1150,9 @@
     "earningsTimestampStart": 1747290600,
     "earningsTimestampEnd": 1747290600,
     "isEarningsDateEstimate": false,
-    "epsTrailingTwelveMonths": -20.32,
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "esgPopulated": false,
     "shortName": "SANKO MARKETING FOODS CO",
     "longName": "Sanko Marketing Foods Co., Ltd.",
-    "corporateActions": [],
-    "regularMarketTime": 1790922600,
-    "exchange": "JPX",
-    "messageBoardId": "finmb_5746724",
-    "market": "jp_market",
+    "marketState": "CLOSED",
     "trailingPegRatio": null
   }
 }
