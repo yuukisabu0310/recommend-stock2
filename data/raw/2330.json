@@ -1,7 +1,7 @@
 {
   "ticker": "2330",
   "japanese_ticker": "2330.T",
-  "fetch_date": "2026-10-10T02:08:16.713550",
+  "fetch_date": "2026-10-11T01:34:44.220600",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-12-31 00:00:00": 2240822.594331,
@@ -1209,7 +1209,7 @@
     "enterpriseToRevenue": 0.208,
     "enterpriseToEbitda": 3.504,
     "52WeekChange": -0.58673465,
-    "SandP52WeekChange": 0.18509698,
+    "SandP52WeekChange": 0.17383456,
     "lastDividendValue": 7.8,
     "lastDividendDate": 1293494400,
     "quoteType": "EQUITY",
@@ -1241,6 +1241,9 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "marketState": "CLOSED",
+    "corporateActions": [],
+    "regularMarketTime": 1791527400,
     "exchange": "JPX",
     "messageBoardId": "finmb_10444021",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1248,10 +1251,7 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "shortName": "FORSIDE CO LTD",
     "longName": "Forside Co.,Ltd.",
-    "corporateActions": [],
-    "regularMarketTime": 1791527400,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1034208000000,
     "regularMarketChange": 0.0,
@@ -1277,9 +1277,9 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "prevName": "Forside Co., Ltd.",
-    "nameChangeDate": "2026-10-09",
+    "nameChangeDate": "2026-10-10",
     "cryptoTradeable": false,
-    "marketState": "CLOSED",
+    "shortName": "FORSIDE CO LTD",
     "trailingPegRatio": null
   }
 }

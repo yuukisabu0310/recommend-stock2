@@ -1,7 +1,7 @@
 {
   "ticker": "2730",
   "japanese_ticker": "2730.T",
-  "fetch_date": "2026-10-10T02:12:20.380497",
+  "fetch_date": "2026-10-11T01:39:11.922371",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": -1224300000.0,
@@ -561,6 +561,13 @@
       "2025-03-31 00:00:00": 4964000000.0,
       "2024-03-31 00:00:00": 2675000000.0,
       "2023-03-31 00:00:00": 2070000000.0,
+      "2022-03-31 00:00:00": null
+    },
+    "Defined Pension Benefit": {
+      "2026-03-31 00:00:00": 1119000000.0,
+      "2025-03-31 00:00:00": 0.0,
+      "2024-03-31 00:00:00": null,
+      "2023-03-31 00:00:00": null,
       "2022-03-31 00:00:00": null
     },
     "Non Current Prepaid Assets": {
@@ -1190,9 +1197,9 @@
     "regularMarketDayLow": 2339.0,
     "regularMarketDayHigh": 2390.0,
     "dividendRate": 50.0,
-    "dividendYield": 2.15,
+    "dividendYield": 2.1,
     "exDividendDate": 1806364800,
-    "payoutRatio": 0.2561,
+    "payoutRatio": 0.32889998,
     "fiveYearAvgDividendYield": 2.73,
     "beta": 0.199,
     "trailingPE": 12.645395,
@@ -1222,7 +1229,7 @@
     "trailingAnnualDividendYield": 0.020609703,
     "currency": "JPY",
     "tradeable": false,
-    "enterpriseValue": 301445480448,
+    "enterpriseValue": 297110175744,
     "profitMargins": 0.024419999,
     "floatShares": 80482522,
     "sharesOutstanding": 105739714,
@@ -1238,10 +1245,10 @@
     "netIncomeToCommon": 19824001024,
     "trailingEps": 187.42,
     "forwardEps": 124.2,
-    "enterpriseToRevenue": 0.371,
-    "enterpriseToEbitda": 6.906,
+    "enterpriseToRevenue": 0.366,
+    "enterpriseToEbitda": 6.806,
     "52WeekChange": 0.15553391,
-    "SandP52WeekChange": 0.18509698,
+    "SandP52WeekChange": 0.17383456,
     "lastDividendValue": 25.0,
     "lastDividendDate": 1806364800,
     "quoteType": "EQUITY",
@@ -1278,6 +1285,8 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "shortName": "EDION CORP",
+    "longName": "EDION Corporation",
     "exchange": "JPX",
     "messageBoardId": "finmb_9262023",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1285,9 +1294,9 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1017273600000,
     "marketState": "CLOSED",
+    "corporateActions": [],
+    "regularMarketTime": 1791527400,
     "regularMarketChange": 41.0,
     "regularMarketChangePercent": 1.7604122,
     "regularMarketPrice": 2370.0,
@@ -1314,11 +1323,9 @@
     "twoHundredDayAverageChangePercent": 0.031295653,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1017273600000,
     "cryptoTradeable": false,
-    "corporateActions": [],
-    "regularMarketTime": 1791527400,
-    "shortName": "EDION CORP",
-    "longName": "EDION Corporation",
     "trailingPegRatio": null
   }
 }

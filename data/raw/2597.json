@@ -1,7 +1,7 @@
 {
   "ticker": "2597",
   "japanese_ticker": "2597.T",
-  "fetch_date": "2026-10-10T02:11:08.936646",
+  "fetch_date": "2026-10-11T01:37:53.660929",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-12-31 00:00:00": -54548.0,
@@ -1139,7 +1139,7 @@
     "trailingAnnualDividendYield": 0.007674597,
     "currency": "JPY",
     "tradeable": false,
-    "enterpriseValue": 13146680320,
+    "enterpriseValue": 13186847744,
     "profitMargins": 0.04581,
     "floatShares": 4831549,
     "sharesOutstanding": 13388985,
@@ -1156,10 +1156,10 @@
     "trailingEps": 60.87,
     "lastSplitFactor": "13:10",
     "lastSplitDate": 1064448000,
-    "enterpriseToRevenue": 0.737,
-    "enterpriseToEbitda": 10.568,
+    "enterpriseToRevenue": 0.739,
+    "enterpriseToEbitda": 10.6,
     "52WeekChange": 0.2896825,
-    "SandP52WeekChange": 0.18509698,
+    "SandP52WeekChange": 0.17383456,
     "lastDividendValue": 10.0,
     "lastDividendDate": 1766966400,
     "quoteType": "EQUITY",
@@ -1195,8 +1195,6 @@
     "marketState": "CLOSED",
     "shortName": "UNICAFE INC",
     "longName": "Unicafe Inc.",
-    "corporateActions": [],
-    "regularMarketTime": 1791527400,
     "exchange": "JPX",
     "messageBoardId": "finmb_5633614",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1204,6 +1202,8 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
+    "corporateActions": [],
+    "regularMarketTime": 1791527400,
     "regularMarketChange": -3.0,
     "regularMarketChangePercent": -0.23023792,
     "regularMarketPrice": 1300.0,
@@ -1220,8 +1220,6 @@
     "earningsTimestampEnd": 1755500400,
     "isEarningsDateEstimate": true,
     "epsTrailingTwelveMonths": 60.87,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 978566400000,
     "fiftyDayAverageChange": 58.47998,
     "fiftyDayAverageChangePercent": 0.047103535,
     "twoHundredDayAverageChange": 184.21497,
@@ -1229,6 +1227,8 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 978566400000,
     "trailingPegRatio": null
   }
 }

@@ -1,7 +1,7 @@
 {
   "ticker": "2901",
   "japanese_ticker": "2901.T",
-  "fetch_date": "2026-10-10T02:14:17.939281",
+  "fetch_date": "2026-10-11T01:41:20.423674",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": 11896548.667594,
@@ -1000,9 +1000,9 @@
     "regularMarketDayLow": 125.0,
     "regularMarketDayHigh": 128.0,
     "dividendRate": 4.0,
-    "dividendYield": 3.17,
+    "dividendYield": 3.1,
     "exDividendDate": 1787875200,
-    "payoutRatio": 0.0842,
+    "payoutRatio": 0.0919,
     "beta": -0.685,
     "trailingPE": 5.307498,
     "volume": 81400,
@@ -1047,7 +1047,7 @@
     "enterpriseToRevenue": 1.616,
     "enterpriseToEbitda": 7.946,
     "52WeekChange": -0.8273972,
-    "SandP52WeekChange": 0.18509698,
+    "SandP52WeekChange": 0.17383456,
     "lastDividendValue": 4.0,
     "lastDividendDate": 1787875200,
     "quoteType": "EQUITY",
@@ -1076,6 +1076,8 @@
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
     "marketState": "CLOSED",
+    "shortName": "WEL-DISH INCORPORATED",
+    "longName": "Wel-Dish.Incorporated",
     "corporateActions": [],
     "regularMarketTime": 1791527400,
     "exchange": "JPX",
@@ -1085,10 +1087,6 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 946944000000,
-    "shortName": "WEL-DISH INCORPORATED",
-    "longName": "Wel-Dish.Incorporated",
     "regularMarketChange": 0.0,
     "regularMarketChangePercent": 0.0,
     "regularMarketPrice": 126.0,
@@ -1112,8 +1110,10 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "prevName": "Ishigaki Foods Co.,Ltd.",
-    "nameChangeDate": "2026-10-09",
+    "nameChangeDate": "2026-10-10",
     "cryptoTradeable": false,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 946944000000,
     "trailingPegRatio": null
   }
 }
