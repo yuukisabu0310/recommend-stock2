@@ -1,7 +1,7 @@
 {
   "ticker": "2404",
   "japanese_ticker": "2404.T",
-  "fetch_date": "2026-10-11T01:35:51.327597",
+  "fetch_date": "2026-10-12T02:05:00.135833",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-08-31 00:00:00": -6824048.0,
@@ -1028,7 +1028,7 @@
     "trailingAnnualDividendYield": 0.0,
     "currency": "JPY",
     "tradeable": false,
-    "enterpriseValue": 7959525888,
+    "enterpriseValue": 7946165760,
     "profitMargins": 0.04572,
     "floatShares": 3173172,
     "sharesOutstanding": 13360162,
@@ -1045,8 +1045,8 @@
     "trailingEps": 33.05,
     "lastSplitFactor": "200:1",
     "lastSplitDate": 1371081600,
-    "enterpriseToRevenue": 0.82,
-    "enterpriseToEbitda": 12.461,
+    "enterpriseToRevenue": 0.818,
+    "enterpriseToEbitda": 12.44,
     "52WeekChange": 0.0018975735,
     "SandP52WeekChange": 0.17383456,
     "lastDividendValue": 5.0,
@@ -1080,8 +1080,7 @@
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
     "marketState": "CLOSED",
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1089590400000,
+    "longName": "Tetsujin Holdings, Inc.",
     "regularMarketChange": -1.0,
     "regularMarketChangePercent": -0.18903592,
     "regularMarketPrice": 528.0,
@@ -1094,6 +1093,8 @@
     "fiftyTwoWeekHighChange": -72.0,
     "fiftyTwoWeekHighChangePercent": -0.12,
     "fiftyTwoWeekChangePercent": 0.18975735,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1089590400000,
     "earningsTimestampStart": 1752470400,
     "earningsTimestampEnd": 1752816000,
     "isEarningsDateEstimate": true,
@@ -1105,8 +1106,9 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "prevName": "TETSUJIN Inc.",
-    "nameChangeDate": "2026-10-10",
+    "nameChangeDate": "2026-10-11",
     "cryptoTradeable": false,
+    "shortName": "TETSUJIN HOLDINGS",
     "corporateActions": [],
     "regularMarketTime": 1791527400,
     "exchange": "JPX",
@@ -1116,8 +1118,6 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "shortName": "TETSUJIN HOLDINGS",
-    "longName": "Tetsujin Holdings, Inc.",
     "trailingPegRatio": null
   }
 }

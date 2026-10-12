@@ -1,7 +1,7 @@
 {
   "ticker": "2982",
   "japanese_ticker": "2982.T",
-  "fetch_date": "2026-10-11T01:42:29.029525",
+  "fetch_date": "2026-10-12T02:11:13.218047",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-12-31 00:00:00": 53478340.0,
@@ -1166,7 +1166,7 @@
     "dividendRate": 20.0,
     "dividendYield": 5.06,
     "exDividendDate": 1798502400,
-    "payoutRatio": 0.19540001,
+    "payoutRatio": 0.24430001,
     "fiveYearAvgDividendYield": 3.03,
     "beta": 0.125,
     "trailingPE": 4.824722,
@@ -1244,9 +1244,11 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "shortName": "AD WORKS GRP CO LTD",
+    "longName": "A.D.Works Group Co.,Ltd.",
+    "marketState": "CLOSED",
     "corporateActions": [],
     "regularMarketTime": 1791527400,
-    "longName": "A.D.Works Group Co.,Ltd.",
     "exchange": "JPX",
     "messageBoardId": "finmb_644039311",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1254,11 +1256,8 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "marketState": "CLOSED",
-    "cryptoTradeable": false,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1585699200000,
-    "shortName": "AD WORKS GRP CO LTD",
     "regularMarketChange": 0.0,
     "regularMarketChangePercent": 0.0,
     "regularMarketPrice": 395.0,
@@ -1281,6 +1280,7 @@
     "twoHundredDayAverageChangePercent": -0.057132963,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
     "trailingPegRatio": null
   }
 }

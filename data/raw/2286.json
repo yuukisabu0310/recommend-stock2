@@ -1,7 +1,7 @@
 {
   "ticker": "2286",
   "japanese_ticker": "2286.T",
-  "fetch_date": "2026-10-11T01:33:58.035373",
+  "fetch_date": "2026-10-12T02:03:18.806797",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": 4940000.0,
@@ -1142,33 +1142,6 @@
       },
       {
         "maxAge": 1,
-        "name": "Shinichi  Tokura",
-        "age": 58,
-        "title": "GM of Business Management Division, Accounting Department & Director",
-        "yearBorn": 1967,
-        "exercisedValue": 0,
-        "unexercisedValue": 0
-      },
-      {
-        "maxAge": 1,
-        "name": "Mr. Hitoshi  Hirano",
-        "age": 64,
-        "title": "GM of Food Division, Functional Foods Department - Business Headquarters & Director",
-        "yearBorn": 1961,
-        "exercisedValue": 0,
-        "unexercisedValue": 0
-      },
-      {
-        "maxAge": 1,
-        "name": "Mr. Kenzo  Mishiro",
-        "age": 60,
-        "title": "Senior MD, GM of Business Management Headquarters, Feed Business Division & Director",
-        "yearBorn": 1965,
-        "exercisedValue": 0,
-        "unexercisedValue": 0
-      },
-      {
-        "maxAge": 1,
         "name": "Mr. Suzuta  Shuji",
         "age": 57,
         "title": "Deputy GM of Business Management Division & Director",
@@ -1190,9 +1163,9 @@
     "regularMarketDayLow": 888.0,
     "regularMarketDayHigh": 893.0,
     "dividendRate": 45.0,
-    "dividendYield": 5.05,
+    "dividendYield": 5.07,
     "exDividendDate": 1806364800,
-    "payoutRatio": 0.2833,
+    "payoutRatio": 0.42130002,
     "fiveYearAvgDividendYield": 2.91,
     "beta": 0.253,
     "trailingPE": 8.700765,
@@ -1223,7 +1196,7 @@
     "tradeable": false,
     "enterpriseValue": 14495612928,
     "profitMargins": 0.019019999,
-    "floatShares": 6089722,
+    "floatShares": 5989032,
     "sharesOutstanding": 8166231,
     "heldPercentInsiders": 0.34803,
     "heldPercentInstitutions": 0.10079,
@@ -1270,14 +1243,18 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "marketState": "CLOSED",
     "shortName": "HAYASHIKANE SANGYO CO",
+    "corporateActions": [],
     "longName": "Hayashikane Sangyo Co.,Ltd.",
+    "epsTrailingTwelveMonths": 102.06,
+    "fiftyDayAverageChange": -14.23999,
+    "fiftyDayAverageChangePercent": -0.01578293,
     "twoHundredDayAverageChange": 19.48999,
     "twoHundredDayAverageChangePercent": 0.02244072,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
+    "regularMarketTime": 1791527400,
     "exchange": "JPX",
     "messageBoardId": "finmb_881099",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1285,8 +1262,6 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "corporateActions": [],
-    "regularMarketTime": 1791527400,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 978307200000,
     "regularMarketChange": 0.0,
@@ -1304,9 +1279,7 @@
     "earningsTimestampStart": 1754546400,
     "earningsTimestampEnd": 1754892000,
     "isEarningsDateEstimate": true,
-    "epsTrailingTwelveMonths": 102.06,
-    "fiftyDayAverageChange": -14.23999,
-    "fiftyDayAverageChangePercent": -0.01578293,
+    "marketState": "CLOSED",
     "trailingPegRatio": null
   }
 }

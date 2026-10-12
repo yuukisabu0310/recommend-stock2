@@ -1,7 +1,7 @@
 {
   "ticker": "1788",
   "japanese_ticker": "1788.T",
-  "fetch_date": "2026-10-11T01:28:04.485819",
+  "fetch_date": "2026-10-12T01:57:54.698547",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-06-30 00:00:00": 3723428.0,
@@ -878,7 +878,7 @@
     "sector": "Industrials",
     "sectorKey": "industrials",
     "sectorDisp": "Industrials",
-    "longBusinessSummary": "Santo Corporation engages in the construction contracting business in Japan. The company provides general civil engineering works, such as erosion and flood control works, dam/river construction works, road/bridge construction works, land preparation works, golf course construction works, agricultural civil engineering works, dredging works, ground improvement works, water and sewage works, land development works, port/airport related works, and road works; paving works for land, roads, etc.; special greening works; and underground engineering services. It also undertakes general construction works, including hotels, office/government buildings, factories, stores, warehouse/distribution facilities, apartments/residences, educational and cultural facilities, medical/welfare facilities, temples and shrines, schools/hospitals, amusement facilities, reforms, as well as rental/condominium construction works. In addition, the company provides environmental planning, research, design, supervision, construction, and operation, as well as real estate sales, rentals, brokerages, management, and appraisals. Further, it is involved in the development of land and buildings. Santo Corporation was incorporated in 1954 and is headquartered in Ritto, Japan.",
+    "longBusinessSummary": "Santo Corporation engages in the construction contracting business in Japan. The company provides general civil engineering works, such as erosion and flood control works, dam and river construction works, road and bridge construction works, land preparation works, golf course construction works, agricultural civil engineering works, dredging works, ground improvement works, water and sewage works, land development works, port and airport related works, and road works; paving works for land, roads, etc.; special greening works; and underground engineering services. It also undertakes general construction works, including hotels, government buildings, factories, stores, warehouse and distribution facilities, apartments, educational and cultural facilities, medical and welfare facilities, temples and shrines, schools, hospitals, amusement facilities, and reforms, as well as condominium construction works. In addition, the company provides environmental planning, research, design, supervision, construction, and operation, as well as real estate sales, rentals, brokerages, management, and appraisals. Further, it is involved in the development of land and buildings. Santo Corporation was incorporated in 1954 and is headquartered in Ritto, Japan.",
     "fullTimeEmployees": 137,
     "companyOfficers": [
       {
@@ -957,7 +957,7 @@
     "profitMargins": 0.02842,
     "floatShares": 332852,
     "sharesOutstanding": 627652,
-    "heldPercentInsiders": 0.3863,
+    "heldPercentInsiders": 0.38484,
     "heldPercentInstitutions": 0.04082,
     "impliedSharesOutstanding": 627652,
     "bookValue": 6054.061,
@@ -1004,10 +1004,6 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "marketState": "CLOSED",
-    "cryptoTradeable": false,
-    "shortName": "SANTO CORPORATION",
-    "longName": "Santo Corporation",
     "exchange": "JPX",
     "messageBoardId": "finmb_5827070",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1017,6 +1013,16 @@
     "esgPopulated": false,
     "corporateActions": [],
     "regularMarketTime": 1791245332,
+    "shortName": "SANTO CORPORATION",
+    "longName": "Santo Corporation",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 947116800000,
+    "regularMarketChange": 0.0,
+    "regularMarketChangePercent": 0.0,
+    "regularMarketPrice": 4060.0,
+    "regularMarketDayRange": "4060.0 - 4110.0",
+    "fullExchangeName": "Tokyo",
+    "averageDailyVolume3Month": 395,
     "fiftyTwoWeekLowChange": 25.0,
     "fiftyTwoWeekLowChangePercent": 0.006195787,
     "fiftyTwoWeekRange": "4035.0 - 6400.0",
@@ -1034,15 +1040,9 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "prevName": "Santo Co.,Ltd.",
-    "nameChangeDate": "2026-10-10",
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 947116800000,
-    "regularMarketChange": 0.0,
-    "regularMarketChangePercent": 0.0,
-    "regularMarketPrice": 4060.0,
-    "regularMarketDayRange": "4060.0 - 4110.0",
-    "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 395,
+    "nameChangeDate": "2026-10-11",
+    "cryptoTradeable": false,
+    "marketState": "CLOSED",
     "trailingPegRatio": null
   }
 }

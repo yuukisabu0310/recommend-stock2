@@ -1,7 +1,7 @@
 {
   "ticker": "1383",
   "japanese_ticker": "1383.T",
-  "fetch_date": "2026-10-11T01:26:20.448769",
+  "fetch_date": "2026-10-12T01:56:14.691740",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-10-31 00:00:00": 53702410.2,
@@ -1196,10 +1196,10 @@
     "dividendRate": 10.0,
     "dividendYield": 0.33,
     "exDividendDate": 1793232000,
-    "payoutRatio": 0.3309,
+    "payoutRatio": 0.102299996,
     "fiveYearAvgDividendYield": 0.34,
     "beta": 0.179,
-    "trailingPE": 46.158516,
+    "trailingPE": 31.102926,
     "volume": 1800,
     "regularMarketVolume": 1800,
     "averageVolume": 1383,
@@ -1238,7 +1238,7 @@
     "nextFiscalYearEnd": 1793404800,
     "mostRecentQuarter": 1785456000,
     "netIncomeToCommon": 155000000,
-    "trailingEps": 65.86,
+    "trailingEps": 97.74,
     "enterpriseToRevenue": 0.832,
     "enterpriseToEbitda": 11.897,
     "52WeekChange": 0.018425465,
@@ -1272,30 +1272,6 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "shortName": "BERG EARTH CO LTD",
-    "longName": "Berg Earth Co.,Ltd.",
-    "marketState": "CLOSED",
-    "corporateActions": [
-      {
-        "header": "Dividend",
-        "message": "1383.T announced a cash dividend of JPY 10.00 with an ex-date of Oct. 29, 2026",
-        "meta": {
-          "eventType": "DIVIDEND",
-          "dateEpochMs": 1793199600000,
-          "amount": "10.00"
-        }
-      }
-    ],
-    "regularMarketTime": 1791522463,
-    "exchange": "JPX",
-    "messageBoardId": "finmb_25336112",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1322524800000,
     "regularMarketChange": 0.0,
     "regularMarketChangePercent": 0.0,
     "regularMarketPrice": 3040.0,
@@ -1311,7 +1287,9 @@
     "earningsTimestampStart": 1749796200,
     "earningsTimestampEnd": 1749796200,
     "isEarningsDateEstimate": false,
-    "epsTrailingTwelveMonths": 65.86,
+    "shortName": "BERG EARTH CO LTD",
+    "longName": "Berg Earth Co.,Ltd.",
+    "epsTrailingTwelveMonths": 97.74,
     "fiftyDayAverageChange": 22.23999,
     "fiftyDayAverageChangePercent": 0.0073697013,
     "twoHundredDayAverageChange": -28.16504,
@@ -1319,6 +1297,28 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
+    "exchange": "JPX",
+    "messageBoardId": "finmb_25336112",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
+    "marketState": "CLOSED",
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "1383.T announced a cash dividend of JPY 10.00 with an ex-date of Oct. 29, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1793199600000,
+          "amount": "10.00"
+        }
+      }
+    ],
+    "regularMarketTime": 1791522463,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1322524800000,
     "trailingPegRatio": null
   }
 }

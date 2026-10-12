@@ -1,7 +1,7 @@
 {
   "ticker": "2206",
   "japanese_ticker": "2206.T",
-  "fetch_date": "2026-10-11T01:33:10.086812",
+  "fetch_date": "2026-10-12T02:02:33.670804",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-12-31 00:00:00": -1570212000.0,
@@ -1136,9 +1136,9 @@
     "regularMarketDayLow": 5002.0,
     "regularMarketDayHigh": 5049.0,
     "dividendRate": 95.0,
-    "dividendYield": 1.9,
+    "dividendYield": 1.89,
     "exDividendDate": 1798502400,
-    "payoutRatio": 0.9537,
+    "payoutRatio": 0.96309996,
     "fiveYearAvgDividendYield": 1.87,
     "beta": 0.023,
     "trailingPE": 50.90227,
@@ -1166,7 +1166,7 @@
     "trailingAnnualDividendYield": 0.019026637,
     "currency": "JPY",
     "tradeable": false,
-    "enterpriseValue": 255896403968,
+    "enterpriseValue": 257613037568,
     "profitMargins": 0.01661,
     "floatShares": 41850553,
     "sharesOutstanding": 59447053,
@@ -1184,8 +1184,8 @@
     "forwardEps": 167.4,
     "lastSplitFactor": "1:2",
     "lastSplitDate": 1411689600,
-    "enterpriseToRevenue": 0.678,
-    "enterpriseToEbitda": 8.637,
+    "enterpriseToRevenue": 0.683,
+    "enterpriseToEbitda": 8.695,
     "52WeekChange": 0.014343381,
     "SandP52WeekChange": 0.17383456,
     "lastDividendValue": 50.0,
@@ -1231,6 +1231,7 @@
     "marketState": "CLOSED",
     "corporateActions": [],
     "regularMarketTime": 1791527400,
+    "cryptoTradeable": false,
     "exchange": "JPX",
     "messageBoardId": "finmb_877366",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1267,7 +1268,6 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "averageAnalystRating": "4.5 - Underperform",
-    "cryptoTradeable": false,
     "trailingPegRatio": null
   }
 }

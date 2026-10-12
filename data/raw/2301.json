@@ -1,7 +1,7 @@
 {
   "ticker": "2301",
   "japanese_ticker": "2301.T",
-  "fetch_date": "2026-10-11T01:34:14.530913",
+  "fetch_date": "2026-10-12T02:03:33.868780",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-10-31 00:00:00": 38879890.0,
@@ -1029,9 +1029,9 @@
     "regularMarketDayLow": 1698.0,
     "regularMarketDayHigh": 1717.0,
     "dividendRate": 71.0,
-    "dividendYield": 4.18,
+    "dividendYield": 4.15,
     "exDividendDate": 1793232000,
-    "payoutRatio": 0.5493,
+    "payoutRatio": 0.5018,
     "fiveYearAvgDividendYield": 3.23,
     "beta": 0.322,
     "trailingPE": 12.077739,
@@ -1061,7 +1061,7 @@
     "trailingAnnualDividendYield": 0.041887905,
     "currency": "JPY",
     "tradeable": false,
-    "enterpriseValue": 16720578560,
+    "enterpriseValue": 16906071040,
     "profitMargins": 0.16391,
     "floatShares": 8178365,
     "sharesOutstanding": 13149965,
@@ -1079,16 +1079,15 @@
     "forwardEps": 160.8,
     "lastSplitFactor": "2:1",
     "lastSplitDate": 1161820800,
-    "enterpriseToRevenue": 1.437,
-    "enterpriseToEbitda": 5.971,
+    "enterpriseToRevenue": 1.453,
+    "enterpriseToEbitda": 6.037,
     "52WeekChange": 0.0029342175,
     "SandP52WeekChange": 0.17383456,
     "lastDividendValue": 38.0,
     "lastDividendDate": 1793232000,
     "quoteType": "EQUITY",
     "currentPrice": 1709.0,
-    "recommendationMean": 0.0,
-    "recommendationKey": "strong_buy",
+    "recommendationKey": "none",
     "totalCash": 5737265152,
     "totalCashPerShare": 433.019,
     "ebitda": 2800273408,
@@ -1113,26 +1112,9 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "corporateActions": [
-      {
-        "header": "Dividend",
-        "message": "2301.T announced a cash dividend of JPY 38.00 with an ex-date of Oct. 29, 2026",
-        "meta": {
-          "eventType": "DIVIDEND",
-          "dateEpochMs": 1793199600000,
-          "amount": "38.00"
-        }
-      }
-    ],
-    "regularMarketTime": 1791527400,
-    "exchange": "JPX",
-    "messageBoardId": "finmb_9275254",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
     "marketState": "CLOSED",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1126828800000,
     "regularMarketChange": 14.0,
     "regularMarketChangePercent": 0.8259587,
     "regularMarketPrice": 1709.0,
@@ -1148,10 +1130,20 @@
     "earningsTimestampStart": 1749448800,
     "earningsTimestampEnd": 1749448800,
     "isEarningsDateEstimate": false,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1126828800000,
     "shortName": "GAKUJO CO LTD",
     "longName": "Gakujo Co., Ltd.",
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "2301.T announced a cash dividend of JPY 38.00 with an ex-date of Oct. 29, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1793199600000,
+          "amount": "38.00"
+        }
+      }
+    ],
+    "regularMarketTime": 1791527400,
     "epsTrailingTwelveMonths": 141.5,
     "epsForward": 160.8,
     "fiftyDayAverageChange": 10.599976,
@@ -1160,8 +1152,14 @@
     "twoHundredDayAverageChangePercent": 0.015970768,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
-    "averageAnalystRating": "0.0 - Strong Buy",
     "cryptoTradeable": false,
+    "exchange": "JPX",
+    "messageBoardId": "finmb_9275254",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
     "trailingPegRatio": null
   }
 }

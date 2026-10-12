@@ -1,7 +1,7 @@
 {
   "ticker": "2903",
   "japanese_ticker": "2903.T",
-  "fetch_date": "2026-10-11T01:41:22.581433",
+  "fetch_date": "2026-10-12T02:10:10.587770",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": -7878000.0,
@@ -1036,9 +1036,9 @@
     "regularMarketDayLow": 1510.0,
     "regularMarketDayHigh": 1567.0,
     "dividendRate": 34.0,
-    "dividendYield": 2.3,
+    "dividendYield": 2.17,
     "exDividendDate": 1806364800,
-    "payoutRatio": 0.2152,
+    "payoutRatio": 0.2207,
     "fiveYearAvgDividendYield": 2.37,
     "beta": 0.436,
     "trailingPE": 10.809133,
@@ -1067,7 +1067,7 @@
     "trailingAnnualDividendYield": 0.021094264,
     "currency": "JPY",
     "tradeable": false,
-    "enterpriseValue": 16740311040,
+    "enterpriseValue": 17273346048,
     "profitMargins": 0.026029998,
     "floatShares": 5967764,
     "sharesOutstanding": 10616919,
@@ -1082,8 +1082,8 @@
     "earningsQuarterlyGrowth": -0.161,
     "netIncomeToCommon": 1619000064,
     "trailingEps": 144.97,
-    "enterpriseToRevenue": 0.269,
-    "enterpriseToEbitda": 4.408,
+    "enterpriseToRevenue": 0.278,
+    "enterpriseToEbitda": 4.548,
     "52WeekChange": -0.044512212,
     "SandP52WeekChange": 0.17383456,
     "lastDividendValue": 17.0,
@@ -1119,8 +1119,6 @@
     "marketState": "CLOSED",
     "corporateActions": [],
     "regularMarketTime": 1791527400,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 954806400000,
     "exchange": "JPX",
     "messageBoardId": "finmb_5555119",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1130,7 +1128,8 @@
     "esgPopulated": false,
     "shortName": "SHINOBU FOOD PRODUCTS CO",
     "longName": "Shinobu Foods Products Co., Ltd.",
-    "cryptoTradeable": false,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 954806400000,
     "regularMarketChange": 50.0,
     "regularMarketChangePercent": 3.295979,
     "regularMarketPrice": 1567.0,
@@ -1153,6 +1152,7 @@
     "twoHundredDayAverageChangePercent": -0.04822934,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
     "trailingPegRatio": null
   }
 }
