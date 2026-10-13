@@ -1,7 +1,7 @@
 {
   "ticker": "2375",
   "japanese_ticker": "2375.T",
-  "fetch_date": "2026-10-12T02:04:40.753828",
+  "fetch_date": "2026-10-13T03:26:25.963348",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-10-31 00:00:00": 120489449.3,
@@ -1222,13 +1222,13 @@
     "maxAge": 86400,
     "priceHint": 2,
     "previousClose": 207.0,
-    "open": 207.0,
-    "dayLow": 207.0,
-    "dayHigh": 209.0,
+    "open": 208.0,
+    "dayLow": 206.0,
+    "dayHigh": 208.0,
     "regularMarketPreviousClose": 207.0,
-    "regularMarketOpen": 207.0,
-    "regularMarketDayLow": 207.0,
-    "regularMarketDayHigh": 209.0,
+    "regularMarketOpen": 208.0,
+    "regularMarketDayLow": 206.0,
+    "regularMarketDayHigh": 208.0,
     "dividendRate": 2.0,
     "dividendYield": 0.97,
     "exDividendDate": 1793232000,
@@ -1237,9 +1237,9 @@
     "beta": -0.165,
     "trailingPE": 42.505135,
     "forwardPE": 7.3404255,
-    "volume": 11000,
-    "regularMarketVolume": 11000,
-    "averageVolume": 55203,
+    "volume": 8400,
+    "regularMarketVolume": 8400,
+    "averageVolume": 55811,
     "averageVolume10days": 45740,
     "averageDailyVolume10Day": 45740,
     "bid": 207.0,
@@ -1283,7 +1283,7 @@
     "enterpriseToRevenue": 0.187,
     "enterpriseToEbitda": 4.273,
     "52WeekChange": -0.100000024,
-    "SandP52WeekChange": 0.17383456,
+    "SandP52WeekChange": 0.17502642,
     "lastDividendValue": 2.0,
     "lastDividendDate": 1793232000,
     "quoteType": "EQUITY",
@@ -1313,18 +1313,7 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "corporateActions": [
-      {
-        "header": "Dividend",
-        "message": "2375.T announced a cash dividend of JPY 2.00 with an ex-date of Oct. 29, 2026",
-        "meta": {
-          "eventType": "DIVIDEND",
-          "dateEpochMs": 1793199600000,
-          "amount": "2.00"
-        }
-      }
-    ],
-    "regularMarketTime": 1791527400,
+    "marketState": "REGULAR",
     "exchange": "JPX",
     "messageBoardId": "finmb_9405921",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1332,14 +1321,7 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "shortName": "GIG WORKS INC",
-    "longName": "GiG Works Inc.",
-    "regularMarketChange": 0.0,
-    "regularMarketChangePercent": 0.0,
-    "regularMarketPrice": 207.0,
-    "regularMarketDayRange": "207.0 - 209.0",
-    "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 55203,
+    "averageDailyVolume3Month": 55811,
     "fiftyTwoWeekLowChange": 11.0,
     "fiftyTwoWeekLowChangePercent": 0.05612245,
     "fiftyTwoWeekRange": "196.0 - 273.0",
@@ -1357,10 +1339,28 @@
     "twoHundredDayAverageChangePercent": -0.023700008,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1067990400000,
-    "cryptoTradeable": false,
-    "marketState": "CLOSED",
+    "regularMarketChange": 0.0,
+    "regularMarketChangePercent": 0.0,
+    "regularMarketPrice": 207.0,
+    "regularMarketDayRange": "206.0 - 208.0",
+    "fullExchangeName": "Tokyo",
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "2375.T announced a cash dividend of JPY 2.00 with an ex-date of Oct. 29, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1793199600000,
+          "amount": "2.00"
+        }
+      }
+    ],
+    "regularMarketTime": 1791856480,
+    "shortName": "GIG WORKS INC",
+    "longName": "GiG Works Inc.",
     "trailingPegRatio": null
   }
 }

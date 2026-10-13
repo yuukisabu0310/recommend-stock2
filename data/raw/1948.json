@@ -1,7 +1,7 @@
 {
   "ticker": "1948",
   "japanese_ticker": "1948.T",
-  "fetch_date": "2026-10-12T02:00:06.512741",
+  "fetch_date": "2026-10-13T03:21:40.623097",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": 9405000.0,
@@ -1047,7 +1047,7 @@
     "trailingPE": 35.30899,
     "volume": 3500,
     "regularMarketVolume": 3500,
-    "averageVolume": 6294,
+    "averageVolume": 6280,
     "averageVolume10days": 2785,
     "averageDailyVolume10Day": 2785,
     "bid": 0.0,
@@ -1090,7 +1090,7 @@
     "enterpriseToRevenue": 2.199,
     "enterpriseToEbitda": 21.832,
     "52WeekChange": 3.7907948,
-    "SandP52WeekChange": 0.17383456,
+    "SandP52WeekChange": 0.17502642,
     "lastDividendValue": 55.0,
     "lastDividendDate": 1774828800,
     "quoteType": "EQUITY",
@@ -1121,9 +1121,7 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "shortName": "KODENSHA CO LTD",
-    "marketState": "CLOSED",
-    "longName": "The Kodensha Co., Ltd.",
+    "marketState": "REGULAR",
     "exchange": "JPX",
     "messageBoardId": "finmb_883029",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1131,8 +1129,8 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "corporateActions": [],
-    "regularMarketTime": 1790231400,
+    "shortName": "KODENSHA CO LTD",
+    "longName": "Kodensha Co Ltd",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 978566400000,
     "regularMarketChange": 0.0,
@@ -1140,7 +1138,7 @@
     "regularMarketPrice": 11450.0,
     "regularMarketDayRange": "11430.0 - 11470.0",
     "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 6294,
+    "averageDailyVolume3Month": 6280,
     "fiftyTwoWeekLowChange": 9111.0,
     "fiftyTwoWeekLowChangePercent": 3.8952544,
     "fiftyTwoWeekRange": "2339.0 - 11500.0",
@@ -1158,6 +1156,8 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
+    "corporateActions": [],
+    "regularMarketTime": 1790231400,
     "trailingPegRatio": null
   }
 }
