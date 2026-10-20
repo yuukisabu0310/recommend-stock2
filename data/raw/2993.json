@@ -1,7 +1,7 @@
 {
   "ticker": "2993",
   "japanese_ticker": "2993.T",
-  "fetch_date": "2026-10-19T00:51:52.069415",
+  "fetch_date": "2026-10-20T01:38:40.377859",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": 7869680.0,
@@ -1205,7 +1205,7 @@
     "averageVolume": 866,
     "averageVolume10days": 280,
     "averageDailyVolume10Day": 280,
-    "bid": 2162.0,
+    "bid": 0.0,
     "ask": 2200.0,
     "marketCap": 9489542144,
     "nonDilutedMarketCap": 9754224864,
@@ -1272,9 +1272,9 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "marketState": "REGULAR",
-    "corporateActions": [],
-    "regularMarketTime": 1792130225,
+    "shortName": "CHOEI INC",
+    "longName": "Choei Inc.",
+    "cryptoTradeable": false,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1640304000000,
     "regularMarketChange": 0.0,
@@ -1299,7 +1299,9 @@
     "twoHundredDayAverageChangePercent": -0.0467681,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
+    "marketState": "REGULAR",
+    "corporateActions": [],
+    "regularMarketTime": 1792130225,
     "exchange": "JPX",
     "messageBoardId": "finmb_85062706",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1307,8 +1309,6 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "shortName": "CHOEI INC",
-    "longName": "Choei Inc.",
     "trailingPegRatio": null
   }
 }
