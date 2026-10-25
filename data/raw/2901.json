@@ -1,19 +1,19 @@
 {
   "ticker": "2901",
   "japanese_ticker": "2901.T",
-  "fetch_date": "2026-10-24T01:31:09.563081",
+  "fetch_date": "2026-10-25T00:56:54.494176",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-03-31 00:00:00": 11896548.667594,
-      "2024-03-31 00:00:00": -41884816.0,
-      "2023-03-31 00:00:00": 7255568.0,
-      "2022-03-31 00:00:00": -8481688.0
+      "2024-03-31 00:00:00": -53692001.2,
+      "2023-03-31 00:00:00": 9300887.6,
+      "2022-03-31 00:00:00": -10872646.6
     },
     "Tax Rate For Calcs": {
       "2025-03-31 00:00:00": 0.030008,
-      "2024-03-31 00:00:00": 0.232,
-      "2023-03-31 00:00:00": 0.232,
-      "2022-03-31 00:00:00": 0.232
+      "2024-03-31 00:00:00": 0.2974,
+      "2023-03-31 00:00:00": 0.2974,
+      "2022-03-31 00:00:00": 0.2974
     },
     "Normalized EBITDA": {
       "2025-03-31 00:00:00": 90667000.0,
@@ -83,9 +83,9 @@
     },
     "Normalized Income": {
       "2025-03-31 00:00:00": 47045548.667594,
-      "2024-03-31 00:00:00": -212960816.0,
-      "2023-03-31 00:00:00": -139266432.0,
-      "2022-03-31 00:00:00": -130101688.0
+      "2024-03-31 00:00:00": -224768001.2,
+      "2023-03-31 00:00:00": -137221112.4,
+      "2022-03-31 00:00:00": -132492646.6
     },
     "Net Income From Continuing And Discontinued Operation": {
       "2025-03-31 00:00:00": 431594000.0,
@@ -106,7 +106,7 @@
       "2022-03-31 00:00:00": -106436000.0
     },
     "Diluted Average Shares": {
-      "2025-03-31 00:00:00": null,
+      "2025-03-31 00:00:00": 19825172.0,
       "2024-03-31 00:00:00": 14307581.0,
       "2023-03-31 00:00:00": 14293921.0,
       "2022-03-31 00:00:00": 11889733.0
@@ -118,13 +118,13 @@
       "2022-03-31 00:00:00": 11889733.0
     },
     "Diluted EPS": {
-      "2025-03-31 00:00:00": null,
+      "2025-03-31 00:00:00": 21.77,
       "2024-03-31 00:00:00": -24.58,
       "2023-03-31 00:00:00": -8.06,
       "2022-03-31 00:00:00": -13.3
     },
     "Basic EPS": {
-      "2025-03-31 00:00:00": null,
+      "2025-03-31 00:00:00": 25.44,
       "2024-03-31 00:00:00": -24.58,
       "2023-03-31 00:00:00": -8.06,
       "2022-03-31 00:00:00": -13.3
@@ -1004,12 +1004,12 @@
     "exDividendDate": 1756339200,
     "payoutRatio": 0.0842,
     "beta": -0.685,
-    "trailingPE": 3.3958893,
+    "trailingPE": 3.201348,
     "volume": 338100,
     "regularMarketVolume": 338100,
-    "averageVolume": 171665,
-    "averageVolume10days": 243530,
-    "averageDailyVolume10Day": 243530,
+    "averageVolume": 175978,
+    "averageVolume10days": 261310,
+    "averageDailyVolume10Day": 261310,
     "bid": 75.0,
     "ask": 76.0,
     "bidSize": 0,
@@ -1017,15 +1017,15 @@
     "marketCap": 2173797376,
     "nonDilutedMarketCap": 5205672654,
     "fiftyTwoWeekLow": 74.0,
-    "fiftyTwoWeekHigh": 667.0,
+    "fiftyTwoWeekHigh": 665.0,
     "allTimeHigh": 997.0,
     "allTimeLow": 71.0,
     "fulldayPrice": 76.0,
     "fulldayChange": -6.0,
     "fulldayChangePercent": -7.317073,
     "priceToSalesTrailing12Months": 0.9058748,
-    "fiftyDayAverage": 142.38,
-    "twoHundredDayAverage": 243.425,
+    "fiftyDayAverage": 140.9,
+    "twoHundredDayAverage": 241.515,
     "trailingAnnualDividendRate": 3.6,
     "trailingAnnualDividendYield": 0.043902438,
     "currency": "JPY",
@@ -1043,11 +1043,11 @@
     "nextFiscalYearEnd": 1788134400,
     "mostRecentQuarter": 1772236800,
     "netIncomeToCommon": 262666560,
-    "trailingEps": 22.38,
+    "trailingEps": 23.74,
     "enterpriseToRevenue": 1.02,
     "enterpriseToEbitda": 5.017,
-    "52WeekChange": -0.87519026,
-    "SandP52WeekChange": 0.12835395,
+    "52WeekChange": -0.8839695,
+    "SandP52WeekChange": 0.10887313,
     "lastDividendValue": 1.5,
     "lastDividendDate": 1756339200,
     "quoteType": "EQUITY",
@@ -1075,7 +1075,7 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "marketState": "CLOSED",
+    "corporateActions": [],
     "regularMarketTime": 1792737000,
     "exchange": "JPX",
     "messageBoardId": "finmb_10203781",
@@ -1093,27 +1093,27 @@
     "regularMarketPrice": 76.0,
     "regularMarketDayRange": "74.0 - 80.0",
     "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 171665,
+    "averageDailyVolume3Month": 175978,
     "fiftyTwoWeekLowChange": 2.0,
     "fiftyTwoWeekLowChangePercent": 0.027027028,
-    "fiftyTwoWeekRange": "74.0 - 667.0",
-    "fiftyTwoWeekHighChange": -591.0,
-    "fiftyTwoWeekHighChangePercent": -0.88605696,
-    "fiftyTwoWeekChangePercent": -87.51903,
+    "fiftyTwoWeekRange": "74.0 - 665.0",
+    "fiftyTwoWeekHighChange": -589.0,
+    "fiftyTwoWeekHighChangePercent": -0.8857143,
+    "fiftyTwoWeekChangePercent": -88.39695,
     "earningsTimestampStart": 1747294200,
     "earningsTimestampEnd": 1747294200,
     "isEarningsDateEstimate": false,
-    "epsTrailingTwelveMonths": 22.38,
-    "fiftyDayAverageChange": -66.380005,
-    "fiftyDayAverageChangePercent": -0.4662172,
-    "twoHundredDayAverageChange": -167.425,
-    "twoHundredDayAverageChangePercent": -0.68778884,
+    "epsTrailingTwelveMonths": 23.74,
+    "fiftyDayAverageChange": -64.899994,
+    "fiftyDayAverageChangePercent": -0.46061033,
+    "twoHundredDayAverageChange": -165.515,
+    "twoHundredDayAverageChangePercent": -0.6853198,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "prevName": "Ishigaki Foods Co.,Ltd.",
-    "nameChangeDate": "2026-10-23",
+    "nameChangeDate": "2026-10-24",
     "cryptoTradeable": false,
-    "corporateActions": [],
+    "marketState": "CLOSED",
     "trailingPegRatio": null
   }
 }
