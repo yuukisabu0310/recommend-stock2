@@ -1,7 +1,7 @@
 {
   "ticker": "1992",
   "japanese_ticker": "1992.T",
-  "fetch_date": "2026-10-25T00:47:25.301611",
+  "fetch_date": "2026-10-26T00:58:27.772760",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": 28276125.0,
@@ -1096,8 +1096,8 @@
     "averageVolume": 251,
     "averageVolume10days": 100,
     "averageDailyVolume10Day": 100,
-    "bid": 2916.0,
-    "ask": 2950.0,
+    "bid": 0.0,
+    "ask": 2972.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 6639993856,
@@ -1174,9 +1174,14 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "longName": "Kanda Tsushinki Co., Ltd.",
-    "marketState": "CLOSED",
-    "shortName": "KANDA TSUSHINKI CO",
+    "fiftyDayAverageChange": -54.600098,
+    "fiftyDayAverageChangePercent": -0.018479692,
+    "twoHundredDayAverageChange": 31.824951,
+    "twoHundredDayAverageChangePercent": 0.011095889,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
+    "marketState": "REGULAR",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 946944000000,
     "regularMarketChange": 0.0,
@@ -1195,13 +1200,8 @@
     "earningsTimestampEnd": 1747031400,
     "isEarningsDateEstimate": false,
     "epsTrailingTwelveMonths": 100.58,
-    "fiftyDayAverageChange": -54.600098,
-    "fiftyDayAverageChangePercent": -0.018479692,
-    "twoHundredDayAverageChange": 31.824951,
-    "twoHundredDayAverageChangePercent": 0.011095889,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
+    "shortName": "KANDA TSUSHINKI CO",
+    "longName": "Kanda Tsushinki Co., Ltd.",
     "trailingPegRatio": null
   }
 }

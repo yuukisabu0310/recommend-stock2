@@ -1,7 +1,7 @@
 {
   "ticker": "1787",
   "japanese_ticker": "1787.T",
-  "fetch_date": "2026-10-25T00:44:29.272385",
+  "fetch_date": "2026-10-26T00:55:15.154769",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": 53487268.4,
@@ -106,25 +106,25 @@
       "2023-03-31 00:00:00": 1246816000.0
     },
     "Diluted Average Shares": {
-      "2026-03-31 00:00:00": 2458000.0,
+      "2026-03-31 00:00:00": 2452013.0,
       "2025-03-31 00:00:00": 2460349.0,
       "2024-03-31 00:00:00": 2462000.0,
       "2023-03-31 00:00:00": 2463667.0
     },
     "Basic Average Shares": {
-      "2026-03-31 00:00:00": 2458000.0,
+      "2026-03-31 00:00:00": 2452013.0,
       "2025-03-31 00:00:00": 2460349.0,
       "2024-03-31 00:00:00": 2462000.0,
       "2023-03-31 00:00:00": 2463667.0
     },
     "Diluted EPS": {
-      "2026-03-31 00:00:00": 425.54,
+      "2026-03-31 00:00:00": 483.768235,
       "2025-03-31 00:00:00": 425.63555,
       "2024-03-31 00:00:00": 339.09,
       "2023-03-31 00:00:00": 365.0
     },
     "Basic EPS": {
-      "2026-03-31 00:00:00": 425.54,
+      "2026-03-31 00:00:00": 483.768235,
       "2025-03-31 00:00:00": 425.63555,
       "2024-03-31 00:00:00": 339.09,
       "2023-03-31 00:00:00": 365.0
@@ -987,8 +987,8 @@
     "averageVolume": 405,
     "averageVolume10days": 360,
     "averageDailyVolume10Day": 360,
-    "bid": 0.0,
-    "ask": 5600.0,
+    "bid": 5460.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 11909199872,
@@ -1055,7 +1055,11 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "marketState": "CLOSED",
+    "marketState": "REGULAR",
+    "corporateActions": [],
+    "shortName": "NAKABOHTEC CORROSION PROTECTING",
+    "longName": "Nakabohtec Corrosion Protecting Co.,Ltd.",
+    "regularMarketTime": 1792718756,
     "exchange": "JPX",
     "messageBoardId": "finmb_5774228",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1063,10 +1067,6 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "corporateActions": [],
-    "regularMarketTime": 1792718756,
-    "longName": "Nakabohtec Corrosion Protecting Co.,Ltd.",
-    "shortName": "NAKABOHTEC CORROSION PROTECTING",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 946944000000,
     "regularMarketChange": 0.0,

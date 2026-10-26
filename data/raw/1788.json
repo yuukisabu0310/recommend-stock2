@@ -1,21 +1,21 @@
 {
   "ticker": "1788",
   "japanese_ticker": "1788.T",
-  "fetch_date": "2026-10-25T00:44:31.093505",
+  "fetch_date": "2026-10-26T00:55:16.935405",
   "financials": {
     "Tax Effect Of Unusual Items": {
-      "2026-06-30 00:00:00": null,
-      "2025-06-30 00:00:00": 3723428.0,
+      "2026-06-30 00:00:00": -767546.0,
+      "2025-06-30 00:00:00": 3766639.634392,
       "2024-06-30 00:00:00": -1906646.53889,
       "2023-06-30 00:00:00": -168136.2,
-      "2022-06-30 00:00:00": 1910917.8
+      "2022-06-30 00:00:00": null
     },
     "Tax Rate For Calcs": {
-      "2026-06-30 00:00:00": null,
-      "2025-06-30 00:00:00": 0.316,
+      "2026-06-30 00:00:00": 0.3445,
+      "2025-06-30 00:00:00": 0.319667,
       "2024-06-30 00:00:00": 0.313748,
       "2023-06-30 00:00:00": 0.3221,
-      "2022-06-30 00:00:00": 0.3399
+      "2022-06-30 00:00:00": null
     },
     "Normalized EBITDA": {
       "2026-06-30 00:00:00": 539082000.0,
@@ -95,11 +95,11 @@
       "2022-06-30 00:00:00": 210000.0
     },
     "Normalized Income": {
-      "2026-06-30 00:00:00": null,
-      "2025-06-30 00:00:00": 223121428.0,
+      "2026-06-30 00:00:00": 296466454.0,
+      "2025-06-30 00:00:00": 223164639.634392,
       "2024-06-30 00:00:00": 136484353.46111,
       "2023-06-30 00:00:00": 225703863.8,
-      "2022-06-30 00:00:00": 182690917.8
+      "2022-06-30 00:00:00": null
     },
     "Net Income From Continuing And Discontinued Operation": {
       "2026-06-30 00:00:00": 295006000.0,
@@ -222,10 +222,10 @@
     },
     "Other Non Operating Income Expenses": {
       "2026-06-30 00:00:00": 4283000.0,
-      "2025-06-30 00:00:00": null,
+      "2025-06-30 00:00:00": 7624000.0,
       "2024-06-30 00:00:00": 5502000.0,
       "2023-06-30 00:00:00": -383000.0,
-      "2022-06-30 00:00:00": 20385000.0
+      "2022-06-30 00:00:00": null
     },
     "Special Income Charges": {
       "2026-06-30 00:00:00": -2228000.0,
@@ -721,10 +721,10 @@
     },
     "Gross PPE": {
       "2026-06-30 00:00:00": 884925000.0,
-      "2025-06-30 00:00:00": null,
+      "2025-06-30 00:00:00": 847682000.0,
       "2024-06-30 00:00:00": 2458103000.0,
       "2023-06-30 00:00:00": 2410956000.0,
-      "2022-06-30 00:00:00": 2328103000.0
+      "2022-06-30 00:00:00": null
     },
     "Construction In Progress": {
       "2026-06-30 00:00:00": 0.0,
@@ -735,24 +735,24 @@
     },
     "Other Properties": {
       "2026-06-30 00:00:00": 33019000.0,
-      "2025-06-30 00:00:00": null,
+      "2025-06-30 00:00:00": 29982000.0,
       "2024-06-30 00:00:00": 130355000.0,
       "2023-06-30 00:00:00": 126017000.0,
       "2022-06-30 00:00:00": null
     },
     "Machinery Furniture Equipment": {
       "2026-06-30 00:00:00": 124193000.0,
-      "2025-06-30 00:00:00": null,
+      "2025-06-30 00:00:00": 129089000.0,
       "2024-06-30 00:00:00": 1179822000.0,
       "2023-06-30 00:00:00": 1157346000.0,
-      "2022-06-30 00:00:00": 1211077000.0
+      "2022-06-30 00:00:00": null
     },
     "Buildings And Improvements": {
       "2026-06-30 00:00:00": 274887000.0,
-      "2025-06-30 00:00:00": null,
+      "2025-06-30 00:00:00": 276781000.0,
       "2024-06-30 00:00:00": 735300000.0,
       "2023-06-30 00:00:00": 724809000.0,
-      "2022-06-30 00:00:00": 725712000.0
+      "2022-06-30 00:00:00": null
     },
     "Land And Improvements": {
       "2026-06-30 00:00:00": 452826000.0,
@@ -777,10 +777,10 @@
     },
     "Other Current Assets": {
       "2026-06-30 00:00:00": 29847000.0,
-      "2025-06-30 00:00:00": null,
+      "2025-06-30 00:00:00": 52304000.0,
       "2024-06-30 00:00:00": 54708000.0,
       "2023-06-30 00:00:00": 120275000.0,
-      "2022-06-30 00:00:00": 48718000.0
+      "2022-06-30 00:00:00": null
     },
     "Prepaid Assets": {
       "2026-06-30 00:00:00": null,
@@ -819,17 +819,17 @@
     },
     "Accounts Receivable": {
       "2026-06-30 00:00:00": 1605062000.0,
-      "2025-06-30 00:00:00": null,
+      "2025-06-30 00:00:00": 1983581000.0,
       "2024-06-30 00:00:00": 1406359000.0,
       "2023-06-30 00:00:00": 1126861000.0,
-      "2022-06-30 00:00:00": 902650000.0
+      "2022-06-30 00:00:00": null
     },
     "Gross Accounts Receivable": {
       "2026-06-30 00:00:00": 1605062000.0,
-      "2025-06-30 00:00:00": null,
+      "2025-06-30 00:00:00": 1983581000.0,
       "2024-06-30 00:00:00": 1406359000.0,
       "2023-06-30 00:00:00": 1126861000.0,
-      "2022-06-30 00:00:00": 902650000.0
+      "2022-06-30 00:00:00": null
     },
     "Cash Cash Equivalents And Short Term Investments": {
       "2026-06-30 00:00:00": 2697398000.0,
@@ -1155,44 +1155,44 @@
     "executiveTeam": [],
     "maxAge": 86400,
     "priceHint": 2,
-    "previousClose": 4100.0,
-    "open": 4065.0,
-    "dayLow": 4050.0,
-    "dayHigh": 4065.0,
-    "regularMarketPreviousClose": 4100.0,
-    "regularMarketOpen": 4065.0,
-    "regularMarketDayLow": 4050.0,
-    "regularMarketDayHigh": 4065.0,
+    "previousClose": 4050.0,
+    "open": 4090.0,
+    "dayLow": 4090.0,
+    "dayHigh": 4090.0,
+    "regularMarketPreviousClose": 4050.0,
+    "regularMarketOpen": 4090.0,
+    "regularMarketDayLow": 4090.0,
+    "regularMarketDayHigh": 4090.0,
     "dividendRate": 160.0,
     "dividendYield": 3.95,
     "exDividendDate": 1814227200,
     "payoutRatio": 0.14850001,
     "fiveYearAvgDividendYield": 1.73,
     "beta": 0.076,
-    "trailingPE": 8.593982,
-    "volume": 300,
-    "regularMarketVolume": 300,
+    "trailingPE": 8.678861,
+    "volume": 100,
+    "regularMarketVolume": 100,
     "averageVolume": 385,
     "averageVolume10days": 288,
     "averageDailyVolume10Day": 288,
-    "bid": 4060.0,
-    "ask": 4100.0,
+    "bid": 4050.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
-    "marketCap": 2541990656,
+    "marketCap": 2567096576,
     "nonDilutedMarketCap": 2613794400,
     "fiftyTwoWeekLow": 4035.0,
     "fiftyTwoWeekHigh": 6400.0,
     "allTimeHigh": 6400.0,
     "allTimeLow": 490.0,
-    "fulldayPrice": 4050.0,
-    "fulldayChange": -50.0,
-    "fulldayChangePercent": -1.2195121,
-    "priceToSalesTrailing12Months": 0.24489312,
+    "fulldayPrice": 4090.0,
+    "fulldayChange": 40.0,
+    "fulldayChangePercent": 0.9876543,
+    "priceToSalesTrailing12Months": 0.2473118,
     "fiftyDayAverage": 4136.5,
     "twoHundredDayAverage": 4689.425,
     "trailingAnnualDividendRate": 70.0,
-    "trailingAnnualDividendYield": 0.017073171,
+    "trailingAnnualDividendYield": 0.01728395,
     "currency": "JPY",
     "tradeable": false,
     "enterpriseValue": -59009400,
@@ -1203,7 +1203,7 @@
     "heldPercentInstitutions": 0.04082,
     "impliedSharesOutstanding": 627652,
     "bookValue": 6054.061,
-    "priceToBook": 0.66897243,
+    "priceToBook": 0.6755796,
     "lastFiscalYearEnd": 1782777600,
     "nextFiscalYearEnd": 1814313600,
     "mostRecentQuarter": 1782777600,
@@ -1218,7 +1218,7 @@
     "lastDividendValue": 80.0,
     "lastDividendDate": 1814227200,
     "quoteType": "EQUITY",
-    "currentPrice": 4050.0,
+    "currentPrice": 4090.0,
     "recommendationKey": "none",
     "totalCash": 2696999936,
     "totalCashPerShare": 4296.967,
@@ -1246,10 +1246,6 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "shortName": "SANTO CORPORATION",
-    "longName": "Santo Corporation",
-    "corporateActions": [],
-    "regularMarketTime": 1792714127,
     "exchange": "JPX",
     "messageBoardId": "finmb_5827070",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1257,33 +1253,37 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
+    "marketState": "REGULAR",
+    "corporateActions": [],
+    "regularMarketTime": 1792972800,
+    "shortName": "SANTO CORPORATION",
+    "longName": "Santo Corporation",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 947116800000,
-    "regularMarketChange": -50.0,
-    "regularMarketChangePercent": -1.2195121,
-    "regularMarketPrice": 4050.0,
-    "regularMarketDayRange": "4050.0 - 4065.0",
+    "regularMarketChange": 40.0,
+    "regularMarketChangePercent": 0.9876543,
+    "regularMarketPrice": 4090.0,
+    "regularMarketDayRange": "4090.0 - 4090.0",
     "fullExchangeName": "Tokyo",
     "averageDailyVolume3Month": 385,
-    "fiftyTwoWeekLowChange": 15.0,
-    "fiftyTwoWeekLowChangePercent": 0.003717472,
+    "fiftyTwoWeekLowChange": 55.0,
+    "fiftyTwoWeekLowChangePercent": 0.013630731,
     "fiftyTwoWeekRange": "4035.0 - 6400.0",
-    "marketState": "CLOSED",
-    "fiftyTwoWeekHighChange": -2350.0,
-    "fiftyTwoWeekHighChangePercent": -0.3671875,
+    "fiftyTwoWeekHighChange": -2310.0,
+    "fiftyTwoWeekHighChangePercent": -0.3609375,
     "fiftyTwoWeekChangePercent": -10.099888,
     "earningsTimestampStart": 1746597600,
     "earningsTimestampEnd": 1746597600,
     "isEarningsDateEstimate": false,
     "epsTrailingTwelveMonths": 471.26,
-    "fiftyDayAverageChange": -86.5,
-    "fiftyDayAverageChangePercent": -0.0209114,
-    "twoHundredDayAverageChange": -639.4248,
-    "twoHundredDayAverageChangePercent": -0.13635464,
+    "fiftyDayAverageChange": -46.5,
+    "fiftyDayAverageChangePercent": -0.011241388,
+    "twoHundredDayAverageChange": -599.4248,
+    "twoHundredDayAverageChangePercent": -0.1278248,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "prevName": "Santo Co.,Ltd.",
-    "nameChangeDate": "2026-10-24",
+    "nameChangeDate": "2026-10-25",
     "cryptoTradeable": false,
     "trailingPegRatio": null
   }

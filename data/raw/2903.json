@@ -1,19 +1,19 @@
 {
   "ticker": "2903",
   "japanese_ticker": "2903.T",
-  "fetch_date": "2026-10-25T00:56:56.351342",
+  "fetch_date": "2026-10-26T01:08:58.739162",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": -7878000.0,
       "2025-03-31 00:00:00": -268035000.0,
       "2024-03-31 00:00:00": -220009600.0,
-      "2023-03-31 00:00:00": -332920000.0
+      "2023-03-31 00:00:00": -426769000.0
     },
     "Tax Rate For Calcs": {
       "2026-03-31 00:00:00": 0.2626,
       "2025-03-31 00:00:00": 0.2675,
       "2024-03-31 00:00:00": 0.2792,
-      "2023-03-31 00:00:00": 0.232
+      "2023-03-31 00:00:00": 0.2974
     },
     "Normalized EBITDA": {
       "2026-03-31 00:00:00": 3960000000.0,
@@ -85,7 +85,7 @@
       "2026-03-31 00:00:00": 1720122000.0,
       "2025-03-31 00:00:00": 1729965000.0,
       "2024-03-31 00:00:00": 1734990400.0,
-      "2023-03-31 00:00:00": 1205080000.0
+      "2023-03-31 00:00:00": 1111231000.0
     },
     "Net Income From Continuing And Discontinued Operation": {
       "2026-03-31 00:00:00": 1698000000.0,
@@ -106,7 +106,7 @@
       "2023-03-31 00:00:00": 1876000000.0
     },
     "Diluted Average Shares": {
-      "2026-03-31 00:00:00": 11421269.0,
+      "2026-03-31 00:00:00": 11353076.0,
       "2025-03-31 00:00:00": 12143038.0,
       "2024-03-31 00:00:00": 12385905.0,
       "2023-03-31 00:00:00": 12469734.0
@@ -118,7 +118,7 @@
       "2023-03-31 00:00:00": 12375055.0
     },
     "Diluted EPS": {
-      "2026-03-31 00:00:00": 148.67,
+      "2026-03-31 00:00:00": 149.62,
       "2025-03-31 00:00:00": 82.1,
       "2024-03-31 00:00:00": 94.22,
       "2023-03-31 00:00:00": 8.26
@@ -1045,11 +1045,11 @@
     "executiveTeam": [],
     "maxAge": 86400,
     "priceHint": 2,
-    "previousClose": 1570.0,
+    "previousClose": 1550.0,
     "open": 1550.0,
     "dayLow": 1550.0,
     "dayHigh": 1550.0,
-    "regularMarketPreviousClose": 1570.0,
+    "regularMarketPreviousClose": 1550.0,
     "regularMarketOpen": 1550.0,
     "regularMarketDayLow": 1550.0,
     "regularMarketDayHigh": 1550.0,
@@ -1065,8 +1065,8 @@
     "averageVolume": 2621,
     "averageVolume10days": 2560,
     "averageDailyVolume10Day": 2560,
-    "bid": 1550.0,
-    "ask": 1590.0,
+    "bid": 0.0,
+    "ask": 1603.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 16426774528,
@@ -1076,13 +1076,13 @@
     "allTimeHigh": 2119.0,
     "allTimeLow": 119.0,
     "fulldayPrice": 1550.0,
-    "fulldayChange": -20.0,
-    "fulldayChangePercent": -1.2738854,
+    "fulldayChange": 0.0,
+    "fulldayChangePercent": 0.0,
     "priceToSalesTrailing12Months": 0.26413003,
     "fiftyDayAverage": 1582.12,
     "twoHundredDayAverage": 1641.44,
     "trailingAnnualDividendRate": 32.0,
-    "trailingAnnualDividendYield": 0.020382166,
+    "trailingAnnualDividendYield": 0.020645162,
     "currency": "JPY",
     "tradeable": false,
     "enterpriseValue": 17092114432,
@@ -1134,20 +1134,12 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "corporateActions": [],
-    "regularMarketTime": 1792722140,
-    "exchange": "JPX",
-    "messageBoardId": "finmb_5555119",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
-    "marketState": "CLOSED",
+    "shortName": "SHINOBU FOOD PRODUCTS CO",
+    "longName": "Shinobu Foods Products Co., Ltd.",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 954806400000,
-    "regularMarketChange": -20.0,
-    "regularMarketChangePercent": -1.2738854,
+    "regularMarketChange": 0.0,
+    "regularMarketChangePercent": 0.0,
     "regularMarketPrice": 1550.0,
     "regularMarketDayRange": "1550.0 - 1550.0",
     "fullExchangeName": "Tokyo",
@@ -1158,6 +1150,10 @@
     "fiftyTwoWeekHighChange": -569.0,
     "fiftyTwoWeekHighChangePercent": -0.2685229,
     "fiftyTwoWeekChangePercent": 2.71703,
+    "corporateActions": [],
+    "regularMarketTime": 1792722140,
+    "marketState": "REGULAR",
+    "cryptoTradeable": false,
     "earningsTimestampStart": 1746766800,
     "earningsTimestampEnd": 1746766800,
     "isEarningsDateEstimate": false,
@@ -1168,9 +1164,13 @@
     "twoHundredDayAverageChangePercent": -0.05570715,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
-    "shortName": "SHINOBU FOOD PRODUCTS CO",
-    "longName": "Shinobu Foods Products Co., Ltd.",
+    "exchange": "JPX",
+    "messageBoardId": "finmb_5555119",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
     "trailingPegRatio": null
   }
 }

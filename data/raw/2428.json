@@ -1,7 +1,7 @@
 {
   "ticker": "2428",
   "japanese_ticker": "2428.T",
-  "fetch_date": "2026-10-25T00:51:59.455744",
+  "fetch_date": "2026-10-26T01:03:31.414767",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-06-30 00:00:00": 3057440.343817,
@@ -123,32 +123,32 @@
       "2022-06-30 00:00:00": 735886000.0
     },
     "Diluted Average Shares": {
-      "2026-06-30 00:00:00": null,
+      "2026-06-30 00:00:00": 19024002.0,
       "2025-06-30 00:00:00": 18960281.0,
       "2024-06-30 00:00:00": 19039590.0,
       "2023-06-30 00:00:00": 19004306.0,
-      "2022-06-30 00:00:00": 18906821.0
+      "2022-06-30 00:00:00": null
     },
     "Basic Average Shares": {
-      "2026-06-30 00:00:00": null,
+      "2026-06-30 00:00:00": 18892638.0,
       "2025-06-30 00:00:00": 18725430.0,
       "2024-06-30 00:00:00": 18891592.0,
       "2023-06-30 00:00:00": 18866323.0,
-      "2022-06-30 00:00:00": 18841127.0
+      "2022-06-30 00:00:00": null
     },
     "Diluted EPS": {
-      "2026-06-30 00:00:00": null,
+      "2026-06-30 00:00:00": 56.87,
       "2025-06-30 00:00:00": 56.85,
       "2024-06-30 00:00:00": 43.95,
       "2023-06-30 00:00:00": 33.44,
-      "2022-06-30 00:00:00": 28.15
+      "2022-06-30 00:00:00": null
     },
     "Basic EPS": {
-      "2026-06-30 00:00:00": null,
+      "2026-06-30 00:00:00": 57.27,
       "2025-06-30 00:00:00": 57.56,
       "2024-06-30 00:00:00": 44.29,
       "2023-06-30 00:00:00": 33.68,
-      "2022-06-30 00:00:00": 28.25
+      "2022-06-30 00:00:00": null
     },
     "Diluted NI Availto Com Stockholders": {
       "2026-06-30 00:00:00": 1081895000.0,
@@ -208,10 +208,10 @@
     },
     "Other Non Operating Income Expenses": {
       "2026-06-30 00:00:00": 52885000.0,
-      "2025-06-30 00:00:00": null,
+      "2025-06-30 00:00:00": 4025000.0,
       "2024-06-30 00:00:00": 6156000.0,
       "2023-06-30 00:00:00": 7023000.0,
-      "2022-06-30 00:00:00": 12661000.0
+      "2022-06-30 00:00:00": null
     },
     "Special Income Charges": {
       "2026-06-30 00:00:00": 1128000.0,
@@ -1060,14 +1060,14 @@
     "executiveTeam": [],
     "maxAge": 86400,
     "priceHint": 2,
-    "previousClose": 616.0,
-    "open": 616.0,
+    "previousClose": 612.0,
+    "open": 612.0,
     "dayLow": 611.0,
-    "dayHigh": 619.0,
-    "regularMarketPreviousClose": 616.0,
-    "regularMarketOpen": 616.0,
+    "dayHigh": 614.0,
+    "regularMarketPreviousClose": 612.0,
+    "regularMarketOpen": 612.0,
     "regularMarketDayLow": 611.0,
-    "regularMarketDayHigh": 619.0,
+    "regularMarketDayHigh": 614.0,
     "dividendRate": 29.5,
     "dividendYield": 4.82,
     "exDividendDate": 1798502400,
@@ -1076,13 +1076,13 @@
     "beta": 0.193,
     "trailingPE": 10.761386,
     "forwardPE": 12.697095,
-    "volume": 76700,
-    "regularMarketVolume": 76700,
+    "volume": 4500,
+    "regularMarketVolume": 4500,
     "averageVolume": 44170,
     "averageVolume10days": 44680,
     "averageDailyVolume10Day": 44680,
-    "bid": 612.0,
-    "ask": 613.0,
+    "bid": 611.0,
+    "ask": 612.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 11610582016,
@@ -1092,13 +1092,13 @@
     "allTimeHigh": 8490.0,
     "allTimeLow": 2.65,
     "fulldayPrice": 612.0,
-    "fulldayChange": -4.0,
-    "fulldayChangePercent": -0.64935064,
+    "fulldayChange": 0.0,
+    "fulldayChangePercent": 0.0,
     "priceToSalesTrailing12Months": 1.1541817,
     "fiftyDayAverage": 625.64,
     "twoHundredDayAverage": 637.54,
     "trailingAnnualDividendRate": 29.5,
-    "trailingAnnualDividendYield": 0.04788961,
+    "trailingAnnualDividendYield": 0.048202615,
     "currency": "JPY",
     "tradeable": false,
     "enterpriseValue": -211539520,
@@ -1155,6 +1155,8 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "corporateActions": [],
+    "regularMarketTime": 1792975700,
     "exchange": "JPX",
     "messageBoardId": "finmb_13406042",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1164,13 +1166,16 @@
     "esgPopulated": false,
     "shortName": "WELLNET CORP",
     "longName": "Wellnet Corporation",
-    "marketState": "CLOSED",
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 20,
+    "cryptoTradeable": false,
+    "marketState": "REGULAR",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1056067200000,
-    "regularMarketChange": -4.0,
-    "regularMarketChangePercent": -0.64935064,
+    "regularMarketChange": 0.0,
+    "regularMarketChangePercent": 0.0,
     "regularMarketPrice": 612.0,
-    "regularMarketDayRange": "611.0 - 619.0",
+    "regularMarketDayRange": "611.0 - 614.0",
     "fullExchangeName": "Tokyo",
     "averageDailyVolume3Month": 44170,
     "fiftyTwoWeekLowChange": 17.0,
@@ -1188,11 +1193,6 @@
     "fiftyDayAverageChangePercent": -0.021801697,
     "twoHundredDayAverageChange": -25.539978,
     "twoHundredDayAverageChangePercent": -0.0400602,
-    "sourceInterval": 15,
-    "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
-    "corporateActions": [],
-    "regularMarketTime": 1792737000,
     "trailingPegRatio": null
   }
 }

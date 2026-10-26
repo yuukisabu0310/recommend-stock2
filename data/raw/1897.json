@@ -1,7 +1,7 @@
 {
   "ticker": "1897",
   "japanese_ticker": "1897.T",
-  "fetch_date": "2026-10-25T00:45:59.575509",
+  "fetch_date": "2026-10-26T00:56:54.072444",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-12-31 00:00:00": 3168000.0,
@@ -1095,7 +1095,7 @@
     "averageVolume10days": 230,
     "averageDailyVolume10Day": 230,
     "bid": 3360.0,
-    "ask": 3550.0,
+    "ask": 3695.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 7219789824,
@@ -1165,8 +1165,6 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "shortName": "KANESHITA CONSTRUCTION CO",
-    "longName": "The Kaneshita Construction Co.,Ltd.",
     "corporateActions": [],
     "regularMarketTime": 1792636200,
     "exchange": "JPX",
@@ -1176,7 +1174,8 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "marketState": "CLOSED",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 954806400000,
     "regularMarketChange": 0.0,
     "regularMarketChangePercent": 0.0,
     "regularMarketPrice": 3430.0,
@@ -1193,6 +1192,9 @@
     "earningsTimestampEnd": 1754965800,
     "isEarningsDateEstimate": true,
     "epsTrailingTwelveMonths": 192.39,
+    "marketState": "REGULAR",
+    "shortName": "KANESHITA CONSTRUCTION CO",
+    "longName": "The Kaneshita Construction Co.,Ltd.",
     "fiftyDayAverageChange": -32.600098,
     "fiftyDayAverageChangePercent": -0.009414919,
     "twoHundredDayAverageChange": 142.99512,
@@ -1200,8 +1202,6 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 954806400000,
     "trailingPegRatio": null
   }
 }
