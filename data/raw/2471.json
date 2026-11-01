@@ -1,7 +1,7 @@
 {
   "ticker": "2471",
   "japanese_ticker": "2471.T",
-  "fetch_date": "2026-10-31T02:07:26.465722",
+  "fetch_date": "2026-11-01T01:53:00.703256",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-11-30 00:00:00": 0.0,
@@ -1189,7 +1189,7 @@
     "forwardPE": 9.40171,
     "volume": 590100,
     "regularMarketVolume": 590100,
-    "averageVolume": 407806,
+    "averageVolume": 403848,
     "averageVolume10days": 665660,
     "averageDailyVolume10Day": 665660,
     "bid": 230.0,
@@ -1232,8 +1232,8 @@
     "lastSplitDate": 1569542400,
     "enterpriseToRevenue": 1.702,
     "enterpriseToEbitda": 7.244,
-    "52WeekChange": -0.18374556,
-    "SandP52WeekChange": 0.10816491,
+    "52WeekChange": -0.19512194,
+    "SandP52WeekChange": 0.10626137,
     "lastDividendValue": 10.0,
     "lastDividendDate": 1795737600,
     "quoteType": "EQUITY",
@@ -1267,20 +1267,8 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1139529600000,
-    "corporateActions": [
-      {
-        "header": "Dividend",
-        "message": "2471.T announced a cash dividend of JPY 10.00 with an ex-date of Nov. 27, 2026",
-        "meta": {
-          "eventType": "DIVIDEND",
-          "dateEpochMs": 1795705200000,
-          "amount": "10.00"
-        }
-      }
-    ],
-    "regularMarketTime": 1793341800,
+    "shortName": "S-POOL INC",
+    "longName": "S-Pool, Inc.",
     "exchange": "JPX",
     "messageBoardId": "finmb_25524801",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1288,19 +1276,13 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "marketState": "CLOSED",
-    "regularMarketChange": 0.0,
-    "regularMarketChangePercent": 0.0,
-    "regularMarketPrice": 231.0,
-    "regularMarketDayRange": "227.0 - 235.0",
-    "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 407806,
+    "averageDailyVolume3Month": 403848,
     "fiftyTwoWeekLowChange": 9.0,
     "fiftyTwoWeekLowChangePercent": 0.04054054,
     "fiftyTwoWeekRange": "222.0 - 306.0",
     "fiftyTwoWeekHighChange": -75.0,
     "fiftyTwoWeekHighChangePercent": -0.24509804,
-    "fiftyTwoWeekChangePercent": -18.374556,
+    "fiftyTwoWeekChangePercent": -19.512194,
     "earningsTimestampStart": 1752127200,
     "earningsTimestampEnd": 1752472800,
     "isEarningsDateEstimate": true,
@@ -1314,8 +1296,26 @@
     "exchangeDataDelayedBy": 20,
     "averageAnalystRating": "0.0 - Strong Buy",
     "cryptoTradeable": false,
-    "shortName": "S-POOL INC",
-    "longName": "S-Pool, Inc.",
+    "corporateActions": [
+      {
+        "header": "Dividend",
+        "message": "2471.T announced a cash dividend of JPY 10.00 with an ex-date of Nov. 27, 2026",
+        "meta": {
+          "eventType": "DIVIDEND",
+          "dateEpochMs": 1795705200000,
+          "amount": "10.00"
+        }
+      }
+    ],
+    "regularMarketTime": 1793341800,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1139529600000,
+    "regularMarketChange": 0.0,
+    "regularMarketChangePercent": 0.0,
+    "regularMarketPrice": 231.0,
+    "regularMarketDayRange": "227.0 - 235.0",
+    "fullExchangeName": "Tokyo",
+    "marketState": "CLOSED",
     "trailingPegRatio": null
   }
 }
