@@ -1,7 +1,7 @@
 {
   "ticker": "2795",
   "japanese_ticker": "2795.T",
-  "fetch_date": "2026-11-01T01:56:24.387207",
+  "fetch_date": "2026-11-02T02:13:10.057591",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": 0.0,
@@ -955,7 +955,7 @@
     "averageVolume10days": 240,
     "averageDailyVolume10Day": 240,
     "bid": 969.0,
-    "ask": 980.0,
+    "ask": 0.0,
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 5069334016,
@@ -1024,9 +1024,6 @@
     "customPriceAlertConfidence": "LOW",
     "shortName": "NIPPON PRIMEX INC",
     "longName": "Nippon Primex Inc.",
-    "marketState": "CLOSED",
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1076630400000,
     "regularMarketChange": 0.0,
     "regularMarketChangePercent": 0.0,
     "regularMarketPrice": 980.0,
@@ -1059,6 +1056,9 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
+    "marketState": "REGULAR",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1076630400000,
     "trailingPegRatio": null
   }
 }
