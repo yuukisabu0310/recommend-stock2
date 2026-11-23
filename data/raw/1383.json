@@ -1,7 +1,7 @@
 {
   "ticker": "1383",
   "japanese_ticker": "1383.T",
-  "fetch_date": "2026-11-22T02:46:08.907342",
+  "fetch_date": "2026-11-23T03:23:55.862649",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-10-31 00:00:00": 53702410.2,
@@ -1114,10 +1114,16 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "exchange": "JPX",
+    "marketState": "CLOSED",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1322524800000,
     "regularMarketChange": -50.0,
     "regularMarketChangePercent": -1.6129031,
     "regularMarketPrice": 3050.0,
     "regularMarketDayRange": "3020.0 - 3105.0",
+    "shortName": "BERG EARTH CO LTD",
+    "longName": "Berg Earth Co.,Ltd.",
     "fullExchangeName": "Tokyo",
     "averageDailyVolume3Month": 1701,
     "fiftyTwoWeekLowChange": 247.0,
@@ -1137,9 +1143,6 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
-    "exchange": "JPX",
-    "shortName": "BERG EARTH CO LTD",
-    "longName": "Berg Earth Co.,Ltd.",
     "corporateActions": [],
     "regularMarketTime": 1795151885,
     "messageBoardId": "finmb_25336112",
@@ -1148,9 +1151,6 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "marketState": "CLOSED",
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1322524800000,
     "trailingPegRatio": null
   }
 }

@@ -1,7 +1,7 @@
 {
   "ticker": "1930",
   "japanese_ticker": "1930.T",
-  "fetch_date": "2026-11-22T02:49:33.832948",
+  "fetch_date": "2026-11-23T03:27:20.877598",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": -3758633.357825,
@@ -1185,7 +1185,6 @@
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
     "exchange": "JPX",
-    "averageDailyVolume3Month": 91933,
     "fiftyTwoWeekLowChange": 25.0,
     "fiftyTwoWeekLowChangePercent": 0.018939395,
     "fiftyTwoWeekRange": "1320.0 - 1821.0",
@@ -1203,24 +1202,25 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
-    "marketState": "CLOSED",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 978307200000,
     "regularMarketChange": -47.0,
     "regularMarketChangePercent": -3.3764367,
     "regularMarketPrice": 1345.0,
     "regularMarketDayRange": "1342.0 - 1379.0",
     "fullExchangeName": "Tokyo",
+    "averageDailyVolume3Month": 91933,
+    "marketState": "CLOSED",
     "shortName": "HOKURIKU ELECTRICAL CONSTRUCTIO",
     "longName": "Hokuriku Electrical Construction Co.,Ltd.",
+    "corporateActions": [],
+    "regularMarketTime": 1795156200,
+    "messageBoardId": "finmb_880605",
     "exchangeTimezoneName": "Asia/Tokyo",
     "exchangeTimezoneShortName": "JST",
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "corporateActions": [],
-    "regularMarketTime": 1795156200,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 978307200000,
-    "messageBoardId": "finmb_880605",
     "trailingPegRatio": null
   }
 }

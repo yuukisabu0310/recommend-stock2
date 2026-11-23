@@ -1,7 +1,7 @@
 {
   "ticker": "2687",
   "japanese_ticker": "2687.T",
-  "fetch_date": "2026-11-22T02:57:30.929648",
+  "fetch_date": "2026-11-23T03:35:01.646476",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-02-28 00:00:00": -278906400.0,
@@ -1286,10 +1286,6 @@
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
     "exchange": "JPX",
-    "regularMarketChange": 0.0,
-    "regularMarketChangePercent": 0.0,
-    "regularMarketPrice": 462.0,
-    "regularMarketDayRange": "460.0 - 465.0",
     "fullExchangeName": "Tokyo",
     "averageDailyVolume3Month": 7115,
     "fiftyTwoWeekLowChange": 2.0,
@@ -1302,6 +1298,15 @@
     "earningsTimestampEnd": 1752215400,
     "isEarningsDateEstimate": false,
     "epsTrailingTwelveMonths": -204.86,
+    "corporateActions": [],
+    "regularMarketTime": 1795156200,
+    "marketState": "CLOSED",
+    "regularMarketChange": 0.0,
+    "regularMarketChangePercent": 0.0,
+    "regularMarketPrice": 462.0,
+    "regularMarketDayRange": "460.0 - 465.0",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1033516800000,
     "fiftyDayAverageChange": -18.720001,
     "fiftyDayAverageChangePercent": -0.03894159,
     "twoHundredDayAverageChange": -29.565002,
@@ -1317,11 +1322,6 @@
     "esgPopulated": false,
     "shortName": "CVS BAY AREA INC",
     "longName": "CVS Bay Area Inc.",
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1033516800000,
-    "marketState": "CLOSED",
-    "corporateActions": [],
-    "regularMarketTime": 1795156200,
     "trailingPegRatio": null
   }
 }

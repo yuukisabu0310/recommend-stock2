@@ -1,7 +1,7 @@
 {
   "ticker": "1808",
   "japanese_ticker": "1808.T",
-  "fetch_date": "2026-11-22T02:47:58.646457",
+  "fetch_date": "2026-11-23T03:25:47.904837",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": -1773670000.0,
@@ -1326,7 +1326,6 @@
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
     "exchange": "JPX",
-    "marketState": "CLOSED",
     "regularMarketChange": -127.5,
     "regularMarketChangePercent": -4.824064,
     "regularMarketPrice": 2515.5,
@@ -1355,7 +1354,10 @@
     "exchangeDataDelayedBy": 20,
     "averageAnalystRating": "2.3 - Buy",
     "cryptoTradeable": false,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 978307200000,
     "shortName": "HASEKO CORPORATION",
+    "marketState": "CLOSED",
     "longName": "HASEKO Corporation",
     "corporateActions": [],
     "regularMarketTime": 1795156200,
@@ -1365,8 +1367,6 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 978307200000,
     "trailingPegRatio": null
   }
 }

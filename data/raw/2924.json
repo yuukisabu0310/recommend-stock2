@@ -1,7 +1,7 @@
 {
   "ticker": "2924",
   "japanese_ticker": "2924.T",
-  "fetch_date": "2026-11-22T03:00:25.132582",
+  "fetch_date": "2026-11-23T03:37:56.385491",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": 11059852.99265,
@@ -1251,15 +1251,8 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "exchange": "JPX",
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1266796800000,
-    "regularMarketChange": 34.0,
-    "regularMarketChangePercent": 1.8418202,
-    "regularMarketPrice": 1880.0,
-    "regularMarketDayRange": "1800.0 - 1880.0",
-    "fullExchangeName": "Tokyo",
     "averageDailyVolume3Month": 4130,
+    "exchange": "JPX",
     "fiftyTwoWeekLowChange": 145.0,
     "fiftyTwoWeekLowChangePercent": 0.08357349,
     "fiftyTwoWeekRange": "1735.0 - 2163.0",
@@ -1277,7 +1270,13 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
-    "marketState": "CLOSED",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1266796800000,
+    "regularMarketChange": 34.0,
+    "regularMarketChangePercent": 1.8418202,
+    "regularMarketPrice": 1880.0,
+    "regularMarketDayRange": "1800.0 - 1880.0",
+    "fullExchangeName": "Tokyo",
     "shortName": "IFUJI SANGYO CO LTD",
     "longName": "Ifuji Sangyo Co., Ltd.",
     "corporateActions": [],
@@ -1288,6 +1287,7 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
+    "marketState": "CLOSED",
     "trailingPegRatio": null
   }
 }

@@ -1,7 +1,7 @@
 {
   "ticker": "2321",
   "japanese_ticker": "2321.T",
-  "fetch_date": "2026-11-22T02:53:37.589331",
+  "fetch_date": "2026-11-23T03:31:14.880046",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": 10496400.0,
@@ -1161,8 +1161,14 @@
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
     "exchange": "JPX",
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1031702400000,
+    "shortName": "SOFTFRONT HOLDINGS",
+    "longName": "Softfront Holdings",
+    "messageBoardId": "finmb_428871",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
     "regularMarketChange": -4.0,
     "regularMarketChangePercent": -3.2520323,
     "regularMarketPrice": 119.0,
@@ -1186,19 +1192,13 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "prevName": "Softfront Holdings Co., Ltd.",
-    "nameChangeDate": "2026-11-21",
+    "nameChangeDate": "2026-11-22",
     "cryptoTradeable": false,
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1031702400000,
     "marketState": "CLOSED",
     "corporateActions": [],
     "regularMarketTime": 1795156200,
-    "shortName": "SOFTFRONT HOLDINGS",
-    "longName": "Softfront Holdings",
-    "messageBoardId": "finmb_428871",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
     "trailingPegRatio": null
   }
 }

@@ -1,7 +1,7 @@
 {
   "ticker": "2586",
   "japanese_ticker": "2586.T",
-  "fetch_date": "2026-11-22T02:56:34.431501",
+  "fetch_date": "2026-11-23T03:34:02.645165",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": 0.0,
@@ -1156,6 +1156,17 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
+    "exchange": "JPX",
+    "marketState": "CLOSED",
+    "messageBoardId": "finmb_129633644",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
+    "longName": "Fruta Fruta Inc.",
+    "corporateActions": [],
+    "regularMarketTime": 1795156200,
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1418774400000,
     "regularMarketChange": -1.0,
@@ -1166,18 +1177,6 @@
     "averageDailyVolume3Month": 807528,
     "fiftyTwoWeekLowChange": 1.0,
     "fiftyTwoWeekLowChangePercent": 0.028571429,
-    "exchange": "JPX",
-    "shortName": "FRUTA FRUTA INC",
-    "longName": "Fruta Fruta Inc.",
-    "marketState": "CLOSED",
-    "corporateActions": [],
-    "regularMarketTime": 1795156200,
-    "messageBoardId": "finmb_129633644",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
     "fiftyTwoWeekRange": "35.0 - 169.0",
     "fiftyTwoWeekHighChange": -133.0,
     "fiftyTwoWeekHighChangePercent": -0.78698224,
@@ -1193,6 +1192,7 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
+    "shortName": "FRUTA FRUTA INC",
     "trailingPegRatio": null
   }
 }

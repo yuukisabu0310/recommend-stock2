@@ -1,7 +1,7 @@
 {
   "ticker": "2918",
   "japanese_ticker": "2918.T",
-  "fetch_date": "2026-11-22T03:00:19.405522",
+  "fetch_date": "2026-11-23T03:37:50.715354",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-02-28 00:00:00": -133425000.0,
@@ -1215,7 +1215,7 @@
     "tradeable": false,
     "enterpriseValue": 75962179584,
     "profitMargins": 0.01692,
-    "floatShares": 11707026,
+    "floatShares": 10716209,
     "sharesOutstanding": 17407182,
     "heldPercentInsiders": 0.40132,
     "heldPercentInstitutions": 0.15658,
@@ -1283,6 +1283,7 @@
     "fiftyTwoWeekHighChange": -1150.0,
     "fiftyTwoWeekHighChangePercent": -0.30104712,
     "fiftyTwoWeekChangePercent": -18.844986,
+    "cryptoTradeable": false,
     "earningsTimestampStart": 1751868000,
     "earningsTimestampEnd": 1752213600,
     "isEarningsDateEstimate": true,
@@ -1294,20 +1295,19 @@
     "twoHundredDayAverageChangePercent": -0.05515656,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 978566400000,
-    "corporateActions": [],
-    "regularMarketTime": 1795156200,
+    "gmtOffSetMilliseconds": 32400000,
+    "esgPopulated": false,
+    "marketState": "CLOSED",
     "shortName": "WARABEYA NICHIYO HOLDINGS CO LT",
     "longName": "Warabeya Nichiyo Holdings Co., Ltd.",
+    "corporateActions": [],
+    "regularMarketTime": 1795156200,
     "messageBoardId": "finmb_883960",
     "exchangeTimezoneName": "Asia/Tokyo",
     "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
-    "esgPopulated": false,
-    "marketState": "CLOSED",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 978566400000,
     "trailingPegRatio": null
   }
 }

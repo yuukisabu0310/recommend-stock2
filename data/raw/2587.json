@@ -1,7 +1,7 @@
 {
   "ticker": "2587",
   "japanese_ticker": "2587.T",
-  "fetch_date": "2026-11-22T02:56:36.279541",
+  "fetch_date": "2026-11-23T03:34:04.496228",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-12-31 00:00:00": 0.0,
@@ -1062,13 +1062,13 @@
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
     "exchange": "JPX",
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1372982400000,
     "regularMarketChange": -135.0,
     "regularMarketChangePercent": -2.519127,
     "regularMarketPrice": 5224.0,
     "regularMarketDayRange": "5220.0 - 5340.0",
     "fullExchangeName": "Tokyo",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1372982400000,
     "averageDailyVolume3Month": 1096150,
     "fiftyTwoWeekLowChange": 1120.0,
     "fiftyTwoWeekLowChangePercent": 0.2729045,
@@ -1092,17 +1092,17 @@
     "exchangeDataDelayedBy": 20,
     "averageAnalystRating": "2.9 - Hold",
     "cryptoTradeable": false,
-    "marketState": "CLOSED",
-    "corporateActions": [],
-    "regularMarketTime": 1795156200,
-    "shortName": "SUNTORY BEVERAGE & FOOD LIMITED",
-    "longName": "Suntory Beverage & Food Limited",
     "messageBoardId": "finmb_78962510",
     "exchangeTimezoneName": "Asia/Tokyo",
     "exchangeTimezoneShortName": "JST",
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
+    "shortName": "SUNTORY BEVERAGE & FOOD LIMITED",
+    "longName": "Suntory Beverage & Food Limited",
+    "marketState": "CLOSED",
+    "corporateActions": [],
+    "regularMarketTime": 1795156200,
     "trailingPegRatio": null
   }
 }

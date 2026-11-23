@@ -1,7 +1,7 @@
 {
   "ticker": "1795",
   "japanese_ticker": "1795.T",
-  "fetch_date": "2026-11-22T02:47:45.535349",
+  "fetch_date": "2026-11-23T03:25:35.212150",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-09-30 00:00:00": 2066205.0,
@@ -1065,6 +1065,19 @@
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
     "exchange": "JPX",
+    "corporateActions": [],
+    "regularMarketTime": 1795150466,
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
+    "shortName": "MASARU CORPORATION",
+    "longName": "Masaru Corporation",
+    "messageBoardId": "finmb_5864375",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 947030400000,
+    "marketState": "CLOSED",
     "regularMarketChange": -60.0,
     "regularMarketChangePercent": -1.1516315,
     "regularMarketPrice": 5150.0,
@@ -1088,19 +1101,6 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 947030400000,
-    "corporateActions": [],
-    "regularMarketTime": 1795150466,
-    "shortName": "MASARU CORPORATION",
-    "longName": "Masaru Corporation",
-    "messageBoardId": "finmb_5864375",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
-    "esgPopulated": false,
-    "marketState": "CLOSED",
     "trailingPegRatio": null
   }
 }

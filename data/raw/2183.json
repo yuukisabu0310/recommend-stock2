@@ -1,7 +1,7 @@
 {
   "ticker": "2183",
   "japanese_ticker": "2183.T",
-  "fetch_date": "2026-11-22T02:52:05.812315",
+  "fetch_date": "2026-11-23T03:29:43.791933",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": -368974000.0,
@@ -1231,11 +1231,6 @@
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
     "exchange": "JPX",
-    "earningsTimestampStart": 1754982000,
-    "earningsTimestampEnd": 1755500400,
-    "isEarningsDateEstimate": true,
-    "epsTrailingTwelveMonths": -167.75,
-    "epsForward": 23.5,
     "fiftyDayAverageChange": -7.6600037,
     "fiftyDayAverageChangePercent": -0.038174044,
     "twoHundredDayAverageChange": -38.395004,
@@ -1243,12 +1238,15 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1225065600000,
     "regularMarketChange": -1.0,
     "regularMarketChangePercent": -0.5154639,
     "regularMarketPrice": 193.0,
     "regularMarketDayRange": "190.0 - 193.0",
+    "earningsTimestampStart": 1754982000,
+    "earningsTimestampEnd": 1755500400,
+    "isEarningsDateEstimate": true,
+    "epsTrailingTwelveMonths": -167.75,
+    "epsForward": 23.5,
     "fullExchangeName": "Tokyo",
     "averageDailyVolume3Month": 53471,
     "fiftyTwoWeekLowChange": 3.0,
@@ -1265,9 +1263,11 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "marketState": "CLOSED",
     "shortName": "LINICAL CO LTD",
+    "marketState": "CLOSED",
     "longName": "Linical Co., Ltd.",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1225065600000,
     "trailingPegRatio": null
   }
 }

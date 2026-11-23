@@ -1,7 +1,7 @@
 {
   "ticker": "2877",
   "japanese_ticker": "2877.T",
-  "fetch_date": "2026-11-22T02:59:42.588329",
+  "fetch_date": "2026-11-23T03:37:14.371263",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": 26864257.0,
@@ -1273,6 +1273,8 @@
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
     "exchange": "JPX",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 947548800000,
     "fiftyTwoWeekLowChange": 18.0,
     "fiftyTwoWeekLowChangePercent": 0.024965325,
     "fiftyTwoWeekRange": "721.0 - 797.0",
@@ -1290,14 +1292,6 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
-    "regularMarketChange": -1.0,
-    "regularMarketChangePercent": -0.13513514,
-    "regularMarketPrice": 739.0,
-    "regularMarketDayRange": "739.0 - 748.0",
-    "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 2395,
-    "marketState": "CLOSED",
-    "shortName": "NITTOBEST CORP",
     "corporateActions": [],
     "regularMarketTime": 1795156200,
     "messageBoardId": "finmb_883885",
@@ -1306,9 +1300,15 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 947548800000,
+    "marketState": "CLOSED",
+    "shortName": "NITTOBEST CORP",
     "longName": "NittoBest Corporation",
+    "regularMarketChange": -1.0,
+    "regularMarketChangePercent": -0.13513514,
+    "regularMarketPrice": 739.0,
+    "regularMarketDayRange": "739.0 - 748.0",
+    "fullExchangeName": "Tokyo",
+    "averageDailyVolume3Month": 2395,
     "trailingPegRatio": null
   }
 }

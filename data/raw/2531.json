@@ -1,7 +1,7 @@
 {
   "ticker": "2531",
   "japanese_ticker": "2531.T",
-  "fetch_date": "2026-11-22T02:56:22.246269",
+  "fetch_date": "2026-11-23T03:33:52.005899",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": 563600000.0,
@@ -1226,7 +1226,8 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "exchange": "JPX",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 946944000000,
     "regularMarketChange": -174.5,
     "regularMarketChangePercent": -6.324755,
     "regularMarketPrice": 2584.5,
@@ -1239,6 +1240,7 @@
     "fiftyTwoWeekHighChange": -960.5,
     "fiftyTwoWeekHighChangePercent": -0.27094498,
     "fiftyTwoWeekChangePercent": 75.45825,
+    "marketState": "CLOSED",
     "earningsTimestamp": 1794292200,
     "earningsTimestampStart": 1794292200,
     "earningsTimestampEnd": 1794292200,
@@ -1253,20 +1255,18 @@
     "twoHundredDayAverageChangePercent": 0.21615942,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
-    "cryptoTradeable": false,
-    "marketState": "CLOSED",
     "corporateActions": [],
     "regularMarketTime": 1795156200,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 946944000000,
-    "gmtOffSetMilliseconds": 32400000,
-    "esgPopulated": false,
+    "exchange": "JPX",
     "messageBoardId": "finmb_877388",
     "exchangeTimezoneName": "Asia/Tokyo",
     "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
-    "longName": "Takara Holdings Inc.",
+    "esgPopulated": false,
+    "cryptoTradeable": false,
     "shortName": "TAKARA HOLDINGS INC",
+    "longName": "Takara Holdings Inc.",
     "trailingPegRatio": null
   }
 }

@@ -1,7 +1,7 @@
 {
   "ticker": "2376",
   "japanese_ticker": "2376.T",
-  "fetch_date": "2026-11-22T02:54:33.640754",
+  "fetch_date": "2026-11-23T03:32:08.719099",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": -14850400.0,
@@ -1265,16 +1265,8 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1068163200000,
     "shortName": "SCINEX CORPORATION",
     "longName": "Scinex Corporation",
-    "regularMarketChange": -9.0,
-    "regularMarketChangePercent": -1.1597937,
-    "regularMarketPrice": 767.0,
-    "regularMarketDayRange": "762.0 - 782.0",
-    "fullExchangeName": "Tokyo",
-    "averageDailyVolume3Month": 2038,
     "fiftyTwoWeekLowChange": 133.0,
     "fiftyTwoWeekLowChangePercent": 0.20977917,
     "fiftyTwoWeekRange": "634.0 - 985.0",
@@ -1291,8 +1283,16 @@
     "twoHundredDayAverageChangePercent": 0.017369524,
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
-    "marketState": "CLOSED",
     "cryptoTradeable": false,
+    "regularMarketChange": -9.0,
+    "regularMarketChangePercent": -1.1597937,
+    "regularMarketPrice": 767.0,
+    "regularMarketDayRange": "762.0 - 782.0",
+    "fullExchangeName": "Tokyo",
+    "averageDailyVolume3Month": 2038,
+    "marketState": "CLOSED",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1068163200000,
     "trailingPegRatio": null
   }
 }

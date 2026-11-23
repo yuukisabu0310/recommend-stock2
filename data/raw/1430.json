@@ -1,7 +1,7 @@
 {
   "ticker": "1430",
   "japanese_ticker": "1430.T",
-  "fetch_date": "2026-11-22T02:46:25.931783",
+  "fetch_date": "2026-11-23T03:24:14.271541",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-05-31 00:00:00": 3730216.387241,
@@ -1291,7 +1291,7 @@
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 13165747200,
-    "nonDilutedMarketCap": 13213709524,
+    "nonDilutedMarketCap": 13165746876,
     "fiftyTwoWeekLow": 853.0,
     "fiftyTwoWeekHigh": 1151.0,
     "allTimeHigh": 1729.0,
@@ -1358,7 +1358,7 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "exchange": "JPX",
+    "marketState": "CLOSED",
     "regularMarketChange": -4.0,
     "regularMarketChangePercent": -0.3629764,
     "regularMarketPrice": 1098.0,
@@ -1383,19 +1383,19 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
+    "shortName": "FIRST-CORPORATION INC",
+    "longName": "First-corporation Inc.",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1427155200000,
     "corporateActions": [],
     "regularMarketTime": 1795156200,
-    "shortName": "FIRST-CORPORATION INC",
-    "longName": "First-corporation Inc.",
+    "exchange": "JPX",
     "messageBoardId": "finmb_249164445",
     "exchangeTimezoneName": "Asia/Tokyo",
     "exchangeTimezoneShortName": "JST",
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "marketState": "CLOSED",
     "trailingPegRatio": null
   }
 }

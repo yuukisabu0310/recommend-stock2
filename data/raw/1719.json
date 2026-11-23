@@ -1,7 +1,7 @@
 {
   "ticker": "1719",
   "japanese_ticker": "1719.T",
-  "fetch_date": "2026-11-22T02:47:07.951044",
+  "fetch_date": "2026-11-23T03:24:57.673450",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": 3013720736.83477,
@@ -1141,7 +1141,7 @@
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 271030108160,
-    "nonDilutedMarketCap": 277858842690,
+    "nonDilutedMarketCap": 271030108420,
     "fiftyTwoWeekLow": 1690.0,
     "fiftyTwoWeekHigh": 2270.0,
     "allTimeHigh": 2270.0,
@@ -1214,7 +1214,6 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "exchange": "JPX",
     "regularMarketChange": -43.5,
     "regularMarketChangePercent": -2.457627,
     "regularMarketPrice": 1726.5,
@@ -1235,8 +1234,9 @@
     "isEarningsDateEstimate": true,
     "epsTrailingTwelveMonths": 231.36,
     "epsForward": 96.2,
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 1064966400000,
+    "exchange": "JPX",
+    "shortName": "HAZAMA ANDO CORP",
+    "longName": "Hazama Ando Corporation",
     "fiftyDayAverageChange": -71.43994,
     "fiftyDayAverageChangePercent": -0.03973433,
     "twoHundredDayAverageChange": -146.34998,
@@ -1245,10 +1245,8 @@
     "exchangeDataDelayedBy": 20,
     "averageAnalystRating": "3.0 - Hold",
     "cryptoTradeable": false,
-    "shortName": "HAZAMA ANDO CORP",
-    "longName": "Hazama Ando Corporation",
-    "marketState": "CLOSED",
-    "corporateActions": [],
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 1064966400000,
     "regularMarketTime": 1795156200,
     "messageBoardId": "finmb_874212",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1256,6 +1254,8 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
+    "corporateActions": [],
+    "marketState": "CLOSED",
     "trailingPegRatio": null
   }
 }

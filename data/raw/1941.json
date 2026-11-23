@@ -1,7 +1,7 @@
 {
   "ticker": "1941",
   "japanese_ticker": "1941.T",
-  "fetch_date": "2026-11-22T02:49:42.101296",
+  "fetch_date": "2026-11-23T03:27:28.340853",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": -201370094.015819,
@@ -1282,7 +1282,8 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "exchange": "JPX",
+    "regularMarketChange": -70.0,
+    "regularMarketChangePercent": -1.3806707,
     "regularMarketPrice": 5000.0,
     "regularMarketDayRange": "4985.0 - 5090.0",
     "fullExchangeName": "Tokyo",
@@ -1300,6 +1301,9 @@
     "earningsCallTimestampEnd": 1733309940,
     "isEarningsDateEstimate": true,
     "epsTrailingTwelveMonths": 372.92,
+    "exchange": "JPX",
+    "shortName": "CHUDENKO CORP",
+    "longName": "Chudenko Corporation",
     "fiftyDayAverageChange": -128.1001,
     "fiftyDayAverageChangePercent": -0.024980031,
     "twoHundredDayAverageChange": 9.549805,
@@ -1307,7 +1311,8 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "cryptoTradeable": false,
-    "corporateActions": [],
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 978307200000,
     "regularMarketTime": 1795156200,
     "messageBoardId": "finmb_880879",
     "exchangeTimezoneName": "Asia/Tokyo",
@@ -1315,12 +1320,7 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
-    "shortName": "CHUDENKO CORP",
-    "longName": "Chudenko Corporation",
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 978307200000,
-    "regularMarketChange": -70.0,
-    "regularMarketChangePercent": -1.3806707,
+    "corporateActions": [],
     "marketState": "CLOSED",
     "trailingPegRatio": null
   }

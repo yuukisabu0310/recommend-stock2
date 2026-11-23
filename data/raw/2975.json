@@ -1,7 +1,7 @@
 {
   "ticker": "2975",
   "japanese_ticker": "2975.T",
-  "fetch_date": "2026-11-22T03:00:54.790481",
+  "fetch_date": "2026-11-23T03:38:25.310508",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2025-11-30 00:00:00": 98648371.050528,
@@ -1140,10 +1140,6 @@
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
     "exchange": "JPX",
-    "regularMarketChange": -52.0,
-    "regularMarketChangePercent": -4.6140194,
-    "regularMarketPrice": 1075.0,
-    "regularMarketDayRange": "1074.0 - 1103.0",
     "fullExchangeName": "Tokyo",
     "averageDailyVolume3Month": 268820,
     "fiftyTwoWeekLowChange": 1.0,
@@ -1152,7 +1148,10 @@
     "fiftyTwoWeekHighChange": -771.0,
     "fiftyTwoWeekHighChangePercent": -0.41765982,
     "fiftyTwoWeekChangePercent": -8.510637,
-    "marketState": "CLOSED",
+    "earningsTimestampStart": 1751265000,
+    "earningsTimestampEnd": 1751610600,
+    "isEarningsDateEstimate": true,
+    "epsTrailingTwelveMonths": 192.71,
     "corporateActions": [
       {
         "header": "Dividend",
@@ -1165,14 +1164,13 @@
       }
     ],
     "regularMarketTime": 1795156200,
-    "shortName": "STAR MICA HLDGS CO",
-    "longName": "Star Mica Holdings Co., Ltd.",
+    "marketState": "CLOSED",
+    "regularMarketChange": -52.0,
+    "regularMarketChangePercent": -4.6140194,
+    "regularMarketPrice": 1075.0,
+    "regularMarketDayRange": "1074.0 - 1103.0",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1559520000000,
-    "earningsTimestampStart": 1751265000,
-    "earningsTimestampEnd": 1751610600,
-    "isEarningsDateEstimate": true,
-    "epsTrailingTwelveMonths": 192.71,
     "fiftyDayAverageChange": -200.71997,
     "fiftyDayAverageChangePercent": -0.15733857,
     "twoHundredDayAverageChange": -436.385,
@@ -1186,6 +1184,8 @@
     "gmtOffSetMilliseconds": 32400000,
     "market": "jp_market",
     "esgPopulated": false,
+    "shortName": "STAR MICA HLDGS CO",
+    "longName": "Star Mica Holdings Co., Ltd.",
     "trailingPegRatio": null
   }
 }

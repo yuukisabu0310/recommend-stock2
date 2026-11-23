@@ -1,7 +1,7 @@
 {
   "ticker": "2181",
   "japanese_ticker": "2181.T",
-  "fetch_date": "2026-11-22T02:52:04.248015",
+  "fetch_date": "2026-11-23T03:29:41.796099",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": 0.0,
@@ -1398,8 +1398,6 @@
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
     "exchange": "JPX",
-    "shortName": "PERSOL HOLDINGS CO LTD",
-    "longName": "Persol Holdings Co.,Ltd.",
     "regularMarketChange": -10.5,
     "regularMarketChangePercent": -3.5971224,
     "regularMarketPrice": 281.4,
@@ -1420,6 +1418,17 @@
     "isEarningsDateEstimate": true,
     "epsTrailingTwelveMonths": 19.31,
     "epsForward": 17.85,
+    "messageBoardId": "finmb_53336883",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
+    "corporateActions": [],
+    "regularMarketTime": 1795156200,
+    "marketState": "CLOSED",
+    "shortName": "PERSOL HOLDINGS CO LTD",
+    "longName": "Persol Holdings Co.,Ltd.",
     "fiftyDayAverageChange": -8.593994,
     "fiftyDayAverageChangePercent": -0.029635077,
     "twoHundredDayAverageChange": 20.234497,
@@ -1428,17 +1437,8 @@
     "exchangeDataDelayedBy": 20,
     "averageAnalystRating": "2.3 - Buy",
     "cryptoTradeable": false,
-    "esgPopulated": false,
-    "marketState": "CLOSED",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1142553600000,
-    "regularMarketTime": 1795156200,
-    "corporateActions": [],
-    "messageBoardId": "finmb_53336883",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
     "trailingPegRatio": null
   }
 }

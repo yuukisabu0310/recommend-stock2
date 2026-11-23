@@ -1,7 +1,7 @@
 {
   "ticker": "2462",
   "japanese_ticker": "2462.T",
-  "fetch_date": "2026-11-22T02:55:37.755667",
+  "fetch_date": "2026-11-23T03:33:10.184843",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-05-31 00:00:00": 2440550.0,
@@ -1261,7 +1261,7 @@
     "bidSize": 0,
     "askSize": 0,
     "marketCap": 27403411456,
-    "nonDilutedMarketCap": 27614502096,
+    "nonDilutedMarketCap": 27403411392,
     "fiftyTwoWeekLow": 1396.0,
     "fiftyTwoWeekHigh": 1650.0,
     "allTimeHigh": 2700.0,
@@ -1328,9 +1328,6 @@
     "quoteSourceName": "Delayed Quote",
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
-    "exchange": "JPX",
-    "shortName": "LIKE CO LTD",
-    "longName": "LIKE, Inc.",
     "regularMarketChange": -11.0,
     "regularMarketChangePercent": -0.76441973,
     "regularMarketPrice": 1428.0,
@@ -1348,6 +1345,9 @@
     "isEarningsDateEstimate": true,
     "epsTrailingTwelveMonths": 114.31,
     "epsForward": 154.8,
+    "exchange": "JPX",
+    "shortName": "LIKE CO LTD",
+    "longName": "LIKE, Inc.",
     "fiftyDayAverageChange": -57.400024,
     "fiftyDayAverageChangePercent": -0.038642805,
     "twoHundredDayAverageChange": -99.52002,
@@ -1355,13 +1355,17 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "prevName": "LIKE Co., Ltd.",
-    "nameChangeDate": "2026-11-21",
+    "nameChangeDate": "2026-11-22",
     "cryptoTradeable": false,
-    "esgPopulated": false,
-    "marketState": "CLOSED",
     "hasPrePostMarketData": false,
     "firstTradeDateMilliseconds": 1134000000000,
     "regularMarketTime": 1795156200,
+    "messageBoardId": "finmb_30942416",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
     "corporateActions": [
       {
         "header": "Dividend",
@@ -1373,11 +1377,7 @@
         }
       }
     ],
-    "messageBoardId": "finmb_30942416",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "gmtOffSetMilliseconds": 32400000,
-    "market": "jp_market",
+    "marketState": "CLOSED",
     "trailingPegRatio": null
   }
 }
