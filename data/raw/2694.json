@@ -1,7 +1,7 @@
 {
   "ticker": "2694",
   "japanese_ticker": "2694.T",
-  "fetch_date": "2026-11-23T03:35:08.481258",
+  "fetch_date": "2026-11-24T06:48:22.023901",
   "financials": {
     "Tax Effect Of Unusual Items": {
       "2026-03-31 00:00:00": -63051200.0,
@@ -106,13 +106,13 @@
       "2023-03-31 00:00:00": -249195000.0
     },
     "Diluted Average Shares": {
-      "2026-03-31 00:00:00": 235650652.0,
+      "2026-03-31 00:00:00": 235650000.0,
       "2025-03-31 00:00:00": 235370000.0,
       "2024-03-31 00:00:00": 235125000.0,
       "2023-03-31 00:00:00": 243691228.0
     },
     "Basic Average Shares": {
-      "2026-03-31 00:00:00": 235650652.0,
+      "2026-03-31 00:00:00": 235650000.0,
       "2025-03-31 00:00:00": 235370000.0,
       "2024-03-31 00:00:00": 235125000.0,
       "2023-03-31 00:00:00": 234956771.0
@@ -570,6 +570,13 @@
       "2023-03-31 00:00:00": 35594000.0,
       "2022-03-31 00:00:00": null
     },
+    "Non Current Prepaid Assets": {
+      "2026-03-31 00:00:00": 2151107000.0,
+      "2025-03-31 00:00:00": 2145609000.0,
+      "2024-03-31 00:00:00": 2115119000.0,
+      "2023-03-31 00:00:00": 2213183000.0,
+      "2022-03-31 00:00:00": null
+    },
     "Non Current Deferred Taxes Assets": {
       "2026-03-31 00:00:00": 499579000.0,
       "2025-03-31 00:00:00": 784114000.0,
@@ -613,10 +620,10 @@
       "2022-03-31 00:00:00": null
     },
     "Net PPE": {
-      "2026-03-31 00:00:00": 9100697000.0,
-      "2025-03-31 00:00:00": 8399883000.0,
-      "2024-03-31 00:00:00": 8578546000.0,
-      "2023-03-31 00:00:00": 9048951000.0,
+      "2026-03-31 00:00:00": 6949590000.0,
+      "2025-03-31 00:00:00": 6254274000.0,
+      "2024-03-31 00:00:00": 6463427000.0,
+      "2023-03-31 00:00:00": 6835768000.0,
       "2022-03-31 00:00:00": null
     },
     "Accumulated Depreciation": {
@@ -627,10 +634,10 @@
       "2022-03-31 00:00:00": null
     },
     "Gross PPE": {
-      "2026-03-31 00:00:00": 22169032000.0,
-      "2025-03-31 00:00:00": 21515244000.0,
-      "2024-03-31 00:00:00": 21695573000.0,
-      "2023-03-31 00:00:00": 22411134000.0,
+      "2026-03-31 00:00:00": 20017925000.0,
+      "2025-03-31 00:00:00": 19369635000.0,
+      "2024-03-31 00:00:00": 19580454000.0,
+      "2023-03-31 00:00:00": 20197951000.0,
       "2022-03-31 00:00:00": null
     },
     "Construction In Progress": {
@@ -1135,11 +1142,11 @@
     "maxAge": 86400,
     "priceHint": 2,
     "previousClose": 69.0,
-    "open": 69.0,
+    "open": 70.0,
     "dayLow": 69.0,
     "dayHigh": 70.0,
     "regularMarketPreviousClose": 69.0,
-    "regularMarketOpen": 69.0,
+    "regularMarketOpen": 70.0,
     "regularMarketDayLow": 69.0,
     "regularMarketDayHigh": 70.0,
     "dividendRate": 0.5,
@@ -1147,12 +1154,13 @@
     "exDividendDate": 1774828800,
     "payoutRatio": 0.3086,
     "fiveYearAvgDividendYield": 0.71,
-    "volume": 458900,
-    "regularMarketVolume": 458900,
+    "beta": 0.268,
+    "volume": 394500,
+    "regularMarketVolume": 394500,
     "averageVolume": 329550,
     "averageVolume10days": 489450,
     "averageDailyVolume10Day": 489450,
-    "bid": 69.0,
+    "bid": 0.0,
     "ask": 70.0,
     "bidSize": 0,
     "askSize": 0,
@@ -1224,6 +1232,21 @@
     "triggerable": false,
     "customPriceAlertConfidence": "LOW",
     "exchange": "JPX",
+    "hasPrePostMarketData": false,
+    "firstTradeDateMilliseconds": 988329600000,
+    "earningsTimestampStart": 1747294200,
+    "earningsTimestampEnd": 1747294200,
+    "isEarningsDateEstimate": false,
+    "epsTrailingTwelveMonths": -1.52,
+    "corporateActions": [],
+    "regularMarketTime": 1795501800,
+    "messageBoardId": "finmb_5756647",
+    "exchangeTimezoneName": "Asia/Tokyo",
+    "exchangeTimezoneShortName": "JST",
+    "gmtOffSetMilliseconds": 32400000,
+    "market": "jp_market",
+    "esgPopulated": false,
+    "longName": "Yakiniku Sakai Holdings Inc.",
     "regularMarketChange": 0.0,
     "regularMarketChangePercent": 0.0,
     "regularMarketPrice": 69.0,
@@ -1236,11 +1259,8 @@
     "fiftyTwoWeekHighChange": -5.0,
     "fiftyTwoWeekHighChangePercent": -0.067567565,
     "fiftyTwoWeekChangePercent": 0.0,
-    "cryptoTradeable": false,
-    "earningsTimestampStart": 1747294200,
-    "earningsTimestampEnd": 1747294200,
-    "isEarningsDateEstimate": false,
-    "epsTrailingTwelveMonths": -1.52,
+    "marketState": "POSTPOST",
+    "shortName": "YAKINIKU SAKAI HOLDINGS INC",
     "fiftyDayAverageChange": -1.3799973,
     "fiftyDayAverageChangePercent": -0.019607805,
     "twoHundredDayAverageChange": -2.0199966,
@@ -1248,20 +1268,9 @@
     "sourceInterval": 15,
     "exchangeDataDelayedBy": 20,
     "prevName": "G.taste Co.,Ltd.",
-    "nameChangeDate": "2026-11-22",
-    "gmtOffSetMilliseconds": 32400000,
-    "esgPopulated": false,
-    "marketState": "CLOSED",
-    "shortName": "YAKINIKU SAKAI HOLDINGS INC",
-    "longName": "Yakiniku Sakai Holdings Inc.",
-    "corporateActions": [],
-    "regularMarketTime": 1795156200,
-    "messageBoardId": "finmb_5756647",
-    "exchangeTimezoneName": "Asia/Tokyo",
-    "exchangeTimezoneShortName": "JST",
-    "market": "jp_market",
-    "hasPrePostMarketData": false,
-    "firstTradeDateMilliseconds": 988329600000,
+    "nameChangeDate": "2026-11-23",
+    "cryptoTradeable": false,
+    "isCMEFuture": false,
     "trailingPegRatio": null
   }
 }
